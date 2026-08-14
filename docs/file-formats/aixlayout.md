@@ -132,7 +132,7 @@ Coordinates, side, label, and layer are presentation data only. See [Hierarchica
 | `unit` | Coordinate unit when explicitly declared. |
 | `rotation` | Clockwise placement rotation under the active coordinate system. |
 | `mirrorX`, `mirrorY` | Local mirroring before final translation. |
-| `scaleX`, `scaleY` | Presentation scale; use ordinary unit scale for schematic symbols. |
+| `scaleX`, `scaleY` | Presentation affine scale. Generic layout readers preserve independent axes; circuit-schematic rendering applies the stricter profile policy below. |
 | `variant` | Explicit symbol variant, highest in variant-selection precedence. |
 | `parameters` | Instance parameter overrides, highest in parameter precedence. |
 | `fields` | Instance displayed-field overrides, highest in field precedence. |
@@ -144,6 +144,14 @@ Coordinates, side, label, and layer are presentation data only. See [Hierarchica
 | `metadata` | Extension data that must not redefine placement or semantics. |
 
 Complete placement field index: `bodyStyle`, `entity`, `fields`, `layer`, `locked`, `metadata`, `mirrorX`, `mirrorY`, `parameters`, `rotation`, `scaleX`, `scaleY`, `state`, `unit`, `variant`, `x`, `y`, `zIndex`.
+
+#### Circuit-schematic instance scaling
+
+The file format keeps `scaleX` and `scaleY` as general affine presentation fields for compatibility with component-graphics consumers. Under the AIXEM grid circuit-schematic renderer, a placed component uses finite positive uniform scaling: `scaleX` and `scaleY` resolve to the same value. Reflections use `mirrorX` / `mirrorY`; negative scale is not the schematic mirroring mechanism.
+
+Scaling is an instance presentation transform. It changes rendered symbol geometry and the transformed positions of mapped semantic ports, but it does not change component identity, `portMap`, semantic net membership, or library authority. Route sides that use endpoint references are resolved again from the transformed semantic port, so a connected wire endpoint follows the resized component. Stored `via` points remain explicit authored geometry and are never silently moved. If a resize makes an existing via path violate endpoint-axis, grid, or orthogonality rules, the author or Agent reroutes that path locally and validates again.
+
+Generic non-schematic consumers may continue to use the independent affine axes permitted by the schema. The stricter uniform/positive rule belongs to the circuit-schematic presentation profile rather than to the base JSON schema.
 
 ### Connection Fields
 

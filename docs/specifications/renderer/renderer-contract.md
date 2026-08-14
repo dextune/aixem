@@ -191,6 +191,12 @@ The renderer requires total semantic port mapping, applies selected-variant `por
 
 This rule is why route endpoints use `entity.semanticPort`, not raw symbol port IDs.
 
+## Circuit-Schematic Instance Scaling
+
+The core component-graphics renderer continues to evaluate the affine transform represented by `scaleX`, `scaleY`, mirror flags, rotation, and translation. The grid circuit-schematic renderer narrows only the component-instance scale policy: `scaleX` and `scaleY` are finite, positive, and equal. Reflection remains explicit through `mirrorX` / `mirrorY`. This preserves the general format while preventing accidental symbol stretching or implicit reflection in schematic authoring.
+
+The same placement matrix transforms symbol graphics and mapped semantic port positions. Route sides expressed as semantic endpoint references are resolved from those transformed ports each time the project is validated or rendered. Explicit `via` coordinates are not rescaled or silently rewritten. If a component resize leaves an authored path diagonal or otherwise illegal under the active grid profile, rendering fails closed until the affected path is rerouted. Resize never changes component type, presentation `portMap`, semantic endpoint identity, or net membership.
+
 ## Predicates, Definitions, and Graphics
 
 `visibleWhen` evaluates against resolved parameters and fields. A hidden mapped port causes rejection. `use` expands a named definition with local value expressions. Named variant `suppress` entries remove matching graphics by ID. Base graphics render before selected-variant graphics.

@@ -2120,6 +2120,10 @@
         "weight": 6
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 5
+      },
+      {
         "document": "AIXEM-START-QUICK-001",
         "weight": 5
       },
@@ -2141,10 +2145,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
-        "weight": 4
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 4
       },
       {
@@ -3566,6 +3566,10 @@
         "weight": 6
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 5
+      },
+      {
         "document": "AIXEM-AGENT-LIVE-COLD-START-001",
         "weight": 4
       },
@@ -3583,10 +3587,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
-        "weight": 4
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 4
       },
       {
@@ -4276,6 +4276,10 @@
         "weight": 6
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 5
+      },
+      {
         "document": "AIXEM-AGENT-LIVE-COLD-START-001",
         "weight": 4
       },
@@ -4293,10 +4297,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
-        "weight": 4
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 4
       },
       {
@@ -4836,6 +4836,10 @@
         "weight": 6
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 5
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-COMPOSE-PROJECT-001",
         "weight": 4
       },
@@ -4849,10 +4853,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
-        "weight": 4
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 4
       },
       {
@@ -5350,6 +5350,10 @@
     ],
     "5.": [
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 5
+      },
+      {
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
         "weight": 5
       },
@@ -5367,10 +5371,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
-        "weight": 4
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 4
       },
       {
@@ -5810,6 +5810,10 @@
     ],
     "6.": [
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 5
+      },
+      {
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
         "weight": 5
       },
@@ -5827,10 +5831,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
-        "weight": 4
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 4
       },
       {
@@ -5998,6 +5998,10 @@
     ],
     "7.": [
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 5
+      },
+      {
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
         "weight": 5
       },
@@ -6015,10 +6019,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
-        "weight": 4
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 4
       },
       {
@@ -6366,6 +6366,12 @@
       {
         "document": "AIXEM-SYMBOL-LINT-001",
         "weight": 1
+      }
+    ],
+    "9.1": [
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 3
       }
     ],
     "90": [
@@ -6874,6 +6880,10 @@
       {
         "document": "AIXEM-SCHEM-COOKBOOK-001",
         "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 1
       }
     ],
     "according": [
@@ -7172,6 +7182,10 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-SPEC-VIEWER-001",
         "weight": 3
       },
@@ -7201,10 +7215,6 @@
       },
       {
         "document": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
-        "weight": 2
-      },
-      {
-        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 2
       },
       {
@@ -8136,6 +8146,10 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-AGENT-ARCH-001",
         "weight": 2
       },
@@ -8316,10 +8330,6 @@
         "weight": 2
       },
       {
-        "document": "AIXEM-SPEC-LAYOUT-001",
-        "weight": 2
-      },
-      {
         "document": "AIXEM-SPEC-METADATA-001",
         "weight": 2
       },
@@ -8400,6 +8410,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-CONCEPT-INDEX-001",
         "weight": 1
       },
@@ -8473,6 +8487,10 @@
       },
       {
         "document": "AIXEM-SPEC-INDEX-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       },
       {
@@ -8574,6 +8592,18 @@
     ],
     "affine": [
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 3
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SYMBOL-PRIMITIVES-001",
         "weight": 1
       }
@@ -8606,6 +8636,10 @@
         "weight": 4
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-SPEC-AGENT-STAGE-001",
         "weight": 3
       },
@@ -8635,10 +8669,6 @@
       },
       {
         "document": "AIXEM-AGENT-SCHEMATIC-001",
-        "weight": 2
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 2
       },
       {
@@ -8879,6 +8909,22 @@
       },
       {
         "document": "AIXEM-SYMBOL-VARIANTS-001",
+        "weight": 1
+      }
+    ],
+    "again": [
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      }
+    ],
+    "again.": [
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 1
       }
     ],
@@ -9214,6 +9260,10 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-GOV-INDEX-001",
         "weight": 3
       },
@@ -9227,6 +9277,10 @@
       },
       {
         "document": "AIXEM-SPEC-GRID-PROFILE-001",
+        "weight": 3
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 3
       },
       {
@@ -9290,10 +9344,6 @@
         "weight": 2
       },
       {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 2
-      },
-      {
         "document": "AIXEM-FORMAT-INDEX-001",
         "weight": 2
       },
@@ -9335,10 +9385,6 @@
       },
       {
         "document": "AIXEM-SPEC-COORD-001",
-        "weight": 2
-      },
-      {
-        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 2
       },
       {
@@ -18244,7 +18290,15 @@
         "weight": 9
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 8
+      },
+      {
         "document": "AIXEM-AGENT-ARCH-001",
+        "weight": 7
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 7
       },
       {
@@ -18273,10 +18327,6 @@
       },
       {
         "document": "AIXEM-CONF-AGENT-LIVE-001",
-        "weight": 6
-      },
-      {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 6
       },
       {
@@ -18372,6 +18422,10 @@
         "weight": 5
       },
       {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 5
+      },
+      {
         "document": "AIXEM-START-INTRO-001",
         "weight": 5
       },
@@ -18448,10 +18502,6 @@
         "weight": 4
       },
       {
-        "document": "AIXEM-SPEC-RENDERER-001",
-        "weight": 4
-      },
-      {
         "document": "AIXEM-SPEC-SCHEMAS-001",
         "weight": 4
       },
@@ -18477,10 +18527,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-COMPOSE-PROJECT-001",
-        "weight": 3
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 3
       },
       {
@@ -18600,6 +18646,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-SPEC-AGENT-CHANGESET-001",
         "weight": 2
       },
@@ -18621,6 +18671,10 @@
       },
       {
         "document": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 2
       },
       {
@@ -18724,10 +18778,6 @@
         "weight": 1
       },
       {
-        "document": "AIXEM-SCHEM-PLACEMENT-001",
-        "weight": 1
-      },
-      {
         "document": "AIXEM-SCHEM-VISUAL-001",
         "weight": 1
       },
@@ -18745,10 +18795,6 @@
       },
       {
         "document": "AIXEM-SPEC-COORD-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       },
       {
@@ -19051,6 +19097,10 @@
       },
       {
         "document": "AIXEM-SCHEM-ANNOTATION-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 1
       },
       {
@@ -19816,7 +19866,15 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-AGENT-OBSERVATION-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       },
       {
@@ -20586,6 +20644,10 @@
         "weight": 10
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 9
+      },
+      {
         "document": "AIXEM-RELEASE-051-001",
         "weight": 9
       },
@@ -20650,15 +20712,15 @@
         "weight": 7
       },
       {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 7
-      },
-      {
         "document": "AIXEM-SPEC-AGENT-OBSERVATION-001",
         "weight": 7
       },
       {
         "document": "AIXEM-SPEC-METADATA-001",
+        "weight": 7
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 7
       },
       {
@@ -20806,6 +20868,10 @@
         "weight": 5
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 5
+      },
+      {
         "document": "AIXEM-CONF-REQUIREMENTS-001",
         "weight": 5
       },
@@ -20930,10 +20996,6 @@
         "weight": 4
       },
       {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
-        "weight": 4
-      },
-      {
         "document": "AIXEM-CONCEPT-INDEX-001",
         "weight": 4
       },
@@ -20987,10 +21049,6 @@
       },
       {
         "document": "AIXEM-SPEC-PROJECT-LOCK-001",
-        "weight": 4
-      },
-      {
-        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 4
       },
       {
@@ -22392,11 +22450,19 @@
         "weight": 4
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 4
+      },
+      {
         "document": "AIXEM-FORMAT-INDEX-001",
         "weight": 4
       },
       {
         "document": "AIXEM-RELEASE-050-001",
+        "weight": 4
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 4
       },
       {
@@ -22433,10 +22499,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-ROUTE-NETS-001",
-        "weight": 3
-      },
-      {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 3
       },
       {
@@ -22752,10 +22814,6 @@
         "weight": 1
       },
       {
-        "document": "AIXEM-SCHEM-PLACEMENT-001",
-        "weight": 1
-      },
-      {
         "document": "AIXEM-SPEC-AGENT-DIAGNOSTIC-001",
         "weight": 1
       },
@@ -22769,6 +22827,10 @@
       },
       {
         "document": "AIXEM-SPEC-RELEASE-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       },
       {
@@ -24066,6 +24128,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-FORMAT-AIXSYM-001",
         "weight": 1
       },
@@ -24244,6 +24310,10 @@
         "weight": 7
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 7
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-CREATE-SCHEMATIC-001",
         "weight": 6
       },
@@ -24257,10 +24327,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-COMPOSE-PROJECT-001",
-        "weight": 5
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 5
       },
       {
@@ -24400,6 +24466,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-FORMAT-AIXSYM-001",
         "weight": 2
       },
@@ -24444,6 +24514,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-SPEC-AGENT-RETRIEVAL-001",
         "weight": 2
       },
@@ -24452,11 +24526,19 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
         "weight": 2
       },
       {
         "document": "AIXEM-SPEC-RELEASE-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 2
       },
       {
@@ -24600,10 +24682,6 @@
         "weight": 1
       },
       {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 1
-      },
-      {
         "document": "AIXEM-FORMAT-AIXLIB-001",
         "weight": 1
       },
@@ -24700,10 +24778,6 @@
         "weight": 1
       },
       {
-        "document": "AIXEM-SCHEM-PLACEMENT-001",
-        "weight": 1
-      },
-      {
         "document": "AIXEM-SCHEM-SHEET-001",
         "weight": 1
       },
@@ -24772,19 +24846,11 @@
         "weight": 1
       },
       {
-        "document": "AIXEM-SPEC-LAYOUT-001",
-        "weight": 1
-      },
-      {
         "document": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
         "weight": 1
       },
       {
         "document": "AIXEM-SPEC-PROJECT-LOCK-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       },
       {
@@ -25152,6 +25218,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-CONF-INDEX-001",
         "weight": 1
       },
@@ -25319,6 +25389,10 @@
       },
       {
         "document": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       }
     ],
@@ -26582,6 +26656,10 @@
     ],
     "authority.": [
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-SPEC-VISUAL-PROFILE-001",
         "weight": 3
       },
@@ -26599,10 +26677,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
-        "weight": 2
-      },
-      {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 2
       },
       {
@@ -26731,6 +26805,10 @@
       },
       {
         "document": "AIXEM-SPEC-AGENT-TASK-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       },
       {
@@ -27216,6 +27294,12 @@
         "weight": 1
       }
     ],
+    "automatically.": [
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      }
+    ],
     "automation": [
       {
         "document": "AIXEM-CONF-COMPAT-001",
@@ -27426,6 +27510,10 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-AGENT-SYMBOL-001",
         "weight": 1
       }
@@ -27434,6 +27522,10 @@
       {
         "document": "AIXEM-AGENT-SYMBOL-001",
         "weight": 3
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
       },
       {
         "document": "AIXEM-SCHEM-GRID-001",
@@ -27636,6 +27728,10 @@
     ],
     "base": [
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 2
       },
@@ -27660,10 +27756,6 @@
         "weight": 1
       },
       {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 1
-      },
-      {
         "document": "AIXEM-RELEASE-053-001",
         "weight": 1
       },
@@ -27673,6 +27765,10 @@
       },
       {
         "document": "AIXEM-SPEC-GRID-PROFILE-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       },
       {
@@ -28098,6 +28194,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-SPEC-AGENT-TASK-001",
         "weight": 2
       },
@@ -28334,10 +28434,6 @@
         "weight": 1
       },
       {
-        "document": "AIXEM-SCHEM-PLACEMENT-001",
-        "weight": 1
-      },
-      {
         "document": "AIXEM-SCHEM-SHEET-001",
         "weight": 1
       },
@@ -28440,6 +28536,10 @@
       {
         "document": "AIXEM-ROUTE-COOKBOOK-001",
         "weight": 3
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 2
       },
       {
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
@@ -28596,6 +28696,10 @@
         "weight": 4
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 4
+      },
+      {
         "document": "AIXEM-SCHEM-INDEX-001",
         "weight": 4
       },
@@ -28613,10 +28717,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-CREATE-SCHEMATIC-001",
-        "weight": 3
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 3
       },
       {
@@ -29332,6 +29432,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-CONCEPT-PROJECT-NET-001",
         "weight": 1
       },
@@ -29381,6 +29485,10 @@
       },
       {
         "document": "AIXEM-CONCEPT-LAYOUT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 1
       },
       {
@@ -29446,6 +29554,12 @@
         "weight": 1
       }
     ],
+    "below.": [
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      }
+    ],
     "bend": [
       {
         "document": "AIXEM-SCHEM-GRID-001",
@@ -29470,6 +29584,10 @@
     ],
     "bends": [
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-ROUTE-NETS-001",
         "weight": 2
       },
@@ -29483,10 +29601,6 @@
       },
       {
         "document": "AIXEM-AGENT-ROUTING-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 1
       },
       {
@@ -29512,6 +29626,10 @@
       {
         "document": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
         "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 1
       }
     ],
     "bends.": [
@@ -29521,6 +29639,10 @@
       },
       {
         "document": "AIXEM-SCHEM-GRID-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       }
     ],
@@ -29877,6 +29999,10 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-CREATE-SCHEMATIC-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 1
       },
       {
@@ -30624,6 +30750,14 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       },
@@ -30738,6 +30872,10 @@
         "weight": 6
       },
       {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 6
+      },
+      {
         "document": "AIXEM-SPEC-VISUAL-PROFILE-001",
         "weight": 6
       },
@@ -30822,10 +30960,6 @@
         "weight": 3
       },
       {
-        "document": "AIXEM-SCHEM-PLACEMENT-001",
-        "weight": 3
-      },
-      {
         "document": "AIXEM-SCHEM-VISUAL-001",
         "weight": 3
       },
@@ -30835,6 +30969,10 @@
       },
       {
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "weight": 3
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 3
       },
       {
@@ -32081,7 +32219,7 @@
     "but": [
       {
         "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 4
+        "weight": 5
       },
       {
         "document": "AIXEM-SYMBOL-PORTS-001",
@@ -32244,6 +32382,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-METADATA-001",
         "weight": 1
       },
@@ -32384,6 +32526,10 @@
         "weight": 5
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 5
+      },
+      {
         "document": "AIXEM-FORMAT-AIXLIB-001",
         "weight": 5
       },
@@ -32417,6 +32563,10 @@
       },
       {
         "document": "AIXEM-SPEC-RELEASE-001",
+        "weight": 5
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 5
       },
       {
@@ -32484,10 +32634,6 @@
         "weight": 4
       },
       {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 4
-      },
-      {
         "document": "AIXEM-GOV-DEPRECATION-001",
         "weight": 4
       },
@@ -32512,11 +32658,11 @@
         "weight": 4
       },
       {
-        "document": "AIXEM-SPEC-METADATA-001",
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 4
       },
       {
-        "document": "AIXEM-SPEC-RENDERER-001",
+        "document": "AIXEM-SPEC-METADATA-001",
         "weight": 4
       },
       {
@@ -32533,6 +32679,10 @@
       },
       {
         "document": "AIXEM-ARCH-ARTIFACT-001",
+        "weight": 3
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 3
       },
       {
@@ -32564,6 +32714,10 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-SPEC-AGENT-TASK-001",
         "weight": 3
       },
@@ -32573,10 +32727,6 @@
       },
       {
         "document": "AIXEM-SPEC-GRID-PROFILE-001",
-        "weight": 3
-      },
-      {
-        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 3
       },
       {
@@ -32700,10 +32850,6 @@
         "weight": 2
       },
       {
-        "document": "AIXEM-SCHEM-PLACEMENT-001",
-        "weight": 2
-      },
-      {
         "document": "AIXEM-SCHEM-SHEET-001",
         "weight": 2
       },
@@ -32761,10 +32907,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-CREATE-SCHEMATIC-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 1
       },
       {
@@ -33299,6 +33441,10 @@
       },
       {
         "document": "AIXEM-SPEC-GRID-PROFILE-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       },
       {
@@ -34190,6 +34336,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
         "weight": 1
       },
@@ -34944,6 +35094,12 @@
         "weight": 1
       }
     ],
+    "carried": [
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 1
+      }
+    ],
     "carrier": [
       {
         "document": "AIXEM-SCHEM-VISUAL-001",
@@ -35436,6 +35592,10 @@
         "weight": 5
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 5
+      },
+      {
         "document": "AIXEM-AGENT-AUTHORING-001",
         "weight": 4
       },
@@ -35445,10 +35605,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
-        "weight": 4
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 4
       },
       {
@@ -35492,6 +35648,10 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-GOV-VERSIONING-001",
         "weight": 3
       },
@@ -35528,10 +35688,6 @@
         "weight": 2
       },
       {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 2
-      },
-      {
         "document": "AIXEM-FORMAT-AIXSYM-001",
         "weight": 2
       },
@@ -35544,6 +35700,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-SPEC-AGENT-EXECUTION-001",
         "weight": 2
       },
@@ -35553,6 +35713,10 @@
       },
       {
         "document": "AIXEM-SPEC-INTERFACE-PORT-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 2
       },
       {
@@ -35816,10 +35980,6 @@
         "weight": 1
       },
       {
-        "document": "AIXEM-SCHEM-PLACEMENT-001",
-        "weight": 1
-      },
-      {
         "document": "AIXEM-SCHEM-SHEET-001",
         "weight": 1
       },
@@ -35853,10 +36013,6 @@
       },
       {
         "document": "AIXEM-SPEC-INDEX-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       },
       {
@@ -36382,15 +36538,15 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-AGENT-VALIDATION-001",
         "weight": 1
       },
       {
         "document": "AIXEM-AGENT-VISUAL-QA-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 1
       },
       {
@@ -36515,6 +36671,10 @@
       },
       {
         "document": "AIXEM-FORMAT-AIXEM-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 2
       },
       {
@@ -36694,10 +36854,6 @@
         "weight": 1
       },
       {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 1
-      },
-      {
         "document": "AIXEM-FORMAT-AIXLIB-001",
         "weight": 1
       },
@@ -36854,6 +37010,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-SCHEMAS-001",
         "weight": 1
       },
@@ -36995,6 +37155,10 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 1
       },
       {
@@ -37427,6 +37591,10 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 1
       },
       {
@@ -38054,6 +38222,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-ROUTE-NETS-001",
         "weight": 1
       },
@@ -38391,6 +38563,24 @@
     "circuit-render": [
       {
         "document": "AIXEM-CONF-RELEASE-001",
+        "weight": 1
+      }
+    ],
+    "circuit-schematic": [
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 6
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 4
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       }
     ],
@@ -39694,6 +39884,10 @@
       {
         "document": "AIXEM-SPEC-METADATA-001",
         "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 1
       }
     ],
     "closed-loop": [
@@ -40489,15 +40683,15 @@
     "collision": [
       {
         "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 5
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 4
       },
       {
         "document": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
         "weight": 4
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
-        "weight": 3
       },
       {
         "document": "AIXEM-CONCEPT-PROJECT-NET-001",
@@ -41384,6 +41578,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-FORMAT-INDEX-001",
         "weight": 1
       },
@@ -41559,6 +41757,12 @@
       },
       {
         "document": "AIXEM-SYMBOL-PORTS-001",
+        "weight": 1
+      }
+    ],
+    "compensate": [
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 1
       }
     ],
@@ -42464,6 +42668,10 @@
         "weight": 27
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 19
+      },
+      {
         "document": "AIXEM-CONCEPT-COMPONENT-001",
         "weight": 18
       },
@@ -42480,8 +42688,8 @@
         "weight": 14
       },
       {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
-        "weight": 13
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 12
       },
       {
         "document": "AIXEM-SYMBOL-AUTHORING-001",
@@ -42512,10 +42720,6 @@
         "weight": 8
       },
       {
-        "document": "AIXEM-SCHEM-PLACEMENT-001",
-        "weight": 8
-      },
-      {
         "document": "AIXEM-SYMBOL-VARIANTS-001",
         "weight": 8
       },
@@ -42528,11 +42732,19 @@
         "weight": 7
       },
       {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 7
+      },
+      {
         "document": "AIXEM-AGENT-SYMBOL-001",
         "weight": 6
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-CREATE-SCHEMATIC-001",
+        "weight": 6
+      },
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 6
       },
       {
@@ -42556,10 +42768,6 @@
         "weight": 5
       },
       {
-        "document": "AIXEM-SPEC-RENDERER-001",
-        "weight": 5
-      },
-      {
         "document": "AIXEM-AGENT-SCHEMATIC-001",
         "weight": 4
       },
@@ -42569,10 +42777,6 @@
       },
       {
         "document": "AIXEM-CONCEPT-SYMBOL-001",
-        "weight": 4
-      },
-      {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 4
       },
       {
@@ -42609,6 +42813,10 @@
       },
       {
         "document": "AIXEM-ROUTE-COOKBOOK-001",
+        "weight": 3
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 3
       },
       {
@@ -42758,11 +42966,19 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-FORMAT-AIXPROJ-001",
         "weight": 1
       },
       {
         "document": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       }
     ],
@@ -42784,6 +43000,12 @@
       {
         "document": "AIXEM-SPEC-SCHEMAS-001",
         "weight": 2
+      }
+    ],
+    "component-instance": [
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 1
       }
     ],
     "component-level": [
@@ -42941,6 +43163,10 @@
       },
       {
         "document": "AIXEM-CONCEPT-COMPONENT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 1
       }
     ],
@@ -44778,15 +45004,15 @@
     ],
     "connected": [
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-AGENT-VISUAL-QA-001",
         "weight": 1
       },
       {
         "document": "AIXEM-CONF-AGENT-LIVE-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 1
       },
       {
@@ -44980,11 +45206,11 @@
         "weight": 4
       },
       {
-        "document": "AIXEM-AUTHORING-GUIDE-COMPOSE-PROJECT-001",
-        "weight": 2
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 3
       },
       {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "document": "AIXEM-AUTHORING-GUIDE-COMPOSE-PROJECT-001",
         "weight": 2
       },
       {
@@ -45143,6 +45369,10 @@
       },
       {
         "document": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       },
       {
@@ -45778,6 +46008,10 @@
     ],
     "consumers": [
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-GOV-DOC-AUTHORING-001",
         "weight": 1
       },
@@ -45787,6 +46021,10 @@
       }
     ],
     "consumers.": [
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      },
       {
         "document": "AIXEM-GOV-COMPAT-001",
         "weight": 1
@@ -46778,6 +47016,10 @@
     ],
     "continue": [
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SCHEM-COOKBOOK-001",
         "weight": 1
       }
@@ -46793,6 +47035,10 @@
       },
       {
         "document": "AIXEM-FORMAT-AIXLIB-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       },
       {
@@ -48298,6 +48544,10 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 3
       },
@@ -48318,15 +48568,19 @@
         "weight": 3
       },
       {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
-        "weight": 2
-      },
-      {
         "document": "AIXEM-FORMAT-AIXEM-001",
         "weight": 2
       },
       {
         "document": "AIXEM-ROUTE-NETS-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 2
       },
       {
@@ -48370,10 +48624,6 @@
         "weight": 1
       },
       {
-        "document": "AIXEM-SPEC-RENDERER-001",
-        "weight": 1
-      },
-      {
         "document": "AIXEM-SPEC-SYMBOL-001",
         "weight": 1
       },
@@ -48401,6 +48651,10 @@
       },
       {
         "document": "AIXEM-ROUTE-COOKBOOK-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 1
       },
       {
@@ -48621,6 +48875,10 @@
       },
       {
         "document": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       },
       {
@@ -49013,6 +49271,12 @@
     "cosmetic": [
       {
         "document": "AIXEM-AGENT-AUTHORING-001",
+        "weight": 1
+      }
+    ],
+    "cosmetic-only": [
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 1
       }
     ],
@@ -50996,6 +51260,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-SPEC-RELEASE-001",
         "weight": 2
       },
@@ -51213,10 +51481,6 @@
       },
       {
         "document": "AIXEM-SPEC-GRID-PROFILE-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       },
       {
@@ -56468,6 +56732,10 @@
       {
         "document": "AIXEM-SPEC-AGENT-TASK-001",
         "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 1
       }
     ],
     "determinism": [
@@ -57022,6 +57290,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
         "weight": 1
       },
@@ -57425,6 +57697,10 @@
       },
       {
         "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       }
     ],
@@ -58986,15 +59262,15 @@
     ],
     "do": [
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 9
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-COMPOSE-PROJECT-001",
         "weight": 6
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
-        "weight": 6
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 6
       },
       {
@@ -59259,6 +59535,10 @@
       },
       {
         "document": "AIXEM-SPEC-INTERFACE-PORT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       },
       {
@@ -61402,6 +61682,10 @@
         "weight": 4
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 4
+      },
+      {
         "document": "AIXEM-FORMAT-AIXSYM-001",
         "weight": 4
       },
@@ -61431,10 +61715,6 @@
       },
       {
         "document": "AIXEM-CONF-COMPAT-001",
-        "weight": 3
-      },
-      {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 3
       },
       {
@@ -62286,6 +62566,10 @@
     ],
     "drag": [
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-VIEWER-STATE-001",
         "weight": 1
       }
@@ -62388,6 +62672,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-AUTHORING-INDEX-001",
         "weight": 2
       },
@@ -62397,10 +62685,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-CREATE-SCHEMATIC-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 1
       },
       {
@@ -62998,6 +63282,12 @@
         "weight": 1
       }
     ],
+    "easier.": [
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      }
+    ],
     "economically": [
       {
         "document": "AIXEM-SYMBOL-PRIMITIVES-001",
@@ -63092,6 +63382,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-RELEASE-058-001",
         "weight": 2
       },
@@ -63109,10 +63403,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 1
       },
       {
@@ -63153,6 +63443,10 @@
       }
     ],
     "edit.": [
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 2
+      },
       {
         "document": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
         "weight": 1
@@ -64178,6 +64472,10 @@
     ],
     "encode": [
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-ARCH-ADR-0004",
         "weight": 1
       },
@@ -64294,12 +64592,12 @@
         "weight": 12
       },
       {
-        "document": "AIXEM-AGENT-SYMBOL-001",
-        "weight": 10
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 11
       },
       {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 9
+        "document": "AIXEM-AGENT-SYMBOL-001",
+        "weight": 10
       },
       {
         "document": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
@@ -64334,6 +64632,10 @@
         "weight": 5
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 5
+      },
+      {
         "document": "AIXEM-CONCEPT-NET-001",
         "weight": 5
       },
@@ -64350,11 +64652,11 @@
         "weight": 5
       },
       {
-        "document": "AIXEM-AUTHORING-GUIDE-CREATE-SCHEMATIC-001",
-        "weight": 4
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 5
       },
       {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-SCHEMATIC-001",
         "weight": 4
       },
       {
@@ -64390,7 +64692,7 @@
         "weight": 3
       },
       {
-        "document": "AIXEM-SPEC-RENDERER-001",
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 3
       },
       {
@@ -64470,15 +64772,15 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SCHEM-VISUAL-001",
         "weight": 1
       },
       {
         "document": "AIXEM-SPEC-AGENT-EVAL-INVARIANT-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       },
       {
@@ -64498,10 +64800,28 @@
         "weight": 1
       }
     ],
+    "endpoint-axis": [
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 1
+      }
+    ],
     "endpoint-bound": [
       {
         "document": "AIXEM-ROUTE-NETS-001",
         "weight": 3
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 1
       }
     ],
     "endpoint-preserving": [
@@ -64632,6 +64952,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 2
       },
@@ -64669,10 +64993,6 @@
       },
       {
         "document": "AIXEM-RELEASE-053-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       },
       {
@@ -65098,6 +65418,10 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-SELECT-LIBRARY-PART-001",
         "weight": 2
       },
@@ -65106,15 +65430,15 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 2
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 1
       },
       {
@@ -65131,10 +65455,6 @@
       },
       {
         "document": "AIXEM-ROUTE-NETS-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 1
       },
       {
@@ -65480,6 +65800,12 @@
         "weight": 1
       }
     ],
+    "equal.": [
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 1
+      }
+    ],
     "equality": [
       {
         "document": "AIXEM-CONCEPT-PROJECT-NET-001",
@@ -65758,6 +66084,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-AGENT-TASK-001",
         "weight": 1
       },
@@ -65927,6 +66257,10 @@
     "evaluate": [
       {
         "document": "AIXEM-CONCEPT-AUTHORITY-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       }
     ],
@@ -66912,6 +67246,10 @@
         "weight": 4
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-CONCEPT-AUTHORITY-001",
         "weight": 3
       },
@@ -66937,10 +67275,6 @@
       },
       {
         "document": "AIXEM-ARCH-SYSTEM-001",
-        "weight": 2
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 2
       },
       {
@@ -68836,16 +69170,16 @@
         "weight": 10
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 9
+      },
+      {
         "document": "AIXEM-AGENT-AUTHORING-001",
         "weight": 8
       },
       {
         "document": "AIXEM-GOV-DOC-AUTHORING-001",
         "weight": 7
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
-        "weight": 6
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-SELECT-LIBRARY-PART-001",
@@ -68900,6 +69234,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-RELEASE-052-001",
         "weight": 2
       },
@@ -68921,6 +69259,10 @@
       },
       {
         "document": "AIXEM-SPEC-AGENT-DIAGNOSTIC-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 2
       },
       {
@@ -68969,10 +69311,6 @@
       },
       {
         "document": "AIXEM-EXAMPLE-SYMBOL-CORPUS-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 1
       },
       {
@@ -69025,10 +69363,6 @@
       },
       {
         "document": "AIXEM-SPEC-INTERFACE-PORT-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       },
       {
@@ -69439,23 +69773,23 @@
     "explicit": [
       {
         "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 15
+        "weight": 16
       },
       {
         "document": "AIXEM-GOV-TERMS-001",
         "weight": 11
       },
       {
-        "document": "AIXEM-SCHEM-JUNCTION-001",
-        "weight": 10
-      },
-      {
         "document": "AIXEM-SPEC-LAYOUT-001",
-        "weight": 10
+        "weight": 11
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
-        "weight": 9
+        "weight": 10
+      },
+      {
+        "document": "AIXEM-SCHEM-JUNCTION-001",
+        "weight": 10
       },
       {
         "document": "AIXEM-SCHEM-INDEX-001",
@@ -69582,6 +69916,10 @@
         "weight": 4
       },
       {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 4
+      },
+      {
         "document": "AIXEM-SPEC-GRID-PROFILE-001",
         "weight": 4
       },
@@ -69638,10 +69976,6 @@
         "weight": 3
       },
       {
-        "document": "AIXEM-SCHEM-PLACEMENT-001",
-        "weight": 3
-      },
-      {
         "document": "AIXEM-SCHEM-SHEET-001",
         "weight": 3
       },
@@ -69655,6 +69989,10 @@
       },
       {
         "document": "AIXEM-SPEC-INTERFACE-PORT-001",
+        "weight": 3
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 3
       },
       {
@@ -69798,10 +70136,6 @@
         "weight": 1
       },
       {
-        "document": "AIXEM-SPEC-RENDERER-001",
-        "weight": 1
-      },
-      {
         "document": "AIXEM-SPEC-SYMBOL-001",
         "weight": 1
       },
@@ -69855,6 +70189,10 @@
       },
       {
         "document": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       }
     ],
@@ -70167,6 +70505,10 @@
     "expressed": [
       {
         "document": "AIXEM-CONCEPT-LAYOUT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       },
       {
@@ -70748,6 +71090,18 @@
         "weight": 1
       }
     ],
+    "factor": [
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      }
+    ],
+    "factor.": [
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      }
+    ],
     "facts": [
       {
         "document": "AIXEM-SPEC-AGENT-TASK-001",
@@ -70823,6 +71177,10 @@
       },
       {
         "document": "AIXEM-AGENT-LIVE-COLD-START-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 1
       },
       {
@@ -71097,6 +71455,10 @@
       },
       {
         "document": "AIXEM-SPEC-GRID-PROFILE-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       },
       {
@@ -71587,7 +71949,7 @@
     "feasibility": [
       {
         "document": "AIXEM-SCHEM-PLACEMENT-001",
-        "weight": 2
+        "weight": 3
       }
     ],
     "feasibility.": [
@@ -71878,6 +72240,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-CONF-SYMBOL-EXP-001",
         "weight": 2
       },
@@ -71914,10 +72280,6 @@
         "weight": 2
       },
       {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
-        "weight": 1
-      },
-      {
         "document": "AIXEM-AUTHORING-GUIDE-ROUTE-NETS-001",
         "weight": 1
       },
@@ -71943,6 +72305,10 @@
       },
       {
         "document": "AIXEM-SCHEM-COOKBOOK-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 1
       },
       {
@@ -72076,16 +72442,16 @@
         "weight": 11
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 9
+      },
+      {
         "document": "AIXEM-SYMBOL-AIXSYM-REF-001",
         "weight": 9
       },
       {
         "document": "AIXEM-SYMBOL-BINDING-001",
         "weight": 9
-      },
-      {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 8
       },
       {
         "document": "AIXEM-FORMAT-AIXSYM-001",
@@ -72290,6 +72656,10 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-SPEC-AGENT-OBSERVATION-001",
         "weight": 3
       },
@@ -72319,10 +72689,6 @@
       },
       {
         "document": "AIXEM-CONF-COMPAT-001",
-        "weight": 2
-      },
-      {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 2
       },
       {
@@ -73605,6 +73971,24 @@
       },
       {
         "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 1
+      }
+    ],
+    "finite-positive-uniform": [
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       }
     ],
@@ -74028,11 +74412,15 @@
     ],
     "flags": [
       {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       },
       {
-        "document": "AIXEM-SPEC-RENDERER-001",
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 1
       },
       {
@@ -74240,6 +74628,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-AUTHORING-INDEX-001",
         "weight": 1
       },
@@ -74317,6 +74709,10 @@
       },
       {
         "document": "AIXEM-SCHEM-INDEX-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 1
       },
       {
@@ -74626,6 +75022,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-GOV-DOC-AUTHORING-001",
         "weight": 1
       },
@@ -74746,6 +75146,10 @@
       {
         "document": "AIXEM-CONF-SYMBOL-EXP-001",
         "weight": 1
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 1
       }
     ],
     "forbidden": [
@@ -74860,12 +75264,12 @@
         "weight": 4
       },
       {
-        "document": "AIXEM-FORMAT-INDEX-001",
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 3
       },
       {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 2
+        "document": "AIXEM-FORMAT-INDEX-001",
+        "weight": 3
       },
       {
         "document": "AIXEM-FORMAT-AIXLIB-001",
@@ -74889,6 +75293,10 @@
       },
       {
         "document": "AIXEM-RELEASE-052-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       },
       {
@@ -75903,6 +76311,18 @@
       },
       {
         "document": "AIXEM-CONF-B2D-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       }
     ],
@@ -77064,6 +77484,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 2
       },
@@ -77236,16 +77660,16 @@
         "weight": 10
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 10
+      },
+      {
         "document": "AIXEM-SYMBOL-COOKBOOK-001",
         "weight": 9
       },
       {
         "document": "AIXEM-SYMBOL-LINT-001",
         "weight": 9
-      },
-      {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 8
       },
       {
         "document": "AIXEM-SCHEM-COOKBOOK-001",
@@ -77268,6 +77692,10 @@
         "weight": 5
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 5
+      },
+      {
         "document": "AIXEM-CONCEPT-SEMANTIC-001",
         "weight": 5
       },
@@ -77280,15 +77708,15 @@
         "weight": 5
       },
       {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 5
+      },
+      {
         "document": "AIXEM-SPEC-VISUAL-PROFILE-001",
         "weight": 5
       },
       {
         "document": "AIXEM-ROUTE-INDEX-001",
-        "weight": 4
-      },
-      {
-        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 4
       },
       {
@@ -77357,10 +77785,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-CREATE-SCHEMATIC-001",
-        "weight": 2
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 2
       },
       {
@@ -77729,7 +78153,7 @@
     "geometry.": [
       {
         "document": "AIXEM-SPEC-LAYOUT-001",
-        "weight": 4
+        "weight": 5
       },
       {
         "document": "AIXEM-AGENT-ROUTING-001",
@@ -78828,6 +79252,10 @@
         "weight": 7
       },
       {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 6
+      },
+      {
         "document": "AIXEM-SYMBOL-COOKBOOK-001",
         "weight": 6
       },
@@ -78837,10 +79265,6 @@
       },
       {
         "document": "AIXEM-FORMAT-AIXSYM-001",
-        "weight": 5
-      },
-      {
-        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 5
       },
       {
@@ -79016,16 +79440,16 @@
         "weight": 9
       },
       {
-        "document": "AIXEM-EXAMPLE-CONTROLLER-001",
-        "weight": 7
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 8
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
-        "weight": 6
+        "weight": 7
       },
       {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 6
+        "document": "AIXEM-EXAMPLE-CONTROLLER-001",
+        "weight": 7
       },
       {
         "document": "AIXEM-FORMAT-STYLE-001",
@@ -79040,11 +79464,19 @@
         "weight": 5
       },
       {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 5
+      },
+      {
         "document": "AIXEM-RELEASE-059-001",
         "weight": 4
       },
       {
         "document": "AIXEM-SCHEM-INDEX-001",
+        "weight": 4
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 4
       },
       {
@@ -79057,10 +79489,6 @@
       },
       {
         "document": "AIXEM-ROUTE-CONSTRAINT-001",
-        "weight": 3
-      },
-      {
-        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 3
       },
       {
@@ -79112,7 +79540,7 @@
         "weight": 2
       },
       {
-        "document": "AIXEM-SPEC-RENDERER-001",
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 2
       },
       {
@@ -84126,15 +84554,15 @@
         "weight": 7
       },
       {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 6
+      },
+      {
         "document": "AIXEM-GOV-VERSIONING-001",
         "weight": 5
       },
       {
         "document": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
-        "weight": 5
-      },
-      {
-        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 5
       },
       {
@@ -84294,6 +84722,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-FORMAT-AIXLIB-001",
         "weight": 1
       },
@@ -84355,6 +84787,10 @@
       },
       {
         "document": "AIXEM-SPEC-AGENT-LIVE-RUN-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       },
       {
@@ -85020,11 +85456,27 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-AGENT-EXECUTOR-LIVE-001",
         "weight": 1
       },
       {
         "document": "AIXEM-SPEC-AGENT-OBSERVATION-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       },
       {
@@ -85039,6 +85491,10 @@
     "illegal": [
       {
         "document": "AIXEM-AUTHORING-GUIDE-ROUTE-NETS-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       }
     ],
@@ -85542,6 +85998,10 @@
       {
         "document": "AIXEM-RELEASE-053-001",
         "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 1
       }
     ],
     "implicitly.": [
@@ -85752,6 +86212,10 @@
         "weight": 6
       },
       {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 6
+      },
+      {
         "document": "AIXEM-SYMBOL-AIXSYM-REF-001",
         "weight": 6
       },
@@ -85761,6 +86225,10 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-CREATE-SCHEMATIC-001",
+        "weight": 5
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 5
       },
       {
@@ -85780,10 +86248,6 @@
         "weight": 5
       },
       {
-        "document": "AIXEM-SPEC-RENDERER-001",
-        "weight": 5
-      },
-      {
         "document": "AIXEM-SYMBOL-AUTHORING-001",
         "weight": 5
       },
@@ -85797,10 +86261,6 @@
       },
       {
         "document": "AIXEM-AGENT-FAILURE-001",
-        "weight": 4
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 4
       },
       {
@@ -86540,6 +87000,12 @@
         "weight": 1
       }
     ],
+    "incorrectly": [
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      }
+    ],
     "incorrectly.": [
       {
         "document": "AIXEM-EXAMPLE-SYMBOL-CORPUS-001",
@@ -86653,6 +87119,10 @@
       },
       {
         "document": "AIXEM-CONF-RELEASE-001",
+        "weight": 3
+      },
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 3
       },
       {
@@ -86805,10 +87275,6 @@
       },
       {
         "document": "AIXEM-EXAMPLE-SYMBOL-CORPUS-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 1
       },
       {
@@ -87063,6 +87529,10 @@
       }
     ],
     "independently.": [
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
       {
         "document": "AIXEM-GOV-RELEASE-001",
         "weight": 1
@@ -89715,10 +90185,26 @@
     "instance": [
       {
         "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 8
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 4
       },
       {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 4
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-FORMAT-AIXSYM-001",
+        "weight": 3
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 3
       },
       {
@@ -89793,6 +90279,12 @@
       },
       {
         "document": "AIXEM-RELEASE-053-001",
+        "weight": 1
+      }
+    ],
+    "instances.": [
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       }
     ],
@@ -92060,6 +92552,10 @@
         "weight": 13
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 13
+      },
+      {
         "document": "AIXEM-FORMAT-AIXLIB-001",
         "weight": 13
       },
@@ -92080,15 +92576,15 @@
         "weight": 11
       },
       {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 11
-      },
-      {
         "document": "AIXEM-RELEASE-051-001",
         "weight": 11
       },
       {
         "document": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
+        "weight": 11
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 11
       },
       {
@@ -92145,10 +92641,6 @@
       },
       {
         "document": "AIXEM-SPEC-AGENT-TASK-001",
-        "weight": 9
-      },
-      {
-        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 9
       },
       {
@@ -92212,6 +92704,10 @@
         "weight": 7
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 7
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-ROUTE-NETS-001",
         "weight": 7
       },
@@ -92237,6 +92733,10 @@
       },
       {
         "document": "AIXEM-ROUTE-NETS-001",
+        "weight": 7
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 7
       },
       {
@@ -92340,10 +92840,6 @@
         "weight": 5
       },
       {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
-        "weight": 5
-      },
-      {
         "document": "AIXEM-AUTHORING-GUIDE-RENDER-REVIEW-001",
         "weight": 5
       },
@@ -92413,10 +92909,6 @@
       },
       {
         "document": "AIXEM-SPEC-DOCUMENT-001",
-        "weight": 5
-      },
-      {
-        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 5
       },
       {
@@ -92509,6 +93001,10 @@
       },
       {
         "document": "AIXEM-SCHEM-INDEX-001",
+        "weight": 4
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 4
       },
       {
@@ -92633,10 +93129,6 @@
       },
       {
         "document": "AIXEM-SCHEM-ANNOTATION-001",
-        "weight": 3
-      },
-      {
-        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 3
       },
       {
@@ -92782,6 +93274,10 @@
     ],
     "it": [
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 9
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-RENDER-REVIEW-001",
         "weight": 8
       },
@@ -92802,10 +93298,6 @@
         "weight": 7
       },
       {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 7
-      },
-      {
         "document": "AIXEM-GOV-DOC-AUTHORING-001",
         "weight": 7
       },
@@ -92819,6 +93311,10 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 6
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 6
       },
       {
@@ -92839,10 +93335,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-COMPOSE-PROJECT-001",
-        "weight": 5
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 5
       },
       {
@@ -92934,11 +93426,19 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-SCHEM-VISUAL-001",
         "weight": 3
       },
       {
         "document": "AIXEM-SPEC-AGENT-EXECUTOR-LIVE-001",
+        "weight": 3
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 3
       },
       {
@@ -93031,10 +93531,6 @@
       },
       {
         "document": "AIXEM-SCHEM-JUNCTION-001",
-        "weight": 2
-      },
-      {
-        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 2
       },
       {
@@ -93319,10 +93815,6 @@
       },
       {
         "document": "AIXEM-SPEC-INDEX-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       },
       {
@@ -93508,6 +94000,10 @@
         "weight": 5
       },
       {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 5
+      },
+      {
         "document": "AIXEM-ARCH-CACHE-001",
         "weight": 4
       },
@@ -93561,10 +94057,6 @@
       },
       {
         "document": "AIXEM-SPEC-GRID-PROFILE-001",
-        "weight": 4
-      },
-      {
-        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 4
       },
       {
@@ -94302,6 +94794,10 @@
         "weight": 4
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-ROUTE-COOKBOOK-001",
         "weight": 3
       },
@@ -94311,10 +94807,6 @@
       },
       {
         "document": "AIXEM-AGENT-VISUAL-QA-001",
-        "weight": 2
-      },
-      {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 2
       },
       {
@@ -94802,6 +95294,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-AUTHORING-INDEX-001",
         "weight": 1
       },
@@ -94857,6 +95353,10 @@
       }
     ],
     "keeps": [
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      },
       {
         "document": "AIXEM-FORMAT-INDEX-001",
         "weight": 1
@@ -96710,12 +97210,12 @@
         "weight": 12
       },
       {
-        "document": "AIXEM-SPEC-LAYOUT-001",
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 12
       },
       {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 11
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 12
       },
       {
         "document": "AIXEM-SPEC-INDEX-001",
@@ -97568,6 +98068,10 @@
       {
         "document": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
         "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 1
       }
     ],
     "leaves.": [
@@ -97756,6 +98260,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-SYMBOL-DESIGN-001",
         "weight": 1
       },
@@ -97765,6 +98273,10 @@
       }
     ],
     "legal.": [
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
       {
         "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 1
@@ -97986,6 +98498,10 @@
         "weight": 4
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 4
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-VALIDATE-PROJECT-001",
         "weight": 4
       },
@@ -98050,10 +98566,6 @@
         "weight": 2
       },
       {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
-        "weight": 1
-      },
-      {
         "document": "AIXEM-CONCEPT-AUTHORITY-001",
         "weight": 1
       },
@@ -98067,6 +98579,10 @@
       },
       {
         "document": "AIXEM-EXAMPLE-CONTROLLER-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 1
       },
       {
@@ -99904,11 +100420,19 @@
     ],
     "locally": [
       {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
         "weight": 1
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 1
       },
       {
@@ -99921,10 +100445,6 @@
       },
       {
         "document": "AIXEM-ROUTE-BEHAVIOR-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 1
       },
       {
@@ -100529,6 +101049,10 @@
       },
       {
         "document": "AIXEM-RELEASE-057-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 1
       }
     ],
@@ -101548,6 +102072,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDES-INDEX-001",
         "weight": 1
       },
@@ -101601,6 +102129,10 @@
       }
     ],
     "makes": [
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      },
       {
         "document": "AIXEM-RELEASE-051-001",
         "weight": 1
@@ -102190,6 +102722,10 @@
     ],
     "mapped": [
       {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-SYMBOL-PORTS-001",
         "weight": 3
       },
@@ -102198,7 +102734,11 @@
         "weight": 3
       },
       {
-        "document": "AIXEM-SPEC-RENDERER-001",
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 2
       },
       {
@@ -102262,6 +102802,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-CONCEPT-AUTHORITY-001",
         "weight": 1
       },
@@ -102322,10 +102866,6 @@
         "weight": 1
       },
       {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 1
-      },
-      {
         "document": "AIXEM-FORMAT-AIXLIB-001",
         "weight": 1
       },
@@ -102382,6 +102922,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SCHEM-VISUAL-001",
         "weight": 1
       },
@@ -102419,10 +102963,6 @@
       },
       {
         "document": "AIXEM-SPEC-GRID-PROFILE-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       },
       {
@@ -102533,6 +103073,10 @@
       },
       {
         "document": "AIXEM-RELEASE-050-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       },
       {
@@ -103076,11 +103620,19 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-CONF-AGENT-LIVE-001",
         "weight": 1
       },
       {
         "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       },
       {
@@ -103156,6 +103708,10 @@
         "weight": 4
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 4
+      },
+      {
         "document": "AIXEM-SPEC-VISUAL-PROFILE-001",
         "weight": 4
       },
@@ -103173,10 +103729,6 @@
       },
       {
         "document": "AIXEM-CONF-SYMBOL-EXP-001",
-        "weight": 3
-      },
-      {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 3
       },
       {
@@ -103360,6 +103912,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SCHEM-VISUAL-001",
         "weight": 1
       },
@@ -103385,6 +103941,10 @@
       },
       {
         "document": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       },
       {
@@ -103712,6 +104272,12 @@
         "weight": 1
       }
     ],
+    "mechanism.": [
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      }
+    ],
     "mechanisms": [
       {
         "document": "AIXEM-SPEC-VISUAL-PROFILE-001",
@@ -103894,6 +104460,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-ROUTE-INDEX-001",
         "weight": 2
       },
@@ -103951,10 +104521,6 @@
       },
       {
         "document": "AIXEM-EXAMPLE-INDEX-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 1
       },
       {
@@ -104048,6 +104614,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-CONCEPT-AUTHORITY-001",
         "weight": 1
       },
@@ -104080,7 +104650,15 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       },
       {
@@ -104131,6 +104709,10 @@
       },
       {
         "document": "AIXEM-AGENT-ROUTING-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 1
       },
       {
@@ -106081,6 +106663,10 @@
     "mirror": [
       {
         "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 1
       },
       {
@@ -106100,11 +106686,11 @@
     ],
     "mirroring": [
       {
-        "document": "AIXEM-CONF-B2D-001",
-        "weight": 1
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 2
       },
       {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "document": "AIXEM-CONF-B2D-001",
         "weight": 1
       },
       {
@@ -106131,13 +106717,29 @@
     "mirrorx": [
       {
         "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 2
+        "weight": 3
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 1
       }
     ],
     "mirrory": [
       {
         "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 2
+        "weight": 3
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 1
       }
     ],
     "misc.md": [
@@ -107508,11 +108110,11 @@
         "weight": 2
       },
       {
-        "document": "AIXEM-AGENT-VISUAL-QA-001",
-        "weight": 1
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 2
       },
       {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "document": "AIXEM-AGENT-VISUAL-QA-001",
         "weight": 1
       },
       {
@@ -107550,6 +108152,12 @@
         "weight": 1
       }
     ],
+    "moved.": [
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      }
+    ],
     "movement": [
       {
         "document": "AIXEM-ROUTE-COOKBOOK-001",
@@ -107581,6 +108189,10 @@
       },
       {
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       }
     ],
@@ -109610,6 +110222,10 @@
       {
         "document": "AIXEM-SPEC-AGENT-TASK-001",
         "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 1
       }
     ],
     "narrowly": [
@@ -109628,6 +110244,10 @@
       {
         "document": "AIXEM-SPEC-AGENT-TASK-001",
         "weight": 3
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 1
       }
     ],
     "native": [
@@ -109978,6 +110598,10 @@
     ],
     "needs": [
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-AGENT-LIVE-COLD-START-001",
         "weight": 1
       },
@@ -109999,10 +110623,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 1
       },
       {
@@ -110054,11 +110674,19 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
         "weight": 2
       },
       {
         "document": "AIXEM-CONF-TESTS-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 1
       },
       {
@@ -110189,7 +110817,7 @@
       },
       {
         "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 14
+        "weight": 15
       },
       {
         "document": "AIXEM-ROUTE-COOKBOOK-001",
@@ -110220,6 +110848,10 @@
         "weight": 6
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 5
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-ROUTE-NETS-001",
         "weight": 5
       },
@@ -110237,10 +110869,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
-        "weight": 4
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 4
       },
       {
@@ -110284,6 +110912,10 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-AGENT-AUTHORING-001",
         "weight": 2
       },
@@ -110305,10 +110937,6 @@
       },
       {
         "document": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
-        "weight": 2
-      },
-      {
-        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 2
       },
       {
@@ -110353,6 +110981,10 @@
       },
       {
         "document": "AIXEM-SCHEM-JUNCTION-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 1
       },
       {
@@ -110830,11 +111462,19 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-CONCEPT-AUTHORITY-001",
         "weight": 2
       },
       {
         "document": "AIXEM-FORMAT-AIXEM-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 2
       },
       {
@@ -110894,10 +111534,6 @@
         "weight": 1
       },
       {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
-        "weight": 1
-      },
-      {
         "document": "AIXEM-AUTHORING-GUIDE-ROUTE-NETS-001",
         "weight": 1
       },
@@ -110923,10 +111559,6 @@
       },
       {
         "document": "AIXEM-EXAMPLE-SYMBOL-CORPUS-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 1
       },
       {
@@ -110999,6 +111631,10 @@
       },
       {
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       },
       {
@@ -111143,6 +111779,10 @@
       },
       {
         "document": "AIXEM-ROUTE-COOKBOOK-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 1
       },
       {
@@ -111346,6 +111986,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-VALIDATE-PROJECT-001",
         "weight": 2
       },
@@ -111402,10 +112046,6 @@
         "weight": 1
       },
       {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
-        "weight": 1
-      },
-      {
         "document": "AIXEM-AUTHORING-GUIDE-RENDER-REVIEW-001",
         "weight": 1
       },
@@ -111451,6 +112091,10 @@
       },
       {
         "document": "AIXEM-SCHEM-JUNCTION-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 1
       },
       {
@@ -111949,6 +112593,12 @@
       },
       {
         "document": "AIXEM-CONF-AGENT-LIVE-001",
+        "weight": 1
+      }
+    ],
+    "non-schematic": [
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 1
       }
     ],
@@ -112828,7 +113478,15 @@
         "weight": 12
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 10
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-SELECT-LIBRARY-PART-001",
+        "weight": 10
+      },
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 10
       },
       {
@@ -112858,10 +113516,6 @@
       {
         "document": "AIXEM-SYMBOL-AUTHORING-001",
         "weight": 9
-      },
-      {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 8
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
@@ -112897,10 +113551,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
-        "weight": 6
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 6
       },
       {
@@ -112996,6 +113646,10 @@
         "weight": 5
       },
       {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 5
+      },
+      {
         "document": "AIXEM-SPEC-VIEWER-A11Y-001",
         "weight": 5
       },
@@ -113061,10 +113715,6 @@
       },
       {
         "document": "AIXEM-SPEC-AGENT-DIAGNOSTIC-001",
-        "weight": 4
-      },
-      {
-        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 4
       },
       {
@@ -113292,6 +113942,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-SPEC-AGENT-EXECUTION-001",
         "weight": 2
       },
@@ -113392,10 +114046,6 @@
         "weight": 1
       },
       {
-        "document": "AIXEM-SCHEM-PLACEMENT-001",
-        "weight": 1
-      },
-      {
         "document": "AIXEM-SPEC-AGENT-CHANGESET-001",
         "weight": 1
       },
@@ -113433,6 +114083,12 @@
       },
       {
         "document": "AIXEM-SYMBOL-ANATOMY-001",
+        "weight": 1
+      }
+    ],
+    "not.": [
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       }
     ],
@@ -114364,6 +115020,10 @@
         "weight": 4
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 4
+      },
+      {
         "document": "AIXEM-FORMAT-AIXPROJ-001",
         "weight": 4
       },
@@ -114425,10 +115085,6 @@
       },
       {
         "document": "AIXEM-EXAMPLE-INDEX-001",
-        "weight": 3
-      },
-      {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 3
       },
       {
@@ -115402,6 +116058,10 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-CONCEPT-LAYOUT-001",
         "weight": 3
       },
@@ -115447,10 +116107,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
-        "weight": 2
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 2
       },
       {
@@ -116646,6 +117302,10 @@
         "weight": 12
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 12
+      },
+      {
         "document": "AIXEM-SPEC-AGENT-EVAL-INVARIANT-001",
         "weight": 12
       },
@@ -116690,11 +117350,11 @@
         "weight": 9
       },
       {
-        "document": "AIXEM-AUTHORING-GUIDE-SELECT-LIBRARY-PART-001",
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 9
       },
       {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "document": "AIXEM-AUTHORING-GUIDE-SELECT-LIBRARY-PART-001",
         "weight": 9
       },
       {
@@ -116707,10 +117367,6 @@
       },
       {
         "document": "AIXEM-AGENT-ROUTING-001",
-        "weight": 8
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 8
       },
       {
@@ -116731,6 +117387,10 @@
       },
       {
         "document": "AIXEM-ROUTE-NETS-001",
+        "weight": 8
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 8
       },
       {
@@ -116771,6 +117431,10 @@
       },
       {
         "document": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
+        "weight": 7
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 7
       },
       {
@@ -116827,10 +117491,6 @@
       },
       {
         "document": "AIXEM-SCHEM-ANNOTATION-001",
-        "weight": 6
-      },
-      {
-        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 6
       },
       {
@@ -117026,6 +117686,10 @@
         "weight": 4
       },
       {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 4
+      },
+      {
         "document": "AIXEM-START-QUICK-001",
         "weight": 4
       },
@@ -117079,10 +117743,6 @@
       },
       {
         "document": "AIXEM-SPEC-AGENT-EXECUTION-001",
-        "weight": 3
-      },
-      {
-        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 3
       },
       {
@@ -117191,10 +117851,6 @@
       },
       {
         "document": "AIXEM-SPEC-RELEASE-001",
-        "weight": 2
-      },
-      {
-        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 2
       },
       {
@@ -117589,10 +118245,6 @@
       },
       {
         "document": "AIXEM-FORMAT-AIXEM-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 1
       },
       {
@@ -118074,7 +118726,23 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-ROUTE-COOKBOOK-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       }
     ],
@@ -118174,6 +118842,10 @@
     ],
     "otherwise": [
       {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-AGENT-SCHEMATIC-001",
         "weight": 1
       },
@@ -118191,10 +118863,6 @@
       },
       {
         "document": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       }
     ],
@@ -123870,6 +124538,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SYMBOL-AUTHORING-001",
         "weight": 1
       }
@@ -124036,6 +124708,10 @@
         "weight": 12
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 7
+      },
+      {
         "document": "AIXEM-GOV-DOC-AUTHORING-001",
         "weight": 7
       },
@@ -124046,10 +124722,6 @@
       {
         "document": "AIXEM-EXAMPLE-SYMBOL-CORPUS-001",
         "weight": 6
-      },
-      {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 5
       },
       {
         "document": "AIXEM-SYMBOL-BINDING-001",
@@ -124101,6 +124773,10 @@
       },
       {
         "document": "AIXEM-SPEC-AGENT-EXECUTION-001",
+        "weight": 3
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 3
       },
       {
@@ -124225,10 +124901,6 @@
       },
       {
         "document": "AIXEM-SPEC-RELEASE-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       },
       {
@@ -125162,6 +125834,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       },
@@ -125302,6 +125978,10 @@
         "weight": 5
       },
       {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 4
+      },
+      {
         "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 4
       },
@@ -125315,10 +125995,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-SELECT-LIBRARY-PART-001",
-        "weight": 3
-      },
-      {
-        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 3
       },
       {
@@ -126042,6 +126718,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-ROUTE-NETS-001",
         "weight": 1
       }
@@ -126106,12 +126786,12 @@
     ],
     "placement": [
       {
-        "document": "AIXEM-SCHEM-PLACEMENT-001",
-        "weight": 19
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 20
       },
       {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
-        "weight": 17
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 20
       },
       {
         "document": "AIXEM-FORMAT-AIXLAYOUT-001",
@@ -126139,7 +126819,7 @@
       },
       {
         "document": "AIXEM-SPEC-RENDERER-001",
-        "weight": 7
+        "weight": 8
       },
       {
         "document": "AIXEM-SYMBOL-PORTS-001",
@@ -126242,6 +126922,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 2
       },
@@ -126327,10 +127011,6 @@
       },
       {
         "document": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       },
       {
@@ -126848,6 +127528,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SYMBOL-INDEX-001",
         "weight": 1
       },
@@ -126955,7 +127639,7 @@
     "points": [
       {
         "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 5
+        "weight": 6
       },
       {
         "document": "AIXEM-SYMBOL-PRIMITIVES-001",
@@ -126979,6 +127663,10 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 1
       },
       {
@@ -127188,6 +127876,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-FORMAT-STYLE-001",
         "weight": 1
       },
@@ -127204,11 +127896,19 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       },
       {
         "document": "AIXEM-SPEC-RELEASE-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       },
       {
@@ -127330,12 +128030,12 @@
         "weight": 17
       },
       {
-        "document": "AIXEM-SPEC-SYMBOL-DESIGN-001",
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 15
       },
       {
-        "document": "AIXEM-SPEC-RENDERER-001",
-        "weight": 14
+        "document": "AIXEM-SPEC-SYMBOL-DESIGN-001",
+        "weight": 15
       },
       {
         "document": "AIXEM-SYMBOL-LINT-001",
@@ -127426,15 +128126,19 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 3
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-SPEC-VISUAL-PROFILE-001",
         "weight": 3
       },
       {
         "document": "AIXEM-CONCEPT-COMPONENT-001",
-        "weight": 2
-      },
-      {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 2
       },
       {
@@ -127479,6 +128183,10 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 1
       },
       {
@@ -127724,6 +128432,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-FORMAT-AIXSYM-001",
         "weight": 1
       },
@@ -127733,6 +128445,10 @@
       },
       {
         "document": "AIXEM-ROUTE-NETS-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       },
       {
@@ -127824,6 +128540,10 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-SYMBOL-AUTHORING-001",
         "weight": 3
       },
@@ -127833,6 +128553,10 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-CREATE-SCHEMATIC-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 2
       },
       {
@@ -127848,15 +128572,15 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
         "weight": 2
       },
       {
         "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
-        "weight": 2
-      },
-      {
-        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 2
       },
       {
@@ -127877,6 +128601,10 @@
       },
       {
         "document": "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 1
       },
       {
@@ -127984,6 +128712,12 @@
         "weight": 1
       }
     ],
+    "position.": [
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 1
+      }
+    ],
     "positionable.": [
       {
         "document": "AIXEM-SYMBOL-FIELDS-001",
@@ -128024,11 +128758,23 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SCHEM-COOKBOOK-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 1
       }
     ],
     "positions.": [
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 1
+      },
       {
         "document": "AIXEM-SYMBOL-AUTHORING-001",
         "weight": 1
@@ -128040,7 +128786,23 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-COMPOSE-PROJECT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       },
       {
@@ -128824,6 +129586,10 @@
         "weight": 25
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 12
+      },
+      {
         "document": "AIXEM-FORMAT-AIXLIB-001",
         "weight": 12
       },
@@ -128836,15 +129602,11 @@
         "weight": 12
       },
       {
-        "document": "AIXEM-CONCEPT-COMPONENT-001",
-        "weight": 9
-      },
-      {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 9
-      },
-      {
         "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 10
+      },
+      {
+        "document": "AIXEM-CONCEPT-COMPONENT-001",
         "weight": 9
       },
       {
@@ -128916,6 +129678,10 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-START-INTRO-001",
         "weight": 3
       },
@@ -128981,6 +129747,10 @@
       },
       {
         "document": "AIXEM-SPEC-INDEX-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 2
       },
       {
@@ -129065,6 +129835,10 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 1
       },
       {
@@ -129204,10 +129978,6 @@
         "weight": 1
       },
       {
-        "document": "AIXEM-SCHEM-PLACEMENT-001",
-        "weight": 1
-      },
-      {
         "document": "AIXEM-SPEC-AGENT-EXECUTION-001",
         "weight": 1
       },
@@ -129229,10 +129999,6 @@
       },
       {
         "document": "AIXEM-SPEC-DOCUMENT-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       },
       {
@@ -129283,6 +130049,10 @@
       }
     ],
     "presentation-only.": [
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
       {
         "document": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
         "weight": 1
@@ -129508,6 +130278,10 @@
         "weight": 4
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 4
+      },
+      {
         "document": "AIXEM-GOV-INDEX-001",
         "weight": 4
       },
@@ -129533,10 +130307,6 @@
       },
       {
         "document": "AIXEM-EXAMPLE-INDEX-001",
-        "weight": 3
-      },
-      {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 3
       },
       {
@@ -129617,6 +130387,10 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-CREATE-SCHEMATIC-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 1
       },
       {
@@ -129794,11 +130568,23 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       },
       {
@@ -129914,6 +130700,12 @@
       {
         "document": "AIXEM-ARCH-ADR-0001",
         "weight": 2
+      }
+    ],
+    "preventing": [
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 1
       }
     ],
     "prevents": [
@@ -130415,6 +131207,12 @@
     "problem.": [
       {
         "document": "AIXEM-ROUTE-CROSSING-001",
+        "weight": 1
+      }
+    ],
+    "problems": [
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 1
       }
     ],
@@ -131452,6 +132250,10 @@
         "weight": 4
       },
       {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 4
+      },
+      {
         "document": "AIXEM-SPEC-VIEWER-STATE-001",
         "weight": 4
       },
@@ -131505,10 +132307,6 @@
       },
       {
         "document": "AIXEM-SCHEM-COOKBOOK-001",
-        "weight": 3
-      },
-      {
-        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 3
       },
       {
@@ -133246,6 +134044,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-CONF-REFERENCE-VIEWER-001",
         "weight": 1
       },
@@ -134920,6 +135722,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-GOV-COMPAT-001",
         "weight": 2
       },
@@ -134949,6 +135755,10 @@
       },
       {
         "document": "AIXEM-SCHEM-JUNCTION-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 2
       },
       {
@@ -135096,10 +135906,6 @@
         "weight": 1
       },
       {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 1
-      },
-      {
         "document": "AIXEM-FORMAT-AIXLIB-001",
         "weight": 1
       },
@@ -135173,10 +135979,6 @@
       },
       {
         "document": "AIXEM-SCHEM-INDEX-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 1
       },
       {
@@ -135359,6 +136161,12 @@
     "re-resolution": [
       {
         "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      }
+    ],
+    "re-resolve": [
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 1
       }
     ],
@@ -135795,6 +136603,10 @@
       }
     ],
     "readers": [
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      },
       {
         "document": "AIXEM-RELEASE-040-001",
         "weight": 1
@@ -136567,6 +137379,10 @@
       }
     ],
     "recomputes": [
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 1
+      },
       {
         "document": "AIXEM-SPEC-AGENT-STAGE-001",
         "weight": 1
@@ -138332,6 +139148,10 @@
         "weight": 8
       },
       {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 7
+      },
+      {
         "document": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
         "weight": 7
       },
@@ -138373,10 +139193,6 @@
       },
       {
         "document": "AIXEM-SPEC-GRID-PROFILE-001",
-        "weight": 6
-      },
-      {
-        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 6
       },
       {
@@ -138437,6 +139253,10 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-AUTHOR-COMPONENT-CIRCUIT-001",
+        "weight": 4
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 4
       },
       {
@@ -138529,10 +139349,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
-        "weight": 3
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 3
       },
       {
@@ -138986,6 +139802,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-PROJECT-LOCK-001",
         "weight": 1
       },
@@ -139014,15 +139834,15 @@
         "weight": 5
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 4
+      },
+      {
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
         "weight": 4
       },
       {
         "document": "AIXEM-CONF-REQUIREMENTS-001",
-        "weight": 3
-      },
-      {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 3
       },
       {
@@ -139115,6 +139935,10 @@
       },
       {
         "document": "AIXEM-SPEC-RELEASE-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       },
       {
@@ -139237,6 +140061,28 @@
     "reflect": [
       {
         "document": "AIXEM-CONCEPT-LAYOUT-001",
+        "weight": 1
+      }
+    ],
+    "reflection": [
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 3
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 2
+      }
+    ],
+    "reflection.": [
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 1
+      }
+    ],
+    "reflections": [
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 1
       }
     ],
@@ -143134,6 +143980,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-FORMAT-INDEX-001",
         "weight": 2
       },
@@ -143163,6 +144013,10 @@
       },
       {
         "document": "AIXEM-SPEC-AGENT-EVAL-INVARIANT-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 2
       },
       {
@@ -143307,10 +144161,6 @@
       },
       {
         "document": "AIXEM-FORMAT-AIXEM-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 1
       },
       {
@@ -143740,6 +144590,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-SYMBOL-001",
         "weight": 1
       },
@@ -144016,6 +144870,10 @@
         "weight": 5
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 5
+      },
+      {
         "document": "AIXEM-START-FIRST-001",
         "weight": 5
       },
@@ -144025,10 +144883,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-AUTHOR-COMPONENT-CIRCUIT-001",
-        "weight": 4
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 4
       },
       {
@@ -144722,6 +145576,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-FORMAT-AIXLIB-001",
         "weight": 1
       },
@@ -144776,6 +145634,10 @@
     ],
     "rendered.": [
       {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-VIEWER-001",
         "weight": 1
       },
@@ -144787,7 +145649,7 @@
     "renderer": [
       {
         "document": "AIXEM-SPEC-RENDERER-001",
-        "weight": 24
+        "weight": 26
       },
       {
         "document": "AIXEM-ARCH-ADR-0004",
@@ -144891,6 +145753,10 @@
       },
       {
         "document": "AIXEM-EXAMPLE-SYMBOL-CORPUS-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 2
       },
       {
@@ -145018,10 +145884,6 @@
         "weight": 1
       },
       {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 1
-      },
-      {
         "document": "AIXEM-FORMAT-AIXLIB-001",
         "weight": 1
       },
@@ -145046,6 +145908,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-AGENT-EXECUTION-001",
         "weight": 1
       },
@@ -145063,6 +145929,10 @@
       },
       {
         "document": "AIXEM-SPEC-GRID-PROFILE-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       },
       {
@@ -145178,6 +146048,10 @@
     ],
     "renderer.": [
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-CONCEPT-PROJECT-NET-001",
         "weight": 1
       },
@@ -145290,11 +146164,19 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-FORMAT-AIXSYM-001",
         "weight": 1
       },
       {
         "document": "AIXEM-SPEC-AGENT-EXECUTION-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       },
       {
@@ -147056,6 +147938,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SYMBOL-PRIMITIVES-001",
         "weight": 1
       }
@@ -147701,6 +148587,10 @@
       }
     ],
     "required.": [
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
       {
         "document": "AIXEM-RELEASE-040-001",
         "weight": 1
@@ -148652,6 +149542,28 @@
         "weight": 1
       }
     ],
+    "rerouted": [
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 1
+      }
+    ],
+    "rerouted.": [
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 1
+      }
+    ],
+    "reroutes": [
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 1
+      }
+    ],
     "rerouting": [
       {
         "document": "AIXEM-FORMAT-AIXLAYOUT-001",
@@ -148661,6 +149573,10 @@
     "rerun": [
       {
         "document": "AIXEM-AGENT-LIVE-COLD-START-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 1
       },
       {
@@ -148691,6 +149607,12 @@
       },
       {
         "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      }
+    ],
+    "rescaled": [
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       }
     ],
@@ -148878,6 +149800,44 @@
         "weight": 1
       }
     ],
+    "resize": [
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 5
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 4
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      }
+    ],
+    "resized": [
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 1
+      }
+    ],
+    "resizing": [
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 1
+      }
+    ],
     "resolution": [
       {
         "document": "AIXEM-SPEC-RENDERER-001",
@@ -148996,6 +149956,10 @@
         "weight": 5
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 4
+      },
+      {
         "document": "AIXEM-ROUTE-NETS-001",
         "weight": 4
       },
@@ -149013,10 +149977,6 @@
       },
       {
         "document": "AIXEM-CONF-VALIDATION-001",
-        "weight": 3
-      },
-      {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 3
       },
       {
@@ -149428,11 +150388,11 @@
         "weight": 5
       },
       {
-        "document": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
-        "weight": 3
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 4
       },
       {
-        "document": "AIXEM-SPEC-RENDERER-001",
+        "document": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
         "weight": 3
       },
       {
@@ -149508,6 +150468,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-RELEASE-050-001",
         "weight": 1
       },
@@ -149537,6 +150501,10 @@
       },
       {
         "document": "AIXEM-SPEC-INTERFACE-PORT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       },
       {
@@ -150548,6 +151516,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-SELECT-LIBRARY-PART-001",
         "weight": 2
       },
@@ -150625,10 +151597,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 1
       },
       {
@@ -152314,6 +153282,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
         "weight": 1
       }
@@ -152448,6 +153420,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
         "weight": 1
       }
@@ -152455,6 +153431,12 @@
     "rewritten": [
       {
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "weight": 1
+      }
+    ],
+    "rewritten.": [
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       }
     ],
@@ -152990,6 +153972,10 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-SYMBOL-AIXSYM-REF-001",
         "weight": 2
       },
@@ -153019,10 +154005,6 @@
       },
       {
         "document": "AIXEM-SPEC-COORD-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       },
       {
@@ -153120,12 +154102,12 @@
         "weight": 15
       },
       {
-        "document": "AIXEM-ROUTE-COOKBOOK-001",
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 15
       },
       {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 14
+        "document": "AIXEM-ROUTE-COOKBOOK-001",
+        "weight": 15
       },
       {
         "document": "AIXEM-SPEC-AGENT-CHANGESET-001",
@@ -153134,6 +154116,10 @@
       {
         "document": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
         "weight": 13
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 11
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-VALIDATE-PROJECT-001",
@@ -153164,11 +154150,11 @@
         "weight": 10
       },
       {
-        "document": "AIXEM-AUTHORING-GUIDE-COMPOSE-PROJECT-001",
-        "weight": 9
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 10
       },
       {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "document": "AIXEM-AUTHORING-GUIDE-COMPOSE-PROJECT-001",
         "weight": 9
       },
       {
@@ -153177,10 +154163,6 @@
       },
       {
         "document": "AIXEM-CONCEPT-LAYOUT-001",
-        "weight": 9
-      },
-      {
-        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 9
       },
       {
@@ -153220,6 +154202,10 @@
         "weight": 6
       },
       {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 6
+      },
+      {
         "document": "AIXEM-SPEC-AGENT-EXECUTION-001",
         "weight": 6
       },
@@ -153249,6 +154235,10 @@
       },
       {
         "document": "AIXEM-SPEC-AGENT-STAGE-001",
+        "weight": 5
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 5
       },
       {
@@ -153292,10 +154282,6 @@
         "weight": 4
       },
       {
-        "document": "AIXEM-SPEC-LAYOUT-001",
-        "weight": 4
-      },
-      {
         "document": "AIXEM-AGENT-INDEX-001",
         "weight": 3
       },
@@ -153325,10 +154311,6 @@
       },
       {
         "document": "AIXEM-ROUTE-CROSSING-001",
-        "weight": 3
-      },
-      {
-        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 3
       },
       {
@@ -153892,6 +154874,12 @@
       {
         "document": "AIXEM-SYMBOL-DESIGN-RULES-001",
         "weight": 2
+      }
+    ],
+    "route-geometry": [
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 3
       }
     ],
     "route-index": [
@@ -155230,6 +156218,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-VALIDATE-PROJECT-001",
         "weight": 2
       },
@@ -155271,10 +156263,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-COMPOSE-PROJECT-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 1
       },
       {
@@ -155476,6 +156464,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-FORMAT-INDEX-001",
         "weight": 2
       },
@@ -155565,10 +156557,6 @@
       },
       {
         "document": "AIXEM-EXAMPLE-HIERARCHY-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 1
       },
       {
@@ -155682,6 +156670,10 @@
         "weight": 5
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 5
+      },
+      {
         "document": "AIXEM-SCHEM-ANNOTATION-001",
         "weight": 5
       },
@@ -155787,10 +156779,6 @@
       },
       {
         "document": "AIXEM-CONF-VALIDATION-001",
-        "weight": 4
-      },
-      {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 4
       },
       {
@@ -157070,6 +158058,10 @@
     ],
     "safely": [
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
         "weight": 1
       }
@@ -157166,6 +158158,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-CONCEPT-DETERMINISM-001",
         "weight": 1
       },
@@ -157182,6 +158178,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-GOV-DOC-AUTHORING-001",
         "weight": 1
       },
@@ -157191,6 +158191,10 @@
       },
       {
         "document": "AIXEM-RELEASE-050-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 1
       },
       {
@@ -157207,6 +158211,10 @@
       },
       {
         "document": "AIXEM-SPEC-RELEASE-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       },
       {
@@ -157412,11 +158420,15 @@
         "weight": 4
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-CONF-REFERENCE-VIEWER-001",
         "weight": 2
       },
       {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 2
       },
       {
@@ -157428,6 +158440,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-RELEASE-053-001",
         "weight": 1
       },
@@ -157436,7 +158452,7 @@
         "weight": 1
       },
       {
-        "document": "AIXEM-SPEC-RENDERER-001",
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       },
       {
@@ -157448,16 +158464,72 @@
         "weight": 1
       }
     ],
+    "scale.": [
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      }
+    ],
     "scalex": [
       {
         "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 4
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 2
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 1
       }
     ],
     "scaley": [
       {
         "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 4
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 2
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 1
+      }
+    ],
+    "scaling": [
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 5
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 3
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 1
       }
     ],
     "scan": [
@@ -157576,15 +158648,15 @@
         "weight": 6
       },
       {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 5
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-VALIDATE-PROJECT-001",
         "weight": 4
       },
       {
         "document": "AIXEM-FORMAT-AIXLIB-001",
-        "weight": 4
-      },
-      {
-        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 4
       },
       {
@@ -157866,6 +158938,10 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-FORMAT-AIXLIB-001",
         "weight": 1
       },
@@ -158106,6 +159182,10 @@
         "weight": 6
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 6
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDES-INDEX-001",
         "weight": 6
       },
@@ -158143,10 +159223,6 @@
       },
       {
         "document": "AIXEM-ARCH-SYSTEM-001",
-        "weight": 4
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 4
       },
       {
@@ -158355,6 +159431,10 @@
       },
       {
         "document": "AIXEM-SCHEM-JUNCTION-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       },
       {
@@ -160872,6 +161952,14 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-SPEC-SYMBOL-001",
         "weight": 2
       },
@@ -161144,10 +162232,6 @@
         "weight": 1
       },
       {
-        "document": "AIXEM-SCHEM-PLACEMENT-001",
-        "weight": 1
-      },
-      {
         "document": "AIXEM-SCHEM-SHEET-001",
         "weight": 1
       },
@@ -161193,10 +162277,6 @@
       },
       {
         "document": "AIXEM-SPEC-INDEX-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       },
       {
@@ -161658,6 +162738,10 @@
         "weight": 20
       },
       {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 18
+      },
+      {
         "document": "AIXEM-CONCEPT-SEMANTIC-001",
         "weight": 17
       },
@@ -161674,10 +162758,6 @@
         "weight": 16
       },
       {
-        "document": "AIXEM-SPEC-RENDERER-001",
-        "weight": 15
-      },
-      {
         "document": "AIXEM-SYMBOL-PORTS-001",
         "weight": 15
       },
@@ -161686,12 +162766,12 @@
         "weight": 14
       },
       {
-        "document": "AIXEM-ROUTE-COOKBOOK-001",
-        "weight": 13
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 14
       },
       {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 11
+        "document": "AIXEM-ROUTE-COOKBOOK-001",
+        "weight": 13
       },
       {
         "document": "AIXEM-AGENT-AUTHORING-001",
@@ -161699,6 +162779,10 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-AUTHOR-COMPONENT-CIRCUIT-001",
+        "weight": 9
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 9
       },
       {
@@ -161770,10 +162854,6 @@
         "weight": 6
       },
       {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
-        "weight": 6
-      },
-      {
         "document": "AIXEM-AUTHORING-GUIDE-SELECT-LIBRARY-PART-001",
         "weight": 6
       },
@@ -161787,6 +162867,10 @@
       },
       {
         "document": "AIXEM-FORMAT-AIXSYM-001",
+        "weight": 6
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 6
       },
       {
@@ -161807,6 +162891,10 @@
       },
       {
         "document": "AIXEM-FORMAT-INDEX-001",
+        "weight": 5
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 5
       },
       {
@@ -161858,10 +162946,6 @@
         "weight": 4
       },
       {
-        "document": "AIXEM-SPEC-LAYOUT-001",
-        "weight": 4
-      },
-      {
         "document": "AIXEM-SYMBOL-PRIMITIVES-001",
         "weight": 4
       },
@@ -161895,10 +162979,6 @@
       },
       {
         "document": "AIXEM-RELEASE-059-001",
-        "weight": 3
-      },
-      {
-        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 3
       },
       {
@@ -162109,6 +163189,12 @@
       },
       {
         "document": "AIXEM-START-QUICK-001",
+        "weight": 1
+      }
+    ],
+    "semantic-port": [
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 1
       }
     ],
@@ -163618,6 +164704,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-SELECT-LIBRARY-PART-001",
         "weight": 1
       },
@@ -164636,6 +165726,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       },
@@ -164656,7 +165750,23 @@
     ],
     "sides": [
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-ROUTE-NETS-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       },
       {
@@ -164838,7 +165948,15 @@
     ],
     "silently": [
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-CONCEPT-COMPONENT-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 2
       },
       {
@@ -164930,10 +166048,6 @@
         "weight": 1
       },
       {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
-        "weight": 1
-      },
-      {
         "document": "AIXEM-AUTHORING-GUIDE-SELECT-LIBRARY-PART-001",
         "weight": 1
       },
@@ -165011,10 +166125,6 @@
       },
       {
         "document": "AIXEM-FORMAT-AIXEM-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 1
       },
       {
@@ -165171,6 +166281,10 @@
       },
       {
         "document": "AIXEM-SPEC-RELEASE-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       },
       {
@@ -165556,6 +166670,10 @@
     ],
     "size.": [
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-RELEASE-052-001",
         "weight": 1
       },
@@ -165931,6 +167049,10 @@
       },
       {
         "document": "AIXEM-EXAMPLE-BASIC-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 1
       },
       {
@@ -169822,6 +170944,12 @@
         "weight": 1
       }
     ],
+    "stay": [
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 1
+      }
+    ],
     "stderr": [
       {
         "document": "AIXEM-RELEASE-058-001",
@@ -169895,6 +171023,10 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 1
       },
       {
@@ -170038,15 +171170,19 @@
     ],
     "stored": [
       {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-FORMAT-AIXPROJ-001",
         "weight": 1
       },
       {
         "document": "AIXEM-SPEC-COORD-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       }
     ],
@@ -170172,7 +171308,17 @@
     ],
     "stretch": [
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-CONF-B2D-001",
+        "weight": 1
+      }
+    ],
+    "stretching": [
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       }
     ],
@@ -170180,6 +171326,12 @@
       {
         "document": "AIXEM-RELEASE-054-001",
         "weight": 1
+      }
+    ],
+    "stricter": [
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 2
       }
     ],
     "string": [
@@ -172202,6 +173354,10 @@
         "weight": 7
       },
       {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 7
+      },
+      {
         "document": "AIXEM-RELEASE-051-001",
         "weight": 6
       },
@@ -172226,11 +173382,11 @@
         "weight": 5
       },
       {
-        "document": "AIXEM-SPEC-RENDERER-001",
-        "weight": 5
+        "document": "AIXEM-AGENT-VISUAL-QA-001",
+        "weight": 4
       },
       {
-        "document": "AIXEM-AGENT-VISUAL-QA-001",
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 4
       },
       {
@@ -172290,6 +173446,10 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-CREATE-SCHEMATIC-001",
         "weight": 2
       },
@@ -172299,10 +173459,6 @@
       },
       {
         "document": "AIXEM-DOCS-HOME-001",
-        "weight": 2
-      },
-      {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 2
       },
       {
@@ -172319,6 +173475,10 @@
       },
       {
         "document": "AIXEM-SCHEM-ANNOTATION-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 2
       },
       {
@@ -172367,10 +173527,6 @@
       },
       {
         "document": "AIXEM-ARCH-SECURITY-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 1
       },
       {
@@ -172435,6 +173591,10 @@
       },
       {
         "document": "AIXEM-SPEC-AGENT-TASK-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       },
       {
@@ -172964,6 +174124,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-ROUTE-NETS-001",
         "weight": 1
       },
@@ -173055,10 +174219,6 @@
       },
       {
         "document": "AIXEM-CONF-SYMBOL-EXP-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 1
       },
       {
@@ -176842,7 +178002,15 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-INTERFACE-PORT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       },
       {
@@ -176984,6 +178152,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-CONCEPT-PROJECT-NET-001",
         "weight": 1
       },
@@ -177040,6 +178212,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
         "weight": 1
       },
@@ -177074,7 +178250,19 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-SCHEM-VISUAL-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 2
       },
       {
@@ -177342,10 +178530,6 @@
         "weight": 1
       },
       {
-        "document": "AIXEM-SCHEM-PLACEMENT-001",
-        "weight": 1
-      },
-      {
         "document": "AIXEM-SCHEM-SHEET-001",
         "weight": 1
       },
@@ -177378,10 +178562,6 @@
         "weight": 1
       },
       {
-        "document": "AIXEM-SPEC-LAYOUT-001",
-        "weight": 1
-      },
-      {
         "document": "AIXEM-SPEC-METADATA-001",
         "weight": 1
       },
@@ -177391,10 +178571,6 @@
       },
       {
         "document": "AIXEM-SPEC-RELEASE-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       },
       {
@@ -177990,6 +179166,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-CONCEPT-AUTHORITY-001",
         "weight": 1
       },
@@ -178195,6 +179375,10 @@
       },
       {
         "document": "AIXEM-SPEC-RELEASE-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       },
       {
@@ -178409,6 +179593,10 @@
       },
       {
         "document": "AIXEM-SPEC-AGENT-LIVE-RUN-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       }
     ],
@@ -178658,16 +179846,16 @@
         "weight": 16
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 14
+      },
+      {
         "document": "AIXEM-ROUTE-COOKBOOK-001",
         "weight": 13
       },
       {
         "document": "AIXEM-ROUTE-CROSSING-001",
         "weight": 11
-      },
-      {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 10
       },
       {
         "document": "AIXEM-SCHEM-COOKBOOK-001",
@@ -178707,6 +179895,10 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
+        "weight": 7
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 7
       },
       {
@@ -178870,10 +180062,6 @@
         "weight": 4
       },
       {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
-        "weight": 4
-      },
-      {
         "document": "AIXEM-AUTHORING-GUIDE-SELECT-LIBRARY-PART-001",
         "weight": 4
       },
@@ -178891,6 +180079,10 @@
       },
       {
         "document": "AIXEM-SPEC-AGENT-LIVE-RUN-001",
+        "weight": 4
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 4
       },
       {
@@ -178975,10 +180167,6 @@
       },
       {
         "document": "AIXEM-SPEC-RELEASE-001",
-        "weight": 3
-      },
-      {
-        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 3
       },
       {
@@ -179273,6 +180461,10 @@
       },
       {
         "document": "AIXEM-FORMAT-STYLE-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 1
       }
     ],
@@ -180441,10 +181633,14 @@
       },
       {
         "document": "AIXEM-SPEC-RENDERER-001",
-        "weight": 6
+        "weight": 7
       },
       {
         "document": "AIXEM-SPEC-COORD-001",
+        "weight": 4
+      },
+      {
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 4
       },
       {
@@ -180472,6 +181668,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-SYMBOL-001",
         "weight": 1
       },
@@ -180487,6 +181687,10 @@
     "transform.": [
       {
         "document": "AIXEM-AUTHORING-GUIDE-ROUTE-NETS-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 1
       },
       {
@@ -180512,7 +181716,15 @@
     ],
     "transformed": [
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-CONCEPT-PROJECT-NET-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 2
       },
       {
@@ -180524,11 +181736,15 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-CONCEPT-LAYOUT-001",
         "weight": 1
       },
       {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 1
       },
       {
@@ -180536,7 +181752,7 @@
         "weight": 1
       },
       {
-        "document": "AIXEM-SPEC-RENDERER-001",
+        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 1
       },
       {
@@ -180561,7 +181777,7 @@
       },
       {
         "document": "AIXEM-SPEC-RENDERER-001",
-        "weight": 3
+        "weight": 4
       },
       {
         "document": "AIXEM-SPEC-VIEWER-STATE-001",
@@ -180678,15 +181894,15 @@
     ],
     "translation.": [
       {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 1
       },
       {
         "document": "AIXEM-ROUTE-NETS-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       },
       {
@@ -180749,6 +181965,10 @@
       },
       {
         "document": "AIXEM-EXAMPLE-SYMBOL-CORPUS-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 1
       }
     ],
@@ -181392,6 +182612,10 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-SYMBOL-AIXSYM-REF-001",
         "weight": 3
       },
@@ -181400,11 +182624,15 @@
         "weight": 2
       },
       {
-        "document": "AIXEM-SPEC-RENDERER-001",
-        "weight": 2
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
       },
       {
         "document": "AIXEM-ROUTE-NETS-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 1
       },
       {
@@ -181740,6 +182968,10 @@
     ],
     "unchanged": [
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-SPEC-AGENT-EVAL-INVARIANT-001",
         "weight": 2
       },
@@ -181753,10 +182985,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 1
       },
       {
@@ -181894,6 +183122,12 @@
         "weight": 1
       }
     ],
+    "unequal": [
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      }
+    ],
     "unevaluated": [
       {
         "document": "AIXEM-AUTHORING-GUIDE-VALIDATE-PROJECT-001",
@@ -181932,6 +183166,12 @@
       {
         "document": "AIXEM-AGENT-VISUAL-QA-001",
         "weight": 1
+      }
+    ],
+    "uniform": [
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 2
       }
     ],
     "unindexed": [
@@ -182040,10 +183280,6 @@
     ],
     "unit": [
       {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 4
-      },
-      {
         "document": "AIXEM-FORMAT-AIXSYM-001",
         "weight": 4
       },
@@ -182060,12 +183296,20 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-SYMBOL-PRIMITIVES-001",
         "weight": 3
       },
       {
         "document": "AIXEM-SYMBOL-VARIANTS-001",
         "weight": 2
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
       },
       {
         "document": "AIXEM-FORMAT-AIXLIB-001",
@@ -182620,6 +183864,10 @@
     ],
     "until": [
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-CONF-AGENT-LIVE-001",
         "weight": 1
       },
@@ -182633,6 +183881,10 @@
       },
       {
         "document": "AIXEM-SPEC-AGENT-EXECUTION-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 1
       },
       {
@@ -182864,15 +184116,15 @@
     ],
     "use": [
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 13
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-CREATE-SCHEMATIC-001",
         "weight": 12
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
-        "weight": 11
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 11
       },
       {
@@ -182945,6 +184197,10 @@
       },
       {
         "document": "AIXEM-FORMAT-AIXEM-001",
+        "weight": 4
+      },
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 4
       },
       {
@@ -183036,10 +184292,6 @@
         "weight": 2
       },
       {
-        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 2
-      },
-      {
         "document": "AIXEM-GOV-INDEX-001",
         "weight": 2
       },
@@ -183057,6 +184309,10 @@
       },
       {
         "document": "AIXEM-SCHEM-INDEX-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 2
       },
       {
@@ -183443,6 +184699,10 @@
       },
       {
         "document": "AIXEM-FORMAT-AIXEM-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 1
       },
       {
@@ -184914,6 +186174,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-SYMBOL-DESIGN-001",
         "weight": 1
       },
@@ -184949,6 +186213,10 @@
       },
       {
         "document": "AIXEM-CONF-VALIDATION-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 1
       },
       {
@@ -185116,6 +186384,10 @@
         "weight": 8
       },
       {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 8
+      },
+      {
         "document": "AIXEM-SPEC-PROJECT-LOCK-001",
         "weight": 8
       },
@@ -185204,6 +186476,10 @@
         "weight": 7
       },
       {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 7
+      },
+      {
         "document": "AIXEM-SCHEM-VISUAL-001",
         "weight": 7
       },
@@ -185221,10 +186497,6 @@
       },
       {
         "document": "AIXEM-SPEC-INTERFACE-PORT-001",
-        "weight": 7
-      },
-      {
-        "document": "AIXEM-SPEC-LAYOUT-001",
         "weight": 7
       },
       {
@@ -185297,10 +186569,6 @@
       },
       {
         "document": "AIXEM-SCHEM-ANNOTATION-001",
-        "weight": 6
-      },
-      {
-        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 6
       },
       {
@@ -185476,6 +186744,10 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-EXAMPLE-SYMBOL-CORPUS-001",
         "weight": 3
       },
@@ -185541,10 +186813,6 @@
       },
       {
         "document": "AIXEM-AGENT-LIVE-COLD-START-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 1
       },
       {
@@ -185638,6 +186906,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDES-INDEX-001",
         "weight": 2
       },
@@ -185719,10 +186991,6 @@
       },
       {
         "document": "AIXEM-ARCH-SYSTEM-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 1
       },
       {
@@ -187132,6 +188400,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-METADATA-001",
         "weight": 1
       },
@@ -187159,6 +188431,10 @@
       }
     ],
     "value.": [
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "weight": 1
+      },
       {
         "document": "AIXEM-SYMBOL-FIELDS-001",
         "weight": 1
@@ -189059,7 +190335,7 @@
     "via": [
       {
         "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 7
+        "weight": 9
       },
       {
         "document": "AIXEM-ROUTE-COOKBOOK-001",
@@ -189070,15 +190346,23 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-SCHEM-COOKBOOK-001",
         "weight": 2
       },
       {
-        "document": "AIXEM-SPEC-LAYOUT-001",
+        "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 2
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-COMPOSE-PROJECT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 1
       },
       {
@@ -189088,9 +190372,11 @@
       {
         "document": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
         "weight": 1
-      },
+      }
+    ],
+    "vias": [
       {
-        "document": "AIXEM-SPEC-RENDERER-001",
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 1
       }
     ],
@@ -189637,6 +190923,12 @@
     "vin": [
       {
         "document": "AIXEM-EXAMPLE-BASIC-001",
+        "weight": 1
+      }
+    ],
+    "violate": [
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 1
       }
     ],
@@ -190654,6 +191946,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       },
@@ -190822,6 +192118,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SCHEM-VISUAL-001",
         "weight": 1
       },
@@ -190858,6 +192158,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-RENDERER-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-START-INTRO-001",
         "weight": 1
       },
@@ -190879,11 +192183,11 @@
     "whitespace": [
       {
         "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
-        "weight": 2
+        "weight": 3
       },
       {
         "document": "AIXEM-SCHEM-PLACEMENT-001",
-        "weight": 1
+        "weight": 2
       },
       {
         "document": "AIXEM-SCHEM-VISUAL-001",
@@ -191151,6 +192455,10 @@
       },
       {
         "document": "AIXEM-FORMAT-AIXEM-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-FORMAT-AIXLAYOUT-001",
         "weight": 1
       },
       {
@@ -192031,6 +193339,10 @@
       },
       {
         "document": "AIXEM-AGENT-VALIDATION-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 1
       },
       {

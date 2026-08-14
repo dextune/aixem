@@ -88,6 +88,18 @@ Use `G=2.5 mm` for legal origins, `P=5 mm` for ordinary spacing rhythm, and `M=1
 11. Refine locally in this order: collision, grid, whitespace, crossings, endpoint alignment, repeated rhythm, area.
 12. Write the selected legal placements, then render and validate.
 
+### 9.1 Resize an Existing Component Instance Safely
+
+1. Preserve the placement `entity`, component type, presentation binding, semantic ports, and net membership. Resize is presentation-only.
+2. Set `scaleX` and `scaleY` to the same finite positive factor. Do not stretch a schematic symbol by changing one axis independently.
+3. Use `mirrorX` / `mirrorY` for reflection; do not encode reflection with negative scale.
+4. Re-resolve the component through the renderer. Mapped semantic ports move with the placement matrix, and route sides bound by endpoint reference follow the transformed port automatically.
+5. Keep explicit route `via` points unchanged until validation proves they are still legal. Never silently drag authored bends merely because the component changed size.
+6. If endpoint-axis, grid, orthogonality, collision, field, or whitespace checks fail, edit only the affected placement/routing geometry and rerun validation. Do not change semantic connectivity to make geometry easier.
+7. Render again and retain the before/after coordinates and validation evidence.
+
+Use unit scale when no resize is required. Choose a scale factor because the drawing needs it, not to compensate for an incorrectly authored library symbol; library geometry problems belong in the library/symbol authoring workflow.
+
 ## 10. Canonical Reference Table
 
 | Document | Stable ID | Why this task needs it | Role |
@@ -114,7 +126,7 @@ Stop when semantics are incomplete, a desired relationship exists only in a name
 
 ## 14. Common Mistakes
 
-Do not optimize compactness first, move valid neighbors automatically, infer decoupling from capacitance alone, treat capability as active function, create pair semantics from `D+`/`D-` names alone, or use JSON/filesystem order as a tie-break.
+Do not optimize compactness first, move valid neighbors automatically, stretch schematic symbols with unequal `scaleX` / `scaleY`, encode reflection with negative scale, infer decoupling from capacitance alone, treat capability as active function, create pair semantics from `D+`/`D-` names alone, or use JSON/filesystem order as a tie-break.
 
 ## 15. Evidence / Outputs
 

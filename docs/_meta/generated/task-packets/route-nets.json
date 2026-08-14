@@ -74,8 +74,8 @@
       "section": "0-5-1-complete-branch-and-crossing-pattern"
     },
     {
-      "bytes": 9360,
-      "digest": "sha256:b98490ebabd6639be7f46616567655a16386d62d196f846f67a15751a6315d77",
+      "bytes": 10742,
+      "digest": "sha256:7600ff45f08ef374ee2a15d2f5b3980e8b925b97a6948861d626c70333340f08",
       "document": "AIXEM-FORMAT-AIXLAYOUT-001",
       "order": 7,
       "path": "docs/file-formats/aixlayout.md",

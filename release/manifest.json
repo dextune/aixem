@@ -102,8 +102,8 @@
       "path": "docs/_meta/generated/dependency-graph.json"
     },
     {
-      "bytes": 590375,
-      "digest": "sha256:7aac79e1fa3f9035da8b26515656d78611c31fe4b73bc1b0ff98469dcf68f382",
+      "bytes": 591301,
+      "digest": "sha256:f19f39e63f682785372208711e8925ff4383597d91074c50981758561243dbae",
       "path": "docs/_meta/generated/document-index.json"
     },
     {
@@ -112,13 +112,13 @@
       "path": "docs/_meta/generated/document-relationship-audit.json"
     },
     {
-      "bytes": 4121968,
-      "digest": "sha256:c26b59dc75006de65e6bb5a8b7c426826985ba6c7460dc022adfb3007fb04431",
+      "bytes": 4150299,
+      "digest": "sha256:79aff311230753f190c5b6b6026ef6a12e3734986f194816e1826cfb551ff395",
       "path": "docs/_meta/generated/inverted-index.json"
     },
     {
-      "bytes": 47676,
-      "digest": "sha256:9e225cdbd4183030664147827413e4a425924c44926ea30a3ad343bfbfda3c18",
+      "bytes": 47677,
+      "digest": "sha256:1a08829797167ff0f8f1ff169c890f7017fe57e23c1c92a846d9562831924e98",
       "path": "docs/_meta/generated/manifest.json"
     },
     {
@@ -127,23 +127,23 @@
       "path": "docs/_meta/generated/path-migration-index.json"
     },
     {
-      "bytes": 211506,
-      "digest": "sha256:a24dda838961d3959c661269536b1f204d1b9f755600a1e1ba7af14b72bb7f51",
+      "bytes": 211507,
+      "digest": "sha256:6b9c15669976ee433c4d2a46e1b49b696a83e3a6670ca29f02644f8496f3152e",
       "path": "docs/_meta/generated/repository-document-inventory.json"
     },
     {
       "bytes": 307632,
-      "digest": "sha256:7c4880e1ef664268dbfae6643812bc76dccd17ea0651b0f2175ee39fa1b6961e",
+      "digest": "sha256:b7744d27acabe49e7e5578e623ad96f933a502f8882e1a4ac55d1f2f319af09c",
       "path": "docs/_meta/generated/requirement-traceability.json"
     },
     {
-      "bytes": 95279,
-      "digest": "sha256:426aef9cfdf8fa0312dd58bb26149ba75ce4037445eb5d5a638bd9d18e5b6dd5",
+      "bytes": 95281,
+      "digest": "sha256:409194be2480c29d354e4786166d7875c83e349b86f49bced3bfb3f3266660f4",
       "path": "docs/_meta/generated/route-index.json"
     },
     {
       "bytes": 3976,
-      "digest": "sha256:a35c0955a4be861cf071dd2a5b9613e74d1ab82583a280b5f9f06c6c9671920b",
+      "digest": "sha256:daf2992a7d40a3916dd7ac9ab1783a535cc1fac3700e544b63291af3a8b9592d",
       "path": "docs/_meta/generated/task-packet-index.json"
     },
     {
@@ -167,8 +167,8 @@
       "path": "docs/_meta/generated/task-packets/compose-project.json"
     },
     {
-      "bytes": 5425,
-      "digest": "sha256:b41c4a10017c9f5d10fcbd832608836937e9d1c844c5e2bf422b6e7eeca17d49",
+      "bytes": 5426,
+      "digest": "sha256:0051169d818e39fbc305f7f67b2e1c05d51669d00dfbbf55b0f55a9bf1d808d3",
       "path": "docs/_meta/generated/task-packets/create-schematic.json"
     },
     {
@@ -198,12 +198,12 @@
     },
     {
       "bytes": 5245,
-      "digest": "sha256:ac8a803c861e607d57480fa75616bb92fcbd73b208a3132e8215ab1401a284f8",
+      "digest": "sha256:b5ada3306bb1a7d4d65ecb5e18d111d7ec0d75a7b822009c87bad1ca41054195",
       "path": "docs/_meta/generated/task-packets/render-review.json"
     },
     {
-      "bytes": 4946,
-      "digest": "sha256:9748012a55150e06a7e557e3ab473b32ac8a3b7ae9e0e2fbbe73d1d9e5407ac4",
+      "bytes": 4947,
+      "digest": "sha256:ca9db3e178b206b36da5ca255367ab429424d6b15c7ef551b5e8562a0d69f7e6",
       "path": "docs/_meta/generated/task-packets/route-nets.json"
     },
     {
@@ -218,12 +218,12 @@
     },
     {
       "bytes": 5583,
-      "digest": "sha256:a9612868714627ae5b20a1bcff7d24a599729cb41c61e63a5c798c0b7f2ff9bf",
+      "digest": "sha256:cab524ed3ceded1cd9a6c352d07b2f278c249dfe02171855553f48f1f263e717",
       "path": "docs/_meta/generated/task-packets/validate-project.json"
     },
     {
       "bytes": 4730,
-      "digest": "sha256:a4c8805a6a5d6d04b3121eb9a5edb4c950eabf66dcbb74d254af45a95c0bc0b7",
+      "digest": "sha256:8f1bfb306679fac935da4370ee210022a2de5f0e63d543bec9e8bcf0c103258f",
       "path": "docs/_meta/generated/task-packets/validate-symbol-expressiveness.json"
     },
     {
@@ -522,8 +522,8 @@
       "path": "docs/authoring/guides/modify-existing-schematic.md"
     },
     {
-      "bytes": 6675,
-      "digest": "sha256:0baad0fe39a448521e116c3ca8ac43becd0eeadbb4ae34c4868480ff14e1279c",
+      "bytes": 8089,
+      "digest": "sha256:47c2f7498ca74ea94451de985aeb17182a8123eec019e912a58635eb56058e42",
       "path": "docs/authoring/guides/place-components.md"
     },
     {
@@ -692,8 +692,8 @@
       "path": "docs/file-formats/aixem.md"
     },
     {
-      "bytes": 9360,
-      "digest": "sha256:b98490ebabd6639be7f46616567655a16386d62d196f846f67a15751a6315d77",
+      "bytes": 10742,
+      "digest": "sha256:7600ff45f08ef374ee2a15d2f5b3980e8b925b97a6948861d626c70333340f08",
       "path": "docs/file-formats/aixlayout.md"
     },
     {
@@ -902,8 +902,8 @@
       "path": "docs/schematic/junctions.md"
     },
     {
-      "bytes": 5879,
-      "digest": "sha256:2fbe4de3040dcbf42a82b80427ce2986dda4e972c69c46cf74c1373489ad5290",
+      "bytes": 6752,
+      "digest": "sha256:ce45176206c7aac3ffcd46a15c75d351be58ea4f4c79a085f6c31ba0e74d3b30",
       "path": "docs/schematic/placement.md"
     },
     {
@@ -1032,8 +1032,8 @@
       "path": "docs/specifications/layout/hierarchical-sheet-port-contract.md"
     },
     {
-      "bytes": 5791,
-      "digest": "sha256:67ce5b85ff3630f13bcaf3a2e29f623fdfa16a6d1c523fdafb0ab9cea92e0f98",
+      "bytes": 6704,
+      "digest": "sha256:4bf1dc483ad29b0eb264993081b1f339fae159e3b878c0241dd6826656542fd8",
       "path": "docs/specifications/layout/layout-contract.md"
     },
     {
@@ -1047,8 +1047,8 @@
       "path": "docs/specifications/project/project-lock-contract.md"
     },
     {
-      "bytes": 11782,
-      "digest": "sha256:8843908e7bb5164f14a9b9877163529b67c2765d29fcd6c8f440eb653b180152",
+      "bytes": 12881,
+      "digest": "sha256:f71cdcd7b6c81fad7d0411dc8609a20a295b795d3eca3ea73a6e7bd8d989be14",
       "path": "docs/specifications/renderer/renderer-contract.md"
     },
     {
@@ -2042,8 +2042,8 @@
       "path": "implementation/schematic/project_routing.py"
     },
     {
-      "bytes": 46808,
-      "digest": "sha256:178b300c91a268222cd0bd2b720b3532a6ff9b808371093acd3e96054fb26ab9",
+      "bytes": 47812,
+      "digest": "sha256:dc8783426534183110a814083c8cb008105700323192e47b97d8094ec68a2e4a",
       "path": "implementation/schematic/render_project.py"
     },
     {
@@ -2348,7 +2348,7 @@
     },
     {
       "bytes": 1956,
-      "digest": "sha256:afcb25ac312b2c2f43a01f1dbf97c274e594598b4e91aaf1d097f219a8c2d721",
+      "digest": "sha256:77a098768452cf2dead6b731aeadfb3e8e5eee7cecd0c348773a9a6f7036d3b4",
       "path": "reference/cards/authoring/guides/place-components.aixcard.json"
     },
     {
@@ -2517,8 +2517,8 @@
       "path": "reference/cards/file-formats/aixem.aixcard.json"
     },
     {
-      "bytes": 1665,
-      "digest": "sha256:0c15a9c0b07ae03f1f492a3c68a4a87b39c02bb58364bc404544989d239267c0",
+      "bytes": 1666,
+      "digest": "sha256:23608d050719d2c57a24db4288ba6997e02dbdf45d1bbd384b2102ea9258ed2b",
       "path": "reference/cards/file-formats/aixlayout.aixcard.json"
     },
     {
@@ -2728,7 +2728,7 @@
     },
     {
       "bytes": 1757,
-      "digest": "sha256:6e84fc605b47b119a4dddaef8e317a1bbc24b047776901459cfb0c6021d0f98d",
+      "digest": "sha256:3e51065daca1c6bc00a92ddb172ac280d3b2811bc5ed4ed3f8d24a4a66710a7e",
       "path": "reference/cards/schematic/placement.aixcard.json"
     },
     {
@@ -2853,7 +2853,7 @@
     },
     {
       "bytes": 2043,
-      "digest": "sha256:1458b4af792e4a0570f4d442291171f4c0be505b7cbc10c149a551ad37a80acc",
+      "digest": "sha256:b0a4e45dff507b3bc3bf916bad8d58e9431a9aa8ddc0b7321312f09fa566b702",
       "path": "reference/cards/specifications/layout/layout-contract.aixcard.json"
     },
     {
@@ -2873,7 +2873,7 @@
     },
     {
       "bytes": 3016,
-      "digest": "sha256:10ca4531bc1d9e8f38504adecf01b1ba0e8c54217d0c9ef7d7698a184898f166",
+      "digest": "sha256:8f1a6c0bf436de234dcde3a9a40515bb097d68d20c30a31d099dfadcdd54e057",
       "path": "reference/cards/specifications/renderer/renderer-contract.aixcard.json"
     },
     {
@@ -3087,13 +3087,13 @@
       "path": "reference/indexes/dependency-graph.json"
     },
     {
-      "bytes": 4121968,
-      "digest": "sha256:c26b59dc75006de65e6bb5a8b7c426826985ba6c7460dc022adfb3007fb04431",
+      "bytes": 4150299,
+      "digest": "sha256:79aff311230753f190c5b6b6026ef6a12e3734986f194816e1826cfb551ff395",
       "path": "reference/indexes/inverted-index.json"
     },
     {
       "bytes": 40541,
-      "digest": "sha256:9872269b72e7ae60cecab82c2e6197315d0903017b044f3c8311ac969d855e8d",
+      "digest": "sha256:1b517cdb2c77128ad666af8f4f083ff87bfb14265d7f0b3684814cbad3fbee93",
       "path": "reference/indexes/manifest.aixmanifest.json"
     },
     {
@@ -3317,8 +3317,8 @@
       "path": "site/assets/data/dependency-graph.json"
     },
     {
-      "bytes": 590375,
-      "digest": "sha256:7aac79e1fa3f9035da8b26515656d78611c31fe4b73bc1b0ff98469dcf68f382",
+      "bytes": 591301,
+      "digest": "sha256:f19f39e63f682785372208711e8925ff4383597d91074c50981758561243dbae",
       "path": "site/assets/data/document-index.json"
     },
     {
@@ -3327,13 +3327,13 @@
       "path": "site/assets/data/document-relationship-audit.json"
     },
     {
-      "bytes": 4121968,
-      "digest": "sha256:c26b59dc75006de65e6bb5a8b7c426826985ba6c7460dc022adfb3007fb04431",
+      "bytes": 4150299,
+      "digest": "sha256:79aff311230753f190c5b6b6026ef6a12e3734986f194816e1826cfb551ff395",
       "path": "site/assets/data/inverted-index.json"
     },
     {
-      "bytes": 47676,
-      "digest": "sha256:9e225cdbd4183030664147827413e4a425924c44926ea30a3ad343bfbfda3c18",
+      "bytes": 47677,
+      "digest": "sha256:1a08829797167ff0f8f1ff169c890f7017fe57e23c1c92a846d9562831924e98",
       "path": "site/assets/data/manifest.json"
     },
     {
@@ -3342,23 +3342,23 @@
       "path": "site/assets/data/path-migration-index.json"
     },
     {
-      "bytes": 211506,
-      "digest": "sha256:a24dda838961d3959c661269536b1f204d1b9f755600a1e1ba7af14b72bb7f51",
+      "bytes": 211507,
+      "digest": "sha256:6b9c15669976ee433c4d2a46e1b49b696a83e3a6670ca29f02644f8496f3152e",
       "path": "site/assets/data/repository-document-inventory.json"
     },
     {
       "bytes": 307632,
-      "digest": "sha256:7c4880e1ef664268dbfae6643812bc76dccd17ea0651b0f2175ee39fa1b6961e",
+      "digest": "sha256:b7744d27acabe49e7e5578e623ad96f933a502f8882e1a4ac55d1f2f319af09c",
       "path": "site/assets/data/requirement-traceability.json"
     },
     {
-      "bytes": 95279,
-      "digest": "sha256:426aef9cfdf8fa0312dd58bb26149ba75ce4037445eb5d5a638bd9d18e5b6dd5",
+      "bytes": 95281,
+      "digest": "sha256:409194be2480c29d354e4786166d7875c83e349b86f49bced3bfb3f3266660f4",
       "path": "site/assets/data/route-index.json"
     },
     {
       "bytes": 3976,
-      "digest": "sha256:a35c0955a4be861cf071dd2a5b9613e74d1ab82583a280b5f9f06c6c9671920b",
+      "digest": "sha256:daf2992a7d40a3916dd7ac9ab1783a535cc1fac3700e544b63291af3a8b9592d",
       "path": "site/assets/data/task-packet-index.json"
     },
     {
@@ -3517,8 +3517,8 @@
       "path": "site/assets/schemas/viewer/aixem-viewer-model-1.schema.json"
     },
     {
-      "bytes": 124292,
-      "digest": "sha256:a9be09bcf262d58a6de22b2513d45c3bb8a57af0a80500067c8a39f31e12c4f3",
+      "bytes": 124493,
+      "digest": "sha256:b5029b21dc9a748d3695b34acf9010b26794fa502008ac1219ed264ed7ef485a",
       "path": "site/assets/search-data.js"
     },
     {
@@ -3562,8 +3562,8 @@
       "path": "site/authoring/guides/modify-existing-schematic.html"
     },
     {
-      "bytes": 28000,
-      "digest": "sha256:67194bdb16d0303a088e91c8e79ffd1f27481dcb603b47a3f8e8f4b73defe9bf",
+      "bytes": 29868,
+      "digest": "sha256:73c81e32272ff8b76978c65a21740f0c0021a1d21d2f81598bc7fd41a8c964e8",
       "path": "site/authoring/guides/place-components.html"
     },
     {
@@ -3737,8 +3737,8 @@
       "path": "site/file-formats/aixem.html"
     },
     {
-      "bytes": 31800,
-      "digest": "sha256:fc7497c76ed27729bffbd879ca9872adaeaa3d5e0b146fbb5dd8638c14ca1b14",
+      "bytes": 33439,
+      "digest": "sha256:d50c7c1489904e6e231d6f2d8ec929a7b9d5346de09154357426d42bc5436f25",
       "path": "site/file-formats/aixlayout.html"
     },
     {
@@ -3833,7 +3833,7 @@
     },
     {
       "bytes": 16490,
-      "digest": "sha256:1e7df7515254f7bb992c7b09b6ceb0933c1cc77579779985a6435ae2c9e40aec",
+      "digest": "sha256:304a591e0ae57be0ad90f8ddaee4fafdd735cb269a1c69d6f30a98735bb6d1cd",
       "path": "site/reference-explorer.html"
     },
     {
@@ -3962,8 +3962,8 @@
       "path": "site/schematic/junctions.html"
     },
     {
-      "bytes": 25046,
-      "digest": "sha256:b618f14ffe915fea42376a849072d8f49b9e03ce2258f9806e12c066e87a37d7",
+      "bytes": 26184,
+      "digest": "sha256:3af876620ea2e60440a7673f11241a6862af89efb88a3883540bf1c83ad8c1a4",
       "path": "site/schematic/placement.html"
     },
     {
@@ -4092,8 +4092,8 @@
       "path": "site/specifications/layout/hierarchical-sheet-port-contract.html"
     },
     {
-      "bytes": 24316,
-      "digest": "sha256:eb465033fee93ce14c1e4ec1d90b1dcc4ebe9e06468fe215d925ed1f648cee37",
+      "bytes": 25575,
+      "digest": "sha256:4fdfcada5470c9b3606a7941a4a28f8a61abb38c555ea135aa194699e5cf05b8",
       "path": "site/specifications/layout/layout-contract.html"
     },
     {
@@ -4107,8 +4107,8 @@
       "path": "site/specifications/project/project-lock-contract.html"
     },
     {
-      "bytes": 32094,
-      "digest": "sha256:d17433848d3939377c23f458a909bb919de076b0940b95c8ebb62eb91778062f",
+      "bytes": 33546,
+      "digest": "sha256:5e3288feef17cb9239abe61bb6133c190402b8806800cca812f7e41252ad4722",
       "path": "site/specifications/renderer/renderer-contract.html"
     },
     {
@@ -4517,8 +4517,8 @@
       "path": "tests/docs/test_hierarchical_authoring_routes.py"
     },
     {
-      "bytes": 5921,
-      "digest": "sha256:22cb1ac4881d173cada7784c8a778324236cc69ba0427abd38e9a7494b44a9e7",
+      "bytes": 11734,
+      "digest": "sha256:f0cce67fcaa6ef6ec1c0ec3f88a9f5016b9b8270f20db35e82dc2b7b621c852b",
       "path": "tests/docs/test_renderer_contract.py"
     },
     {
@@ -15472,8 +15472,8 @@
       "path": "validation/test-results-preflight-shard-1.json"
     },
     {
-      "bytes": 51501,
-      "digest": "sha256:db3f9e866de3e2647966f6ca0be0897935da325038925f0facd3a00efc338bb5",
+      "bytes": 35661,
+      "digest": "sha256:11359bd39b57645f2e262d6c3e7d205fbca1913c1e86261ae745d55ad2846e17",
       "path": "validation/test-results.json"
     }
   ],
@@ -15482,6 +15482,6 @@
   "hashAlgorithm": "SHA-256",
   "release": "AIXEM-SRP-0.5.9-2026-08-12",
   "schema": "https://schemas.aixem.org/release/manifest/1",
-  "totalBytes": 80274222,
+  "totalBytes": 80365293,
   "version": "0.5.9"
 }

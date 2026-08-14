@@ -27,7 +27,7 @@
       "path": "docs/_meta/generated/task-packets/compose-project.json"
     },
     {
-      "digest": "sha256:b41c4a10017c9f5d10fcbd832608836937e9d1c844c5e2bf422b6e7eeca17d49",
+      "digest": "sha256:0051169d818e39fbc305f7f67b2e1c05d51669d00dfbbf55b0f55a9bf1d808d3",
       "id": "create-schematic",
       "kind": "simple",
       "path": "docs/_meta/generated/task-packets/create-schematic.json"
@@ -63,13 +63,13 @@
       "path": "docs/_meta/generated/task-packets/publish-release.json"
     },
     {
-      "digest": "sha256:ac8a803c861e607d57480fa75616bb92fcbd73b208a3132e8215ab1401a284f8",
+      "digest": "sha256:b5ada3306bb1a7d4d65ecb5e18d111d7ec0d75a7b822009c87bad1ca41054195",
       "id": "render-review",
       "kind": "simple",
       "path": "docs/_meta/generated/task-packets/render-review.json"
     },
     {
-      "digest": "sha256:9748012a55150e06a7e557e3ab473b32ac8a3b7ae9e0e2fbbe73d1d9e5407ac4",
+      "digest": "sha256:ca9db3e178b206b36da5ca255367ab429424d6b15c7ef551b5e8562a0d69f7e6",
       "id": "route-nets",
       "kind": "simple",
       "path": "docs/_meta/generated/task-packets/route-nets.json"
@@ -87,13 +87,13 @@
       "path": "docs/_meta/generated/task-packets/validate-live-agent-authoring.json"
     },
     {
-      "digest": "sha256:a9612868714627ae5b20a1bcff7d24a599729cb41c61e63a5c798c0b7f2ff9bf",
+      "digest": "sha256:cab524ed3ceded1cd9a6c352d07b2f278c249dfe02171855553f48f1f263e717",
       "id": "validate-project",
       "kind": "simple",
       "path": "docs/_meta/generated/task-packets/validate-project.json"
     },
     {
-      "digest": "sha256:a4c8805a6a5d6d04b3121eb9a5edb4c950eabf66dcbb74d254af45a95c0bc0b7",
+      "digest": "sha256:8f1bfb306679fac935da4370ee210022a2de5f0e63d543bec9e8bcf0c103258f",
       "id": "validate-symbol-expressiveness",
       "kind": "simple",
       "path": "docs/_meta/generated/task-packets/validate-symbol-expressiveness.json"

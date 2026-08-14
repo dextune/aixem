@@ -14,6 +14,7 @@ sys.path.insert(0, str(ROOT / "implementation" / "schematic"))
 
 from authoring_validation import AUTHORING, SCHEMA_ROOT, validate_renderer_contract_examples  # noqa: E402
 from component_core import ProjectRenderer, sha256_file  # noqa: E402
+from render_project import GridProjectRenderer  # noqa: E402
 
 
 def read_json(path: Path):
@@ -44,6 +45,17 @@ def relock_symbol(project_root: Path, library_path: Path, symbol_path: Path) -> 
     relock_library(project_root, library_path)
 
 
+def relock_layout(project_root: Path, layout_path: Path) -> None:
+    project_path = project_root / "project.aixproj.json"
+    project = read_json(project_path)
+    expected_path = layout_path.relative_to(project_root).as_posix()
+    layout_ref = project["project"]["layout"]
+    if layout_ref["path"] != expected_path:
+        raise AssertionError(f"project layout path {layout_ref['path']} != {expected_path}")
+    layout_ref["digest"] = sha256_file(layout_path)
+    write_json(project_path, project)
+
+
 class RendererContractTests(unittest.TestCase):
     def test_variant_and_parameter_precedence(self) -> None:
         result = validate_renderer_contract_examples()
@@ -70,6 +82,101 @@ class RendererContractTests(unittest.TestCase):
         self.assertEqual(binding.presentation["portMap"], {"in": "p-left", "out": "p-right"})
         self.assertEqual(set(binding.port_positions), {"in", "out"})
         self.assertTrue(all(value is not None for value in binding.port_positions.values()))
+
+    def test_schematic_uniform_scaling_rebinds_route_endpoint(self) -> None:
+        source = AUTHORING / "01-two-pin-passive"
+        baseline = GridProjectRenderer(source / "project.aixproj.json", SCHEMA_ROOT)
+        baseline_route = baseline.layout["connections"][0]["paths"][0]
+        baseline_start = baseline._resolve_route_end(baseline_route["from"])
+
+        with tempfile.TemporaryDirectory(prefix="aixem-uniform-scale-") as temporary:
+            root = Path(temporary) / "project"
+            shutil.copytree(source, root)
+            layout_path = root / "two_pin_passive.aixlayout.json"
+            layout = read_json(layout_path)
+            placement = next(item for item in layout["layout"]["placements"] if item["entity"] == "R1")
+            placement["scaleX"] = 1.5
+            placement["scaleY"] = 1.5
+            write_json(layout_path, layout)
+            relock_layout(root, layout_path)
+
+            scaled = GridProjectRenderer(root / "project.aixproj.json", SCHEMA_ROOT)
+            route = scaled.layout["connections"][0]["paths"][0]
+            scaled_start = scaled._resolve_route_end(route["from"])
+            self.assertEqual(scaled_start, scaled.bindings["R1"].port_positions["2"])
+            self.assertNotEqual(scaled_start, baseline_start)
+            origin_x = float(placement["x"])
+            self.assertAlmostEqual(scaled_start[0] - origin_x, (baseline_start[0] - origin_x) * 1.5)
+            self.assertAlmostEqual(scaled_start[1], baseline_start[1])
+            svg, _scene = scaled.build_svg()
+            self.assertIn('data-entity="R1"', svg)
+
+    def test_grid_renderer_rejects_nonuniform_or_negative_scale_without_restricting_core_affine_support(self) -> None:
+        source = AUTHORING / "01-two-pin-passive"
+        with tempfile.TemporaryDirectory(prefix="aixem-scale-policy-") as temporary:
+            root = Path(temporary) / "project"
+            shutil.copytree(source, root)
+            layout_path = root / "two_pin_passive.aixlayout.json"
+            layout = read_json(layout_path)
+            placement = next(item for item in layout["layout"]["placements"] if item["entity"] == "R1")
+            placement["scaleX"] = 1.5
+            placement["scaleY"] = 1.0
+            write_json(layout_path, layout)
+            relock_layout(root, layout_path)
+
+            core = ProjectRenderer(root / "project.aixproj.json", SCHEMA_ROOT)
+            self.assertEqual(core.bindings["R1"].placement["scaleX"], 1.5)
+            with self.assertRaisesRegex(Exception, "uniform component scaling"):
+                GridProjectRenderer(root / "project.aixproj.json", SCHEMA_ROOT)
+
+            layout = read_json(layout_path)
+            placement = next(item for item in layout["layout"]["placements"] if item["entity"] == "R1")
+            placement["scaleX"] = -1.0
+            placement["scaleY"] = -1.0
+            write_json(layout_path, layout)
+            relock_layout(root, layout_path)
+            with self.assertRaisesRegex(Exception, "finite positive uniform component scaling"):
+                GridProjectRenderer(root / "project.aixproj.json", SCHEMA_ROOT)
+
+    def test_scaled_endpoint_keeps_explicit_vias_authored_and_fails_closed_until_rerouted(self) -> None:
+        source = AUTHORING / "01-two-pin-passive"
+        with tempfile.TemporaryDirectory(prefix="aixem-scale-reroute-") as temporary:
+            root = Path(temporary) / "project"
+            shutil.copytree(source, root)
+            layout_path = root / "two_pin_passive.aixlayout.json"
+
+            baseline = GridProjectRenderer(root / "project.aixproj.json", SCHEMA_ROOT)
+            baseline_route = baseline.layout["connections"][0]["paths"][0]
+            start = baseline._resolve_route_end(baseline_route["from"])
+            end = baseline._resolve_route_end(baseline_route["to"])
+
+            layout = read_json(layout_path)
+            route = layout["layout"]["connections"][0]["paths"][0]
+            escape_y = start[1] + 5.0
+            route["via"] = [[start[0], escape_y], [end[0], escape_y]]
+            write_json(layout_path, layout)
+            relock_layout(root, layout_path)
+            GridProjectRenderer(root / "project.aixproj.json", SCHEMA_ROOT)
+
+            layout = read_json(layout_path)
+            placement = next(item for item in layout["layout"]["placements"] if item["entity"] == "R1")
+            placement["scaleX"] = 1.5
+            placement["scaleY"] = 1.5
+            write_json(layout_path, layout)
+            relock_layout(root, layout_path)
+
+            core = ProjectRenderer(root / "project.aixproj.json", SCHEMA_ROOT)
+            moved_start = core.bindings["R1"].port_positions["2"]
+            with self.assertRaisesRegex(Exception, "orthogonal routes"):
+                GridProjectRenderer(root / "project.aixproj.json", SCHEMA_ROOT)
+
+            layout = read_json(layout_path)
+            route = layout["layout"]["connections"][0]["paths"][0]
+            route["via"][0][0] = moved_start[0]
+            write_json(layout_path, layout)
+            relock_layout(root, layout_path)
+            repaired = GridProjectRenderer(root / "project.aixproj.json", SCHEMA_ROOT)
+            self.assertEqual(repaired._resolve_route_end(route["from"]), moved_start)
 
     def test_fail_closed_binding_cases(self) -> None:
         source = AUTHORING / "05-field-and-port-binding"

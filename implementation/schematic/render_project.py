@@ -78,6 +78,26 @@ class GridProjectRenderer(CoreProjectRenderer):
     def _validate_semantics_and_layout(self) -> None:
         super()._validate_semantics_and_layout()
         snap = float(self.style_profile["grid"]["snap"])
+        scale_issues: list[str] = []
+        for placement in self.layout["placements"]:
+            entity = placement["entity"]
+            scale_x = float(placement.get("scaleX", 1.0))
+            scale_y = float(placement.get("scaleY", 1.0))
+            if not math.isfinite(scale_x) or not math.isfinite(scale_y) or scale_x <= 0 or scale_y <= 0:
+                scale_issues.append(
+                    f"{entity}: scaleX={scale_x:g}, scaleY={scale_y:g} must both be finite and positive"
+                )
+                continue
+            if not math.isclose(scale_x, scale_y, rel_tol=0.0, abs_tol=1e-9):
+                scale_issues.append(
+                    f"{entity}: scaleX={scale_x:g}, scaleY={scale_y:g} must be equal for uniform component scaling"
+                )
+        if scale_issues:
+            raise AixemGraphicsError(
+                "grid schematic profile requires finite positive uniform component scaling: "
+                + "; ".join(scale_issues[:20])
+            )
+
         placement_off_grid: list[str] = []
         route_off_grid: list[str] = []
         non_orthogonal: list[str] = []

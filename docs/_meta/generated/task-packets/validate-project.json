@@ -55,8 +55,8 @@
       "section": "bounded-compatibility-precheck"
     },
     {
-      "bytes": 11782,
-      "digest": "sha256:8843908e7bb5164f14a9b9877163529b67c2765d29fcd6c8f440eb653b180152",
+      "bytes": 12881,
+      "digest": "sha256:f71cdcd7b6c81fad7d0411dc8609a20a295b795d3eca3ea73a6e7bd8d989be14",
       "document": "AIXEM-SPEC-RENDERER-001",
       "order": 5,
       "path": "docs/specifications/renderer/renderer-contract.md",
