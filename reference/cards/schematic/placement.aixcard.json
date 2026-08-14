@@ -9,7 +9,7 @@
       "component-placement"
     ],
     "domain": "schematic",
-    "estimatedReadBytes": 5879,
+    "estimatedReadBytes": 6752,
     "id": "AIXEM-SCHEM-PLACEMENT-001",
     "inputs": [],
     "keywords": [
@@ -25,7 +25,7 @@
       "generatedAt": "2026-08-12T00:00:00Z",
       "path": "reference/cards/schematic/placement.aixcard.json",
       "release": "AIXEM-SRP-0.5.9-2026-08-12",
-      "sourceDigest": "sha256:2fbe4de3040dcbf42a82b80427ce2986dda4e972c69c46cf74c1373489ad5290"
+      "sourceDigest": "sha256:ce45176206c7aac3ffcd46a15c75d351be58ea4f4c79a085f6c31ba0e74d3b30"
     },
     "outputs": [],
     "ownerArtifacts": [],

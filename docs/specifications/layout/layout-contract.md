@@ -135,6 +135,12 @@ The following requirements are normative for this release.
 - Test reference: `tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example`
 - Release evidence: `validation/evidence/requirements/AIXEM-REQ-LAYOUT-0012.json`
 
+## Instance Transform and Route-Geometry Boundary
+
+Placement scale is presentation authority. It may transform a selected symbol instance and its mapped semantic port coordinates, but it cannot change component identity, port mapping, or connectivity. The base explicit-layout schema preserves general `scaleX` / `scaleY` affine capability; the grid circuit-schematic renderer applies the narrower finite-positive-uniform policy for component instances.
+
+A route side bound by semantic endpoint reference is resolved from the current transformed port position. Explicit point endpoints and `via` coordinates remain stored geometry. Resizing a component therefore moves the referenced endpoint deterministically without rewriting authored bends. Existing grid, endpoint-axis, and orthogonality validation determines whether those bends remain legal; an Agent reroutes only the affected geometry when they do not.
+
 ## Validation and Evidence
 
 Validation is complete only when every requirement above has a current evidence record and the release traceability index resolves the document, validator, test, and evidence path.

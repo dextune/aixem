@@ -4746,7 +4746,7 @@
       "source": {
         "anchor": "AIXEM-REQ-RENDERER-0005",
         "document": "AIXEM-SPEC-RENDERER-001",
-        "line": 113,
+        "line": 119,
         "path": "docs/specifications/renderer/renderer-contract.md",
         "sitePath": "specifications/renderer/renderer-contract.html#AIXEM-REQ-RENDERER-0005"
       },
@@ -4771,7 +4771,7 @@
       "source": {
         "anchor": "AIXEM-REQ-RENDERER-0006",
         "document": "AIXEM-SPEC-RENDERER-001",
-        "line": 135,
+        "line": 141,
         "path": "docs/specifications/renderer/renderer-contract.md",
         "sitePath": "specifications/renderer/renderer-contract.html#AIXEM-REQ-RENDERER-0006"
       },

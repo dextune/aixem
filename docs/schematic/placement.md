@@ -119,6 +119,12 @@ The following requirements are normative for this release.
 ### Implementation notes
 
 - Prefer additional whitespace over diagonal routes or compressed labels. Dense pages remain readable when alignment and channels are consistent.
+- Treat component resize as an instance presentation transform, not as a new component or a semantic edit. Under the grid circuit-schematic renderer use the same finite positive value for `scaleX` and `scaleY`; use mirror flags for reflection.
+- A resized component recomputes mapped semantic-port coordinates. Endpoint-bound route sides follow those ports, while explicit route vias stay authored and must be locally rerouted if grid or orthogonality validation no longer passes.
+
+### Instance resize boundary
+
+Resizing preserves the placement `entity`, component type, selected presentation, semantic ports, and net membership. It may change symbol footprint, field positions carried by the symbol, and transformed pin anchors. Scaling is therefore reviewed together with collision, whitespace, endpoint escape, and route feasibility rather than as a cosmetic-only edit.
 
 ## Agent Placement Strategy Boundary
 

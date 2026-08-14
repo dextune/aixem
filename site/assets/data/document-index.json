@@ -3298,7 +3298,7 @@
     },
     {
       "agent": {
-        "computedEstimatedTokens": 1416,
+        "computedEstimatedTokens": 1770,
         "estimated_tokens": 1416,
         "intents": [
           "create-schematic",
@@ -3314,13 +3314,13 @@
       "authority": [
         "authoring-guide-place-components"
       ],
-      "bytes": 6675,
+      "bytes": 8089,
       "dependsOn": [
         "AIXEM-SCHEM-PLACEMENT-001",
         "AIXEM-SCHEM-GRID-001",
         "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001"
       ],
-      "digest": "sha256:0baad0fe39a448521e116c3ca8ac43becd0eeadbb4ae34c4868480ff14e1279c",
+      "digest": "sha256:47c2f7498ca74ea94451de985aeb17182a8123eec019e912a58635eb56058e42",
       "domain": "authoring",
       "headings": [
         {
@@ -3384,39 +3384,45 @@
           "text": "9. Short Execution Sequence"
         },
         {
+          "anchor": "9-1-resize-an-existing-component-instance-safely",
+          "level": 3,
+          "line": 52,
+          "text": "9.1 Resize an Existing Component Instance Safely"
+        },
+        {
           "anchor": "10-canonical-reference-table",
           "level": 2,
-          "line": 52,
+          "line": 64,
           "text": "10. Canonical Reference Table"
         },
         {
           "anchor": "11-validators-and-tools",
           "level": 2,
-          "line": 64,
+          "line": 76,
           "text": "11. Validators and Tools"
         },
         {
           "anchor": "12-completion-criteria",
           "level": 2,
-          "line": 68,
+          "line": 80,
           "text": "12. Completion Criteria"
         },
         {
           "anchor": "13-stop-fail-closed-conditions",
           "level": 2,
-          "line": 72,
+          "line": 84,
           "text": "13. Stop / Fail-Closed Conditions"
         },
         {
           "anchor": "14-common-mistakes",
           "level": 2,
-          "line": 76,
+          "line": 88,
           "text": "14. Common Mistakes"
         },
         {
           "anchor": "15-evidence-outputs",
           "level": 2,
-          "line": 80,
+          "line": 92,
           "text": "15. Evidence / Outputs"
         }
       ],
@@ -7792,7 +7798,7 @@
     },
     {
       "agent": {
-        "computedEstimatedTokens": 2125,
+        "computedEstimatedTokens": 2471,
         "estimated_tokens": 2125,
         "intents": [
           "create-schematic",
@@ -7810,11 +7816,11 @@
       "authority": [
         "aixlayout-format"
       ],
-      "bytes": 9360,
+      "bytes": 10742,
       "dependsOn": [
         "AIXEM-SPEC-LAYOUT-001"
       ],
-      "digest": "sha256:b98490ebabd6639be7f46616567655a16386d62d196f846f67a15751a6315d77",
+      "digest": "sha256:7600ff45f08ef374ee2a15d2f5b3980e8b925b97a6948861d626c70333340f08",
       "domain": "file-formats",
       "headings": [
         {
@@ -7890,21 +7896,27 @@
           "text": "Placement Fields"
         },
         {
+          "anchor": "circuit-schematic-instance-scaling",
+          "level": 4,
+          "line": 107,
+          "text": "Circuit-schematic instance scaling"
+        },
+        {
           "anchor": "connection-fields",
           "level": 3,
-          "line": 107,
+          "line": 115,
           "text": "Connection Fields"
         },
         {
           "anchor": "multi-terminal-and-crossing-example",
           "level": 3,
-          "line": 125,
+          "line": 133,
           "text": "Multi-Terminal and Crossing Example"
         },
         {
           "anchor": "topology-geometry-separation",
           "level": 3,
-          "line": 217,
+          "line": 225,
           "text": "Topology/Geometry Separation"
         }
       ],
@@ -11942,7 +11954,7 @@
     },
     {
       "agent": {
-        "computedEstimatedTokens": 1079,
+        "computedEstimatedTokens": 1297,
         "estimated_tokens": 1079,
         "intents": [
           "create-schematic",
@@ -11958,12 +11970,12 @@
       "authority": [
         "component-placement"
       ],
-      "bytes": 5879,
+      "bytes": 6752,
       "dependsOn": [
         "AIXEM-SCHEM-GRID-001",
         "AIXEM-CONCEPT-LAYOUT-001"
       ],
-      "digest": "sha256:2fbe4de3040dcbf42a82b80427ce2986dda4e972c69c46cf74c1373489ad5290",
+      "digest": "sha256:ce45176206c7aac3ffcd46a15c75d351be58ea4f4c79a085f6c31ba0e74d3b30",
       "domain": "schematic",
       "headings": [
         {
@@ -12021,21 +12033,27 @@
           "text": "Implementation notes"
         },
         {
+          "anchor": "instance-resize-boundary",
+          "level": 3,
+          "line": 71,
+          "text": "Instance resize boundary"
+        },
+        {
           "anchor": "agent-placement-strategy-boundary",
           "level": 2,
-          "line": 69,
+          "line": 75,
           "text": "Agent Placement Strategy Boundary"
         },
         {
           "anchor": "validation-and-evidence",
           "level": 2,
-          "line": 75,
+          "line": 81,
           "text": "Validation and Evidence"
         },
         {
           "anchor": "related-documents",
           "level": 2,
-          "line": 87,
+          "line": 93,
           "text": "Related Documents"
         }
       ],
@@ -15160,7 +15178,7 @@
     },
     {
       "agent": {
-        "computedEstimatedTokens": 954,
+        "computedEstimatedTokens": 1182,
         "estimated_tokens": 954,
         "intents": [
           "create-schematic",
@@ -15177,12 +15195,12 @@
       "authority": [
         "layout-serialization-contract"
       ],
-      "bytes": 5791,
+      "bytes": 6704,
       "dependsOn": [
         "AIXEM-CONCEPT-LAYOUT-001",
         "AIXEM-SPEC-COORD-001"
       ],
-      "digest": "sha256:67ce5b85ff3630f13bcaf3a2e29f623fdfa16a6d1c523fdafb0ab9cea92e0f98",
+      "digest": "sha256:4bf1dc483ad29b0eb264993081b1f339fae159e3b878c0241dd6826656542fd8",
       "domain": "specifications",
       "headings": [
         {
@@ -15240,15 +15258,21 @@
           "text": "AIXEM-REQ-LAYOUT-0012 — Explicit route geometry"
         },
         {
-          "anchor": "validation-and-evidence",
+          "anchor": "instance-transform-and-route-geometry-boundary",
           "level": 2,
           "line": 78,
+          "text": "Instance Transform and Route-Geometry Boundary"
+        },
+        {
+          "anchor": "validation-and-evidence",
+          "level": 2,
+          "line": 84,
           "text": "Validation and Evidence"
         },
         {
           "anchor": "related-documents",
           "level": 2,
-          "line": 90,
+          "line": 96,
           "text": "Related Documents"
         }
       ],
@@ -16290,7 +16314,7 @@
     },
     {
       "agent": {
-        "computedEstimatedTokens": 1970,
+        "computedEstimatedTokens": 2245,
         "estimated_tokens": 1970,
         "intents": [
           "create-symbol",
@@ -16308,13 +16332,13 @@
       "authority": [
         "renderer-resolution-contract"
       ],
-      "bytes": 11782,
+      "bytes": 12881,
       "dependsOn": [
         "AIXEM-SPEC-SYMBOL-001",
         "AIXEM-SPEC-LAYOUT-001",
         "AIXEM-SPEC-PROJECT-LOCK-001"
       ],
-      "digest": "sha256:8843908e7bb5164f14a9b9877163529b67c2765d29fcd6c8f440eb653b180152",
+      "digest": "sha256:f71cdcd7b6c81fad7d0411dc8609a20a295b795d3eca3ea73a6e7bd8d989be14",
       "domain": "specifications",
       "headings": [
         {
@@ -16384,51 +16408,57 @@
           "text": "AIXEM-REQ-RENDERER-0004 — Semantic port transform"
         },
         {
-          "anchor": "predicates-definitions-and-graphics",
+          "anchor": "circuit-schematic-instance-scaling",
           "level": 2,
           "line": 97,
+          "text": "Circuit-Schematic Instance Scaling"
+        },
+        {
+          "anchor": "predicates-definitions-and-graphics",
+          "level": 2,
+          "line": 103,
           "text": "Predicates, Definitions, and Graphics"
         },
         {
           "anchor": "style-resolution",
           "level": 2,
-          "line": 103,
+          "line": 109,
           "text": "Style Resolution"
         },
         {
           "anchor": "route-binding",
           "level": 2,
-          "line": 107,
+          "line": 113,
           "text": "Route Binding"
         },
         {
           "anchor": "fail-closed-conditions",
           "level": 2,
-          "line": 111,
+          "line": 117,
           "text": "Fail-Closed Conditions"
         },
         {
           "anchor": "aixem-req-renderer-0005-fail-closed-input-and-feature-resolution",
           "level": 3,
-          "line": 115,
+          "line": 121,
           "text": "AIXEM-REQ-RENDERER-0005 — Fail-closed input and feature resolution"
         },
         {
           "anchor": "output-contract",
           "level": 2,
-          "line": 124,
+          "line": 130,
           "text": "Output Contract"
         },
         {
           "anchor": "aixem-req-renderer-0006-deterministic-evidence-output",
           "level": 3,
-          "line": 137,
+          "line": 143,
           "text": "AIXEM-REQ-RENDERER-0006 — Deterministic evidence output"
         },
         {
           "anchor": "renderer-to-viewer-boundary",
           "level": 2,
-          "line": 146,
+          "line": 152,
           "text": "Renderer-to-Viewer Boundary"
         }
       ],
@@ -16475,14 +16505,14 @@
         {
           "anchor": "AIXEM-REQ-RENDERER-0005",
           "id": "AIXEM-REQ-RENDERER-0005",
-          "line": 113,
+          "line": 119,
           "statement": "**MUST.** The renderer MUST reject missing or mismatched locked assets, unresolved mappings, hidden mapped ports, and unsupported required features.",
           "title": "Fail-closed input and feature resolution"
         },
         {
           "anchor": "AIXEM-REQ-RENDERER-0006",
           "id": "AIXEM-REQ-RENDERER-0006",
-          "line": 135,
+          "line": 141,
           "statement": "**MUST.** Equivalent locked inputs MUST produce byte-stable SVG, resolved-scene, Viewer Model, viewer, workbench, and render-manifest outputs.",
           "title": "Deterministic evidence output"
         }

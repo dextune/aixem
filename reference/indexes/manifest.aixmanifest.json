@@ -149,7 +149,7 @@
       },
       {
         "bytes": 1956,
-        "digest": "sha256:afcb25ac312b2c2f43a01f1dbf97c274e594598b4e91aaf1d097f219a8c2d721",
+        "digest": "sha256:77a098768452cf2dead6b731aeadfb3e8e5eee7cecd0c348773a9a6f7036d3b4",
         "path": "reference/cards/authoring/guides/place-components.aixcard.json"
       },
       {
@@ -318,8 +318,8 @@
         "path": "reference/cards/file-formats/aixem.aixcard.json"
       },
       {
-        "bytes": 1665,
-        "digest": "sha256:0c15a9c0b07ae03f1f492a3c68a4a87b39c02bb58364bc404544989d239267c0",
+        "bytes": 1666,
+        "digest": "sha256:23608d050719d2c57a24db4288ba6997e02dbdf45d1bbd384b2102ea9258ed2b",
         "path": "reference/cards/file-formats/aixlayout.aixcard.json"
       },
       {
@@ -529,7 +529,7 @@
       },
       {
         "bytes": 1757,
-        "digest": "sha256:6e84fc605b47b119a4dddaef8e317a1bbc24b047776901459cfb0c6021d0f98d",
+        "digest": "sha256:3e51065daca1c6bc00a92ddb172ac280d3b2811bc5ed4ed3f8d24a4a66710a7e",
         "path": "reference/cards/schematic/placement.aixcard.json"
       },
       {
@@ -654,7 +654,7 @@
       },
       {
         "bytes": 2043,
-        "digest": "sha256:1458b4af792e4a0570f4d442291171f4c0be505b7cbc10c149a551ad37a80acc",
+        "digest": "sha256:b0a4e45dff507b3bc3bf916bad8d58e9431a9aa8ddc0b7321312f09fa566b702",
         "path": "reference/cards/specifications/layout/layout-contract.aixcard.json"
       },
       {
@@ -674,7 +674,7 @@
       },
       {
         "bytes": 3016,
-        "digest": "sha256:10ca4531bc1d9e8f38504adecf01b1ba0e8c54217d0c9ef7d7698a184898f166",
+        "digest": "sha256:8f1a6c0bf436de234dcde3a9a40515bb097d68d20c30a31d099dfadcdd54e057",
         "path": "reference/cards/specifications/renderer/renderer-contract.aixcard.json"
       },
       {
@@ -888,8 +888,8 @@
         "path": "reference/indexes/dependency-graph.json"
       },
       {
-        "bytes": 4121968,
-        "digest": "sha256:c26b59dc75006de65e6bb5a8b7c426826985ba6c7460dc022adfb3007fb04431",
+        "bytes": 4150299,
+        "digest": "sha256:79aff311230753f190c5b6b6026ef6a12e3734986f194816e1826cfb551ff395",
         "path": "reference/indexes/inverted-index.json"
       },
       {

@@ -9,7 +9,7 @@
       "layout-serialization-contract"
     ],
     "domain": "specifications",
-    "estimatedReadBytes": 5791,
+    "estimatedReadBytes": 6704,
     "id": "AIXEM-SPEC-LAYOUT-001",
     "inputs": [],
     "keywords": [
@@ -26,7 +26,7 @@
       "generatedAt": "2026-08-12T00:00:00Z",
       "path": "reference/cards/specifications/layout/layout-contract.aixcard.json",
       "release": "AIXEM-SRP-0.5.9-2026-08-12",
-      "sourceDigest": "sha256:67ce5b85ff3630f13bcaf3a2e29f623fdfa16a6d1c523fdafb0ab9cea92e0f98"
+      "sourceDigest": "sha256:4bf1dc483ad29b0eb264993081b1f339fae159e3b878c0241dd6826656542fd8"
     },
     "outputs": [],
     "ownerArtifacts": [],

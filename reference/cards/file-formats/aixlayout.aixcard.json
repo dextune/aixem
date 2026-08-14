@@ -9,7 +9,7 @@
       "aixlayout-format"
     ],
     "domain": "file-formats",
-    "estimatedReadBytes": 9360,
+    "estimatedReadBytes": 10742,
     "id": "AIXEM-FORMAT-AIXLAYOUT-001",
     "inputs": [],
     "keywords": [
@@ -27,7 +27,7 @@
       "generatedAt": "2026-08-12T00:00:00Z",
       "path": "reference/cards/file-formats/aixlayout.aixcard.json",
       "release": "AIXEM-SRP-0.5.9-2026-08-12",
-      "sourceDigest": "sha256:b98490ebabd6639be7f46616567655a16386d62d196f846f67a15751a6315d77"
+      "sourceDigest": "sha256:7600ff45f08ef374ee2a15d2f5b3980e8b925b97a6948861d626c70333340f08"
     },
     "outputs": [],
     "ownerArtifacts": [],

@@ -9,7 +9,7 @@
       "authoring-guide-place-components"
     ],
     "domain": "authoring",
-    "estimatedReadBytes": 6675,
+    "estimatedReadBytes": 8089,
     "id": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
     "inputs": [],
     "keywords": [
@@ -25,7 +25,7 @@
       "generatedAt": "2026-08-12T00:00:00Z",
       "path": "reference/cards/authoring/guides/place-components.aixcard.json",
       "release": "AIXEM-SRP-0.5.9-2026-08-12",
-      "sourceDigest": "sha256:0baad0fe39a448521e116c3ca8ac43becd0eeadbb4ae34c4868480ff14e1279c"
+      "sourceDigest": "sha256:47c2f7498ca74ea94451de985aeb17182a8123eec019e912a58635eb56058e42"
     },
     "outputs": [],
     "ownerArtifacts": [],
