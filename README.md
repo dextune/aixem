@@ -1,78 +1,213 @@
-# AIXEM Schematic Reference Platform 0.5.9
+<div align="center">
 
-AIXEM 0.5.9 hardens AI-driven schematic authoring around canonical reusable-library placement, source-or-placeholder part integrity, versioned pin semantics, bounded electrical compatibility, deterministic placement assistance, and task-oriented Agent retrieval. It preserves the verified 0.5.8.1 file-format, Renderer, Reference Viewer, hierarchy, execution-harness, and pre-live claim boundaries.
+# AIXEM
 
-## Root Entry Points
+### AI-Native Schematic Authoring Reference Platform
 
-| Role | Entry point |
+**Semantic authority · deterministic authoring · source-bound parts · Agent-first workflows**
+
+[![Version](https://img.shields.io/badge/version-0.5.9-111827?style=for-the-badge)](docs/releases/0.5.9.md)
+[![Status](https://img.shields.io/badge/status-VERIFIED-16a34a?style=for-the-badge)](validation/releases/0.5.9/final-validation.md)
+[![Clean Passes](https://img.shields.io/badge/clean%20passes-5%2F5-2563eb?style=for-the-badge)](validation/evidence/0.5.9/verification-runs/summary.json)
+[![Tests](https://img.shields.io/badge/tests-218%2F218-7c3aed?style=for-the-badge)](release/release-metadata.json)
+
+<br/>
+
+**AIXEM defines a machine-readable authority model for schematics that an AI Agent can author, place, route, render, and validate without inventing connectivity or semantic truth.**
+
+</div>
+
+---
+
+## Why AIXEM?
+
+Most schematic automation starts from graphics. AIXEM starts from **authority**.
+
+| Principle | What it means |
 |---|---|
-| Complete repository reference map | [`REFERENCE.md`](REFERENCE.md) |
-| AI or automated contributor | [`AGENTS.md`](AGENTS.md) |
-| Fast evaluator | [`START_HERE.md`](START_HERE.md) |
-| Human contributor | [`CONTRIBUTING.md`](CONTRIBUTING.md) |
-| Security reporter | [`SECURITY.md`](SECURITY.md) |
-| Canonical documentation | [`docs/index.md`](docs/index.md) |
-| Task-oriented authoring guides | [`docs/authoring/guides/index.md`](docs/authoring/guides/index.md) |
-| Reusable project library | [`library/README.md`](library/README.md) |
-| Historical plans | [`planning/README.md`](planning/README.md) |
-| Validation and evidence | [`validation/README.md`](validation/README.md) |
-| Current release note | [`docs/releases/0.5.9.md`](docs/releases/0.5.9.md) |
-| Current release verification | [`validation/releases/0.5.9/README.md`](validation/releases/0.5.9/README.md) |
+| **Semantic-first** | Connectivity comes from explicit semantic nets and stable endpoint IDs — never visual proximity. |
+| **Deterministic** | The same authoritative inputs produce the same placement guidance, render output, and validation evidence. |
+| **Source-bound** | Concrete real-world parts must be backed by provenance, otherwise they remain explicit placeholders. |
+| **Agent-native** | AI Agents navigate from task intent to bounded guides, routes, canonical specifications, validators, and evidence. |
 
-## Authoring Chain
+> **A render is not electrical truth.** AIXEM deliberately separates structural validity, part semantics, bounded compatibility, and circuit-intent review.
+
+---
+
+## Architecture at a Glance
+
+```mermaid
+flowchart LR
+    LIB[".aixlib.json\nComponent semantics"] --> BIND["Presentation binding"]
+    SYM[".aixsym.json\nSymbol graphics"] --> BIND
+    BIND --> SCH[".aixem\nEntities + semantic nets"]
+    PROJ[".aixproj.json\nProject composition"] --> SCH
+    SCH --> LAY[".aixlayout.json\nPlacement + routing"]
+    SCH --> RENDER["Deterministic renderer"]
+    LAY --> RENDER
+    RENDER --> VIEW["SVG / Reference Viewer"]
+    SCH --> VALIDATE["Validation + evidence"]
+    LAY --> VALIDATE
+```
+
+### Authority Model
+
+| Artifact | Authority |
+|---|---|
+| `.aixlib.json` | Component identity, ports, properties, provenance, presentations |
+| `.aixsym.json` | Reusable symbol geometry and visual endpoint presentation |
+| `.aixem` | Schematic entities and semantic net membership |
+| `.aixlayout.json` | Component placement and route geometry |
+| `.aixproj.json` | Multi-sheet/project composition and digest closure |
+
+Rendered SVG, Viewer state, task packets, diagnostics, placement suggestions, audits, and validation reports are **derived or evidentiary**. They do not redefine source authority.
+
+---
+
+## Agent Authoring Loop
 
 ```text
-README / START_HERE / AGENTS
-          -> REFERENCE.md
-          -> docs/authoring/guides/index.md
-          -> task-specific guide and bounded route
-          -> canonical specification
-          -> validator, render review, and evidence
+Task intent
+    ↓
+AGENTS.md / REFERENCE.md
+    ↓
+docs/authoring/guides/index.md
+    ↓
+task-specific guide + bounded route
+    ↓
+canonical specification
+    ↓
+authoritative source edit
+    ↓
+validator → render review → evidence
 ```
 
-New reusable assets belong below `library/electronics/` or `library/architecture/`. Concrete real-world parts require source-bound provenance; otherwise unresolved concrete identity remains an explicit placeholder. Existing safe legacy library paths remain readable and repairable when explicitly referenced.
+The Agent-facing guide layer covers:
 
-## Authority Boundary
+`create-library-part` · `select-library-part` · `create-schematic` · `place-components` · `route-nets` · `compose-project` · `modify-existing-schematic` · `author-component-circuit` · `render-review` · `validate-project`
 
-`.aixem`, `.aixsym.json`, `.aixlib.json`, `.aixlayout.json`, and `.aixproj.json` remain authoritative in their declared layers. Documentation indexes, task packets, placement suggestions, diagnostics, render output, Viewer artifacts, review records, relationship audits, and validation evidence remain derived or evidentiary.
+---
 
-A render PASS is structural only. Part semantic review, pin-semantic validation, bounded compatibility, and circuit-intent review are separate results.
+## 0.5.9 — Verified Authoring Hardening
 
-## Core Documentation Commands
+AIXEM 0.5.9 focuses on making AI-authored schematics **less ambiguous, more reviewable, and more deterministic** without expanding into a simulator or global auto-layout system.
 
-```bash
-python tools/docs/audit_repository_docs.py --require-redirects
-python tools/docs/validate_docs.py
-python tools/docs/build_all.py
-python tools/docs/run_tests.py
+- canonical `library/electronics/...` and `library/architecture/...` authoring structure;
+- `datasheet-backed`, `generic-template`, and `placeholder` provenance states;
+- source-bound concrete-part identity and pinout review;
+- semantic component contracts with geometry-only ID clone rejection;
+- deterministic `G / P / M = 2.5 / 5 / 10 mm` symbol and placement rhythm;
+- read-only snap and X/Y/XY placement assistance;
+- versioned `metadata.pinSemantics` for signal class, function, polarity, differential pairing, power domains, capabilities, and alternate functions;
+- conservative `PASS / WARN / ERROR / NOT_EVALUATED` electrical compatibility precheck;
+- evidence-ranked component placement and minimal-diff modification guidance;
+- bounded Agent retrieval paths and deterministic release closure.
+
+---
+
+## Verified Baseline
+
+The 0.5.9 release is marked **verified** in [`release/release-metadata.json`](release/release-metadata.json).
+
+| Verification | Result |
+|---|---:|
+| Engineering verification passes | **5 / 5** |
+| Repository tests | **218 / 218** across 29 modules |
+| Agent Evaluation 2 Tier A | **12 / 12** |
+| Agent Evaluation 3 corpus | **12 / 12** |
+| Authoring route readiness | **8 / 8** |
+| Symbol expressiveness | **30 / 30** |
+| Static 2D Block | **6 / 6** |
+| Hierarchical Project corpus | **30 / 30** |
+| Reference Viewer corpus | **18 / 18** |
+| Protected baseline records | **47 / 47** |
+| Canonical documents | **158** |
+| Normative documents | **98** |
+| Traced requirements | **262** |
+| Silent requirement gaps | **0** |
+| Documentation orphans | **0** |
+
+**Release evidence:** [`final-validation.md`](validation/releases/0.5.9/final-validation.md) · [`implementation-matrix.md`](validation/releases/0.5.9/implementation-matrix.md) · [`release-metadata.json`](release/release-metadata.json)
+
+---
+
+## Validation Means What It Says
+
+AIXEM does not collapse every check into one ambiguous `PASS`.
+
+| Result | Meaning |
+|---|---|
+| `STRUCTURAL_PASS` | Schema, binding, geometry, grid, and deterministic rendering are valid |
+| `PART_SEMANTIC_PASS` | Provenance, concrete identity, pinout/source review, and minimum semantics are complete |
+| `GENERIC_TEMPLATE_PASS` | Coherent generic component without false concrete identity |
+| `PLACEHOLDER` | Unresolved concrete identity is explicit and **not** semantic-ready |
+| `CIRCUIT_INTENT_REVIEW_PASS` | Component role, intended connections, and task-relevant use were reviewed |
+
+The bounded electrical compatibility layer does **not** claim voltage safety, timing correctness, simulation correctness, regulatory compliance, or production readiness.
+
+---
+
+## Start Here
+
+| You are... | Start with |
+|---|---|
+| **AI Agent / automated contributor** | [`AGENTS.md`](AGENTS.md) → [`REFERENCE.md`](REFERENCE.md) → [`docs/authoring/guides/index.md`](docs/authoring/guides/index.md) |
+| **Human evaluator** | [`START_HERE.md`](START_HERE.md) |
+| **Human contributor** | [`CONTRIBUTING.md`](CONTRIBUTING.md) |
+| **Reading the specification** | [`docs/index.md`](docs/index.md) |
+| **Authoring reusable parts** | [`library/README.md`](library/README.md) |
+| **Reviewing 0.5.9** | [`docs/releases/0.5.9.md`](docs/releases/0.5.9.md) |
+| **Checking release evidence** | [`validation/releases/0.5.9/README.md`](validation/releases/0.5.9/README.md) |
+
+---
+
+## Repository Map
+
+```text
+AIXEM/
+├── AGENTS.md                 # AI Agent entrypoint
+├── REFERENCE.md              # canonical repository reference map
+├── docs/                     # specifications, contracts, guides, releases
+├── library/                  # reusable authored component/symbol assets
+├── implementation/           # reference implementation
+├── tools/                    # validators, generators, release tooling
+├── examples/                 # current authoring examples and fixtures
+├── validation/               # conformance, evidence, release verification
+├── planning/                 # historical and release plans
+├── release/                  # machine-readable release metadata
+└── site/                     # generated documentation site
 ```
 
-## Full 0.5.9 Validation
+---
 
-```bash
-python tools/run_tests_059.py
-python tools/run_agent_evals_2.py
-python tools/run_agent_evals_3.py --tier-a-only
-python tools/validate_symbol_corpus.py --all --repeat 3 --emit-report
-python tools/validate_hierarchical_corpus.py --repeats 3
-python tools/validate_reference_viewer_corpus.py --repeats 3 --screenshots
-python tools/verify_release_059.py --all-passes
-python tools/package_release_059.py
+## Deliberate Boundaries
+
+AIXEM 0.5.9 intentionally stops before:
+
+- full ERC;
+- simulation binding or solver execution;
+- global automatic component placement;
+- datasheet crawling or manufacturer catalog ingestion;
+- universal lower-level parts taxonomy;
+- Viewer editing;
+- live external Tier B Agent claims.
+
+These are not missing labels on unfinished features — they are explicit architectural boundaries.
+
+```text
+externalTierBExecuted     = false
+liveExternalAgentExecuted = false
+liveClaimAuthorized       = false
 ```
 
-## 0.5.9 Hardening Scope
+---
 
-- canonical singular `library/<electronics|architecture>/...` new-artifact structure;
-- lower-kebab namespace and reusable library/symbol naming;
-- datasheet-backed, generic-template, and placeholder provenance;
-- semantic component contracts and geometry-only ID-clone rejection;
-- `G/P/M = 2.5/5/10 mm` sizing and grid authority closure;
-- deterministic, read-only placement snap and alignment assistance;
-- versioned pin semantics and source-bound semantic review;
-- conservative `PASS/WARN/ERROR/NOT_EVALUATED` compatibility precheck;
-- task-oriented guides for creation, selection, placement, modification, routing, rendering, and validation;
-- five consecutive clean verification passes and deterministic archive closure.
+<div align="center">
 
-## Deliberate Non-Goals and Claim Boundary
+### AIXEM
 
-0.5.9 does not add a full ERC engine, simulation binding or solver, global auto-layout, datasheet crawler, universal lower-level taxonomy, or Viewer editing. `externalTierBExecuted`, `liveExternalAgentExecuted`, and `liveClaimAuthorized` remain false until a named external process produces complete valid evidence.
+**A deterministic schematic authority model built for AI Agents.**
+
+<sub>Current verified release: 0.5.9 · 2026-08-12</sub>
+
+</div>
