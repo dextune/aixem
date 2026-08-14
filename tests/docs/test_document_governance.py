@@ -41,7 +41,7 @@ class DocumentGovernanceTests(unittest.TestCase):
         observed = sorted(path.name for path in ROOT.glob("*.md"))
         self.assertEqual(sorted(policy["rootMarkdownAllowlist"]), observed)
         self.assertEqual(
-            {"AGENTS.md", "README.md", "REFERENCE.md", "CHANGELOG.md", "CONTRIBUTING.md", "SECURITY.md", "NOTICE.md", "START_HERE.md"},
+            {"AGENTS.md", "README.md", "REFERENCE.md", "CHANGELOG.md", "CONTRIBUTING.md", "SECURITY.md", "NOTICE.md", "START_HERE.md", "TRADEMARKS.md"},
             set(observed),
         )
         self.assertNotIn("RELEASE_NOTES.md", observed)

@@ -85,12 +85,27 @@
   },
   "rootLinkIntegrity": {
     "errors": [],
-    "linksChecked": 129,
-    "rootDocuments": 8,
+    "linksChecked": 135,
+    "rootDocuments": 9,
     "valid": true
   },
   "rootReachability": {
     "deepestDocuments": [
+      "validation/agent-evals-2/results/summary.md",
+      "validation/agent-evals-3/cases/L001/TASK.md",
+      "validation/agent-evals-3/cases/L002/TASK.md",
+      "validation/agent-evals-3/cases/L003/TASK.md",
+      "validation/agent-evals-3/cases/L004/TASK.md",
+      "validation/agent-evals-3/cases/L005/TASK.md",
+      "validation/agent-evals-3/cases/L006/TASK.md",
+      "validation/agent-evals-3/cases/L007/TASK.md",
+      "validation/agent-evals-3/cases/L008/TASK.md",
+      "validation/agent-evals-3/cases/L009/TASK.md",
+      "validation/agent-evals-3/cases/L010/TASK.md",
+      "validation/agent-evals-3/cases/L011/TASK.md",
+      "validation/agent-evals-3/cases/L012/TASK.md",
+      "validation/agent-evals/results/summary.md",
+      "validation/agent-evals/scoring.md",
       "validation/releases/0.5.0/migration.md",
       "validation/releases/0.5.0/pass-01-canonicalization.md",
       "validation/releases/0.5.0/pass-02-agent-compiler.md",
@@ -130,10 +145,10 @@
       "validation/releases/0.5.8/implementation-matrix.md"
     ],
     "errors": [],
-    "humanAuthored": 268,
+    "humanAuthored": 269,
     "maxDepth": 4,
     "primaryEntrypoint": "README.md",
-    "reachable": 268,
+    "reachable": 269,
     "unreachable": [],
     "valid": true
   },

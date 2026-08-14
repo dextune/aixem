@@ -66,9 +66,9 @@
       "status": "active"
     },
     {
-      "bytes": 2323,
+      "bytes": 3211,
       "canonicalDocumentId": null,
-      "digest": "sha256:ed334dd13545ef4d4fe9426c47bbd80d206b00e30bed24ed934f38fd78ede5c8",
+      "digest": "sha256:201e9a471366237f1be9b798dcb8258a913b93e8b6629352992f03add91d32e6",
       "discoverabilityOwner": "repository-root-whitelist",
       "discoverable": true,
       "humanAuthored": true,
@@ -91,13 +91,15 @@
       "status": "active"
     },
     {
-      "bytes": 505,
+      "bytes": 1096,
       "canonicalDocumentId": null,
-      "digest": "sha256:4edd0b010499d7e42cadcc9368a47bb81d608df3b0463b656e50548f8c940354",
+      "digest": "sha256:bbd2f3f96f61a8f402f1937fcd33f2dfb466d42dc8556b096de5e54c739ebc99",
       "discoverabilityOwner": "repository-root-whitelist",
       "discoverable": true,
       "humanAuthored": true,
       "inboundDocumentRefs": [
+        "CONTRIBUTING.md",
+        "README.md",
         "REFERENCE.md"
       ],
       "lifecycle": "permanent",
@@ -115,9 +117,9 @@
       "status": "active"
     },
     {
-      "bytes": 4212,
+      "bytes": 7748,
       "canonicalDocumentId": null,
-      "digest": "sha256:2be8b53aa67f165b65fd8dbd55798b52354b07265ea78822fa1b8efc2cb65e71",
+      "digest": "sha256:b6c28a22211a8861e8cc91e8eb8de57dbce22741344c670b5fc1f8f4db689c78",
       "discoverabilityOwner": "repository-root-whitelist",
       "discoverable": true,
       "humanAuthored": true,
@@ -152,9 +154,9 @@
       "status": "active"
     },
     {
-      "bytes": 11977,
+      "bytes": 12067,
       "canonicalDocumentId": null,
-      "digest": "sha256:43c3f2cee965547840cd9cfa61df6bde038e7316a76d3285e3e1db5e264fc8e1",
+      "digest": "sha256:326a8c7027d653052b5f099544632007149b1c1f190be00ab85cc5d0771fbb1d",
       "discoverabilityOwner": "repository-root-whitelist",
       "discoverable": true,
       "humanAuthored": true,
@@ -188,7 +190,6 @@
       "discoverable": true,
       "humanAuthored": true,
       "inboundDocumentRefs": [
-        "README.md",
         "REFERENCE.md"
       ],
       "lifecycle": "permanent",
@@ -228,6 +229,30 @@
         "tools/verify_release_0581.py"
       ],
       "path": "START_HERE.md",
+      "release": null,
+      "role": "root-entrypoint",
+      "sourceOwner": "repository-root-whitelist",
+      "status": "active"
+    },
+    {
+      "bytes": 7102,
+      "canonicalDocumentId": null,
+      "digest": "sha256:6570bcbeb73db36747005a67fa4b938ee49748f68d2035c4d1336a45d71a20a5",
+      "discoverabilityOwner": "repository-root-whitelist",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "CONTRIBUTING.md",
+        "NOTICE.md",
+        "README.md",
+        "REFERENCE.md"
+      ],
+      "lifecycle": "permanent",
+      "machineRefs": [
+        "docs/_meta/repository-document-policy.yaml",
+        "tests/docs/test_document_governance.py"
+      ],
+      "path": "TRADEMARKS.md",
       "release": null,
       "role": "root-entrypoint",
       "sourceOwner": "repository-root-whitelist",
@@ -3836,7 +3861,6 @@
       "discoverable": true,
       "humanAuthored": true,
       "inboundDocumentRefs": [
-        "README.md",
         "REFERENCE.md"
       ],
       "lifecycle": "permanent",
@@ -4085,7 +4109,6 @@
       "discoverable": true,
       "humanAuthored": true,
       "inboundDocumentRefs": [
-        "README.md",
         "REFERENCE.md"
       ],
       "lifecycle": "permanent",
@@ -4807,6 +4830,38 @@
       "path": "validation/evidence/0.5.9/verification-runs/run-04/report.md",
       "release": "0.5.9",
       "role": "verification-run-report",
+      "sourceOwner": "validation/evidence/<version>/verification-runs/summary.json",
+      "status": "generated"
+    },
+    {
+      "bytes": 1235,
+      "canonicalDocumentId": null,
+      "digest": "sha256:16121fbd0465c806c7db6061e2bfff2ba876b3ca1a0d2b3f536cf2d16a646097",
+      "discoverabilityOwner": "validation/evidence/<version>/verification-runs/summary.json",
+      "discoverable": true,
+      "humanAuthored": false,
+      "inboundDocumentRefs": [],
+      "lifecycle": "generated",
+      "machineRefs": [],
+      "path": "validation/evidence/0.5.9/verification-runs/run-05/report.md",
+      "release": "0.5.9",
+      "role": "verification-run-report",
+      "sourceOwner": "validation/evidence/<version>/verification-runs/summary.json",
+      "status": "generated"
+    },
+    {
+      "bytes": 471,
+      "canonicalDocumentId": null,
+      "digest": "sha256:1d28fcf6188be9f7f2a53e4c54753e9a620c522350038fbce04011df52cff4ee",
+      "discoverabilityOwner": "validation/evidence/<version>/verification-runs/summary.json",
+      "discoverable": true,
+      "humanAuthored": false,
+      "inboundDocumentRefs": [],
+      "lifecycle": "generated",
+      "machineRefs": [],
+      "path": "validation/evidence/0.5.9/verification-runs/summary.md",
+      "release": null,
+      "role": "verification-run-summary",
       "sourceOwner": "validation/evidence/<version>/verification-runs/summary.json",
       "status": "generated"
     },
@@ -5804,7 +5859,6 @@
       "discoverable": true,
       "humanAuthored": true,
       "inboundDocumentRefs": [
-        "README.md",
         "REFERENCE.md",
         "START_HERE.md",
         "validation/releases/README.md"
@@ -5818,9 +5872,9 @@
       "status": "immutable"
     },
     {
-      "bytes": 151,
+      "bytes": 2261,
       "canonicalDocumentId": null,
-      "digest": "sha256:107ce1de2d463f72b73c12671e1e02c422a0239da5ce148ca0c9a8b0ceccfeff",
+      "digest": "sha256:0a1bc5eb997f79bcf484807ba7ad9a1ed45312a90bc87ba11ca2cc0ee3ed76c3",
       "discoverabilityOwner": "validation/releases/<version>/README.md",
       "discoverable": true,
       "humanAuthored": true,
@@ -5839,9 +5893,9 @@
       "status": "immutable"
     },
     {
-      "bytes": 156,
+      "bytes": 2793,
       "canonicalDocumentId": null,
-      "digest": "sha256:e1ea0a0898c799ad2e86e3d4d3042a10cdcd05524fc30d478eec9d02f287f309",
+      "digest": "sha256:b16b5818e1cfe0e42cb2b82ce9bcf405afcec6ee21e83c7915ab06f0d13b55d2",
       "discoverabilityOwner": "validation/releases/<version>/README.md",
       "discoverable": true,
       "humanAuthored": true,
@@ -5897,15 +5951,16 @@
       "legacy-explanation": 1,
       "library-entrypoint": 1,
       "planning-entrypoint": 1,
-      "root-entrypoint": 8,
+      "root-entrypoint": 9,
       "validation-entrypoint": 3,
       "validation-release-index": 11,
       "validation-report": 39,
-      "verification-run-report": 22
+      "verification-run-report": 23,
+      "verification-run-summary": 1
     },
-    "discoverable": 290,
-    "humanAuthored": 268,
-    "markdownFiles": 290,
+    "discoverable": 293,
+    "humanAuthored": 269,
+    "markdownFiles": 293,
     "orphans": 0,
     "unknownRoles": 0
   }

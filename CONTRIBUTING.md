@@ -28,6 +28,14 @@ Before creating Markdown, determine its role, existing owner, need for a new fil
 - Current canonical prose contains no release patch blocks and ends at the canonical footer.
 - All shipped textual artifacts are written in English.
 
+## Licensing and Contributions
+
+AIXEM-authored code, specifications, and documentation are licensed under the Apache License, Version 2.0 unless a file or directory states otherwise. See [`LICENSE`](LICENSE), [`NOTICE.md`](NOTICE.md), and [`TRADEMARKS.md`](TRADEMARKS.md).
+
+By intentionally submitting a contribution for inclusion in AIXEM, you agree that the contribution is submitted under the terms of the Apache License 2.0 unless you explicitly state otherwise or a separate written agreement applies, consistent with Section 5 of that license. Do not submit material that you do not have the right to contribute. Third-party material must be clearly identified together with its applicable license or permission.
+
+Contributing code or documentation does not grant rights to use the AIXEM name or official AIXEM brand assets beyond the uses permitted by the AIXEM Trademark Policy.
+
 ## Generated Products
 
 Do not hand-edit `docs/_meta/generated/`, `reference/`, `site/`, render output, or generated validation summaries as the final solution. Change the owning source or generator and rebuild.

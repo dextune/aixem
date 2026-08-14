@@ -4,7 +4,7 @@
     "release/archive-verification.json",
     "release/manifest.json"
   ],
-  "fileCount": 3092,
+  "fileCount": 3094,
   "files": [
     {
       "bytes": 29,
@@ -22,9 +22,14 @@
       "path": "CHANGELOG.md"
     },
     {
-      "bytes": 2323,
-      "digest": "sha256:ed334dd13545ef4d4fe9426c47bbd80d206b00e30bed24ed934f38fd78ede5c8",
+      "bytes": 3211,
+      "digest": "sha256:201e9a471366237f1be9b798dcb8258a913b93e8b6629352992f03add91d32e6",
       "path": "CONTRIBUTING.md"
+    },
+    {
+      "bytes": 11357,
+      "digest": "sha256:c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "path": "LICENSE"
     },
     {
       "bytes": 1836,
@@ -32,18 +37,18 @@
       "path": "Makefile"
     },
     {
-      "bytes": 505,
-      "digest": "sha256:4edd0b010499d7e42cadcc9368a47bb81d608df3b0463b656e50548f8c940354",
+      "bytes": 1096,
+      "digest": "sha256:bbd2f3f96f61a8f402f1937fcd33f2dfb466d42dc8556b096de5e54c739ebc99",
       "path": "NOTICE.md"
     },
     {
-      "bytes": 4212,
-      "digest": "sha256:2be8b53aa67f165b65fd8dbd55798b52354b07265ea78822fa1b8efc2cb65e71",
+      "bytes": 7748,
+      "digest": "sha256:b6c28a22211a8861e8cc91e8eb8de57dbce22741344c670b5fc1f8f4db689c78",
       "path": "README.md"
     },
     {
-      "bytes": 11977,
-      "digest": "sha256:43c3f2cee965547840cd9cfa61df6bde038e7316a76d3285e3e1db5e264fc8e1",
+      "bytes": 12067,
+      "digest": "sha256:326a8c7027d653052b5f099544632007149b1c1f190be00ab85cc5d0771fbb1d",
       "path": "REFERENCE.md"
     },
     {
@@ -55,6 +60,11 @@
       "bytes": 1699,
       "digest": "sha256:625420477d6544a7ca5fa42ccf222f75a15a50007c68f457caba13515c09745f",
       "path": "START_HERE.md"
+    },
+    {
+      "bytes": 7102,
+      "digest": "sha256:6570bcbeb73db36747005a67fa4b938ee49748f68d2035c4d1336a45d71a20a5",
+      "path": "TRADEMARKS.md"
     },
     {
       "bytes": 6,
@@ -97,8 +107,8 @@
       "path": "docs/_meta/generated/document-index.json"
     },
     {
-      "bytes": 7788,
-      "digest": "sha256:d2d8d424d6766efd0b1971e3284a367380d2b590f4c2c741cb31a4472a304a26",
+      "bytes": 8571,
+      "digest": "sha256:76014718faec1618b2d3fa6e40014548b2aca1faf3d2f4e3c436468f99328c87",
       "path": "docs/_meta/generated/document-relationship-audit.json"
     },
     {
@@ -108,7 +118,7 @@
     },
     {
       "bytes": 47676,
-      "digest": "sha256:9d8f78171796f92803a6b83306a14cd68683e1539dd533f2a41a4da806ab8548",
+      "digest": "sha256:9e225cdbd4183030664147827413e4a425924c44926ea30a3ad343bfbfda3c18",
       "path": "docs/_meta/generated/manifest.json"
     },
     {
@@ -117,8 +127,8 @@
       "path": "docs/_meta/generated/path-migration-index.json"
     },
     {
-      "bytes": 209454,
-      "digest": "sha256:b896c1442a06dcd2ff7062cb3597af239af86610cf6ab40dd11de4d111e438e2",
+      "bytes": 211506,
+      "digest": "sha256:a24dda838961d3959c661269536b1f204d1b9f755600a1e1ba7af14b72bb7f51",
       "path": "docs/_meta/generated/repository-document-inventory.json"
     },
     {
@@ -232,8 +242,8 @@
       "path": "docs/_meta/path-migrations.yaml"
     },
     {
-      "bytes": 4523,
-      "digest": "sha256:bc0e422a4db238f48198d18df9aa630ee1214e9e6cd2471979dc50cd556c2bdc",
+      "bytes": 4839,
+      "digest": "sha256:8b5c8b247eb857aec923877d1e0b3725ebf7ae0eca162e3c0d17796348741c17",
       "path": "docs/_meta/repository-document-policy.yaml"
     },
     {
@@ -3312,8 +3322,8 @@
       "path": "site/assets/data/document-index.json"
     },
     {
-      "bytes": 7788,
-      "digest": "sha256:d2d8d424d6766efd0b1971e3284a367380d2b590f4c2c741cb31a4472a304a26",
+      "bytes": 8571,
+      "digest": "sha256:76014718faec1618b2d3fa6e40014548b2aca1faf3d2f4e3c436468f99328c87",
       "path": "site/assets/data/document-relationship-audit.json"
     },
     {
@@ -3323,7 +3333,7 @@
     },
     {
       "bytes": 47676,
-      "digest": "sha256:9d8f78171796f92803a6b83306a14cd68683e1539dd533f2a41a4da806ab8548",
+      "digest": "sha256:9e225cdbd4183030664147827413e4a425924c44926ea30a3ad343bfbfda3c18",
       "path": "site/assets/data/manifest.json"
     },
     {
@@ -3332,8 +3342,8 @@
       "path": "site/assets/data/path-migration-index.json"
     },
     {
-      "bytes": 209454,
-      "digest": "sha256:b896c1442a06dcd2ff7062cb3597af239af86610cf6ab40dd11de4d111e438e2",
+      "bytes": 211506,
+      "digest": "sha256:a24dda838961d3959c661269536b1f204d1b9f755600a1e1ba7af14b72bb7f51",
       "path": "site/assets/data/repository-document-inventory.json"
     },
     {
@@ -4497,8 +4507,8 @@
       "path": "tests/docs/test_authoring_routes.py"
     },
     {
-      "bytes": 8346,
-      "digest": "sha256:856501425f815c72835cbc3eef87174b1daa84c91689a9e5009d5f20d532c83d",
+      "bytes": 8363,
+      "digest": "sha256:510c2f4dd72adfe500e2e36b17f4f6b23db787528e8f9420a66829d26bc219d9",
       "path": "tests/docs/test_document_governance.py"
     },
     {
@@ -15472,6 +15482,6 @@
   "hashAlgorithm": "SHA-256",
   "release": "AIXEM-SRP-0.5.9-2026-08-12",
   "schema": "https://schemas.aixem.org/release/manifest/1",
-  "totalBytes": 80244655,
+  "totalBytes": 80274222,
   "version": "0.5.9"
 }

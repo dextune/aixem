@@ -10,6 +10,7 @@ reservedFilenames:
 - REFERENCE.md
 - SECURITY.md
 - START_HERE.md
+- TRADEMARKS.md
 - TASK.md
 - index.md
 rootMarkdownAllowlist:
@@ -21,6 +22,7 @@ rootMarkdownAllowlist:
 - REFERENCE.md
 - SECURITY.md
 - START_HERE.md
+- TRADEMARKS.md
 roles:
 - id: root-entrypoint
   lifecycle: permanent
@@ -36,6 +38,7 @@ roles:
   - REFERENCE.md
   - SECURITY.md
   - START_HERE.md
+  - TRADEMARKS.md
   allowedFilenames:
   - AGENTS.md
   - CHANGELOG.md
@@ -45,6 +48,7 @@ roles:
   - REFERENCE.md
   - SECURITY.md
   - START_HERE.md
+  - TRADEMARKS.md
 - id: canonical-document
   lifecycle: current
   status: active
@@ -118,6 +122,13 @@ roles:
   discoverabilityOwner: validation/evidence/<version>/verification-runs/summary.json
   include:
   - validation/evidence/*/verification-runs/*/report.md
+- id: verification-run-summary
+  lifecycle: generated
+  status: generated
+  humanAuthored: false
+  discoverabilityOwner: validation/evidence/<version>/verification-runs/summary.json
+  include:
+  - validation/evidence/*/verification-runs/summary.md
 - id: evidence-review
   lifecycle: historical
   status: retained

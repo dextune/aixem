@@ -12,7 +12,7 @@ This root document is the stable navigation map for AIXEM. It routes readers and
 | Human contribution workflow | [`CONTRIBUTING.md`](CONTRIBUTING.md) | documentation governance and release process |
 | Security reporting or trust boundary | [`SECURITY.md`](SECURITY.md) | canonical security architecture |
 | Chronological release history | [`CHANGELOG.md`](CHANGELOG.md) | canonical release notes |
-| Legal and attribution notice | [`NOTICE.md`](NOTICE.md) | repository package contents |
+| Licensing and trademark policy | [`LICENSE`](LICENSE), [`NOTICE.md`](NOTICE.md), [`TRADEMARKS.md`](TRADEMARKS.md) | software/content license, attribution, and brand-use policy |
 
 ## 2. Canonical Documentation Categories
 

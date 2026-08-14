@@ -151,6 +151,16 @@ AIXEM/
 
 ---
 
+## License and Trademark
+
+Unless otherwise noted, AIXEM-authored source code, specifications, and documentation are licensed under the **Apache License, Version 2.0**. Commercial use, private use, modification, and distribution are permitted subject to the license and applicable third-party terms.
+
+The **AIXEM** name is a trademark of DEXTUNE. Any official AIXEM logos or brand assets designated by DEXTUNE are governed separately by the AIXEM Trademark Policy. The Apache License 2.0 does not grant general trademark rights. Truthful descriptions such as `Compatible with AIXEM`, `Supports the AIXEM format`, or `Based on AIXEM` are permitted when they do not imply sponsorship, certification, endorsement, or official status.
+
+See [`LICENSE`](LICENSE), [`NOTICE.md`](NOTICE.md), and [`TRADEMARKS.md`](TRADEMARKS.md).
+
+---
+
 ## Deliberate Boundaries
 
 AIXEM 0.5.9 intentionally stops before:

@@ -993,8 +993,8 @@
       "role": "authored-metadata"
     },
     {
-      "bytes": 4523,
-      "digest": "sha256:bc0e422a4db238f48198d18df9aa630ee1214e9e6cd2471979dc50cd556c2bdc",
+      "bytes": 4839,
+      "digest": "sha256:8b5c8b247eb857aec923877d1e0b3725ebf7ae0eca162e3c0d17796348741c17",
       "path": "docs/_meta/repository-document-policy.yaml",
       "role": "authored-metadata"
     },
@@ -1173,8 +1173,8 @@
       "role": "document-index"
     },
     {
-      "bytes": 7788,
-      "digest": "sha256:d2d8d424d6766efd0b1971e3284a367380d2b590f4c2c741cb31a4472a304a26",
+      "bytes": 8571,
+      "digest": "sha256:76014718faec1618b2d3fa6e40014548b2aca1faf3d2f4e3c436468f99328c87",
       "path": "docs/_meta/generated/document-relationship-audit.json",
       "role": "document-relationship-audit"
     },
@@ -1191,8 +1191,8 @@
       "role": "path-migration-index"
     },
     {
-      "bytes": 209454,
-      "digest": "sha256:b896c1442a06dcd2ff7062cb3597af239af86610cf6ab40dd11de4d111e438e2",
+      "bytes": 211506,
+      "digest": "sha256:a24dda838961d3959c661269536b1f204d1b9f755600a1e1ba7af14b72bb7f51",
       "path": "docs/_meta/generated/repository-document-inventory.json",
       "role": "repository-document-inventory"
     },
