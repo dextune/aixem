@@ -1,0 +1,64 @@
+name: Component instance transform hardening
+
+on:
+  push:
+    branches:
+      - feature/component-instance-transform-contract
+
+permissions:
+  contents: write
+
+jobs:
+  apply-and-validate:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Apply scoped implementation and documentation changes
+        run: |
+          python .github/component-instance-transform-hardening.py
+          rm .github/component-instance-transform-hardening.py
+          python -m compileall -q implementation/schematic tests/docs
+
+      - name: Three complete validation passes
+        shell: bash
+        run: |
+          set -euo pipefail
+          for pass in 1 2 3; do
+            echo "========== AIXEM VALIDATION PASS ${pass}/3 =========="
+            python tools/docs/build_all.py
+            python tools/docs/audit_repository_docs.py
+            python tools/docs/validate_docs.py
+            python tools/docs/run_tests.py
+          done
+
+      - name: Commit canonical and regenerated outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git status --short
+          git commit -m "Harden schematic component instance scaling"
+
+      - name: Final clean-generation and CI consistency check
+        run: |
+          python tools/docs/build_all.py
+          git diff --exit-code
+          python tools/docs/ci_pipeline.py
+          git diff --exit-code
+
+      - name: Push validated implementation
+        run: git push origin HEAD:${GITHUB_REF_NAME}
