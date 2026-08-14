@@ -1,0 +1,68 @@
+{
+  "formatVersion": "1.0",
+  "project": {
+    "applicationProfile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "description": "Generated only to exercise the existing production renderer.",
+    "features": [
+      "component.graphics@1",
+      "explicit.layout@1",
+      "grid-snap@1"
+    ],
+    "id": "conformance:s027",
+    "layout": {
+      "digest": "sha256:71e79f3052f910c1aa5651922fea21c9af98d44ce75d5e708716202ec0f0d397",
+      "id": "corpus_s027-layout",
+      "mediaType": "application/vnd.aixem.layout+json",
+      "path": "corpus.aixlayout.json",
+      "version": "1.0"
+    },
+    "libraries": [
+      {
+        "digest": "sha256:2f12bc98dfe5f658b85b83040ee42a646b6f8710e3dd485fea40b8639d5cddfc",
+        "id": "conformance:s027-library",
+        "mediaType": "application/vnd.aixem.library+json",
+        "path": "libraries/corpus.aixlib.json",
+        "version": "1.0.0"
+      }
+    ],
+    "metadata": {
+      "corpusCase": "S027",
+      "syntheticWrapper": true
+    },
+    "outputs": [
+      {
+        "mediaType": "image/svg+xml",
+        "path": "render/drawing.svg",
+        "role": "drawing-svg"
+      },
+      {
+        "mediaType": "application/json",
+        "path": "render/resolved-scene.json",
+        "role": "resolved-scene"
+      }
+    ],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-11",
+      "license": "CC0-1.0"
+    },
+    "renderPolicy": {
+      "backend": "svg",
+      "defaultVariantPolicy": "library-default",
+      "fontPolicy": "system-fallback",
+      "purpose": "primary-diagram",
+      "remoteAssets": "deny",
+      "unsupportedRequiredFeature": "reject"
+    },
+    "source": {
+      "digest": "sha256:1bb97358c1dd935df7c4b7439102d25f17c7efc95ce41bc1d0cc673e9915e434",
+      "id": "corpus_s027",
+      "mediaType": "application/vnd.aixem+text",
+      "path": "corpus.aixem",
+      "version": "1.0"
+    },
+    "status": "controlled",
+    "title": "S027 Optocoupler conformance project"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/aixproj/1"
+}

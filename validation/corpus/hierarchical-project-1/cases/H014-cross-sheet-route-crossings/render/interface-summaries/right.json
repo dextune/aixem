@@ -1,0 +1,22 @@
+{
+  "layoutDigest": "sha256:76044fe1b20ebb1116133c4bd30f6f999f55181368f5008e82ec81b524a997b9",
+  "ports": [
+    {
+      "direction": "input",
+      "id": "CLK",
+      "localNet": "clk",
+      "projectNet": "signal_a",
+      "role": "clock"
+    },
+    {
+      "direction": "input",
+      "id": "IN",
+      "localNet": "in",
+      "projectNet": "signal_b",
+      "role": "signal"
+    }
+  ],
+  "sheet": "right",
+  "sourceDigest": "sha256:669d09cc8d95fe78d915f5bb712170a38700de19bcd9d39461fc52d713de5913",
+  "title": "Right"
+}

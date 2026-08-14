@@ -1,0 +1,40 @@
+{
+  "durationSeconds": 1.913257,
+  "errors": [],
+  "executionMode": "isolated-test-module-processes",
+  "failedModules": 0,
+  "failures": [],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "moduleCount": 1,
+  "modules": [
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_invariant_scorer"
+      ],
+      "durationSeconds": 1.913005,
+      "module": "tests.agent.test_invariant_scorer",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_exact_completed_source_oracle_is_prohibited (tests.agent.test_invariant_scorer.EvaluationInvariantContractTests.test_exact_completed_source_oracle_is_prohibited) ... ok\ntest_scorer_checks_actual_incomplete_workspace_without_self_repair (tests.agent.test_invariant_scorer.EvaluationInvariantContractTests.test_scorer_checks_actual_incomplete_workspace_without_self_repair) ... ok\ntest_semantically_repaired_workspace_passes_hidden_invariants (tests.agent.test_invariant_scorer.EvaluationInvariantContractTests.test_semantically_repaired_workspace_passes_hidden_invariants) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.358s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 3,
+      "valid": true
+    }
+  ],
+  "passedModules": 1,
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/test-run-shard/1",
+  "shard": {
+    "count": 29,
+    "index": 6,
+    "totalDiscoveredModules": 29
+  },
+  "skipped": [],
+  "successful": true,
+  "testsRun": 3
+}

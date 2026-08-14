@@ -1,0 +1,78 @@
+{
+  "card": {
+    "aliases": [
+      "library layout contract",
+      "reusable part integrity",
+      "project library root"
+    ],
+    "appliesTo": [
+      "component-library-layout-and-integrity"
+    ],
+    "domain": "specifications",
+    "estimatedReadBytes": 13986,
+    "id": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+    "inputs": [],
+    "keywords": [
+      "Library Layout and Part Integrity Contract",
+      "create-schematic",
+      "create-symbol",
+      "library layout contract",
+      "project library root",
+      "reusable part integrity",
+      "validate-project"
+    ],
+    "kind": "contract",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/specifications/components/library-layout-contract.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:3b69de52984770c79e996584ce3936cbb344f03417a80e037d60c087127e60ad"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-FORMAT-AIXLIB-001",
+      "AIXEM-FORMAT-AIXSYM-001",
+      "AIXEM-SYMBOL-BINDING-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-LIBRARY-0001",
+        "level": "must",
+        "text": "**MUST.** Newly authored reusable component libraries and symbol assets MUST use a safe project-relative path below `library/electronics` or `library/architecture` with lower-kebab namespace segments and filenames."
+      },
+      {
+        "id": "AIXEM-REQ-LIBRARY-0002",
+        "level": "must",
+        "text": "**MUST.** A component claiming a concrete real-world part identity MUST provide manufacturer, part number, and source URI or be explicitly declared as a non-semantic-ready placeholder with a reason."
+      },
+      {
+        "id": "AIXEM-REQ-LIBRARY-0003",
+        "level": "must",
+        "text": "**MUST.** Every component ID MUST own a reviewable identity, port inventory, minimum property contract, provenance status, and presentation binding, and geometry-only ID multiplication MUST be rejected."
+      },
+      {
+        "id": "AIXEM-REQ-LIBRARY-0004",
+        "level": "must",
+        "text": "**MUST.** Structural render, part semantic review, placeholder status, bounded compatibility, and circuit-intent review results MUST be reported separately and MUST NOT be collapsed into one ambiguous pass claim."
+      },
+      {
+        "id": "AIXEM-REQ-LIBRARY-0005",
+        "level": "must",
+        "text": "**MUST.** Datasheet-backed semantic-ready status MUST require review evidence bound to the exact component identity, source URI, library digest, and applicable symbol digest set."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "path": "docs/specifications/components/library-layout-contract.md"
+      }
+    ],
+    "summary": "Defines canonical project-library placement, reusable naming, component provenance, semantic identity, and validation-claim boundaries for new AIXEM authoring.",
+    "title": "Library Layout and Part Integrity Contract"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

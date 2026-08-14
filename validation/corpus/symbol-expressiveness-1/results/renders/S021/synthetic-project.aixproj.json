@@ -1,0 +1,68 @@
+{
+  "formatVersion": "1.0",
+  "project": {
+    "applicationProfile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "description": "Generated only to exercise the existing production renderer.",
+    "features": [
+      "component.graphics@1",
+      "explicit.layout@1",
+      "grid-snap@1"
+    ],
+    "id": "conformance:s021",
+    "layout": {
+      "digest": "sha256:ca3c27fd7e659c64e60506be095b59af8b133f1929c26c842de39ccdf5a3c397",
+      "id": "corpus_s021-layout",
+      "mediaType": "application/vnd.aixem.layout+json",
+      "path": "corpus.aixlayout.json",
+      "version": "1.0"
+    },
+    "libraries": [
+      {
+        "digest": "sha256:0ca4f3ed4d7bdc5eaa9b534db094a3a2d4fc5dce429cf43c32e2cb799753814c",
+        "id": "conformance:s021-library",
+        "mediaType": "application/vnd.aixem.library+json",
+        "path": "libraries/corpus.aixlib.json",
+        "version": "1.0.0"
+      }
+    ],
+    "metadata": {
+      "corpusCase": "S021",
+      "syntheticWrapper": true
+    },
+    "outputs": [
+      {
+        "mediaType": "image/svg+xml",
+        "path": "render/drawing.svg",
+        "role": "drawing-svg"
+      },
+      {
+        "mediaType": "application/json",
+        "path": "render/resolved-scene.json",
+        "role": "resolved-scene"
+      }
+    ],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-11",
+      "license": "CC0-1.0"
+    },
+    "renderPolicy": {
+      "backend": "svg",
+      "defaultVariantPolicy": "library-default",
+      "fontPolicy": "system-fallback",
+      "purpose": "primary-diagram",
+      "remoteAssets": "deny",
+      "unsupportedRequiredFeature": "reject"
+    },
+    "source": {
+      "digest": "sha256:ee45ffea78113c343d124512608c9640e2e284fd3f98e96d2f1f9ae71056f375",
+      "id": "corpus_s021",
+      "mediaType": "application/vnd.aixem+text",
+      "path": "corpus.aixem",
+      "version": "1.0"
+    },
+    "status": "controlled",
+    "title": "S021 100-pin connector conformance project"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/aixproj/1"
+}

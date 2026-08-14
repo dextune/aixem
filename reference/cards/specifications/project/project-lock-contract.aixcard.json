@@ -1,0 +1,70 @@
+{
+  "card": {
+    "aliases": [
+      "project lock",
+      "aixproj contract",
+      "project manifest"
+    ],
+    "appliesTo": [
+      "project-lock-contract"
+    ],
+    "domain": "specifications",
+    "estimatedReadBytes": 6583,
+    "id": "AIXEM-SPEC-PROJECT-LOCK-001",
+    "inputs": [],
+    "keywords": [
+      "Project Lock Contract 1",
+      "aixproj contract",
+      "project lock",
+      "project manifest",
+      "publish-release",
+      "validate-project"
+    ],
+    "kind": "specification",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/specifications/project/project-lock-contract.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:2a22582c37919f54a9157548cc97d67bbc9c167aa18e4a36635e5232fde9f57b"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-CONCEPT-DETERMINISM-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-PROJECT-0001",
+        "level": "must",
+        "text": "**MUST.** Every project lock MUST validate against the declared project manifest schema."
+      },
+      {
+        "id": "AIXEM-REQ-PROJECT-0002",
+        "level": "must",
+        "text": "**MUST.** A renderer MUST verify every referenced input digest before resolving the project."
+      },
+      {
+        "id": "AIXEM-REQ-PROJECT-0003",
+        "level": "must",
+        "text": "**MUST.** The reference project profile MUST deny required remote assets."
+      },
+      {
+        "id": "AIXEM-REQ-PROJECT-0004",
+        "level": "must",
+        "text": "**MUST.** Expected project outputs MUST declare a path, media type, and role."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SPEC-PROJECT-LOCK-001",
+        "path": "docs/specifications/project/project-lock-contract.md"
+      }
+    ],
+    "summary": "Defines project identity, locked inputs, render policy, feature declarations, provenance, and expected outputs.",
+    "title": "Project Lock Contract 1"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

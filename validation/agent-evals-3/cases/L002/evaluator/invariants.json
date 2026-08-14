@@ -1,0 +1,81 @@
+{
+  "authority": "evaluator-only",
+  "caseId": "L002",
+  "formatVersion": "1.0",
+  "invariants": [
+    {
+      "arguments": {
+        "project": "project.aixproj.json",
+        "route": "validate-project"
+      },
+      "basis": [
+        {
+          "pointer": "/completionCriteria/3",
+          "type": "task"
+        }
+      ],
+      "description": "The actual final workspace passes full project validation.",
+      "id": "L002-VALID",
+      "predicate": "validator-pass",
+      "required": true
+    },
+    {
+      "arguments": {
+        "project": "project.aixproj.json",
+        "repeats": 3
+      },
+      "basis": [
+        {
+          "pointer": "/completionCriteria/3",
+          "type": "task"
+        }
+      ],
+      "description": "The actual final workspace renders deterministically three times.",
+      "id": "L002-RENDER",
+      "predicate": "render-deterministic",
+      "required": true
+    },
+    {
+      "arguments": {
+        "mode": "exact",
+        "path": "library/electronics/authoring/connector-6.aixsym.json",
+        "ports": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "basis": [
+        {
+          "pointer": "/facts",
+          "type": "task"
+        }
+      ],
+      "description": "The connector exposes all six ports exactly once.",
+      "id": "L002-PORTS",
+      "predicate": "symbol-port-set",
+      "required": true
+    },
+    {
+      "arguments": {
+        "componentType": "live:connector-l002",
+        "entity": "JX62",
+        "source": "connector_6.aixem"
+      },
+      "basis": [
+        {
+          "pointer": "/facts",
+          "type": "task"
+        }
+      ],
+      "description": "JX62 resolves to the requested connector type.",
+      "id": "L002-ENTITY",
+      "predicate": "entity-present",
+      "required": true
+    }
+  ],
+  "schema": "https://schemas.aixem.org/agent/evaluation-invariant/1"
+}

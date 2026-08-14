@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "plan": "planning/releases/0.5.9/integrated-authoring-library-pin-semantics-and-agent-placement-hardening.md",
+  "planSha256": "fac80db33ab6983c1ae367c6297748a87cfd6b3b4f28a9857c6fb5ed10b5ce2f",
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "rows": [
+    {
+      "evidence": "Protected baseline records cover core schemas, pre-existing renderer/Viewer implementation, and nine committed drawing SVGs.",
+      "id": "I1",
+      "scope": "Freeze and inventory 0.5.8.1 baseline",
+      "status": "PASS"
+    },
+    {
+      "evidence": "Singular library root, two first-level domains, provenance classes, placeholder discipline, semantic contracts, and clone protection are implemented.",
+      "id": "I2",
+      "scope": "Canonical library and component-integrity authority",
+      "status": "PASS"
+    },
+    {
+      "evidence": "G/P/M authority, outward sizing, repeated-pin span, deterministic half-away-from-zero snap, and bounded magnetic alignment are implemented.",
+      "id": "I3",
+      "scope": "Grid and symbol construction rhythm",
+      "status": "PASS"
+    },
+    {
+      "evidence": "Guide index and ten bounded task guides are directly chained from AGENTS.md, REFERENCE.md, authoring index, and library entrypoint.",
+      "id": "I4",
+      "scope": "Task-oriented Agent guide facade",
+      "status": "PASS"
+    },
+    {
+      "evidence": "Versioned pin semantic facets preserve port.type authority and source-review boundaries.",
+      "id": "I5",
+      "scope": "Pin Electrical Semantics Profile",
+      "status": "PASS"
+    },
+    {
+      "evidence": "Pin consistency and conservative PASS/WARN/ERROR/NOT_EVALUATED compatibility outcomes are implemented without full-ERC claims.",
+      "id": "I6",
+      "scope": "Semantic validation and bounded compatibility",
+      "status": "PASS"
+    },
+    {
+      "evidence": "Evidence tiers, anchors, functional grouping, channel reservation, deterministic tie-breaking, and minimal-diff editing are documented and tested.",
+      "id": "I7",
+      "scope": "Agent placement strategy",
+      "status": "PASS"
+    },
+    {
+      "evidence": "create-symbol, create-schematic, route-nets, and validate-project expose required owners within 7-document/96-KiB/depth-3 budgets.",
+      "id": "I8",
+      "scope": "Route and retrieval integration",
+      "status": "PASS"
+    },
+    {
+      "evidence": "Current examples use canonical library paths; G/LBY/PRT/PIN/ERC/PLC behavior is covered while historical legacy fixtures remain.",
+      "id": "I9",
+      "scope": "Generator-owned examples and focused fixtures",
+      "status": "PASS"
+    },
+    {
+      "evidence": "Indexes, task packets, cards, site, traceability, relationship audit, examples, and evidence regenerate deterministically.",
+      "id": "I10",
+      "scope": "Derived product regeneration",
+      "status": "PASS"
+    },
+    {
+      "evidence": "Repository tests, Agent evaluations, symbol/static, hierarchy, Viewer, and protected-output checks pass.",
+      "id": "I11",
+      "scope": "Full inherited regression",
+      "status": "PASS"
+    },
+    {
+      "evidence": "Five consecutive clean passes completed after the final correction.",
+      "id": "I12",
+      "scope": "Five clean verification passes",
+      "status": "PASS"
+    }
+  ],
+  "schema": "https://schemas.aixem.org/validation/plan-implementation-matrix/1",
+  "status": "PASS",
+  "summary": {
+    "failed": 0,
+    "items": 12,
+    "passed": 12
+  },
+  "valid": true
+}

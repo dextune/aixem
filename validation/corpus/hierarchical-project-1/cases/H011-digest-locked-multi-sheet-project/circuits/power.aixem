@@ -1,0 +1,24 @@
+aixem 1.0
+model h011-digest-locked-multi-sheet-project:power title="Power"
+feature component.graphics@1 required=true
+feature explicit.layout@2 required=true
+feature hierarchical.interface@1 required=true
+
+port VCC direction=input role=power label=VCC
+port GND direction=passive role=power label=GND
+port OUT direction=output role=signal label=OUT
+
+component U1 type=authoring:controller-12 refdes=U1 value=AXC12
+
+net vcc = U1.9 @VCC
+net gnd = U1.11 @GND
+net out = U1.5 @OUT
+noconn U1.1
+noconn U1.2
+noconn U1.3
+noconn U1.4
+noconn U1.6
+noconn U1.7
+noconn U1.8
+noconn U1.10
+noconn U1.12

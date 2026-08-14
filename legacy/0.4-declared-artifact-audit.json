@@ -1,0 +1,60 @@
+{
+  "declaredPaths": [
+    "reference/domains/agent/index.aixdomain.json",
+    "reference/domains/assurance/index.aixdomain.json",
+    "reference/domains/electronics/index.aixdomain.json",
+    "reference/domains/foundation/index.aixdomain.json",
+    "reference/domains/graphics/index.aixdomain.json",
+    "reference/domains/reference/index.aixdomain.json",
+    "reference/domains/system/index.aixdomain.json",
+    "reference/indexes/artifact-map.aixmap.json",
+    "reference/indexes/capabilities.aixcap.json",
+    "reference/indexes/dependency-graph.json",
+    "reference/indexes/inverted-index.json",
+    "reference/indexes/manifest.aixmanifest.json",
+    "reference/routes/change-architecture.aixroute.json",
+    "reference/routes/create-schematic.aixroute.json",
+    "reference/routes/create-symbol.aixroute.json",
+    "reference/routes/inspect-artifact.aixroute.json",
+    "reference/routes/migrate-baseline.aixroute.json",
+    "reference/routes/route-nets.aixroute.json",
+    "reference/routes/validate-project.aixroute.json"
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "missing": [
+    "reference/indexes/dependency-graph.json",
+    "reference/indexes/inverted-index.json",
+    "reference/indexes/manifest.aixmanifest.json"
+  ],
+  "present": [
+    "reference/domains/agent/index.aixdomain.json",
+    "reference/domains/assurance/index.aixdomain.json",
+    "reference/domains/electronics/index.aixdomain.json",
+    "reference/domains/foundation/index.aixdomain.json",
+    "reference/domains/graphics/index.aixdomain.json",
+    "reference/domains/reference/index.aixdomain.json",
+    "reference/domains/system/index.aixdomain.json",
+    "reference/indexes/artifact-map.aixmap.json",
+    "reference/indexes/capabilities.aixcap.json",
+    "reference/routes/change-architecture.aixroute.json",
+    "reference/routes/create-schematic.aixroute.json",
+    "reference/routes/create-symbol.aixroute.json",
+    "reference/routes/inspect-artifact.aixroute.json",
+    "reference/routes/migrate-baseline.aixroute.json",
+    "reference/routes/route-nets.aixroute.json",
+    "reference/routes/validate-project.aixroute.json"
+  ],
+  "release": "AIXEM-SRP-0.5.0-2026-08-11",
+  "resolvedInTarget": [
+    "reference/indexes/dependency-graph.json",
+    "reference/indexes/inverted-index.json",
+    "reference/indexes/manifest.aixmanifest.json"
+  ],
+  "schema": "https://schemas.aixem.org/migration/declared-artifact-audit/1",
+  "sourceRelease": "AIXEM-SRP-0.4-2026-08-10",
+  "sourceReleaseValid": false,
+  "targetResolutionValid": true,
+  "unresolvedInTarget": [],
+  "valid": true
+}

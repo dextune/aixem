@@ -1,0 +1,97 @@
+{
+  "canonicalHashes": {
+    "project-composite.svg": "sha256:e698656d7be0ff644a5ee773647df308057343ff71a027e4bbc4d5f6302357f6",
+    "project-overview.svg": "sha256:4218a98cbb3c845dd2ab9a5309e5962f9f551ff2fd5c38d72769f16bdd98e6ba",
+    "resolved-project-scene.json": "sha256:8c5ba599968b5bac2459325886cad99a25506a8b95c67563ee623cec70b6ebf6",
+    "sheets/driver.resolved-scene.json": "sha256:f47a95197ed586a649bf1d3bca6df819681871688eedc0bcdbe4c2129b82286e",
+    "sheets/driver.svg": "sha256:27ed36c81ba3eefe071d019c88ce72bfe3db709361f96cbaba18e1f7fb8791fc",
+    "sheets/receiver.resolved-scene.json": "sha256:6627c0fd890e69f9d55539e9c89b49b86391418711bac68f2ed8f459af87030e",
+    "sheets/receiver.svg": "sha256:ab379eed260050bef4d69cddbee7719686288e6ea088f8da66e61f25fac2dfb7",
+    "viewer-model.json": "sha256:51ae422087483dc1e9325e268de0c74981d1a6c9dd2e0e61169d78dac412f531",
+    "viewer.html": "sha256:77656ca37dd6d306c4201978e5aa3ddd0c6fdfea1ba09e854350c1115ff572a1",
+    "workbench.html": "sha256:81373ed5da1b4c6d5208081b0ad9248c594653d124a3c1fa25609375c044fe00"
+  },
+  "checks": [
+    {
+      "id": "PROJECT_SHEET_COUNT",
+      "observation": 2,
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_GRAPH_PRESENT",
+      "observation": [
+        "identities",
+        "projectNets",
+        "unconnectedPorts"
+      ],
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_AUTHORITY",
+      "observation": {
+        "connectivityFromGeometry": false,
+        "layersAreSheets": false,
+        "localPresentation": "aixlayout/2",
+        "localSemantics": ".aixem",
+        "projectComposition": "aixproj/2"
+      },
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_LAYER_AUTHORITY",
+      "observation": {
+        "connectivityFromGeometry": false,
+        "layersAreSheets": false,
+        "localPresentation": "aixlayout/2",
+        "localSemantics": ".aixem",
+        "projectComposition": "aixproj/2"
+      },
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_ROUTES_ORTHOGONAL",
+      "observation": "overview+composite",
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_WORKBENCH_DATA_DRIVEN",
+      "observation": "resolved hierarchy",
+      "status": "pass"
+    },
+    {
+      "id": "H006_INTERFACE_ROUTE_CLOSURE",
+      "observation": {
+        "driver": {
+          "entities": 1,
+          "interfacePorts": 3,
+          "nets": 3,
+          "noConnects": 9,
+          "primitives": 16,
+          "routeSegments": 3,
+          "symbolAssets": 1
+        },
+        "receiver": {
+          "entities": 1,
+          "interfacePorts": 3,
+          "nets": 3,
+          "noConnects": 9,
+          "primitives": 16,
+          "routeSegments": 3,
+          "symbolAssets": 1
+        }
+      },
+      "status": "pass"
+    }
+  ],
+  "deterministic": true,
+  "diagnosticMatched": true,
+  "error": null,
+  "expected": "pass",
+  "expectedDiagnostic": null,
+  "id": "H006",
+  "observed": "pass",
+  "projectDigest": "sha256:606e021f2bb4bb430ffe9112673586d4d07d6b68813673592c7809d4ac570444",
+  "repeatCount": 3,
+  "status": "pass",
+  "title": "Interface port local routing"
+}

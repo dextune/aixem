@@ -1,0 +1,56 @@
+{
+  "card": {
+    "aliases": [
+      "render review guide",
+      "visual qa guide",
+      "inspect schematic render"
+    ],
+    "appliesTo": [
+      "authoring-guide-render-review"
+    ],
+    "domain": "authoring",
+    "estimatedReadBytes": 5177,
+    "id": "AIXEM-AUTHORING-GUIDE-RENDER-REVIEW-001",
+    "inputs": [],
+    "keywords": [
+      "Render and Review",
+      "author-component-circuit",
+      "inspect schematic render",
+      "render review guide",
+      "render-review",
+      "visual qa guide"
+    ],
+    "kind": "guide",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/authoring/guides/render-review.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:35e1c18627537154d5b8a1aca2b96d1c18009a5543334643d8491148134e5c26"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SPEC-RENDERER-001",
+      "AIXEM-AGENT-VISUAL-QA-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-AUTHORING-GUIDE-RENDER-REVIEW-001.read",
+        "level": "should",
+        "text": "Guides read-only deterministic rendering and evidence-backed classification of source, symbol, layout, Viewer, and Workbench defects."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-AUTHORING-GUIDE-RENDER-REVIEW-001",
+        "path": "docs/authoring/guides/render-review.md"
+      }
+    ],
+    "summary": "Guides read-only deterministic rendering and evidence-backed classification of source, symbol, layout, Viewer, and Workbench defects.",
+    "title": "Render and Review"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

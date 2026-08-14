@@ -1,0 +1,12 @@
+{
+  "assertions": [
+    "overview-svg",
+    "deterministic-block-placement",
+    "orthogonal-project-routing"
+  ],
+  "expected": "pass",
+  "expectedDiagnostic": null,
+  "id": "H007",
+  "project": "project.aixproj.json",
+  "title": "Project Overview"
+}

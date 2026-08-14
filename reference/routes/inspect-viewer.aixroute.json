@@ -1,0 +1,119 @@
+{
+  "formatVersion": "1.0",
+  "route": {
+    "aliases": [
+      "inspect viewer",
+      "viewer behavior",
+      "review viewer model",
+      "debug viewer",
+      "viewer conformance"
+    ],
+    "budget": {
+      "fallbackDocuments": 2,
+      "maxBytes": 98304,
+      "maxDepth": 3,
+      "maxDocuments": 7
+    },
+    "conditionalReads": [],
+    "id": "inspect-viewer",
+    "intents": [
+      "inspect-viewer"
+    ],
+    "metadata": {
+      "exactRoutePreferred": true,
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "kind": "simple",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "source": "docs/_meta/routes/inspect-viewer.yaml"
+    },
+    "outputs": [
+      "viewer-model.json",
+      "viewer.html or workbench.html",
+      "targeted V-case result",
+      "updated conformance evidence when normative behavior changes"
+    ],
+    "steps": [
+      {
+        "exitCheck": "Authority owner is identified before code changes",
+        "id": "step-1",
+        "order": 1,
+        "produces": [],
+        "purpose": "Establish the product, authority, capability, model, identity, and compatibility boundary.",
+        "read": [
+          "reference/cards/specifications/viewer/reference-viewer-contract.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Qualified identity and Viewer Model closure remain valid",
+        "id": "step-2",
+        "order": 2,
+        "produces": [],
+        "purpose": "Resolve deterministic state and interaction ownership.",
+        "read": [
+          "reference/cards/specifications/viewer/viewer-state-and-interaction.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Affected V-cases pass in controlled Chromium",
+        "id": "step-3",
+        "order": 3,
+        "produces": [],
+        "purpose": "Apply offline, inert-text, CSP, and no-write constraints.",
+        "read": [
+          "reference/cards/specifications/viewer/viewer-security-and-embedding.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "No semantic/write-back or network path is introduced",
+        "id": "step-4",
+        "order": 4,
+        "produces": [],
+        "purpose": "Preserve keyboard, focus, semantic-state, and narrow-viewport operability.",
+        "read": [
+          "reference/cards/specifications/viewer/viewer-accessibility-profile.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Viewer artifacts remain deterministic",
+        "id": "step-5",
+        "order": 5,
+        "produces": [],
+        "purpose": "Load only when the defect concerns diagnostics, provenance, or Workbench separation.",
+        "read": [
+          "reference/cards/specifications/viewer/review-workbench-contract.aixcard.json"
+        ],
+        "required": false,
+        "when": "Review Workbench behavior or evidence is affected."
+      },
+      {
+        "exitCheck": "Viewer artifacts remain deterministic",
+        "id": "step-6",
+        "order": 6,
+        "produces": [],
+        "purpose": "Select the smallest executable V-case and required browser evidence.",
+        "read": [
+          "reference/cards/conformance/reference-viewer.aixcard.json"
+        ],
+        "required": true
+      }
+    ],
+    "stopConditions": [
+      "Authority owner is identified before code changes",
+      "Qualified identity and Viewer Model closure remain valid",
+      "Affected V-cases pass in controlled Chromium",
+      "No semantic/write-back or network path is introduced",
+      "Viewer artifacts remain deterministic"
+    ],
+    "title": "Inspect or modify Reference Viewer behavior through its canonical read-only contracts without loading unrelated authoring material",
+    "validators": [
+      "schematic.reference_viewer",
+      "docs.requirements",
+      "docs.links"
+    ]
+  },
+  "schema": "https://schemas.aixem.org/reference/aixroute/1"
+}

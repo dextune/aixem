@@ -1,0 +1,2512 @@
+{
+  "exact": {
+    "0.4-compatibility": "migrate-baseline",
+    "add-service": "change-architecture",
+    "architecture-refactor": "change-architecture",
+    "artifact-map": "inspect-artifact",
+    "author-component-circuit": "author-component-circuit",
+    "author-hierarchy": "compose-project",
+    "author-schematic": "create-schematic",
+    "author-symbol": "create-symbol",
+    "auto-route": "route-nets",
+    "build-documentation": "build-documentation",
+    "build-reference-index": "build-documentation",
+    "change-architecture": "change-architecture",
+    "change-authority": "change-architecture",
+    "check-schematic": "validate-project",
+    "check-symbol-corpus": "validate-symbol-expressiveness",
+    "cold-start-agent-conformance": "validate-live-agent-authoring",
+    "compile-docs": "build-documentation",
+    "compose-project": "compose-project",
+    "composite-routing": "route-project-nets",
+    "connect-sheets": "compose-project",
+    "connect-sheets-with-project-nets": "compose-project",
+    "connect-wires": "route-nets",
+    "create-component-circuit": "author-component-circuit",
+    "create-multi-sheet-project": "compose-project",
+    "create-schematic": "create-schematic",
+    "create-symbol": "create-symbol",
+    "debug-viewer": "inspect-viewer",
+    "define-project-nets": "compose-project",
+    "documentation-compiler": "build-documentation",
+    "draw-circuit": "create-schematic",
+    "draw-component-symbol": "create-symbol",
+    "draw-hierarchy-wires": "route-project-nets",
+    "draw-new-component-in-circuit": "author-component-circuit",
+    "end-to-end-authoring": "author-component-circuit",
+    "file-contract": "inspect-artifact",
+    "final-archive": "publish-release",
+    "find-owner": "inspect-artifact",
+    "find-proven-symbol-pattern": "validate-symbol-expressiveness",
+    "generate-site": "build-documentation",
+    "inspect-artifact": "inspect-artifact",
+    "inspect-drawing": "render-review",
+    "inspect-viewer": "inspect-viewer",
+    "legacy-migration": "migrate-baseline",
+    "maintain-live-executor-harness": "validate-live-agent-authoring",
+    "migrate-0.4": "migrate-baseline",
+    "migrate-baseline": "migrate-baseline",
+    "modify-system-design": "change-architecture",
+    "move-old-docs": "migrate-baseline",
+    "new-circuit": "create-schematic",
+    "new-component-and-schematic": "author-component-circuit",
+    "new-symbol": "create-symbol",
+    "orthogonal-routing": "route-nets",
+    "overview-routing": "route-project-nets",
+    "package-zip": "publish-release",
+    "place-components": "create-schematic",
+    "publish-release": "publish-release",
+    "release-build": "publish-release",
+    "render-review": "render-review",
+    "render-schematic": "render-review",
+    "review-svg": "render-review",
+    "review-viewer-model": "inspect-viewer",
+    "route-between-sheets": "route-project-nets",
+    "route-nets": "route-nets",
+    "route-project-nets": "route-project-nets",
+    "run-agent-evaluation-3": "validate-live-agent-authoring",
+    "run-conformance": "validate-project",
+    "schematic-lint": "validate-project",
+    "ship-version": "publish-release",
+    "symbol-library": "create-symbol",
+    "upgrade-baseline": "migrate-baseline",
+    "validate-live-agent-authoring": "validate-live-agent-authoring",
+    "validate-project": "validate-project",
+    "validate-static-2d-block": "validate-symbol-expressiveness",
+    "validate-symbol-expressiveness": "validate-symbol-expressiveness",
+    "verify-project": "validate-project",
+    "viewer-behavior": "inspect-viewer",
+    "viewer-conformance": "inspect-viewer",
+    "visual-qa": "render-review",
+    "which-file-owns": "inspect-artifact",
+    "wire-routing": "route-nets"
+  },
+  "formatVersion": "1.2",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "policy": {
+    "compositeBudgetScope": "per-stage",
+    "defaultMaxBytes": 98304,
+    "defaultMaxDepth": 3,
+    "defaultMaxDocuments": 7,
+    "exactRouteFirst": true,
+    "remoteFetch": "deny"
+  },
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "routes": [
+    {
+      "aliases": [
+        "create component circuit",
+        "new component and schematic",
+        "draw new component in circuit",
+        "end-to-end authoring"
+      ],
+      "budget": {
+        "max_bytes": 98304,
+        "max_depth": 3,
+        "max_documents": 7
+      },
+      "completion": [
+        "All child routes complete in declared order",
+        "Each stage exit condition passes",
+        "No repository-wide discovery or renderer archaeology was required for normal work",
+        "Final source, render, and evidence artifacts are deterministic"
+      ],
+      "computed": {
+        "aggregateStageBytes": 314857,
+        "aggregateStageDocuments": 35,
+        "budgetScope": "per-stage",
+        "bytes": 0,
+        "documents": 0,
+        "maxDepth": 3
+      },
+      "expectedInputs": [
+        "component functional contract",
+        "circuit intent",
+        "active profiles"
+      ],
+      "expectedOutputs": [
+        "validated component/symbol assets",
+        "closed semantic schematic",
+        "orthogonal explicit layout",
+        "deterministic renderer evidence",
+        "final validation report"
+      ],
+      "id": "author-component-circuit",
+      "intent": "author-component-circuit",
+      "kind": "composite",
+      "source": "docs/_meta/routes/author-component-circuit.yaml",
+      "stages": [
+        {
+          "childIntent": "create-symbol",
+          "childSource": "docs/_meta/routes/create-symbol.yaml",
+          "exit": "symbol-ready",
+          "inputs": [
+            "component endpoint contract"
+          ],
+          "order": 1,
+          "outputs": [
+            "locked symbol and presentation binding"
+          ],
+          "purpose": "Create or reuse the component symbol and presentation binding.",
+          "remediation": {
+            "acceptsDiagnostics": [
+              "AIXEM-DIAG-BINDING-PORTMAP-INCOMPLETE",
+              "AIXEM-DIAG-BINDING-PORTMAP-TARGET-UNKNOWN",
+              "AIXEM-DIAG-BINDING-ASSET-MISSING",
+              "AIXEM-DIAG-BINDING-ASSET-DIGEST",
+              "AIXEM-DIAG-SYMBOL-PORT-EXPRESSION",
+              "AIXEM-DIAG-SYMBOL-PORT-OFF-GRID",
+              "AIXEM-DIAG-SYMBOL-PORT-ORIENTATION",
+              "AIXEM-DIAG-SYMBOL-LEAD-MISSING",
+              "AIXEM-DIAG-SYMBOL-LEAD-PORT-MISMATCH",
+              "AIXEM-DIAG-SYMBOL-PIN-PITCH",
+              "AIXEM-DIAG-SYMBOL-FIELD-BODY-OVERLAP",
+              "AIXEM-DIAG-LIBRARY-PATH-NONCANONICAL",
+              "AIXEM-DIAG-LIBRARY-DOMAIN-UNKNOWN",
+              "AIXEM-DIAG-LIBRARY-NAME-INVALID",
+              "AIXEM-DIAG-LIBRARY-PART-SOURCE-REQUIRED",
+              "AIXEM-DIAG-LIBRARY-PART-PLACEHOLDER-UNDECLARED",
+              "AIXEM-DIAG-LIBRARY-PART-PROVENANCE-INVALID",
+              "AIXEM-DIAG-LIBRARY-COMPONENT-SEMANTIC-CLONE",
+              "AIXEM-DIAG-LIBRARY-PART-MINIMUM-ATTRIBUTES-MISSING",
+              "AIXEM-DIAG-LIBRARY-PART-PINOUT-REVIEW-MISSING",
+              "AIXEM-DIAG-PIN-SEMANTICS-PROFILE-INVALID",
+              "AIXEM-DIAG-PIN-SIGNAL-CLASS-INVALID",
+              "AIXEM-DIAG-PIN-FUNCTION-TAG-INVALID",
+              "AIXEM-DIAG-PIN-POLARITY-INCONSISTENT",
+              "AIXEM-DIAG-PIN-DIFFERENTIAL-PAIR-INCOMPLETE",
+              "AIXEM-DIAG-PIN-ALTERNATE-FUNCTION-INVALID",
+              "AIXEM-DIAG-PIN-SOURCE-REVIEW-INCOMPLETE",
+              "AIXEM-DIAG-PIN-NOCONNECT-CONTRADICTION"
+            ]
+          },
+          "required": true,
+          "route": "create-symbol",
+          "taskPacket": "docs/_meta/generated/task-packets/create-symbol.json",
+          "writes": {
+            "artifacts": [
+              "**/*.aixsym.json",
+              "**/*.aixlib.json",
+              "**/*.aixproj.json"
+            ],
+            "authority": [
+              "symbol",
+              "component-library",
+              "project"
+            ],
+            "constraints": [
+              {
+                "pattern": "**/*.aixlib.json",
+                "policy": "new-library-artifact-canonical"
+              },
+              {
+                "pattern": "**/*.aixsym.json",
+                "policy": "new-library-artifact-canonical"
+              },
+              {
+                "pattern": "**/*.aixproj.json",
+                "policy": "digest-only"
+              }
+            ],
+            "derived": [
+              "render/**",
+              "evidence/**"
+            ],
+            "prohibited": [
+              "render/**",
+              "evidence/**",
+              "**/viewer.html",
+              "**/workbench.html",
+              "**/*.svg",
+              "**/resolved-scene.json",
+              "**/resolved-project-scene.json",
+              "**/viewer-model.json",
+              "**/render-manifest.json",
+              "**/project-validation.json"
+            ]
+          }
+        },
+        {
+          "childIntent": "create-schematic",
+          "childSource": "docs/_meta/routes/create-schematic.yaml",
+          "exit": "semantic-and-placement-ready",
+          "inputs": [
+            "locked component presentation",
+            "circuit intent"
+          ],
+          "order": 2,
+          "outputs": [
+            "closed semantic source and placements"
+          ],
+          "purpose": "Create semantic entities, nets, and placements.",
+          "remediation": {
+            "acceptsDiagnostics": [
+              "AIXEM-DIAG-SEMANTIC-PORT-UNKNOWN",
+              "AIXEM-DIAG-SEMANTIC-NET-ENDPOINT-UNKNOWN",
+              "AIXEM-DIAG-SEMANTIC-NET-CLOSURE",
+              "AIXEM-DIAG-COMPONENT-TYPE-UNKNOWN",
+              "AIXEM-DIAG-LAYOUT-PLACEMENT-MISSING",
+              "AIXEM-DIAG-LAYOUT-PLACEMENT-OFF-GRID",
+              "AIXEM-DIAG-LAYOUT-GRID-PROFILE-MISMATCH"
+            ]
+          },
+          "required": true,
+          "route": "create-schematic",
+          "taskPacket": "docs/_meta/generated/task-packets/create-schematic.json",
+          "writes": {
+            "artifacts": [
+              "**/*.aixem",
+              "**/*.aixlayout.json",
+              "**/*.aixproj.json"
+            ],
+            "authority": [
+              "semantic",
+              "layout",
+              "project"
+            ],
+            "constraints": [
+              {
+                "pattern": "**/*.aixproj.json",
+                "policy": "digest-only"
+              }
+            ],
+            "derived": [
+              "render/**",
+              "evidence/**"
+            ],
+            "prohibited": [
+              "render/**",
+              "evidence/**",
+              "**/viewer.html",
+              "**/workbench.html",
+              "**/*.svg",
+              "**/resolved-scene.json",
+              "**/resolved-project-scene.json",
+              "**/viewer-model.json",
+              "**/render-manifest.json",
+              "**/project-validation.json"
+            ]
+          }
+        },
+        {
+          "childIntent": "route-nets",
+          "childSource": "docs/_meta/routes/route-nets.yaml",
+          "exit": "routing-ready",
+          "inputs": [
+            "semantic nets",
+            "resolved placements"
+          ],
+          "order": 3,
+          "outputs": [
+            "closed layout connections"
+          ],
+          "purpose": "Materialize semantic nets as explicit orthogonal geometry.",
+          "remediation": {
+            "acceptsDiagnostics": [
+              "AIXEM-DIAG-ROUTE-ENDPOINT-CLOSURE",
+              "AIXEM-DIAG-ROUTE-NON-ORTHOGONAL",
+              "AIXEM-DIAG-ROUTE-VIA-OFF-GRID",
+              "AIXEM-DIAG-ROUTE-ZERO-LENGTH",
+              "AIXEM-DIAG-JUNCTION-AMBIGUOUS"
+            ]
+          },
+          "required": true,
+          "route": "route-nets",
+          "taskPacket": "docs/_meta/generated/task-packets/route-nets.json",
+          "writes": {
+            "artifacts": [
+              "**/*.aixlayout.json",
+              "**/*.aixproj.json"
+            ],
+            "authority": [
+              "layout",
+              "project"
+            ],
+            "constraints": [
+              {
+                "pattern": "**/*.aixproj.json",
+                "policy": "digest-only"
+              }
+            ],
+            "derived": [
+              "render/**",
+              "evidence/**"
+            ],
+            "prohibited": [
+              "render/**",
+              "evidence/**",
+              "**/viewer.html",
+              "**/workbench.html",
+              "**/*.svg",
+              "**/resolved-scene.json",
+              "**/resolved-project-scene.json",
+              "**/viewer-model.json",
+              "**/render-manifest.json",
+              "**/project-validation.json"
+            ]
+          }
+        },
+        {
+          "childIntent": "render-review",
+          "childSource": "docs/_meta/routes/render-review.yaml",
+          "exit": "visual-review-ready",
+          "inputs": [
+            "locked project inputs"
+          ],
+          "order": 4,
+          "outputs": [
+            "deterministic render and review record"
+          ],
+          "purpose": "Render, inspect evidence, classify defects, and repair authority-local sources.",
+          "remediation": {
+            "acceptsDiagnostics": [
+              "AIXEM-DIAG-RENDERER-DETERMINISM"
+            ]
+          },
+          "required": true,
+          "route": "render-review",
+          "taskPacket": "docs/_meta/generated/task-packets/render-review.json",
+          "writes": {
+            "artifacts": [],
+            "authority": [],
+            "derived": [
+              "render/**",
+              "evidence/**"
+            ],
+            "prohibited": [
+              "render/**",
+              "evidence/**",
+              "**/viewer.html",
+              "**/workbench.html",
+              "**/*.svg",
+              "**/resolved-scene.json",
+              "**/resolved-project-scene.json",
+              "**/viewer-model.json",
+              "**/render-manifest.json",
+              "**/project-validation.json"
+            ]
+          }
+        },
+        {
+          "childIntent": "validate-project",
+          "childSource": "docs/_meta/routes/validate-project.yaml",
+          "exit": "release-valid",
+          "inputs": [
+            "final source and render artifacts"
+          ],
+          "order": 5,
+          "outputs": [
+            "release-valid evidence"
+          ],
+          "purpose": "Run final project and authoring conformance gates.",
+          "remediation": {
+            "acceptsDiagnostics": [
+              "AIXEM-DIAG-SCHEMA-INVALID",
+              "AIXEM-DIAG-UNSUPPORTED-CAPABILITY",
+              "AIXEM-DIAG-LIBRARY-PART-PINOUT-REVIEW-MISSING",
+              "AIXEM-DIAG-LIBRARY-PART-INTENT-REVIEW-INCOMPLETE",
+              "AIXEM-DIAG-PIN-SOURCE-REVIEW-INCOMPLETE",
+              "AIXEM-DIAG-ERC-OUTPUT-CONFLICT",
+              "AIXEM-DIAG-ERC-POWER-OUTPUT-CONFLICT",
+              "AIXEM-DIAG-ERC-CONNECTED-NOCONNECT",
+              "AIXEM-DIAG-ERC-INPUT-ONLY",
+              "AIXEM-DIAG-ERC-UNCERTAIN-TOPOLOGY"
+            ]
+          },
+          "required": true,
+          "route": "validate-project",
+          "taskPacket": "docs/_meta/generated/task-packets/validate-project.json",
+          "writes": {
+            "artifacts": [],
+            "authority": [],
+            "derived": [
+              "render/**",
+              "evidence/**"
+            ],
+            "prohibited": [
+              "render/**",
+              "evidence/**",
+              "**/viewer.html",
+              "**/workbench.html",
+              "**/*.svg",
+              "**/resolved-scene.json",
+              "**/resolved-project-scene.json",
+              "**/viewer-model.json",
+              "**/render-manifest.json",
+              "**/project-validation.json"
+            ]
+          }
+        }
+      ],
+      "summary": "Create or modify a component presentation, use it in a semantic schematic, route it, render it, and validate it",
+      "taskPacket": "docs/_meta/generated/task-packets/author-component-circuit.json",
+      "validators": [
+        "agent.authoring_routes",
+        "agent.visual_qa",
+        "schematic.authoring_examples",
+        "schematic.renderer_contract",
+        "agent.diagnostics",
+        "agent.change_scope",
+        "agent.run_record",
+        "agent.authoring_closed_loop",
+        "agent.evaluation_tier_truth"
+      ]
+    },
+    {
+      "aliases": [
+        "build documentation",
+        "compile docs",
+        "generate site",
+        "build reference index",
+        "documentation compiler"
+      ],
+      "budget": {
+        "max_bytes": 98304,
+        "max_depth": 3,
+        "max_documents": 7
+      },
+      "completion": [
+        "Canonical validation passes",
+        "All generated indexes are fresh",
+        "Static site links resolve",
+        "Compatibility reference output is current"
+      ],
+      "computed": {
+        "bytes": 31931,
+        "documents": 5,
+        "maxDepth": 3
+      },
+      "expectedInputs": [],
+      "expectedOutputs": [
+        "Canonical validation passes",
+        "All generated indexes are fresh",
+        "Static site links resolve",
+        "Compatibility reference output is current"
+      ],
+      "id": "build-documentation",
+      "intent": "build-documentation",
+      "kind": "simple",
+      "source": "docs/_meta/routes/build-documentation.yaml",
+      "steps": [
+        {
+          "bytes": 5696,
+          "digest": "sha256:1063c81430fdcd58a74ebed7b9fabad5b92d47b7b53de4fa373d9c5afcb974b6",
+          "document": "AIXEM-SPEC-DOCUMENT-001",
+          "order": 1,
+          "path": "docs/specifications/core/document-model.md",
+          "purpose": "Read Canonical Document Model for this task stage.",
+          "required": true,
+          "section": "operational-rules",
+          "sitePath": "specifications/core/document-model.html"
+        },
+        {
+          "bytes": 6727,
+          "digest": "sha256:65b494e0639ee8106ae36e4eb4ba98cf5309e36a068d3ade3c1312ec474d07be",
+          "document": "AIXEM-SPEC-METADATA-001",
+          "order": 2,
+          "path": "docs/specifications/documentation/metadata-contract.md",
+          "purpose": "Read Documentation Metadata Contract 1 for this task stage.",
+          "required": true,
+          "section": "operational-rules",
+          "sitePath": "specifications/documentation/metadata-contract.html"
+        },
+        {
+          "bytes": 6658,
+          "digest": "sha256:d4c5746c955989eb322a6aaddcd153ebe23b33937af2baa8ec09b916fc0684cd",
+          "document": "AIXEM-AGENT-ROUTES-001",
+          "order": 3,
+          "path": "docs/agent/task-routing.md",
+          "purpose": "Read Task Routes for this task stage.",
+          "required": true,
+          "section": "authoritative-workflow",
+          "sitePath": "agent/task-routing.html"
+        },
+        {
+          "bytes": 5037,
+          "digest": "sha256:5dbb54b0557b8bf16daae50c40194b9209ab5c733fa9a4aad1124a85a406c6a0",
+          "document": "AIXEM-ARCH-PIPELINE-001",
+          "order": 4,
+          "path": "docs/architecture/pipeline.md",
+          "purpose": "Read Build and Authoring Pipeline for this task stage.",
+          "required": true,
+          "section": "authoritative-workflow",
+          "sitePath": "architecture/pipeline.html"
+        },
+        {
+          "bytes": 7813,
+          "digest": "sha256:9e06776349ebb0b20e67c9579fc7ce5a124f1e9ea36271b34af230b9b0ad4a55",
+          "document": "AIXEM-SPEC-RELEASE-001",
+          "order": 5,
+          "path": "docs/specifications/documentation/release-integrity.md",
+          "purpose": "Read Documentation Release Integrity 1 for this task stage.",
+          "required": true,
+          "section": "validation-and-evidence",
+          "sitePath": "specifications/documentation/release-integrity.html"
+        }
+      ],
+      "summary": "Build documentation and agent indexes",
+      "taskPacket": "docs/_meta/generated/task-packets/build-documentation.json",
+      "validators": [
+        "docs.metadata",
+        "docs.links",
+        "docs.generated_freshness",
+        "docs.site"
+      ]
+    },
+    {
+      "aliases": [
+        "change architecture",
+        "modify system design",
+        "architecture refactor",
+        "add service",
+        "change authority"
+      ],
+      "budget": {
+        "max_bytes": 98304,
+        "max_depth": 3,
+        "max_documents": 7
+      },
+      "completion": [
+        "Owning boundaries are explicit",
+        "An ADR records durable decisions",
+        "Compatibility impact is stated",
+        "Affected requirements and tests are updated"
+      ],
+      "computed": {
+        "bytes": 31596,
+        "documents": 6,
+        "maxDepth": 3
+      },
+      "expectedInputs": [],
+      "expectedOutputs": [
+        "Owning boundaries are explicit",
+        "An ADR records durable decisions",
+        "Compatibility impact is stated",
+        "Affected requirements and tests are updated"
+      ],
+      "id": "change-architecture",
+      "intent": "change-architecture",
+      "kind": "simple",
+      "source": "docs/_meta/routes/change-architecture.yaml",
+      "steps": [
+        {
+          "bytes": 6799,
+          "digest": "sha256:510577e90a3c756b4bbe7349f0108fc736f015ca35a9404a4df7b5613ac78e0a",
+          "document": "AIXEM-CONCEPT-AUTHORITY-001",
+          "order": 1,
+          "path": "docs/concepts/authority-model.md",
+          "purpose": "Read Authority Model for this task stage.",
+          "required": true,
+          "section": "operational-rules",
+          "sitePath": "concepts/authority-model.html"
+        },
+        {
+          "bytes": 5180,
+          "digest": "sha256:90b30e5400988652cb9b1ef599e0f343a85890d45a7b8eeebbe6ad095a5ea249",
+          "document": "AIXEM-ARCH-SYSTEM-001",
+          "order": 2,
+          "path": "docs/architecture/system-overview.md",
+          "purpose": "Read System Overview for this task stage.",
+          "required": true,
+          "section": "overview",
+          "sitePath": "architecture/system-overview.html"
+        },
+        {
+          "bytes": 5037,
+          "digest": "sha256:5dbb54b0557b8bf16daae50c40194b9209ab5c733fa9a4aad1124a85a406c6a0",
+          "document": "AIXEM-ARCH-PIPELINE-001",
+          "order": 3,
+          "path": "docs/architecture/pipeline.md",
+          "purpose": "Read Build and Authoring Pipeline for this task stage.",
+          "required": true,
+          "section": "authoritative-workflow",
+          "sitePath": "architecture/pipeline.html"
+        },
+        {
+          "bytes": 6131,
+          "digest": "sha256:a7d5bb475edbeddf2c0bd7c482b076b9ffd2ed37718452a24fc971c1db353d7b",
+          "document": "AIXEM-SPEC-AUTHORITY-001",
+          "order": 4,
+          "path": "docs/specifications/core/authority-precedence.md",
+          "purpose": "Read Authority and Precedence for this task stage.",
+          "required": true,
+          "section": "operational-rules",
+          "sitePath": "specifications/core/authority-precedence.html"
+        },
+        {
+          "bytes": 3542,
+          "digest": "sha256:16656cab13192f649e79aea65ca9f684c9a74744b7d2a9f8c01f18275e72940f",
+          "document": "AIXEM-ARCH-ADR-INDEX-001",
+          "order": 5,
+          "path": "docs/architecture/adr/index.md",
+          "purpose": "Read Architecture Decision Records for this task stage.",
+          "required": true,
+          "section": "overview",
+          "sitePath": "architecture/adr/index.html"
+        },
+        {
+          "bytes": 4907,
+          "digest": "sha256:1b5c9549074ab153dd692413f331d8b2dfa5071144b306fb31c1fe0e6e4b2c6c",
+          "document": "AIXEM-GOV-COMPAT-001",
+          "order": 6,
+          "path": "docs/governance/compatibility-policy.md",
+          "purpose": "Read Compatibility Policy for this task stage.",
+          "required": true,
+          "section": "validation-and-evidence",
+          "sitePath": "governance/compatibility-policy.html"
+        }
+      ],
+      "summary": "Change system architecture",
+      "taskPacket": "docs/_meta/generated/task-packets/change-architecture.json",
+      "validators": [
+        "manual.architecture",
+        "docs.metadata",
+        "docs.dependencies"
+      ]
+    },
+    {
+      "aliases": [
+        "compose project",
+        "create multi-sheet project",
+        "connect sheets",
+        "define project nets",
+        "author hierarchy",
+        "connect sheets with project nets"
+      ],
+      "budget": {
+        "max_bytes": 98304,
+        "max_depth": 3,
+        "max_documents": 7
+      },
+      "completion": [
+        "Every sheet validates independently",
+        "Hierarchy is acyclic and deterministically ordered",
+        "Every project-net member resolves to a semantic interface port",
+        "No connectivity was inferred from names or geometry"
+      ],
+      "computed": {
+        "bytes": 50357,
+        "documents": 6,
+        "maxDepth": 3
+      },
+      "expectedInputs": [
+        "digest-locked leaf source and layout pairs",
+        "leaf interface summaries",
+        "project composition intent"
+      ],
+      "expectedOutputs": [
+        "digest-locked aixproj/2 manifest",
+        "resolved project semantic graph",
+        "per-sheet interface summaries",
+        "project composition validation evidence"
+      ],
+      "id": "compose-project",
+      "intent": "compose-project",
+      "kind": "simple",
+      "remediation": {
+        "acceptsDiagnostics": [
+          "AIXEM-DIAG-PROJECT-SHEET-UNKNOWN",
+          "AIXEM-DIAG-PROJECT-INTERFACE-UNKNOWN",
+          "AIXEM-DIAG-PROJECT-NET-DUPLICATE-MEMBER",
+          "AIXEM-DIAG-PROJECT-NET-MULTIPLE-OWNERSHIP"
+        ]
+      },
+      "source": "docs/_meta/routes/compose-project.yaml",
+      "steps": [
+        {
+          "bytes": 11956,
+          "digest": "sha256:4e8c08391186c558988a3beaa924d13e8e432c7ac56705730c24033d1a3c5dd6",
+          "document": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
+          "order": 1,
+          "path": "docs/specifications/project/project-composition-contract.md",
+          "purpose": "Establish the Project to Sheet authority boundary and canonical aixproj/2 structure.",
+          "required": true,
+          "section": "canonical-structure",
+          "sitePath": "specifications/project/project-composition-contract.html"
+        },
+        {
+          "bytes": 8550,
+          "digest": "sha256:a0455554981cf8fc9038ec9724841473e6f1f4df4e36bbfb92d0a6d759eac3af",
+          "document": "AIXEM-SPEC-INTERFACE-PORT-001",
+          "order": 2,
+          "path": "docs/specifications/core/interface-port-contract.md",
+          "purpose": "Confirm that every cross-sheet boundary is backed by a real leaf semantic endpoint.",
+          "required": true,
+          "section": "local-net-closure",
+          "sitePath": "specifications/core/interface-port-contract.html"
+        },
+        {
+          "bytes": 4053,
+          "digest": "sha256:41c1b8d26ea8a8f8be4f330a847c7ed07602a85d85dde0ad48016141116055e7",
+          "document": "AIXEM-CONCEPT-PROJECT-NET-001",
+          "order": 3,
+          "path": "docs/concepts/project-net-model.md",
+          "purpose": "Apply local-net and project-net equivalence rules without name-based merging.",
+          "required": true,
+          "section": "equivalence-collision",
+          "sitePath": "concepts/project-net-model.html"
+        },
+        {
+          "bytes": 4835,
+          "digest": "sha256:33332c60c9c164e817f9983fa726c36302411112f7f645fe36e2fd969ff524e9",
+          "document": "AIXEM-FORMAT-AIXPROJ-001",
+          "order": 4,
+          "path": "docs/file-formats/aixproj.md",
+          "purpose": "Serialize sheets, hierarchy, project nets, libraries, render policy, and digests.",
+          "required": true,
+          "section": "0-5-3-multi-sheet-form-aixproj-2",
+          "sitePath": "file-formats/aixproj.html"
+        },
+        {
+          "bytes": 10539,
+          "digest": "sha256:5b101ad4c7254defdbad46ad565bd7bb290acfbd6b19ed555bd1320b041e4348",
+          "document": "AIXEM-AGENT-AUTHORING-001",
+          "order": 5,
+          "path": "docs/agent/authoring-orchestration.md",
+          "purpose": "Use interface summaries first and open only affected leaf files.",
+          "required": true,
+          "section": "hierarchical-authoring-stages",
+          "sitePath": "agent/authoring-orchestration.html"
+        },
+        {
+          "bytes": 10424,
+          "digest": "sha256:a951754958a0d0f0a91838ba1f395e76f92ca78642b199563ec5631f19747723",
+          "document": "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
+          "order": 6,
+          "path": "docs/conformance/hierarchical-project.md",
+          "purpose": "Validate the composed graph against positive and fail-closed corpus cases.",
+          "required": true,
+          "section": "corpus-inventory",
+          "sitePath": "conformance/hierarchical-project.html"
+        }
+      ],
+      "summary": "Register independent leaf sheets, define organizational hierarchy, and connect explicit semantic interface ports through project nets",
+      "taskPacket": "docs/_meta/generated/task-packets/compose-project.json",
+      "validators": [
+        "schematic.project_schema",
+        "schematic.digest_lock",
+        "schematic.semantic",
+        "schematic.geometry_isolation",
+        "agent.diagnostics",
+        "agent.change_scope"
+      ],
+      "writes": {
+        "artifacts": [
+          "**/*.aixproj.json"
+        ],
+        "authority": [
+          "project"
+        ],
+        "derived": [
+          "render/**",
+          "evidence/**"
+        ],
+        "prohibited": [
+          "render/**",
+          "evidence/**",
+          "**/viewer.html",
+          "**/workbench.html",
+          "**/*.svg",
+          "**/resolved-scene.json",
+          "**/resolved-project-scene.json",
+          "**/viewer-model.json",
+          "**/render-manifest.json",
+          "**/project-validation.json"
+        ]
+      }
+    },
+    {
+      "aliases": [
+        "create schematic",
+        "draw circuit",
+        "author schematic",
+        "new circuit",
+        "place components"
+      ],
+      "budget": {
+        "max_bytes": 98304,
+        "max_depth": 3,
+        "max_documents": 7
+      },
+      "completion": [
+        "Semantic entities and endpoint intent are closed",
+        "Every entity type and presentation resolves",
+        "Every presented entity has one placement",
+        "Semantic and layout authority remain separate",
+        "Project inputs are ready for route-nets"
+      ],
+      "computed": {
+        "bytes": 50341,
+        "documents": 7,
+        "maxDepth": 3
+      },
+      "expectedInputs": [
+        "component library and symbol assets",
+        "circuit semantic intent",
+        "active grid/style profile"
+      ],
+      "expectedOutputs": [
+        "closed .aixem source",
+        "placements in .aixlayout.json",
+        "locked component/symbol references",
+        "routing handoff"
+      ],
+      "id": "create-schematic",
+      "intent": "create-schematic",
+      "kind": "simple",
+      "remediation": {
+        "acceptsDiagnostics": [
+          "AIXEM-DIAG-SEMANTIC-PORT-UNKNOWN",
+          "AIXEM-DIAG-SEMANTIC-NET-ENDPOINT-UNKNOWN",
+          "AIXEM-DIAG-SEMANTIC-NET-CLOSURE",
+          "AIXEM-DIAG-COMPONENT-TYPE-UNKNOWN",
+          "AIXEM-DIAG-LAYOUT-PLACEMENT-MISSING",
+          "AIXEM-DIAG-LAYOUT-PLACEMENT-OFF-GRID",
+          "AIXEM-DIAG-LAYOUT-GRID-PROFILE-MISMATCH"
+        ]
+      },
+      "source": "docs/_meta/routes/create-schematic.yaml",
+      "steps": [
+        {
+          "bytes": 6799,
+          "digest": "sha256:510577e90a3c756b4bbe7349f0108fc736f015ca35a9404a4df7b5613ac78e0a",
+          "document": "AIXEM-CONCEPT-AUTHORITY-001",
+          "order": 1,
+          "path": "docs/concepts/authority-model.md",
+          "purpose": "Classify semantic, component, symbol, layout, style, and derived authority.",
+          "required": true,
+          "section": "overview",
+          "sitePath": "concepts/authority-model.html"
+        },
+        {
+          "bytes": 5233,
+          "digest": "sha256:4fc20a940086e2bc9ccb79a941bf357cd007a010d3e42ef3863cb6929cc9fb97",
+          "document": "AIXEM-SCHEM-COOKBOOK-001",
+          "order": 2,
+          "path": "docs/schematic/schematic-authoring-cookbook.md",
+          "purpose": "Close component selection, entities, semantic nets, and placement handoff in authority order.",
+          "required": true,
+          "section": "end-to-end-sequence",
+          "sitePath": "schematic/schematic-authoring-cookbook.html"
+        },
+        {
+          "bytes": 6354,
+          "digest": "sha256:6635f8dba35db7d77e80a45b7fbddccf7055b27c4ddf4e5e328b65a458161817",
+          "document": "AIXEM-SCHEM-GRID-001",
+          "order": 3,
+          "path": "docs/schematic/grid-system.md",
+          "purpose": "Resolve active G/P/M grid authority and deterministic snap semantics.",
+          "required": true,
+          "section": "operational-rules",
+          "sitePath": "schematic/grid-system.html"
+        },
+        {
+          "bytes": 5879,
+          "digest": "sha256:2fbe4de3040dcbf42a82b80427ce2986dda4e972c69c46cf74c1373489ad5290",
+          "document": "AIXEM-SCHEM-PLACEMENT-001",
+          "order": 4,
+          "path": "docs/schematic/placement.md",
+          "purpose": "Apply canonical anchor, grouping, spacing, channel, and minimal-change placement rules.",
+          "required": true,
+          "section": "operational-rules",
+          "sitePath": "schematic/placement.html"
+        },
+        {
+          "bytes": 9595,
+          "digest": "sha256:ab00aba15fcf380926bc2c8613c1d1b314bd26c4650a8b2761f69093a4cba5fd",
+          "document": "AIXEM-SYMBOL-BINDING-001",
+          "order": 5,
+          "path": "docs/symbols/component-symbol-binding.md",
+          "purpose": "Resolve component type, endpoint, field, and presentation mapping.",
+          "required": true,
+          "section": "complete-binding-example",
+          "sitePath": "symbols/component-symbol-binding.html"
+        },
+        {
+          "bytes": 7121,
+          "digest": "sha256:afdc90e99fec9cc492bc9028c59bb5a4886aa86e92df46bd9103fc335ead988a",
+          "document": "AIXEM-FORMAT-AIXEM-001",
+          "order": 6,
+          "path": "docs/file-formats/aixem.md",
+          "purpose": "Author entities, nets, attributes, interface ports, and no-connect intent.",
+          "required": true,
+          "section": "0-5-1-complete-minimal-semantic-model",
+          "sitePath": "file-formats/aixem.html"
+        },
+        {
+          "bytes": 9360,
+          "digest": "sha256:b98490ebabd6639be7f46616567655a16386d62d196f846f67a15751a6315d77",
+          "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+          "order": 7,
+          "path": "docs/file-formats/aixlayout.md",
+          "purpose": "Author grid-coherent placements and prepare explicit connection records.",
+          "required": true,
+          "section": "0-5-1-placement-and-connection-serialization",
+          "sitePath": "file-formats/aixlayout.html"
+        }
+      ],
+      "summary": "Create semantic entities and nets, place instances, and hand off valid endpoints to routing",
+      "taskPacket": "docs/_meta/generated/task-packets/create-schematic.json",
+      "validators": [
+        "schematic.semantic",
+        "schematic.component_type_closure",
+        "schematic.placement_closure",
+        "schematic.authoring_binding",
+        "schematic.grid",
+        "agent.diagnostics",
+        "agent.change_scope",
+        "schematic.authoring_integrity",
+        "schematic.placement_assist"
+      ],
+      "writes": {
+        "artifacts": [
+          "**/*.aixem",
+          "**/*.aixlayout.json",
+          "**/*.aixproj.json"
+        ],
+        "authority": [
+          "semantic",
+          "layout",
+          "project"
+        ],
+        "constraints": [
+          {
+            "pattern": "**/*.aixproj.json",
+            "policy": "digest-only"
+          }
+        ],
+        "derived": [
+          "render/**",
+          "evidence/**"
+        ],
+        "prohibited": [
+          "render/**",
+          "evidence/**",
+          "**/viewer.html",
+          "**/workbench.html",
+          "**/*.svg",
+          "**/resolved-scene.json",
+          "**/resolved-project-scene.json",
+          "**/viewer-model.json",
+          "**/render-manifest.json",
+          "**/project-validation.json"
+        ]
+      }
+    },
+    {
+      "aliases": [
+        "create symbol",
+        "draw component symbol",
+        "author symbol",
+        "new symbol",
+        "symbol library"
+      ],
+      "budget": {
+        "max_bytes": 98304,
+        "max_depth": 3,
+        "max_documents": 7
+      },
+      "completion": [
+        "New artifacts use library/electronics or library/architecture and semantic lower-kebab names",
+        "Concrete identity is source-backed or truthfully retained as a non-semantic-ready placeholder",
+        "Every component ID has a distinct semantic contract and total presentation binding",
+        "Pin semantics are source-reviewed where applicable",
+        "Structural, part semantic, placeholder, and circuit-intent results remain separate",
+        "Rendered output and resolved scene pass deterministic visual review"
+      ],
+      "computed": {
+        "bytes": 77705,
+        "documents": 7,
+        "maxDepth": 3
+      },
+      "expectedInputs": [
+        "component identity, endpoint, property, and provenance contract",
+        "source URI or explicit generic/placeholder status",
+        "active design/style profile and existing asset inventory",
+        "active project or authoring root"
+      ],
+      "expectedOutputs": [
+        "valid .aixsym.json asset",
+        "valid .aixlib.json presentation binding",
+        "deterministic render evidence",
+        "symbol authoring validation result"
+      ],
+      "id": "create-symbol",
+      "intent": "create-symbol",
+      "kind": "simple",
+      "remediation": {
+        "acceptsDiagnostics": [
+          "AIXEM-DIAG-BINDING-PORTMAP-INCOMPLETE",
+          "AIXEM-DIAG-BINDING-PORTMAP-TARGET-UNKNOWN",
+          "AIXEM-DIAG-BINDING-ASSET-MISSING",
+          "AIXEM-DIAG-BINDING-ASSET-DIGEST",
+          "AIXEM-DIAG-SYMBOL-PORT-EXPRESSION",
+          "AIXEM-DIAG-SYMBOL-PORT-OFF-GRID",
+          "AIXEM-DIAG-SYMBOL-PORT-ORIENTATION",
+          "AIXEM-DIAG-SYMBOL-LEAD-MISSING",
+          "AIXEM-DIAG-SYMBOL-LEAD-PORT-MISMATCH",
+          "AIXEM-DIAG-SYMBOL-PIN-PITCH",
+          "AIXEM-DIAG-SYMBOL-FIELD-BODY-OVERLAP",
+          "AIXEM-DIAG-LIBRARY-PATH-NONCANONICAL",
+          "AIXEM-DIAG-LIBRARY-DOMAIN-UNKNOWN",
+          "AIXEM-DIAG-LIBRARY-NAME-INVALID",
+          "AIXEM-DIAG-LIBRARY-PART-SOURCE-REQUIRED",
+          "AIXEM-DIAG-LIBRARY-PART-PLACEHOLDER-UNDECLARED",
+          "AIXEM-DIAG-LIBRARY-PART-PROVENANCE-INVALID",
+          "AIXEM-DIAG-LIBRARY-COMPONENT-SEMANTIC-CLONE",
+          "AIXEM-DIAG-LIBRARY-PART-MINIMUM-ATTRIBUTES-MISSING",
+          "AIXEM-DIAG-LIBRARY-PART-PINOUT-REVIEW-MISSING",
+          "AIXEM-DIAG-PIN-SEMANTICS-PROFILE-INVALID",
+          "AIXEM-DIAG-PIN-SIGNAL-CLASS-INVALID",
+          "AIXEM-DIAG-PIN-FUNCTION-TAG-INVALID",
+          "AIXEM-DIAG-PIN-POLARITY-INCONSISTENT",
+          "AIXEM-DIAG-PIN-DIFFERENTIAL-PAIR-INCOMPLETE",
+          "AIXEM-DIAG-PIN-ALTERNATE-FUNCTION-INVALID",
+          "AIXEM-DIAG-PIN-SOURCE-REVIEW-INCOMPLETE",
+          "AIXEM-DIAG-PIN-NOCONNECT-CONTRADICTION"
+        ]
+      },
+      "source": "docs/_meta/routes/create-symbol.yaml",
+      "steps": [
+        {
+          "bytes": 13986,
+          "digest": "sha256:3b69de52984770c79e996584ce3936cbb344f03417a80e037d60c087127e60ad",
+          "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+          "order": 1,
+          "path": "docs/specifications/components/library-layout-contract.md",
+          "purpose": "Choose the canonical new-artifact path, provenance class, semantic identity, and separated validation claims.",
+          "required": true,
+          "section": "canonical-authoring-root",
+          "sitePath": "specifications/components/library-layout-contract.html"
+        },
+        {
+          "bytes": 11768,
+          "digest": "sha256:2efaa8b0b08c67f2c088d407b6a799dc462552f7d423a8f5411d5497595735c7",
+          "document": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
+          "order": 2,
+          "path": "docs/specifications/components/pin-electrical-semantics-profile.md",
+          "purpose": "Author electrical behavior and source-reviewed orthogonal pin semantics without inventing endpoint truth.",
+          "required": true,
+          "section": "profile-shape",
+          "sitePath": "specifications/components/pin-electrical-semantics-profile.html"
+        },
+        {
+          "bytes": 10379,
+          "digest": "sha256:ed7e12ded56ddcc7ff3154ef967a0c780c8a6dbb7d9a4f5dcde732a8500b0e53",
+          "document": "AIXEM-SPEC-SYMBOL-DESIGN-001",
+          "order": 3,
+          "path": "docs/specifications/symbols/symbol-design-profile.md",
+          "purpose": "Apply the G/P/M sizing rhythm, grid, lead, pitch, field, and grouping rules.",
+          "required": true,
+          "section": "profile-values",
+          "sitePath": "specifications/symbols/symbol-design-profile.html"
+        },
+        {
+          "bytes": 9692,
+          "digest": "sha256:e2d27d9cbcae0e5f65c2d360fb01e0ab5c942d69742c7ee91af6b1c78bea4046",
+          "document": "AIXEM-FORMAT-AIXLIB-001",
+          "order": 4,
+          "path": "docs/file-formats/aixlib.md",
+          "purpose": "Serialize component identity, ports, properties, provenance metadata, presentations, and digest locks.",
+          "required": true,
+          "section": "operational-rules",
+          "sitePath": "file-formats/aixlib.html"
+        },
+        {
+          "bytes": 12836,
+          "digest": "sha256:b1206ca1354feb677fa228b8180a620fde01ed8d88492b870b7491af77d411cf",
+          "document": "AIXEM-FORMAT-AIXSYM-001",
+          "order": 5,
+          "path": "docs/file-formats/aixsym.md",
+          "purpose": "Serialize reusable graphic presentation without redefining component semantics.",
+          "required": true,
+          "section": "annotated-format-skeleton",
+          "sitePath": "file-formats/aixsym.html"
+        },
+        {
+          "bytes": 9595,
+          "digest": "sha256:ab00aba15fcf380926bc2c8613c1d1b314bd26c4650a8b2761f69093a4cba5fd",
+          "document": "AIXEM-SYMBOL-BINDING-001",
+          "order": 6,
+          "path": "docs/symbols/component-symbol-binding.md",
+          "purpose": "Bind every required component endpoint and field to the selected symbol presentation.",
+          "required": true,
+          "section": "port-map-direction",
+          "sitePath": "symbols/component-symbol-binding.html"
+        },
+        {
+          "bytes": 9449,
+          "digest": "sha256:f4c18b855bce33e4d817f68544adf8d6236a934344031e65f5b06f2dbbf6b3f9",
+          "document": "AIXEM-SYMBOL-LINT-001",
+          "order": 7,
+          "path": "docs/symbols/symbol-lint.md",
+          "purpose": "Validate path, provenance, semantics, schema, design profile, binding, render, digest, and claim separation.",
+          "required": true,
+          "section": "0-5-2-corpus-conformance-checks",
+          "sitePath": "symbols/symbol-lint.html"
+        }
+      ],
+      "summary": "Create or repair a provenance-classified reusable component and its grid-proportional symbol presentation at a canonical project-library location",
+      "taskPacket": "docs/_meta/generated/task-packets/create-symbol.json",
+      "validators": [
+        "schematic.authoring_integrity",
+        "schematic.symbol_schema",
+        "schematic.symbol_design",
+        "schematic.authoring_binding",
+        "schematic.renderer_contract",
+        "schematic.authoring_examples",
+        "agent.diagnostics",
+        "agent.change_scope"
+      ],
+      "writes": {
+        "artifacts": [
+          "**/*.aixsym.json",
+          "**/*.aixlib.json",
+          "**/*.aixproj.json"
+        ],
+        "authority": [
+          "symbol",
+          "component-library",
+          "project"
+        ],
+        "constraints": [
+          {
+            "pattern": "**/*.aixlib.json",
+            "policy": "new-library-artifact-canonical"
+          },
+          {
+            "pattern": "**/*.aixsym.json",
+            "policy": "new-library-artifact-canonical"
+          },
+          {
+            "pattern": "**/*.aixproj.json",
+            "policy": "digest-only"
+          }
+        ],
+        "derived": [
+          "render/**",
+          "evidence/**"
+        ],
+        "prohibited": [
+          "render/**",
+          "evidence/**",
+          "**/viewer.html",
+          "**/workbench.html",
+          "**/*.svg",
+          "**/resolved-scene.json",
+          "**/resolved-project-scene.json",
+          "**/viewer-model.json",
+          "**/render-manifest.json",
+          "**/project-validation.json"
+        ]
+      }
+    },
+    {
+      "aliases": [
+        "inspect artifact",
+        "find owner",
+        "which file owns",
+        "artifact map",
+        "file contract"
+      ],
+      "budget": {
+        "max_bytes": 98304,
+        "max_depth": 3,
+        "max_documents": 7
+      },
+      "completion": [
+        "Artifact owner is resolved",
+        "Canonical contract is identified",
+        "Generated status and dependencies are known"
+      ],
+      "computed": {
+        "bytes": 22267,
+        "documents": 4,
+        "maxDepth": 3
+      },
+      "expectedInputs": [],
+      "expectedOutputs": [
+        "Artifact owner is resolved",
+        "Canonical contract is identified",
+        "Generated status and dependencies are known"
+      ],
+      "id": "inspect-artifact",
+      "intent": "inspect-artifact",
+      "kind": "simple",
+      "source": "docs/_meta/routes/inspect-artifact.yaml",
+      "steps": [
+        {
+          "bytes": 6799,
+          "digest": "sha256:510577e90a3c756b4bbe7349f0108fc736f015ca35a9404a4df7b5613ac78e0a",
+          "document": "AIXEM-CONCEPT-AUTHORITY-001",
+          "order": 1,
+          "path": "docs/concepts/authority-model.md",
+          "purpose": "Read Authority Model for this task stage.",
+          "required": true,
+          "section": "overview",
+          "sitePath": "concepts/authority-model.html"
+        },
+        {
+          "bytes": 5057,
+          "digest": "sha256:e85ba2e5da13ec150687a53dbd6859bcd98df893061b06ca70b56235d3ece7f5",
+          "document": "AIXEM-ARCH-ARTIFACT-001",
+          "order": 2,
+          "path": "docs/architecture/artifact-store.md",
+          "purpose": "Read Artifact Ownership and Storage for this task stage.",
+          "required": true,
+          "section": "operational-rules",
+          "sitePath": "architecture/artifact-store.html"
+        },
+        {
+          "bytes": 4280,
+          "digest": "sha256:5cd5b996d29418c7cd5b18400c6ebe1c27ca94a76a29b50dcf6227c201b6a20d",
+          "document": "AIXEM-FORMAT-INDEX-001",
+          "order": 3,
+          "path": "docs/file-formats/index.md",
+          "purpose": "Read File Formats for this task stage.",
+          "required": true,
+          "section": "overview",
+          "sitePath": "file-formats/index.html"
+        },
+        {
+          "bytes": 6131,
+          "digest": "sha256:a7d5bb475edbeddf2c0bd7c482b076b9ffd2ed37718452a24fc971c1db353d7b",
+          "document": "AIXEM-SPEC-AUTHORITY-001",
+          "order": 4,
+          "path": "docs/specifications/core/authority-precedence.md",
+          "purpose": "Read Authority and Precedence for this task stage.",
+          "required": true,
+          "section": "validation-and-evidence",
+          "sitePath": "specifications/core/authority-precedence.html"
+        }
+      ],
+      "summary": "Find an artifact owner or contract",
+      "taskPacket": "docs/_meta/generated/task-packets/inspect-artifact.json",
+      "validators": [
+        "docs.artifact_ownership",
+        "docs.artifact_existence"
+      ]
+    },
+    {
+      "aliases": [
+        "inspect viewer",
+        "viewer behavior",
+        "review viewer model",
+        "debug viewer",
+        "viewer conformance"
+      ],
+      "budget": {
+        "max_bytes": 98304,
+        "max_depth": 3,
+        "max_documents": 7
+      },
+      "completion": [
+        "Authority owner is identified before code changes",
+        "Qualified identity and Viewer Model closure remain valid",
+        "Affected V-cases pass in controlled Chromium",
+        "No semantic/write-back or network path is introduced",
+        "Viewer artifacts remain deterministic"
+      ],
+      "computed": {
+        "bytes": 43992,
+        "documents": 6,
+        "maxDepth": 3
+      },
+      "expectedInputs": [
+        "generated viewer-model.json or renderer evidence",
+        "affected Viewer behavior or defect",
+        "browser/conformance observation"
+      ],
+      "expectedOutputs": [
+        "viewer-model.json",
+        "viewer.html or workbench.html",
+        "targeted V-case result",
+        "updated conformance evidence when normative behavior changes"
+      ],
+      "id": "inspect-viewer",
+      "intent": "inspect-viewer",
+      "kind": "simple",
+      "source": "docs/_meta/routes/inspect-viewer.yaml",
+      "steps": [
+        {
+          "bytes": 15764,
+          "digest": "sha256:51f0c496601896459e57adb025523d72eff5b3d0a1468fddcc81957de9b491a9",
+          "document": "AIXEM-SPEC-VIEWER-001",
+          "order": 1,
+          "path": "docs/specifications/viewer/reference-viewer-contract.md",
+          "purpose": "Establish the product, authority, capability, model, identity, and compatibility boundary.",
+          "required": true,
+          "section": "product-and-authority-boundary",
+          "sitePath": "specifications/viewer/reference-viewer-contract.html"
+        },
+        {
+          "bytes": 8371,
+          "digest": "sha256:20ca1ae9d53e67c5ef17157925668de8489d2678c1f0ea5300d83eb748dee7dd",
+          "document": "AIXEM-SPEC-VIEWER-STATE-001",
+          "order": 2,
+          "path": "docs/specifications/viewer/viewer-state-and-interaction.md",
+          "purpose": "Resolve deterministic state and interaction ownership.",
+          "required": true,
+          "section": "state-record",
+          "sitePath": "specifications/viewer/viewer-state-and-interaction.html"
+        },
+        {
+          "bytes": 6507,
+          "digest": "sha256:a0ef396647595aa1dc23b6d01369c4be9c1b6f7df31c366570cac2dd41119e93",
+          "document": "AIXEM-SPEC-VIEWER-SECURITY-001",
+          "order": 3,
+          "path": "docs/specifications/viewer/viewer-security-and-embedding.md",
+          "purpose": "Apply offline, inert-text, CSP, and no-write constraints.",
+          "required": true,
+          "section": "offline-package-boundary",
+          "sitePath": "specifications/viewer/viewer-security-and-embedding.html"
+        },
+        {
+          "bytes": 4369,
+          "digest": "sha256:5cca189b7241ba20b12097784c359cd3a6cecedea0e90e26c76a4eebaeacdf0b",
+          "document": "AIXEM-SPEC-VIEWER-A11Y-001",
+          "order": 4,
+          "path": "docs/specifications/viewer/viewer-accessibility-profile.md",
+          "purpose": "Preserve keyboard, focus, semantic-state, and narrow-viewport operability.",
+          "required": true,
+          "section": "keyboard-and-focus",
+          "sitePath": "specifications/viewer/viewer-accessibility-profile.html"
+        },
+        {
+          "bytes": 3220,
+          "condition": "Review Workbench behavior or evidence is affected.",
+          "digest": "sha256:fc6dc93b0b617ea4365c79dea22606638350f6af3b1d11a077dc690d0653de5e",
+          "document": "AIXEM-SPEC-WORKBENCH-001",
+          "order": 5,
+          "path": "docs/specifications/viewer/review-workbench-contract.md",
+          "purpose": "Load only when the defect concerns diagnostics, provenance, or Workbench separation.",
+          "required": false,
+          "section": "product-role",
+          "sitePath": "specifications/viewer/review-workbench-contract.html"
+        },
+        {
+          "bytes": 5761,
+          "digest": "sha256:3618dec2b490eacb101826d9eb24b2f444629841770fca3b1c4161e889cba673",
+          "document": "AIXEM-CONF-REFERENCE-VIEWER-001",
+          "order": 6,
+          "path": "docs/conformance/reference-viewer.md",
+          "purpose": "Select the smallest executable V-case and required browser evidence.",
+          "required": true,
+          "section": "corpus-inventory",
+          "sitePath": "conformance/reference-viewer.html"
+        }
+      ],
+      "summary": "Inspect or modify Reference Viewer behavior through its canonical read-only contracts without loading unrelated authoring material",
+      "taskPacket": "docs/_meta/generated/task-packets/inspect-viewer.json",
+      "validators": [
+        "schematic.reference_viewer",
+        "docs.requirements",
+        "docs.links"
+      ]
+    },
+    {
+      "aliases": [
+        "migrate 0.4",
+        "upgrade baseline",
+        "legacy migration",
+        "move old docs",
+        "0.4 compatibility"
+      ],
+      "budget": {
+        "max_bytes": 98304,
+        "max_depth": 3,
+        "max_documents": 7
+      },
+      "completion": [
+        "Every baseline file has a disposition",
+        "Canonical target IDs are recorded",
+        "Compatibility output builds",
+        "No obsolete authored reference remains authoritative"
+      ],
+      "computed": {
+        "bytes": 21805,
+        "documents": 4,
+        "maxDepth": 3
+      },
+      "expectedInputs": [],
+      "expectedOutputs": [
+        "Every baseline file has a disposition",
+        "Canonical target IDs are recorded",
+        "Compatibility output builds",
+        "No obsolete authored reference remains authoritative"
+      ],
+      "id": "migrate-baseline",
+      "intent": "migrate-baseline",
+      "kind": "simple",
+      "source": "docs/_meta/routes/migrate-baseline.yaml",
+      "steps": [
+        {
+          "bytes": 3752,
+          "digest": "sha256:543e8a2496b5e33ed48a50ca66a3b61277c40d497e61047bc8cc06695f2af84d",
+          "document": "AIXEM-RELEASE-040-001",
+          "order": 1,
+          "path": "docs/releases/0.4.md",
+          "purpose": "Read AIXEM 0.4 Baseline for this task stage.",
+          "required": true,
+          "section": "overview",
+          "sitePath": "releases/0.4.html"
+        },
+        {
+          "bytes": 7833,
+          "digest": "sha256:7883dc9e8eab029c263c59f7ff7fb4a7f86b8af22d3dff294f0979f12b276ccb",
+          "document": "AIXEM-CONF-COMPAT-001",
+          "order": 2,
+          "path": "docs/conformance/compatibility-conformance.md",
+          "purpose": "Read Compatibility and Migration Conformance for this task stage.",
+          "required": true,
+          "section": "operational-rules",
+          "sitePath": "conformance/compatibility-conformance.html"
+        },
+        {
+          "bytes": 4907,
+          "digest": "sha256:1b5c9549074ab153dd692413f331d8b2dfa5071144b306fb31c1fe0e6e4b2c6c",
+          "document": "AIXEM-GOV-COMPAT-001",
+          "order": 3,
+          "path": "docs/governance/compatibility-policy.md",
+          "purpose": "Read Compatibility Policy for this task stage.",
+          "required": true,
+          "section": "operational-rules",
+          "sitePath": "governance/compatibility-policy.html"
+        },
+        {
+          "bytes": 5313,
+          "digest": "sha256:625b1b18e1141de4527946ec5a2d13e7183eb05c8cbe4cdca6b67176d290680c",
+          "document": "AIXEM-RELEASE-050-001",
+          "order": 4,
+          "path": "docs/releases/0.5.md",
+          "purpose": "Read AIXEM 0.5.0 for this task stage.",
+          "required": true,
+          "section": "validation-and-evidence",
+          "sitePath": "releases/0.5.html"
+        }
+      ],
+      "summary": "Migrate from AIXEM 0.4",
+      "taskPacket": "docs/_meta/generated/task-packets/migrate-baseline.json",
+      "validators": [
+        "docs.legacy_inventory",
+        "docs.compatibility_reference"
+      ]
+    },
+    {
+      "aliases": [
+        "publish release",
+        "package zip",
+        "release build",
+        "ship version",
+        "final archive"
+      ],
+      "budget": {
+        "max_bytes": 98304,
+        "max_depth": 3,
+        "max_documents": 7
+      },
+      "completion": [
+        "The release-declared clean verification cycles are complete",
+        "All tests and evidence pass",
+        "Manifest verifies",
+        "ZIP paths and membership are safe",
+        "External archive checksum is recorded"
+      ],
+      "computed": {
+        "bytes": 27569,
+        "documents": 4,
+        "maxDepth": 3
+      },
+      "expectedInputs": [],
+      "expectedOutputs": [
+        "The release-declared clean verification cycles are complete",
+        "All tests and evidence pass",
+        "Manifest verifies",
+        "ZIP paths and membership are safe",
+        "External archive checksum is recorded"
+      ],
+      "id": "publish-release",
+      "intent": "publish-release",
+      "kind": "simple",
+      "source": "docs/_meta/routes/publish-release.yaml",
+      "steps": [
+        {
+          "bytes": 3851,
+          "digest": "sha256:bf8f5d81afab58a5955ec0e60698c62850b80982dbcd0f92c2fad8f9593b61dd",
+          "document": "AIXEM-GOV-RELEASE-001",
+          "order": 1,
+          "path": "docs/governance/release-process.md",
+          "purpose": "Read Release Process for this task stage.",
+          "required": true,
+          "section": "authoritative-workflow",
+          "sitePath": "governance/release-process.html"
+        },
+        {
+          "bytes": 10054,
+          "digest": "sha256:b780f4f2d609f747642b2fe707008af8212ff384b4872a59e7618626f7177207",
+          "document": "AIXEM-CONF-RELEASE-001",
+          "order": 2,
+          "path": "docs/conformance/release-gates.md",
+          "purpose": "Read Release Gates for this task stage.",
+          "required": true,
+          "section": "operational-rules",
+          "sitePath": "conformance/release-gates.html"
+        },
+        {
+          "bytes": 7813,
+          "digest": "sha256:9e06776349ebb0b20e67c9579fc7ce5a124f1e9ea36271b34af230b9b0ad4a55",
+          "document": "AIXEM-SPEC-RELEASE-001",
+          "order": 3,
+          "path": "docs/specifications/documentation/release-integrity.md",
+          "purpose": "Read Documentation Release Integrity 1 for this task stage.",
+          "required": true,
+          "section": "operational-rules",
+          "sitePath": "specifications/documentation/release-integrity.html"
+        },
+        {
+          "bytes": 5851,
+          "digest": "sha256:cd10c73a993fca9395cbb814c077a3096229a041363ab193923066c579f93a55",
+          "document": "AIXEM-ARCH-SECURITY-001",
+          "order": 4,
+          "path": "docs/architecture/security.md",
+          "purpose": "Read Security and Trust Boundaries for this task stage.",
+          "required": true,
+          "section": "validation-and-evidence",
+          "sitePath": "architecture/security.html"
+        }
+      ],
+      "summary": "Publish a release",
+      "taskPacket": "docs/_meta/generated/task-packets/publish-release.json",
+      "validators": [
+        "docs.release_gate",
+        "docs.manifest",
+        "docs.archive_safety"
+      ]
+    },
+    {
+      "aliases": [
+        "render review",
+        "render schematic",
+        "inspect drawing",
+        "visual qa",
+        "review svg"
+      ],
+      "budget": {
+        "max_bytes": 98304,
+        "max_depth": 3,
+        "max_documents": 7
+      },
+      "completion": [
+        "Renderer completes without a fail-closed diagnostic",
+        "Resolved evidence and Viewer Model are inspected",
+        "Defect is classified as drawing, Viewer interaction, Workbench evidence, or semantic authority",
+        "Every defect is assigned to one authority owner",
+        "Affected SVG/Viewer output is visually and behaviorally reviewed",
+        "Rerender is deterministic after repair"
+      ],
+      "computed": {
+        "bytes": 68105,
+        "documents": 7,
+        "maxDepth": 3
+      },
+      "expectedInputs": [
+        "locked project inputs",
+        "active renderer/style profile",
+        "narrow validator results"
+      ],
+      "expectedOutputs": [
+        "drawing/project SVG",
+        "resolved scene or resolved project scene",
+        "viewer-model.json",
+        "viewer.html or workbench.html",
+        "project-validation.json",
+        "visual or browser review record"
+      ],
+      "id": "render-review",
+      "intent": "render-review",
+      "kind": "simple",
+      "remediation": {
+        "acceptsDiagnostics": [
+          "AIXEM-DIAG-RENDERER-DETERMINISM"
+        ]
+      },
+      "source": "docs/_meta/routes/render-review.yaml",
+      "steps": [
+        {
+          "bytes": 11782,
+          "digest": "sha256:8843908e7bb5164f14a9b9877163529b67c2765d29fcd6c8f440eb653b180152",
+          "document": "AIXEM-SPEC-RENDERER-001",
+          "order": 1,
+          "path": "docs/specifications/renderer/renderer-contract.md",
+          "purpose": "Generate deterministic renderer evidence and identify the renderer/Viewer boundary.",
+          "required": true,
+          "section": "renderer-to-viewer-boundary",
+          "sitePath": "specifications/renderer/renderer-contract.html"
+        },
+        {
+          "bytes": 15764,
+          "digest": "sha256:51f0c496601896459e57adb025523d72eff5b3d0a1468fddcc81957de9b491a9",
+          "document": "AIXEM-SPEC-VIEWER-001",
+          "order": 2,
+          "path": "docs/specifications/viewer/reference-viewer-contract.md",
+          "purpose": "Classify Viewer interaction and Workbench profile defects without altering circuit authority.",
+          "required": true,
+          "section": "product-and-authority-boundary",
+          "sitePath": "specifications/viewer/reference-viewer-contract.html"
+        },
+        {
+          "bytes": 6363,
+          "digest": "sha256:7aa4bd2309ac7aa9c4da199bde6c75f8cb30240dcb6102e7a332c7f14266c04e",
+          "document": "AIXEM-AGENT-VISUAL-QA-001",
+          "order": 3,
+          "path": "docs/agent/visual-qa-loop.md",
+          "purpose": "Execute the evidence-backed visual QA and local repair loop.",
+          "required": true,
+          "section": "required-loop",
+          "sitePath": "agent/visual-qa-loop.html"
+        },
+        {
+          "bytes": 7688,
+          "digest": "sha256:ad17fd56e9a7e681bdeafded504868e730f3f7ca7bc8826ee9b78bb7bde38ed0",
+          "document": "AIXEM-SPEC-VISUAL-PROFILE-001",
+          "order": 4,
+          "path": "docs/specifications/schematic/visual-profile.md",
+          "purpose": "Separate schematic drawing presentation from Viewer application chrome.",
+          "required": true,
+          "section": "0-5-4-viewer-boundary",
+          "sitePath": "specifications/schematic/visual-profile.html"
+        },
+        {
+          "bytes": 10379,
+          "condition": "The defect is inside a symbol or its fields.",
+          "digest": "sha256:ed7e12ded56ddcc7ff3154ef967a0c780c8a6dbb7d9a4f5dcde732a8500b0e53",
+          "document": "AIXEM-SPEC-SYMBOL-DESIGN-001",
+          "order": 5,
+          "path": "docs/specifications/symbols/symbol-design-profile.md",
+          "purpose": "Review measurable symbol rules when the defect belongs to symbol geometry.",
+          "required": false,
+          "section": "validation",
+          "sitePath": "specifications/symbols/symbol-design-profile.html"
+        },
+        {
+          "bytes": 5761,
+          "condition": "Viewer or Workbench behavior is affected.",
+          "digest": "sha256:3618dec2b490eacb101826d9eb24b2f444629841770fca3b1c4161e889cba673",
+          "document": "AIXEM-CONF-REFERENCE-VIEWER-001",
+          "order": 6,
+          "path": "docs/conformance/reference-viewer.md",
+          "purpose": "Select browser behavior and evidence gates for Viewer or Workbench defects.",
+          "required": false,
+          "section": "browser-gate",
+          "sitePath": "conformance/reference-viewer.html"
+        },
+        {
+          "bytes": 10368,
+          "digest": "sha256:79a0b3a82134a3e41bb0796fb7619a17789038f89944e154d3473ac0f9f97d9f",
+          "document": "AIXEM-CONF-VALIDATION-001",
+          "order": 7,
+          "path": "docs/conformance/validation.md",
+          "purpose": "Interpret validation diagnostics and evidence ownership.",
+          "required": true,
+          "section": "0-5-1-authoring-validation-layers",
+          "sitePath": "conformance/validation.html"
+        }
+      ],
+      "summary": "Render locked sources, inspect resolved evidence, classify drawing, Viewer, Workbench, or semantic defects, and repair the owning layer",
+      "taskPacket": "docs/_meta/generated/task-packets/render-review.json",
+      "validators": [
+        "schematic.renderer_contract",
+        "schematic.authoring_examples",
+        "agent.visual_qa",
+        "manual.symbol_visual_review",
+        "schematic.reference_viewer",
+        "agent.diagnostics",
+        "agent.change_scope"
+      ],
+      "writes": {
+        "artifacts": [],
+        "authority": [],
+        "derived": [
+          "render/**",
+          "evidence/**"
+        ],
+        "prohibited": [
+          "render/**",
+          "evidence/**",
+          "**/viewer.html",
+          "**/workbench.html",
+          "**/*.svg",
+          "**/resolved-scene.json",
+          "**/resolved-project-scene.json",
+          "**/viewer-model.json",
+          "**/render-manifest.json",
+          "**/project-validation.json"
+        ]
+      }
+    },
+    {
+      "aliases": [
+        "route nets",
+        "connect wires",
+        "wire routing",
+        "orthogonal routing",
+        "auto route"
+      ],
+      "budget": {
+        "max_bytes": 98304,
+        "max_depth": 3,
+        "max_documents": 7
+      },
+      "completion": [
+        "Every connection names an existing semantic net",
+        "Every semantic endpoint is routed",
+        "Every free segment is orthogonal and grid-aligned",
+        "Every branch join is explicit",
+        "Crossings remain semantically and visually unambiguous"
+      ],
+      "computed": {
+        "bytes": 48407,
+        "documents": 7,
+        "maxDepth": 3
+      },
+      "expectedInputs": [
+        "closed semantic nets",
+        "resolved component placements and ports",
+        "routing constraints"
+      ],
+      "expectedOutputs": [
+        "updated .aixlayout.json connections",
+        "route closure evidence",
+        "deterministic routed render"
+      ],
+      "id": "route-nets",
+      "intent": "route-nets",
+      "kind": "simple",
+      "remediation": {
+        "acceptsDiagnostics": [
+          "AIXEM-DIAG-ROUTE-ENDPOINT-CLOSURE",
+          "AIXEM-DIAG-ROUTE-NON-ORTHOGONAL",
+          "AIXEM-DIAG-ROUTE-VIA-OFF-GRID",
+          "AIXEM-DIAG-ROUTE-ZERO-LENGTH",
+          "AIXEM-DIAG-JUNCTION-AMBIGUOUS"
+        ]
+      },
+      "source": "docs/_meta/routes/route-nets.yaml",
+      "steps": [
+        {
+          "bytes": 5145,
+          "digest": "sha256:15f0ed7e2441883cb3509959c8eb9ce73c0a1f277d3e382e0af89730c672b6eb",
+          "document": "AIXEM-CONCEPT-NET-001",
+          "order": 1,
+          "path": "docs/concepts/net-model.md",
+          "purpose": "Confirm semantic net membership and endpoint closure.",
+          "required": true,
+          "section": "overview",
+          "sitePath": "concepts/net-model.html"
+        },
+        {
+          "bytes": 8116,
+          "digest": "sha256:641b43cd46e68c363beb52a32f76f97b90c6aba9bc16fbfc0b99bd892e47942f",
+          "document": "AIXEM-ROUTE-NETS-001",
+          "order": 2,
+          "path": "docs/routing/net-routing.md",
+          "purpose": "Resolve semantic endpoints into explicit layout paths.",
+          "required": true,
+          "section": "0-5-1-serialization-and-closure-example",
+          "sitePath": "routing/net-routing.html"
+        },
+        {
+          "bytes": 6317,
+          "digest": "sha256:1e6af046668fc955bf129fc22726dbeeecbebe1857c72fecb750acf1f93075c5",
+          "document": "AIXEM-ROUTE-COOKBOOK-001",
+          "order": 3,
+          "path": "docs/routing/routing-cookbook.md",
+          "purpose": "Choose the topology-specific routing recipe.",
+          "required": true,
+          "section": "straight-two-terminal-route",
+          "sitePath": "routing/routing-cookbook.html"
+        },
+        {
+          "bytes": 6354,
+          "digest": "sha256:6635f8dba35db7d77e80a45b7fbddccf7055b27c4ddf4e5e328b65a458161817",
+          "document": "AIXEM-SCHEM-GRID-001",
+          "order": 4,
+          "path": "docs/schematic/grid-system.md",
+          "purpose": "Apply active grid authority to every free route bend.",
+          "required": true,
+          "section": "operational-rules",
+          "sitePath": "schematic/grid-system.html"
+        },
+        {
+          "bytes": 5737,
+          "digest": "sha256:e70eaf988b584d969cd9a54cc2b25dbe914e39a1a86f88ea80ab505089feef14",
+          "document": "AIXEM-ROUTE-CONSTRAINT-001",
+          "order": 5,
+          "path": "docs/routing/route-constraints.md",
+          "purpose": "Apply obstacle, clearance, endpoint, and route-quality constraints.",
+          "required": true,
+          "section": "route-constraints",
+          "sitePath": "routing/route-constraints.html"
+        },
+        {
+          "bytes": 7378,
+          "digest": "sha256:3f5039c045884821785cb22ff15f53c7d7aead8c406387a4d9c3b2e6839cc0d9",
+          "document": "AIXEM-ROUTE-CROSSING-001",
+          "order": 6,
+          "path": "docs/routing/crossings-and-junctions.md",
+          "purpose": "Represent branches and crossings without inferred connectivity.",
+          "required": true,
+          "section": "0-5-1-complete-branch-and-crossing-pattern",
+          "sitePath": "routing/crossings-and-junctions.html"
+        },
+        {
+          "bytes": 9360,
+          "digest": "sha256:b98490ebabd6639be7f46616567655a16386d62d196f846f67a15751a6315d77",
+          "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+          "order": 7,
+          "path": "docs/file-formats/aixlayout.md",
+          "purpose": "Serialize connections, paths, bends, labels, and junctions.",
+          "required": true,
+          "section": "connection-fields",
+          "sitePath": "file-formats/aixlayout.html"
+        }
+      ],
+      "summary": "Materialize existing semantic nets as orthogonal, explicit, unambiguous route geometry",
+      "taskPacket": "docs/_meta/generated/task-packets/route-nets.json",
+      "validators": [
+        "schematic.route_closure",
+        "schematic.orthogonal",
+        "schematic.junction",
+        "schematic.renderer_contract",
+        "agent.diagnostics",
+        "agent.change_scope"
+      ],
+      "writes": {
+        "artifacts": [
+          "**/*.aixlayout.json",
+          "**/*.aixproj.json"
+        ],
+        "authority": [
+          "layout",
+          "project"
+        ],
+        "constraints": [
+          {
+            "pattern": "**/*.aixproj.json",
+            "policy": "digest-only"
+          }
+        ],
+        "derived": [
+          "render/**",
+          "evidence/**"
+        ],
+        "prohibited": [
+          "render/**",
+          "evidence/**",
+          "**/viewer.html",
+          "**/workbench.html",
+          "**/*.svg",
+          "**/resolved-scene.json",
+          "**/resolved-project-scene.json",
+          "**/viewer-model.json",
+          "**/render-manifest.json",
+          "**/project-validation.json"
+        ]
+      }
+    },
+    {
+      "aliases": [
+        "route project nets",
+        "route between sheets",
+        "draw hierarchy wires",
+        "overview routing",
+        "composite routing"
+      ],
+      "budget": {
+        "max_bytes": 98304,
+        "max_depth": 3,
+        "max_documents": 7
+      },
+      "completion": [
+        "All project route terminals resolve to declared interface ports",
+        "All project route segments are deterministic and orthogonal",
+        "Different project nets may cross without implicit junctions",
+        "Semantic membership remains unchanged by routing"
+      ],
+      "computed": {
+        "bytes": 45236,
+        "documents": 6,
+        "maxDepth": 3
+      },
+      "expectedInputs": [
+        "validated project semantic graph",
+        "resolved sheet interface anchors",
+        "deterministic sheet order and transforms"
+      ],
+      "expectedOutputs": [
+        "deterministic project overview routes",
+        "deterministic composite routes",
+        "project routing diagnostics",
+        "updated resolved-project-scene evidence"
+      ],
+      "id": "route-project-nets",
+      "intent": "route-project-nets",
+      "kind": "simple",
+      "remediation": {
+        "acceptsDiagnostics": [
+          "AIXEM-DIAG-PROJECT-ROUTE-NON-ORTHOGONAL"
+        ]
+      },
+      "source": "docs/_meta/routes/route-project-nets.yaml",
+      "steps": [
+        {
+          "bytes": 4053,
+          "digest": "sha256:41c1b8d26ea8a8f8be4f330a847c7ed07602a85d85dde0ad48016141116055e7",
+          "document": "AIXEM-CONCEPT-PROJECT-NET-001",
+          "order": 1,
+          "path": "docs/concepts/project-net-model.md",
+          "purpose": "Separate local leaf routing authority from derived project-level routing.",
+          "required": true,
+          "section": "routing-separation",
+          "sitePath": "concepts/project-net-model.html"
+        },
+        {
+          "bytes": 6258,
+          "digest": "sha256:81cef50427ec3e17118b54d96947ece0e9622bf428db34f830808b3c21b6d02e",
+          "document": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
+          "order": 2,
+          "path": "docs/specifications/layout/hierarchical-sheet-port-contract.md",
+          "purpose": "Resolve each project route terminal from a semantic interface port presentation.",
+          "required": true,
+          "section": "route-endpoint-resolution",
+          "sitePath": "specifications/layout/hierarchical-sheet-port-contract.html"
+        },
+        {
+          "bytes": 11956,
+          "digest": "sha256:4e8c08391186c558988a3beaa924d13e8e432c7ac56705730c24033d1a3c5dd6",
+          "document": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
+          "order": 3,
+          "path": "docs/specifications/project/project-composition-contract.md",
+          "purpose": "Read project-net members and qualified identities from the validated project graph.",
+          "required": true,
+          "section": "project-semantic-graph",
+          "sitePath": "specifications/project/project-composition-contract.html"
+        },
+        {
+          "bytes": 8116,
+          "digest": "sha256:641b43cd46e68c363beb52a32f76f97b90c6aba9bc16fbfc0b99bd892e47942f",
+          "document": "AIXEM-ROUTE-NETS-001",
+          "order": 4,
+          "path": "docs/routing/net-routing.md",
+          "purpose": "Preserve local entity-to-interface route closure inside each leaf.",
+          "required": true,
+          "section": "routing-to-an-interface-endpoint",
+          "sitePath": "routing/net-routing.html"
+        },
+        {
+          "bytes": 4429,
+          "digest": "sha256:ee2d6ac7c28527d05876e3b3ad59540e69ae7f30726df779e5449ceeb99fc262",
+          "document": "AIXEM-AGENT-ROUTING-001",
+          "order": 5,
+          "path": "docs/agent/routing-agent.md",
+          "purpose": "Prevent route repair from changing project-net or local-net membership.",
+          "required": true,
+          "section": "local-versus-project-routing-discipline",
+          "sitePath": "agent/routing-agent.html"
+        },
+        {
+          "bytes": 10424,
+          "digest": "sha256:a951754958a0d0f0a91838ba1f395e76f92ca78642b199563ec5631f19747723",
+          "document": "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
+          "order": 6,
+          "path": "docs/conformance/hierarchical-project.md",
+          "purpose": "Check overview, composite, project-scene, and Workbench routing evidence.",
+          "required": true,
+          "section": "required-outputs",
+          "sitePath": "conformance/hierarchical-project.html"
+        }
+      ],
+      "summary": "Route already-declared project nets between resolved sheet interface anchors without changing semantic membership",
+      "taskPacket": "docs/_meta/generated/task-packets/route-project-nets.json",
+      "validators": [
+        "schematic.route_closure",
+        "schematic.orthogonal",
+        "schematic.deterministic",
+        "schematic.workbench",
+        "agent.diagnostics",
+        "agent.change_scope"
+      ],
+      "writes": {
+        "artifacts": [],
+        "authority": [],
+        "derived": [
+          "render/**",
+          "evidence/**"
+        ],
+        "prohibited": [
+          "render/**",
+          "evidence/**",
+          "**/viewer.html",
+          "**/workbench.html",
+          "**/*.svg",
+          "**/resolved-scene.json",
+          "**/resolved-project-scene.json",
+          "**/viewer-model.json",
+          "**/render-manifest.json",
+          "**/project-validation.json"
+        ]
+      }
+    },
+    {
+      "aliases": [
+        "validate live agent authoring",
+        "run agent evaluation 3",
+        "cold-start agent conformance",
+        "maintain live executor harness"
+      ],
+      "budget": {
+        "max_bytes": 98304,
+        "max_depth": 3,
+        "max_documents": 7
+      },
+      "completion": [
+        "Task resolves without authority widening",
+        "Stage is deterministic, fresh, safe, and target/evaluator isolated",
+        "Executor and observation evidence validate",
+        "Actual final workspace is scored without evaluator mutation",
+        "Every attempted terminal result is retained in the exact denominator",
+        "Live claim state matches actual external process evidence"
+      ],
+      "computed": {
+        "bytes": 54551,
+        "documents": 7,
+        "maxDepth": 3
+      },
+      "expectedInputs": [
+        "Agent Evaluation 3 case or external executor descriptor",
+        "canonical generated task packets and authoring tools",
+        "incomplete cold-start workspace"
+      ],
+      "expectedOutputs": [
+        "stage-manifest.json",
+        "executor record and observation-log.jsonl",
+        "evaluation-result.json",
+        "live-run-evidence.json",
+        "attempt-set.json or truthful not-executed status"
+      ],
+      "id": "validate-live-agent-authoring",
+      "intent": "validate-live-agent-authoring",
+      "kind": "simple",
+      "remediation": {
+        "acceptsDiagnostics": []
+      },
+      "source": "docs/_meta/routes/validate-live-agent-authoring.yaml",
+      "steps": [
+        {
+          "bytes": 6253,
+          "digest": "sha256:ad4aa721dd1ace9227f6f31c40765f210a83d6c0e3ac3012bde4880992f3d9a0",
+          "document": "AIXEM-SPEC-AGENT-TASK-001",
+          "order": 1,
+          "path": "docs/specifications/agent/agent-task-contract.md",
+          "purpose": "Resolve the non-authoritative task against canonical route-owned scope.",
+          "required": true,
+          "section": "required-resolution",
+          "sitePath": "specifications/agent/agent-task-contract.html"
+        },
+        {
+          "bytes": 7625,
+          "digest": "sha256:daed8acd4bfa4f98e55d4d5a4e2a07036c0cf5d1aedb88d425df4663530d12ff",
+          "document": "AIXEM-SPEC-AGENT-STAGE-001",
+          "order": 2,
+          "path": "docs/specifications/agent/cold-start-stage-contract.md",
+          "purpose": "Materialize and validate a fresh target-isolated stage.",
+          "required": true,
+          "section": "target-leakage-check",
+          "sitePath": "specifications/agent/cold-start-stage-contract.html"
+        },
+        {
+          "bytes": 7987,
+          "digest": "sha256:2e5c47799be736d40925f66132530837bf22bf5f1a9e87301c23ce278924f7a7",
+          "document": "AIXEM-SPEC-AGENT-EXECUTOR-LIVE-001",
+          "order": 3,
+          "path": "docs/specifications/agent/live-executor-protocol.md",
+          "purpose": "Launch a bounded declared subprocess and retain execution proof.",
+          "required": true,
+          "section": "execution-proof",
+          "sitePath": "specifications/agent/live-executor-protocol.html"
+        },
+        {
+          "bytes": 7659,
+          "digest": "sha256:f114bb23c03092cd5b57cb8d2517d67abb2ec9729380585561850caea6549f4f",
+          "document": "AIXEM-SPEC-AGENT-OBSERVATION-001",
+          "order": 4,
+          "path": "docs/specifications/agent/observation-event-contract.md",
+          "purpose": "Validate observable actions without private reasoning claims.",
+          "required": true,
+          "section": "capability-coverage",
+          "sitePath": "specifications/agent/observation-event-contract.html"
+        },
+        {
+          "bytes": 7475,
+          "digest": "sha256:d297270f3885f380f0a0188dd939eda4b8914bae13576763b5fec228b1dabb24",
+          "document": "AIXEM-SPEC-AGENT-EVAL-INVARIANT-001",
+          "order": 5,
+          "path": "docs/specifications/agent/evaluation-invariant-contract.md",
+          "purpose": "Score the actual final workspace without evaluator repair.",
+          "required": true,
+          "section": "scoring",
+          "sitePath": "specifications/agent/evaluation-invariant-contract.html"
+        },
+        {
+          "bytes": 7744,
+          "digest": "sha256:37baf58e67f7fd11738025b2bf6f436c09321961932a1c1d5f6a7b20cf01920b",
+          "document": "AIXEM-SPEC-AGENT-LIVE-RUN-001",
+          "order": 6,
+          "path": "docs/specifications/agent/live-run-evidence.md",
+          "purpose": "Retain terminal evidence and enforce exact denominator integrity.",
+          "required": true,
+          "section": "attempt-set",
+          "sitePath": "specifications/agent/live-run-evidence.html"
+        },
+        {
+          "bytes": 9808,
+          "digest": "sha256:a115e6842902c7ca09212abe2438764246f34b686257c851fe6e8534288cb4d8",
+          "document": "AIXEM-CONF-AGENT-LIVE-001",
+          "order": 7,
+          "path": "docs/conformance/live-agent-cold-start.md",
+          "purpose": "Separate Tier A protocol proof from actual Tier B execution claims.",
+          "required": true,
+          "section": "public-claim-rule",
+          "sitePath": "conformance/live-agent-cold-start.html"
+        }
+      ],
+      "summary": "Build, execute, score, retain, and review provider-neutral cold-start live-agent conformance evidence",
+      "taskPacket": "docs/_meta/generated/task-packets/validate-live-agent-authoring.json",
+      "validators": [
+        "agent.task_contract",
+        "agent.cold_start_stage",
+        "agent.live_executor",
+        "agent.observation",
+        "agent.evaluation_invariants",
+        "agent.live_run",
+        "agent.evaluation_3"
+      ],
+      "writes": {
+        "artifacts": [],
+        "authority": [],
+        "derived": [
+          "validation/agent-evals-3/results/**"
+        ],
+        "prohibited": [
+          "**/*.aixem",
+          "**/*.aixsym.json",
+          "**/*.aixlib.json",
+          "**/*.aixlayout.json",
+          "**/*.aixproj.json",
+          "**/render/**"
+        ]
+      }
+    },
+    {
+      "aliases": [
+        "validate project",
+        "check schematic",
+        "run conformance",
+        "verify project",
+        "schematic lint"
+      ],
+      "budget": {
+        "max_bytes": 98304,
+        "max_depth": 3,
+        "max_documents": 7
+      },
+      "completion": [
+        "Schemas and project locks pass",
+        "Semantic, component, port, placement, and route closure pass",
+        "Authoring examples and renderer contract tests pass",
+        "Visual review has no release-critical defect",
+        "Deterministic outputs and evidence pass",
+        "Applicable symbol expressiveness tier and MU boundary are reported"
+      ],
+      "computed": {
+        "bytes": 70299,
+        "documents": 7,
+        "maxDepth": 3
+      },
+      "expectedInputs": [
+        "final authoritative source artifacts",
+        "locked project manifest",
+        "render/review outputs"
+      ],
+      "expectedOutputs": [
+        "machine-readable validation results",
+        "requirement/test evidence",
+        "release-ready project artifacts"
+      ],
+      "id": "validate-project",
+      "intent": "validate-project",
+      "kind": "simple",
+      "remediation": {
+        "acceptsDiagnostics": [
+          "AIXEM-DIAG-SCHEMA-INVALID",
+          "AIXEM-DIAG-UNSUPPORTED-CAPABILITY",
+          "AIXEM-DIAG-LIBRARY-PART-PINOUT-REVIEW-MISSING",
+          "AIXEM-DIAG-LIBRARY-PART-INTENT-REVIEW-INCOMPLETE",
+          "AIXEM-DIAG-PIN-SOURCE-REVIEW-INCOMPLETE",
+          "AIXEM-DIAG-ERC-OUTPUT-CONFLICT",
+          "AIXEM-DIAG-ERC-POWER-OUTPUT-CONFLICT",
+          "AIXEM-DIAG-ERC-CONNECTED-NOCONNECT",
+          "AIXEM-DIAG-ERC-INPUT-ONLY",
+          "AIXEM-DIAG-ERC-UNCERTAIN-TOPOLOGY"
+        ]
+      },
+      "source": "docs/_meta/routes/validate-project.yaml",
+      "steps": [
+        {
+          "bytes": 6583,
+          "digest": "sha256:2a22582c37919f54a9157548cc97d67bbc9c167aa18e4a36635e5232fde9f57b",
+          "document": "AIXEM-SPEC-PROJECT-LOCK-001",
+          "order": 1,
+          "path": "docs/specifications/project/project-lock-contract.md",
+          "purpose": "Verify project-local paths, identities, and digests.",
+          "required": true,
+          "section": "operational-rules",
+          "sitePath": "specifications/project/project-lock-contract.html"
+        },
+        {
+          "bytes": 10368,
+          "digest": "sha256:79a0b3a82134a3e41bb0796fb7619a17789038f89944e154d3473ac0f9f97d9f",
+          "document": "AIXEM-CONF-VALIDATION-001",
+          "order": 2,
+          "path": "docs/conformance/validation.md",
+          "purpose": "Run structural, semantic, placement, routing, review, and evidence validation in authority order.",
+          "required": true,
+          "section": "0-5-1-authoring-validation-layers",
+          "sitePath": "conformance/validation.html"
+        },
+        {
+          "bytes": 13986,
+          "digest": "sha256:3b69de52984770c79e996584ce3936cbb344f03417a80e037d60c087127e60ad",
+          "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+          "order": 3,
+          "path": "docs/specifications/components/library-layout-contract.md",
+          "purpose": "Validate canonical new paths, provenance, semantic identity, review evidence, and separated result claims.",
+          "required": true,
+          "section": "review-and-claim-boundaries",
+          "sitePath": "specifications/components/library-layout-contract.html"
+        },
+        {
+          "bytes": 11768,
+          "digest": "sha256:2efaa8b0b08c67f2c088d407b6a799dc462552f7d423a8f5411d5497595735c7",
+          "document": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
+          "order": 4,
+          "path": "docs/specifications/components/pin-electrical-semantics-profile.md",
+          "purpose": "Validate pin semantics and conservative PASS/WARN/ERROR/NOT_EVALUATED compatibility outcomes.",
+          "required": true,
+          "section": "bounded-compatibility-precheck",
+          "sitePath": "specifications/components/pin-electrical-semantics-profile.html"
+        },
+        {
+          "bytes": 11782,
+          "digest": "sha256:8843908e7bb5164f14a9b9877163529b67c2765d29fcd6c8f440eb653b180152",
+          "document": "AIXEM-SPEC-RENDERER-001",
+          "order": 5,
+          "path": "docs/specifications/renderer/renderer-contract.md",
+          "purpose": "Confirm renderer inputs and bindings resolve fail closed.",
+          "required": true,
+          "section": "fail-closed-conditions",
+          "sitePath": "specifications/renderer/renderer-contract.html"
+        },
+        {
+          "bytes": 9449,
+          "digest": "sha256:f4c18b855bce33e4d817f68544adf8d6236a934344031e65f5b06f2dbbf6b3f9",
+          "document": "AIXEM-SYMBOL-LINT-001",
+          "order": 6,
+          "path": "docs/symbols/symbol-lint.md",
+          "purpose": "Apply path, provenance, schema, design-profile, binding, and golden-render checks.",
+          "required": true,
+          "section": "0-5-2-corpus-conformance-checks",
+          "sitePath": "symbols/symbol-lint.html"
+        },
+        {
+          "bytes": 6363,
+          "digest": "sha256:7aa4bd2309ac7aa9c4da199bde6c75f8cb30240dcb6102e7a332c7f14266c04e",
+          "document": "AIXEM-AGENT-VISUAL-QA-001",
+          "order": 7,
+          "path": "docs/agent/visual-qa-loop.md",
+          "purpose": "Confirm visual evidence, owner-local repair, and completion.",
+          "required": true,
+          "section": "completion-record",
+          "sitePath": "agent/visual-qa-loop.html"
+        }
+      ],
+      "summary": "Validate final authoring sources, bindings, routes, deterministic rendering, and evidence",
+      "taskPacket": "docs/_meta/generated/task-packets/validate-project.json",
+      "validators": [
+        "schematic.authoring_integrity",
+        "schematic.project_schema",
+        "schematic.digest_lock",
+        "schematic.authoring_binding",
+        "schematic.symbol_design",
+        "schematic.authoring_examples",
+        "schematic.renderer_contract",
+        "agent.visual_qa",
+        "agent.diagnostics",
+        "agent.change_scope",
+        "agent.run_record",
+        "agent.authoring_closed_loop"
+      ],
+      "writes": {
+        "artifacts": [],
+        "authority": [],
+        "derived": [
+          "render/**",
+          "evidence/**"
+        ],
+        "prohibited": [
+          "render/**",
+          "evidence/**",
+          "**/viewer.html",
+          "**/workbench.html",
+          "**/*.svg",
+          "**/resolved-scene.json",
+          "**/resolved-project-scene.json",
+          "**/viewer-model.json",
+          "**/render-manifest.json",
+          "**/project-validation.json"
+        ]
+      }
+    },
+    {
+      "aliases": [
+        "validate symbol expressiveness",
+        "check symbol corpus",
+        "find proven symbol pattern",
+        "validate static 2d block"
+      ],
+      "budget": {
+        "max_bytes": 98304,
+        "max_depth": 3,
+        "max_documents": 7
+      },
+      "completion": [
+        "The nearest validated construction pattern is identified",
+        "The source passes the current symbol schema without speculative extensions",
+        "Component ports map totally to visible electrical symbol ports",
+        "Production SVG and resolved scene are deterministic and digest-bound",
+        "Visual review has no critical readability or connectivity defect",
+        "Graphical and semantic capability results are reported separately"
+      ],
+      "computed": {
+        "bytes": 70619,
+        "documents": 7,
+        "maxDepth": 3
+      },
+      "expectedInputs": [
+        "intended component and endpoint contract",
+        "target symbol class or existing .aixsym source",
+        "selected corpus tier or case"
+      ],
+      "expectedOutputs": [
+        "validated .aixsym source or classified gap report",
+        "production-render evidence and geometry signature",
+        "S-Core, S-Extended, MU, or B2D result as applicable"
+      ],
+      "id": "validate-symbol-expressiveness",
+      "intent": "validate-symbol-expressiveness",
+      "kind": "simple",
+      "source": "docs/_meta/routes/validate-symbol-expressiveness.yaml",
+      "steps": [
+        {
+          "bytes": 9573,
+          "digest": "sha256:6bc2c1283a1e1ad254f7826459e780d8a41238d9707f35ec57a0319bed422e13",
+          "document": "AIXEM-CONF-SYMBOL-EXP-001",
+          "order": 1,
+          "path": "docs/conformance/symbol-expressiveness.md",
+          "purpose": "Establish the requested tier, mandatory gates, semantic boundary, and permitted claim.",
+          "required": true,
+          "section": "claim-levels",
+          "sitePath": "conformance/symbol-expressiveness.html"
+        },
+        {
+          "bytes": 4991,
+          "digest": "sha256:5631a52e460292845d8b3f46b206e7cfd0edf676c7a7a646c4939f83a17d1dad",
+          "document": "AIXEM-EXAMPLE-SYMBOL-CORPUS-001",
+          "order": 2,
+          "path": "docs/examples/symbol-expressiveness-corpus.md",
+          "purpose": "Select the nearest validated construction pattern without loading the full corpus.",
+          "required": true,
+          "section": "core-pattern-index",
+          "sitePath": "examples/symbol-expressiveness-corpus.html"
+        },
+        {
+          "bytes": 10379,
+          "digest": "sha256:ed7e12ded56ddcc7ff3154ef967a0c780c8a6dbb7d9a4f5dcde732a8500b0e53",
+          "document": "AIXEM-SPEC-SYMBOL-DESIGN-001",
+          "order": 3,
+          "path": "docs/specifications/symbols/symbol-design-profile.md",
+          "purpose": "Preserve grid, lead, pitch, field, and grouping measurements.",
+          "required": true,
+          "section": "profile-values",
+          "sitePath": "specifications/symbols/symbol-design-profile.html"
+        },
+        {
+          "bytes": 20640,
+          "digest": "sha256:2aa5c9a0fd8ede00355a470a080b6a19af3f94f9c205a4f29e2559607a192644",
+          "document": "AIXEM-SYMBOL-COOKBOOK-001",
+          "order": 4,
+          "path": "docs/symbols/symbol-authoring-cookbook.md",
+          "purpose": "Adapt the proven pattern to the actual component endpoint contract.",
+          "required": true,
+          "section": "recipe-selection",
+          "sitePath": "symbols/symbol-authoring-cookbook.html"
+        },
+        {
+          "bytes": 9449,
+          "digest": "sha256:f4c18b855bce33e4d817f68544adf8d6236a934344031e65f5b06f2dbbf6b3f9",
+          "document": "AIXEM-SYMBOL-LINT-001",
+          "order": 5,
+          "path": "docs/symbols/symbol-lint.md",
+          "purpose": "Apply schema, binding, geometry, production-render, digest, and review checks.",
+          "required": true,
+          "section": "0-5-2-corpus-conformance-checks",
+          "sitePath": "symbols/symbol-lint.html"
+        },
+        {
+          "bytes": 11782,
+          "digest": "sha256:8843908e7bb5164f14a9b9877163529b67c2765d29fcd6c8f440eb653b180152",
+          "document": "AIXEM-SPEC-RENDERER-001",
+          "order": 6,
+          "path": "docs/specifications/renderer/renderer-contract.md",
+          "purpose": "Confirm public resolution and determinism behavior before diagnosing a renderer or model gap.",
+          "required": true,
+          "section": "variant-selection",
+          "sitePath": "specifications/renderer/renderer-contract.html"
+        },
+        {
+          "bytes": 3805,
+          "condition": "Read only for Static 2D Block Profile work.",
+          "digest": "sha256:0114dc81d80f847f42430a272a4c72eff136389fc90c138fc7d437f1715d5cd8",
+          "document": "AIXEM-CONF-B2D-001",
+          "order": 7,
+          "path": "docs/conformance/static-2d-block-profile.md",
+          "purpose": "Apply the separate static-block boundary when the target is a non-schematic CAD-style block.",
+          "required": false,
+          "section": "explicit-exclusions",
+          "sitePath": "conformance/static-2d-block-profile.html"
+        }
+      ],
+      "summary": "Find the nearest proven symbol pattern and run production-pipeline expressiveness conformance without speculative format growth",
+      "taskPacket": "docs/_meta/generated/task-packets/validate-symbol-expressiveness.json",
+      "validators": [
+        "schematic.symbol_schema",
+        "schematic.symbol_design",
+        "schematic.authoring_binding",
+        "schematic.renderer_contract",
+        "docs.visual_review",
+        "docs.evidence"
+      ]
+    }
+  ],
+  "schema": "https://schemas.aixem.org/documentation/route-index/1"
+}

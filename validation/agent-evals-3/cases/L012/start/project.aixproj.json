@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.0",
+  "project": {
+    "applicationProfile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "description": "Visual Repair",
+    "features": [
+      "component.graphics@1",
+      "explicit.layout@1",
+      "semantic-route-binding@1",
+      "orthogonal-routing@1",
+      "grid-snap@1"
+    ],
+    "id": "authoring:visual_repair",
+    "layout": {
+      "digest": "sha256:16648e277333dc15e551ab8ffe404a210c2d8432c31a38268541785f18fc3063",
+      "id": "visual_repair-layout",
+      "mediaType": "application/vnd.aixem.layout+json",
+      "path": "visual_repair.aixlayout.json",
+      "version": "1.0"
+    },
+    "libraries": [
+      {
+        "digest": "sha256:cf0649d7b070fe78a1d28ec34ca046c82c3937c0367bccc17d6766a3ed9379ff",
+        "id": "authoring:visual_repair-library",
+        "mediaType": "application/vnd.aixem.library+json",
+        "path": "library/electronics/authoring/authoring-components.aixlib.json",
+        "version": "1.0.0"
+      }
+    ],
+    "metadata": {
+      "exampleDomain": "agent-authoring",
+      "independentDesign": true,
+      "styleProfile": "aixem.schematic.grid-light"
+    },
+    "outputs": [
+      {
+        "mediaType": "text/html",
+        "path": "render/workbench.html",
+        "role": "engineering-workbench"
+      },
+      {
+        "mediaType": "image/svg+xml",
+        "path": "render/drawing.svg",
+        "role": "drawing-svg"
+      },
+      {
+        "mediaType": "application/json",
+        "path": "render/resolved-scene.json",
+        "role": "resolved-scene"
+      }
+    ],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-11",
+      "license": "CC0-1.0"
+    },
+    "renderPolicy": {
+      "backend": "svg",
+      "defaultVariantPolicy": "library-default",
+      "fontPolicy": "system-fallback",
+      "purpose": "primary-diagram",
+      "remoteAssets": "deny",
+      "unsupportedRequiredFeature": "reject"
+    },
+    "source": {
+      "digest": "sha256:fd631efc9f3b87c291a27fa663266a17a0c574a95c9e92468364a3f0751f368c",
+      "id": "visual_repair",
+      "mediaType": "application/vnd.aixem+text",
+      "path": "visual_repair.aixem",
+      "version": "1.0"
+    },
+    "status": "example",
+    "title": "Visual Repair"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/aixproj/1"
+}

@@ -1,0 +1,97 @@
+{
+  "canonicalDocumentation": {
+    "documents": 109,
+    "errors": [],
+    "normativeDocuments": 70,
+    "requirements": 160,
+    "totalBytes": 609033,
+    "valid": true,
+    "warnings": []
+  },
+  "claimIntegrity": {
+    "errors": [],
+    "filesScanned": 3,
+    "valid": true
+  },
+  "corpus": {
+    "B2D": {
+      "automatedPassed": 6,
+      "expectedCases": 6,
+      "observedCases": 6,
+      "status": "PASS",
+      "visualPassed": 6
+    },
+    "MU": {
+      "case": "S030",
+      "expectedResult": "NOT_SUPPORTED",
+      "extensionDecision": "No speculative core extension was introduced in 0.5.2. A dedicated ADR is required before future multi-unit semantics are implemented.",
+      "graphicalMonolith": "PASS",
+      "interpretation": "The current model can draw the monolithic FPGA shape, but cannot represent independently placeable unit presentations that share one semantic component identity. Variants were not misused as units.",
+      "negativeTest": {
+        "name": "duplicate-placement-entity-rejected",
+        "observed": "duplicate placement entity",
+        "pass": true
+      },
+      "requiredSemanticProperties": {
+        "disjointPortSubsets": false,
+        "independentlyPlaceableUnits": false,
+        "oneSharedComponentIdentity": false,
+        "sharedReferenceAndValue": false,
+        "unambiguousResolvedSceneIdentity": false
+      },
+      "result": "NOT_SUPPORTED",
+      "valid": true
+    },
+    "S-Core": {
+      "automatedPassed": 24,
+      "expectedCases": 24,
+      "observedCases": 24,
+      "status": "PASS",
+      "visualPassed": 24
+    },
+    "S-Extended": {
+      "core": {
+        "automatedPassed": 24,
+        "expectedCases": 24,
+        "observedCases": 24,
+        "status": "PASS",
+        "visualPassed": 24
+      },
+      "extendedCases": {
+        "automatedPassed": 5,
+        "expectedCases": 5,
+        "observedCases": 5,
+        "status": "PASS",
+        "visualPassed": 5
+      },
+      "status": "PASS"
+    },
+    "cases": 36,
+    "valid": true
+  },
+  "cycle": 2,
+  "errors": [],
+  "focus": "regression, determinism, compatibility, and claim integrity",
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "generatedReproducibility": {
+    "changed": [],
+    "files": 312,
+    "valid": true
+  },
+  "release": "AIXEM-SRP-0.5.2-2026-08-11",
+  "schema": "https://schemas.aixem.org/validation/0.5.2/pass-03/1",
+  "site": {
+    "errors": [],
+    "pages": 124,
+    "valid": true
+  },
+  "symbolSchemaDigest": "sha256:ba4d442591f6e53daf07f9d8f85e2026043f4e93ae0710e2578447dd3c466831",
+  "tests": {
+    "errors": [],
+    "failures": [],
+    "successful": true,
+    "testsRun": 27
+  },
+  "valid": true
+}

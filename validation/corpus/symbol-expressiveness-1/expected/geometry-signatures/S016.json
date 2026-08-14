@@ -1,0 +1,81 @@
+{
+  "bounds": {
+    "height": 60,
+    "width": 60,
+    "x": -30,
+    "y": -30
+  },
+  "capabilities": [
+    "geometry.arc",
+    "geometry.circle",
+    "geometry.line",
+    "port.mapping",
+    "text.field"
+  ],
+  "case": "S016",
+  "defaultVariant": null,
+  "definitions": [],
+  "fieldAnchors": [
+    {
+      "field": "reference",
+      "id": "field-reference",
+      "x": 0,
+      "y": -25
+    },
+    {
+      "field": "value",
+      "id": "field-value",
+      "x": 0,
+      "y": 25
+    }
+  ],
+  "parameters": {},
+  "ports": [
+    {
+      "id": "COM",
+      "orientation": 180,
+      "visible": true,
+      "x": -25.0,
+      "y": 0.0
+    },
+    {
+      "id": "T1",
+      "orientation": 0,
+      "visible": true,
+      "x": 25.0,
+      "y": -15.0
+    },
+    {
+      "id": "T2",
+      "orientation": 0,
+      "visible": true,
+      "x": 25.0,
+      "y": -5.0
+    },
+    {
+      "id": "T3",
+      "orientation": 0,
+      "visible": true,
+      "x": 25.0,
+      "y": 5.0
+    },
+    {
+      "id": "T4",
+      "orientation": 0,
+      "visible": true,
+      "x": 25.0,
+      "y": 15.0
+    }
+  ],
+  "primitiveCounts": {
+    "arc": 1,
+    "circle": 5,
+    "line": 6,
+    "text": 2
+  },
+  "requiredFeatures": [
+    "elliptical-arc"
+  ],
+  "symbol": "corpus:s016-rotary-1p4t",
+  "variants": []
+}

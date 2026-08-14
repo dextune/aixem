@@ -1,0 +1,44 @@
+schema: https://schemas.aixem.org/documentation/task-route/1
+formatVersion: '1.0'
+id: inspect-artifact
+intent: inspect-artifact
+aliases:
+- inspect artifact
+- find owner
+- which file owns
+- artifact map
+- file contract
+summary: Find an artifact owner or contract
+budget:
+  max_documents: 7
+  max_bytes: 98304
+  max_depth: 3
+steps:
+- order: 1
+  document: AIXEM-CONCEPT-AUTHORITY-001
+  section: overview
+  purpose: Read Authority Model for this task stage.
+  required: true
+- order: 2
+  document: AIXEM-ARCH-ARTIFACT-001
+  section: operational-rules
+  purpose: Read Artifact Ownership and Storage for this task stage.
+  required: true
+- order: 3
+  document: AIXEM-FORMAT-INDEX-001
+  section: overview
+  purpose: Read File Formats for this task stage.
+  required: true
+- order: 4
+  document: AIXEM-SPEC-AUTHORITY-001
+  section: validation-and-evidence
+  purpose: Read Authority and Precedence for this task stage.
+  required: true
+completion: &id001
+- Artifact owner is resolved
+- Canonical contract is identified
+- Generated status and dependencies are known
+expected_outputs: *id001
+validators:
+- docs.artifact_ownership
+- docs.artifact_existence

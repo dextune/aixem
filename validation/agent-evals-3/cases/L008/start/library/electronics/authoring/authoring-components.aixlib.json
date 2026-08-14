@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.0",
+  "library": {
+    "components": [
+      {
+        "classification": [],
+        "description": "Repaired resistor",
+        "displayName": "Repaired resistor",
+        "id": "authoring:resistor",
+        "kind": "passive",
+        "metadata": {
+          "partProvenance": {
+            "status": "generic-template"
+          },
+          "semanticReady": true
+        },
+        "ports": [
+          {
+            "id": "1",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "1",
+            "required": false,
+            "terminal": "1",
+            "type": "passive"
+          },
+          {
+            "id": "2",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "2",
+            "required": false,
+            "terminal": "2",
+            "type": "passive"
+          }
+        ],
+        "presentations": [
+          {
+            "asset": {
+              "digest": "sha256:3e9c3ad9c2591679232b35c63d6ee44abc1114ec45ce309064338dc4d0ecbda4",
+              "path": "library/electronics/authoring/repaired-resistor.aixsym.json",
+              "revision": "1.0.0",
+              "symbolId": "authoring:resistor"
+            },
+            "fieldMap": {
+              "reference": "refdes",
+              "value": "value"
+            },
+            "portMap": {
+              "1": "1",
+              "2": "2"
+            },
+            "purpose": "primary-diagram"
+          }
+        ],
+        "properties": [
+          {
+            "id": "refdes",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "id": "value",
+            "required": false,
+            "type": "string"
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "description": "Visual Repair library",
+    "id": "authoring:visual_repair-library",
+    "metadata": {
+      "profile": "component.graphics@1"
+    },
+    "namespace": "authoring",
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-11",
+      "license": "CC0-1.0",
+      "notes": "Visual Repair library",
+      "origin": "AIXEM 0.5.1 authoring documentation"
+    },
+    "title": "Visual Repair library",
+    "version": "1.0.0"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/aixlib/1"
+}

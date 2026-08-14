@@ -1,0 +1,55 @@
+{
+  "card": {
+    "aliases": [
+      "documentation authoring guide",
+      "document placement guide",
+      "document lifecycle guide"
+    ],
+    "appliesTo": [
+      "documentation-authoring-guidance"
+    ],
+    "domain": "governance",
+    "estimatedReadBytes": 6882,
+    "id": "AIXEM-GOV-DOC-AUTHORING-001",
+    "inputs": [],
+    "keywords": [
+      "Documentation Authoring and Lifecycle Guide",
+      "build-documentation",
+      "document lifecycle guide",
+      "document placement guide",
+      "documentation authoring guide",
+      "publish-release"
+    ],
+    "kind": "guide",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/governance/documentation-authoring-guide.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:46c3a45eefbd24487e32f5352a8045ebcb8384e073eca70a9ea2ba59c736049d"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 900,
+    "readNext": [
+      "AIXEM-SPEC-DOC-GOVERNANCE-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-GOV-DOC-AUTHORING-001.read",
+        "level": "should",
+        "text": "Provides a practical decision path for creating, extending, moving, deprecating, archiving, and deleting AIXEM documents."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-GOV-DOC-AUTHORING-001",
+        "path": "docs/governance/documentation-authoring-guide.md"
+      }
+    ],
+    "summary": "Provides a practical decision path for creating, extending, moving, deprecating, archiving, and deleting AIXEM documents.",
+    "title": "Documentation Authoring and Lifecycle Guide"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

@@ -1,0 +1,57 @@
+{
+  "card": {
+    "aliases": [
+      "0.5.1",
+      "AIXEM 0.5.1",
+      "authoring readiness release"
+    ],
+    "appliesTo": [
+      "current-release-note"
+    ],
+    "domain": "releases",
+    "estimatedReadBytes": 6264,
+    "id": "AIXEM-RELEASE-051-001",
+    "inputs": [],
+    "keywords": [
+      "0.5.1",
+      "AIXEM 0.5.1",
+      "author-component-circuit",
+      "authoring readiness release",
+      "create-schematic",
+      "create-symbol",
+      "publish-release"
+    ],
+    "kind": "release-note",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/releases/0.5.1.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:b928e177d6ee2209f951581e35cdbc4e154638b2082e7acdfa31be2b916ce186"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 900,
+    "readNext": [
+      "AIXEM-RELEASE-050-001",
+      "AIXEM-GOV-RELEASE-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-RELEASE-051-001.read",
+        "level": "should",
+        "text": "Documents the agent-authoring and drawing-readiness release, executable examples, composite routes, renderer contracts, and three-pass validation results."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-RELEASE-051-001",
+        "path": "docs/releases/0.5.1.md"
+      }
+    ],
+    "summary": "Documents the agent-authoring and drawing-readiness release, executable examples, composite routes, renderer contracts, and three-pass validation results.",
+    "title": "AIXEM 0.5.1"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

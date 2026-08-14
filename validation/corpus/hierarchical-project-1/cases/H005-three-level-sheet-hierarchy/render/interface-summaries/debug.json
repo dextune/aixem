@@ -1,0 +1,15 @@
+{
+  "layoutDigest": "sha256:536942f997781008ec61b946e255e92620c8b99bcf4ee630833b1e4702ba643a",
+  "ports": [
+    {
+      "direction": "input",
+      "id": "IN",
+      "localNet": "in",
+      "projectNet": "debug_signal",
+      "role": "signal"
+    }
+  ],
+  "sheet": "debug",
+  "sourceDigest": "sha256:0d3a56e2338370541e454522b164fc754309c4280cf6f36e7ad79f5feb90cfde",
+  "title": "Debug"
+}

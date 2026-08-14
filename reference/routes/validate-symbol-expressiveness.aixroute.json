@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.0",
+  "route": {
+    "aliases": [
+      "validate symbol expressiveness",
+      "check symbol corpus",
+      "find proven symbol pattern",
+      "validate static 2d block"
+    ],
+    "budget": {
+      "fallbackDocuments": 2,
+      "maxBytes": 98304,
+      "maxDepth": 3,
+      "maxDocuments": 7
+    },
+    "conditionalReads": [],
+    "id": "validate-symbol-expressiveness",
+    "intents": [
+      "validate-symbol-expressiveness"
+    ],
+    "metadata": {
+      "exactRoutePreferred": true,
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "kind": "simple",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "source": "docs/_meta/routes/validate-symbol-expressiveness.yaml"
+    },
+    "outputs": [
+      "validated .aixsym source or classified gap report",
+      "production-render evidence and geometry signature",
+      "S-Core, S-Extended, MU, or B2D result as applicable"
+    ],
+    "steps": [
+      {
+        "exitCheck": "The nearest validated construction pattern is identified",
+        "id": "step-1",
+        "order": 1,
+        "produces": [],
+        "purpose": "Establish the requested tier, mandatory gates, semantic boundary, and permitted claim.",
+        "read": [
+          "reference/cards/conformance/symbol-expressiveness.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "The source passes the current symbol schema without speculative extensions",
+        "id": "step-2",
+        "order": 2,
+        "produces": [],
+        "purpose": "Select the nearest validated construction pattern without loading the full corpus.",
+        "read": [
+          "reference/cards/examples/symbol-expressiveness-corpus.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Component ports map totally to visible electrical symbol ports",
+        "id": "step-3",
+        "order": 3,
+        "produces": [],
+        "purpose": "Preserve grid, lead, pitch, field, and grouping measurements.",
+        "read": [
+          "reference/cards/specifications/symbols/symbol-design-profile.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Production SVG and resolved scene are deterministic and digest-bound",
+        "id": "step-4",
+        "order": 4,
+        "produces": [],
+        "purpose": "Adapt the proven pattern to the actual component endpoint contract.",
+        "read": [
+          "reference/cards/symbols/symbol-authoring-cookbook.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Visual review has no critical readability or connectivity defect",
+        "id": "step-5",
+        "order": 5,
+        "produces": [],
+        "purpose": "Apply schema, binding, geometry, production-render, digest, and review checks.",
+        "read": [
+          "reference/cards/symbols/symbol-lint.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Graphical and semantic capability results are reported separately",
+        "id": "step-6",
+        "order": 6,
+        "produces": [],
+        "purpose": "Confirm public resolution and determinism behavior before diagnosing a renderer or model gap.",
+        "read": [
+          "reference/cards/specifications/renderer/renderer-contract.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Graphical and semantic capability results are reported separately",
+        "id": "step-7",
+        "order": 7,
+        "produces": [],
+        "purpose": "Apply the separate static-block boundary when the target is a non-schematic CAD-style block.",
+        "read": [
+          "reference/cards/conformance/static-2d-block-profile.aixcard.json"
+        ],
+        "required": false,
+        "when": "Read only for Static 2D Block Profile work."
+      }
+    ],
+    "stopConditions": [
+      "The nearest validated construction pattern is identified",
+      "The source passes the current symbol schema without speculative extensions",
+      "Component ports map totally to visible electrical symbol ports",
+      "Production SVG and resolved scene are deterministic and digest-bound",
+      "Visual review has no critical readability or connectivity defect",
+      "Graphical and semantic capability results are reported separately"
+    ],
+    "title": "Find the nearest proven symbol pattern and run production-pipeline expressiveness conformance without speculative format growth",
+    "validators": [
+      "schematic.symbol_schema",
+      "schematic.symbol_design",
+      "schematic.authoring_binding",
+      "schematic.renderer_contract",
+      "docs.visual_review",
+      "docs.evidence"
+    ]
+  },
+  "schema": "https://schemas.aixem.org/reference/aixroute/1"
+}

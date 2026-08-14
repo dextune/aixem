@@ -1,0 +1,11 @@
+{
+  "assertions": [
+    "crossing-is-not-junction",
+    "project-junction-explicit"
+  ],
+  "expected": "pass",
+  "expectedDiagnostic": null,
+  "id": "H014",
+  "project": "project.aixproj.json",
+  "title": "Cross sheet route crossings"
+}

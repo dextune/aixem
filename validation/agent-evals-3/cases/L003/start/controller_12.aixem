@@ -1,0 +1,19 @@
+aixem 1.0
+model controller_12 title="Twelve-pin controller"
+feature component.graphics@1 required=true
+feature explicit.layout@1 required=true
+
+component UX12 type=live:controller-l003 refdes=UX12 value=LVC12
+
+noconn UX12.1
+noconn UX12.2
+noconn UX12.3
+noconn UX12.4
+noconn UX12.5
+noconn UX12.6
+noconn UX12.7
+noconn UX12.8
+noconn UX12.9
+noconn UX12.10
+noconn UX12.11
+noconn UX12.12

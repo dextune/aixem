@@ -1,0 +1,77 @@
+{
+  "authority": "derived-navigation-only",
+  "budget": {
+    "max_bytes": 98304,
+    "max_depth": 3,
+    "max_documents": 7
+  },
+  "completion": [
+    "Every baseline file has a disposition",
+    "Canonical target IDs are recorded",
+    "Compatibility output builds",
+    "No obsolete authored reference remains authoritative"
+  ],
+  "documents": [
+    {
+      "bytes": 3752,
+      "digest": "sha256:543e8a2496b5e33ed48a50ca66a3b61277c40d497e61047bc8cc06695f2af84d",
+      "document": "AIXEM-RELEASE-040-001",
+      "order": 1,
+      "path": "docs/releases/0.4.md",
+      "purpose": "Read AIXEM 0.4 Baseline for this task stage.",
+      "required": true,
+      "section": "overview"
+    },
+    {
+      "bytes": 7833,
+      "digest": "sha256:7883dc9e8eab029c263c59f7ff7fb4a7f86b8af22d3dff294f0979f12b276ccb",
+      "document": "AIXEM-CONF-COMPAT-001",
+      "order": 2,
+      "path": "docs/conformance/compatibility-conformance.md",
+      "purpose": "Read Compatibility and Migration Conformance for this task stage.",
+      "required": true,
+      "section": "operational-rules"
+    },
+    {
+      "bytes": 4907,
+      "digest": "sha256:1b5c9549074ab153dd692413f331d8b2dfa5071144b306fb31c1fe0e6e4b2c6c",
+      "document": "AIXEM-GOV-COMPAT-001",
+      "order": 3,
+      "path": "docs/governance/compatibility-policy.md",
+      "purpose": "Read Compatibility Policy for this task stage.",
+      "required": true,
+      "section": "operational-rules"
+    },
+    {
+      "bytes": 5313,
+      "digest": "sha256:625b1b18e1141de4527946ec5a2d13e7183eb05c8cbe4cdca6b67176d290680c",
+      "document": "AIXEM-RELEASE-050-001",
+      "order": 4,
+      "path": "docs/releases/0.5.md",
+      "purpose": "Read AIXEM 0.5.0 for this task stage.",
+      "required": true,
+      "section": "validation-and-evidence"
+    }
+  ],
+  "expectedInputs": [],
+  "expectedOutputs": [
+    "Every baseline file has a disposition",
+    "Canonical target IDs are recorded",
+    "Compatibility output builds",
+    "No obsolete authored reference remains authoritative"
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "id": "migrate-baseline",
+  "intent": "migrate-baseline",
+  "kind": "simple",
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/documentation/task-packet/1",
+  "source": "docs/_meta/routes/migrate-baseline.yaml",
+  "sourceDigest": "sha256:9f12b112cee7bf0af48ba0cb9f9c63e9b4313ef0770fa5fa0754639fb165d8dc",
+  "summary": "Migrate from AIXEM 0.4",
+  "validators": [
+    "docs.legacy_inventory",
+    "docs.compatibility_reference"
+  ]
+}

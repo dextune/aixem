@@ -1,0 +1,212 @@
+{
+  "deferredByPlan": {
+    "P1": [
+      "repair hints",
+      "semantic diffs",
+      "diagnostic-to-Viewer links",
+      "context optimization",
+      "optional adapters"
+    ],
+    "P2": [
+      "structured Editor transaction-command architecture"
+    ]
+  },
+  "engineeringImplementationComplete": true,
+  "externalTierBExecuted": false,
+  "formatVersion": "1.0",
+  "fullPlanDefinitionOfDone": false,
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "liveClaimAuthorized": false,
+  "p0": {
+    "items": [
+      {
+        "item": "freeze 0.5.5 closed-loop and Tier B false baseline",
+        "order": 1,
+        "status": "PASS"
+      },
+      {
+        "item": "publish Agent Task Contract 1",
+        "order": 2,
+        "status": "PASS"
+      },
+      {
+        "item": "publish Cold-Start Stage Contract 1",
+        "order": 3,
+        "status": "PASS"
+      },
+      {
+        "item": "publish Live Executor Protocol 1",
+        "order": 4,
+        "status": "PASS"
+      },
+      {
+        "item": "publish Observation Event Contract 1",
+        "order": 5,
+        "status": "PASS"
+      },
+      {
+        "item": "publish Live Run Evidence 1",
+        "order": 6,
+        "status": "PASS"
+      },
+      {
+        "item": "publish Evaluation Invariant Contract 1",
+        "order": 7,
+        "status": "PASS"
+      },
+      {
+        "item": "implement deterministic cold-start stage builder",
+        "order": 8,
+        "status": "PASS"
+      },
+      {
+        "item": "compile sanitized reference packs without target solutions",
+        "order": 9,
+        "status": "PASS"
+      },
+      {
+        "item": "implement generic external subprocess executor",
+        "order": 10,
+        "status": "PASS"
+      },
+      {
+        "item": "add execution proof and timeout states",
+        "order": 11,
+        "status": "PASS"
+      },
+      {
+        "item": "add observation coverage and normalized observable events",
+        "order": 12,
+        "status": "PASS"
+      },
+      {
+        "item": "preserve Change-Set 1 as mutation truth",
+        "order": 13,
+        "status": "PASS"
+      },
+      {
+        "item": "implement invariant scorer",
+        "order": 14,
+        "status": "PASS"
+      },
+      {
+        "item": "build L001-L012 cold-start corpus",
+        "order": 15,
+        "status": "PASS"
+      },
+      {
+        "item": "implement Agent Evaluation 3 Tier A protocol tests",
+        "order": 16,
+        "status": "PASS"
+      },
+      {
+        "item": "implement Tier B execution path",
+        "order": 17,
+        "status": "PASS"
+      },
+      {
+        "item": "retain failures/timeouts and denominator integrity",
+        "order": 18,
+        "status": "PASS"
+      },
+      {
+        "item": "run at least one real external AI agent",
+        "order": 19,
+        "status": "PENDING_EXTERNAL_EXECUTOR"
+      },
+      {
+        "item": "prefer three attempts per case for a reference executor",
+        "order": 20,
+        "status": "PENDING_EXTERNAL_EXECUTOR"
+      },
+      {
+        "item": "update AGENTS and canonical authoring/retrieval/failure docs",
+        "order": 21,
+        "status": "PASS"
+      },
+      {
+        "item": "preserve 0.5.5 authoritative/rendering/Viewer contracts",
+        "order": 22,
+        "status": "PASS"
+      },
+      {
+        "item": "regenerate documentation, routes, traceability, site, and manifest",
+        "order": 23,
+        "status": "PASS"
+      },
+      {
+        "item": "execute three complete engineering release verification cycles",
+        "order": 24,
+        "status": "PASS"
+      }
+    ],
+    "status": "EXTERNAL_EVIDENCE_PENDING"
+  },
+  "phases": [
+    {
+      "id": "Phase 0",
+      "objective": "Freeze the 0.5.5 closed-loop and false Tier B baseline",
+      "status": "PASS"
+    },
+    {
+      "id": "Phase 1",
+      "objective": "Publish Agent Task Contract 1",
+      "status": "PASS"
+    },
+    {
+      "id": "Phase 2",
+      "objective": "Publish deterministic Cold-Start Stage Contract 1",
+      "status": "PASS"
+    },
+    {
+      "id": "Phase 3",
+      "objective": "Implement provider-neutral Live Executor Protocol 1",
+      "status": "PASS"
+    },
+    {
+      "id": "Phase 4",
+      "objective": "Publish observable no-CoT event contract",
+      "status": "PASS"
+    },
+    {
+      "id": "Phase 5",
+      "objective": "Implement evaluator-only semantic invariant contract",
+      "status": "PASS"
+    },
+    {
+      "id": "Phase 6",
+      "objective": "Build L001-L012 Agent Evaluation 3 corpus",
+      "status": "PASS"
+    },
+    {
+      "id": "Phase 7",
+      "objective": "Bind immutable Live Run Evidence and attempt denominator",
+      "status": "PASS"
+    },
+    {
+      "id": "Phase 8",
+      "objective": "Execute actual external-AI Tier B",
+      "status": "PENDING_EXTERNAL_EXECUTOR"
+    },
+    {
+      "id": "Phase 9",
+      "objective": "Integrate AGENTS, routes, retrieval, failure, and conformance docs",
+      "status": "PASS"
+    },
+    {
+      "id": "Phase 10",
+      "objective": "Close three complete engineering verification cycles and package integrity",
+      "status": "PASS"
+    }
+  ],
+  "plan": "PLAN-0.5.6-LIVE-AGENT-COLD-START-AUTHORING.md",
+  "release": "AIXEM-SRP-0.5.6-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/plan-implementation-matrix/1",
+  "status": "ENGINEERING_COMPLETE_EXTERNAL_TIER_B_PENDING",
+  "tierB": {
+    "attempts": 0,
+    "executed": false,
+    "reason": "No external-AI executor runtime or credentials were available in the verification environment; no result was fabricated."
+  },
+  "valid": true
+}

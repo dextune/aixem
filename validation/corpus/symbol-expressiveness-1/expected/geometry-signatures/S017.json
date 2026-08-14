@@ -1,0 +1,68 @@
+{
+  "bounds": {
+    "height": 55,
+    "width": 55,
+    "x": -27.5,
+    "y": -27.5
+  },
+  "capabilities": [
+    "geometry.circle",
+    "geometry.line",
+    "geometry.path",
+    "port.mapping",
+    "text.field"
+  ],
+  "case": "S017",
+  "defaultVariant": null,
+  "definitions": [],
+  "fieldAnchors": [
+    {
+      "field": "reference",
+      "id": "field-reference",
+      "x": 0,
+      "y": -22.5
+    },
+    {
+      "field": "value",
+      "id": "field-value",
+      "x": 0,
+      "y": 22.5
+    }
+  ],
+  "parameters": {},
+  "ports": [
+    {
+      "id": "A",
+      "orientation": 180,
+      "visible": true,
+      "x": -20.0,
+      "y": -5.0
+    },
+    {
+      "id": "B",
+      "orientation": 180,
+      "visible": true,
+      "x": -20.0,
+      "y": 5.0
+    },
+    {
+      "id": "Y",
+      "orientation": 0,
+      "visible": true,
+      "x": 22.5,
+      "y": 0.0
+    }
+  ],
+  "primitiveCounts": {
+    "circle": 1,
+    "line": 3,
+    "path": 1,
+    "text": 2
+  },
+  "requiredFeatures": [
+    "compound-path",
+    "cubic-bezier"
+  ],
+  "symbol": "corpus:s017-nand-gate",
+  "variants": []
+}

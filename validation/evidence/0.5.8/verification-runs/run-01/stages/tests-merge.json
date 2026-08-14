@@ -1,0 +1,55 @@
+{
+  "commands": [
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "tools/run_tests_058.py",
+        "--merge-shards",
+        "/mnt/data/aixem058-cycle-01-test-shard-0.json",
+        "/mnt/data/aixem058-cycle-01-test-shard-1.json",
+        "/mnt/data/aixem058-cycle-01-test-shard-2.json",
+        "/mnt/data/aixem058-cycle-01-test-shard-3.json",
+        "/mnt/data/aixem058-cycle-01-test-shard-4.json",
+        "/mnt/data/aixem058-cycle-01-test-shard-5.json",
+        "/mnt/data/aixem058-cycle-01-test-shard-6.json",
+        "/mnt/data/aixem058-cycle-01-test-shard-7.json",
+        "--output",
+        "validation/test-results.json"
+      ],
+      "durationSeconds": 0.551844,
+      "label": "cycle 1 merge complete repository test inventory",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "",
+      "stdoutTail": "{\"failedModules\": 0, \"modules\": 26, \"successful\": true, \"testsRun\": 127}\n",
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "tools/docs/authoring_validation.py"
+      ],
+      "durationSeconds": 1.688902,
+      "label": "cycle 1 executable authoring validation",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "",
+      "stdoutTail": "{\n  \"examples\": {\n    \"brokenFixture\": {\n      \"checks\": 10,\n      \"issues\": [\n        {\n          \"code\": \"lead-port-mismatch\",\n          \"message\": \"Port 1 is at (-15.0, 0.0), but its visible lead ends at (-12.5, 0.0)\",\n          \"path\": \"examples/authoring/08-visual-repair/fixtures/broken-lead-port.aixsym.json\",\n          \"severity\": \"error\"\n        }\n      ],\n      \"path\": \"examples/authoring/08-visual-repair/fixtures/broken-lead-port.aixsym.json\",\n      \"valid\": false\n    },\n    \"checks\": 249,\n    \"examples\": 8,\n    \"expectedBrokenFixtureDetected\": true,\n    \"results\": [\n      {\n        \"checks\": 24,\n        \"id\": \"01-two-pin-passive\",\n        \"issues\": [],\n        \"valid\": true\n      },\n      {\n        \"checks\": 45,\n        \"id\": \"02-connector\",\n        \"issues\": [],\n        \"valid\": true\n      },\n      {\n        \"checks\": 72,\n        \"id\": \"03-multi-pin-ic\",\n        \"issues\": [],\n        \"valid\": true\n      },\n      {\n        \"checks\": 24,\n        \"id\": \"04-parameterized-variant\",\n        \"issues\": [],\n        \"valid\": true\n      },\n      {\n        \"checks\": 24,\n        \"id\": \"05-field-and-port-binding\",\n        \"issues\": [],\n        \"valid\": true\n      },\n      {\n        \"checks\": 18,\n        \"id\": \"06-two-terminal-route\",\n        \"issues\": [],\n        \"valid\": true\n      },\n      {\n        \"checks\": 18,\n        \"id\": \"07-multi-terminal-junction\",\n        \"issues\": [],\n        \"valid\": true\n      },\n      {\n        \"checks\": 24,\n        \"id\": \"08-visual-repair\",\n        \"issues\": [],\n        \"valid\": true\n      }\n    ],\n    \"valid\": true\n  },\n  \"referenceCoverage\": {\n    \"coverage\": 1.0,\n    \"covered\": 156,\n    \"groups\": {\n      \"component\": {\n        \"covered\": 10,\n        \"document\": \"docs/symbols/component-symbol-binding.md\",\n        \"missing\": [],\n        \"total\": 10\n      },\n      \"connection\": {\n        \"covered\": 7,\n        \"document\": \"docs/file-formats/aixlayout.md\",\n        \"missing\": [],\n        \"total\": 7\n      },\n      \"connectionPath\": {\n        \"covered\": 5,\n        \"document\": \"docs/file-formats/aixlayout.md\",\n        \"missing\": [],\n        \"total\": 5\n      },\n      \"placement\": {\n        \"covered\": 18,\n        \"document\": \"docs/file-formats/aixlayout.md\",\n        \"missing\": [],\n        \"total\": 18\n      },\n      \"presentation\": {\n        \"covered\": 7,\n        \"document\": \"docs/symbols/component-symbol-binding.md\",\n        \"missing\": [],\n        \"total\": 7\n      },\n      \"primitiveProperties\": {\n        \"covered\": 47,\n        \"document\": \"docs/symbols/primitives.md\",\n        \"missing\": [],\n        \"total\": 47\n      },\n      \"primitiveTypes\": {\n        \"covered\": 13,\n        \"document\": \"docs/symbols/primitives.md\",\n        \"missing\": [],\n        \"total\": 13\n      },\n      \"symbolParameter\": {\n        \"covered\": 8,\n        \"document\": \"docs/symbols/aixsym-field-reference.md\",\n        \"missing\": [],\n        \"total\": 8\n      },\n      \"symbolPort\": {\n        \"covered\": 13,\n        \"document\": \"docs/symbols/pins-and-ports.md\",\n        \"missing\": [],\n        \"total\": 13\n      },\n      \"symbolTopLevel\": {\n        \"covered\": 20,\n        \"document\": \"docs/symbols/aixsym-field-reference.md\",\n        \"missing\": [],\n        \"total\": 20\n      },\n      \"symbolVariant\": {\n        \"covered\": 8,\n        \"document\": \"docs/symbols/variants.md\",\n        \"missing\": [],\n        \"total\": 8\n      }\n    },\n    \"issues\": [],\n    \"total\": 156,\n    \"valid\": true\n  },\n  \"rendererContract\": {\n    \"checks\": 9,\n    \"issues\": [],\n    \"valid\": true\n  },\n  \"snippets\": {\n    \"documents\": 143,\n    \"issues\": [],\n    \"snippets\": 18,\n    \"valid\": true\n  },\n  \"valid\": true\n}\n",
+      "valid": true
+    }
+  ],
+  "cycle": 1,
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "release": "AIXEM-SRP-0.5.8-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/pre-live-readiness-verification-stage/1",
+  "stage": "tests-merge",
+  "status": "PASS",
+  "tests": {
+    "failedModules": 0,
+    "moduleCount": 26,
+    "passedModules": 26,
+    "testsRun": 127
+  },
+  "valid": true
+}

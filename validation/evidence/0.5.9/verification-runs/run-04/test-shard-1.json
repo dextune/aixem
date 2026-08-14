@@ -1,0 +1,40 @@
+{
+  "durationSeconds": 3.275818,
+  "errors": [],
+  "executionMode": "isolated-test-module-processes",
+  "failedModules": 0,
+  "failures": [],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "moduleCount": 1,
+  "modules": [
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_agent_evals_3"
+      ],
+      "durationSeconds": 3.275504,
+      "module": "tests.agent.test_agent_evals_3",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_corpus_builder_is_byte_reproducible (tests.agent.test_agent_evals_3.AgentEvaluation3CorpusTests.test_corpus_builder_is_byte_reproducible) ... ok\ntest_corpus_readme_links_every_registered_task (tests.agent.test_agent_evals_3.AgentEvaluation3CorpusTests.test_corpus_readme_links_every_registered_task) ... ok\ntest_declared_initial_diagnostics_match_the_actual_incomplete_start_state (tests.agent.test_agent_evals_3.AgentEvaluation3CorpusTests.test_declared_initial_diagnostics_match_the_actual_incomplete_start_state) ... ok\ntest_manifest_contains_exact_l001_l012_creation_and_repair_inventory (tests.agent.test_agent_evals_3.AgentEvaluation3CorpusTests.test_manifest_contains_exact_l001_l012_creation_and_repair_inventory) ... ok\ntest_tasks_and_evaluator_manifests_are_schema_valid_and_separated (tests.agent.test_agent_evals_3.AgentEvaluation3CorpusTests.test_tasks_and_evaluator_manifests_are_schema_valid_and_separated) ... ok\ntest_tier_b_status_never_claims_an_execution_that_did_not_happen (tests.agent.test_agent_evals_3.AgentEvaluation3CorpusTests.test_tier_b_status_never_claims_an_execution_that_did_not_happen) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 1.635s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 6,
+      "valid": true
+    }
+  ],
+  "passedModules": 1,
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/test-run-shard/1",
+  "shard": {
+    "count": 29,
+    "index": 1,
+    "totalDiscoveredModules": 29
+  },
+  "skipped": [],
+  "successful": true,
+  "testsRun": 6
+}

@@ -1,0 +1,57 @@
+{
+  "card": {
+    "aliases": [
+      "modify existing schematic",
+      "minimal schematic edit",
+      "local circuit repair"
+    ],
+    "appliesTo": [
+      "authoring-guide-modify-schematic"
+    ],
+    "domain": "authoring",
+    "estimatedReadBytes": 5675,
+    "id": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
+    "inputs": [],
+    "keywords": [
+      "Modify an Existing Schematic",
+      "author-component-circuit",
+      "create-schematic",
+      "local circuit repair",
+      "minimal schematic edit",
+      "modify existing schematic",
+      "route-nets"
+    ],
+    "kind": "guide",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/authoring/guides/modify-existing-schematic.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:62033d3d5a9fa8155ffd7c7e1e792a5392ecd4ce0bb2e4fb4b8f41012e7a3b59"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-CONCEPT-AUTHORITY-001",
+      "AIXEM-SCHEM-PLACEMENT-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001.read",
+        "level": "should",
+        "text": "Guides minimal-diff changes to an existing validated schematic while freezing unaffected semantic, placement, and routing authority."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
+        "path": "docs/authoring/guides/modify-existing-schematic.md"
+      }
+    ],
+    "summary": "Guides minimal-diff changes to an existing validated schematic while freezing unaffected semantic, placement, and routing authority.",
+    "title": "Modify an Existing Schematic"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

@@ -1,0 +1,81 @@
+{
+  "card": {
+    "aliases": [
+      "symbol design profile",
+      "schematic symbol dimensions",
+      "pin lead coincidence"
+    ],
+    "appliesTo": [
+      "symbol-design-profile"
+    ],
+    "domain": "specifications",
+    "estimatedReadBytes": 10379,
+    "id": "AIXEM-SPEC-SYMBOL-DESIGN-001",
+    "inputs": [],
+    "keywords": [
+      "Symbol Design Profile 1",
+      "create-symbol",
+      "pin lead coincidence",
+      "schematic symbol dimensions",
+      "symbol design profile",
+      "validate-project"
+    ],
+    "kind": "specification",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/specifications/symbols/symbol-design-profile.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:ed7e12ded56ddcc7ff3154ef967a0c780c8a6dbb7d9a4f5dcde732a8500b0e53"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SPEC-GRID-PROFILE-001",
+      "AIXEM-SPEC-VISUAL-PROFILE-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-SYMBOL-DESIGN-0001",
+        "level": "must",
+        "text": "**MUST.** Electrical symbol port coordinates for the active grid-light profile MUST resolve to the 2.5 millimetre authoring grid."
+      },
+      {
+        "id": "AIXEM-REQ-SYMBOL-DESIGN-0002",
+        "level": "must",
+        "text": "**MUST.** The visible pin lead endpoint associated with an electrical symbol port MUST coincide with that port coordinate within renderer tolerance."
+      },
+      {
+        "id": "AIXEM-REQ-SYMBOL-DESIGN-0003",
+        "level": "must",
+        "text": "**SHOULD.** Standard connector and integrated-circuit recipes SHOULD use 5 millimetre pin pitch and 5 millimetre visible lead length."
+      },
+      {
+        "id": "AIXEM-REQ-SYMBOL-DESIGN-0004",
+        "level": "must",
+        "text": "**MUST.** Default reference and value field anchors MUST remain outside the component body and clear of ordinary pin-name channels."
+      },
+      {
+        "id": "AIXEM-REQ-SYMBOL-DESIGN-0005",
+        "level": "must",
+        "text": "**SHOULD.** Multi-pin symbols SHOULD group ports by engineering function and preserve a left-to-right signal-flow reading where applicable."
+      },
+      {
+        "id": "AIXEM-REQ-SYMBOL-DESIGN-0006",
+        "level": "must",
+        "text": "**MUST.** Required symbol body dimensions MUST be rounded outward to the active grid and repeated pin groups MUST reserve at least `(N - 1) × P + 2G` in the group axis."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SPEC-SYMBOL-DESIGN-001",
+        "path": "docs/specifications/symbols/symbol-design-profile.md"
+      }
+    ],
+    "summary": "Defines measurable grid, lead, pitch, field-clearance, grouping, and primitive-economy rules for AIXEM schematic symbols.",
+    "title": "Symbol Design Profile 1"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

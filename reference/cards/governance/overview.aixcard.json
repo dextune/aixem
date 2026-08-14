@@ -1,0 +1,53 @@
+{
+  "card": {
+    "aliases": [
+      "governance",
+      "project policy",
+      "standards governance"
+    ],
+    "appliesTo": [
+      "governance-navigation"
+    ],
+    "domain": "governance",
+    "estimatedReadBytes": 4352,
+    "id": "AIXEM-GOV-INDEX-001",
+    "inputs": [],
+    "keywords": [
+      "Governance",
+      "change-architecture",
+      "governance",
+      "project policy",
+      "publish-release",
+      "standards governance"
+    ],
+    "kind": "index",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/governance/overview.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:c64f92c9796085227fa7615dc4d9093796249e88c24ac63f89e4e8e088bd9dc7"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 500,
+    "readNext": [],
+    "rules": [
+      {
+        "id": "AIXEM-GOV-INDEX-001.read",
+        "level": "should",
+        "text": "Policies for versioning, compatibility, deprecation, release execution, and shared terminology."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-GOV-INDEX-001",
+        "path": "docs/governance/index.md"
+      }
+    ],
+    "summary": "Policies for versioning, compatibility, deprecation, release execution, and shared terminology.",
+    "title": "Governance"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

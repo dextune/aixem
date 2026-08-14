@@ -1,0 +1,26 @@
+schema: https://schemas.aixem.org/documentation/glossary/1
+terms:
+- term: canonical document
+  definition: An authored Markdown document under docs/ that owns a published rule or guide.
+- term: component type
+  definition: A library-defined electrical and property contract instantiated by semantic entities.
+- term: endpoint
+  definition: A stable semantic interface that can be a member of a net or declared no-connect.
+- term: entity
+  definition: A semantic component instance with a stable ID and component type.
+- term: evidence
+  definition: A release-specific machine-readable or reviewed observation supporting a requirement status.
+- term: explicit layout
+  definition: Stored placement, route, junction, label, and annotation geometry bound to semantic IDs.
+- term: junction
+  definition: An explicit declaration and visual cue that route branches are electrically joined.
+- term: net
+  definition: A semantic set of endpoint references that share electrical connectivity.
+- term: project lock
+  definition: A manifest that locks input paths, versions, digests, policies, and expected outputs.
+- term: route path
+  definition: Ordered endpoint and via geometry that presents one semantic net connection.
+- term: symbol asset
+  definition: An independently authored graphic presentation containing body primitives, ports, and fields.
+- term: task route
+  definition: An authored, ordered, budgeted list of canonical documents and sections for an agent intent.

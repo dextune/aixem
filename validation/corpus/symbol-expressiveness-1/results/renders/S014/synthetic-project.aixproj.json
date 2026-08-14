@@ -1,0 +1,68 @@
+{
+  "formatVersion": "1.0",
+  "project": {
+    "applicationProfile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "description": "Generated only to exercise the existing production renderer.",
+    "features": [
+      "component.graphics@1",
+      "explicit.layout@1",
+      "grid-snap@1"
+    ],
+    "id": "conformance:s014",
+    "layout": {
+      "digest": "sha256:ccca235cd382b971b0bcc4e40802fc5424972ef612e4ed984e80755359c160b9",
+      "id": "corpus_s014-layout",
+      "mediaType": "application/vnd.aixem.layout+json",
+      "path": "corpus.aixlayout.json",
+      "version": "1.0"
+    },
+    "libraries": [
+      {
+        "digest": "sha256:350bf1b38e448fba33c8f52a142d73b85996b12b91ba13aa5da8e865be21a784",
+        "id": "conformance:s014-library",
+        "mediaType": "application/vnd.aixem.library+json",
+        "path": "libraries/corpus.aixlib.json",
+        "version": "1.0.0"
+      }
+    ],
+    "metadata": {
+      "corpusCase": "S014",
+      "syntheticWrapper": true
+    },
+    "outputs": [
+      {
+        "mediaType": "image/svg+xml",
+        "path": "render/drawing.svg",
+        "role": "drawing-svg"
+      },
+      {
+        "mediaType": "application/json",
+        "path": "render/resolved-scene.json",
+        "role": "resolved-scene"
+      }
+    ],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-11",
+      "license": "CC0-1.0"
+    },
+    "renderPolicy": {
+      "backend": "svg",
+      "defaultVariantPolicy": "library-default",
+      "fontPolicy": "system-fallback",
+      "purpose": "primary-diagram",
+      "remoteAssets": "deny",
+      "unsupportedRequiredFeature": "reject"
+    },
+    "source": {
+      "digest": "sha256:be77483d79f6c6ea55720f09c57f55aa76b50637949aacde5b3340aafc644b48",
+      "id": "corpus_s014",
+      "mediaType": "application/vnd.aixem+text",
+      "path": "corpus.aixem",
+      "version": "1.0"
+    },
+    "status": "controlled",
+    "title": "S014 SPDT relay conformance project"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/aixproj/1"
+}

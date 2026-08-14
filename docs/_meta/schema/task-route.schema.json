@@ -1,0 +1,325 @@
+{
+  "$id": "https://schemas.aixem.org/documentation/task-route/1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "schema": {
+      "type": "string"
+    },
+    "formatVersion": {
+      "type": "string"
+    },
+    "id": {
+      "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$",
+      "type": "string"
+    },
+    "kind": {
+      "enum": [
+        "simple",
+        "composite"
+      ]
+    },
+    "intent": {
+      "type": "string"
+    },
+    "aliases": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "summary": {
+      "type": "string"
+    },
+    "budget": {
+      "additionalProperties": false,
+      "properties": {
+        "max_documents": {
+          "maximum": 7,
+          "minimum": 1,
+          "type": "integer"
+        },
+        "max_bytes": {
+          "maximum": 98304,
+          "minimum": 1024,
+          "type": "integer"
+        },
+        "max_depth": {
+          "maximum": 3,
+          "minimum": 1,
+          "type": "integer"
+        }
+      },
+      "required": [
+        "max_documents",
+        "max_bytes",
+        "max_depth"
+      ],
+      "type": "object"
+    },
+    "expected_inputs": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "completion": {
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "expected_outputs": {
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "validators": {
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "steps": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "condition": {
+            "type": "string"
+          },
+          "document": {
+            "type": "string"
+          },
+          "order": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "purpose": {
+            "type": "string"
+          },
+          "required": {
+            "type": "boolean"
+          },
+          "section": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "order",
+          "document",
+          "purpose",
+          "required"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "stages": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "order": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "route": {
+            "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "purpose": {
+            "minLength": 4,
+            "type": "string"
+          },
+          "required": {
+            "type": "boolean"
+          },
+          "exit": {
+            "minLength": 4,
+            "type": "string"
+          },
+          "inputs": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "uniqueItems": true
+          },
+          "outputs": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "uniqueItems": true
+          }
+        },
+        "required": [
+          "order",
+          "route",
+          "purpose",
+          "required",
+          "exit"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "writes": {
+      "additionalProperties": false,
+      "properties": {
+        "authority": {
+          "items": {
+            "enum": [
+              "semantic",
+              "component-library",
+              "symbol",
+              "layout",
+              "project",
+              "project-routing",
+              "renderer",
+              "viewer",
+              "workbench",
+              "documentation"
+            ]
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        "artifacts": {
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        "derived": {
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        "prohibited": {
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        "constraints": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "pattern": {
+                "type": "string",
+                "minLength": 1
+              },
+              "policy": {
+                "enum": [
+                  "digest-only",
+                  "no-delete",
+                  "new-library-artifact-canonical"
+                ]
+              }
+            },
+            "required": [
+              "pattern",
+              "policy"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        }
+      },
+      "required": [
+        "authority",
+        "artifacts",
+        "derived",
+        "prohibited"
+      ],
+      "type": "object"
+    },
+    "remediation": {
+      "additionalProperties": false,
+      "properties": {
+        "acceptsDiagnostics": {
+          "items": {
+            "type": "string",
+            "pattern": "^AIXEM-DIAG-[A-Z0-9-]+$"
+          },
+          "type": "array",
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "acceptsDiagnostics"
+      ],
+      "type": "object"
+    }
+  },
+  "required": [
+    "schema",
+    "formatVersion",
+    "id",
+    "intent",
+    "aliases",
+    "summary",
+    "budget",
+    "completion",
+    "expected_outputs",
+    "validators"
+  ],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "composite"
+          }
+        },
+        "required": [
+          "kind"
+        ]
+      },
+      "then": {
+        "required": [
+          "stages"
+        ],
+        "properties": {
+          "stages": {
+            "minItems": 1
+          },
+          "steps": {
+            "maxItems": 0
+          }
+        }
+      },
+      "else": {
+        "required": [
+          "steps"
+        ],
+        "properties": {
+          "steps": {
+            "minItems": 1
+          },
+          "stages": {
+            "maxItems": 0
+          }
+        }
+      }
+    }
+  ],
+  "type": "object"
+}

@@ -1,0 +1,70 @@
+{
+  "card": {
+    "aliases": [
+      "hidden semantic invariants",
+      "cold-start scorer",
+      "evaluator-only predicates"
+    ],
+    "appliesTo": [
+      "agent-evaluation-invariant-contract"
+    ],
+    "domain": "specifications",
+    "estimatedReadBytes": 7475,
+    "id": "AIXEM-SPEC-AGENT-EVAL-INVARIANT-001",
+    "inputs": [],
+    "keywords": [
+      "Evaluation Invariant Contract 1",
+      "cold-start scorer",
+      "evaluator-only predicates",
+      "hidden semantic invariants",
+      "validate-project"
+    ],
+    "kind": "contract",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/specifications/agent/evaluation-invariant-contract.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:d297270f3885f380f0a0188dd939eda4b8914bae13576763b5fec228b1dabb24"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SPEC-AGENT-STAGE-001",
+      "AIXEM-SPEC-AGENT-EXECUTION-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-AGENT-LIVE-0012",
+        "level": "must",
+        "text": "**MUST.** Evaluator-only acceptance data MUST use the declared small predicate vocabulary and MUST reject exact hidden source equality, golden-source restoration, completed-solution payloads, and arbitrary oracle file comparisons."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-LIVE-0013",
+        "level": "must",
+        "text": "**MUST.** The evaluator MUST score the agent's actual final workspace, MUST retain failed predicates, and MUST NOT patch, restore, or replace authoritative source before scoring."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-LIVE-0014",
+        "level": "must",
+        "text": "**MUST.** Invariant evaluation and deterministic rendering MAY create derived outputs but MUST leave the authoritative workspace digest unchanged and MUST fail if evaluator code mutates authority."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-LIVE-0024",
+        "level": "must",
+        "text": "**MUST.** Every required official invariant MUST declare a machine-checkable basis resolving to an agent-visible task pointer, staged canonical requirement, or staged active profile; an unresolved or non-staged basis MUST fail the fairness audit."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SPEC-AGENT-EVAL-INVARIANT-001",
+        "path": "docs/specifications/agent/evaluation-invariant-contract.md"
+      }
+    ],
+    "summary": "Defines a small evaluator-only semantic predicate vocabulary that scores the actual final workspace without staging or restoring a completed answer.",
+    "title": "Evaluation Invariant Contract 1"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

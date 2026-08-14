@@ -1,0 +1,8 @@
+{
+  "assertions": [],
+  "expected": "fail",
+  "expectedDiagnostic": "endpoint @VCC occurs in both",
+  "id": "N003",
+  "project": "project.aixproj.json",
+  "title": "Interface port in two local nets"
+}

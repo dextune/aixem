@@ -1,0 +1,28 @@
+{
+  "agentVisible": [
+    "agent-task.json",
+    "TASK.md",
+    "start/**",
+    "compiled reference pack"
+  ],
+  "category": "creation",
+  "completedTargetBundled": false,
+  "evaluatorOnly": [
+    "evaluator/invariants.json",
+    "case.json",
+    "scoring metadata"
+  ],
+  "expectedInitialDiagnostics": [
+    "AIXEM-DIAG-BINDING-ASSET-DIGEST"
+  ],
+  "forbiddenCompletedDigests": [
+    "sha256:a3b1f739ea70ef9454261c20125996bf4e009a93957fd930fe098624edda1ddb",
+    "sha256:e04eb0e7cf82fed38e914c2dc69c1a5ff439ff6354e72f934650400c417db57a"
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "id": "L002",
+  "schema": "https://schemas.aixem.org/validation/agent-eval-3-case/1",
+  "startSource": "examples/authoring/02-connector",
+  "title": "Six-pin connector"
+}

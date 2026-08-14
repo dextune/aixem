@@ -1,0 +1,246 @@
+{
+  "baselineCommit": "72a95b950108ff6fecfaf6d08d3d57ff8f3f5031",
+  "baselineRelease": "AIXEM-SRP-0.5.8.1-2026-08-12",
+  "claim": "Core schema files, pre-existing renderer/viewer implementation, and committed drawing SVG outputs are protected from 0.5.9 authoring-hardening changes.",
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "records": [
+    {
+      "category": "core-schema",
+      "path": "docs/specifications/schemas/agent/aixem-agent-attempt-set-1.schema.json",
+      "sha256": "b76e0927584abdeb6073e653d7d4212f823351bbd6ca070a1a9db8920ffe70c9"
+    },
+    {
+      "category": "core-schema",
+      "path": "docs/specifications/schemas/agent/aixem-agent-change-set-1.schema.json",
+      "sha256": "91950bc067897595795effae3647477881bf3bf64040891ee4be5e5d9a89acd3"
+    },
+    {
+      "category": "core-schema",
+      "path": "docs/specifications/schemas/agent/aixem-agent-diagnostic-1.schema.json",
+      "sha256": "d5d54e03dcac813c3adbd88d6f18dc4c79fdd620ae01f8be2a40ac7bf9dd5a5e"
+    },
+    {
+      "category": "core-schema",
+      "path": "docs/specifications/schemas/agent/aixem-agent-evaluation-invariant-1.schema.json",
+      "sha256": "00b4641187909362aba8a717f5e309723d3c9ab504582691b74f9edaf3bea42a"
+    },
+    {
+      "category": "core-schema",
+      "path": "docs/specifications/schemas/agent/aixem-agent-executor-1.schema.json",
+      "sha256": "656cf4765779308fe2caae5eda39fd0ea7c881b39bd93127dccf0c924967c63b"
+    },
+    {
+      "category": "core-schema",
+      "path": "docs/specifications/schemas/agent/aixem-agent-live-run-1.schema.json",
+      "sha256": "dd5016bca66842357eb0fc048a2be7768410fc2ff35bb9c9cc41416d6c0725e2"
+    },
+    {
+      "category": "core-schema",
+      "path": "docs/specifications/schemas/agent/aixem-agent-observation-event-1.schema.json",
+      "sha256": "9caedd0cec1240c74ccb564027c049ebc5e42a25ad6b1f982a8119cb9097fd22"
+    },
+    {
+      "category": "core-schema",
+      "path": "docs/specifications/schemas/agent/aixem-agent-run-record-1.schema.json",
+      "sha256": "4dee7a7e00c3316badfba9b2d95bc32134d3bbcd7b5f0c5f0dd1cbe6598776f1"
+    },
+    {
+      "category": "core-schema",
+      "path": "docs/specifications/schemas/agent/aixem-agent-stage-manifest-1.schema.json",
+      "sha256": "38e61a85cf9ea38b2d4d13cc7b0d72e001cd4a93b1af98f1884c21540a5433d7"
+    },
+    {
+      "category": "core-schema",
+      "path": "docs/specifications/schemas/agent/aixem-agent-task-1.schema.json",
+      "sha256": "2ff689e872fc57aae77bd708d011d322d62cf0172c5d3490a006f953243c2d05"
+    },
+    {
+      "category": "core-schema",
+      "path": "docs/specifications/schemas/component-graphics-1/aixem-component-library-1.schema.json",
+      "sha256": "85d1977d263f0ee6f86db615c2f4b9c43fbd1e534b1446f5fcdb2b58e16417cc"
+    },
+    {
+      "category": "core-schema",
+      "path": "docs/specifications/schemas/component-graphics-1/aixem-explicit-layout-1.schema.json",
+      "sha256": "4f92e5e292a694aabfca922cc449f2f59a1a08e6465181a096a62b47b23bfca7"
+    },
+    {
+      "category": "core-schema",
+      "path": "docs/specifications/schemas/component-graphics-1/aixem-project-manifest-1.schema.json",
+      "sha256": "056932ff46d7b6928f3b01dba50403353bdfda8f4d28e8b7bf0d38ab1dd39a41"
+    },
+    {
+      "category": "core-schema",
+      "path": "docs/specifications/schemas/component-graphics-1/aixem-symbol-asset-1.schema.json",
+      "sha256": "ba4d442591f6e53daf07f9d8f85e2026043f4e93ae0710e2578447dd3c466831"
+    },
+    {
+      "category": "core-schema",
+      "path": "docs/specifications/schemas/component-graphics-2/aixem-explicit-layout-2.schema.json",
+      "sha256": "7025139f1e56ab3e95bb591d63fe452b468575a30948041eb9d3f6a22908c996"
+    },
+    {
+      "category": "core-schema",
+      "path": "docs/specifications/schemas/component-graphics-2/aixem-project-manifest-2.schema.json",
+      "sha256": "67837938322d173bbf969d7ae571c21418a08e329d7731b87e704a00d88f13cb"
+    },
+    {
+      "category": "core-schema",
+      "path": "docs/specifications/schemas/index.md",
+      "sha256": "163539913a56b1a6cae8a87113c9ad99f197f547a406419fed7cbb84891cc3e9"
+    },
+    {
+      "category": "core-schema",
+      "path": "docs/specifications/schemas/reference-compatibility-1/aixem-artifact-map-1.schema.json",
+      "sha256": "8de0f9d899b45b4bc0907ce177c26ca79797d310c0fb417f102db90f7db63ba9"
+    },
+    {
+      "category": "core-schema",
+      "path": "docs/specifications/schemas/reference-compatibility-1/aixem-capability-index-1.schema.json",
+      "sha256": "48128f752517b70a0efcf25468dca0a219afb44d168d05cef973655dba0d41ab"
+    },
+    {
+      "category": "core-schema",
+      "path": "docs/specifications/schemas/reference-compatibility-1/aixem-reference-card-1.schema.json",
+      "sha256": "9010581b913dbd75f83033750cf99b315afcf1b87cea699b6afaa02f0270b9c6"
+    },
+    {
+      "category": "core-schema",
+      "path": "docs/specifications/schemas/reference-compatibility-1/aixem-reference-domain-index-1.schema.json",
+      "sha256": "89cd13142bad5473d456a59976fce64c9144b989e7e23e92d968d4dbb18612b7"
+    },
+    {
+      "category": "core-schema",
+      "path": "docs/specifications/schemas/reference-compatibility-1/aixem-reference-manifest-1.schema.json",
+      "sha256": "b2591ae758e9fc4fc8f2900cf8b477b8ef2ade5ccd9b043fea204db73e25a919"
+    },
+    {
+      "category": "core-schema",
+      "path": "docs/specifications/schemas/reference-compatibility-1/aixem-reference-root-1.schema.json",
+      "sha256": "00b831043495014d7d2124d4b6fb2b06edd6af8770ec21e1afd13390644dc3d5"
+    },
+    {
+      "category": "core-schema",
+      "path": "docs/specifications/schemas/reference-compatibility-1/aixem-schematic-style-1.schema.json",
+      "sha256": "da13c5dc836cc89fceccbc2d7e51bb70a29e3de6f4e8004e390c768f9960d940"
+    },
+    {
+      "category": "core-schema",
+      "path": "docs/specifications/schemas/reference-compatibility-1/aixem-task-route-1.schema.json",
+      "sha256": "4088a978378a7bad4961ffcdbb2a2534213c20fbf0044af2cde2b77ca46010a7"
+    },
+    {
+      "category": "core-schema",
+      "path": "docs/specifications/schemas/viewer/aixem-viewer-model-1.schema.json",
+      "sha256": "19ddd388558a6cd232de0ea13fe02daa6ae2d13016da3f0a336851bb473da54b"
+    },
+    {
+      "category": "visual-output",
+      "path": "examples/authoring/01-two-pin-passive/render/drawing.svg",
+      "sha256": "23982e0cebac91c1b3575d293d6fe138166844bf7ec08b343c0fd22a21c6b0fa"
+    },
+    {
+      "category": "visual-output",
+      "path": "examples/authoring/02-connector/render/drawing.svg",
+      "sha256": "e04eb0e7cf82fed38e914c2dc69c1a5ff439ff6354e72f934650400c417db57a"
+    },
+    {
+      "category": "visual-output",
+      "path": "examples/authoring/03-multi-pin-ic/render/drawing.svg",
+      "sha256": "ad3561d84897b359241d0955e13b19dd4cadc605029854f0f9595fb329d19e16"
+    },
+    {
+      "category": "visual-output",
+      "path": "examples/authoring/04-parameterized-variant/render/drawing.svg",
+      "sha256": "90c91453b8a91c233c589683f347020e9374bb8e91f06b4863482f6011da8d6d"
+    },
+    {
+      "category": "visual-output",
+      "path": "examples/authoring/05-field-and-port-binding/render/drawing.svg",
+      "sha256": "2d17427506f8436f4cba881f974dd0d189688e94a32ef58e2cadd2ed10817137"
+    },
+    {
+      "category": "visual-output",
+      "path": "examples/authoring/06-two-terminal-route/render/drawing.svg",
+      "sha256": "7a59374815759f6a0d9a7d955a2a8f4eb93d7c0c8eda74cfe91a0963df9dea97"
+    },
+    {
+      "category": "visual-output",
+      "path": "examples/authoring/07-multi-terminal-junction/render/drawing.svg",
+      "sha256": "9067d6bc912d74d9b199d47b676499236ee7fed51dbe0559049f70817fe4e2b0"
+    },
+    {
+      "category": "visual-output",
+      "path": "examples/authoring/08-visual-repair/render/drawing.svg",
+      "sha256": "87a3dcc64d0c9c220bde531c7949a518a315c705d7ca4067a28206ef0c3f6c27"
+    },
+    {
+      "category": "visual-output",
+      "path": "examples/electronics-grid-controller/render/drawing.svg",
+      "sha256": "cbf6775048b06eeb120530abece8148a73e0b0bebdf493f5cfc7eee9708d8080"
+    },
+    {
+      "category": "protected-renderer-viewer-implementation",
+      "path": "implementation/schematic/component_core.py",
+      "sha256": "9f8d07a6587f502e79e8db8288df79bdefa509246bff29d1978f030fce06caac"
+    },
+    {
+      "category": "protected-renderer-viewer-implementation",
+      "path": "implementation/schematic/project_composition.py",
+      "sha256": "456483a4211e0022a51e5b38458c0c471cd50ac6ad78b7ffba5bf49c906f4259"
+    },
+    {
+      "category": "protected-renderer-viewer-implementation",
+      "path": "implementation/schematic/project_routing.py",
+      "sha256": "c751b73629a54d11f4629393d14062cff823aca5a047ac0e726e48916f1920e4"
+    },
+    {
+      "category": "protected-renderer-viewer-implementation",
+      "path": "implementation/schematic/render_project.py",
+      "sha256": "178b300c91a268222cd0bd2b720b3532a6ff9b808371093acd3e96054fb26ab9"
+    },
+    {
+      "category": "protected-renderer-viewer-implementation",
+      "path": "implementation/schematic/viewer/__init__.py",
+      "sha256": "9286f256bf89780a2618296b1f67cc6ad08d6158df1b111e893399c0acc549cf"
+    },
+    {
+      "category": "protected-renderer-viewer-implementation",
+      "path": "implementation/schematic/viewer/core.py",
+      "sha256": "ea0fd67ddaf4b09bfe622d97cb52f7d4fd3c9e8e7f064f47f6cce93ab12f585e"
+    },
+    {
+      "category": "protected-renderer-viewer-implementation",
+      "path": "implementation/schematic/viewer/model.py",
+      "sha256": "e4760f156f7709c84942fa9f30cc1c35c77928ed1d79fc7f4b92f729ecbf12f2"
+    },
+    {
+      "category": "protected-renderer-viewer-implementation",
+      "path": "implementation/schematic/viewer/reference_viewer.py",
+      "sha256": "7f789421d955feb9c3057c19c9631ab413cc1abf5d520debf4d50504639cd35b"
+    },
+    {
+      "category": "protected-renderer-viewer-implementation",
+      "path": "implementation/schematic/viewer/review_workbench.py",
+      "sha256": "f28cfe19bc0f83cf5345b367ac4aa451c573936fd21253b37185aebd764093cd"
+    },
+    {
+      "category": "protected-renderer-viewer-implementation",
+      "path": "implementation/schematic/viewer/templates/base.html.j2",
+      "sha256": "72b6f7a7b83d256ff621b2f45271c4d55951c93211bd5aa3a51f2804cba21357"
+    },
+    {
+      "category": "protected-renderer-viewer-implementation",
+      "path": "implementation/schematic/viewer/templates/reference-viewer.html.j2",
+      "sha256": "7ff54e6faba909344dab27d955faf623f99c501cf6d67e122957494a24093fcd"
+    },
+    {
+      "category": "protected-renderer-viewer-implementation",
+      "path": "implementation/schematic/viewer/templates/review-workbench.html.j2",
+      "sha256": "5e2bd48ae3052a114e0422a1e5e6303857b61b9f4fa01d154292a1cf7ccee048"
+    }
+  ],
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/protected-baseline/1"
+}

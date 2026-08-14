@@ -1,0 +1,32 @@
+{
+  "activeRoute": "create-symbol",
+  "entryRoute": "create-symbol",
+  "expectedInitialDiagnostics": [],
+  "fixture": "examples/authoring/04-parameterized-variant",
+  "formatVersion": "1.0",
+  "hiddenExpectedInvariants": [
+    "Parameter and variant precedence without renderer archaeology.",
+    "Authoritative formats remain unchanged.",
+    "Generated artifacts are regenerated, never hand-edited."
+  ],
+  "id": "A004",
+  "mutation": null,
+  "prompt": "Parameter and variant use. Author or repair the staged AIXEM design through the declared route and prove closure.",
+  "requiredExitConditions": [
+    "zero blocking diagnostics",
+    "zero route scope violations",
+    "zero generated-output hand edits",
+    "production render succeeds",
+    "three-run render determinism"
+  ],
+  "schema": "https://schemas.aixem.org/validation/agent-eval-2-case/1",
+  "tierA": {
+    "mode": "deterministic-harness-replay",
+    "required": true
+  },
+  "tierB": {
+    "eligible": false,
+    "reason": "No isolated incomplete cold-start fixture is bundled; an external executor may use a separately supplied hidden-solution stage."
+  },
+  "title": "Parameter and variant use"
+}

@@ -1,0 +1,88 @@
+schema: https://schemas.aixem.org/documentation/task-route/1
+formatVersion: '1.0'
+kind: simple
+id: route-project-nets
+intent: route-project-nets
+aliases:
+- route project nets
+- route between sheets
+- draw hierarchy wires
+- overview routing
+- composite routing
+summary: Route already-declared project nets between resolved sheet interface anchors without changing semantic membership
+budget:
+  max_documents: 7
+  max_bytes: 98304
+  max_depth: 3
+expected_inputs:
+- validated project semantic graph
+- resolved sheet interface anchors
+- deterministic sheet order and transforms
+steps:
+- order: 1
+  document: AIXEM-CONCEPT-PROJECT-NET-001
+  section: routing-separation
+  purpose: Separate local leaf routing authority from derived project-level routing.
+  required: true
+- order: 2
+  document: AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001
+  section: route-endpoint-resolution
+  purpose: Resolve each project route terminal from a semantic interface port presentation.
+  required: true
+- order: 3
+  document: AIXEM-SPEC-PROJECT-COMPOSITION-001
+  section: project-semantic-graph
+  purpose: Read project-net members and qualified identities from the validated project graph.
+  required: true
+- order: 4
+  document: AIXEM-ROUTE-NETS-001
+  section: routing-to-an-interface-endpoint
+  purpose: Preserve local entity-to-interface route closure inside each leaf.
+  required: true
+- order: 5
+  document: AIXEM-AGENT-ROUTING-001
+  section: local-versus-project-routing-discipline
+  purpose: Prevent route repair from changing project-net or local-net membership.
+  required: true
+- order: 6
+  document: AIXEM-CONF-HIERARCHICAL-PROJECT-001
+  section: required-outputs
+  purpose: Check overview, composite, project-scene, and Workbench routing evidence.
+  required: true
+completion:
+- All project route terminals resolve to declared interface ports
+- All project route segments are deterministic and orthogonal
+- Different project nets may cross without implicit junctions
+- Semantic membership remains unchanged by routing
+expected_outputs:
+- deterministic project overview routes
+- deterministic composite routes
+- project routing diagnostics
+- updated resolved-project-scene evidence
+validators:
+- schematic.route_closure
+- schematic.orthogonal
+- schematic.deterministic
+- schematic.workbench
+- agent.diagnostics
+- agent.change_scope
+writes:
+  authority: []
+  artifacts: []
+  derived:
+  - render/**
+  - evidence/**
+  prohibited:
+  - render/**
+  - evidence/**
+  - '**/viewer.html'
+  - '**/workbench.html'
+  - '**/*.svg'
+  - '**/resolved-scene.json'
+  - '**/resolved-project-scene.json'
+  - '**/viewer-model.json'
+  - '**/render-manifest.json'
+  - '**/project-validation.json'
+remediation:
+  acceptsDiagnostics:
+  - AIXEM-DIAG-PROJECT-ROUTE-NON-ORTHOGONAL

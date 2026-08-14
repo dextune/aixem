@@ -1,0 +1,40 @@
+{
+  "durationSeconds": 4.109385,
+  "errors": [],
+  "executionMode": "isolated-test-module-processes",
+  "failedModules": 0,
+  "failures": [],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "moduleCount": 1,
+  "modules": [
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.conformance.test_viewer_accessibility"
+      ],
+      "durationSeconds": 4.109183,
+      "module": "tests.conformance.test_viewer_accessibility",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_programmatic_control_state_and_visible_focus (tests.conformance.test_viewer_accessibility.ViewerAccessibilityConformanceTests.test_programmatic_control_state_and_visible_focus) ... ok\ntest_v011_keyboard_only_required_workflow (tests.conformance.test_viewer_accessibility.ViewerAccessibilityConformanceTests.test_v011_keyboard_only_required_workflow) ... ok\ntest_v012_narrow_viewport_retains_navigation_and_inspection (tests.conformance.test_viewer_accessibility.ViewerAccessibilityConformanceTests.test_v012_narrow_viewport_retains_navigation_and_inspection) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 2.365s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 3,
+      "valid": true
+    }
+  ],
+  "passedModules": 1,
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/test-run-shard/1",
+  "shard": {
+    "count": 29,
+    "index": 17,
+    "totalDiscoveredModules": 29
+  },
+  "skipped": [],
+  "successful": true,
+  "testsRun": 3
+}

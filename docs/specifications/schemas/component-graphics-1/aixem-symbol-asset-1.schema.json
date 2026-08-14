@@ -1,0 +1,2256 @@
+{
+  "$defs": {
+    "anchor": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "insertion",
+            "alignment",
+            "rotation",
+            "dimension",
+            "label",
+            "connection",
+            "custom"
+          ]
+        },
+        "metadata": {
+          "type": "object"
+        },
+        "orientation": {
+          "$ref": "#/$defs/numericExpression"
+        },
+        "x": {
+          "$ref": "#/$defs/numericExpression"
+        },
+        "y": {
+          "$ref": "#/$defs/numericExpression"
+        }
+      },
+      "required": [
+        "id",
+        "x",
+        "y",
+        "kind"
+      ],
+      "type": "object"
+    },
+    "bounds": {
+      "additionalProperties": false,
+      "properties": {
+        "height": {
+          "type": "number"
+        },
+        "width": {
+          "type": "number"
+        },
+        "x": {
+          "type": "number"
+        },
+        "y": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "x",
+        "y",
+        "width",
+        "height"
+      ],
+      "type": "object"
+    },
+    "coordinateSystem": {
+      "additionalProperties": false,
+      "properties": {
+        "angleDirection": {
+          "enum": [
+            "clockwise",
+            "counterclockwise"
+          ]
+        },
+        "angleUnit": {
+          "const": "deg"
+        },
+        "grid": {
+          "exclusiveMinimum": 0,
+          "type": "number"
+        },
+        "unit": {
+          "enum": [
+            "mm",
+            "mil",
+            "in",
+            "px"
+          ]
+        },
+        "yAxis": {
+          "enum": [
+            "up",
+            "down"
+          ]
+        }
+      },
+      "required": [
+        "unit",
+        "yAxis",
+        "angleUnit",
+        "angleDirection"
+      ],
+      "type": "object"
+    },
+    "gradientStop": {
+      "additionalProperties": false,
+      "properties": {
+        "color": {
+          "type": "string"
+        },
+        "offset": {
+          "maximum": 1,
+          "minimum": 0,
+          "type": "number"
+        },
+        "opacity": {
+          "maximum": 1,
+          "minimum": 0,
+          "type": "number"
+        }
+      },
+      "required": [
+        "offset",
+        "color"
+      ],
+      "type": "object"
+    },
+    "layer": {
+      "additionalProperties": false,
+      "properties": {
+        "defaultVisible": {
+          "type": "boolean"
+        },
+        "id": {
+          "pattern": "^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$",
+          "type": "string"
+        },
+        "locked": {
+          "type": "boolean"
+        },
+        "order": {
+          "type": "integer"
+        },
+        "printable": {
+          "type": "boolean"
+        },
+        "purpose": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "order",
+        "purpose",
+        "defaultVisible"
+      ],
+      "type": "object"
+    },
+    "node": {
+      "oneOf": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "children": {
+              "items": {
+                "$ref": "#/$defs/node"
+              },
+              "maxItems": 10000,
+              "type": "array"
+            },
+            "classes": {
+              "items": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "type": "array",
+              "uniqueItems": true
+            },
+            "id": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "layer": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "metadata": {
+              "type": "object"
+            },
+            "role": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "style": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "transform": {
+              "maxItems": 6,
+              "minItems": 6,
+              "prefixItems": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                }
+              ],
+              "type": "array"
+            },
+            "type": {
+              "const": "group"
+            },
+            "visibleWhen": {
+              "$ref": "#/$defs/predicate"
+            }
+          },
+          "required": [
+            "type",
+            "children"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "classes": {
+              "items": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "type": "array",
+              "uniqueItems": true
+            },
+            "definition": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "id": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "layer": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "metadata": {
+              "type": "object"
+            },
+            "parameters": {
+              "additionalProperties": {
+                "$ref": "#/$defs/valueExpression"
+              },
+              "type": "object"
+            },
+            "role": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "style": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "transform": {
+              "maxItems": 6,
+              "minItems": 6,
+              "prefixItems": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                }
+              ],
+              "type": "array"
+            },
+            "type": {
+              "const": "use"
+            },
+            "visibleWhen": {
+              "$ref": "#/$defs/predicate"
+            }
+          },
+          "required": [
+            "type",
+            "definition"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "classes": {
+              "items": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "type": "array",
+              "uniqueItems": true
+            },
+            "id": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "layer": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "metadata": {
+              "type": "object"
+            },
+            "role": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "style": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "transform": {
+              "maxItems": 6,
+              "minItems": 6,
+              "prefixItems": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                }
+              ],
+              "type": "array"
+            },
+            "type": {
+              "const": "line"
+            },
+            "visibleWhen": {
+              "$ref": "#/$defs/predicate"
+            },
+            "x1": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "x2": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "y1": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "y2": {
+              "$ref": "#/$defs/numericExpression"
+            }
+          },
+          "required": [
+            "type",
+            "x1",
+            "y1",
+            "x2",
+            "y2"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "classes": {
+              "items": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "type": "array",
+              "uniqueItems": true
+            },
+            "closed": {
+              "type": "boolean"
+            },
+            "id": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "layer": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "metadata": {
+              "type": "object"
+            },
+            "points": {
+              "items": {
+                "$ref": "#/$defs/point"
+              },
+              "maxItems": 10000,
+              "minItems": 2,
+              "type": "array"
+            },
+            "role": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "style": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "transform": {
+              "maxItems": 6,
+              "minItems": 6,
+              "prefixItems": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                }
+              ],
+              "type": "array"
+            },
+            "type": {
+              "const": "polyline"
+            },
+            "visibleWhen": {
+              "$ref": "#/$defs/predicate"
+            }
+          },
+          "required": [
+            "type",
+            "points"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "classes": {
+              "items": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "type": "array",
+              "uniqueItems": true
+            },
+            "id": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "layer": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "metadata": {
+              "type": "object"
+            },
+            "points": {
+              "items": {
+                "$ref": "#/$defs/point"
+              },
+              "maxItems": 10000,
+              "minItems": 3,
+              "type": "array"
+            },
+            "role": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "style": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "transform": {
+              "maxItems": 6,
+              "minItems": 6,
+              "prefixItems": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                }
+              ],
+              "type": "array"
+            },
+            "type": {
+              "const": "polygon"
+            },
+            "visibleWhen": {
+              "$ref": "#/$defs/predicate"
+            }
+          },
+          "required": [
+            "type",
+            "points"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "classes": {
+              "items": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "type": "array",
+              "uniqueItems": true
+            },
+            "height": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "id": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "layer": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "metadata": {
+              "type": "object"
+            },
+            "role": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "rx": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "ry": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "style": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "transform": {
+              "maxItems": 6,
+              "minItems": 6,
+              "prefixItems": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                }
+              ],
+              "type": "array"
+            },
+            "type": {
+              "const": "rect"
+            },
+            "visibleWhen": {
+              "$ref": "#/$defs/predicate"
+            },
+            "width": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "x": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "y": {
+              "$ref": "#/$defs/numericExpression"
+            }
+          },
+          "required": [
+            "type",
+            "x",
+            "y",
+            "width",
+            "height"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "classes": {
+              "items": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "type": "array",
+              "uniqueItems": true
+            },
+            "cx": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "cy": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "id": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "layer": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "metadata": {
+              "type": "object"
+            },
+            "r": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "role": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "style": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "transform": {
+              "maxItems": 6,
+              "minItems": 6,
+              "prefixItems": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                }
+              ],
+              "type": "array"
+            },
+            "type": {
+              "const": "circle"
+            },
+            "visibleWhen": {
+              "$ref": "#/$defs/predicate"
+            }
+          },
+          "required": [
+            "type",
+            "cx",
+            "cy",
+            "r"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "classes": {
+              "items": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "type": "array",
+              "uniqueItems": true
+            },
+            "cx": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "cy": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "id": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "layer": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "metadata": {
+              "type": "object"
+            },
+            "role": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "rx": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "ry": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "style": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "transform": {
+              "maxItems": 6,
+              "minItems": 6,
+              "prefixItems": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                }
+              ],
+              "type": "array"
+            },
+            "type": {
+              "const": "ellipse"
+            },
+            "visibleWhen": {
+              "$ref": "#/$defs/predicate"
+            }
+          },
+          "required": [
+            "type",
+            "cx",
+            "cy",
+            "rx",
+            "ry"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "classes": {
+              "items": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "type": "array",
+              "uniqueItems": true
+            },
+            "cx": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "cy": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "id": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "layer": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "metadata": {
+              "type": "object"
+            },
+            "role": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "rx": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "ry": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "startAngle": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "style": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "sweepAngle": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "transform": {
+              "maxItems": 6,
+              "minItems": 6,
+              "prefixItems": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                }
+              ],
+              "type": "array"
+            },
+            "type": {
+              "const": "arc"
+            },
+            "visibleWhen": {
+              "$ref": "#/$defs/predicate"
+            }
+          },
+          "required": [
+            "type",
+            "cx",
+            "cy",
+            "rx",
+            "ry",
+            "startAngle",
+            "sweepAngle"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "classes": {
+              "items": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "type": "array",
+              "uniqueItems": true
+            },
+            "commands": {
+              "items": {
+                "$ref": "#/$defs/pathCommand"
+              },
+              "maxItems": 10000,
+              "minItems": 1,
+              "type": "array"
+            },
+            "fillRule": {
+              "enum": [
+                "nonzero",
+                "evenodd"
+              ]
+            },
+            "id": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "layer": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "metadata": {
+              "type": "object"
+            },
+            "role": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "style": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "transform": {
+              "maxItems": 6,
+              "minItems": 6,
+              "prefixItems": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                }
+              ],
+              "type": "array"
+            },
+            "type": {
+              "const": "path"
+            },
+            "visibleWhen": {
+              "$ref": "#/$defs/predicate"
+            }
+          },
+          "required": [
+            "type",
+            "commands"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "anchor": {
+              "enum": [
+                "start",
+                "middle",
+                "end"
+              ]
+            },
+            "baseline": {
+              "enum": [
+                "auto",
+                "alphabetic",
+                "middle",
+                "hanging"
+              ]
+            },
+            "classes": {
+              "items": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "type": "array",
+              "uniqueItems": true
+            },
+            "field": {
+              "type": "string"
+            },
+            "id": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "layer": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "maxWidth": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "metadata": {
+              "type": "object"
+            },
+            "preserveUpright": {
+              "type": "boolean"
+            },
+            "role": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "rotation": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "style": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "text": {
+              "type": "string"
+            },
+            "transform": {
+              "maxItems": 6,
+              "minItems": 6,
+              "prefixItems": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                }
+              ],
+              "type": "array"
+            },
+            "type": {
+              "const": "text"
+            },
+            "visibleWhen": {
+              "$ref": "#/$defs/predicate"
+            },
+            "x": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "y": {
+              "$ref": "#/$defs/numericExpression"
+            }
+          },
+          "required": [
+            "type",
+            "x",
+            "y"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "classes": {
+              "items": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "type": "array",
+              "uniqueItems": true
+            },
+            "height": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "id": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "layer": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "metadata": {
+              "type": "object"
+            },
+            "opacity": {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            "preserveAspectRatio": {
+              "enum": [
+                "none",
+                "meet",
+                "slice"
+              ]
+            },
+            "role": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "source": {
+              "additionalProperties": false,
+              "properties": {
+                "digest": {
+                  "pattern": "^sha256:[0-9a-f]{64}$",
+                  "type": "string"
+                },
+                "embedded": {
+                  "type": "boolean"
+                },
+                "mediaType": {
+                  "enum": [
+                    "image/png",
+                    "image/jpeg",
+                    "image/webp"
+                  ]
+                },
+                "path": {
+                  "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[a-z0-9][a-z0-9._/-]*$",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "path",
+                "digest",
+                "mediaType"
+              ],
+              "type": "object"
+            },
+            "style": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "transform": {
+              "maxItems": 6,
+              "minItems": 6,
+              "prefixItems": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                }
+              ],
+              "type": "array"
+            },
+            "type": {
+              "const": "image"
+            },
+            "visibleWhen": {
+              "$ref": "#/$defs/predicate"
+            },
+            "width": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "x": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "y": {
+              "$ref": "#/$defs/numericExpression"
+            }
+          },
+          "required": [
+            "type",
+            "x",
+            "y",
+            "width",
+            "height",
+            "source"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "arrowSize": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "classes": {
+              "items": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "type": "array",
+              "uniqueItems": true
+            },
+            "field": {
+              "type": "string"
+            },
+            "from": {
+              "$ref": "#/$defs/point"
+            },
+            "id": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "layer": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "metadata": {
+              "type": "object"
+            },
+            "offset": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "precision": {
+              "maximum": 6,
+              "minimum": 0,
+              "type": "integer"
+            },
+            "role": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "style": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "text": {
+              "type": "string"
+            },
+            "to": {
+              "$ref": "#/$defs/point"
+            },
+            "transform": {
+              "maxItems": 6,
+              "minItems": 6,
+              "prefixItems": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                }
+              ],
+              "type": "array"
+            },
+            "type": {
+              "const": "dimension"
+            },
+            "unit": {
+              "type": "string"
+            },
+            "visibleWhen": {
+              "$ref": "#/$defs/predicate"
+            }
+          },
+          "required": [
+            "type",
+            "from",
+            "to",
+            "offset"
+          ],
+          "type": "object"
+        }
+      ]
+    },
+    "numericExpression": {
+      "oneOf": [
+        {
+          "type": "number"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "param": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "required": [
+            "param"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "args": {
+              "items": {
+                "$ref": "#/$defs/numericExpression"
+              },
+              "maxItems": 8,
+              "minItems": 1,
+              "type": "array"
+            },
+            "op": {
+              "enum": [
+                "add",
+                "sub",
+                "mul",
+                "div",
+                "min",
+                "max",
+                "clamp",
+                "neg",
+                "abs"
+              ]
+            }
+          },
+          "required": [
+            "op",
+            "args"
+          ],
+          "type": "object"
+        }
+      ]
+    },
+    "paintServer": {
+      "oneOf": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "graphics": {
+              "items": {
+                "$ref": "#/$defs/node"
+              },
+              "maxItems": 1000,
+              "minItems": 1,
+              "type": "array"
+            },
+            "height": {
+              "exclusiveMinimum": 0,
+              "type": "number"
+            },
+            "rotation": {
+              "type": "number"
+            },
+            "type": {
+              "const": "pattern"
+            },
+            "width": {
+              "exclusiveMinimum": 0,
+              "type": "number"
+            },
+            "x": {
+              "type": "number"
+            },
+            "y": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "type",
+            "width",
+            "height",
+            "graphics"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "stops": {
+              "items": {
+                "$ref": "#/$defs/gradientStop"
+              },
+              "maxItems": 64,
+              "minItems": 2,
+              "type": "array"
+            },
+            "type": {
+              "const": "linear-gradient"
+            },
+            "x1": {
+              "type": "number"
+            },
+            "x2": {
+              "type": "number"
+            },
+            "y1": {
+              "type": "number"
+            },
+            "y2": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "type",
+            "x1",
+            "y1",
+            "x2",
+            "y2",
+            "stops"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "cx": {
+              "type": "number"
+            },
+            "cy": {
+              "type": "number"
+            },
+            "fx": {
+              "type": "number"
+            },
+            "fy": {
+              "type": "number"
+            },
+            "r": {
+              "exclusiveMinimum": 0,
+              "type": "number"
+            },
+            "stops": {
+              "items": {
+                "$ref": "#/$defs/gradientStop"
+              },
+              "maxItems": 64,
+              "minItems": 2,
+              "type": "array"
+            },
+            "type": {
+              "const": "radial-gradient"
+            }
+          },
+          "required": [
+            "type",
+            "cx",
+            "cy",
+            "r",
+            "stops"
+          ],
+          "type": "object"
+        }
+      ]
+    },
+    "parameterDefinition": {
+      "additionalProperties": false,
+      "properties": {
+        "default": {},
+        "description": {
+          "type": "string"
+        },
+        "maximum": {
+          "type": "number"
+        },
+        "minimum": {
+          "type": "number"
+        },
+        "step": {
+          "exclusiveMinimum": 0,
+          "type": "number"
+        },
+        "type": {
+          "enum": [
+            "number",
+            "length",
+            "angle",
+            "integer",
+            "boolean",
+            "enum",
+            "string"
+          ]
+        },
+        "unit": {
+          "type": "string"
+        },
+        "values": {
+          "items": {
+            "type": [
+              "string",
+              "number",
+              "boolean"
+            ]
+          },
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "type",
+        "default"
+      ],
+      "type": "object"
+    },
+    "pathCommand": {
+      "oneOf": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "cmd": {
+              "const": "M"
+            },
+            "x": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "y": {
+              "$ref": "#/$defs/numericExpression"
+            }
+          },
+          "required": [
+            "cmd",
+            "x",
+            "y"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "cmd": {
+              "const": "L"
+            },
+            "x": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "y": {
+              "$ref": "#/$defs/numericExpression"
+            }
+          },
+          "required": [
+            "cmd",
+            "x",
+            "y"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "cmd": {
+              "const": "Q"
+            },
+            "x": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "x1": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "y": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "y1": {
+              "$ref": "#/$defs/numericExpression"
+            }
+          },
+          "required": [
+            "cmd",
+            "x1",
+            "y1",
+            "x",
+            "y"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "cmd": {
+              "const": "C"
+            },
+            "x": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "x1": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "x2": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "y": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "y1": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "y2": {
+              "$ref": "#/$defs/numericExpression"
+            }
+          },
+          "required": [
+            "cmd",
+            "x1",
+            "y1",
+            "x2",
+            "y2",
+            "x",
+            "y"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "cmd": {
+              "const": "A"
+            },
+            "largeArc": {
+              "type": "boolean"
+            },
+            "rotation": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "rx": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "ry": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "sweep": {
+              "type": "boolean"
+            },
+            "x": {
+              "$ref": "#/$defs/numericExpression"
+            },
+            "y": {
+              "$ref": "#/$defs/numericExpression"
+            }
+          },
+          "required": [
+            "cmd",
+            "rx",
+            "ry",
+            "rotation",
+            "largeArc",
+            "sweep",
+            "x",
+            "y"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "cmd": {
+              "const": "Z"
+            }
+          },
+          "required": [
+            "cmd"
+          ],
+          "type": "object"
+        }
+      ]
+    },
+    "point": {
+      "maxItems": 2,
+      "minItems": 2,
+      "prefixItems": [
+        {
+          "$ref": "#/$defs/numericExpression"
+        },
+        {
+          "$ref": "#/$defs/numericExpression"
+        }
+      ],
+      "type": "array"
+    },
+    "port": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "electrical",
+            "logical",
+            "mechanical",
+            "fluid",
+            "optical",
+            "architectural",
+            "generic"
+          ]
+        },
+        "labelVisible": {
+          "type": "boolean"
+        },
+        "leadLength": {
+          "$ref": "#/$defs/numericExpression"
+        },
+        "metadata": {
+          "type": "object"
+        },
+        "name": {
+          "type": "string"
+        },
+        "number": {
+          "type": "string"
+        },
+        "numberVisible": {
+          "type": "boolean"
+        },
+        "orientation": {
+          "$ref": "#/$defs/numericExpression"
+        },
+        "snapRadius": {
+          "minimum": 0,
+          "type": "number"
+        },
+        "visibleWhen": {
+          "$ref": "#/$defs/predicate"
+        },
+        "x": {
+          "$ref": "#/$defs/numericExpression"
+        },
+        "y": {
+          "$ref": "#/$defs/numericExpression"
+        }
+      },
+      "required": [
+        "id",
+        "x",
+        "y",
+        "orientation",
+        "kind"
+      ],
+      "type": "object"
+    },
+    "predicate": {
+      "oneOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "args": {
+              "items": {
+                "$ref": "#/$defs/predicate"
+              },
+              "maxItems": 16,
+              "minItems": 1,
+              "type": "array"
+            },
+            "op": {
+              "enum": [
+                "and",
+                "or"
+              ]
+            }
+          },
+          "required": [
+            "op",
+            "args"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "arg": {
+              "$ref": "#/$defs/predicate"
+            },
+            "op": {
+              "const": "not"
+            }
+          },
+          "required": [
+            "op",
+            "arg"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "left": {
+              "$ref": "#/$defs/valueExpression"
+            },
+            "op": {
+              "enum": [
+                "eq",
+                "ne",
+                "lt",
+                "lte",
+                "gt",
+                "gte",
+                "in"
+              ]
+            },
+            "right": {
+              "oneOf": [
+                {
+                  "$ref": "#/$defs/valueExpression"
+                },
+                {
+                  "items": {
+                    "$ref": "#/$defs/valueExpression"
+                  },
+                  "maxItems": 64,
+                  "type": "array"
+                }
+              ]
+            }
+          },
+          "required": [
+            "op",
+            "left",
+            "right"
+          ],
+          "type": "object"
+        }
+      ]
+    },
+    "provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "author": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "created": {
+          "format": "date",
+          "type": "string"
+        },
+        "license": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "origin": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "sourceDigest": {
+          "pattern": "^sha256:[0-9a-f]{64}$",
+          "type": "string"
+        },
+        "sourceUri": {
+          "format": "uri",
+          "type": "string"
+        }
+      },
+      "required": [
+        "origin",
+        "license",
+        "author",
+        "created"
+      ],
+      "type": "object"
+    },
+    "style": {
+      "additionalProperties": false,
+      "properties": {
+        "dashArray": {
+          "items": {
+            "minimum": 0,
+            "type": "number"
+          },
+          "maxItems": 32,
+          "type": "array"
+        },
+        "dashOffset": {
+          "type": "number"
+        },
+        "fill": {
+          "type": "string"
+        },
+        "fillRule": {
+          "enum": [
+            "nonzero",
+            "evenodd"
+          ]
+        },
+        "fontFamily": {
+          "type": "string"
+        },
+        "fontSize": {
+          "exclusiveMinimum": 0,
+          "type": "number"
+        },
+        "fontStyle": {
+          "enum": [
+            "normal",
+            "italic",
+            "oblique"
+          ]
+        },
+        "fontWeight": {
+          "oneOf": [
+            {
+              "maximum": 900,
+              "minimum": 100,
+              "type": "integer"
+            },
+            {
+              "enum": [
+                "normal",
+                "bold"
+              ]
+            }
+          ]
+        },
+        "letterSpacing": {
+          "type": "number"
+        },
+        "opacity": {
+          "maximum": 1,
+          "minimum": 0,
+          "type": "number"
+        },
+        "pointerEvents": {
+          "enum": [
+            "none",
+            "stroke",
+            "fill",
+            "painted",
+            "all"
+          ]
+        },
+        "stroke": {
+          "type": "string"
+        },
+        "strokeLinecap": {
+          "enum": [
+            "butt",
+            "round",
+            "square"
+          ]
+        },
+        "strokeLinejoin": {
+          "enum": [
+            "miter",
+            "round",
+            "bevel"
+          ]
+        },
+        "strokeMiterlimit": {
+          "minimum": 1,
+          "type": "number"
+        },
+        "strokeWidth": {
+          "minimum": 0,
+          "type": "number"
+        },
+        "textDecoration": {
+          "enum": [
+            "none",
+            "underline",
+            "line-through"
+          ]
+        }
+      },
+      "type": "object"
+    },
+    "transform": {
+      "maxItems": 6,
+      "minItems": 6,
+      "prefixItems": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "number"
+        },
+        {
+          "type": "number"
+        },
+        {
+          "type": "number"
+        },
+        {
+          "type": "number"
+        },
+        {
+          "type": "number"
+        }
+      ],
+      "type": "array"
+    },
+    "valueExpression": {
+      "oneOf": [
+        {
+          "type": [
+            "number",
+            "string",
+            "boolean"
+          ]
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "param": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "required": [
+            "param"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "field": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "required": [
+            "field"
+          ],
+          "type": "object"
+        }
+      ]
+    },
+    "variant": {
+      "additionalProperties": false,
+      "properties": {
+        "graphics": {
+          "items": {
+            "$ref": "#/$defs/node"
+          },
+          "type": "array"
+        },
+        "id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "metadata": {
+          "type": "object"
+        },
+        "parameterDefaults": {
+          "type": "object"
+        },
+        "portOverrides": {
+          "additionalProperties": {
+            "type": "object"
+          },
+          "type": "object"
+        },
+        "selector": {
+          "additionalProperties": false,
+          "properties": {
+            "bodyStyle": {
+              "type": "string"
+            },
+            "purpose": {
+              "type": "string"
+            },
+            "state": {
+              "type": "string"
+            },
+            "unit": {
+              "type": "string"
+            }
+          },
+          "type": "object"
+        },
+        "suppress": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        "title": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id"
+      ],
+      "type": "object"
+    }
+  },
+  "$id": "https://schemas.aixem.org/component-graphics/aixsym/1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "formatVersion": {
+      "const": "1.0"
+    },
+    "schema": {
+      "const": "https://schemas.aixem.org/component-graphics/aixsym/1"
+    },
+    "symbol": {
+      "additionalProperties": false,
+      "properties": {
+        "anchors": {
+          "items": {
+            "$ref": "#/$defs/anchor"
+          },
+          "maxItems": 1024,
+          "type": "array"
+        },
+        "bounds": {
+          "$ref": "#/$defs/bounds"
+        },
+        "coordinateSystem": {
+          "$ref": "#/$defs/coordinateSystem"
+        },
+        "defaultVariant": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "definitions": {
+          "additionalProperties": {
+            "$ref": "#/$defs/node"
+          },
+          "type": "object"
+        },
+        "description": {
+          "type": "string"
+        },
+        "graphics": {
+          "items": {
+            "$ref": "#/$defs/node"
+          },
+          "maxItems": 100000,
+          "type": "array"
+        },
+        "id": {
+          "pattern": "^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$",
+          "type": "string"
+        },
+        "layers": {
+          "items": {
+            "$ref": "#/$defs/layer"
+          },
+          "maxItems": 256,
+          "minItems": 1,
+          "type": "array"
+        },
+        "metadata": {
+          "type": "object"
+        },
+        "paintServers": {
+          "additionalProperties": {
+            "$ref": "#/$defs/paintServer"
+          },
+          "type": "object"
+        },
+        "parameters": {
+          "additionalProperties": {
+            "$ref": "#/$defs/parameterDefinition"
+          },
+          "propertyNames": {
+            "pattern": "^[a-z][a-z0-9-]*$"
+          },
+          "type": "object"
+        },
+        "ports": {
+          "items": {
+            "$ref": "#/$defs/port"
+          },
+          "maxItems": 4096,
+          "type": "array"
+        },
+        "provenance": {
+          "$ref": "#/$defs/provenance"
+        },
+        "purpose": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "requiredFeatures": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        "revision": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "styles": {
+          "additionalProperties": {
+            "$ref": "#/$defs/style"
+          },
+          "minProperties": 1,
+          "type": "object"
+        },
+        "title": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "variants": {
+          "items": {
+            "$ref": "#/$defs/variant"
+          },
+          "maxItems": 1024,
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "revision",
+        "title",
+        "coordinateSystem",
+        "bounds",
+        "layers",
+        "styles",
+        "ports",
+        "graphics",
+        "provenance"
+      ],
+      "type": "object"
+    }
+  },
+  "required": [
+    "schema",
+    "formatVersion",
+    "symbol"
+  ],
+  "title": "AIXEM Symbol Asset 1.0 Candidate",
+  "type": "object"
+}

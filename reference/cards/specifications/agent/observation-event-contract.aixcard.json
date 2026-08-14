@@ -1,0 +1,70 @@
+{
+  "card": {
+    "aliases": [
+      "observable agent events",
+      "agent action log",
+      "no chain of thought evidence"
+    ],
+    "appliesTo": [
+      "agent-observation-contract"
+    ],
+    "domain": "specifications",
+    "estimatedReadBytes": 7659,
+    "id": "AIXEM-SPEC-AGENT-OBSERVATION-001",
+    "inputs": [],
+    "keywords": [
+      "Observation Event Contract 1",
+      "agent action log",
+      "author-component-circuit",
+      "no chain of thought evidence",
+      "observable agent events",
+      "validate-project"
+    ],
+    "kind": "contract",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/specifications/agent/observation-event-contract.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:f114bb23c03092cd5b57cb8d2517d67abb2ec9729380585561850caea6549f4f"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SPEC-AGENT-TASK-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-AGENT-LIVE-0010",
+        "level": "must",
+        "text": "**MUST.** Retained agent observation evidence MUST contain only externally observable actions and MUST reject chain-of-thought, private reasoning, scratchpad, internal monologue, and prompt-transcript fields."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-LIVE-0011",
+        "level": "must",
+        "text": "**MUST.** Observation events MUST use contiguous sequence numbers, safe stage-relative targets, declared event kinds, normalized capability counts, and a digest of canonical JSONL serialization."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-LIVE-0022",
+        "level": "must",
+        "text": "**MUST.** Observation result and nested details strings MUST be sanitized before official retention using explicit inherited-secret values and conservative credential patterns; malformed raw streams MUST NOT be retained as official evidence."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-LIVE-0023",
+        "level": "must",
+        "text": "**MUST.** When write coverage is declared, observed write and delete paths MUST be reconciled with Change-Set paths while Change-Set remains authoritative; unavailable coverage and discrepancies MUST be reported without inventing mutation truth."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SPEC-AGENT-OBSERVATION-001",
+        "path": "docs/specifications/agent/observation-event-contract.md"
+      }
+    ],
+    "summary": "Defines ordered JSONL evidence for externally observable agent actions while rejecting private model reasoning and chain-of-thought fields.",
+    "title": "Observation Event Contract 1"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

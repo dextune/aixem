@@ -1,0 +1,68 @@
+{
+  "formatVersion": "1.0",
+  "project": {
+    "applicationProfile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "description": "Generated only to exercise the existing production renderer.",
+    "features": [
+      "component.graphics@1",
+      "explicit.layout@1",
+      "grid-snap@1"
+    ],
+    "id": "conformance:s022",
+    "layout": {
+      "digest": "sha256:ef2ad4f3bd2c948f41fc2a4a3d3e9b6b620f64a98bfe4a78b2ae8dfe3cbd72be",
+      "id": "corpus_s022-layout",
+      "mediaType": "application/vnd.aixem.layout+json",
+      "path": "corpus.aixlayout.json",
+      "version": "1.0"
+    },
+    "libraries": [
+      {
+        "digest": "sha256:f6fcf9f372982e3a9d91abf210465555f303af90913e9006952cb23efd7901d2",
+        "id": "conformance:s022-library",
+        "mediaType": "application/vnd.aixem.library+json",
+        "path": "libraries/corpus.aixlib.json",
+        "version": "1.0.0"
+      }
+    ],
+    "metadata": {
+      "corpusCase": "S022",
+      "syntheticWrapper": true
+    },
+    "outputs": [
+      {
+        "mediaType": "image/svg+xml",
+        "path": "render/drawing.svg",
+        "role": "drawing-svg"
+      },
+      {
+        "mediaType": "application/json",
+        "path": "render/resolved-scene.json",
+        "role": "resolved-scene"
+      }
+    ],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-11",
+      "license": "CC0-1.0"
+    },
+    "renderPolicy": {
+      "backend": "svg",
+      "defaultVariantPolicy": "library-default",
+      "fontPolicy": "system-fallback",
+      "purpose": "primary-diagram",
+      "remoteAssets": "deny",
+      "unsupportedRequiredFeature": "reject"
+    },
+    "source": {
+      "digest": "sha256:b00c23229d52187ebc811c0f2e7f0b1b0a0ed55fd7857b13ae91472d9a9600db",
+      "id": "corpus_s022",
+      "mediaType": "application/vnd.aixem+text",
+      "path": "corpus.aixem",
+      "version": "1.0"
+    },
+    "status": "controlled",
+    "title": "S022 32-pin MCU conformance project"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/aixproj/1"
+}

@@ -1,0 +1,81 @@
+{
+  "domain": {
+    "cards": [
+      {
+        "id": "AIXEM-ARCH-ADR-0001",
+        "path": "reference/cards/architecture/adr/0001-canonical-doc-root.aixcard.json",
+        "summary": "Records the decision to author human and agent knowledge once under docs/ and generate all derivative navigation products.",
+        "title": "ADR-0001: One Canonical Documentation Root"
+      },
+      {
+        "id": "AIXEM-ARCH-ADR-0002",
+        "path": "reference/cards/architecture/adr/0002-route-first-retrieval.aixcard.json",
+        "summary": "Records the decision to resolve known work through bounded task routes before full-text or repository-wide search.",
+        "title": "ADR-0002: Route-First Agent Retrieval"
+      },
+      {
+        "id": "AIXEM-ARCH-ADR-0003",
+        "path": "reference/cards/architecture/adr/0003-vendor-neutral-ui.aixcard.json",
+        "summary": "Records the decision to use conventional engineering inspection patterns with original AIXEM assets while separating the read-only Viewer, Review Workbench, and any future Editor.",
+        "title": "ADR-0003: Vendor-Neutral Engineering Surfaces"
+      },
+      {
+        "id": "AIXEM-ARCH-ADR-0004",
+        "path": "reference/cards/architecture/adr/0004-symbol-style-and-renderer-precedence.aixcard.json",
+        "summary": "Decides that symbol assets own geometry and fallback style while active profiles may override approved presentation roles without changing semantics.",
+        "title": "ADR 0004 — Symbol Style and Renderer Precedence"
+      },
+      {
+        "id": "AIXEM-ARCH-ADR-INDEX-001",
+        "path": "reference/cards/architecture/adr/overview.aixcard.json",
+        "summary": "Index of durable decisions that constrain the AIXEM 0.5 documentation and reference architecture.",
+        "title": "Architecture Decision Records"
+      },
+      {
+        "id": "AIXEM-ARCH-ARTIFACT-001",
+        "path": "reference/cards/architecture/artifact-store.aixcard.json",
+        "summary": "Defines repository locations, artifact ownership metadata, generated boundaries, and content-addressed integrity relationships.",
+        "title": "Artifact Ownership and Storage"
+      },
+      {
+        "id": "AIXEM-ARCH-CACHE-001",
+        "path": "reference/cards/architecture/cache.aixcard.json",
+        "summary": "Defines source digests, dependency invalidation, route cache keys, deterministic cache content, and safe incremental rebuilds.",
+        "title": "Cache and Incremental Compilation"
+      },
+      {
+        "id": "AIXEM-ARCH-INDEX-001",
+        "path": "reference/cards/architecture/overview.aixcard.json",
+        "summary": "A component and data-flow view of the canonical documentation compiler, agent reference layer, schematic pipeline, validators, and static publication outputs.",
+        "title": "System Architecture"
+      },
+      {
+        "id": "AIXEM-ARCH-PIPELINE-001",
+        "path": "reference/cards/architecture/pipeline.aixcard.json",
+        "summary": "Defines the ordered pipeline from canonical changes through compilation, validation, visual review, evidence, manifest, and archive.",
+        "title": "Build and Authoring Pipeline"
+      },
+      {
+        "id": "AIXEM-ARCH-SECURITY-001",
+        "path": "reference/cards/architecture/security.aixcard.json",
+        "summary": "Defines local-path safety, remote-asset denial, digest verification, untrusted Markdown handling, and release archive checks.",
+        "title": "Security and Trust Boundaries"
+      },
+      {
+        "id": "AIXEM-ARCH-SYSTEM-001",
+        "path": "reference/cards/architecture/system-overview.aixcard.json",
+        "summary": "Defines the major bounded components and the interfaces between documentation authoring, agent retrieval, schematic rendering, conformance, and release packaging.",
+        "title": "System Overview"
+      }
+    ],
+    "description": "Generated canonical-document cards for the architecture domain.",
+    "id": "architecture",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12"
+    },
+    "title": "Architecture"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixdomain/1"
+}

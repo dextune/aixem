@@ -1,0 +1,15 @@
+{
+  "canonicalHashes": {},
+  "checks": [],
+  "deterministic": true,
+  "diagnosticMatched": true,
+  "error": "project:project/projectNets/0/members: [{'port': 'VCC', 'sheet': 'power'}] is too short",
+  "expected": "fail",
+  "expectedDiagnostic": "is too short",
+  "id": "N009",
+  "observed": "fail",
+  "projectDigest": "sha256:f663d2ec84bc64732cfeb7aefbaf781df39c75b9f27ed4c508be7dfacb7914ce",
+  "repeatCount": 0,
+  "status": "pass",
+  "title": "Project net one member"
+}

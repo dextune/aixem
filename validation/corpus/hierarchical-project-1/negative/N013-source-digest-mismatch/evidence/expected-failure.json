@@ -1,0 +1,7 @@
+{
+  "case": "N013",
+  "expectedDiagnostic": "source digest mismatch",
+  "matched": true,
+  "observedError": "sheet[power].source digest mismatch: expected sha256:0000000000000000000000000000000000000000000000000000000000000000, observed sha256:f295c02b5a77db52e290715ec1295130eb10ed12c627094088dd803eb9c2c8d2",
+  "status": "pass"
+}

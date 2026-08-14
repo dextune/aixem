@@ -1,0 +1,57 @@
+{
+  "card": {
+    "aliases": [
+      "validate project guide",
+      "project conformance guide",
+      "close authoring evidence"
+    ],
+    "appliesTo": [
+      "authoring-guide-validate-project"
+    ],
+    "domain": "authoring",
+    "estimatedReadBytes": 6407,
+    "id": "AIXEM-AUTHORING-GUIDE-VALIDATE-PROJECT-001",
+    "inputs": [],
+    "keywords": [
+      "Validate a Project",
+      "author-component-circuit",
+      "close authoring evidence",
+      "project conformance guide",
+      "validate project guide",
+      "validate-project"
+    ],
+    "kind": "guide",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/authoring/guides/validate-project.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:9378167fb4a9f5f1b1bb509ad61a718dc4e04387e01507220fd73d6afc11d78c"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-CONF-VALIDATION-001",
+      "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+      "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-AUTHORING-GUIDE-VALIDATE-PROJECT-001.read",
+        "level": "should",
+        "text": "Guides final closure of schema, lock, semantic, placement, routing, part provenance, pin semantics, bounded compatibility, intent, render, and evidence results."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-AUTHORING-GUIDE-VALIDATE-PROJECT-001",
+        "path": "docs/authoring/guides/validate-project.md"
+      }
+    ],
+    "summary": "Guides final closure of schema, lock, semantic, placement, routing, part provenance, pin semantics, bounded compatibility, intent, render, and evidence results.",
+    "title": "Validate a Project"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

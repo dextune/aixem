@@ -1,0 +1,475 @@
+{
+  "cases": [
+    {
+      "id": "B001",
+      "primitiveCount": 13,
+      "renderDurationMs": {
+        "maximum": 32.618,
+        "mean": 31.228,
+        "minimum": 30.218
+      },
+      "resolvedSceneBytes": 3000,
+      "sourceBytes": 6157,
+      "svgBytes": 7214,
+      "visiblePortCount": 0
+    },
+    {
+      "id": "B002",
+      "primitiveCount": 20,
+      "renderDurationMs": {
+        "maximum": 33.786,
+        "mean": 33.212,
+        "minimum": 32.192
+      },
+      "resolvedSceneBytes": 3011,
+      "sourceBytes": 8590,
+      "svgBytes": 15028,
+      "visiblePortCount": 0
+    },
+    {
+      "id": "B003",
+      "primitiveCount": 4,
+      "renderDurationMs": {
+        "maximum": 36.276,
+        "mean": 33.052,
+        "minimum": 29.782
+      },
+      "resolvedSceneBytes": 3054,
+      "sourceBytes": 5106,
+      "svgBytes": 5490,
+      "visiblePortCount": 0
+    },
+    {
+      "id": "B004",
+      "primitiveCount": 8,
+      "renderDurationMs": {
+        "maximum": 28.143,
+        "mean": 28.022,
+        "minimum": 27.925
+      },
+      "resolvedSceneBytes": 2998,
+      "sourceBytes": 5416,
+      "svgBytes": 6464,
+      "visiblePortCount": 0
+    },
+    {
+      "id": "B005",
+      "primitiveCount": 4,
+      "renderDurationMs": {
+        "maximum": 27.312,
+        "mean": 27.017,
+        "minimum": 26.841
+      },
+      "resolvedSceneBytes": 3014,
+      "sourceBytes": 4640,
+      "svgBytes": 6069,
+      "visiblePortCount": 0
+    },
+    {
+      "id": "B006",
+      "primitiveCount": 1,
+      "renderDurationMs": {
+        "maximum": 27.778,
+        "mean": 27.225,
+        "minimum": 26.902
+      },
+      "resolvedSceneBytes": 3043,
+      "sourceBytes": 5031,
+      "svgBytes": 5174,
+      "visiblePortCount": 0
+    },
+    {
+      "id": "S001",
+      "primitiveCount": 5,
+      "renderDurationMs": {
+        "maximum": 47.997,
+        "mean": 34.987,
+        "minimum": 28.193
+      },
+      "resolvedSceneBytes": 3165,
+      "sourceBytes": 8454,
+      "svgBytes": 6071,
+      "visiblePortCount": 2
+    },
+    {
+      "id": "S002",
+      "primitiveCount": 5,
+      "renderDurationMs": {
+        "maximum": 29.595,
+        "mean": 28.891,
+        "minimum": 28.289
+      },
+      "resolvedSceneBytes": 3082,
+      "sourceBytes": 5897,
+      "svgBytes": 6119,
+      "visiblePortCount": 2
+    },
+    {
+      "id": "S003",
+      "primitiveCount": 6,
+      "renderDurationMs": {
+        "maximum": 29.287,
+        "mean": 29.053,
+        "minimum": 28.688
+      },
+      "resolvedSceneBytes": 3105,
+      "sourceBytes": 5640,
+      "svgBytes": 6327,
+      "visiblePortCount": 2
+    },
+    {
+      "id": "S004",
+      "primitiveCount": 7,
+      "renderDurationMs": {
+        "maximum": 30.56,
+        "mean": 30.245,
+        "minimum": 29.881
+      },
+      "resolvedSceneBytes": 3153,
+      "sourceBytes": 6160,
+      "svgBytes": 6581,
+      "visiblePortCount": 2
+    },
+    {
+      "id": "S005",
+      "primitiveCount": 7,
+      "renderDurationMs": {
+        "maximum": 33.903,
+        "mean": 30.667,
+        "minimum": 28.607
+      },
+      "resolvedSceneBytes": 3127,
+      "sourceBytes": 6355,
+      "svgBytes": 6486,
+      "visiblePortCount": 2
+    },
+    {
+      "id": "S006",
+      "primitiveCount": 6,
+      "renderDurationMs": {
+        "maximum": 29.85,
+        "mean": 28.905,
+        "minimum": 27.407
+      },
+      "resolvedSceneBytes": 3086,
+      "sourceBytes": 5762,
+      "svgBytes": 6470,
+      "visiblePortCount": 2
+    },
+    {
+      "id": "S007",
+      "primitiveCount": 11,
+      "renderDurationMs": {
+        "maximum": 37.344,
+        "mean": 32.99,
+        "minimum": 30.48
+      },
+      "resolvedSceneBytes": 3067,
+      "sourceBytes": 7006,
+      "svgBytes": 7433,
+      "visiblePortCount": 2
+    },
+    {
+      "id": "S008",
+      "primitiveCount": 8,
+      "renderDurationMs": {
+        "maximum": 41.345,
+        "mean": 34.082,
+        "minimum": 30.281
+      },
+      "resolvedSceneBytes": 3075,
+      "sourceBytes": 7329,
+      "svgBytes": 6458,
+      "visiblePortCount": 2
+    },
+    {
+      "id": "S009",
+      "primitiveCount": 10,
+      "renderDurationMs": {
+        "maximum": 31.489,
+        "mean": 30.812,
+        "minimum": 30.315
+      },
+      "resolvedSceneBytes": 3116,
+      "sourceBytes": 7220,
+      "svgBytes": 7632,
+      "visiblePortCount": 3
+    },
+    {
+      "id": "S010",
+      "primitiveCount": 14,
+      "renderDurationMs": {
+        "maximum": 33.505,
+        "mean": 33.073,
+        "minimum": 32.451
+      },
+      "resolvedSceneBytes": 3144,
+      "sourceBytes": 8118,
+      "svgBytes": 8463,
+      "visiblePortCount": 3
+    },
+    {
+      "id": "S011",
+      "primitiveCount": 10,
+      "renderDurationMs": {
+        "maximum": 38.52,
+        "mean": 34.383,
+        "minimum": 31.848
+      },
+      "resolvedSceneBytes": 3279,
+      "sourceBytes": 7810,
+      "svgBytes": 8047,
+      "visiblePortCount": 5
+    },
+    {
+      "id": "S012",
+      "primitiveCount": 11,
+      "renderDurationMs": {
+        "maximum": 34.688,
+        "mean": 34.163,
+        "minimum": 33.586
+      },
+      "resolvedSceneBytes": 3250,
+      "sourceBytes": 8077,
+      "svgBytes": 8237,
+      "visiblePortCount": 5
+    },
+    {
+      "id": "S013",
+      "primitiveCount": 11,
+      "renderDurationMs": {
+        "maximum": 39.051,
+        "mean": 35.249,
+        "minimum": 32.703
+      },
+      "resolvedSceneBytes": 3291,
+      "sourceBytes": 8487,
+      "svgBytes": 8088,
+      "visiblePortCount": 4
+    },
+    {
+      "id": "S014",
+      "primitiveCount": 18,
+      "renderDurationMs": {
+        "maximum": 44.436,
+        "mean": 39.458,
+        "minimum": 35.402
+      },
+      "resolvedSceneBytes": 3281,
+      "sourceBytes": 9516,
+      "svgBytes": 9522,
+      "visiblePortCount": 5
+    },
+    {
+      "id": "S015",
+      "primitiveCount": 9,
+      "renderDurationMs": {
+        "maximum": 31.81,
+        "mean": 31.096,
+        "minimum": 30.195
+      },
+      "resolvedSceneBytes": 3119,
+      "sourceBytes": 6264,
+      "svgBytes": 7148,
+      "visiblePortCount": 2
+    },
+    {
+      "id": "S016",
+      "primitiveCount": 14,
+      "renderDurationMs": {
+        "maximum": 35.173,
+        "mean": 34.448,
+        "minimum": 34.025
+      },
+      "resolvedSceneBytes": 3297,
+      "sourceBytes": 8451,
+      "svgBytes": 8850,
+      "visiblePortCount": 5
+    },
+    {
+      "id": "S017",
+      "primitiveCount": 7,
+      "renderDurationMs": {
+        "maximum": 31.199,
+        "mean": 30.586,
+        "minimum": 29.839
+      },
+      "resolvedSceneBytes": 3166,
+      "sourceBytes": 6883,
+      "svgBytes": 6952,
+      "visiblePortCount": 3
+    },
+    {
+      "id": "S018",
+      "primitiveCount": 7,
+      "renderDurationMs": {
+        "maximum": 43.077,
+        "mean": 35.413,
+        "minimum": 31.292
+      },
+      "resolvedSceneBytes": 3094,
+      "sourceBytes": 6288,
+      "svgBytes": 6726,
+      "visiblePortCount": 2
+    },
+    {
+      "id": "S019",
+      "primitiveCount": 5,
+      "renderDurationMs": {
+        "maximum": 33.426,
+        "mean": 31.83,
+        "minimum": 30.83
+      },
+      "resolvedSceneBytes": 3086,
+      "sourceBytes": 5468,
+      "svgBytes": 6258,
+      "visiblePortCount": 2
+    },
+    {
+      "id": "S020",
+      "primitiveCount": 23,
+      "renderDurationMs": {
+        "maximum": 61.408,
+        "mean": 51.525,
+        "minimum": 41.311
+      },
+      "resolvedSceneBytes": 4128,
+      "sourceBytes": 15782,
+      "svgBytes": 14338,
+      "visiblePortCount": 20
+    },
+    {
+      "id": "S021",
+      "primitiveCount": 103,
+      "renderDurationMs": {
+        "maximum": 209.152,
+        "mean": 178.057,
+        "minimum": 157.495
+      },
+      "resolvedSceneBytes": 8851,
+      "sourceBytes": 62538,
+      "svgBytes": 51613,
+      "visiblePortCount": 100
+    },
+    {
+      "id": "S022",
+      "primitiveCount": 39,
+      "renderDurationMs": {
+        "maximum": 151.977,
+        "mean": 131.037,
+        "minimum": 117.936
+      },
+      "resolvedSceneBytes": 4873,
+      "sourceBytes": 24077,
+      "svgBytes": 20151,
+      "visiblePortCount": 32
+    },
+    {
+      "id": "S023",
+      "primitiveCount": 71,
+      "renderDurationMs": {
+        "maximum": 102.518,
+        "mean": 97.902,
+        "minimum": 91.082
+      },
+      "resolvedSceneBytes": 6852,
+      "sourceBytes": 42829,
+      "svgBytes": 34064,
+      "visiblePortCount": 64
+    },
+    {
+      "id": "S024",
+      "primitiveCount": 107,
+      "renderDurationMs": {
+        "maximum": 307.742,
+        "mean": 191.844,
+        "minimum": 125.28
+      },
+      "resolvedSceneBytes": 9088,
+      "sourceBytes": 63365,
+      "svgBytes": 49159,
+      "visiblePortCount": 100
+    },
+    {
+      "id": "S025",
+      "primitiveCount": 11,
+      "renderDurationMs": {
+        "maximum": 51.284,
+        "mean": 38.714,
+        "minimum": 31.503
+      },
+      "resolvedSceneBytes": 3104,
+      "sourceBytes": 7395,
+      "svgBytes": 7770,
+      "visiblePortCount": 3
+    },
+    {
+      "id": "S026",
+      "primitiveCount": 10,
+      "renderDurationMs": {
+        "maximum": 69.99,
+        "mean": 56.933,
+        "minimum": 34.146
+      },
+      "resolvedSceneBytes": 3267,
+      "sourceBytes": 7700,
+      "svgBytes": 7731,
+      "visiblePortCount": 4
+    },
+    {
+      "id": "S027",
+      "primitiveCount": 16,
+      "renderDurationMs": {
+        "maximum": 68.641,
+        "mean": 61.125,
+        "minimum": 55.642
+      },
+      "resolvedSceneBytes": 3189,
+      "sourceBytes": 8858,
+      "svgBytes": 8881,
+      "visiblePortCount": 4
+    },
+    {
+      "id": "S028",
+      "primitiveCount": 15,
+      "renderDurationMs": {
+        "maximum": 65.434,
+        "mean": 57.595,
+        "minimum": 50.008
+      },
+      "resolvedSceneBytes": 3291,
+      "sourceBytes": 9282,
+      "svgBytes": 8993,
+      "visiblePortCount": 5
+    },
+    {
+      "id": "S029",
+      "primitiveCount": 10,
+      "renderDurationMs": {
+        "maximum": 58.665,
+        "mean": 45.202,
+        "minimum": 38.384
+      },
+      "resolvedSceneBytes": 3295,
+      "sourceBytes": 8399,
+      "svgBytes": 7799,
+      "visiblePortCount": 4
+    },
+    {
+      "id": "S030",
+      "primitiveCount": 24,
+      "renderDurationMs": {
+        "maximum": 81.255,
+        "mean": 67.914,
+        "minimum": 46.37
+      },
+      "resolvedSceneBytes": 3937,
+      "sourceBytes": 14866,
+      "svgBytes": 13813,
+      "visiblePortCount": 16
+    }
+  ],
+  "policy": "Observed baseline only; future releases may enforce reviewed relative-regression thresholds.",
+  "release": "AIXEM-SRP-0.5.2-2026-08-11",
+  "schema": "https://schemas.aixem.org/conformance/corpus-performance/1"
+}

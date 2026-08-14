@@ -1,0 +1,116 @@
+{
+  "command": {
+    "command": [
+      "/opt/pyvenv/bin/python",
+      "tools/run_agent_evals_2.py"
+    ],
+    "durationSeconds": 4.241571,
+    "label": "cycle 3 historical Agent Evaluation 2",
+    "returnCode": 0,
+    "status": "PASS",
+    "stderrTail": "A001: pass\nA002: pass\nA003: pass\nA004: pass\nA005: pass\nA006: pass\nA007: pass\nA008: pass\nA009: pass\nA010: pass\nA011: pass\nA012: pass\n",
+    "stdoutTail": "{\n  \"tierA\": {\n    \"cases\": 12,\n    \"failed\": 0,\n    \"passed\": 12\n  },\n  \"tierBExecuted\": false,\n  \"valid\": true\n}\n",
+    "valid": true
+  },
+  "cycle": 3,
+  "evaluationTruth": {
+    "agentEval2TierA": {
+      "cases": 12,
+      "failed": 0,
+      "passed": 12
+    },
+    "caseIds": [
+      "L001",
+      "L002",
+      "L003",
+      "L004",
+      "L005",
+      "L006",
+      "L007",
+      "L008",
+      "L009",
+      "L010",
+      "L011",
+      "L012"
+    ],
+    "errors": [],
+    "preLive": {
+      "errors": [],
+      "fairness": {
+        "cases": 12,
+        "failed": 0,
+        "passed": 12
+      },
+      "faultFixtures": {
+        "failed": 0,
+        "faults": 10,
+        "passed": 10
+      },
+      "preLiveReadiness": true,
+      "routes": {
+        "failed": 0,
+        "passed": 8,
+        "routes": 8
+      },
+      "runnerPortability": {
+        "locationIndependent": true,
+        "resultsRoot": "/mnt/data/aixem058 verification cycle 02/results with spaces",
+        "workRoot": "/mnt/data/aixem058 verification cycle 02/work with spaces"
+      },
+      "successFixtures": {
+        "failed": 0,
+        "fixtures": 4,
+        "passed": 4
+      },
+      "summary": {
+        "corpus": {
+          "baselineRelease": "AIXEM-SRP-0.5.6-2026-08-12",
+          "id": "agent-evals-3",
+          "protocolVersion": "1.0",
+          "revision": "1.1"
+        },
+        "durationSeconds": 27.285549,
+        "engineeringStatus": "PRE_LIVE_READINESS_PASS_TIER_B_PENDING",
+        "formatVersion": "1.1",
+        "generatedAt": "2026-08-12T00:00:00Z",
+        "liveClaimAuthorized": false,
+        "liveExternalAgentExecuted": false,
+        "preLiveReadiness": true,
+        "release": "AIXEM-SRP-0.5.8-2026-08-12",
+        "repositoryRelease": "AIXEM-SRP-0.5.8-2026-08-12",
+        "schema": "https://schemas.aixem.org/validation/agent-eval-3-summary/1",
+        "tierAValid": true,
+        "tierBExecuted": false,
+        "valid": true
+      },
+      "tierASummary": {
+        "cases": 12,
+        "corpusCasesValid": 12,
+        "deterministicStages": 12,
+        "fairInvariantCases": 12,
+        "faultFixtures": {
+          "failed": 0,
+          "faults": 10,
+          "passed": 10
+        },
+        "protocolFixtureValid": true,
+        "readyRoutes": 8,
+        "successFixtures": {
+          "failed": 0,
+          "fixtures": 4,
+          "passed": 4
+        }
+      },
+      "tierBExecuted": false,
+      "valid": true
+    },
+    "valid": true
+  },
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "release": "AIXEM-SRP-0.5.8-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/pre-live-readiness-verification-stage/1",
+  "stage": "eval2",
+  "status": "PASS",
+  "valid": true
+}

@@ -1,0 +1,7 @@
+{
+  "case": "N002",
+  "expectedDiagnostic": "unknown interface endpoint @UNKNOWN",
+  "matched": true,
+  "observedError": "unknown interface endpoint @UNKNOWN in net vcc",
+  "status": "pass"
+}

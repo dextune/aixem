@@ -1,0 +1,175 @@
+{
+  "checks": [
+    {
+      "command": {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "-m",
+          "py_compile",
+          "implementation/schematic/render_project.py",
+          "implementation/schematic/viewer/model.py",
+          "implementation/schematic/viewer/core.py",
+          "implementation/schematic/viewer/reference_viewer.py",
+          "implementation/schematic/viewer/review_workbench.py",
+          "tools/validate_reference_viewer_corpus.py",
+          "tools/validate_hierarchical_corpus.py",
+          "tools/docs/aixem_docs.py"
+        ],
+        "durationSeconds": 2.040832,
+        "label": "Python compilation",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "",
+        "stdoutTail": ""
+      },
+      "id": "P1-PYTHON-COMPILE",
+      "status": "PASS",
+      "summary": "Viewer, renderer, corpus, and documentation modules compile.",
+      "valid": true
+    },
+    {
+      "command": {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "tools/docs/build_all.py"
+        ],
+        "durationSeconds": 9.038329,
+        "label": "documentation/reference/site build",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "",
+        "stdoutTail": "{\n  \"documents\": 123,\n  \"routes\": 15,\n  \"reference\": {\n    \"cards\": 123,\n    \"routes\": 15,\n    \"domains\": 15,\n    \"files\": 159\n  },\n  \"site\": {\n    \"pages\": 139,\n    \"canonicalPages\": 123,\n    \"schemaPages\": 15,\n    \"assets\": 32\n  }\n}\n"
+      },
+      "id": "P1-DOCUMENT-BUILD",
+      "status": "PASS",
+      "summary": "Canonical Viewer contracts, indexes, routes, reference cards, and site build.",
+      "valid": true
+    },
+    {
+      "command": {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "-m",
+          "unittest",
+          "-v",
+          "tests.conformance.test_reference_viewer.ReferenceViewerConformanceTests.test_v001_single_sheet_reference_viewer",
+          "tests.conformance.test_reference_viewer.ReferenceViewerConformanceTests.test_v015_dom_identity_closure_and_unique_ids",
+          "tests.conformance.test_reference_viewer.ReferenceViewerConformanceTests.test_v017_viewer_workbench_are_distinct_shared_profiles",
+          "tests.conformance.test_viewer_security.ViewerSecurityConformanceTests.test_structural_negative_viewer_models_fail_closed"
+        ],
+        "durationSeconds": 11.019384,
+        "label": "Viewer contract and structural tests",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "test_v001_single_sheet_reference_viewer (tests.conformance.test_reference_viewer.ReferenceViewerConformanceTests.test_v001_single_sheet_reference_viewer) ... ok\ntest_v015_dom_identity_closure_and_unique_ids (tests.conformance.test_reference_viewer.ReferenceViewerConformanceTests.test_v015_dom_identity_closure_and_unique_ids) ... ok\ntest_v017_viewer_workbench_are_distinct_shared_profiles (tests.conformance.test_reference_viewer.ReferenceViewerConformanceTests.test_v017_viewer_workbench_are_distinct_shared_profiles) ... ok\ntest_structural_negative_viewer_models_fail_closed (tests.conformance.test_viewer_security.ViewerSecurityConformanceTests.test_structural_negative_viewer_models_fail_closed) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 6.324s\n\nOK\n",
+        "stdoutTail": ""
+      },
+      "id": "P1-CONTRACT-STRUCTURE",
+      "status": "PASS",
+      "summary": "Read-only profile separation, Viewer Model closure, and qualified DOM identity pass.",
+      "valid": true
+    },
+    {
+      "details": {
+        "commands": [
+          {
+            "command": [
+              "/opt/pyvenv/bin/python",
+              "implementation/schematic/render_project.py",
+              "examples/electronics-grid-controller/project.aixproj.json",
+              "--output-dir",
+              "/tmp/aixem-054-compat-f7oftvw0/single"
+            ],
+            "durationSeconds": 4.514835,
+            "label": "protected single-sheet render",
+            "returnCode": 0,
+            "status": "PASS",
+            "stderrTail": "",
+            "stdoutTail": "project: demo.electronics:grid-controller\nentities: 17; nets: 20; route segments: 126\ngrid schematic validation: PASS\nworkbench: /tmp/aixem-054-compat-f7oftvw0/single/workbench.html\n"
+          },
+          {
+            "command": [
+              "/opt/pyvenv/bin/python",
+              "implementation/schematic/render_project.py",
+              "validation/corpus/hierarchical-project-1/cases/H001-two-sheet-power-+-control/project.aixproj.json",
+              "--output-dir",
+              "/tmp/aixem-054-compat-f7oftvw0/h001"
+            ],
+            "durationSeconds": 4.304729,
+            "label": "protected H001 render",
+            "returnCode": 0,
+            "status": "PASS",
+            "stderrTail": "",
+            "stdoutTail": "project: hierarchical:h001\nsheets: 2; entities: 2; local nets: 6; project nets: 3\noverview: /tmp/aixem-054-compat-f7oftvw0/h001/project-overview.svg\ncomposite: /tmp/aixem-054-compat-f7oftvw0/h001/project-composite.svg\nhierarchical project validation: PASS\nworkbench: /tmp/aixem-054-compat-f7oftvw0/h001/workbench.html\n"
+          }
+        ],
+        "errors": [],
+        "expectedProductDigests": {
+          "h001Composite": "dde1dbe458e1975b7468e291613d2fe3c3fee90535de5fd90f0c535e5e1e0d9d",
+          "h001Overview": "80f59f7d6102b0161d013098ac20f654b724a8eb9fd04b6dab533b5f24a755c8",
+          "h001ResolvedProjectScene": "9b54a68bdff50a8b2d592232d3daad8c3f59c55f87bfad02115da5e744848277",
+          "singleDrawing": "cbf6775048b06eeb120530abece8148a73e0b0bebdf493f5cfc7eee9708d8080",
+          "singleResolvedScene": "d72ad96f1778d459e42933aee2ec1c381158305a9f5015031d93a53f016dad22"
+        },
+        "productDigests": {
+          "h001Composite": "dde1dbe458e1975b7468e291613d2fe3c3fee90535de5fd90f0c535e5e1e0d9d",
+          "h001Overview": "80f59f7d6102b0161d013098ac20f654b724a8eb9fd04b6dab533b5f24a755c8",
+          "h001ResolvedProjectScene": "9b54a68bdff50a8b2d592232d3daad8c3f59c55f87bfad02115da5e744848277",
+          "singleDrawing": "cbf6775048b06eeb120530abece8148a73e0b0bebdf493f5cfc7eee9708d8080",
+          "singleResolvedScene": "d72ad96f1778d459e42933aee2ec1c381158305a9f5015031d93a53f016dad22"
+        },
+        "schemaDigests": {
+          "aixlayout1": "4f92e5e292a694aabfca922cc449f2f59a1a08e6465181a096a62b47b23bfca7",
+          "aixproj1": "056932ff46d7b6928f3b01dba50403353bdfda8f4d28e8b7bf0d38ab1dd39a41"
+        },
+        "valid": true
+      },
+      "id": "P1-PROTECTED-RENDERER",
+      "status": "PASS",
+      "summary": "Protected 0.5.3 circuit evidence and immutable v1 schemas remain byte-stable.",
+      "valid": true
+    }
+  ],
+  "documentLinkage": {
+    "artifactDeclarationsChecked": 156,
+    "documents": 123,
+    "errors": [],
+    "normativeDocuments": 81,
+    "requiredChain": [
+      "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
+      "AIXEM-CONF-REFERENCE-VIEWER-001",
+      "AIXEM-RELEASE-054-001",
+      "AIXEM-SPEC-VIEWER-001",
+      "AIXEM-SPEC-VIEWER-A11Y-001",
+      "AIXEM-SPEC-VIEWER-INDEX-001",
+      "AIXEM-SPEC-VIEWER-SECURITY-001",
+      "AIXEM-SPEC-VIEWER-STATE-001",
+      "AIXEM-SPEC-WORKBENCH-001"
+    ],
+    "requirements": 191,
+    "routeResolution": {
+      "inspect viewer": {
+        "expected": "inspect-viewer",
+        "fallbackUsed": false,
+        "observed": "inspect-viewer"
+      },
+      "render review": {
+        "expected": "render-review",
+        "fallbackUsed": false,
+        "observed": "render-review"
+      }
+    },
+    "routes": 15,
+    "silentGaps": 0,
+    "sitePages": 141,
+    "valid": true
+  },
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "pass": 1,
+  "release": "AIXEM-SRP-0.5.4-2026-08-11",
+  "schema": "https://schemas.aixem.org/validation/reference-viewer-verification-pass/1",
+  "status": "PASS",
+  "title": "Contract, Authority, and Structural Correctness",
+  "valid": true
+}

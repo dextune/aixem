@@ -1,0 +1,35 @@
+{
+  "cycle": 1,
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "release": "AIXEM-SRP-0.5.8-2026-08-12",
+  "result": {
+    "command": [
+      "internal",
+      "prepare-repository-self-test-inputs"
+    ],
+    "durationSeconds": 0.0,
+    "label": "cycle 1 repository self-test manifest/evidence preflight",
+    "manifest": {
+      "errors": [],
+      "files": 2552,
+      "totalBytes": 60824231,
+      "valid": true
+    },
+    "requirementEvidence": {
+      "errors": [],
+      "evidenceFiles": 245,
+      "requirements": 245,
+      "valid": true
+    },
+    "returnCode": 0,
+    "status": "PASS",
+    "stderrTail": "",
+    "stdoutTail": "",
+    "valid": true
+  },
+  "schema": "https://schemas.aixem.org/validation/pre-live-readiness-verification-stage/1",
+  "stage": "preflight",
+  "status": "PASS",
+  "valid": true
+}

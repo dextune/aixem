@@ -1,0 +1,138 @@
+{
+  "checks": [
+    {
+      "command": {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests/agent",
+          "-v"
+        ],
+        "durationSeconds": 31.734956,
+        "label": "agent contract and negative-path unit tests",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "test_manifest_contains_exact_a001_a012_inventory (test_agent_evals_2.AgentEvaluation2Tests.test_manifest_contains_exact_a001_a012_inventory) ... ok\ntest_runner_rejects_live_mode_without_separate_cold_start_corpus (test_agent_evals_2.AgentEvaluation2Tests.test_runner_rejects_live_mode_without_separate_cold_start_corpus) ... ok\ntest_tier_a_results_are_complete_and_pass (test_agent_evals_2.AgentEvaluation2Tests.test_tier_a_results_are_complete_and_pass) ... ok\ntest_tier_status_never_conflates_replay_and_live_execution (test_agent_evals_2.AgentEvaluation2Tests.test_tier_status_never_conflates_replay_and_live_execution) ... ok\ntest_generated_output_hand_edit_blocks_check (test_authoring_harness.AuthoringHarnessTests.test_generated_output_hand_edit_blocks_check) ... ok\ntest_prepare_check_close_valid_project (test_authoring_harness.AuthoringHarnessTests.test_prepare_check_close_valid_project) ... ok\ntest_wrong_authority_edit_blocks_route (test_authoring_harness.AuthoringHarnessTests.test_wrong_authority_edit_blocks_route) ... ok\ntest_allowed_layout_and_digest_only_project_change (test_change_scope.AgentChangeScopeTests.test_allowed_layout_and_digest_only_project_change) ... ok\ntest_generated_output_edit_is_detected_and_schema_valid (test_change_scope.AgentChangeScopeTests.test_generated_output_edit_is_detected_and_schema_valid) ... ok\ntest_symlink_fails_closed (test_change_scope.AgentChangeScopeTests.test_symlink_fails_closed) ... ok\ntest_wrong_authority_and_non_digest_project_change_fail (test_change_scope.AgentChangeScopeTests.test_wrong_authority_and_non_digest_project_change_fail) ... ok\ntest_diagnostic_serialization_is_schema_valid_and_stable (test_diagnostics.AgentDiagnosticContractTests.test_diagnostic_serialization_is_schema_valid_and_stable) ... ok\ntest_registry_contains_complete_p0_set_and_valid_metadata (test_diagnostics.AgentDiagnosticContractTests.test_registry_contains_complete_p0_set_and_valid_metadata) ... ok\ntest_registry_metadata_cannot_be_contradicted (test_diagnostics.AgentDiagnosticContractTests.test_registry_metadata_cannot_be_contradicted) ... ok\ntest_rich_diagnostic_round_trip_does_not_gain_legacy_evidence (test_diagnostics.AgentDiagnosticContractTests.test_rich_diagnostic_round_trip_does_not_gain_legacy_evidence) ... ok\ntest_all_recommended_diagnostics_are_accepted_by_an_existing_route (test_route_execution_metadata.RouteExecutionMetadataTests.test_all_recommended_diagnostics_are_accepted_by_an_existing_route) ... ok\ntest_canonical_authoring_routes_have_scope_and_remediation_metadata (test_route_execution_metadata.RouteExecutionMetadataTests.test_canonical_authoring_routes_have_scope_and_remediation_metadata) ... ok\ntest_task_packets_expose_active_child_scope (test_route_execution_metadata.RouteExecutionMetadataTests.test_task_packets_expose_active_child_scope) ... ok\ntest_blocking_diagnostic_prevents_closure (test_run_record.AgentRunRecordTests.test_blocking_diagnostic_prevents_closure) ... ok\ntest_closed_record_is_schema_valid_and_deterministic (test_run_record.AgentRunRecordTests.test_closed_record_is_schema_valid_and_deterministic) ... ok\ntest_stalled_and_oscillating_state_detection (test_run_record.AgentRunRecordTests.test_stalled_and_oscillating_state_detection) ... ok\n\n----------------------------------------------------------------------\nRan 21 tests in 27.951s\n\nOK\n",
+        "stdoutTail": "",
+        "valid": true
+      },
+      "id": "P2-AGENT-TESTS",
+      "status": "PASS",
+      "summary": "Diagnostic, change-scope, harness, run-record, route metadata, and Tier truth tests pass.",
+      "valid": true
+    },
+    {
+      "command": {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "tools/run_agent_evals_2.py",
+          "--results",
+          "/tmp/aixem-agent-eval2-a-hvte5940/results"
+        ],
+        "durationSeconds": 9.842429,
+        "label": "Agent Evaluation 2 Tier A run 1",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "A001: pass\nA002: pass\nA003: pass\nA004: pass\nA005: pass\nA006: pass\nA007: pass\nA008: pass\nA009: pass\nA010: pass\nA011: pass\nA012: pass\n",
+        "stdoutTail": "{\n  \"tierA\": {\n    \"cases\": 12,\n    \"failed\": 0,\n    \"passed\": 12\n  },\n  \"tierBExecuted\": false,\n  \"valid\": true\n}\n",
+        "valid": true
+      },
+      "id": "P2-EVAL-A-RUN-1",
+      "status": "PASS",
+      "summary": "A001-A012 deterministic harness/replay completes on the first isolated run.",
+      "valid": true
+    },
+    {
+      "command": {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "tools/run_agent_evals_2.py",
+          "--results",
+          "/tmp/aixem-agent-eval2-b-59eft_fq/results"
+        ],
+        "durationSeconds": 9.515965,
+        "label": "Agent Evaluation 2 Tier A run 2",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "A001: pass\nA002: pass\nA003: pass\nA004: pass\nA005: pass\nA006: pass\nA007: pass\nA008: pass\nA009: pass\nA010: pass\nA011: pass\nA012: pass\n",
+        "stdoutTail": "{\n  \"tierA\": {\n    \"cases\": 12,\n    \"failed\": 0,\n    \"passed\": 12\n  },\n  \"tierBExecuted\": false,\n  \"valid\": true\n}\n",
+        "valid": true
+      },
+      "id": "P2-EVAL-A-RUN-2",
+      "status": "PASS",
+      "summary": "A001-A012 deterministic harness/replay completes on the second isolated run.",
+      "valid": true
+    },
+    {
+      "details": {
+        "changed": [],
+        "files": 27,
+        "valid": true
+      },
+      "id": "P2-EVAL-DETERMINISM",
+      "status": "PASS",
+      "summary": "Two complete Tier A result trees are byte-identical.",
+      "valid": true
+    },
+    {
+      "details": {
+        "errors": [],
+        "runRecords": 12,
+        "tierASummary": {
+          "cases": 12,
+          "failed": 0,
+          "passed": 12
+        },
+        "tierBExecuted": false,
+        "valid": true
+      },
+      "id": "P2-RUN-CLOSURE",
+      "status": "PASS",
+      "summary": "All 12 run records close with zero blocking/scope/generated edits and deterministic rendering.",
+      "valid": true
+    },
+    {
+      "command": {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "tools/run_agent_evals_2.py",
+          "--tier-b-command",
+          "external-agent-placeholder"
+        ],
+        "durationSeconds": 3.738038,
+        "label": "Tier B bundled-fixture refusal",
+        "returnCode": 2,
+        "status": "PASS",
+        "stderrTail": "ERROR: Tier B requires a separately supplied cold-start corpus with hidden completed solutions; bundled fixtures are Tier A only.\n",
+        "stdoutTail": "",
+        "valid": true
+      },
+      "id": "P2-TIER-B-TRUTH",
+      "status": "PASS",
+      "summary": "Bundled completed fixtures cannot be mislabeled as Tier B cold-start execution.",
+      "valid": true
+    }
+  ],
+  "documentLinkage": {
+    "artifactDeclarationsChecked": null,
+    "documents": 130,
+    "errors": [],
+    "normativeDocuments": 87,
+    "requirements": 208,
+    "routes": 15,
+    "silentGaps": 0,
+    "sitePages": 151,
+    "valid": true
+  },
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "pass": 2,
+  "release": "AIXEM-SRP-0.5.5-2026-08-11",
+  "schema": "https://schemas.aixem.org/validation/agent-authoring-verification-pass/1",
+  "status": "PASS",
+  "title": "Repair Loop and Scope Behavior",
+  "valid": true
+}

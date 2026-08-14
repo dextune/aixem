@@ -1,0 +1,40 @@
+{
+  "durationSeconds": 2.13446,
+  "errors": [],
+  "executionMode": "isolated-test-module-processes",
+  "failedModules": 0,
+  "failures": [],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "moduleCount": 1,
+  "modules": [
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_agent_evals_2"
+      ],
+      "durationSeconds": 2.134229,
+      "module": "tests.agent.test_agent_evals_2",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_manifest_contains_exact_a001_a012_inventory (tests.agent.test_agent_evals_2.AgentEvaluation2Tests.test_manifest_contains_exact_a001_a012_inventory) ... ok\ntest_runner_rejects_live_mode_without_separate_cold_start_corpus (tests.agent.test_agent_evals_2.AgentEvaluation2Tests.test_runner_rejects_live_mode_without_separate_cold_start_corpus) ... ok\ntest_tier_a_results_are_complete_and_pass (tests.agent.test_agent_evals_2.AgentEvaluation2Tests.test_tier_a_results_are_complete_and_pass) ... ok\ntest_tier_status_never_conflates_replay_and_live_execution (tests.agent.test_agent_evals_2.AgentEvaluation2Tests.test_tier_status_never_conflates_replay_and_live_execution) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 1.510s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 4,
+      "valid": true
+    }
+  ],
+  "passedModules": 1,
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/test-run-shard/1",
+  "shard": {
+    "count": 29,
+    "index": 0,
+    "totalDiscoveredModules": 29
+  },
+  "skipped": [],
+  "successful": true,
+  "testsRun": 4
+}

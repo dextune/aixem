@@ -1,0 +1,68 @@
+{
+  "formatVersion": "1.0",
+  "project": {
+    "applicationProfile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "description": "Generated only to exercise the existing production renderer.",
+    "features": [
+      "component.graphics@1",
+      "explicit.layout@1",
+      "grid-snap@1"
+    ],
+    "id": "conformance:b005",
+    "layout": {
+      "digest": "sha256:95530f6ac7abfdfe2d4afb574dfd19eae9613b9dbfb60fb9866362e435bb1e6d",
+      "id": "corpus_b005-layout",
+      "mediaType": "application/vnd.aixem.layout+json",
+      "path": "corpus.aixlayout.json",
+      "version": "1.0"
+    },
+    "libraries": [
+      {
+        "digest": "sha256:526db5f472beecb832c6ec400055c7db03edbd8d19905293c3c7a4d662796b7e",
+        "id": "conformance:b005-library",
+        "mediaType": "application/vnd.aixem.library+json",
+        "path": "libraries/corpus.aixlib.json",
+        "version": "1.0.0"
+      }
+    ],
+    "metadata": {
+      "corpusCase": "B005",
+      "syntheticWrapper": true
+    },
+    "outputs": [
+      {
+        "mediaType": "image/svg+xml",
+        "path": "render/drawing.svg",
+        "role": "drawing-svg"
+      },
+      {
+        "mediaType": "application/json",
+        "path": "render/resolved-scene.json",
+        "role": "resolved-scene"
+      }
+    ],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-11",
+      "license": "CC0-1.0"
+    },
+    "renderPolicy": {
+      "backend": "svg",
+      "defaultVariantPolicy": "library-default",
+      "fontPolicy": "system-fallback",
+      "purpose": "primary-diagram",
+      "remoteAssets": "deny",
+      "unsupportedRequiredFeature": "reject"
+    },
+    "source": {
+      "digest": "sha256:72018ffce812de8f602d4525d70d09ead6b3348a35f180456f3a8c4ac4f7aeb4",
+      "id": "corpus_b005",
+      "mediaType": "application/vnd.aixem+text",
+      "path": "corpus.aixem",
+      "version": "1.0"
+    },
+    "status": "controlled",
+    "title": "B005 Dimensioned 2D outline conformance project"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/aixproj/1"
+}

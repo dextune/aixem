@@ -1,0 +1,57 @@
+{
+  "artifacts": [
+    {
+      "bytes": 71478,
+      "digest": "sha256:cbf6775048b06eeb120530abece8148a73e0b0bebdf493f5cfc7eee9708d8080",
+      "mediaType": "image/svg+xml",
+      "path": "drawing.svg",
+      "role": "drawing-svg"
+    },
+    {
+      "bytes": 35525,
+      "digest": "sha256:ebdd9d963765ff7b771683ead96e209ed7f0ef8cb7d7d21c12f4daa84decdd0a",
+      "mediaType": "application/json",
+      "path": "resolved-scene.json",
+      "role": "resolved-scene"
+    },
+    {
+      "bytes": 71783,
+      "digest": "sha256:b7ec98bae07a518582ee4e3c34e7777bca3c55d0f2d36bb0bdd4b794c29b46f0",
+      "mediaType": "application/json",
+      "path": "viewer-model.json",
+      "role": "viewer-model"
+    },
+    {
+      "bytes": 170189,
+      "digest": "sha256:0dc8b1bff117fce0af12970251020812de3c16fb500700a97ffdf58f3af4abbf",
+      "mediaType": "text/html",
+      "path": "viewer.html",
+      "role": "standalone-viewer"
+    },
+    {
+      "bytes": 171727,
+      "digest": "sha256:e7beb9ef7f2e7291bb35e225cb9305b68dc1881f5640ab155e25135ab187aa22",
+      "mediaType": "text/html",
+      "path": "workbench.html",
+      "role": "engineering-workbench"
+    }
+  ],
+  "generatedAt": "2026-08-10T12:00:00Z",
+  "project": {
+    "id": "demo.electronics:grid-controller",
+    "layoutDigest": "sha256:683e43c78b94ee7cb105fdc4e1ae8b046a26d450981f98be4f507d401494cdb0",
+    "manifestDigest": "sha256:17e9e8f067cb5e0277a6d362a1f975e1589da6ea7238f1940023e34d81bf0e98",
+    "sourceDigest": "sha256:b06e6963859915a5c21945be212899b6280da9ddd076c3dec49ef1d99d2507d6"
+  },
+  "release": "AIXEM-SRP-0.5.5-2026-08-11",
+  "renderer": {
+    "id": "aixem-grid-schematic-reference-renderer",
+    "version": "0.5.1"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/render-manifest/1",
+  "status": "pass",
+  "styleProfile": {
+    "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+    "id": "aixem.schematic.grid-light"
+  }
+}

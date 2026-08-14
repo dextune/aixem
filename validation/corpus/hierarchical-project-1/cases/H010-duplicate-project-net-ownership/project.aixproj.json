@@ -1,0 +1,136 @@
+{
+  "formatVersion": "2.0",
+  "project": {
+    "applicationProfile": "aixem.schematic.multisheet@1",
+    "description": "Hierarchical conformance case H010: Duplicate project net ownership",
+    "features": [
+      "component.graphics@1",
+      "explicit.layout@2",
+      "hierarchical.interface@1",
+      "project-net@1",
+      "deterministic-project-routing@1"
+    ],
+    "id": "hierarchical:h010",
+    "libraries": [
+      {
+        "digest": "sha256:d6f65cd2d99d51e7a0eeb9ca230ea2207936a84e90bcbe65e7bc3561d393f9b6",
+        "id": "hierarchical:reference-library",
+        "mediaType": "application/vnd.aixem.library+json",
+        "path": "libraries/authoring.aixlib.json",
+        "version": "1.0.0"
+      }
+    ],
+    "metadata": {
+      "case": "H010",
+      "corpus": "hierarchical-project-1",
+      "geometryCreatesConnectivity": false,
+      "layersAreSheets": false
+    },
+    "outputs": [
+      {
+        "mediaType": "image/svg+xml",
+        "path": "render/project-overview.svg",
+        "role": "project-overview-svg"
+      },
+      {
+        "mediaType": "image/svg+xml",
+        "path": "render/project-composite.svg",
+        "role": "project-composite-svg"
+      },
+      {
+        "mediaType": "application/json",
+        "path": "render/resolved-project-scene.json",
+        "role": "resolved-project-scene"
+      },
+      {
+        "mediaType": "text/html",
+        "path": "render/workbench.html",
+        "role": "engineering-workbench"
+      }
+    ],
+    "projectNets": [
+      {
+        "id": "one",
+        "members": [
+          {
+            "port": "VCC",
+            "sheet": "power"
+          },
+          {
+            "port": "VCC",
+            "sheet": "control"
+          }
+        ]
+      },
+      {
+        "id": "two",
+        "members": [
+          {
+            "port": "VCC",
+            "sheet": "power"
+          },
+          {
+            "port": "GND",
+            "sheet": "control"
+          }
+        ]
+      }
+    ],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-11",
+      "license": "CC0-1.0"
+    },
+    "renderPolicy": {
+      "backend": "svg",
+      "defaultVariantPolicy": "library-default",
+      "fontPolicy": "system-fallback",
+      "purpose": "primary-diagram",
+      "remoteAssets": "deny",
+      "unsupportedRequiredFeature": "reject"
+    },
+    "sheets": [
+      {
+        "id": "power",
+        "layout": {
+          "digest": "sha256:110fa4dd2adc4d034928a67d50d6d433f7491070354135688a497a86a6911e93",
+          "id": "h010-duplicate-project-net-ownership:power-layout",
+          "mediaType": "application/json",
+          "path": "layouts/power.aixlayout.json",
+          "version": "2.0"
+        },
+        "order": 10,
+        "source": {
+          "digest": "sha256:43e2b6d47a88d7a50c9ff44eb54a72a93a2fb749f03e32d0a824b38f6bba5c21",
+          "id": "h010-duplicate-project-net-ownership:power",
+          "mediaType": "text/x-aixem",
+          "path": "circuits/power.aixem",
+          "version": "1.0"
+        },
+        "title": "Power"
+      },
+      {
+        "id": "control",
+        "layout": {
+          "digest": "sha256:1549bc99f8885a7303b32d822dada6beb177b31b495247e720aedfd6f9c67724",
+          "id": "h010-duplicate-project-net-ownership:control-layout",
+          "mediaType": "application/json",
+          "path": "layouts/control.aixlayout.json",
+          "version": "2.0"
+        },
+        "order": 20,
+        "source": {
+          "digest": "sha256:b206dad61fffdd7d6e8f58e95f403a7d1f739b9bd18fabae3402c892c3c6acef",
+          "id": "h010-duplicate-project-net-ownership:control",
+          "mediaType": "text/x-aixem",
+          "path": "circuits/control.aixem",
+          "version": "1.0"
+        },
+        "title": "Control"
+      }
+    ],
+    "status": "example",
+    "title": "Duplicate project net ownership"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/aixproj/2"
+}

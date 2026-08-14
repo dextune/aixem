@@ -1,0 +1,60 @@
+{
+  "card": {
+    "aliases": [
+      "schematic presentation profile",
+      "visual profile",
+      "drawing presentation"
+    ],
+    "appliesTo": [
+      "schematic-presentation-profile"
+    ],
+    "domain": "specifications",
+    "estimatedReadBytes": 7688,
+    "id": "AIXEM-SPEC-VISUAL-PROFILE-001",
+    "inputs": [],
+    "keywords": [
+      "Schematic Presentation Profile 1",
+      "change-architecture",
+      "drawing presentation",
+      "inspect-artifact",
+      "schematic presentation profile",
+      "visual profile"
+    ],
+    "kind": "profile",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/specifications/schematic/visual-profile.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:ad17fd56e9a7e681bdeafded504868e730f3f7ca7bc8826ee9b78bb7bde38ed0"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SCHEM-VISUAL-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-UI-0004",
+        "level": "must",
+        "text": "**MUST.** The schematic presentation profile MUST use local or embedded presentation resources and MUST NOT require remote fonts, scripts, styles, or images."
+      },
+      {
+        "id": "AIXEM-REQ-UI-0005",
+        "level": "must",
+        "text": "**MUST.** Schematic evidence MUST remain visually inspectable at declared desktop and narrow review sizes without changing authoritative geometry or connectivity."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SPEC-VISUAL-PROFILE-001",
+        "path": "docs/specifications/schematic/visual-profile.md"
+      }
+    ],
+    "summary": "Defines AIXEM schematic drawing presentation tokens, local-resource rules, readability cues, and the boundary that prevents presentation from changing circuit authority.",
+    "title": "Schematic Presentation Profile 1"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

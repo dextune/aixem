@@ -1,0 +1,15 @@
+{
+  "canonicalHashes": {},
+  "checks": [],
+  "deterministic": true,
+  "diagnosticMatched": true,
+  "error": "PROJECT_HIERARCHY_CYCLE: control -> power -> control -> control",
+  "expected": "fail",
+  "expectedDiagnostic": "PROJECT_HIERARCHY_CYCLE",
+  "id": "N012",
+  "observed": "fail",
+  "projectDigest": "sha256:462f6ae335690d8897fa68a60207ecd409f5a989231f94252dccd76acfcbfd3d",
+  "repeatCount": 0,
+  "status": "pass",
+  "title": "Hierarchy cycle"
+}

@@ -1,0 +1,12 @@
+{
+  "assertions": [
+    "composite-svg",
+    "full-leaf-scenes",
+    "sheet-qualified-dom"
+  ],
+  "expected": "pass",
+  "expectedDiagnostic": null,
+  "id": "H008",
+  "project": "project.aixproj.json",
+  "title": "Composite View"
+}

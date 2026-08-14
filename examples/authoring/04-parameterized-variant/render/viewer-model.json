@@ -1,0 +1,433 @@
+{
+  "capabilities": {
+    "composite": false,
+    "diagnostics": true,
+    "hierarchy": false,
+    "interfacePorts": false,
+    "offline": true,
+    "overview": false,
+    "projectNets": false,
+    "qualifiedSearch": true,
+    "readOnly": true,
+    "sheet": true,
+    "sheetScopedLayers": true,
+    "viewport": true
+  },
+  "diagnostics": [
+    {
+      "code": "VIEWER-READONLY-001",
+      "message": "Reference Viewer runtime state is derived and read-only.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-QID-001",
+      "message": "4 qualified objects indexed without ambiguity.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-ASSET-001",
+      "message": "The self-contained Viewer requires no remote presentation assets.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "GRID-001",
+      "message": "2/2 placements satisfy the declared snap grid.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "ROUTE-001",
+      "message": "3 orthogonal route segments are resolved.",
+      "severity": "info",
+      "status": "PASS"
+    }
+  ],
+  "domContract": "1",
+  "formatVersion": "1.0",
+  "hierarchy": [
+    {
+      "children": [],
+      "depth": 0,
+      "id": "main",
+      "order": 0,
+      "parent": null,
+      "qid": "sheet:main",
+      "title": "Parameterized Variant Authoring"
+    }
+  ],
+  "initialState": {
+    "activeNavigatorCategory": "entity",
+    "activeSheet": "main",
+    "mode": "sheet",
+    "searchQuery": "",
+    "selection": null,
+    "visibleLayersBySheet": {
+      "main": {
+        "annotation": true,
+        "connections": true,
+        "symbols": true
+      }
+    }
+  },
+  "objects": {
+    "entity:main:R1": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "R1 · 47k",
+      "nativeId": "R1",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:main:R1"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Entity ID",
+          "value": "R1"
+        },
+        {
+          "label": "Reference",
+          "value": "R1"
+        },
+        {
+          "label": "Value",
+          "value": "47k"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:resistor"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:resistor"
+        },
+        {
+          "label": "Variant",
+          "value": "ansi"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"R1\",\"layer\":\"symbols\",\"parameters\":{\"body-length\":30},\"x\":42.5,\"y\":50}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{\"body-height\":7.5,\"body-length\":30,\"lead-length\":5}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[22.5,50.0],\"2\":[62.5,50.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:700cd3cb1b49f369edcfb670f5f90e07b9d3181b14b97d3cae22305bba3dfd5f"
+        }
+      ],
+      "qid": "entity:main:R1",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "entity:main:r1 r1 · 47k r1 main r1 47k authoring:resistor authoring:resistor",
+      "sheet": "main"
+    },
+    "entity:main:R2": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "R2 · 100k",
+      "nativeId": "R2",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:main:R2"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Entity ID",
+          "value": "R2"
+        },
+        {
+          "label": "Reference",
+          "value": "R2"
+        },
+        {
+          "label": "Value",
+          "value": "100k"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:resistor"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:resistor"
+        },
+        {
+          "label": "Variant",
+          "value": "iec"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"R2\",\"layer\":\"symbols\",\"parameters\":{\"body-height\":10},\"variant\":\"iec\",\"x\":100,\"y\":50}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{\"body-height\":10,\"body-length\":20,\"lead-length\":5}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[85.0,50.0],\"2\":[115.0,50.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:700cd3cb1b49f369edcfb670f5f90e07b9d3181b14b97d3cae22305bba3dfd5f"
+        }
+      ],
+      "qid": "entity:main:R2",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "entity:main:r2 r2 · 100k r2 main r2 100k authoring:resistor authoring:resistor",
+      "sheet": "main"
+    },
+    "local-net:main:series": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "series",
+      "nativeId": "series",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:main:series"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Local net ID",
+          "value": "series"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"R1.2\",\"R2.1\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "none"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:main:series",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "local-net:main:series series series main [\"r1.2\",\"r2.1\"]",
+      "sheet": "main"
+    },
+    "sheet:main": {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Parameterized Variant Authoring",
+      "nativeId": "main",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "sheet:main"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Title",
+          "value": "Parameterized Variant Authoring"
+        },
+        {
+          "label": "Width",
+          "value": "160"
+        },
+        {
+          "label": "Height",
+          "value": "100"
+        },
+        {
+          "label": "Unit",
+          "value": "mm"
+        }
+      ],
+      "qid": "sheet:main",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "sheet:main parameterized variant authoring main main authoring:parameterized_variant parameterized variant authoring",
+      "sheet": "main"
+    }
+  },
+  "project": {
+    "id": "authoring:parameterized_variant",
+    "multiSheet": false,
+    "profile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "schema": "https://schemas.aixem.org/component-graphics/aixproj/1",
+    "title": "Parameterized Variant Authoring"
+  },
+  "provenance": {
+    "authority": {
+      "presentation": ".aixlayout",
+      "semantics": ".aixem",
+      "viewerState": "derived-non-authoritative"
+    },
+    "generatedAt": "2026-08-10T00:00:00Z",
+    "hashes": {
+      "layout": "sha256:7093ff0a2996c5bfb6128c86a1cd168ff596aec3b9abe0a47c86eb470aaef2be",
+      "libraries": [
+        "sha256:62169d9143fec05f2960eb39fe1aad3903a0035401d6384b8174f2fdc1440870"
+      ],
+      "source": "sha256:3476b9957944954a101972c9860833b753843066fad6af92cbab2d34bf325fb6",
+      "symbolAssets": [
+        "sha256:700cd3cb1b49f369edcfb670f5f90e07b9d3181b14b97d3cae22305bba3dfd5f"
+      ]
+    },
+    "renderer": {
+      "id": "aixem-grid-schematic-reference-renderer",
+      "version": "0.5.1"
+    },
+    "resolvedSceneSchema": "https://schemas.aixem.org/component-graphics/resolved-scene/1",
+    "styleProfile": {
+      "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+      "id": "aixem.schematic.grid-light",
+      "path": "aixem-grid-schematic-style-1.aixstyle.json"
+    }
+  },
+  "release": "AIXEM-SRP-0.5.5-2026-08-11",
+  "schema": "https://schemas.aixem.org/viewer/viewer-model/1",
+  "searchIndex": [
+    {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Parameterized Variant Authoring",
+      "qid": "sheet:main",
+      "searchText": "sheet:main parameterized variant authoring main main authoring:parameterized_variant parameterized variant authoring",
+      "sheet": "main"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "R1 · 47k",
+      "qid": "entity:main:R1",
+      "searchText": "entity:main:r1 r1 · 47k r1 main r1 47k authoring:resistor authoring:resistor",
+      "sheet": "main"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "R2 · 100k",
+      "qid": "entity:main:R2",
+      "searchText": "entity:main:r2 r2 · 100k r2 main r2 100k authoring:resistor authoring:resistor",
+      "sheet": "main"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "series",
+      "qid": "local-net:main:series",
+      "searchText": "local-net:main:series series series main [\"r1.2\",\"r2.1\"]",
+      "sheet": "main"
+    }
+  ],
+  "sheets": [
+    {
+      "height": 100.0,
+      "id": "main",
+      "layers": [
+        {
+          "defaultVisible": true,
+          "id": "connections",
+          "locked": false,
+          "order": 10,
+          "printable": true,
+          "purpose": "semantic net routes",
+          "qualifiedId": "layer:main:connections",
+          "sheet": "main"
+        },
+        {
+          "defaultVisible": true,
+          "id": "symbols",
+          "locked": false,
+          "order": 20,
+          "printable": true,
+          "purpose": "component symbols",
+          "qualifiedId": "layer:main:symbols",
+          "sheet": "main"
+        },
+        {
+          "defaultVisible": true,
+          "id": "annotation",
+          "locked": false,
+          "order": 30,
+          "printable": true,
+          "purpose": "notes",
+          "qualifiedId": "layer:main:annotation",
+          "sheet": "main"
+        }
+      ],
+      "order": 0,
+      "parent": null,
+      "qid": "sheet:main",
+      "title": "Parameterized Variant Authoring",
+      "unit": "mm",
+      "width": 160.0
+    }
+  ],
+  "statistics": {
+    "entities": 2,
+    "interfacePorts": 0,
+    "localNets": 1,
+    "projectNets": 0,
+    "qualifiedObjects": 4,
+    "sheets": 1
+  },
+  "viewerContract": "aixem.reference-viewer@1",
+  "views": [
+    {
+      "available": true,
+      "canvases": [
+        {
+          "height": 100.0,
+          "key": "sheet:main",
+          "sheet": "main",
+          "unit": "mm",
+          "width": 160.0
+        }
+      ],
+      "id": "sheet",
+      "label": "Sheet"
+    }
+  ]
+}

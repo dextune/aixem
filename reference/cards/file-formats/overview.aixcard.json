@@ -1,0 +1,54 @@
+{
+  "card": {
+    "aliases": [
+      "file formats",
+      "AIXEM files",
+      "extensions"
+    ],
+    "appliesTo": [
+      "format-navigation"
+    ],
+    "domain": "file-formats",
+    "estimatedReadBytes": 4280,
+    "id": "AIXEM-FORMAT-INDEX-001",
+    "inputs": [],
+    "keywords": [
+      "AIXEM files",
+      "File Formats",
+      "create-schematic",
+      "create-symbol",
+      "extensions",
+      "file formats",
+      "inspect-artifact"
+    ],
+    "kind": "index",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/file-formats/overview.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:5cd5b996d29418c7cd5b18400c6ebe1c27ca94a76a29b50dcf6227c201b6a20d"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 500,
+    "readNext": [],
+    "rules": [
+      {
+        "id": "AIXEM-FORMAT-INDEX-001.read",
+        "level": "should",
+        "text": "A practical map of semantic source, component libraries, symbol assets, explicit layout, project locks, and style profiles."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-FORMAT-INDEX-001",
+        "path": "docs/file-formats/index.md"
+      }
+    ],
+    "summary": "A practical map of semantic source, component libraries, symbol assets, explicit layout, project locks, and style profiles.",
+    "title": "File Formats"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

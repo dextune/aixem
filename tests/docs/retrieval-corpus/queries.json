@@ -1,0 +1,135 @@
+{
+  "cases": [
+    {
+      "expectedFallback": false,
+      "expectedRoute": "create-schematic",
+      "id": "route-001",
+      "query": "create schematic"
+    },
+    {
+      "expectedFallback": false,
+      "expectedRoute": "create-schematic",
+      "id": "route-002",
+      "query": "draw circuit"
+    },
+    {
+      "expectedFallback": false,
+      "expectedRoute": "create-symbol",
+      "id": "route-003",
+      "query": "create symbol"
+    },
+    {
+      "expectedFallback": false,
+      "expectedRoute": "route-nets",
+      "id": "route-004",
+      "query": "orthogonal routing"
+    },
+    {
+      "expectedFallback": false,
+      "expectedRoute": "validate-project",
+      "id": "route-005",
+      "query": "validate project"
+    },
+    {
+      "expectedFallback": false,
+      "expectedRoute": "change-architecture",
+      "id": "route-006",
+      "query": "change architecture"
+    },
+    {
+      "expectedFallback": false,
+      "expectedRoute": "inspect-artifact",
+      "id": "route-007",
+      "query": "find owner"
+    },
+    {
+      "expectedFallback": false,
+      "expectedRoute": "migrate-baseline",
+      "id": "route-008",
+      "query": "migrate 0.4"
+    },
+    {
+      "expectedFallback": false,
+      "expectedRoute": "build-documentation",
+      "id": "route-009",
+      "query": "build documentation"
+    },
+    {
+      "expectedFallback": false,
+      "expectedRoute": "publish-release",
+      "id": "route-010",
+      "query": "package zip"
+    },
+    {
+      "expectedFallback": false,
+      "expectedRoute": "create-symbol",
+      "id": "route-011",
+      "query": "How should a component symbol pin be aligned to the grid?"
+    },
+    {
+      "expectedDocuments": [
+        "AIXEM-ROUTE-CROSSING-001"
+      ],
+      "expectedFallback": true,
+      "id": "route-012",
+      "query": "What is the rule for visual crossings and semantic junctions?"
+    },
+    {
+      "expectedFallback": false,
+      "expectedRoute": "validate-symbol-expressiveness",
+      "id": "route-013",
+      "query": "validate symbol expressiveness"
+    },
+    {
+      "expectedFallback": false,
+      "expectedRoute": "validate-symbol-expressiveness",
+      "id": "route-014",
+      "query": "find proven symbol pattern"
+    },
+    {
+      "expectedFallback": false,
+      "expectedRoute": "validate-symbol-expressiveness",
+      "id": "route-015",
+      "query": "check symbol corpus"
+    },
+    {
+      "expectedFallback": false,
+      "expectedRoute": "compose-project",
+      "id": "route-016",
+      "query": "compose project"
+    },
+    {
+      "expectedFallback": false,
+      "expectedRoute": "compose-project",
+      "id": "route-017",
+      "query": "connect sheets with project nets"
+    },
+    {
+      "expectedFallback": false,
+      "expectedRoute": "route-project-nets",
+      "id": "route-018",
+      "query": "route project nets"
+    },
+    {
+      "expectedFallback": false,
+      "expectedRoute": "route-project-nets",
+      "id": "route-019",
+      "query": "draw hierarchy wires"
+    },
+    {
+      "expectedFallback": false,
+      "expectedRoute": "inspect-viewer",
+      "id": "route-020",
+      "query": "inspect viewer"
+    },
+    {
+      "expectedFallback": false,
+      "expectedRoute": "render-review",
+      "id": "route-021",
+      "query": "render review"
+    }
+  ],
+  "formatVersion": "1.0",
+  "release": "AIXEM-SRP-0.5.4-2026-08-11",
+  "schema": "https://schemas.aixem.org/tests/retrieval-corpus/1"
+}

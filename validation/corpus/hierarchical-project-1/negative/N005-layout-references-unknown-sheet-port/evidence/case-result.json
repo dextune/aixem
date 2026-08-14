@@ -1,0 +1,15 @@
+{
+  "canonicalHashes": {},
+  "checks": [],
+  "deterministic": true,
+  "diagnosticMatched": true,
+  "error": "layout sheetPort references unknown semantic port UNKNOWN",
+  "expected": "fail",
+  "expectedDiagnostic": "layout sheetPort references unknown semantic port",
+  "id": "N005",
+  "observed": "fail",
+  "projectDigest": "sha256:a698d2b979882ff306dab2fdc05c63c23e3e850a245bfd67f3d8b681944a2e48",
+  "repeatCount": 0,
+  "status": "pass",
+  "title": "Layout references unknown sheet port"
+}

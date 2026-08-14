@@ -1,0 +1,117 @@
+{
+  "authority": "derived-navigation-only",
+  "budget": {
+    "max_bytes": 98304,
+    "max_depth": 3,
+    "max_documents": 7
+  },
+  "completion": [
+    "The nearest validated construction pattern is identified",
+    "The source passes the current symbol schema without speculative extensions",
+    "Component ports map totally to visible electrical symbol ports",
+    "Production SVG and resolved scene are deterministic and digest-bound",
+    "Visual review has no critical readability or connectivity defect",
+    "Graphical and semantic capability results are reported separately"
+  ],
+  "documents": [
+    {
+      "bytes": 9573,
+      "digest": "sha256:6bc2c1283a1e1ad254f7826459e780d8a41238d9707f35ec57a0319bed422e13",
+      "document": "AIXEM-CONF-SYMBOL-EXP-001",
+      "order": 1,
+      "path": "docs/conformance/symbol-expressiveness.md",
+      "purpose": "Establish the requested tier, mandatory gates, semantic boundary, and permitted claim.",
+      "required": true,
+      "section": "claim-levels"
+    },
+    {
+      "bytes": 4991,
+      "digest": "sha256:5631a52e460292845d8b3f46b206e7cfd0edf676c7a7a646c4939f83a17d1dad",
+      "document": "AIXEM-EXAMPLE-SYMBOL-CORPUS-001",
+      "order": 2,
+      "path": "docs/examples/symbol-expressiveness-corpus.md",
+      "purpose": "Select the nearest validated construction pattern without loading the full corpus.",
+      "required": true,
+      "section": "core-pattern-index"
+    },
+    {
+      "bytes": 10379,
+      "digest": "sha256:ed7e12ded56ddcc7ff3154ef967a0c780c8a6dbb7d9a4f5dcde732a8500b0e53",
+      "document": "AIXEM-SPEC-SYMBOL-DESIGN-001",
+      "order": 3,
+      "path": "docs/specifications/symbols/symbol-design-profile.md",
+      "purpose": "Preserve grid, lead, pitch, field, and grouping measurements.",
+      "required": true,
+      "section": "profile-values"
+    },
+    {
+      "bytes": 20640,
+      "digest": "sha256:2aa5c9a0fd8ede00355a470a080b6a19af3f94f9c205a4f29e2559607a192644",
+      "document": "AIXEM-SYMBOL-COOKBOOK-001",
+      "order": 4,
+      "path": "docs/symbols/symbol-authoring-cookbook.md",
+      "purpose": "Adapt the proven pattern to the actual component endpoint contract.",
+      "required": true,
+      "section": "recipe-selection"
+    },
+    {
+      "bytes": 9449,
+      "digest": "sha256:f4c18b855bce33e4d817f68544adf8d6236a934344031e65f5b06f2dbbf6b3f9",
+      "document": "AIXEM-SYMBOL-LINT-001",
+      "order": 5,
+      "path": "docs/symbols/symbol-lint.md",
+      "purpose": "Apply schema, binding, geometry, production-render, digest, and review checks.",
+      "required": true,
+      "section": "0-5-2-corpus-conformance-checks"
+    },
+    {
+      "bytes": 11782,
+      "digest": "sha256:8843908e7bb5164f14a9b9877163529b67c2765d29fcd6c8f440eb653b180152",
+      "document": "AIXEM-SPEC-RENDERER-001",
+      "order": 6,
+      "path": "docs/specifications/renderer/renderer-contract.md",
+      "purpose": "Confirm public resolution and determinism behavior before diagnosing a renderer or model gap.",
+      "required": true,
+      "section": "variant-selection"
+    },
+    {
+      "bytes": 3805,
+      "condition": "Read only for Static 2D Block Profile work.",
+      "digest": "sha256:0114dc81d80f847f42430a272a4c72eff136389fc90c138fc7d437f1715d5cd8",
+      "document": "AIXEM-CONF-B2D-001",
+      "order": 7,
+      "path": "docs/conformance/static-2d-block-profile.md",
+      "purpose": "Apply the separate static-block boundary when the target is a non-schematic CAD-style block.",
+      "required": false,
+      "section": "explicit-exclusions"
+    }
+  ],
+  "expectedInputs": [
+    "intended component and endpoint contract",
+    "target symbol class or existing .aixsym source",
+    "selected corpus tier or case"
+  ],
+  "expectedOutputs": [
+    "validated .aixsym source or classified gap report",
+    "production-render evidence and geometry signature",
+    "S-Core, S-Extended, MU, or B2D result as applicable"
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "id": "validate-symbol-expressiveness",
+  "intent": "validate-symbol-expressiveness",
+  "kind": "simple",
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/documentation/task-packet/1",
+  "source": "docs/_meta/routes/validate-symbol-expressiveness.yaml",
+  "sourceDigest": "sha256:6382749ffbe95591bfd352a8dbd0dda19fa20c24aed778f7dfc69a7a86afd61b",
+  "summary": "Find the nearest proven symbol pattern and run production-pipeline expressiveness conformance without speculative format growth",
+  "validators": [
+    "schematic.symbol_schema",
+    "schematic.symbol_design",
+    "schematic.authoring_binding",
+    "schematic.renderer_contract",
+    "docs.visual_review",
+    "docs.evidence"
+  ]
+}

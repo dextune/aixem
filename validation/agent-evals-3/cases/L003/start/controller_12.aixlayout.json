@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.0",
+  "layout": {
+    "annotations": [],
+    "connections": [],
+    "coordinateSystem": {
+      "angleDirection": "clockwise",
+      "angleUnit": "deg",
+      "grid": 2.5,
+      "unit": "mm",
+      "yAxis": "down"
+    },
+    "designId": "controller_12",
+    "id": "controller_12-layout",
+    "layers": [
+      {
+        "defaultVisible": true,
+        "id": "connections",
+        "locked": false,
+        "order": 10,
+        "printable": true,
+        "purpose": "semantic net routes"
+      },
+      {
+        "defaultVisible": true,
+        "id": "symbols",
+        "locked": false,
+        "order": 20,
+        "printable": true,
+        "purpose": "component symbols"
+      },
+      {
+        "defaultVisible": true,
+        "id": "annotation",
+        "locked": false,
+        "order": 30,
+        "printable": true,
+        "purpose": "notes"
+      }
+    ],
+    "metadata": {
+      "connectionAuthority": "semantic-source-only",
+      "routingMode": "orthogonal",
+      "styleProfile": "aixem.schematic.grid-light"
+    },
+    "placements": [
+      {
+        "entity": "UX12",
+        "layer": "symbols",
+        "x": 80,
+        "y": 40
+      }
+    ],
+    "purpose": "schematic-layout",
+    "sheet": {
+      "height": 100,
+      "margin": 10,
+      "titleBlock": {
+        "drawing": "controller_12-layout",
+        "revision": "A",
+        "sheet": "1/1",
+        "title": "Twelve-pin controller"
+      },
+      "width": 160
+    },
+    "styles": {
+      "note": {
+        "fill": "#1b4e8c",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.5,
+        "stroke": "none"
+      },
+      "signal": {
+        "fill": "none",
+        "stroke": "#24864a",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.65
+      }
+    }
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/aixlayout/1"
+}

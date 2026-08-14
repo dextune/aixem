@@ -1,0 +1,270 @@
+{
+  "authorityScopeReview": {
+    "collisions": {},
+    "errors": [],
+    "normativeScopes": 107,
+    "sharedAllowed": [
+      "architecture-decision"
+    ],
+    "valid": true
+  },
+  "currentReleaseCoherence": {
+    "checks": [
+      {
+        "detail": "expected current-release path docs/releases/0.5.9.md",
+        "id": "releaseNote",
+        "valid": true
+      },
+      {
+        "detail": "expected current-release path validation/releases/0.5.9/README.md",
+        "id": "validationIndex",
+        "valid": true
+      },
+      {
+        "detail": "expected current-release path planning/releases/0.5.9",
+        "id": "planningRecord",
+        "valid": true
+      },
+      {
+        "detail": "README.md must identify 0.5.9",
+        "id": "rootVersion:README.md",
+        "valid": true
+      },
+      {
+        "detail": "START_HERE.md must identify 0.5.9",
+        "id": "rootVersion:START_HERE.md",
+        "valid": true
+      },
+      {
+        "detail": "REFERENCE.md must identify 0.5.9",
+        "id": "rootVersion:REFERENCE.md",
+        "valid": true
+      },
+      {
+        "detail": "current release note must be the final release navigation item",
+        "id": "releaseNavigation",
+        "valid": true
+      },
+      {
+        "detail": "publish-release must not depend on historical release notes: []",
+        "id": "publishRouteCurrentState",
+        "valid": true
+      },
+      {
+        "detail": "active routes contain stale release-scoped paths: []",
+        "id": "routeReleasePaths",
+        "valid": true
+      },
+      {
+        "detail": "Agent Evaluation 3 operational evidence must identify AIXEM-SRP-0.5.9-2026-08-12: []",
+        "id": "agentEvaluationRepositoryRelease",
+        "valid": true
+      },
+      {
+        "detail": "release metadata must identify 0.5.9 and AIXEM-SRP-0.5.9-2026-08-12",
+        "id": "releaseMetadataVersion",
+        "valid": true
+      }
+    ],
+    "errors": [],
+    "release": "AIXEM-SRP-0.5.9-2026-08-12",
+    "valid": true,
+    "version": "0.5.9"
+  },
+  "errors": [],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "repositoryAreaCoverage": {
+    "errors": [],
+    "linked": 16,
+    "missing": [],
+    "referenceMap": "REFERENCE.md",
+    "targets": 16,
+    "valid": true
+  },
+  "rootLinkIntegrity": {
+    "errors": [],
+    "linksChecked": 129,
+    "rootDocuments": 8,
+    "valid": true
+  },
+  "rootReachability": {
+    "deepestDocuments": [
+      "validation/releases/0.5.0/migration.md",
+      "validation/releases/0.5.0/pass-01-canonicalization.md",
+      "validation/releases/0.5.0/pass-02-agent-compiler.md",
+      "validation/releases/0.5.0/pass-03-publication-and-conformance.md",
+      "validation/releases/0.5.1/agent-retrieval.md",
+      "validation/releases/0.5.1/authoring-visual-review.md",
+      "validation/releases/0.5.1/documentation-compiler.md",
+      "validation/releases/0.5.1/pass-01-authoring-contract-closure.md",
+      "validation/releases/0.5.1/pass-02-agent-usability-and-drawing-quality.md",
+      "validation/releases/0.5.1/pass-03-release-integrity-and-regression.md",
+      "validation/releases/0.5.1/release-integrity.md",
+      "validation/releases/0.5.1/requirement-traceability.md",
+      "validation/releases/0.5.2/implementation-matrix.md",
+      "validation/releases/0.5.2/multi-unit-capability.md",
+      "validation/releases/0.5.2/static-2d-block.md",
+      "validation/releases/0.5.2/symbol-expressiveness.md",
+      "validation/releases/0.5.3/implementation-matrix.md",
+      "validation/releases/0.5.3/pass-01-semantic-structural.md",
+      "validation/releases/0.5.3/pass-02-rendering-agent.md",
+      "validation/releases/0.5.3/pass-03-regression-claim-integrity.md",
+      "validation/releases/0.5.4/implementation-matrix.md",
+      "validation/releases/0.5.4/pass-01-contract-structure.md",
+      "validation/releases/0.5.4/pass-02-browser-security.md",
+      "validation/releases/0.5.4/pass-03-regression-determinism.md",
+      "validation/releases/0.5.5/implementation-matrix.md",
+      "validation/releases/0.5.5/pass-01-contract-authority.md",
+      "validation/releases/0.5.5/pass-02-repair-scope.md",
+      "validation/releases/0.5.5/pass-03-regression-evaluations.md",
+      "validation/releases/0.5.6/final-validation.md",
+      "validation/releases/0.5.6/implementation-matrix.md",
+      "validation/releases/0.5.6/implementation-status.md",
+      "validation/releases/0.5.7/final-validation.md",
+      "validation/releases/0.5.7/implementation-matrix.md",
+      "validation/releases/0.5.8.1/final-validation.md",
+      "validation/releases/0.5.8.1/implementation-matrix.md",
+      "validation/releases/0.5.8/final-validation.md",
+      "validation/releases/0.5.8/implementation-matrix.md"
+    ],
+    "errors": [],
+    "humanAuthored": 268,
+    "maxDepth": 4,
+    "primaryEntrypoint": "README.md",
+    "reachable": 268,
+    "unreachable": [],
+    "valid": true
+  },
+  "schema": "https://schemas.aixem.org/documentation/document-relationship-audit/1",
+  "sectionIndexCoverage": {
+    "errors": [],
+    "items": 141,
+    "linked": 141,
+    "records": [
+      {
+        "id": "home",
+        "index": "AIXEM-DOCS-HOME-001",
+        "items": 0,
+        "linked": 0,
+        "missing": []
+      },
+      {
+        "id": "getting-started",
+        "index": "AIXEM-START-INDEX-001",
+        "items": 3,
+        "linked": 3,
+        "missing": []
+      },
+      {
+        "id": "authoring",
+        "index": "AIXEM-AUTHORING-INDEX-001",
+        "items": 7,
+        "linked": 7,
+        "missing": []
+      },
+      {
+        "id": "authoring-guides",
+        "index": "AIXEM-AUTHORING-GUIDES-INDEX-001",
+        "items": 10,
+        "linked": 10,
+        "missing": []
+      },
+      {
+        "id": "concepts",
+        "index": "AIXEM-CONCEPT-INDEX-001",
+        "items": 8,
+        "linked": 8,
+        "missing": []
+      },
+      {
+        "id": "schematic",
+        "index": "AIXEM-SCHEM-INDEX-001",
+        "items": 6,
+        "linked": 6,
+        "missing": []
+      },
+      {
+        "id": "viewer",
+        "index": "AIXEM-SPEC-VIEWER-INDEX-001",
+        "items": 5,
+        "linked": 5,
+        "missing": []
+      },
+      {
+        "id": "symbols",
+        "index": "AIXEM-SYMBOL-INDEX-001",
+        "items": 7,
+        "linked": 7,
+        "missing": []
+      },
+      {
+        "id": "routing",
+        "index": "AIXEM-ROUTE-INDEX-001",
+        "items": 5,
+        "linked": 5,
+        "missing": []
+      },
+      {
+        "id": "specifications",
+        "index": "AIXEM-SPEC-INDEX-001",
+        "items": 30,
+        "linked": 30,
+        "missing": []
+      },
+      {
+        "id": "file-formats",
+        "index": "AIXEM-FORMAT-INDEX-001",
+        "items": 6,
+        "linked": 6,
+        "missing": []
+      },
+      {
+        "id": "agent",
+        "index": "AIXEM-AGENT-INDEX-001",
+        "items": 10,
+        "linked": 10,
+        "missing": []
+      },
+      {
+        "id": "architecture",
+        "index": "AIXEM-ARCH-INDEX-001",
+        "items": 10,
+        "linked": 10,
+        "missing": []
+      },
+      {
+        "id": "conformance",
+        "index": "AIXEM-CONF-INDEX-001",
+        "items": 12,
+        "linked": 12,
+        "missing": []
+      },
+      {
+        "id": "examples",
+        "index": "AIXEM-EXAMPLE-INDEX-001",
+        "items": 4,
+        "linked": 4,
+        "missing": []
+      },
+      {
+        "id": "governance",
+        "index": "AIXEM-GOV-INDEX-001",
+        "items": 6,
+        "linked": 6,
+        "missing": []
+      },
+      {
+        "id": "releases",
+        "index": "AIXEM-RELEASE-INDEX-001",
+        "items": 12,
+        "linked": 12,
+        "missing": []
+      }
+    ],
+    "sections": 17,
+    "valid": true
+  },
+  "valid": true
+}

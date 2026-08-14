@@ -1,0 +1,7 @@
+{
+  "case": "N007",
+  "expectedDiagnostic": "PROJECT_NET_UNKNOWN_SHEET",
+  "matched": true,
+  "observedError": "PROJECT_NET_UNKNOWN_SHEET: project net vcc_5v references missing",
+  "status": "pass"
+}

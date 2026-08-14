@@ -1,0 +1,12 @@
+aixem 1.0
+model two_pin_passive title="Two-pin passive"
+feature component.graphics@1 required=true
+feature explicit.layout@1 required=true
+
+component R1 type=authoring:resistor refdes=R1 value=10k
+component R2 type=authoring:resistor refdes=R2 value=22k
+
+net link = R1.2 R2.1
+
+noconn R1.1
+noconn R2.2

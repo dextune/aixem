@@ -1,0 +1,115 @@
+{
+  "compatibility": {
+    "aixlayout1Schema": "4f92e5e292a694aabfca922cc449f2f59a1a08e6465181a096a62b47b23bfca7",
+    "aixproj1Schema": "056932ff46d7b6928f3b01dba50403353bdfda8f4d28e8b7bf0d38ab1dd39a41",
+    "h001Composite": "dde1dbe458e1975b7468e291613d2fe3c3fee90535de5fd90f0c535e5e1e0d9d",
+    "h001Overview": "80f59f7d6102b0161d013098ac20f654b724a8eb9fd04b6dab533b5f24a755c8",
+    "h001ResolvedProjectScene": "9b54a68bdff50a8b2d592232d3daad8c3f59c55f87bfad02115da5e744848277",
+    "legacyDrawingSvg": "cbf6775048b06eeb120530abece8148a73e0b0bebdf493f5cfc7eee9708d8080",
+    "legacyResolvedScene": "d72ad96f1778d459e42933aee2ec1c381158305a9f5015031d93a53f016dad22"
+  },
+  "cycles": [
+    {
+      "checks": 12,
+      "cycle": 1,
+      "evidence": "validation/evidence/0.5.8/verification-runs/run-01/summary.json",
+      "status": "PASS"
+    },
+    {
+      "checks": 12,
+      "cycle": 2,
+      "evidence": "validation/evidence/0.5.8/verification-runs/run-02/summary.json",
+      "status": "PASS"
+    },
+    {
+      "checks": 12,
+      "cycle": 3,
+      "evidence": "validation/evidence/0.5.8/verification-runs/run-03/summary.json",
+      "status": "PASS"
+    },
+    {
+      "checks": 12,
+      "cycle": 4,
+      "evidence": "validation/evidence/0.5.8/verification-runs/run-04/summary.json",
+      "status": "PASS"
+    },
+    {
+      "checks": 12,
+      "cycle": 5,
+      "evidence": "validation/evidence/0.5.8/verification-runs/run-05/summary.json",
+      "status": "PASS"
+    }
+  ],
+  "engineeringImplementationComplete": true,
+  "engineeringVerificationPasses": 5,
+  "evidence": {
+    "agentEval2": "validation/agent-evals-2/results/tier-a-results.json",
+    "agentEval3TierA": "validation/agent-evals-3/results/tier-a-results.json",
+    "agentEval3TierB": "validation/agent-evals-3/results/tier-b-status.json",
+    "hierarchical": "validation/corpus/hierarchical-project-1/results/validation-report.json",
+    "pathMigrationIndex": "docs/_meta/generated/path-migration-index.json",
+    "planMatrix": "validation/releases/0.5.8/implementation-matrix.json",
+    "preLiveReadiness": "validation/agent-evals-3/results/readiness/readiness-report.json",
+    "repositoryDocumentInventory": "docs/_meta/generated/repository-document-inventory.json",
+    "tests": "validation/test-results.json",
+    "verificationSummary": "validation/evidence/0.5.8/verification-runs/summary.json",
+    "viewer": "validation/corpus/reference-viewer-1/results/validation-report.json"
+  },
+  "externalTierBExecuted": false,
+  "formatVersion": "1.0",
+  "fullPlanDefinitionOfDone": true,
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "liveClaimAuthorized": false,
+  "liveExternalAgentExecuted": false,
+  "preLiveReadiness": true,
+  "preLiveReadinessPlanComplete": true,
+  "release": "AIXEM-SRP-0.5.8-2026-08-12",
+  "requiredEngineeringVerificationPasses": 5,
+  "schema": "https://schemas.aixem.org/validation/final-release-report/1",
+  "status": "PASS",
+  "summary": {
+    "agentEvaluation2TierA": "12/12",
+    "agentEvaluation3DeterministicStages": "12/12",
+    "agentEvaluation3TierA": "12/12",
+    "agentEvaluation3TierBAttempts": 0,
+    "agentEvaluation3TierBExecuted": false,
+    "authoringRouteReadiness": {
+      "failed": 0,
+      "passed": 8,
+      "routes": 8
+    },
+    "canonicalDocuments": 143,
+    "documentOrphans": 0,
+    "hierarchicalCorpus": "30/30",
+    "invariantFairness": {
+      "cases": 12,
+      "failed": 0,
+      "passed": 12
+    },
+    "manifestFiles": 2726,
+    "normativeDocuments": 96,
+    "pathMigrations": 4,
+    "repositoryMarkdown": 256,
+    "repositoryTests": 127,
+    "requirementEvidenceFiles": 245,
+    "requirements": 245,
+    "sitePages": 175,
+    "subprocessFaultFixtures": {
+      "failed": 0,
+      "faults": 10,
+      "passed": 10
+    },
+    "subprocessSuccessFixtures": {
+      "failed": 0,
+      "fixtures": 4,
+      "passed": 4
+    },
+    "symbolAndStaticBlockCorpus": "36/36",
+    "taskRoutes": 16,
+    "testModules": 26,
+    "unknownDocumentRoles": 0,
+    "verificationCycles": "5/5",
+    "viewerCorpus": "18/18"
+  },
+  "valid": true
+}

@@ -1,0 +1,107 @@
+{
+  "cases": {
+    "B001": {
+      "checks": {
+        "dimensions-unambiguous": true,
+        "no-unintended-fill-or-self-intersection-artifact": true,
+        "outline-recognizable": true,
+        "repeated-geometry-evenly-spaced": true,
+        "static-profile-exclusions-respected": true,
+        "text-readable-at-normal-scale": true
+      },
+      "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:62d5500b3850ad8293bd5636e57e157fca66b2f52c2aaf605334a4cae2d0c793",
+      "svgDigest": "sha256:ee505b4c5ba3336c6ae3c4ca52602a32bf8b7cf6d61c827d568ba7ae475c8bb8"
+    },
+    "B002": {
+      "checks": {
+        "dimensions-unambiguous": true,
+        "no-unintended-fill-or-self-intersection-artifact": true,
+        "outline-recognizable": true,
+        "repeated-geometry-evenly-spaced": true,
+        "static-profile-exclusions-respected": true,
+        "text-readable-at-normal-scale": true
+      },
+      "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:20bb8673c599cbd6b7b3fbeab5909f50e63ca3d0a6006ebfe9958cd1ae4c16e6",
+      "svgDigest": "sha256:bcf8f679859441554766ed46930eb190236b18b29d9c334bb766c6ff73358e88"
+    },
+    "B003": {
+      "checks": {
+        "dimensions-unambiguous": true,
+        "no-unintended-fill-or-self-intersection-artifact": true,
+        "outline-recognizable": true,
+        "repeated-geometry-evenly-spaced": true,
+        "static-profile-exclusions-respected": true,
+        "text-readable-at-normal-scale": true
+      },
+      "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:9f7de2cb912d1d71c5b124b90b1bd6d7de5f9f4bec2afa361f5d47e48febbfa6",
+      "svgDigest": "sha256:322593a7d03adaf6ab3eddd8087579fde91ad172cea562544044958f8d6da47b"
+    },
+    "B004": {
+      "checks": {
+        "dimensions-unambiguous": true,
+        "no-unintended-fill-or-self-intersection-artifact": true,
+        "outline-recognizable": true,
+        "repeated-geometry-evenly-spaced": true,
+        "static-profile-exclusions-respected": true,
+        "text-readable-at-normal-scale": true
+      },
+      "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:514990b1878a5992b8cd30264d132dd23f56fdc6dad61995495559f13e92b8c8",
+      "svgDigest": "sha256:532758a504fbba0795221075e3c25133e7f9fc01d96f26c80f9f7bb5d25be15a"
+    },
+    "B005": {
+      "checks": {
+        "dimensions-unambiguous": true,
+        "no-unintended-fill-or-self-intersection-artifact": true,
+        "outline-recognizable": true,
+        "repeated-geometry-evenly-spaced": true,
+        "static-profile-exclusions-respected": true,
+        "text-readable-at-normal-scale": true
+      },
+      "notes": "Re-reviewed after the dimension-label renderer repair. Both dimension labels are legible and do not obscure the measured outline.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:45670811d459a234b28e512c3553d7a621d914a68e866262fa78dbf894377634",
+      "svgDigest": "sha256:7c737e96bdcc2f477c4e80680b4d9ab50cde69dc5417efdc2006dfeb832bf0ab"
+    },
+    "B006": {
+      "checks": {
+        "dimensions-unambiguous": true,
+        "no-unintended-fill-or-self-intersection-artifact": true,
+        "outline-recognizable": true,
+        "repeated-geometry-evenly-spaced": true,
+        "static-profile-exclusions-respected": true,
+        "text-readable-at-normal-scale": true
+      },
+      "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:3e899265e1b15cf8c3e5633cc97aed633d38ed5148b163ed7f53af27115df801",
+      "svgDigest": "sha256:7431af9047c5f840282f8c41d8038605a133ad8bd5b9b92d92ff922919339eaa"
+    }
+  },
+  "certificationBoundary": "Internal release-candidate evidence; independent human or third-party certification is outside this package.",
+  "profile": "static-2d-block-1",
+  "release": "AIXEM-SRP-0.5.2-2026-08-11",
+  "reviewAuthority": "OpenAI GPT-5.6 Pro, acting as the implementation and verification agent delegated by the project owner",
+  "reviewDate": "2026-08-11",
+  "reviewMethod": "AI-assisted structured manual inspection of full-resolution production SVG and contact-sheet renderings",
+  "schema": "https://schemas.aixem.org/conformance/visual-review/1"
+}

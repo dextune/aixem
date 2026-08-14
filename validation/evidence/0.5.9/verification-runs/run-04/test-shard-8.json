@@ -1,0 +1,40 @@
+{
+  "durationSeconds": 1.50174,
+  "errors": [],
+  "executionMode": "isolated-test-module-processes",
+  "failedModules": 0,
+  "failures": [],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "moduleCount": 1,
+  "modules": [
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_live_run_evidence"
+      ],
+      "durationSeconds": 1.501411,
+      "module": "tests.agent.test_live_run_evidence",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_cherry_picked_or_duplicate_attempt_set_fails_closed (tests.agent.test_live_run_evidence.LiveRunEvidenceContractTests.test_cherry_picked_or_duplicate_attempt_set_fails_closed) ... ok\ntest_evidence_digest_tampering_is_detected (tests.agent.test_live_run_evidence.LiveRunEvidenceContractTests.test_evidence_digest_tampering_is_detected) ... ok\ntest_failed_or_non_live_attempt_remains_in_denominator (tests.agent.test_live_run_evidence.LiveRunEvidenceContractTests.test_failed_or_non_live_attempt_remains_in_denominator) ... ok\ntest_live_pass_requires_evaluation_and_conformant_authoring_record (tests.agent.test_live_run_evidence.LiveRunEvidenceContractTests.test_live_pass_requires_evaluation_and_conformant_authoring_record) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.002s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 4,
+      "valid": true
+    }
+  ],
+  "passedModules": 1,
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/test-run-shard/1",
+  "shard": {
+    "count": 29,
+    "index": 8,
+    "totalDiscoveredModules": 29
+  },
+  "skipped": [],
+  "successful": true,
+  "testsRun": 4
+}

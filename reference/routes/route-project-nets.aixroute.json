@@ -1,0 +1,120 @@
+{
+  "formatVersion": "1.0",
+  "route": {
+    "aliases": [
+      "route project nets",
+      "route between sheets",
+      "draw hierarchy wires",
+      "overview routing",
+      "composite routing"
+    ],
+    "budget": {
+      "fallbackDocuments": 2,
+      "maxBytes": 98304,
+      "maxDepth": 3,
+      "maxDocuments": 7
+    },
+    "conditionalReads": [],
+    "id": "route-project-nets",
+    "intents": [
+      "route-project-nets"
+    ],
+    "metadata": {
+      "exactRoutePreferred": true,
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "kind": "simple",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "source": "docs/_meta/routes/route-project-nets.yaml"
+    },
+    "outputs": [
+      "deterministic project overview routes",
+      "deterministic composite routes",
+      "project routing diagnostics",
+      "updated resolved-project-scene evidence"
+    ],
+    "steps": [
+      {
+        "exitCheck": "All project route terminals resolve to declared interface ports",
+        "id": "step-1",
+        "order": 1,
+        "produces": [],
+        "purpose": "Separate local leaf routing authority from derived project-level routing.",
+        "read": [
+          "reference/cards/concepts/project-net-model.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "All project route segments are deterministic and orthogonal",
+        "id": "step-2",
+        "order": 2,
+        "produces": [],
+        "purpose": "Resolve each project route terminal from a semantic interface port presentation.",
+        "read": [
+          "reference/cards/specifications/layout/hierarchical-sheet-port-contract.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Different project nets may cross without implicit junctions",
+        "id": "step-3",
+        "order": 3,
+        "produces": [],
+        "purpose": "Read project-net members and qualified identities from the validated project graph.",
+        "read": [
+          "reference/cards/specifications/project/project-composition-contract.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Semantic membership remains unchanged by routing",
+        "id": "step-4",
+        "order": 4,
+        "produces": [],
+        "purpose": "Preserve local entity-to-interface route closure inside each leaf.",
+        "read": [
+          "reference/cards/routing/net-routing.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Semantic membership remains unchanged by routing",
+        "id": "step-5",
+        "order": 5,
+        "produces": [],
+        "purpose": "Prevent route repair from changing project-net or local-net membership.",
+        "read": [
+          "reference/cards/agent/routing-agent.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Semantic membership remains unchanged by routing",
+        "id": "step-6",
+        "order": 6,
+        "produces": [],
+        "purpose": "Check overview, composite, project-scene, and Workbench routing evidence.",
+        "read": [
+          "reference/cards/conformance/hierarchical-project.aixcard.json"
+        ],
+        "required": true
+      }
+    ],
+    "stopConditions": [
+      "All project route terminals resolve to declared interface ports",
+      "All project route segments are deterministic and orthogonal",
+      "Different project nets may cross without implicit junctions",
+      "Semantic membership remains unchanged by routing"
+    ],
+    "title": "Route already-declared project nets between resolved sheet interface anchors without changing semantic membership",
+    "validators": [
+      "schematic.route_closure",
+      "schematic.orthogonal",
+      "schematic.deterministic",
+      "schematic.workbench",
+      "agent.diagnostics",
+      "agent.change_scope"
+    ]
+  },
+  "schema": "https://schemas.aixem.org/reference/aixroute/1"
+}

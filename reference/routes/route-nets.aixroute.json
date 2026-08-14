@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.0",
+  "route": {
+    "aliases": [
+      "route nets",
+      "connect wires",
+      "wire routing",
+      "orthogonal routing",
+      "auto route"
+    ],
+    "budget": {
+      "fallbackDocuments": 2,
+      "maxBytes": 98304,
+      "maxDepth": 3,
+      "maxDocuments": 7
+    },
+    "conditionalReads": [],
+    "id": "route-nets",
+    "intents": [
+      "route-nets"
+    ],
+    "metadata": {
+      "exactRoutePreferred": true,
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "kind": "simple",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "source": "docs/_meta/routes/route-nets.yaml"
+    },
+    "outputs": [
+      "updated .aixlayout.json connections",
+      "route closure evidence",
+      "deterministic routed render"
+    ],
+    "steps": [
+      {
+        "exitCheck": "Every connection names an existing semantic net",
+        "id": "step-1",
+        "order": 1,
+        "produces": [],
+        "purpose": "Confirm semantic net membership and endpoint closure.",
+        "read": [
+          "reference/cards/concepts/net-model.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Every semantic endpoint is routed",
+        "id": "step-2",
+        "order": 2,
+        "produces": [],
+        "purpose": "Resolve semantic endpoints into explicit layout paths.",
+        "read": [
+          "reference/cards/routing/net-routing.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Every free segment is orthogonal and grid-aligned",
+        "id": "step-3",
+        "order": 3,
+        "produces": [],
+        "purpose": "Choose the topology-specific routing recipe.",
+        "read": [
+          "reference/cards/routing/routing-cookbook.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Every branch join is explicit",
+        "id": "step-4",
+        "order": 4,
+        "produces": [],
+        "purpose": "Apply active grid authority to every free route bend.",
+        "read": [
+          "reference/cards/schematic/grid-system.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Crossings remain semantically and visually unambiguous",
+        "id": "step-5",
+        "order": 5,
+        "produces": [],
+        "purpose": "Apply obstacle, clearance, endpoint, and route-quality constraints.",
+        "read": [
+          "reference/cards/routing/route-constraints.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Crossings remain semantically and visually unambiguous",
+        "id": "step-6",
+        "order": 6,
+        "produces": [],
+        "purpose": "Represent branches and crossings without inferred connectivity.",
+        "read": [
+          "reference/cards/routing/crossings-and-junctions.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Crossings remain semantically and visually unambiguous",
+        "id": "step-7",
+        "order": 7,
+        "produces": [],
+        "purpose": "Serialize connections, paths, bends, labels, and junctions.",
+        "read": [
+          "reference/cards/file-formats/aixlayout.aixcard.json"
+        ],
+        "required": true
+      }
+    ],
+    "stopConditions": [
+      "Every connection names an existing semantic net",
+      "Every semantic endpoint is routed",
+      "Every free segment is orthogonal and grid-aligned",
+      "Every branch join is explicit",
+      "Crossings remain semantically and visually unambiguous"
+    ],
+    "title": "Materialize existing semantic nets as orthogonal, explicit, unambiguous route geometry",
+    "validators": [
+      "schematic.route_closure",
+      "schematic.orthogonal",
+      "schematic.junction",
+      "schematic.renderer_contract",
+      "agent.diagnostics",
+      "agent.change_scope"
+    ]
+  },
+  "schema": "https://schemas.aixem.org/reference/aixroute/1"
+}

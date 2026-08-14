@@ -1,0 +1,7 @@
+{
+  "case": "N005",
+  "expectedDiagnostic": "layout sheetPort references unknown semantic port",
+  "matched": true,
+  "observedError": "layout sheetPort references unknown semantic port UNKNOWN",
+  "status": "pass"
+}

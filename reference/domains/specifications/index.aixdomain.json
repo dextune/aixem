@@ -1,0 +1,237 @@
+{
+  "domain": {
+    "cards": [
+      {
+        "id": "AIXEM-SPEC-AGENT-CHANGESET-001",
+        "path": "reference/cards/specifications/agent/authoring-change-set-contract.aixcard.json",
+        "summary": "Defines deterministic before-and-after file evidence, route write scopes, authority constraints, and generated-output edit detection for each agent iteration.",
+        "title": "Authoring Change-Set Contract 1"
+      },
+      {
+        "id": "AIXEM-SPEC-AGENT-DIAGNOSTIC-001",
+        "path": "reference/cards/specifications/agent/diagnostic-contract.aixcard.json",
+        "summary": "Defines stable machine-readable authoring diagnostics with authority ownership, structured location, remediation routing, and fail-closed repair targets.",
+        "title": "Agent Diagnostic Contract 1"
+      },
+      {
+        "id": "AIXEM-SPEC-AGENT-EVAL-INVARIANT-001",
+        "path": "reference/cards/specifications/agent/evaluation-invariant-contract.aixcard.json",
+        "summary": "Defines a small evaluator-only semantic predicate vocabulary that scores the actual final workspace without staging or restoring a completed answer.",
+        "title": "Evaluation Invariant Contract 1"
+      },
+      {
+        "id": "AIXEM-SPEC-AGENT-EXECUTION-001",
+        "path": "reference/cards/specifications/agent/authoring-execution-contract.aixcard.json",
+        "summary": "Defines the PREPARED-to-CLOSED authoring state machine, prepare/check/close harness, narrow validation, authority-local repair, and loop-stall handling.",
+        "title": "Authoring Execution Contract 1"
+      },
+      {
+        "id": "AIXEM-SPEC-AGENT-EXECUTOR-LIVE-001",
+        "path": "reference/cards/specifications/agent/live-executor-protocol.aixcard.json",
+        "summary": "Defines a provider-neutral, bounded external subprocess boundary with explicit execution proof, observation capability, network policy, and secret handling.",
+        "title": "Live Executor Protocol 1"
+      },
+      {
+        "id": "AIXEM-SPEC-AGENT-LIVE-RUN-001",
+        "path": "reference/cards/specifications/agent/live-run-evidence.aixcard.json",
+        "summary": "Binds task, stage, executor, observation, authoring record, evaluator result, terminal status, and attempt-set denominator into truthful retained evidence.",
+        "title": "Live Run Evidence 1"
+      },
+      {
+        "id": "AIXEM-SPEC-AGENT-OBSERVATION-001",
+        "path": "reference/cards/specifications/agent/observation-event-contract.aixcard.json",
+        "summary": "Defines ordered JSONL evidence for externally observable agent actions while rejecting private model reasoning and chain-of-thought fields.",
+        "title": "Observation Event Contract 1"
+      },
+      {
+        "id": "AIXEM-SPEC-AGENT-RETRIEVAL-001",
+        "path": "reference/cards/specifications/agent/retrieval-profile.aixcard.json",
+        "summary": "Defines route-first lookup, bounded context, exact section targeting, fallback search, and fail-closed resolution for AI agents.",
+        "title": "Agent Retrieval Profile 1"
+      },
+      {
+        "id": "AIXEM-SPEC-AGENT-RUN-001",
+        "path": "reference/cards/specifications/agent/authoring-run-record.aixcard.json",
+        "summary": "Defines deterministic end-to-end evidence for one route-bounded authoring or repair task from baseline through closure.",
+        "title": "Authoring Run Record 1"
+      },
+      {
+        "id": "AIXEM-SPEC-AGENT-STAGE-001",
+        "path": "reference/cards/specifications/agent/cold-start-stage-contract.aixcard.json",
+        "summary": "Defines deterministic, fresh, target-isolated task, reference, workspace, and state roots for one live authoring attempt.",
+        "title": "Cold-Start Stage Contract 1"
+      },
+      {
+        "id": "AIXEM-SPEC-AGENT-TASK-001",
+        "path": "reference/cards/specifications/agent/agent-task-contract.aixcard.json",
+        "summary": "Defines the non-authoritative machine envelope for one cold-start authoring request and resolves it against route-owned write scope.",
+        "title": "Agent Task Contract 1"
+      },
+      {
+        "id": "AIXEM-SPEC-AUTHORITY-001",
+        "path": "reference/cards/specifications/core/authority-precedence.aixcard.json",
+        "summary": "Defines artifact ownership, normative precedence, conflict handling, generated-file policy, and migration-bearing changes.",
+        "title": "Authority and Precedence"
+      },
+      {
+        "id": "AIXEM-SPEC-COORD-001",
+        "path": "reference/cards/specifications/core/coordinate-system.aixcard.json",
+        "summary": "Defines millimetre units, local symbol coordinates, global sheet coordinates, precision, orientation, and transform ordering.",
+        "title": "Coordinate and Unit System"
+      },
+      {
+        "id": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "path": "reference/cards/specifications/documentation/document-governance-contract.aixcard.json",
+        "summary": "Defines repository-wide roles, naming, lifecycle, discoverability, migration, and validation rules for every authored Markdown document.",
+        "title": "Repository Document Governance Contract 1"
+      },
+      {
+        "id": "AIXEM-SPEC-DOCUMENT-001",
+        "path": "reference/cards/specifications/core/document-model.aixcard.json",
+        "summary": "Defines canonical document identity, metadata, status, language, authority, dependencies, aliases, agent intents, and navigation order.",
+        "title": "Canonical Document Model"
+      },
+      {
+        "id": "AIXEM-SPEC-GRID-PROFILE-001",
+        "path": "reference/cards/specifications/schematic/grid-profile.aixcard.json",
+        "summary": "Binds the default grid, orthogonal routing, explicit junction, annotation, and workbench presentation requirements into a named application profile.",
+        "title": "Grid Schematic Profile 1"
+      },
+      {
+        "id": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
+        "path": "reference/cards/specifications/layout/hierarchical-sheet-port-contract.aixcard.json",
+        "summary": "Defines aixlayout/2 sheetPorts presentation, interface route endpoint resolution, and the separation between local and project routing.",
+        "title": "Hierarchical Sheet-Port Layout Contract 2"
+      },
+      {
+        "id": "AIXEM-SPEC-INDEX-001",
+        "path": "reference/cards/specifications/overview.aixcard.json",
+        "summary": "The normative contract set for document metadata, semantic authority, coordinates, graphics, layout, project locks, agent retrieval, and release integrity.",
+        "title": "Specifications"
+      },
+      {
+        "id": "AIXEM-SPEC-INTERFACE-PORT-001",
+        "path": "reference/cards/specifications/core/interface-port-contract.aixcard.json",
+        "summary": "Defines feature-gated semantic sheet interface ports and the @PORT endpoint syntax used by hierarchical projects.",
+        "title": "Interface Port Contract 1"
+      },
+      {
+        "id": "AIXEM-SPEC-LAYOUT-001",
+        "path": "reference/cards/specifications/layout/layout-contract.aixcard.json",
+        "summary": "Defines serialized placements, connections, paths, junctions, labels, annotations, and sheet geometry.",
+        "title": "Explicit Layout Contract 1"
+      },
+      {
+        "id": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "path": "reference/cards/specifications/components/library-layout-contract.aixcard.json",
+        "summary": "Defines canonical project-library placement, reusable naming, component provenance, semantic identity, and validation-claim boundaries for new AIXEM authoring.",
+        "title": "Library Layout and Part Integrity Contract"
+      },
+      {
+        "id": "AIXEM-SPEC-METADATA-001",
+        "path": "reference/cards/specifications/documentation/metadata-contract.aixcard.json",
+        "summary": "Defines the JSON Schema and semantic rules for canonical Markdown front matter.",
+        "title": "Documentation Metadata Contract 1"
+      },
+      {
+        "id": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
+        "path": "reference/cards/specifications/components/pin-electrical-semantics-profile.aixcard.json",
+        "summary": "Defines orthogonal source-reviewable component pin semantics and a conservative static compatibility precheck without claiming full ERC or simulation correctness.",
+        "title": "Pin Electrical Semantics Profile 1"
+      },
+      {
+        "id": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
+        "path": "reference/cards/specifications/project/project-composition-contract.aixcard.json",
+        "summary": "Defines digest-locked multi-sheet composition, organizational hierarchy, explicit project nets, qualified identity, and legacy v1 normalization.",
+        "title": "Project Composition Contract 2"
+      },
+      {
+        "id": "AIXEM-SPEC-PROJECT-LOCK-001",
+        "path": "reference/cards/specifications/project/project-lock-contract.aixcard.json",
+        "summary": "Defines project identity, locked inputs, render policy, feature declarations, provenance, and expected outputs.",
+        "title": "Project Lock Contract 1"
+      },
+      {
+        "id": "AIXEM-SPEC-RELEASE-001",
+        "path": "reference/cards/specifications/documentation/release-integrity.aixcard.json",
+        "summary": "Defines generated-index freshness, link closure, requirement evidence, static-site integrity, manifests, and archive verification.",
+        "title": "Documentation Release Integrity 1"
+      },
+      {
+        "id": "AIXEM-SPEC-RENDERER-001",
+        "path": "reference/cards/specifications/renderer/renderer-contract.aixcard.json",
+        "summary": "Defines deterministic component presentation selection, field and variant precedence, port transforms, route binding, and renderer evidence.",
+        "title": "Renderer Contract 1"
+      },
+      {
+        "id": "AIXEM-SPEC-SCHEMAS-001",
+        "path": "reference/cards/specifications/schemas/overview.aixcard.json",
+        "summary": "Catalogs the machine-readable project, library, symbol, layout, and documentation metadata schemas distributed with AIXEM 0.5.",
+        "title": "JSON Schema Catalog"
+      },
+      {
+        "id": "AIXEM-SPEC-SYMBOL-001",
+        "path": "reference/cards/specifications/symbols/symbol-contract.aixcard.json",
+        "summary": "Defines the serialized symbol asset contract, feature declaration, port mapping, deterministic geometry, and variant compatibility.",
+        "title": "Symbol Asset Contract 1"
+      },
+      {
+        "id": "AIXEM-SPEC-SYMBOL-DESIGN-001",
+        "path": "reference/cards/specifications/symbols/symbol-design-profile.aixcard.json",
+        "summary": "Defines measurable grid, lead, pitch, field-clearance, grouping, and primitive-economy rules for AIXEM schematic symbols.",
+        "title": "Symbol Design Profile 1"
+      },
+      {
+        "id": "AIXEM-SPEC-VIEWER-001",
+        "path": "reference/cards/specifications/viewer/reference-viewer-contract.aixcard.json",
+        "summary": "Defines the deterministic, self-contained, read-only AIXEM HTML viewer, Viewer Model boundary, qualified identity, views, inspection, and compatibility rules.",
+        "title": "Reference Viewer Contract 1"
+      },
+      {
+        "id": "AIXEM-SPEC-VIEWER-A11Y-001",
+        "path": "reference/cards/specifications/viewer/viewer-accessibility-profile.aixcard.json",
+        "summary": "Defines keyboard access, visible focus, semantic control state, non-color cues, qualified navigation, and narrow-viewport access for Viewer Contract 1.",
+        "title": "Viewer Accessibility Profile 1"
+      },
+      {
+        "id": "AIXEM-SPEC-VIEWER-INDEX-001",
+        "path": "reference/cards/specifications/viewer/overview.aixcard.json",
+        "summary": "Routes implementers and reviewers to the canonical AIXEM Reference Viewer, Workbench, state, security, accessibility, and model contracts.",
+        "title": "Viewer Specifications"
+      },
+      {
+        "id": "AIXEM-SPEC-VIEWER-SECURITY-001",
+        "path": "reference/cards/specifications/viewer/viewer-security-and-embedding.aixcard.json",
+        "summary": "Defines the self-contained static HTML threat boundary, restrictive CSP, inert authored text, safe Viewer Model embedding, network denial, and no-write behavior.",
+        "title": "Viewer Security and Embedding 1"
+      },
+      {
+        "id": "AIXEM-SPEC-VIEWER-STATE-001",
+        "path": "reference/cards/specifications/viewer/viewer-state-and-interaction.aixcard.json",
+        "summary": "Defines deterministic Viewer Core runtime state, mode transitions, active-sheet behavior, selection, search, layer ownership, viewport transforms, and keyboard commands.",
+        "title": "Viewer State and Interaction 1"
+      },
+      {
+        "id": "AIXEM-SPEC-VISUAL-PROFILE-001",
+        "path": "reference/cards/specifications/schematic/visual-profile.aixcard.json",
+        "summary": "Defines AIXEM schematic drawing presentation tokens, local-resource rules, readability cues, and the boundary that prevents presentation from changing circuit authority.",
+        "title": "Schematic Presentation Profile 1"
+      },
+      {
+        "id": "AIXEM-SPEC-WORKBENCH-001",
+        "path": "reference/cards/specifications/viewer/review-workbench-contract.aixcard.json",
+        "summary": "Defines the read-only engineering-review profile that extends Reference Viewer 1 with deterministic diagnostics, provenance, and evidence regions.",
+        "title": "Review Workbench Contract 1"
+      }
+    ],
+    "description": "Generated canonical-document cards for the specifications domain.",
+    "id": "specifications",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12"
+    },
+    "title": "Specifications"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixdomain/1"
+}

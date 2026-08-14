@@ -1,0 +1,93 @@
+{
+  "domain": {
+    "cards": [
+      {
+        "id": "AIXEM-RELEASE-040-001",
+        "path": "reference/cards/releases/0.4.aixcard.json",
+        "summary": "Summarizes the grid-first renderer, reference cards and routes, workbench example, and documentation-drift issues inherited from 0.4.",
+        "title": "AIXEM 0.4 Baseline"
+      },
+      {
+        "id": "AIXEM-RELEASE-050-001",
+        "path": "reference/cards/releases/0.5.aixcard.json",
+        "summary": "Documents the completed documentation architecture, agent reference compiler, static site, traceability, three-pass hardening, and release integrity system.",
+        "title": "AIXEM 0.5.0"
+      },
+      {
+        "id": "AIXEM-RELEASE-051-001",
+        "path": "reference/cards/releases/0.5.1.aixcard.json",
+        "summary": "Documents the agent-authoring and drawing-readiness release, executable examples, composite routes, renderer contracts, and three-pass validation results.",
+        "title": "AIXEM 0.5.1"
+      },
+      {
+        "id": "AIXEM-RELEASE-052-001",
+        "path": "reference/cards/releases/0.5.2.aixcard.json",
+        "summary": "Documents the evidence-backed symbol expressiveness release, static 2D block profile, multi-unit boundary, and three-cycle verification.",
+        "title": "AIXEM 0.5.2"
+      },
+      {
+        "id": "AIXEM-RELEASE-053-001",
+        "path": "reference/cards/releases/0.5.3.aixcard.json",
+        "summary": "Documents deterministic hierarchical multi-sheet composition, explicit project nets, three project views, compatibility preservation, and three-pass verification.",
+        "title": "AIXEM 0.5.3"
+      },
+      {
+        "id": "AIXEM-RELEASE-054-001",
+        "path": "reference/cards/releases/0.5.4.aixcard.json",
+        "summary": "Documents Reference Viewer Contract 1, distinct Viewer and Workbench profiles, qualified browser behavior, security, accessibility, and three-pass release evidence.",
+        "title": "AIXEM 0.5.4"
+      },
+      {
+        "id": "AIXEM-RELEASE-055-001",
+        "path": "reference/cards/releases/0.5.5.aixcard.json",
+        "summary": "Documents the route-bounded agent authoring closed loop, stable diagnostics, change-scope enforcement, deterministic run records, Agent Evaluation 2, and protected 0.5.4 compatibility.",
+        "title": "AIXEM 0.5.5"
+      },
+      {
+        "id": "AIXEM-RELEASE-056-001",
+        "path": "reference/cards/releases/0.5.6.aixcard.json",
+        "summary": "Adds provider-neutral cold-start live-agent execution, observation, hidden invariant scoring, retained attempt evidence, and Agent Evaluation 3 without weakening 0.5.5 authoring contracts.",
+        "title": "AIXEM 0.5.6 Live-Agent Cold-Start Authoring"
+      },
+      {
+        "id": "AIXEM-RELEASE-057-001",
+        "path": "reference/cards/releases/0.5.7.aixcard.json",
+        "summary": "Establishes repository-wide document roles, version-scoped planning and validation homes, canonical path migrations, controlled metadata, and fail-closed documentation governance.",
+        "title": "AIXEM 0.5.7 Document Information Architecture and Governance"
+      },
+      {
+        "id": "AIXEM-RELEASE-058-001",
+        "path": "reference/cards/releases/0.5.8.aixcard.json",
+        "summary": "Proves the deterministic platform boundary immediately below a future external AI agent through portable execution, immutable-stage postflight checks, process-tree cleanup, evidence hygiene, fair scoring, successful non-AI subprocess closure, and integrated fault retention.",
+        "title": "AIXEM 0.5.8 Pre-Live Agent Readiness Hardening"
+      },
+      {
+        "id": "AIXEM-RELEASE-0581-001",
+        "path": "reference/cards/releases/0.5.8.1.aixcard.json",
+        "summary": "Closes root-to-canonical reference chaining, category-index completeness, current-release coherence, and normative authority-scope ambiguity before external AI-agent integration.",
+        "title": "AIXEM 0.5.8.1 Final Documentation, Specification, and Reference-Chain Closure"
+      },
+      {
+        "id": "AIXEM-RELEASE-059-001",
+        "path": "reference/cards/releases/0.5.9.aixcard.json",
+        "summary": "Establishes canonical reusable-library authoring, source-or-placeholder part integrity, pin semantics, bounded electrical compatibility, deterministic placement assistance, and task-oriented Agent guidance.",
+        "title": "AIXEM 0.5.9 Integrated Authoring, Library, Pin Semantics, and Placement Hardening"
+      },
+      {
+        "id": "AIXEM-RELEASE-INDEX-001",
+        "path": "reference/cards/releases/overview.aixcard.json",
+        "summary": "Release-specific changes, compatibility statements, validation summaries, and migration pointers.",
+        "title": "Release Notes"
+      }
+    ],
+    "description": "Generated canonical-document cards for the releases domain.",
+    "id": "releases",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12"
+    },
+    "title": "Releases"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixdomain/1"
+}

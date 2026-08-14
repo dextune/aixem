@@ -1,0 +1,40 @@
+{
+  "durationSeconds": 1.675499,
+  "errors": [],
+  "executionMode": "isolated-test-module-processes",
+  "failedModules": 0,
+  "failures": [],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "moduleCount": 1,
+  "modules": [
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_change_scope"
+      ],
+      "durationSeconds": 1.675129,
+      "module": "tests.agent.test_change_scope",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_allowed_layout_and_digest_only_project_change (tests.agent.test_change_scope.AgentChangeScopeTests.test_allowed_layout_and_digest_only_project_change) ... ok\ntest_generated_output_edit_is_detected_and_schema_valid (tests.agent.test_change_scope.AgentChangeScopeTests.test_generated_output_edit_is_detected_and_schema_valid) ... ok\ntest_new_legacy_library_root_fails_but_existing_repair_passes (tests.agent.test_change_scope.AgentChangeScopeTests.test_new_legacy_library_root_fails_but_existing_repair_passes) ... ok\ntest_new_library_artifact_must_use_canonical_path (tests.agent.test_change_scope.AgentChangeScopeTests.test_new_library_artifact_must_use_canonical_path) ... ok\ntest_symlink_fails_closed (tests.agent.test_change_scope.AgentChangeScopeTests.test_symlink_fails_closed) ... ok\ntest_wrong_authority_and_non_digest_project_change_fail (tests.agent.test_change_scope.AgentChangeScopeTests.test_wrong_authority_and_non_digest_project_change_fail) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.010s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 6,
+      "valid": true
+    }
+  ],
+  "passedModules": 1,
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/test-run-shard/1",
+  "shard": {
+    "count": 29,
+    "index": 3,
+    "totalDiscoveredModules": 29
+  },
+  "skipped": [],
+  "successful": true,
+  "testsRun": 6
+}

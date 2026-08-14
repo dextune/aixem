@@ -1,0 +1,13 @@
+aixem 1.0
+model multi_terminal_junction title="Multi-terminal junction"
+feature component.graphics@1 required=true
+feature explicit.layout@1 required=true
+
+connector T1 type=authoring:terminal refdes=T1 value=T1
+connector T2 type=authoring:terminal refdes=T2 value=T2
+connector T3 type=authoring:terminal refdes=T3 value=T3
+connector T4 type=authoring:terminal refdes=T4 value=T4
+connector T5 type=authoring:terminal refdes=T5 value=T5
+
+net fabric_l005 = T1.1 T2.1 T3.1
+net cross = T4.1 T5.1

@@ -1,0 +1,100 @@
+schema: https://schemas.aixem.org/documentation/task-route/1
+formatVersion: '1.0'
+kind: simple
+id: render-review
+intent: render-review
+aliases:
+- render review
+- render schematic
+- inspect drawing
+- visual qa
+- review svg
+summary: Render locked sources, inspect resolved evidence, classify drawing, Viewer, Workbench, or semantic defects, and repair the owning layer
+budget:
+  max_documents: 7
+  max_bytes: 98304
+  max_depth: 3
+expected_inputs:
+- locked project inputs
+- active renderer/style profile
+- narrow validator results
+steps:
+- order: 1
+  document: AIXEM-SPEC-RENDERER-001
+  section: renderer-to-viewer-boundary
+  purpose: Generate deterministic renderer evidence and identify the renderer/Viewer boundary.
+  required: true
+- order: 2
+  document: AIXEM-SPEC-VIEWER-001
+  section: product-and-authority-boundary
+  purpose: Classify Viewer interaction and Workbench profile defects without altering circuit authority.
+  required: true
+- order: 3
+  document: AIXEM-AGENT-VISUAL-QA-001
+  section: required-loop
+  purpose: Execute the evidence-backed visual QA and local repair loop.
+  required: true
+- order: 4
+  document: AIXEM-SPEC-VISUAL-PROFILE-001
+  section: 0-5-4-viewer-boundary
+  purpose: Separate schematic drawing presentation from Viewer application chrome.
+  required: true
+- order: 5
+  document: AIXEM-SPEC-SYMBOL-DESIGN-001
+  section: validation
+  purpose: Review measurable symbol rules when the defect belongs to symbol geometry.
+  required: false
+  condition: The defect is inside a symbol or its fields.
+- order: 6
+  document: AIXEM-CONF-REFERENCE-VIEWER-001
+  section: browser-gate
+  purpose: Select browser behavior and evidence gates for Viewer or Workbench defects.
+  required: false
+  condition: Viewer or Workbench behavior is affected.
+- order: 7
+  document: AIXEM-CONF-VALIDATION-001
+  section: 0-5-1-authoring-validation-layers
+  purpose: Interpret validation diagnostics and evidence ownership.
+  required: true
+completion:
+- Renderer completes without a fail-closed diagnostic
+- Resolved evidence and Viewer Model are inspected
+- Defect is classified as drawing, Viewer interaction, Workbench evidence, or semantic authority
+- Every defect is assigned to one authority owner
+- Affected SVG/Viewer output is visually and behaviorally reviewed
+- Rerender is deterministic after repair
+expected_outputs:
+- drawing/project SVG
+- resolved scene or resolved project scene
+- viewer-model.json
+- viewer.html or workbench.html
+- project-validation.json
+- visual or browser review record
+validators:
+- schematic.renderer_contract
+- schematic.authoring_examples
+- agent.visual_qa
+- manual.symbol_visual_review
+- schematic.reference_viewer
+- agent.diagnostics
+- agent.change_scope
+writes:
+  authority: []
+  artifacts: []
+  derived:
+  - render/**
+  - evidence/**
+  prohibited:
+  - render/**
+  - evidence/**
+  - '**/viewer.html'
+  - '**/workbench.html'
+  - '**/*.svg'
+  - '**/resolved-scene.json'
+  - '**/resolved-project-scene.json'
+  - '**/viewer-model.json'
+  - '**/render-manifest.json'
+  - '**/project-validation.json'
+remediation:
+  acceptsDiagnostics:
+  - AIXEM-DIAG-RENDERER-DETERMINISM

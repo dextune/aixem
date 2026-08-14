@@ -1,0 +1,1860 @@
+{
+  "formatVersion": "1.0",
+  "library": {
+    "components": [
+      {
+        "classification": [],
+        "description": "2-position terminal",
+        "displayName": "2-position terminal",
+        "id": "demo.electronics:terminal-2",
+        "kind": "connector",
+        "metadata": {
+          "partProvenance": {
+            "status": "generic-template"
+          },
+          "semanticReady": true
+        },
+        "ports": [
+          {
+            "id": "1",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "positive",
+            "required": false,
+            "terminal": "1",
+            "type": "passive"
+          },
+          {
+            "id": "2",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "return",
+            "required": false,
+            "terminal": "2",
+            "type": "passive"
+          }
+        ],
+        "presentations": [
+          {
+            "asset": {
+              "digest": "sha256:5042a45420e4239d9fa9d2f3fdce81c9c932b42286b6ba13ca33b80877e0f4ce",
+              "path": "library/electronics/grid-controller/terminal-2.aixsym.json",
+              "revision": "1.0.0",
+              "symbolId": "demo.electronics:terminal-2"
+            },
+            "fieldMap": {
+              "reference": "refdes",
+              "value": "value"
+            },
+            "portMap": {
+              "1": "1",
+              "2": "2"
+            },
+            "purpose": "primary-diagram"
+          }
+        ],
+        "properties": [
+          {
+            "id": "refdes",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "id": "value",
+            "required": false,
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "classification": [],
+        "description": "Fuse",
+        "displayName": "Fuse",
+        "id": "demo.electronics:fuse",
+        "kind": "protection",
+        "metadata": {
+          "partProvenance": {
+            "status": "generic-template"
+          },
+          "semanticReady": true
+        },
+        "ports": [
+          {
+            "id": "1",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "input",
+            "required": false,
+            "terminal": "1",
+            "type": "passive"
+          },
+          {
+            "id": "2",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "output",
+            "required": false,
+            "terminal": "2",
+            "type": "passive"
+          }
+        ],
+        "presentations": [
+          {
+            "asset": {
+              "digest": "sha256:7bad704b4ef0626566c343e2ddd516e2007edece2c2d8f9b4bd301f4d6df5558",
+              "path": "library/electronics/grid-controller/fuse.aixsym.json",
+              "revision": "1.0.0",
+              "symbolId": "demo.electronics:fuse"
+            },
+            "fieldMap": {
+              "reference": "refdes",
+              "value": "value"
+            },
+            "portMap": {
+              "1": "1",
+              "2": "2"
+            },
+            "purpose": "primary-diagram"
+          }
+        ],
+        "properties": [
+          {
+            "id": "refdes",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "id": "value",
+            "required": false,
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "classification": [],
+        "description": "TVS diode",
+        "displayName": "TVS diode",
+        "id": "demo.electronics:tvs-diode",
+        "kind": "protection",
+        "metadata": {
+          "partProvenance": {
+            "status": "generic-template"
+          },
+          "semanticReady": true
+        },
+        "ports": [
+          {
+            "id": "K",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "cathode",
+            "required": false,
+            "terminal": "K",
+            "type": "passive"
+          },
+          {
+            "id": "A",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "anode",
+            "required": false,
+            "terminal": "A",
+            "type": "passive"
+          }
+        ],
+        "presentations": [
+          {
+            "asset": {
+              "digest": "sha256:4ab8d69e24b6e46dda934f2d97ff4b355d116b773e1d4650d1064778f6ce6469",
+              "path": "library/electronics/grid-controller/tvs-diode.aixsym.json",
+              "revision": "1.0.0",
+              "symbolId": "demo.electronics:tvs-diode"
+            },
+            "fieldMap": {
+              "reference": "refdes",
+              "value": "value"
+            },
+            "portMap": {
+              "A": "A",
+              "K": "K"
+            },
+            "purpose": "primary-diagram"
+          }
+        ],
+        "properties": [
+          {
+            "id": "refdes",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "id": "value",
+            "required": false,
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "classification": [],
+        "description": "Buck regulator",
+        "displayName": "Buck regulator",
+        "id": "demo.electronics:buck-regulator",
+        "kind": "power",
+        "metadata": {
+          "partProvenance": {
+            "status": "generic-template"
+          },
+          "semanticReady": true
+        },
+        "ports": [
+          {
+            "id": "VIN",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [
+                  "power"
+                ],
+                "polarity": "unspecified",
+                "powerDomain": "input",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "power"
+              }
+            },
+            "name": "input",
+            "required": true,
+            "terminal": "VIN",
+            "type": "power-input"
+          },
+          {
+            "id": "VOUT",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [
+                  "power"
+                ],
+                "polarity": "unspecified",
+                "powerDomain": "output",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "power"
+              }
+            },
+            "name": "output",
+            "required": true,
+            "terminal": "VOUT",
+            "type": "power-output"
+          },
+          {
+            "id": "GND",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [
+                  "power"
+                ],
+                "polarity": "unspecified",
+                "powerDomain": "ground",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "power"
+              }
+            },
+            "name": "ground",
+            "required": true,
+            "terminal": "GND",
+            "type": "power-input"
+          }
+        ],
+        "presentations": [
+          {
+            "asset": {
+              "digest": "sha256:794d2154b3821a288933bdb8cc03daa5d68237fd0de2d50c7d5538d76dc24655",
+              "path": "library/electronics/grid-controller/buck-regulator.aixsym.json",
+              "revision": "1.0.0",
+              "symbolId": "demo.electronics:buck-regulator"
+            },
+            "fieldMap": {
+              "reference": "refdes",
+              "value": "value"
+            },
+            "portMap": {
+              "GND": "GND",
+              "VIN": "VIN",
+              "VOUT": "VOUT"
+            },
+            "purpose": "primary-diagram"
+          }
+        ],
+        "properties": [
+          {
+            "id": "refdes",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "id": "value",
+            "required": false,
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "classification": [],
+        "description": "Polarized capacitor",
+        "displayName": "Polarized capacitor",
+        "id": "demo.electronics:capacitor",
+        "kind": "passive",
+        "metadata": {
+          "partProvenance": {
+            "status": "generic-template"
+          },
+          "semanticReady": true
+        },
+        "ports": [
+          {
+            "id": "1",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "positive",
+            "required": false,
+            "terminal": "1",
+            "type": "passive"
+          },
+          {
+            "id": "2",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "negative",
+            "required": false,
+            "terminal": "2",
+            "type": "passive"
+          }
+        ],
+        "presentations": [
+          {
+            "asset": {
+              "digest": "sha256:a4a46557016e7f828965780176b0b1501fb360eb7d5a3a6e703d3d4341fb7ee4",
+              "path": "library/electronics/grid-controller/capacitor.aixsym.json",
+              "revision": "1.0.0",
+              "symbolId": "demo.electronics:capacitor"
+            },
+            "fieldMap": {
+              "reference": "refdes",
+              "value": "value"
+            },
+            "portMap": {
+              "1": "1",
+              "2": "2"
+            },
+            "purpose": "primary-diagram"
+          }
+        ],
+        "properties": [
+          {
+            "id": "refdes",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "id": "value",
+            "required": false,
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "classification": [],
+        "description": "3-wire sensor connector",
+        "displayName": "3-wire sensor connector",
+        "id": "demo.electronics:sensor-connector-3",
+        "kind": "connector",
+        "metadata": {
+          "partProvenance": {
+            "status": "generic-template"
+          },
+          "semanticReady": true
+        },
+        "ports": [
+          {
+            "id": "1",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "supply",
+            "required": false,
+            "terminal": "1",
+            "type": "passive"
+          },
+          {
+            "id": "2",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "signal",
+            "required": false,
+            "terminal": "2",
+            "type": "passive"
+          },
+          {
+            "id": "3",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "return",
+            "required": false,
+            "terminal": "3",
+            "type": "passive"
+          }
+        ],
+        "presentations": [
+          {
+            "asset": {
+              "digest": "sha256:44a4b48baec34076c56d390d8b7dbb62e7462673c8c2a28f5b87068ea8f67431",
+              "path": "library/electronics/grid-controller/sensor-connector-3.aixsym.json",
+              "revision": "1.0.0",
+              "symbolId": "demo.electronics:sensor-connector-3"
+            },
+            "fieldMap": {
+              "reference": "refdes",
+              "value": "value"
+            },
+            "portMap": {
+              "1": "1",
+              "2": "2",
+              "3": "3"
+            },
+            "purpose": "primary-diagram"
+          }
+        ],
+        "properties": [
+          {
+            "id": "refdes",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "id": "value",
+            "required": false,
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "classification": [],
+        "description": "Resistor",
+        "displayName": "Resistor",
+        "id": "demo.electronics:resistor",
+        "kind": "passive",
+        "metadata": {
+          "partProvenance": {
+            "status": "generic-template"
+          },
+          "semanticReady": true
+        },
+        "ports": [
+          {
+            "id": "1",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "terminal 1",
+            "required": false,
+            "terminal": "1",
+            "type": "passive"
+          },
+          {
+            "id": "2",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "terminal 2",
+            "required": false,
+            "terminal": "2",
+            "type": "passive"
+          }
+        ],
+        "presentations": [
+          {
+            "asset": {
+              "digest": "sha256:c30ee87185bc5d5596739bb0343f99a0a602256dd768ea8c58a466eab28d8de8",
+              "path": "library/electronics/grid-controller/resistor.aixsym.json",
+              "revision": "1.0.0",
+              "symbolId": "demo.electronics:resistor"
+            },
+            "defaultVariant": "iec",
+            "fieldMap": {
+              "reference": "refdes",
+              "value": "value"
+            },
+            "portMap": {
+              "1": "1",
+              "2": "2"
+            },
+            "purpose": "primary-diagram"
+          }
+        ],
+        "properties": [
+          {
+            "id": "refdes",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "id": "value",
+            "required": false,
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "classification": [],
+        "description": "MCU ADC",
+        "displayName": "MCU ADC",
+        "id": "demo.electronics:mcu-adc",
+        "kind": "integrated-circuit",
+        "metadata": {
+          "partProvenance": {
+            "status": "generic-template"
+          },
+          "semanticReady": true
+        },
+        "ports": [
+          {
+            "id": "3V3",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [
+                  "power"
+                ],
+                "polarity": "unspecified",
+                "powerDomain": "3.3 v",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "power"
+              }
+            },
+            "name": "3.3 V",
+            "required": true,
+            "terminal": "3V3",
+            "type": "power-input"
+          },
+          {
+            "id": "GND",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [
+                  "power"
+                ],
+                "polarity": "unspecified",
+                "powerDomain": "ground",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "power"
+              }
+            },
+            "name": "ground",
+            "required": true,
+            "terminal": "GND",
+            "type": "power-input"
+          },
+          {
+            "id": "ADC",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "analog"
+              }
+            },
+            "name": "analog input",
+            "required": true,
+            "terminal": "ADC",
+            "type": "input"
+          },
+          {
+            "id": "GPIO",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "digital"
+              }
+            },
+            "name": "digital output",
+            "required": false,
+            "terminal": "GPIO",
+            "type": "output"
+          }
+        ],
+        "presentations": [
+          {
+            "asset": {
+              "digest": "sha256:c1e57b812e2938310e659e2040d485aeccee915e960296dec945b31262335ed4",
+              "path": "library/electronics/grid-controller/mcu-adc.aixsym.json",
+              "revision": "1.0.0",
+              "symbolId": "demo.electronics:mcu-adc"
+            },
+            "fieldMap": {
+              "reference": "refdes",
+              "value": "value"
+            },
+            "portMap": {
+              "3V3": "3V3",
+              "ADC": "ADC",
+              "GND": "GND",
+              "GPIO": "GPIO"
+            },
+            "purpose": "primary-diagram"
+          }
+        ],
+        "properties": [
+          {
+            "id": "refdes",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "id": "value",
+            "required": false,
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "classification": [],
+        "description": "LED",
+        "displayName": "LED",
+        "id": "demo.electronics:led",
+        "kind": "optoelectronic",
+        "metadata": {
+          "partProvenance": {
+            "status": "generic-template"
+          },
+          "semanticReady": true
+        },
+        "ports": [
+          {
+            "id": "A",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "anode",
+            "required": false,
+            "terminal": "A",
+            "type": "passive"
+          },
+          {
+            "id": "K",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "cathode",
+            "required": false,
+            "terminal": "K",
+            "type": "passive"
+          }
+        ],
+        "presentations": [
+          {
+            "asset": {
+              "digest": "sha256:4ece48f40e0fc2b2f87c553c1d7efb706b46d89579919b36fc41c0631b789d79",
+              "path": "library/electronics/grid-controller/led.aixsym.json",
+              "revision": "1.0.0",
+              "symbolId": "demo.electronics:led"
+            },
+            "fieldMap": {
+              "reference": "refdes",
+              "value": "value"
+            },
+            "portMap": {
+              "A": "A",
+              "K": "K"
+            },
+            "purpose": "primary-diagram"
+          }
+        ],
+        "properties": [
+          {
+            "id": "refdes",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "id": "value",
+            "required": false,
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "classification": [
+          "aixem-grid-demo"
+        ],
+        "description": "24-pin grid demonstration controller",
+        "displayName": "CONTROL MCU",
+        "id": "demo.electronics:controller-24",
+        "kind": "controller",
+        "metadata": {
+          "gridProfile": "aixem.schematic.grid-light",
+          "partProvenance": {
+            "status": "generic-template"
+          },
+          "semanticReady": true
+        },
+        "ports": [
+          {
+            "id": "PA0",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "PA0 / IN1",
+            "required": false,
+            "terminal": "1",
+            "type": "passive"
+          },
+          {
+            "id": "PA1",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "PA1 / IN2",
+            "required": false,
+            "terminal": "2",
+            "type": "passive"
+          },
+          {
+            "id": "PA2",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "SWO",
+            "required": false,
+            "terminal": "3",
+            "type": "passive"
+          },
+          {
+            "id": "PA3",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "PA3",
+            "required": false,
+            "terminal": "4",
+            "type": "passive"
+          },
+          {
+            "id": "ADC0",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [
+                  "sense"
+                ],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "analog"
+              }
+            },
+            "name": "ADC0",
+            "required": false,
+            "terminal": "5",
+            "type": "passive"
+          },
+          {
+            "id": "ADC1",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [
+                  "sense"
+                ],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "analog"
+              }
+            },
+            "name": "ADC1",
+            "required": false,
+            "terminal": "6",
+            "type": "passive"
+          },
+          {
+            "id": "NRST",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "active-low",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "NRST#",
+            "required": false,
+            "terminal": "7",
+            "type": "passive"
+          },
+          {
+            "id": "BOOT0",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "BOOT0",
+            "required": false,
+            "terminal": "8",
+            "type": "passive"
+          },
+          {
+            "id": "XTAL1",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "XTAL1",
+            "required": false,
+            "terminal": "9",
+            "type": "passive"
+          },
+          {
+            "id": "XTAL2",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "XTAL2",
+            "required": false,
+            "terminal": "10",
+            "type": "passive"
+          },
+          {
+            "id": "PB0",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "PB0 / OUT1",
+            "required": false,
+            "terminal": "11",
+            "type": "passive"
+          },
+          {
+            "id": "PB1",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "PB1 / OUT2",
+            "required": false,
+            "terminal": "12",
+            "type": "passive"
+          },
+          {
+            "id": "PB2",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "PB2 / LED1",
+            "required": false,
+            "terminal": "13",
+            "type": "passive"
+          },
+          {
+            "id": "PB3",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "PB3 / LED2",
+            "required": false,
+            "terminal": "14",
+            "type": "passive"
+          },
+          {
+            "id": "SWDIO",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [
+                  "debug"
+                ],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "SWDIO",
+            "required": false,
+            "terminal": "15",
+            "type": "passive"
+          },
+          {
+            "id": "SWCLK",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [
+                  "debug",
+                  "clock"
+                ],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "SWCLK",
+            "required": false,
+            "terminal": "16",
+            "type": "passive"
+          },
+          {
+            "id": "UART_TX",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "UART_TX",
+            "required": false,
+            "terminal": "17",
+            "type": "passive"
+          },
+          {
+            "id": "UART_RX",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "UART_RX",
+            "required": false,
+            "terminal": "18",
+            "type": "passive"
+          },
+          {
+            "id": "USB_DP",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "USB_DP",
+            "required": false,
+            "terminal": "19",
+            "type": "passive"
+          },
+          {
+            "id": "USB_DM",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "USB_DM",
+            "required": false,
+            "terminal": "20",
+            "type": "passive"
+          },
+          {
+            "id": "3V3A",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "3V3A",
+            "required": false,
+            "terminal": "21",
+            "type": "passive"
+          },
+          {
+            "id": "3V3D",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "3V3D",
+            "required": false,
+            "terminal": "22",
+            "type": "passive"
+          },
+          {
+            "id": "GNDA",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [
+                  "ground"
+                ],
+                "polarity": "unspecified",
+                "powerDomain": "gnda",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "ground"
+              }
+            },
+            "name": "GNDA",
+            "required": false,
+            "terminal": "23",
+            "type": "passive"
+          },
+          {
+            "id": "GNDD",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [
+                  "ground"
+                ],
+                "polarity": "unspecified",
+                "powerDomain": "gndd",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "ground"
+              }
+            },
+            "name": "GNDD",
+            "required": false,
+            "terminal": "24",
+            "type": "passive"
+          }
+        ],
+        "presentations": [
+          {
+            "asset": {
+              "digest": "sha256:27c0ddd46f5abe5c7cc8d3c116a19d7a179db71f52a5021829e6882eb6df0aa8",
+              "path": "library/electronics/grid-controller/controller-24.aixsym.json",
+              "revision": "1.0.0",
+              "symbolId": "demo.electronics:controller-24"
+            },
+            "fieldMap": {
+              "reference": "refdes",
+              "value": "value"
+            },
+            "portMap": {
+              "3V3A": "3V3A",
+              "3V3D": "3V3D",
+              "ADC0": "ADC0",
+              "ADC1": "ADC1",
+              "BOOT0": "BOOT0",
+              "GNDA": "GNDA",
+              "GNDD": "GNDD",
+              "NRST": "NRST",
+              "PA0": "PA0",
+              "PA1": "PA1",
+              "PA2": "PA2",
+              "PA3": "PA3",
+              "PB0": "PB0",
+              "PB1": "PB1",
+              "PB2": "PB2",
+              "PB3": "PB3",
+              "SWCLK": "SWCLK",
+              "SWDIO": "SWDIO",
+              "UART_RX": "UART_RX",
+              "UART_TX": "UART_TX",
+              "USB_DM": "USB_DM",
+              "USB_DP": "USB_DP",
+              "XTAL1": "XTAL1",
+              "XTAL2": "XTAL2"
+            },
+            "purpose": "primary-diagram"
+          }
+        ],
+        "properties": [
+          {
+            "id": "refdes",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "id": "value",
+            "required": false,
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "classification": [
+          "aixem-grid-demo"
+        ],
+        "description": "10-pin debug connector",
+        "displayName": "DEBUG / SWD",
+        "id": "demo.electronics:debug-header-10",
+        "kind": "connector",
+        "metadata": {
+          "gridProfile": "aixem.schematic.grid-light",
+          "partProvenance": {
+            "status": "generic-template"
+          },
+          "semanticReady": true
+        },
+        "ports": [
+          {
+            "id": "1",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "VREF",
+            "required": false,
+            "terminal": "1",
+            "type": "passive"
+          },
+          {
+            "id": "3",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [
+                  "ground"
+                ],
+                "polarity": "unspecified",
+                "powerDomain": "gnd",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "ground"
+              }
+            },
+            "name": "GND",
+            "required": false,
+            "terminal": "2",
+            "type": "passive"
+          },
+          {
+            "id": "5",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [
+                  "ground"
+                ],
+                "polarity": "unspecified",
+                "powerDomain": "gnd",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "ground"
+              }
+            },
+            "name": "GND",
+            "required": false,
+            "terminal": "3",
+            "type": "passive"
+          },
+          {
+            "id": "7",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "NC",
+            "required": false,
+            "terminal": "4",
+            "type": "passive"
+          },
+          {
+            "id": "9",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [
+                  "reset"
+                ],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "RESET",
+            "required": false,
+            "terminal": "5",
+            "type": "passive"
+          },
+          {
+            "id": "2",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [
+                  "debug"
+                ],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "SWDIO",
+            "required": false,
+            "terminal": "6",
+            "type": "passive"
+          },
+          {
+            "id": "4",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [
+                  "debug",
+                  "clock"
+                ],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "SWCLK",
+            "required": false,
+            "terminal": "7",
+            "type": "passive"
+          },
+          {
+            "id": "6",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "SWO",
+            "required": false,
+            "terminal": "8",
+            "type": "passive"
+          },
+          {
+            "id": "8",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "NC",
+            "required": false,
+            "terminal": "9",
+            "type": "passive"
+          },
+          {
+            "id": "10",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [
+                  "ground"
+                ],
+                "polarity": "unspecified",
+                "powerDomain": "gnd",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "ground"
+              }
+            },
+            "name": "GND",
+            "required": false,
+            "terminal": "10",
+            "type": "passive"
+          }
+        ],
+        "presentations": [
+          {
+            "asset": {
+              "digest": "sha256:b978605c193685347cedf930e0f0a8a76d5aa2195ec7a6417c3e4ea62f13f8bb",
+              "path": "library/electronics/grid-controller/debug-header-10.aixsym.json",
+              "revision": "1.0.0",
+              "symbolId": "demo.electronics:debug-header-10"
+            },
+            "fieldMap": {
+              "reference": "refdes",
+              "value": "value"
+            },
+            "portMap": {
+              "1": "1",
+              "10": "10",
+              "2": "2",
+              "3": "3",
+              "4": "4",
+              "5": "5",
+              "6": "6",
+              "7": "7",
+              "8": "8",
+              "9": "9"
+            },
+            "purpose": "primary-diagram"
+          }
+        ],
+        "properties": [
+          {
+            "id": "refdes",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "id": "value",
+            "required": false,
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "classification": [
+          "aixem-grid-demo"
+        ],
+        "description": "8-pin field I/O connector",
+        "displayName": "FIELD I/O",
+        "id": "demo.electronics:io-header-8",
+        "kind": "connector",
+        "metadata": {
+          "gridProfile": "aixem.schematic.grid-light",
+          "partProvenance": {
+            "status": "generic-template"
+          },
+          "semanticReady": true
+        },
+        "ports": [
+          {
+            "id": "1",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "OUT1",
+            "required": false,
+            "terminal": "1",
+            "type": "passive"
+          },
+          {
+            "id": "2",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "OUT2",
+            "required": false,
+            "terminal": "2",
+            "type": "passive"
+          },
+          {
+            "id": "3",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "RES1",
+            "required": false,
+            "terminal": "3",
+            "type": "passive"
+          },
+          {
+            "id": "4",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "RES2",
+            "required": false,
+            "terminal": "4",
+            "type": "passive"
+          },
+          {
+            "id": "5",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "IN1",
+            "required": false,
+            "terminal": "5",
+            "type": "passive"
+          },
+          {
+            "id": "6",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "IN2",
+            "required": false,
+            "terminal": "6",
+            "type": "passive"
+          },
+          {
+            "id": "7",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "3V3",
+            "required": false,
+            "terminal": "7",
+            "type": "passive"
+          },
+          {
+            "id": "8",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [
+                  "ground"
+                ],
+                "polarity": "unspecified",
+                "powerDomain": "gnd",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "ground"
+              }
+            },
+            "name": "GND",
+            "required": false,
+            "terminal": "8",
+            "type": "passive"
+          }
+        ],
+        "presentations": [
+          {
+            "asset": {
+              "digest": "sha256:6f75c80a590c4d34cf024937ef114bf4c67deca3793df9b0d838dea90f6ba2aa",
+              "path": "library/electronics/grid-controller/io-header-8.aixsym.json",
+              "revision": "1.0.0",
+              "symbolId": "demo.electronics:io-header-8"
+            },
+            "fieldMap": {
+              "reference": "refdes",
+              "value": "value"
+            },
+            "portMap": {
+              "1": "1",
+              "2": "2",
+              "3": "3",
+              "4": "4",
+              "5": "5",
+              "6": "6",
+              "7": "7",
+              "8": "8"
+            },
+            "purpose": "primary-diagram"
+          }
+        ],
+        "properties": [
+          {
+            "id": "refdes",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "id": "value",
+            "required": false,
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "classification": [
+          "aixem-grid-demo"
+        ],
+        "description": "Six-pin analog front end",
+        "displayName": "ANALOG FRONT END",
+        "id": "demo.electronics:analog-front-end",
+        "kind": "analog",
+        "metadata": {
+          "gridProfile": "aixem.schematic.grid-light",
+          "partProvenance": {
+            "status": "generic-template"
+          },
+          "semanticReady": true
+        },
+        "ports": [
+          {
+            "id": "VINP",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [
+                  "power"
+                ],
+                "polarity": "unspecified",
+                "powerDomain": "vin+",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "power"
+              }
+            },
+            "name": "VIN+",
+            "required": false,
+            "terminal": "1",
+            "type": "passive"
+          },
+          {
+            "id": "VINN",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [
+                  "power"
+                ],
+                "polarity": "unspecified",
+                "powerDomain": "vin−",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "power"
+              }
+            },
+            "name": "VIN−",
+            "required": false,
+            "terminal": "2",
+            "type": "passive"
+          },
+          {
+            "id": "VREF",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "VREF",
+            "required": false,
+            "terminal": "3",
+            "type": "passive"
+          },
+          {
+            "id": "VOUT",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [
+                  "power"
+                ],
+                "polarity": "unspecified",
+                "powerDomain": "vout",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "power"
+              }
+            },
+            "name": "VOUT",
+            "required": false,
+            "terminal": "4",
+            "type": "passive"
+          },
+          {
+            "id": "3V3",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "3V3",
+            "required": false,
+            "terminal": "5",
+            "type": "passive"
+          },
+          {
+            "id": "GND",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [
+                  "ground"
+                ],
+                "polarity": "unspecified",
+                "powerDomain": "gnd",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "ground"
+              }
+            },
+            "name": "GND",
+            "required": false,
+            "terminal": "6",
+            "type": "passive"
+          }
+        ],
+        "presentations": [
+          {
+            "asset": {
+              "digest": "sha256:56544f87179fd90d34d3ffa5bf6d733df4707e2fda2eece32adb57c4bd5a1ff6",
+              "path": "library/electronics/grid-controller/analog-front-end.aixsym.json",
+              "revision": "1.0.0",
+              "symbolId": "demo.electronics:analog-front-end"
+            },
+            "fieldMap": {
+              "reference": "refdes",
+              "value": "value"
+            },
+            "portMap": {
+              "3V3": "3V3",
+              "GND": "GND",
+              "VINN": "VINN",
+              "VINP": "VINP",
+              "VOUT": "VOUT",
+              "VREF": "VREF"
+            },
+            "purpose": "primary-diagram"
+          }
+        ],
+        "properties": [
+          {
+            "id": "refdes",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "id": "value",
+            "required": false,
+            "type": "string"
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "description": "CC0 AIXEM symbols plus original multi-pin controller, debug, I/O and analog-front-end symbols for the grid-first schematic profile.",
+    "id": "demo.electronics:grid-core",
+    "metadata": {
+      "profile": "component.graphics@1"
+    },
+    "namespace": "demo.electronics",
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-10",
+      "license": "CC0-1.0",
+      "notes": "Original AIXEM geometry only; no Cadence, KiCad or other vendor library asset is copied.",
+      "origin": "AIXEM Schematic Reference Platform 0.4"
+    },
+    "title": "AIXEM grid-controller demonstration library",
+    "version": "1.1.0"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/aixlib/1"
+}

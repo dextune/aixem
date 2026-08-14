@@ -1,0 +1,10 @@
+{
+  "assertions": [
+    "two-semantic-endpoints-per-local-net"
+  ],
+  "expected": "pass",
+  "expectedDiagnostic": null,
+  "id": "H002",
+  "project": "project.aixproj.json",
+  "title": "Single local endpoint + interface port"
+}

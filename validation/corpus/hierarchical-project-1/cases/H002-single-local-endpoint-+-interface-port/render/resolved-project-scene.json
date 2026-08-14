@@ -1,0 +1,524 @@
+{
+  "authority": {
+    "connectivityFromGeometry": false,
+    "layersAreSheets": false,
+    "localPresentation": "aixlayout/2",
+    "localSemantics": ".aixem",
+    "projectComposition": "aixproj/2"
+  },
+  "diagnostics": [],
+  "generatedAt": "2026-08-10T12:00:00Z",
+  "hashes": {
+    "inputs": [
+      {
+        "layoutDigest": "sha256:a0941cf0d98766dd8c945b1ad350246535fe528c771e879ae50614fe1ecac3ff",
+        "layoutPath": "layouts/source.aixlayout.json",
+        "resolvedSceneDigest": "sha256:b95bd8ac593f52b55c3973ecde3c82f629a7d212970dee5409d99d06bafab4c6",
+        "sheet": "source",
+        "sourceDigest": "sha256:09ceae094a60598570970ace2e7698d28092a094a2618aa656926b3b2e4dabed",
+        "sourcePath": "circuits/source.aixem",
+        "svgDigest": "sha256:86d989cfbe253f7c484685607a9138bb43592fc3ebf967ae5e66d00d9a03ca81"
+      },
+      {
+        "layoutDigest": "sha256:296dc07710072aca84a27de988b09382c39ebe39cf738cd00d3a62ecb04c446d",
+        "layoutPath": "layouts/sink.aixlayout.json",
+        "resolvedSceneDigest": "sha256:1b395531976b67fc0079edd0d2a31305fd3dc8708b965bf8fbee627728aebcdd",
+        "sheet": "sink",
+        "sourceDigest": "sha256:39ec1052f0aaf41fb0ef28a2310ef30e19ad068d874eabca9d59cc8288c39877",
+        "sourcePath": "circuits/sink.aixem",
+        "svgDigest": "sha256:d24b325eec530c29d4730554b0a5604047f80f506073a4eafcc07ade4ee8b6cd"
+      }
+    ],
+    "manifest": "sha256:0aff6616104f8f2ce99c982e9f964a5a6b68189cdd1592ff697d12307adaf103",
+    "styleProfile": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393"
+  },
+  "hierarchy": [
+    {
+      "children": [],
+      "depth": 0,
+      "id": "source",
+      "order": 10,
+      "parent": null,
+      "title": "Source"
+    },
+    {
+      "children": [],
+      "depth": 0,
+      "id": "sink",
+      "order": 20,
+      "parent": null,
+      "title": "Sink"
+    }
+  ],
+  "interfaceSummaries": {
+    "sink": {
+      "layoutDigest": "sha256:296dc07710072aca84a27de988b09382c39ebe39cf738cd00d3a62ecb04c446d",
+      "ports": [
+        {
+          "direction": "input",
+          "id": "IN",
+          "localNet": "in",
+          "projectNet": "signal",
+          "role": "signal"
+        }
+      ],
+      "sheet": "sink",
+      "sourceDigest": "sha256:39ec1052f0aaf41fb0ef28a2310ef30e19ad068d874eabca9d59cc8288c39877",
+      "title": "Sink"
+    },
+    "source": {
+      "layoutDigest": "sha256:a0941cf0d98766dd8c945b1ad350246535fe528c771e879ae50614fe1ecac3ff",
+      "ports": [
+        {
+          "direction": "output",
+          "id": "OUT",
+          "localNet": "out",
+          "projectNet": "signal",
+          "role": "signal"
+        }
+      ],
+      "sheet": "source",
+      "sourceDigest": "sha256:09ceae094a60598570970ace2e7698d28092a094a2618aa656926b3b2e4dabed",
+      "title": "Source"
+    }
+  },
+  "project": {
+    "id": "hierarchical:h002",
+    "profile": "aixem.schematic.multisheet@1",
+    "schema": "https://schemas.aixem.org/component-graphics/aixproj/2",
+    "title": "Single local endpoint + interface port"
+  },
+  "renderer": {
+    "id": "aixem-hierarchical-project-reference-renderer",
+    "version": "0.5.3"
+  },
+  "routing": {
+    "composite": {
+      "anchors": [
+        {
+          "direction": "input",
+          "localNet": "in",
+          "point": [
+            80.0,
+            320.5
+          ],
+          "port": "IN",
+          "projectNet": "signal",
+          "role": "signal",
+          "sheet": "sink",
+          "side": "left"
+        },
+        {
+          "direction": "output",
+          "localNet": "out",
+          "point": [
+            220.0,
+            102.5
+          ],
+          "port": "OUT",
+          "projectNet": "signal",
+          "role": "signal",
+          "sheet": "source",
+          "side": "right"
+        }
+      ],
+      "canvas": {
+        "height": 438.0,
+        "width": 365.0
+      },
+      "diagnostics": [],
+      "mode": "composite",
+      "nets": [
+        {
+          "id": "signal",
+          "junctions": [
+            [
+              300.0,
+              105.5
+            ],
+            [
+              300.0,
+              249.0
+            ]
+          ],
+          "label": "signal",
+          "members": [
+            {
+              "anchor": [
+                220.0,
+                102.5
+              ],
+              "localNet": "out",
+              "port": "OUT",
+              "sheet": "source",
+              "side": "right"
+            },
+            {
+              "anchor": [
+                80.0,
+                320.5
+              ],
+              "localNet": "in",
+              "port": "IN",
+              "sheet": "sink",
+              "side": "left"
+            }
+          ],
+          "paths": [
+            [
+              [
+                220.0,
+                102.5
+              ],
+              [
+                244.0,
+                102.5
+              ],
+              [
+                244.0,
+                105.5
+              ],
+              [
+                300.0,
+                105.5
+              ]
+            ],
+            [
+              [
+                80.0,
+                320.5
+              ],
+              [
+                56.0,
+                320.5
+              ],
+              [
+                22.0,
+                320.5
+              ],
+              [
+                22.0,
+                249.0
+              ],
+              [
+                300.0,
+                249.0
+              ]
+            ],
+            [
+              [
+                300.0,
+                105.5
+              ],
+              [
+                300.0,
+                249.0
+              ]
+            ]
+          ],
+          "role": null,
+          "trunkX": 300.0
+        }
+      ],
+      "sheets": [
+        {
+          "depth": 0,
+          "id": "source",
+          "rect": [
+            70.0,
+            60.0,
+            160.0,
+            100.0
+          ],
+          "title": "Source",
+          "transform": {
+            "scale": 1.0,
+            "x": 70.0,
+            "y": 60.0
+          }
+        },
+        {
+          "depth": 0,
+          "id": "sink",
+          "rect": [
+            70.0,
+            278.0,
+            160.0,
+            100.0
+          ],
+          "title": "Sink",
+          "transform": {
+            "scale": 1.0,
+            "x": 70.0,
+            "y": 278.0
+          }
+        }
+      ]
+    },
+    "overview": {
+      "anchors": [
+        {
+          "direction": "input",
+          "localNet": "in",
+          "point": [
+            70.0,
+            274.0
+          ],
+          "port": "IN",
+          "projectNet": "signal",
+          "role": "signal",
+          "sheet": "sink",
+          "side": "left"
+        },
+        {
+          "direction": "output",
+          "localNet": "out",
+          "point": [
+            250.0,
+            94.0
+          ],
+          "port": "OUT",
+          "projectNet": "signal",
+          "role": "signal",
+          "sheet": "source",
+          "side": "right"
+        }
+      ],
+      "canvas": {
+        "height": 378.0,
+        "width": 385.0
+      },
+      "diagnostics": [],
+      "mode": "overview",
+      "nets": [
+        {
+          "id": "signal",
+          "junctions": [
+            [
+              320.0,
+              97.0
+            ],
+            [
+              320.0,
+              201.0
+            ]
+          ],
+          "label": "signal",
+          "members": [
+            {
+              "anchor": [
+                250.0,
+                94.0
+              ],
+              "localNet": "out",
+              "port": "OUT",
+              "sheet": "source",
+              "side": "right"
+            },
+            {
+              "anchor": [
+                70.0,
+                274.0
+              ],
+              "localNet": "in",
+              "port": "IN",
+              "sheet": "sink",
+              "side": "left"
+            }
+          ],
+          "paths": [
+            [
+              [
+                250.0,
+                94.0
+              ],
+              [
+                264.0,
+                94.0
+              ],
+              [
+                264.0,
+                97.0
+              ],
+              [
+                320.0,
+                97.0
+              ]
+            ],
+            [
+              [
+                70.0,
+                274.0
+              ],
+              [
+                56.0,
+                274.0
+              ],
+              [
+                22.0,
+                274.0
+              ],
+              [
+                22.0,
+                201.0
+              ],
+              [
+                320.0,
+                201.0
+              ]
+            ],
+            [
+              [
+                320.0,
+                97.0
+              ],
+              [
+                320.0,
+                201.0
+              ]
+            ]
+          ],
+          "role": null,
+          "trunkX": 320.0
+        }
+      ],
+      "sheets": [
+        {
+          "depth": 0,
+          "id": "source",
+          "rect": [
+            70.0,
+            50.0,
+            180.0,
+            88.0
+          ],
+          "title": "Source",
+          "transform": {
+            "scale": 1.0,
+            "x": 70.0,
+            "y": 50.0
+          }
+        },
+        {
+          "depth": 0,
+          "id": "sink",
+          "rect": [
+            70.0,
+            230.0,
+            180.0,
+            88.0
+          ],
+          "title": "Sink",
+          "transform": {
+            "scale": 1.0,
+            "x": 70.0,
+            "y": 230.0
+          }
+        }
+      ]
+    }
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/resolved-project-scene/1",
+  "semanticGraph": {
+    "identities": {
+      "interfaces": [
+        "interface:source:OUT",
+        "interface:sink:IN"
+      ],
+      "projectNets": [
+        "project-net:signal"
+      ],
+      "sheets": [
+        "sheet:source",
+        "sheet:sink"
+      ]
+    },
+    "projectNets": [
+      {
+        "crossesHierarchyBoundary": true,
+        "id": "signal",
+        "members": [
+          {
+            "interface": "interface:source:OUT",
+            "localNet": "out",
+            "port": "OUT",
+            "qualifiedLocalNet": "local-net:source:out",
+            "sheet": "source"
+          },
+          {
+            "interface": "interface:sink:IN",
+            "localNet": "in",
+            "port": "IN",
+            "qualifiedLocalNet": "local-net:sink:in",
+            "sheet": "sink"
+          }
+        ],
+        "qualifiedId": "project-net:signal",
+        "transitiveEndpoints": [
+          "entity:sink:U1.1",
+          "entity:source:U1.5",
+          "interface:sink:IN",
+          "interface:source:OUT"
+        ]
+      }
+    ],
+    "unconnectedPorts": []
+  },
+  "sheets": [
+    {
+      "id": "source",
+      "layout": {
+        "digest": "sha256:a0941cf0d98766dd8c945b1ad350246535fe528c771e879ae50614fe1ecac3ff",
+        "id": "h002-single-local-endpoint-interface-port:source-layout",
+        "mediaType": "application/json",
+        "path": "layouts/source.aixlayout.json",
+        "version": "2.0"
+      },
+      "order": 10,
+      "parent": null,
+      "resolvedScene": "sheets/source.resolved-scene.json",
+      "source": {
+        "digest": "sha256:09ceae094a60598570970ace2e7698d28092a094a2618aa656926b3b2e4dabed",
+        "id": "h002-single-local-endpoint-interface-port:source",
+        "mediaType": "text/x-aixem",
+        "path": "circuits/source.aixem",
+        "version": "1.0"
+      },
+      "svg": "sheets/source.svg",
+      "title": "Source"
+    },
+    {
+      "id": "sink",
+      "layout": {
+        "digest": "sha256:296dc07710072aca84a27de988b09382c39ebe39cf738cd00d3a62ecb04c446d",
+        "id": "h002-single-local-endpoint-interface-port:sink-layout",
+        "mediaType": "application/json",
+        "path": "layouts/sink.aixlayout.json",
+        "version": "2.0"
+      },
+      "order": 20,
+      "parent": null,
+      "resolvedScene": "sheets/sink.resolved-scene.json",
+      "source": {
+        "digest": "sha256:39ec1052f0aaf41fb0ef28a2310ef30e19ad068d874eabca9d59cc8288c39877",
+        "id": "h002-single-local-endpoint-interface-port:sink",
+        "mediaType": "text/x-aixem",
+        "path": "circuits/sink.aixem",
+        "version": "1.0"
+      },
+      "svg": "sheets/sink.svg",
+      "title": "Sink"
+    }
+  ],
+  "statistics": {
+    "entities": 2,
+    "hierarchyDepth": 0,
+    "interfacePorts": 2,
+    "localNets": 2,
+    "localRouteSegments": 2,
+    "projectNets": 1,
+    "projectRouteSegments": 16,
+    "sheets": 2,
+    "unconnectedProjectPorts": 0
+  }
+}

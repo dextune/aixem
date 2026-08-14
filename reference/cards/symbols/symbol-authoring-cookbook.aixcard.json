@@ -1,0 +1,57 @@
+{
+  "card": {
+    "aliases": [
+      "symbol cookbook",
+      "drawing recipes",
+      "create component graphics"
+    ],
+    "appliesTo": [
+      "symbol-authoring-recipes"
+    ],
+    "domain": "symbols",
+    "estimatedReadBytes": 20640,
+    "id": "AIXEM-SYMBOL-COOKBOOK-001",
+    "inputs": [],
+    "keywords": [
+      "Symbol Authoring Cookbook",
+      "author-component-circuit",
+      "create component graphics",
+      "create-symbol",
+      "drawing recipes",
+      "symbol cookbook"
+    ],
+    "kind": "cookbook",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/symbols/symbol-authoring-cookbook.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:2aa5c9a0fd8ede00355a470a080b6a19af3f94f9c205a4f29e2559607a192644"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SPEC-SYMBOL-DESIGN-001",
+      "AIXEM-SYMBOL-AIXSYM-REF-001",
+      "AIXEM-SYMBOL-PORTS-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-SYMBOL-COOKBOOK-001.read",
+        "level": "should",
+        "text": "Provides executable, schema-valid recipes for drawing common AIXEM schematic symbols without renderer-code discovery."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SYMBOL-COOKBOOK-001",
+        "path": "docs/symbols/symbol-authoring-cookbook.md"
+      }
+    ],
+    "summary": "Provides executable, schema-valid recipes for drawing common AIXEM schematic symbols without renderer-code discovery.",
+    "title": "Symbol Authoring Cookbook"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

@@ -1,0 +1,743 @@
+{
+  "bounds": {
+    "height": 185.0,
+    "width": 190,
+    "x": -95,
+    "y": -92.5
+  },
+  "capabilities": [
+    "geometry.line",
+    "geometry.rect",
+    "port.mapping",
+    "scale.high-port-count",
+    "text.field"
+  ],
+  "case": "S024",
+  "defaultVariant": null,
+  "definitions": [],
+  "fieldAnchors": [
+    {
+      "field": "reference",
+      "id": "field-reference",
+      "x": 0,
+      "y": -85
+    },
+    {
+      "field": "value",
+      "id": "field-value",
+      "x": 0,
+      "y": 85
+    }
+  ],
+  "parameters": {},
+  "ports": [
+    {
+      "id": "PA0",
+      "orientation": 180,
+      "visible": true,
+      "x": -70.0,
+      "y": -60.0
+    },
+    {
+      "id": "PA1",
+      "orientation": 180,
+      "visible": true,
+      "x": -70.0,
+      "y": -55.0
+    },
+    {
+      "id": "PA2",
+      "orientation": 180,
+      "visible": true,
+      "x": -70.0,
+      "y": -50.0
+    },
+    {
+      "id": "PA3",
+      "orientation": 180,
+      "visible": true,
+      "x": -70.0,
+      "y": -45.0
+    },
+    {
+      "id": "PA4",
+      "orientation": 180,
+      "visible": true,
+      "x": -70.0,
+      "y": -40.0
+    },
+    {
+      "id": "PA5",
+      "orientation": 180,
+      "visible": true,
+      "x": -70.0,
+      "y": -35.0
+    },
+    {
+      "id": "PA6",
+      "orientation": 180,
+      "visible": true,
+      "x": -70.0,
+      "y": -30.0
+    },
+    {
+      "id": "PA7",
+      "orientation": 180,
+      "visible": true,
+      "x": -70.0,
+      "y": -25.0
+    },
+    {
+      "id": "PA8",
+      "orientation": 180,
+      "visible": true,
+      "x": -70.0,
+      "y": -20.0
+    },
+    {
+      "id": "PA9",
+      "orientation": 180,
+      "visible": true,
+      "x": -70.0,
+      "y": -15.0
+    },
+    {
+      "id": "PA10",
+      "orientation": 180,
+      "visible": true,
+      "x": -70.0,
+      "y": -10.0
+    },
+    {
+      "id": "PA11",
+      "orientation": 180,
+      "visible": true,
+      "x": -70.0,
+      "y": -5.0
+    },
+    {
+      "id": "PA12",
+      "orientation": 180,
+      "visible": true,
+      "x": -70.0,
+      "y": 0.0
+    },
+    {
+      "id": "PA13",
+      "orientation": 180,
+      "visible": true,
+      "x": -70.0,
+      "y": 5.0
+    },
+    {
+      "id": "PA14",
+      "orientation": 180,
+      "visible": true,
+      "x": -70.0,
+      "y": 10.0
+    },
+    {
+      "id": "PA15",
+      "orientation": 180,
+      "visible": true,
+      "x": -70.0,
+      "y": 15.0
+    },
+    {
+      "id": "PA16",
+      "orientation": 180,
+      "visible": true,
+      "x": -70.0,
+      "y": 20.0
+    },
+    {
+      "id": "PA17",
+      "orientation": 180,
+      "visible": true,
+      "x": -70.0,
+      "y": 25.0
+    },
+    {
+      "id": "PA18",
+      "orientation": 180,
+      "visible": true,
+      "x": -70.0,
+      "y": 30.0
+    },
+    {
+      "id": "PA19",
+      "orientation": 180,
+      "visible": true,
+      "x": -70.0,
+      "y": 35.0
+    },
+    {
+      "id": "PA20",
+      "orientation": 180,
+      "visible": true,
+      "x": -70.0,
+      "y": 40.0
+    },
+    {
+      "id": "PA21",
+      "orientation": 180,
+      "visible": true,
+      "x": -70.0,
+      "y": 45.0
+    },
+    {
+      "id": "PA22",
+      "orientation": 180,
+      "visible": true,
+      "x": -70.0,
+      "y": 50.0
+    },
+    {
+      "id": "PA23",
+      "orientation": 180,
+      "visible": true,
+      "x": -70.0,
+      "y": 55.0
+    },
+    {
+      "id": "PA24",
+      "orientation": 180,
+      "visible": true,
+      "x": -70.0,
+      "y": 60.0
+    },
+    {
+      "id": "PB0",
+      "orientation": 0,
+      "visible": true,
+      "x": 70.0,
+      "y": -60.0
+    },
+    {
+      "id": "PB1",
+      "orientation": 0,
+      "visible": true,
+      "x": 70.0,
+      "y": -55.0
+    },
+    {
+      "id": "PB2",
+      "orientation": 0,
+      "visible": true,
+      "x": 70.0,
+      "y": -50.0
+    },
+    {
+      "id": "PB3",
+      "orientation": 0,
+      "visible": true,
+      "x": 70.0,
+      "y": -45.0
+    },
+    {
+      "id": "PB4",
+      "orientation": 0,
+      "visible": true,
+      "x": 70.0,
+      "y": -40.0
+    },
+    {
+      "id": "PB5",
+      "orientation": 0,
+      "visible": true,
+      "x": 70.0,
+      "y": -35.0
+    },
+    {
+      "id": "PB6",
+      "orientation": 0,
+      "visible": true,
+      "x": 70.0,
+      "y": -30.0
+    },
+    {
+      "id": "PB7",
+      "orientation": 0,
+      "visible": true,
+      "x": 70.0,
+      "y": -25.0
+    },
+    {
+      "id": "PB8",
+      "orientation": 0,
+      "visible": true,
+      "x": 70.0,
+      "y": -20.0
+    },
+    {
+      "id": "PB9",
+      "orientation": 0,
+      "visible": true,
+      "x": 70.0,
+      "y": -15.0
+    },
+    {
+      "id": "PB10",
+      "orientation": 0,
+      "visible": true,
+      "x": 70.0,
+      "y": -10.0
+    },
+    {
+      "id": "PB11",
+      "orientation": 0,
+      "visible": true,
+      "x": 70.0,
+      "y": -5.0
+    },
+    {
+      "id": "PB12",
+      "orientation": 0,
+      "visible": true,
+      "x": 70.0,
+      "y": 0.0
+    },
+    {
+      "id": "PB13",
+      "orientation": 0,
+      "visible": true,
+      "x": 70.0,
+      "y": 5.0
+    },
+    {
+      "id": "PB14",
+      "orientation": 0,
+      "visible": true,
+      "x": 70.0,
+      "y": 10.0
+    },
+    {
+      "id": "PB15",
+      "orientation": 0,
+      "visible": true,
+      "x": 70.0,
+      "y": 15.0
+    },
+    {
+      "id": "PB16",
+      "orientation": 0,
+      "visible": true,
+      "x": 70.0,
+      "y": 20.0
+    },
+    {
+      "id": "PB17",
+      "orientation": 0,
+      "visible": true,
+      "x": 70.0,
+      "y": 25.0
+    },
+    {
+      "id": "PB18",
+      "orientation": 0,
+      "visible": true,
+      "x": 70.0,
+      "y": 30.0
+    },
+    {
+      "id": "PB19",
+      "orientation": 0,
+      "visible": true,
+      "x": 70.0,
+      "y": 35.0
+    },
+    {
+      "id": "PB20",
+      "orientation": 0,
+      "visible": true,
+      "x": 70.0,
+      "y": 40.0
+    },
+    {
+      "id": "PB21",
+      "orientation": 0,
+      "visible": true,
+      "x": 70.0,
+      "y": 45.0
+    },
+    {
+      "id": "PB22",
+      "orientation": 0,
+      "visible": true,
+      "x": 70.0,
+      "y": 50.0
+    },
+    {
+      "id": "PB23",
+      "orientation": 0,
+      "visible": true,
+      "x": 70.0,
+      "y": 55.0
+    },
+    {
+      "id": "PB24",
+      "orientation": 0,
+      "visible": true,
+      "x": 70.0,
+      "y": 60.0
+    },
+    {
+      "id": "VDD1",
+      "orientation": 90,
+      "visible": true,
+      "x": -60.0,
+      "y": -70.0
+    },
+    {
+      "id": "VDD2",
+      "orientation": 90,
+      "visible": true,
+      "x": -55.0,
+      "y": -70.0
+    },
+    {
+      "id": "VDD3",
+      "orientation": 90,
+      "visible": true,
+      "x": -50.0,
+      "y": -70.0
+    },
+    {
+      "id": "VDD4",
+      "orientation": 90,
+      "visible": true,
+      "x": -45.0,
+      "y": -70.0
+    },
+    {
+      "id": "VDD5",
+      "orientation": 90,
+      "visible": true,
+      "x": -40.0,
+      "y": -70.0
+    },
+    {
+      "id": "VDD6",
+      "orientation": 90,
+      "visible": true,
+      "x": -35.0,
+      "y": -70.0
+    },
+    {
+      "id": "VDD7",
+      "orientation": 90,
+      "visible": true,
+      "x": -30.0,
+      "y": -70.0
+    },
+    {
+      "id": "VDD8",
+      "orientation": 90,
+      "visible": true,
+      "x": -25.0,
+      "y": -70.0
+    },
+    {
+      "id": "VDD9",
+      "orientation": 90,
+      "visible": true,
+      "x": -20.0,
+      "y": -70.0
+    },
+    {
+      "id": "VDD10",
+      "orientation": 90,
+      "visible": true,
+      "x": -15.0,
+      "y": -70.0
+    },
+    {
+      "id": "VDD11",
+      "orientation": 90,
+      "visible": true,
+      "x": -10.0,
+      "y": -70.0
+    },
+    {
+      "id": "VDD12",
+      "orientation": 90,
+      "visible": true,
+      "x": -5.0,
+      "y": -70.0
+    },
+    {
+      "id": "VDD13",
+      "orientation": 90,
+      "visible": true,
+      "x": 0.0,
+      "y": -70.0
+    },
+    {
+      "id": "VDD14",
+      "orientation": 90,
+      "visible": true,
+      "x": 5.0,
+      "y": -70.0
+    },
+    {
+      "id": "VDD15",
+      "orientation": 90,
+      "visible": true,
+      "x": 10.0,
+      "y": -70.0
+    },
+    {
+      "id": "VDD16",
+      "orientation": 90,
+      "visible": true,
+      "x": 15.0,
+      "y": -70.0
+    },
+    {
+      "id": "VDD17",
+      "orientation": 90,
+      "visible": true,
+      "x": 20.0,
+      "y": -70.0
+    },
+    {
+      "id": "VDD18",
+      "orientation": 90,
+      "visible": true,
+      "x": 25.0,
+      "y": -70.0
+    },
+    {
+      "id": "VDD19",
+      "orientation": 90,
+      "visible": true,
+      "x": 30.0,
+      "y": -70.0
+    },
+    {
+      "id": "VDD20",
+      "orientation": 90,
+      "visible": true,
+      "x": 35.0,
+      "y": -70.0
+    },
+    {
+      "id": "VDD21",
+      "orientation": 90,
+      "visible": true,
+      "x": 40.0,
+      "y": -70.0
+    },
+    {
+      "id": "VDD22",
+      "orientation": 90,
+      "visible": true,
+      "x": 45.0,
+      "y": -70.0
+    },
+    {
+      "id": "VDD23",
+      "orientation": 90,
+      "visible": true,
+      "x": 50.0,
+      "y": -70.0
+    },
+    {
+      "id": "VDD24",
+      "orientation": 90,
+      "visible": true,
+      "x": 55.0,
+      "y": -70.0
+    },
+    {
+      "id": "VDD25",
+      "orientation": 90,
+      "visible": true,
+      "x": 60.0,
+      "y": -70.0
+    },
+    {
+      "id": "VSS1",
+      "orientation": 270,
+      "visible": true,
+      "x": -60.0,
+      "y": 70.0
+    },
+    {
+      "id": "VSS2",
+      "orientation": 270,
+      "visible": true,
+      "x": -55.0,
+      "y": 70.0
+    },
+    {
+      "id": "VSS3",
+      "orientation": 270,
+      "visible": true,
+      "x": -50.0,
+      "y": 70.0
+    },
+    {
+      "id": "VSS4",
+      "orientation": 270,
+      "visible": true,
+      "x": -45.0,
+      "y": 70.0
+    },
+    {
+      "id": "VSS5",
+      "orientation": 270,
+      "visible": true,
+      "x": -40.0,
+      "y": 70.0
+    },
+    {
+      "id": "VSS6",
+      "orientation": 270,
+      "visible": true,
+      "x": -35.0,
+      "y": 70.0
+    },
+    {
+      "id": "VSS7",
+      "orientation": 270,
+      "visible": true,
+      "x": -30.0,
+      "y": 70.0
+    },
+    {
+      "id": "VSS8",
+      "orientation": 270,
+      "visible": true,
+      "x": -25.0,
+      "y": 70.0
+    },
+    {
+      "id": "VSS9",
+      "orientation": 270,
+      "visible": true,
+      "x": -20.0,
+      "y": 70.0
+    },
+    {
+      "id": "VSS10",
+      "orientation": 270,
+      "visible": true,
+      "x": -15.0,
+      "y": 70.0
+    },
+    {
+      "id": "VSS11",
+      "orientation": 270,
+      "visible": true,
+      "x": -10.0,
+      "y": 70.0
+    },
+    {
+      "id": "VSS12",
+      "orientation": 270,
+      "visible": true,
+      "x": -5.0,
+      "y": 70.0
+    },
+    {
+      "id": "VSS13",
+      "orientation": 270,
+      "visible": true,
+      "x": 0.0,
+      "y": 70.0
+    },
+    {
+      "id": "VSS14",
+      "orientation": 270,
+      "visible": true,
+      "x": 5.0,
+      "y": 70.0
+    },
+    {
+      "id": "VSS15",
+      "orientation": 270,
+      "visible": true,
+      "x": 10.0,
+      "y": 70.0
+    },
+    {
+      "id": "VSS16",
+      "orientation": 270,
+      "visible": true,
+      "x": 15.0,
+      "y": 70.0
+    },
+    {
+      "id": "VSS17",
+      "orientation": 270,
+      "visible": true,
+      "x": 20.0,
+      "y": 70.0
+    },
+    {
+      "id": "VSS18",
+      "orientation": 270,
+      "visible": true,
+      "x": 25.0,
+      "y": 70.0
+    },
+    {
+      "id": "VSS19",
+      "orientation": 270,
+      "visible": true,
+      "x": 30.0,
+      "y": 70.0
+    },
+    {
+      "id": "VSS20",
+      "orientation": 270,
+      "visible": true,
+      "x": 35.0,
+      "y": 70.0
+    },
+    {
+      "id": "VSS21",
+      "orientation": 270,
+      "visible": true,
+      "x": 40.0,
+      "y": 70.0
+    },
+    {
+      "id": "VSS22",
+      "orientation": 270,
+      "visible": true,
+      "x": 45.0,
+      "y": 70.0
+    },
+    {
+      "id": "VSS23",
+      "orientation": 270,
+      "visible": true,
+      "x": 50.0,
+      "y": 70.0
+    },
+    {
+      "id": "VSS24",
+      "orientation": 270,
+      "visible": true,
+      "x": 55.0,
+      "y": 70.0
+    },
+    {
+      "id": "VSS25",
+      "orientation": 270,
+      "visible": true,
+      "x": 60.0,
+      "y": 70.0
+    }
+  ],
+  "primitiveCounts": {
+    "line": 100,
+    "rect": 1,
+    "text": 6
+  },
+  "requiredFeatures": [],
+  "symbol": "corpus:s024-mcu-100",
+  "variants": []
+}

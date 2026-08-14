@@ -1,0 +1,8 @@
+{
+  "assertions": [],
+  "expected": "fail",
+  "expectedDiagnostic": "endpoints both connected and noconn",
+  "id": "N004",
+  "project": "project.aixproj.json",
+  "title": "Interface port net and noconn conflict"
+}

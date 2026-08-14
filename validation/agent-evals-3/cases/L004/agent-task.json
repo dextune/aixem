@@ -1,0 +1,48 @@
+{
+  "activeRoute": "create-schematic",
+  "completionCriteria": [
+    "Use AGENTS.md and the compiled route packet before editing.",
+    "Edit only the authoritative files allowed by the active route.",
+    "Run prepare, check, authority-local repair, and close.",
+    "Leave zero blocking diagnostics, zero scope violations, and deterministic render evidence."
+  ],
+  "entryRoute": "create-schematic",
+  "expectedArtifacts": [
+    "parameterized_variant.aixlayout.json",
+    "project.aixproj.json"
+  ],
+  "facts": {
+    "entity": "R2",
+    "parameters": {
+      "body-height": 12.5
+    },
+    "precedence": "placement overrides variant defaults",
+    "variant": "iec"
+  },
+  "formatVersion": "1.0",
+  "id": "L004",
+  "operation": "modify",
+  "project": "project.aixproj.json",
+  "prompt": "Repair the invalid placement selection by using the existing IEC variant for R2 with body-height 12.5. Do not alter the reusable symbol, component library, or semantic source.",
+  "routingMode": "fixed",
+  "schema": "https://schemas.aixem.org/agent/task/1",
+  "title": "Parameterized variant instance",
+  "writeConstraints": {
+    "prohibitedPaths": [
+      "render/**",
+      "evidence/**"
+    ],
+    "requiredValidators": [
+      "agent.live_stage",
+      "agent.evaluation_invariants"
+    ],
+    "writableAuthorities": [
+      "layout",
+      "project"
+    ],
+    "writablePaths": [
+      "parameterized_variant.aixlayout.json",
+      "project.aixproj.json"
+    ]
+  }
+}

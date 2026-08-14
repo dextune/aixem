@@ -1,0 +1,15 @@
+{
+  "canonicalHashes": {},
+  "checks": [],
+  "deterministic": true,
+  "diagnosticMatched": true,
+  "error": "PROJECT_NET_DUPLICATE_OWNERSHIP: control:@GND belongs to both duplicate and gnd",
+  "expected": "fail",
+  "expectedDiagnostic": "PROJECT_NET_DUPLICATE_OWNERSHIP",
+  "id": "N010",
+  "observed": "fail",
+  "projectDigest": "sha256:e3edc7deca254c59ebaf757cddceff6c24ccc3140425a9a5a8876d3a87c99bde",
+  "repeatCount": 0,
+  "status": "pass",
+  "title": "Interface port in two project nets"
+}

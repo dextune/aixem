@@ -1,0 +1,719 @@
+{
+  "$defs": {
+    "annotation": {
+      "oneOf": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "anchor": {
+              "enum": [
+                "start",
+                "middle",
+                "end"
+              ]
+            },
+            "id": {
+              "type": "string"
+            },
+            "layer": {
+              "type": "string"
+            },
+            "rotation": {
+              "type": "number"
+            },
+            "style": {
+              "type": "string"
+            },
+            "text": {
+              "type": "string"
+            },
+            "type": {
+              "const": "text"
+            },
+            "x": {
+              "type": "number"
+            },
+            "y": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "type",
+            "id",
+            "x",
+            "y",
+            "text"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "from": {
+              "items": {
+                "type": "number"
+              },
+              "maxItems": 2,
+              "minItems": 2,
+              "type": "array"
+            },
+            "id": {
+              "type": "string"
+            },
+            "layer": {
+              "type": "string"
+            },
+            "offset": {
+              "type": "number"
+            },
+            "precision": {
+              "maximum": 6,
+              "minimum": 0,
+              "type": "integer"
+            },
+            "style": {
+              "type": "string"
+            },
+            "text": {
+              "type": "string"
+            },
+            "to": {
+              "items": {
+                "type": "number"
+              },
+              "maxItems": 2,
+              "minItems": 2,
+              "type": "array"
+            },
+            "type": {
+              "const": "dimension"
+            },
+            "unit": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "type",
+            "id",
+            "from",
+            "to",
+            "offset"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "closed": {
+              "type": "boolean"
+            },
+            "id": {
+              "type": "string"
+            },
+            "layer": {
+              "type": "string"
+            },
+            "points": {
+              "items": {
+                "items": {
+                  "type": "number"
+                },
+                "maxItems": 2,
+                "minItems": 2,
+                "type": "array"
+              },
+              "minItems": 2,
+              "type": "array"
+            },
+            "style": {
+              "type": "string"
+            },
+            "type": {
+              "const": "polyline"
+            }
+          },
+          "required": [
+            "type",
+            "id",
+            "points"
+          ],
+          "type": "object"
+        }
+      ]
+    }
+  },
+  "$id": "https://schemas.aixem.org/component-graphics/aixlayout/2",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "formatVersion": {
+      "const": "2.0"
+    },
+    "layout": {
+      "additionalProperties": false,
+      "properties": {
+        "annotations": {
+          "items": {
+            "$ref": "#/$defs/annotation"
+          },
+          "maxItems": 100000,
+          "type": "array"
+        },
+        "connections": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "junctions": {
+                "items": {
+                  "maxItems": 2,
+                  "minItems": 2,
+                  "prefixItems": [
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "type": "number"
+                    }
+                  ],
+                  "type": "array"
+                },
+                "type": "array"
+              },
+              "labels": {
+                "items": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "rotation": {
+                      "type": "number"
+                    },
+                    "text": {
+                      "type": "string"
+                    },
+                    "x": {
+                      "type": "number"
+                    },
+                    "y": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "text",
+                    "x",
+                    "y"
+                  ],
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "layer": {
+                "type": "string"
+              },
+              "metadata": {
+                "type": "object"
+              },
+              "net": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "paths": {
+                "items": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "from": {
+                      "oneOf": [
+                        {
+                          "additionalProperties": false,
+                          "properties": {
+                            "endpoint": {
+                              "pattern": "^(?:[a-zA-Z_][a-zA-Z0-9_-]*\\.[A-Za-z0-9_./\\[\\]-]+|@[A-Za-z_][A-Za-z0-9_-]*)$",
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "endpoint"
+                          ],
+                          "type": "object"
+                        },
+                        {
+                          "additionalProperties": false,
+                          "properties": {
+                            "point": {
+                              "maxItems": 2,
+                              "minItems": 2,
+                              "prefixItems": [
+                                {
+                                  "type": "number"
+                                },
+                                {
+                                  "type": "number"
+                                }
+                              ],
+                              "type": "array"
+                            }
+                          },
+                          "required": [
+                            "point"
+                          ],
+                          "type": "object"
+                        }
+                      ]
+                    },
+                    "metadata": {
+                      "type": "object"
+                    },
+                    "style": {
+                      "type": "string"
+                    },
+                    "to": {
+                      "oneOf": [
+                        {
+                          "additionalProperties": false,
+                          "properties": {
+                            "endpoint": {
+                              "pattern": "^(?:[a-zA-Z_][a-zA-Z0-9_-]*\\.[A-Za-z0-9_./\\[\\]-]+|@[A-Za-z_][A-Za-z0-9_-]*)$",
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "endpoint"
+                          ],
+                          "type": "object"
+                        },
+                        {
+                          "additionalProperties": false,
+                          "properties": {
+                            "point": {
+                              "maxItems": 2,
+                              "minItems": 2,
+                              "prefixItems": [
+                                {
+                                  "type": "number"
+                                },
+                                {
+                                  "type": "number"
+                                }
+                              ],
+                              "type": "array"
+                            }
+                          },
+                          "required": [
+                            "point"
+                          ],
+                          "type": "object"
+                        }
+                      ]
+                    },
+                    "via": {
+                      "items": {
+                        "maxItems": 2,
+                        "minItems": 2,
+                        "prefixItems": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "number"
+                          }
+                        ],
+                        "type": "array"
+                      },
+                      "maxItems": 10000,
+                      "type": "array"
+                    }
+                  },
+                  "required": [
+                    "from",
+                    "to"
+                  ],
+                  "type": "object"
+                },
+                "maxItems": 100000,
+                "minItems": 1,
+                "type": "array"
+              },
+              "style": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "net",
+              "paths"
+            ],
+            "type": "object"
+          },
+          "maxItems": 100000,
+          "type": "array"
+        },
+        "coordinateSystem": {
+          "additionalProperties": false,
+          "properties": {
+            "angleDirection": {
+              "enum": [
+                "clockwise",
+                "counterclockwise"
+              ]
+            },
+            "angleUnit": {
+              "const": "deg"
+            },
+            "grid": {
+              "exclusiveMinimum": 0,
+              "type": "number"
+            },
+            "unit": {
+              "enum": [
+                "mm",
+                "mil",
+                "in",
+                "px"
+              ]
+            },
+            "yAxis": {
+              "enum": [
+                "up",
+                "down"
+              ]
+            }
+          },
+          "required": [
+            "unit",
+            "yAxis",
+            "angleUnit",
+            "angleDirection"
+          ],
+          "type": "object"
+        },
+        "designId": {
+          "pattern": "^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$",
+          "type": "string"
+        },
+        "id": {
+          "pattern": "^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$",
+          "type": "string"
+        },
+        "layers": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "defaultVisible": {
+                "type": "boolean"
+              },
+              "id": {
+                "pattern": "^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$",
+                "type": "string"
+              },
+              "locked": {
+                "type": "boolean"
+              },
+              "order": {
+                "type": "integer"
+              },
+              "printable": {
+                "type": "boolean"
+              },
+              "purpose": {
+                "minLength": 1,
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "order",
+              "purpose",
+              "defaultVisible"
+            ],
+            "type": "object"
+          },
+          "maxItems": 256,
+          "minItems": 1,
+          "type": "array"
+        },
+        "metadata": {
+          "type": "object"
+        },
+        "placements": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "bodyStyle": {
+                "type": "string"
+              },
+              "entity": {
+                "pattern": "^[a-zA-Z_][a-zA-Z0-9_-]*$",
+                "type": "string"
+              },
+              "fields": {
+                "additionalProperties": {
+                  "type": [
+                    "string",
+                    "number",
+                    "boolean"
+                  ]
+                },
+                "type": "object"
+              },
+              "layer": {
+                "type": "string"
+              },
+              "locked": {
+                "type": "boolean"
+              },
+              "metadata": {
+                "type": "object"
+              },
+              "mirrorX": {
+                "type": "boolean"
+              },
+              "mirrorY": {
+                "type": "boolean"
+              },
+              "parameters": {
+                "type": "object"
+              },
+              "rotation": {
+                "type": "number"
+              },
+              "scaleX": {
+                "not": {
+                  "const": 0
+                },
+                "type": "number"
+              },
+              "scaleY": {
+                "not": {
+                  "const": 0
+                },
+                "type": "number"
+              },
+              "state": {
+                "type": "string"
+              },
+              "unit": {
+                "type": "string"
+              },
+              "variant": {
+                "type": "string"
+              },
+              "x": {
+                "type": "number"
+              },
+              "y": {
+                "type": "number"
+              },
+              "zIndex": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "entity",
+              "x",
+              "y"
+            ],
+            "type": "object"
+          },
+          "maxItems": 100000,
+          "type": "array"
+        },
+        "purpose": {
+          "type": "string"
+        },
+        "sheet": {
+          "additionalProperties": false,
+          "properties": {
+            "height": {
+              "exclusiveMinimum": 0,
+              "type": "number"
+            },
+            "margin": {
+              "minimum": 0,
+              "type": "number"
+            },
+            "titleBlock": {
+              "type": "object"
+            },
+            "width": {
+              "exclusiveMinimum": 0,
+              "type": "number"
+            }
+          },
+          "required": [
+            "width",
+            "height"
+          ],
+          "type": "object"
+        },
+        "sheetPorts": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "layer": {
+                "type": "string"
+              },
+              "metadata": {
+                "type": "object"
+              },
+              "port": {
+                "pattern": "^[A-Za-z_][A-Za-z0-9_-]*$",
+                "type": "string"
+              },
+              "side": {
+                "enum": [
+                  "left",
+                  "right",
+                  "top",
+                  "bottom"
+                ]
+              },
+              "x": {
+                "type": "number"
+              },
+              "y": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "port",
+              "x",
+              "y",
+              "side"
+            ],
+            "type": "object"
+          },
+          "maxItems": 100000,
+          "type": "array"
+        },
+        "styles": {
+          "additionalProperties": {
+            "additionalProperties": false,
+            "properties": {
+              "dashArray": {
+                "items": {
+                  "minimum": 0,
+                  "type": "number"
+                },
+                "maxItems": 32,
+                "type": "array"
+              },
+              "dashOffset": {
+                "type": "number"
+              },
+              "fill": {
+                "type": "string"
+              },
+              "fillRule": {
+                "enum": [
+                  "nonzero",
+                  "evenodd"
+                ]
+              },
+              "fontFamily": {
+                "type": "string"
+              },
+              "fontSize": {
+                "exclusiveMinimum": 0,
+                "type": "number"
+              },
+              "fontStyle": {
+                "enum": [
+                  "normal",
+                  "italic",
+                  "oblique"
+                ]
+              },
+              "fontWeight": {
+                "oneOf": [
+                  {
+                    "maximum": 900,
+                    "minimum": 100,
+                    "type": "integer"
+                  },
+                  {
+                    "enum": [
+                      "normal",
+                      "bold"
+                    ]
+                  }
+                ]
+              },
+              "letterSpacing": {
+                "type": "number"
+              },
+              "opacity": {
+                "maximum": 1,
+                "minimum": 0,
+                "type": "number"
+              },
+              "pointerEvents": {
+                "enum": [
+                  "none",
+                  "stroke",
+                  "fill",
+                  "painted",
+                  "all"
+                ]
+              },
+              "stroke": {
+                "type": "string"
+              },
+              "strokeLinecap": {
+                "enum": [
+                  "butt",
+                  "round",
+                  "square"
+                ]
+              },
+              "strokeLinejoin": {
+                "enum": [
+                  "miter",
+                  "round",
+                  "bevel"
+                ]
+              },
+              "strokeMiterlimit": {
+                "minimum": 1,
+                "type": "number"
+              },
+              "strokeWidth": {
+                "minimum": 0,
+                "type": "number"
+              },
+              "textDecoration": {
+                "enum": [
+                  "none",
+                  "underline",
+                  "line-through"
+                ]
+              }
+            },
+            "type": "object"
+          },
+          "type": "object"
+        }
+      },
+      "required": [
+        "id",
+        "designId",
+        "coordinateSystem",
+        "sheet",
+        "layers",
+        "styles",
+        "placements",
+        "sheetPorts"
+      ],
+      "type": "object"
+    },
+    "schema": {
+      "const": "https://schemas.aixem.org/component-graphics/aixlayout/2"
+    }
+  },
+  "required": [
+    "schema",
+    "formatVersion",
+    "layout"
+  ],
+  "title": "AIXEM Hierarchical Explicit Layout 2.0 Candidate",
+  "type": "object"
+}

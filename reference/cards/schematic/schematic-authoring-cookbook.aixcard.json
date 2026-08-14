@@ -1,0 +1,58 @@
+{
+  "card": {
+    "aliases": [
+      "schematic cookbook",
+      "create circuit recipe",
+      "aixem layout recipe"
+    ],
+    "appliesTo": [
+      "schematic-authoring-recipes"
+    ],
+    "domain": "schematic",
+    "estimatedReadBytes": 5233,
+    "id": "AIXEM-SCHEM-COOKBOOK-001",
+    "inputs": [],
+    "keywords": [
+      "Schematic Authoring Cookbook",
+      "aixem layout recipe",
+      "author-component-circuit",
+      "create circuit recipe",
+      "create-schematic",
+      "schematic cookbook"
+    ],
+    "kind": "cookbook",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/schematic/schematic-authoring-cookbook.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:4fc20a940086e2bc9ccb79a941bf357cd007a010d3e42ef3863cb6929cc9fb97"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-CONCEPT-AUTHORITY-001",
+      "AIXEM-SYMBOL-BINDING-001",
+      "AIXEM-FORMAT-AIXEM-001",
+      "AIXEM-FORMAT-AIXLAYOUT-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-SCHEM-COOKBOOK-001.read",
+        "level": "should",
+        "text": "Shows how to author semantic entities and nets separately from placements and route geometry using complete executable examples."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SCHEM-COOKBOOK-001",
+        "path": "docs/schematic/schematic-authoring-cookbook.md"
+      }
+    ],
+    "summary": "Shows how to author semantic entities and nets separately from placements and route geometry using complete executable examples.",
+    "title": "Schematic Authoring Cookbook"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

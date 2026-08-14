@@ -1,0 +1,137 @@
+{
+  "authority": "derived-navigation-only",
+  "budget": {
+    "max_bytes": 98304,
+    "max_depth": 3,
+    "max_documents": 7
+  },
+  "completion": [
+    "Task resolves without authority widening",
+    "Stage is deterministic, fresh, safe, and target/evaluator isolated",
+    "Executor and observation evidence validate",
+    "Actual final workspace is scored without evaluator mutation",
+    "Every attempted terminal result is retained in the exact denominator",
+    "Live claim state matches actual external process evidence"
+  ],
+  "documents": [
+    {
+      "bytes": 6253,
+      "digest": "sha256:ad4aa721dd1ace9227f6f31c40765f210a83d6c0e3ac3012bde4880992f3d9a0",
+      "document": "AIXEM-SPEC-AGENT-TASK-001",
+      "order": 1,
+      "path": "docs/specifications/agent/agent-task-contract.md",
+      "purpose": "Resolve the non-authoritative task against canonical route-owned scope.",
+      "required": true,
+      "section": "required-resolution"
+    },
+    {
+      "bytes": 7625,
+      "digest": "sha256:daed8acd4bfa4f98e55d4d5a4e2a07036c0cf5d1aedb88d425df4663530d12ff",
+      "document": "AIXEM-SPEC-AGENT-STAGE-001",
+      "order": 2,
+      "path": "docs/specifications/agent/cold-start-stage-contract.md",
+      "purpose": "Materialize and validate a fresh target-isolated stage.",
+      "required": true,
+      "section": "target-leakage-check"
+    },
+    {
+      "bytes": 7987,
+      "digest": "sha256:2e5c47799be736d40925f66132530837bf22bf5f1a9e87301c23ce278924f7a7",
+      "document": "AIXEM-SPEC-AGENT-EXECUTOR-LIVE-001",
+      "order": 3,
+      "path": "docs/specifications/agent/live-executor-protocol.md",
+      "purpose": "Launch a bounded declared subprocess and retain execution proof.",
+      "required": true,
+      "section": "execution-proof"
+    },
+    {
+      "bytes": 7659,
+      "digest": "sha256:f114bb23c03092cd5b57cb8d2517d67abb2ec9729380585561850caea6549f4f",
+      "document": "AIXEM-SPEC-AGENT-OBSERVATION-001",
+      "order": 4,
+      "path": "docs/specifications/agent/observation-event-contract.md",
+      "purpose": "Validate observable actions without private reasoning claims.",
+      "required": true,
+      "section": "capability-coverage"
+    },
+    {
+      "bytes": 7475,
+      "digest": "sha256:d297270f3885f380f0a0188dd939eda4b8914bae13576763b5fec228b1dabb24",
+      "document": "AIXEM-SPEC-AGENT-EVAL-INVARIANT-001",
+      "order": 5,
+      "path": "docs/specifications/agent/evaluation-invariant-contract.md",
+      "purpose": "Score the actual final workspace without evaluator repair.",
+      "required": true,
+      "section": "scoring"
+    },
+    {
+      "bytes": 7744,
+      "digest": "sha256:37baf58e67f7fd11738025b2bf6f436c09321961932a1c1d5f6a7b20cf01920b",
+      "document": "AIXEM-SPEC-AGENT-LIVE-RUN-001",
+      "order": 6,
+      "path": "docs/specifications/agent/live-run-evidence.md",
+      "purpose": "Retain terminal evidence and enforce exact denominator integrity.",
+      "required": true,
+      "section": "attempt-set"
+    },
+    {
+      "bytes": 9808,
+      "digest": "sha256:a115e6842902c7ca09212abe2438764246f34b686257c851fe6e8534288cb4d8",
+      "document": "AIXEM-CONF-AGENT-LIVE-001",
+      "order": 7,
+      "path": "docs/conformance/live-agent-cold-start.md",
+      "purpose": "Separate Tier A protocol proof from actual Tier B execution claims.",
+      "required": true,
+      "section": "public-claim-rule"
+    }
+  ],
+  "expectedInputs": [
+    "Agent Evaluation 3 case or external executor descriptor",
+    "canonical generated task packets and authoring tools",
+    "incomplete cold-start workspace"
+  ],
+  "expectedOutputs": [
+    "stage-manifest.json",
+    "executor record and observation-log.jsonl",
+    "evaluation-result.json",
+    "live-run-evidence.json",
+    "attempt-set.json or truthful not-executed status"
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "id": "validate-live-agent-authoring",
+  "intent": "validate-live-agent-authoring",
+  "kind": "simple",
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "remediation": {
+    "acceptsDiagnostics": []
+  },
+  "schema": "https://schemas.aixem.org/documentation/task-packet/1",
+  "source": "docs/_meta/routes/validate-live-agent-authoring.yaml",
+  "sourceDigest": "sha256:d3534511d797966db724b508a5428f9d29f364c988383185b0971173161703c9",
+  "summary": "Build, execute, score, retain, and review provider-neutral cold-start live-agent conformance evidence",
+  "validators": [
+    "agent.task_contract",
+    "agent.cold_start_stage",
+    "agent.live_executor",
+    "agent.observation",
+    "agent.evaluation_invariants",
+    "agent.live_run",
+    "agent.evaluation_3"
+  ],
+  "writes": {
+    "artifacts": [],
+    "authority": [],
+    "derived": [
+      "validation/agent-evals-3/results/**"
+    ],
+    "prohibited": [
+      "**/*.aixem",
+      "**/*.aixsym.json",
+      "**/*.aixlib.json",
+      "**/*.aixlayout.json",
+      "**/*.aixproj.json",
+      "**/render/**"
+    ]
+  }
+}

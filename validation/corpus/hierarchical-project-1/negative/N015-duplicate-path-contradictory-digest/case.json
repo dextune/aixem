@@ -1,0 +1,8 @@
+{
+  "assertions": [],
+  "expected": "fail",
+  "expectedDiagnostic": "PROJECT_REFERENCE_DIGEST_CONFLICT",
+  "id": "N015",
+  "project": "project.aixproj.json",
+  "title": "Duplicate path contradictory digest"
+}

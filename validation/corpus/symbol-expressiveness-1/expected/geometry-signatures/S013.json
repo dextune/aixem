@@ -1,0 +1,82 @@
+{
+  "bounds": {
+    "height": 55,
+    "width": 55,
+    "x": -27.5,
+    "y": -27.5
+  },
+  "capabilities": [
+    "geometry.line",
+    "geometry.path",
+    "parameter.numeric",
+    "port.mapping",
+    "structure.use",
+    "text.field",
+    "visibility.predicate"
+  ],
+  "case": "S013",
+  "defaultVariant": null,
+  "definitions": [
+    "winding"
+  ],
+  "fieldAnchors": [
+    {
+      "field": "reference",
+      "id": "field-reference",
+      "x": 0,
+      "y": -22.5
+    },
+    {
+      "field": "value",
+      "id": "field-value",
+      "x": 0,
+      "y": 22.5
+    }
+  ],
+  "parameters": {
+    "show-core": true
+  },
+  "ports": [
+    {
+      "id": "P1",
+      "orientation": 180,
+      "visible": true,
+      "x": -22.5,
+      "y": -10.0
+    },
+    {
+      "id": "P2",
+      "orientation": 180,
+      "visible": true,
+      "x": -22.5,
+      "y": 10.0
+    },
+    {
+      "id": "S1",
+      "orientation": 0,
+      "visible": true,
+      "x": 22.5,
+      "y": -10.0
+    },
+    {
+      "id": "S2",
+      "orientation": 0,
+      "visible": true,
+      "x": 22.5,
+      "y": 10.0
+    }
+  ],
+  "primitiveCounts": {
+    "line": 6,
+    "path": 1,
+    "text": 2,
+    "use": 2
+  },
+  "requiredFeatures": [
+    "compound-path",
+    "cubic-bezier",
+    "definition-use"
+  ],
+  "symbol": "corpus:s013-transformer",
+  "variants": []
+}

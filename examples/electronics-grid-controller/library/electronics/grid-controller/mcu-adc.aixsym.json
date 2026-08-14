@@ -1,0 +1,281 @@
+{
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/component-graphics/aixsym/1",
+  "symbol": {
+    "anchors": [
+      {
+        "id": "origin",
+        "kind": "insertion",
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "bounds": {
+      "height": 50,
+      "width": 56,
+      "x": -28,
+      "y": -25
+    },
+    "coordinateSystem": {
+      "angleDirection": "clockwise",
+      "angleUnit": "deg",
+      "grid": 0.5,
+      "unit": "mm",
+      "yAxis": "down"
+    },
+    "definitions": {},
+    "description": "MCU ADC block",
+    "graphics": [
+      {
+        "height": 34,
+        "id": "body",
+        "layer": "body",
+        "rx": 2,
+        "ry": 2,
+        "style": "body-fill",
+        "type": "rect",
+        "width": 36,
+        "x": -18,
+        "y": -17
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "id": "label",
+        "layer": "detail",
+        "style": "field",
+        "text": "MCU / ADC",
+        "type": "text",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "id": "p-3v3",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": -26,
+        "x2": -18,
+        "y1": -10,
+        "y2": -10
+      },
+      {
+        "id": "p-gnd",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": -26,
+        "x2": -18,
+        "y1": 10,
+        "y2": 10
+      },
+      {
+        "id": "p-adc",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": 18,
+        "x2": 26,
+        "y1": -8,
+        "y2": -8
+      },
+      {
+        "id": "p-gpio",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": 18,
+        "x2": 26,
+        "y1": 8,
+        "y2": 8
+      },
+      {
+        "id": "adc",
+        "layer": "detail",
+        "style": "value",
+        "text": "ADC",
+        "type": "text",
+        "x": 9,
+        "y": -9
+      },
+      {
+        "id": "gpio",
+        "layer": "detail",
+        "style": "value",
+        "text": "GPIO",
+        "type": "text",
+        "x": 7,
+        "y": 9
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "field": "reference",
+        "id": "reference",
+        "layer": "fields",
+        "style": "field",
+        "type": "text",
+        "x": 0,
+        "y": -22
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "field": "value",
+        "id": "value",
+        "layer": "fields",
+        "style": "value",
+        "type": "text",
+        "x": 0,
+        "y": 23
+      }
+    ],
+    "id": "demo.electronics:mcu-adc",
+    "layers": [
+      {
+        "defaultVisible": true,
+        "id": "body",
+        "locked": true,
+        "order": 10,
+        "printable": true,
+        "purpose": "symbol body"
+      },
+      {
+        "defaultVisible": true,
+        "id": "detail",
+        "locked": true,
+        "order": 20,
+        "printable": true,
+        "purpose": "symbol details"
+      },
+      {
+        "defaultVisible": true,
+        "id": "fields",
+        "locked": false,
+        "order": 30,
+        "printable": true,
+        "purpose": "reference and value fields"
+      }
+    ],
+    "paintServers": {},
+    "parameters": {},
+    "ports": [
+      {
+        "id": "3V3",
+        "kind": "electrical",
+        "labelVisible": false,
+        "name": "3V3",
+        "number": "3V3",
+        "numberVisible": false,
+        "orientation": 180,
+        "snapRadius": 1.5,
+        "x": -26,
+        "y": -10
+      },
+      {
+        "id": "GND",
+        "kind": "electrical",
+        "labelVisible": false,
+        "name": "GND",
+        "number": "GND",
+        "numberVisible": false,
+        "orientation": 180,
+        "snapRadius": 1.5,
+        "x": -26,
+        "y": 10
+      },
+      {
+        "id": "ADC",
+        "kind": "electrical",
+        "labelVisible": false,
+        "name": "ADC",
+        "number": "ADC",
+        "numberVisible": false,
+        "orientation": 0,
+        "snapRadius": 1.5,
+        "x": 26,
+        "y": -8
+      },
+      {
+        "id": "GPIO",
+        "kind": "electrical",
+        "labelVisible": false,
+        "name": "GPIO",
+        "number": "GPIO",
+        "numberVisible": false,
+        "orientation": 0,
+        "snapRadius": 1.5,
+        "x": 26,
+        "y": 8
+      }
+    ],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-10",
+      "license": "CC0-1.0",
+      "notes": "Original example geometry.",
+      "origin": "AIXEM Implementation Baseline 0.3 original example asset"
+    },
+    "purpose": "schematic-symbol",
+    "requiredFeatures": [],
+    "revision": "1.0.0",
+    "styles": {
+      "accent": {
+        "fill": "none",
+        "stroke": "#2458a6",
+        "strokeLinecap": "round",
+        "strokeLinejoin": "round",
+        "strokeWidth": 1.3
+      },
+      "body": {
+        "fill": "#ffffff",
+        "stroke": "#17212b",
+        "strokeLinecap": "round",
+        "strokeLinejoin": "round",
+        "strokeWidth": 1.4
+      },
+      "body-fill": {
+        "fill": "#eef3f7",
+        "stroke": "#17212b",
+        "strokeLinecap": "round",
+        "strokeLinejoin": "round",
+        "strokeWidth": 1.4
+      },
+      "field": {
+        "fill": "#17212b",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 4.2,
+        "fontWeight": 600,
+        "stroke": "none"
+      },
+      "line": {
+        "fill": "none",
+        "stroke": "#17212b",
+        "strokeLinecap": "round",
+        "strokeLinejoin": "round",
+        "strokeWidth": 1.4
+      },
+      "solid": {
+        "fill": "#17212b",
+        "stroke": "#17212b",
+        "strokeWidth": 1.1
+      },
+      "thin": {
+        "fill": "none",
+        "stroke": "#56616d",
+        "strokeLinecap": "round",
+        "strokeLinejoin": "round",
+        "strokeWidth": 0.9
+      },
+      "value": {
+        "fill": "#56616d",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.4,
+        "fontWeight": 400,
+        "stroke": "none"
+      }
+    },
+    "title": "MCU ADC block",
+    "variants": []
+  }
+}

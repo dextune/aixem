@@ -1,0 +1,104 @@
+{
+  "contractFreeze": {
+    "contracts": {
+      "componentCore": {
+        "baseline": "sha256:dfd5cc216de63637459f1cef87813cba52760b79a8095efa2e7c3c8705784100",
+        "classification": "F3 renderer defect repair: explicit deterministic dimension-label text styling",
+        "current": "sha256:1026e679b99efc1f47158b0867ef9dd6d15ab362ced0bf78e765efb254ccb147",
+        "path": "implementation/schematic/component_core.py"
+      },
+      "renderProject": {
+        "baseline": "sha256:8adda99a19b511ad20a6bd072eb67a0944b3b4c236bffe6359a173604df69e1c",
+        "classification": "unchanged",
+        "current": "sha256:8adda99a19b511ad20a6bd072eb67a0944b3b4c236bffe6359a173604df69e1c",
+        "path": "implementation/schematic/render_project.py"
+      },
+      "styleProfile": {
+        "baseline": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+        "classification": "unchanged",
+        "current": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+        "path": "profiles/aixem-grid-schematic-style-1.aixstyle.json"
+      },
+      "symbolSchema": {
+        "baseline": "sha256:ba4d442591f6e53daf07f9d8f85e2026043f4e93ae0710e2578447dd3c466831",
+        "classification": "unchanged",
+        "current": "sha256:ba4d442591f6e53daf07f9d8f85e2026043f4e93ae0710e2578447dd3c466831",
+        "path": "docs/specifications/schemas/component-graphics-1/aixem-symbol-asset-1.schema.json"
+      }
+    },
+    "coreFormatExtension": false,
+    "errors": [],
+    "formatVersion": "1.0",
+    "generatedAt": "2026-08-11T00:00:00Z",
+    "multiUnitExtension": false,
+    "newPrimitive": false,
+    "release": "AIXEM-SRP-0.5.2-2026-08-11",
+    "schema": "https://schemas.aixem.org/validation/contract-baseline/1",
+    "valid": true
+  },
+  "coreFormatExtension": false,
+  "corpus": {
+    "B2D": {
+      "automatedPassed": 6,
+      "expectedCases": 6,
+      "observedCases": 6,
+      "status": "PASS",
+      "visualPassed": 6
+    },
+    "MU": {
+      "case": "S030",
+      "expectedResult": "NOT_SUPPORTED",
+      "extensionDecision": "No speculative core extension was introduced in 0.5.2. A dedicated ADR is required before future multi-unit semantics are implemented.",
+      "graphicalMonolith": "PASS",
+      "interpretation": "The current model can draw the monolithic FPGA shape, but cannot represent independently placeable unit presentations that share one semantic component identity. Variants were not misused as units.",
+      "negativeTest": {
+        "name": "duplicate-placement-entity-rejected",
+        "observed": "duplicate placement entity",
+        "pass": true
+      },
+      "requiredSemanticProperties": {
+        "disjointPortSubsets": false,
+        "independentlyPlaceableUnits": false,
+        "oneSharedComponentIdentity": false,
+        "sharedReferenceAndValue": false,
+        "unambiguousResolvedSceneIdentity": false
+      },
+      "result": "NOT_SUPPORTED",
+      "valid": true
+    },
+    "S-Core": {
+      "automatedPassed": 24,
+      "expectedCases": 24,
+      "observedCases": 24,
+      "status": "PASS",
+      "visualPassed": 24
+    },
+    "S-Extended": {
+      "core": {
+        "automatedPassed": 24,
+        "expectedCases": 24,
+        "observedCases": 24,
+        "status": "PASS",
+        "visualPassed": 24
+      },
+      "extendedCases": {
+        "automatedPassed": 5,
+        "expectedCases": 5,
+        "observedCases": 5,
+        "status": "PASS",
+        "visualPassed": 5
+      },
+      "status": "PASS"
+    },
+    "cases": 36,
+    "valid": true
+  },
+  "cycle": 3,
+  "focus": "representability and coverage",
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "release": "AIXEM-SRP-0.5.2-2026-08-11",
+  "schema": "https://schemas.aixem.org/validation/0.5.2/pass-01/1",
+  "unclassifiedFailures": 0,
+  "valid": true
+}

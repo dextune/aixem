@@ -1,0 +1,53 @@
+{
+  "checks": {
+    "allInputDigestsVerified": true,
+    "allLeafLayoutsV2Valid": true,
+    "allLeafSourcesValid": true,
+    "compositeOrthogonal": true,
+    "dataDrivenWorkbenchHierarchy": true,
+    "geometryDoesNotCreateConnectivity": true,
+    "hierarchyAcyclic": true,
+    "layersAreNotSheets": true,
+    "overviewOrthogonal": true,
+    "projectNetClosure": true,
+    "projectNetEquivalenceClosure": true,
+    "projectSchemaV2": true,
+    "sameNameIsolation": true,
+    "sheetQualifiedIdentity": true,
+    "viewerModelSchema": true,
+    "viewerOffline": true,
+    "viewerQualifiedIdentityClosure": true,
+    "viewerReadOnly": true,
+    "viewerWorkbenchDistinct": true
+  },
+  "diagnostics": [],
+  "generatedAt": "2026-08-10T12:00:00Z",
+  "hashes": {
+    "manifest": "sha256:606e021f2bb4bb430ffe9112673586d4d07d6b68813673592c7809d4ac570444",
+    "projectComposite": "sha256:e698656d7be0ff644a5ee773647df308057343ff71a027e4bbc4d5f6302357f6",
+    "projectOverview": "sha256:4218a98cbb3c845dd2ab9a5309e5962f9f551ff2fd5c38d72769f16bdd98e6ba",
+    "resolvedProjectScene": "sha256:8c5ba599968b5bac2459325886cad99a25506a8b95c67563ee623cec70b6ebf6",
+    "sheet:driver:scene": "sha256:f47a95197ed586a649bf1d3bca6df819681871688eedc0bcdbe4c2129b82286e",
+    "sheet:driver:svg": "sha256:27ed36c81ba3eefe071d019c88ce72bfe3db709361f96cbaba18e1f7fb8791fc",
+    "sheet:receiver:scene": "sha256:6627c0fd890e69f9d55539e9c89b49b86391418711bac68f2ed8f459af87030e",
+    "sheet:receiver:svg": "sha256:ab379eed260050bef4d69cddbee7719686288e6ea088f8da66e61f25fac2dfb7",
+    "viewer": "sha256:77656ca37dd6d306c4201978e5aa3ddd0c6fdfea1ba09e854350c1115ff572a1",
+    "viewerModel": "sha256:51ae422087483dc1e9325e268de0c74981d1a6c9dd2e0e61169d78dac412f531",
+    "workbench": "sha256:81373ed5da1b4c6d5208081b0ad9248c594653d124a3c1fa25609375c044fe00"
+  },
+  "project": "hierarchical:h006",
+  "release": "AIXEM-SRP-0.5.5-2026-08-11",
+  "schema": "https://schemas.aixem.org/component-graphics/project-validation/1",
+  "statistics": {
+    "entities": 2,
+    "hierarchyDepth": 0,
+    "interfacePorts": 6,
+    "localNets": 6,
+    "localRouteSegments": 6,
+    "projectNets": 3,
+    "projectRouteSegments": 44,
+    "sheets": 2,
+    "unconnectedProjectPorts": 0
+  },
+  "valid": true
+}

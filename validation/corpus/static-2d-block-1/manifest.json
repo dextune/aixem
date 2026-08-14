@@ -1,0 +1,71 @@
+{
+  "caseSchema": "../symbol-expressiveness-1/schema/corpus-case-1.schema.json",
+  "cases": [
+    {
+      "id": "B001",
+      "path": "cases/B001-mounting-plate/case.json",
+      "tier": "b2d",
+      "title": "Mechanical mounting plate"
+    },
+    {
+      "id": "B002",
+      "path": "cases/B002-repeated-hole-panel/case.json",
+      "tier": "b2d",
+      "title": "Repeated-hole panel"
+    },
+    {
+      "id": "B003",
+      "path": "cases/B003-plan-fixture/case.json",
+      "tier": "b2d",
+      "title": "Plan-scale electrical fixture"
+    },
+    {
+      "id": "B004",
+      "path": "cases/B004-annotation-title-block/case.json",
+      "tier": "b2d",
+      "title": "Annotation title block"
+    },
+    {
+      "id": "B005",
+      "path": "cases/B005-dimensioned-outline/case.json",
+      "tier": "b2d",
+      "title": "Dimensioned 2D outline"
+    },
+    {
+      "id": "B006",
+      "path": "cases/B006-irregular-mark/case.json",
+      "tier": "b2d",
+      "title": "Irregular mark block"
+    }
+  ],
+  "excluded": [
+    "Dynamic Block actions",
+    "interactive grips",
+    "stretch and lookup actions",
+    "geometric constraint solving",
+    "associative dimensions",
+    "native DWG object identity or round trip",
+    "3D CAD semantics"
+  ],
+  "formatVersion": "1.0",
+  "included": [
+    "vector primitives",
+    "definitions and use",
+    "affine transforms",
+    "text",
+    "static dimensions",
+    "compound paths",
+    "supported local paint servers"
+  ],
+  "productionRendererRequired": true,
+  "profile": {
+    "id": "static-2d-block-1",
+    "release": "AIXEM-SRP-0.5.2-2026-08-11",
+    "title": "AIXEM Static 2D Block Compatibility Profile 1",
+    "version": "1.0.0"
+  },
+  "schema": "https://schemas.aixem.org/conformance/static-2d-block-manifest/1",
+  "tiers": {
+    "b2d": 6
+  }
+}

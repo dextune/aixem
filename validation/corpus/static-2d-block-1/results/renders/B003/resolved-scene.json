@@ -1,0 +1,118 @@
+{
+  "coordinateSystem": {
+    "angleDirection": "clockwise",
+    "angleUnit": "deg",
+    "grid": 2.5,
+    "unit": "mm",
+    "yAxis": "down"
+  },
+  "diagnostics": [],
+  "entities": [
+    {
+      "componentType": "conformance:b003",
+      "key": "X1",
+      "kind": "component",
+      "parameters": {},
+      "placement": {
+        "entity": "X1",
+        "layer": "symbols",
+        "x": 60.0,
+        "y": 55.0
+      },
+      "ports": {},
+      "reference": "X1",
+      "symbolDigest": "sha256:9f7de2cb912d1d71c5b124b90b1bd6d7de5f9f4bec2afa361f5d47e48febbfa6",
+      "symbolId": "corpus:b003-plan-fixture",
+      "value": "Plan-scale electrical fixture",
+      "variant": null
+    }
+  ],
+  "featuresUsed": [
+    "compound-path",
+    "elliptical-arc"
+  ],
+  "generatedAt": "2026-08-10T00:00:00Z",
+  "gridValidation": {
+    "crossingPolicy": "junction-required",
+    "orthogonalSegments": 0,
+    "placementExceptions": [],
+    "placements": 1,
+    "placementsOnGrid": 1,
+    "profile": "aixem.schematic.grid-light",
+    "routeSegments": 0,
+    "routeViasOnGrid": true,
+    "snap": 2.5,
+    "zeroLengthSegments": []
+  },
+  "hashes": {
+    "layout": "sha256:cc0f4207133e7738565751b8f50529a91b07ab384e797380053d4e070cde8664",
+    "libraries": [
+      "sha256:3776979db2f79784bed0255170f598229d65e185da213b8135383d1e68f497a4"
+    ],
+    "source": "sha256:b94fafcc4c5b8a2d635031b7a3fd513b269d917246abb7518614cccf4750cd6c",
+    "symbolAssets": [
+      "sha256:9f7de2cb912d1d71c5b124b90b1bd6d7de5f9f4bec2afa361f5d47e48febbfa6"
+    ]
+  },
+  "layers": [
+    {
+      "defaultVisible": true,
+      "id": "connections",
+      "locked": false,
+      "order": 10,
+      "printable": true,
+      "purpose": "semantic net routes"
+    },
+    {
+      "defaultVisible": true,
+      "id": "symbols",
+      "locked": false,
+      "order": 20,
+      "printable": true,
+      "purpose": "component symbols"
+    },
+    {
+      "defaultVisible": true,
+      "id": "annotation",
+      "locked": false,
+      "order": 30,
+      "printable": true,
+      "purpose": "notes"
+    }
+  ],
+  "nets": [],
+  "project": {
+    "id": "conformance:b003",
+    "profile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "title": "B003 Plan-scale electrical fixture conformance project"
+  },
+  "renderer": {
+    "id": "aixem-grid-schematic-reference-renderer",
+    "version": "0.5.1"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/resolved-scene/1",
+  "sheet": {
+    "height": 135.0,
+    "margin": 10,
+    "titleBlock": {
+      "drawing": "corpus_b003-layout",
+      "revision": "A",
+      "sheet": "1/1",
+      "title": "B003 — Plan-scale electrical fixture"
+    },
+    "width": 180.0
+  },
+  "statistics": {
+    "entities": 1,
+    "nets": 0,
+    "noConnects": 0,
+    "primitives": 4,
+    "routeSegments": 0,
+    "symbolAssets": 1
+  },
+  "styleProfile": {
+    "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+    "id": "aixem.schematic.grid-light",
+    "path": "aixem-grid-schematic-style-1.aixstyle.json"
+  }
+}

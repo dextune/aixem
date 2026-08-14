@@ -1,0 +1,10 @@
+{
+  "assertions": [
+    "multi-member-project-net"
+  ],
+  "expected": "pass",
+  "expectedDiagnostic": null,
+  "id": "H003",
+  "project": "project.aixproj.json",
+  "title": "Three sheet VCC GND fanout"
+}

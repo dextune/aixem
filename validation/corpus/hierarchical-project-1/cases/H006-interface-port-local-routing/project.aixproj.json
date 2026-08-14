@@ -1,0 +1,152 @@
+{
+  "formatVersion": "2.0",
+  "project": {
+    "applicationProfile": "aixem.schematic.multisheet@1",
+    "description": "Hierarchical conformance case H006: Interface port local routing",
+    "features": [
+      "component.graphics@1",
+      "explicit.layout@2",
+      "hierarchical.interface@1",
+      "project-net@1",
+      "deterministic-project-routing@1"
+    ],
+    "id": "hierarchical:h006",
+    "libraries": [
+      {
+        "digest": "sha256:d6f65cd2d99d51e7a0eeb9ca230ea2207936a84e90bcbe65e7bc3561d393f9b6",
+        "id": "hierarchical:reference-library",
+        "mediaType": "application/vnd.aixem.library+json",
+        "path": "libraries/authoring.aixlib.json",
+        "version": "1.0.0"
+      }
+    ],
+    "metadata": {
+      "case": "H006",
+      "corpus": "hierarchical-project-1",
+      "geometryCreatesConnectivity": false,
+      "layersAreSheets": false
+    },
+    "outputs": [
+      {
+        "mediaType": "image/svg+xml",
+        "path": "render/project-overview.svg",
+        "role": "project-overview-svg"
+      },
+      {
+        "mediaType": "image/svg+xml",
+        "path": "render/project-composite.svg",
+        "role": "project-composite-svg"
+      },
+      {
+        "mediaType": "application/json",
+        "path": "render/resolved-project-scene.json",
+        "role": "resolved-project-scene"
+      },
+      {
+        "mediaType": "text/html",
+        "path": "render/workbench.html",
+        "role": "engineering-workbench"
+      }
+    ],
+    "projectNets": [
+      {
+        "id": "vcc_5v",
+        "members": [
+          {
+            "port": "VCC",
+            "sheet": "driver"
+          },
+          {
+            "port": "VCC",
+            "sheet": "receiver"
+          }
+        ],
+        "role": "power"
+      },
+      {
+        "id": "gnd",
+        "members": [
+          {
+            "port": "GND",
+            "sheet": "driver"
+          },
+          {
+            "port": "GND",
+            "sheet": "receiver"
+          }
+        ],
+        "role": "power"
+      },
+      {
+        "id": "control_signal",
+        "members": [
+          {
+            "port": "OUT",
+            "sheet": "driver"
+          },
+          {
+            "port": "IN",
+            "sheet": "receiver"
+          }
+        ],
+        "role": "signal"
+      }
+    ],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-11",
+      "license": "CC0-1.0"
+    },
+    "renderPolicy": {
+      "backend": "svg",
+      "defaultVariantPolicy": "library-default",
+      "fontPolicy": "system-fallback",
+      "purpose": "primary-diagram",
+      "remoteAssets": "deny",
+      "unsupportedRequiredFeature": "reject"
+    },
+    "sheets": [
+      {
+        "id": "driver",
+        "layout": {
+          "digest": "sha256:b2a8c037abf210db59c6f49423774fd44840679105393c03745258cd94731bd3",
+          "id": "h006-interface-port-local-routing:driver-layout",
+          "mediaType": "application/json",
+          "path": "layouts/driver.aixlayout.json",
+          "version": "2.0"
+        },
+        "order": 10,
+        "source": {
+          "digest": "sha256:aa576b3e00f333d11772f54a0c89473ed42cbc836bf2c255fa79cf3378199973",
+          "id": "h006-interface-port-local-routing:driver",
+          "mediaType": "text/x-aixem",
+          "path": "circuits/driver.aixem",
+          "version": "1.0"
+        },
+        "title": "Driver"
+      },
+      {
+        "id": "receiver",
+        "layout": {
+          "digest": "sha256:36ddcfda1a1119ec6b7d7609f4fb6b847264f50e0bf69bb32ba09360c70e0308",
+          "id": "h006-interface-port-local-routing:receiver-layout",
+          "mediaType": "application/json",
+          "path": "layouts/receiver.aixlayout.json",
+          "version": "2.0"
+        },
+        "order": 20,
+        "source": {
+          "digest": "sha256:809f6e2999b70071fc2d46dd21bd38ae0bf229194de58b569072b8b1cc46796c",
+          "id": "h006-interface-port-local-routing:receiver",
+          "mediaType": "text/x-aixem",
+          "path": "circuits/receiver.aixem",
+          "version": "1.0"
+        },
+        "title": "Receiver"
+      }
+    ],
+    "status": "example",
+    "title": "Interface port local routing"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/aixproj/2"
+}

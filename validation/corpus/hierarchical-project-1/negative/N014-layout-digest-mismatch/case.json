@@ -1,0 +1,8 @@
+{
+  "assertions": [],
+  "expected": "fail",
+  "expectedDiagnostic": "layout digest mismatch",
+  "id": "N014",
+  "project": "project.aixproj.json",
+  "title": "Layout digest mismatch"
+}

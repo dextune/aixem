@@ -1,0 +1,843 @@
+{
+  "capabilities": {
+    "composite": true,
+    "diagnostics": true,
+    "hierarchy": true,
+    "interfacePorts": true,
+    "offline": true,
+    "overview": true,
+    "projectNets": true,
+    "qualifiedSearch": true,
+    "readOnly": true,
+    "sheet": true,
+    "sheetScopedLayers": true,
+    "viewport": true
+  },
+  "diagnostics": [
+    {
+      "code": "VIEWER-READONLY-001",
+      "message": "Reference Viewer runtime state is derived and read-only.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-QID-001",
+      "message": "9 qualified objects indexed without ambiguity.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-MODES-001",
+      "message": "Sheet, Overview, and Composite modes are available from resolved project evidence.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-ASSET-001",
+      "message": "The self-contained Viewer requires no remote presentation assets.",
+      "severity": "info",
+      "status": "PASS"
+    }
+  ],
+  "domContract": "1",
+  "formatVersion": "1.0",
+  "hierarchy": [
+    {
+      "children": [],
+      "depth": 0,
+      "id": "source",
+      "order": 10,
+      "parent": null,
+      "qid": "sheet:source",
+      "title": "Source"
+    },
+    {
+      "children": [],
+      "depth": 0,
+      "id": "sink",
+      "order": 20,
+      "parent": null,
+      "qid": "sheet:sink",
+      "title": "Sink"
+    }
+  ],
+  "initialState": {
+    "activeNavigatorCategory": "sheet",
+    "activeSheet": "source",
+    "mode": "sheet",
+    "searchQuery": "",
+    "selection": null,
+    "visibleLayersBySheet": {
+      "sink": {
+        "annotation": true,
+        "connections": true,
+        "symbols": true
+      },
+      "source": {
+        "annotation": true,
+        "connections": true,
+        "symbols": true
+      }
+    }
+  },
+  "objects": {
+    "entity:sink:U1": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "nativeId": "U1",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:sink:U1"
+        },
+        {
+          "label": "Sheet",
+          "value": "sink"
+        },
+        {
+          "label": "Entity ID",
+          "value": "U1"
+        },
+        {
+          "label": "Reference",
+          "value": "U1"
+        },
+        {
+          "label": "Value",
+          "value": "AXC12"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"U1\",\"layer\":\"symbols\",\"x\":80,\"y\":50}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[60.0,42.5],\"10\":[85.0,30.0],\"11\":[75.0,70.0],\"12\":[85.0,70.0],\"2\":[60.0,47.5],\"3\":[60.0,52.5],\"4\":[60.0,57.5],\"5\":[100.0,42.5],\"6\":[100.0,47.5],\"7\":[100.0,52.5],\"8\":[100.0,57.5],\"9\":[75.0,30.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:2fe409df19cfd0257cdc4802e8be6dd84d4d0b840938abb23c22c7c941a1f3ae"
+        }
+      ],
+      "qid": "entity:sink:U1",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sink",
+        "composite"
+      ],
+      "searchText": "entity:sink:u1 u1 · axc12 u1 sink u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "sink"
+    },
+    "entity:source:U1": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "nativeId": "U1",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:source:U1"
+        },
+        {
+          "label": "Sheet",
+          "value": "source"
+        },
+        {
+          "label": "Entity ID",
+          "value": "U1"
+        },
+        {
+          "label": "Reference",
+          "value": "U1"
+        },
+        {
+          "label": "Value",
+          "value": "AXC12"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"U1\",\"layer\":\"symbols\",\"x\":80,\"y\":50}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[60.0,42.5],\"10\":[85.0,30.0],\"11\":[75.0,70.0],\"12\":[85.0,70.0],\"2\":[60.0,47.5],\"3\":[60.0,52.5],\"4\":[60.0,57.5],\"5\":[100.0,42.5],\"6\":[100.0,47.5],\"7\":[100.0,52.5],\"8\":[100.0,57.5],\"9\":[75.0,30.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:2fe409df19cfd0257cdc4802e8be6dd84d4d0b840938abb23c22c7c941a1f3ae"
+        }
+      ],
+      "qid": "entity:source:U1",
+      "relatedQids": [],
+      "representations": [
+        "sheet:source",
+        "composite"
+      ],
+      "searchText": "entity:source:u1 u1 · axc12 u1 source u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "source"
+    },
+    "interface:sink:IN": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sink / @IN",
+      "nativeId": "IN",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:sink:IN"
+        },
+        {
+          "label": "Sheet",
+          "value": "sink"
+        },
+        {
+          "label": "Port ID",
+          "value": "IN"
+        },
+        {
+          "label": "Direction",
+          "value": "input"
+        },
+        {
+          "label": "Role",
+          "value": "signal"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:sink:in"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:signal"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[70.0,274.0]"
+        }
+      ],
+      "qid": "interface:sink:IN",
+      "relatedQids": [
+        "local-net:sink:in",
+        "project-net:signal"
+      ],
+      "representations": [
+        "sheet:sink",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:sink:in sink / @in in sink input signal in project-net:signal",
+      "sheet": "sink"
+    },
+    "interface:source:OUT": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "source / @OUT",
+      "nativeId": "OUT",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:source:OUT"
+        },
+        {
+          "label": "Sheet",
+          "value": "source"
+        },
+        {
+          "label": "Port ID",
+          "value": "OUT"
+        },
+        {
+          "label": "Direction",
+          "value": "output"
+        },
+        {
+          "label": "Role",
+          "value": "signal"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:source:out"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:signal"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[250.0,94.0]"
+        }
+      ],
+      "qid": "interface:source:OUT",
+      "relatedQids": [
+        "local-net:source:out",
+        "project-net:signal"
+      ],
+      "representations": [
+        "sheet:source",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:source:out source / @out out source output signal out project-net:signal",
+      "sheet": "source"
+    },
+    "local-net:sink:in": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sink / in",
+      "nativeId": "in",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:sink:in"
+        },
+        {
+          "label": "Sheet",
+          "value": "sink"
+        },
+        {
+          "label": "Local net ID",
+          "value": "in"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.1\",\"@IN\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:signal"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:sink:in",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sink",
+        "composite"
+      ],
+      "searchText": "local-net:sink:in sink / in in sink [\"u1.1\",\"@in\"] project-net:signal",
+      "sheet": "sink"
+    },
+    "local-net:source:out": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "source / out",
+      "nativeId": "out",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:source:out"
+        },
+        {
+          "label": "Sheet",
+          "value": "source"
+        },
+        {
+          "label": "Local net ID",
+          "value": "out"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.5\",\"@OUT\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:signal"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:source:out",
+      "relatedQids": [],
+      "representations": [
+        "sheet:source",
+        "composite"
+      ],
+      "searchText": "local-net:source:out source / out out source [\"u1.5\",\"@out\"] project-net:signal",
+      "sheet": "source"
+    },
+    "project-net:signal": {
+      "category": "Project Nets",
+      "kind": "project-net",
+      "label": "signal",
+      "nativeId": "signal",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "project-net:signal"
+        },
+        {
+          "label": "Project-net ID",
+          "value": "signal"
+        },
+        {
+          "label": "Participating sheets",
+          "value": "[\"source\",\"sink\"]"
+        },
+        {
+          "label": "Interface members",
+          "value": "[\"interface:source:OUT\",\"interface:sink:IN\"]"
+        },
+        {
+          "label": "Backing local nets",
+          "value": "[\"local-net:source:out\",\"local-net:sink:in\"]"
+        },
+        {
+          "label": "Transitive endpoint count",
+          "value": "4"
+        },
+        {
+          "label": "Transitive endpoints",
+          "value": "[\"entity:sink:U1.1\",\"entity:source:U1.5\",\"interface:sink:IN\",\"interface:source:OUT\"]"
+        },
+        {
+          "label": "Crosses hierarchy boundary",
+          "value": "true"
+        }
+      ],
+      "qid": "project-net:signal",
+      "relatedQids": [
+        "interface:sink:IN",
+        "interface:source:OUT"
+      ],
+      "representations": [
+        "overview",
+        "composite"
+      ],
+      "searchText": "project-net:signal signal signal  [\"source\",\"sink\"] [\"interface:source:out\",\"interface:sink:in\"] [\"local-net:source:out\",\"local-net:sink:in\"]",
+      "sheet": null
+    },
+    "sheet:sink": {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Sink",
+      "nativeId": "sink",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "sheet:sink"
+        },
+        {
+          "label": "Sheet",
+          "value": "sink"
+        },
+        {
+          "label": "Title",
+          "value": "Sink"
+        },
+        {
+          "label": "Parent",
+          "value": "Root"
+        },
+        {
+          "label": "Hierarchy depth",
+          "value": "0"
+        },
+        {
+          "label": "Width",
+          "value": "160"
+        },
+        {
+          "label": "Height",
+          "value": "100"
+        },
+        {
+          "label": "Unit",
+          "value": "mm"
+        }
+      ],
+      "qid": "sheet:sink",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sink",
+        "overview",
+        "composite"
+      ],
+      "searchText": "sheet:sink sink sink sink []",
+      "sheet": "sink"
+    },
+    "sheet:source": {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Source",
+      "nativeId": "source",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "sheet:source"
+        },
+        {
+          "label": "Sheet",
+          "value": "source"
+        },
+        {
+          "label": "Title",
+          "value": "Source"
+        },
+        {
+          "label": "Parent",
+          "value": "Root"
+        },
+        {
+          "label": "Hierarchy depth",
+          "value": "0"
+        },
+        {
+          "label": "Width",
+          "value": "160"
+        },
+        {
+          "label": "Height",
+          "value": "100"
+        },
+        {
+          "label": "Unit",
+          "value": "mm"
+        }
+      ],
+      "qid": "sheet:source",
+      "relatedQids": [],
+      "representations": [
+        "sheet:source",
+        "overview",
+        "composite"
+      ],
+      "searchText": "sheet:source source source source []",
+      "sheet": "source"
+    }
+  },
+  "project": {
+    "id": "hierarchical:h002",
+    "multiSheet": true,
+    "profile": "aixem.schematic.multisheet@1",
+    "schema": "https://schemas.aixem.org/component-graphics/aixproj/2",
+    "title": "Single local endpoint + interface port"
+  },
+  "provenance": {
+    "authority": {
+      "connectivityFromGeometry": false,
+      "layersAreSheets": false,
+      "localPresentation": "aixlayout/2",
+      "localSemantics": ".aixem",
+      "projectComposition": "aixproj/2",
+      "viewerState": "derived-non-authoritative"
+    },
+    "generatedAt": "2026-08-10T12:00:00Z",
+    "hashes": {
+      "inputs": [
+        {
+          "layoutDigest": "sha256:a0941cf0d98766dd8c945b1ad350246535fe528c771e879ae50614fe1ecac3ff",
+          "layoutPath": "layouts/source.aixlayout.json",
+          "resolvedSceneDigest": "sha256:b95bd8ac593f52b55c3973ecde3c82f629a7d212970dee5409d99d06bafab4c6",
+          "sheet": "source",
+          "sourceDigest": "sha256:09ceae094a60598570970ace2e7698d28092a094a2618aa656926b3b2e4dabed",
+          "sourcePath": "circuits/source.aixem",
+          "svgDigest": "sha256:86d989cfbe253f7c484685607a9138bb43592fc3ebf967ae5e66d00d9a03ca81"
+        },
+        {
+          "layoutDigest": "sha256:296dc07710072aca84a27de988b09382c39ebe39cf738cd00d3a62ecb04c446d",
+          "layoutPath": "layouts/sink.aixlayout.json",
+          "resolvedSceneDigest": "sha256:1b395531976b67fc0079edd0d2a31305fd3dc8708b965bf8fbee627728aebcdd",
+          "sheet": "sink",
+          "sourceDigest": "sha256:39ec1052f0aaf41fb0ef28a2310ef30e19ad068d874eabca9d59cc8288c39877",
+          "sourcePath": "circuits/sink.aixem",
+          "svgDigest": "sha256:d24b325eec530c29d4730554b0a5604047f80f506073a4eafcc07ade4ee8b6cd"
+        }
+      ],
+      "manifest": "sha256:0aff6616104f8f2ce99c982e9f964a5a6b68189cdd1592ff697d12307adaf103",
+      "styleProfile": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393"
+    },
+    "renderer": {
+      "id": "aixem-hierarchical-project-reference-renderer",
+      "version": "0.5.3"
+    },
+    "resolvedProjectSceneSchema": "https://schemas.aixem.org/component-graphics/resolved-project-scene/1"
+  },
+  "release": "AIXEM-SRP-0.5.5-2026-08-11",
+  "schema": "https://schemas.aixem.org/viewer/viewer-model/1",
+  "searchIndex": [
+    {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Source",
+      "qid": "sheet:source",
+      "searchText": "sheet:source source source source []",
+      "sheet": "source"
+    },
+    {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Sink",
+      "qid": "sheet:sink",
+      "searchText": "sheet:sink sink sink sink []",
+      "sheet": "sink"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "qid": "entity:source:U1",
+      "searchText": "entity:source:u1 u1 · axc12 u1 source u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "source"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "qid": "entity:sink:U1",
+      "searchText": "entity:sink:u1 u1 · axc12 u1 sink u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "sink"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "source / out",
+      "qid": "local-net:source:out",
+      "searchText": "local-net:source:out source / out out source [\"u1.5\",\"@out\"] project-net:signal",
+      "sheet": "source"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sink / in",
+      "qid": "local-net:sink:in",
+      "searchText": "local-net:sink:in sink / in in sink [\"u1.1\",\"@in\"] project-net:signal",
+      "sheet": "sink"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "source / @OUT",
+      "qid": "interface:source:OUT",
+      "searchText": "interface:source:out source / @out out source output signal out project-net:signal",
+      "sheet": "source"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sink / @IN",
+      "qid": "interface:sink:IN",
+      "searchText": "interface:sink:in sink / @in in sink input signal in project-net:signal",
+      "sheet": "sink"
+    },
+    {
+      "category": "Project Nets",
+      "kind": "project-net",
+      "label": "signal",
+      "qid": "project-net:signal",
+      "searchText": "project-net:signal signal signal  [\"source\",\"sink\"] [\"interface:source:out\",\"interface:sink:in\"] [\"local-net:source:out\",\"local-net:sink:in\"]",
+      "sheet": null
+    }
+  ],
+  "sheets": [
+    {
+      "height": 100.0,
+      "id": "source",
+      "layers": [
+        {
+          "defaultVisible": true,
+          "id": "connections",
+          "locked": false,
+          "order": 10,
+          "printable": true,
+          "purpose": "semantic net routes and sheet ports",
+          "qualifiedId": "layer:source:connections",
+          "sheet": "source"
+        },
+        {
+          "defaultVisible": true,
+          "id": "symbols",
+          "locked": false,
+          "order": 20,
+          "printable": true,
+          "purpose": "component symbols",
+          "qualifiedId": "layer:source:symbols",
+          "sheet": "source"
+        },
+        {
+          "defaultVisible": true,
+          "id": "annotation",
+          "locked": false,
+          "order": 30,
+          "printable": true,
+          "purpose": "notes",
+          "qualifiedId": "layer:source:annotation",
+          "sheet": "source"
+        }
+      ],
+      "order": 10,
+      "parent": null,
+      "qid": "sheet:source",
+      "title": "Source",
+      "unit": "mm",
+      "width": 160.0
+    },
+    {
+      "height": 100.0,
+      "id": "sink",
+      "layers": [
+        {
+          "defaultVisible": true,
+          "id": "connections",
+          "locked": false,
+          "order": 10,
+          "printable": true,
+          "purpose": "semantic net routes and sheet ports",
+          "qualifiedId": "layer:sink:connections",
+          "sheet": "sink"
+        },
+        {
+          "defaultVisible": true,
+          "id": "symbols",
+          "locked": false,
+          "order": 20,
+          "printable": true,
+          "purpose": "component symbols",
+          "qualifiedId": "layer:sink:symbols",
+          "sheet": "sink"
+        },
+        {
+          "defaultVisible": true,
+          "id": "annotation",
+          "locked": false,
+          "order": 30,
+          "printable": true,
+          "purpose": "notes",
+          "qualifiedId": "layer:sink:annotation",
+          "sheet": "sink"
+        }
+      ],
+      "order": 20,
+      "parent": null,
+      "qid": "sheet:sink",
+      "title": "Sink",
+      "unit": "mm",
+      "width": 160.0
+    }
+  ],
+  "statistics": {
+    "entities": 2,
+    "hierarchyDepth": 0,
+    "interfacePorts": 2,
+    "localNets": 2,
+    "localRouteSegments": 2,
+    "projectNets": 1,
+    "projectRouteSegments": 16,
+    "qualifiedObjects": 9,
+    "sheets": 2,
+    "unconnectedProjectPorts": 0
+  },
+  "viewerContract": "aixem.reference-viewer@1",
+  "views": [
+    {
+      "available": true,
+      "canvases": [
+        {
+          "height": 100.0,
+          "key": "sheet:source",
+          "sheet": "source",
+          "unit": "mm",
+          "width": 160.0
+        },
+        {
+          "height": 100.0,
+          "key": "sheet:sink",
+          "sheet": "sink",
+          "unit": "mm",
+          "width": 160.0
+        }
+      ],
+      "id": "sheet",
+      "label": "Sheet"
+    },
+    {
+      "available": true,
+      "canvases": [
+        {
+          "height": 378.0,
+          "key": "overview",
+          "sheet": null,
+          "unit": "project-space",
+          "width": 385.0
+        }
+      ],
+      "id": "overview",
+      "label": "Overview"
+    },
+    {
+      "available": true,
+      "canvases": [
+        {
+          "height": 438.0,
+          "key": "composite",
+          "sheet": null,
+          "unit": "project-space",
+          "width": 365.0
+        }
+      ],
+      "id": "composite",
+      "label": "Composite"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "card": {
+    "aliases": [
+      "schema catalog",
+      "JSON schemas",
+      "machine readable contracts"
+    ],
+    "appliesTo": [
+      "schema-catalog"
+    ],
+    "domain": "specifications",
+    "estimatedReadBytes": 5264,
+    "id": "AIXEM-SPEC-SCHEMAS-001",
+    "inputs": [],
+    "keywords": [
+      "JSON Schema Catalog",
+      "JSON schemas",
+      "build-documentation",
+      "inspect-artifact",
+      "machine readable contracts",
+      "schema catalog",
+      "validate-project"
+    ],
+    "kind": "index",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/specifications/schemas/overview.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:163539913a56b1a6cae8a87113c9ad99f197f547a406419fed7cbb84891cc3e9"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 500,
+    "readNext": [],
+    "rules": [
+      {
+        "id": "AIXEM-SPEC-SCHEMAS-001.read",
+        "level": "should",
+        "text": "Catalogs the machine-readable project, library, symbol, layout, and documentation metadata schemas distributed with AIXEM 0.5."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SPEC-SCHEMAS-001",
+        "path": "docs/specifications/schemas/index.md"
+      }
+    ],
+    "summary": "Catalogs the machine-readable project, library, symbol, layout, and documentation metadata schemas distributed with AIXEM 0.5.",
+    "title": "JSON Schema Catalog"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

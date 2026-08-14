@@ -1,0 +1,18 @@
+{
+  "entryRoute": "author-component-circuit",
+  "exampleFixture": "examples/authoring/03-multi-pin-ic",
+  "formatVersion": "1.0",
+  "id": "EVAL-03",
+  "prohibitedDiscovery": [
+    "repository-wide search",
+    "renderer implementation inspection"
+  ],
+  "prompt": "Create a functional twelve-pin controller grouped by signal role and use it in a small circuit.",
+  "requiredExitConditions": [
+    "symbol-ready",
+    "release-valid"
+  ],
+  "schema": "https://schemas.aixem.org/validation/agent-eval-task/1",
+  "scoringProfile": "validation/agent-evals/scoring.md",
+  "title": "Twelve-pin controller"
+}

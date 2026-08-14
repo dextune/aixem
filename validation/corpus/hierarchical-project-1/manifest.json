@@ -1,0 +1,45 @@
+{
+  "authority": {
+    "geometryCreatesConnectivity": false,
+    "leafPresentation": "aixlayout/2",
+    "leafSemantics": ".aixem",
+    "project": "aixproj/2"
+  },
+  "cases": [
+    "cases/H001-two-sheet-power-+-control/case.json",
+    "cases/H002-single-local-endpoint-+-interface-port/case.json",
+    "cases/H003-three-sheet-vcc-gnd-fanout/case.json",
+    "cases/H004-same-name-local-nets-not-connected/case.json",
+    "cases/H005-three-level-sheet-hierarchy/case.json",
+    "cases/H006-interface-port-local-routing/case.json",
+    "cases/H007-project-overview/case.json",
+    "cases/H008-composite-view/case.json",
+    "cases/H009-missing-unknown-interface-port/case.json",
+    "cases/H010-duplicate-project-net-ownership/case.json",
+    "cases/H011-digest-locked-multi-sheet-project/case.json",
+    "cases/H012-legacy-aixproj-v1/case.json",
+    "cases/H013-ten-sheet-scale-baseline/case.json",
+    "cases/H014-cross-sheet-route-crossings/case.json",
+    "cases/H015-local-net-project-net-equivalence-collision/case.json"
+  ],
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "id": "hierarchical-project-1",
+  "negativeFixtures": [
+    "negative/N001-duplicate-interface-port/case.json",
+    "negative/N002-unknown-interface-endpoint/case.json",
+    "negative/N003-interface-port-in-two-local-nets/case.json",
+    "negative/N004-interface-port-net-and-noconn-conflict/case.json",
+    "negative/N005-layout-references-unknown-sheet-port/case.json",
+    "negative/N006-missing-required-sheet-port-presentation/case.json",
+    "negative/N007-project-member-unknown-sheet/case.json",
+    "negative/N008-project-member-unknown-interface-port/case.json",
+    "negative/N009-project-net-one-member/case.json",
+    "negative/N010-interface-port-in-two-project-nets/case.json",
+    "negative/N011-unknown-hierarchy-parent/case.json",
+    "negative/N012-hierarchy-cycle/case.json",
+    "negative/N013-source-digest-mismatch/case.json",
+    "negative/N014-layout-digest-mismatch/case.json",
+    "negative/N015-duplicate-path-contradictory-digest/case.json"
+  ],
+  "release": "0.5.3"
+}

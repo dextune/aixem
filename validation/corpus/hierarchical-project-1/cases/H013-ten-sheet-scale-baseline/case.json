@@ -1,0 +1,11 @@
+{
+  "assertions": [
+    "ten-independent-leaves",
+    "stable-ordering"
+  ],
+  "expected": "pass",
+  "expectedDiagnostic": null,
+  "id": "H013",
+  "project": "project.aixproj.json",
+  "title": "Ten sheet scale baseline"
+}

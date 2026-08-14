@@ -1,0 +1,60 @@
+{
+  "$id": "https://schemas.aixem.org/agent/stage-manifest/1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AIXEM Cold-Start Stage Manifest 1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "formatVersion", "caseId", "attemptId", "generatedAt", "task", "referencePack", "startWorkspace", "visibleFiles", "writableRoots", "readOnlyRoots", "effectiveWriteScope", "excludedEvaluatorArtifacts", "isolationProfile", "targetLeakageCheck", "createdBy", "authority", "stageDigest"],
+  "properties": {
+    "schema": {"const": "https://schemas.aixem.org/agent/stage-manifest/1"},
+    "formatVersion": {"const": "1.0"},
+    "caseId": {"type": "string", "pattern": "^[A-Z][A-Z0-9-]{2,63}$"},
+    "attemptId": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{1,95}$"},
+    "generatedAt": {"type": "string", "format": "date-time"},
+    "task": {
+      "type": "object", "additionalProperties": false,
+      "required": ["path", "digest", "entryRoute", "activeRoute", "routeResolutionDigest"],
+      "properties": {"path": {"$ref": "#/$defs/safePath"}, "digest": {"$ref": "#/$defs/digest"}, "entryRoute": {"$ref": "#/$defs/route"}, "activeRoute": {"$ref": "#/$defs/route"}, "routeResolutionDigest": {"$ref": "#/$defs/digest"}}
+    },
+    "referencePack": {
+      "type": "object", "additionalProperties": false,
+      "required": ["root", "digest", "files", "bytes"],
+      "properties": {"root": {"const": "reference"}, "digest": {"$ref": "#/$defs/digest"}, "files": {"type": "integer", "minimum": 1}, "bytes": {"type": "integer", "minimum": 1}}
+    },
+    "startWorkspace": {
+      "type": "object", "additionalProperties": false,
+      "required": ["root", "snapshotDigest", "authoritativeDigest", "files", "authoritativeFiles"],
+      "properties": {
+        "root": {"const": "workspace"}, "snapshotDigest": {"$ref": "#/$defs/digest"}, "authoritativeDigest": {"$ref": "#/$defs/digest"}, "files": {"type": "integer", "minimum": 0},
+        "authoritativeFiles": {"type": "array", "items": {"$ref": "#/$defs/authorityFile"}}
+      }
+    },
+    "visibleFiles": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/file"}},
+    "writableRoots": {"type": "array", "items": {"enum": ["workspace", "state"]}, "uniqueItems": true, "contains": {"const": "workspace"}},
+    "readOnlyRoots": {"type": "array", "items": {"enum": ["task", "reference"]}, "uniqueItems": true, "minItems": 2},
+    "effectiveWriteScope": {"type": "object", "additionalProperties": true},
+    "excludedEvaluatorArtifacts": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "isolationProfile": {
+      "type": "object", "additionalProperties": false,
+      "required": ["filesystem", "freshState", "priorAttemptsVisible", "evaluatorArtifactsVisible", "credentialsStaged", "networkPolicy"],
+      "properties": {
+        "filesystem": {"const": "fresh-copy"}, "freshState": {"const": true}, "priorAttemptsVisible": {"const": false}, "evaluatorArtifactsVisible": {"const": false}, "credentialsStaged": {"const": false}, "networkPolicy": {"const": "declared-by-executor"}
+      }
+    },
+    "targetLeakageCheck": {
+      "type": "object", "additionalProperties": false,
+      "required": ["valid", "filesScanned", "matches"],
+      "properties": {"valid": {"const": true}, "filesScanned": {"type": "integer", "minimum": 1}, "matches": {"type": "array", "maxItems": 0}}
+    },
+    "createdBy": {"type": "object", "additionalProperties": false, "required": ["tool", "version"], "properties": {"tool": {"type": "string"}, "version": {"type": "string"}}},
+    "authority": {"const": "derived-execution-only"},
+    "stageDigest": {"$ref": "#/$defs/digest"}
+  },
+  "$defs": {
+    "digest": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+    "safePath": {"type": "string", "minLength": 1, "not": {"pattern": "(^/|(^|/)\\.\\.(/|$)|^[A-Za-z]:)"}},
+    "route": {"type": "string", "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"},
+    "file": {"type": "object", "additionalProperties": false, "required": ["path", "bytes", "digest"], "properties": {"path": {"$ref": "#/$defs/safePath"}, "bytes": {"type": "integer", "minimum": 0}, "digest": {"$ref": "#/$defs/digest"}}},
+    "authorityFile": {"type": "object", "additionalProperties": false, "required": ["path", "bytes", "digest", "role", "authority"], "properties": {"path": {"$ref": "#/$defs/safePath"}, "bytes": {"type": "integer", "minimum": 0}, "digest": {"$ref": "#/$defs/digest"}, "role": {"const": "authoritative"}, "authority": {"enum": ["semantic", "component-library", "symbol", "layout", "project", "project-routing"]}}}
+  }
+}

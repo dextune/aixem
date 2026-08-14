@@ -1,0 +1,15 @@
+{
+  "canonicalHashes": {},
+  "checks": [],
+  "deterministic": true,
+  "diagnosticMatched": true,
+  "error": "PROJECT_NET_UNKNOWN_INTERFACE_PORT: project net bad references control:@MISSING",
+  "expected": "fail",
+  "expectedDiagnostic": "PROJECT_NET_UNKNOWN_INTERFACE_PORT",
+  "id": "H009",
+  "observed": "fail",
+  "projectDigest": "sha256:42fe4a89bb4112719d3215b9fc61baa07e8adca544af7496d20e8aa0b3ae3135",
+  "repeatCount": 0,
+  "status": "pass",
+  "title": "Missing unknown interface port"
+}

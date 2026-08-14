@@ -1,0 +1,73 @@
+{
+  "card": {
+    "aliases": [
+      "retrieval profile",
+      "agent navigation",
+      "bounded context"
+    ],
+    "appliesTo": [
+      "agent-retrieval-contract"
+    ],
+    "domain": "specifications",
+    "estimatedReadBytes": 8470,
+    "id": "AIXEM-SPEC-AGENT-RETRIEVAL-001",
+    "inputs": [],
+    "keywords": [
+      "Agent Retrieval Profile 1",
+      "agent navigation",
+      "bounded context",
+      "build-documentation",
+      "change-architecture",
+      "retrieval profile"
+    ],
+    "kind": "profile",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/specifications/agent/retrieval-profile.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:6b9d1148964cc14de7f6602cc150df27ddbdd9397a2233b797feb04646d6f0c8"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-AGENT-0001",
+        "level": "must",
+        "text": "**MUST.** A known task intent MUST resolve through the authored route index before repository-wide search."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-0002",
+        "level": "must",
+        "text": "**MUST.** A default route MUST load no more than seven canonical documents."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-0003",
+        "level": "must",
+        "text": "**MUST.** A default route MUST declare a documentation budget no greater than 96 KiB."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-0004",
+        "level": "must",
+        "text": "**MUST.** A default route MUST declare a dependency depth no greater than three."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-0005",
+        "level": "must",
+        "text": "**MUST.** A missing route target or required section MUST fail the compiler and agent lookup."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SPEC-AGENT-RETRIEVAL-001",
+        "path": "docs/specifications/agent/retrieval-profile.md"
+      }
+    ],
+    "summary": "Defines route-first lookup, bounded context, exact section targeting, fallback search, and fail-closed resolution for AI agents.",
+    "title": "Agent Retrieval Profile 1"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

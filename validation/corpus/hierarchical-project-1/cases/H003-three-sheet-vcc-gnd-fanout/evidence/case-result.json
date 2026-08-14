@@ -1,0 +1,83 @@
+{
+  "canonicalHashes": {
+    "project-composite.svg": "sha256:1e82c6e29abc1e6ff66941584d096245f5a7ed96d40159d57387832e98028347",
+    "project-overview.svg": "sha256:8f03ad5826cac8653d43e388191c9193441776726cb255096d3e30c4b8c77214",
+    "resolved-project-scene.json": "sha256:457ea918e4e9d7219c6b10e4b4f6fe2400ac8d210a53fcf538d1b83eb874034f",
+    "sheets/control.resolved-scene.json": "sha256:c6769e8b9e0951ff4611708c12ccc40058b8caf20bb7acedb9fa0c7cbfb4a594",
+    "sheets/control.svg": "sha256:9d08783218d4c9bfb4ce9986c03415c53f0224a0f68775e0a0fc774e04e47566",
+    "sheets/io.resolved-scene.json": "sha256:1fc74d4d9ae42fb5f0cf7ab8985c8274f17abc70ea22cfa2aa687387d4e44857",
+    "sheets/io.svg": "sha256:563c0c7fa0406a9c27af352d885e7359635f60a52d2ce9c2382c7cf84ebe01d8",
+    "sheets/power.resolved-scene.json": "sha256:fa0dbf7cac103bf66e48613f75710ad8e5e1c2e2c70149c8b6d4d69b9114ece0",
+    "sheets/power.svg": "sha256:10f53eca8a5748ce7349534f0601f856c342dff03a833c4de8ff8602dce95979",
+    "viewer-model.json": "sha256:3bd24f11ed33c53da4fc9b26921878b8572d2df34915d1db99103faaf1a27199",
+    "viewer.html": "sha256:35d94c8dc7b38e70abe98889f186398846b6cb19d2018a8ad2320fdcec1cc3ef",
+    "workbench.html": "sha256:ef0f53deff8d79ca41a5953122664b60c325ddd38f59e9a463fa74db6ef57f16"
+  },
+  "checks": [
+    {
+      "id": "PROJECT_SHEET_COUNT",
+      "observation": 3,
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_GRAPH_PRESENT",
+      "observation": [
+        "identities",
+        "projectNets",
+        "unconnectedPorts"
+      ],
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_AUTHORITY",
+      "observation": {
+        "connectivityFromGeometry": false,
+        "layersAreSheets": false,
+        "localPresentation": "aixlayout/2",
+        "localSemantics": ".aixem",
+        "projectComposition": "aixproj/2"
+      },
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_LAYER_AUTHORITY",
+      "observation": {
+        "connectivityFromGeometry": false,
+        "layersAreSheets": false,
+        "localPresentation": "aixlayout/2",
+        "localSemantics": ".aixem",
+        "projectComposition": "aixproj/2"
+      },
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_ROUTES_ORTHOGONAL",
+      "observation": "overview+composite",
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_WORKBENCH_DATA_DRIVEN",
+      "observation": "resolved hierarchy",
+      "status": "pass"
+    },
+    {
+      "id": "H003_FANOUT",
+      "observation": {
+        "gnd": 3,
+        "vcc_5v": 3
+      },
+      "status": "pass"
+    }
+  ],
+  "deterministic": true,
+  "diagnosticMatched": true,
+  "error": null,
+  "expected": "pass",
+  "expectedDiagnostic": null,
+  "id": "H003",
+  "observed": "pass",
+  "projectDigest": "sha256:affc7d9e438c4c9986f3b3364aaf941c4283643d80d7f8a3313a7f052e5d60f4",
+  "repeatCount": 3,
+  "status": "pass",
+  "title": "Three sheet VCC GND fanout"
+}

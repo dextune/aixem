@@ -1,0 +1,150 @@
+{
+  "checks": [
+    {
+      "command": {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "-m",
+          "py_compile",
+          "implementation/agent/diagnostics.py",
+          "implementation/agent/change_scope.py",
+          "implementation/agent/run_record.py",
+          "implementation/agent/validator_adapter.py",
+          "tools/agent_authoring.py",
+          "tools/run_agent_evals_2.py",
+          "tools/run_tests_055.py",
+          "tools/verify_release_055.py",
+          "tools/package_release_055.py",
+          "implementation/schematic/render_project.py"
+        ],
+        "durationSeconds": 1.605465,
+        "label": "Python compilation",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "",
+        "stdoutTail": "",
+        "valid": true
+      },
+      "id": "P1-PYTHON-COMPILE",
+      "status": "PASS",
+      "summary": "Agent, renderer, verification, and packaging modules compile.",
+      "valid": true
+    },
+    {
+      "command": {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "tools/docs/build_all.py"
+        ],
+        "durationSeconds": 7.866974,
+        "label": "documentation/reference/site build",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "",
+        "stdoutTail": "{\n  \"documents\": 130,\n  \"routes\": 15,\n  \"reference\": {\n    \"cards\": 130,\n    \"routes\": 15,\n    \"domains\": 15,\n    \"files\": 166\n  },\n  \"site\": {\n    \"pages\": 149,\n    \"canonicalPages\": 130,\n    \"schemaPages\": 18,\n    \"assets\": 35\n  }\n}\n",
+        "valid": true
+      },
+      "id": "P1-DOCUMENT-BUILD",
+      "status": "PASS",
+      "summary": "Canonical contracts, routes, task packets, reference cards, and site build.",
+      "valid": true
+    },
+    {
+      "details": {
+        "errors": [],
+        "plannedP0Diagnostics": 30,
+        "schemaFiles": [
+          "docs/specifications/schemas/agent/aixem-agent-change-set-1.schema.json",
+          "docs/specifications/schemas/agent/aixem-agent-diagnostic-1.schema.json",
+          "docs/specifications/schemas/agent/aixem-agent-run-record-1.schema.json"
+        ],
+        "stableDiagnostics": 35,
+        "valid": true
+      },
+      "id": "P1-DIAGNOSTIC-SCHEMAS",
+      "status": "PASS",
+      "summary": "Three schemas, 30 planned P0 diagnostics, and 35 total stable codes validate.",
+      "valid": true
+    },
+    {
+      "details": {
+        "canonicalRoutes": 7,
+        "compositeStages": 5,
+        "diagnosticsAccepted": 30,
+        "errors": [],
+        "valid": true
+      },
+      "id": "P1-ROUTE-WRITE-SCOPE",
+      "status": "PASS",
+      "summary": "Canonical routes expose bounded writes/remediation and composite scope remains child-local.",
+      "valid": true
+    },
+    {
+      "details": {
+        "legacyHelperClassified": true,
+        "productionPath": "implementation/schematic/render_project.py -> implementation/schematic/viewer/",
+        "valid": true
+      },
+      "id": "P1-LEGACY-VIEWER-BOUNDARY",
+      "status": "PASS",
+      "summary": "The old direct Viewer helper is explicitly non-reference/internal compatibility only.",
+      "valid": true
+    },
+    {
+      "details": {
+        "changed": [],
+        "files": 373,
+        "firstBuild": {
+          "command": [
+            "/opt/pyvenv/bin/python",
+            "tools/docs/build_all.py"
+          ],
+          "durationSeconds": 7.863254,
+          "label": "documentation/reference/site build",
+          "returnCode": 0,
+          "status": "PASS",
+          "stderrTail": "",
+          "stdoutTail": "{\n  \"documents\": 130,\n  \"routes\": 15,\n  \"reference\": {\n    \"cards\": 130,\n    \"routes\": 15,\n    \"domains\": 15,\n    \"files\": 166\n  },\n  \"site\": {\n    \"pages\": 149,\n    \"canonicalPages\": 130,\n    \"schemaPages\": 18,\n    \"assets\": 35\n  }\n}\n",
+          "valid": true
+        },
+        "secondBuild": {
+          "command": [
+            "/opt/pyvenv/bin/python",
+            "tools/docs/build_all.py"
+          ],
+          "durationSeconds": 8.03737,
+          "label": "documentation/reference/site build",
+          "returnCode": 0,
+          "status": "PASS",
+          "stderrTail": "",
+          "stdoutTail": "{\n  \"documents\": 130,\n  \"routes\": 15,\n  \"reference\": {\n    \"cards\": 130,\n    \"routes\": 15,\n    \"domains\": 15,\n    \"files\": 166\n  },\n  \"site\": {\n    \"pages\": 149,\n    \"canonicalPages\": 130,\n    \"schemaPages\": 18,\n    \"assets\": 35\n  }\n}\n",
+          "valid": true
+        },
+        "valid": true
+      },
+      "id": "P1-GENERATED-DETERMINISM",
+      "status": "PASS",
+      "summary": "Two complete documentation/reference/site builds are byte-stable.",
+      "valid": true
+    }
+  ],
+  "documentLinkage": {
+    "artifactDeclarationsChecked": null,
+    "documents": 130,
+    "errors": [],
+    "normativeDocuments": 87,
+    "requirements": 208,
+    "routes": 15,
+    "silentGaps": 0,
+    "sitePages": 151,
+    "valid": true
+  },
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "pass": 1,
+  "release": "AIXEM-SRP-0.5.5-2026-08-11",
+  "schema": "https://schemas.aixem.org/validation/agent-authoring-verification-pass/1",
+  "status": "PASS",
+  "title": "Contract and Authority Closure",
+  "valid": true
+}

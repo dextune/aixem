@@ -1,0 +1,40 @@
+{
+  "durationSeconds": 5.044803,
+  "errors": [],
+  "executionMode": "isolated-test-module-processes",
+  "failedModules": 0,
+  "failures": [],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "moduleCount": 1,
+  "modules": [
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_pre_live_readiness"
+      ],
+      "durationSeconds": 5.044556,
+      "module": "tests.agent.test_pre_live_readiness",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_generated_readiness_report_closes_all_pre_live_gates (tests.agent.test_pre_live_readiness.PreLiveReadinessHardeningTests.test_generated_readiness_report_closes_all_pre_live_gates) ... ok\ntest_invariant_basis_rejects_missing_task_and_nonstaged_document (tests.agent.test_pre_live_readiness.PreLiveReadinessHardeningTests.test_invariant_basis_rejects_missing_task_and_nonstaged_document) ... ok\ntest_nested_observation_secrets_are_sanitized_before_retention (tests.agent.test_pre_live_readiness.PreLiveReadinessHardeningTests.test_nested_observation_secrets_are_sanitized_before_retention) ... ok\ntest_observation_consistency_preserves_change_set_authority (tests.agent.test_pre_live_readiness.PreLiveReadinessHardeningTests.test_observation_consistency_preserves_change_set_authority) ... ok\ntest_repository_corpus_protocol_identity_and_clock_modes_are_separate (tests.agent.test_pre_live_readiness.PreLiveReadinessHardeningTests.test_repository_corpus_protocol_identity_and_clock_modes_are_separate) ... ok\ntest_results_and_work_roots_are_location_independent_and_space_safe (tests.agent.test_pre_live_readiness.PreLiveReadinessHardeningTests.test_results_and_work_roots_are_location_independent_and_space_safe) ... ok\ntest_task_reference_manifest_and_symlink_tampering_fail_postflight (tests.agent.test_pre_live_readiness.PreLiveReadinessHardeningTests.test_task_reference_manifest_and_symlink_tampering_fail_postflight) ... ok\ntest_timeout_terminates_spawned_child_process_group (tests.agent.test_pre_live_readiness.PreLiveReadinessHardeningTests.test_timeout_terminates_spawned_child_process_group) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 3.405s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 8,
+      "valid": true
+    }
+  ],
+  "passedModules": 1,
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/test-run-shard/1",
+  "shard": {
+    "count": 29,
+    "index": 10,
+    "totalDiscoveredModules": 29
+  },
+  "skipped": [],
+  "successful": true,
+  "testsRun": 8
+}

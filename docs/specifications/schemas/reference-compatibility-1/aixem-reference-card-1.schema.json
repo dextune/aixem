@@ -1,0 +1,223 @@
+{
+  "$id": "https://schemas.aixem.org/reference/aixcard/1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "card": {
+      "additionalProperties": false,
+      "properties": {
+        "aliases": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        "appliesTo": {
+          "items": {
+            "pattern": "^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$",
+            "type": "string"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        "domain": {
+          "pattern": "^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$",
+          "type": "string"
+        },
+        "estimatedReadBytes": {
+          "minimum": 1,
+          "type": "integer"
+        },
+        "id": {
+          "pattern": "^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$",
+          "type": "string"
+        },
+        "inputs": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        "keywords": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "minItems": 2,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "kind": {
+          "enum": [
+            "concept",
+            "rule-set",
+            "procedure",
+            "decision",
+            "checklist",
+            "interface",
+            "risk-control"
+          ]
+        },
+        "metadata": {
+          "type": "object"
+        },
+        "outputs": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        "ownerArtifacts": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "priority": {
+          "maximum": 1000,
+          "minimum": 0,
+          "type": "integer"
+        },
+        "readNext": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "card": {
+                "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$",
+                "type": "string"
+              },
+              "required": {
+                "type": "boolean"
+              },
+              "when": {
+                "minLength": 1,
+                "type": "string"
+              }
+            },
+            "required": [
+              "card"
+            ],
+            "type": "object"
+          },
+          "maxItems": 16,
+          "type": "array"
+        },
+        "rules": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "pattern": "^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$",
+                "type": "string"
+              },
+              "level": {
+                "enum": [
+                  "must",
+                  "should",
+                  "may",
+                  "must-not"
+                ]
+              },
+              "rationale": {
+                "type": "string"
+              },
+              "text": {
+                "minLength": 8,
+                "type": "string"
+              },
+              "validator": {
+                "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$",
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "level",
+              "text"
+            ],
+            "type": "object"
+          },
+          "maxItems": 64,
+          "minItems": 1,
+          "type": "array"
+        },
+        "sourceRefs": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "authority": {
+                "enum": [
+                  "normative",
+                  "candidate",
+                  "architecture",
+                  "implementation",
+                  "evidence",
+                  "historical"
+                ]
+              },
+              "note": {
+                "type": "string"
+              },
+              "path": {
+                "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$",
+                "type": "string"
+              },
+              "section": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "path",
+              "authority"
+            ],
+            "type": "object"
+          },
+          "maxItems": 32,
+          "minItems": 1,
+          "type": "array"
+        },
+        "summary": {
+          "maxLength": 1600,
+          "minLength": 20,
+          "type": "string"
+        },
+        "title": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "domain",
+        "kind",
+        "summary",
+        "keywords",
+        "rules",
+        "sourceRefs",
+        "ownerArtifacts"
+      ],
+      "type": "object"
+    },
+    "formatVersion": {
+      "const": "1.0"
+    },
+    "schema": {
+      "const": "https://schemas.aixem.org/reference/aixcard/1"
+    }
+  },
+  "required": [
+    "schema",
+    "formatVersion",
+    "card"
+  ],
+  "title": "AIXEM Atomic Reference Card 1.0",
+  "type": "object"
+}

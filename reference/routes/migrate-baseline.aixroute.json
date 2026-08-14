@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.0",
+  "route": {
+    "aliases": [
+      "migrate 0.4",
+      "upgrade baseline",
+      "legacy migration",
+      "move old docs",
+      "0.4 compatibility"
+    ],
+    "budget": {
+      "fallbackDocuments": 2,
+      "maxBytes": 98304,
+      "maxDepth": 3,
+      "maxDocuments": 7
+    },
+    "conditionalReads": [],
+    "id": "migrate-baseline",
+    "intents": [
+      "migrate-baseline"
+    ],
+    "metadata": {
+      "exactRoutePreferred": true,
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "kind": "simple",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "source": "docs/_meta/routes/migrate-baseline.yaml"
+    },
+    "outputs": [
+      "Every baseline file has a disposition",
+      "Canonical target IDs are recorded",
+      "Compatibility output builds",
+      "No obsolete authored reference remains authoritative"
+    ],
+    "steps": [
+      {
+        "exitCheck": "Every baseline file has a disposition",
+        "id": "step-1",
+        "order": 1,
+        "produces": [],
+        "purpose": "Read AIXEM 0.4 Baseline for this task stage.",
+        "read": [
+          "reference/cards/releases/0.4.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Canonical target IDs are recorded",
+        "id": "step-2",
+        "order": 2,
+        "produces": [],
+        "purpose": "Read Compatibility and Migration Conformance for this task stage.",
+        "read": [
+          "reference/cards/conformance/compatibility-conformance.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Compatibility output builds",
+        "id": "step-3",
+        "order": 3,
+        "produces": [],
+        "purpose": "Read Compatibility Policy for this task stage.",
+        "read": [
+          "reference/cards/governance/compatibility-policy.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "No obsolete authored reference remains authoritative",
+        "id": "step-4",
+        "order": 4,
+        "produces": [],
+        "purpose": "Read AIXEM 0.5.0 for this task stage.",
+        "read": [
+          "reference/cards/releases/0.5.aixcard.json"
+        ],
+        "required": true
+      }
+    ],
+    "stopConditions": [
+      "Every baseline file has a disposition",
+      "Canonical target IDs are recorded",
+      "Compatibility output builds",
+      "No obsolete authored reference remains authoritative"
+    ],
+    "title": "Migrate from AIXEM 0.4",
+    "validators": [
+      "docs.legacy_inventory",
+      "docs.compatibility_reference"
+    ]
+  },
+  "schema": "https://schemas.aixem.org/reference/aixroute/1"
+}

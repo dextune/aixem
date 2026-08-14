@@ -1,0 +1,7 @@
+{
+  "case": "H015",
+  "expectedDiagnostic": "PROJECT_NET_EQUIVALENCE_COLLISION",
+  "matched": true,
+  "observedError": "PROJECT_NET_EQUIVALENCE_COLLISION: local-net:bridge:shared_1 collapses project nets ['one', 'two']",
+  "status": "pass"
+}

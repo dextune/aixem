@@ -1,0 +1,72 @@
+{
+  "$id": "https://schemas.aixem.org/agent/diagnostic/1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AIXEM Agent Diagnostic 1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "code",
+    "severity",
+    "authority",
+    "artifact",
+    "location",
+    "requirement",
+    "remediationRoute",
+    "repairClass",
+    "message",
+    "evidence"
+  ],
+  "properties": {
+    "id": {"type": "string", "pattern": "^diag-[0-9]{4,}$"},
+    "code": {"type": "string", "pattern": "^AIXEM-DIAG-[A-Z0-9-]+$"},
+    "severity": {"enum": ["error", "warning", "info"]},
+    "authority": {
+      "enum": [
+        "semantic",
+        "component-library",
+        "symbol",
+        "layout",
+        "project",
+        "project-routing",
+        "renderer",
+        "viewer",
+        "workbench",
+        "documentation",
+        "agent-execution"
+      ]
+    },
+    "artifact": {
+      "type": "string",
+      "minLength": 1,
+      "not": {"pattern": "(^/|(^|/)\\.\\.(/|$)|^[A-Za-z]:)"}
+    },
+    "location": {
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "properties": {
+        "jsonPointer": {"type": "string", "pattern": "^(|/.*)$"},
+        "objectKind": {"type": "string", "minLength": 1},
+        "objectId": {"type": "string"}
+      }
+    },
+    "requirement": {"type": "string", "pattern": "^AIXEM-REQ-[A-Z0-9-]+-[0-9]{4}$"},
+    "remediationRoute": {"type": "string", "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"},
+    "repairClass": {
+      "enum": [
+        "authoritative-source",
+        "binding",
+        "placement",
+        "routing",
+        "project-composition",
+        "renderer-defect",
+        "unsupported-capability",
+        "manual-review",
+        "execution-scope"
+      ]
+    },
+    "message": {"type": "string", "minLength": 1},
+    "evidence": {"type": "object"}
+  }
+}

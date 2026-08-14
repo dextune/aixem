@@ -1,0 +1,109 @@
+{
+  "canonicalHashes": {
+    "project-composite.svg": "sha256:11ca76dd488cdf5d04740e516cf533d7d4f6bd206a90badd3282cfc7b6745b35",
+    "project-overview.svg": "sha256:943133a79e402c1eb86ceef59525acb0d3e2c4c61ea7c7e43c09845626f6a88e",
+    "resolved-project-scene.json": "sha256:25d872e18ab9cce82fd44e7255fe72f8686847e336c98bd0c93185e2e904f2f3",
+    "sheets/control.resolved-scene.json": "sha256:aabd94d143499a48a8d0c58400d067ab2796fe66261eeda51778fc5facee9817",
+    "sheets/control.svg": "sha256:71012e9e40ca591be2788ffb8e65c829deb17e2389e4c7a876071fe7479e9be1",
+    "sheets/debug.resolved-scene.json": "sha256:0eac561c69b11b97cc1eb880d5f93fec40f4c1ed84bf791347ee0a9708c039e3",
+    "sheets/debug.svg": "sha256:96b5d730e469054a26c313d16d6a5e9c5a2824a39d9b31fbfd3bcaac3ef16baf",
+    "sheets/system.resolved-scene.json": "sha256:e1e541765e1f9fa150896cf83ab90eeca9626c1ec4d292f975eeb48e526e7a7a",
+    "sheets/system.svg": "sha256:2aa9221c7dc01a6b0488c324194e1f021d8f496bbd4de39f3260afb740b9f85c",
+    "viewer-model.json": "sha256:1e32785e3cc9769156467ebd2813f520633b66e4bbeb7cdb5631af9995f51145",
+    "viewer.html": "sha256:6519185e87a276a7fb522b31a7fc92661e659b4171f0a184a52a54dab373f198",
+    "workbench.html": "sha256:3a6f86b7983006182f24681e29654ef443e086d65e477bf126d63dea5fd420a6"
+  },
+  "checks": [
+    {
+      "id": "PROJECT_SHEET_COUNT",
+      "observation": 3,
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_GRAPH_PRESENT",
+      "observation": [
+        "identities",
+        "projectNets",
+        "unconnectedPorts"
+      ],
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_AUTHORITY",
+      "observation": {
+        "connectivityFromGeometry": false,
+        "layersAreSheets": false,
+        "localPresentation": "aixlayout/2",
+        "localSemantics": ".aixem",
+        "projectComposition": "aixproj/2"
+      },
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_LAYER_AUTHORITY",
+      "observation": {
+        "connectivityFromGeometry": false,
+        "layersAreSheets": false,
+        "localPresentation": "aixlayout/2",
+        "localSemantics": ".aixem",
+        "projectComposition": "aixproj/2"
+      },
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_ROUTES_ORTHOGONAL",
+      "observation": "overview+composite",
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_WORKBENCH_DATA_DRIVEN",
+      "observation": "resolved hierarchy",
+      "status": "pass"
+    },
+    {
+      "id": "H005_DEPTH",
+      "observation": [
+        {
+          "children": [
+            "control"
+          ],
+          "depth": 0,
+          "id": "system",
+          "order": 10,
+          "parent": null,
+          "title": "System"
+        },
+        {
+          "children": [
+            "debug"
+          ],
+          "depth": 1,
+          "id": "control",
+          "order": 10,
+          "parent": "system",
+          "title": "Control"
+        },
+        {
+          "children": [],
+          "depth": 2,
+          "id": "debug",
+          "order": 10,
+          "parent": "control",
+          "title": "Debug"
+        }
+      ],
+      "status": "pass"
+    }
+  ],
+  "deterministic": true,
+  "diagnosticMatched": true,
+  "error": null,
+  "expected": "pass",
+  "expectedDiagnostic": null,
+  "id": "H005",
+  "observed": "pass",
+  "projectDigest": "sha256:5d416f6eb97e200312d5f200645a532b13d75416ce6621791809e5c7cc370f00",
+  "repeatCount": 3,
+  "status": "pass",
+  "title": "Three level sheet hierarchy"
+}

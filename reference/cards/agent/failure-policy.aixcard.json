@@ -1,0 +1,66 @@
+{
+  "card": {
+    "aliases": [
+      "fail closed",
+      "agent failure",
+      "stop conditions"
+    ],
+    "appliesTo": [
+      "agent-failure-policy"
+    ],
+    "domain": "agent",
+    "estimatedReadBytes": 7039,
+    "id": "AIXEM-AGENT-FAILURE-001",
+    "inputs": [],
+    "keywords": [
+      "Fail-Closed Policy",
+      "agent failure",
+      "change-architecture",
+      "fail closed",
+      "publish-release",
+      "stop conditions",
+      "validate-project"
+    ],
+    "kind": "policy",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/agent/failure-policy.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:304f5218c633575a26f7a44f92484a99ee9c9d8438401b1f1c71257a422f6072"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SPEC-AUTHORITY-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-AGENT-0030",
+        "level": "must",
+        "text": "**MUST.** An agent or build MUST stop when a required locked digest does not match."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-0031",
+        "level": "must",
+        "text": "**MUST.** An agent MUST stop when a required canonical source or route target is absent."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-0032",
+        "level": "must",
+        "text": "**MUST.** A renderer MUST stop when a required project or symbol feature is unsupported."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-AGENT-FAILURE-001",
+        "path": "docs/agent/failure-policy.md"
+      }
+    ],
+    "summary": "Defines conditions under which an agent or build must stop instead of guessing, repairing downstream output, or suppressing evidence.",
+    "title": "Fail-Closed Policy"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

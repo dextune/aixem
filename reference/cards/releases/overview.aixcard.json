@@ -1,0 +1,53 @@
+{
+  "card": {
+    "aliases": [
+      "release notes",
+      "changelog",
+      "versions"
+    ],
+    "appliesTo": [
+      "release-note-navigation"
+    ],
+    "domain": "releases",
+    "estimatedReadBytes": 5203,
+    "id": "AIXEM-RELEASE-INDEX-001",
+    "inputs": [],
+    "keywords": [
+      "Release Notes",
+      "changelog",
+      "migrate-baseline",
+      "publish-release",
+      "release notes",
+      "versions"
+    ],
+    "kind": "index",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/releases/overview.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:14f274ac78b6b70470bbbb076f1ad8272c929cfc839755dcead2dc926672ffb5"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 500,
+    "readNext": [],
+    "rules": [
+      {
+        "id": "AIXEM-RELEASE-INDEX-001.read",
+        "level": "should",
+        "text": "Release-specific changes, compatibility statements, validation summaries, and migration pointers."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-RELEASE-INDEX-001",
+        "path": "docs/releases/index.md"
+      }
+    ],
+    "summary": "Release-specific changes, compatibility statements, validation summaries, and migration pointers.",
+    "title": "Release Notes"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

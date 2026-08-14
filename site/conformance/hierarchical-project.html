@@ -1,0 +1,169 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Defines the executable H001-H015 and N001-N015 profile, deterministic render evidence, compatibility gates, and public claim boundary for AIXEM 0.5.3."><meta name="aixem-document-id" content="AIXEM-CONF-HIERARCHICAL-PROJECT-001"><meta name="aixem-release" content="AIXEM-SRP-0.5.9-2026-08-12"><title>Hierarchical Project Conformance — AIXEM Documentation</title><link rel="stylesheet" href="../assets/site.css"></head><body class=""><a class="skip" href="#main">Skip to main content</a><header class="topbar"><div class="brand"><span class="brand-mark">AX</span><span>AIXEM<small>Schematic Reference Platform</small></span></div><div class="top-actions"><span class="version">v0.5.9</span><button class="menu-open" id="menu-open" type="button" aria-controls="site-sidebar" aria-expanded="false">Menu</button><button class="search-open" id="search-open" type="button">Search <kbd>⌘K</kbd></button></div></header><div class="layout"><nav class="sidebar" id="site-sidebar" aria-label="Documentation navigation"><h2>Documentation Home</h2><a class="section-index" href="../index.html">AIXEM Documentation</a><h2>Getting Started</h2><a class="section-index" href="../getting-started/index.html">Getting Started</a><a class="" href="../getting-started/introduction.html">Introduction to AIXEM</a><a class="" href="../getting-started/quick-start.html">Quick Start</a><a class="" href="../getting-started/first-schematic.html">Create Your First Schematic</a><h2>Authoring</h2><a class="section-index" href="../authoring/index.html">Authoring</a><a class="" href="../symbols/symbol-authoring-cookbook.html">Symbol Authoring Cookbook</a><a class="" href="../symbols/aixsym-field-reference.html">AIXSYM Field Reference</a><a class="" href="../symbols/component-symbol-binding.html">Component to Symbol Binding</a><a class="" href="../schematic/schematic-authoring-cookbook.html">Schematic Authoring Cookbook</a><a class="" href="../routing/routing-cookbook.html">Routing Cookbook</a><a class="" href="../agent/visual-qa-loop.html">Visual QA and Repair Loop</a><a class="" href="../symbols/symbol-lint.html">Symbol Lint</a><h2>Task-Oriented Authoring Guides</h2><a class="section-index" href="../authoring/guides/index.html">Task-Oriented Authoring Guides</a><a class="" href="../authoring/guides/create-library-part.html">Create a Library Part</a><a class="" href="../authoring/guides/select-library-part.html">Select a Library Part</a><a class="" href="../authoring/guides/create-schematic.html">Create a Schematic</a><a class="" href="../authoring/guides/place-components.html">Agent Component Placement Strategy</a><a class="" href="../authoring/guides/route-nets.html">Route Nets</a><a class="" href="../authoring/guides/compose-project.html">Compose a Project</a><a class="" href="../authoring/guides/modify-existing-schematic.html">Modify an Existing Schematic</a><a class="" href="../authoring/guides/author-component-circuit.html">Author a Component Circuit</a><a class="" href="../authoring/guides/render-review.html">Render and Review</a><a class="" href="../authoring/guides/validate-project.html">Validate a Project</a><h2>Core Concepts</h2><a class="section-index" href="../concepts/index.html">Core Concepts</a><a class="" href="../concepts/semantic-model.html">Semantic Circuit Model</a><a class="" href="../concepts/authority-model.html">Authority Model</a><a class="" href="../concepts/component-model.html">Component Model</a><a class="" href="../concepts/net-model.html">Net Model</a><a class="" href="../concepts/symbol-model.html">Symbol Presentation Model</a><a class="" href="../concepts/layout-model.html">Explicit Layout Model</a><a class="" href="../concepts/deterministic-builds.html">Deterministic Builds</a><a class="" href="../concepts/project-net-model.html">Project Net Model</a><h2>Schematic Authoring</h2><a class="section-index" href="../schematic/index.html">Schematic Authoring</a><a class="" href="../schematic/grid-system.html">Grid and Snap System</a><a class="" href="../schematic/placement.html">Component Placement</a><a class="" href="../schematic/junctions.html">Junctions and Connectivity Cues</a><a class="" href="../schematic/annotations.html">Annotations and Fields</a><a class="" href="../schematic/visual-language.html">Grid-First Visual Language</a><a class="" href="../schematic/sheet-organization.html">Sheet Organization</a><h2>Reference Viewer</h2><a class="section-index" href="../specifications/viewer/index.html">Viewer Specifications</a><a class="" href="../specifications/viewer/reference-viewer-contract.html">Reference Viewer Contract 1</a><a class="" href="../specifications/viewer/review-workbench-contract.html">Review Workbench Contract 1</a><a class="" href="../specifications/viewer/viewer-state-and-interaction.html">Viewer State and Interaction 1</a><a class="" href="../specifications/viewer/viewer-security-and-embedding.html">Viewer Security and Embedding 1</a><a class="" href="../specifications/viewer/viewer-accessibility-profile.html">Viewer Accessibility Profile 1</a><h2>Symbol Authoring</h2><a class="section-index" href="../symbols/index.html">Symbol Authoring</a><a class="" href="../symbols/symbol-anatomy.html">Symbol Anatomy</a><a class="" href="../symbols/pins-and-ports.html">Pins, Ports, and Endpoint Mapping</a><a class="" href="../symbols/primitives.html">Graphic Primitives</a><a class="" href="../symbols/authoring-guide.html">Symbol Authoring Guide</a><a class="" href="../symbols/variants.html">Symbol Variants</a><a class="" href="../symbols/field-layout.html">Field Layout</a><a class="" href="../symbols/design-rules.html">Symbol Design Rules Entry Point</a><h2>Routing</h2><a class="section-index" href="../routing/index.html">Net Routing</a><a class="" href="../routing/net-routing.html">Semantic Net Routing</a><a class="" href="../routing/orthogonal-routing.html">Orthogonal Routing</a><a class="" href="../routing/route-constraints.html">Route Constraints</a><a class="" href="../routing/router-behavior.html">Router Behavior</a><a class="" href="../routing/crossings-and-junctions.html">Crossings and Junctions</a><h2>Specifications</h2><a class="section-index" href="../specifications/index.html">Specifications</a><a class="" href="../specifications/core/document-model.html">Canonical Document Model</a><a class="" href="../specifications/core/coordinate-system.html">Coordinate and Unit System</a><a class="" href="../specifications/core/authority-precedence.html">Authority and Precedence</a><a class="" href="../specifications/schematic/grid-profile.html">Grid Schematic Profile 1</a><a class="" href="../specifications/schematic/visual-profile.html">Schematic Presentation Profile 1</a><a class="" href="../specifications/symbols/symbol-contract.html">Symbol Asset Contract 1</a><a class="" href="../specifications/layout/layout-contract.html">Explicit Layout Contract 1</a><a class="" href="../specifications/project/project-lock-contract.html">Project Lock Contract 1</a><a class="" href="../specifications/agent/retrieval-profile.html">Agent Retrieval Profile 1</a><a class="" href="../specifications/documentation/metadata-contract.html">Documentation Metadata Contract 1</a><a class="" href="../specifications/documentation/document-governance-contract.html">Repository Document Governance Contract 1</a><a class="" href="../specifications/documentation/release-integrity.html">Documentation Release Integrity 1</a><a class="" href="../specifications/schemas/index.html">JSON Schema Catalog</a><a class="" href="../specifications/symbols/symbol-design-profile.html">Symbol Design Profile 1</a><a class="" href="../specifications/renderer/renderer-contract.html">Renderer Contract 1</a><a class="" href="../specifications/core/interface-port-contract.html">Interface Port Contract 1</a><a class="" href="../specifications/layout/hierarchical-sheet-port-contract.html">Hierarchical Sheet-Port Layout Contract 2</a><a class="" href="../specifications/project/project-composition-contract.html">Project Composition Contract 2</a><a class="" href="../specifications/agent/diagnostic-contract.html">Agent Diagnostic Contract 1</a><a class="" href="../specifications/agent/authoring-change-set-contract.html">Authoring Change-Set Contract 1</a><a class="" href="../specifications/agent/authoring-execution-contract.html">Authoring Execution Contract 1</a><a class="" href="../specifications/agent/authoring-run-record.html">Authoring Run Record 1</a><a class="" href="../specifications/agent/agent-task-contract.html">Agent Task Contract 1</a><a class="" href="../specifications/agent/cold-start-stage-contract.html">Cold-Start Stage Contract 1</a><a class="" href="../specifications/agent/live-executor-protocol.html">Live Executor Protocol 1</a><a class="" href="../specifications/agent/observation-event-contract.html">Observation Event Contract 1</a><a class="" href="../specifications/agent/evaluation-invariant-contract.html">Evaluation Invariant Contract 1</a><a class="" href="../specifications/agent/live-run-evidence.html">Live Run Evidence 1</a><a class="" href="../specifications/components/library-layout-contract.html">Library Layout and Part Integrity Contract</a><a class="" href="../specifications/components/pin-electrical-semantics-profile.html">Pin Electrical Semantics Profile 1</a><h2>File Formats</h2><a class="section-index" href="../file-formats/index.html">File Formats</a><a class="" href="../file-formats/aixem.html">.aixem Semantic Source</a><a class="" href="../file-formats/aixlib.html">.aixlib.json Component Library</a><a class="" href="../file-formats/aixsym.html">.aixsym.json Symbol Asset</a><a class="" href="../file-formats/aixlayout.html">.aixlayout.json Explicit Layout</a><a class="" href="../file-formats/aixproj.html">.aixproj.json Project Lock</a><a class="" href="../file-formats/style-profile.html">Schematic Style Profile</a><h2>AI Agent Operations</h2><a class="section-index" href="../agent/index.html">AI Agent Operations</a><a class="" href="../agent/architecture.html">Agent Architecture</a><a class="" href="../agent/retrieval.html">Bounded Retrieval</a><a class="" href="../agent/task-routing.html">Task Routes</a><a class="" href="../agent/schematic-authoring.html">Schematic Authoring Agent</a><a class="" href="../agent/symbol-generation.html">Symbol Generation Agent</a><a class="" href="../agent/routing-agent.html">Routing Agent</a><a class="" href="../agent/validation-loop.html">Three-Stage Validation Loop</a><a class="" href="../agent/failure-policy.html">Fail-Closed Policy</a><a class="" href="../agent/authoring-orchestration.html">Agent Authoring Orchestration</a><a class="" href="../agent/live-agent-cold-start-authoring.html">Live-Agent Cold-Start Authoring</a><h2>Architecture</h2><a class="section-index" href="../architecture/index.html">System Architecture</a><a class="" href="../architecture/system-overview.html">System Overview</a><a class="" href="../architecture/pipeline.html">Build and Authoring Pipeline</a><a class="" href="../architecture/artifact-store.html">Artifact Ownership and Storage</a><a class="" href="../architecture/cache.html">Cache and Incremental Compilation</a><a class="" href="../architecture/security.html">Security and Trust Boundaries</a><a class="" href="../architecture/adr/index.html">Architecture Decision Records</a><a class="" href="../architecture/adr/0001-canonical-doc-root.html">ADR-0001: One Canonical Documentation Root</a><a class="" href="../architecture/adr/0002-route-first-retrieval.html">ADR-0002: Route-First Agent Retrieval</a><a class="" href="../architecture/adr/0003-vendor-neutral-ui.html">ADR-0003: Vendor-Neutral Engineering Surfaces</a><a class="" href="../architecture/adr/0004-symbol-style-and-renderer-precedence.html">ADR 0004 — Symbol Style and Renderer Precedence</a><h2>Conformance</h2><a class="section-index" href="index.html">Conformance</a><a class="" href="requirements.html">Requirement Model</a><a class="" href="validation.html">Validation Architecture</a><a class="" href="test-suite.html">Test Suite</a><a class="" href="symbol-expressiveness.html">Symbol Expressiveness Conformance Profile 1</a><a class="" href="static-2d-block-profile.html">Static 2D Block Compatibility Profile 1</a><a class="" href="compatibility-conformance.html">Compatibility and Migration Conformance</a><a class="" href="release-gates.html">Release Gates</a><a class="active" href="hierarchical-project.html">Hierarchical Project Conformance</a><a class="" href="reference-viewer.html">Reference Viewer Conformance</a><a class="" href="agent-diagnostics.html">Agent Diagnostic Registry and Conformance</a><a class="" href="agent-authoring.html">Agent Authoring Closed-Loop Conformance</a><a class="" href="live-agent-cold-start.html">Live-Agent Cold-Start Conformance</a><h2>Examples</h2><a class="section-index" href="../examples/index.html">Examples</a><a class="" href="../examples/passive-divider.html">Example: Passive Divider</a><a class="" href="../examples/grid-controller.html">Example: Grid Controller and Sensor Interface</a><a class="" href="../examples/hierarchical-reference.html">Example: Hierarchical Reference Pattern</a><a class="" href="../examples/symbol-expressiveness-corpus.html">Symbol Expressiveness Corpus Construction Index</a><h2>Governance</h2><a class="section-index" href="../governance/index.html">Governance</a><a class="" href="../governance/versioning.html">Versioning Policy</a><a class="" href="../governance/compatibility-policy.html">Compatibility Policy</a><a class="" href="../governance/deprecation.html">Deprecation Policy</a><a class="" href="../governance/release-process.html">Release Process</a><a class="" href="../governance/terminology.html">Terminology</a><a class="" href="../governance/documentation-authoring-guide.html">Documentation Authoring and Lifecycle Guide</a><h2>Releases</h2><a class="section-index" href="../releases/index.html">Release Notes</a><a class="" href="../releases/0.4.html">AIXEM 0.4 Baseline</a><a class="" href="../releases/0.5.html">AIXEM 0.5.0</a><a class="" href="../releases/0.5.1.html">AIXEM 0.5.1</a><a class="" href="../releases/0.5.2.html">AIXEM 0.5.2</a><a class="" href="../releases/0.5.3.html">AIXEM 0.5.3</a><a class="" href="../releases/0.5.4.html">AIXEM 0.5.4</a><a class="" href="../releases/0.5.5.html">AIXEM 0.5.5</a><a class="" href="../releases/0.5.6.html">AIXEM 0.5.6 Live-Agent Cold-Start Authoring</a><a class="" href="../releases/0.5.7.html">AIXEM 0.5.7 Document Information Architecture and Governance</a><a class="" href="../releases/0.5.8.html">AIXEM 0.5.8 Pre-Live Agent Readiness Hardening</a><a class="" href="../releases/0.5.8.1.html">AIXEM 0.5.8.1 Final Documentation, Specification, and Reference-Chain Closure</a><a class="" href="../releases/0.5.9.html">AIXEM 0.5.9 Integrated Authoring, Library, Pin Semantics, and Placement Hardening</a></nav><main class="content-wrap" id="main"><div class="content"><div class="breadcrumbs"><a href="../index.html">Documentation</a><span>›</span><a href="index.html">Conformance</a><span>›</span><span>Hierarchical Project Conformance</span></div><header class="doc-head"><div class="eyebrow"><span class="badge normative">normative</span><span class="doc-id">AIXEM-CONF-HIERARCHICAL-PROJECT-001 · v1.0</span></div><h1>Hierarchical Project Conformance</h1><p class="lead">Defines the executable H001-H015 and N001-N015 profile, deterministic render evidence, compatibility gates, and public claim boundary for AIXEM 0.5.3.</p></header><article class="article"><h1 id="hierarchical-project-conformance">Hierarchical Project Conformance<a class="heading-anchor" href="#hierarchical-project-conformance" aria-label="Link to this section">#</a></h1>
+<p>AIXEM 0.5.3 hierarchical capability is releaseable only when executable evidence demonstrates the authority model, negative behavior, deterministic rendering, legacy preservation, and bounded public claim.</p>
+<h2 id="corpus-inventory">Corpus Inventory<a class="heading-anchor" href="#corpus-inventory" aria-label="Link to this section">#</a></h2>
+<p>The canonical corpus is <code>validation/corpus/hierarchical-project-1</code>.</p>
+<table>
+<thead>
+<tr>
+  <th>Case</th>
+  <th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>H001</td>
+  <td>base two-sheet interface and project-net closure</td>
+</tr>
+<tr>
+  <td>H002</td>
+  <td>one component endpoint plus one semantic interface endpoint</td>
+</tr>
+<tr>
+  <td>H003</td>
+  <td>three-sheet VCC/GND fanout</td>
+</tr>
+<tr>
+  <td>H004</td>
+  <td>same-name local nets remain isolated</td>
+</tr>
+<tr>
+  <td>H005</td>
+  <td>three-level hierarchy and traversal</td>
+</tr>
+<tr>
+  <td>H006</td>
+  <td>local route closure to <code>@PORT</code></td>
+</tr>
+<tr>
+  <td>H007</td>
+  <td>deterministic overview</td>
+</tr>
+<tr>
+  <td>H008</td>
+  <td>full composite workspace</td>
+</tr>
+<tr>
+  <td>H009</td>
+  <td>unknown project interface fails closed</td>
+</tr>
+<tr>
+  <td>H010</td>
+  <td>duplicate project-net ownership fails closed</td>
+</tr>
+<tr>
+  <td>H011</td>
+  <td>complete digest lock</td>
+</tr>
+<tr>
+  <td>H012</td>
+  <td>legacy v1 compatibility</td>
+</tr>
+<tr>
+  <td>H013</td>
+  <td>ten-sheet scale baseline</td>
+</tr>
+<tr>
+  <td>H014</td>
+  <td>crossing versus junction semantics</td>
+</tr>
+<tr>
+  <td>H015</td>
+  <td>local/project equivalence collision rejection</td>
+</tr>
+</tbody>
+</table>
+<p>N001–N015 provide focused negative fixtures for parser, layout, project, hierarchy, and digest failures.</p>
+<h2 id="required-outputs">Required Outputs<a class="heading-anchor" href="#required-outputs" aria-label="Link to this section">#</a></h2>
+<p>A valid v2 project render emits:</p>
+<pre><code class="language-text">sheets/&lt;id&gt;.svg
+sheets/&lt;id&gt;.resolved-scene.json
+interface-summaries/&lt;id&gt;.json
+project-overview.svg
+project-composite.svg
+resolved-project-scene.json
+viewer-model.json
+viewer.html
+workbench.html
+render-manifest.json
+</code></pre>
+<p>The Reference Viewer hierarchy is generated from project records. It provides explicit Sheet, Overview, and Composite modes, sheet-scoped layer controls, qualified search, project-net selection, and interface inspection. The Review Workbench uses the same Viewer Core and adds diagnostics/provenance.</p>
+<h2 id="three-pass-gate">Three-Pass Gate<a class="heading-anchor" href="#three-pass-gate" aria-label="Link to this section">#</a></h2>
+<h3 id="pass-1-semantic-and-structural-correctness">Pass 1 — Semantic and Structural Correctness<a class="heading-anchor" href="#pass-1-semantic-and-structural-correctness" aria-label="Link to this section">#</a></h3>
+<p>Verify v1 immutability, feature-gated interface grammar, local endpoint closure, layout presentation closure, hierarchy validity, project-net closure, name isolation, and expected negative diagnostics.</p>
+<h3 id="pass-2-rendering-routing-scale-and-agent-usability">Pass 2 — Rendering, Routing, Scale, and Agent Usability<a class="heading-anchor" href="#pass-2-rendering-routing-scale-and-agent-usability" aria-label="Link to this section">#</a></h3>
+<p>Verify independent leaf rendering, interface attachment, orthogonal overview/composite routes, qualified identity, data-driven Workbench hierarchy, dedicated agent routes, and the H013 ten-sheet baseline.</p>
+<h3 id="pass-3-regression-determinism-and-claim-integrity">Pass 3 — Regression, Determinism, and Claim Integrity<a class="heading-anchor" href="#pass-3-regression-determinism-and-claim-integrity" aria-label="Link to this section">#</a></h3>
+<p>Run the full repository suite, legacy symbol and Static 2D Block corpora, all hierarchical cases, three repeated complete renders, documentation/site generation, release manifest verification, and claim audit.</p>
+<p>A release-critical correction restarts the affected pass from clean inputs.</p>
+<h2 id="public-claim-boundary">Public Claim Boundary<a class="heading-anchor" href="#public-claim-boundary" aria-label="Link to this section">#</a></h2>
+<p>When all gates pass, the release may state:</p>
+<blockquote>
+<p>AIXEM supports deterministic composition of multiple digest-locked schematic source/layout pairs into an explicit hierarchical project, using semantic sheet interface ports and explicit project nets, with independent sheet rendering, project overview rendering, and composite project visualization.</p>
+</blockquote>
+<p>The release must not claim full KiCad hierarchical compatibility, full OrCAD multi-page compatibility, or reusable hierarchical module instancing.</p>
+<h2 id="failure-classification">Failure Classification<a class="heading-anchor" href="#failure-classification" aria-label="Link to this section">#</a></h2>
+<ul>
+<li>H-F1: leaf semantic source;</li>
+<li>H-F2: leaf layout;</li>
+<li>H-F3: project composition;</li>
+<li>H-F4: project-net semantics;</li>
+<li>H-F5: project presentation/routing;</li>
+<li>H-F6: renderer defect;</li>
+<li>H-F7: proven architecture gap requiring a dedicated ADR.</li>
+</ul>
+<h2 id="evidence-files">Evidence Files<a class="heading-anchor" href="#evidence-files" aria-label="Link to this section">#</a></h2>
+<ul>
+<li><code>results/validation-report.json</code> records all 30 expected outcomes;</li>
+<li><code>results/determinism-report.json</code> records canonical repeat digests;</li>
+<li><code>results/capability-matrix.json</code> maps claims to cases;</li>
+<li><code>validation/evidence/pass-01</code>, <code>pass-02</code>, and <code>pass-03</code> retain release-cycle evidence.</li>
+</ul>
+<h2 id="normative-requirements">Normative Requirements<a class="heading-anchor" href="#normative-requirements" aria-label="Link to this section">#</a></h2>
+<p><a id="AIXEM-REQ-HIER-0011"></a></p>
+<h3 id="aixem-req-hier-0011-independent-leaf-rendering">AIXEM-REQ-HIER-0011 <a class="req-backlink" href="requirements.html#AIXEM-REQ-HIER-0011">trace</a> — Independent leaf rendering<a class="heading-anchor" href="#aixem-req-hier-0011-independent-leaf-rendering" aria-label="Link to this section">#</a></h3>
+<p><strong>MUST.</strong> Every valid aixproj/2 sheet MUST resolve and render through the production leaf pipeline as an independent SVG and resolved scene.</p>
+<ul>
+<li>Verification mode: <code>automated</code></li>
+<li>Validator: <code>schematic.renderer_contract</code></li>
+<li>Test reference: <code>tests/conformance/test_hierarchical_project.py::HierarchicalProjectConformanceTests.test_multi_view_render_outputs_and_workbench_are_data_driven</code></li>
+<li>Release evidence: <code>validation/evidence/requirements/AIXEM-REQ-HIER-0011.json</code></li>
+</ul>
+<p><a id="AIXEM-REQ-HIER-0012"></a></p>
+<h3 id="aixem-req-hier-0012-three-data-driven-project-views">AIXEM-REQ-HIER-0012 <a class="req-backlink" href="requirements.html#AIXEM-REQ-HIER-0012">trace</a> — Three data-driven project views<a class="heading-anchor" href="#aixem-req-hier-0012-three-data-driven-project-views" aria-label="Link to this section">#</a></h3>
+<p><strong>MUST.</strong> A conforming hierarchical render MUST provide Sheet, Overview, and Composite views using resolved project data and sheet-qualified identity.</p>
+<ul>
+<li>Verification mode: <code>automated</code></li>
+<li>Validator: <code>schematic.workbench</code></li>
+<li>Test reference: <code>tests/conformance/test_hierarchical_project.py::HierarchicalProjectConformanceTests.test_multi_view_render_outputs_and_workbench_are_data_driven</code></li>
+<li>Release evidence: <code>validation/evidence/requirements/AIXEM-REQ-HIER-0012.json</code></li>
+</ul>
+<p><a id="AIXEM-REQ-HIER-0013"></a></p>
+<h3 id="aixem-req-hier-0013-hierarchical-render-determinism">AIXEM-REQ-HIER-0013 <a class="req-backlink" href="requirements.html#AIXEM-REQ-HIER-0013">trace</a> — Hierarchical render determinism<a class="heading-anchor" href="#aixem-req-hier-0013-hierarchical-render-determinism" aria-label="Link to this section">#</a></h3>
+<p><strong>MUST.</strong> Three complete render runs from identical staged inputs MUST produce identical per-sheet, overview, composite, and resolved-project-scene digests.</p>
+<ul>
+<li>Verification mode: <code>automated</code></li>
+<li>Validator: <code>schematic.deterministic</code></li>
+<li>Test reference: <code>tests/conformance/test_hierarchical_project.py::HierarchicalProjectConformanceTests.test_ten_sheet_project_and_three_run_determinism</code></li>
+<li>Release evidence: <code>validation/evidence/requirements/AIXEM-REQ-HIER-0013.json</code></li>
+</ul>
+<p><a id="AIXEM-REQ-HIER-0014"></a></p>
+<h3 id="aixem-req-hier-0014-legacy-v1-preservation">AIXEM-REQ-HIER-0014 <a class="req-backlink" href="requirements.html#AIXEM-REQ-HIER-0014">trace</a> — Legacy v1 preservation<a class="heading-anchor" href="#aixem-req-hier-0014-legacy-v1-preservation" aria-label="Link to this section">#</a></h3>
+<p><strong>MUST.</strong> Valid aixproj/1 and aixlayout/1 projects MUST remain valid and preserve their production drawing and resolved-scene bytes.</p>
+<ul>
+<li>Verification mode: <code>automated</code></li>
+<li>Validator: <code>schematic.renderer_contract</code></li>
+<li>Test reference: <code>tests/conformance/test_hierarchical_project.py::HierarchicalProjectConformanceTests.test_legacy_production_outputs_remain_byte_identical</code></li>
+<li>Release evidence: <code>validation/evidence/requirements/AIXEM-REQ-HIER-0014.json</code></li>
+</ul>
+<p><a id="AIXEM-REQ-HIER-0015"></a></p>
+<h3 id="aixem-req-hier-0015-three-pass-hierarchical-release-gate">AIXEM-REQ-HIER-0015 <a class="req-backlink" href="requirements.html#AIXEM-REQ-HIER-0015">trace</a> — Three-pass hierarchical release gate<a class="heading-anchor" href="#aixem-req-hier-0015-three-pass-hierarchical-release-gate" aria-label="Link to this section">#</a></h3>
+<p><strong>MUST.</strong> Release evidence MUST record three completed verification passes covering semantic structure, rendering and agent usability, and regression and claim integrity.</p>
+<ul>
+<li>Verification mode: <code>automated</code></li>
+<li>Validator: <code>docs.three_passes</code></li>
+<li>Test reference: <code>tests/docs/test_hierarchical_authoring_routes.py::HierarchicalAuthoringRouteTests.test_three_pass_release_evidence</code></li>
+<li>Release evidence: <code>validation/evidence/requirements/AIXEM-REQ-HIER-0015.json</code></li>
+</ul>
+<hr />
+<p>This file is canonical authored documentation. Generated HTML, agent cards, route indexes, and traceability records are derived from its metadata and content.</p>
+</article><section class="meta-panel"><h2>Document metadata</h2><dl class="meta-list"><dt>Authority</dt><dd>hierarchical-conformance, hierarchical-public-claims</dd><dt>Agent intents</dt><dd>validate-project, publish-release, compose-project</dd><dt>Dependencies</dt><dd><span class="related"><a href="../specifications/project/project-composition-contract.html">Project Composition Contract 2</a><a href="../specifications/layout/hierarchical-sheet-port-contract.html">Hierarchical Sheet-Port Layout Contract 2</a></span></dd><dt>Related documents</dt><dd><span class="related"><a href="release-gates.html">Release Gates</a><a href="compatibility-conformance.html">Compatibility and Migration Conformance</a><a href="reference-viewer.html">Reference Viewer Conformance</a></span></dd><dt>Canonical source</dt><dd><code>docs/conformance/hierarchical-project.md</code></dd><dt>Source digest</dt><dd><code>sha256:a951754958a0d0f0a91838ba1f395e76f92ca78642b199563ec5631f19747723</code></dd></dl></section><div class="pager"><a href="release-gates.html"><small>Previous</small>Release Gates</a><a href="reference-viewer.html"><small>Next</small>Reference Viewer Conformance</a></div><footer class="footer">AIXEM 0.5.9 · Canonical English documentation · Generated from <code>docs/</code> without a runtime backend.</footer></div></main><aside class="toc" aria-label="On this page"><h2>On this page</h2><a class="level-2" href="#corpus-inventory">Corpus Inventory</a><a class="level-2" href="#required-outputs">Required Outputs</a><a class="level-2" href="#three-pass-gate">Three-Pass Gate</a><a class="level-3" href="#pass-1-semantic-and-structural-correctness">Pass 1 — Semantic and Structural Correctness</a><a class="level-3" href="#pass-2-rendering-routing-scale-and-agent-usability">Pass 2 — Rendering, Routing, Scale, and Agent Usability</a><a class="level-3" href="#pass-3-regression-determinism-and-claim-integrity">Pass 3 — Regression, Determinism, and Claim Integrity</a><a class="level-2" href="#public-claim-boundary">Public Claim Boundary</a><a class="level-2" href="#failure-classification">Failure Classification</a><a class="level-2" href="#evidence-files">Evidence Files</a><a class="level-2" href="#normative-requirements">Normative Requirements</a><a class="level-3" href="#aixem-req-hier-0011-independent-leaf-rendering">AIXEM-REQ-HIER-0011 — Independent leaf rendering</a><a class="level-3" href="#aixem-req-hier-0012-three-data-driven-project-views">AIXEM-REQ-HIER-0012 — Three data-driven project views</a><a class="level-3" href="#aixem-req-hier-0013-hierarchical-render-determinism">AIXEM-REQ-HIER-0013 — Hierarchical render determinism</a><a class="level-3" href="#aixem-req-hier-0014-legacy-v1-preservation">AIXEM-REQ-HIER-0014 — Legacy v1 preservation</a><a class="level-3" href="#aixem-req-hier-0015-three-pass-hierarchical-release-gate">AIXEM-REQ-HIER-0015 — Three-pass hierarchical release gate</a></aside></div><dialog class="search-dialog" id="search-dialog" aria-label="Documentation search"><div class="search-box"><header><input id="site-search" type="search" autocomplete="off" placeholder="Search documents, intents, IDs, and requirements"><button type="button" id="search-close">Close</button></header><div class="results" id="search-results"></div></div></dialog><script src="../assets/search-data.js"></script><script src="../assets/site.js"></script></body></html>

@@ -1,0 +1,15 @@
+{
+  "layoutDigest": "sha256:a0941cf0d98766dd8c945b1ad350246535fe528c771e879ae50614fe1ecac3ff",
+  "ports": [
+    {
+      "direction": "output",
+      "id": "OUT",
+      "localNet": "out",
+      "projectNet": "signal",
+      "role": "signal"
+    }
+  ],
+  "sheet": "source",
+  "sourceDigest": "sha256:09ceae094a60598570970ace2e7698d28092a094a2618aa656926b3b2e4dabed",
+  "title": "Source"
+}

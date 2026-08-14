@@ -1,0 +1,300 @@
+{
+  "formatVersion": "1.0",
+  "library": {
+    "components": [
+      {
+        "classification": [],
+        "description": "Twelve-pin controller",
+        "displayName": "Twelve-pin controller",
+        "id": "authoring:controller-12",
+        "kind": "integrated-circuit",
+        "metadata": {
+          "partProvenance": {
+            "status": "generic-template"
+          },
+          "semanticReady": true
+        },
+        "ports": [
+          {
+            "id": "1",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [
+                  "sense"
+                ],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "analog"
+              }
+            },
+            "name": "AIN0",
+            "required": false,
+            "terminal": "1",
+            "type": "input"
+          },
+          {
+            "id": "2",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [
+                  "sense"
+                ],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "analog"
+              }
+            },
+            "name": "AIN1",
+            "required": false,
+            "terminal": "2",
+            "type": "input"
+          },
+          {
+            "id": "3",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [
+                  "i2c-clock",
+                  "communication"
+                ],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "digital"
+              }
+            },
+            "name": "SCL",
+            "required": false,
+            "terminal": "3",
+            "type": "bidirectional"
+          },
+          {
+            "id": "4",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [
+                  "i2c-data",
+                  "communication"
+                ],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "digital"
+              }
+            },
+            "name": "SDA",
+            "required": false,
+            "terminal": "4",
+            "type": "input"
+          },
+          {
+            "id": "5",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "digital"
+              }
+            },
+            "name": "PWM0",
+            "required": false,
+            "terminal": "5",
+            "type": "output"
+          },
+          {
+            "id": "6",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "digital"
+              }
+            },
+            "name": "PWM1",
+            "required": false,
+            "terminal": "6",
+            "type": "output"
+          },
+          {
+            "id": "7",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [
+                  "uart-tx",
+                  "communication"
+                ],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "digital"
+              }
+            },
+            "name": "TX",
+            "required": false,
+            "terminal": "7",
+            "type": "output"
+          },
+          {
+            "id": "8",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [
+                  "uart-rx",
+                  "communication"
+                ],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "digital"
+              }
+            },
+            "name": "RX",
+            "required": false,
+            "terminal": "8",
+            "type": "input"
+          },
+          {
+            "id": "9",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [
+                  "power"
+                ],
+                "polarity": "unspecified",
+                "powerDomain": "vdd",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "power"
+              }
+            },
+            "name": "VDD",
+            "required": false,
+            "terminal": "9",
+            "type": "power-input"
+          },
+          {
+            "id": "10",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [
+                  "power"
+                ],
+                "polarity": "unspecified",
+                "powerDomain": "avdd",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "power"
+              }
+            },
+            "name": "AVDD",
+            "required": false,
+            "terminal": "10",
+            "type": "power-input"
+          },
+          {
+            "id": "11",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [
+                  "ground"
+                ],
+                "polarity": "unspecified",
+                "powerDomain": "gnd",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "ground"
+              }
+            },
+            "name": "GND",
+            "required": false,
+            "terminal": "11",
+            "type": "power-input"
+          },
+          {
+            "id": "12",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [
+                  "ground"
+                ],
+                "polarity": "unspecified",
+                "powerDomain": "agnd",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "ground"
+              }
+            },
+            "name": "AGND",
+            "required": false,
+            "terminal": "12",
+            "type": "power-input"
+          }
+        ],
+        "presentations": [
+          {
+            "asset": {
+              "digest": "sha256:2fe409df19cfd0257cdc4802e8be6dd84d4d0b840938abb23c22c7c941a1f3ae",
+              "path": "library/electronics/authoring/controller-12.aixsym.json",
+              "revision": "1.0.0",
+              "symbolId": "authoring:controller-12"
+            },
+            "fieldMap": {
+              "reference": "refdes",
+              "value": "value"
+            },
+            "portMap": {
+              "1": "1",
+              "10": "10",
+              "11": "11",
+              "12": "12",
+              "2": "2",
+              "3": "3",
+              "4": "4",
+              "5": "5",
+              "6": "6",
+              "7": "7",
+              "8": "8",
+              "9": "9"
+            },
+            "purpose": "primary-diagram"
+          }
+        ],
+        "properties": [
+          {
+            "id": "refdes",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "id": "value",
+            "required": false,
+            "type": "string"
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "description": "Multi-pin IC Authoring library",
+    "id": "authoring:controller_12-library",
+    "metadata": {
+      "profile": "component.graphics@1"
+    },
+    "namespace": "authoring",
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-11",
+      "license": "CC0-1.0",
+      "notes": "Multi-pin IC Authoring library",
+      "origin": "AIXEM 0.5.1 authoring documentation"
+    },
+    "title": "Multi-pin IC Authoring library",
+    "version": "1.0.0"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/aixlib/1"
+}

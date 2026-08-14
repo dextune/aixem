@@ -1,0 +1,1441 @@
+{
+  "capabilities": {
+    "composite": true,
+    "diagnostics": true,
+    "hierarchy": true,
+    "interfacePorts": true,
+    "offline": true,
+    "overview": true,
+    "projectNets": true,
+    "qualifiedSearch": true,
+    "readOnly": true,
+    "sheet": true,
+    "sheetScopedLayers": true,
+    "viewport": true
+  },
+  "diagnostics": [
+    {
+      "code": "VIEWER-READONLY-001",
+      "message": "Reference Viewer runtime state is derived and read-only.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-QID-001",
+      "message": "19 qualified objects indexed without ambiguity.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-MODES-001",
+      "message": "Sheet, Overview, and Composite modes are available from resolved project evidence.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-ASSET-001",
+      "message": "The self-contained Viewer requires no remote presentation assets.",
+      "severity": "info",
+      "status": "PASS"
+    }
+  ],
+  "domContract": "1",
+  "formatVersion": "1.0",
+  "hierarchy": [
+    {
+      "children": [],
+      "depth": 0,
+      "id": "driver",
+      "order": 10,
+      "parent": null,
+      "qid": "sheet:driver",
+      "title": "Driver"
+    },
+    {
+      "children": [],
+      "depth": 0,
+      "id": "receiver",
+      "order": 20,
+      "parent": null,
+      "qid": "sheet:receiver",
+      "title": "Receiver"
+    }
+  ],
+  "initialState": {
+    "activeNavigatorCategory": "sheet",
+    "activeSheet": "driver",
+    "mode": "sheet",
+    "searchQuery": "",
+    "selection": null,
+    "visibleLayersBySheet": {
+      "driver": {
+        "annotation": true,
+        "connections": true,
+        "symbols": true
+      },
+      "receiver": {
+        "annotation": true,
+        "connections": true,
+        "symbols": true
+      }
+    }
+  },
+  "objects": {
+    "entity:driver:U1": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "nativeId": "U1",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:driver:U1"
+        },
+        {
+          "label": "Sheet",
+          "value": "driver"
+        },
+        {
+          "label": "Entity ID",
+          "value": "U1"
+        },
+        {
+          "label": "Reference",
+          "value": "U1"
+        },
+        {
+          "label": "Value",
+          "value": "AXC12"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"U1\",\"layer\":\"symbols\",\"x\":80,\"y\":50}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[60.0,42.5],\"10\":[85.0,30.0],\"11\":[75.0,70.0],\"12\":[85.0,70.0],\"2\":[60.0,47.5],\"3\":[60.0,52.5],\"4\":[60.0,57.5],\"5\":[100.0,42.5],\"6\":[100.0,47.5],\"7\":[100.0,52.5],\"8\":[100.0,57.5],\"9\":[75.0,30.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:2fe409df19cfd0257cdc4802e8be6dd84d4d0b840938abb23c22c7c941a1f3ae"
+        }
+      ],
+      "qid": "entity:driver:U1",
+      "relatedQids": [],
+      "representations": [
+        "sheet:driver",
+        "composite"
+      ],
+      "searchText": "entity:driver:u1 u1 · axc12 u1 driver u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "driver"
+    },
+    "entity:receiver:U1": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "nativeId": "U1",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:receiver:U1"
+        },
+        {
+          "label": "Sheet",
+          "value": "receiver"
+        },
+        {
+          "label": "Entity ID",
+          "value": "U1"
+        },
+        {
+          "label": "Reference",
+          "value": "U1"
+        },
+        {
+          "label": "Value",
+          "value": "AXC12"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"U1\",\"layer\":\"symbols\",\"x\":80,\"y\":50}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[60.0,42.5],\"10\":[85.0,30.0],\"11\":[75.0,70.0],\"12\":[85.0,70.0],\"2\":[60.0,47.5],\"3\":[60.0,52.5],\"4\":[60.0,57.5],\"5\":[100.0,42.5],\"6\":[100.0,47.5],\"7\":[100.0,52.5],\"8\":[100.0,57.5],\"9\":[75.0,30.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:2fe409df19cfd0257cdc4802e8be6dd84d4d0b840938abb23c22c7c941a1f3ae"
+        }
+      ],
+      "qid": "entity:receiver:U1",
+      "relatedQids": [],
+      "representations": [
+        "sheet:receiver",
+        "composite"
+      ],
+      "searchText": "entity:receiver:u1 u1 · axc12 u1 receiver u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "receiver"
+    },
+    "interface:driver:GND": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "driver / @GND",
+      "nativeId": "GND",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:driver:GND"
+        },
+        {
+          "label": "Sheet",
+          "value": "driver"
+        },
+        {
+          "label": "Port ID",
+          "value": "GND"
+        },
+        {
+          "label": "Direction",
+          "value": "passive"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:driver:gnd"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:gnd"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[180.0,138.0]"
+        }
+      ],
+      "qid": "interface:driver:GND",
+      "relatedQids": [
+        "local-net:driver:gnd",
+        "project-net:gnd"
+      ],
+      "representations": [
+        "sheet:driver",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:driver:gnd driver / @gnd gnd driver passive power gnd project-net:gnd",
+      "sheet": "driver"
+    },
+    "interface:driver:OUT": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "driver / @OUT",
+      "nativeId": "OUT",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:driver:OUT"
+        },
+        {
+          "label": "Sheet",
+          "value": "driver"
+        },
+        {
+          "label": "Port ID",
+          "value": "OUT"
+        },
+        {
+          "label": "Direction",
+          "value": "output"
+        },
+        {
+          "label": "Role",
+          "value": "signal"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:driver:out"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:control_signal"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[270.0,94.0]"
+        }
+      ],
+      "qid": "interface:driver:OUT",
+      "relatedQids": [
+        "local-net:driver:out",
+        "project-net:control_signal"
+      ],
+      "representations": [
+        "sheet:driver",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:driver:out driver / @out out driver output signal out project-net:control_signal",
+      "sheet": "driver"
+    },
+    "interface:driver:VCC": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "driver / @VCC",
+      "nativeId": "VCC",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:driver:VCC"
+        },
+        {
+          "label": "Sheet",
+          "value": "driver"
+        },
+        {
+          "label": "Port ID",
+          "value": "VCC"
+        },
+        {
+          "label": "Direction",
+          "value": "input"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:driver:vcc"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:vcc_5v"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[180.0,50.0]"
+        }
+      ],
+      "qid": "interface:driver:VCC",
+      "relatedQids": [
+        "local-net:driver:vcc",
+        "project-net:vcc_5v"
+      ],
+      "representations": [
+        "sheet:driver",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:driver:vcc driver / @vcc vcc driver input power vcc project-net:vcc_5v",
+      "sheet": "driver"
+    },
+    "interface:receiver:GND": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "receiver / @GND",
+      "nativeId": "GND",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:receiver:GND"
+        },
+        {
+          "label": "Sheet",
+          "value": "receiver"
+        },
+        {
+          "label": "Port ID",
+          "value": "GND"
+        },
+        {
+          "label": "Direction",
+          "value": "passive"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:receiver:gnd"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:gnd"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[180.0,318.0]"
+        }
+      ],
+      "qid": "interface:receiver:GND",
+      "relatedQids": [
+        "local-net:receiver:gnd",
+        "project-net:gnd"
+      ],
+      "representations": [
+        "sheet:receiver",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:receiver:gnd receiver / @gnd gnd receiver passive power gnd project-net:gnd",
+      "sheet": "receiver"
+    },
+    "interface:receiver:IN": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "receiver / @IN",
+      "nativeId": "IN",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:receiver:IN"
+        },
+        {
+          "label": "Sheet",
+          "value": "receiver"
+        },
+        {
+          "label": "Port ID",
+          "value": "IN"
+        },
+        {
+          "label": "Direction",
+          "value": "input"
+        },
+        {
+          "label": "Role",
+          "value": "signal"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:receiver:in"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:control_signal"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[90.0,274.0]"
+        }
+      ],
+      "qid": "interface:receiver:IN",
+      "relatedQids": [
+        "local-net:receiver:in",
+        "project-net:control_signal"
+      ],
+      "representations": [
+        "sheet:receiver",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:receiver:in receiver / @in in receiver input signal in project-net:control_signal",
+      "sheet": "receiver"
+    },
+    "interface:receiver:VCC": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "receiver / @VCC",
+      "nativeId": "VCC",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:receiver:VCC"
+        },
+        {
+          "label": "Sheet",
+          "value": "receiver"
+        },
+        {
+          "label": "Port ID",
+          "value": "VCC"
+        },
+        {
+          "label": "Direction",
+          "value": "input"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:receiver:vcc"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:vcc_5v"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[180.0,230.0]"
+        }
+      ],
+      "qid": "interface:receiver:VCC",
+      "relatedQids": [
+        "local-net:receiver:vcc",
+        "project-net:vcc_5v"
+      ],
+      "representations": [
+        "sheet:receiver",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:receiver:vcc receiver / @vcc vcc receiver input power vcc project-net:vcc_5v",
+      "sheet": "receiver"
+    },
+    "local-net:driver:gnd": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "driver / gnd",
+      "nativeId": "gnd",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:driver:gnd"
+        },
+        {
+          "label": "Sheet",
+          "value": "driver"
+        },
+        {
+          "label": "Local net ID",
+          "value": "gnd"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.11\",\"@GND\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:gnd"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:driver:gnd",
+      "relatedQids": [],
+      "representations": [
+        "sheet:driver",
+        "composite"
+      ],
+      "searchText": "local-net:driver:gnd driver / gnd gnd driver [\"u1.11\",\"@gnd\"] project-net:gnd",
+      "sheet": "driver"
+    },
+    "local-net:driver:out": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "driver / out",
+      "nativeId": "out",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:driver:out"
+        },
+        {
+          "label": "Sheet",
+          "value": "driver"
+        },
+        {
+          "label": "Local net ID",
+          "value": "out"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.5\",\"@OUT\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:control_signal"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:driver:out",
+      "relatedQids": [],
+      "representations": [
+        "sheet:driver",
+        "composite"
+      ],
+      "searchText": "local-net:driver:out driver / out out driver [\"u1.5\",\"@out\"] project-net:control_signal",
+      "sheet": "driver"
+    },
+    "local-net:driver:vcc": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "driver / vcc",
+      "nativeId": "vcc",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:driver:vcc"
+        },
+        {
+          "label": "Sheet",
+          "value": "driver"
+        },
+        {
+          "label": "Local net ID",
+          "value": "vcc"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.9\",\"@VCC\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:vcc_5v"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:driver:vcc",
+      "relatedQids": [],
+      "representations": [
+        "sheet:driver",
+        "composite"
+      ],
+      "searchText": "local-net:driver:vcc driver / vcc vcc driver [\"u1.9\",\"@vcc\"] project-net:vcc_5v",
+      "sheet": "driver"
+    },
+    "local-net:receiver:gnd": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "receiver / gnd",
+      "nativeId": "gnd",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:receiver:gnd"
+        },
+        {
+          "label": "Sheet",
+          "value": "receiver"
+        },
+        {
+          "label": "Local net ID",
+          "value": "gnd"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.11\",\"@GND\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:gnd"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:receiver:gnd",
+      "relatedQids": [],
+      "representations": [
+        "sheet:receiver",
+        "composite"
+      ],
+      "searchText": "local-net:receiver:gnd receiver / gnd gnd receiver [\"u1.11\",\"@gnd\"] project-net:gnd",
+      "sheet": "receiver"
+    },
+    "local-net:receiver:in": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "receiver / in",
+      "nativeId": "in",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:receiver:in"
+        },
+        {
+          "label": "Sheet",
+          "value": "receiver"
+        },
+        {
+          "label": "Local net ID",
+          "value": "in"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.1\",\"@IN\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:control_signal"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:receiver:in",
+      "relatedQids": [],
+      "representations": [
+        "sheet:receiver",
+        "composite"
+      ],
+      "searchText": "local-net:receiver:in receiver / in in receiver [\"u1.1\",\"@in\"] project-net:control_signal",
+      "sheet": "receiver"
+    },
+    "local-net:receiver:vcc": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "receiver / vcc",
+      "nativeId": "vcc",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:receiver:vcc"
+        },
+        {
+          "label": "Sheet",
+          "value": "receiver"
+        },
+        {
+          "label": "Local net ID",
+          "value": "vcc"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.9\",\"@VCC\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:vcc_5v"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:receiver:vcc",
+      "relatedQids": [],
+      "representations": [
+        "sheet:receiver",
+        "composite"
+      ],
+      "searchText": "local-net:receiver:vcc receiver / vcc vcc receiver [\"u1.9\",\"@vcc\"] project-net:vcc_5v",
+      "sheet": "receiver"
+    },
+    "project-net:control_signal": {
+      "category": "Project Nets",
+      "kind": "project-net",
+      "label": "control_signal",
+      "nativeId": "control_signal",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "project-net:control_signal"
+        },
+        {
+          "label": "Project-net ID",
+          "value": "control_signal"
+        },
+        {
+          "label": "Participating sheets",
+          "value": "[\"driver\",\"receiver\"]"
+        },
+        {
+          "label": "Interface members",
+          "value": "[\"interface:driver:OUT\",\"interface:receiver:IN\"]"
+        },
+        {
+          "label": "Backing local nets",
+          "value": "[\"local-net:driver:out\",\"local-net:receiver:in\"]"
+        },
+        {
+          "label": "Transitive endpoint count",
+          "value": "4"
+        },
+        {
+          "label": "Transitive endpoints",
+          "value": "[\"entity:driver:U1.5\",\"entity:receiver:U1.1\",\"interface:driver:OUT\",\"interface:receiver:IN\"]"
+        },
+        {
+          "label": "Crosses hierarchy boundary",
+          "value": "true"
+        }
+      ],
+      "qid": "project-net:control_signal",
+      "relatedQids": [
+        "interface:driver:OUT",
+        "interface:receiver:IN"
+      ],
+      "representations": [
+        "overview",
+        "composite"
+      ],
+      "searchText": "project-net:control_signal control_signal control_signal  [\"driver\",\"receiver\"] [\"interface:driver:out\",\"interface:receiver:in\"] [\"local-net:driver:out\",\"local-net:receiver:in\"]",
+      "sheet": null
+    },
+    "project-net:gnd": {
+      "category": "Project Nets",
+      "kind": "project-net",
+      "label": "gnd",
+      "nativeId": "gnd",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "project-net:gnd"
+        },
+        {
+          "label": "Project-net ID",
+          "value": "gnd"
+        },
+        {
+          "label": "Participating sheets",
+          "value": "[\"driver\",\"receiver\"]"
+        },
+        {
+          "label": "Interface members",
+          "value": "[\"interface:driver:GND\",\"interface:receiver:GND\"]"
+        },
+        {
+          "label": "Backing local nets",
+          "value": "[\"local-net:driver:gnd\",\"local-net:receiver:gnd\"]"
+        },
+        {
+          "label": "Transitive endpoint count",
+          "value": "4"
+        },
+        {
+          "label": "Transitive endpoints",
+          "value": "[\"entity:driver:U1.11\",\"entity:receiver:U1.11\",\"interface:driver:GND\",\"interface:receiver:GND\"]"
+        },
+        {
+          "label": "Crosses hierarchy boundary",
+          "value": "true"
+        }
+      ],
+      "qid": "project-net:gnd",
+      "relatedQids": [
+        "interface:driver:GND",
+        "interface:receiver:GND"
+      ],
+      "representations": [
+        "overview",
+        "composite"
+      ],
+      "searchText": "project-net:gnd gnd gnd  [\"driver\",\"receiver\"] [\"interface:driver:gnd\",\"interface:receiver:gnd\"] [\"local-net:driver:gnd\",\"local-net:receiver:gnd\"]",
+      "sheet": null
+    },
+    "project-net:vcc_5v": {
+      "category": "Project Nets",
+      "kind": "project-net",
+      "label": "vcc_5v",
+      "nativeId": "vcc_5v",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "project-net:vcc_5v"
+        },
+        {
+          "label": "Project-net ID",
+          "value": "vcc_5v"
+        },
+        {
+          "label": "Participating sheets",
+          "value": "[\"driver\",\"receiver\"]"
+        },
+        {
+          "label": "Interface members",
+          "value": "[\"interface:driver:VCC\",\"interface:receiver:VCC\"]"
+        },
+        {
+          "label": "Backing local nets",
+          "value": "[\"local-net:driver:vcc\",\"local-net:receiver:vcc\"]"
+        },
+        {
+          "label": "Transitive endpoint count",
+          "value": "4"
+        },
+        {
+          "label": "Transitive endpoints",
+          "value": "[\"entity:driver:U1.9\",\"entity:receiver:U1.9\",\"interface:driver:VCC\",\"interface:receiver:VCC\"]"
+        },
+        {
+          "label": "Crosses hierarchy boundary",
+          "value": "true"
+        }
+      ],
+      "qid": "project-net:vcc_5v",
+      "relatedQids": [
+        "interface:driver:VCC",
+        "interface:receiver:VCC"
+      ],
+      "representations": [
+        "overview",
+        "composite"
+      ],
+      "searchText": "project-net:vcc_5v vcc_5v vcc_5v  [\"driver\",\"receiver\"] [\"interface:driver:vcc\",\"interface:receiver:vcc\"] [\"local-net:driver:vcc\",\"local-net:receiver:vcc\"]",
+      "sheet": null
+    },
+    "sheet:driver": {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Driver",
+      "nativeId": "driver",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "sheet:driver"
+        },
+        {
+          "label": "Sheet",
+          "value": "driver"
+        },
+        {
+          "label": "Title",
+          "value": "Driver"
+        },
+        {
+          "label": "Parent",
+          "value": "Root"
+        },
+        {
+          "label": "Hierarchy depth",
+          "value": "0"
+        },
+        {
+          "label": "Width",
+          "value": "160"
+        },
+        {
+          "label": "Height",
+          "value": "100"
+        },
+        {
+          "label": "Unit",
+          "value": "mm"
+        }
+      ],
+      "qid": "sheet:driver",
+      "relatedQids": [],
+      "representations": [
+        "sheet:driver",
+        "overview",
+        "composite"
+      ],
+      "searchText": "sheet:driver driver driver driver []",
+      "sheet": "driver"
+    },
+    "sheet:receiver": {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Receiver",
+      "nativeId": "receiver",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "sheet:receiver"
+        },
+        {
+          "label": "Sheet",
+          "value": "receiver"
+        },
+        {
+          "label": "Title",
+          "value": "Receiver"
+        },
+        {
+          "label": "Parent",
+          "value": "Root"
+        },
+        {
+          "label": "Hierarchy depth",
+          "value": "0"
+        },
+        {
+          "label": "Width",
+          "value": "160"
+        },
+        {
+          "label": "Height",
+          "value": "100"
+        },
+        {
+          "label": "Unit",
+          "value": "mm"
+        }
+      ],
+      "qid": "sheet:receiver",
+      "relatedQids": [],
+      "representations": [
+        "sheet:receiver",
+        "overview",
+        "composite"
+      ],
+      "searchText": "sheet:receiver receiver receiver receiver []",
+      "sheet": "receiver"
+    }
+  },
+  "project": {
+    "id": "hierarchical:h006",
+    "multiSheet": true,
+    "profile": "aixem.schematic.multisheet@1",
+    "schema": "https://schemas.aixem.org/component-graphics/aixproj/2",
+    "title": "Interface port local routing"
+  },
+  "provenance": {
+    "authority": {
+      "connectivityFromGeometry": false,
+      "layersAreSheets": false,
+      "localPresentation": "aixlayout/2",
+      "localSemantics": ".aixem",
+      "projectComposition": "aixproj/2",
+      "viewerState": "derived-non-authoritative"
+    },
+    "generatedAt": "2026-08-10T12:00:00Z",
+    "hashes": {
+      "inputs": [
+        {
+          "layoutDigest": "sha256:b2a8c037abf210db59c6f49423774fd44840679105393c03745258cd94731bd3",
+          "layoutPath": "layouts/driver.aixlayout.json",
+          "resolvedSceneDigest": "sha256:f47a95197ed586a649bf1d3bca6df819681871688eedc0bcdbe4c2129b82286e",
+          "sheet": "driver",
+          "sourceDigest": "sha256:aa576b3e00f333d11772f54a0c89473ed42cbc836bf2c255fa79cf3378199973",
+          "sourcePath": "circuits/driver.aixem",
+          "svgDigest": "sha256:27ed36c81ba3eefe071d019c88ce72bfe3db709361f96cbaba18e1f7fb8791fc"
+        },
+        {
+          "layoutDigest": "sha256:36ddcfda1a1119ec6b7d7609f4fb6b847264f50e0bf69bb32ba09360c70e0308",
+          "layoutPath": "layouts/receiver.aixlayout.json",
+          "resolvedSceneDigest": "sha256:6627c0fd890e69f9d55539e9c89b49b86391418711bac68f2ed8f459af87030e",
+          "sheet": "receiver",
+          "sourceDigest": "sha256:809f6e2999b70071fc2d46dd21bd38ae0bf229194de58b569072b8b1cc46796c",
+          "sourcePath": "circuits/receiver.aixem",
+          "svgDigest": "sha256:ab379eed260050bef4d69cddbee7719686288e6ea088f8da66e61f25fac2dfb7"
+        }
+      ],
+      "manifest": "sha256:606e021f2bb4bb430ffe9112673586d4d07d6b68813673592c7809d4ac570444",
+      "styleProfile": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393"
+    },
+    "renderer": {
+      "id": "aixem-hierarchical-project-reference-renderer",
+      "version": "0.5.3"
+    },
+    "resolvedProjectSceneSchema": "https://schemas.aixem.org/component-graphics/resolved-project-scene/1"
+  },
+  "release": "AIXEM-SRP-0.5.5-2026-08-11",
+  "schema": "https://schemas.aixem.org/viewer/viewer-model/1",
+  "searchIndex": [
+    {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Driver",
+      "qid": "sheet:driver",
+      "searchText": "sheet:driver driver driver driver []",
+      "sheet": "driver"
+    },
+    {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Receiver",
+      "qid": "sheet:receiver",
+      "searchText": "sheet:receiver receiver receiver receiver []",
+      "sheet": "receiver"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "qid": "entity:driver:U1",
+      "searchText": "entity:driver:u1 u1 · axc12 u1 driver u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "driver"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "qid": "entity:receiver:U1",
+      "searchText": "entity:receiver:u1 u1 · axc12 u1 receiver u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "receiver"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "driver / gnd",
+      "qid": "local-net:driver:gnd",
+      "searchText": "local-net:driver:gnd driver / gnd gnd driver [\"u1.11\",\"@gnd\"] project-net:gnd",
+      "sheet": "driver"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "driver / out",
+      "qid": "local-net:driver:out",
+      "searchText": "local-net:driver:out driver / out out driver [\"u1.5\",\"@out\"] project-net:control_signal",
+      "sheet": "driver"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "driver / vcc",
+      "qid": "local-net:driver:vcc",
+      "searchText": "local-net:driver:vcc driver / vcc vcc driver [\"u1.9\",\"@vcc\"] project-net:vcc_5v",
+      "sheet": "driver"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "receiver / gnd",
+      "qid": "local-net:receiver:gnd",
+      "searchText": "local-net:receiver:gnd receiver / gnd gnd receiver [\"u1.11\",\"@gnd\"] project-net:gnd",
+      "sheet": "receiver"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "receiver / in",
+      "qid": "local-net:receiver:in",
+      "searchText": "local-net:receiver:in receiver / in in receiver [\"u1.1\",\"@in\"] project-net:control_signal",
+      "sheet": "receiver"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "receiver / vcc",
+      "qid": "local-net:receiver:vcc",
+      "searchText": "local-net:receiver:vcc receiver / vcc vcc receiver [\"u1.9\",\"@vcc\"] project-net:vcc_5v",
+      "sheet": "receiver"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "driver / @GND",
+      "qid": "interface:driver:GND",
+      "searchText": "interface:driver:gnd driver / @gnd gnd driver passive power gnd project-net:gnd",
+      "sheet": "driver"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "driver / @OUT",
+      "qid": "interface:driver:OUT",
+      "searchText": "interface:driver:out driver / @out out driver output signal out project-net:control_signal",
+      "sheet": "driver"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "driver / @VCC",
+      "qid": "interface:driver:VCC",
+      "searchText": "interface:driver:vcc driver / @vcc vcc driver input power vcc project-net:vcc_5v",
+      "sheet": "driver"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "receiver / @GND",
+      "qid": "interface:receiver:GND",
+      "searchText": "interface:receiver:gnd receiver / @gnd gnd receiver passive power gnd project-net:gnd",
+      "sheet": "receiver"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "receiver / @IN",
+      "qid": "interface:receiver:IN",
+      "searchText": "interface:receiver:in receiver / @in in receiver input signal in project-net:control_signal",
+      "sheet": "receiver"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "receiver / @VCC",
+      "qid": "interface:receiver:VCC",
+      "searchText": "interface:receiver:vcc receiver / @vcc vcc receiver input power vcc project-net:vcc_5v",
+      "sheet": "receiver"
+    },
+    {
+      "category": "Project Nets",
+      "kind": "project-net",
+      "label": "control_signal",
+      "qid": "project-net:control_signal",
+      "searchText": "project-net:control_signal control_signal control_signal  [\"driver\",\"receiver\"] [\"interface:driver:out\",\"interface:receiver:in\"] [\"local-net:driver:out\",\"local-net:receiver:in\"]",
+      "sheet": null
+    },
+    {
+      "category": "Project Nets",
+      "kind": "project-net",
+      "label": "gnd",
+      "qid": "project-net:gnd",
+      "searchText": "project-net:gnd gnd gnd  [\"driver\",\"receiver\"] [\"interface:driver:gnd\",\"interface:receiver:gnd\"] [\"local-net:driver:gnd\",\"local-net:receiver:gnd\"]",
+      "sheet": null
+    },
+    {
+      "category": "Project Nets",
+      "kind": "project-net",
+      "label": "vcc_5v",
+      "qid": "project-net:vcc_5v",
+      "searchText": "project-net:vcc_5v vcc_5v vcc_5v  [\"driver\",\"receiver\"] [\"interface:driver:vcc\",\"interface:receiver:vcc\"] [\"local-net:driver:vcc\",\"local-net:receiver:vcc\"]",
+      "sheet": null
+    }
+  ],
+  "sheets": [
+    {
+      "height": 100.0,
+      "id": "driver",
+      "layers": [
+        {
+          "defaultVisible": true,
+          "id": "connections",
+          "locked": false,
+          "order": 10,
+          "printable": true,
+          "purpose": "semantic net routes and sheet ports",
+          "qualifiedId": "layer:driver:connections",
+          "sheet": "driver"
+        },
+        {
+          "defaultVisible": true,
+          "id": "symbols",
+          "locked": false,
+          "order": 20,
+          "printable": true,
+          "purpose": "component symbols",
+          "qualifiedId": "layer:driver:symbols",
+          "sheet": "driver"
+        },
+        {
+          "defaultVisible": true,
+          "id": "annotation",
+          "locked": false,
+          "order": 30,
+          "printable": true,
+          "purpose": "notes",
+          "qualifiedId": "layer:driver:annotation",
+          "sheet": "driver"
+        }
+      ],
+      "order": 10,
+      "parent": null,
+      "qid": "sheet:driver",
+      "title": "Driver",
+      "unit": "mm",
+      "width": 160.0
+    },
+    {
+      "height": 100.0,
+      "id": "receiver",
+      "layers": [
+        {
+          "defaultVisible": true,
+          "id": "connections",
+          "locked": false,
+          "order": 10,
+          "printable": true,
+          "purpose": "semantic net routes and sheet ports",
+          "qualifiedId": "layer:receiver:connections",
+          "sheet": "receiver"
+        },
+        {
+          "defaultVisible": true,
+          "id": "symbols",
+          "locked": false,
+          "order": 20,
+          "printable": true,
+          "purpose": "component symbols",
+          "qualifiedId": "layer:receiver:symbols",
+          "sheet": "receiver"
+        },
+        {
+          "defaultVisible": true,
+          "id": "annotation",
+          "locked": false,
+          "order": 30,
+          "printable": true,
+          "purpose": "notes",
+          "qualifiedId": "layer:receiver:annotation",
+          "sheet": "receiver"
+        }
+      ],
+      "order": 20,
+      "parent": null,
+      "qid": "sheet:receiver",
+      "title": "Receiver",
+      "unit": "mm",
+      "width": 160.0
+    }
+  ],
+  "statistics": {
+    "entities": 2,
+    "hierarchyDepth": 0,
+    "interfacePorts": 6,
+    "localNets": 6,
+    "localRouteSegments": 6,
+    "projectNets": 3,
+    "projectRouteSegments": 44,
+    "qualifiedObjects": 19,
+    "sheets": 2,
+    "unconnectedProjectPorts": 0
+  },
+  "viewerContract": "aixem.reference-viewer@1",
+  "views": [
+    {
+      "available": true,
+      "canvases": [
+        {
+          "height": 100.0,
+          "key": "sheet:driver",
+          "sheet": "driver",
+          "unit": "mm",
+          "width": 160.0
+        },
+        {
+          "height": 100.0,
+          "key": "sheet:receiver",
+          "sheet": "receiver",
+          "unit": "mm",
+          "width": 160.0
+        }
+      ],
+      "id": "sheet",
+      "label": "Sheet"
+    },
+    {
+      "available": true,
+      "canvases": [
+        {
+          "height": 378.0,
+          "key": "overview",
+          "sheet": null,
+          "unit": "project-space",
+          "width": 453.0
+        }
+      ],
+      "id": "overview",
+      "label": "Overview"
+    },
+    {
+      "available": true,
+      "canvases": [
+        {
+          "height": 444.0,
+          "key": "composite",
+          "sheet": null,
+          "unit": "project-space",
+          "width": 433.0
+        }
+      ],
+      "id": "composite",
+      "label": "Composite"
+    }
+  ]
+}

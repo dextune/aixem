@@ -1,0 +1,17 @@
+{
+  "entryRoute": "render-review",
+  "exampleFixture": "examples/authoring/08-visual-repair",
+  "formatVersion": "1.0",
+  "id": "EVAL-07",
+  "prohibitedDiscovery": [
+    "repository-wide search",
+    "renderer implementation inspection"
+  ],
+  "prompt": "Detect and repair a symbol whose visible lead endpoint and electrical port do not coincide.",
+  "requiredExitConditions": [
+    "visual-review-ready"
+  ],
+  "schema": "https://schemas.aixem.org/validation/agent-eval-task/1",
+  "scoringProfile": "validation/agent-evals/scoring.md",
+  "title": "Visual repair"
+}

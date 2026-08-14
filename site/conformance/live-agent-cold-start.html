@@ -1,0 +1,158 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Defines Agent Evaluation 3 L001-L012, deterministic Tier A protocol conformance, actual Tier B external execution, retention, scoring, and truthful capability claims."><meta name="aixem-document-id" content="AIXEM-CONF-AGENT-LIVE-001"><meta name="aixem-release" content="AIXEM-SRP-0.5.9-2026-08-12"><title>Live-Agent Cold-Start Conformance — AIXEM Documentation</title><link rel="stylesheet" href="../assets/site.css"></head><body class=""><a class="skip" href="#main">Skip to main content</a><header class="topbar"><div class="brand"><span class="brand-mark">AX</span><span>AIXEM<small>Schematic Reference Platform</small></span></div><div class="top-actions"><span class="version">v0.5.9</span><button class="menu-open" id="menu-open" type="button" aria-controls="site-sidebar" aria-expanded="false">Menu</button><button class="search-open" id="search-open" type="button">Search <kbd>⌘K</kbd></button></div></header><div class="layout"><nav class="sidebar" id="site-sidebar" aria-label="Documentation navigation"><h2>Documentation Home</h2><a class="section-index" href="../index.html">AIXEM Documentation</a><h2>Getting Started</h2><a class="section-index" href="../getting-started/index.html">Getting Started</a><a class="" href="../getting-started/introduction.html">Introduction to AIXEM</a><a class="" href="../getting-started/quick-start.html">Quick Start</a><a class="" href="../getting-started/first-schematic.html">Create Your First Schematic</a><h2>Authoring</h2><a class="section-index" href="../authoring/index.html">Authoring</a><a class="" href="../symbols/symbol-authoring-cookbook.html">Symbol Authoring Cookbook</a><a class="" href="../symbols/aixsym-field-reference.html">AIXSYM Field Reference</a><a class="" href="../symbols/component-symbol-binding.html">Component to Symbol Binding</a><a class="" href="../schematic/schematic-authoring-cookbook.html">Schematic Authoring Cookbook</a><a class="" href="../routing/routing-cookbook.html">Routing Cookbook</a><a class="" href="../agent/visual-qa-loop.html">Visual QA and Repair Loop</a><a class="" href="../symbols/symbol-lint.html">Symbol Lint</a><h2>Task-Oriented Authoring Guides</h2><a class="section-index" href="../authoring/guides/index.html">Task-Oriented Authoring Guides</a><a class="" href="../authoring/guides/create-library-part.html">Create a Library Part</a><a class="" href="../authoring/guides/select-library-part.html">Select a Library Part</a><a class="" href="../authoring/guides/create-schematic.html">Create a Schematic</a><a class="" href="../authoring/guides/place-components.html">Agent Component Placement Strategy</a><a class="" href="../authoring/guides/route-nets.html">Route Nets</a><a class="" href="../authoring/guides/compose-project.html">Compose a Project</a><a class="" href="../authoring/guides/modify-existing-schematic.html">Modify an Existing Schematic</a><a class="" href="../authoring/guides/author-component-circuit.html">Author a Component Circuit</a><a class="" href="../authoring/guides/render-review.html">Render and Review</a><a class="" href="../authoring/guides/validate-project.html">Validate a Project</a><h2>Core Concepts</h2><a class="section-index" href="../concepts/index.html">Core Concepts</a><a class="" href="../concepts/semantic-model.html">Semantic Circuit Model</a><a class="" href="../concepts/authority-model.html">Authority Model</a><a class="" href="../concepts/component-model.html">Component Model</a><a class="" href="../concepts/net-model.html">Net Model</a><a class="" href="../concepts/symbol-model.html">Symbol Presentation Model</a><a class="" href="../concepts/layout-model.html">Explicit Layout Model</a><a class="" href="../concepts/deterministic-builds.html">Deterministic Builds</a><a class="" href="../concepts/project-net-model.html">Project Net Model</a><h2>Schematic Authoring</h2><a class="section-index" href="../schematic/index.html">Schematic Authoring</a><a class="" href="../schematic/grid-system.html">Grid and Snap System</a><a class="" href="../schematic/placement.html">Component Placement</a><a class="" href="../schematic/junctions.html">Junctions and Connectivity Cues</a><a class="" href="../schematic/annotations.html">Annotations and Fields</a><a class="" href="../schematic/visual-language.html">Grid-First Visual Language</a><a class="" href="../schematic/sheet-organization.html">Sheet Organization</a><h2>Reference Viewer</h2><a class="section-index" href="../specifications/viewer/index.html">Viewer Specifications</a><a class="" href="../specifications/viewer/reference-viewer-contract.html">Reference Viewer Contract 1</a><a class="" href="../specifications/viewer/review-workbench-contract.html">Review Workbench Contract 1</a><a class="" href="../specifications/viewer/viewer-state-and-interaction.html">Viewer State and Interaction 1</a><a class="" href="../specifications/viewer/viewer-security-and-embedding.html">Viewer Security and Embedding 1</a><a class="" href="../specifications/viewer/viewer-accessibility-profile.html">Viewer Accessibility Profile 1</a><h2>Symbol Authoring</h2><a class="section-index" href="../symbols/index.html">Symbol Authoring</a><a class="" href="../symbols/symbol-anatomy.html">Symbol Anatomy</a><a class="" href="../symbols/pins-and-ports.html">Pins, Ports, and Endpoint Mapping</a><a class="" href="../symbols/primitives.html">Graphic Primitives</a><a class="" href="../symbols/authoring-guide.html">Symbol Authoring Guide</a><a class="" href="../symbols/variants.html">Symbol Variants</a><a class="" href="../symbols/field-layout.html">Field Layout</a><a class="" href="../symbols/design-rules.html">Symbol Design Rules Entry Point</a><h2>Routing</h2><a class="section-index" href="../routing/index.html">Net Routing</a><a class="" href="../routing/net-routing.html">Semantic Net Routing</a><a class="" href="../routing/orthogonal-routing.html">Orthogonal Routing</a><a class="" href="../routing/route-constraints.html">Route Constraints</a><a class="" href="../routing/router-behavior.html">Router Behavior</a><a class="" href="../routing/crossings-and-junctions.html">Crossings and Junctions</a><h2>Specifications</h2><a class="section-index" href="../specifications/index.html">Specifications</a><a class="" href="../specifications/core/document-model.html">Canonical Document Model</a><a class="" href="../specifications/core/coordinate-system.html">Coordinate and Unit System</a><a class="" href="../specifications/core/authority-precedence.html">Authority and Precedence</a><a class="" href="../specifications/schematic/grid-profile.html">Grid Schematic Profile 1</a><a class="" href="../specifications/schematic/visual-profile.html">Schematic Presentation Profile 1</a><a class="" href="../specifications/symbols/symbol-contract.html">Symbol Asset Contract 1</a><a class="" href="../specifications/layout/layout-contract.html">Explicit Layout Contract 1</a><a class="" href="../specifications/project/project-lock-contract.html">Project Lock Contract 1</a><a class="" href="../specifications/agent/retrieval-profile.html">Agent Retrieval Profile 1</a><a class="" href="../specifications/documentation/metadata-contract.html">Documentation Metadata Contract 1</a><a class="" href="../specifications/documentation/document-governance-contract.html">Repository Document Governance Contract 1</a><a class="" href="../specifications/documentation/release-integrity.html">Documentation Release Integrity 1</a><a class="" href="../specifications/schemas/index.html">JSON Schema Catalog</a><a class="" href="../specifications/symbols/symbol-design-profile.html">Symbol Design Profile 1</a><a class="" href="../specifications/renderer/renderer-contract.html">Renderer Contract 1</a><a class="" href="../specifications/core/interface-port-contract.html">Interface Port Contract 1</a><a class="" href="../specifications/layout/hierarchical-sheet-port-contract.html">Hierarchical Sheet-Port Layout Contract 2</a><a class="" href="../specifications/project/project-composition-contract.html">Project Composition Contract 2</a><a class="" href="../specifications/agent/diagnostic-contract.html">Agent Diagnostic Contract 1</a><a class="" href="../specifications/agent/authoring-change-set-contract.html">Authoring Change-Set Contract 1</a><a class="" href="../specifications/agent/authoring-execution-contract.html">Authoring Execution Contract 1</a><a class="" href="../specifications/agent/authoring-run-record.html">Authoring Run Record 1</a><a class="" href="../specifications/agent/agent-task-contract.html">Agent Task Contract 1</a><a class="" href="../specifications/agent/cold-start-stage-contract.html">Cold-Start Stage Contract 1</a><a class="" href="../specifications/agent/live-executor-protocol.html">Live Executor Protocol 1</a><a class="" href="../specifications/agent/observation-event-contract.html">Observation Event Contract 1</a><a class="" href="../specifications/agent/evaluation-invariant-contract.html">Evaluation Invariant Contract 1</a><a class="" href="../specifications/agent/live-run-evidence.html">Live Run Evidence 1</a><a class="" href="../specifications/components/library-layout-contract.html">Library Layout and Part Integrity Contract</a><a class="" href="../specifications/components/pin-electrical-semantics-profile.html">Pin Electrical Semantics Profile 1</a><h2>File Formats</h2><a class="section-index" href="../file-formats/index.html">File Formats</a><a class="" href="../file-formats/aixem.html">.aixem Semantic Source</a><a class="" href="../file-formats/aixlib.html">.aixlib.json Component Library</a><a class="" href="../file-formats/aixsym.html">.aixsym.json Symbol Asset</a><a class="" href="../file-formats/aixlayout.html">.aixlayout.json Explicit Layout</a><a class="" href="../file-formats/aixproj.html">.aixproj.json Project Lock</a><a class="" href="../file-formats/style-profile.html">Schematic Style Profile</a><h2>AI Agent Operations</h2><a class="section-index" href="../agent/index.html">AI Agent Operations</a><a class="" href="../agent/architecture.html">Agent Architecture</a><a class="" href="../agent/retrieval.html">Bounded Retrieval</a><a class="" href="../agent/task-routing.html">Task Routes</a><a class="" href="../agent/schematic-authoring.html">Schematic Authoring Agent</a><a class="" href="../agent/symbol-generation.html">Symbol Generation Agent</a><a class="" href="../agent/routing-agent.html">Routing Agent</a><a class="" href="../agent/validation-loop.html">Three-Stage Validation Loop</a><a class="" href="../agent/failure-policy.html">Fail-Closed Policy</a><a class="" href="../agent/authoring-orchestration.html">Agent Authoring Orchestration</a><a class="" href="../agent/live-agent-cold-start-authoring.html">Live-Agent Cold-Start Authoring</a><h2>Architecture</h2><a class="section-index" href="../architecture/index.html">System Architecture</a><a class="" href="../architecture/system-overview.html">System Overview</a><a class="" href="../architecture/pipeline.html">Build and Authoring Pipeline</a><a class="" href="../architecture/artifact-store.html">Artifact Ownership and Storage</a><a class="" href="../architecture/cache.html">Cache and Incremental Compilation</a><a class="" href="../architecture/security.html">Security and Trust Boundaries</a><a class="" href="../architecture/adr/index.html">Architecture Decision Records</a><a class="" href="../architecture/adr/0001-canonical-doc-root.html">ADR-0001: One Canonical Documentation Root</a><a class="" href="../architecture/adr/0002-route-first-retrieval.html">ADR-0002: Route-First Agent Retrieval</a><a class="" href="../architecture/adr/0003-vendor-neutral-ui.html">ADR-0003: Vendor-Neutral Engineering Surfaces</a><a class="" href="../architecture/adr/0004-symbol-style-and-renderer-precedence.html">ADR 0004 — Symbol Style and Renderer Precedence</a><h2>Conformance</h2><a class="section-index" href="index.html">Conformance</a><a class="" href="requirements.html">Requirement Model</a><a class="" href="validation.html">Validation Architecture</a><a class="" href="test-suite.html">Test Suite</a><a class="" href="symbol-expressiveness.html">Symbol Expressiveness Conformance Profile 1</a><a class="" href="static-2d-block-profile.html">Static 2D Block Compatibility Profile 1</a><a class="" href="compatibility-conformance.html">Compatibility and Migration Conformance</a><a class="" href="release-gates.html">Release Gates</a><a class="" href="hierarchical-project.html">Hierarchical Project Conformance</a><a class="" href="reference-viewer.html">Reference Viewer Conformance</a><a class="" href="agent-diagnostics.html">Agent Diagnostic Registry and Conformance</a><a class="" href="agent-authoring.html">Agent Authoring Closed-Loop Conformance</a><a class="active" href="live-agent-cold-start.html">Live-Agent Cold-Start Conformance</a><h2>Examples</h2><a class="section-index" href="../examples/index.html">Examples</a><a class="" href="../examples/passive-divider.html">Example: Passive Divider</a><a class="" href="../examples/grid-controller.html">Example: Grid Controller and Sensor Interface</a><a class="" href="../examples/hierarchical-reference.html">Example: Hierarchical Reference Pattern</a><a class="" href="../examples/symbol-expressiveness-corpus.html">Symbol Expressiveness Corpus Construction Index</a><h2>Governance</h2><a class="section-index" href="../governance/index.html">Governance</a><a class="" href="../governance/versioning.html">Versioning Policy</a><a class="" href="../governance/compatibility-policy.html">Compatibility Policy</a><a class="" href="../governance/deprecation.html">Deprecation Policy</a><a class="" href="../governance/release-process.html">Release Process</a><a class="" href="../governance/terminology.html">Terminology</a><a class="" href="../governance/documentation-authoring-guide.html">Documentation Authoring and Lifecycle Guide</a><h2>Releases</h2><a class="section-index" href="../releases/index.html">Release Notes</a><a class="" href="../releases/0.4.html">AIXEM 0.4 Baseline</a><a class="" href="../releases/0.5.html">AIXEM 0.5.0</a><a class="" href="../releases/0.5.1.html">AIXEM 0.5.1</a><a class="" href="../releases/0.5.2.html">AIXEM 0.5.2</a><a class="" href="../releases/0.5.3.html">AIXEM 0.5.3</a><a class="" href="../releases/0.5.4.html">AIXEM 0.5.4</a><a class="" href="../releases/0.5.5.html">AIXEM 0.5.5</a><a class="" href="../releases/0.5.6.html">AIXEM 0.5.6 Live-Agent Cold-Start Authoring</a><a class="" href="../releases/0.5.7.html">AIXEM 0.5.7 Document Information Architecture and Governance</a><a class="" href="../releases/0.5.8.html">AIXEM 0.5.8 Pre-Live Agent Readiness Hardening</a><a class="" href="../releases/0.5.8.1.html">AIXEM 0.5.8.1 Final Documentation, Specification, and Reference-Chain Closure</a><a class="" href="../releases/0.5.9.html">AIXEM 0.5.9 Integrated Authoring, Library, Pin Semantics, and Placement Hardening</a></nav><main class="content-wrap" id="main"><div class="content"><div class="breadcrumbs"><a href="../index.html">Documentation</a><span>›</span><a href="index.html">Conformance</a><span>›</span><span>Live-Agent Cold-Start Conformance</span></div><header class="doc-head"><div class="eyebrow"><span class="badge normative">normative</span><span class="doc-id">AIXEM-CONF-AGENT-LIVE-001 · v1.0</span></div><h1>Live-Agent Cold-Start Conformance</h1><p class="lead">Defines Agent Evaluation 3 L001-L012, deterministic Tier A protocol conformance, actual Tier B external execution, retention, scoring, and truthful capability claims.</p></header><article class="article"><h1 id="live-agent-cold-start-conformance">Live-Agent Cold-Start Conformance<a class="heading-anchor" href="#live-agent-cold-start-conformance" aria-label="Link to this section">#</a></h1>
+<p>Agent Evaluation 3 tests the operational claim that an external AI agent can start from AIXEM's normal route entry point, edit incomplete authoritative artifacts, use the 0.5.5 closed loop, and leave evidence that can be scored without exposing a completed answer.</p>
+<h2 id="corpus-inventory">Corpus Inventory<a class="heading-anchor" href="#corpus-inventory" aria-label="Link to this section">#</a></h2>
+<table>
+<thead>
+<tr>
+  <th>ID</th>
+  <th>Class</th>
+  <th>Primary capability</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>L001</td>
+  <td>creation</td>
+  <td>novel two-pin passive symbol and binding</td>
+</tr>
+<tr>
+  <td>L002</td>
+  <td>creation</td>
+  <td>six-pin connector symbol and binding</td>
+</tr>
+<tr>
+  <td>L003</td>
+  <td>creation</td>
+  <td>twelve-pin controller symbol and binding</td>
+</tr>
+<tr>
+  <td>L004</td>
+  <td>creation</td>
+  <td>parameterized variant selection and placement</td>
+</tr>
+<tr>
+  <td>L005</td>
+  <td>creation</td>
+  <td>three-terminal semantic net and junction closure</td>
+</tr>
+<tr>
+  <td>L006</td>
+  <td>creation</td>
+  <td>two-sheet project-net composition</td>
+</tr>
+<tr>
+  <td>L007</td>
+  <td>creation</td>
+  <td>same-name local net isolation plus explicit project binding</td>
+</tr>
+<tr>
+  <td>L008</td>
+  <td>repair</td>
+  <td>visible lead/port coincidence</td>
+</tr>
+<tr>
+  <td>L009</td>
+  <td>repair</td>
+  <td>semantic net closure behind plausible geometry</td>
+</tr>
+<tr>
+  <td>L010</td>
+  <td>repair</td>
+  <td>off-grid non-orthogonal route</td>
+</tr>
+<tr>
+  <td>L011</td>
+  <td>repair</td>
+  <td>duplicate project-net member</td>
+</tr>
+<tr>
+  <td>L012</td>
+  <td>repair</td>
+  <td>field/body overlap</td>
+</tr>
+</tbody>
+</table>
+<p>L001-L007 are creation tasks; L008-L012 are repair tasks. Case values, IDs, and net names are deliberately changed from ordinary examples where practical. Each start state excludes <code>render/</code>, <code>evidence/</code>, evaluator data, and completed targets.</p>
+<h2 id="tier-a-deterministic-protocol-conformance">Tier A — Deterministic Protocol Conformance<a class="heading-anchor" href="#tier-a-deterministic-protocol-conformance" aria-label="Link to this section">#</a></h2>
+<p>Tier A validates:</p>
+<ul>
+<li>all task and machine schemas;</li>
+<li>route-bounded scope resolution;</li>
+<li>two independent builds of every stage with equal digests;</li>
+<li>zero target leakage;</li>
+<li>initial diagnostic declarations;</li>
+<li>a real subprocess launch using a non-AI observable fixture;</li>
+<li>observation validation and no-CoT rejection;</li>
+<li>actual final-workspace scoring;</li>
+<li>retained FAIL evidence for the fixture;</li>
+<li>false <code>liveExternalAgentExecuted</code> and false claim eligibility.</li>
+</ul>
+<p>Tier A is a release dependency. Tier A is not evidence that an AI solved the task.</p>
+<h2 id="tier-b-actual-external-agent">Tier B — Actual External Agent<a class="heading-anchor" href="#tier-b-actual-external-agent" aria-label="Link to this section">#</a></h2>
+<p>Tier B requires an explicit descriptor with <code>agentClass: external-ai</code>. Prefer three fresh attempts per case for one named executor profile. All 36 expected attempt IDs must be retained when three attempts are declared. No result may be removed because it failed, timed out, or encountered an executor error.</p>
+<p>A Tier B attempt is scored only after the external process exits or times out. The evaluator never edits the workspace. A passing invariant set without a conformant Authoring Run Record remains <code>FAIL</code>.</p>
+<h2 id="current-release-evidence-state">Current Release Evidence State<a class="heading-anchor" href="#current-release-evidence-state" aria-label="Link to this section">#</a></h2>
+<p><code>validation/agent-evals-3/results/tier-a-results.json</code> is the deterministic protocol result. <code>tier-b-status.json</code> is the live execution gate. In a build environment without a supplied external executor, the correct state is:</p>
+<pre><code class="language-text">Tier A protocol conformance: PASS
+Tier B actual execution: NOT EXECUTED
+Live external-agent claim: NOT AUTHORIZED
+</code></pre>
+<p>This is a truthful environmental blocker, not a protocol failure and not a fabricated pass.</p>
+<h2 id="public-claim-rule">Public Claim Rule<a class="heading-anchor" href="#public-claim-rule" aria-label="Link to this section">#</a></h2>
+<p>After retained Tier B evidence exists, an allowed claim is limited to the exact executor profile, cases, attempts, and numerator/denominator. The release must not claim arbitrary circuit design autonomy or universal LLM compatibility.</p>
+<h2 id="normative-requirements">Normative Requirements<a class="heading-anchor" href="#normative-requirements" aria-label="Link to this section">#</a></h2>
+<p><a id="AIXEM-REQ-AGENT-LIVE-0018"></a></p>
+<h3 id="aixem-req-agent-live-0018-complete-cold-start-corpus">AIXEM-REQ-AGENT-LIVE-0018 <a class="req-backlink" href="requirements.html#AIXEM-REQ-AGENT-LIVE-0018">trace</a> — Complete cold-start corpus<a class="heading-anchor" href="#aixem-req-agent-live-0018-complete-cold-start-corpus" aria-label="Link to this section">#</a></h3>
+<p><strong>MUST.</strong> Agent Evaluation 3 MUST contain exactly L001-L012 with seven creation and five repair tasks, incomplete staged starts, task/evaluator separation, declared initial diagnostics, and no bundled completed target.</p>
+<p><a id="AIXEM-REQ-AGENT-LIVE-0019"></a></p>
+<h3 id="aixem-req-agent-live-0019-tier-a-and-tier-b-are-never-conflated">AIXEM-REQ-AGENT-LIVE-0019 <a class="req-backlink" href="requirements.html#AIXEM-REQ-AGENT-LIVE-0019">trace</a> — Tier A and Tier B are never conflated<a class="heading-anchor" href="#aixem-req-agent-live-0019-tier-a-and-tier-b-are-never-conflated" aria-label="Link to this section">#</a></h3>
+<p><strong>MUST.</strong> Deterministic protocol fixtures MUST remain Tier A only, and Tier B or a public live-agent claim MUST remain false until an actual external-AI executor produces retained execution evidence.</p>
+<h2 id="commands">Commands<a class="heading-anchor" href="#commands" aria-label="Link to this section">#</a></h2>
+<pre><code class="language-bash">python tools/build_agent_evals_3.py
+python tools/run_agent_evals_3.py --tier-a-only
+python tools/run_agent_evals_3.py --external-executor /secure/executor.json --attempts-per-case 3
+</code></pre>
+<h2 id="pre-live-readiness-gate">Pre-Live Readiness Gate<a class="heading-anchor" href="#pre-live-readiness-gate" aria-label="Link to this section">#</a></h2>
+<p>Before any external AI executor is connected, AIXEM runs four authority-representative non-AI subprocess fixtures:</p>
+<table>
+<thead>
+<tr>
+  <th>Fixture</th>
+  <th>Route</th>
+  <th>Authority boundary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>R001</td>
+  <td><code>create-symbol</code></td>
+  <td>symbol, component library, project locks</td>
+</tr>
+<tr>
+  <td>R002</td>
+  <td><code>create-schematic</code></td>
+  <td>semantic source and project locks</td>
+</tr>
+<tr>
+  <td>R003</td>
+  <td><code>route-nets</code></td>
+  <td>layout and project locks</td>
+</tr>
+<tr>
+  <td>R004</td>
+  <td><code>compose-project</code></td>
+  <td>project composition</td>
+</tr>
+</tbody>
+</table>
+<p>Each fixture must complete <code>fresh stage → subprocess → prepare → authority-local edit → check → close → run record → invariant scoring → retained PASS evidence</code>. All fixtures remain <code>agentClass=test-fixture</code>, <code>liveExternalAgentExecuted=false</code>, and <code>claimEligible=false</code>.</p>
+<p>The integrated fault matrix retains missing executable, non-zero exit, timeout with mutation, immutable task tamper, wrong-authority edit, generated-output edit, zero exit with invariant failure, close failure, malformed observation, and observation secret cases. The generated readiness report also audits all L001-L012 invariant bases, staged-reference closure, all eight authoring routes, and platform-only timing/size metrics.</p>
+<p><a id="AIXEM-REQ-AGENT-LIVE-0025"></a></p>
+<h3 id="aixem-req-agent-live-0025-deterministic-pre-live-success-and-fault-closure">AIXEM-REQ-AGENT-LIVE-0025 <a class="req-backlink" href="requirements.html#AIXEM-REQ-AGENT-LIVE-0025">trace</a> — Deterministic pre-live success and fault closure<a class="heading-anchor" href="#aixem-req-agent-live-0025-deterministic-pre-live-success-and-fault-closure" aria-label="Link to this section">#</a></h3>
+<p><strong>MUST.</strong> Before Tier B, non-AI test fixtures MUST prove complete PASS flows for symbol, semantic, layout, and project authorities and retain the declared executor error, failure, timeout, tamper, scope, generated-output, invariant, close, malformed-observation, and secret-leak fault paths without setting any live-agent flag.</p>
+<p><a id="AIXEM-REQ-AGENT-LIVE-0027"></a></p>
+<h3 id="aixem-req-agent-live-0027-reference-pack-and-authoring-route-readiness">AIXEM-REQ-AGENT-LIVE-0027 <a class="req-backlink" href="requirements.html#AIXEM-REQ-AGENT-LIVE-0027">trace</a> — Reference-pack and authoring-route readiness<a class="heading-anchor" href="#aixem-req-agent-live-0027-reference-pack-and-authoring-route-readiness" aria-label="Link to this section">#</a></h3>
+<p><strong>MUST.</strong> Representative readiness fixtures MUST execute <code>prepare</code>, <code>check</code>, and <code>close</code> from the staged reference pack without source-repository <code>PYTHONPATH</code> fallback, and every existing authoring route MUST have exactly one explicit pre-live readiness classification without adding a readiness-only route.</p>
+<hr />
+<p>This file is canonical authored documentation. Generated HTML, agent cards, route indexes, and traceability records are derived from its metadata and content.</p>
+</article><section class="meta-panel"><h2>Document metadata</h2><dl class="meta-list"><dt>Authority</dt><dd>live-agent-conformance</dd><dt>Agent intents</dt><dd>validate-project</dd><dt>Dependencies</dt><dd><span class="related"><a href="../specifications/agent/agent-task-contract.html">Agent Task Contract 1</a><a href="../specifications/agent/cold-start-stage-contract.html">Cold-Start Stage Contract 1</a><a href="../specifications/agent/live-executor-protocol.html">Live Executor Protocol 1</a><a href="../specifications/agent/observation-event-contract.html">Observation Event Contract 1</a><a href="../specifications/agent/evaluation-invariant-contract.html">Evaluation Invariant Contract 1</a><a href="../specifications/agent/live-run-evidence.html">Live Run Evidence 1</a></span></dd><dt>Related documents</dt><dd><span class="related"><a href="agent-authoring.html">Agent Authoring Closed-Loop Conformance</a><a href="../releases/0.5.6.html">AIXEM 0.5.6 Live-Agent Cold-Start Authoring</a></span></dd><dt>Canonical source</dt><dd><code>docs/conformance/live-agent-cold-start.md</code></dd><dt>Source digest</dt><dd><code>sha256:a115e6842902c7ca09212abe2438764246f34b686257c851fe6e8534288cb4d8</code></dd></dl></section><div class="pager"><a href="agent-authoring.html"><small>Previous</small>Agent Authoring Closed-Loop Conformance</a><a href="../examples/index.html"><small>Next</small>Examples</a></div><footer class="footer">AIXEM 0.5.9 · Canonical English documentation · Generated from <code>docs/</code> without a runtime backend.</footer></div></main><aside class="toc" aria-label="On this page"><h2>On this page</h2><a class="level-2" href="#corpus-inventory">Corpus Inventory</a><a class="level-2" href="#tier-a-deterministic-protocol-conformance">Tier A — Deterministic Protocol Conformance</a><a class="level-2" href="#tier-b-actual-external-agent">Tier B — Actual External Agent</a><a class="level-2" href="#current-release-evidence-state">Current Release Evidence State</a><a class="level-2" href="#public-claim-rule">Public Claim Rule</a><a class="level-2" href="#normative-requirements">Normative Requirements</a><a class="level-3" href="#aixem-req-agent-live-0018-complete-cold-start-corpus">AIXEM-REQ-AGENT-LIVE-0018 — Complete cold-start corpus</a><a class="level-3" href="#aixem-req-agent-live-0019-tier-a-and-tier-b-are-never-conflated">AIXEM-REQ-AGENT-LIVE-0019 — Tier A and Tier B are never conflated</a><a class="level-2" href="#commands">Commands</a><a class="level-2" href="#pre-live-readiness-gate">Pre-Live Readiness Gate</a><a class="level-3" href="#aixem-req-agent-live-0025-deterministic-pre-live-success-and-fault-closure">AIXEM-REQ-AGENT-LIVE-0025 — Deterministic pre-live success and fault closure</a><a class="level-3" href="#aixem-req-agent-live-0027-reference-pack-and-authoring-route-readiness">AIXEM-REQ-AGENT-LIVE-0027 — Reference-pack and authoring-route readiness</a></aside></div><dialog class="search-dialog" id="search-dialog" aria-label="Documentation search"><div class="search-box"><header><input id="site-search" type="search" autocomplete="off" placeholder="Search documents, intents, IDs, and requirements"><button type="button" id="search-close">Close</button></header><div class="results" id="search-results"></div></div></dialog><script src="../assets/search-data.js"></script><script src="../assets/site.js"></script></body></html>

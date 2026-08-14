@@ -1,0 +1,102 @@
+{
+  "$id": "https://schemas.aixem.org/reference/aixmap/1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "artifactMap": {
+      "additionalProperties": false,
+      "properties": {
+        "artifacts": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "authority": {
+                "enum": [
+                  "semantic",
+                  "definition",
+                  "presentation",
+                  "layout",
+                  "project-lock",
+                  "reference-index",
+                  "evidence",
+                  "derived"
+                ]
+              },
+              "cards": {
+                "items": {
+                  "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$",
+                  "type": "string"
+                },
+                "type": "array",
+                "uniqueItems": true
+              },
+              "pattern": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "producedBy": {
+                "items": {
+                  "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$",
+                  "type": "string"
+                },
+                "type": "array",
+                "uniqueItems": true
+              },
+              "role": {
+                "type": "string"
+              },
+              "schemas": {
+                "items": {
+                  "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$",
+                  "type": "string"
+                },
+                "type": "array",
+                "uniqueItems": true
+              },
+              "validators": {
+                "items": {
+                  "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$",
+                  "type": "string"
+                },
+                "type": "array",
+                "uniqueItems": true
+              }
+            },
+            "required": [
+              "pattern",
+              "role",
+              "authority",
+              "cards",
+              "validators"
+            ],
+            "type": "object"
+          },
+          "minItems": 1,
+          "type": "array"
+        },
+        "id": {
+          "pattern": "^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "artifacts"
+      ],
+      "type": "object"
+    },
+    "formatVersion": {
+      "const": "1.0"
+    },
+    "schema": {
+      "const": "https://schemas.aixem.org/reference/aixmap/1"
+    }
+  },
+  "required": [
+    "schema",
+    "formatVersion",
+    "artifactMap"
+  ],
+  "title": "AIXEM Artifact Ownership Map 1.0",
+  "type": "object"
+}

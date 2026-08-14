@@ -1,0 +1,15 @@
+{
+  "canonicalHashes": {},
+  "checks": [],
+  "deterministic": true,
+  "diagnosticMatched": true,
+  "error": "unknown interface endpoint @UNKNOWN in net vcc",
+  "expected": "fail",
+  "expectedDiagnostic": "unknown interface endpoint @UNKNOWN",
+  "id": "N002",
+  "observed": "fail",
+  "projectDigest": "sha256:60e39a4a07faa2fc128c52f715cf0f363d0f64612377f7687ed304a0c966a09a",
+  "repeatCount": 0,
+  "status": "pass",
+  "title": "Unknown interface endpoint"
+}

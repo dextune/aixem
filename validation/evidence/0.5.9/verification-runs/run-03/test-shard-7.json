@@ -1,0 +1,57 @@
+{
+  "durationSeconds": 11.989851,
+  "errors": [],
+  "executionMode": "isolated-test-module-processes",
+  "failedModules": 0,
+  "failures": [],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "moduleCount": 2,
+  "modules": [
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_live_executor"
+      ],
+      "durationSeconds": 10.12475,
+      "module": "tests.agent.test_live_executor",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_descriptor_rejects_serialized_credentials (tests.agent.test_live_executor.LiveExecutorProtocolTests.test_descriptor_rejects_serialized_credentials) ... ok\ntest_inherited_secret_value_is_redacted_without_serializing_it (tests.agent.test_live_executor.LiveExecutorProtocolTests.test_inherited_secret_value_is_redacted_without_serializing_it) ... ok\ntest_missing_executable_is_retained_as_executor_error (tests.agent.test_live_executor.LiveExecutorProtocolTests.test_missing_executable_is_retained_as_executor_error) ... ok\ntest_non_ai_protocol_fixture_proves_execution_but_never_a_live_ai_claim (tests.agent.test_live_executor.LiveExecutorProtocolTests.test_non_ai_protocol_fixture_proves_execution_but_never_a_live_ai_claim) ... ok\ntest_observation_limit_is_enforced (tests.agent.test_live_executor.LiveExecutorProtocolTests.test_observation_limit_is_enforced) ... ok\ntest_wall_time_and_output_limits_fail_closed (tests.agent.test_live_executor.LiveExecutorProtocolTests.test_wall_time_and_output_limits_fail_closed) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 8.634s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 6,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.docs.test_authoring_examples"
+      ],
+      "durationSeconds": 1.864627,
+      "module": "tests.docs.test_authoring_examples",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_authoring_golden_examples (tests.docs.test_authoring_examples.AuthoringExampleTests.test_authoring_golden_examples) ... ok\ntest_symbol_design_profile (tests.docs.test_authoring_examples.AuthoringExampleTests.test_symbol_design_profile) ... ok\ntest_visual_repair_fixture (tests.docs.test_authoring_examples.AuthoringExampleTests.test_visual_repair_fixture) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.345s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 3,
+      "valid": true
+    }
+  ],
+  "passedModules": 2,
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/test-run-shard/1",
+  "shard": {
+    "count": 12,
+    "index": 7,
+    "totalDiscoveredModules": 29
+  },
+  "skipped": [],
+  "successful": true,
+  "testsRun": 9
+}

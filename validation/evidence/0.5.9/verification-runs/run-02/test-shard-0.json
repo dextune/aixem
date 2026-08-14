@@ -1,0 +1,74 @@
+{
+  "durationSeconds": 7.353658,
+  "errors": [],
+  "executionMode": "isolated-test-module-processes",
+  "failedModules": 0,
+  "failures": [],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "moduleCount": 3,
+  "modules": [
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_agent_evals_2"
+      ],
+      "durationSeconds": 2.093273,
+      "module": "tests.agent.test_agent_evals_2",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_manifest_contains_exact_a001_a012_inventory (tests.agent.test_agent_evals_2.AgentEvaluation2Tests.test_manifest_contains_exact_a001_a012_inventory) ... ok\ntest_runner_rejects_live_mode_without_separate_cold_start_corpus (tests.agent.test_agent_evals_2.AgentEvaluation2Tests.test_runner_rejects_live_mode_without_separate_cold_start_corpus) ... ok\ntest_tier_a_results_are_complete_and_pass (tests.agent.test_agent_evals_2.AgentEvaluation2Tests.test_tier_a_results_are_complete_and_pass) ... ok\ntest_tier_status_never_conflates_replay_and_live_execution (tests.agent.test_agent_evals_2.AgentEvaluation2Tests.test_tier_status_never_conflates_replay_and_live_execution) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 1.498s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 4,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_run_record"
+      ],
+      "durationSeconds": 1.495146,
+      "module": "tests.agent.test_run_record",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_blocking_diagnostic_prevents_closure (tests.agent.test_run_record.AgentRunRecordTests.test_blocking_diagnostic_prevents_closure) ... ok\ntest_closed_record_is_schema_valid_and_deterministic (tests.agent.test_run_record.AgentRunRecordTests.test_closed_record_is_schema_valid_and_deterministic) ... ok\ntest_stalled_and_oscillating_state_detection (tests.agent.test_run_record.AgentRunRecordTests.test_stalled_and_oscillating_state_detection) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.007s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 3,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.docs.test_hierarchical_authoring_routes"
+      ],
+      "durationSeconds": 3.764741,
+      "module": "tests.docs.test_hierarchical_authoring_routes",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_compose_project_route_reads_authority_before_examples (tests.docs.test_hierarchical_authoring_routes.HierarchicalAuthoringRouteTests.test_compose_project_route_reads_authority_before_examples) ... ok\ntest_document_graph_has_no_hierarchical_linkage_gap (tests.docs.test_hierarchical_authoring_routes.HierarchicalAuthoringRouteTests.test_document_graph_has_no_hierarchical_linkage_gap) ... ok\ntest_hierarchical_routes_are_bounded_and_resolvable (tests.docs.test_hierarchical_authoring_routes.HierarchicalAuthoringRouteTests.test_hierarchical_routes_are_bounded_and_resolvable) ... ok\ntest_project_route_cannot_own_semantic_membership (tests.docs.test_hierarchical_authoring_routes.HierarchicalAuthoringRouteTests.test_project_route_cannot_own_semantic_membership) ... ok\ntest_three_pass_release_evidence (tests.docs.test_hierarchical_authoring_routes.HierarchicalAuthoringRouteTests.test_three_pass_release_evidence) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 2.155s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 5,
+      "valid": true
+    }
+  ],
+  "passedModules": 3,
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/test-run-shard/1",
+  "shard": {
+    "count": 12,
+    "index": 0,
+    "totalDiscoveredModules": 29
+  },
+  "skipped": [],
+  "successful": true,
+  "testsRun": 12
+}

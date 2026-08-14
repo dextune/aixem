@@ -1,0 +1,57 @@
+{
+  "completedPasses": 5,
+  "consecutivePasses": 5,
+  "errors": [],
+  "externalTierBExecuted": false,
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "liveClaimAuthorized": false,
+  "liveExternalAgentExecuted": false,
+  "passes": [
+    {
+      "evidence": "validation/evidence/0.5.9/verification-runs/run-01/summary.json",
+      "moduleCount": 29,
+      "pass": 1,
+      "status": "PASS",
+      "testsRun": 218,
+      "valid": true
+    },
+    {
+      "evidence": "validation/evidence/0.5.9/verification-runs/run-02/summary.json",
+      "moduleCount": 29,
+      "pass": 2,
+      "status": "PASS",
+      "testsRun": 218,
+      "valid": true
+    },
+    {
+      "evidence": "validation/evidence/0.5.9/verification-runs/run-03/summary.json",
+      "moduleCount": 29,
+      "pass": 3,
+      "status": "PASS",
+      "testsRun": 218,
+      "valid": true
+    },
+    {
+      "evidence": "validation/evidence/0.5.9/verification-runs/run-04/summary.json",
+      "moduleCount": 29,
+      "pass": 4,
+      "status": "PASS",
+      "testsRun": 218,
+      "valid": true
+    },
+    {
+      "evidence": "validation/evidence/0.5.9/verification-runs/run-05/summary.json",
+      "moduleCount": 29,
+      "pass": 5,
+      "status": "PASS",
+      "testsRun": 218,
+      "valid": true
+    }
+  ],
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "requiredPasses": 5,
+  "schema": "https://schemas.aixem.org/validation/verification-run-set/1",
+  "status": "PASS",
+  "valid": true
+}

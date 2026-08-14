@@ -1,0 +1,7 @@
+{
+  "case": "N014",
+  "expectedDiagnostic": "layout digest mismatch",
+  "matched": true,
+  "observedError": "sheet[power].layout digest mismatch: expected sha256:0000000000000000000000000000000000000000000000000000000000000000, observed sha256:a6704f186330a60eb0d541b0adf03c6f8ca2530619907084e6b3e176944b47f8",
+  "status": "pass"
+}

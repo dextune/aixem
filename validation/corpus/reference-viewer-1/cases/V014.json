@@ -1,0 +1,14 @@
+{
+  "expected": "pass",
+  "formatVersion": "1.0",
+  "id": "V014",
+  "order": 14,
+  "profiles": [
+    "reference-viewer"
+  ],
+  "purpose": "HTML and script injection remains inert",
+  "schema": "https://schemas.aixem.org/conformance/reference-viewer-case/1",
+  "source": "validation/corpus/reference-viewer-1/fixtures/hostile-authored-text.json",
+  "test": "tests/conformance/test_viewer_security.py::ViewerSecurityConformanceTests.test_v014_hostile_authored_text_is_inert",
+  "title": "Hostile authored text"
+}

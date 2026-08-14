@@ -1,0 +1,80 @@
+{
+  "authority": "derived-navigation-only",
+  "budget": {
+    "max_bytes": 98304,
+    "max_depth": 3,
+    "max_documents": 7
+  },
+  "completion": [
+    "The release-declared clean verification cycles are complete",
+    "All tests and evidence pass",
+    "Manifest verifies",
+    "ZIP paths and membership are safe",
+    "External archive checksum is recorded"
+  ],
+  "documents": [
+    {
+      "bytes": 3851,
+      "digest": "sha256:bf8f5d81afab58a5955ec0e60698c62850b80982dbcd0f92c2fad8f9593b61dd",
+      "document": "AIXEM-GOV-RELEASE-001",
+      "order": 1,
+      "path": "docs/governance/release-process.md",
+      "purpose": "Read Release Process for this task stage.",
+      "required": true,
+      "section": "authoritative-workflow"
+    },
+    {
+      "bytes": 10054,
+      "digest": "sha256:b780f4f2d609f747642b2fe707008af8212ff384b4872a59e7618626f7177207",
+      "document": "AIXEM-CONF-RELEASE-001",
+      "order": 2,
+      "path": "docs/conformance/release-gates.md",
+      "purpose": "Read Release Gates for this task stage.",
+      "required": true,
+      "section": "operational-rules"
+    },
+    {
+      "bytes": 7813,
+      "digest": "sha256:9e06776349ebb0b20e67c9579fc7ce5a124f1e9ea36271b34af230b9b0ad4a55",
+      "document": "AIXEM-SPEC-RELEASE-001",
+      "order": 3,
+      "path": "docs/specifications/documentation/release-integrity.md",
+      "purpose": "Read Documentation Release Integrity 1 for this task stage.",
+      "required": true,
+      "section": "operational-rules"
+    },
+    {
+      "bytes": 5851,
+      "digest": "sha256:cd10c73a993fca9395cbb814c077a3096229a041363ab193923066c579f93a55",
+      "document": "AIXEM-ARCH-SECURITY-001",
+      "order": 4,
+      "path": "docs/architecture/security.md",
+      "purpose": "Read Security and Trust Boundaries for this task stage.",
+      "required": true,
+      "section": "validation-and-evidence"
+    }
+  ],
+  "expectedInputs": [],
+  "expectedOutputs": [
+    "The release-declared clean verification cycles are complete",
+    "All tests and evidence pass",
+    "Manifest verifies",
+    "ZIP paths and membership are safe",
+    "External archive checksum is recorded"
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "id": "publish-release",
+  "intent": "publish-release",
+  "kind": "simple",
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/documentation/task-packet/1",
+  "source": "docs/_meta/routes/publish-release.yaml",
+  "sourceDigest": "sha256:13aee55f5144be90537c2ac65cd8613470e56290d75b10947f7c8316e7a3b36c",
+  "summary": "Publish a release",
+  "validators": [
+    "docs.release_gate",
+    "docs.manifest",
+    "docs.archive_safety"
+  ]
+}

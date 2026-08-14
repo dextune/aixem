@@ -1,0 +1,7 @@
+{
+  "case": "H010",
+  "expectedDiagnostic": "PROJECT_NET_DUPLICATE_OWNERSHIP",
+  "matched": true,
+  "observedError": "PROJECT_NET_DUPLICATE_OWNERSHIP: power:@VCC belongs to both one and two",
+  "status": "pass"
+}

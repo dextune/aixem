@@ -1,0 +1,28 @@
+{
+  "entryRoute": "compose-project",
+  "executionMode": "deterministic-harness-replay",
+  "expectedInitialDiagnostics": [
+    "AIXEM-DIAG-PROJECT-NET-DUPLICATE-MEMBER"
+  ],
+  "id": "A011",
+  "iterations": 1,
+  "liveExternalAgentExecuted": false,
+  "missingExpectedDiagnostics": [],
+  "mutation": "duplicate-project-member",
+  "observedInitialDiagnostics": [
+    "AIXEM-DIAG-PROJECT-NET-DUPLICATE-MEMBER"
+  ],
+  "passConditions": {
+    "checkPassedAfterRepair": true,
+    "closePassed": true,
+    "expectedInitialDiagnosticsObserved": true,
+    "liveClaimFalse": true,
+    "renderDeterministic": true,
+    "zeroGeneratedOutputEdits": true,
+    "zeroScopeViolations": true
+  },
+  "recordDigest": "sha256:8fc68850045a87bfce5bf512321adae04698c07213a0d1f2d00d386648bdf101",
+  "retainedRunRecord": "runs/A011-authoring-run-record.json",
+  "status": "pass",
+  "title": "Duplicate project-net member"
+}

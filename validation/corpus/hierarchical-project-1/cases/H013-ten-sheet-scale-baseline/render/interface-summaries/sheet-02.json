@@ -1,0 +1,22 @@
+{
+  "layoutDigest": "sha256:9b0747ccff47b3febf6786cd8a0533226f0a685760827fe3724b765d0a3b5c22",
+  "ports": [
+    {
+      "direction": "passive",
+      "id": "GND",
+      "localNet": "gnd",
+      "projectNet": "gnd",
+      "role": "power"
+    },
+    {
+      "direction": "input",
+      "id": "VCC",
+      "localNet": "vcc",
+      "projectNet": "vcc",
+      "role": "power"
+    }
+  ],
+  "sheet": "sheet-02",
+  "sourceDigest": "sha256:f66866cbfd1b0bfa7684a2ed12306a8607ebe31db018676b29eb774cb7292b86",
+  "title": "Sheet 02"
+}

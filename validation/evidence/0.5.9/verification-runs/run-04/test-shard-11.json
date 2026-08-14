@@ -1,0 +1,40 @@
+{
+  "durationSeconds": 0.867346,
+  "errors": [],
+  "executionMode": "isolated-test-module-processes",
+  "failedModules": 0,
+  "failures": [],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "moduleCount": 1,
+  "modules": [
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_route_execution_metadata"
+      ],
+      "durationSeconds": 0.86716,
+      "module": "tests.agent.test_route_execution_metadata",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_all_recommended_diagnostics_are_accepted_by_an_existing_route (tests.agent.test_route_execution_metadata.RouteExecutionMetadataTests.test_all_recommended_diagnostics_are_accepted_by_an_existing_route) ... ok\ntest_canonical_authoring_routes_have_scope_and_remediation_metadata (tests.agent.test_route_execution_metadata.RouteExecutionMetadataTests.test_canonical_authoring_routes_have_scope_and_remediation_metadata) ... ok\ntest_task_packets_expose_active_child_scope (tests.agent.test_route_execution_metadata.RouteExecutionMetadataTests.test_task_packets_expose_active_child_scope) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.099s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 3,
+      "valid": true
+    }
+  ],
+  "passedModules": 1,
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/test-run-shard/1",
+  "shard": {
+    "count": 29,
+    "index": 11,
+    "totalDiscoveredModules": 29
+  },
+  "skipped": [],
+  "successful": true,
+  "testsRun": 3
+}

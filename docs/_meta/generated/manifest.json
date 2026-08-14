@@ -1,0 +1,1318 @@
+{
+  "canonicalRoot": "docs/",
+  "fileCount": 218,
+  "files": [
+    {
+      "bytes": 5137,
+      "digest": "sha256:6e20fc583f87b48e525ffb6bbd2651ebdb0f8d7470dc88d04c02543c76c8464f",
+      "path": "docs/agent/architecture.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 10539,
+      "digest": "sha256:5b101ad4c7254defdbad46ad565bd7bb290acfbd6b19ed555bd1320b041e4348",
+      "path": "docs/agent/authoring-orchestration.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 7039,
+      "digest": "sha256:304f5218c633575a26f7a44f92484a99ee9c9d8438401b1f1c71257a422f6072",
+      "path": "docs/agent/failure-policy.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 4834,
+      "digest": "sha256:d8c65f1b18269aff2e4d627f725d498efb66b98d8e99266ed895b9425032d9b1",
+      "path": "docs/agent/index.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5966,
+      "digest": "sha256:148e87c7ba7a22559377985fddc81c1b675755f515504fdaff7c3a85757ded58",
+      "path": "docs/agent/live-agent-cold-start-authoring.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 3487,
+      "digest": "sha256:35f1959817ad7ecb7f8c985b3f061db97950acd212f355cc90c2ad1c19f1228e",
+      "path": "docs/agent/retrieval.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 4429,
+      "digest": "sha256:ee2d6ac7c28527d05876e3b3ad59540e69ae7f30726df779e5449ceeb99fc262",
+      "path": "docs/agent/routing-agent.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 4387,
+      "digest": "sha256:90153fd9a7a95af533a39b82fb83c5b40fedac5b4b1d53186f2a247913f1e3ea",
+      "path": "docs/agent/schematic-authoring.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 4119,
+      "digest": "sha256:d332cb056fd74919a2e500feee94eb49434af51824490cee801115e7fc080489",
+      "path": "docs/agent/symbol-generation.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 6658,
+      "digest": "sha256:d4c5746c955989eb322a6aaddcd153ebe23b33937af2baa8ec09b916fc0684cd",
+      "path": "docs/agent/task-routing.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 6690,
+      "digest": "sha256:2001120b7326c7089e32a5351aedee1069bb42ae3c10a09ed69dbfc18bda1718",
+      "path": "docs/agent/validation-loop.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 6363,
+      "digest": "sha256:7aa4bd2309ac7aa9c4da199bde6c75f8cb30240dcb6102e7a332c7f14266c04e",
+      "path": "docs/agent/visual-qa-loop.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 3764,
+      "digest": "sha256:05554de68216052da0caa0c814d655ec9c5a4f9936434dcd77abd18591d6236b",
+      "path": "docs/architecture/adr/0001-canonical-doc-root.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 3636,
+      "digest": "sha256:23caeb19aeadd51bafdc511c2e8c87f32e44b8733560e35b9866d6e93c3396fb",
+      "path": "docs/architecture/adr/0002-route-first-retrieval.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 4800,
+      "digest": "sha256:62e312ad7a78bc6557752c32598b3789d09460e1f9ffc82a9121ddb9426059d1",
+      "path": "docs/architecture/adr/0003-vendor-neutral-ui.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 3323,
+      "digest": "sha256:0c3a1182530c2655d8e0eb8c62649a7a8ea3512c724331d61ea0a75d76c5f331",
+      "path": "docs/architecture/adr/0004-symbol-style-and-renderer-precedence.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 3542,
+      "digest": "sha256:16656cab13192f649e79aea65ca9f684c9a74744b7d2a9f8c01f18275e72940f",
+      "path": "docs/architecture/adr/index.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5057,
+      "digest": "sha256:e85ba2e5da13ec150687a53dbd6859bcd98df893061b06ca70b56235d3ece7f5",
+      "path": "docs/architecture/artifact-store.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 4999,
+      "digest": "sha256:96458ca22efe86256225c70aa41bbafe6686621a39ad54976eacc9d9632febc9",
+      "path": "docs/architecture/cache.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 4778,
+      "digest": "sha256:2dbfd7849021ea49dbddb805f0fa4f24ed5b7c9449521066fcf8cb77aa79c415",
+      "path": "docs/architecture/index.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5037,
+      "digest": "sha256:5dbb54b0557b8bf16daae50c40194b9209ab5c733fa9a4aad1124a85a406c6a0",
+      "path": "docs/architecture/pipeline.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5851,
+      "digest": "sha256:cd10c73a993fca9395cbb814c077a3096229a041363ab193923066c579f93a55",
+      "path": "docs/architecture/security.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5180,
+      "digest": "sha256:90b30e5400988652cb9b1ef599e0f343a85890d45a7b8eeebbe6ad095a5ea249",
+      "path": "docs/architecture/system-overview.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5688,
+      "digest": "sha256:c1deecfe9db69f7188bc159bf309e88a4024638018cb78f82894e0332b5a4e81",
+      "path": "docs/authoring/guides/author-component-circuit.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5130,
+      "digest": "sha256:6e32373c4c2cad6413a81e3dfdb44c874a3e71dc3d66bd99e6fc950f1a1338ac",
+      "path": "docs/authoring/guides/compose-project.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 7433,
+      "digest": "sha256:6250190c62752db3923873b346772813f70835dcff760811180b07b6c3e7af84",
+      "path": "docs/authoring/guides/create-library-part.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 6156,
+      "digest": "sha256:8f307939b57226c57e11eda7a352fd5c342aba880349064a56a2aa1c47b548ae",
+      "path": "docs/authoring/guides/create-schematic.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 3257,
+      "digest": "sha256:45ef567f846eeba5cf1c8d900e0cd260f4c27563f13b984a34ae60573a532643",
+      "path": "docs/authoring/guides/index.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5675,
+      "digest": "sha256:62033d3d5a9fa8155ffd7c7e1e792a5392ecd4ce0bb2e4fb4b8f41012e7a3b59",
+      "path": "docs/authoring/guides/modify-existing-schematic.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 6675,
+      "digest": "sha256:0baad0fe39a448521e116c3ca8ac43becd0eeadbb4ae34c4868480ff14e1279c",
+      "path": "docs/authoring/guides/place-components.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5177,
+      "digest": "sha256:35e1c18627537154d5b8a1aca2b96d1c18009a5543334643d8491148134e5c26",
+      "path": "docs/authoring/guides/render-review.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5514,
+      "digest": "sha256:c8d52cb81fe14551b5c794e558d9bc15f50ccc7d09affe63c2d211b314b77ed1",
+      "path": "docs/authoring/guides/route-nets.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5611,
+      "digest": "sha256:dfec0ad174e3e5167bff4aca446b6145c28546f9db87469308121fbb83518025",
+      "path": "docs/authoring/guides/select-library-part.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 6407,
+      "digest": "sha256:9378167fb4a9f5f1b1bb509ad61a718dc4e04387e01507220fd73d6afc11d78c",
+      "path": "docs/authoring/guides/validate-project.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 3569,
+      "digest": "sha256:66fa0e07c9887de551e7780e54e1d0f9acae2081db7aa0a26272a10136e441e7",
+      "path": "docs/authoring/index.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 6799,
+      "digest": "sha256:510577e90a3c756b4bbe7349f0108fc736f015ca35a9404a4df7b5613ac78e0a",
+      "path": "docs/concepts/authority-model.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 6348,
+      "digest": "sha256:3515a1837ed3a8b7c3c48cebdfce88a5d6c5046bfb10c7ea2f945af198f05de3",
+      "path": "docs/concepts/component-model.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 7454,
+      "digest": "sha256:bab0e3f3532af045b6737bb2afdeacdd273dfc2b07ab13785ca6d0c7fbe46b2f",
+      "path": "docs/concepts/deterministic-builds.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 4471,
+      "digest": "sha256:01b5e4a88737a6d70755ac1f38be6e897d5d4af73ee1c3ab0f579581272791c3",
+      "path": "docs/concepts/index.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5185,
+      "digest": "sha256:498db8a50b0126c5b6a90f5371b0f4351318beb73f8096b581d05b8f60678bae",
+      "path": "docs/concepts/layout-model.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5145,
+      "digest": "sha256:15f0ed7e2441883cb3509959c8eb9ce73c0a1f277d3e382e0af89730c672b6eb",
+      "path": "docs/concepts/net-model.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 4053,
+      "digest": "sha256:41c1b8d26ea8a8f8be4f330a847c7ed07602a85d85dde0ad48016141116055e7",
+      "path": "docs/concepts/project-net-model.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 6004,
+      "digest": "sha256:12a3ddceba4ee523973c8925384eb6f31ff6314872c90fdc8506cda9524bd610",
+      "path": "docs/concepts/semantic-model.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 4734,
+      "digest": "sha256:56224df6c73389718e020686a0daa8cb542c6b6e7e8521d28d8594107fa4a078",
+      "path": "docs/concepts/symbol-model.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5128,
+      "digest": "sha256:7b83bcd496ae08a5130f9b4109f3aecbda242376a51264fbc9efd6429b95692b",
+      "path": "docs/conformance/agent-authoring.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 3430,
+      "digest": "sha256:db6a6861ff7a9c54cc30ac78542208146b8adfeb5c045f3f23f84810fec42c49",
+      "path": "docs/conformance/agent-diagnostics.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 7833,
+      "digest": "sha256:7883dc9e8eab029c263c59f7ff7fb4a7f86b8af22d3dff294f0979f12b276ccb",
+      "path": "docs/conformance/compatibility-conformance.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 10424,
+      "digest": "sha256:a951754958a0d0f0a91838ba1f395e76f92ca78642b199563ec5631f19747723",
+      "path": "docs/conformance/hierarchical-project.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5043,
+      "digest": "sha256:75498b3ef1a028cdd2cecf9aeff23be7ea71a9a8c479c81893a94467b801c405",
+      "path": "docs/conformance/index.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 9808,
+      "digest": "sha256:a115e6842902c7ca09212abe2438764246f34b686257c851fe6e8534288cb4d8",
+      "path": "docs/conformance/live-agent-cold-start.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5761,
+      "digest": "sha256:3618dec2b490eacb101826d9eb24b2f444629841770fca3b1c4161e889cba673",
+      "path": "docs/conformance/reference-viewer.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 10054,
+      "digest": "sha256:b780f4f2d609f747642b2fe707008af8212ff384b4872a59e7618626f7177207",
+      "path": "docs/conformance/release-gates.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5649,
+      "digest": "sha256:f347418f7be01fbb0c0ba24df9540934b18b200f617ecf81a7783b3f34c1dd13",
+      "path": "docs/conformance/requirements.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 3805,
+      "digest": "sha256:0114dc81d80f847f42430a272a4c72eff136389fc90c138fc7d437f1715d5cd8",
+      "path": "docs/conformance/static-2d-block-profile.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 9573,
+      "digest": "sha256:6bc2c1283a1e1ad254f7826459e780d8a41238d9707f35ec57a0319bed422e13",
+      "path": "docs/conformance/symbol-expressiveness.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 8286,
+      "digest": "sha256:7170e52ab6c0f1b52c19ed85e7ed26752e5b05bfed913befd78b669105d16d5f",
+      "path": "docs/conformance/test-suite.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 10368,
+      "digest": "sha256:79a0b3a82134a3e41bb0796fb7619a17789038f89944e154d3473ac0f9f97d9f",
+      "path": "docs/conformance/validation.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 4204,
+      "digest": "sha256:fc1039eb657f416a47c6d9a86276634fb22e7e7ceb2573f241227b14a901b11c",
+      "path": "docs/examples/grid-controller.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 4403,
+      "digest": "sha256:8cc875ab15b8a1e3e73add38745fa9ec287b971a9db28ce1749bb35bcf8c829c",
+      "path": "docs/examples/hierarchical-reference.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 4374,
+      "digest": "sha256:e19960f67554c4e28ac94c5c29019b4594750e7dec76c187409f6757390f46c2",
+      "path": "docs/examples/index.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 3750,
+      "digest": "sha256:2c387b431f3d5e3886926680aeba34c6242f68bacdd7eb2e5072fde9fa2bcdf4",
+      "path": "docs/examples/passive-divider.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 4991,
+      "digest": "sha256:5631a52e460292845d8b3f46b206e7cfd0edf676c7a7a646c4939f83a17d1dad",
+      "path": "docs/examples/symbol-expressiveness-corpus.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 7121,
+      "digest": "sha256:afdc90e99fec9cc492bc9028c59bb5a4886aa86e92df46bd9103fc335ead988a",
+      "path": "docs/file-formats/aixem.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 9360,
+      "digest": "sha256:b98490ebabd6639be7f46616567655a16386d62d196f846f67a15751a6315d77",
+      "path": "docs/file-formats/aixlayout.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 9692,
+      "digest": "sha256:e2d27d9cbcae0e5f65c2d360fb01e0ab5c942d69742c7ee91af6b1c78bea4046",
+      "path": "docs/file-formats/aixlib.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 4835,
+      "digest": "sha256:33332c60c9c164e817f9983fa726c36302411112f7f645fe36e2fd969ff524e9",
+      "path": "docs/file-formats/aixproj.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 12836,
+      "digest": "sha256:b1206ca1354feb677fa228b8180a620fde01ed8d88492b870b7491af77d411cf",
+      "path": "docs/file-formats/aixsym.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 4280,
+      "digest": "sha256:5cd5b996d29418c7cd5b18400c6ebe1c27ca94a76a29b50dcf6227c201b6a20d",
+      "path": "docs/file-formats/index.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 4984,
+      "digest": "sha256:330ea420f6d99d36dc104b7a9c664db06e6f464d1339c807213533ad1cdf4323",
+      "path": "docs/file-formats/style-profile.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 3564,
+      "digest": "sha256:9132f3bfb390e7729b106800a281ccb0e47af939c58f30573c69f9db81ab89be",
+      "path": "docs/getting-started/first-schematic.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 3571,
+      "digest": "sha256:71f0ac8deefe3978aaedb7630b457a445c4eed68df9d9abba8fa7aeaccceb05a",
+      "path": "docs/getting-started/index.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 3676,
+      "digest": "sha256:c18842f3b861a9d7926a17c5618455e7b34f3e632783df66ca77fabc81ecff9b",
+      "path": "docs/getting-started/introduction.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5807,
+      "digest": "sha256:b71c612223948db14104356c8049638c535379cfe3fd517207d9986805cde409",
+      "path": "docs/getting-started/quick-start.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 4907,
+      "digest": "sha256:1b5c9549074ab153dd692413f331d8b2dfa5071144b306fb31c1fe0e6e4b2c6c",
+      "path": "docs/governance/compatibility-policy.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 4775,
+      "digest": "sha256:d917b53e761c95a467eb3aa25945c546bada32a695059e49f4087a075a1dc56a",
+      "path": "docs/governance/deprecation.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 6882,
+      "digest": "sha256:46c3a45eefbd24487e32f5352a8045ebcb8384e073eca70a9ea2ba59c736049d",
+      "path": "docs/governance/documentation-authoring-guide.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 4352,
+      "digest": "sha256:c64f92c9796085227fa7615dc4d9093796249e88c24ac63f89e4e8e088bd9dc7",
+      "path": "docs/governance/index.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 3851,
+      "digest": "sha256:bf8f5d81afab58a5955ec0e60698c62850b80982dbcd0f92c2fad8f9593b61dd",
+      "path": "docs/governance/release-process.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 4001,
+      "digest": "sha256:2804ee3bf97c828a6c8584b9c52a6c3300c9ddef598ac35520af72ade66b44c3",
+      "path": "docs/governance/terminology.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 6351,
+      "digest": "sha256:db1d9ec1273a264800782c9ffad9d597d81573e62154cfc37e73d64ac07bf9cb",
+      "path": "docs/governance/versioning.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5710,
+      "digest": "sha256:e899ab953ac7c04851544a58f537175eaf02f6000240e0d2568c997d725474d5",
+      "path": "docs/index.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 3752,
+      "digest": "sha256:543e8a2496b5e33ed48a50ca66a3b61277c40d497e61047bc8cc06695f2af84d",
+      "path": "docs/releases/0.4.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 6264,
+      "digest": "sha256:b928e177d6ee2209f951581e35cdbc4e154638b2082e7acdfa31be2b916ce186",
+      "path": "docs/releases/0.5.1.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 3659,
+      "digest": "sha256:39164b9d20711685ef77dff8e806d48c46567962e5cce9ec1170099d4116a2b2",
+      "path": "docs/releases/0.5.2.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 4068,
+      "digest": "sha256:e8970220db862a9d5da10febfc3f9b18ad84b8634ea52c3c3a48867c767c6aea",
+      "path": "docs/releases/0.5.3.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 3605,
+      "digest": "sha256:4ad80fdbc54f8c0f82bf2abdfa0a21d5eb7c87781149b5d6662321f6b6c92789",
+      "path": "docs/releases/0.5.4.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 4094,
+      "digest": "sha256:0795d631bf8e39a87ecd6bd065d6188df12679339d232c1af7572049de8fa28a",
+      "path": "docs/releases/0.5.5.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 3640,
+      "digest": "sha256:dbc16e98b21ea1154b8ed70434fa1b9c226d5bffd37dac9a3196d30a82868c23",
+      "path": "docs/releases/0.5.6.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 4025,
+      "digest": "sha256:3ef29e80dc5d8c6521dbb88ecb07731312704b78da17e44ebdcdedc904c26a2f",
+      "path": "docs/releases/0.5.7.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 4639,
+      "digest": "sha256:669bc98a91f7a0f25a49e5441553ea0bc25d73fe7297a00ae391fe4921e0c225",
+      "path": "docs/releases/0.5.8.1.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 4171,
+      "digest": "sha256:1442c45719cf7bfe446a0e204d0fa43aa288f7b443cdecb835e2793a36e47779",
+      "path": "docs/releases/0.5.8.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5793,
+      "digest": "sha256:d0557b5b897e93b780e0c186c875be8405aae0f1488f743a14cb3a98fdd931a2",
+      "path": "docs/releases/0.5.9.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5313,
+      "digest": "sha256:625b1b18e1141de4527946ec5a2d13e7183eb05c8cbe4cdca6b67176d290680c",
+      "path": "docs/releases/0.5.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5203,
+      "digest": "sha256:14f274ac78b6b70470bbbb076f1ad8272c929cfc839755dcead2dc926672ffb5",
+      "path": "docs/releases/index.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 7378,
+      "digest": "sha256:3f5039c045884821785cb22ff15f53c7d7aead8c406387a4d9c3b2e6839cc0d9",
+      "path": "docs/routing/crossings-and-junctions.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 4283,
+      "digest": "sha256:88e90677d8255e002b3acac959ffdd983e5a3e2e4c26241a0cccb2e44376c647",
+      "path": "docs/routing/index.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 8116,
+      "digest": "sha256:641b43cd46e68c363beb52a32f76f97b90c6aba9bc16fbfc0b99bd892e47942f",
+      "path": "docs/routing/net-routing.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5624,
+      "digest": "sha256:f8119dbdb03253db26820ad4a27ac4e886d8adfc8b5e097d73ea8c760086c703",
+      "path": "docs/routing/orthogonal-routing.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5737,
+      "digest": "sha256:e70eaf988b584d969cd9a54cc2b25dbe914e39a1a86f88ea80ab505089feef14",
+      "path": "docs/routing/route-constraints.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 3281,
+      "digest": "sha256:bc75782a2ed1e7a208c7b866a1865ee5b6e2584879938f07226b1aff557d5ffa",
+      "path": "docs/routing/router-behavior.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 6317,
+      "digest": "sha256:1e6af046668fc955bf129fc22726dbeeecbebe1857c72fecb750acf1f93075c5",
+      "path": "docs/routing/routing-cookbook.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 4886,
+      "digest": "sha256:43eb366da271176c0f68443c478544c5523531e844e9f285e00bc58f3ab01d1e",
+      "path": "docs/schematic/annotations.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 6354,
+      "digest": "sha256:6635f8dba35db7d77e80a45b7fbddccf7055b27c4ddf4e5e328b65a458161817",
+      "path": "docs/schematic/grid-system.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 4244,
+      "digest": "sha256:9daefa3ff018f83b84d54194441b8a019ef18da16a73d18c391b8104b0dd05a3",
+      "path": "docs/schematic/index.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5769,
+      "digest": "sha256:d0967419d1445b9d1f8ead64933152a847c27f93c1906fb09afe42e4a2d7438a",
+      "path": "docs/schematic/junctions.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5879,
+      "digest": "sha256:2fbe4de3040dcbf42a82b80427ce2986dda4e972c69c46cf74c1373489ad5290",
+      "path": "docs/schematic/placement.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5233,
+      "digest": "sha256:4fc20a940086e2bc9ccb79a941bf357cd007a010d3e42ef3863cb6929cc9fb97",
+      "path": "docs/schematic/schematic-authoring-cookbook.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 4122,
+      "digest": "sha256:7de822efbd0a30556d263a203436c81d5e3d0412525bae58107c3e0d3188528c",
+      "path": "docs/schematic/sheet-organization.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 9016,
+      "digest": "sha256:3a6443263d3a107e84537df326f563583bf1ed755f7961ce3e527c23651feac7",
+      "path": "docs/schematic/visual-language.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 6253,
+      "digest": "sha256:ad4aa721dd1ace9227f6f31c40765f210a83d6c0e3ac3012bde4880992f3d9a0",
+      "path": "docs/specifications/agent/agent-task-contract.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 6929,
+      "digest": "sha256:8985e07a4d28a2be483ef780fb79514451f1c66e08215e6423f02e817a96e5bb",
+      "path": "docs/specifications/agent/authoring-change-set-contract.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 7137,
+      "digest": "sha256:3abea1ce8a8fdda167565cea20a838f8c9c6dd353b2b8c190540a33b403b9fff",
+      "path": "docs/specifications/agent/authoring-execution-contract.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5777,
+      "digest": "sha256:c551af5c159afb2746f0755723b3547f1ead10b4d4711fc24254f51654546fe8",
+      "path": "docs/specifications/agent/authoring-run-record.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 7625,
+      "digest": "sha256:daed8acd4bfa4f98e55d4d5a4e2a07036c0cf5d1aedb88d425df4663530d12ff",
+      "path": "docs/specifications/agent/cold-start-stage-contract.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 6305,
+      "digest": "sha256:788649ae71ef484b3ed49ac6b8450f2a2e2fc9eca4c39fc4c8a434b6cfa153a7",
+      "path": "docs/specifications/agent/diagnostic-contract.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 7475,
+      "digest": "sha256:d297270f3885f380f0a0188dd939eda4b8914bae13576763b5fec228b1dabb24",
+      "path": "docs/specifications/agent/evaluation-invariant-contract.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 7987,
+      "digest": "sha256:2e5c47799be736d40925f66132530837bf22bf5f1a9e87301c23ce278924f7a7",
+      "path": "docs/specifications/agent/live-executor-protocol.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 7744,
+      "digest": "sha256:37baf58e67f7fd11738025b2bf6f436c09321961932a1c1d5f6a7b20cf01920b",
+      "path": "docs/specifications/agent/live-run-evidence.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 7659,
+      "digest": "sha256:f114bb23c03092cd5b57cb8d2517d67abb2ec9729380585561850caea6549f4f",
+      "path": "docs/specifications/agent/observation-event-contract.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 8470,
+      "digest": "sha256:6b9d1148964cc14de7f6602cc150df27ddbdd9397a2233b797feb04646d6f0c8",
+      "path": "docs/specifications/agent/retrieval-profile.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 13986,
+      "digest": "sha256:3b69de52984770c79e996584ce3936cbb344f03417a80e037d60c087127e60ad",
+      "path": "docs/specifications/components/library-layout-contract.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 11768,
+      "digest": "sha256:2efaa8b0b08c67f2c088d407b6a799dc462552f7d423a8f5411d5497595735c7",
+      "path": "docs/specifications/components/pin-electrical-semantics-profile.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 6131,
+      "digest": "sha256:a7d5bb475edbeddf2c0bd7c482b076b9ffd2ed37718452a24fc971c1db353d7b",
+      "path": "docs/specifications/core/authority-precedence.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5769,
+      "digest": "sha256:a6768b1695f2522bb07e95783daa9d12ad16798f56f74ac5de403d5affe9c6c9",
+      "path": "docs/specifications/core/coordinate-system.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5696,
+      "digest": "sha256:1063c81430fdcd58a74ebed7b9fabad5b92d47b7b53de4fa373d9c5afcb974b6",
+      "path": "docs/specifications/core/document-model.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 8550,
+      "digest": "sha256:a0455554981cf8fc9038ec9724841473e6f1f4df4e36bbfb92d0a6d759eac3af",
+      "path": "docs/specifications/core/interface-port-contract.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 24972,
+      "digest": "sha256:793b036854ad8bdaf64523b88fba7d4729b40dfe2deb65ea9ea6b9041112e581",
+      "path": "docs/specifications/documentation/document-governance-contract.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 6727,
+      "digest": "sha256:65b494e0639ee8106ae36e4eb4ba98cf5309e36a068d3ade3c1312ec474d07be",
+      "path": "docs/specifications/documentation/metadata-contract.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 7813,
+      "digest": "sha256:9e06776349ebb0b20e67c9579fc7ce5a124f1e9ea36271b34af230b9b0ad4a55",
+      "path": "docs/specifications/documentation/release-integrity.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 7433,
+      "digest": "sha256:b023a61248887b4b8fec91ceba53d143c929a3f85117d83e28a808926d4c40d3",
+      "path": "docs/specifications/index.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 6258,
+      "digest": "sha256:81cef50427ec3e17118b54d96947ece0e9622bf428db34f830808b3c21b6d02e",
+      "path": "docs/specifications/layout/hierarchical-sheet-port-contract.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5791,
+      "digest": "sha256:67ce5b85ff3630f13bcaf3a2e29f623fdfa16a6d1c523fdafb0ab9cea92e0f98",
+      "path": "docs/specifications/layout/layout-contract.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 11956,
+      "digest": "sha256:4e8c08391186c558988a3beaa924d13e8e432c7ac56705730c24033d1a3c5dd6",
+      "path": "docs/specifications/project/project-composition-contract.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 6583,
+      "digest": "sha256:2a22582c37919f54a9157548cc97d67bbc9c167aa18e4a36635e5232fde9f57b",
+      "path": "docs/specifications/project/project-lock-contract.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 11782,
+      "digest": "sha256:8843908e7bb5164f14a9b9877163529b67c2765d29fcd6c8f440eb653b180152",
+      "path": "docs/specifications/renderer/renderer-contract.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5264,
+      "digest": "sha256:163539913a56b1a6cae8a87113c9ad99f197f547a406419fed7cbb84891cc3e9",
+      "path": "docs/specifications/schemas/index.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 8199,
+      "digest": "sha256:9f2d21ad8bfff941d0002bef0f9547fca8bba19b25d6319bdac546d49518a0c8",
+      "path": "docs/specifications/schematic/grid-profile.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 7688,
+      "digest": "sha256:ad17fd56e9a7e681bdeafded504868e730f3f7ca7bc8826ee9b78bb7bde38ed0",
+      "path": "docs/specifications/schematic/visual-profile.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 7575,
+      "digest": "sha256:465d046b7fe0dc521b4548775d1e19a352f8c21bdf6edeb2cecf58e1ce7fdda4",
+      "path": "docs/specifications/symbols/symbol-contract.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 10379,
+      "digest": "sha256:ed7e12ded56ddcc7ff3154ef967a0c780c8a6dbb7d9a4f5dcde732a8500b0e53",
+      "path": "docs/specifications/symbols/symbol-design-profile.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 3348,
+      "digest": "sha256:293de54354eb00f1c863bee33ac5a2cc7fab131ee8dba56b24d58c3e1cea5268",
+      "path": "docs/specifications/viewer/index.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 15764,
+      "digest": "sha256:51f0c496601896459e57adb025523d72eff5b3d0a1468fddcc81957de9b491a9",
+      "path": "docs/specifications/viewer/reference-viewer-contract.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 3220,
+      "digest": "sha256:fc6dc93b0b617ea4365c79dea22606638350f6af3b1d11a077dc690d0653de5e",
+      "path": "docs/specifications/viewer/review-workbench-contract.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 4369,
+      "digest": "sha256:5cca189b7241ba20b12097784c359cd3a6cecedea0e90e26c76a4eebaeacdf0b",
+      "path": "docs/specifications/viewer/viewer-accessibility-profile.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 6507,
+      "digest": "sha256:a0ef396647595aa1dc23b6d01369c4be9c1b6f7df31c366570cac2dd41119e93",
+      "path": "docs/specifications/viewer/viewer-security-and-embedding.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 8371,
+      "digest": "sha256:20ca1ae9d53e67c5ef17157925668de8489d2678c1f0ea5300d83eb748dee7dd",
+      "path": "docs/specifications/viewer/viewer-state-and-interaction.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 8605,
+      "digest": "sha256:4e5e50c7d19a447a377b6d523097ce5248671ec418c0ae58ff6496d7e5037a22",
+      "path": "docs/symbols/aixsym-field-reference.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 8982,
+      "digest": "sha256:0d58f90e1855b79bc9fdf68eaaa856c87f63c6aeae1ad41b304499445d49596d",
+      "path": "docs/symbols/authoring-guide.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 9595,
+      "digest": "sha256:ab00aba15fcf380926bc2c8613c1d1b314bd26c4650a8b2761f69093a4cba5fd",
+      "path": "docs/symbols/component-symbol-binding.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 1894,
+      "digest": "sha256:7c9e11550a898c2906dab9fee73dcef3ef8bd04a0a35cf28fc816c0a89a07f01",
+      "path": "docs/symbols/design-rules.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 7817,
+      "digest": "sha256:e41d8ac15494bb814c1889cd29f17bc23c25a06fd0a3363a6de0ff5009d6ccf3",
+      "path": "docs/symbols/field-layout.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 4227,
+      "digest": "sha256:4c8f1b791ab54061127042d7dccd434ede0dee3aec20eff61c5401c7db2693b5",
+      "path": "docs/symbols/index.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 14145,
+      "digest": "sha256:516e837967e9380d5747d904e36af1f5abcfe608303ba0a42d00f3b2a4a14d85",
+      "path": "docs/symbols/pins-and-ports.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 13568,
+      "digest": "sha256:c096c82fc9459333d90740d9e10d16b2ab911bd511517f110d55d24fe1cee153",
+      "path": "docs/symbols/primitives.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 5587,
+      "digest": "sha256:87fcae6e87461078791885a2c84e1d3b8fc57bad66b6a38130731bd664341ce1",
+      "path": "docs/symbols/symbol-anatomy.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 20640,
+      "digest": "sha256:2aa5c9a0fd8ede00355a470a080b6a19af3f94f9c205a4f29e2559607a192644",
+      "path": "docs/symbols/symbol-authoring-cookbook.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 9449,
+      "digest": "sha256:f4c18b855bce33e4d817f68544adf8d6236a934344031e65f5b06f2dbbf6b3f9",
+      "path": "docs/symbols/symbol-lint.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 9212,
+      "digest": "sha256:bb2a2acc923654db779fdaab913feee8856c0ce801cd17fd3b81aff5377c6fc7",
+      "path": "docs/symbols/variants.md",
+      "role": "canonical-document"
+    },
+    {
+      "bytes": 24962,
+      "digest": "sha256:db0acfd4490a400566d5c0f7d9f111984582694f1f4ecb850a1b22e99545a761",
+      "path": "docs/_meta/aliases.yaml",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 19193,
+      "digest": "sha256:0c83fcc86308bf95977a336542e3b60c98fcb41877ad36d6a85054b6e30c3a82",
+      "path": "docs/_meta/artifact-ownership.yaml",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 5582,
+      "digest": "sha256:2af329b6081ad4cdd4155b028bc08b2892f19d80d1cc4a986ede9e29a7df27a5",
+      "path": "docs/_meta/artifacts.yaml",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 134788,
+      "digest": "sha256:dee6953de88286bd50d2aee7544a0510a692e71122943caa6bb5a33f417a8381",
+      "path": "docs/_meta/conformance.yaml",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 1470,
+      "digest": "sha256:aa8d93ae9fc9747978b6677c2caf3e1fb18f364146d24750d95154a253a8ea00",
+      "path": "docs/_meta/glossary.yaml",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 5846,
+      "digest": "sha256:e2a075d46ced2bffbc4af4051ba2cf099806ddb37c401fd35d8089acff1654b9",
+      "path": "docs/_meta/navigation.yaml",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 1069,
+      "digest": "sha256:ad2e5b83384bcd3b71e7461ba325bd4a85037c430fc949729e44241a8956aabb",
+      "path": "docs/_meta/path-migrations.yaml",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 4523,
+      "digest": "sha256:bc0e422a4db238f48198d18df9aa630ee1214e9e6cd2471979dc50cd556c2bdc",
+      "path": "docs/_meta/repository-document-policy.yaml",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 2429,
+      "digest": "sha256:4d125789be4f665c77b4030cfafce0cf77ffb9900e1157146169079149329233",
+      "path": "docs/_meta/routes/author-component-circuit.yaml",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 1418,
+      "digest": "sha256:49758e33f308358baed5a7b962b3a15410f7dabfac3f01e77c044ddabb22a6ce",
+      "path": "docs/_meta/routes/build-documentation.yaml",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 1521,
+      "digest": "sha256:fd503f4438ff7466c0e0904b8f7b78eb97c8635357a97e82b44a70807053d4c5",
+      "path": "docs/_meta/routes/change-architecture.yaml",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 2893,
+      "digest": "sha256:ec939da9080a69e90b410a50de313ecbc539cadc8ba697655e33d1ee57084e5a",
+      "path": "docs/_meta/routes/compose-project.yaml",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 3292,
+      "digest": "sha256:f10be490237b5bab234838e7ab2cab0b29e805c38394f2f5b7cf5029597eb426",
+      "path": "docs/_meta/routes/create-schematic.yaml",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 4923,
+      "digest": "sha256:ab1d30c8099efb3ceec262a3d732d7e84e7d5630f82f7b2edf74238f5655759b",
+      "path": "docs/_meta/routes/create-symbol.yaml",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 1145,
+      "digest": "sha256:86c6b7afb1138fec6d163642859083101920845cac17192bc58d2b2407cc9f03",
+      "path": "docs/_meta/routes/inspect-artifact.yaml",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 2238,
+      "digest": "sha256:523df31c94e27e675b16e74f89ddc59b8b99b9d2982ec86e71cc22f2d392e8fb",
+      "path": "docs/_meta/routes/inspect-viewer.yaml",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 1197,
+      "digest": "sha256:9f12b112cee7bf0af48ba0cb9f9c63e9b4313ef0770fa5fa0754639fb165d8dc",
+      "path": "docs/_meta/routes/migrate-baseline.yaml",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 1406,
+      "digest": "sha256:13aee55f5144be90537c2ac65cd8613470e56290d75b10947f7c8316e7a3b36c",
+      "path": "docs/_meta/routes/publish-release.yaml",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 3115,
+      "digest": "sha256:8a42d223b9691c1baf3ed6e45196e2ccf387fdcbc9ee2b9808aa650d6bbcca59",
+      "path": "docs/_meta/routes/render-review.yaml",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 2855,
+      "digest": "sha256:1a36395a10aee457ee8d742b8c129f2b15d49239bbedc0b9ef0b0ac4ff4e8cca",
+      "path": "docs/_meta/routes/route-nets.yaml",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 2735,
+      "digest": "sha256:3c295699e7653fe78e990c225e3fbd8ef50915617fff7949d7bc5964cded3839",
+      "path": "docs/_meta/routes/route-project-nets.yaml",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 2841,
+      "digest": "sha256:d3534511d797966db724b508a5428f9d29f364c988383185b0971173161703c9",
+      "path": "docs/_meta/routes/validate-live-agent-authoring.yaml",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 3430,
+      "digest": "sha256:211da1799c844e4f943bf47243b8ec63efba4020f967f210b8bcef70313f2167",
+      "path": "docs/_meta/routes/validate-project.yaml",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 2760,
+      "digest": "sha256:6382749ffbe95591bfd352a8dbd0dda19fa20c24aed778f7dfc69a7a86afd61b",
+      "path": "docs/_meta/routes/validate-symbol-expressiveness.yaml",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 997,
+      "digest": "sha256:771d2657cde01c8cac933a8716414ae27dc18796a6c5eb3dd71653a5f8cfe446",
+      "path": "docs/_meta/schema/artifact-ownership.schema.json",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 561,
+      "digest": "sha256:1f77666b8599e5f5a38765ca6e6a0de68b00488077c6f895077367b310587a60",
+      "path": "docs/_meta/schema/conformance-map.schema.json",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 4912,
+      "digest": "sha256:92dceb6b8dfbdee83d2e46a0d2880b26381e25ec8fceb44fa25ea71924dc2193",
+      "path": "docs/_meta/schema/document-metadata.schema.json",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 967,
+      "digest": "sha256:76a6fc7ffdfb8a1e4d0691e407162a6aee40b7afbbe952ed0c1a1fd976a19239",
+      "path": "docs/_meta/schema/navigation.schema.json",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 1046,
+      "digest": "sha256:d7fdf879f71d6f26988cf6f0779d2ffe6c63590cef720bf746d57c9d888436da",
+      "path": "docs/_meta/schema/path-migrations.schema.json",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 1385,
+      "digest": "sha256:d6e0c1d290821edc80891cc86476575dec52f85aa64b299a1cdc6862e7f91098",
+      "path": "docs/_meta/schema/planning-index.schema.json",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 3511,
+      "digest": "sha256:6eb6afd97ad8bc14e5ad191b93ac04c2287291ee40b365f68784b297aa8381f0",
+      "path": "docs/_meta/schema/repository-document-policy.schema.json",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 1085,
+      "digest": "sha256:ea69b0c561dbb5ed9513487b3954efab63b003e6e49feecf9f3686184bac1c9e",
+      "path": "docs/_meta/schema/task-packet-index.schema.json",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 10685,
+      "digest": "sha256:99a62d0cda626c464e2e54704d647175a04e105961a8a459e4665a338e27b090",
+      "path": "docs/_meta/schema/task-packet.schema.json",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 6670,
+      "digest": "sha256:8924073565856c95f64be36363fc80d7c48ac15257f843bb0626400809e9a734",
+      "path": "docs/_meta/schema/task-route.schema.json",
+      "role": "authored-metadata"
+    },
+    {
+      "bytes": 25982,
+      "digest": "sha256:369c169e1ed9fa23b4b27b7ef6b63a9702676fd73037faeeccb976370fca7d5f",
+      "path": "docs/_meta/generated/artifact-map.json",
+      "role": "artifact-map"
+    },
+    {
+      "bytes": 116638,
+      "digest": "sha256:329fa6d68c7c3bcf328ea4dee421302e17324b0eb8a414aed68e42def59e5f7a",
+      "path": "docs/_meta/generated/dependency-graph.json",
+      "role": "dependency-graph"
+    },
+    {
+      "bytes": 590375,
+      "digest": "sha256:7aac79e1fa3f9035da8b26515656d78611c31fe4b73bc1b0ff98469dcf68f382",
+      "path": "docs/_meta/generated/document-index.json",
+      "role": "document-index"
+    },
+    {
+      "bytes": 7788,
+      "digest": "sha256:d2d8d424d6766efd0b1971e3284a367380d2b590f4c2c741cb31a4472a304a26",
+      "path": "docs/_meta/generated/document-relationship-audit.json",
+      "role": "document-relationship-audit"
+    },
+    {
+      "bytes": 4121968,
+      "digest": "sha256:c26b59dc75006de65e6bb5a8b7c426826985ba6c7460dc022adfb3007fb04431",
+      "path": "docs/_meta/generated/inverted-index.json",
+      "role": "inverted-index"
+    },
+    {
+      "bytes": 2241,
+      "digest": "sha256:db5b94c86c9c60b80f1cb68d4507c26dc85eecea84e54f9af0502ac6e200436b",
+      "path": "docs/_meta/generated/path-migration-index.json",
+      "role": "path-migration-index"
+    },
+    {
+      "bytes": 209454,
+      "digest": "sha256:b896c1442a06dcd2ff7062cb3597af239af86610cf6ab40dd11de4d111e438e2",
+      "path": "docs/_meta/generated/repository-document-inventory.json",
+      "role": "repository-document-inventory"
+    },
+    {
+      "bytes": 307632,
+      "digest": "sha256:7c4880e1ef664268dbfae6643812bc76dccd17ea0651b0f2175ee39fa1b6961e",
+      "path": "docs/_meta/generated/requirement-traceability.json",
+      "role": "requirement-traceability"
+    },
+    {
+      "bytes": 95279,
+      "digest": "sha256:426aef9cfdf8fa0312dd58bb26149ba75ce4037445eb5d5a638bd9d18e5b6dd5",
+      "path": "docs/_meta/generated/route-index.json",
+      "role": "route-index"
+    },
+    {
+      "bytes": 10761,
+      "digest": "sha256:118d7b8ff3020ab6116934c154d2f02c855091e43b9b5096b4566cdc93d23b32",
+      "path": "docs/_meta/generated/task-packets/author-component-circuit.json",
+      "role": "task-packet-author-component-circuit"
+    },
+    {
+      "bytes": 3035,
+      "digest": "sha256:a9d67d77b94ad3e2bcb1e78208ba88ea9c0e4bb659a16fd2b4fd732ce2721a8b",
+      "path": "docs/_meta/generated/task-packets/build-documentation.json",
+      "role": "task-packet-build-documentation"
+    },
+    {
+      "bytes": 3336,
+      "digest": "sha256:25fca7cb037c8f62db7ecc621096cf6648cef563ce341c22eebc35953f3d49b7",
+      "path": "docs/_meta/generated/task-packets/change-architecture.json",
+      "role": "task-packet-change-architecture"
+    },
+    {
+      "bytes": 4725,
+      "digest": "sha256:c6015857009c7b535e7ae8802f7cbe06de8c930e91cdba22ee6178d6eda19495",
+      "path": "docs/_meta/generated/task-packets/compose-project.json",
+      "role": "task-packet-compose-project"
+    },
+    {
+      "bytes": 5425,
+      "digest": "sha256:b41c4a10017c9f5d10fcbd832608836937e9d1c844c5e2bf422b6e7eeca17d49",
+      "path": "docs/_meta/generated/task-packets/create-schematic.json",
+      "role": "task-packet-create-schematic"
+    },
+    {
+      "bytes": 7281,
+      "digest": "sha256:83eeed3b1727037db1f48f63a9bb0a6d39ae1b51667ed0ad72c988b07bd3f762",
+      "path": "docs/_meta/generated/task-packets/create-symbol.json",
+      "role": "task-packet-create-symbol"
+    },
+    {
+      "bytes": 3976,
+      "digest": "sha256:a35c0955a4be861cf071dd2a5b9613e74d1ab82583a280b5f9f06c6c9671920b",
+      "path": "docs/_meta/generated/task-packet-index.json",
+      "role": "task-packet-index"
+    },
+    {
+      "bytes": 2487,
+      "digest": "sha256:256bd46f2d18d52247ef1b90fcd85da861c1a3b2d1a0a8159c61d6f26891c786",
+      "path": "docs/_meta/generated/task-packets/inspect-artifact.json",
+      "role": "task-packet-inspect-artifact"
+    },
+    {
+      "bytes": 4031,
+      "digest": "sha256:99852e506c3f9f588e7b4b238d0288f319b77b18f590980b36def21306857fdf",
+      "path": "docs/_meta/generated/task-packets/inspect-viewer.json",
+      "role": "task-packet-inspect-viewer"
+    },
+    {
+      "bytes": 2576,
+      "digest": "sha256:a4c1b59e9431f1cb54b481806896896b3867465c27a4b7052311eeeed887d21c",
+      "path": "docs/_meta/generated/task-packets/migrate-baseline.json",
+      "role": "task-packet-migrate-baseline"
+    },
+    {
+      "bytes": 2688,
+      "digest": "sha256:94c61bd61d2bcb3b5a22f1ea52bece0b035e8bc6686e7fcd665327c8aa47bba9",
+      "path": "docs/_meta/generated/task-packets/publish-release.json",
+      "role": "task-packet-publish-release"
+    },
+    {
+      "bytes": 5245,
+      "digest": "sha256:ac8a803c861e607d57480fa75616bb92fcbd73b208a3132e8215ab1401a284f8",
+      "path": "docs/_meta/generated/task-packets/render-review.json",
+      "role": "task-packet-render-review"
+    },
+    {
+      "bytes": 4946,
+      "digest": "sha256:9748012a55150e06a7e557e3ab473b32ac8a3b7ae9e0e2fbbe73d1d9e5407ac4",
+      "path": "docs/_meta/generated/task-packets/route-nets.json",
+      "role": "task-packet-route-nets"
+    },
+    {
+      "bytes": 4566,
+      "digest": "sha256:091bd05ca614a48e350a6c217780c8bfc57f61694eb1df41f45d9377fcfa60c8",
+      "path": "docs/_meta/generated/task-packets/route-project-nets.json",
+      "role": "task-packet-route-project-nets"
+    },
+    {
+      "bytes": 4940,
+      "digest": "sha256:d3253d26b69415c47da22d46552d5f22008412f2104f0ce1ee92d5a719a65dd3",
+      "path": "docs/_meta/generated/task-packets/validate-live-agent-authoring.json",
+      "role": "task-packet-validate-live-agent-authoring"
+    },
+    {
+      "bytes": 5583,
+      "digest": "sha256:a9612868714627ae5b20a1bcff7d24a599729cb41c61e63a5c798c0b7f2ff9bf",
+      "path": "docs/_meta/generated/task-packets/validate-project.json",
+      "role": "task-packet-validate-project"
+    },
+    {
+      "bytes": 4730,
+      "digest": "sha256:a4c8805a6a5d6d04b3121eb9a5edb4c950eabf66dcbb74d254af45a95c0bc0b7",
+      "path": "docs/_meta/generated/task-packets/validate-symbol-expressiveness.json",
+      "role": "task-packet-validate-symbol-expressiveness"
+    }
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/documentation/manifest/1"
+}

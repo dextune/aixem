@@ -1,0 +1,152 @@
+{
+  "formatVersion": "2.0",
+  "layout": {
+    "annotations": [],
+    "connections": [
+      {
+        "layer": "connections",
+        "net": "vcc",
+        "paths": [
+          {
+            "from": {
+              "endpoint": "U1.9"
+            },
+            "to": {
+              "endpoint": "@VCC"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "connections",
+        "net": "gnd",
+        "paths": [
+          {
+            "from": {
+              "endpoint": "U1.11"
+            },
+            "to": {
+              "endpoint": "@GND"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "connections",
+        "net": "in",
+        "paths": [
+          {
+            "from": {
+              "endpoint": "U1.1"
+            },
+            "to": {
+              "endpoint": "@IN"
+            }
+          }
+        ]
+      }
+    ],
+    "coordinateSystem": {
+      "angleDirection": "clockwise",
+      "angleUnit": "deg",
+      "grid": 2.5,
+      "unit": "mm",
+      "yAxis": "down"
+    },
+    "designId": "h001-two-sheet-power-control:control",
+    "id": "h001-two-sheet-power-control:control-layout",
+    "layers": [
+      {
+        "defaultVisible": true,
+        "id": "connections",
+        "locked": false,
+        "order": 10,
+        "printable": true,
+        "purpose": "semantic net routes and sheet ports"
+      },
+      {
+        "defaultVisible": true,
+        "id": "symbols",
+        "locked": false,
+        "order": 20,
+        "printable": true,
+        "purpose": "component symbols"
+      },
+      {
+        "defaultVisible": true,
+        "id": "annotation",
+        "locked": false,
+        "order": 30,
+        "printable": true,
+        "purpose": "notes"
+      }
+    ],
+    "metadata": {
+      "connectionAuthority": "semantic-source-only",
+      "routingMode": "orthogonal",
+      "structuralOwnership": "Project -> Sheet -> Layer"
+    },
+    "placements": [
+      {
+        "entity": "U1",
+        "layer": "symbols",
+        "x": 80,
+        "y": 50
+      }
+    ],
+    "purpose": "schematic-layout",
+    "sheet": {
+      "height": 100,
+      "margin": 10,
+      "titleBlock": {
+        "drawing": "h001-two-sheet-power-control:control",
+        "revision": "A",
+        "sheet": "1/1",
+        "title": "Control"
+      },
+      "width": 160
+    },
+    "sheetPorts": [
+      {
+        "label": "VCC",
+        "layer": "connections",
+        "port": "VCC",
+        "side": "top",
+        "x": 75.0,
+        "y": 10.0
+      },
+      {
+        "label": "GND",
+        "layer": "connections",
+        "port": "GND",
+        "side": "bottom",
+        "x": 75.0,
+        "y": 90.0
+      },
+      {
+        "label": "IN",
+        "layer": "connections",
+        "port": "IN",
+        "side": "left",
+        "x": 10.0,
+        "y": 42.5
+      }
+    ],
+    "styles": {
+      "note": {
+        "fill": "#1b4e8c",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.5,
+        "stroke": "none"
+      },
+      "signal": {
+        "fill": "none",
+        "stroke": "#24864a",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.65
+      }
+    }
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/aixlayout/2"
+}

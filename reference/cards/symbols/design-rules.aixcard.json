@@ -1,0 +1,55 @@
+{
+  "card": {
+    "aliases": [
+      "symbol design rules",
+      "symbol grid rules",
+      "pin lead rules"
+    ],
+    "appliesTo": [
+      "symbol-design-guidance"
+    ],
+    "domain": "symbols",
+    "estimatedReadBytes": 1894,
+    "id": "AIXEM-SYMBOL-DESIGN-RULES-001",
+    "inputs": [],
+    "keywords": [
+      "Symbol Design Rules Entry Point",
+      "create-symbol",
+      "pin lead rules",
+      "symbol design rules",
+      "symbol grid rules",
+      "validate-project"
+    ],
+    "kind": "guide",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/symbols/design-rules.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:7c9e11550a898c2906dab9fee73dcef3ef8bd04a0a35cf28fc816c0a89a07f01"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 900,
+    "readNext": [
+      "AIXEM-SPEC-SYMBOL-DESIGN-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-SYMBOL-DESIGN-RULES-001.read",
+        "level": "should",
+        "text": "Provides a short route-friendly entry point to the normative symbol design profile and its mechanical checks."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SYMBOL-DESIGN-RULES-001",
+        "path": "docs/symbols/design-rules.md"
+      }
+    ],
+    "summary": "Provides a short route-friendly entry point to the normative symbol design profile and its mechanical checks.",
+    "title": "Symbol Design Rules Entry Point"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

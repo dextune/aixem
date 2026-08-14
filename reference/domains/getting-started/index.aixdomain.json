@@ -1,0 +1,39 @@
+{
+  "domain": {
+    "cards": [
+      {
+        "id": "AIXEM-START-FIRST-001",
+        "path": "reference/cards/getting-started/first-schematic.aixcard.json",
+        "summary": "Shows the minimum authoring sequence for semantic source, library binding, symbol assets, layout, project lock, render, and validation.",
+        "title": "Create Your First Schematic"
+      },
+      {
+        "id": "AIXEM-START-INDEX-001",
+        "path": "reference/cards/getting-started/overview.aixcard.json",
+        "summary": "A short learning path from the AIXEM model to a rendered and validated schematic.",
+        "title": "Getting Started"
+      },
+      {
+        "id": "AIXEM-START-INTRO-001",
+        "path": "reference/cards/getting-started/introduction.aixcard.json",
+        "summary": "Introduces AIXEM as a vendor-neutral, machine-authorable schematic system with explicit authority boundaries.",
+        "title": "Introduction to AIXEM"
+      },
+      {
+        "id": "AIXEM-START-QUICK-001",
+        "path": "reference/cards/getting-started/quick-start.aixcard.json",
+        "summary": "Builds the bundled grid-controller example, opens the Reference Viewer as the primary inspection surface, and verifies Workbench and renderer evidence.",
+        "title": "Quick Start"
+      }
+    ],
+    "description": "Generated canonical-document cards for the getting-started domain.",
+    "id": "getting-started",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12"
+    },
+    "title": "Getting Started"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixdomain/1"
+}

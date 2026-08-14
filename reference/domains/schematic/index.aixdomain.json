@@ -1,0 +1,63 @@
+{
+  "domain": {
+    "cards": [
+      {
+        "id": "AIXEM-SCHEM-ANNOTATION-001",
+        "path": "reference/cards/schematic/annotations.aixcard.json",
+        "summary": "Defines reference, value, pin name, pin number, net label, note, and test-point presentation.",
+        "title": "Annotations and Fields"
+      },
+      {
+        "id": "AIXEM-SCHEM-COOKBOOK-001",
+        "path": "reference/cards/schematic/schematic-authoring-cookbook.aixcard.json",
+        "summary": "Shows how to author semantic entities and nets separately from placements and route geometry using complete executable examples.",
+        "title": "Schematic Authoring Cookbook"
+      },
+      {
+        "id": "AIXEM-SCHEM-GRID-001",
+        "path": "reference/cards/schematic/grid-system.aixcard.json",
+        "summary": "Defines the default 2.5 mm snap grid, 10 mm major grid, coordinate precision, and permitted exceptions.",
+        "title": "Grid and Snap System"
+      },
+      {
+        "id": "AIXEM-SCHEM-INDEX-001",
+        "path": "reference/cards/schematic/overview.aixcard.json",
+        "summary": "A task-oriented guide to grid-first placement, explicit connectivity cues, annotation, and sheet organization.",
+        "title": "Schematic Authoring"
+      },
+      {
+        "id": "AIXEM-SCHEM-JUNCTION-001",
+        "path": "reference/cards/schematic/junctions.aixcard.json",
+        "summary": "Defines explicit junction dots, non-connecting crossings, endpoint joins, and no-connect marks.",
+        "title": "Junctions and Connectivity Cues"
+      },
+      {
+        "id": "AIXEM-SCHEM-PLACEMENT-001",
+        "path": "reference/cards/schematic/placement.aixcard.json",
+        "summary": "Defines grid-aligned placement, orientation, spacing, flow, grouping, and collision avoidance.",
+        "title": "Component Placement"
+      },
+      {
+        "id": "AIXEM-SCHEM-SHEET-001",
+        "path": "reference/cards/schematic/sheet-organization.aixcard.json",
+        "summary": "Organizes blocks, hierarchy, ports, title information, and cross-sheet references for scalable schematics.",
+        "title": "Sheet Organization"
+      },
+      {
+        "id": "AIXEM-SCHEM-VISUAL-001",
+        "path": "reference/cards/schematic/visual-language.aixcard.json",
+        "summary": "Defines the compact, high-contrast, original AIXEM schematic drawing language independently from Viewer application chrome.",
+        "title": "Grid-First Visual Language"
+      }
+    ],
+    "description": "Generated canonical-document cards for the schematic domain.",
+    "id": "schematic",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12"
+    },
+    "title": "Schematic"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixdomain/1"
+}

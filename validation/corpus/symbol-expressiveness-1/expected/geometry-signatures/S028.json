@@ -1,0 +1,82 @@
+{
+  "bounds": {
+    "height": 80,
+    "width": 70,
+    "x": -35,
+    "y": -40
+  },
+  "capabilities": [
+    "geometry.circle",
+    "geometry.line",
+    "geometry.path",
+    "port.mapping",
+    "text.field"
+  ],
+  "case": "S028",
+  "defaultVariant": null,
+  "definitions": [],
+  "fieldAnchors": [
+    {
+      "field": "reference",
+      "id": "field-reference",
+      "x": 0,
+      "y": -35
+    },
+    {
+      "field": "value",
+      "id": "field-value",
+      "x": 0,
+      "y": 35
+    }
+  ],
+  "parameters": {},
+  "ports": [
+    {
+      "id": "A",
+      "orientation": 90,
+      "visible": true,
+      "x": 0.0,
+      "y": -27.5
+    },
+    {
+      "id": "G",
+      "orientation": 180,
+      "visible": true,
+      "x": -27.5,
+      "y": 0.0
+    },
+    {
+      "id": "K",
+      "orientation": 270,
+      "visible": true,
+      "x": 0.0,
+      "y": 27.5
+    },
+    {
+      "id": "H1",
+      "orientation": 270,
+      "visible": true,
+      "x": -10.0,
+      "y": 27.5
+    },
+    {
+      "id": "H2",
+      "orientation": 270,
+      "visible": true,
+      "x": 10.0,
+      "y": 27.5
+    }
+  ],
+  "primitiveCounts": {
+    "circle": 1,
+    "line": 10,
+    "path": 2,
+    "text": 2
+  },
+  "requiredFeatures": [
+    "compound-path",
+    "cubic-bezier"
+  ],
+  "symbol": "corpus:s028-vacuum-tube",
+  "variants": []
+}

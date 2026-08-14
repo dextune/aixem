@@ -1,0 +1,15 @@
+{
+  "canonicalHashes": {},
+  "checks": [],
+  "deterministic": true,
+  "diagnosticMatched": true,
+  "error": "PROJECT_REFERENCE_DIGEST_CONFLICT: sheet[control].source reuses circuits/power.aixem with digest sha256:1111111111111111111111111111111111111111111111111111111111111111 but sheet[power].source declared sha256:f295c02b5a77db52e290715ec1295130eb10ed12c627094088dd803eb9c2c8d2",
+  "expected": "fail",
+  "expectedDiagnostic": "PROJECT_REFERENCE_DIGEST_CONFLICT",
+  "id": "N015",
+  "observed": "fail",
+  "projectDigest": "sha256:52bb91a6f76a69ad3454c1009cacac071b4945846c085d41c043e752d3df9e13",
+  "repeatCount": 0,
+  "status": "pass",
+  "title": "Duplicate path contradictory digest"
+}

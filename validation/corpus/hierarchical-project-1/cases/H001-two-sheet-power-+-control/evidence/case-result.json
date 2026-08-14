@@ -1,0 +1,82 @@
+{
+  "canonicalHashes": {
+    "project-composite.svg": "sha256:dde1dbe458e1975b7468e291613d2fe3c3fee90535de5fd90f0c535e5e1e0d9d",
+    "project-overview.svg": "sha256:80f59f7d6102b0161d013098ac20f654b724a8eb9fd04b6dab533b5f24a755c8",
+    "resolved-project-scene.json": "sha256:9b54a68bdff50a8b2d592232d3daad8c3f59c55f87bfad02115da5e744848277",
+    "sheets/control.resolved-scene.json": "sha256:72f2ee05ec7fe41e8c39f0e6f1e222dd8a00f44472cce3e0555855a6ad20227f",
+    "sheets/control.svg": "sha256:a0918633d1e0ea7e627832390ec75e8a7e747b40896ab06c652ec243c20d0ad4",
+    "sheets/power.resolved-scene.json": "sha256:894b17e698a6a25857b246459251d411b6bd21bb3cc8a37ac6638ebb1a8b6fa3",
+    "sheets/power.svg": "sha256:9798b23e865fe19de2fc4486a1ea0a99301e5d9be0850f6630c1abd0f0c087ff",
+    "viewer-model.json": "sha256:71531acf57504cf2d3376655d1d123fdc49a42da0c1ac002b83dc930e78de57f",
+    "viewer.html": "sha256:7fe4e242c87701594ff09bb7bab2c01c5d4116b88f287029baade5e9e0aeae2a",
+    "workbench.html": "sha256:609677871422fac9fdbe1ddc37ac646313aa5575e2af96d4af0a47c799218ba6"
+  },
+  "checks": [
+    {
+      "id": "PROJECT_SHEET_COUNT",
+      "observation": 2,
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_GRAPH_PRESENT",
+      "observation": [
+        "identities",
+        "projectNets",
+        "unconnectedPorts"
+      ],
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_AUTHORITY",
+      "observation": {
+        "connectivityFromGeometry": false,
+        "layersAreSheets": false,
+        "localPresentation": "aixlayout/2",
+        "localSemantics": ".aixem",
+        "projectComposition": "aixproj/2"
+      },
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_LAYER_AUTHORITY",
+      "observation": {
+        "connectivityFromGeometry": false,
+        "layersAreSheets": false,
+        "localPresentation": "aixlayout/2",
+        "localSemantics": ".aixem",
+        "projectComposition": "aixproj/2"
+      },
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_ROUTES_ORTHOGONAL",
+      "observation": "overview+composite",
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_WORKBENCH_DATA_DRIVEN",
+      "observation": "resolved hierarchy",
+      "status": "pass"
+    },
+    {
+      "id": "H001_NET_CLOSURE",
+      "observation": [
+        "control_signal",
+        "gnd",
+        "vcc_5v"
+      ],
+      "status": "pass"
+    }
+  ],
+  "deterministic": true,
+  "diagnosticMatched": true,
+  "error": null,
+  "expected": "pass",
+  "expectedDiagnostic": null,
+  "id": "H001",
+  "observed": "pass",
+  "projectDigest": "sha256:0ea61e6769c2d05c0844a99cbb9878ae6b55b6f0fc8085ef394c8718e7752813",
+  "repeatCount": 3,
+  "status": "pass",
+  "title": "Two sheet power + control"
+}

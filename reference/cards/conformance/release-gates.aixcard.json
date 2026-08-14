@@ -1,0 +1,67 @@
+{
+  "card": {
+    "aliases": [
+      "release gates",
+      "release validation",
+      "ship criteria"
+    ],
+    "appliesTo": [
+      "release-gate"
+    ],
+    "domain": "conformance",
+    "estimatedReadBytes": 10054,
+    "id": "AIXEM-CONF-RELEASE-001",
+    "inputs": [],
+    "keywords": [
+      "Release Gates",
+      "compose-project",
+      "publish-release",
+      "release gates",
+      "release validation",
+      "ship criteria",
+      "validate-project"
+    ],
+    "kind": "policy",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/conformance/release-gates.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:b780f4f2d609f747642b2fe707008af8212ff384b4872a59e7618626f7177207"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SPEC-RELEASE-001",
+      "AIXEM-CONF-TESTS-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-CONF-0040",
+        "level": "must",
+        "text": "**MUST.** Every published release MUST record the release-declared number of completed independent refinement and validation passes, never fewer than three."
+      },
+      {
+        "id": "AIXEM-REQ-CONF-0041",
+        "level": "must",
+        "text": "**MUST.** Every release-critical automated check MUST pass before the release manifest is finalized."
+      },
+      {
+        "id": "AIXEM-REQ-CONF-0042",
+        "level": "must",
+        "text": "**MUST.** The distributed ZIP archive MUST pass integrity, traversal-safety, and checksum verification."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-CONF-RELEASE-001",
+        "path": "docs/conformance/release-gates.md"
+      }
+    ],
+    "summary": "Defines the final conditions for documentation, examples, conformance evidence, generated freshness, manifests, and archive integrity.",
+    "title": "Release Gates"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

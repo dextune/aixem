@@ -1,0 +1,56 @@
+{
+  "card": {
+    "aliases": [
+      "Review Workbench",
+      "workbench.html",
+      "engineering review surface"
+    ],
+    "appliesTo": [
+      "review-workbench-contract"
+    ],
+    "domain": "specifications",
+    "estimatedReadBytes": 3220,
+    "id": "AIXEM-SPEC-WORKBENCH-001",
+    "inputs": [],
+    "keywords": [
+      "Review Workbench",
+      "Review Workbench Contract 1",
+      "engineering review surface",
+      "inspect-viewer",
+      "render-review",
+      "validate-project",
+      "workbench.html"
+    ],
+    "kind": "specification",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/specifications/viewer/review-workbench-contract.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:fc6dc93b0b617ea4365c79dea22606638350f6af3b1d11a077dc690d0653de5e"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SPEC-VIEWER-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-SPEC-WORKBENCH-001.read",
+        "level": "should",
+        "text": "Defines the read-only engineering-review profile that extends Reference Viewer 1 with deterministic diagnostics, provenance, and evidence regions."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SPEC-WORKBENCH-001",
+        "path": "docs/specifications/viewer/review-workbench-contract.md"
+      }
+    ],
+    "summary": "Defines the read-only engineering-review profile that extends Reference Viewer 1 with deterministic diagnostics, provenance, and evidence regions.",
+    "title": "Review Workbench Contract 1"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

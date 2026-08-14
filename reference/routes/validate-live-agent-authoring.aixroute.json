@@ -1,0 +1,134 @@
+{
+  "formatVersion": "1.0",
+  "route": {
+    "aliases": [
+      "validate live agent authoring",
+      "run agent evaluation 3",
+      "cold-start agent conformance",
+      "maintain live executor harness"
+    ],
+    "budget": {
+      "fallbackDocuments": 2,
+      "maxBytes": 98304,
+      "maxDepth": 3,
+      "maxDocuments": 7
+    },
+    "conditionalReads": [],
+    "id": "validate-live-agent-authoring",
+    "intents": [
+      "validate-live-agent-authoring"
+    ],
+    "metadata": {
+      "exactRoutePreferred": true,
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "kind": "simple",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "source": "docs/_meta/routes/validate-live-agent-authoring.yaml"
+    },
+    "outputs": [
+      "stage-manifest.json",
+      "executor record and observation-log.jsonl",
+      "evaluation-result.json",
+      "live-run-evidence.json",
+      "attempt-set.json or truthful not-executed status"
+    ],
+    "steps": [
+      {
+        "exitCheck": "Task resolves without authority widening",
+        "id": "step-1",
+        "order": 1,
+        "produces": [],
+        "purpose": "Resolve the non-authoritative task against canonical route-owned scope.",
+        "read": [
+          "reference/cards/specifications/agent/agent-task-contract.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Stage is deterministic, fresh, safe, and target/evaluator isolated",
+        "id": "step-2",
+        "order": 2,
+        "produces": [],
+        "purpose": "Materialize and validate a fresh target-isolated stage.",
+        "read": [
+          "reference/cards/specifications/agent/cold-start-stage-contract.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Executor and observation evidence validate",
+        "id": "step-3",
+        "order": 3,
+        "produces": [],
+        "purpose": "Launch a bounded declared subprocess and retain execution proof.",
+        "read": [
+          "reference/cards/specifications/agent/live-executor-protocol.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Actual final workspace is scored without evaluator mutation",
+        "id": "step-4",
+        "order": 4,
+        "produces": [],
+        "purpose": "Validate observable actions without private reasoning claims.",
+        "read": [
+          "reference/cards/specifications/agent/observation-event-contract.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Every attempted terminal result is retained in the exact denominator",
+        "id": "step-5",
+        "order": 5,
+        "produces": [],
+        "purpose": "Score the actual final workspace without evaluator repair.",
+        "read": [
+          "reference/cards/specifications/agent/evaluation-invariant-contract.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Live claim state matches actual external process evidence",
+        "id": "step-6",
+        "order": 6,
+        "produces": [],
+        "purpose": "Retain terminal evidence and enforce exact denominator integrity.",
+        "read": [
+          "reference/cards/specifications/agent/live-run-evidence.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Live claim state matches actual external process evidence",
+        "id": "step-7",
+        "order": 7,
+        "produces": [],
+        "purpose": "Separate Tier A protocol proof from actual Tier B execution claims.",
+        "read": [
+          "reference/cards/conformance/live-agent-cold-start.aixcard.json"
+        ],
+        "required": true
+      }
+    ],
+    "stopConditions": [
+      "Task resolves without authority widening",
+      "Stage is deterministic, fresh, safe, and target/evaluator isolated",
+      "Executor and observation evidence validate",
+      "Actual final workspace is scored without evaluator mutation",
+      "Every attempted terminal result is retained in the exact denominator",
+      "Live claim state matches actual external process evidence"
+    ],
+    "title": "Build, execute, score, retain, and review provider-neutral cold-start live-agent conformance evidence",
+    "validators": [
+      "agent.task_contract",
+      "agent.cold_start_stage",
+      "agent.live_executor",
+      "agent.observation",
+      "agent.evaluation_invariants",
+      "agent.live_run",
+      "agent.evaluation_3"
+    ]
+  },
+  "schema": "https://schemas.aixem.org/reference/aixroute/1"
+}

@@ -1,0 +1,349 @@
+{
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/component-graphics/aixsym/1",
+  "symbol": {
+    "anchors": [
+      {
+        "id": "origin",
+        "kind": "insertion",
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "bounds": {
+      "height": 63.5,
+      "width": 68,
+      "x": -34.0,
+      "y": -31.75
+    },
+    "coordinateSystem": {
+      "angleDirection": "clockwise",
+      "angleUnit": "deg",
+      "grid": 2.5,
+      "unit": "mm",
+      "yAxis": "down"
+    },
+    "definitions": {},
+    "description": "Original AIXEM grid schematic symbol for FIELD I/O.",
+    "graphics": [
+      {
+        "height": 37.5,
+        "id": "body",
+        "layer": "body",
+        "style": "body-fill",
+        "type": "rect",
+        "width": 34,
+        "x": -17.0,
+        "y": -18.75
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "id": "title",
+        "layer": "detail",
+        "style": "field",
+        "text": "FIELD I/O",
+        "type": "text",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "field": "reference",
+        "id": "reference",
+        "layer": "fields",
+        "style": "field",
+        "type": "text",
+        "x": 0,
+        "y": -24.75
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "field": "value",
+        "id": "value",
+        "layer": "fields",
+        "style": "value",
+        "type": "text",
+        "x": 0,
+        "y": 25.75
+      },
+      {
+        "id": "pin-1",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": -22.0,
+        "x2": -17.0,
+        "y1": -11.25,
+        "y2": -11.25
+      },
+      {
+        "id": "pin-2",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": -22.0,
+        "x2": -17.0,
+        "y1": -3.75,
+        "y2": -3.75
+      },
+      {
+        "id": "pin-3",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": -22.0,
+        "x2": -17.0,
+        "y1": 3.75,
+        "y2": 3.75
+      },
+      {
+        "id": "pin-4",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": -22.0,
+        "x2": -17.0,
+        "y1": 11.25,
+        "y2": 11.25
+      },
+      {
+        "id": "pin-5",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": 17.0,
+        "x2": 22.0,
+        "y1": -11.25,
+        "y2": -11.25
+      },
+      {
+        "id": "pin-6",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": 17.0,
+        "x2": 22.0,
+        "y1": -3.75,
+        "y2": -3.75
+      },
+      {
+        "id": "pin-7",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": 17.0,
+        "x2": 22.0,
+        "y1": 3.75,
+        "y2": 3.75
+      },
+      {
+        "id": "pin-8",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": 17.0,
+        "x2": 22.0,
+        "y1": 11.25,
+        "y2": 11.25
+      }
+    ],
+    "id": "demo.electronics:io-header-8",
+    "layers": [
+      {
+        "defaultVisible": true,
+        "id": "body",
+        "locked": true,
+        "order": 10,
+        "printable": true,
+        "purpose": "symbol body and pins"
+      },
+      {
+        "defaultVisible": true,
+        "id": "detail",
+        "locked": true,
+        "order": 20,
+        "printable": true,
+        "purpose": "pin names and body title"
+      },
+      {
+        "defaultVisible": true,
+        "id": "fields",
+        "locked": false,
+        "order": 30,
+        "printable": true,
+        "purpose": "reference and value fields"
+      }
+    ],
+    "paintServers": {},
+    "parameters": {},
+    "ports": [
+      {
+        "id": "1",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "OUT1",
+        "number": "1",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.5,
+        "x": -22.0,
+        "y": -11.25
+      },
+      {
+        "id": "2",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "OUT2",
+        "number": "2",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.5,
+        "x": -22.0,
+        "y": -3.75
+      },
+      {
+        "id": "3",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "RES1",
+        "number": "3",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.5,
+        "x": -22.0,
+        "y": 3.75
+      },
+      {
+        "id": "4",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "RES2",
+        "number": "4",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.5,
+        "x": -22.0,
+        "y": 11.25
+      },
+      {
+        "id": "5",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "IN1",
+        "number": "5",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.5,
+        "x": 22.0,
+        "y": -11.25
+      },
+      {
+        "id": "6",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "IN2",
+        "number": "6",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.5,
+        "x": 22.0,
+        "y": -3.75
+      },
+      {
+        "id": "7",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "3V3",
+        "number": "7",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.5,
+        "x": 22.0,
+        "y": 3.75
+      },
+      {
+        "id": "8",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "GND",
+        "number": "8",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.5,
+        "x": 22.0,
+        "y": 11.25
+      }
+    ],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-10",
+      "license": "CC0-1.0",
+      "notes": "Original geometry; no vendor symbol library copied.",
+      "origin": "AIXEM Schematic Reference Platform 0.4"
+    },
+    "purpose": "schematic-symbol",
+    "requiredFeatures": [],
+    "revision": "1.0.0",
+    "styles": {
+      "accent": {
+        "fill": "none",
+        "stroke": "#1b4e8c",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.7
+      },
+      "body": {
+        "fill": "#ffffff",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.8
+      },
+      "body-fill": {
+        "fill": "#fffef8",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.8
+      },
+      "field": {
+        "fill": "#0c7772",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 4.2,
+        "fontWeight": 600,
+        "stroke": "none"
+      },
+      "line": {
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.8
+      },
+      "solid": {
+        "fill": "#0c7772",
+        "stroke": "#0c7772",
+        "strokeWidth": 0.5
+      },
+      "thin": {
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.55
+      },
+      "value": {
+        "fill": "#1b4e8c",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.5,
+        "fontWeight": 400,
+        "stroke": "none"
+      }
+    },
+    "title": "FIELD I/O",
+    "variants": []
+  }
+}

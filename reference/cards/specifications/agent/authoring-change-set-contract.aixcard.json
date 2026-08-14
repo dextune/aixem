@@ -1,0 +1,71 @@
+{
+  "card": {
+    "aliases": [
+      "authoring change set",
+      "write scope",
+      "scope evidence"
+    ],
+    "appliesTo": [
+      "agent-change-set-contract"
+    ],
+    "domain": "specifications",
+    "estimatedReadBytes": 6929,
+    "id": "AIXEM-SPEC-AGENT-CHANGESET-001",
+    "inputs": [],
+    "keywords": [
+      "Authoring Change-Set Contract 1",
+      "author-component-circuit",
+      "authoring change set",
+      "scope evidence",
+      "validate-project",
+      "write scope"
+    ],
+    "kind": "contract",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/specifications/agent/authoring-change-set-contract.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:8985e07a4d28a2be483ef780fb79514451f1c66e08215e6423f02e817a96e5bb"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SPEC-AGENT-DIAGNOSTIC-001",
+      "AIXEM-CONCEPT-AUTHORITY-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-AGENT-CLOSED-LOOP-0004",
+        "level": "must",
+        "text": "**MUST.** Each iteration change set MUST be computed from deterministic before-and-after snapshots rather than accepted from an agent declaration."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-CLOSED-LOOP-0005",
+        "level": "must",
+        "text": "**MUST.** Every authoritative file change MUST match both the active route authority set and its declared artifact patterns and constraints."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-CLOSED-LOOP-0006",
+        "level": "must",
+        "text": "**MUST.** A hand edit to generated render or evidence output MUST be reported as a blocking scope violation."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-CLOSED-LOOP-0007",
+        "level": "must",
+        "text": "**MUST.** A composite authoring route MUST apply only the current child route write scope and MUST NOT grant a broad union scope."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SPEC-AGENT-CHANGESET-001",
+        "path": "docs/specifications/agent/authoring-change-set-contract.md"
+      }
+    ],
+    "summary": "Defines deterministic before-and-after file evidence, route write scopes, authority constraints, and generated-output edit detection for each agent iteration.",
+    "title": "Authoring Change-Set Contract 1"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

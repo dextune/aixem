@@ -1,0 +1,128 @@
+{
+  "coordinateSystem": {
+    "angleDirection": "clockwise",
+    "angleUnit": "deg",
+    "grid": 2.5,
+    "unit": "mm",
+    "yAxis": "down"
+  },
+  "diagnostics": [],
+  "entities": [
+    {
+      "componentType": "authoring:resistor",
+      "key": "R1",
+      "kind": "component",
+      "parameters": {
+        "body-height": 7.5,
+        "body-length": 20,
+        "lead-length": 5
+      },
+      "placement": {
+        "entity": "R1",
+        "layer": "symbols",
+        "x": 80,
+        "y": 50
+      },
+      "ports": {
+        "1": [
+          65.0,
+          50.0
+        ],
+        "2": [
+          95.0,
+          50.0
+        ]
+      },
+      "reference": "R1",
+      "symbolDigest": "sha256:59c410ab8cba7e0d023c9831ff8830606ba74ed8d19d888b6cf888377e243493",
+      "symbolId": "authoring:resistor",
+      "value": "1k",
+      "variant": null
+    }
+  ],
+  "featuresUsed": [],
+  "generatedAt": "2026-08-10T00:00:00Z",
+  "gridValidation": {
+    "crossingPolicy": "junction-required",
+    "orthogonalSegments": 0,
+    "placementExceptions": [],
+    "placements": 1,
+    "placementsOnGrid": 1,
+    "profile": "aixem.schematic.grid-light",
+    "routeSegments": 0,
+    "routeViasOnGrid": true,
+    "snap": 2.5,
+    "zeroLengthSegments": []
+  },
+  "hashes": {
+    "layout": "sha256:16648e277333dc15e551ab8ffe404a210c2d8432c31a38268541785f18fc3063",
+    "libraries": [
+      "sha256:5bacb034a1cc4746da16867a30d731e6cc83df741e9c3c28bfb8777d367662e6"
+    ],
+    "source": "sha256:fd631efc9f3b87c291a27fa663266a17a0c574a95c9e92468364a3f0751f368c",
+    "symbolAssets": [
+      "sha256:59c410ab8cba7e0d023c9831ff8830606ba74ed8d19d888b6cf888377e243493"
+    ]
+  },
+  "layers": [
+    {
+      "defaultVisible": true,
+      "id": "connections",
+      "locked": false,
+      "order": 10,
+      "printable": true,
+      "purpose": "semantic net routes"
+    },
+    {
+      "defaultVisible": true,
+      "id": "symbols",
+      "locked": false,
+      "order": 20,
+      "printable": true,
+      "purpose": "component symbols"
+    },
+    {
+      "defaultVisible": true,
+      "id": "annotation",
+      "locked": false,
+      "order": 30,
+      "printable": true,
+      "purpose": "notes"
+    }
+  ],
+  "nets": [],
+  "project": {
+    "id": "authoring:visual_repair",
+    "profile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "title": "Visual Repair"
+  },
+  "renderer": {
+    "id": "aixem-grid-schematic-reference-renderer",
+    "version": "0.5.1"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/resolved-scene/1",
+  "sheet": {
+    "height": 100,
+    "margin": 10,
+    "titleBlock": {
+      "drawing": "visual_repair-layout",
+      "revision": "A",
+      "sheet": "1/1",
+      "title": "Visual repair"
+    },
+    "width": 160
+  },
+  "statistics": {
+    "entities": 1,
+    "nets": 0,
+    "noConnects": 2,
+    "primitives": 5,
+    "routeSegments": 0,
+    "symbolAssets": 1
+  },
+  "styleProfile": {
+    "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+    "id": "aixem.schematic.grid-light",
+    "path": "aixem-grid-schematic-style-1.aixstyle.json"
+  }
+}

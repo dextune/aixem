@@ -1,0 +1,104 @@
+{
+  "command": {
+    "command": [
+      "/opt/pyvenv/bin/python",
+      "tools/run_tests_058.py",
+      "--shard-count",
+      "8",
+      "--shard-index",
+      "3",
+      "--output",
+      "/mnt/data/aixem058-cycle-02-test-shard-3.json"
+    ],
+    "durationSeconds": 4.205281,
+    "label": "cycle 2 repository tests shard 3",
+    "returnCode": 0,
+    "status": "PASS",
+    "stderrTail": "",
+    "stdoutTail": "[tests] START tests.agent.test_change_scope\n[tests] PASS tests.agent.test_change_scope (4 tests, 1.366609s)\n[tests] START tests.agent.test_route_execution_metadata\n[tests] PASS tests.agent.test_route_execution_metadata (3 tests, 0.638806s)\n[tests] START tests.docs.test_authoring_examples\n[tests] PASS tests.docs.test_authoring_examples (3 tests, 1.671023s)\n{\"failedModules\": 0, \"modules\": 3, \"successful\": true, \"testsRun\": 10}\n",
+    "valid": true
+  },
+  "cycle": 2,
+  "externalResult": "/mnt/data/aixem058-cycle-02-test-shard-3.json",
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "release": "AIXEM-SRP-0.5.8-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/pre-live-readiness-verification-stage/1",
+  "stage": "tests-3",
+  "status": "PASS",
+  "tests": {
+    "durationSeconds": 3.676775,
+    "errors": [],
+    "executionMode": "isolated-test-module-processes",
+    "failedModules": 0,
+    "failures": [],
+    "formatVersion": "1.0",
+    "generatedAt": "2026-08-12T00:00:00Z",
+    "moduleCount": 3,
+    "modules": [
+      {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "-m",
+          "unittest",
+          "-v",
+          "tests.agent.test_change_scope"
+        ],
+        "durationSeconds": 1.366609,
+        "module": "tests.agent.test_change_scope",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "test_allowed_layout_and_digest_only_project_change (tests.agent.test_change_scope.AgentChangeScopeTests.test_allowed_layout_and_digest_only_project_change) ... ok\ntest_generated_output_edit_is_detected_and_schema_valid (tests.agent.test_change_scope.AgentChangeScopeTests.test_generated_output_edit_is_detected_and_schema_valid) ... ok\ntest_symlink_fails_closed (tests.agent.test_change_scope.AgentChangeScopeTests.test_symlink_fails_closed) ... ok\ntest_wrong_authority_and_non_digest_project_change_fail (tests.agent.test_change_scope.AgentChangeScopeTests.test_wrong_authority_and_non_digest_project_change_fail) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.007s\n\nOK\n",
+        "stdoutTail": "",
+        "testsRun": 4,
+        "valid": true
+      },
+      {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "-m",
+          "unittest",
+          "-v",
+          "tests.agent.test_route_execution_metadata"
+        ],
+        "durationSeconds": 0.638806,
+        "module": "tests.agent.test_route_execution_metadata",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "test_all_recommended_diagnostics_are_accepted_by_an_existing_route (tests.agent.test_route_execution_metadata.RouteExecutionMetadataTests.test_all_recommended_diagnostics_are_accepted_by_an_existing_route) ... ok\ntest_canonical_authoring_routes_have_scope_and_remediation_metadata (tests.agent.test_route_execution_metadata.RouteExecutionMetadataTests.test_canonical_authoring_routes_have_scope_and_remediation_metadata) ... ok\ntest_task_packets_expose_active_child_scope (tests.agent.test_route_execution_metadata.RouteExecutionMetadataTests.test_task_packets_expose_active_child_scope) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.081s\n\nOK\n",
+        "stdoutTail": "",
+        "testsRun": 3,
+        "valid": true
+      },
+      {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "-m",
+          "unittest",
+          "-v",
+          "tests.docs.test_authoring_examples"
+        ],
+        "durationSeconds": 1.671023,
+        "module": "tests.docs.test_authoring_examples",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "test_authoring_golden_examples (tests.docs.test_authoring_examples.AuthoringExampleTests.test_authoring_golden_examples) ... ok\ntest_symbol_design_profile (tests.docs.test_authoring_examples.AuthoringExampleTests.test_symbol_design_profile) ... ok\ntest_visual_repair_fixture (tests.docs.test_authoring_examples.AuthoringExampleTests.test_visual_repair_fixture) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.335s\n\nOK\n",
+        "stdoutTail": "",
+        "testsRun": 3,
+        "valid": true
+      }
+    ],
+    "passedModules": 3,
+    "release": "AIXEM-SRP-0.5.8-2026-08-12",
+    "schema": "https://schemas.aixem.org/validation/test-run-shard/1",
+    "shard": {
+      "count": 8,
+      "index": 3,
+      "totalDiscoveredModules": 26
+    },
+    "skipped": [],
+    "successful": true,
+    "testsRun": 10
+  },
+  "valid": true
+}

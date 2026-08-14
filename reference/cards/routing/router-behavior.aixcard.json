@@ -1,0 +1,55 @@
+{
+  "card": {
+    "aliases": [
+      "router behavior",
+      "auto router",
+      "routing algorithm"
+    ],
+    "appliesTo": [
+      "routing-agent-guidance"
+    ],
+    "domain": "routing",
+    "estimatedReadBytes": 3281,
+    "id": "AIXEM-ROUTE-BEHAVIOR-001",
+    "inputs": [],
+    "keywords": [
+      "Router Behavior",
+      "auto router",
+      "change-architecture",
+      "route-nets",
+      "router behavior",
+      "routing algorithm"
+    ],
+    "kind": "guide",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/routing/router-behavior.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:bc75782a2ed1e7a208c7b866a1865ee5b6e2584879938f07226b1aff557d5ffa"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 500,
+    "readNext": [
+      "AIXEM-ROUTE-CONSTRAINT-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-ROUTE-BEHAVIOR-001.read",
+        "level": "should",
+        "text": "Describes a deterministic route-agent workflow, cost model, fallback sequence, and evidence output."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-ROUTE-BEHAVIOR-001",
+        "path": "docs/routing/router-behavior.md"
+      }
+    ],
+    "summary": "Describes a deterministic route-agent workflow, cost model, fallback sequence, and evidence output.",
+    "title": "Router Behavior"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

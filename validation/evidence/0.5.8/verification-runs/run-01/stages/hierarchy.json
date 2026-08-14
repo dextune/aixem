@@ -1,0 +1,25 @@
+{
+  "command": {
+    "command": [
+      "/opt/pyvenv/bin/python",
+      "tools/validate_hierarchical_corpus.py",
+      "--repeats",
+      "3"
+    ],
+    "durationSeconds": 4.932653,
+    "label": "cycle 1 hierarchical corpus",
+    "returnCode": 0,
+    "status": "PASS",
+    "stderrTail": "",
+    "stdoutTail": "H001: PASS (expected pass, observed pass)\nH002: PASS (expected pass, observed pass)\nH003: PASS (expected pass, observed pass)\nH004: PASS (expected pass, observed pass)\nH005: PASS (expected pass, observed pass)\nH006: PASS (expected pass, observed pass)\nH007: PASS (expected pass, observed pass)\nH008: PASS (expected pass, observed pass)\nH009: PASS (expected fail, observed fail)\nH010: PASS (expected fail, observed fail)\nH011: PASS (expected pass, observed pass)\nH012: PASS (expected pass, observed pass)\nH013: PASS (expected pass, observed pass)\nH014: PASS (expected pass, observed pass)\nH015: PASS (expected fail, observed fail)\nN001: PASS (expected fail, observed fail)\nN002: PASS (expected fail, observed fail)\nN003: PASS (expected fail, observed fail)\nN004: PASS (expected fail, observed fail)\nN005: PASS (expected fail, observed fail)\nN006: PASS (expected fail, observed fail)\nN007: PASS (expected fail, observed fail)\nN008: PASS (expected fail, observed fail)\nN009: PASS (expected fail, observed fail)\nN010: PASS (expected fail, observed fail)\nN011: PASS (expected fail, observed fail)\nN012: PASS (expected fail, observed fail)\nN013: PASS (expected fail, observed fail)\nN014: PASS (expected fail, observed fail)\nN015: PASS (expected fail, observed fail)\nhierarchical corpus: PASS (30/30)\n",
+    "valid": true
+  },
+  "cycle": 1,
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "release": "AIXEM-SRP-0.5.8-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/pre-live-readiness-verification-stage/1",
+  "stage": "hierarchy",
+  "status": "PASS",
+  "valid": true
+}

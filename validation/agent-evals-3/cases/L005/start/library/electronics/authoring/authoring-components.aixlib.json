@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.0",
+  "library": {
+    "components": [
+      {
+        "classification": [],
+        "description": "Terminal",
+        "displayName": "Terminal",
+        "id": "authoring:terminal",
+        "kind": "connector",
+        "metadata": {
+          "partProvenance": {
+            "status": "generic-template"
+          },
+          "semanticReady": true
+        },
+        "ports": [
+          {
+            "id": "1",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "1",
+            "required": false,
+            "terminal": "1",
+            "type": "passive"
+          }
+        ],
+        "presentations": [
+          {
+            "asset": {
+              "digest": "sha256:c4f12f18862f6a2b41eab5de806d215bff64db45e0ef30d7b35dc3b6374d2eec",
+              "path": "library/electronics/authoring/terminal.aixsym.json",
+              "revision": "1.0.0",
+              "symbolId": "authoring:terminal"
+            },
+            "fieldMap": {
+              "reference": "refdes",
+              "value": "value"
+            },
+            "portMap": {
+              "1": "1"
+            },
+            "purpose": "primary-diagram"
+          }
+        ],
+        "properties": [
+          {
+            "id": "refdes",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "id": "value",
+            "required": false,
+            "type": "string"
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "description": "Multi-terminal Junction library",
+    "id": "authoring:multi_terminal_junction-library",
+    "metadata": {
+      "profile": "component.graphics@1"
+    },
+    "namespace": "authoring",
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-11",
+      "license": "CC0-1.0",
+      "notes": "Multi-terminal Junction library",
+      "origin": "AIXEM 0.5.1 authoring documentation"
+    },
+    "title": "Multi-terminal Junction library",
+    "version": "1.0.0"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/aixlib/1"
+}

@@ -1,0 +1,62 @@
+{
+  "card": {
+    "aliases": [
+      "render review",
+      "visual repair loop",
+      "inspect schematic output"
+    ],
+    "appliesTo": [
+      "visual-qa-workflow"
+    ],
+    "domain": "agent",
+    "estimatedReadBytes": 6363,
+    "id": "AIXEM-AGENT-VISUAL-QA-001",
+    "inputs": [],
+    "keywords": [
+      "Visual QA and Repair Loop",
+      "create-schematic",
+      "create-symbol",
+      "inspect schematic output",
+      "render review",
+      "render-review",
+      "visual repair loop"
+    ],
+    "kind": "guide",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/agent/visual-qa-loop.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:7aa4bd2309ac7aa9c4da199bde6c75f8cb30240dcb6102e7a332c7f14266c04e"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SPEC-RENDERER-001",
+      "AIXEM-CONF-VALIDATION-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-AGENT-VISUAL-QA-0001",
+        "level": "must",
+        "text": "**MUST.** Visual review MUST inspect validation evidence, resolved-scene data, and rendered output before a drawing task is declared complete."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-VISUAL-QA-0002",
+        "level": "must",
+        "text": "**MUST.** A detected drawing defect MUST be repaired in the authoritative source that owns the defective fact before derived artifacts are regenerated."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-AGENT-VISUAL-QA-001",
+        "path": "docs/agent/visual-qa-loop.md"
+      }
+    ],
+    "summary": "Defines the render-inspect-classify-repair loop and defect-to-authority mapping for symbols and schematics.",
+    "title": "Visual QA and Repair Loop"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

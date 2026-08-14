@@ -1,0 +1,62 @@
+{
+  "card": {
+    "aliases": [
+      "pipeline",
+      "build pipeline",
+      "authoring pipeline"
+    ],
+    "appliesTo": [
+      "build-pipeline"
+    ],
+    "domain": "architecture",
+    "estimatedReadBytes": 5037,
+    "id": "AIXEM-ARCH-PIPELINE-001",
+    "inputs": [],
+    "keywords": [
+      "Build and Authoring Pipeline",
+      "authoring pipeline",
+      "build pipeline",
+      "build-documentation",
+      "change-architecture",
+      "pipeline",
+      "publish-release"
+    ],
+    "kind": "architecture",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/architecture/pipeline.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:5dbb54b0557b8bf16daae50c40194b9209ab5c733fa9a4aad1124a85a406c6a0"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-ARCH-SYSTEM-001",
+      "AIXEM-CONCEPT-DETERMINISM-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-ARCH-0003",
+        "level": "must",
+        "text": "**MUST.** Canonical validation MUST precede generated-index compilation, site publication, and release manifest creation."
+      },
+      {
+        "id": "AIXEM-REQ-ARCH-0004",
+        "level": "must",
+        "text": "**MUST.** The internal release manifest MUST be created after all covered release artifacts and evidence are finalized."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-ARCH-PIPELINE-001",
+        "path": "docs/architecture/pipeline.md"
+      }
+    ],
+    "summary": "Defines the ordered pipeline from canonical changes through compilation, validation, visual review, evidence, manifest, and archive.",
+    "title": "Build and Authoring Pipeline"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

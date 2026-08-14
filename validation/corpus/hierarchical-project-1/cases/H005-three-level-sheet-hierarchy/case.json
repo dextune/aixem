@@ -1,0 +1,11 @@
+{
+  "assertions": [
+    "hierarchy-depth-two",
+    "organizational-hierarchy-only"
+  ],
+  "expected": "pass",
+  "expectedDiagnostic": null,
+  "id": "H005",
+  "project": "project.aixproj.json",
+  "title": "Three level sheet hierarchy"
+}

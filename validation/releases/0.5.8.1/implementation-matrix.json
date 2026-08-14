@@ -1,0 +1,109 @@
+{
+  "acceptanceCriteria": [
+    {
+      "criterion": "README and approved root entrypoints resolve every local link and Markdown anchor safely",
+      "status": "PASS"
+    },
+    {
+      "criterion": "Every human-authored Markdown document is reachable from README through explicit links",
+      "status": "PASS"
+    },
+    {
+      "criterion": "Every canonical category index links every registered navigation member",
+      "status": "PASS"
+    },
+    {
+      "criterion": "Root, navigation, planning, validation, active routes, and release metadata agree with VERSION",
+      "status": "PASS"
+    },
+    {
+      "criterion": "No undeclared duplicate normative authority scope remains",
+      "status": "PASS"
+    },
+    {
+      "criterion": "AGENTS remains below the bounded operational-contract limit and delegates category detail to REFERENCE",
+      "status": "PASS"
+    },
+    {
+      "criterion": "Canonical metadata, links, dependencies, routes, schemas, requirements, and evidence remain valid",
+      "status": "PASS"
+    },
+    {
+      "criterion": "The 0.5.8 deterministic pre-live readiness gate remains PASS without technical behavior changes",
+      "status": "PASS"
+    },
+    {
+      "criterion": "Circuit formats, renderer, hierarchy, Viewer, and agent execution contracts remain regression locked",
+      "status": "PASS"
+    },
+    {
+      "criterion": "Five complete clean verification cycles pass",
+      "status": "PASS"
+    },
+    {
+      "criterion": "The final ZIP is deterministic, complete, traversal-safe, and independently audited",
+      "status": "PASS"
+    },
+    {
+      "criterion": "External Tier B, live external execution, and live claim authorization remain false",
+      "status": "PASS"
+    }
+  ],
+  "claimBoundary": {
+    "externalTierBExecuted": false,
+    "liveClaimAuthorized": false,
+    "liveExternalAgentExecuted": false,
+    "note": "The completed 0.5.8.1 plan proves documentation and specification relationship closure while preserving the non-AI 0.5.8 pre-live gate."
+  },
+  "completedVerificationPasses": 5,
+  "deliberateDeferrals": [
+    "real external AI execution and provider-specific adapters",
+    "repair hints, semantic diff, context optimization, and live-corpus expansion",
+    "editor DSL, GUI editing, multi-agent orchestration, container platform, and remote evidence service"
+  ],
+  "documentationRelationshipClosureComplete": true,
+  "engineeringImplementationComplete": true,
+  "formatVersion": "1.0",
+  "fullPlanDefinitionOfDone": true,
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "phases": [
+    {
+      "id": "Phase 0",
+      "objective": "Freeze the verified 0.5.8 package and inventory every document, specification, route, and release pointer",
+      "status": "PASS"
+    },
+    {
+      "id": "Phase 1",
+      "objective": "Add a bounded root REFERENCE map and compact AGENTS category delegation",
+      "status": "PASS"
+    },
+    {
+      "id": "Phase 2",
+      "objective": "Correct stale release references and ambiguous normative authority ownership",
+      "status": "PASS"
+    },
+    {
+      "id": "Phase 3",
+      "objective": "Automate root-link safety, complete Markdown reachability, section-index coverage, and release coherence",
+      "status": "PASS"
+    },
+    {
+      "id": "Phase 4",
+      "objective": "Regenerate documentation, reference, site, traceability, and evidence products deterministically",
+      "status": "PASS"
+    },
+    {
+      "id": "Phase 5",
+      "objective": "Complete five independent clean verification cycles and deterministic archive closure",
+      "status": "PASS"
+    }
+  ],
+  "plan": "planning/releases/0.5.8.1/final-document-specification-reference-chain-closure.md",
+  "preLiveReadiness": true,
+  "preLiveReadinessPlanComplete": true,
+  "release": "AIXEM-SRP-0.5.8.1-2026-08-12",
+  "requiredVerificationPasses": 5,
+  "schema": "https://schemas.aixem.org/validation/plan-implementation-matrix/1",
+  "status": "COMPLETE",
+  "valid": true
+}

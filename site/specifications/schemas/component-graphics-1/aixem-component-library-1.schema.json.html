@@ -1,0 +1,383 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AIXEM Component Library 1.0 Candidate — AIXEM Schema</title><link rel="stylesheet" href="../../../assets/site.css"></head><body><header class="topbar"><div class="brand"><span class="brand-mark">AX</span><span>AIXEM<small>Schema Reference</small></span></div></header><main class="content-wrap" style="padding-top:24px"><div class="content"><div class="breadcrumbs"><a href="../index.html">Schema Catalog</a><span>›</span><span>component-graphics-1/aixem-component-library-1.schema.json</span></div><header class="doc-head"><div class="eyebrow"><span class="badge normative">JSON Schema</span><span class="doc-id">https://json-schema.org/draft/2020-12/schema</span></div><h1>AIXEM Component Library 1.0 Candidate</h1><p class="lead">Machine-readable contract distributed with AIXEM 0.5.9.</p></header><div class="schema-browser"><a href="../../../assets/schemas/component-graphics-1/aixem-component-library-1.schema.json">Open raw JSON schema</a></div><article class="article"><pre><code>{
+  &quot;$defs&quot;: {
+    &quot;component&quot;: {
+      &quot;additionalProperties&quot;: false,
+      &quot;properties&quot;: {
+        &quot;classification&quot;: {
+          &quot;items&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          },
+          &quot;type&quot;: &quot;array&quot;,
+          &quot;uniqueItems&quot;: true
+        },
+        &quot;description&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;displayName&quot;: {
+          &quot;minLength&quot;: 1,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;id&quot;: {
+          &quot;pattern&quot;: &quot;^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$&quot;,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;kind&quot;: {
+          &quot;minLength&quot;: 1,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;metadata&quot;: {
+          &quot;type&quot;: &quot;object&quot;
+        },
+        &quot;models&quot;: {
+          &quot;items&quot;: {
+            &quot;additionalProperties&quot;: false,
+            &quot;properties&quot;: {
+              &quot;digest&quot;: {
+                &quot;pattern&quot;: &quot;^sha256:[0-9a-f]{64}$&quot;,
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;mediaType&quot;: {
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;metadata&quot;: {
+                &quot;type&quot;: &quot;object&quot;
+              },
+              &quot;path&quot;: {
+                &quot;pattern&quot;: &quot;^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[a-z0-9][a-z0-9._/-]*$&quot;,
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;role&quot;: {
+                &quot;type&quot;: &quot;string&quot;
+              }
+            },
+            &quot;required&quot;: [
+              &quot;role&quot;,
+              &quot;path&quot;,
+              &quot;digest&quot;,
+              &quot;mediaType&quot;
+            ],
+            &quot;type&quot;: &quot;object&quot;
+          },
+          &quot;type&quot;: &quot;array&quot;
+        },
+        &quot;ports&quot;: {
+          &quot;items&quot;: {
+            &quot;additionalProperties&quot;: false,
+            &quot;properties&quot;: {
+              &quot;description&quot;: {
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;id&quot;: {
+                &quot;minLength&quot;: 1,
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;metadata&quot;: {
+                &quot;type&quot;: &quot;object&quot;
+              },
+              &quot;name&quot;: {
+                &quot;minLength&quot;: 1,
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;required&quot;: {
+                &quot;type&quot;: &quot;boolean&quot;
+              },
+              &quot;terminal&quot;: {
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;type&quot;: {
+                &quot;enum&quot;: [
+                  &quot;input&quot;,
+                  &quot;output&quot;,
+                  &quot;bidirectional&quot;,
+                  &quot;passive&quot;,
+                  &quot;power-input&quot;,
+                  &quot;power-output&quot;,
+                  &quot;open-collector&quot;,
+                  &quot;open-emitter&quot;,
+                  &quot;tri-state&quot;,
+                  &quot;no-connect&quot;,
+                  &quot;unspecified&quot;,
+                  &quot;architectural-control&quot;,
+                  &quot;architectural-load&quot;,
+                  &quot;architectural-source&quot;,
+                  &quot;generic&quot;
+                ]
+              }
+            },
+            &quot;required&quot;: [
+              &quot;id&quot;,
+              &quot;name&quot;,
+              &quot;type&quot;
+            ],
+            &quot;type&quot;: &quot;object&quot;
+          },
+          &quot;maxItems&quot;: 4096,
+          &quot;type&quot;: &quot;array&quot;
+        },
+        &quot;presentations&quot;: {
+          &quot;items&quot;: {
+            &quot;additionalProperties&quot;: false,
+            &quot;properties&quot;: {
+              &quot;asset&quot;: {
+                &quot;additionalProperties&quot;: false,
+                &quot;properties&quot;: {
+                  &quot;digest&quot;: {
+                    &quot;pattern&quot;: &quot;^sha256:[0-9a-f]{64}$&quot;,
+                    &quot;type&quot;: &quot;string&quot;
+                  },
+                  &quot;path&quot;: {
+                    &quot;pattern&quot;: &quot;^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[a-z0-9][a-z0-9._/-]*$&quot;,
+                    &quot;type&quot;: &quot;string&quot;
+                  },
+                  &quot;revision&quot;: {
+                    &quot;minLength&quot;: 1,
+                    &quot;type&quot;: &quot;string&quot;
+                  },
+                  &quot;symbolId&quot;: {
+                    &quot;pattern&quot;: &quot;^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$&quot;,
+                    &quot;type&quot;: &quot;string&quot;
+                  }
+                },
+                &quot;required&quot;: [
+                  &quot;path&quot;,
+                  &quot;digest&quot;,
+                  &quot;symbolId&quot;,
+                  &quot;revision&quot;
+                ],
+                &quot;type&quot;: &quot;object&quot;
+              },
+              &quot;defaultVariant&quot;: {
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;fieldMap&quot;: {
+                &quot;additionalProperties&quot;: {
+                  &quot;minLength&quot;: 1,
+                  &quot;type&quot;: &quot;string&quot;
+                },
+                &quot;type&quot;: &quot;object&quot;
+              },
+              &quot;metadata&quot;: {
+                &quot;type&quot;: &quot;object&quot;
+              },
+              &quot;parameterMap&quot;: {
+                &quot;additionalProperties&quot;: {
+                  &quot;minLength&quot;: 1,
+                  &quot;type&quot;: &quot;string&quot;
+                },
+                &quot;type&quot;: &quot;object&quot;
+              },
+              &quot;portMap&quot;: {
+                &quot;additionalProperties&quot;: {
+                  &quot;minLength&quot;: 1,
+                  &quot;type&quot;: &quot;string&quot;
+                },
+                &quot;type&quot;: &quot;object&quot;
+              },
+              &quot;purpose&quot;: {
+                &quot;minLength&quot;: 1,
+                &quot;type&quot;: &quot;string&quot;
+              }
+            },
+            &quot;required&quot;: [
+              &quot;purpose&quot;,
+              &quot;asset&quot;,
+              &quot;portMap&quot;
+            ],
+            &quot;type&quot;: &quot;object&quot;
+          },
+          &quot;maxItems&quot;: 256,
+          &quot;minItems&quot;: 1,
+          &quot;type&quot;: &quot;array&quot;
+        },
+        &quot;properties&quot;: {
+          &quot;items&quot;: {
+            &quot;additionalProperties&quot;: false,
+            &quot;properties&quot;: {
+              &quot;default&quot;: {},
+              &quot;description&quot;: {
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;id&quot;: {
+                &quot;minLength&quot;: 1,
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;required&quot;: {
+                &quot;type&quot;: &quot;boolean&quot;
+              },
+              &quot;type&quot;: {
+                &quot;enum&quot;: [
+                  &quot;string&quot;,
+                  &quot;number&quot;,
+                  &quot;integer&quot;,
+                  &quot;boolean&quot;,
+                  &quot;quantity&quot;,
+                  &quot;enum&quot;,
+                  &quot;uri&quot;
+                ]
+              },
+              &quot;unit&quot;: {
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;values&quot;: {
+                &quot;type&quot;: &quot;array&quot;
+              }
+            },
+            &quot;required&quot;: [
+              &quot;id&quot;,
+              &quot;type&quot;
+            ],
+            &quot;type&quot;: &quot;object&quot;
+          },
+          &quot;maxItems&quot;: 4096,
+          &quot;type&quot;: &quot;array&quot;
+        }
+      },
+      &quot;required&quot;: [
+        &quot;id&quot;,
+        &quot;kind&quot;,
+        &quot;displayName&quot;,
+        &quot;ports&quot;,
+        &quot;properties&quot;,
+        &quot;presentations&quot;
+      ],
+      &quot;type&quot;: &quot;object&quot;
+    },
+    &quot;provenance&quot;: {
+      &quot;additionalProperties&quot;: false,
+      &quot;properties&quot;: {
+        &quot;author&quot;: {
+          &quot;minLength&quot;: 1,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;created&quot;: {
+          &quot;format&quot;: &quot;date&quot;,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;license&quot;: {
+          &quot;minLength&quot;: 1,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;notes&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;origin&quot;: {
+          &quot;minLength&quot;: 1,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;sourceDigest&quot;: {
+          &quot;pattern&quot;: &quot;^sha256:[0-9a-f]{64}$&quot;,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;sourceUri&quot;: {
+          &quot;format&quot;: &quot;uri&quot;,
+          &quot;type&quot;: &quot;string&quot;
+        }
+      },
+      &quot;required&quot;: [
+        &quot;origin&quot;,
+        &quot;license&quot;,
+        &quot;author&quot;,
+        &quot;created&quot;
+      ],
+      &quot;type&quot;: &quot;object&quot;
+    }
+  },
+  &quot;$id&quot;: &quot;https://schemas.aixem.org/component-graphics/aixlib/1&quot;,
+  &quot;$schema&quot;: &quot;https://json-schema.org/draft/2020-12/schema&quot;,
+  &quot;additionalProperties&quot;: false,
+  &quot;properties&quot;: {
+    &quot;formatVersion&quot;: {
+      &quot;const&quot;: &quot;1.0&quot;
+    },
+    &quot;library&quot;: {
+      &quot;additionalProperties&quot;: false,
+      &quot;properties&quot;: {
+        &quot;components&quot;: {
+          &quot;items&quot;: {
+            &quot;$ref&quot;: &quot;#/$defs/component&quot;
+          },
+          &quot;maxItems&quot;: 100000,
+          &quot;minItems&quot;: 1,
+          &quot;type&quot;: &quot;array&quot;
+        },
+        &quot;dependencies&quot;: {
+          &quot;items&quot;: {
+            &quot;additionalProperties&quot;: false,
+            &quot;properties&quot;: {
+              &quot;digest&quot;: {
+                &quot;pattern&quot;: &quot;^sha256:[0-9a-f]{64}$&quot;,
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;id&quot;: {
+                &quot;pattern&quot;: &quot;^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$&quot;,
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;optional&quot;: {
+                &quot;type&quot;: &quot;boolean&quot;
+              },
+              &quot;path&quot;: {
+                &quot;pattern&quot;: &quot;^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[a-z0-9][a-z0-9._/-]*$&quot;,
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;version&quot;: {
+                &quot;type&quot;: &quot;string&quot;
+              }
+            },
+            &quot;required&quot;: [
+              &quot;id&quot;,
+              &quot;version&quot;,
+              &quot;path&quot;,
+              &quot;digest&quot;
+            ],
+            &quot;type&quot;: &quot;object&quot;
+          },
+          &quot;maxItems&quot;: 1024,
+          &quot;type&quot;: &quot;array&quot;
+        },
+        &quot;description&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;id&quot;: {
+          &quot;pattern&quot;: &quot;^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$&quot;,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;metadata&quot;: {
+          &quot;type&quot;: &quot;object&quot;
+        },
+        &quot;namespace&quot;: {
+          &quot;minLength&quot;: 1,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;provenance&quot;: {
+          &quot;$ref&quot;: &quot;#/$defs/provenance&quot;
+        },
+        &quot;title&quot;: {
+          &quot;minLength&quot;: 1,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;version&quot;: {
+          &quot;minLength&quot;: 1,
+          &quot;type&quot;: &quot;string&quot;
+        }
+      },
+      &quot;required&quot;: [
+        &quot;id&quot;,
+        &quot;version&quot;,
+        &quot;title&quot;,
+        &quot;components&quot;,
+        &quot;provenance&quot;
+      ],
+      &quot;type&quot;: &quot;object&quot;
+    },
+    &quot;schema&quot;: {
+      &quot;const&quot;: &quot;https://schemas.aixem.org/component-graphics/aixlib/1&quot;
+    }
+  },
+  &quot;required&quot;: [
+    &quot;schema&quot;,
+    &quot;formatVersion&quot;,
+    &quot;library&quot;
+  ],
+  &quot;title&quot;: &quot;AIXEM Component Library 1.0 Candidate&quot;,
+  &quot;type&quot;: &quot;object&quot;
+}</code></pre></article></div></main></body></html>

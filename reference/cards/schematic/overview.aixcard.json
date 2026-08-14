@@ -1,0 +1,53 @@
+{
+  "card": {
+    "aliases": [
+      "schematic guide",
+      "draw schematic",
+      "schematic authoring"
+    ],
+    "appliesTo": [
+      "schematic-guide-navigation"
+    ],
+    "domain": "schematic",
+    "estimatedReadBytes": 4244,
+    "id": "AIXEM-SCHEM-INDEX-001",
+    "inputs": [],
+    "keywords": [
+      "Schematic Authoring",
+      "create-schematic",
+      "draw schematic",
+      "route-nets",
+      "schematic authoring",
+      "schematic guide"
+    ],
+    "kind": "index",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/schematic/overview.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:9daefa3ff018f83b84d54194441b8a019ef18da16a73d18c391b8104b0dd05a3"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 500,
+    "readNext": [],
+    "rules": [
+      {
+        "id": "AIXEM-SCHEM-INDEX-001.read",
+        "level": "should",
+        "text": "A task-oriented guide to grid-first placement, explicit connectivity cues, annotation, and sheet organization."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SCHEM-INDEX-001",
+        "path": "docs/schematic/index.md"
+      }
+    ],
+    "summary": "A task-oriented guide to grid-first placement, explicit connectivity cues, annotation, and sheet organization.",
+    "title": "Schematic Authoring"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

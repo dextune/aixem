@@ -1,0 +1,120 @@
+{
+  "activeRoute": "create-symbol",
+  "baseline": {
+    "artifactDigests": {
+      "library/electronics/authoring/authoring-components.aixlib.json": "sha256:ccd0b383055584b2962fbc3420c6d9aabb3943fc7d1b5051194e26984ff9346d",
+      "library/electronics/authoring/resistor.aixsym.json": "sha256:59c410ab8cba7e0d023c9831ff8830606ba74ed8d19d888b6cf888377e243493",
+      "project.aixproj.json": "sha256:83cc187c3a69e514309060be065c39f05422b632612fba8d5443a8babba7c48e",
+      "two_pin_passive.aixem": "sha256:06624df6f437585301ab6a9d691006489e6265f9fcf102520c985a96d4731836",
+      "two_pin_passive.aixlayout.json": "sha256:05864c8835b73891fa149e16970398ede4d5e7a6294f38e5b4f7dc1aad0b2337"
+    },
+    "authoritativeDigest": "sha256:ba95dd9ec933cc569f314a1979958712d8beb1213eb8fe1b63beeb457b7ded45",
+    "snapshotDigest": "sha256:ce5ebbaaff8651ef228a8b35f4658a13e4813c292d88a59b8527d29ebb31d2ed"
+  },
+  "entryRoute": "create-symbol",
+  "execution": {
+    "liveExternalAgentExecuted": false,
+    "mode": "deterministic-harness"
+  },
+  "final": {
+    "authoritativeArtifactDigests": {
+      "library/electronics/authoring/authoring-components.aixlib.json": "sha256:ccd0b383055584b2962fbc3420c6d9aabb3943fc7d1b5051194e26984ff9346d",
+      "library/electronics/authoring/resistor.aixsym.json": "sha256:59c410ab8cba7e0d023c9831ff8830606ba74ed8d19d888b6cf888377e243493",
+      "project.aixproj.json": "sha256:83cc187c3a69e514309060be065c39f05422b632612fba8d5443a8babba7c48e",
+      "two_pin_passive.aixem": "sha256:06624df6f437585301ab6a9d691006489e6265f9fcf102520c985a96d4731836",
+      "two_pin_passive.aixlayout.json": "sha256:05864c8835b73891fa149e16970398ede4d5e7a6294f38e5b4f7dc1aad0b2337"
+    },
+    "authoritativeDigest": "sha256:ba95dd9ec933cc569f314a1979958712d8beb1213eb8fe1b63beeb457b7ded45",
+    "blockingDiagnosticCount": 0,
+    "conformant": true,
+    "determinism": {
+      "changed": [],
+      "projectRuns": 3,
+      "repeatCount": 3,
+      "valid": true
+    },
+    "diagnosticCount": 0,
+    "diagnostics": [],
+    "generatedOutputEditCount": 0,
+    "renderArtifactDigests": {
+      "render/drawing.svg": "sha256:23982e0cebac91c1b3575d293d6fe138166844bf7ec08b343c0fd22a21c6b0fa",
+      "render/render-manifest.json": "sha256:bded84ed5aa929d378d595bad643b92a78313a6452f96a0d7fb4aadcfb478b98",
+      "render/resolved-scene.json": "sha256:32efff4eefe3c12b869805605a6f64ea828348fad9bdf834e1ed622b9dcdbb38",
+      "render/viewer-model.json": "sha256:c18da44e4884eafc8a9365e063466e6641e2b2191557c32019611767b62738d0",
+      "render/viewer.html": "sha256:32fb9234aeef20619615cd11a3abae81d8ee6d81f438366f39b7996f5d987e7e",
+      "render/workbench.html": "sha256:f6cafd0cc382e3d69ad6dfd4a277e0b82341b1ef719cc73cc847a46c29084170"
+    },
+    "scopeViolationCount": 0,
+    "snapshotDigest": "sha256:ce5ebbaaff8651ef228a8b35f4658a13e4813c292d88a59b8527d29ebb31d2ed",
+    "status": "CLOSED"
+  },
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "iterations": [
+    {
+      "authoritativeDigestAfter": "sha256:ba95dd9ec933cc569f314a1979958712d8beb1213eb8fe1b63beeb457b7ded45",
+      "authoritativeDigestBefore": "sha256:ba95dd9ec933cc569f314a1979958712d8beb1213eb8fe1b63beeb457b7ded45",
+      "blockingAfter": 0,
+      "blockingBefore": 0,
+      "changeSet": {
+        "afterAuthoritativeDigest": "sha256:ba95dd9ec933cc569f314a1979958712d8beb1213eb8fe1b63beeb457b7ded45",
+        "afterSnapshotDigest": "sha256:ce5ebbaaff8651ef228a8b35f4658a13e4813c292d88a59b8527d29ebb31d2ed",
+        "beforeAuthoritativeDigest": "sha256:ba95dd9ec933cc569f314a1979958712d8beb1213eb8fe1b63beeb457b7ded45",
+        "beforeSnapshotDigest": "sha256:ce5ebbaaff8651ef228a8b35f4658a13e4813c292d88a59b8527d29ebb31d2ed",
+        "changed": [],
+        "formatVersion": "1.0",
+        "generatedOutputEdits": [],
+        "iteration": 1,
+        "requiredValidators": [
+          "agent.change_scope",
+          "agent.diagnostics",
+          "schematic.authoring_binding",
+          "schematic.authoring_examples",
+          "schematic.authoring_integrity",
+          "schematic.renderer_contract",
+          "schematic.symbol_design",
+          "schematic.symbol_schema"
+        ],
+        "route": "create-symbol",
+        "schema": "https://schemas.aixem.org/agent/change-set/1",
+        "scopeViolations": [],
+        "valid": true
+      },
+      "changeSetDigest": "sha256:92ca68d2b96a136f93c96b9732ba4fb4b2618663b060002de96fb208b870080a",
+      "diagnosticStateAfter": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "diagnosticStateBefore": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "diagnosticsAfter": [],
+      "diagnosticsBefore": [],
+      "improved": false,
+      "iteration": 1,
+      "renderedEvidence": {},
+      "route": "create-symbol",
+      "stage": "VALIDATED",
+      "validatorsExecuted": [
+        "agent.change_scope",
+        "agent.diagnostics",
+        "schematic.authoring_binding",
+        "schematic.authoring_examples",
+        "schematic.authoring_integrity",
+        "schematic.renderer_contract",
+        "schematic.symbol_design",
+        "schematic.symbol_schema"
+      ]
+    }
+  ],
+  "loopState": {
+    "atIteration": null,
+    "oscillating": false,
+    "stalled": false,
+    "stateDigest": null
+  },
+  "recordDigest": "sha256:263022c509498af80549d3bd50374ecb81924cafbb1084578e4300e969a42ca6",
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "routeChain": [
+    "create-symbol"
+  ],
+  "runId": "run-e41be67a65765f943776",
+  "schema": "https://schemas.aixem.org/agent/run-record/1",
+  "taskId": "a001",
+  "taskPacketDigest": "sha256:83eeed3b1727037db1f48f63a9bb0a6d39ae1b51667ed0ad72c988b07bd3f762"
+}

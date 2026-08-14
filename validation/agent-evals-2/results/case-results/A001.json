@@ -1,0 +1,24 @@
+{
+  "entryRoute": "create-symbol",
+  "executionMode": "deterministic-harness-replay",
+  "expectedInitialDiagnostics": [],
+  "id": "A001",
+  "iterations": 1,
+  "liveExternalAgentExecuted": false,
+  "missingExpectedDiagnostics": [],
+  "mutation": null,
+  "observedInitialDiagnostics": [],
+  "passConditions": {
+    "checkPassedAfterRepair": true,
+    "closePassed": true,
+    "expectedInitialDiagnosticsObserved": true,
+    "liveClaimFalse": true,
+    "renderDeterministic": true,
+    "zeroGeneratedOutputEdits": true,
+    "zeroScopeViolations": true
+  },
+  "recordDigest": "sha256:263022c509498af80549d3bd50374ecb81924cafbb1084578e4300e969a42ca6",
+  "retainedRunRecord": "runs/A001-authoring-run-record.json",
+  "status": "pass",
+  "title": "New two-pin passive from task intent"
+}

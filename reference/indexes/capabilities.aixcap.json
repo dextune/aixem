@@ -1,0 +1,90 @@
+{
+  "capabilityIndex": {
+    "capabilities": [
+      {
+        "available": true,
+        "id": "author-component-circuit",
+        "route": "reference/routes/author-component-circuit.aixroute.json"
+      },
+      {
+        "available": true,
+        "id": "build-documentation",
+        "route": "reference/routes/build-documentation.aixroute.json"
+      },
+      {
+        "available": true,
+        "id": "change-architecture",
+        "route": "reference/routes/change-architecture.aixroute.json"
+      },
+      {
+        "available": true,
+        "id": "compose-project",
+        "route": "reference/routes/compose-project.aixroute.json"
+      },
+      {
+        "available": true,
+        "id": "create-schematic",
+        "route": "reference/routes/create-schematic.aixroute.json"
+      },
+      {
+        "available": true,
+        "id": "create-symbol",
+        "route": "reference/routes/create-symbol.aixroute.json"
+      },
+      {
+        "available": true,
+        "id": "inspect-artifact",
+        "route": "reference/routes/inspect-artifact.aixroute.json"
+      },
+      {
+        "available": true,
+        "id": "inspect-viewer",
+        "route": "reference/routes/inspect-viewer.aixroute.json"
+      },
+      {
+        "available": true,
+        "id": "migrate-baseline",
+        "route": "reference/routes/migrate-baseline.aixroute.json"
+      },
+      {
+        "available": true,
+        "id": "publish-release",
+        "route": "reference/routes/publish-release.aixroute.json"
+      },
+      {
+        "available": true,
+        "id": "render-review",
+        "route": "reference/routes/render-review.aixroute.json"
+      },
+      {
+        "available": true,
+        "id": "route-nets",
+        "route": "reference/routes/route-nets.aixroute.json"
+      },
+      {
+        "available": true,
+        "id": "route-project-nets",
+        "route": "reference/routes/route-project-nets.aixroute.json"
+      },
+      {
+        "available": true,
+        "id": "validate-live-agent-authoring",
+        "route": "reference/routes/validate-live-agent-authoring.aixroute.json"
+      },
+      {
+        "available": true,
+        "id": "validate-project",
+        "route": "reference/routes/validate-project.aixroute.json"
+      },
+      {
+        "available": true,
+        "id": "validate-symbol-expressiveness",
+        "route": "reference/routes/validate-symbol-expressiveness.aixroute.json"
+      }
+    ],
+    "generatedAt": "2026-08-12T00:00:00Z",
+    "release": "AIXEM-SRP-0.5.9-2026-08-12"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcap/1"
+}

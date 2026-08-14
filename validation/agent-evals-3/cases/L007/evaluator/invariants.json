@@ -1,0 +1,123 @@
+{
+  "authority": "evaluator-only",
+  "caseId": "L007",
+  "formatVersion": "1.0",
+  "invariants": [
+    {
+      "arguments": {
+        "project": "project.aixproj.json",
+        "route": "validate-project"
+      },
+      "basis": [
+        {
+          "pointer": "/completionCriteria/3",
+          "type": "task"
+        }
+      ],
+      "description": "The actual final workspace passes full project validation.",
+      "id": "L007-VALID",
+      "predicate": "validator-pass",
+      "required": true
+    },
+    {
+      "arguments": {
+        "project": "project.aixproj.json",
+        "repeats": 3
+      },
+      "basis": [
+        {
+          "pointer": "/completionCriteria/3",
+          "type": "task"
+        }
+      ],
+      "description": "The actual final workspace renders deterministically three times.",
+      "id": "L007-RENDER",
+      "predicate": "render-deterministic",
+      "required": true
+    },
+    {
+      "arguments": {
+        "members": [
+          "alpha@GND",
+          "beta@GND"
+        ],
+        "mode": "exact",
+        "net": "common_return_77",
+        "project": "project.aixproj.json"
+      },
+      "basis": [
+        {
+          "pointer": "/facts",
+          "type": "task"
+        }
+      ],
+      "description": "Only explicit GND interfaces are joined by the requested project net.",
+      "id": "L007-RETURN",
+      "predicate": "project-net-members",
+      "required": true
+    },
+    {
+      "arguments": {
+        "members": [
+          "U1.9",
+          "@VCC"
+        ],
+        "mode": "exact",
+        "net": "vcc",
+        "source": "circuits/alpha.aixem"
+      },
+      "basis": [
+        {
+          "pointer": "/facts",
+          "type": "task"
+        }
+      ],
+      "description": "Alpha vcc remains local to alpha.",
+      "id": "L007-ALPHA",
+      "predicate": "local-net-members",
+      "required": true
+    },
+    {
+      "arguments": {
+        "members": [
+          "U1.9",
+          "@VCC"
+        ],
+        "mode": "exact",
+        "net": "vcc",
+        "source": "circuits/beta.aixem"
+      },
+      "basis": [
+        {
+          "pointer": "/facts",
+          "type": "task"
+        }
+      ],
+      "description": "Beta vcc remains local to beta.",
+      "id": "L007-BETA",
+      "predicate": "local-net-members",
+      "required": true
+    },
+    {
+      "arguments": {
+        "authorities": [
+          "semantic",
+          "layout",
+          "symbol",
+          "component-library"
+        ]
+      },
+      "basis": [
+        {
+          "pointer": "/writeConstraints/writableAuthorities",
+          "type": "task"
+        }
+      ],
+      "description": "Leaf semantic, layout, symbol, and library authorities remain unchanged.",
+      "id": "L007-PRESERVE",
+      "predicate": "authority-digest-unchanged",
+      "required": true
+    }
+  ],
+  "schema": "https://schemas.aixem.org/agent/evaluation-invariant/1"
+}

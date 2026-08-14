@@ -1,0 +1,53 @@
+{
+  "card": {
+    "aliases": [
+      "symbols",
+      "symbol authoring",
+      "symbol library"
+    ],
+    "appliesTo": [
+      "symbol-guide-navigation"
+    ],
+    "domain": "symbols",
+    "estimatedReadBytes": 4227,
+    "id": "AIXEM-SYMBOL-INDEX-001",
+    "inputs": [],
+    "keywords": [
+      "Symbol Authoring",
+      "create-schematic",
+      "create-symbol",
+      "symbol authoring",
+      "symbol library",
+      "symbols"
+    ],
+    "kind": "index",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/symbols/overview.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:4c8f1b791ab54061127042d7dccd434ede0dee3aec20eff61c5401c7db2693b5"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 500,
+    "readNext": [],
+    "rules": [
+      {
+        "id": "AIXEM-SYMBOL-INDEX-001.read",
+        "level": "should",
+        "text": "Guidance for compact, grid-aligned, endpoint-safe, independently authored schematic symbols."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SYMBOL-INDEX-001",
+        "path": "docs/symbols/index.md"
+      }
+    ],
+    "summary": "Guidance for compact, grid-aligned, endpoint-safe, independently authored schematic symbols.",
+    "title": "Symbol Authoring"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

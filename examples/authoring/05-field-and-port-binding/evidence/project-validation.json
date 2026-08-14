@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "componentTypeClosure": true,
+    "geometryDoesNotCreateConnectivity": true,
+    "independentVisualAssets": true,
+    "inputDigests": 4,
+    "layoutSchema": true,
+    "librarySchemas": 1,
+    "orthogonalRouting": true,
+    "placementClosure": true,
+    "presentationPortMapClosure": true,
+    "projectSchema": true,
+    "remoteAssetsDenied": true,
+    "routeEndpointClosure": true,
+    "routeViasOnGrid": true,
+    "semanticNetClosure": true,
+    "semanticPortClosure": true,
+    "symbolSchemas": 1,
+    "viewerModelSchema": true,
+    "viewerOffline": true,
+    "viewerQualifiedIdentityClosure": true,
+    "viewerReadOnly": true,
+    "viewerWorkbenchDistinct": true
+  },
+  "diagnostics": [],
+  "featuresUsed": [],
+  "generatedAt": "2026-08-10T12:00:00Z",
+  "gridValidation": {
+    "crossingPolicy": "junction-required",
+    "orthogonalSegments": 0,
+    "placementExceptions": [],
+    "placements": 1,
+    "placementsOnGrid": 1,
+    "profile": "aixem.schematic.grid-light",
+    "routeSegments": 0,
+    "routeViasOnGrid": true,
+    "snap": 2.5,
+    "zeroLengthSegments": []
+  },
+  "hashes": {
+    "drawing-svg": "sha256:2d17427506f8436f4cba881f974dd0d189688e94a32ef58e2cadd2ed10817137",
+    "engineering-workbench": "sha256:79dd66a17b7bb23e2f62d7943be81d7844d207146e77f5db02d37703098d945e",
+    "id": "authoring:field_port_binding",
+    "layoutDigest": "sha256:9840a3a8718d7fc7497fa3ce72bb6fd0243477545e5fce93d0dc4b270c36ecb5",
+    "manifestDigest": "sha256:d04056f425400443b4d37b3b879122f02ba3b3ff09375a93de4292137f17e2e9",
+    "resolved-scene": "sha256:8f2ccec6800359608c01da665721bc38621ff89925882d1706eef3a4641f09fd",
+    "sourceDigest": "sha256:f9f0919749d9e71a1fe44632c7aa8feb853ac5980597f73e7d1d4bb28e0945ce",
+    "standalone-viewer": "sha256:aa804dfa8e90ca916d5c7e0ef9fbc11b52ce09be0ae3b0fa3cf8efb7e209bfa9",
+    "viewer-model": "sha256:5f71eb536c1cbb983c7f14c0e43bc4f267f5c215c58a0026fee4f3de4f9eeaae"
+  },
+  "project": "authoring:field_port_binding",
+  "release": "AIXEM-SRP-0.5.5-2026-08-11",
+  "schema": "https://schemas.aixem.org/component-graphics/project-validation/1",
+  "statistics": {
+    "entities": 1,
+    "nets": 0,
+    "noConnects": 2,
+    "primitives": 6,
+    "routeSegments": 0,
+    "symbolAssets": 1
+  },
+  "valid": true
+}

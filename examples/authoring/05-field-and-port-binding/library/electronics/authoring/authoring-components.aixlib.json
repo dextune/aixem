@@ -1,0 +1,108 @@
+{
+  "formatVersion": "1.0",
+  "library": {
+    "components": [
+      {
+        "classification": [],
+        "description": "Bound sensor",
+        "displayName": "Bound sensor",
+        "id": "authoring:sensor",
+        "kind": "sensor",
+        "metadata": {
+          "partProvenance": {
+            "status": "generic-template"
+          },
+          "semanticReady": true
+        },
+        "ports": [
+          {
+            "id": "in",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "digital"
+              }
+            },
+            "name": "Input",
+            "required": false,
+            "terminal": "in",
+            "type": "input"
+          },
+          {
+            "id": "out",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "digital"
+              }
+            },
+            "name": "Output",
+            "required": false,
+            "terminal": "out",
+            "type": "output"
+          }
+        ],
+        "presentations": [
+          {
+            "asset": {
+              "digest": "sha256:334056e981bd1741e42f034fbbeb3547dc5f7b1025b8d8c05d449d86da0e2e71",
+              "path": "library/electronics/authoring/sensor.aixsym.json",
+              "revision": "1.0.0",
+              "symbolId": "authoring:sensor"
+            },
+            "fieldMap": {
+              "deviceLabel": "label",
+              "reference": "refdes",
+              "value": "rating"
+            },
+            "portMap": {
+              "in": "p-left",
+              "out": "p-right"
+            },
+            "purpose": "primary-diagram"
+          }
+        ],
+        "properties": [
+          {
+            "id": "refdes",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "id": "rating",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "id": "label",
+            "required": false,
+            "type": "string"
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "description": "Field and Port Binding library",
+    "id": "authoring:field_port_binding-library",
+    "metadata": {
+      "profile": "component.graphics@1"
+    },
+    "namespace": "authoring",
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-11",
+      "license": "CC0-1.0",
+      "notes": "Field and Port Binding library",
+      "origin": "AIXEM 0.5.1 authoring documentation"
+    },
+    "title": "Field and Port Binding library",
+    "version": "1.0.0"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/aixlib/1"
+}

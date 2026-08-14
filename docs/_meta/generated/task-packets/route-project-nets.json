@@ -1,0 +1,130 @@
+{
+  "authority": "derived-navigation-only",
+  "budget": {
+    "max_bytes": 98304,
+    "max_depth": 3,
+    "max_documents": 7
+  },
+  "completion": [
+    "All project route terminals resolve to declared interface ports",
+    "All project route segments are deterministic and orthogonal",
+    "Different project nets may cross without implicit junctions",
+    "Semantic membership remains unchanged by routing"
+  ],
+  "documents": [
+    {
+      "bytes": 4053,
+      "digest": "sha256:41c1b8d26ea8a8f8be4f330a847c7ed07602a85d85dde0ad48016141116055e7",
+      "document": "AIXEM-CONCEPT-PROJECT-NET-001",
+      "order": 1,
+      "path": "docs/concepts/project-net-model.md",
+      "purpose": "Separate local leaf routing authority from derived project-level routing.",
+      "required": true,
+      "section": "routing-separation"
+    },
+    {
+      "bytes": 6258,
+      "digest": "sha256:81cef50427ec3e17118b54d96947ece0e9622bf428db34f830808b3c21b6d02e",
+      "document": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
+      "order": 2,
+      "path": "docs/specifications/layout/hierarchical-sheet-port-contract.md",
+      "purpose": "Resolve each project route terminal from a semantic interface port presentation.",
+      "required": true,
+      "section": "route-endpoint-resolution"
+    },
+    {
+      "bytes": 11956,
+      "digest": "sha256:4e8c08391186c558988a3beaa924d13e8e432c7ac56705730c24033d1a3c5dd6",
+      "document": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
+      "order": 3,
+      "path": "docs/specifications/project/project-composition-contract.md",
+      "purpose": "Read project-net members and qualified identities from the validated project graph.",
+      "required": true,
+      "section": "project-semantic-graph"
+    },
+    {
+      "bytes": 8116,
+      "digest": "sha256:641b43cd46e68c363beb52a32f76f97b90c6aba9bc16fbfc0b99bd892e47942f",
+      "document": "AIXEM-ROUTE-NETS-001",
+      "order": 4,
+      "path": "docs/routing/net-routing.md",
+      "purpose": "Preserve local entity-to-interface route closure inside each leaf.",
+      "required": true,
+      "section": "routing-to-an-interface-endpoint"
+    },
+    {
+      "bytes": 4429,
+      "digest": "sha256:ee2d6ac7c28527d05876e3b3ad59540e69ae7f30726df779e5449ceeb99fc262",
+      "document": "AIXEM-AGENT-ROUTING-001",
+      "order": 5,
+      "path": "docs/agent/routing-agent.md",
+      "purpose": "Prevent route repair from changing project-net or local-net membership.",
+      "required": true,
+      "section": "local-versus-project-routing-discipline"
+    },
+    {
+      "bytes": 10424,
+      "digest": "sha256:a951754958a0d0f0a91838ba1f395e76f92ca78642b199563ec5631f19747723",
+      "document": "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
+      "order": 6,
+      "path": "docs/conformance/hierarchical-project.md",
+      "purpose": "Check overview, composite, project-scene, and Workbench routing evidence.",
+      "required": true,
+      "section": "required-outputs"
+    }
+  ],
+  "expectedInputs": [
+    "validated project semantic graph",
+    "resolved sheet interface anchors",
+    "deterministic sheet order and transforms"
+  ],
+  "expectedOutputs": [
+    "deterministic project overview routes",
+    "deterministic composite routes",
+    "project routing diagnostics",
+    "updated resolved-project-scene evidence"
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "id": "route-project-nets",
+  "intent": "route-project-nets",
+  "kind": "simple",
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "remediation": {
+    "acceptsDiagnostics": [
+      "AIXEM-DIAG-PROJECT-ROUTE-NON-ORTHOGONAL"
+    ]
+  },
+  "schema": "https://schemas.aixem.org/documentation/task-packet/1",
+  "source": "docs/_meta/routes/route-project-nets.yaml",
+  "sourceDigest": "sha256:3c295699e7653fe78e990c225e3fbd8ef50915617fff7949d7bc5964cded3839",
+  "summary": "Route already-declared project nets between resolved sheet interface anchors without changing semantic membership",
+  "validators": [
+    "schematic.route_closure",
+    "schematic.orthogonal",
+    "schematic.deterministic",
+    "schematic.workbench",
+    "agent.diagnostics",
+    "agent.change_scope"
+  ],
+  "writes": {
+    "artifacts": [],
+    "authority": [],
+    "derived": [
+      "render/**",
+      "evidence/**"
+    ],
+    "prohibited": [
+      "render/**",
+      "evidence/**",
+      "**/viewer.html",
+      "**/workbench.html",
+      "**/*.svg",
+      "**/resolved-scene.json",
+      "**/resolved-project-scene.json",
+      "**/viewer-model.json",
+      "**/render-manifest.json",
+      "**/project-validation.json"
+    ]
+  }
+}

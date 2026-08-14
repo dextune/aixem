@@ -1,0 +1,143 @@
+{
+  "captureManifest": "validation/evidence/pass-02/authoring-visual-capture.json",
+  "checks": [
+    {
+      "criteria": [
+        "body and two leads visible",
+        "lead/port endpoints align",
+        "reference and value clear",
+        "route and no-connect marks legible"
+      ],
+      "digest": "sha256:419560c0835fe7c3e04f1b5396d026f5a7766dde85e5c23b41a2cc069bdd553c",
+      "example": "01-two-pin-passive",
+      "screenshot": "validation/evidence/pass-02/authoring-visuals/01-two-pin-passive.png",
+      "status": "pass"
+    },
+    {
+      "criteria": [
+        "six pins visible on consistent pitch",
+        "numbers and names readable",
+        "reference/value clear",
+        "symbol clears title block"
+      ],
+      "digest": "sha256:92d3263e81866cdbe04dea10e93d51ea3185cf2983b08b37b07b76e40e1b4506",
+      "example": "02-connector",
+      "screenshot": "validation/evidence/pass-02/authoring-visuals/02-connector.png",
+      "status": "pass"
+    },
+    {
+      "criteria": [
+        "functional groups readable",
+        "power and ground pins visible",
+        "body and fields clear",
+        "symbol clears title block"
+      ],
+      "digest": "sha256:90251db1d08f90c21474af59d65d6c6f128240a4c881dfd15762bca50b6c257d",
+      "example": "03-multi-pin-ic",
+      "screenshot": "validation/evidence/pass-02/authoring-visuals/03-multi-pin-ic.png",
+      "status": "pass"
+    },
+    {
+      "criteria": [
+        "both variants visibly distinct",
+        "field text clear",
+        "route closes",
+        "no-connect marks visible"
+      ],
+      "digest": "sha256:5eaefdb2a3cea7ab126296b4f8e0cb8851f70fa7a433d916769db71d9a9e472f",
+      "example": "04-parameterized-variant",
+      "screenshot": "validation/evidence/pass-02/authoring-visuals/04-parameterized-variant.png",
+      "status": "pass"
+    },
+    {
+      "criteria": [
+        "mapped pin labels visible",
+        "custom field visible",
+        "placement override visible",
+        "no field/body collision"
+      ],
+      "digest": "sha256:801aa037003567de10f01ac811174e10fb33dcfc2926b489d067498a216f21cc",
+      "example": "05-field-and-port-binding",
+      "screenshot": "validation/evidence/pass-02/authoring-visuals/05-field-and-port-binding.png",
+      "status": "pass"
+    },
+    {
+      "criteria": [
+        "orthogonal route visible",
+        "both terminal references upright",
+        "net label clear",
+        "route clears title block"
+      ],
+      "digest": "sha256:1ac5351bbf8c9125e76f0e5df5f3cc0c60bfeebef68fb9c23a2df1820929d4c3",
+      "example": "06-two-terminal-route",
+      "screenshot": "validation/evidence/pass-02/authoring-visuals/06-two-terminal-route.png",
+      "status": "pass"
+    },
+    {
+      "criteria": [
+        "three-branch bus visible",
+        "explicit junction marker visible",
+        "unrelated crossing has no junction",
+        "labels and terminal references do not collide"
+      ],
+      "digest": "sha256:1de3cff06d646682bb55c8f738c1671a84937168458f5556c8c25665d5785267",
+      "example": "07-multi-terminal-junction",
+      "screenshot": "validation/evidence/pass-02/authoring-visuals/07-multi-terminal-junction.png",
+      "status": "pass"
+    },
+    {
+      "criteria": [
+        "repaired leads reach ports",
+        "reference/value clear",
+        "no-connect marks visible",
+        "symbol clears title block"
+      ],
+      "digest": "sha256:a9d7e36555e034b8f8bc595edb8a73122b2eac4dfdb1f8c103c6646ad1971d75",
+      "example": "08-visual-repair",
+      "screenshot": "validation/evidence/pass-02/authoring-visuals/08-visual-repair.png",
+      "status": "pass"
+    }
+  ],
+  "contactSheet": "validation/evidence/pass-02/authoring-visual-contact-sheet.png",
+  "contactSheetDigest": "sha256:0282c5327ec1951b06fdf3d7a3b65c607b1456fb617567cb8873f23451050e35",
+  "defectsFound": [
+    {
+      "example": "02-connector",
+      "id": "VQA-051-01",
+      "owner": "layout placement",
+      "repair": "Moved J1 from y=50 mm to y=40 mm.",
+      "symptom": "Value field entered the title-block clearance zone."
+    },
+    {
+      "example": "03-multi-pin-ic",
+      "id": "VQA-051-02",
+      "owner": "layout placement",
+      "repair": "Moved U1 from y=50 mm to y=40 mm.",
+      "symptom": "Bottom power labels and value approached the title block."
+    },
+    {
+      "example": "06-two-terminal-route",
+      "id": "VQA-051-03",
+      "owner": "layout placement and route geometry",
+      "repair": "Removed the 180-degree placement rotation, moved T2 to y=60 mm, and updated the final route bend.",
+      "symptom": "Rotating T2 also rotated its reference field and placed it too near the title block."
+    },
+    {
+      "example": "07-multi-terminal-junction",
+      "id": "VQA-051-04",
+      "owner": "layout placement and route annotation",
+      "repair": "Re-laid all terminals upright, separated bus and crossing channels, and moved the crossing label away from terminal references.",
+      "symptom": "Rotated terminal fields and the crossing label produced poor legibility and collisions."
+    }
+  ],
+  "examplesReviewed": 8,
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "networkAccess": "not used",
+  "release": "AIXEM-SRP-0.5.1-2026-08-11",
+  "repairsRevalidated": true,
+  "reviewMode": "browser-rendered SVG inspection at 1600x1000",
+  "schema": "https://schemas.aixem.org/validation/authoring-visual-review/1",
+  "unresolvedDefects": [],
+  "valid": true
+}

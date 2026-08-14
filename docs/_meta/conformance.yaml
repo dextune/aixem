@@ -1,0 +1,3255 @@
+schema: https://schemas.aixem.org/documentation/conformance-map/1
+formatVersion: '1.0'
+validators:
+  agent.authoring_closed_loop:
+    description: Agent Prepare Check Close Harness
+    implementation: tools/agent_authoring.py
+    mode: automated
+  agent.authoring_routes:
+    description: Agent Authoring Routes
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  agent.authority_plan:
+    description: Agent Authority Plan
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  agent.change_scope:
+    description: Agent Route Change Scope
+    implementation: implementation/agent/change_scope.py
+    mode: automated
+  agent.cold_start_stage:
+    description: Cold-Start Stage Contract 1
+    implementation: implementation/agent/cold_start_stage.py
+    mode: automated
+  agent.diagnostics:
+    description: Agent Diagnostic Contract
+    implementation: implementation/agent/diagnostics.py
+    mode: automated
+  agent.evaluation_3:
+    description: Agent Evaluation 3 Cold-Start Corpus
+    implementation: tools/run_agent_evals_3.py
+    mode: automated
+  agent.evaluation_invariants:
+    description: Evaluation Invariant Contract 1
+    implementation: implementation/agent/invariant_scorer.py
+    mode: automated
+  agent.evaluation_tier_truth:
+    description: Agent Evaluation Tier Truth
+    implementation: tools/run_agent_evals_2.py
+    mode: automated
+  agent.evidence:
+    description: Agent Evidence
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  agent.live_executor:
+    description: Live Executor Protocol 1
+    implementation: implementation/agent/live_executor.py
+    mode: automated
+  agent.live_run:
+    description: Live Run Evidence 1
+    implementation: implementation/agent/live_run.py
+    mode: automated
+  agent.observation:
+    description: Observation Event Contract 1
+    implementation: implementation/agent/observation.py
+    mode: automated
+  agent.pre_live_readiness:
+    description: Pre-Live Agent Readiness Gate
+    implementation: tools/run_agent_evals_3.py
+    mode: automated
+  agent.run_record:
+    description: Agent Authoring Run Record
+    implementation: implementation/agent/run_record.py
+    mode: automated
+  agent.task_contract:
+    description: Agent Task Contract 1
+    implementation: implementation/agent/task_contract.py
+    mode: automated
+  agent.visual_qa:
+    description: Agent Visual QA and Repair
+    implementation: tools/docs/authoring_validation.py
+    mode: automated
+  docs.archive_safety:
+    description: Docs Archive Safety
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.artifact_existence:
+    description: Docs Artifact Existence
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.artifact_ownership:
+    description: Docs Artifact Ownership
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.authoring_reference:
+    description: Authoring Schema Reference Coverage
+    implementation: tools/docs/authoring_validation.py
+    mode: automated
+  docs.authoring_snippets:
+    description: Source-backed Authoring Snippets
+    implementation: tools/docs/authoring_validation.py
+    mode: automated
+  docs.authority_conflict:
+    description: Docs Authority Conflict
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.canonical_root:
+    description: Docs Canonical Root
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.compatibility_reference:
+    description: Docs Compatibility Reference
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.dependencies:
+    description: Docs Dependencies
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.deprecation:
+    description: Docs Deprecation
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.deterministic:
+    description: Docs Deterministic
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.english:
+    description: Docs English
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.evidence:
+    description: Docs Evidence
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.generated_freshness:
+    description: Docs Generated Freshness
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.generated_locations:
+    description: Docs Generated Locations
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.legacy_inventory:
+    description: Docs Legacy Inventory
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.links:
+    description: Docs Links
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.manifest:
+    description: Docs Manifest
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.metadata:
+    description: Docs Metadata
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.path_safety:
+    description: Docs Path Safety
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.pipeline:
+    description: Docs Pipeline
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.release_gate:
+    description: Docs Release Gate
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.release_metadata:
+    description: Docs Release Metadata
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.reproducibility:
+    description: Docs Reproducibility
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.requirement_body:
+    description: Docs Requirement Body
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.requirements:
+    description: Docs Requirements
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.site:
+    description: Docs Site
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.source_digest:
+    description: Docs Source Digest
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.three_passes:
+    description: Docs Three Passes
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.five_passes:
+    description: Docs Five Complete Verification Passes
+    implementation: tools/verify_release_057.py
+    mode: automated
+  docs.unique_ids:
+    description: Docs Unique Ids
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.visual_review:
+    description: Docs Visual Review
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  manual.accessibility:
+    description: Manual Accessibility
+    implementation: tools/docs/aixem_docs.py
+    mode: review
+  manual.architecture:
+    description: Manual Architecture
+    implementation: tools/docs/aixem_docs.py
+    mode: review
+  manual.compatibility:
+    description: Manual Compatibility
+    implementation: tools/docs/aixem_docs.py
+    mode: review
+  manual.symbol_visual_review:
+    description: Manual Symbol and Schematic Visual Review
+    implementation: validation/reviews/authoring-visual-review.md
+    mode: review
+  manual.vendor_neutral:
+    description: Manual Vendor Neutral
+    implementation: tools/docs/aixem_docs.py
+    mode: review
+  route.aliases:
+    description: Route Aliases
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  route.budget:
+    description: Route Budget
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  route.completion:
+    description: Route Completion
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  route.corpus:
+    description: Route Corpus
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  route.resolve:
+    description: Route Resolve
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  route.targets:
+    description: Route Targets
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  route.write_scope:
+    description: Route Write Scope and Child Stage Resolution
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  schematic.annotation:
+    description: Schematic Annotation
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  schematic.authoring_binding:
+    description: Component to Symbol Authoring Binding
+    implementation: tools/docs/authoring_validation.py
+    mode: automated
+  schematic.authoring_examples:
+    description: Executable Authoring Golden Examples
+    implementation: tools/docs/authoring_validation.py
+    mode: automated
+  schematic.component_type_closure:
+    description: Schematic Component Type Closure
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  schematic.coordinate_units:
+    description: Schematic Coordinate Units
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  schematic.deterministic:
+    description: Schematic Deterministic
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  schematic.digest_lock:
+    description: Schematic Digest Lock
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  schematic.endpoint_closure:
+    description: Schematic Endpoint Closure
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  schematic.example:
+    description: Schematic Example
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  schematic.feature_support:
+    description: Schematic Feature Support
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  schematic.geometry_isolation:
+    description: Schematic Geometry Isolation
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  schematic.grid:
+    description: Schematic Grid
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  schematic.junction:
+    description: Schematic Junction
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  schematic.layout_closure:
+    description: Schematic Layout Closure
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  schematic.layout_schema:
+    description: Schematic Layout Schema
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  schematic.library_schema:
+    description: Schematic Library Schema
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  schematic.no_connect:
+    description: Schematic No Connect
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  schematic.orthogonal:
+    description: Schematic Orthogonal
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  schematic.placement_closure:
+    description: Schematic Placement Closure
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  schematic.port_mapping:
+    description: Schematic Port Mapping
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  schematic.profile_checks:
+    description: Schematic Profile Checks
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  schematic.project_schema:
+    description: Schematic Project Schema
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  schematic.reference_viewer:
+    description: Reference Viewer Contract and Browser Conformance
+    implementation: tools/validate_reference_viewer_corpus.py
+    mode: automated
+  schematic.remote_assets:
+    description: Schematic Remote Assets
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  schematic.renderer_contract:
+    description: Renderer Resolution Contract
+    implementation: tools/docs/authoring_validation.py
+    mode: automated
+  schematic.route_clearance:
+    description: Schematic Route Clearance
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  schematic.route_closure:
+    description: Schematic Route Closure
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  schematic.schema:
+    description: Schematic Schema
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  schematic.semantic:
+    description: Schematic Semantic
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  schematic.style_profile:
+    description: Schematic Style Profile
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  schematic.symbol_design:
+    description: Symbol Design Profile
+    implementation: tools/docs/authoring_validation.py
+    mode: automated
+  schematic.symbol_geometry:
+    description: Schematic Symbol Geometry
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  schematic.symbol_grid:
+    description: Schematic Symbol Grid
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  schematic.symbol_schema:
+    description: Schematic Symbol Schema
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  schematic.workbench:
+    description: Schematic Workbench
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.repository_inventory:
+    description: Repository Document Inventory
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.document_naming:
+    description: Repository Document Naming
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.document_discoverability:
+    description: Role-Aware Document Discoverability
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.canonical_structure:
+    description: Canonical Current-State Structure
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.path_migrations:
+    description: Canonical Path Migrations
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.metadata_vocabulary:
+    description: Controlled Documentation Metadata Vocabulary
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.document_lifecycle:
+    description: Planning and Validation Document Lifecycle
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.agent_document_rules:
+    description: Agent Documentation Creation Rules
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.root_reference_chain:
+    description: Root Reference Chain Integrity
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.section_index_coverage:
+    description: Canonical Section Index Coverage
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.release_coherence:
+    description: Current Release Documentation Coherence
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  docs.authority_scope:
+    description: Normative Authority Scope Ownership
+    implementation: tools/docs/aixem_docs.py
+    mode: automated
+  schematic.authoring_integrity:
+    description: Canonical library, provenance, pin semantics, compatibility, grid coherence, and claim separation
+    implementation: implementation/schematic/authoring_integrity.py
+    mode: automated
+  schematic.placement_assist:
+    description: Deterministic read-only placement snap and magnetic alignment assistance
+    implementation: implementation/schematic/placement_assist.py
+    mode: automated
+tests:
+  tests/docs/test_repository.py::RepositoryConformanceTests.test_agent_policy:
+    description: Test Agent Policy
+    path: tests/docs/test_repository.py
+    selector: RepositoryConformanceTests.test_agent_policy
+  tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity:
+    description: Test Documentation Integrity
+    path: tests/docs/test_repository.py
+    selector: RepositoryConformanceTests.test_documentation_integrity
+  tests/docs/test_repository.py::RepositoryConformanceTests.test_review_evidence:
+    description: Test Review Evidence
+    path: tests/docs/test_repository.py
+    selector: RepositoryConformanceTests.test_review_evidence
+  tests/docs/test_repository.py::RepositoryConformanceTests.test_route_integrity:
+    description: Test Route Integrity
+    path: tests/docs/test_repository.py
+    selector: RepositoryConformanceTests.test_route_integrity
+  tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example:
+    description: Test Schematic Example
+    path: tests/docs/test_repository.py
+    selector: RepositoryConformanceTests.test_schematic_example
+  tests/docs/test_authoring_reference.py::AuthoringReferenceTests.test_schema_reference_coverage:
+    description: Test AuthoringReferenceTests test_schema_reference_coverage
+    path: tests/docs/test_authoring_reference.py
+    selector: AuthoringReferenceTests.test_schema_reference_coverage
+  tests/docs/test_authoring_reference.py::AuthoringReferenceTests.test_source_backed_snippets:
+    description: Test AuthoringReferenceTests test_source_backed_snippets
+    path: tests/docs/test_authoring_reference.py
+    selector: AuthoringReferenceTests.test_source_backed_snippets
+  tests/docs/test_authoring_examples.py::AuthoringExampleTests.test_symbol_design_profile:
+    description: Test AuthoringExampleTests test_symbol_design_profile
+    path: tests/docs/test_authoring_examples.py
+    selector: AuthoringExampleTests.test_symbol_design_profile
+  tests/docs/test_authoring_examples.py::AuthoringExampleTests.test_authoring_golden_examples:
+    description: Test AuthoringExampleTests test_authoring_golden_examples
+    path: tests/docs/test_authoring_examples.py
+    selector: AuthoringExampleTests.test_authoring_golden_examples
+  tests/docs/test_authoring_examples.py::AuthoringExampleTests.test_visual_repair_fixture:
+    description: Test AuthoringExampleTests test_visual_repair_fixture
+    path: tests/docs/test_authoring_examples.py
+    selector: AuthoringExampleTests.test_visual_repair_fixture
+  tests/docs/test_renderer_contract.py::RendererContractTests.test_variant_and_parameter_precedence:
+    description: Test RendererContractTests test_variant_and_parameter_precedence
+    path: tests/docs/test_renderer_contract.py
+    selector: RendererContractTests.test_variant_and_parameter_precedence
+  tests/docs/test_renderer_contract.py::RendererContractTests.test_field_precedence:
+    description: Test RendererContractTests test_field_precedence
+    path: tests/docs/test_renderer_contract.py
+    selector: RendererContractTests.test_field_precedence
+  tests/docs/test_renderer_contract.py::RendererContractTests.test_port_map_direction_totality_and_visibility:
+    description: Test RendererContractTests test_port_map_direction_totality_and_visibility
+    path: tests/docs/test_renderer_contract.py
+    selector: RendererContractTests.test_port_map_direction_totality_and_visibility
+  tests/docs/test_renderer_contract.py::RendererContractTests.test_fail_closed_binding_cases:
+    description: Test RendererContractTests test_fail_closed_binding_cases
+    path: tests/docs/test_renderer_contract.py
+    selector: RendererContractTests.test_fail_closed_binding_cases
+  tests/docs/test_authoring_routes.py::AuthoringRouteTests.test_composite_route_chain:
+    description: Test AuthoringRouteTests test_composite_route_chain
+    path: tests/docs/test_authoring_routes.py
+    selector: AuthoringRouteTests.test_composite_route_chain
+  tests/docs/test_authoring_routes.py::AuthoringRouteTests.test_authoring_route_budgets:
+    description: Test AuthoringRouteTests test_authoring_route_budgets
+    path: tests/docs/test_authoring_routes.py
+    selector: AuthoringRouteTests.test_authoring_route_budgets
+  tests/docs/test_authoring_routes.py::AuthoringRouteTests.test_agents_policy_contains_source_inspection_gate:
+    description: Test AuthoringRouteTests test_agents_policy_contains_source_inspection_gate
+    path: tests/docs/test_authoring_routes.py
+    selector: AuthoringRouteTests.test_agents_policy_contains_source_inspection_gate
+  tests/docs/test_authoring_routes.py::AuthoringRouteTests.test_task_packets_match_route_sources:
+    description: Test AuthoringRouteTests test_task_packets_match_route_sources
+    path: tests/docs/test_authoring_routes.py
+    selector: AuthoringRouteTests.test_task_packets_match_route_sources
+  ? tests/conformance/test_hierarchical_project.py::HierarchicalProjectConformanceTests.test_interface_endpoint_is_a_real_leaf_semantic_endpoint
+  : description: Hierarchical interface endpoint semantic closure
+    path: tests/conformance/test_hierarchical_project.py
+    selector: HierarchicalProjectConformanceTests.test_interface_endpoint_is_a_real_leaf_semantic_endpoint
+  tests/conformance/test_hierarchical_project.py::HierarchicalProjectConformanceTests.test_complete_corpus_runner:
+    description: Complete hierarchical positive and negative corpus runner
+    path: tests/conformance/test_hierarchical_project.py
+    selector: HierarchicalProjectConformanceTests.test_complete_corpus_runner
+  ? tests/conformance/test_hierarchical_project.py::HierarchicalProjectConformanceTests.test_multi_view_render_outputs_and_workbench_are_data_driven
+  : description: Multi-view renderer and data-driven Workbench
+    path: tests/conformance/test_hierarchical_project.py
+    selector: HierarchicalProjectConformanceTests.test_multi_view_render_outputs_and_workbench_are_data_driven
+  ? tests/conformance/test_hierarchical_project.py::HierarchicalProjectConformanceTests.test_project_graph_queries_and_name_isolation
+  : description: Project graph queries and cross-sheet name isolation
+    path: tests/conformance/test_hierarchical_project.py
+    selector: HierarchicalProjectConformanceTests.test_project_graph_queries_and_name_isolation
+  ? tests/conformance/test_hierarchical_project.py::HierarchicalProjectConformanceTests.test_hierarchy_is_explicit_acyclic_and_deterministic
+  : description: Explicit acyclic deterministic hierarchy
+    path: tests/conformance/test_hierarchical_project.py
+    selector: HierarchicalProjectConformanceTests.test_hierarchy_is_explicit_acyclic_and_deterministic
+  ? tests/conformance/test_hierarchical_project.py::HierarchicalProjectConformanceTests.test_project_net_equivalence_collision_fails_closed
+  : description: Project-net equivalence collision rejection
+    path: tests/conformance/test_hierarchical_project.py
+    selector: HierarchicalProjectConformanceTests.test_project_net_equivalence_collision_fails_closed
+  ? tests/conformance/test_hierarchical_project.py::HierarchicalProjectConformanceTests.test_ten_sheet_project_and_three_run_determinism
+  : description: Ten-sheet scale and three-run determinism
+    path: tests/conformance/test_hierarchical_project.py
+    selector: HierarchicalProjectConformanceTests.test_ten_sheet_project_and_three_run_determinism
+  ? tests/conformance/test_hierarchical_project.py::HierarchicalProjectConformanceTests.test_legacy_production_outputs_remain_byte_identical
+  : description: Legacy leaf output byte identity
+    path: tests/conformance/test_hierarchical_project.py
+    selector: HierarchicalProjectConformanceTests.test_legacy_production_outputs_remain_byte_identical
+  tests/docs/test_hierarchical_authoring_routes.py::HierarchicalAuthoringRouteTests.test_three_pass_release_evidence:
+    description: Three-pass hierarchical release evidence
+    path: tests/docs/test_hierarchical_authoring_routes.py
+    selector: HierarchicalAuthoringRouteTests.test_three_pass_release_evidence
+  tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v001_single_sheet_reference_viewer:
+    description: 'Reference Viewer conformance: test v001 single sheet reference viewer'
+    path: tests/conformance/test_reference_viewer.py
+    selector: ReferenceViewerConformanceTests.test_v001_single_sheet_reference_viewer
+  ? tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v002_v003_multisheet_modes_and_hierarchy_navigation
+  : description: 'Reference Viewer conformance: test v002 v003 multisheet modes and hierarchy navigation'
+    path: tests/conformance/test_reference_viewer.py
+    selector: ReferenceViewerConformanceTests.test_v002_v003_multisheet_modes_and_hierarchy_navigation
+  tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v004_same_name_local_net_isolation:
+    description: 'Reference Viewer conformance: test v004 same name local net isolation'
+    path: tests/conformance/test_reference_viewer.py
+    selector: ReferenceViewerConformanceTests.test_v004_same_name_local_net_isolation
+  ? tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v005_v006_project_net_and_interface_selection
+  : description: 'Reference Viewer conformance: test v005 v006 project net and interface selection'
+    path: tests/conformance/test_reference_viewer.py
+    selector: ReferenceViewerConformanceTests.test_v005_v006_project_net_and_interface_selection
+  tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v007_sheet_scoped_layer_visibility:
+    description: 'Reference Viewer conformance: test v007 sheet scoped layer visibility'
+    path: tests/conformance/test_reference_viewer.py
+    selector: ReferenceViewerConformanceTests.test_v007_sheet_scoped_layer_visibility
+  tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v008_cross_view_selection_continuity:
+    description: 'Reference Viewer conformance: test v008 cross view selection continuity'
+    path: tests/conformance/test_reference_viewer.py
+    selector: ReferenceViewerConformanceTests.test_v008_cross_view_selection_continuity
+  tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v009_component_search_opens_owning_sheet:
+    description: 'Reference Viewer conformance: test v009 component search opens owning sheet'
+    path: tests/conformance/test_reference_viewer.py
+    selector: ReferenceViewerConformanceTests.test_v009_component_search_opens_owning_sheet
+  tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v010_pan_zoom_fit_per_view_state:
+    description: 'Reference Viewer conformance: test v010 pan zoom fit per view state'
+    path: tests/conformance/test_reference_viewer.py
+    selector: ReferenceViewerConformanceTests.test_v010_pan_zoom_fit_per_view_state
+  tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v015_dom_identity_closure_and_unique_ids:
+    description: 'Reference Viewer conformance: test v015 dom identity closure and unique ids'
+    path: tests/conformance/test_reference_viewer.py
+    selector: ReferenceViewerConformanceTests.test_v015_dom_identity_closure_and_unique_ids
+  tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v016_ten_sheet_scale_baseline:
+    description: 'Reference Viewer conformance: test v016 ten sheet scale baseline'
+    path: tests/conformance/test_reference_viewer.py
+    selector: ReferenceViewerConformanceTests.test_v016_ten_sheet_scale_baseline
+  ? tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v017_viewer_workbench_are_distinct_shared_profiles
+  : description: 'Reference Viewer conformance: test v017 viewer workbench are distinct shared profiles'
+    path: tests/conformance/test_reference_viewer.py
+    selector: ReferenceViewerConformanceTests.test_v017_viewer_workbench_are_distinct_shared_profiles
+  ? tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v018_three_run_viewer_artifact_determinism
+  : description: 'Reference Viewer conformance: test v018 three run viewer artifact determinism'
+    path: tests/conformance/test_reference_viewer.py
+    selector: ReferenceViewerConformanceTests.test_v018_three_run_viewer_artifact_determinism
+  tests/conformance/test_viewer_security.py::ViewerSecurityConformanceTests.test_v013_offline_network_denial_and_csp:
+    description: 'Reference Viewer conformance: test v013 offline network denial and csp'
+    path: tests/conformance/test_viewer_security.py
+    selector: ViewerSecurityConformanceTests.test_v013_offline_network_denial_and_csp
+  tests/conformance/test_viewer_security.py::ViewerSecurityConformanceTests.test_v014_hostile_authored_text_is_inert:
+    description: 'Reference Viewer conformance: test v014 hostile authored text is inert'
+    path: tests/conformance/test_viewer_security.py
+    selector: ViewerSecurityConformanceTests.test_v014_hostile_authored_text_is_inert
+  ? tests/conformance/test_viewer_security.py::ViewerSecurityConformanceTests.test_structural_negative_viewer_models_fail_closed
+  : description: 'Reference Viewer conformance: test structural negative viewer models fail closed'
+    path: tests/conformance/test_viewer_security.py
+    selector: ViewerSecurityConformanceTests.test_structural_negative_viewer_models_fail_closed
+  ? tests/conformance/test_viewer_accessibility.py::ViewerAccessibilityConformanceTests.test_v011_keyboard_only_required_workflow
+  : description: 'Reference Viewer conformance: test v011 keyboard only required workflow'
+    path: tests/conformance/test_viewer_accessibility.py
+    selector: ViewerAccessibilityConformanceTests.test_v011_keyboard_only_required_workflow
+  ? tests/conformance/test_viewer_accessibility.py::ViewerAccessibilityConformanceTests.test_programmatic_control_state_and_visible_focus
+  : description: 'Reference Viewer conformance: test programmatic control state and visible focus'
+    path: tests/conformance/test_viewer_accessibility.py
+    selector: ViewerAccessibilityConformanceTests.test_programmatic_control_state_and_visible_focus
+  ? tests/conformance/test_viewer_accessibility.py::ViewerAccessibilityConformanceTests.test_v012_narrow_viewport_retains_navigation_and_inspection
+  : description: 'Reference Viewer conformance: test v012 narrow viewport retains navigation and inspection'
+    path: tests/conformance/test_viewer_accessibility.py
+    selector: ViewerAccessibilityConformanceTests.test_v012_narrow_viewport_retains_navigation_and_inspection
+  tests/agent/test_agent_evals_2.py::AgentEvaluation2Tests.test_tier_status_never_conflates_replay_and_live_execution:
+    description: Test AgentEvaluation2Tests test_tier_status_never_conflates_replay_and_live_execution
+    path: tests/agent/test_agent_evals_2.py
+    selector: AgentEvaluation2Tests.test_tier_status_never_conflates_replay_and_live_execution
+  tests/agent/test_authoring_harness.py::AuthoringHarnessTests.test_prepare_check_close_valid_project:
+    description: Test AuthoringHarnessTests test_prepare_check_close_valid_project
+    path: tests/agent/test_authoring_harness.py
+    selector: AuthoringHarnessTests.test_prepare_check_close_valid_project
+  tests/agent/test_authoring_harness.py::AuthoringHarnessTests.test_wrong_authority_edit_blocks_route:
+    description: Test AuthoringHarnessTests test_wrong_authority_edit_blocks_route
+    path: tests/agent/test_authoring_harness.py
+    selector: AuthoringHarnessTests.test_wrong_authority_edit_blocks_route
+  tests/agent/test_change_scope.py::AgentChangeScopeTests.test_allowed_layout_and_digest_only_project_change:
+    description: Test AgentChangeScopeTests test_allowed_layout_and_digest_only_project_change
+    path: tests/agent/test_change_scope.py
+    selector: AgentChangeScopeTests.test_allowed_layout_and_digest_only_project_change
+  tests/agent/test_change_scope.py::AgentChangeScopeTests.test_generated_output_edit_is_detected_and_schema_valid:
+    description: Test AgentChangeScopeTests test_generated_output_edit_is_detected_and_schema_valid
+    path: tests/agent/test_change_scope.py
+    selector: AgentChangeScopeTests.test_generated_output_edit_is_detected_and_schema_valid
+  tests/agent/test_change_scope.py::AgentChangeScopeTests.test_symlink_fails_closed:
+    description: Test AgentChangeScopeTests test_symlink_fails_closed
+    path: tests/agent/test_change_scope.py
+    selector: AgentChangeScopeTests.test_symlink_fails_closed
+  tests/agent/test_change_scope.py::AgentChangeScopeTests.test_wrong_authority_and_non_digest_project_change_fail:
+    description: Test AgentChangeScopeTests test_wrong_authority_and_non_digest_project_change_fail
+    path: tests/agent/test_change_scope.py
+    selector: AgentChangeScopeTests.test_wrong_authority_and_non_digest_project_change_fail
+  tests/agent/test_diagnostics.py::AgentDiagnosticContractTests.test_diagnostic_serialization_is_schema_valid_and_stable:
+    description: Test AgentDiagnosticContractTests test_diagnostic_serialization_is_schema_valid_and_stable
+    path: tests/agent/test_diagnostics.py
+    selector: AgentDiagnosticContractTests.test_diagnostic_serialization_is_schema_valid_and_stable
+  tests/agent/test_diagnostics.py::AgentDiagnosticContractTests.test_registry_contains_complete_p0_set_and_valid_metadata:
+    description: Test AgentDiagnosticContractTests test_registry_contains_complete_p0_set_and_valid_metadata
+    path: tests/agent/test_diagnostics.py
+    selector: AgentDiagnosticContractTests.test_registry_contains_complete_p0_set_and_valid_metadata
+  ? tests/agent/test_route_execution_metadata.py::RouteExecutionMetadataTests.test_all_recommended_diagnostics_are_accepted_by_an_existing_route
+  : description: Test RouteExecutionMetadataTests test_all_recommended_diagnostics_are_accepted_by_an_existing_route
+    path: tests/agent/test_route_execution_metadata.py
+    selector: RouteExecutionMetadataTests.test_all_recommended_diagnostics_are_accepted_by_an_existing_route
+  tests/agent/test_route_execution_metadata.py::RouteExecutionMetadataTests.test_task_packets_expose_active_child_scope:
+    description: Test RouteExecutionMetadataTests test_task_packets_expose_active_child_scope
+    path: tests/agent/test_route_execution_metadata.py
+    selector: RouteExecutionMetadataTests.test_task_packets_expose_active_child_scope
+  tests/agent/test_run_record.py::AgentRunRecordTests.test_blocking_diagnostic_prevents_closure:
+    description: Test AgentRunRecordTests test_blocking_diagnostic_prevents_closure
+    path: tests/agent/test_run_record.py
+    selector: AgentRunRecordTests.test_blocking_diagnostic_prevents_closure
+  tests/agent/test_run_record.py::AgentRunRecordTests.test_closed_record_is_schema_valid_and_deterministic:
+    description: Test AgentRunRecordTests test_closed_record_is_schema_valid_and_deterministic
+    path: tests/agent/test_run_record.py
+    selector: AgentRunRecordTests.test_closed_record_is_schema_valid_and_deterministic
+  tests/agent/test_run_record.py::AgentRunRecordTests.test_stalled_and_oscillating_state_detection:
+    description: Test AgentRunRecordTests test_stalled_and_oscillating_state_detection
+    path: tests/agent/test_run_record.py
+    selector: AgentRunRecordTests.test_stalled_and_oscillating_state_detection
+  tests/agent/test_task_contract.py::AgentTaskContractTests.test_task_cannot_widen_route_authority:
+    description: AgentTaskContractTests test_task_cannot_widen_route_authority
+    path: tests/agent/test_task_contract.py
+    selector: AgentTaskContractTests.test_task_cannot_widen_route_authority
+  tests/agent/test_task_contract.py::AgentTaskContractTests.test_valid_task_resolves_route_bounded_write_scope:
+    description: AgentTaskContractTests test_valid_task_resolves_route_bounded_write_scope
+    path: tests/agent/test_task_contract.py
+    selector: AgentTaskContractTests.test_valid_task_resolves_route_bounded_write_scope
+  tests/agent/test_task_contract.py::AgentTaskContractTests.test_simple_route_cannot_select_an_unrelated_active_route:
+    description: AgentTaskContractTests test_simple_route_cannot_select_an_unrelated_active_route
+    path: tests/agent/test_task_contract.py
+    selector: AgentTaskContractTests.test_simple_route_cannot_select_an_unrelated_active_route
+  ? tests/agent/test_cold_start_stage.py::ColdStartStageContractTests.test_all_l001_l012_stages_are_deterministic_valid_and_oracle_free
+  : description: ColdStartStageContractTests test_all_l001_l012_stages_are_deterministic_valid_and_oracle_free
+    path: tests/agent/test_cold_start_stage.py
+    selector: ColdStartStageContractTests.test_all_l001_l012_stages_are_deterministic_valid_and_oracle_free
+  ? tests/agent/test_agent_evals_3.py::AgentEvaluation3CorpusTests.test_tasks_and_evaluator_manifests_are_schema_valid_and_separated
+  : description: AgentEvaluation3CorpusTests test_tasks_and_evaluator_manifests_are_schema_valid_and_separated
+    path: tests/agent/test_agent_evals_3.py
+    selector: AgentEvaluation3CorpusTests.test_tasks_and_evaluator_manifests_are_schema_valid_and_separated
+  tests/agent/test_cold_start_stage.py::ColdStartStageContractTests.test_symlinks_in_start_state_fail_closed:
+    description: ColdStartStageContractTests test_symlinks_in_start_state_fail_closed
+    path: tests/agent/test_cold_start_stage.py
+    selector: ColdStartStageContractTests.test_symlinks_in_start_state_fail_closed
+  tests/agent/test_live_executor.py::LiveExecutorProtocolTests.test_missing_executable_is_retained_as_executor_error:
+    description: LiveExecutorProtocolTests test_missing_executable_is_retained_as_executor_error
+    path: tests/agent/test_live_executor.py
+    selector: LiveExecutorProtocolTests.test_missing_executable_is_retained_as_executor_error
+  tests/agent/test_live_executor.py::LiveExecutorProtocolTests.test_wall_time_and_output_limits_fail_closed:
+    description: LiveExecutorProtocolTests test_wall_time_and_output_limits_fail_closed
+    path: tests/agent/test_live_executor.py
+    selector: LiveExecutorProtocolTests.test_wall_time_and_output_limits_fail_closed
+  ? tests/agent/test_live_executor.py::LiveExecutorProtocolTests.test_inherited_secret_value_is_redacted_without_serializing_it
+  : description: LiveExecutorProtocolTests test_inherited_secret_value_is_redacted_without_serializing_it
+    path: tests/agent/test_live_executor.py
+    selector: LiveExecutorProtocolTests.test_inherited_secret_value_is_redacted_without_serializing_it
+  tests/agent/test_observation.py::ObservationEventContractTests.test_private_reasoning_fields_are_rejected:
+    description: ObservationEventContractTests test_private_reasoning_fields_are_rejected
+    path: tests/agent/test_observation.py
+    selector: ObservationEventContractTests.test_private_reasoning_fields_are_rejected
+  ? tests/agent/test_observation.py::ObservationEventContractTests.test_observable_stream_is_sequence_checked_and_digest_addressed
+  : description: ObservationEventContractTests test_observable_stream_is_sequence_checked_and_digest_addressed
+    path: tests/agent/test_observation.py
+    selector: ObservationEventContractTests.test_observable_stream_is_sequence_checked_and_digest_addressed
+  tests/agent/test_invariant_scorer.py::EvaluationInvariantContractTests.test_exact_completed_source_oracle_is_prohibited:
+    description: EvaluationInvariantContractTests test_exact_completed_source_oracle_is_prohibited
+    path: tests/agent/test_invariant_scorer.py
+    selector: EvaluationInvariantContractTests.test_exact_completed_source_oracle_is_prohibited
+  ? tests/agent/test_invariant_scorer.py::EvaluationInvariantContractTests.test_scorer_checks_actual_incomplete_workspace_without_self_repair
+  : description: EvaluationInvariantContractTests test_scorer_checks_actual_incomplete_workspace_without_self_repair
+    path: tests/agent/test_invariant_scorer.py
+    selector: EvaluationInvariantContractTests.test_scorer_checks_actual_incomplete_workspace_without_self_repair
+  ? tests/agent/test_invariant_scorer.py::EvaluationInvariantContractTests.test_semantically_repaired_workspace_passes_hidden_invariants
+  : description: EvaluationInvariantContractTests test_semantically_repaired_workspace_passes_hidden_invariants
+    path: tests/agent/test_invariant_scorer.py
+    selector: EvaluationInvariantContractTests.test_semantically_repaired_workspace_passes_hidden_invariants
+  tests/agent/test_live_run_evidence.py::LiveRunEvidenceContractTests.test_evidence_digest_tampering_is_detected:
+    description: LiveRunEvidenceContractTests test_evidence_digest_tampering_is_detected
+    path: tests/agent/test_live_run_evidence.py
+    selector: LiveRunEvidenceContractTests.test_evidence_digest_tampering_is_detected
+  tests/agent/test_live_run_evidence.py::LiveRunEvidenceContractTests.test_failed_or_non_live_attempt_remains_in_denominator:
+    description: LiveRunEvidenceContractTests test_failed_or_non_live_attempt_remains_in_denominator
+    path: tests/agent/test_live_run_evidence.py
+    selector: LiveRunEvidenceContractTests.test_failed_or_non_live_attempt_remains_in_denominator
+  ? tests/agent/test_live_run_evidence.py::LiveRunEvidenceContractTests.test_live_pass_requires_evaluation_and_conformant_authoring_record
+  : description: LiveRunEvidenceContractTests test_live_pass_requires_evaluation_and_conformant_authoring_record
+    path: tests/agent/test_live_run_evidence.py
+    selector: LiveRunEvidenceContractTests.test_live_pass_requires_evaluation_and_conformant_authoring_record
+  ? tests/agent/test_agent_evals_3.py::AgentEvaluation3CorpusTests.test_manifest_contains_exact_l001_l012_creation_and_repair_inventory
+  : description: AgentEvaluation3CorpusTests test_manifest_contains_exact_l001_l012_creation_and_repair_inventory
+    path: tests/agent/test_agent_evals_3.py
+    selector: AgentEvaluation3CorpusTests.test_manifest_contains_exact_l001_l012_creation_and_repair_inventory
+  ? tests/agent/test_agent_evals_3.py::AgentEvaluation3CorpusTests.test_tier_b_status_never_claims_an_execution_that_did_not_happen
+  : description: AgentEvaluation3CorpusTests test_tier_b_status_never_claims_an_execution_that_did_not_happen
+    path: tests/agent/test_agent_evals_3.py
+    selector: AgentEvaluation3CorpusTests.test_tier_b_status_never_claims_an_execution_that_did_not_happen
+  ? tests/agent/test_pre_live_readiness.py::PreLiveReadinessHardeningTests.test_results_and_work_roots_are_location_independent_and_space_safe
+  : description: PreLiveReadinessHardeningTests test_results_and_work_roots_are_location_independent_and_space_safe
+    path: tests/agent/test_pre_live_readiness.py
+    selector: PreLiveReadinessHardeningTests.test_results_and_work_roots_are_location_independent_and_space_safe
+  ? tests/agent/test_pre_live_readiness.py::PreLiveReadinessHardeningTests.test_repository_corpus_protocol_identity_and_clock_modes_are_separate
+  : description: PreLiveReadinessHardeningTests test_repository_corpus_protocol_identity_and_clock_modes_are_separate
+    path: tests/agent/test_pre_live_readiness.py
+    selector: PreLiveReadinessHardeningTests.test_repository_corpus_protocol_identity_and_clock_modes_are_separate
+  ? tests/agent/test_pre_live_readiness.py::PreLiveReadinessHardeningTests.test_task_reference_manifest_and_symlink_tampering_fail_postflight
+  : description: PreLiveReadinessHardeningTests test_task_reference_manifest_and_symlink_tampering_fail_postflight
+    path: tests/agent/test_pre_live_readiness.py
+    selector: PreLiveReadinessHardeningTests.test_task_reference_manifest_and_symlink_tampering_fail_postflight
+  tests/agent/test_pre_live_readiness.py::PreLiveReadinessHardeningTests.test_timeout_terminates_spawned_child_process_group:
+    description: PreLiveReadinessHardeningTests test_timeout_terminates_spawned_child_process_group
+    path: tests/agent/test_pre_live_readiness.py
+    selector: PreLiveReadinessHardeningTests.test_timeout_terminates_spawned_child_process_group
+  ? tests/agent/test_pre_live_readiness.py::PreLiveReadinessHardeningTests.test_nested_observation_secrets_are_sanitized_before_retention
+  : description: PreLiveReadinessHardeningTests test_nested_observation_secrets_are_sanitized_before_retention
+    path: tests/agent/test_pre_live_readiness.py
+    selector: PreLiveReadinessHardeningTests.test_nested_observation_secrets_are_sanitized_before_retention
+  ? tests/agent/test_pre_live_readiness.py::PreLiveReadinessHardeningTests.test_observation_consistency_preserves_change_set_authority
+  : description: PreLiveReadinessHardeningTests test_observation_consistency_preserves_change_set_authority
+    path: tests/agent/test_pre_live_readiness.py
+    selector: PreLiveReadinessHardeningTests.test_observation_consistency_preserves_change_set_authority
+  ? tests/agent/test_pre_live_readiness.py::PreLiveReadinessHardeningTests.test_invariant_basis_rejects_missing_task_and_nonstaged_document
+  : description: PreLiveReadinessHardeningTests test_invariant_basis_rejects_missing_task_and_nonstaged_document
+    path: tests/agent/test_pre_live_readiness.py
+    selector: PreLiveReadinessHardeningTests.test_invariant_basis_rejects_missing_task_and_nonstaged_document
+  ? tests/agent/test_pre_live_readiness.py::PreLiveReadinessHardeningTests.test_generated_readiness_report_closes_all_pre_live_gates
+  : description: PreLiveReadinessHardeningTests test_generated_readiness_report_closes_all_pre_live_gates
+    path: tests/agent/test_pre_live_readiness.py
+    selector: PreLiveReadinessHardeningTests.test_generated_readiness_report_closes_all_pre_live_gates
+  tests/docs/test_document_governance.py::DocumentGovernanceTests.test_every_markdown_has_exactly_one_role:
+    description: Test Every Markdown Has Exactly One Role
+    path: tests/docs/test_document_governance.py
+    selector: DocumentGovernanceTests.test_every_markdown_has_exactly_one_role
+  tests/docs/test_document_governance.py::DocumentGovernanceTests.test_root_hygiene_and_reserved_names:
+    description: Test Root Hygiene And Reserved Names
+    path: tests/docs/test_document_governance.py
+    selector: DocumentGovernanceTests.test_root_hygiene_and_reserved_names
+  tests/docs/test_document_governance.py::DocumentGovernanceTests.test_role_aware_discoverability_has_no_orphans:
+    description: Test Role Aware Discoverability Has No Orphans
+    path: tests/docs/test_document_governance.py
+    selector: DocumentGovernanceTests.test_role_aware_discoverability_has_no_orphans
+  ? tests/docs/test_document_governance.py::DocumentGovernanceTests.test_canonical_structure_has_terminal_footer_and_no_patch_blocks
+  : description: Test Canonical Structure Has Terminal Footer And No Patch Blocks
+    path: tests/docs/test_document_governance.py
+    selector: DocumentGovernanceTests.test_canonical_structure_has_terminal_footer_and_no_patch_blocks
+  tests/docs/test_document_governance.py::DocumentGovernanceTests.test_path_migrations_preserve_identity_and_redirects:
+    description: Test Path Migrations Preserve Identity And Redirects
+    path: tests/docs/test_document_governance.py
+    selector: DocumentGovernanceTests.test_path_migrations_preserve_identity_and_redirects
+  tests/docs/test_document_governance.py::DocumentGovernanceTests.test_metadata_vocabularies_and_token_estimates:
+    description: Test Metadata Vocabularies And Token Estimates
+    path: tests/docs/test_document_governance.py
+    selector: DocumentGovernanceTests.test_metadata_vocabularies_and_token_estimates
+  tests/docs/test_document_governance.py::DocumentGovernanceTests.test_repository_inventory_is_deterministic:
+    description: Test Repository Inventory Is Deterministic
+    path: tests/docs/test_document_governance.py
+    selector: DocumentGovernanceTests.test_repository_inventory_is_deterministic
+  tests/docs/test_document_governance.py::DocumentGovernanceTests.test_planning_and_validation_lifecycles:
+    description: Test Planning And Validation Lifecycles
+    path: tests/docs/test_document_governance.py
+    selector: DocumentGovernanceTests.test_planning_and_validation_lifecycles
+  tests/docs/test_document_governance.py::DocumentGovernanceTests.test_agents_document_creation_gate:
+    description: Test Agents Document Creation Gate
+    path: tests/docs/test_document_governance.py
+    selector: DocumentGovernanceTests.test_agents_document_creation_gate
+  tests/docs/test_document_governance.py::DocumentGovernanceTests.test_unknown_markdown_fails_closed:
+    description: Test Unknown Markdown Fails Closed
+    path: tests/docs/test_document_governance.py
+    selector: DocumentGovernanceTests.test_unknown_markdown_fails_closed
+  tests/docs/test_document_governance.py::DocumentGovernanceTests.test_root_reference_chain_reaches_all_human_documents:
+    description: Root reference-chain integrity
+    path: tests/docs/test_document_governance.py
+    selector: DocumentGovernanceTests.test_root_reference_chain_reaches_all_human_documents
+  tests/docs/test_document_governance.py::DocumentGovernanceTests.test_section_indexes_cover_navigation_members:
+    description: Complete category-index coverage
+    path: tests/docs/test_document_governance.py
+    selector: DocumentGovernanceTests.test_section_indexes_cover_navigation_members
+  tests/docs/test_document_governance.py::DocumentGovernanceTests.test_current_release_pointers_are_coherent:
+    description: Current-release coherence
+    path: tests/docs/test_document_governance.py
+    selector: DocumentGovernanceTests.test_current_release_pointers_are_coherent
+  tests/docs/test_document_governance.py::DocumentGovernanceTests.test_normative_authority_scopes_are_unambiguous:
+    description: Unambiguous normative authority scope
+    path: tests/docs/test_document_governance.py
+    selector: DocumentGovernanceTests.test_normative_authority_scopes_are_unambiguous
+  tests/schematic/test_authoring_integrity.py::LibraryPathTests.test_lby001_new_electronics_path:
+    description: AIXEM 0.5.9 focused authoring-integrity conformance
+    path: tests/schematic/test_authoring_integrity.py
+    selector: LibraryPathTests.test_lby001_new_electronics_path
+  tests/schematic/test_authoring_integrity.py::PartProvenanceTests.test_prt002_concrete_part_without_source:
+    description: AIXEM 0.5.9 focused authoring-integrity conformance
+    path: tests/schematic/test_authoring_integrity.py
+    selector: PartProvenanceTests.test_prt002_concrete_part_without_source
+  tests/schematic/test_authoring_integrity.py::SemanticIdentityTests.test_prt005_geometry_only_id_multiplication:
+    description: AIXEM 0.5.9 focused authoring-integrity conformance
+    path: tests/schematic/test_authoring_integrity.py
+    selector: SemanticIdentityTests.test_prt005_geometry_only_id_multiplication
+  tests/schematic/test_authoring_integrity.py::ReviewAndClaimsTests.test_full_claim_separation:
+    description: AIXEM 0.5.9 focused authoring-integrity conformance
+    path: tests/schematic/test_authoring_integrity.py
+    selector: ReviewAndClaimsTests.test_full_claim_separation
+  tests/schematic/test_authoring_integrity.py::ReviewAndClaimsTests.test_prt008_review_wrong_source:
+    description: AIXEM 0.5.9 focused authoring-integrity conformance
+    path: tests/schematic/test_authoring_integrity.py
+    selector: ReviewAndClaimsTests.test_prt008_review_wrong_source
+  tests/schematic/test_authoring_integrity.py::PinSemanticsTests.test_pin001_active_low_reset:
+    description: AIXEM 0.5.9 focused authoring-integrity conformance
+    path: tests/schematic/test_authoring_integrity.py
+    selector: PinSemanticsTests.test_pin001_active_low_reset
+  tests/schematic/test_authoring_integrity.py::PinSemanticsTests.test_pin005_alternate_functions:
+    description: AIXEM 0.5.9 focused authoring-integrity conformance
+    path: tests/schematic/test_authoring_integrity.py
+    selector: PinSemanticsTests.test_pin005_alternate_functions
+  tests/schematic/test_authoring_integrity.py::PinSemanticsTests.test_pin003_duplicate_differential_member:
+    description: AIXEM 0.5.9 focused authoring-integrity conformance
+    path: tests/schematic/test_authoring_integrity.py
+    selector: PinSemanticsTests.test_pin003_duplicate_differential_member
+  tests/schematic/test_authoring_integrity.py::ReviewAndClaimsTests.test_prt007_render_pass_does_not_bypass_review:
+    description: AIXEM 0.5.9 focused authoring-integrity conformance
+    path: tests/schematic/test_authoring_integrity.py
+    selector: ReviewAndClaimsTests.test_prt007_render_pass_does_not_bypass_review
+  tests/schematic/test_authoring_integrity.py::CompatibilityTests.test_compatibility_never_claims_safety:
+    description: AIXEM 0.5.9 focused authoring-integrity conformance
+    path: tests/schematic/test_authoring_integrity.py
+    selector: CompatibilityTests.test_compatibility_never_claims_safety
+  tests/schematic/test_authoring_integrity.py::SizingAndGridTests.test_repeated_pin_group_span:
+    description: AIXEM 0.5.9 grid and placement conformance
+    path: tests/schematic/test_authoring_integrity.py
+    selector: SizingAndGridTests.test_repeated_pin_group_span
+  tests/schematic/test_authoring_integrity.py::SizingAndGridTests.test_g005_grid_profile_mismatch:
+    description: AIXEM 0.5.9 grid and placement conformance
+    path: tests/schematic/test_authoring_integrity.py
+    selector: SizingAndGridTests.test_g005_grid_profile_mismatch
+  tests/schematic/test_placement_assist.py::PlacementAssistTests.test_cli_emits_read_only_payload:
+    description: AIXEM 0.5.9 grid and placement conformance
+    path: tests/schematic/test_placement_assist.py
+    selector: PlacementAssistTests.test_cli_emits_read_only_payload
+requirements:
+  AIXEM-REQ-CORE-0001:
+    status: pass
+    validators:
+    - schematic.semantic
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-CORE-0001.json
+    verificationMode: automated
+  AIXEM-REQ-CORE-0002:
+    status: pass
+    validators:
+    - schematic.geometry_isolation
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-CORE-0002.json
+    verificationMode: automated
+  AIXEM-REQ-CORE-0003:
+    status: pass
+    validators:
+    - schematic.endpoint_closure
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-CORE-0003.json
+    verificationMode: automated
+  AIXEM-REQ-CORE-0004:
+    status: pass
+    validators:
+    - docs.artifact_ownership
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-CORE-0004.json
+    verificationMode: automated
+  AIXEM-REQ-CORE-0005:
+    status: pass
+    validators:
+    - docs.generated_freshness
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-CORE-0005.json
+    verificationMode: automated
+  AIXEM-REQ-CORE-0010:
+    status: pass
+    validators:
+    - schematic.component_type_closure
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-CORE-0010.json
+    verificationMode: automated
+  AIXEM-REQ-CORE-0011:
+    status: pass
+    validators:
+    - schematic.endpoint_closure
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-CORE-0011.json
+    verificationMode: automated
+  AIXEM-REQ-CORE-0012:
+    status: pass
+    validators:
+    - schematic.port_mapping
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-CORE-0012.json
+    verificationMode: automated
+  AIXEM-REQ-CORE-0013:
+    status: pass
+    validators:
+    - schematic.semantic
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-CORE-0013.json
+    verificationMode: automated
+  AIXEM-REQ-CORE-0014:
+    status: pass
+    validators:
+    - schematic.no_connect
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-CORE-0014.json
+    verificationMode: automated
+  AIXEM-REQ-CORE-0020:
+    status: pass
+    validators:
+    - manual.vendor_neutral
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_review_evidence
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-CORE-0020.json
+    verificationMode: review
+  AIXEM-REQ-CORE-0021:
+    status: pass
+    validators:
+    - schematic.port_mapping
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-CORE-0021.json
+    verificationMode: automated
+  AIXEM-REQ-CORE-0022:
+    status: pass
+    validators:
+    - schematic.placement_closure
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-CORE-0022.json
+    verificationMode: automated
+  AIXEM-REQ-CORE-0023:
+    status: pass
+    validators:
+    - schematic.geometry_isolation
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-CORE-0023.json
+    verificationMode: automated
+  AIXEM-REQ-CORE-0030:
+    status: pass
+    validators:
+    - schematic.digest_lock
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-CORE-0030.json
+    verificationMode: automated
+  AIXEM-REQ-CORE-0031:
+    status: pass
+    validators:
+    - docs.deterministic
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-CORE-0031.json
+    verificationMode: automated
+  AIXEM-REQ-CORE-0032:
+    status: pass
+    validators:
+    - docs.reproducibility
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-CORE-0032.json
+    verificationMode: automated
+  AIXEM-REQ-SCHEM-0001:
+    status: pass
+    validators:
+    - schematic.grid
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SCHEM-0001.json
+    verificationMode: automated
+  AIXEM-REQ-SCHEM-0002:
+    status: pass
+    validators:
+    - schematic.style_profile
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SCHEM-0002.json
+    verificationMode: automated
+  AIXEM-REQ-SCHEM-0003:
+    status: pass
+    validators:
+    - schematic.grid
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SCHEM-0003.json
+    verificationMode: automated
+  AIXEM-REQ-SCHEM-0004:
+    status: pass
+    validators:
+    - schematic.grid
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SCHEM-0004.json
+    verificationMode: automated
+  AIXEM-REQ-SCHEM-0005:
+    status: pass
+    validators:
+    - schematic.placement_closure
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SCHEM-0005.json
+    verificationMode: automated
+  AIXEM-REQ-SCHEM-0006:
+    status: pass
+    validators:
+    - schematic.junction
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SCHEM-0006.json
+    verificationMode: automated
+  AIXEM-REQ-SCHEM-0007:
+    status: pass
+    validators:
+    - schematic.junction
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SCHEM-0007.json
+    verificationMode: automated
+  AIXEM-REQ-SCHEM-0008:
+    status: pass
+    validators:
+    - schematic.no_connect
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SCHEM-0008.json
+    verificationMode: automated
+  AIXEM-REQ-SCHEM-0009:
+    status: pass
+    validators:
+    - schematic.annotation
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SCHEM-0009.json
+    verificationMode: automated
+  AIXEM-REQ-SCHEM-0010:
+    status: pass
+    validators:
+    - schematic.annotation
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SCHEM-0010.json
+    verificationMode: automated
+  AIXEM-REQ-UI-0001:
+    status: pass
+    validators:
+    - manual.vendor_neutral
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_review_evidence
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-UI-0001.json
+    verificationMode: review
+  AIXEM-REQ-UI-0002:
+    status: pass
+    validators:
+    - schematic.workbench
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-UI-0002.json
+    verificationMode: automated
+  AIXEM-REQ-UI-0003:
+    status: pass
+    validators:
+    - manual.accessibility
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_review_evidence
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-UI-0003.json
+    verificationMode: review
+  AIXEM-REQ-SYMBOL-0001:
+    status: pass
+    validators:
+    - schematic.symbol_schema
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SYMBOL-0001.json
+    verificationMode: automated
+  AIXEM-REQ-SYMBOL-0002:
+    status: pass
+    validators:
+    - schematic.port_mapping
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SYMBOL-0002.json
+    verificationMode: automated
+  AIXEM-REQ-SYMBOL-0003:
+    status: pass
+    validators:
+    - schematic.symbol_grid
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SYMBOL-0003.json
+    verificationMode: automated
+  AIXEM-REQ-SYMBOL-0004:
+    status: pass
+    validators:
+    - schematic.symbol_schema
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SYMBOL-0004.json
+    verificationMode: automated
+  AIXEM-REQ-SYMBOL-0005:
+    status: pass
+    validators:
+    - schematic.port_mapping
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SYMBOL-0005.json
+    verificationMode: automated
+  AIXEM-REQ-SYMBOL-0006:
+    status: pass
+    validators:
+    - schematic.port_mapping
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SYMBOL-0006.json
+    verificationMode: automated
+  AIXEM-REQ-SYMBOL-0007:
+    status: pass
+    validators:
+    - schematic.feature_support
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SYMBOL-0007.json
+    verificationMode: automated
+  AIXEM-REQ-SYMBOL-0008:
+    status: pass
+    validators:
+    - schematic.remote_assets
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SYMBOL-0008.json
+    verificationMode: automated
+  AIXEM-REQ-SYMBOL-0010:
+    status: pass
+    validators:
+    - schematic.symbol_schema
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SYMBOL-0010.json
+    verificationMode: automated
+  AIXEM-REQ-SYMBOL-0011:
+    status: pass
+    validators:
+    - schematic.port_mapping
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SYMBOL-0011.json
+    verificationMode: automated
+  AIXEM-REQ-SYMBOL-0012:
+    status: pass
+    validators:
+    - schematic.symbol_geometry
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SYMBOL-0012.json
+    verificationMode: automated
+  AIXEM-REQ-SYMBOL-0013:
+    status: pass
+    validators:
+    - schematic.port_mapping
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SYMBOL-0013.json
+    verificationMode: automated
+  AIXEM-REQ-SYMBOL-0014:
+    status: pass
+    validators:
+    - schematic.deterministic
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SYMBOL-0014.json
+    verificationMode: automated
+  AIXEM-REQ-ROUTE-0001:
+    status: pass
+    validators:
+    - schematic.route_closure
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-ROUTE-0001.json
+    verificationMode: automated
+  AIXEM-REQ-ROUTE-0002:
+    status: pass
+    validators:
+    - schematic.route_closure
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-ROUTE-0002.json
+    verificationMode: automated
+  AIXEM-REQ-ROUTE-0003:
+    status: pass
+    validators:
+    - schematic.geometry_isolation
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-ROUTE-0003.json
+    verificationMode: automated
+  AIXEM-REQ-ROUTE-0004:
+    status: pass
+    validators:
+    - schematic.orthogonal
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-ROUTE-0004.json
+    verificationMode: automated
+  AIXEM-REQ-ROUTE-0005:
+    status: pass
+    validators:
+    - schematic.orthogonal
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-ROUTE-0005.json
+    verificationMode: automated
+  AIXEM-REQ-ROUTE-0006:
+    status: pass
+    validators:
+    - schematic.deterministic
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-ROUTE-0006.json
+    verificationMode: automated
+  AIXEM-REQ-ROUTE-0007:
+    status: pass
+    validators:
+    - schematic.route_clearance
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-ROUTE-0007.json
+    verificationMode: automated
+  AIXEM-REQ-ROUTE-0008:
+    status: pass
+    validators:
+    - schematic.junction
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-ROUTE-0008.json
+    verificationMode: automated
+  AIXEM-REQ-ROUTE-0009:
+    status: pass
+    validators:
+    - schematic.route_closure
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-ROUTE-0009.json
+    verificationMode: automated
+  AIXEM-REQ-ROUTE-0010:
+    status: pass
+    validators:
+    - schematic.junction
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-ROUTE-0010.json
+    verificationMode: automated
+  AIXEM-REQ-ROUTE-0011:
+    status: pass
+    validators:
+    - schematic.junction
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-ROUTE-0011.json
+    verificationMode: automated
+  AIXEM-REQ-DOCS-0001:
+    status: pass
+    validators:
+    - docs.metadata
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-DOCS-0001.json
+    verificationMode: automated
+  AIXEM-REQ-DOCS-0002:
+    status: pass
+    validators:
+    - docs.unique_ids
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-DOCS-0002.json
+    verificationMode: automated
+  AIXEM-REQ-DOCS-0003:
+    status: pass
+    validators:
+    - docs.english
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-DOCS-0003.json
+    verificationMode: automated
+  AIXEM-REQ-LAYOUT-0001:
+    status: pass
+    validators:
+    - schematic.coordinate_units
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-LAYOUT-0001.json
+    verificationMode: automated
+  AIXEM-REQ-LAYOUT-0002:
+    status: pass
+    validators:
+    - schematic.schema
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-LAYOUT-0002.json
+    verificationMode: automated
+  AIXEM-REQ-LAYOUT-0003:
+    status: pass
+    validators:
+    - schematic.deterministic
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-LAYOUT-0003.json
+    verificationMode: automated
+  AIXEM-REQ-DOCS-0004:
+    status: pass
+    validators:
+    - docs.artifact_ownership
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-DOCS-0004.json
+    verificationMode: automated
+  AIXEM-REQ-DOCS-0005:
+    status: pass
+    validators:
+    - docs.authority_conflict
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-DOCS-0005.json
+    verificationMode: automated
+  AIXEM-REQ-DOCS-0006:
+    status: pass
+    validators:
+    - docs.generated_freshness
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-DOCS-0006.json
+    verificationMode: automated
+  AIXEM-REQ-LAYOUT-0004:
+    status: pass
+    validators:
+    - schematic.project_schema
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-LAYOUT-0004.json
+    verificationMode: automated
+  AIXEM-REQ-LAYOUT-0005:
+    status: pass
+    validators:
+    - schematic.profile_checks
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-LAYOUT-0005.json
+    verificationMode: automated
+  AIXEM-REQ-UI-0004:
+    status: pass
+    validators:
+    - schematic.remote_assets
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-UI-0004.json
+    verificationMode: automated
+  AIXEM-REQ-UI-0005:
+    status: pass
+    validators:
+    - docs.visual_review
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-UI-0005.json
+    verificationMode: review
+  AIXEM-REQ-SYMBOL-0020:
+    status: pass
+    validators:
+    - schematic.symbol_schema
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SYMBOL-0020.json
+    verificationMode: automated
+  AIXEM-REQ-SYMBOL-0021:
+    status: pass
+    validators:
+    - schematic.feature_support
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SYMBOL-0021.json
+    verificationMode: automated
+  AIXEM-REQ-SYMBOL-0022:
+    status: pass
+    validators:
+    - schematic.remote_assets
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SYMBOL-0022.json
+    verificationMode: automated
+  AIXEM-REQ-LAYOUT-0010:
+    status: pass
+    validators:
+    - schematic.layout_schema
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-LAYOUT-0010.json
+    verificationMode: automated
+  AIXEM-REQ-LAYOUT-0011:
+    status: pass
+    validators:
+    - schematic.layout_closure
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-LAYOUT-0011.json
+    verificationMode: automated
+  AIXEM-REQ-LAYOUT-0012:
+    status: pass
+    validators:
+    - schematic.deterministic
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-LAYOUT-0012.json
+    verificationMode: automated
+  AIXEM-REQ-PROJECT-0001:
+    status: pass
+    validators:
+    - schematic.project_schema
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-PROJECT-0001.json
+    verificationMode: automated
+  AIXEM-REQ-PROJECT-0002:
+    status: pass
+    validators:
+    - schematic.digest_lock
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-PROJECT-0002.json
+    verificationMode: automated
+  AIXEM-REQ-PROJECT-0003:
+    status: pass
+    validators:
+    - schematic.remote_assets
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-PROJECT-0003.json
+    verificationMode: automated
+  AIXEM-REQ-PROJECT-0004:
+    status: pass
+    validators:
+    - schematic.project_schema
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-PROJECT-0004.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-0001:
+    status: pass
+    validators:
+    - route.resolve
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_route_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-0001.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-0002:
+    status: pass
+    validators:
+    - route.budget
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_route_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-0002.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-0003:
+    status: pass
+    validators:
+    - route.budget
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_route_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-0003.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-0004:
+    status: pass
+    validators:
+    - route.budget
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_route_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-0004.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-0005:
+    status: pass
+    validators:
+    - route.targets
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_route_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-0005.json
+    verificationMode: automated
+  AIXEM-REQ-DOCS-0010:
+    status: pass
+    validators:
+    - docs.metadata
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-DOCS-0010.json
+    verificationMode: automated
+  AIXEM-REQ-DOCS-0011:
+    status: pass
+    validators:
+    - docs.dependencies
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-DOCS-0011.json
+    verificationMode: automated
+  AIXEM-REQ-DOCS-0012:
+    status: pass
+    validators:
+    - docs.requirements
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-DOCS-0012.json
+    verificationMode: automated
+  AIXEM-REQ-DOCS-0020:
+    status: pass
+    validators:
+    - docs.generated_freshness
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-DOCS-0020.json
+    verificationMode: automated
+  AIXEM-REQ-DOCS-0021:
+    status: pass
+    validators:
+    - docs.links
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-DOCS-0021.json
+    verificationMode: automated
+  AIXEM-REQ-DOCS-0022:
+    status: pass
+    validators:
+    - docs.requirements
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-DOCS-0022.json
+    verificationMode: automated
+  AIXEM-REQ-DOCS-0023:
+    status: pass
+    validators:
+    - docs.manifest
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-DOCS-0023.json
+    verificationMode: automated
+  AIXEM-REQ-DOCS-0024:
+    status: pass
+    validators:
+    - docs.artifact_existence
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-DOCS-0024.json
+    verificationMode: automated
+  AIXEM-REQ-FORMAT-0001:
+    status: pass
+    validators:
+    - schematic.semantic
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-FORMAT-0001.json
+    verificationMode: automated
+  AIXEM-REQ-FORMAT-0002:
+    status: pass
+    validators:
+    - schematic.feature_support
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-FORMAT-0002.json
+    verificationMode: automated
+  AIXEM-REQ-FORMAT-0010:
+    status: pass
+    validators:
+    - schematic.library_schema
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-FORMAT-0010.json
+    verificationMode: automated
+  AIXEM-REQ-FORMAT-0011:
+    status: pass
+    validators:
+    - schematic.digest_lock
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-FORMAT-0011.json
+    verificationMode: automated
+  AIXEM-REQ-FORMAT-0020:
+    status: pass
+    validators:
+    - schematic.style_profile
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-FORMAT-0020.json
+    verificationMode: automated
+  AIXEM-REQ-FORMAT-0021:
+    status: pass
+    validators:
+    - schematic.geometry_isolation
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-FORMAT-0021.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-0010:
+    status: pass
+    validators:
+    - agent.authority_plan
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_agent_policy
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-0010.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-0011:
+    status: pass
+    validators:
+    - agent.evidence
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_agent_policy
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-0011.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-0012:
+    status: pass
+    validators:
+    - route.aliases
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_route_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-0012.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-0013:
+    status: pass
+    validators:
+    - route.targets
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_route_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-0013.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-0014:
+    status: pass
+    validators:
+    - route.completion
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_route_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-0014.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-0020:
+    status: pass
+    validators:
+    - agent.evidence
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_agent_policy
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-0020.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-0021:
+    status: pass
+    validators:
+    - docs.visual_review
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-0021.json
+    verificationMode: review
+  AIXEM-REQ-AGENT-0022:
+    status: pass
+    validators:
+    - agent.evidence
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_agent_policy
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-0022.json
+    verificationMode: review
+  AIXEM-REQ-AGENT-0030:
+    status: pass
+    validators:
+    - schematic.digest_lock
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-0030.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-0031:
+    status: pass
+    validators:
+    - route.targets
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_route_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-0031.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-0032:
+    status: pass
+    validators:
+    - schematic.feature_support
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-0032.json
+    verificationMode: automated
+  AIXEM-REQ-ARCH-0001:
+    status: pass
+    validators:
+    - manual.architecture
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_review_evidence
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-ARCH-0001.json
+    verificationMode: review
+  AIXEM-REQ-ARCH-0002:
+    status: pass
+    validators:
+    - docs.site
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-ARCH-0002.json
+    verificationMode: automated
+  AIXEM-REQ-ARCH-0003:
+    status: pass
+    validators:
+    - docs.pipeline
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-ARCH-0003.json
+    verificationMode: automated
+  AIXEM-REQ-ARCH-0004:
+    status: pass
+    validators:
+    - docs.manifest
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-ARCH-0004.json
+    verificationMode: automated
+  AIXEM-REQ-ARCH-0010:
+    status: pass
+    validators:
+    - docs.canonical_root
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-ARCH-0010.json
+    verificationMode: automated
+  AIXEM-REQ-ARCH-0011:
+    status: pass
+    validators:
+    - docs.generated_locations
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-ARCH-0011.json
+    verificationMode: automated
+  AIXEM-REQ-ARCH-0020:
+    status: pass
+    validators:
+    - docs.source_digest
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-ARCH-0020.json
+    verificationMode: automated
+  AIXEM-REQ-ARCH-0021:
+    status: pass
+    validators:
+    - docs.generated_freshness
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-ARCH-0021.json
+    verificationMode: automated
+  AIXEM-REQ-SEC-0001:
+    status: pass
+    validators:
+    - docs.path_safety
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SEC-0001.json
+    verificationMode: automated
+  AIXEM-REQ-SEC-0002:
+    status: pass
+    validators:
+    - schematic.remote_assets
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SEC-0002.json
+    verificationMode: automated
+  AIXEM-REQ-SEC-0003:
+    status: pass
+    validators:
+    - docs.archive_safety
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SEC-0003.json
+    verificationMode: automated
+  AIXEM-REQ-CONF-0001:
+    status: pass
+    validators:
+    - docs.requirements
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-CONF-0001.json
+    verificationMode: automated
+  AIXEM-REQ-CONF-0002:
+    status: pass
+    validators:
+    - docs.requirements
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-CONF-0002.json
+    verificationMode: automated
+  AIXEM-REQ-CONF-0003:
+    status: pass
+    validators:
+    - docs.requirement_body
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-CONF-0003.json
+    verificationMode: automated
+  AIXEM-REQ-CONF-0010:
+    status: pass
+    validators:
+    - docs.evidence
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-CONF-0010.json
+    verificationMode: automated
+  AIXEM-REQ-CONF-0011:
+    status: pass
+    validators:
+    - docs.release_gate
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-CONF-0011.json
+    verificationMode: automated
+  AIXEM-REQ-CONF-0012:
+    status: pass
+    validators:
+    - docs.evidence
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-CONF-0012.json
+    verificationMode: automated
+  AIXEM-REQ-CONF-0020:
+    status: pass
+    validators:
+    - route.corpus
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_route_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-CONF-0020.json
+    verificationMode: automated
+  AIXEM-REQ-CONF-0021:
+    status: pass
+    validators:
+    - schematic.example
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-CONF-0021.json
+    verificationMode: automated
+  AIXEM-REQ-CONF-0022:
+    status: pass
+    validators:
+    - docs.reproducibility
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-CONF-0022.json
+    verificationMode: automated
+  AIXEM-REQ-CONF-0030:
+    status: pass
+    validators:
+    - docs.legacy_inventory
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-CONF-0030.json
+    verificationMode: automated
+  AIXEM-REQ-CONF-0031:
+    status: pass
+    validators:
+    - docs.legacy_inventory
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-CONF-0031.json
+    verificationMode: automated
+  AIXEM-REQ-CONF-0032:
+    status: pass
+    validators:
+    - docs.compatibility_reference
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-CONF-0032.json
+    verificationMode: automated
+  AIXEM-REQ-CONF-0040:
+    status: pass
+    validators:
+    - docs.three_passes
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-CONF-0040.json
+    verificationMode: automated
+  AIXEM-REQ-CONF-0041:
+    status: pass
+    validators:
+    - docs.release_gate
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-CONF-0041.json
+    verificationMode: automated
+  AIXEM-REQ-CONF-0042:
+    status: pass
+    validators:
+    - docs.archive_safety
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-CONF-0042.json
+    verificationMode: automated
+  AIXEM-REQ-GOV-0001:
+    status: pass
+    validators:
+    - docs.release_metadata
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-GOV-0001.json
+    verificationMode: automated
+  AIXEM-REQ-GOV-0002:
+    status: pass
+    validators:
+    - docs.unique_ids
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-GOV-0002.json
+    verificationMode: automated
+  AIXEM-REQ-GOV-0003:
+    status: pass
+    validators:
+    - manual.compatibility
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_review_evidence
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-GOV-0003.json
+    verificationMode: review
+  AIXEM-REQ-GOV-0010:
+    status: pass
+    validators:
+    - docs.release_metadata
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-GOV-0010.json
+    verificationMode: automated
+  AIXEM-REQ-GOV-0011:
+    status: pass
+    validators:
+    - docs.legacy_inventory
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-GOV-0011.json
+    verificationMode: automated
+  AIXEM-REQ-GOV-0020:
+    status: pass
+    validators:
+    - docs.deprecation
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_documentation_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-GOV-0020.json
+    verificationMode: automated
+  AIXEM-REQ-GOV-0021:
+    status: pass
+    validators:
+    - route.aliases
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_route_integrity
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-GOV-0021.json
+    verificationMode: automated
+  AIXEM-REQ-SYMBOL-0015:
+    status: pass
+    validators:
+    - schematic.annotation
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SYMBOL-0015.json
+    verificationMode: automated
+  AIXEM-REQ-SYMBOL-0016:
+    status: pass
+    validators:
+    - schematic.annotation
+    tests:
+    - tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SYMBOL-0016.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-AUTHORING-0001:
+    status: pass
+    validators:
+    - agent.authoring_routes
+    tests:
+    - tests/docs/test_authoring_routes.py::AuthoringRouteTests.test_composite_route_chain
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-AUTHORING-0001.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-AUTHORING-0002:
+    status: pass
+    validators:
+    - agent.authoring_routes
+    tests:
+    - tests/docs/test_authoring_routes.py::AuthoringRouteTests.test_authoring_route_budgets
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-AUTHORING-0002.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-AUTHORING-0003:
+    status: pass
+    validators:
+    - agent.authoring_routes
+    tests:
+    - tests/docs/test_authoring_routes.py::AuthoringRouteTests.test_agents_policy_contains_source_inspection_gate
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-AUTHORING-0003.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-VISUAL-QA-0001:
+    status: pass
+    validators:
+    - agent.visual_qa
+    tests:
+    - tests/docs/test_authoring_examples.py::AuthoringExampleTests.test_visual_repair_fixture
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-VISUAL-QA-0001.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-VISUAL-QA-0002:
+    status: pass
+    validators:
+    - agent.visual_qa
+    tests:
+    - tests/docs/test_authoring_examples.py::AuthoringExampleTests.test_visual_repair_fixture
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-VISUAL-QA-0002.json
+    verificationMode: automated
+  AIXEM-REQ-RENDERER-0001:
+    status: pass
+    validators:
+    - schematic.renderer_contract
+    tests:
+    - tests/docs/test_renderer_contract.py::RendererContractTests.test_variant_and_parameter_precedence
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-RENDERER-0001.json
+    verificationMode: automated
+  AIXEM-REQ-RENDERER-0002:
+    status: pass
+    validators:
+    - schematic.renderer_contract
+    tests:
+    - tests/docs/test_renderer_contract.py::RendererContractTests.test_variant_and_parameter_precedence
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-RENDERER-0002.json
+    verificationMode: automated
+  AIXEM-REQ-RENDERER-0003:
+    status: pass
+    validators:
+    - schematic.renderer_contract
+    tests:
+    - tests/docs/test_renderer_contract.py::RendererContractTests.test_field_precedence
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-RENDERER-0003.json
+    verificationMode: automated
+  AIXEM-REQ-RENDERER-0004:
+    status: pass
+    validators:
+    - schematic.renderer_contract
+    tests:
+    - tests/docs/test_renderer_contract.py::RendererContractTests.test_port_map_direction_totality_and_visibility
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-RENDERER-0004.json
+    verificationMode: automated
+  AIXEM-REQ-RENDERER-0005:
+    status: pass
+    validators:
+    - schematic.renderer_contract
+    tests:
+    - tests/docs/test_renderer_contract.py::RendererContractTests.test_fail_closed_binding_cases
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-RENDERER-0005.json
+    verificationMode: automated
+  AIXEM-REQ-RENDERER-0006:
+    status: pass
+    validators:
+    - schematic.authoring_examples
+    tests:
+    - tests/docs/test_authoring_examples.py::AuthoringExampleTests.test_authoring_golden_examples
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-RENDERER-0006.json
+    verificationMode: automated
+  AIXEM-REQ-SYMBOL-DESIGN-0001:
+    status: pass
+    validators:
+    - schematic.symbol_design
+    tests:
+    - tests/docs/test_authoring_examples.py::AuthoringExampleTests.test_symbol_design_profile
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SYMBOL-DESIGN-0001.json
+    verificationMode: automated
+  AIXEM-REQ-SYMBOL-DESIGN-0002:
+    status: pass
+    validators:
+    - schematic.symbol_design
+    tests:
+    - tests/docs/test_authoring_examples.py::AuthoringExampleTests.test_symbol_design_profile
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SYMBOL-DESIGN-0002.json
+    verificationMode: automated
+  AIXEM-REQ-SYMBOL-DESIGN-0003:
+    status: pass
+    validators:
+    - schematic.symbol_design
+    tests:
+    - tests/docs/test_authoring_examples.py::AuthoringExampleTests.test_symbol_design_profile
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SYMBOL-DESIGN-0003.json
+    verificationMode: automated
+  AIXEM-REQ-SYMBOL-DESIGN-0004:
+    status: pass
+    validators:
+    - schematic.symbol_design
+    tests:
+    - tests/docs/test_authoring_examples.py::AuthoringExampleTests.test_symbol_design_profile
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SYMBOL-DESIGN-0004.json
+    verificationMode: automated
+  AIXEM-REQ-SYMBOL-DESIGN-0005:
+    status: pass
+    validators:
+    - manual.symbol_visual_review
+    tests:
+    - tests/docs/test_authoring_examples.py::AuthoringExampleTests.test_authoring_golden_examples
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SYMBOL-DESIGN-0005.json
+    verificationMode: review
+  AIXEM-REQ-SYMBOL-BINDING-0001:
+    status: pass
+    validators:
+    - schematic.authoring_binding
+    tests:
+    - tests/docs/test_renderer_contract.py::RendererContractTests.test_port_map_direction_totality_and_visibility
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SYMBOL-BINDING-0001.json
+    verificationMode: automated
+  AIXEM-REQ-SYMBOL-BINDING-0002:
+    status: pass
+    validators:
+    - schematic.renderer_contract
+    tests:
+    - tests/docs/test_renderer_contract.py::RendererContractTests.test_field_precedence
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SYMBOL-BINDING-0002.json
+    verificationMode: automated
+  AIXEM-REQ-HIER-0001:
+    status: pass
+    validators:
+    - schematic.feature_support
+    tests:
+    - tests/conformance/test_hierarchical_project.py::HierarchicalProjectConformanceTests.test_interface_endpoint_is_a_real_leaf_semantic_endpoint
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-HIER-0001.json
+    verificationMode: automated
+  AIXEM-REQ-HIER-0002:
+    status: pass
+    validators:
+    - schematic.endpoint_closure
+    tests:
+    - tests/conformance/test_hierarchical_project.py::HierarchicalProjectConformanceTests.test_interface_endpoint_is_a_real_leaf_semantic_endpoint
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-HIER-0002.json
+    verificationMode: automated
+  AIXEM-REQ-HIER-0003:
+    status: pass
+    validators:
+    - schematic.no_connect
+    tests:
+    - tests/conformance/test_hierarchical_project.py::HierarchicalProjectConformanceTests.test_complete_corpus_runner
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-HIER-0003.json
+    verificationMode: automated
+  AIXEM-REQ-HIER-0004:
+    status: pass
+    validators:
+    - schematic.layout_closure
+    tests:
+    - tests/conformance/test_hierarchical_project.py::HierarchicalProjectConformanceTests.test_complete_corpus_runner
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-HIER-0004.json
+    verificationMode: automated
+  AIXEM-REQ-HIER-0005:
+    status: pass
+    validators:
+    - schematic.route_closure
+    tests:
+    - tests/conformance/test_hierarchical_project.py::HierarchicalProjectConformanceTests.test_multi_view_render_outputs_and_workbench_are_data_driven
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-HIER-0005.json
+    verificationMode: automated
+  AIXEM-REQ-HIER-0006:
+    status: pass
+    validators:
+    - schematic.digest_lock
+    tests:
+    - tests/conformance/test_hierarchical_project.py::HierarchicalProjectConformanceTests.test_multi_view_render_outputs_and_workbench_are_data_driven
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-HIER-0006.json
+    verificationMode: automated
+  AIXEM-REQ-HIER-0007:
+    status: pass
+    validators:
+    - schematic.semantic
+    tests:
+    - tests/conformance/test_hierarchical_project.py::HierarchicalProjectConformanceTests.test_project_graph_queries_and_name_isolation
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-HIER-0007.json
+    verificationMode: automated
+  AIXEM-REQ-HIER-0008:
+    status: pass
+    validators:
+    - schematic.geometry_isolation
+    tests:
+    - tests/conformance/test_hierarchical_project.py::HierarchicalProjectConformanceTests.test_project_graph_queries_and_name_isolation
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-HIER-0008.json
+    verificationMode: automated
+  AIXEM-REQ-HIER-0009:
+    status: pass
+    validators:
+    - schematic.project_schema
+    tests:
+    - tests/conformance/test_hierarchical_project.py::HierarchicalProjectConformanceTests.test_hierarchy_is_explicit_acyclic_and_deterministic
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-HIER-0009.json
+    verificationMode: automated
+  AIXEM-REQ-HIER-0010:
+    status: pass
+    validators:
+    - schematic.semantic
+    tests:
+    - tests/conformance/test_hierarchical_project.py::HierarchicalProjectConformanceTests.test_project_net_equivalence_collision_fails_closed
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-HIER-0010.json
+    verificationMode: automated
+  AIXEM-REQ-HIER-0011:
+    status: pass
+    validators:
+    - schematic.renderer_contract
+    tests:
+    - tests/conformance/test_hierarchical_project.py::HierarchicalProjectConformanceTests.test_multi_view_render_outputs_and_workbench_are_data_driven
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-HIER-0011.json
+    verificationMode: automated
+  AIXEM-REQ-HIER-0012:
+    status: pass
+    validators:
+    - schematic.workbench
+    tests:
+    - tests/conformance/test_hierarchical_project.py::HierarchicalProjectConformanceTests.test_multi_view_render_outputs_and_workbench_are_data_driven
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-HIER-0012.json
+    verificationMode: automated
+  AIXEM-REQ-HIER-0013:
+    status: pass
+    validators:
+    - schematic.deterministic
+    tests:
+    - tests/conformance/test_hierarchical_project.py::HierarchicalProjectConformanceTests.test_ten_sheet_project_and_three_run_determinism
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-HIER-0013.json
+    verificationMode: automated
+  AIXEM-REQ-HIER-0014:
+    status: pass
+    validators:
+    - schematic.renderer_contract
+    tests:
+    - tests/conformance/test_hierarchical_project.py::HierarchicalProjectConformanceTests.test_legacy_production_outputs_remain_byte_identical
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-HIER-0014.json
+    verificationMode: automated
+  AIXEM-REQ-HIER-0015:
+    status: pass
+    validators:
+    - docs.three_passes
+    tests:
+    - tests/docs/test_hierarchical_authoring_routes.py::HierarchicalAuthoringRouteTests.test_three_pass_release_evidence
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-HIER-0015.json
+    verificationMode: automated
+  AIXEM-REQ-VIEWER-0001:
+    status: pass
+    validators:
+    - schematic.reference_viewer
+    tests:
+    - tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v001_single_sheet_reference_viewer
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-VIEWER-0001.json
+    verificationMode: automated
+  AIXEM-REQ-VIEWER-0002:
+    status: pass
+    validators:
+    - schematic.reference_viewer
+    tests:
+    - tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v017_viewer_workbench_are_distinct_shared_profiles
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-VIEWER-0002.json
+    verificationMode: automated
+  AIXEM-REQ-VIEWER-0003:
+    status: pass
+    validators:
+    - schematic.reference_viewer
+    tests:
+    - tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v002_v003_multisheet_modes_and_hierarchy_navigation
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-VIEWER-0003.json
+    verificationMode: automated
+  AIXEM-REQ-VIEWER-0004:
+    status: pass
+    validators:
+    - schematic.reference_viewer
+    tests:
+    - tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v002_v003_multisheet_modes_and_hierarchy_navigation
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-VIEWER-0004.json
+    verificationMode: automated
+  AIXEM-REQ-VIEWER-0005:
+    status: pass
+    validators:
+    - schematic.reference_viewer
+    tests:
+    - tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v015_dom_identity_closure_and_unique_ids
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-VIEWER-0005.json
+    verificationMode: automated
+  AIXEM-REQ-VIEWER-0006:
+    status: pass
+    validators:
+    - schematic.reference_viewer
+    tests:
+    - tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v005_v006_project_net_and_interface_selection
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-VIEWER-0006.json
+    verificationMode: automated
+  AIXEM-REQ-VIEWER-0007:
+    status: pass
+    validators:
+    - schematic.reference_viewer
+    tests:
+    - tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v005_v006_project_net_and_interface_selection
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-VIEWER-0007.json
+    verificationMode: automated
+  AIXEM-REQ-VIEWER-0008:
+    status: pass
+    validators:
+    - schematic.reference_viewer
+    tests:
+    - tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v007_sheet_scoped_layer_visibility
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-VIEWER-0008.json
+    verificationMode: automated
+  AIXEM-REQ-VIEWER-0009:
+    status: pass
+    validators:
+    - schematic.reference_viewer
+    tests:
+    - tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v010_pan_zoom_fit_per_view_state
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-VIEWER-0009.json
+    verificationMode: automated
+  AIXEM-REQ-VIEWER-0010:
+    status: pass
+    validators:
+    - schematic.reference_viewer
+    tests:
+    - tests/conformance/test_viewer_accessibility.py::ViewerAccessibilityConformanceTests.test_v011_keyboard_only_required_workflow
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-VIEWER-0010.json
+    verificationMode: automated
+  AIXEM-REQ-VIEWER-0011:
+    status: pass
+    validators:
+    - schematic.reference_viewer
+    tests:
+    - tests/conformance/test_viewer_security.py::ViewerSecurityConformanceTests.test_v013_offline_network_denial_and_csp
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-VIEWER-0011.json
+    verificationMode: automated
+  AIXEM-REQ-VIEWER-0012:
+    status: pass
+    validators:
+    - schematic.reference_viewer
+    tests:
+    - tests/conformance/test_viewer_security.py::ViewerSecurityConformanceTests.test_v014_hostile_authored_text_is_inert
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-VIEWER-0012.json
+    verificationMode: automated
+  AIXEM-REQ-VIEWER-0013:
+    status: pass
+    validators:
+    - schematic.reference_viewer
+    tests:
+    - tests/conformance/test_viewer_security.py::ViewerSecurityConformanceTests.test_v013_offline_network_denial_and_csp
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-VIEWER-0013.json
+    verificationMode: automated
+  AIXEM-REQ-VIEWER-0014:
+    status: pass
+    validators:
+    - schematic.reference_viewer
+    tests:
+    - tests/conformance/test_viewer_accessibility.py::ViewerAccessibilityConformanceTests.test_v012_narrow_viewport_retains_navigation_and_inspection
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-VIEWER-0014.json
+    verificationMode: automated
+  AIXEM-REQ-VIEWER-0015:
+    status: pass
+    validators:
+    - schematic.reference_viewer
+    tests:
+    - tests/conformance/test_viewer_security.py::ViewerSecurityConformanceTests.test_structural_negative_viewer_models_fail_closed
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-VIEWER-0015.json
+    verificationMode: automated
+  AIXEM-REQ-VIEWER-0016:
+    status: pass
+    validators:
+    - schematic.reference_viewer
+    tests:
+    - tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v018_three_run_viewer_artifact_determinism
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-VIEWER-0016.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-CLOSED-LOOP-0001:
+    status: pass
+    validators:
+    - agent.diagnostics
+    tests:
+    - tests/agent/test_diagnostics.py::AgentDiagnosticContractTests.test_diagnostic_serialization_is_schema_valid_and_stable
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-CLOSED-LOOP-0001.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-CLOSED-LOOP-0002:
+    status: pass
+    validators:
+    - agent.diagnostics
+    tests:
+    - tests/agent/test_route_execution_metadata.py::RouteExecutionMetadataTests.test_all_recommended_diagnostics_are_accepted_by_an_existing_route
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-CLOSED-LOOP-0002.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-CLOSED-LOOP-0003:
+    status: pass
+    validators:
+    - agent.diagnostics
+    tests:
+    - tests/agent/test_diagnostics.py::AgentDiagnosticContractTests.test_registry_contains_complete_p0_set_and_valid_metadata
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-CLOSED-LOOP-0003.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-CLOSED-LOOP-0004:
+    status: pass
+    validators:
+    - agent.change_scope
+    tests:
+    - tests/agent/test_change_scope.py::AgentChangeScopeTests.test_allowed_layout_and_digest_only_project_change
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-CLOSED-LOOP-0004.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-CLOSED-LOOP-0005:
+    status: pass
+    validators:
+    - agent.change_scope
+    tests:
+    - tests/agent/test_change_scope.py::AgentChangeScopeTests.test_wrong_authority_and_non_digest_project_change_fail
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-CLOSED-LOOP-0005.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-CLOSED-LOOP-0006:
+    status: pass
+    validators:
+    - agent.change_scope
+    tests:
+    - tests/agent/test_change_scope.py::AgentChangeScopeTests.test_generated_output_edit_is_detected_and_schema_valid
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-CLOSED-LOOP-0006.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-CLOSED-LOOP-0007:
+    status: pass
+    validators:
+    - route.write_scope
+    tests:
+    - tests/agent/test_route_execution_metadata.py::RouteExecutionMetadataTests.test_task_packets_expose_active_child_scope
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-CLOSED-LOOP-0007.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-CLOSED-LOOP-0008:
+    status: pass
+    validators:
+    - agent.authoring_closed_loop
+    tests:
+    - tests/agent/test_authoring_harness.py::AuthoringHarnessTests.test_prepare_check_close_valid_project
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-CLOSED-LOOP-0008.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-CLOSED-LOOP-0009:
+    status: pass
+    validators:
+    - agent.authoring_closed_loop
+    tests:
+    - tests/agent/test_authoring_harness.py::AuthoringHarnessTests.test_wrong_authority_edit_blocks_route
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-CLOSED-LOOP-0009.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-CLOSED-LOOP-0010:
+    status: pass
+    validators:
+    - agent.run_record
+    tests:
+    - tests/agent/test_run_record.py::AgentRunRecordTests.test_stalled_and_oscillating_state_detection
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-CLOSED-LOOP-0010.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-CLOSED-LOOP-0011:
+    status: pass
+    validators:
+    - agent.run_record
+    tests:
+    - tests/agent/test_run_record.py::AgentRunRecordTests.test_closed_record_is_schema_valid_and_deterministic
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-CLOSED-LOOP-0011.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-CLOSED-LOOP-0012:
+    status: pass
+    validators:
+    - agent.run_record
+    tests:
+    - tests/agent/test_run_record.py::AgentRunRecordTests.test_closed_record_is_schema_valid_and_deterministic
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-CLOSED-LOOP-0012.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-CLOSED-LOOP-0013:
+    status: pass
+    validators:
+    - agent.run_record
+    tests:
+    - tests/agent/test_run_record.py::AgentRunRecordTests.test_blocking_diagnostic_prevents_closure
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-CLOSED-LOOP-0013.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-CLOSED-LOOP-0014:
+    status: pass
+    validators:
+    - agent.evaluation_tier_truth
+    tests:
+    - tests/agent/test_agent_evals_2.py::AgentEvaluation2Tests.test_tier_status_never_conflates_replay_and_live_execution
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-CLOSED-LOOP-0014.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-CLOSED-LOOP-0015:
+    status: pass
+    validators:
+    - agent.evaluation_tier_truth
+    tests:
+    - tests/agent/test_agent_evals_2.py::AgentEvaluation2Tests.test_tier_status_never_conflates_replay_and_live_execution
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-CLOSED-LOOP-0015.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-CLOSED-LOOP-0016:
+    status: pass
+    validators:
+    - agent.change_scope
+    tests:
+    - tests/agent/test_change_scope.py::AgentChangeScopeTests.test_symlink_fails_closed
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-CLOSED-LOOP-0016.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-CLOSED-LOOP-0017:
+    status: pass
+    validators:
+    - agent.diagnostics
+    tests:
+    - tests/agent/test_diagnostics.py::AgentDiagnosticContractTests.test_registry_contains_complete_p0_set_and_valid_metadata
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-CLOSED-LOOP-0017.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-LIVE-0001:
+    status: pass
+    validators:
+    - agent.task_contract
+    tests:
+    - tests/agent/test_task_contract.py::AgentTaskContractTests.test_task_cannot_widen_route_authority
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-LIVE-0001.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-LIVE-0002:
+    status: pass
+    validators:
+    - agent.task_contract
+    tests:
+    - tests/agent/test_task_contract.py::AgentTaskContractTests.test_valid_task_resolves_route_bounded_write_scope
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-LIVE-0002.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-LIVE-0003:
+    status: pass
+    validators:
+    - agent.task_contract
+    tests:
+    - tests/agent/test_task_contract.py::AgentTaskContractTests.test_simple_route_cannot_select_an_unrelated_active_route
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-LIVE-0003.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-LIVE-0004:
+    status: pass
+    validators:
+    - agent.cold_start_stage
+    tests:
+    - tests/agent/test_cold_start_stage.py::ColdStartStageContractTests.test_all_l001_l012_stages_are_deterministic_valid_and_oracle_free
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-LIVE-0004.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-LIVE-0005:
+    status: pass
+    validators:
+    - agent.cold_start_stage
+    tests:
+    - tests/agent/test_agent_evals_3.py::AgentEvaluation3CorpusTests.test_tasks_and_evaluator_manifests_are_schema_valid_and_separated
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-LIVE-0005.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-LIVE-0006:
+    status: pass
+    validators:
+    - agent.cold_start_stage
+    tests:
+    - tests/agent/test_cold_start_stage.py::ColdStartStageContractTests.test_symlinks_in_start_state_fail_closed
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-LIVE-0006.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-LIVE-0007:
+    status: pass
+    validators:
+    - agent.live_executor
+    tests:
+    - tests/agent/test_live_executor.py::LiveExecutorProtocolTests.test_missing_executable_is_retained_as_executor_error
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-LIVE-0007.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-LIVE-0008:
+    status: pass
+    validators:
+    - agent.live_executor
+    tests:
+    - tests/agent/test_live_executor.py::LiveExecutorProtocolTests.test_wall_time_and_output_limits_fail_closed
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-LIVE-0008.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-LIVE-0009:
+    status: pass
+    validators:
+    - agent.live_executor
+    tests:
+    - tests/agent/test_live_executor.py::LiveExecutorProtocolTests.test_inherited_secret_value_is_redacted_without_serializing_it
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-LIVE-0009.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-LIVE-0010:
+    status: pass
+    validators:
+    - agent.observation
+    tests:
+    - tests/agent/test_observation.py::ObservationEventContractTests.test_private_reasoning_fields_are_rejected
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-LIVE-0010.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-LIVE-0011:
+    status: pass
+    validators:
+    - agent.observation
+    tests:
+    - tests/agent/test_observation.py::ObservationEventContractTests.test_observable_stream_is_sequence_checked_and_digest_addressed
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-LIVE-0011.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-LIVE-0012:
+    status: pass
+    validators:
+    - agent.evaluation_invariants
+    tests:
+    - tests/agent/test_invariant_scorer.py::EvaluationInvariantContractTests.test_exact_completed_source_oracle_is_prohibited
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-LIVE-0012.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-LIVE-0013:
+    status: pass
+    validators:
+    - agent.evaluation_invariants
+    tests:
+    - tests/agent/test_invariant_scorer.py::EvaluationInvariantContractTests.test_scorer_checks_actual_incomplete_workspace_without_self_repair
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-LIVE-0013.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-LIVE-0014:
+    status: pass
+    validators:
+    - agent.evaluation_invariants
+    tests:
+    - tests/agent/test_invariant_scorer.py::EvaluationInvariantContractTests.test_semantically_repaired_workspace_passes_hidden_invariants
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-LIVE-0014.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-LIVE-0015:
+    status: pass
+    validators:
+    - agent.live_run
+    tests:
+    - tests/agent/test_live_run_evidence.py::LiveRunEvidenceContractTests.test_evidence_digest_tampering_is_detected
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-LIVE-0015.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-LIVE-0016:
+    status: pass
+    validators:
+    - agent.live_run
+    tests:
+    - tests/agent/test_live_run_evidence.py::LiveRunEvidenceContractTests.test_failed_or_non_live_attempt_remains_in_denominator
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-LIVE-0016.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-LIVE-0017:
+    status: pass
+    validators:
+    - agent.live_run
+    tests:
+    - tests/agent/test_live_run_evidence.py::LiveRunEvidenceContractTests.test_live_pass_requires_evaluation_and_conformant_authoring_record
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-LIVE-0017.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-LIVE-0018:
+    status: pass
+    validators:
+    - agent.evaluation_3
+    tests:
+    - tests/agent/test_agent_evals_3.py::AgentEvaluation3CorpusTests.test_manifest_contains_exact_l001_l012_creation_and_repair_inventory
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-LIVE-0018.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-LIVE-0019:
+    status: pass
+    validators:
+    - agent.evaluation_3
+    tests:
+    - tests/agent/test_agent_evals_3.py::AgentEvaluation3CorpusTests.test_tier_b_status_never_claims_an_execution_that_did_not_happen
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-LIVE-0019.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-LIVE-0020:
+    status: pass
+    validators:
+    - agent.cold_start_stage
+    tests:
+    - tests/agent/test_pre_live_readiness.py::PreLiveReadinessHardeningTests.test_task_reference_manifest_and_symlink_tampering_fail_postflight
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-LIVE-0020.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-LIVE-0021:
+    status: pass
+    validators:
+    - agent.live_executor
+    tests:
+    - tests/agent/test_pre_live_readiness.py::PreLiveReadinessHardeningTests.test_timeout_terminates_spawned_child_process_group
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-LIVE-0021.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-LIVE-0022:
+    status: pass
+    validators:
+    - agent.observation
+    tests:
+    - tests/agent/test_pre_live_readiness.py::PreLiveReadinessHardeningTests.test_nested_observation_secrets_are_sanitized_before_retention
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-LIVE-0022.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-LIVE-0023:
+    status: pass
+    validators:
+    - agent.observation
+    tests:
+    - tests/agent/test_pre_live_readiness.py::PreLiveReadinessHardeningTests.test_observation_consistency_preserves_change_set_authority
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-LIVE-0023.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-LIVE-0024:
+    status: pass
+    validators:
+    - agent.evaluation_invariants
+    tests:
+    - tests/agent/test_pre_live_readiness.py::PreLiveReadinessHardeningTests.test_invariant_basis_rejects_missing_task_and_nonstaged_document
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-LIVE-0024.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-LIVE-0025:
+    status: pass
+    validators:
+    - agent.pre_live_readiness
+    tests:
+    - tests/agent/test_pre_live_readiness.py::PreLiveReadinessHardeningTests.test_generated_readiness_report_closes_all_pre_live_gates
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-LIVE-0025.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-LIVE-0026:
+    status: pass
+    validators:
+    - agent.live_run
+    tests:
+    - tests/agent/test_pre_live_readiness.py::PreLiveReadinessHardeningTests.test_repository_corpus_protocol_identity_and_clock_modes_are_separate
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-LIVE-0026.json
+    verificationMode: automated
+  AIXEM-REQ-AGENT-LIVE-0027:
+    status: pass
+    validators:
+    - agent.pre_live_readiness
+    tests:
+    - tests/agent/test_pre_live_readiness.py::PreLiveReadinessHardeningTests.test_generated_readiness_report_closes_all_pre_live_gates
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-AGENT-LIVE-0027.json
+    verificationMode: automated
+  AIXEM-REQ-DOC-GOV-0001:
+    status: pass
+    validators:
+    - docs.repository_inventory
+    tests:
+    - tests/docs/test_document_governance.py::DocumentGovernanceTests.test_every_markdown_has_exactly_one_role
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-DOC-GOV-0001.json
+    verificationMode: automated
+  AIXEM-REQ-DOC-GOV-0002:
+    status: pass
+    validators:
+    - docs.document_naming
+    tests:
+    - tests/docs/test_document_governance.py::DocumentGovernanceTests.test_root_hygiene_and_reserved_names
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-DOC-GOV-0002.json
+    verificationMode: automated
+  AIXEM-REQ-DOC-GOV-0003:
+    status: pass
+    validators:
+    - docs.document_discoverability
+    tests:
+    - tests/docs/test_document_governance.py::DocumentGovernanceTests.test_role_aware_discoverability_has_no_orphans
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-DOC-GOV-0003.json
+    verificationMode: automated
+  AIXEM-REQ-DOC-GOV-0004:
+    status: pass
+    validators:
+    - docs.canonical_structure
+    tests:
+    - tests/docs/test_document_governance.py::DocumentGovernanceTests.test_canonical_structure_has_terminal_footer_and_no_patch_blocks
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-DOC-GOV-0004.json
+    verificationMode: automated
+  AIXEM-REQ-DOC-GOV-0005:
+    status: pass
+    validators:
+    - docs.path_migrations
+    tests:
+    - tests/docs/test_document_governance.py::DocumentGovernanceTests.test_path_migrations_preserve_identity_and_redirects
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-DOC-GOV-0005.json
+    verificationMode: automated
+  AIXEM-REQ-DOC-GOV-0006:
+    status: pass
+    validators:
+    - docs.metadata_vocabulary
+    tests:
+    - tests/docs/test_document_governance.py::DocumentGovernanceTests.test_metadata_vocabularies_and_token_estimates
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-DOC-GOV-0006.json
+    verificationMode: automated
+  AIXEM-REQ-DOC-GOV-0007:
+    status: pass
+    validators:
+    - docs.repository_inventory
+    tests:
+    - tests/docs/test_document_governance.py::DocumentGovernanceTests.test_repository_inventory_is_deterministic
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-DOC-GOV-0007.json
+    verificationMode: automated
+  AIXEM-REQ-DOC-GOV-0008:
+    status: pass
+    validators:
+    - docs.document_lifecycle
+    tests:
+    - tests/docs/test_document_governance.py::DocumentGovernanceTests.test_planning_and_validation_lifecycles
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-DOC-GOV-0008.json
+    verificationMode: automated
+  AIXEM-REQ-DOC-GOV-0009:
+    status: pass
+    validators:
+    - docs.agent_document_rules
+    tests:
+    - tests/docs/test_document_governance.py::DocumentGovernanceTests.test_agents_document_creation_gate
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-DOC-GOV-0009.json
+    verificationMode: automated
+  AIXEM-REQ-DOC-GOV-0010:
+    status: pass
+    validators:
+    - docs.repository_inventory
+    tests:
+    - tests/docs/test_document_governance.py::DocumentGovernanceTests.test_unknown_markdown_fails_closed
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-DOC-GOV-0010.json
+    verificationMode: automated
+  AIXEM-REQ-DOC-GOV-0011:
+    status: pass
+    validators:
+    - docs.root_reference_chain
+    tests:
+    - tests/docs/test_document_governance.py::DocumentGovernanceTests.test_root_reference_chain_reaches_all_human_documents
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-DOC-GOV-0011.json
+    verificationMode: automated
+  AIXEM-REQ-DOC-GOV-0012:
+    status: pass
+    validators:
+    - docs.section_index_coverage
+    tests:
+    - tests/docs/test_document_governance.py::DocumentGovernanceTests.test_section_indexes_cover_navigation_members
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-DOC-GOV-0012.json
+    verificationMode: automated
+  AIXEM-REQ-DOC-GOV-0013:
+    status: pass
+    validators:
+    - docs.release_coherence
+    tests:
+    - tests/docs/test_document_governance.py::DocumentGovernanceTests.test_current_release_pointers_are_coherent
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-DOC-GOV-0013.json
+    verificationMode: automated
+  AIXEM-REQ-DOC-GOV-0014:
+    status: pass
+    validators:
+    - docs.authority_scope
+    tests:
+    - tests/docs/test_document_governance.py::DocumentGovernanceTests.test_normative_authority_scopes_are_unambiguous
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-DOC-GOV-0014.json
+    verificationMode: automated
+  AIXEM-REQ-LIBRARY-0001:
+    status: pass
+    validators:
+    - schematic.authoring_integrity
+    tests:
+    - tests/schematic/test_authoring_integrity.py::LibraryPathTests.test_lby001_new_electronics_path
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-LIBRARY-0001.json
+    verificationMode: automated
+  AIXEM-REQ-LIBRARY-0002:
+    status: pass
+    validators:
+    - schematic.authoring_integrity
+    tests:
+    - tests/schematic/test_authoring_integrity.py::PartProvenanceTests.test_prt002_concrete_part_without_source
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-LIBRARY-0002.json
+    verificationMode: automated
+  AIXEM-REQ-LIBRARY-0003:
+    status: pass
+    validators:
+    - schematic.authoring_integrity
+    tests:
+    - tests/schematic/test_authoring_integrity.py::SemanticIdentityTests.test_prt005_geometry_only_id_multiplication
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-LIBRARY-0003.json
+    verificationMode: automated
+  AIXEM-REQ-LIBRARY-0004:
+    status: pass
+    validators:
+    - schematic.authoring_integrity
+    tests:
+    - tests/schematic/test_authoring_integrity.py::ReviewAndClaimsTests.test_full_claim_separation
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-LIBRARY-0004.json
+    verificationMode: automated
+  AIXEM-REQ-LIBRARY-0005:
+    status: pass
+    validators:
+    - schematic.authoring_integrity
+    tests:
+    - tests/schematic/test_authoring_integrity.py::ReviewAndClaimsTests.test_prt008_review_wrong_source
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-LIBRARY-0005.json
+    verificationMode: automated
+  AIXEM-REQ-PIN-0001:
+    status: pass
+    validators:
+    - schematic.authoring_integrity
+    tests:
+    - tests/schematic/test_authoring_integrity.py::PinSemanticsTests.test_pin001_active_low_reset
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-PIN-0001.json
+    verificationMode: automated
+  AIXEM-REQ-PIN-0002:
+    status: pass
+    validators:
+    - schematic.authoring_integrity
+    tests:
+    - tests/schematic/test_authoring_integrity.py::PinSemanticsTests.test_pin005_alternate_functions
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-PIN-0002.json
+    verificationMode: automated
+  AIXEM-REQ-PIN-0003:
+    status: pass
+    validators:
+    - schematic.authoring_integrity
+    tests:
+    - tests/schematic/test_authoring_integrity.py::PinSemanticsTests.test_pin003_duplicate_differential_member
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-PIN-0003.json
+    verificationMode: automated
+  AIXEM-REQ-PIN-0004:
+    status: pass
+    validators:
+    - schematic.authoring_integrity
+    tests:
+    - tests/schematic/test_authoring_integrity.py::ReviewAndClaimsTests.test_prt007_render_pass_does_not_bypass_review
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-PIN-0004.json
+    verificationMode: automated
+  AIXEM-REQ-PIN-0005:
+    status: pass
+    validators:
+    - schematic.authoring_integrity
+    tests:
+    - tests/schematic/test_authoring_integrity.py::CompatibilityTests.test_compatibility_never_claims_safety
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-PIN-0005.json
+    verificationMode: automated
+  AIXEM-REQ-SYMBOL-DESIGN-0006:
+    status: pass
+    validators:
+    - schematic.authoring_integrity
+    tests:
+    - tests/schematic/test_authoring_integrity.py::SizingAndGridTests.test_repeated_pin_group_span
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-SYMBOL-DESIGN-0006.json
+    verificationMode: automated
+  AIXEM-REQ-LAYOUT-0006:
+    status: pass
+    validators:
+    - schematic.authoring_integrity
+    tests:
+    - tests/schematic/test_authoring_integrity.py::SizingAndGridTests.test_g005_grid_profile_mismatch
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-LAYOUT-0006.json
+    verificationMode: automated
+  AIXEM-REQ-LAYOUT-0007:
+    status: pass
+    validators:
+    - schematic.placement_assist
+    tests:
+    - tests/schematic/test_placement_assist.py::PlacementAssistTests.test_cli_emits_read_only_payload
+    evidence:
+    - validation/evidence/requirements/AIXEM-REQ-LAYOUT-0007.json
+    verificationMode: automated

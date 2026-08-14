@@ -1,0 +1,121 @@
+{
+  "formatVersion": "1.0",
+  "route": {
+    "aliases": [
+      "compose project",
+      "create multi-sheet project",
+      "connect sheets",
+      "define project nets",
+      "author hierarchy",
+      "connect sheets with project nets"
+    ],
+    "budget": {
+      "fallbackDocuments": 2,
+      "maxBytes": 98304,
+      "maxDepth": 3,
+      "maxDocuments": 7
+    },
+    "conditionalReads": [],
+    "id": "compose-project",
+    "intents": [
+      "compose-project"
+    ],
+    "metadata": {
+      "exactRoutePreferred": true,
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "kind": "simple",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "source": "docs/_meta/routes/compose-project.yaml"
+    },
+    "outputs": [
+      "digest-locked aixproj/2 manifest",
+      "resolved project semantic graph",
+      "per-sheet interface summaries",
+      "project composition validation evidence"
+    ],
+    "steps": [
+      {
+        "exitCheck": "Every sheet validates independently",
+        "id": "step-1",
+        "order": 1,
+        "produces": [],
+        "purpose": "Establish the Project to Sheet authority boundary and canonical aixproj/2 structure.",
+        "read": [
+          "reference/cards/specifications/project/project-composition-contract.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Hierarchy is acyclic and deterministically ordered",
+        "id": "step-2",
+        "order": 2,
+        "produces": [],
+        "purpose": "Confirm that every cross-sheet boundary is backed by a real leaf semantic endpoint.",
+        "read": [
+          "reference/cards/specifications/core/interface-port-contract.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Every project-net member resolves to a semantic interface port",
+        "id": "step-3",
+        "order": 3,
+        "produces": [],
+        "purpose": "Apply local-net and project-net equivalence rules without name-based merging.",
+        "read": [
+          "reference/cards/concepts/project-net-model.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "No connectivity was inferred from names or geometry",
+        "id": "step-4",
+        "order": 4,
+        "produces": [],
+        "purpose": "Serialize sheets, hierarchy, project nets, libraries, render policy, and digests.",
+        "read": [
+          "reference/cards/file-formats/aixproj.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "No connectivity was inferred from names or geometry",
+        "id": "step-5",
+        "order": 5,
+        "produces": [],
+        "purpose": "Use interface summaries first and open only affected leaf files.",
+        "read": [
+          "reference/cards/agent/authoring-orchestration.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "No connectivity was inferred from names or geometry",
+        "id": "step-6",
+        "order": 6,
+        "produces": [],
+        "purpose": "Validate the composed graph against positive and fail-closed corpus cases.",
+        "read": [
+          "reference/cards/conformance/hierarchical-project.aixcard.json"
+        ],
+        "required": true
+      }
+    ],
+    "stopConditions": [
+      "Every sheet validates independently",
+      "Hierarchy is acyclic and deterministically ordered",
+      "Every project-net member resolves to a semantic interface port",
+      "No connectivity was inferred from names or geometry"
+    ],
+    "title": "Register independent leaf sheets, define organizational hierarchy, and connect explicit semantic interface ports through project nets",
+    "validators": [
+      "schematic.project_schema",
+      "schematic.digest_lock",
+      "schematic.semantic",
+      "schematic.geometry_isolation",
+      "agent.diagnostics",
+      "agent.change_scope"
+    ]
+  },
+  "schema": "https://schemas.aixem.org/reference/aixroute/1"
+}

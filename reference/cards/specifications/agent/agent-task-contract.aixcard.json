@@ -1,0 +1,66 @@
+{
+  "card": {
+    "aliases": [
+      "agent task contract",
+      "cold-start task",
+      "task request envelope"
+    ],
+    "appliesTo": [
+      "agent-task-envelope"
+    ],
+    "domain": "specifications",
+    "estimatedReadBytes": 6253,
+    "id": "AIXEM-SPEC-AGENT-TASK-001",
+    "inputs": [],
+    "keywords": [
+      "Agent Task Contract 1",
+      "agent task contract",
+      "author-component-circuit",
+      "cold-start task",
+      "task request envelope",
+      "validate-project"
+    ],
+    "kind": "contract",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/specifications/agent/agent-task-contract.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:ad4aa721dd1ace9227f6f31c40765f210a83d6c0e3ac3012bde4880992f3d9a0"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SPEC-AGENT-RETRIEVAL-001",
+      "AIXEM-SPEC-AGENT-EXECUTION-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-AGENT-LIVE-0001",
+        "level": "must",
+        "text": "**MUST.** An Agent Task Contract 1 document MUST be treated as a request envelope and MUST NOT grant an authority or artifact write that the selected task route does not own."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-LIVE-0002",
+        "level": "must",
+        "text": "**MUST.** Task write constraints MUST resolve as an equal or narrower subset of the active route authority, artifact patterns, prohibitions, constraints, and validators."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-LIVE-0003",
+        "level": "must",
+        "text": "**MUST.** A live attempt MUST resolve one executable active route before stage materialization; a simple route cannot select an unrelated route and a composite route must select one declared child stage."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SPEC-AGENT-TASK-001",
+        "path": "docs/specifications/agent/agent-task-contract.md"
+      }
+    ],
+    "summary": "Defines the non-authoritative machine envelope for one cold-start authoring request and resolves it against route-owned write scope.",
+    "title": "Agent Task Contract 1"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

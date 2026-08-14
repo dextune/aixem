@@ -1,0 +1,26 @@
+{
+  "agentVisible": [
+    "agent-task.json",
+    "TASK.md",
+    "start/**",
+    "compiled reference pack"
+  ],
+  "category": "creation",
+  "completedTargetBundled": false,
+  "evaluatorOnly": [
+    "evaluator/invariants.json",
+    "case.json",
+    "scoring metadata"
+  ],
+  "expectedInitialDiagnostics": [],
+  "forbiddenCompletedDigests": [
+    "sha256:79cf9de5ee1d7b296b703b0f26200e95d75a34726acac291d299ebedd1f0028f",
+    "sha256:c34430b967f448c4af4ad7b7d73037248db7b4095ac8c69e44db5a345f6bafae"
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "id": "L007",
+  "schema": "https://schemas.aixem.org/validation/agent-eval-3-case/1",
+  "startSource": "validation/corpus/hierarchical-project-1/cases/H004-same-name-local-nets-not-connected",
+  "title": "Same-name local nets"
+}

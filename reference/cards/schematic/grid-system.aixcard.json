@@ -1,0 +1,70 @@
+{
+  "card": {
+    "aliases": [
+      "grid",
+      "snap grid",
+      "major grid",
+      "grid system"
+    ],
+    "appliesTo": [
+      "layout-grid",
+      "render-grid"
+    ],
+    "domain": "schematic",
+    "estimatedReadBytes": 6354,
+    "id": "AIXEM-SCHEM-GRID-001",
+    "inputs": [],
+    "keywords": [
+      "Grid and Snap System",
+      "create-schematic",
+      "grid",
+      "grid system",
+      "major grid",
+      "place-component",
+      "route-nets",
+      "snap grid",
+      "validate-project"
+    ],
+    "kind": "guide",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/schematic/grid-system.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:6635f8dba35db7d77e80a45b7fbddccf7055b27c4ddf4e5e328b65a458161817"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SPEC-COORD-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-SCHEM-0001",
+        "level": "must",
+        "text": "**MUST.** The reference schematic profile MUST use a 2.5 mm snap grid."
+      },
+      {
+        "id": "AIXEM-REQ-SCHEM-0002",
+        "level": "must",
+        "text": "**MUST.** The reference schematic profile MUST use a 10 mm major grid."
+      },
+      {
+        "id": "AIXEM-REQ-SCHEM-0003",
+        "level": "must",
+        "text": "**MUST.** Every free route bend MUST align to the permitted snap grid."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SCHEM-GRID-001",
+        "path": "docs/schematic/grid-system.md"
+      }
+    ],
+    "summary": "Defines the default 2.5 mm snap grid, 10 mm major grid, coordinate precision, and permitted exceptions.",
+    "title": "Grid and Snap System"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

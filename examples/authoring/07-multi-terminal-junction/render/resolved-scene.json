@@ -1,0 +1,283 @@
+{
+  "coordinateSystem": {
+    "angleDirection": "clockwise",
+    "angleUnit": "deg",
+    "grid": 2.5,
+    "unit": "mm",
+    "yAxis": "down"
+  },
+  "diagnostics": [],
+  "entities": [
+    {
+      "componentType": "authoring:terminal",
+      "key": "T1",
+      "kind": "connector",
+      "parameters": {},
+      "placement": {
+        "entity": "T1",
+        "layer": "symbols",
+        "x": 25,
+        "y": 50
+      },
+      "ports": {
+        "1": [
+          25.0,
+          50.0
+        ]
+      },
+      "reference": "T1",
+      "symbolDigest": "sha256:c4f12f18862f6a2b41eab5de806d215bff64db45e0ef30d7b35dc3b6374d2eec",
+      "symbolId": "authoring:terminal",
+      "value": "T1",
+      "variant": null
+    },
+    {
+      "componentType": "authoring:terminal",
+      "key": "T2",
+      "kind": "connector",
+      "parameters": {},
+      "placement": {
+        "entity": "T2",
+        "layer": "symbols",
+        "x": 85,
+        "y": 25
+      },
+      "ports": {
+        "1": [
+          85.0,
+          25.0
+        ]
+      },
+      "reference": "T2",
+      "symbolDigest": "sha256:c4f12f18862f6a2b41eab5de806d215bff64db45e0ef30d7b35dc3b6374d2eec",
+      "symbolId": "authoring:terminal",
+      "value": "T2",
+      "variant": null
+    },
+    {
+      "componentType": "authoring:terminal",
+      "key": "T3",
+      "kind": "connector",
+      "parameters": {},
+      "placement": {
+        "entity": "T3",
+        "layer": "symbols",
+        "x": 115,
+        "y": 50
+      },
+      "ports": {
+        "1": [
+          115.0,
+          50.0
+        ]
+      },
+      "reference": "T3",
+      "symbolDigest": "sha256:c4f12f18862f6a2b41eab5de806d215bff64db45e0ef30d7b35dc3b6374d2eec",
+      "symbolId": "authoring:terminal",
+      "value": "T3",
+      "variant": null
+    },
+    {
+      "componentType": "authoring:terminal",
+      "key": "T4",
+      "kind": "connector",
+      "parameters": {},
+      "placement": {
+        "entity": "T4",
+        "layer": "symbols",
+        "x": 85,
+        "y": 35
+      },
+      "ports": {
+        "1": [
+          85.0,
+          35.0
+        ]
+      },
+      "reference": "T4",
+      "symbolDigest": "sha256:c4f12f18862f6a2b41eab5de806d215bff64db45e0ef30d7b35dc3b6374d2eec",
+      "symbolId": "authoring:terminal",
+      "value": "T4",
+      "variant": null
+    },
+    {
+      "componentType": "authoring:terminal",
+      "key": "T5",
+      "kind": "connector",
+      "parameters": {},
+      "placement": {
+        "entity": "T5",
+        "layer": "symbols",
+        "x": 85,
+        "y": 65
+      },
+      "ports": {
+        "1": [
+          85.0,
+          65.0
+        ]
+      },
+      "reference": "T5",
+      "symbolDigest": "sha256:c4f12f18862f6a2b41eab5de806d215bff64db45e0ef30d7b35dc3b6374d2eec",
+      "symbolId": "authoring:terminal",
+      "value": "T5",
+      "variant": null
+    }
+  ],
+  "featuresUsed": [],
+  "generatedAt": "2026-08-10T00:00:00Z",
+  "gridValidation": {
+    "crossingPolicy": "junction-required",
+    "orthogonalSegments": 5,
+    "placementExceptions": [],
+    "placements": 5,
+    "placementsOnGrid": 5,
+    "profile": "aixem.schematic.grid-light",
+    "routeSegments": 5,
+    "routeViasOnGrid": true,
+    "snap": 2.5,
+    "zeroLengthSegments": []
+  },
+  "hashes": {
+    "layout": "sha256:58068a596012f6c48d2408d22d84c6d8f84cab5fd47c71733a1749222c845097",
+    "libraries": [
+      "sha256:55792cfe6ba61376d49d610d57dbaca5e2da21f6f426ae499cbda26b5b1c5003"
+    ],
+    "source": "sha256:07877d26ea06c7a6b95f22540983d73f40f3a98aed0fffe726e473e395f32232",
+    "symbolAssets": [
+      "sha256:c4f12f18862f6a2b41eab5de806d215bff64db45e0ef30d7b35dc3b6374d2eec"
+    ]
+  },
+  "layers": [
+    {
+      "defaultVisible": true,
+      "id": "connections",
+      "locked": false,
+      "order": 10,
+      "printable": true,
+      "purpose": "semantic net routes"
+    },
+    {
+      "defaultVisible": true,
+      "id": "symbols",
+      "locked": false,
+      "order": 20,
+      "printable": true,
+      "purpose": "component symbols"
+    },
+    {
+      "defaultVisible": true,
+      "id": "annotation",
+      "locked": false,
+      "order": 30,
+      "printable": true,
+      "purpose": "notes"
+    }
+  ],
+  "nets": [
+    {
+      "endpoints": [
+        "T1.1",
+        "T2.1",
+        "T3.1"
+      ],
+      "junctions": [
+        [
+          75,
+          50
+        ]
+      ],
+      "name": "bus",
+      "paths": [
+        [
+          [
+            25.0,
+            50.0
+          ],
+          [
+            75.0,
+            50.0
+          ]
+        ],
+        [
+          [
+            85.0,
+            25.0
+          ],
+          [
+            75.0,
+            25.0
+          ],
+          [
+            75.0,
+            50.0
+          ]
+        ],
+        [
+          [
+            115.0,
+            50.0
+          ],
+          [
+            75.0,
+            50.0
+          ]
+        ]
+      ]
+    },
+    {
+      "endpoints": [
+        "T4.1",
+        "T5.1"
+      ],
+      "junctions": [],
+      "name": "cross",
+      "paths": [
+        [
+          [
+            85.0,
+            35.0
+          ],
+          [
+            85.0,
+            65.0
+          ]
+        ]
+      ]
+    }
+  ],
+  "project": {
+    "id": "authoring:multi_terminal_junction",
+    "profile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "title": "Multi-terminal Junction"
+  },
+  "renderer": {
+    "id": "aixem-grid-schematic-reference-renderer",
+    "version": "0.5.1"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/resolved-scene/1",
+  "sheet": {
+    "height": 100,
+    "margin": 10,
+    "titleBlock": {
+      "drawing": "multi_terminal_junction-layout",
+      "revision": "A",
+      "sheet": "1/1",
+      "title": "Multi-terminal junction"
+    },
+    "width": 160
+  },
+  "statistics": {
+    "entities": 5,
+    "nets": 2,
+    "noConnects": 0,
+    "primitives": 15,
+    "routeSegments": 5,
+    "symbolAssets": 1
+  },
+  "styleProfile": {
+    "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+    "id": "aixem.schematic.grid-light",
+    "path": "aixem-grid-schematic-style-1.aixstyle.json"
+  }
+}

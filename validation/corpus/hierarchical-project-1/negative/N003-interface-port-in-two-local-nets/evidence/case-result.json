@@ -1,0 +1,15 @@
+{
+  "canonicalHashes": {},
+  "checks": [],
+  "deterministic": true,
+  "diagnosticMatched": true,
+  "error": "endpoint @VCC occurs in both vcc and conflict",
+  "expected": "fail",
+  "expectedDiagnostic": "endpoint @VCC occurs in both",
+  "id": "N003",
+  "observed": "fail",
+  "projectDigest": "sha256:815e5b8a1aa38eddbeebd20157db085cacc0add2484f9a791a6eeeb91b5cb32c",
+  "repeatCount": 0,
+  "status": "pass",
+  "title": "Interface port in two local nets"
+}

@@ -1,0 +1,205 @@
+{
+  "$id": "https://schemas.aixem.org/conformance/corpus-case/1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "category": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "componentPorts": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "name": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "required": {
+            "type": "boolean"
+          },
+          "type": {
+            "enum": [
+              "input",
+              "output",
+              "bidirectional",
+              "passive",
+              "power-input",
+              "power-output",
+              "open-collector",
+              "open-emitter",
+              "tri-state",
+              "no-connect",
+              "unspecified",
+              "architectural-control",
+              "architectural-load",
+              "architectural-source",
+              "generic"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "type",
+          "required"
+        ],
+        "type": "object"
+      },
+      "maxItems": 4096,
+      "type": "array"
+    },
+    "expectedBoundsClass": {
+      "type": "string"
+    },
+    "expectedFieldRoles": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "expectedGridPolicy": {
+      "type": "string"
+    },
+    "expectedParameterIds": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "expectedPortCount": {
+      "maximum": 4096,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "expectedPrimitiveFamilies": {
+      "items": {
+        "enum": [
+          "group",
+          "use",
+          "line",
+          "polyline",
+          "polygon",
+          "rect",
+          "circle",
+          "ellipse",
+          "arc",
+          "path",
+          "text",
+          "image",
+          "dimension"
+        ]
+      },
+      "minItems": 1,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "expectedVariantIds": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "expectedVisiblePortCount": {
+      "maximum": 4096,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "formatVersion": {
+      "const": "1.0"
+    },
+    "id": {
+      "pattern": "^[SB][0-9]{3}$",
+      "type": "string"
+    },
+    "knownExclusions": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "manualReviewChecks": {
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "optionalCapabilities": {
+      "items": {
+        "pattern": "^[a-z][a-z0-9.-]+$",
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "probe": {
+      "additionalProperties": true,
+      "type": "object"
+    },
+    "purpose": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "requiredCapabilities": {
+      "items": {
+        "pattern": "^[a-z][a-z0-9.-]+$",
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "schema": {
+      "const": "https://schemas.aixem.org/conformance/corpus-case/1"
+    },
+    "symbolPath": {
+      "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[a-z0-9][a-z0-9._/-]*$",
+      "type": "string"
+    },
+    "tier": {
+      "enum": [
+        "core",
+        "extended",
+        "probe",
+        "b2d"
+      ]
+    },
+    "title": {
+      "minLength": 1,
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema",
+    "formatVersion",
+    "id",
+    "title",
+    "category",
+    "tier",
+    "purpose",
+    "symbolPath",
+    "componentPorts",
+    "expectedPortCount",
+    "expectedVisiblePortCount",
+    "requiredCapabilities",
+    "optionalCapabilities",
+    "expectedFieldRoles",
+    "expectedBoundsClass",
+    "expectedGridPolicy",
+    "expectedVariantIds",
+    "expectedParameterIds",
+    "expectedPrimitiveFamilies",
+    "manualReviewChecks",
+    "knownExclusions"
+  ],
+  "title": "AIXEM Corpus Case Contract 1",
+  "type": "object"
+}

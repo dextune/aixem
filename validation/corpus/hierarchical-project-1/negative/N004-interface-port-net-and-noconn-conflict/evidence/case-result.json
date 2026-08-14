@@ -1,0 +1,15 @@
+{
+  "canonicalHashes": {},
+  "checks": [],
+  "deterministic": true,
+  "diagnosticMatched": true,
+  "error": "endpoints both connected and noconn: ['@VCC']",
+  "expected": "fail",
+  "expectedDiagnostic": "endpoints both connected and noconn",
+  "id": "N004",
+  "observed": "fail",
+  "projectDigest": "sha256:31441305a0f475c07a95a1e407c252a207f62e3fb8bb41026a1252814af7c5f2",
+  "repeatCount": 0,
+  "status": "pass",
+  "title": "Interface port net and noconn conflict"
+}

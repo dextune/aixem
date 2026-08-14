@@ -1,0 +1,62 @@
+{
+  "card": {
+    "aliases": [
+      "annotations",
+      "reference designator",
+      "pin labels",
+      "schematic text"
+    ],
+    "appliesTo": [
+      "schematic-annotation"
+    ],
+    "domain": "schematic",
+    "estimatedReadBytes": 4886,
+    "id": "AIXEM-SCHEM-ANNOTATION-001",
+    "inputs": [],
+    "keywords": [
+      "Annotations and Fields",
+      "annotations",
+      "create-schematic",
+      "create-symbol",
+      "pin labels",
+      "reference designator",
+      "schematic text"
+    ],
+    "kind": "guide",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/schematic/annotations.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:43eb366da271176c0f68443c478544c5523531e844e9f285e00bc58f3ab01d1e"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-CONCEPT-SYMBOL-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-SCHEM-0009",
+        "level": "must",
+        "text": "**MUST.** Pin name and pin number MUST be visually distinguishable by position, role, or style."
+      },
+      {
+        "id": "AIXEM-REQ-SCHEM-0010",
+        "level": "must",
+        "text": "**MUST.** Required annotation text MUST not overlap symbol bodies, pins, or route segments in the reference output."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SCHEM-ANNOTATION-001",
+        "path": "docs/schematic/annotations.md"
+      }
+    ],
+    "summary": "Defines reference, value, pin name, pin number, net label, note, and test-point presentation.",
+    "title": "Annotations and Fields"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

@@ -1,0 +1,10 @@
+{
+  "assertions": [
+    "single-project-net-owner"
+  ],
+  "expected": "fail",
+  "expectedDiagnostic": "PROJECT_NET_DUPLICATE_OWNERSHIP",
+  "id": "H010",
+  "project": "project.aixproj.json",
+  "title": "Duplicate project net ownership"
+}

@@ -1,0 +1,55 @@
+{
+  "card": {
+    "aliases": [
+      "release process",
+      "publish release",
+      "release checklist"
+    ],
+    "appliesTo": [
+      "release-process"
+    ],
+    "domain": "governance",
+    "estimatedReadBytes": 3851,
+    "id": "AIXEM-GOV-RELEASE-001",
+    "inputs": [],
+    "keywords": [
+      "Release Process",
+      "publish release",
+      "publish-release",
+      "release checklist",
+      "release process"
+    ],
+    "kind": "policy",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/governance/release-process.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:bf8f5d81afab58a5955ec0e60698c62850b80982dbcd0f92c2fad8f9593b61dd"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 900,
+    "readNext": [
+      "AIXEM-CONF-RELEASE-001",
+      "AIXEM-ARCH-PIPELINE-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-GOV-RELEASE-001.read",
+        "level": "should",
+        "text": "Defines release preparation, release-declared repeated clean verification, deterministic build, validation, visual review, manifest creation, archive creation, and checksum publication."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-GOV-RELEASE-001",
+        "path": "docs/governance/release-process.md"
+      }
+    ],
+    "summary": "Defines release preparation, release-declared repeated clean verification, deterministic build, validation, visual review, manifest creation, archive creation, and checksum publication.",
+    "title": "Release Process"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

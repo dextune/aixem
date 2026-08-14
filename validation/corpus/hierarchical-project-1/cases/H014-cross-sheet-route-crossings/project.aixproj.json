@@ -1,0 +1,136 @@
+{
+  "formatVersion": "2.0",
+  "project": {
+    "applicationProfile": "aixem.schematic.multisheet@1",
+    "description": "Hierarchical conformance case H014: Cross sheet route crossings",
+    "features": [
+      "component.graphics@1",
+      "explicit.layout@2",
+      "hierarchical.interface@1",
+      "project-net@1",
+      "deterministic-project-routing@1"
+    ],
+    "id": "hierarchical:h014",
+    "libraries": [
+      {
+        "digest": "sha256:d6f65cd2d99d51e7a0eeb9ca230ea2207936a84e90bcbe65e7bc3561d393f9b6",
+        "id": "hierarchical:reference-library",
+        "mediaType": "application/vnd.aixem.library+json",
+        "path": "libraries/authoring.aixlib.json",
+        "version": "1.0.0"
+      }
+    ],
+    "metadata": {
+      "case": "H014",
+      "corpus": "hierarchical-project-1",
+      "geometryCreatesConnectivity": false,
+      "layersAreSheets": false
+    },
+    "outputs": [
+      {
+        "mediaType": "image/svg+xml",
+        "path": "render/project-overview.svg",
+        "role": "project-overview-svg"
+      },
+      {
+        "mediaType": "image/svg+xml",
+        "path": "render/project-composite.svg",
+        "role": "project-composite-svg"
+      },
+      {
+        "mediaType": "application/json",
+        "path": "render/resolved-project-scene.json",
+        "role": "resolved-project-scene"
+      },
+      {
+        "mediaType": "text/html",
+        "path": "render/workbench.html",
+        "role": "engineering-workbench"
+      }
+    ],
+    "projectNets": [
+      {
+        "id": "signal_a",
+        "members": [
+          {
+            "port": "OUT",
+            "sheet": "left"
+          },
+          {
+            "port": "CLK",
+            "sheet": "right"
+          }
+        ]
+      },
+      {
+        "id": "signal_b",
+        "members": [
+          {
+            "port": "STATUS",
+            "sheet": "left"
+          },
+          {
+            "port": "IN",
+            "sheet": "right"
+          }
+        ]
+      }
+    ],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-11",
+      "license": "CC0-1.0"
+    },
+    "renderPolicy": {
+      "backend": "svg",
+      "defaultVariantPolicy": "library-default",
+      "fontPolicy": "system-fallback",
+      "purpose": "primary-diagram",
+      "remoteAssets": "deny",
+      "unsupportedRequiredFeature": "reject"
+    },
+    "sheets": [
+      {
+        "id": "left",
+        "layout": {
+          "digest": "sha256:472a1e9e036b618c5f9206bdb7210c270abda0be04cbecabe8043af0fcde684f",
+          "id": "h014-cross-sheet-route-crossings:left-layout",
+          "mediaType": "application/json",
+          "path": "layouts/left.aixlayout.json",
+          "version": "2.0"
+        },
+        "order": 10,
+        "source": {
+          "digest": "sha256:802ae284c59d88dc5cbafbfa56d1eee5105b8b4cb4b538758a7b030d3fd75fbf",
+          "id": "h014-cross-sheet-route-crossings:left",
+          "mediaType": "text/x-aixem",
+          "path": "circuits/left.aixem",
+          "version": "1.0"
+        },
+        "title": "Left"
+      },
+      {
+        "id": "right",
+        "layout": {
+          "digest": "sha256:76044fe1b20ebb1116133c4bd30f6f999f55181368f5008e82ec81b524a997b9",
+          "id": "h014-cross-sheet-route-crossings:right-layout",
+          "mediaType": "application/json",
+          "path": "layouts/right.aixlayout.json",
+          "version": "2.0"
+        },
+        "order": 20,
+        "source": {
+          "digest": "sha256:669d09cc8d95fe78d915f5bb712170a38700de19bcd9d39461fc52d713de5913",
+          "id": "h014-cross-sheet-route-crossings:right",
+          "mediaType": "text/x-aixem",
+          "path": "circuits/right.aixem",
+          "version": "1.0"
+        },
+        "title": "Right"
+      }
+    ],
+    "status": "example",
+    "title": "Cross sheet route crossings"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/aixproj/2"
+}

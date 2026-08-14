@@ -1,0 +1,393 @@
+{
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/component-graphics/aixsym/1",
+  "symbol": {
+    "anchors": [
+      {
+        "id": "origin",
+        "kind": "insertion",
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "bounds": {
+      "height": 80,
+      "width": 70,
+      "x": -35,
+      "y": -40
+    },
+    "coordinateSystem": {
+      "angleDirection": "clockwise",
+      "angleUnit": "deg",
+      "grid": 2.5,
+      "unit": "mm",
+      "yAxis": "down"
+    },
+    "definitions": {
+      "pulse": {
+        "layer": "body",
+        "points": [
+          [
+            -5,
+            0
+          ],
+          [
+            -2.5,
+            -5
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            2.5,
+            -5
+          ],
+          [
+            5,
+            0
+          ]
+        ],
+        "role": "internal-mark",
+        "style": "detail",
+        "type": "polyline"
+      }
+    },
+    "description": "Self-authored irregular engineering symbol proving generic path escape-hatch coverage.",
+    "graphics": [
+      {
+        "id": "lead-W",
+        "layer": "body",
+        "metadata": {
+          "port": "W",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -27.5,
+        "x2": -17.5,
+        "y1": 0,
+        "y2": 0
+      },
+      {
+        "id": "lead-E",
+        "layer": "body",
+        "metadata": {
+          "port": "E",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 17.5,
+        "x2": 27.5,
+        "y1": 0,
+        "y2": 0
+      },
+      {
+        "id": "lead-N",
+        "layer": "body",
+        "metadata": {
+          "port": "N",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 0,
+        "x2": 0,
+        "y1": -27.5,
+        "y2": -17.5
+      },
+      {
+        "id": "lead-S",
+        "layer": "body",
+        "metadata": {
+          "port": "S",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 0,
+        "x2": 0,
+        "y1": 17.5,
+        "y2": 27.5
+      },
+      {
+        "commands": [
+          {
+            "cmd": "M",
+            "x": -15,
+            "y": -10
+          },
+          {
+            "cmd": "C",
+            "x": 15,
+            "x1": -7.5,
+            "x2": 7.5,
+            "y": -10,
+            "y1": -22.5,
+            "y2": -22.5
+          },
+          {
+            "cmd": "C",
+            "x": 7.5,
+            "x1": 25,
+            "x2": 17.5,
+            "y": 15,
+            "y1": -2.5,
+            "y2": 12.5
+          },
+          {
+            "cmd": "C",
+            "x": -15,
+            "x1": 0,
+            "x2": -10,
+            "y": 10,
+            "y1": 22.5,
+            "y2": 17.5
+          },
+          {
+            "cmd": "C",
+            "x": -15,
+            "x1": -25,
+            "x2": -22.5,
+            "y": -10,
+            "y1": 2.5,
+            "y2": -5
+          },
+          {
+            "cmd": "Z"
+          }
+        ],
+        "id": "custom-outline",
+        "layer": "body",
+        "role": "body",
+        "style": "body",
+        "type": "path"
+      },
+      {
+        "definition": "pulse",
+        "id": "pulse-left",
+        "layer": "body",
+        "transform": [
+          1,
+          0,
+          0,
+          1,
+          -5,
+          0
+        ],
+        "type": "use"
+      },
+      {
+        "definition": "pulse",
+        "id": "pulse-right",
+        "layer": "body",
+        "transform": [
+          1,
+          0,
+          0,
+          1,
+          5,
+          0
+        ],
+        "type": "use"
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "field": "reference",
+        "id": "field-reference",
+        "layer": "fields",
+        "role": "reference-field",
+        "style": "field",
+        "type": "text",
+        "x": 0,
+        "y": -35
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "field": "value",
+        "id": "field-value",
+        "layer": "fields",
+        "role": "value-field",
+        "style": "value",
+        "type": "text",
+        "x": 0,
+        "y": 35
+      }
+    ],
+    "id": "corpus:s029-irregular-custom",
+    "layers": [
+      {
+        "defaultVisible": true,
+        "id": "body",
+        "locked": true,
+        "order": 10,
+        "printable": true,
+        "purpose": "symbol body and pin leads"
+      },
+      {
+        "defaultVisible": true,
+        "id": "fields",
+        "locked": false,
+        "order": 20,
+        "printable": true,
+        "purpose": "bound and literal text fields"
+      }
+    ],
+    "metadata": {
+      "corpus": "symbol-expressiveness-1"
+    },
+    "paintServers": {},
+    "parameters": {},
+    "ports": [
+      {
+        "id": "W",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "W",
+        "number": "W",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -27.5,
+        "y": 0
+      },
+      {
+        "id": "E",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "E",
+        "number": "E",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 27.5,
+        "y": 0
+      },
+      {
+        "id": "N",
+        "kind": "electrical",
+        "labelVisible": false,
+        "name": "N",
+        "number": "N",
+        "numberVisible": true,
+        "orientation": 90,
+        "snapRadius": 1.25,
+        "x": 0,
+        "y": -27.5
+      },
+      {
+        "id": "S",
+        "kind": "electrical",
+        "labelVisible": false,
+        "name": "S",
+        "number": "S",
+        "numberVisible": true,
+        "orientation": 270,
+        "snapRadius": 1.25,
+        "x": 0,
+        "y": 27.5
+      }
+    ],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-11",
+      "license": "CC0-1.0",
+      "notes": "Vendor-neutral evidence fixture; no proprietary library asset was copied.",
+      "origin": "AIXEM 0.5.2 self-authored conformance corpus"
+    },
+    "purpose": "schematic-symbol",
+    "requiredFeatures": [
+      "definition-use",
+      "compound-path",
+      "cubic-bezier"
+    ],
+    "revision": "1.0.0",
+    "styles": {
+      "body": {
+        "fill": "#fffef8",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.65
+      },
+      "dashed": {
+        "dashArray": [
+          2.5,
+          1.25
+        ],
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeWidth": 0.5
+      },
+      "detail": {
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.5
+      },
+      "dimension": {
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeWidth": 0.5
+      },
+      "field": {
+        "fill": "#17231d",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.5,
+        "fontWeight": 600,
+        "stroke": "none"
+      },
+      "filled": {
+        "fill": "#fffef8",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.65
+      },
+      "label": {
+        "fill": "#0c7772",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.0,
+        "fontWeight": 600,
+        "stroke": "none"
+      },
+      "line": {
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.65
+      },
+      "mark": {
+        "fill": "#0c7772",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.45
+      },
+      "small": {
+        "fill": "#0c7772",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 2.4,
+        "fontWeight": 500,
+        "stroke": "none"
+      },
+      "value": {
+        "fill": "#4f5e56",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.0,
+        "fontWeight": 400,
+        "stroke": "none"
+      }
+    },
+    "title": "S029 Irregular custom symbol"
+  }
+}

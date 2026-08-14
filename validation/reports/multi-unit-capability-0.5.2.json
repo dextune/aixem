@@ -1,0 +1,21 @@
+{
+  "case": "S030",
+  "expectedResult": "NOT_SUPPORTED",
+  "extensionDecision": "No speculative core extension was introduced in 0.5.2. A dedicated ADR is required before future multi-unit semantics are implemented.",
+  "graphicalMonolith": "PASS",
+  "interpretation": "The current model can draw the monolithic FPGA shape, but cannot represent independently placeable unit presentations that share one semantic component identity. Variants were not misused as units.",
+  "negativeTest": {
+    "name": "duplicate-placement-entity-rejected",
+    "observed": "duplicate placement entity",
+    "pass": true
+  },
+  "requiredSemanticProperties": {
+    "disjointPortSubsets": false,
+    "independentlyPlaceableUnits": false,
+    "oneSharedComponentIdentity": false,
+    "sharedReferenceAndValue": false,
+    "unambiguousResolvedSceneIdentity": false
+  },
+  "result": "NOT_SUPPORTED",
+  "valid": true
+}

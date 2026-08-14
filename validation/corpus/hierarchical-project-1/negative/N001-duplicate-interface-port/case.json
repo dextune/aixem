@@ -1,0 +1,8 @@
+{
+  "assertions": [],
+  "expected": "fail",
+  "expectedDiagnostic": "duplicate interface port",
+  "id": "N001",
+  "project": "project.aixproj.json",
+  "title": "Duplicate interface port"
+}

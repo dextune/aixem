@@ -1,0 +1,64 @@
+{
+  "card": {
+    "aliases": [
+      "requirements",
+      "requirement IDs",
+      "normative rules"
+    ],
+    "appliesTo": [
+      "requirement-model"
+    ],
+    "domain": "conformance",
+    "estimatedReadBytes": 5649,
+    "id": "AIXEM-CONF-REQUIREMENTS-001",
+    "inputs": [],
+    "keywords": [
+      "Requirement Model",
+      "build-documentation",
+      "normative rules",
+      "publish-release",
+      "requirement IDs",
+      "requirements",
+      "validate-project"
+    ],
+    "kind": "reference",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/conformance/requirements.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:f347418f7be01fbb0c0ba24df9540934b18b200f617ecf81a7783b3f34c1dd13"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-CONF-0001",
+        "level": "must",
+        "text": "**MUST.** A normative requirement MUST have a stable repository-unique AIXEM-REQ-* identifier."
+      },
+      {
+        "id": "AIXEM-REQ-CONF-0002",
+        "level": "must",
+        "text": "**MUST.** A requirement MUST declare a verification mode, validator, test reference, and evidence path."
+      },
+      {
+        "id": "AIXEM-REQ-CONF-0003",
+        "level": "must",
+        "text": "**MUST.** The canonical body MUST expose every requirement ID declared in front matter."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-CONF-REQUIREMENTS-001",
+        "path": "docs/conformance/requirements.md"
+      }
+    ],
+    "summary": "Defines requirement IDs, levels, statements, verification modes, validator and test references, evidence paths, and status.",
+    "title": "Requirement Model"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

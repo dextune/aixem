@@ -1,0 +1,156 @@
+{
+  "authority": "derived-navigation-only",
+  "budget": {
+    "max_bytes": 98304,
+    "max_depth": 3,
+    "max_documents": 7
+  },
+  "completion": [
+    "Schemas and project locks pass",
+    "Semantic, component, port, placement, and route closure pass",
+    "Authoring examples and renderer contract tests pass",
+    "Visual review has no release-critical defect",
+    "Deterministic outputs and evidence pass",
+    "Applicable symbol expressiveness tier and MU boundary are reported"
+  ],
+  "documents": [
+    {
+      "bytes": 6583,
+      "digest": "sha256:2a22582c37919f54a9157548cc97d67bbc9c167aa18e4a36635e5232fde9f57b",
+      "document": "AIXEM-SPEC-PROJECT-LOCK-001",
+      "order": 1,
+      "path": "docs/specifications/project/project-lock-contract.md",
+      "purpose": "Verify project-local paths, identities, and digests.",
+      "required": true,
+      "section": "operational-rules"
+    },
+    {
+      "bytes": 10368,
+      "digest": "sha256:79a0b3a82134a3e41bb0796fb7619a17789038f89944e154d3473ac0f9f97d9f",
+      "document": "AIXEM-CONF-VALIDATION-001",
+      "order": 2,
+      "path": "docs/conformance/validation.md",
+      "purpose": "Run structural, semantic, placement, routing, review, and evidence validation in authority order.",
+      "required": true,
+      "section": "0-5-1-authoring-validation-layers"
+    },
+    {
+      "bytes": 13986,
+      "digest": "sha256:3b69de52984770c79e996584ce3936cbb344f03417a80e037d60c087127e60ad",
+      "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+      "order": 3,
+      "path": "docs/specifications/components/library-layout-contract.md",
+      "purpose": "Validate canonical new paths, provenance, semantic identity, review evidence, and separated result claims.",
+      "required": true,
+      "section": "review-and-claim-boundaries"
+    },
+    {
+      "bytes": 11768,
+      "digest": "sha256:2efaa8b0b08c67f2c088d407b6a799dc462552f7d423a8f5411d5497595735c7",
+      "document": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
+      "order": 4,
+      "path": "docs/specifications/components/pin-electrical-semantics-profile.md",
+      "purpose": "Validate pin semantics and conservative PASS/WARN/ERROR/NOT_EVALUATED compatibility outcomes.",
+      "required": true,
+      "section": "bounded-compatibility-precheck"
+    },
+    {
+      "bytes": 11782,
+      "digest": "sha256:8843908e7bb5164f14a9b9877163529b67c2765d29fcd6c8f440eb653b180152",
+      "document": "AIXEM-SPEC-RENDERER-001",
+      "order": 5,
+      "path": "docs/specifications/renderer/renderer-contract.md",
+      "purpose": "Confirm renderer inputs and bindings resolve fail closed.",
+      "required": true,
+      "section": "fail-closed-conditions"
+    },
+    {
+      "bytes": 9449,
+      "digest": "sha256:f4c18b855bce33e4d817f68544adf8d6236a934344031e65f5b06f2dbbf6b3f9",
+      "document": "AIXEM-SYMBOL-LINT-001",
+      "order": 6,
+      "path": "docs/symbols/symbol-lint.md",
+      "purpose": "Apply path, provenance, schema, design-profile, binding, and golden-render checks.",
+      "required": true,
+      "section": "0-5-2-corpus-conformance-checks"
+    },
+    {
+      "bytes": 6363,
+      "digest": "sha256:7aa4bd2309ac7aa9c4da199bde6c75f8cb30240dcb6102e7a332c7f14266c04e",
+      "document": "AIXEM-AGENT-VISUAL-QA-001",
+      "order": 7,
+      "path": "docs/agent/visual-qa-loop.md",
+      "purpose": "Confirm visual evidence, owner-local repair, and completion.",
+      "required": true,
+      "section": "completion-record"
+    }
+  ],
+  "expectedInputs": [
+    "final authoritative source artifacts",
+    "locked project manifest",
+    "render/review outputs"
+  ],
+  "expectedOutputs": [
+    "machine-readable validation results",
+    "requirement/test evidence",
+    "release-ready project artifacts"
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "id": "validate-project",
+  "intent": "validate-project",
+  "kind": "simple",
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "remediation": {
+    "acceptsDiagnostics": [
+      "AIXEM-DIAG-SCHEMA-INVALID",
+      "AIXEM-DIAG-UNSUPPORTED-CAPABILITY",
+      "AIXEM-DIAG-LIBRARY-PART-PINOUT-REVIEW-MISSING",
+      "AIXEM-DIAG-LIBRARY-PART-INTENT-REVIEW-INCOMPLETE",
+      "AIXEM-DIAG-PIN-SOURCE-REVIEW-INCOMPLETE",
+      "AIXEM-DIAG-ERC-OUTPUT-CONFLICT",
+      "AIXEM-DIAG-ERC-POWER-OUTPUT-CONFLICT",
+      "AIXEM-DIAG-ERC-CONNECTED-NOCONNECT",
+      "AIXEM-DIAG-ERC-INPUT-ONLY",
+      "AIXEM-DIAG-ERC-UNCERTAIN-TOPOLOGY"
+    ]
+  },
+  "schema": "https://schemas.aixem.org/documentation/task-packet/1",
+  "source": "docs/_meta/routes/validate-project.yaml",
+  "sourceDigest": "sha256:211da1799c844e4f943bf47243b8ec63efba4020f967f210b8bcef70313f2167",
+  "summary": "Validate final authoring sources, bindings, routes, deterministic rendering, and evidence",
+  "validators": [
+    "schematic.authoring_integrity",
+    "schematic.project_schema",
+    "schematic.digest_lock",
+    "schematic.authoring_binding",
+    "schematic.symbol_design",
+    "schematic.authoring_examples",
+    "schematic.renderer_contract",
+    "agent.visual_qa",
+    "agent.diagnostics",
+    "agent.change_scope",
+    "agent.run_record",
+    "agent.authoring_closed_loop"
+  ],
+  "writes": {
+    "artifacts": [],
+    "authority": [],
+    "derived": [
+      "render/**",
+      "evidence/**"
+    ],
+    "prohibited": [
+      "render/**",
+      "evidence/**",
+      "**/viewer.html",
+      "**/workbench.html",
+      "**/*.svg",
+      "**/resolved-scene.json",
+      "**/resolved-project-scene.json",
+      "**/viewer-model.json",
+      "**/render-manifest.json",
+      "**/project-validation.json"
+    ]
+  }
+}

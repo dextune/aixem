@@ -1,0 +1,60 @@
+{
+  "card": {
+    "aliases": [
+      "deprecation",
+      "obsolete documents",
+      "replacement policy"
+    ],
+    "appliesTo": [
+      "deprecation-policy"
+    ],
+    "domain": "governance",
+    "estimatedReadBytes": 4775,
+    "id": "AIXEM-GOV-DEPRECATION-001",
+    "inputs": [],
+    "keywords": [
+      "Deprecation Policy",
+      "change-architecture",
+      "deprecation",
+      "migrate-baseline",
+      "obsolete documents",
+      "replacement policy"
+    ],
+    "kind": "policy",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/governance/deprecation.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:d917b53e761c95a467eb3aa25945c546bada32a695059e49f4087a075a1dc56a"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-GOV-VERSIONING-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-GOV-0020",
+        "level": "must",
+        "text": "**MUST.** A deprecated canonical document MUST identify a replacement document ID or a terminal deprecation rationale."
+      },
+      {
+        "id": "AIXEM-REQ-GOV-0021",
+        "level": "must",
+        "text": "**MUST.** Deprecated IDs and aliases MUST remain resolvable during the declared compatibility window."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-GOV-DEPRECATION-001",
+        "path": "docs/governance/deprecation.md"
+      }
+    ],
+    "summary": "Defines deprecated status, replacement pointers, warning periods, compatibility output, and eventual removal criteria.",
+    "title": "Deprecation Policy"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

@@ -1,0 +1,28 @@
+{
+  "agentVisible": [
+    "agent-task.json",
+    "TASK.md",
+    "start/**",
+    "compiled reference pack"
+  ],
+  "category": "repair",
+  "completedTargetBundled": false,
+  "evaluatorOnly": [
+    "evaluator/invariants.json",
+    "case.json",
+    "scoring metadata"
+  ],
+  "expectedInitialDiagnostics": [
+    "AIXEM-DIAG-PROJECT-NET-DUPLICATE-MEMBER"
+  ],
+  "forbiddenCompletedDigests": [
+    "sha256:9b54a68bdff50a8b2d592232d3daad8c3f59c55f87bfad02115da5e744848277",
+    "sha256:dde1dbe458e1975b7468e291613d2fe3c3fee90535de5fd90f0c535e5e1e0d9d"
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "id": "L011",
+  "schema": "https://schemas.aixem.org/validation/agent-eval-3-case/1",
+  "startSource": "validation/corpus/hierarchical-project-1/cases/H001-two-sheet-power-+-control",
+  "title": "Duplicate project-net member"
+}

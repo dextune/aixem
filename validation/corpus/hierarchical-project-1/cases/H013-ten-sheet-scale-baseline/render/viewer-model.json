@@ -1,0 +1,4696 @@
+{
+  "capabilities": {
+    "composite": true,
+    "diagnostics": true,
+    "hierarchy": true,
+    "interfacePorts": true,
+    "offline": true,
+    "overview": true,
+    "projectNets": true,
+    "qualifiedSearch": true,
+    "readOnly": true,
+    "sheet": true,
+    "sheetScopedLayers": true,
+    "viewport": true
+  },
+  "diagnostics": [
+    {
+      "code": "VIEWER-READONLY-001",
+      "message": "Reference Viewer runtime state is derived and read-only.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-QID-001",
+      "message": "62 qualified objects indexed without ambiguity.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-MODES-001",
+      "message": "Sheet, Overview, and Composite modes are available from resolved project evidence.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-ASSET-001",
+      "message": "The self-contained Viewer requires no remote presentation assets.",
+      "severity": "info",
+      "status": "PASS"
+    }
+  ],
+  "domContract": "1",
+  "formatVersion": "1.0",
+  "hierarchy": [
+    {
+      "children": [
+        "sheet-02",
+        "sheet-03",
+        "sheet-04",
+        "sheet-05",
+        "sheet-06",
+        "sheet-07",
+        "sheet-08",
+        "sheet-09",
+        "sheet-10"
+      ],
+      "depth": 0,
+      "id": "sheet-01",
+      "order": 1,
+      "parent": null,
+      "qid": "sheet:sheet-01",
+      "title": "Sheet 01"
+    },
+    {
+      "children": [],
+      "depth": 1,
+      "id": "sheet-02",
+      "order": 2,
+      "parent": "sheet-01",
+      "qid": "sheet:sheet-02",
+      "title": "Sheet 02"
+    },
+    {
+      "children": [],
+      "depth": 1,
+      "id": "sheet-03",
+      "order": 3,
+      "parent": "sheet-01",
+      "qid": "sheet:sheet-03",
+      "title": "Sheet 03"
+    },
+    {
+      "children": [],
+      "depth": 1,
+      "id": "sheet-04",
+      "order": 4,
+      "parent": "sheet-01",
+      "qid": "sheet:sheet-04",
+      "title": "Sheet 04"
+    },
+    {
+      "children": [],
+      "depth": 1,
+      "id": "sheet-05",
+      "order": 5,
+      "parent": "sheet-01",
+      "qid": "sheet:sheet-05",
+      "title": "Sheet 05"
+    },
+    {
+      "children": [],
+      "depth": 1,
+      "id": "sheet-06",
+      "order": 6,
+      "parent": "sheet-01",
+      "qid": "sheet:sheet-06",
+      "title": "Sheet 06"
+    },
+    {
+      "children": [],
+      "depth": 1,
+      "id": "sheet-07",
+      "order": 7,
+      "parent": "sheet-01",
+      "qid": "sheet:sheet-07",
+      "title": "Sheet 07"
+    },
+    {
+      "children": [],
+      "depth": 1,
+      "id": "sheet-08",
+      "order": 8,
+      "parent": "sheet-01",
+      "qid": "sheet:sheet-08",
+      "title": "Sheet 08"
+    },
+    {
+      "children": [],
+      "depth": 1,
+      "id": "sheet-09",
+      "order": 9,
+      "parent": "sheet-01",
+      "qid": "sheet:sheet-09",
+      "title": "Sheet 09"
+    },
+    {
+      "children": [],
+      "depth": 1,
+      "id": "sheet-10",
+      "order": 10,
+      "parent": "sheet-01",
+      "qid": "sheet:sheet-10",
+      "title": "Sheet 10"
+    }
+  ],
+  "initialState": {
+    "activeNavigatorCategory": "sheet",
+    "activeSheet": "sheet-01",
+    "mode": "sheet",
+    "searchQuery": "",
+    "selection": null,
+    "visibleLayersBySheet": {
+      "sheet-01": {
+        "annotation": true,
+        "connections": true,
+        "symbols": true
+      },
+      "sheet-02": {
+        "annotation": true,
+        "connections": true,
+        "symbols": true
+      },
+      "sheet-03": {
+        "annotation": true,
+        "connections": true,
+        "symbols": true
+      },
+      "sheet-04": {
+        "annotation": true,
+        "connections": true,
+        "symbols": true
+      },
+      "sheet-05": {
+        "annotation": true,
+        "connections": true,
+        "symbols": true
+      },
+      "sheet-06": {
+        "annotation": true,
+        "connections": true,
+        "symbols": true
+      },
+      "sheet-07": {
+        "annotation": true,
+        "connections": true,
+        "symbols": true
+      },
+      "sheet-08": {
+        "annotation": true,
+        "connections": true,
+        "symbols": true
+      },
+      "sheet-09": {
+        "annotation": true,
+        "connections": true,
+        "symbols": true
+      },
+      "sheet-10": {
+        "annotation": true,
+        "connections": true,
+        "symbols": true
+      }
+    }
+  },
+  "objects": {
+    "entity:sheet-01:U1": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "nativeId": "U1",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:sheet-01:U1"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-01"
+        },
+        {
+          "label": "Entity ID",
+          "value": "U1"
+        },
+        {
+          "label": "Reference",
+          "value": "U1"
+        },
+        {
+          "label": "Value",
+          "value": "AXC12"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"U1\",\"layer\":\"symbols\",\"x\":80,\"y\":50}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[60.0,42.5],\"10\":[85.0,30.0],\"11\":[75.0,70.0],\"12\":[85.0,70.0],\"2\":[60.0,47.5],\"3\":[60.0,52.5],\"4\":[60.0,57.5],\"5\":[100.0,42.5],\"6\":[100.0,47.5],\"7\":[100.0,52.5],\"8\":[100.0,57.5],\"9\":[75.0,30.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:2fe409df19cfd0257cdc4802e8be6dd84d4d0b840938abb23c22c7c941a1f3ae"
+        }
+      ],
+      "qid": "entity:sheet-01:U1",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-01",
+        "composite"
+      ],
+      "searchText": "entity:sheet-01:u1 u1 · axc12 u1 sheet-01 u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "sheet-01"
+    },
+    "entity:sheet-02:U1": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "nativeId": "U1",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:sheet-02:U1"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-02"
+        },
+        {
+          "label": "Entity ID",
+          "value": "U1"
+        },
+        {
+          "label": "Reference",
+          "value": "U1"
+        },
+        {
+          "label": "Value",
+          "value": "AXC12"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"U1\",\"layer\":\"symbols\",\"x\":80,\"y\":50}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[60.0,42.5],\"10\":[85.0,30.0],\"11\":[75.0,70.0],\"12\":[85.0,70.0],\"2\":[60.0,47.5],\"3\":[60.0,52.5],\"4\":[60.0,57.5],\"5\":[100.0,42.5],\"6\":[100.0,47.5],\"7\":[100.0,52.5],\"8\":[100.0,57.5],\"9\":[75.0,30.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:2fe409df19cfd0257cdc4802e8be6dd84d4d0b840938abb23c22c7c941a1f3ae"
+        }
+      ],
+      "qid": "entity:sheet-02:U1",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-02",
+        "composite"
+      ],
+      "searchText": "entity:sheet-02:u1 u1 · axc12 u1 sheet-02 u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "sheet-02"
+    },
+    "entity:sheet-03:U1": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "nativeId": "U1",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:sheet-03:U1"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-03"
+        },
+        {
+          "label": "Entity ID",
+          "value": "U1"
+        },
+        {
+          "label": "Reference",
+          "value": "U1"
+        },
+        {
+          "label": "Value",
+          "value": "AXC12"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"U1\",\"layer\":\"symbols\",\"x\":80,\"y\":50}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[60.0,42.5],\"10\":[85.0,30.0],\"11\":[75.0,70.0],\"12\":[85.0,70.0],\"2\":[60.0,47.5],\"3\":[60.0,52.5],\"4\":[60.0,57.5],\"5\":[100.0,42.5],\"6\":[100.0,47.5],\"7\":[100.0,52.5],\"8\":[100.0,57.5],\"9\":[75.0,30.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:2fe409df19cfd0257cdc4802e8be6dd84d4d0b840938abb23c22c7c941a1f3ae"
+        }
+      ],
+      "qid": "entity:sheet-03:U1",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-03",
+        "composite"
+      ],
+      "searchText": "entity:sheet-03:u1 u1 · axc12 u1 sheet-03 u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "sheet-03"
+    },
+    "entity:sheet-04:U1": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "nativeId": "U1",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:sheet-04:U1"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-04"
+        },
+        {
+          "label": "Entity ID",
+          "value": "U1"
+        },
+        {
+          "label": "Reference",
+          "value": "U1"
+        },
+        {
+          "label": "Value",
+          "value": "AXC12"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"U1\",\"layer\":\"symbols\",\"x\":80,\"y\":50}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[60.0,42.5],\"10\":[85.0,30.0],\"11\":[75.0,70.0],\"12\":[85.0,70.0],\"2\":[60.0,47.5],\"3\":[60.0,52.5],\"4\":[60.0,57.5],\"5\":[100.0,42.5],\"6\":[100.0,47.5],\"7\":[100.0,52.5],\"8\":[100.0,57.5],\"9\":[75.0,30.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:2fe409df19cfd0257cdc4802e8be6dd84d4d0b840938abb23c22c7c941a1f3ae"
+        }
+      ],
+      "qid": "entity:sheet-04:U1",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-04",
+        "composite"
+      ],
+      "searchText": "entity:sheet-04:u1 u1 · axc12 u1 sheet-04 u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "sheet-04"
+    },
+    "entity:sheet-05:U1": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "nativeId": "U1",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:sheet-05:U1"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-05"
+        },
+        {
+          "label": "Entity ID",
+          "value": "U1"
+        },
+        {
+          "label": "Reference",
+          "value": "U1"
+        },
+        {
+          "label": "Value",
+          "value": "AXC12"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"U1\",\"layer\":\"symbols\",\"x\":80,\"y\":50}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[60.0,42.5],\"10\":[85.0,30.0],\"11\":[75.0,70.0],\"12\":[85.0,70.0],\"2\":[60.0,47.5],\"3\":[60.0,52.5],\"4\":[60.0,57.5],\"5\":[100.0,42.5],\"6\":[100.0,47.5],\"7\":[100.0,52.5],\"8\":[100.0,57.5],\"9\":[75.0,30.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:2fe409df19cfd0257cdc4802e8be6dd84d4d0b840938abb23c22c7c941a1f3ae"
+        }
+      ],
+      "qid": "entity:sheet-05:U1",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-05",
+        "composite"
+      ],
+      "searchText": "entity:sheet-05:u1 u1 · axc12 u1 sheet-05 u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "sheet-05"
+    },
+    "entity:sheet-06:U1": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "nativeId": "U1",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:sheet-06:U1"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-06"
+        },
+        {
+          "label": "Entity ID",
+          "value": "U1"
+        },
+        {
+          "label": "Reference",
+          "value": "U1"
+        },
+        {
+          "label": "Value",
+          "value": "AXC12"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"U1\",\"layer\":\"symbols\",\"x\":80,\"y\":50}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[60.0,42.5],\"10\":[85.0,30.0],\"11\":[75.0,70.0],\"12\":[85.0,70.0],\"2\":[60.0,47.5],\"3\":[60.0,52.5],\"4\":[60.0,57.5],\"5\":[100.0,42.5],\"6\":[100.0,47.5],\"7\":[100.0,52.5],\"8\":[100.0,57.5],\"9\":[75.0,30.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:2fe409df19cfd0257cdc4802e8be6dd84d4d0b840938abb23c22c7c941a1f3ae"
+        }
+      ],
+      "qid": "entity:sheet-06:U1",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-06",
+        "composite"
+      ],
+      "searchText": "entity:sheet-06:u1 u1 · axc12 u1 sheet-06 u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "sheet-06"
+    },
+    "entity:sheet-07:U1": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "nativeId": "U1",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:sheet-07:U1"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-07"
+        },
+        {
+          "label": "Entity ID",
+          "value": "U1"
+        },
+        {
+          "label": "Reference",
+          "value": "U1"
+        },
+        {
+          "label": "Value",
+          "value": "AXC12"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"U1\",\"layer\":\"symbols\",\"x\":80,\"y\":50}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[60.0,42.5],\"10\":[85.0,30.0],\"11\":[75.0,70.0],\"12\":[85.0,70.0],\"2\":[60.0,47.5],\"3\":[60.0,52.5],\"4\":[60.0,57.5],\"5\":[100.0,42.5],\"6\":[100.0,47.5],\"7\":[100.0,52.5],\"8\":[100.0,57.5],\"9\":[75.0,30.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:2fe409df19cfd0257cdc4802e8be6dd84d4d0b840938abb23c22c7c941a1f3ae"
+        }
+      ],
+      "qid": "entity:sheet-07:U1",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-07",
+        "composite"
+      ],
+      "searchText": "entity:sheet-07:u1 u1 · axc12 u1 sheet-07 u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "sheet-07"
+    },
+    "entity:sheet-08:U1": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "nativeId": "U1",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:sheet-08:U1"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-08"
+        },
+        {
+          "label": "Entity ID",
+          "value": "U1"
+        },
+        {
+          "label": "Reference",
+          "value": "U1"
+        },
+        {
+          "label": "Value",
+          "value": "AXC12"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"U1\",\"layer\":\"symbols\",\"x\":80,\"y\":50}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[60.0,42.5],\"10\":[85.0,30.0],\"11\":[75.0,70.0],\"12\":[85.0,70.0],\"2\":[60.0,47.5],\"3\":[60.0,52.5],\"4\":[60.0,57.5],\"5\":[100.0,42.5],\"6\":[100.0,47.5],\"7\":[100.0,52.5],\"8\":[100.0,57.5],\"9\":[75.0,30.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:2fe409df19cfd0257cdc4802e8be6dd84d4d0b840938abb23c22c7c941a1f3ae"
+        }
+      ],
+      "qid": "entity:sheet-08:U1",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-08",
+        "composite"
+      ],
+      "searchText": "entity:sheet-08:u1 u1 · axc12 u1 sheet-08 u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "sheet-08"
+    },
+    "entity:sheet-09:U1": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "nativeId": "U1",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:sheet-09:U1"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-09"
+        },
+        {
+          "label": "Entity ID",
+          "value": "U1"
+        },
+        {
+          "label": "Reference",
+          "value": "U1"
+        },
+        {
+          "label": "Value",
+          "value": "AXC12"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"U1\",\"layer\":\"symbols\",\"x\":80,\"y\":50}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[60.0,42.5],\"10\":[85.0,30.0],\"11\":[75.0,70.0],\"12\":[85.0,70.0],\"2\":[60.0,47.5],\"3\":[60.0,52.5],\"4\":[60.0,57.5],\"5\":[100.0,42.5],\"6\":[100.0,47.5],\"7\":[100.0,52.5],\"8\":[100.0,57.5],\"9\":[75.0,30.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:2fe409df19cfd0257cdc4802e8be6dd84d4d0b840938abb23c22c7c941a1f3ae"
+        }
+      ],
+      "qid": "entity:sheet-09:U1",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-09",
+        "composite"
+      ],
+      "searchText": "entity:sheet-09:u1 u1 · axc12 u1 sheet-09 u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "sheet-09"
+    },
+    "entity:sheet-10:U1": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "nativeId": "U1",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:sheet-10:U1"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-10"
+        },
+        {
+          "label": "Entity ID",
+          "value": "U1"
+        },
+        {
+          "label": "Reference",
+          "value": "U1"
+        },
+        {
+          "label": "Value",
+          "value": "AXC12"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"U1\",\"layer\":\"symbols\",\"x\":80,\"y\":50}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[60.0,42.5],\"10\":[85.0,30.0],\"11\":[75.0,70.0],\"12\":[85.0,70.0],\"2\":[60.0,47.5],\"3\":[60.0,52.5],\"4\":[60.0,57.5],\"5\":[100.0,42.5],\"6\":[100.0,47.5],\"7\":[100.0,52.5],\"8\":[100.0,57.5],\"9\":[75.0,30.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:2fe409df19cfd0257cdc4802e8be6dd84d4d0b840938abb23c22c7c941a1f3ae"
+        }
+      ],
+      "qid": "entity:sheet-10:U1",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-10",
+        "composite"
+      ],
+      "searchText": "entity:sheet-10:u1 u1 · axc12 u1 sheet-10 u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "sheet-10"
+    },
+    "interface:sheet-01:GND": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-01 / @GND",
+      "nativeId": "GND",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:sheet-01:GND"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-01"
+        },
+        {
+          "label": "Port ID",
+          "value": "GND"
+        },
+        {
+          "label": "Direction",
+          "value": "passive"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:sheet-01:gnd"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:gnd"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[170.0,138.0]"
+        }
+      ],
+      "qid": "interface:sheet-01:GND",
+      "relatedQids": [
+        "local-net:sheet-01:gnd",
+        "project-net:gnd"
+      ],
+      "representations": [
+        "sheet:sheet-01",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:sheet-01:gnd sheet-01 / @gnd gnd sheet-01 passive power gnd project-net:gnd",
+      "sheet": "sheet-01"
+    },
+    "interface:sheet-01:VCC": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-01 / @VCC",
+      "nativeId": "VCC",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:sheet-01:VCC"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-01"
+        },
+        {
+          "label": "Port ID",
+          "value": "VCC"
+        },
+        {
+          "label": "Direction",
+          "value": "input"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:sheet-01:vcc"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:vcc"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[170.0,50.0]"
+        }
+      ],
+      "qid": "interface:sheet-01:VCC",
+      "relatedQids": [
+        "local-net:sheet-01:vcc",
+        "project-net:vcc"
+      ],
+      "representations": [
+        "sheet:sheet-01",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:sheet-01:vcc sheet-01 / @vcc vcc sheet-01 input power vcc project-net:vcc",
+      "sheet": "sheet-01"
+    },
+    "interface:sheet-02:GND": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-02 / @GND",
+      "nativeId": "GND",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:sheet-02:GND"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-02"
+        },
+        {
+          "label": "Port ID",
+          "value": "GND"
+        },
+        {
+          "label": "Direction",
+          "value": "passive"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:sheet-02:gnd"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:gnd"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[208.0,318.0]"
+        }
+      ],
+      "qid": "interface:sheet-02:GND",
+      "relatedQids": [
+        "local-net:sheet-02:gnd",
+        "project-net:gnd"
+      ],
+      "representations": [
+        "sheet:sheet-02",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:sheet-02:gnd sheet-02 / @gnd gnd sheet-02 passive power gnd project-net:gnd",
+      "sheet": "sheet-02"
+    },
+    "interface:sheet-02:VCC": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-02 / @VCC",
+      "nativeId": "VCC",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:sheet-02:VCC"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-02"
+        },
+        {
+          "label": "Port ID",
+          "value": "VCC"
+        },
+        {
+          "label": "Direction",
+          "value": "input"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:sheet-02:vcc"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:vcc"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[208.0,230.0]"
+        }
+      ],
+      "qid": "interface:sheet-02:VCC",
+      "relatedQids": [
+        "local-net:sheet-02:vcc",
+        "project-net:vcc"
+      ],
+      "representations": [
+        "sheet:sheet-02",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:sheet-02:vcc sheet-02 / @vcc vcc sheet-02 input power vcc project-net:vcc",
+      "sheet": "sheet-02"
+    },
+    "interface:sheet-03:GND": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-03 / @GND",
+      "nativeId": "GND",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:sheet-03:GND"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-03"
+        },
+        {
+          "label": "Port ID",
+          "value": "GND"
+        },
+        {
+          "label": "Direction",
+          "value": "passive"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:sheet-03:gnd"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:gnd"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[208.0,498.0]"
+        }
+      ],
+      "qid": "interface:sheet-03:GND",
+      "relatedQids": [
+        "local-net:sheet-03:gnd",
+        "project-net:gnd"
+      ],
+      "representations": [
+        "sheet:sheet-03",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:sheet-03:gnd sheet-03 / @gnd gnd sheet-03 passive power gnd project-net:gnd",
+      "sheet": "sheet-03"
+    },
+    "interface:sheet-03:VCC": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-03 / @VCC",
+      "nativeId": "VCC",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:sheet-03:VCC"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-03"
+        },
+        {
+          "label": "Port ID",
+          "value": "VCC"
+        },
+        {
+          "label": "Direction",
+          "value": "input"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:sheet-03:vcc"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:vcc"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[208.0,410.0]"
+        }
+      ],
+      "qid": "interface:sheet-03:VCC",
+      "relatedQids": [
+        "local-net:sheet-03:vcc",
+        "project-net:vcc"
+      ],
+      "representations": [
+        "sheet:sheet-03",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:sheet-03:vcc sheet-03 / @vcc vcc sheet-03 input power vcc project-net:vcc",
+      "sheet": "sheet-03"
+    },
+    "interface:sheet-04:GND": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-04 / @GND",
+      "nativeId": "GND",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:sheet-04:GND"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-04"
+        },
+        {
+          "label": "Port ID",
+          "value": "GND"
+        },
+        {
+          "label": "Direction",
+          "value": "passive"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:sheet-04:gnd"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:gnd"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[208.0,678.0]"
+        }
+      ],
+      "qid": "interface:sheet-04:GND",
+      "relatedQids": [
+        "local-net:sheet-04:gnd",
+        "project-net:gnd"
+      ],
+      "representations": [
+        "sheet:sheet-04",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:sheet-04:gnd sheet-04 / @gnd gnd sheet-04 passive power gnd project-net:gnd",
+      "sheet": "sheet-04"
+    },
+    "interface:sheet-04:VCC": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-04 / @VCC",
+      "nativeId": "VCC",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:sheet-04:VCC"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-04"
+        },
+        {
+          "label": "Port ID",
+          "value": "VCC"
+        },
+        {
+          "label": "Direction",
+          "value": "input"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:sheet-04:vcc"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:vcc"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[208.0,590.0]"
+        }
+      ],
+      "qid": "interface:sheet-04:VCC",
+      "relatedQids": [
+        "local-net:sheet-04:vcc",
+        "project-net:vcc"
+      ],
+      "representations": [
+        "sheet:sheet-04",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:sheet-04:vcc sheet-04 / @vcc vcc sheet-04 input power vcc project-net:vcc",
+      "sheet": "sheet-04"
+    },
+    "interface:sheet-05:GND": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-05 / @GND",
+      "nativeId": "GND",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:sheet-05:GND"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-05"
+        },
+        {
+          "label": "Port ID",
+          "value": "GND"
+        },
+        {
+          "label": "Direction",
+          "value": "passive"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:sheet-05:gnd"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:gnd"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[208.0,858.0]"
+        }
+      ],
+      "qid": "interface:sheet-05:GND",
+      "relatedQids": [
+        "local-net:sheet-05:gnd",
+        "project-net:gnd"
+      ],
+      "representations": [
+        "sheet:sheet-05",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:sheet-05:gnd sheet-05 / @gnd gnd sheet-05 passive power gnd project-net:gnd",
+      "sheet": "sheet-05"
+    },
+    "interface:sheet-05:VCC": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-05 / @VCC",
+      "nativeId": "VCC",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:sheet-05:VCC"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-05"
+        },
+        {
+          "label": "Port ID",
+          "value": "VCC"
+        },
+        {
+          "label": "Direction",
+          "value": "input"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:sheet-05:vcc"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:vcc"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[208.0,770.0]"
+        }
+      ],
+      "qid": "interface:sheet-05:VCC",
+      "relatedQids": [
+        "local-net:sheet-05:vcc",
+        "project-net:vcc"
+      ],
+      "representations": [
+        "sheet:sheet-05",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:sheet-05:vcc sheet-05 / @vcc vcc sheet-05 input power vcc project-net:vcc",
+      "sheet": "sheet-05"
+    },
+    "interface:sheet-06:GND": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-06 / @GND",
+      "nativeId": "GND",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:sheet-06:GND"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-06"
+        },
+        {
+          "label": "Port ID",
+          "value": "GND"
+        },
+        {
+          "label": "Direction",
+          "value": "passive"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:sheet-06:gnd"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:gnd"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[208.0,1038.0]"
+        }
+      ],
+      "qid": "interface:sheet-06:GND",
+      "relatedQids": [
+        "local-net:sheet-06:gnd",
+        "project-net:gnd"
+      ],
+      "representations": [
+        "sheet:sheet-06",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:sheet-06:gnd sheet-06 / @gnd gnd sheet-06 passive power gnd project-net:gnd",
+      "sheet": "sheet-06"
+    },
+    "interface:sheet-06:VCC": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-06 / @VCC",
+      "nativeId": "VCC",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:sheet-06:VCC"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-06"
+        },
+        {
+          "label": "Port ID",
+          "value": "VCC"
+        },
+        {
+          "label": "Direction",
+          "value": "input"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:sheet-06:vcc"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:vcc"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[208.0,950.0]"
+        }
+      ],
+      "qid": "interface:sheet-06:VCC",
+      "relatedQids": [
+        "local-net:sheet-06:vcc",
+        "project-net:vcc"
+      ],
+      "representations": [
+        "sheet:sheet-06",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:sheet-06:vcc sheet-06 / @vcc vcc sheet-06 input power vcc project-net:vcc",
+      "sheet": "sheet-06"
+    },
+    "interface:sheet-07:GND": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-07 / @GND",
+      "nativeId": "GND",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:sheet-07:GND"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-07"
+        },
+        {
+          "label": "Port ID",
+          "value": "GND"
+        },
+        {
+          "label": "Direction",
+          "value": "passive"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:sheet-07:gnd"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:gnd"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[208.0,1218.0]"
+        }
+      ],
+      "qid": "interface:sheet-07:GND",
+      "relatedQids": [
+        "local-net:sheet-07:gnd",
+        "project-net:gnd"
+      ],
+      "representations": [
+        "sheet:sheet-07",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:sheet-07:gnd sheet-07 / @gnd gnd sheet-07 passive power gnd project-net:gnd",
+      "sheet": "sheet-07"
+    },
+    "interface:sheet-07:VCC": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-07 / @VCC",
+      "nativeId": "VCC",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:sheet-07:VCC"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-07"
+        },
+        {
+          "label": "Port ID",
+          "value": "VCC"
+        },
+        {
+          "label": "Direction",
+          "value": "input"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:sheet-07:vcc"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:vcc"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[208.0,1130.0]"
+        }
+      ],
+      "qid": "interface:sheet-07:VCC",
+      "relatedQids": [
+        "local-net:sheet-07:vcc",
+        "project-net:vcc"
+      ],
+      "representations": [
+        "sheet:sheet-07",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:sheet-07:vcc sheet-07 / @vcc vcc sheet-07 input power vcc project-net:vcc",
+      "sheet": "sheet-07"
+    },
+    "interface:sheet-08:GND": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-08 / @GND",
+      "nativeId": "GND",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:sheet-08:GND"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-08"
+        },
+        {
+          "label": "Port ID",
+          "value": "GND"
+        },
+        {
+          "label": "Direction",
+          "value": "passive"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:sheet-08:gnd"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:gnd"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[208.0,1398.0]"
+        }
+      ],
+      "qid": "interface:sheet-08:GND",
+      "relatedQids": [
+        "local-net:sheet-08:gnd",
+        "project-net:gnd"
+      ],
+      "representations": [
+        "sheet:sheet-08",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:sheet-08:gnd sheet-08 / @gnd gnd sheet-08 passive power gnd project-net:gnd",
+      "sheet": "sheet-08"
+    },
+    "interface:sheet-08:VCC": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-08 / @VCC",
+      "nativeId": "VCC",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:sheet-08:VCC"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-08"
+        },
+        {
+          "label": "Port ID",
+          "value": "VCC"
+        },
+        {
+          "label": "Direction",
+          "value": "input"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:sheet-08:vcc"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:vcc"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[208.0,1310.0]"
+        }
+      ],
+      "qid": "interface:sheet-08:VCC",
+      "relatedQids": [
+        "local-net:sheet-08:vcc",
+        "project-net:vcc"
+      ],
+      "representations": [
+        "sheet:sheet-08",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:sheet-08:vcc sheet-08 / @vcc vcc sheet-08 input power vcc project-net:vcc",
+      "sheet": "sheet-08"
+    },
+    "interface:sheet-09:GND": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-09 / @GND",
+      "nativeId": "GND",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:sheet-09:GND"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-09"
+        },
+        {
+          "label": "Port ID",
+          "value": "GND"
+        },
+        {
+          "label": "Direction",
+          "value": "passive"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:sheet-09:gnd"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:gnd"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[208.0,1578.0]"
+        }
+      ],
+      "qid": "interface:sheet-09:GND",
+      "relatedQids": [
+        "local-net:sheet-09:gnd",
+        "project-net:gnd"
+      ],
+      "representations": [
+        "sheet:sheet-09",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:sheet-09:gnd sheet-09 / @gnd gnd sheet-09 passive power gnd project-net:gnd",
+      "sheet": "sheet-09"
+    },
+    "interface:sheet-09:VCC": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-09 / @VCC",
+      "nativeId": "VCC",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:sheet-09:VCC"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-09"
+        },
+        {
+          "label": "Port ID",
+          "value": "VCC"
+        },
+        {
+          "label": "Direction",
+          "value": "input"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:sheet-09:vcc"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:vcc"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[208.0,1490.0]"
+        }
+      ],
+      "qid": "interface:sheet-09:VCC",
+      "relatedQids": [
+        "local-net:sheet-09:vcc",
+        "project-net:vcc"
+      ],
+      "representations": [
+        "sheet:sheet-09",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:sheet-09:vcc sheet-09 / @vcc vcc sheet-09 input power vcc project-net:vcc",
+      "sheet": "sheet-09"
+    },
+    "interface:sheet-10:GND": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-10 / @GND",
+      "nativeId": "GND",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:sheet-10:GND"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-10"
+        },
+        {
+          "label": "Port ID",
+          "value": "GND"
+        },
+        {
+          "label": "Direction",
+          "value": "passive"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:sheet-10:gnd"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:gnd"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[208.0,1758.0]"
+        }
+      ],
+      "qid": "interface:sheet-10:GND",
+      "relatedQids": [
+        "local-net:sheet-10:gnd",
+        "project-net:gnd"
+      ],
+      "representations": [
+        "sheet:sheet-10",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:sheet-10:gnd sheet-10 / @gnd gnd sheet-10 passive power gnd project-net:gnd",
+      "sheet": "sheet-10"
+    },
+    "interface:sheet-10:VCC": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-10 / @VCC",
+      "nativeId": "VCC",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:sheet-10:VCC"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-10"
+        },
+        {
+          "label": "Port ID",
+          "value": "VCC"
+        },
+        {
+          "label": "Direction",
+          "value": "input"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:sheet-10:vcc"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:vcc"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[208.0,1670.0]"
+        }
+      ],
+      "qid": "interface:sheet-10:VCC",
+      "relatedQids": [
+        "local-net:sheet-10:vcc",
+        "project-net:vcc"
+      ],
+      "representations": [
+        "sheet:sheet-10",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:sheet-10:vcc sheet-10 / @vcc vcc sheet-10 input power vcc project-net:vcc",
+      "sheet": "sheet-10"
+    },
+    "local-net:sheet-01:gnd": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-01 / gnd",
+      "nativeId": "gnd",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:sheet-01:gnd"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-01"
+        },
+        {
+          "label": "Local net ID",
+          "value": "gnd"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.11\",\"@GND\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:gnd"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:sheet-01:gnd",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-01",
+        "composite"
+      ],
+      "searchText": "local-net:sheet-01:gnd sheet-01 / gnd gnd sheet-01 [\"u1.11\",\"@gnd\"] project-net:gnd",
+      "sheet": "sheet-01"
+    },
+    "local-net:sheet-01:vcc": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-01 / vcc",
+      "nativeId": "vcc",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:sheet-01:vcc"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-01"
+        },
+        {
+          "label": "Local net ID",
+          "value": "vcc"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.9\",\"@VCC\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:vcc"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:sheet-01:vcc",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-01",
+        "composite"
+      ],
+      "searchText": "local-net:sheet-01:vcc sheet-01 / vcc vcc sheet-01 [\"u1.9\",\"@vcc\"] project-net:vcc",
+      "sheet": "sheet-01"
+    },
+    "local-net:sheet-02:gnd": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-02 / gnd",
+      "nativeId": "gnd",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:sheet-02:gnd"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-02"
+        },
+        {
+          "label": "Local net ID",
+          "value": "gnd"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.11\",\"@GND\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:gnd"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:sheet-02:gnd",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-02",
+        "composite"
+      ],
+      "searchText": "local-net:sheet-02:gnd sheet-02 / gnd gnd sheet-02 [\"u1.11\",\"@gnd\"] project-net:gnd",
+      "sheet": "sheet-02"
+    },
+    "local-net:sheet-02:vcc": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-02 / vcc",
+      "nativeId": "vcc",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:sheet-02:vcc"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-02"
+        },
+        {
+          "label": "Local net ID",
+          "value": "vcc"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.9\",\"@VCC\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:vcc"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:sheet-02:vcc",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-02",
+        "composite"
+      ],
+      "searchText": "local-net:sheet-02:vcc sheet-02 / vcc vcc sheet-02 [\"u1.9\",\"@vcc\"] project-net:vcc",
+      "sheet": "sheet-02"
+    },
+    "local-net:sheet-03:gnd": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-03 / gnd",
+      "nativeId": "gnd",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:sheet-03:gnd"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-03"
+        },
+        {
+          "label": "Local net ID",
+          "value": "gnd"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.11\",\"@GND\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:gnd"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:sheet-03:gnd",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-03",
+        "composite"
+      ],
+      "searchText": "local-net:sheet-03:gnd sheet-03 / gnd gnd sheet-03 [\"u1.11\",\"@gnd\"] project-net:gnd",
+      "sheet": "sheet-03"
+    },
+    "local-net:sheet-03:vcc": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-03 / vcc",
+      "nativeId": "vcc",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:sheet-03:vcc"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-03"
+        },
+        {
+          "label": "Local net ID",
+          "value": "vcc"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.9\",\"@VCC\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:vcc"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:sheet-03:vcc",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-03",
+        "composite"
+      ],
+      "searchText": "local-net:sheet-03:vcc sheet-03 / vcc vcc sheet-03 [\"u1.9\",\"@vcc\"] project-net:vcc",
+      "sheet": "sheet-03"
+    },
+    "local-net:sheet-04:gnd": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-04 / gnd",
+      "nativeId": "gnd",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:sheet-04:gnd"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-04"
+        },
+        {
+          "label": "Local net ID",
+          "value": "gnd"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.11\",\"@GND\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:gnd"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:sheet-04:gnd",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-04",
+        "composite"
+      ],
+      "searchText": "local-net:sheet-04:gnd sheet-04 / gnd gnd sheet-04 [\"u1.11\",\"@gnd\"] project-net:gnd",
+      "sheet": "sheet-04"
+    },
+    "local-net:sheet-04:vcc": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-04 / vcc",
+      "nativeId": "vcc",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:sheet-04:vcc"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-04"
+        },
+        {
+          "label": "Local net ID",
+          "value": "vcc"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.9\",\"@VCC\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:vcc"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:sheet-04:vcc",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-04",
+        "composite"
+      ],
+      "searchText": "local-net:sheet-04:vcc sheet-04 / vcc vcc sheet-04 [\"u1.9\",\"@vcc\"] project-net:vcc",
+      "sheet": "sheet-04"
+    },
+    "local-net:sheet-05:gnd": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-05 / gnd",
+      "nativeId": "gnd",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:sheet-05:gnd"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-05"
+        },
+        {
+          "label": "Local net ID",
+          "value": "gnd"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.11\",\"@GND\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:gnd"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:sheet-05:gnd",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-05",
+        "composite"
+      ],
+      "searchText": "local-net:sheet-05:gnd sheet-05 / gnd gnd sheet-05 [\"u1.11\",\"@gnd\"] project-net:gnd",
+      "sheet": "sheet-05"
+    },
+    "local-net:sheet-05:vcc": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-05 / vcc",
+      "nativeId": "vcc",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:sheet-05:vcc"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-05"
+        },
+        {
+          "label": "Local net ID",
+          "value": "vcc"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.9\",\"@VCC\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:vcc"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:sheet-05:vcc",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-05",
+        "composite"
+      ],
+      "searchText": "local-net:sheet-05:vcc sheet-05 / vcc vcc sheet-05 [\"u1.9\",\"@vcc\"] project-net:vcc",
+      "sheet": "sheet-05"
+    },
+    "local-net:sheet-06:gnd": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-06 / gnd",
+      "nativeId": "gnd",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:sheet-06:gnd"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-06"
+        },
+        {
+          "label": "Local net ID",
+          "value": "gnd"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.11\",\"@GND\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:gnd"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:sheet-06:gnd",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-06",
+        "composite"
+      ],
+      "searchText": "local-net:sheet-06:gnd sheet-06 / gnd gnd sheet-06 [\"u1.11\",\"@gnd\"] project-net:gnd",
+      "sheet": "sheet-06"
+    },
+    "local-net:sheet-06:vcc": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-06 / vcc",
+      "nativeId": "vcc",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:sheet-06:vcc"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-06"
+        },
+        {
+          "label": "Local net ID",
+          "value": "vcc"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.9\",\"@VCC\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:vcc"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:sheet-06:vcc",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-06",
+        "composite"
+      ],
+      "searchText": "local-net:sheet-06:vcc sheet-06 / vcc vcc sheet-06 [\"u1.9\",\"@vcc\"] project-net:vcc",
+      "sheet": "sheet-06"
+    },
+    "local-net:sheet-07:gnd": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-07 / gnd",
+      "nativeId": "gnd",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:sheet-07:gnd"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-07"
+        },
+        {
+          "label": "Local net ID",
+          "value": "gnd"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.11\",\"@GND\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:gnd"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:sheet-07:gnd",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-07",
+        "composite"
+      ],
+      "searchText": "local-net:sheet-07:gnd sheet-07 / gnd gnd sheet-07 [\"u1.11\",\"@gnd\"] project-net:gnd",
+      "sheet": "sheet-07"
+    },
+    "local-net:sheet-07:vcc": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-07 / vcc",
+      "nativeId": "vcc",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:sheet-07:vcc"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-07"
+        },
+        {
+          "label": "Local net ID",
+          "value": "vcc"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.9\",\"@VCC\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:vcc"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:sheet-07:vcc",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-07",
+        "composite"
+      ],
+      "searchText": "local-net:sheet-07:vcc sheet-07 / vcc vcc sheet-07 [\"u1.9\",\"@vcc\"] project-net:vcc",
+      "sheet": "sheet-07"
+    },
+    "local-net:sheet-08:gnd": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-08 / gnd",
+      "nativeId": "gnd",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:sheet-08:gnd"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-08"
+        },
+        {
+          "label": "Local net ID",
+          "value": "gnd"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.11\",\"@GND\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:gnd"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:sheet-08:gnd",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-08",
+        "composite"
+      ],
+      "searchText": "local-net:sheet-08:gnd sheet-08 / gnd gnd sheet-08 [\"u1.11\",\"@gnd\"] project-net:gnd",
+      "sheet": "sheet-08"
+    },
+    "local-net:sheet-08:vcc": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-08 / vcc",
+      "nativeId": "vcc",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:sheet-08:vcc"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-08"
+        },
+        {
+          "label": "Local net ID",
+          "value": "vcc"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.9\",\"@VCC\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:vcc"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:sheet-08:vcc",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-08",
+        "composite"
+      ],
+      "searchText": "local-net:sheet-08:vcc sheet-08 / vcc vcc sheet-08 [\"u1.9\",\"@vcc\"] project-net:vcc",
+      "sheet": "sheet-08"
+    },
+    "local-net:sheet-09:gnd": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-09 / gnd",
+      "nativeId": "gnd",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:sheet-09:gnd"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-09"
+        },
+        {
+          "label": "Local net ID",
+          "value": "gnd"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.11\",\"@GND\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:gnd"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:sheet-09:gnd",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-09",
+        "composite"
+      ],
+      "searchText": "local-net:sheet-09:gnd sheet-09 / gnd gnd sheet-09 [\"u1.11\",\"@gnd\"] project-net:gnd",
+      "sheet": "sheet-09"
+    },
+    "local-net:sheet-09:vcc": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-09 / vcc",
+      "nativeId": "vcc",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:sheet-09:vcc"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-09"
+        },
+        {
+          "label": "Local net ID",
+          "value": "vcc"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.9\",\"@VCC\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:vcc"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:sheet-09:vcc",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-09",
+        "composite"
+      ],
+      "searchText": "local-net:sheet-09:vcc sheet-09 / vcc vcc sheet-09 [\"u1.9\",\"@vcc\"] project-net:vcc",
+      "sheet": "sheet-09"
+    },
+    "local-net:sheet-10:gnd": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-10 / gnd",
+      "nativeId": "gnd",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:sheet-10:gnd"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-10"
+        },
+        {
+          "label": "Local net ID",
+          "value": "gnd"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.11\",\"@GND\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:gnd"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:sheet-10:gnd",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-10",
+        "composite"
+      ],
+      "searchText": "local-net:sheet-10:gnd sheet-10 / gnd gnd sheet-10 [\"u1.11\",\"@gnd\"] project-net:gnd",
+      "sheet": "sheet-10"
+    },
+    "local-net:sheet-10:vcc": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-10 / vcc",
+      "nativeId": "vcc",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:sheet-10:vcc"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-10"
+        },
+        {
+          "label": "Local net ID",
+          "value": "vcc"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.9\",\"@VCC\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:vcc"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:sheet-10:vcc",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-10",
+        "composite"
+      ],
+      "searchText": "local-net:sheet-10:vcc sheet-10 / vcc vcc sheet-10 [\"u1.9\",\"@vcc\"] project-net:vcc",
+      "sheet": "sheet-10"
+    },
+    "project-net:gnd": {
+      "category": "Project Nets",
+      "kind": "project-net",
+      "label": "gnd",
+      "nativeId": "gnd",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "project-net:gnd"
+        },
+        {
+          "label": "Project-net ID",
+          "value": "gnd"
+        },
+        {
+          "label": "Participating sheets",
+          "value": "[\"sheet-01\",\"sheet-02\",\"sheet-03\",\"sheet-04\",\"sheet-05\",\"sheet-06\",\"sheet-07\",\"sheet-08\",\"sheet-09\",\"sheet-10\"]"
+        },
+        {
+          "label": "Interface members",
+          "value": "[\"interface:sheet-01:GND\",\"interface:sheet-02:GND\",\"interface:sheet-03:GND\",\"interface:sheet-04:GND\",\"interface:sheet-05:GND\",\"interface:sheet-06:GND\",\"interface:sheet-07:GND\",\"interface:sheet-08:GND\",\"interface:sheet-09:GND\",\"interface:sheet-10:GND\"]"
+        },
+        {
+          "label": "Backing local nets",
+          "value": "[\"local-net:sheet-01:gnd\",\"local-net:sheet-02:gnd\",\"local-net:sheet-03:gnd\",\"local-net:sheet-04:gnd\",\"local-net:sheet-05:gnd\",\"local-net:sheet-06:gnd\",\"local-net:sheet-07:gnd\",\"local-net:sheet-08:gnd\",\"local-net:sheet-09:gnd\",\"local-net:sheet-10:gnd\"]"
+        },
+        {
+          "label": "Transitive endpoint count",
+          "value": "20"
+        },
+        {
+          "label": "Transitive endpoints",
+          "value": "[\"entity:sheet-01:U1.11\",\"entity:sheet-02:U1.11\",\"entity:sheet-03:U1.11\",\"entity:sheet-04:U1.11\",\"entity:sheet-05:U1.11\",\"entity:sheet-06:U1.11\",\"entity:sheet-07:U1.11\",\"entity:sheet-08:U1.11\",\"entity:sheet-09:U1.11\",\"entity:sheet-10:U1.11\",\"interface:sheet-01:GND\",\"interface:sheet-02:GND\",\"interface:sheet-03:GND\",\"interface:sheet-04:GND\",\"interface:sheet-05:GND\",\"interface:sheet-06:GND\",\"interface:sheet-07:GND\",\"interface:sheet-08:GND\",\"interface:sheet-09:GND\",\"interface:sheet-10:GND\"]"
+        },
+        {
+          "label": "Crosses hierarchy boundary",
+          "value": "true"
+        }
+      ],
+      "qid": "project-net:gnd",
+      "relatedQids": [
+        "interface:sheet-01:GND",
+        "interface:sheet-02:GND",
+        "interface:sheet-03:GND",
+        "interface:sheet-04:GND",
+        "interface:sheet-05:GND",
+        "interface:sheet-06:GND",
+        "interface:sheet-07:GND",
+        "interface:sheet-08:GND",
+        "interface:sheet-09:GND",
+        "interface:sheet-10:GND"
+      ],
+      "representations": [
+        "overview",
+        "composite"
+      ],
+      "searchText": "project-net:gnd gnd gnd  [\"sheet-01\",\"sheet-02\",\"sheet-03\",\"sheet-04\",\"sheet-05\",\"sheet-06\",\"sheet-07\",\"sheet-08\",\"sheet-09\",\"sheet-10\"] [\"interface:sheet-01:gnd\",\"interface:sheet-02:gnd\",\"interface:sheet-03:gnd\",\"interface:sheet-04:gnd\",\"interface:sheet-05:gnd\",\"interface:sheet-06:gnd\",\"interface:sheet-07:gnd\",\"interface:sheet-08:gnd\",\"interface:sheet-09:gnd\",\"interface:sheet-10:gnd\"] [\"local-net:sheet-01:gnd\",\"local-net:sheet-02:gnd\",\"local-net:sheet-03:gnd\",\"local-net:sheet-04:gnd\",\"local-net:sheet-05:gnd\",\"local-net:sheet-06:gnd\",\"local-net:sheet-07:gnd\",\"local-net:sheet-08:gnd\",\"local-net:sheet-09:gnd\",\"local-net:sheet-10:gnd\"]",
+      "sheet": null
+    },
+    "project-net:vcc": {
+      "category": "Project Nets",
+      "kind": "project-net",
+      "label": "vcc",
+      "nativeId": "vcc",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "project-net:vcc"
+        },
+        {
+          "label": "Project-net ID",
+          "value": "vcc"
+        },
+        {
+          "label": "Participating sheets",
+          "value": "[\"sheet-01\",\"sheet-02\",\"sheet-03\",\"sheet-04\",\"sheet-05\",\"sheet-06\",\"sheet-07\",\"sheet-08\",\"sheet-09\",\"sheet-10\"]"
+        },
+        {
+          "label": "Interface members",
+          "value": "[\"interface:sheet-01:VCC\",\"interface:sheet-02:VCC\",\"interface:sheet-03:VCC\",\"interface:sheet-04:VCC\",\"interface:sheet-05:VCC\",\"interface:sheet-06:VCC\",\"interface:sheet-07:VCC\",\"interface:sheet-08:VCC\",\"interface:sheet-09:VCC\",\"interface:sheet-10:VCC\"]"
+        },
+        {
+          "label": "Backing local nets",
+          "value": "[\"local-net:sheet-01:vcc\",\"local-net:sheet-02:vcc\",\"local-net:sheet-03:vcc\",\"local-net:sheet-04:vcc\",\"local-net:sheet-05:vcc\",\"local-net:sheet-06:vcc\",\"local-net:sheet-07:vcc\",\"local-net:sheet-08:vcc\",\"local-net:sheet-09:vcc\",\"local-net:sheet-10:vcc\"]"
+        },
+        {
+          "label": "Transitive endpoint count",
+          "value": "20"
+        },
+        {
+          "label": "Transitive endpoints",
+          "value": "[\"entity:sheet-01:U1.9\",\"entity:sheet-02:U1.9\",\"entity:sheet-03:U1.9\",\"entity:sheet-04:U1.9\",\"entity:sheet-05:U1.9\",\"entity:sheet-06:U1.9\",\"entity:sheet-07:U1.9\",\"entity:sheet-08:U1.9\",\"entity:sheet-09:U1.9\",\"entity:sheet-10:U1.9\",\"interface:sheet-01:VCC\",\"interface:sheet-02:VCC\",\"interface:sheet-03:VCC\",\"interface:sheet-04:VCC\",\"interface:sheet-05:VCC\",\"interface:sheet-06:VCC\",\"interface:sheet-07:VCC\",\"interface:sheet-08:VCC\",\"interface:sheet-09:VCC\",\"interface:sheet-10:VCC\"]"
+        },
+        {
+          "label": "Crosses hierarchy boundary",
+          "value": "true"
+        }
+      ],
+      "qid": "project-net:vcc",
+      "relatedQids": [
+        "interface:sheet-01:VCC",
+        "interface:sheet-02:VCC",
+        "interface:sheet-03:VCC",
+        "interface:sheet-04:VCC",
+        "interface:sheet-05:VCC",
+        "interface:sheet-06:VCC",
+        "interface:sheet-07:VCC",
+        "interface:sheet-08:VCC",
+        "interface:sheet-09:VCC",
+        "interface:sheet-10:VCC"
+      ],
+      "representations": [
+        "overview",
+        "composite"
+      ],
+      "searchText": "project-net:vcc vcc vcc  [\"sheet-01\",\"sheet-02\",\"sheet-03\",\"sheet-04\",\"sheet-05\",\"sheet-06\",\"sheet-07\",\"sheet-08\",\"sheet-09\",\"sheet-10\"] [\"interface:sheet-01:vcc\",\"interface:sheet-02:vcc\",\"interface:sheet-03:vcc\",\"interface:sheet-04:vcc\",\"interface:sheet-05:vcc\",\"interface:sheet-06:vcc\",\"interface:sheet-07:vcc\",\"interface:sheet-08:vcc\",\"interface:sheet-09:vcc\",\"interface:sheet-10:vcc\"] [\"local-net:sheet-01:vcc\",\"local-net:sheet-02:vcc\",\"local-net:sheet-03:vcc\",\"local-net:sheet-04:vcc\",\"local-net:sheet-05:vcc\",\"local-net:sheet-06:vcc\",\"local-net:sheet-07:vcc\",\"local-net:sheet-08:vcc\",\"local-net:sheet-09:vcc\",\"local-net:sheet-10:vcc\"]",
+      "sheet": null
+    },
+    "sheet:sheet-01": {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Sheet 01",
+      "nativeId": "sheet-01",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "sheet:sheet-01"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-01"
+        },
+        {
+          "label": "Title",
+          "value": "Sheet 01"
+        },
+        {
+          "label": "Parent",
+          "value": "Root"
+        },
+        {
+          "label": "Hierarchy depth",
+          "value": "0"
+        },
+        {
+          "label": "Width",
+          "value": "160"
+        },
+        {
+          "label": "Height",
+          "value": "100"
+        },
+        {
+          "label": "Unit",
+          "value": "mm"
+        }
+      ],
+      "qid": "sheet:sheet-01",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-01",
+        "overview",
+        "composite"
+      ],
+      "searchText": "sheet:sheet-01 sheet 01 sheet-01 sheet-01 [\"sheet-02\",\"sheet-03\",\"sheet-04\",\"sheet-05\",\"sheet-06\",\"sheet-07\",\"sheet-08\",\"sheet-09\",\"sheet-10\"]",
+      "sheet": "sheet-01"
+    },
+    "sheet:sheet-02": {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Sheet 02",
+      "nativeId": "sheet-02",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "sheet:sheet-02"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-02"
+        },
+        {
+          "label": "Title",
+          "value": "Sheet 02"
+        },
+        {
+          "label": "Parent",
+          "value": "sheet-01"
+        },
+        {
+          "label": "Hierarchy depth",
+          "value": "1"
+        },
+        {
+          "label": "Width",
+          "value": "160"
+        },
+        {
+          "label": "Height",
+          "value": "100"
+        },
+        {
+          "label": "Unit",
+          "value": "mm"
+        }
+      ],
+      "qid": "sheet:sheet-02",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-02",
+        "overview",
+        "composite"
+      ],
+      "searchText": "sheet:sheet-02 sheet 02 sheet-02 sheet-02 sheet-01 []",
+      "sheet": "sheet-02"
+    },
+    "sheet:sheet-03": {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Sheet 03",
+      "nativeId": "sheet-03",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "sheet:sheet-03"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-03"
+        },
+        {
+          "label": "Title",
+          "value": "Sheet 03"
+        },
+        {
+          "label": "Parent",
+          "value": "sheet-01"
+        },
+        {
+          "label": "Hierarchy depth",
+          "value": "1"
+        },
+        {
+          "label": "Width",
+          "value": "160"
+        },
+        {
+          "label": "Height",
+          "value": "100"
+        },
+        {
+          "label": "Unit",
+          "value": "mm"
+        }
+      ],
+      "qid": "sheet:sheet-03",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-03",
+        "overview",
+        "composite"
+      ],
+      "searchText": "sheet:sheet-03 sheet 03 sheet-03 sheet-03 sheet-01 []",
+      "sheet": "sheet-03"
+    },
+    "sheet:sheet-04": {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Sheet 04",
+      "nativeId": "sheet-04",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "sheet:sheet-04"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-04"
+        },
+        {
+          "label": "Title",
+          "value": "Sheet 04"
+        },
+        {
+          "label": "Parent",
+          "value": "sheet-01"
+        },
+        {
+          "label": "Hierarchy depth",
+          "value": "1"
+        },
+        {
+          "label": "Width",
+          "value": "160"
+        },
+        {
+          "label": "Height",
+          "value": "100"
+        },
+        {
+          "label": "Unit",
+          "value": "mm"
+        }
+      ],
+      "qid": "sheet:sheet-04",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-04",
+        "overview",
+        "composite"
+      ],
+      "searchText": "sheet:sheet-04 sheet 04 sheet-04 sheet-04 sheet-01 []",
+      "sheet": "sheet-04"
+    },
+    "sheet:sheet-05": {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Sheet 05",
+      "nativeId": "sheet-05",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "sheet:sheet-05"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-05"
+        },
+        {
+          "label": "Title",
+          "value": "Sheet 05"
+        },
+        {
+          "label": "Parent",
+          "value": "sheet-01"
+        },
+        {
+          "label": "Hierarchy depth",
+          "value": "1"
+        },
+        {
+          "label": "Width",
+          "value": "160"
+        },
+        {
+          "label": "Height",
+          "value": "100"
+        },
+        {
+          "label": "Unit",
+          "value": "mm"
+        }
+      ],
+      "qid": "sheet:sheet-05",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-05",
+        "overview",
+        "composite"
+      ],
+      "searchText": "sheet:sheet-05 sheet 05 sheet-05 sheet-05 sheet-01 []",
+      "sheet": "sheet-05"
+    },
+    "sheet:sheet-06": {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Sheet 06",
+      "nativeId": "sheet-06",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "sheet:sheet-06"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-06"
+        },
+        {
+          "label": "Title",
+          "value": "Sheet 06"
+        },
+        {
+          "label": "Parent",
+          "value": "sheet-01"
+        },
+        {
+          "label": "Hierarchy depth",
+          "value": "1"
+        },
+        {
+          "label": "Width",
+          "value": "160"
+        },
+        {
+          "label": "Height",
+          "value": "100"
+        },
+        {
+          "label": "Unit",
+          "value": "mm"
+        }
+      ],
+      "qid": "sheet:sheet-06",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-06",
+        "overview",
+        "composite"
+      ],
+      "searchText": "sheet:sheet-06 sheet 06 sheet-06 sheet-06 sheet-01 []",
+      "sheet": "sheet-06"
+    },
+    "sheet:sheet-07": {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Sheet 07",
+      "nativeId": "sheet-07",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "sheet:sheet-07"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-07"
+        },
+        {
+          "label": "Title",
+          "value": "Sheet 07"
+        },
+        {
+          "label": "Parent",
+          "value": "sheet-01"
+        },
+        {
+          "label": "Hierarchy depth",
+          "value": "1"
+        },
+        {
+          "label": "Width",
+          "value": "160"
+        },
+        {
+          "label": "Height",
+          "value": "100"
+        },
+        {
+          "label": "Unit",
+          "value": "mm"
+        }
+      ],
+      "qid": "sheet:sheet-07",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-07",
+        "overview",
+        "composite"
+      ],
+      "searchText": "sheet:sheet-07 sheet 07 sheet-07 sheet-07 sheet-01 []",
+      "sheet": "sheet-07"
+    },
+    "sheet:sheet-08": {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Sheet 08",
+      "nativeId": "sheet-08",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "sheet:sheet-08"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-08"
+        },
+        {
+          "label": "Title",
+          "value": "Sheet 08"
+        },
+        {
+          "label": "Parent",
+          "value": "sheet-01"
+        },
+        {
+          "label": "Hierarchy depth",
+          "value": "1"
+        },
+        {
+          "label": "Width",
+          "value": "160"
+        },
+        {
+          "label": "Height",
+          "value": "100"
+        },
+        {
+          "label": "Unit",
+          "value": "mm"
+        }
+      ],
+      "qid": "sheet:sheet-08",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-08",
+        "overview",
+        "composite"
+      ],
+      "searchText": "sheet:sheet-08 sheet 08 sheet-08 sheet-08 sheet-01 []",
+      "sheet": "sheet-08"
+    },
+    "sheet:sheet-09": {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Sheet 09",
+      "nativeId": "sheet-09",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "sheet:sheet-09"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-09"
+        },
+        {
+          "label": "Title",
+          "value": "Sheet 09"
+        },
+        {
+          "label": "Parent",
+          "value": "sheet-01"
+        },
+        {
+          "label": "Hierarchy depth",
+          "value": "1"
+        },
+        {
+          "label": "Width",
+          "value": "160"
+        },
+        {
+          "label": "Height",
+          "value": "100"
+        },
+        {
+          "label": "Unit",
+          "value": "mm"
+        }
+      ],
+      "qid": "sheet:sheet-09",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-09",
+        "overview",
+        "composite"
+      ],
+      "searchText": "sheet:sheet-09 sheet 09 sheet-09 sheet-09 sheet-01 []",
+      "sheet": "sheet-09"
+    },
+    "sheet:sheet-10": {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Sheet 10",
+      "nativeId": "sheet-10",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "sheet:sheet-10"
+        },
+        {
+          "label": "Sheet",
+          "value": "sheet-10"
+        },
+        {
+          "label": "Title",
+          "value": "Sheet 10"
+        },
+        {
+          "label": "Parent",
+          "value": "sheet-01"
+        },
+        {
+          "label": "Hierarchy depth",
+          "value": "1"
+        },
+        {
+          "label": "Width",
+          "value": "160"
+        },
+        {
+          "label": "Height",
+          "value": "100"
+        },
+        {
+          "label": "Unit",
+          "value": "mm"
+        }
+      ],
+      "qid": "sheet:sheet-10",
+      "relatedQids": [],
+      "representations": [
+        "sheet:sheet-10",
+        "overview",
+        "composite"
+      ],
+      "searchText": "sheet:sheet-10 sheet 10 sheet-10 sheet-10 sheet-01 []",
+      "sheet": "sheet-10"
+    }
+  },
+  "project": {
+    "id": "hierarchical:h013",
+    "multiSheet": true,
+    "profile": "aixem.schematic.multisheet@1",
+    "schema": "https://schemas.aixem.org/component-graphics/aixproj/2",
+    "title": "Ten sheet scale baseline"
+  },
+  "provenance": {
+    "authority": {
+      "connectivityFromGeometry": false,
+      "layersAreSheets": false,
+      "localPresentation": "aixlayout/2",
+      "localSemantics": ".aixem",
+      "projectComposition": "aixproj/2",
+      "viewerState": "derived-non-authoritative"
+    },
+    "generatedAt": "2026-08-10T12:00:00Z",
+    "hashes": {
+      "inputs": [
+        {
+          "layoutDigest": "sha256:6b4061ff4b1494210fcf974ba25a947228355e78f844e1870468a98809ac68bc",
+          "layoutPath": "layouts/sheet-01.aixlayout.json",
+          "resolvedSceneDigest": "sha256:946cc1311b56e2121b097db3ae54e4320e8bdede6921bb515e99b71ace1c7a9f",
+          "sheet": "sheet-01",
+          "sourceDigest": "sha256:451e96820d2ae6417bd4e0ed9f93d1dc9a8a362fee27120ac721f8083ab0b173",
+          "sourcePath": "circuits/sheet-01.aixem",
+          "svgDigest": "sha256:546c2d7857cb49a470ba8caa42b49e486161624ce533cdd3ff29f8aacc198441"
+        },
+        {
+          "layoutDigest": "sha256:9b0747ccff47b3febf6786cd8a0533226f0a685760827fe3724b765d0a3b5c22",
+          "layoutPath": "layouts/sheet-02.aixlayout.json",
+          "resolvedSceneDigest": "sha256:aff29c1d9bc18449ff7459691ea81e9d0a75c0997104af377d30a9f4a9af965d",
+          "sheet": "sheet-02",
+          "sourceDigest": "sha256:f66866cbfd1b0bfa7684a2ed12306a8607ebe31db018676b29eb774cb7292b86",
+          "sourcePath": "circuits/sheet-02.aixem",
+          "svgDigest": "sha256:373f7a46e9d8b173735ced0681a822b2e9e0ffcd8013ebae9ae0c51911063a2b"
+        },
+        {
+          "layoutDigest": "sha256:afe09ea7b0439020a379b8db35894b04f0746cec0ccdc435b5f5aa2ef52c4b94",
+          "layoutPath": "layouts/sheet-03.aixlayout.json",
+          "resolvedSceneDigest": "sha256:aa5f8f391febdb1e5588d0e36058f7880d8ffe9452cc13e701b940b019047a85",
+          "sheet": "sheet-03",
+          "sourceDigest": "sha256:66f94a91c897a12add64e9d84b314eb8de0d95b1397802899dcd04762d74ec79",
+          "sourcePath": "circuits/sheet-03.aixem",
+          "svgDigest": "sha256:b2c0a6b47d5b22f8de439f250c71728f5920376a764791abee0767d99807151f"
+        },
+        {
+          "layoutDigest": "sha256:26837495cd289c45523e6224fc3fc2b6e779133ca5d4beecb79caed6240685fe",
+          "layoutPath": "layouts/sheet-04.aixlayout.json",
+          "resolvedSceneDigest": "sha256:06aedffaa267a56336e852a6f035ccd4261630404f28b5f8855ca751d7be0619",
+          "sheet": "sheet-04",
+          "sourceDigest": "sha256:197804611009a76c293827a13b695f297991dbb9f1e7b8583dff490cb770ed4c",
+          "sourcePath": "circuits/sheet-04.aixem",
+          "svgDigest": "sha256:0d7e33a4d480ed686b891ede8315be02f163d53611228410d96a72b500d44f42"
+        },
+        {
+          "layoutDigest": "sha256:d08e9e88c7bb4927850dfffa54746a73527ebc8f5d45c59dbc96a80e53659e48",
+          "layoutPath": "layouts/sheet-05.aixlayout.json",
+          "resolvedSceneDigest": "sha256:6112ef6a1392b814d9ace3fe726712929cdfdd3bf996a0d4f80dab5960b6bf02",
+          "sheet": "sheet-05",
+          "sourceDigest": "sha256:a3fc700f1c05d26ecb3e8faedca1b7302733d247540d40b40861d4b6d2f78d55",
+          "sourcePath": "circuits/sheet-05.aixem",
+          "svgDigest": "sha256:e2158f59d4593f7257c14d937c423c9bfc69c37f7ba5c6dd5354c95946f4bde7"
+        },
+        {
+          "layoutDigest": "sha256:476a490300cb3230b9f1d4ca217d610d8a62238dc32662b0fba70a2938705bba",
+          "layoutPath": "layouts/sheet-06.aixlayout.json",
+          "resolvedSceneDigest": "sha256:45112eabb99224c0a59c877bc6e32589d42d259a4944139e9c6d52fcecf3440e",
+          "sheet": "sheet-06",
+          "sourceDigest": "sha256:8ff7d4ceb473aab42ccb72ea92609777b5b238b197f706355e640a39c1f76075",
+          "sourcePath": "circuits/sheet-06.aixem",
+          "svgDigest": "sha256:e813422f1e1bd24f0334f6d59efd80f7c95a16b7a925e86df32212ffa35b142d"
+        },
+        {
+          "layoutDigest": "sha256:1b5c2f170d8655caccb17eaba2f0475add84327c5991d199319212f1fa9fc0ba",
+          "layoutPath": "layouts/sheet-07.aixlayout.json",
+          "resolvedSceneDigest": "sha256:c80e10d3b3f70b88252cb2faca4482f1964ffc4862f9825360b4e99e5d77d3d6",
+          "sheet": "sheet-07",
+          "sourceDigest": "sha256:74fe8f1e5f298440a3e37064ad905728fcda6e0fbeddaeaaab55f8930456457b",
+          "sourcePath": "circuits/sheet-07.aixem",
+          "svgDigest": "sha256:65e87d01e9bddb48972d104ac9c609dae95d841a129ade60bb21cbaf500215f1"
+        },
+        {
+          "layoutDigest": "sha256:87e479b68ea4eafd75a69446042415d3937f919fe35c8b8d52f06fbd4c1195b0",
+          "layoutPath": "layouts/sheet-08.aixlayout.json",
+          "resolvedSceneDigest": "sha256:953fc50a5c31fe5f3713aeac9782d07a267d63aa74fdf93620f83604bd052724",
+          "sheet": "sheet-08",
+          "sourceDigest": "sha256:35d7610a6f558d682f96955f808038ef6f0c6f1fd2f46944c1073b164f57e157",
+          "sourcePath": "circuits/sheet-08.aixem",
+          "svgDigest": "sha256:97e739fd7d8e730dd5dd5460855c32b91523f0c7038d6ec3fe4e21911ab0f806"
+        },
+        {
+          "layoutDigest": "sha256:84643398f6f35e406a940c591cd45872ee4404c18894678fe83a5ca438e79103",
+          "layoutPath": "layouts/sheet-09.aixlayout.json",
+          "resolvedSceneDigest": "sha256:07963cb8115517674a6d15e056fface3496ce2577dd8cee3ce4274b90075aada",
+          "sheet": "sheet-09",
+          "sourceDigest": "sha256:4d1022b012ad67df370363634d1b8328b68f7fb135ab4686f076c774c67aa285",
+          "sourcePath": "circuits/sheet-09.aixem",
+          "svgDigest": "sha256:df8e3f4246e3d74f49a80bda0c2e0c9ce2fe4feceee41c68070b3a7cab86ae35"
+        },
+        {
+          "layoutDigest": "sha256:954b61c1c9714ba4e4bdf6248b0e6a6caee2deb96e698355844c87a98d45b186",
+          "layoutPath": "layouts/sheet-10.aixlayout.json",
+          "resolvedSceneDigest": "sha256:b6ecaef86d274d5ed022dd5fbf316435c446fe54f4ee64152169c5048b4dbb7b",
+          "sheet": "sheet-10",
+          "sourceDigest": "sha256:6771c50582fc970d30e81dfd46c2b370e3b401d88e306fc2259eefbe8955b6ba",
+          "sourcePath": "circuits/sheet-10.aixem",
+          "svgDigest": "sha256:cc787545d0203ec52c4bdb735d1719eb90b951988ff587a9d8c92bad58506cee"
+        }
+      ],
+      "manifest": "sha256:4f1cc94a906cc78530f2c0bb8d65c20ecdd18da35ddc200b440b5de49de5d28e",
+      "styleProfile": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393"
+    },
+    "renderer": {
+      "id": "aixem-hierarchical-project-reference-renderer",
+      "version": "0.5.3"
+    },
+    "resolvedProjectSceneSchema": "https://schemas.aixem.org/component-graphics/resolved-project-scene/1"
+  },
+  "release": "AIXEM-SRP-0.5.5-2026-08-11",
+  "schema": "https://schemas.aixem.org/viewer/viewer-model/1",
+  "searchIndex": [
+    {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Sheet 01",
+      "qid": "sheet:sheet-01",
+      "searchText": "sheet:sheet-01 sheet 01 sheet-01 sheet-01 [\"sheet-02\",\"sheet-03\",\"sheet-04\",\"sheet-05\",\"sheet-06\",\"sheet-07\",\"sheet-08\",\"sheet-09\",\"sheet-10\"]",
+      "sheet": "sheet-01"
+    },
+    {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Sheet 02",
+      "qid": "sheet:sheet-02",
+      "searchText": "sheet:sheet-02 sheet 02 sheet-02 sheet-02 sheet-01 []",
+      "sheet": "sheet-02"
+    },
+    {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Sheet 03",
+      "qid": "sheet:sheet-03",
+      "searchText": "sheet:sheet-03 sheet 03 sheet-03 sheet-03 sheet-01 []",
+      "sheet": "sheet-03"
+    },
+    {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Sheet 04",
+      "qid": "sheet:sheet-04",
+      "searchText": "sheet:sheet-04 sheet 04 sheet-04 sheet-04 sheet-01 []",
+      "sheet": "sheet-04"
+    },
+    {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Sheet 05",
+      "qid": "sheet:sheet-05",
+      "searchText": "sheet:sheet-05 sheet 05 sheet-05 sheet-05 sheet-01 []",
+      "sheet": "sheet-05"
+    },
+    {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Sheet 06",
+      "qid": "sheet:sheet-06",
+      "searchText": "sheet:sheet-06 sheet 06 sheet-06 sheet-06 sheet-01 []",
+      "sheet": "sheet-06"
+    },
+    {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Sheet 07",
+      "qid": "sheet:sheet-07",
+      "searchText": "sheet:sheet-07 sheet 07 sheet-07 sheet-07 sheet-01 []",
+      "sheet": "sheet-07"
+    },
+    {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Sheet 08",
+      "qid": "sheet:sheet-08",
+      "searchText": "sheet:sheet-08 sheet 08 sheet-08 sheet-08 sheet-01 []",
+      "sheet": "sheet-08"
+    },
+    {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Sheet 09",
+      "qid": "sheet:sheet-09",
+      "searchText": "sheet:sheet-09 sheet 09 sheet-09 sheet-09 sheet-01 []",
+      "sheet": "sheet-09"
+    },
+    {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Sheet 10",
+      "qid": "sheet:sheet-10",
+      "searchText": "sheet:sheet-10 sheet 10 sheet-10 sheet-10 sheet-01 []",
+      "sheet": "sheet-10"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "qid": "entity:sheet-01:U1",
+      "searchText": "entity:sheet-01:u1 u1 · axc12 u1 sheet-01 u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "sheet-01"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "qid": "entity:sheet-02:U1",
+      "searchText": "entity:sheet-02:u1 u1 · axc12 u1 sheet-02 u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "sheet-02"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "qid": "entity:sheet-03:U1",
+      "searchText": "entity:sheet-03:u1 u1 · axc12 u1 sheet-03 u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "sheet-03"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "qid": "entity:sheet-04:U1",
+      "searchText": "entity:sheet-04:u1 u1 · axc12 u1 sheet-04 u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "sheet-04"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "qid": "entity:sheet-05:U1",
+      "searchText": "entity:sheet-05:u1 u1 · axc12 u1 sheet-05 u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "sheet-05"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "qid": "entity:sheet-06:U1",
+      "searchText": "entity:sheet-06:u1 u1 · axc12 u1 sheet-06 u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "sheet-06"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "qid": "entity:sheet-07:U1",
+      "searchText": "entity:sheet-07:u1 u1 · axc12 u1 sheet-07 u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "sheet-07"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "qid": "entity:sheet-08:U1",
+      "searchText": "entity:sheet-08:u1 u1 · axc12 u1 sheet-08 u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "sheet-08"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "qid": "entity:sheet-09:U1",
+      "searchText": "entity:sheet-09:u1 u1 · axc12 u1 sheet-09 u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "sheet-09"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "qid": "entity:sheet-10:U1",
+      "searchText": "entity:sheet-10:u1 u1 · axc12 u1 sheet-10 u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "sheet-10"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-01 / gnd",
+      "qid": "local-net:sheet-01:gnd",
+      "searchText": "local-net:sheet-01:gnd sheet-01 / gnd gnd sheet-01 [\"u1.11\",\"@gnd\"] project-net:gnd",
+      "sheet": "sheet-01"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-01 / vcc",
+      "qid": "local-net:sheet-01:vcc",
+      "searchText": "local-net:sheet-01:vcc sheet-01 / vcc vcc sheet-01 [\"u1.9\",\"@vcc\"] project-net:vcc",
+      "sheet": "sheet-01"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-02 / gnd",
+      "qid": "local-net:sheet-02:gnd",
+      "searchText": "local-net:sheet-02:gnd sheet-02 / gnd gnd sheet-02 [\"u1.11\",\"@gnd\"] project-net:gnd",
+      "sheet": "sheet-02"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-02 / vcc",
+      "qid": "local-net:sheet-02:vcc",
+      "searchText": "local-net:sheet-02:vcc sheet-02 / vcc vcc sheet-02 [\"u1.9\",\"@vcc\"] project-net:vcc",
+      "sheet": "sheet-02"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-03 / gnd",
+      "qid": "local-net:sheet-03:gnd",
+      "searchText": "local-net:sheet-03:gnd sheet-03 / gnd gnd sheet-03 [\"u1.11\",\"@gnd\"] project-net:gnd",
+      "sheet": "sheet-03"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-03 / vcc",
+      "qid": "local-net:sheet-03:vcc",
+      "searchText": "local-net:sheet-03:vcc sheet-03 / vcc vcc sheet-03 [\"u1.9\",\"@vcc\"] project-net:vcc",
+      "sheet": "sheet-03"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-04 / gnd",
+      "qid": "local-net:sheet-04:gnd",
+      "searchText": "local-net:sheet-04:gnd sheet-04 / gnd gnd sheet-04 [\"u1.11\",\"@gnd\"] project-net:gnd",
+      "sheet": "sheet-04"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-04 / vcc",
+      "qid": "local-net:sheet-04:vcc",
+      "searchText": "local-net:sheet-04:vcc sheet-04 / vcc vcc sheet-04 [\"u1.9\",\"@vcc\"] project-net:vcc",
+      "sheet": "sheet-04"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-05 / gnd",
+      "qid": "local-net:sheet-05:gnd",
+      "searchText": "local-net:sheet-05:gnd sheet-05 / gnd gnd sheet-05 [\"u1.11\",\"@gnd\"] project-net:gnd",
+      "sheet": "sheet-05"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-05 / vcc",
+      "qid": "local-net:sheet-05:vcc",
+      "searchText": "local-net:sheet-05:vcc sheet-05 / vcc vcc sheet-05 [\"u1.9\",\"@vcc\"] project-net:vcc",
+      "sheet": "sheet-05"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-06 / gnd",
+      "qid": "local-net:sheet-06:gnd",
+      "searchText": "local-net:sheet-06:gnd sheet-06 / gnd gnd sheet-06 [\"u1.11\",\"@gnd\"] project-net:gnd",
+      "sheet": "sheet-06"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-06 / vcc",
+      "qid": "local-net:sheet-06:vcc",
+      "searchText": "local-net:sheet-06:vcc sheet-06 / vcc vcc sheet-06 [\"u1.9\",\"@vcc\"] project-net:vcc",
+      "sheet": "sheet-06"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-07 / gnd",
+      "qid": "local-net:sheet-07:gnd",
+      "searchText": "local-net:sheet-07:gnd sheet-07 / gnd gnd sheet-07 [\"u1.11\",\"@gnd\"] project-net:gnd",
+      "sheet": "sheet-07"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-07 / vcc",
+      "qid": "local-net:sheet-07:vcc",
+      "searchText": "local-net:sheet-07:vcc sheet-07 / vcc vcc sheet-07 [\"u1.9\",\"@vcc\"] project-net:vcc",
+      "sheet": "sheet-07"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-08 / gnd",
+      "qid": "local-net:sheet-08:gnd",
+      "searchText": "local-net:sheet-08:gnd sheet-08 / gnd gnd sheet-08 [\"u1.11\",\"@gnd\"] project-net:gnd",
+      "sheet": "sheet-08"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-08 / vcc",
+      "qid": "local-net:sheet-08:vcc",
+      "searchText": "local-net:sheet-08:vcc sheet-08 / vcc vcc sheet-08 [\"u1.9\",\"@vcc\"] project-net:vcc",
+      "sheet": "sheet-08"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-09 / gnd",
+      "qid": "local-net:sheet-09:gnd",
+      "searchText": "local-net:sheet-09:gnd sheet-09 / gnd gnd sheet-09 [\"u1.11\",\"@gnd\"] project-net:gnd",
+      "sheet": "sheet-09"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-09 / vcc",
+      "qid": "local-net:sheet-09:vcc",
+      "searchText": "local-net:sheet-09:vcc sheet-09 / vcc vcc sheet-09 [\"u1.9\",\"@vcc\"] project-net:vcc",
+      "sheet": "sheet-09"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-10 / gnd",
+      "qid": "local-net:sheet-10:gnd",
+      "searchText": "local-net:sheet-10:gnd sheet-10 / gnd gnd sheet-10 [\"u1.11\",\"@gnd\"] project-net:gnd",
+      "sheet": "sheet-10"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sheet-10 / vcc",
+      "qid": "local-net:sheet-10:vcc",
+      "searchText": "local-net:sheet-10:vcc sheet-10 / vcc vcc sheet-10 [\"u1.9\",\"@vcc\"] project-net:vcc",
+      "sheet": "sheet-10"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-01 / @GND",
+      "qid": "interface:sheet-01:GND",
+      "searchText": "interface:sheet-01:gnd sheet-01 / @gnd gnd sheet-01 passive power gnd project-net:gnd",
+      "sheet": "sheet-01"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-01 / @VCC",
+      "qid": "interface:sheet-01:VCC",
+      "searchText": "interface:sheet-01:vcc sheet-01 / @vcc vcc sheet-01 input power vcc project-net:vcc",
+      "sheet": "sheet-01"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-02 / @GND",
+      "qid": "interface:sheet-02:GND",
+      "searchText": "interface:sheet-02:gnd sheet-02 / @gnd gnd sheet-02 passive power gnd project-net:gnd",
+      "sheet": "sheet-02"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-02 / @VCC",
+      "qid": "interface:sheet-02:VCC",
+      "searchText": "interface:sheet-02:vcc sheet-02 / @vcc vcc sheet-02 input power vcc project-net:vcc",
+      "sheet": "sheet-02"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-03 / @GND",
+      "qid": "interface:sheet-03:GND",
+      "searchText": "interface:sheet-03:gnd sheet-03 / @gnd gnd sheet-03 passive power gnd project-net:gnd",
+      "sheet": "sheet-03"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-03 / @VCC",
+      "qid": "interface:sheet-03:VCC",
+      "searchText": "interface:sheet-03:vcc sheet-03 / @vcc vcc sheet-03 input power vcc project-net:vcc",
+      "sheet": "sheet-03"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-04 / @GND",
+      "qid": "interface:sheet-04:GND",
+      "searchText": "interface:sheet-04:gnd sheet-04 / @gnd gnd sheet-04 passive power gnd project-net:gnd",
+      "sheet": "sheet-04"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-04 / @VCC",
+      "qid": "interface:sheet-04:VCC",
+      "searchText": "interface:sheet-04:vcc sheet-04 / @vcc vcc sheet-04 input power vcc project-net:vcc",
+      "sheet": "sheet-04"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-05 / @GND",
+      "qid": "interface:sheet-05:GND",
+      "searchText": "interface:sheet-05:gnd sheet-05 / @gnd gnd sheet-05 passive power gnd project-net:gnd",
+      "sheet": "sheet-05"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-05 / @VCC",
+      "qid": "interface:sheet-05:VCC",
+      "searchText": "interface:sheet-05:vcc sheet-05 / @vcc vcc sheet-05 input power vcc project-net:vcc",
+      "sheet": "sheet-05"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-06 / @GND",
+      "qid": "interface:sheet-06:GND",
+      "searchText": "interface:sheet-06:gnd sheet-06 / @gnd gnd sheet-06 passive power gnd project-net:gnd",
+      "sheet": "sheet-06"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-06 / @VCC",
+      "qid": "interface:sheet-06:VCC",
+      "searchText": "interface:sheet-06:vcc sheet-06 / @vcc vcc sheet-06 input power vcc project-net:vcc",
+      "sheet": "sheet-06"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-07 / @GND",
+      "qid": "interface:sheet-07:GND",
+      "searchText": "interface:sheet-07:gnd sheet-07 / @gnd gnd sheet-07 passive power gnd project-net:gnd",
+      "sheet": "sheet-07"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-07 / @VCC",
+      "qid": "interface:sheet-07:VCC",
+      "searchText": "interface:sheet-07:vcc sheet-07 / @vcc vcc sheet-07 input power vcc project-net:vcc",
+      "sheet": "sheet-07"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-08 / @GND",
+      "qid": "interface:sheet-08:GND",
+      "searchText": "interface:sheet-08:gnd sheet-08 / @gnd gnd sheet-08 passive power gnd project-net:gnd",
+      "sheet": "sheet-08"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-08 / @VCC",
+      "qid": "interface:sheet-08:VCC",
+      "searchText": "interface:sheet-08:vcc sheet-08 / @vcc vcc sheet-08 input power vcc project-net:vcc",
+      "sheet": "sheet-08"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-09 / @GND",
+      "qid": "interface:sheet-09:GND",
+      "searchText": "interface:sheet-09:gnd sheet-09 / @gnd gnd sheet-09 passive power gnd project-net:gnd",
+      "sheet": "sheet-09"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-09 / @VCC",
+      "qid": "interface:sheet-09:VCC",
+      "searchText": "interface:sheet-09:vcc sheet-09 / @vcc vcc sheet-09 input power vcc project-net:vcc",
+      "sheet": "sheet-09"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-10 / @GND",
+      "qid": "interface:sheet-10:GND",
+      "searchText": "interface:sheet-10:gnd sheet-10 / @gnd gnd sheet-10 passive power gnd project-net:gnd",
+      "sheet": "sheet-10"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "sheet-10 / @VCC",
+      "qid": "interface:sheet-10:VCC",
+      "searchText": "interface:sheet-10:vcc sheet-10 / @vcc vcc sheet-10 input power vcc project-net:vcc",
+      "sheet": "sheet-10"
+    },
+    {
+      "category": "Project Nets",
+      "kind": "project-net",
+      "label": "gnd",
+      "qid": "project-net:gnd",
+      "searchText": "project-net:gnd gnd gnd  [\"sheet-01\",\"sheet-02\",\"sheet-03\",\"sheet-04\",\"sheet-05\",\"sheet-06\",\"sheet-07\",\"sheet-08\",\"sheet-09\",\"sheet-10\"] [\"interface:sheet-01:gnd\",\"interface:sheet-02:gnd\",\"interface:sheet-03:gnd\",\"interface:sheet-04:gnd\",\"interface:sheet-05:gnd\",\"interface:sheet-06:gnd\",\"interface:sheet-07:gnd\",\"interface:sheet-08:gnd\",\"interface:sheet-09:gnd\",\"interface:sheet-10:gnd\"] [\"local-net:sheet-01:gnd\",\"local-net:sheet-02:gnd\",\"local-net:sheet-03:gnd\",\"local-net:sheet-04:gnd\",\"local-net:sheet-05:gnd\",\"local-net:sheet-06:gnd\",\"local-net:sheet-07:gnd\",\"local-net:sheet-08:gnd\",\"local-net:sheet-09:gnd\",\"local-net:sheet-10:gnd\"]",
+      "sheet": null
+    },
+    {
+      "category": "Project Nets",
+      "kind": "project-net",
+      "label": "vcc",
+      "qid": "project-net:vcc",
+      "searchText": "project-net:vcc vcc vcc  [\"sheet-01\",\"sheet-02\",\"sheet-03\",\"sheet-04\",\"sheet-05\",\"sheet-06\",\"sheet-07\",\"sheet-08\",\"sheet-09\",\"sheet-10\"] [\"interface:sheet-01:vcc\",\"interface:sheet-02:vcc\",\"interface:sheet-03:vcc\",\"interface:sheet-04:vcc\",\"interface:sheet-05:vcc\",\"interface:sheet-06:vcc\",\"interface:sheet-07:vcc\",\"interface:sheet-08:vcc\",\"interface:sheet-09:vcc\",\"interface:sheet-10:vcc\"] [\"local-net:sheet-01:vcc\",\"local-net:sheet-02:vcc\",\"local-net:sheet-03:vcc\",\"local-net:sheet-04:vcc\",\"local-net:sheet-05:vcc\",\"local-net:sheet-06:vcc\",\"local-net:sheet-07:vcc\",\"local-net:sheet-08:vcc\",\"local-net:sheet-09:vcc\",\"local-net:sheet-10:vcc\"]",
+      "sheet": null
+    }
+  ],
+  "sheets": [
+    {
+      "height": 100.0,
+      "id": "sheet-01",
+      "layers": [
+        {
+          "defaultVisible": true,
+          "id": "connections",
+          "locked": false,
+          "order": 10,
+          "printable": true,
+          "purpose": "semantic net routes and sheet ports",
+          "qualifiedId": "layer:sheet-01:connections",
+          "sheet": "sheet-01"
+        },
+        {
+          "defaultVisible": true,
+          "id": "symbols",
+          "locked": false,
+          "order": 20,
+          "printable": true,
+          "purpose": "component symbols",
+          "qualifiedId": "layer:sheet-01:symbols",
+          "sheet": "sheet-01"
+        },
+        {
+          "defaultVisible": true,
+          "id": "annotation",
+          "locked": false,
+          "order": 30,
+          "printable": true,
+          "purpose": "notes",
+          "qualifiedId": "layer:sheet-01:annotation",
+          "sheet": "sheet-01"
+        }
+      ],
+      "order": 1,
+      "parent": null,
+      "qid": "sheet:sheet-01",
+      "title": "Sheet 01",
+      "unit": "mm",
+      "width": 160.0
+    },
+    {
+      "height": 100.0,
+      "id": "sheet-02",
+      "layers": [
+        {
+          "defaultVisible": true,
+          "id": "connections",
+          "locked": false,
+          "order": 10,
+          "printable": true,
+          "purpose": "semantic net routes and sheet ports",
+          "qualifiedId": "layer:sheet-02:connections",
+          "sheet": "sheet-02"
+        },
+        {
+          "defaultVisible": true,
+          "id": "symbols",
+          "locked": false,
+          "order": 20,
+          "printable": true,
+          "purpose": "component symbols",
+          "qualifiedId": "layer:sheet-02:symbols",
+          "sheet": "sheet-02"
+        },
+        {
+          "defaultVisible": true,
+          "id": "annotation",
+          "locked": false,
+          "order": 30,
+          "printable": true,
+          "purpose": "notes",
+          "qualifiedId": "layer:sheet-02:annotation",
+          "sheet": "sheet-02"
+        }
+      ],
+      "order": 2,
+      "parent": "sheet-01",
+      "qid": "sheet:sheet-02",
+      "title": "Sheet 02",
+      "unit": "mm",
+      "width": 160.0
+    },
+    {
+      "height": 100.0,
+      "id": "sheet-03",
+      "layers": [
+        {
+          "defaultVisible": true,
+          "id": "connections",
+          "locked": false,
+          "order": 10,
+          "printable": true,
+          "purpose": "semantic net routes and sheet ports",
+          "qualifiedId": "layer:sheet-03:connections",
+          "sheet": "sheet-03"
+        },
+        {
+          "defaultVisible": true,
+          "id": "symbols",
+          "locked": false,
+          "order": 20,
+          "printable": true,
+          "purpose": "component symbols",
+          "qualifiedId": "layer:sheet-03:symbols",
+          "sheet": "sheet-03"
+        },
+        {
+          "defaultVisible": true,
+          "id": "annotation",
+          "locked": false,
+          "order": 30,
+          "printable": true,
+          "purpose": "notes",
+          "qualifiedId": "layer:sheet-03:annotation",
+          "sheet": "sheet-03"
+        }
+      ],
+      "order": 3,
+      "parent": "sheet-01",
+      "qid": "sheet:sheet-03",
+      "title": "Sheet 03",
+      "unit": "mm",
+      "width": 160.0
+    },
+    {
+      "height": 100.0,
+      "id": "sheet-04",
+      "layers": [
+        {
+          "defaultVisible": true,
+          "id": "connections",
+          "locked": false,
+          "order": 10,
+          "printable": true,
+          "purpose": "semantic net routes and sheet ports",
+          "qualifiedId": "layer:sheet-04:connections",
+          "sheet": "sheet-04"
+        },
+        {
+          "defaultVisible": true,
+          "id": "symbols",
+          "locked": false,
+          "order": 20,
+          "printable": true,
+          "purpose": "component symbols",
+          "qualifiedId": "layer:sheet-04:symbols",
+          "sheet": "sheet-04"
+        },
+        {
+          "defaultVisible": true,
+          "id": "annotation",
+          "locked": false,
+          "order": 30,
+          "printable": true,
+          "purpose": "notes",
+          "qualifiedId": "layer:sheet-04:annotation",
+          "sheet": "sheet-04"
+        }
+      ],
+      "order": 4,
+      "parent": "sheet-01",
+      "qid": "sheet:sheet-04",
+      "title": "Sheet 04",
+      "unit": "mm",
+      "width": 160.0
+    },
+    {
+      "height": 100.0,
+      "id": "sheet-05",
+      "layers": [
+        {
+          "defaultVisible": true,
+          "id": "connections",
+          "locked": false,
+          "order": 10,
+          "printable": true,
+          "purpose": "semantic net routes and sheet ports",
+          "qualifiedId": "layer:sheet-05:connections",
+          "sheet": "sheet-05"
+        },
+        {
+          "defaultVisible": true,
+          "id": "symbols",
+          "locked": false,
+          "order": 20,
+          "printable": true,
+          "purpose": "component symbols",
+          "qualifiedId": "layer:sheet-05:symbols",
+          "sheet": "sheet-05"
+        },
+        {
+          "defaultVisible": true,
+          "id": "annotation",
+          "locked": false,
+          "order": 30,
+          "printable": true,
+          "purpose": "notes",
+          "qualifiedId": "layer:sheet-05:annotation",
+          "sheet": "sheet-05"
+        }
+      ],
+      "order": 5,
+      "parent": "sheet-01",
+      "qid": "sheet:sheet-05",
+      "title": "Sheet 05",
+      "unit": "mm",
+      "width": 160.0
+    },
+    {
+      "height": 100.0,
+      "id": "sheet-06",
+      "layers": [
+        {
+          "defaultVisible": true,
+          "id": "connections",
+          "locked": false,
+          "order": 10,
+          "printable": true,
+          "purpose": "semantic net routes and sheet ports",
+          "qualifiedId": "layer:sheet-06:connections",
+          "sheet": "sheet-06"
+        },
+        {
+          "defaultVisible": true,
+          "id": "symbols",
+          "locked": false,
+          "order": 20,
+          "printable": true,
+          "purpose": "component symbols",
+          "qualifiedId": "layer:sheet-06:symbols",
+          "sheet": "sheet-06"
+        },
+        {
+          "defaultVisible": true,
+          "id": "annotation",
+          "locked": false,
+          "order": 30,
+          "printable": true,
+          "purpose": "notes",
+          "qualifiedId": "layer:sheet-06:annotation",
+          "sheet": "sheet-06"
+        }
+      ],
+      "order": 6,
+      "parent": "sheet-01",
+      "qid": "sheet:sheet-06",
+      "title": "Sheet 06",
+      "unit": "mm",
+      "width": 160.0
+    },
+    {
+      "height": 100.0,
+      "id": "sheet-07",
+      "layers": [
+        {
+          "defaultVisible": true,
+          "id": "connections",
+          "locked": false,
+          "order": 10,
+          "printable": true,
+          "purpose": "semantic net routes and sheet ports",
+          "qualifiedId": "layer:sheet-07:connections",
+          "sheet": "sheet-07"
+        },
+        {
+          "defaultVisible": true,
+          "id": "symbols",
+          "locked": false,
+          "order": 20,
+          "printable": true,
+          "purpose": "component symbols",
+          "qualifiedId": "layer:sheet-07:symbols",
+          "sheet": "sheet-07"
+        },
+        {
+          "defaultVisible": true,
+          "id": "annotation",
+          "locked": false,
+          "order": 30,
+          "printable": true,
+          "purpose": "notes",
+          "qualifiedId": "layer:sheet-07:annotation",
+          "sheet": "sheet-07"
+        }
+      ],
+      "order": 7,
+      "parent": "sheet-01",
+      "qid": "sheet:sheet-07",
+      "title": "Sheet 07",
+      "unit": "mm",
+      "width": 160.0
+    },
+    {
+      "height": 100.0,
+      "id": "sheet-08",
+      "layers": [
+        {
+          "defaultVisible": true,
+          "id": "connections",
+          "locked": false,
+          "order": 10,
+          "printable": true,
+          "purpose": "semantic net routes and sheet ports",
+          "qualifiedId": "layer:sheet-08:connections",
+          "sheet": "sheet-08"
+        },
+        {
+          "defaultVisible": true,
+          "id": "symbols",
+          "locked": false,
+          "order": 20,
+          "printable": true,
+          "purpose": "component symbols",
+          "qualifiedId": "layer:sheet-08:symbols",
+          "sheet": "sheet-08"
+        },
+        {
+          "defaultVisible": true,
+          "id": "annotation",
+          "locked": false,
+          "order": 30,
+          "printable": true,
+          "purpose": "notes",
+          "qualifiedId": "layer:sheet-08:annotation",
+          "sheet": "sheet-08"
+        }
+      ],
+      "order": 8,
+      "parent": "sheet-01",
+      "qid": "sheet:sheet-08",
+      "title": "Sheet 08",
+      "unit": "mm",
+      "width": 160.0
+    },
+    {
+      "height": 100.0,
+      "id": "sheet-09",
+      "layers": [
+        {
+          "defaultVisible": true,
+          "id": "connections",
+          "locked": false,
+          "order": 10,
+          "printable": true,
+          "purpose": "semantic net routes and sheet ports",
+          "qualifiedId": "layer:sheet-09:connections",
+          "sheet": "sheet-09"
+        },
+        {
+          "defaultVisible": true,
+          "id": "symbols",
+          "locked": false,
+          "order": 20,
+          "printable": true,
+          "purpose": "component symbols",
+          "qualifiedId": "layer:sheet-09:symbols",
+          "sheet": "sheet-09"
+        },
+        {
+          "defaultVisible": true,
+          "id": "annotation",
+          "locked": false,
+          "order": 30,
+          "printable": true,
+          "purpose": "notes",
+          "qualifiedId": "layer:sheet-09:annotation",
+          "sheet": "sheet-09"
+        }
+      ],
+      "order": 9,
+      "parent": "sheet-01",
+      "qid": "sheet:sheet-09",
+      "title": "Sheet 09",
+      "unit": "mm",
+      "width": 160.0
+    },
+    {
+      "height": 100.0,
+      "id": "sheet-10",
+      "layers": [
+        {
+          "defaultVisible": true,
+          "id": "connections",
+          "locked": false,
+          "order": 10,
+          "printable": true,
+          "purpose": "semantic net routes and sheet ports",
+          "qualifiedId": "layer:sheet-10:connections",
+          "sheet": "sheet-10"
+        },
+        {
+          "defaultVisible": true,
+          "id": "symbols",
+          "locked": false,
+          "order": 20,
+          "printable": true,
+          "purpose": "component symbols",
+          "qualifiedId": "layer:sheet-10:symbols",
+          "sheet": "sheet-10"
+        },
+        {
+          "defaultVisible": true,
+          "id": "annotation",
+          "locked": false,
+          "order": 30,
+          "printable": true,
+          "purpose": "notes",
+          "qualifiedId": "layer:sheet-10:annotation",
+          "sheet": "sheet-10"
+        }
+      ],
+      "order": 10,
+      "parent": "sheet-01",
+      "qid": "sheet:sheet-10",
+      "title": "Sheet 10",
+      "unit": "mm",
+      "width": 160.0
+    }
+  ],
+  "statistics": {
+    "entities": 10,
+    "hierarchyDepth": 1,
+    "interfacePorts": 20,
+    "localNets": 20,
+    "localRouteSegments": 20,
+    "projectNets": 2,
+    "projectRouteSegments": 124,
+    "qualifiedObjects": 62,
+    "sheets": 10,
+    "unconnectedProjectPorts": 0
+  },
+  "viewerContract": "aixem.reference-viewer@1",
+  "views": [
+    {
+      "available": true,
+      "canvases": [
+        {
+          "height": 100.0,
+          "key": "sheet:sheet-01",
+          "sheet": "sheet-01",
+          "unit": "mm",
+          "width": 160.0
+        },
+        {
+          "height": 100.0,
+          "key": "sheet:sheet-02",
+          "sheet": "sheet-02",
+          "unit": "mm",
+          "width": 160.0
+        },
+        {
+          "height": 100.0,
+          "key": "sheet:sheet-03",
+          "sheet": "sheet-03",
+          "unit": "mm",
+          "width": 160.0
+        },
+        {
+          "height": 100.0,
+          "key": "sheet:sheet-04",
+          "sheet": "sheet-04",
+          "unit": "mm",
+          "width": 160.0
+        },
+        {
+          "height": 100.0,
+          "key": "sheet:sheet-05",
+          "sheet": "sheet-05",
+          "unit": "mm",
+          "width": 160.0
+        },
+        {
+          "height": 100.0,
+          "key": "sheet:sheet-06",
+          "sheet": "sheet-06",
+          "unit": "mm",
+          "width": 160.0
+        },
+        {
+          "height": 100.0,
+          "key": "sheet:sheet-07",
+          "sheet": "sheet-07",
+          "unit": "mm",
+          "width": 160.0
+        },
+        {
+          "height": 100.0,
+          "key": "sheet:sheet-08",
+          "sheet": "sheet-08",
+          "unit": "mm",
+          "width": 160.0
+        },
+        {
+          "height": 100.0,
+          "key": "sheet:sheet-09",
+          "sheet": "sheet-09",
+          "unit": "mm",
+          "width": 160.0
+        },
+        {
+          "height": 100.0,
+          "key": "sheet:sheet-10",
+          "sheet": "sheet-10",
+          "unit": "mm",
+          "width": 160.0
+        }
+      ],
+      "id": "sheet",
+      "label": "Sheet"
+    },
+    {
+      "available": true,
+      "canvases": [
+        {
+          "height": 1818.0,
+          "key": "overview",
+          "sheet": null,
+          "unit": "project-space",
+          "width": 457.0
+        }
+      ],
+      "id": "overview",
+      "label": "Overview"
+    },
+    {
+      "available": true,
+      "canvases": [
+        {
+          "height": 2209.0,
+          "key": "composite",
+          "sheet": null,
+          "unit": "project-space",
+          "width": 439.0
+        }
+      ],
+      "id": "composite",
+      "label": "Composite"
+    }
+  ]
+}

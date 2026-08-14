@@ -1,0 +1,53 @@
+{
+  "card": {
+    "aliases": [
+      "examples",
+      "sample schematics",
+      "demo projects"
+    ],
+    "appliesTo": [
+      "example-navigation"
+    ],
+    "domain": "examples",
+    "estimatedReadBytes": 4374,
+    "id": "AIXEM-EXAMPLE-INDEX-001",
+    "inputs": [],
+    "keywords": [
+      "Examples",
+      "create-schematic",
+      "demo projects",
+      "examples",
+      "learn-aixem",
+      "sample schematics"
+    ],
+    "kind": "index",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/examples/overview.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:e19960f67554c4e28ac94c5c29019b4594750e7dec76c187409f6757390f46c2"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 500,
+    "readNext": [],
+    "rules": [
+      {
+        "id": "AIXEM-EXAMPLE-INDEX-001.read",
+        "level": "should",
+        "text": "A progression from a minimal passive circuit to the complete grid-controller reference and a hierarchical design pattern."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-EXAMPLE-INDEX-001",
+        "path": "docs/examples/index.md"
+      }
+    ],
+    "summary": "A progression from a minimal passive circuit to the complete grid-controller reference and a hierarchical design pattern.",
+    "title": "Examples"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

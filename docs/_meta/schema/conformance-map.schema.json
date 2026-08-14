@@ -1,0 +1,30 @@
+{
+  "$id": "https://schemas.aixem.org/documentation/conformance-map/1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "formatVersion": {
+      "type": "string"
+    },
+    "requirements": {
+      "type": "object"
+    },
+    "schema": {
+      "type": "string"
+    },
+    "tests": {
+      "type": "object"
+    },
+    "validators": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "schema",
+    "formatVersion",
+    "validators",
+    "tests",
+    "requirements"
+  ],
+  "type": "object"
+}

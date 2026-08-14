@@ -1,0 +1,29 @@
+{
+  "bounds": {
+    "height": 65,
+    "width": 85,
+    "x": -42.5,
+    "y": -32.5
+  },
+  "capabilities": [
+    "geometry.circle",
+    "geometry.dimension",
+    "geometry.rect"
+  ],
+  "case": "B005",
+  "defaultVariant": null,
+  "definitions": [],
+  "fieldAnchors": [],
+  "parameters": {},
+  "ports": [],
+  "primitiveCounts": {
+    "circle": 1,
+    "dimension": 2,
+    "rect": 1
+  },
+  "requiredFeatures": [
+    "dimension"
+  ],
+  "symbol": "corpus:b005-dimensioned-outline",
+  "variants": []
+}

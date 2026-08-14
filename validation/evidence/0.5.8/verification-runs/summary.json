@@ -1,0 +1,49 @@
+{
+  "cycles": [
+    {
+      "cycle": 1,
+      "durationSeconds": 42.296772,
+      "evidence": "run-01/summary.json",
+      "status": "PASS"
+    },
+    {
+      "cycle": 2,
+      "durationSeconds": 43.41416,
+      "evidence": "run-02/summary.json",
+      "status": "PASS"
+    },
+    {
+      "cycle": 3,
+      "durationSeconds": 41.899246,
+      "evidence": "run-03/summary.json",
+      "status": "PASS"
+    },
+    {
+      "cycle": 4,
+      "durationSeconds": 42.427535,
+      "evidence": "run-04/summary.json",
+      "status": "PASS"
+    },
+    {
+      "cycle": 5,
+      "durationSeconds": 42.898513,
+      "evidence": "run-05/summary.json",
+      "status": "PASS"
+    }
+  ],
+  "engineeringImplementationComplete": true,
+  "engineeringVerificationPasses": 5,
+  "externalTierBExecuted": false,
+  "formatVersion": "1.0",
+  "fullPlanDefinitionOfDone": true,
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "liveClaimAuthorized": false,
+  "liveExternalAgentExecuted": false,
+  "preLiveReadiness": true,
+  "preLiveReadinessPlanComplete": true,
+  "release": "AIXEM-SRP-0.5.8-2026-08-12",
+  "requiredEngineeringVerificationPasses": 5,
+  "schema": "https://schemas.aixem.org/validation/pre-live-readiness-verification-summary/1",
+  "status": "PASS",
+  "valid": true
+}

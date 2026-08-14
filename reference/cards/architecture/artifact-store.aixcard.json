@@ -1,0 +1,61 @@
+{
+  "card": {
+    "aliases": [
+      "artifact store",
+      "artifact ownership",
+      "repository layout"
+    ],
+    "appliesTo": [
+      "artifact-storage"
+    ],
+    "domain": "architecture",
+    "estimatedReadBytes": 5057,
+    "id": "AIXEM-ARCH-ARTIFACT-001",
+    "inputs": [],
+    "keywords": [
+      "Artifact Ownership and Storage",
+      "artifact ownership",
+      "artifact store",
+      "change-architecture",
+      "inspect-artifact",
+      "publish-release",
+      "repository layout"
+    ],
+    "kind": "architecture",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/architecture/artifact-store.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:e85ba2e5da13ec150687a53dbd6859bcd98df893061b06ca70b56235d3ece7f5"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SPEC-AUTHORITY-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-ARCH-0010",
+        "level": "must",
+        "text": "**MUST.** Authored documentation rules MUST reside under docs/ or an explicitly declared root governance file."
+      },
+      {
+        "id": "AIXEM-REQ-ARCH-0011",
+        "level": "must",
+        "text": "**MUST.** Generated indexes, compatibility references, site pages, evidence, and manifests MUST reside in declared generated locations."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-ARCH-ARTIFACT-001",
+        "path": "docs/architecture/artifact-store.md"
+      }
+    ],
+    "summary": "Defines repository locations, artifact ownership metadata, generated boundaries, and content-addressed integrity relationships.",
+    "title": "Artifact Ownership and Storage"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

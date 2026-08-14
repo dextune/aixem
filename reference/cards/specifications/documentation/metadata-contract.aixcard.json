@@ -1,0 +1,65 @@
+{
+  "card": {
+    "aliases": [
+      "metadata contract",
+      "front matter schema",
+      "document schema"
+    ],
+    "appliesTo": [
+      "documentation-metadata-contract"
+    ],
+    "domain": "specifications",
+    "estimatedReadBytes": 6727,
+    "id": "AIXEM-SPEC-METADATA-001",
+    "inputs": [],
+    "keywords": [
+      "Documentation Metadata Contract 1",
+      "build-documentation",
+      "document schema",
+      "front matter schema",
+      "metadata contract",
+      "publish-release"
+    ],
+    "kind": "specification",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/specifications/documentation/metadata-contract.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:65b494e0639ee8106ae36e4eb4ba98cf5309e36a068d3ade3c1312ec474d07be"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SPEC-DOCUMENT-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-DOCS-0010",
+        "level": "must",
+        "text": "**MUST.** Document metadata MUST include identity, status, version, language, domain, kind, summary, authority, aliases, agent policy, relationships, navigation, artifacts, and requirements."
+      },
+      {
+        "id": "AIXEM-REQ-DOCS-0011",
+        "level": "must",
+        "text": "**MUST.** Every depends_on and related document ID MUST resolve to a canonical document."
+      },
+      {
+        "id": "AIXEM-REQ-DOCS-0012",
+        "level": "must",
+        "text": "**MUST.** Every normative requirement ID MUST be unique across the repository."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SPEC-METADATA-001",
+        "path": "docs/specifications/documentation/metadata-contract.md"
+      }
+    ],
+    "summary": "Defines the JSON Schema and semantic rules for canonical Markdown front matter.",
+    "title": "Documentation Metadata Contract 1"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

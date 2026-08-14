@@ -1,0 +1,121 @@
+{
+  "command": {
+    "command": [
+      "/opt/pyvenv/bin/python",
+      "tools/run_tests_058.py",
+      "--shard-count",
+      "8",
+      "--shard-index",
+      "1",
+      "--output",
+      "/mnt/data/aixem058-cycle-03-test-shard-1.json"
+    ],
+    "durationSeconds": 21.408681,
+    "label": "cycle 3 repository tests shard 1",
+    "returnCode": 0,
+    "status": "PASS",
+    "stderrTail": "",
+    "stdoutTail": "[tests] START tests.agent.test_agent_evals_3\n[tests] PASS tests.agent.test_agent_evals_3 (5 tests, 2.626936s)\n[tests] START tests.agent.test_observation\n[tests] PASS tests.agent.test_observation (3 tests, 1.325568s)\n[tests] START tests.conformance.test_viewer_accessibility\n[tests] PASS tests.conformance.test_viewer_accessibility (3 tests, 3.427474s)\n[tests] START tests.docs.test_repository\n[tests] PASS tests.docs.test_repository (8 tests, 13.49246s)\n{\"failedModules\": 0, \"modules\": 4, \"successful\": true, \"testsRun\": 19}\n",
+    "valid": true
+  },
+  "cycle": 3,
+  "externalResult": "/mnt/data/aixem058-cycle-03-test-shard-1.json",
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "release": "AIXEM-SRP-0.5.8-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/pre-live-readiness-verification-stage/1",
+  "stage": "tests-1",
+  "status": "PASS",
+  "tests": {
+    "durationSeconds": 20.872794,
+    "errors": [],
+    "executionMode": "isolated-test-module-processes",
+    "failedModules": 0,
+    "failures": [],
+    "formatVersion": "1.0",
+    "generatedAt": "2026-08-12T00:00:00Z",
+    "moduleCount": 4,
+    "modules": [
+      {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "-m",
+          "unittest",
+          "-v",
+          "tests.agent.test_agent_evals_3"
+        ],
+        "durationSeconds": 2.626936,
+        "module": "tests.agent.test_agent_evals_3",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "test_corpus_builder_is_byte_reproducible (tests.agent.test_agent_evals_3.AgentEvaluation3CorpusTests.test_corpus_builder_is_byte_reproducible) ... ok\ntest_declared_initial_diagnostics_match_the_actual_incomplete_start_state (tests.agent.test_agent_evals_3.AgentEvaluation3CorpusTests.test_declared_initial_diagnostics_match_the_actual_incomplete_start_state) ... ok\ntest_manifest_contains_exact_l001_l012_creation_and_repair_inventory (tests.agent.test_agent_evals_3.AgentEvaluation3CorpusTests.test_manifest_contains_exact_l001_l012_creation_and_repair_inventory) ... ok\ntest_tasks_and_evaluator_manifests_are_schema_valid_and_separated (tests.agent.test_agent_evals_3.AgentEvaluation3CorpusTests.test_tasks_and_evaluator_manifests_are_schema_valid_and_separated) ... ok\ntest_tier_b_status_never_claims_an_execution_that_did_not_happen (tests.agent.test_agent_evals_3.AgentEvaluation3CorpusTests.test_tier_b_status_never_claims_an_execution_that_did_not_happen) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 1.248s\n\nOK\n",
+        "stdoutTail": "",
+        "testsRun": 5,
+        "valid": true
+      },
+      {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "-m",
+          "unittest",
+          "-v",
+          "tests.agent.test_observation"
+        ],
+        "durationSeconds": 1.325568,
+        "module": "tests.agent.test_observation",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "test_observable_stream_is_sequence_checked_and_digest_addressed (tests.agent.test_observation.ObservationEventContractTests.test_observable_stream_is_sequence_checked_and_digest_addressed) ... ok\ntest_path_traversal_and_sequence_gaps_are_rejected (tests.agent.test_observation.ObservationEventContractTests.test_path_traversal_and_sequence_gaps_are_rejected) ... ok\ntest_private_reasoning_fields_are_rejected (tests.agent.test_observation.ObservationEventContractTests.test_private_reasoning_fields_are_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.002s\n\nOK\n",
+        "stdoutTail": "",
+        "testsRun": 3,
+        "valid": true
+      },
+      {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "-m",
+          "unittest",
+          "-v",
+          "tests.conformance.test_viewer_accessibility"
+        ],
+        "durationSeconds": 3.427474,
+        "module": "tests.conformance.test_viewer_accessibility",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "test_programmatic_control_state_and_visible_focus (tests.conformance.test_viewer_accessibility.ViewerAccessibilityConformanceTests.test_programmatic_control_state_and_visible_focus) ... ok\ntest_v011_keyboard_only_required_workflow (tests.conformance.test_viewer_accessibility.ViewerAccessibilityConformanceTests.test_v011_keyboard_only_required_workflow) ... ok\ntest_v012_narrow_viewport_retains_navigation_and_inspection (tests.conformance.test_viewer_accessibility.ViewerAccessibilityConformanceTests.test_v012_narrow_viewport_retains_navigation_and_inspection) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 1.959s\n\nOK\n",
+        "stdoutTail": "",
+        "testsRun": 3,
+        "valid": true
+      },
+      {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "-m",
+          "unittest",
+          "-v",
+          "tests.docs.test_repository"
+        ],
+        "durationSeconds": 13.49246,
+        "module": "tests.docs.test_repository",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "test_agent_policy (tests.docs.test_repository.RepositoryConformanceTests.test_agent_policy) ... ok\ntest_documentation_integrity (tests.docs.test_repository.RepositoryConformanceTests.test_documentation_integrity) ... ok\ntest_english_only_release_text (tests.docs.test_repository.RepositoryConformanceTests.test_english_only_release_text) ... ok\ntest_release_manifest_when_present (tests.docs.test_repository.RepositoryConformanceTests.test_release_manifest_when_present) ... ok\ntest_requirement_evidence (tests.docs.test_repository.RepositoryConformanceTests.test_requirement_evidence) ... ok\ntest_review_evidence (tests.docs.test_repository.RepositoryConformanceTests.test_review_evidence) ... ok\ntest_route_integrity (tests.docs.test_repository.RepositoryConformanceTests.test_route_integrity) ... ok\ntest_schematic_example (tests.docs.test_repository.RepositoryConformanceTests.test_schematic_example) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 11.777s\n\nOK\n",
+        "stdoutTail": "",
+        "testsRun": 8,
+        "valid": true
+      }
+    ],
+    "passedModules": 4,
+    "release": "AIXEM-SRP-0.5.8-2026-08-12",
+    "schema": "https://schemas.aixem.org/validation/test-run-shard/1",
+    "shard": {
+      "count": 8,
+      "index": 1,
+      "totalDiscoveredModules": 26
+    },
+    "skipped": [],
+    "successful": true,
+    "testsRun": 19
+  },
+  "valid": true
+}

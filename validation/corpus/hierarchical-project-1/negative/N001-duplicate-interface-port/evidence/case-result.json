@@ -1,0 +1,15 @@
+{
+  "canonicalHashes": {},
+  "checks": [],
+  "deterministic": true,
+  "diagnosticMatched": true,
+  "error": "power.aixem:8: duplicate interface port VCC",
+  "expected": "fail",
+  "expectedDiagnostic": "duplicate interface port",
+  "id": "N001",
+  "observed": "fail",
+  "projectDigest": "sha256:70fb557de29eb44719136bc2f21c3366be98c98f64c0de5e4e33040987044209",
+  "repeatCount": 0,
+  "status": "pass",
+  "title": "Duplicate interface port"
+}

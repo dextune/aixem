@@ -1,0 +1,34 @@
+{
+  "activeRoute": "create-schematic",
+  "entryRoute": "create-schematic",
+  "expectedInitialDiagnostics": [
+    "AIXEM-DIAG-SEMANTIC-NET-CLOSURE"
+  ],
+  "fixture": "examples/authoring/06-two-terminal-route",
+  "formatVersion": "1.0",
+  "hiddenExpectedInvariants": [
+    "Semantic-authority repair while preserving presentation intent.",
+    "Authoritative formats remain unchanged.",
+    "Generated artifacts are regenerated, never hand-edited."
+  ],
+  "id": "A009",
+  "mutation": "duplicate-semantic-net",
+  "prompt": "Correct-looking wire on wrong semantic net. Author or repair the staged AIXEM design through the declared route and prove closure.",
+  "requiredExitConditions": [
+    "zero blocking diagnostics",
+    "zero route scope violations",
+    "zero generated-output hand edits",
+    "production render succeeds",
+    "three-run render determinism"
+  ],
+  "schema": "https://schemas.aixem.org/validation/agent-eval-2-case/1",
+  "tierA": {
+    "mode": "deterministic-harness-replay",
+    "required": true
+  },
+  "tierB": {
+    "eligible": false,
+    "reason": "No isolated incomplete cold-start fixture is bundled; an external executor may use a separately supplied hidden-solution stage."
+  },
+  "title": "Correct-looking wire on wrong semantic net"
+}

@@ -1,0 +1,61 @@
+{
+  "card": {
+    "aliases": [
+      "crossings",
+      "junction routing",
+      "wire intersection"
+    ],
+    "appliesTo": [
+      "route-crossing-policy"
+    ],
+    "domain": "routing",
+    "estimatedReadBytes": 7378,
+    "id": "AIXEM-ROUTE-CROSSING-001",
+    "inputs": [],
+    "keywords": [
+      "Crossings and Junctions",
+      "crossings",
+      "junction routing",
+      "route-nets",
+      "validate-project",
+      "wire intersection"
+    ],
+    "kind": "guide",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/routing/crossings-and-junctions.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:3f5039c045884821785cb22ff15f53c7d7aead8c406387a4d9c3b2e6839cc0d9"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SCHEM-JUNCTION-001",
+      "AIXEM-ROUTE-ORTHO-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-ROUTE-0010",
+        "level": "must",
+        "text": "**MUST.** Every routed join between two or more path branches MUST be represented by a junction record when required by profile policy."
+      },
+      {
+        "id": "AIXEM-REQ-ROUTE-0011",
+        "level": "must",
+        "text": "**MUST.** A crossing of different semantic nets MUST remain non-connected and MUST NOT share a junction record."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-ROUTE-CROSSING-001",
+        "path": "docs/routing/crossings-and-junctions.md"
+      }
+    ],
+    "summary": "Applies the explicit-junction model to T joins, four-way joins, non-connected crossings, and dense buses.",
+    "title": "Crossings and Junctions"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

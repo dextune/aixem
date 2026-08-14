@@ -1,0 +1,307 @@
+{
+  "durationSeconds": 162.851493,
+  "errors": [],
+  "executionMode": "isolated-test-module-processes",
+  "failedModules": 0,
+  "failures": [],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "moduleCount": 17,
+  "modules": [
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_agent_evals_2"
+      ],
+      "durationSeconds": 5.005411,
+      "module": "tests.agent.test_agent_evals_2",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_manifest_contains_exact_a001_a012_inventory (tests.agent.test_agent_evals_2.AgentEvaluation2Tests.test_manifest_contains_exact_a001_a012_inventory) ... ok\ntest_runner_rejects_live_mode_without_separate_cold_start_corpus (tests.agent.test_agent_evals_2.AgentEvaluation2Tests.test_runner_rejects_live_mode_without_separate_cold_start_corpus) ... ok\ntest_tier_a_results_are_complete_and_pass (tests.agent.test_agent_evals_2.AgentEvaluation2Tests.test_tier_a_results_are_complete_and_pass) ... ok\ntest_tier_status_never_conflates_replay_and_live_execution (tests.agent.test_agent_evals_2.AgentEvaluation2Tests.test_tier_status_never_conflates_replay_and_live_execution) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 3.445s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 4,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_authoring_harness"
+      ],
+      "durationSeconds": 25.642768,
+      "module": "tests.agent.test_authoring_harness",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_generated_output_hand_edit_blocks_check (tests.agent.test_authoring_harness.AuthoringHarnessTests.test_generated_output_hand_edit_blocks_check) ... ok\ntest_prepare_check_close_valid_project (tests.agent.test_authoring_harness.AuthoringHarnessTests.test_prepare_check_close_valid_project) ... ok\ntest_wrong_authority_edit_blocks_route (tests.agent.test_authoring_harness.AuthoringHarnessTests.test_wrong_authority_edit_blocks_route) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 24.016s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 3,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_change_scope"
+      ],
+      "durationSeconds": 3.152065,
+      "module": "tests.agent.test_change_scope",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_allowed_layout_and_digest_only_project_change (tests.agent.test_change_scope.AgentChangeScopeTests.test_allowed_layout_and_digest_only_project_change) ... ok\ntest_generated_output_edit_is_detected_and_schema_valid (tests.agent.test_change_scope.AgentChangeScopeTests.test_generated_output_edit_is_detected_and_schema_valid) ... ok\ntest_symlink_fails_closed (tests.agent.test_change_scope.AgentChangeScopeTests.test_symlink_fails_closed) ... ok\ntest_wrong_authority_and_non_digest_project_change_fail (tests.agent.test_change_scope.AgentChangeScopeTests.test_wrong_authority_and_non_digest_project_change_fail) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.015s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 4,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_diagnostics"
+      ],
+      "durationSeconds": 3.392379,
+      "module": "tests.agent.test_diagnostics",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_diagnostic_serialization_is_schema_valid_and_stable (tests.agent.test_diagnostics.AgentDiagnosticContractTests.test_diagnostic_serialization_is_schema_valid_and_stable) ... ok\ntest_registry_contains_complete_p0_set_and_valid_metadata (tests.agent.test_diagnostics.AgentDiagnosticContractTests.test_registry_contains_complete_p0_set_and_valid_metadata) ... ok\ntest_registry_metadata_cannot_be_contradicted (tests.agent.test_diagnostics.AgentDiagnosticContractTests.test_registry_metadata_cannot_be_contradicted) ... ok\ntest_rich_diagnostic_round_trip_does_not_gain_legacy_evidence (tests.agent.test_diagnostics.AgentDiagnosticContractTests.test_rich_diagnostic_round_trip_does_not_gain_legacy_evidence) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.006s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 4,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_route_execution_metadata"
+      ],
+      "durationSeconds": 1.825283,
+      "module": "tests.agent.test_route_execution_metadata",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_all_recommended_diagnostics_are_accepted_by_an_existing_route (tests.agent.test_route_execution_metadata.RouteExecutionMetadataTests.test_all_recommended_diagnostics_are_accepted_by_an_existing_route) ... ok\ntest_canonical_authoring_routes_have_scope_and_remediation_metadata (tests.agent.test_route_execution_metadata.RouteExecutionMetadataTests.test_canonical_authoring_routes_have_scope_and_remediation_metadata) ... ok\ntest_task_packets_expose_active_child_scope (tests.agent.test_route_execution_metadata.RouteExecutionMetadataTests.test_task_packets_expose_active_child_scope) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.157s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 3,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_run_record"
+      ],
+      "durationSeconds": 3.334779,
+      "module": "tests.agent.test_run_record",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_blocking_diagnostic_prevents_closure (tests.agent.test_run_record.AgentRunRecordTests.test_blocking_diagnostic_prevents_closure) ... ok\ntest_closed_record_is_schema_valid_and_deterministic (tests.agent.test_run_record.AgentRunRecordTests.test_closed_record_is_schema_valid_and_deterministic) ... ok\ntest_stalled_and_oscillating_state_detection (tests.agent.test_run_record.AgentRunRecordTests.test_stalled_and_oscillating_state_detection) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.014s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 3,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.conformance.test_hierarchical_project"
+      ],
+      "durationSeconds": 13.514058,
+      "module": "tests.conformance.test_hierarchical_project",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_complete_corpus_runner (tests.conformance.test_hierarchical_project.HierarchicalProjectConformanceTests.test_complete_corpus_runner) ... ok\ntest_hierarchy_is_explicit_acyclic_and_deterministic (tests.conformance.test_hierarchical_project.HierarchicalProjectConformanceTests.test_hierarchy_is_explicit_acyclic_and_deterministic) ... ok\ntest_interface_endpoint_is_a_real_leaf_semantic_endpoint (tests.conformance.test_hierarchical_project.HierarchicalProjectConformanceTests.test_interface_endpoint_is_a_real_leaf_semantic_endpoint) ... ok\ntest_inventory_is_exact (tests.conformance.test_hierarchical_project.HierarchicalProjectConformanceTests.test_inventory_is_exact) ... ok\ntest_legacy_production_outputs_remain_byte_identical (tests.conformance.test_hierarchical_project.HierarchicalProjectConformanceTests.test_legacy_production_outputs_remain_byte_identical) ... ok\ntest_multi_view_render_outputs_and_workbench_are_data_driven (tests.conformance.test_hierarchical_project.HierarchicalProjectConformanceTests.test_multi_view_render_outputs_and_workbench_are_data_driven) ... ok\ntest_project_graph_queries_and_name_isolation (tests.conformance.test_hierarchical_project.HierarchicalProjectConformanceTests.test_project_graph_queries_and_name_isolation) ... ok\ntest_project_net_equivalence_collision_fails_closed (tests.conformance.test_hierarchical_project.HierarchicalProjectConformanceTests.test_project_net_equivalence_collision_fails_closed) ... ok\ntest_ten_sheet_project_and_three_run_determinism (tests.conformance.test_hierarchical_project.HierarchicalProjectConformanceTests.test_ten_sheet_project_and_three_run_determinism) ... ok\ntest_v1_schema_contracts_are_immutable (tests.conformance.test_hierarchical_project.HierarchicalProjectConformanceTests.test_v1_schema_contracts_are_immutable) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 9.958s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 10,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.conformance.test_reference_viewer"
+      ],
+      "durationSeconds": 18.7298,
+      "module": "tests.conformance.test_reference_viewer",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_v001_single_sheet_reference_viewer (tests.conformance.test_reference_viewer.ReferenceViewerConformanceTests.test_v001_single_sheet_reference_viewer) ... ok\ntest_v002_v003_multisheet_modes_and_hierarchy_navigation (tests.conformance.test_reference_viewer.ReferenceViewerConformanceTests.test_v002_v003_multisheet_modes_and_hierarchy_navigation) ... ok\ntest_v004_same_name_local_net_isolation (tests.conformance.test_reference_viewer.ReferenceViewerConformanceTests.test_v004_same_name_local_net_isolation) ... ok\ntest_v005_v006_project_net_and_interface_selection (tests.conformance.test_reference_viewer.ReferenceViewerConformanceTests.test_v005_v006_project_net_and_interface_selection) ... ok\ntest_v007_sheet_scoped_layer_visibility (tests.conformance.test_reference_viewer.ReferenceViewerConformanceTests.test_v007_sheet_scoped_layer_visibility) ... ok\ntest_v008_cross_view_selection_continuity (tests.conformance.test_reference_viewer.ReferenceViewerConformanceTests.test_v008_cross_view_selection_continuity) ... ok\ntest_v009_component_search_opens_owning_sheet (tests.conformance.test_reference_viewer.ReferenceViewerConformanceTests.test_v009_component_search_opens_owning_sheet) ... ok\ntest_v010_pan_zoom_fit_per_view_state (tests.conformance.test_reference_viewer.ReferenceViewerConformanceTests.test_v010_pan_zoom_fit_per_view_state) ... ok\ntest_v015_dom_identity_closure_and_unique_ids (tests.conformance.test_reference_viewer.ReferenceViewerConformanceTests.test_v015_dom_identity_closure_and_unique_ids) ... ok\ntest_v016_ten_sheet_scale_baseline (tests.conformance.test_reference_viewer.ReferenceViewerConformanceTests.test_v016_ten_sheet_scale_baseline) ... ok\ntest_v017_viewer_workbench_are_distinct_shared_profiles (tests.conformance.test_reference_viewer.ReferenceViewerConformanceTests.test_v017_viewer_workbench_are_distinct_shared_profiles) ... ok\ntest_v018_three_run_viewer_artifact_determinism (tests.conformance.test_reference_viewer.ReferenceViewerConformanceTests.test_v018_three_run_viewer_artifact_determinism) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 14.701s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 12,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.conformance.test_symbol_expressiveness_corpus"
+      ],
+      "durationSeconds": 12.058498,
+      "module": "tests.conformance.test_symbol_expressiveness_corpus",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_all_case_contracts_symbols_digests_and_reviews_are_closed (tests.conformance.test_symbol_expressiveness_corpus.SymbolCorpusConformanceTests.test_all_case_contracts_symbols_digests_and_reviews_are_closed) ... ok\ntest_current_symbol_schema_is_unchanged_from_0_5_1 (tests.conformance.test_symbol_expressiveness_corpus.SymbolCorpusConformanceTests.test_current_symbol_schema_is_unchanged_from_0_5_1) ... ok\ntest_dimension_label_regression_is_explicit_and_deterministic (tests.conformance.test_symbol_expressiveness_corpus.SymbolCorpusConformanceTests.test_dimension_label_regression_is_explicit_and_deterministic) ... ok\ntest_full_corpus_runs_through_production_renderer (tests.conformance.test_symbol_expressiveness_corpus.SymbolCorpusConformanceTests.test_full_corpus_runs_through_production_renderer) ... ok\ntest_inventory_is_exact_and_complete (tests.conformance.test_symbol_expressiveness_corpus.SymbolCorpusConformanceTests.test_inventory_is_exact_and_complete) ... ok\ntest_multi_unit_probe_rejects_simulated_shared_identity (tests.conformance.test_symbol_expressiveness_corpus.SymbolCorpusConformanceTests.test_multi_unit_probe_rejects_simulated_shared_identity) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 8.366s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 6,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.conformance.test_viewer_accessibility"
+      ],
+      "durationSeconds": 10.734183,
+      "module": "tests.conformance.test_viewer_accessibility",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_programmatic_control_state_and_visible_focus (tests.conformance.test_viewer_accessibility.ViewerAccessibilityConformanceTests.test_programmatic_control_state_and_visible_focus) ... ok\ntest_v011_keyboard_only_required_workflow (tests.conformance.test_viewer_accessibility.ViewerAccessibilityConformanceTests.test_v011_keyboard_only_required_workflow) ... ok\ntest_v012_narrow_viewport_retains_navigation_and_inspection (tests.conformance.test_viewer_accessibility.ViewerAccessibilityConformanceTests.test_v012_narrow_viewport_retains_navigation_and_inspection) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 6.399s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 3,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.conformance.test_viewer_security"
+      ],
+      "durationSeconds": 9.224884,
+      "module": "tests.conformance.test_viewer_security",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_structural_negative_viewer_models_fail_closed (tests.conformance.test_viewer_security.ViewerSecurityConformanceTests.test_structural_negative_viewer_models_fail_closed) ... ok\ntest_v013_offline_network_denial_and_csp (tests.conformance.test_viewer_security.ViewerSecurityConformanceTests.test_v013_offline_network_denial_and_csp) ... ok\ntest_v014_hostile_authored_text_is_inert (tests.conformance.test_viewer_security.ViewerSecurityConformanceTests.test_v014_hostile_authored_text_is_inert) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 4.511s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 3,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.docs.test_authoring_examples"
+      ],
+      "durationSeconds": 4.809454,
+      "module": "tests.docs.test_authoring_examples",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_authoring_golden_examples (tests.docs.test_authoring_examples.AuthoringExampleTests.test_authoring_golden_examples) ... ok\ntest_symbol_design_profile (tests.docs.test_authoring_examples.AuthoringExampleTests.test_symbol_design_profile) ... ok\ntest_visual_repair_fixture (tests.docs.test_authoring_examples.AuthoringExampleTests.test_visual_repair_fixture) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.836s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 3,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.docs.test_authoring_reference"
+      ],
+      "durationSeconds": 3.669217,
+      "module": "tests.docs.test_authoring_reference",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_schema_reference_coverage (tests.docs.test_authoring_reference.AuthoringReferenceTests.test_schema_reference_coverage) ... ok\ntest_source_backed_snippets (tests.docs.test_authoring_reference.AuthoringReferenceTests.test_source_backed_snippets) ... ok\n\n----------------------------------------------------------------------\nRan 2 tests in 0.015s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 2,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.docs.test_authoring_routes"
+      ],
+      "durationSeconds": 8.332728,
+      "module": "tests.docs.test_authoring_routes",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_agents_policy_contains_source_inspection_gate (tests.docs.test_authoring_routes.AuthoringRouteTests.test_agents_policy_contains_source_inspection_gate) ... ok\ntest_authoring_route_budgets (tests.docs.test_authoring_routes.AuthoringRouteTests.test_authoring_route_budgets) ... ok\ntest_composite_route_chain (tests.docs.test_authoring_routes.AuthoringRouteTests.test_composite_route_chain) ... ok\ntest_task_packets_match_route_sources (tests.docs.test_authoring_routes.AuthoringRouteTests.test_task_packets_match_route_sources) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 4.703s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 4,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.docs.test_hierarchical_authoring_routes"
+      ],
+      "durationSeconds": 7.367936,
+      "module": "tests.docs.test_hierarchical_authoring_routes",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_compose_project_route_reads_authority_before_examples (tests.docs.test_hierarchical_authoring_routes.HierarchicalAuthoringRouteTests.test_compose_project_route_reads_authority_before_examples) ... ok\ntest_document_graph_has_no_hierarchical_linkage_gap (tests.docs.test_hierarchical_authoring_routes.HierarchicalAuthoringRouteTests.test_document_graph_has_no_hierarchical_linkage_gap) ... ok\ntest_hierarchical_routes_are_bounded_and_resolvable (tests.docs.test_hierarchical_authoring_routes.HierarchicalAuthoringRouteTests.test_hierarchical_routes_are_bounded_and_resolvable) ... ok\ntest_project_route_cannot_own_semantic_membership (tests.docs.test_hierarchical_authoring_routes.HierarchicalAuthoringRouteTests.test_project_route_cannot_own_semantic_membership) ... ok\ntest_three_pass_release_evidence (tests.docs.test_hierarchical_authoring_routes.HierarchicalAuthoringRouteTests.test_three_pass_release_evidence) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 3.696s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 5,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.docs.test_renderer_contract"
+      ],
+      "durationSeconds": 3.700045,
+      "module": "tests.docs.test_renderer_contract",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_fail_closed_binding_cases (tests.docs.test_renderer_contract.RendererContractTests.test_fail_closed_binding_cases) ... ok\ntest_field_precedence (tests.docs.test_renderer_contract.RendererContractTests.test_field_precedence) ... ok\ntest_port_map_direction_totality_and_visibility (tests.docs.test_renderer_contract.RendererContractTests.test_port_map_direction_totality_and_visibility) ... ok\ntest_variant_and_parameter_precedence (tests.docs.test_renderer_contract.RendererContractTests.test_variant_and_parameter_precedence) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.085s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 4,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.docs.test_repository"
+      ],
+      "durationSeconds": 28.354049,
+      "module": "tests.docs.test_repository",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_agent_policy (tests.docs.test_repository.RepositoryConformanceTests.test_agent_policy) ... ok\ntest_documentation_integrity (tests.docs.test_repository.RepositoryConformanceTests.test_documentation_integrity) ... ok\ntest_english_only_release_text (tests.docs.test_repository.RepositoryConformanceTests.test_english_only_release_text) ... ok\ntest_release_manifest_when_present (tests.docs.test_repository.RepositoryConformanceTests.test_release_manifest_when_present) ... ok\ntest_requirement_evidence (tests.docs.test_repository.RepositoryConformanceTests.test_requirement_evidence) ... ok\ntest_review_evidence (tests.docs.test_repository.RepositoryConformanceTests.test_review_evidence) ... ok\ntest_route_integrity (tests.docs.test_repository.RepositoryConformanceTests.test_route_integrity) ... ok\ntest_schematic_example (tests.docs.test_repository.RepositoryConformanceTests.test_schematic_example) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 23.989s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 8,
+      "valid": true
+    }
+  ],
+  "passedModules": 17,
+  "release": "AIXEM-SRP-0.5.5-2026-08-11",
+  "schema": "https://schemas.aixem.org/validation/test-run/1",
+  "skipped": [],
+  "successful": true,
+  "testsRun": 81
+}

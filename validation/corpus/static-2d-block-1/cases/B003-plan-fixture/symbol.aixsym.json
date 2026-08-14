@@ -1,0 +1,228 @@
+{
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/component-graphics/aixsym/1",
+  "symbol": {
+    "anchors": [
+      {
+        "id": "origin",
+        "kind": "insertion",
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "bounds": {
+      "height": 60,
+      "width": 70,
+      "x": -35,
+      "y": -30
+    },
+    "coordinateSystem": {
+      "angleDirection": "clockwise",
+      "angleUnit": "deg",
+      "grid": 2.5,
+      "unit": "mm",
+      "yAxis": "down"
+    },
+    "definitions": {},
+    "description": "Vendor-neutral plan-view fixture block.",
+    "graphics": [
+      {
+        "commands": [
+          {
+            "cmd": "M",
+            "x": -20,
+            "y": -15
+          },
+          {
+            "cmd": "L",
+            "x": 10,
+            "y": -15
+          },
+          {
+            "cmd": "A",
+            "largeArc": false,
+            "rotation": 0,
+            "rx": 15,
+            "ry": 15,
+            "sweep": true,
+            "x": 25,
+            "y": 0
+          },
+          {
+            "cmd": "A",
+            "largeArc": false,
+            "rotation": 0,
+            "rx": 15,
+            "ry": 15,
+            "sweep": true,
+            "x": 10,
+            "y": 15
+          },
+          {
+            "cmd": "L",
+            "x": -20,
+            "y": 15
+          },
+          {
+            "cmd": "Z"
+          }
+        ],
+        "id": "fixture-outline",
+        "layer": "body",
+        "role": "body",
+        "style": "body",
+        "type": "path"
+      },
+      {
+        "id": "fixture-axis",
+        "layer": "body",
+        "style": "detail",
+        "type": "line",
+        "x1": -15,
+        "x2": 15,
+        "y1": 0,
+        "y2": 0
+      },
+      {
+        "cx": 0,
+        "cy": 0,
+        "id": "fixture-center",
+        "layer": "body",
+        "r": 5,
+        "style": "detail",
+        "type": "circle"
+      },
+      {
+        "cx": -20,
+        "cy": 0,
+        "id": "fixture-swing",
+        "layer": "body",
+        "role": "swing-guide",
+        "rx": 20,
+        "ry": 20,
+        "startAngle": -90,
+        "style": "dashed",
+        "sweepAngle": 90,
+        "type": "arc"
+      }
+    ],
+    "id": "corpus:b003-plan-fixture",
+    "layers": [
+      {
+        "defaultVisible": true,
+        "id": "body",
+        "locked": true,
+        "order": 10,
+        "printable": true,
+        "purpose": "symbol body and pin leads"
+      },
+      {
+        "defaultVisible": true,
+        "id": "fields",
+        "locked": false,
+        "order": 20,
+        "printable": true,
+        "purpose": "bound and literal text fields"
+      }
+    ],
+    "metadata": {
+      "corpus": "static-2d-block-1"
+    },
+    "paintServers": {},
+    "parameters": {},
+    "ports": [],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-11",
+      "license": "CC0-1.0",
+      "notes": "Vendor-neutral evidence fixture; no proprietary library asset was copied.",
+      "origin": "AIXEM 0.5.2 self-authored conformance corpus"
+    },
+    "purpose": "schematic-symbol",
+    "requiredFeatures": [
+      "compound-path",
+      "elliptical-arc"
+    ],
+    "revision": "1.0.0",
+    "styles": {
+      "body": {
+        "fill": "#fffef8",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.65
+      },
+      "dashed": {
+        "dashArray": [
+          2.5,
+          1.25
+        ],
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeWidth": 0.5
+      },
+      "detail": {
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.5
+      },
+      "dimension": {
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeWidth": 0.5
+      },
+      "field": {
+        "fill": "#17231d",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.5,
+        "fontWeight": 600,
+        "stroke": "none"
+      },
+      "filled": {
+        "fill": "#fffef8",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.65
+      },
+      "label": {
+        "fill": "#0c7772",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.0,
+        "fontWeight": 600,
+        "stroke": "none"
+      },
+      "line": {
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.65
+      },
+      "mark": {
+        "fill": "#0c7772",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.45
+      },
+      "small": {
+        "fill": "#0c7772",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 2.4,
+        "fontWeight": 500,
+        "stroke": "none"
+      },
+      "value": {
+        "fill": "#4f5e56",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.0,
+        "fontWeight": 400,
+        "stroke": "none"
+      }
+    },
+    "title": "B003 Plan-scale electrical fixture"
+  }
+}

@@ -1,0 +1,146 @@
+schema: https://schemas.aixem.org/documentation/task-route/1
+formatVersion: '1.0'
+kind: simple
+id: create-symbol
+intent: create-symbol
+aliases:
+- create symbol
+- draw component symbol
+- author symbol
+- new symbol
+- symbol library
+summary: Create or repair a provenance-classified reusable component and its grid-proportional
+  symbol presentation at a canonical project-library location
+budget:
+  max_documents: 7
+  max_bytes: 98304
+  max_depth: 3
+expected_inputs:
+- component identity, endpoint, property, and provenance contract
+- source URI or explicit generic/placeholder status
+- active design/style profile and existing asset inventory
+- active project or authoring root
+steps:
+- order: 1
+  document: AIXEM-SPEC-LIBRARY-LAYOUT-001
+  section: canonical-authoring-root
+  purpose: Choose the canonical new-artifact path, provenance class, semantic identity,
+    and separated validation claims.
+  required: true
+- order: 2
+  document: AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001
+  section: profile-shape
+  purpose: Author electrical behavior and source-reviewed orthogonal pin semantics
+    without inventing endpoint truth.
+  required: true
+- order: 3
+  document: AIXEM-SPEC-SYMBOL-DESIGN-001
+  section: profile-values
+  purpose: Apply the G/P/M sizing rhythm, grid, lead, pitch, field, and grouping rules.
+  required: true
+- order: 4
+  document: AIXEM-FORMAT-AIXLIB-001
+  section: operational-rules
+  purpose: Serialize component identity, ports, properties, provenance metadata, presentations,
+    and digest locks.
+  required: true
+- order: 5
+  document: AIXEM-FORMAT-AIXSYM-001
+  section: annotated-format-skeleton
+  purpose: Serialize reusable graphic presentation without redefining component semantics.
+  required: true
+- order: 6
+  document: AIXEM-SYMBOL-BINDING-001
+  section: port-map-direction
+  purpose: Bind every required component endpoint and field to the selected symbol
+    presentation.
+  required: true
+- order: 7
+  document: AIXEM-SYMBOL-LINT-001
+  section: 0-5-2-corpus-conformance-checks
+  purpose: Validate path, provenance, semantics, schema, design profile, binding,
+    render, digest, and claim separation.
+  required: true
+completion:
+- New artifacts use library/electronics or library/architecture and semantic lower-kebab
+  names
+- Concrete identity is source-backed or truthfully retained as a non-semantic-ready
+  placeholder
+- Every component ID has a distinct semantic contract and total presentation binding
+- Pin semantics are source-reviewed where applicable
+- Structural, part semantic, placeholder, and circuit-intent results remain separate
+- Rendered output and resolved scene pass deterministic visual review
+expected_outputs:
+- valid .aixsym.json asset
+- valid .aixlib.json presentation binding
+- deterministic render evidence
+- symbol authoring validation result
+validators:
+- schematic.authoring_integrity
+- schematic.symbol_schema
+- schematic.symbol_design
+- schematic.authoring_binding
+- schematic.renderer_contract
+- schematic.authoring_examples
+- agent.diagnostics
+- agent.change_scope
+writes:
+  authority:
+  - symbol
+  - component-library
+  - project
+  artifacts:
+  - '**/*.aixsym.json'
+  - '**/*.aixlib.json'
+  - '**/*.aixproj.json'
+  derived:
+  - render/**
+  - evidence/**
+  prohibited:
+  - render/**
+  - evidence/**
+  - '**/viewer.html'
+  - '**/workbench.html'
+  - '**/*.svg'
+  - '**/resolved-scene.json'
+  - '**/resolved-project-scene.json'
+  - '**/viewer-model.json'
+  - '**/render-manifest.json'
+  - '**/project-validation.json'
+  constraints:
+  - pattern: '**/*.aixlib.json'
+    policy: new-library-artifact-canonical
+  - pattern: '**/*.aixsym.json'
+    policy: new-library-artifact-canonical
+  - pattern: '**/*.aixproj.json'
+    policy: digest-only
+remediation:
+  acceptsDiagnostics:
+  - AIXEM-DIAG-BINDING-PORTMAP-INCOMPLETE
+  - AIXEM-DIAG-BINDING-PORTMAP-TARGET-UNKNOWN
+  - AIXEM-DIAG-BINDING-ASSET-MISSING
+  - AIXEM-DIAG-BINDING-ASSET-DIGEST
+  - AIXEM-DIAG-SYMBOL-PORT-EXPRESSION
+  - AIXEM-DIAG-SYMBOL-PORT-OFF-GRID
+  - AIXEM-DIAG-SYMBOL-PORT-ORIENTATION
+  - AIXEM-DIAG-SYMBOL-LEAD-MISSING
+  - AIXEM-DIAG-SYMBOL-LEAD-PORT-MISMATCH
+  - AIXEM-DIAG-SYMBOL-PIN-PITCH
+  - AIXEM-DIAG-SYMBOL-FIELD-BODY-OVERLAP
+  - AIXEM-DIAG-LIBRARY-PATH-NONCANONICAL
+  - AIXEM-DIAG-LIBRARY-DOMAIN-UNKNOWN
+  - AIXEM-DIAG-LIBRARY-NAME-INVALID
+  - AIXEM-DIAG-LIBRARY-PART-SOURCE-REQUIRED
+  - AIXEM-DIAG-LIBRARY-PART-PLACEHOLDER-UNDECLARED
+  - AIXEM-DIAG-LIBRARY-PART-PROVENANCE-INVALID
+  - AIXEM-DIAG-LIBRARY-COMPONENT-SEMANTIC-CLONE
+  - AIXEM-DIAG-LIBRARY-PART-MINIMUM-ATTRIBUTES-MISSING
+  - AIXEM-DIAG-LIBRARY-PART-PINOUT-REVIEW-MISSING
+  - AIXEM-DIAG-PIN-SEMANTICS-PROFILE-INVALID
+  - AIXEM-DIAG-PIN-SIGNAL-CLASS-INVALID
+  - AIXEM-DIAG-PIN-FUNCTION-TAG-INVALID
+  - AIXEM-DIAG-PIN-POLARITY-INCONSISTENT
+  - AIXEM-DIAG-PIN-DIFFERENTIAL-PAIR-INCOMPLETE
+  - AIXEM-DIAG-PIN-ALTERNATE-FUNCTION-INVALID
+  - AIXEM-DIAG-PIN-SOURCE-REVIEW-INCOMPLETE
+  - AIXEM-DIAG-PIN-NOCONNECT-CONTRADICTION

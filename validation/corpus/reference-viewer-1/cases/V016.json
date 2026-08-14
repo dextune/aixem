@@ -1,0 +1,14 @@
+{
+  "expected": "pass",
+  "formatVersion": "1.0",
+  "id": "V016",
+  "order": 16,
+  "profiles": [
+    "reference-viewer"
+  ],
+  "purpose": "Minimum scale and interaction baseline",
+  "schema": "https://schemas.aixem.org/conformance/reference-viewer-case/1",
+  "source": "validation/corpus/hierarchical-project-1/cases/H013-ten-sheet-scale-baseline/project.aixproj.json",
+  "test": "tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v016_ten_sheet_scale_baseline",
+  "title": "Ten-sheet project"
+}

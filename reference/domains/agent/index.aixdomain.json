@@ -1,0 +1,87 @@
+{
+  "domain": {
+    "cards": [
+      {
+        "id": "AIXEM-AGENT-ARCH-001",
+        "path": "reference/cards/agent/architecture.aixcard.json",
+        "summary": "Defines the planner, bounded retriever, authority resolver, authoring tools, validators, evidence store, and release gate used by an AIXEM agent.",
+        "title": "Agent Architecture"
+      },
+      {
+        "id": "AIXEM-AGENT-AUTHORING-001",
+        "path": "reference/cards/agent/authoring-orchestration.aixcard.json",
+        "summary": "Defines bounded route chaining, stage inputs and outputs, authority checkpoints, and stop conditions for composite drawing tasks.",
+        "title": "Agent Authoring Orchestration"
+      },
+      {
+        "id": "AIXEM-AGENT-FAILURE-001",
+        "path": "reference/cards/agent/failure-policy.aixcard.json",
+        "summary": "Defines conditions under which an agent or build must stop instead of guessing, repairing downstream output, or suppressing evidence.",
+        "title": "Fail-Closed Policy"
+      },
+      {
+        "id": "AIXEM-AGENT-INDEX-001",
+        "path": "reference/cards/agent/overview.aixcard.json",
+        "summary": "The operational entrypoint for bounded retrieval, authority-aware modification, schematic authoring, validation, and release work by AI agents.",
+        "title": "AI Agent Operations"
+      },
+      {
+        "id": "AIXEM-AGENT-LIVE-COLD-START-001",
+        "path": "reference/cards/agent/live-agent-cold-start-authoring.aixcard.json",
+        "summary": "Defines the operator and adapter workflow for staging, executing, observing, closing, scoring, and retaining one real external-agent authoring attempt.",
+        "title": "Live-Agent Cold-Start Authoring"
+      },
+      {
+        "id": "AIXEM-AGENT-RETRIEVAL-001",
+        "path": "reference/cards/agent/retrieval.aixcard.json",
+        "summary": "Defines intent normalization, exact route resolution, section-level loading, dependency expansion, fallback search, and context accounting.",
+        "title": "Bounded Retrieval"
+      },
+      {
+        "id": "AIXEM-AGENT-ROUTES-001",
+        "path": "reference/cards/agent/task-routing.aixcard.json",
+        "summary": "Defines authored route YAML, aliases, ordered document targets, section anchors, budgets, conditions, and completion criteria.",
+        "title": "Task Routes"
+      },
+      {
+        "id": "AIXEM-AGENT-ROUTING-001",
+        "path": "reference/cards/agent/routing-agent.aixcard.json",
+        "summary": "Provides an agent sequence for deterministic orthogonal routing with explicit crossings, junctions, and local repair.",
+        "title": "Routing Agent"
+      },
+      {
+        "id": "AIXEM-AGENT-SCHEMATIC-001",
+        "path": "reference/cards/agent/schematic-authoring.aixcard.json",
+        "summary": "Provides an authority-safe agent sequence for creating or modifying semantic circuits, placements, routes, and project locks.",
+        "title": "Schematic Authoring Agent"
+      },
+      {
+        "id": "AIXEM-AGENT-SYMBOL-001",
+        "path": "reference/cards/agent/symbol-generation.aixcard.json",
+        "summary": "Provides an agent sequence for turning a component endpoint contract into an original, compact, linted symbol asset.",
+        "title": "Symbol Generation Agent"
+      },
+      {
+        "id": "AIXEM-AGENT-VALIDATION-001",
+        "path": "reference/cards/agent/validation-loop.aixcard.json",
+        "summary": "Defines structural, semantic, and human-facing review stages for agent-produced changes.",
+        "title": "Three-Stage Validation Loop"
+      },
+      {
+        "id": "AIXEM-AGENT-VISUAL-QA-001",
+        "path": "reference/cards/agent/visual-qa-loop.aixcard.json",
+        "summary": "Defines the render-inspect-classify-repair loop and defect-to-authority mapping for symbols and schematics.",
+        "title": "Visual QA and Repair Loop"
+      }
+    ],
+    "description": "Generated canonical-document cards for the agent domain.",
+    "id": "agent",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12"
+    },
+    "title": "Agent"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixdomain/1"
+}

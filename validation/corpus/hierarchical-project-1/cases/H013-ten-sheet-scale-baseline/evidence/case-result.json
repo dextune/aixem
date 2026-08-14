@@ -1,0 +1,105 @@
+{
+  "canonicalHashes": {
+    "project-composite.svg": "sha256:038994878452b72016053bba8a0f94f4c30c0b6e5cdd4b1e50df4e74e4ef95ab",
+    "project-overview.svg": "sha256:17e81d0795792dffb6e21bed210c20df572b8afc6cac646e5eac669757f2fe9c",
+    "resolved-project-scene.json": "sha256:5de5aa6f1fe1572a8ae8f321a692150c4b9fc92bd130c2a31ddb67b6c1f5ba8a",
+    "sheets/sheet-01.resolved-scene.json": "sha256:946cc1311b56e2121b097db3ae54e4320e8bdede6921bb515e99b71ace1c7a9f",
+    "sheets/sheet-01.svg": "sha256:546c2d7857cb49a470ba8caa42b49e486161624ce533cdd3ff29f8aacc198441",
+    "sheets/sheet-02.resolved-scene.json": "sha256:aff29c1d9bc18449ff7459691ea81e9d0a75c0997104af377d30a9f4a9af965d",
+    "sheets/sheet-02.svg": "sha256:373f7a46e9d8b173735ced0681a822b2e9e0ffcd8013ebae9ae0c51911063a2b",
+    "sheets/sheet-03.resolved-scene.json": "sha256:aa5f8f391febdb1e5588d0e36058f7880d8ffe9452cc13e701b940b019047a85",
+    "sheets/sheet-03.svg": "sha256:b2c0a6b47d5b22f8de439f250c71728f5920376a764791abee0767d99807151f",
+    "sheets/sheet-04.resolved-scene.json": "sha256:06aedffaa267a56336e852a6f035ccd4261630404f28b5f8855ca751d7be0619",
+    "sheets/sheet-04.svg": "sha256:0d7e33a4d480ed686b891ede8315be02f163d53611228410d96a72b500d44f42",
+    "sheets/sheet-05.resolved-scene.json": "sha256:6112ef6a1392b814d9ace3fe726712929cdfdd3bf996a0d4f80dab5960b6bf02",
+    "sheets/sheet-05.svg": "sha256:e2158f59d4593f7257c14d937c423c9bfc69c37f7ba5c6dd5354c95946f4bde7",
+    "sheets/sheet-06.resolved-scene.json": "sha256:45112eabb99224c0a59c877bc6e32589d42d259a4944139e9c6d52fcecf3440e",
+    "sheets/sheet-06.svg": "sha256:e813422f1e1bd24f0334f6d59efd80f7c95a16b7a925e86df32212ffa35b142d",
+    "sheets/sheet-07.resolved-scene.json": "sha256:c80e10d3b3f70b88252cb2faca4482f1964ffc4862f9825360b4e99e5d77d3d6",
+    "sheets/sheet-07.svg": "sha256:65e87d01e9bddb48972d104ac9c609dae95d841a129ade60bb21cbaf500215f1",
+    "sheets/sheet-08.resolved-scene.json": "sha256:953fc50a5c31fe5f3713aeac9782d07a267d63aa74fdf93620f83604bd052724",
+    "sheets/sheet-08.svg": "sha256:97e739fd7d8e730dd5dd5460855c32b91523f0c7038d6ec3fe4e21911ab0f806",
+    "sheets/sheet-09.resolved-scene.json": "sha256:07963cb8115517674a6d15e056fface3496ce2577dd8cee3ce4274b90075aada",
+    "sheets/sheet-09.svg": "sha256:df8e3f4246e3d74f49a80bda0c2e0c9ce2fe4feceee41c68070b3a7cab86ae35",
+    "sheets/sheet-10.resolved-scene.json": "sha256:b6ecaef86d274d5ed022dd5fbf316435c446fe54f4ee64152169c5048b4dbb7b",
+    "sheets/sheet-10.svg": "sha256:cc787545d0203ec52c4bdb735d1719eb90b951988ff587a9d8c92bad58506cee",
+    "viewer-model.json": "sha256:28661cd49d13672fd3d86faa12989be5fcec469908467c7534f499b2b54576d3",
+    "viewer.html": "sha256:d423c93fdbe217b3fbe513ce3945d8b8a925a29c366bacef015dd50374111158",
+    "workbench.html": "sha256:014b325cec7e5511f587f45a3feccf52392124e469af84548db0adbecd4c8ed0"
+  },
+  "checks": [
+    {
+      "id": "PROJECT_SHEET_COUNT",
+      "observation": 10,
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_GRAPH_PRESENT",
+      "observation": [
+        "identities",
+        "projectNets",
+        "unconnectedPorts"
+      ],
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_AUTHORITY",
+      "observation": {
+        "connectivityFromGeometry": false,
+        "layersAreSheets": false,
+        "localPresentation": "aixlayout/2",
+        "localSemantics": ".aixem",
+        "projectComposition": "aixproj/2"
+      },
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_LAYER_AUTHORITY",
+      "observation": {
+        "connectivityFromGeometry": false,
+        "layersAreSheets": false,
+        "localPresentation": "aixlayout/2",
+        "localSemantics": ".aixem",
+        "projectComposition": "aixproj/2"
+      },
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_ROUTES_ORTHOGONAL",
+      "observation": "overview+composite",
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_WORKBENCH_DATA_DRIVEN",
+      "observation": "resolved hierarchy",
+      "status": "pass"
+    },
+    {
+      "id": "H013_TEN_SHEETS",
+      "observation": [
+        "sheet-01",
+        "sheet-02",
+        "sheet-03",
+        "sheet-04",
+        "sheet-05",
+        "sheet-06",
+        "sheet-07",
+        "sheet-08",
+        "sheet-09",
+        "sheet-10"
+      ],
+      "status": "pass"
+    }
+  ],
+  "deterministic": true,
+  "diagnosticMatched": true,
+  "error": null,
+  "expected": "pass",
+  "expectedDiagnostic": null,
+  "id": "H013",
+  "observed": "pass",
+  "projectDigest": "sha256:4f1cc94a906cc78530f2c0bb8d65c20ecdd18da35ddc200b440b5de49de5d28e",
+  "repeatCount": 3,
+  "status": "pass",
+  "title": "Ten sheet scale baseline"
+}

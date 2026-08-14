@@ -1,0 +1,26 @@
+{
+  "command": {
+    "command": [
+      "/opt/pyvenv/bin/python",
+      "tools/validate_reference_viewer_corpus.py",
+      "--repeats",
+      "3",
+      "--screenshots"
+    ],
+    "durationSeconds": 7.691255,
+    "label": "cycle 1 Reference Viewer corpus",
+    "returnCode": 0,
+    "status": "PASS",
+    "stderrTail": "",
+    "stdoutTail": "V001: PASS — Legacy single-sheet viewer\nV002: PASS — Multi-sheet three-mode viewer\nV003: PASS — Data-driven hierarchy navigation\nV004: PASS — Same-name local nets\nV005: PASS — Project-net selection\nV006: PASS — Interface-port inspection\nV007: PASS — Sheet-scoped layer visibility\nV008: PASS — Cross-view selection continuity\nV009: PASS — Component search navigation\nV010: PASS — Pan, zoom, and fit\nV011: PASS — Keyboard-only inspection\nV012: PASS — Narrow viewport\nV013: PASS — Offline and network denial\nV014: PASS — Hostile authored text\nV015: PASS — DOM qualified identity\nV016: PASS — Ten-sheet project\nV017: PASS — Viewer and Workbench separation\nV018: PASS — Three-run HTML determinism\nreference viewer corpus: PASS (18/18)\n",
+    "valid": true
+  },
+  "cycle": 1,
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "release": "AIXEM-SRP-0.5.8-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/pre-live-readiness-verification-stage/1",
+  "stage": "viewer",
+  "status": "PASS",
+  "valid": true
+}

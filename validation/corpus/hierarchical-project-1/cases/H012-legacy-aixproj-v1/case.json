@@ -1,0 +1,10 @@
+{
+  "assertions": [
+    "legacy-v1-output-path",
+    "legacy-v1-behavior"
+  ],
+  "expected": "pass",
+  "id": "H012",
+  "project": "project.aixproj.json",
+  "title": "Legacy aixproj v1"
+}

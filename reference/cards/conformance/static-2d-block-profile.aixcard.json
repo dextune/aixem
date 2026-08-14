@@ -1,0 +1,56 @@
+{
+  "card": {
+    "aliases": [
+      "static 2d block profile",
+      "static cad block",
+      "b2d profile"
+    ],
+    "appliesTo": [
+      "static-2d-block-conformance"
+    ],
+    "domain": "conformance",
+    "estimatedReadBytes": 3805,
+    "id": "AIXEM-CONF-B2D-001",
+    "inputs": [],
+    "keywords": [
+      "Static 2D Block Compatibility Profile 1",
+      "b2d profile",
+      "publish-release",
+      "static 2d block profile",
+      "static cad block",
+      "validate-symbol-expressiveness"
+    ],
+    "kind": "profile",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/conformance/static-2d-block-profile.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:0114dc81d80f847f42430a272a4c72eff136389fc90c138fc7d437f1715d5cd8"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 900,
+    "readNext": [
+      "AIXEM-CONF-SYMBOL-EXP-001",
+      "AIXEM-SPEC-RENDERER-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-CONF-B2D-001.read",
+        "level": "should",
+        "text": "Defines a deliberately limited deterministic vector-block profile without native DWG or interactive Dynamic Block claims."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-CONF-B2D-001",
+        "path": "docs/conformance/static-2d-block-profile.md"
+      }
+    ],
+    "summary": "Defines a deliberately limited deterministic vector-block profile without native DWG or interactive Dynamic Block claims.",
+    "title": "Static 2D Block Compatibility Profile 1"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

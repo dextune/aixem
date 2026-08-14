@@ -1,0 +1,4472 @@
+{
+  "acyclicDependencies": true,
+  "edges": [
+    {
+      "from": "AIXEM-AGENT-ARCH-001",
+      "to": "AIXEM-CONCEPT-AUTHORITY-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AGENT-ARCH-001",
+      "to": "AIXEM-SPEC-AGENT-RETRIEVAL-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AGENT-ARCH-001",
+      "to": "AIXEM-ARCH-SYSTEM-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AGENT-ARCH-001",
+      "to": "AIXEM-AGENT-VALIDATION-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AGENT-AUTHORING-001",
+      "to": "AIXEM-AGENT-ROUTES-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AGENT-AUTHORING-001",
+      "to": "AIXEM-CONCEPT-AUTHORITY-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AGENT-AUTHORING-001",
+      "to": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AGENT-AUTHORING-001",
+      "to": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AGENT-AUTHORING-001",
+      "to": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AGENT-AUTHORING-001",
+      "to": "AIXEM-AGENT-VISUAL-QA-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AGENT-AUTHORING-001",
+      "to": "AIXEM-SYMBOL-BINDING-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AGENT-AUTHORING-001",
+      "to": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AGENT-FAILURE-001",
+      "to": "AIXEM-SPEC-AUTHORITY-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AGENT-FAILURE-001",
+      "to": "AIXEM-CONF-RELEASE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AGENT-INDEX-001",
+      "to": "AIXEM-AGENT-ARCH-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AGENT-INDEX-001",
+      "to": "AIXEM-AGENT-RETRIEVAL-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AGENT-INDEX-001",
+      "to": "AIXEM-AGENT-VALIDATION-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AGENT-LIVE-COLD-START-001",
+      "to": "AIXEM-SPEC-AGENT-TASK-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AGENT-LIVE-COLD-START-001",
+      "to": "AIXEM-SPEC-AGENT-STAGE-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AGENT-LIVE-COLD-START-001",
+      "to": "AIXEM-SPEC-AGENT-EXECUTOR-LIVE-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AGENT-LIVE-COLD-START-001",
+      "to": "AIXEM-SPEC-AGENT-OBSERVATION-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AGENT-LIVE-COLD-START-001",
+      "to": "AIXEM-SPEC-AGENT-EVAL-INVARIANT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AGENT-LIVE-COLD-START-001",
+      "to": "AIXEM-SPEC-AGENT-LIVE-RUN-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AGENT-LIVE-COLD-START-001",
+      "to": "AIXEM-AGENT-AUTHORING-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AGENT-LIVE-COLD-START-001",
+      "to": "AIXEM-CONF-AGENT-LIVE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AGENT-RETRIEVAL-001",
+      "to": "AIXEM-SPEC-AGENT-RETRIEVAL-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AGENT-RETRIEVAL-001",
+      "to": "AIXEM-AGENT-ROUTES-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AGENT-RETRIEVAL-001",
+      "to": "AIXEM-ARCH-CACHE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AGENT-ROUTES-001",
+      "to": "AIXEM-AGENT-RETRIEVAL-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AGENT-ROUTES-001",
+      "to": "AIXEM-SPEC-METADATA-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AGENT-ROUTES-001",
+      "to": "AIXEM-ARCH-ADR-0002",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AGENT-ROUTING-001",
+      "to": "AIXEM-ROUTE-BEHAVIOR-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AGENT-ROUTING-001",
+      "to": "AIXEM-ROUTE-CONSTRAINT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AGENT-ROUTING-001",
+      "to": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AGENT-ROUTING-001",
+      "to": "AIXEM-AGENT-VALIDATION-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AGENT-ROUTING-001",
+      "to": "AIXEM-CONCEPT-PROJECT-NET-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AGENT-SCHEMATIC-001",
+      "to": "AIXEM-CONCEPT-AUTHORITY-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AGENT-SCHEMATIC-001",
+      "to": "AIXEM-SCHEM-GRID-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AGENT-SCHEMATIC-001",
+      "to": "AIXEM-ROUTE-NETS-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AGENT-SCHEMATIC-001",
+      "to": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AGENT-SCHEMATIC-001",
+      "to": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AGENT-SCHEMATIC-001",
+      "to": "AIXEM-START-FIRST-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AGENT-SCHEMATIC-001",
+      "to": "AIXEM-AGENT-VALIDATION-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AGENT-SYMBOL-001",
+      "to": "AIXEM-SYMBOL-AUTHORING-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AGENT-SYMBOL-001",
+      "to": "AIXEM-SYMBOL-LINT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AGENT-SYMBOL-001",
+      "to": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AGENT-SYMBOL-001",
+      "to": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AGENT-SYMBOL-001",
+      "to": "AIXEM-AGENT-VALIDATION-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AGENT-VALIDATION-001",
+      "to": "AIXEM-CONF-VALIDATION-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AGENT-VALIDATION-001",
+      "to": "AIXEM-CONF-TESTS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AGENT-VALIDATION-001",
+      "to": "AIXEM-CONF-RELEASE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AGENT-VISUAL-QA-001",
+      "to": "AIXEM-SPEC-RENDERER-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AGENT-VISUAL-QA-001",
+      "to": "AIXEM-CONF-VALIDATION-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AGENT-VISUAL-QA-001",
+      "to": "AIXEM-AGENT-AUTHORING-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AGENT-VISUAL-QA-001",
+      "to": "AIXEM-SYMBOL-DESIGN-RULES-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ARCH-ADR-0001",
+      "to": "AIXEM-SPEC-DOCUMENT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ARCH-ADR-0001",
+      "to": "AIXEM-ARCH-ARTIFACT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ARCH-ADR-0002",
+      "to": "AIXEM-SPEC-AGENT-RETRIEVAL-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-ARCH-ADR-0002",
+      "to": "AIXEM-AGENT-ROUTES-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ARCH-ADR-0003",
+      "to": "AIXEM-SCHEM-VISUAL-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-ARCH-ADR-0003",
+      "to": "AIXEM-SPEC-VISUAL-PROFILE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ARCH-ADR-0003",
+      "to": "AIXEM-SPEC-VIEWER-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ARCH-ADR-0003",
+      "to": "AIXEM-SPEC-WORKBENCH-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ARCH-ADR-0004",
+      "to": "AIXEM-CONCEPT-AUTHORITY-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-ARCH-ADR-0004",
+      "to": "AIXEM-SPEC-RENDERER-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-ARCH-ADR-0004",
+      "to": "AIXEM-SPEC-VISUAL-PROFILE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ARCH-ADR-0004",
+      "to": "AIXEM-FORMAT-STYLE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ARCH-ADR-INDEX-001",
+      "to": "AIXEM-ARCH-ADR-0001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ARCH-ADR-INDEX-001",
+      "to": "AIXEM-ARCH-ADR-0002",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ARCH-ADR-INDEX-001",
+      "to": "AIXEM-ARCH-ADR-0003",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ARCH-ARTIFACT-001",
+      "to": "AIXEM-SPEC-AUTHORITY-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-ARCH-ARTIFACT-001",
+      "to": "AIXEM-FORMAT-INDEX-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ARCH-ARTIFACT-001",
+      "to": "AIXEM-SPEC-RELEASE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ARCH-CACHE-001",
+      "to": "AIXEM-CONCEPT-DETERMINISM-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-ARCH-CACHE-001",
+      "to": "AIXEM-AGENT-RETRIEVAL-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ARCH-CACHE-001",
+      "to": "AIXEM-ARCH-PIPELINE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ARCH-INDEX-001",
+      "to": "AIXEM-ARCH-SYSTEM-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ARCH-INDEX-001",
+      "to": "AIXEM-ARCH-PIPELINE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ARCH-INDEX-001",
+      "to": "AIXEM-ARCH-ADR-INDEX-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ARCH-PIPELINE-001",
+      "to": "AIXEM-ARCH-SYSTEM-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-ARCH-PIPELINE-001",
+      "to": "AIXEM-CONCEPT-DETERMINISM-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-ARCH-PIPELINE-001",
+      "to": "AIXEM-CONF-RELEASE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ARCH-PIPELINE-001",
+      "to": "AIXEM-GOV-RELEASE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ARCH-SECURITY-001",
+      "to": "AIXEM-SPEC-PROJECT-LOCK-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ARCH-SECURITY-001",
+      "to": "AIXEM-SPEC-RELEASE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ARCH-SYSTEM-001",
+      "to": "AIXEM-CONCEPT-AUTHORITY-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-ARCH-SYSTEM-001",
+      "to": "AIXEM-ARCH-PIPELINE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ARCH-SYSTEM-001",
+      "to": "AIXEM-ARCH-ARTIFACT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-AUTHOR-COMPONENT-CIRCUIT-001",
+      "to": "AIXEM-AUTHORING-GUIDES-INDEX-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-AUTHOR-COMPONENT-CIRCUIT-001",
+      "to": "AIXEM-AGENT-AUTHORING-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-AUTHOR-COMPONENT-CIRCUIT-001",
+      "to": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-AUTHOR-COMPONENT-CIRCUIT-001",
+      "to": "AIXEM-CONF-VALIDATION-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-COMPOSE-PROJECT-001",
+      "to": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-COMPOSE-PROJECT-001",
+      "to": "AIXEM-FORMAT-AIXPROJ-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-COMPOSE-PROJECT-001",
+      "to": "AIXEM-CONCEPT-PROJECT-NET-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-COMPOSE-PROJECT-001",
+      "to": "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+      "to": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+      "to": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+      "to": "AIXEM-SPEC-SYMBOL-DESIGN-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+      "to": "AIXEM-FORMAT-AIXLIB-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+      "to": "AIXEM-FORMAT-AIXSYM-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+      "to": "AIXEM-SYMBOL-BINDING-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-CREATE-SCHEMATIC-001",
+      "to": "AIXEM-CONCEPT-AUTHORITY-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-CREATE-SCHEMATIC-001",
+      "to": "AIXEM-FORMAT-AIXEM-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-CREATE-SCHEMATIC-001",
+      "to": "AIXEM-FORMAT-AIXLAYOUT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-CREATE-SCHEMATIC-001",
+      "to": "AIXEM-SCHEM-PLACEMENT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-CREATE-SCHEMATIC-001",
+      "to": "AIXEM-SCHEM-GRID-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
+      "to": "AIXEM-CONCEPT-AUTHORITY-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
+      "to": "AIXEM-SCHEM-PLACEMENT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
+      "to": "AIXEM-AGENT-AUTHORING-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
+      "to": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+      "to": "AIXEM-SCHEM-PLACEMENT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+      "to": "AIXEM-SCHEM-GRID-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+      "to": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+      "to": "AIXEM-CONCEPT-NET-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+      "to": "AIXEM-FORMAT-AIXLAYOUT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-RENDER-REVIEW-001",
+      "to": "AIXEM-SPEC-RENDERER-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-RENDER-REVIEW-001",
+      "to": "AIXEM-AGENT-VISUAL-QA-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-RENDER-REVIEW-001",
+      "to": "AIXEM-SPEC-VIEWER-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-RENDER-REVIEW-001",
+      "to": "AIXEM-CONF-VALIDATION-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-ROUTE-NETS-001",
+      "to": "AIXEM-CONCEPT-NET-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-ROUTE-NETS-001",
+      "to": "AIXEM-ROUTE-CONSTRAINT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-ROUTE-NETS-001",
+      "to": "AIXEM-FORMAT-AIXLAYOUT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-ROUTE-NETS-001",
+      "to": "AIXEM-SCHEM-GRID-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-ROUTE-NETS-001",
+      "to": "AIXEM-ROUTE-CROSSING-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-SELECT-LIBRARY-PART-001",
+      "to": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-SELECT-LIBRARY-PART-001",
+      "to": "AIXEM-CONCEPT-COMPONENT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-SELECT-LIBRARY-PART-001",
+      "to": "AIXEM-FORMAT-AIXLIB-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-SELECT-LIBRARY-PART-001",
+      "to": "AIXEM-SYMBOL-BINDING-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-VALIDATE-PROJECT-001",
+      "to": "AIXEM-CONF-VALIDATION-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-VALIDATE-PROJECT-001",
+      "to": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-VALIDATE-PROJECT-001",
+      "to": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-VALIDATE-PROJECT-001",
+      "to": "AIXEM-CONF-TESTS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDE-VALIDATE-PROJECT-001",
+      "to": "AIXEM-SPEC-RELEASE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDES-INDEX-001",
+      "to": "AIXEM-AUTHORING-INDEX-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDES-INDEX-001",
+      "to": "AIXEM-AGENT-ROUTES-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AUTHORING-GUIDES-INDEX-001",
+      "to": "AIXEM-AGENT-AUTHORING-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AUTHORING-INDEX-001",
+      "to": "AIXEM-AGENT-AUTHORING-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-AUTHORING-INDEX-001",
+      "to": "AIXEM-SPEC-RENDERER-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-AUTHORING-INDEX-001",
+      "to": "AIXEM-SPEC-SYMBOL-DESIGN-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONCEPT-AUTHORITY-001",
+      "to": "AIXEM-SPEC-AUTHORITY-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONCEPT-AUTHORITY-001",
+      "to": "AIXEM-ARCH-PIPELINE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONCEPT-AUTHORITY-001",
+      "to": "AIXEM-SPEC-VIEWER-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONCEPT-AUTHORITY-001",
+      "to": "AIXEM-SPEC-VIEWER-STATE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONCEPT-COMPONENT-001",
+      "to": "AIXEM-CONCEPT-SEMANTIC-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-CONCEPT-COMPONENT-001",
+      "to": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONCEPT-COMPONENT-001",
+      "to": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONCEPT-COMPONENT-001",
+      "to": "AIXEM-FORMAT-AIXLIB-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONCEPT-COMPONENT-001",
+      "to": "AIXEM-CONCEPT-SYMBOL-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONCEPT-DETERMINISM-001",
+      "to": "AIXEM-SPEC-PROJECT-LOCK-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONCEPT-DETERMINISM-001",
+      "to": "AIXEM-CONF-RELEASE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONCEPT-DETERMINISM-001",
+      "to": "AIXEM-SPEC-VIEWER-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONCEPT-DETERMINISM-001",
+      "to": "AIXEM-CONF-REFERENCE-VIEWER-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONCEPT-INDEX-001",
+      "to": "AIXEM-CONCEPT-SEMANTIC-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONCEPT-INDEX-001",
+      "to": "AIXEM-CONCEPT-AUTHORITY-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONCEPT-INDEX-001",
+      "to": "AIXEM-CONCEPT-DETERMINISM-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONCEPT-LAYOUT-001",
+      "to": "AIXEM-CONCEPT-SEMANTIC-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-CONCEPT-LAYOUT-001",
+      "to": "AIXEM-FORMAT-AIXLAYOUT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONCEPT-LAYOUT-001",
+      "to": "AIXEM-SCHEM-GRID-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONCEPT-LAYOUT-001",
+      "to": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONCEPT-NET-001",
+      "to": "AIXEM-CONCEPT-SEMANTIC-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-CONCEPT-NET-001",
+      "to": "AIXEM-ROUTE-NETS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONCEPT-NET-001",
+      "to": "AIXEM-SCHEM-JUNCTION-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONCEPT-NET-001",
+      "to": "AIXEM-CONCEPT-PROJECT-NET-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONCEPT-PROJECT-NET-001",
+      "to": "AIXEM-CONCEPT-NET-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-CONCEPT-PROJECT-NET-001",
+      "to": "AIXEM-SPEC-INTERFACE-PORT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-CONCEPT-PROJECT-NET-001",
+      "to": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONCEPT-PROJECT-NET-001",
+      "to": "AIXEM-CONCEPT-LAYOUT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONCEPT-SEMANTIC-001",
+      "to": "AIXEM-CONCEPT-NET-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONCEPT-SEMANTIC-001",
+      "to": "AIXEM-FORMAT-AIXEM-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONCEPT-SEMANTIC-001",
+      "to": "AIXEM-SPEC-INTERFACE-PORT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONCEPT-SYMBOL-001",
+      "to": "AIXEM-CONCEPT-COMPONENT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-CONCEPT-SYMBOL-001",
+      "to": "AIXEM-SYMBOL-ANATOMY-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONCEPT-SYMBOL-001",
+      "to": "AIXEM-FORMAT-AIXSYM-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-AGENT-AUTHORING-001",
+      "to": "AIXEM-SPEC-AGENT-EXECUTION-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-CONF-AGENT-AUTHORING-001",
+      "to": "AIXEM-SPEC-AGENT-RUN-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-CONF-AGENT-AUTHORING-001",
+      "to": "AIXEM-CONF-AGENT-DIAGNOSTICS-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-CONF-AGENT-AUTHORING-001",
+      "to": "AIXEM-CONF-RELEASE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-AGENT-DIAGNOSTICS-001",
+      "to": "AIXEM-SPEC-AGENT-DIAGNOSTIC-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-CONF-AGENT-DIAGNOSTICS-001",
+      "to": "AIXEM-CONF-AGENT-AUTHORING-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-AGENT-LIVE-001",
+      "to": "AIXEM-SPEC-AGENT-TASK-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-CONF-AGENT-LIVE-001",
+      "to": "AIXEM-SPEC-AGENT-STAGE-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-CONF-AGENT-LIVE-001",
+      "to": "AIXEM-SPEC-AGENT-EXECUTOR-LIVE-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-CONF-AGENT-LIVE-001",
+      "to": "AIXEM-SPEC-AGENT-OBSERVATION-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-CONF-AGENT-LIVE-001",
+      "to": "AIXEM-SPEC-AGENT-EVAL-INVARIANT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-CONF-AGENT-LIVE-001",
+      "to": "AIXEM-SPEC-AGENT-LIVE-RUN-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-CONF-AGENT-LIVE-001",
+      "to": "AIXEM-CONF-AGENT-AUTHORING-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-AGENT-LIVE-001",
+      "to": "AIXEM-RELEASE-056-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-B2D-001",
+      "to": "AIXEM-CONF-SYMBOL-EXP-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-CONF-B2D-001",
+      "to": "AIXEM-SPEC-RENDERER-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-CONF-B2D-001",
+      "to": "AIXEM-EXAMPLE-SYMBOL-CORPUS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-B2D-001",
+      "to": "AIXEM-CONF-COMPAT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-COMPAT-001",
+      "to": "AIXEM-GOV-COMPAT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-COMPAT-001",
+      "to": "AIXEM-RELEASE-040-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-COMPAT-001",
+      "to": "AIXEM-RELEASE-050-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-COMPAT-001",
+      "to": "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-COMPAT-001",
+      "to": "AIXEM-SPEC-VIEWER-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
+      "to": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
+      "to": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
+      "to": "AIXEM-CONF-RELEASE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
+      "to": "AIXEM-CONF-COMPAT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
+      "to": "AIXEM-CONF-REFERENCE-VIEWER-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-INDEX-001",
+      "to": "AIXEM-CONF-REQUIREMENTS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-INDEX-001",
+      "to": "AIXEM-CONF-VALIDATION-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-INDEX-001",
+      "to": "AIXEM-CONF-RELEASE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-REFERENCE-VIEWER-001",
+      "to": "AIXEM-SPEC-VIEWER-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-CONF-REFERENCE-VIEWER-001",
+      "to": "AIXEM-SPEC-VIEWER-STATE-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-CONF-REFERENCE-VIEWER-001",
+      "to": "AIXEM-SPEC-VIEWER-SECURITY-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-CONF-REFERENCE-VIEWER-001",
+      "to": "AIXEM-SPEC-VIEWER-A11Y-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-CONF-REFERENCE-VIEWER-001",
+      "to": "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-REFERENCE-VIEWER-001",
+      "to": "AIXEM-CONF-RELEASE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-RELEASE-001",
+      "to": "AIXEM-SPEC-RELEASE-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-CONF-RELEASE-001",
+      "to": "AIXEM-CONF-TESTS-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-CONF-RELEASE-001",
+      "to": "AIXEM-GOV-RELEASE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-RELEASE-001",
+      "to": "AIXEM-ARCH-PIPELINE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-RELEASE-001",
+      "to": "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-RELEASE-001",
+      "to": "AIXEM-CONF-REFERENCE-VIEWER-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-REQUIREMENTS-001",
+      "to": "AIXEM-SPEC-METADATA-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-REQUIREMENTS-001",
+      "to": "AIXEM-CONF-VALIDATION-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-SYMBOL-EXP-001",
+      "to": "AIXEM-SPEC-RENDERER-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-CONF-SYMBOL-EXP-001",
+      "to": "AIXEM-SPEC-SYMBOL-DESIGN-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-CONF-SYMBOL-EXP-001",
+      "to": "AIXEM-CONF-VALIDATION-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-CONF-SYMBOL-EXP-001",
+      "to": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-SYMBOL-EXP-001",
+      "to": "AIXEM-EXAMPLE-SYMBOL-CORPUS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-SYMBOL-EXP-001",
+      "to": "AIXEM-CONF-B2D-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-SYMBOL-EXP-001",
+      "to": "AIXEM-CONF-RELEASE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-TESTS-001",
+      "to": "AIXEM-CONF-VALIDATION-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-CONF-TESTS-001",
+      "to": "AIXEM-CONF-RELEASE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-VALIDATION-001",
+      "to": "AIXEM-CONF-REQUIREMENTS-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-CONF-VALIDATION-001",
+      "to": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-VALIDATION-001",
+      "to": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-VALIDATION-001",
+      "to": "AIXEM-CONF-TESTS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-CONF-VALIDATION-001",
+      "to": "AIXEM-AGENT-VALIDATION-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-DOCS-HOME-001",
+      "to": "AIXEM-START-INTRO-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-DOCS-HOME-001",
+      "to": "AIXEM-ARCH-SYSTEM-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-DOCS-HOME-001",
+      "to": "AIXEM-CONF-REQUIREMENTS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-DOCS-HOME-001",
+      "to": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-DOCS-HOME-001",
+      "to": "AIXEM-RELEASE-0581-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-EXAMPLE-BASIC-001",
+      "to": "AIXEM-START-FIRST-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-EXAMPLE-BASIC-001",
+      "to": "AIXEM-SCHEM-GRID-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-EXAMPLE-BASIC-001",
+      "to": "AIXEM-ROUTE-NETS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-EXAMPLE-BASIC-001",
+      "to": "AIXEM-SPEC-VIEWER-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-EXAMPLE-CONTROLLER-001",
+      "to": "AIXEM-SPEC-GRID-PROFILE-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-EXAMPLE-CONTROLLER-001",
+      "to": "AIXEM-SPEC-PROJECT-LOCK-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-EXAMPLE-CONTROLLER-001",
+      "to": "AIXEM-START-QUICK-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-EXAMPLE-CONTROLLER-001",
+      "to": "AIXEM-SCHEM-VISUAL-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-EXAMPLE-CONTROLLER-001",
+      "to": "AIXEM-SPEC-VIEWER-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-EXAMPLE-HIERARCHY-001",
+      "to": "AIXEM-SCHEM-SHEET-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-EXAMPLE-HIERARCHY-001",
+      "to": "AIXEM-CONCEPT-NET-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-EXAMPLE-HIERARCHY-001",
+      "to": "AIXEM-SCHEM-ANNOTATION-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-EXAMPLE-HIERARCHY-001",
+      "to": "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-EXAMPLE-HIERARCHY-001",
+      "to": "AIXEM-SPEC-VIEWER-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-EXAMPLE-INDEX-001",
+      "to": "AIXEM-EXAMPLE-BASIC-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-EXAMPLE-INDEX-001",
+      "to": "AIXEM-EXAMPLE-CONTROLLER-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-EXAMPLE-INDEX-001",
+      "to": "AIXEM-EXAMPLE-HIERARCHY-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-EXAMPLE-SYMBOL-CORPUS-001",
+      "to": "AIXEM-CONF-SYMBOL-EXP-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-EXAMPLE-SYMBOL-CORPUS-001",
+      "to": "AIXEM-SYMBOL-COOKBOOK-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-EXAMPLE-SYMBOL-CORPUS-001",
+      "to": "AIXEM-SYMBOL-AIXSYM-REF-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-EXAMPLE-SYMBOL-CORPUS-001",
+      "to": "AIXEM-SYMBOL-LINT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-EXAMPLE-SYMBOL-CORPUS-001",
+      "to": "AIXEM-CONF-B2D-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-FORMAT-AIXEM-001",
+      "to": "AIXEM-CONCEPT-SEMANTIC-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-FORMAT-AIXEM-001",
+      "to": "AIXEM-FORMAT-AIXLIB-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-FORMAT-AIXEM-001",
+      "to": "AIXEM-FORMAT-AIXPROJ-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-FORMAT-AIXEM-001",
+      "to": "AIXEM-SPEC-INTERFACE-PORT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-FORMAT-AIXLAYOUT-001",
+      "to": "AIXEM-SPEC-LAYOUT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-FORMAT-AIXLAYOUT-001",
+      "to": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-FORMAT-AIXLAYOUT-001",
+      "to": "AIXEM-SPEC-GRID-PROFILE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-FORMAT-AIXLAYOUT-001",
+      "to": "AIXEM-SCHEM-PLACEMENT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-FORMAT-AIXLAYOUT-001",
+      "to": "AIXEM-ROUTE-NETS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-FORMAT-AIXLAYOUT-001",
+      "to": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-FORMAT-AIXLIB-001",
+      "to": "AIXEM-CONCEPT-COMPONENT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-FORMAT-AIXLIB-001",
+      "to": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-FORMAT-AIXLIB-001",
+      "to": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-FORMAT-AIXLIB-001",
+      "to": "AIXEM-FORMAT-AIXSYM-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-FORMAT-AIXLIB-001",
+      "to": "AIXEM-SPEC-SYMBOL-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-FORMAT-AIXPROJ-001",
+      "to": "AIXEM-SPEC-PROJECT-LOCK-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-FORMAT-AIXPROJ-001",
+      "to": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-FORMAT-AIXPROJ-001",
+      "to": "AIXEM-CONCEPT-DETERMINISM-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-FORMAT-AIXPROJ-001",
+      "to": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-FORMAT-AIXPROJ-001",
+      "to": "AIXEM-CONCEPT-PROJECT-NET-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-FORMAT-AIXSYM-001",
+      "to": "AIXEM-SPEC-SYMBOL-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-FORMAT-AIXSYM-001",
+      "to": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-FORMAT-AIXSYM-001",
+      "to": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-FORMAT-AIXSYM-001",
+      "to": "AIXEM-SYMBOL-PRIMITIVES-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-FORMAT-AIXSYM-001",
+      "to": "AIXEM-FORMAT-AIXLIB-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-FORMAT-INDEX-001",
+      "to": "AIXEM-FORMAT-AIXEM-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-FORMAT-INDEX-001",
+      "to": "AIXEM-FORMAT-AIXPROJ-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-FORMAT-STYLE-001",
+      "to": "AIXEM-SPEC-GRID-PROFILE-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-FORMAT-STYLE-001",
+      "to": "AIXEM-SPEC-VISUAL-PROFILE-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-FORMAT-STYLE-001",
+      "to": "AIXEM-SCHEM-VISUAL-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-GOV-COMPAT-001",
+      "to": "AIXEM-GOV-VERSIONING-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-GOV-COMPAT-001",
+      "to": "AIXEM-CONF-COMPAT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-GOV-DEPRECATION-001",
+      "to": "AIXEM-GOV-VERSIONING-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-GOV-DEPRECATION-001",
+      "to": "AIXEM-CONF-COMPAT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-GOV-DOC-AUTHORING-001",
+      "to": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-GOV-DOC-AUTHORING-001",
+      "to": "AIXEM-SPEC-METADATA-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-GOV-DOC-AUTHORING-001",
+      "to": "AIXEM-GOV-RELEASE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-GOV-DOC-AUTHORING-001",
+      "to": "AIXEM-AGENT-ROUTES-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-GOV-INDEX-001",
+      "to": "AIXEM-GOV-VERSIONING-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-GOV-INDEX-001",
+      "to": "AIXEM-GOV-COMPAT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-GOV-INDEX-001",
+      "to": "AIXEM-GOV-RELEASE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-GOV-INDEX-001",
+      "to": "AIXEM-GOV-DOC-AUTHORING-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-GOV-RELEASE-001",
+      "to": "AIXEM-CONF-RELEASE-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-GOV-RELEASE-001",
+      "to": "AIXEM-ARCH-PIPELINE-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-GOV-RELEASE-001",
+      "to": "AIXEM-GOV-VERSIONING-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-GOV-RELEASE-001",
+      "to": "AIXEM-SPEC-RELEASE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-GOV-TERMS-001",
+      "to": "AIXEM-CONCEPT-INDEX-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-GOV-TERMS-001",
+      "to": "AIXEM-FORMAT-INDEX-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-GOV-VERSIONING-001",
+      "to": "AIXEM-GOV-COMPAT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-GOV-VERSIONING-001",
+      "to": "AIXEM-GOV-DEPRECATION-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-040-001",
+      "to": "AIXEM-CONF-COMPAT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-040-001",
+      "to": "AIXEM-RELEASE-050-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-050-001",
+      "to": "AIXEM-GOV-RELEASE-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-RELEASE-050-001",
+      "to": "AIXEM-RELEASE-040-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-050-001",
+      "to": "AIXEM-SPEC-RELEASE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-051-001",
+      "to": "AIXEM-RELEASE-050-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-RELEASE-051-001",
+      "to": "AIXEM-GOV-RELEASE-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-RELEASE-051-001",
+      "to": "AIXEM-AGENT-AUTHORING-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-051-001",
+      "to": "AIXEM-SPEC-RENDERER-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-051-001",
+      "to": "AIXEM-SPEC-SYMBOL-DESIGN-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-051-001",
+      "to": "AIXEM-SYMBOL-COOKBOOK-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-052-001",
+      "to": "AIXEM-RELEASE-051-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-RELEASE-052-001",
+      "to": "AIXEM-CONF-SYMBOL-EXP-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-RELEASE-052-001",
+      "to": "AIXEM-CONF-B2D-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-RELEASE-052-001",
+      "to": "AIXEM-EXAMPLE-SYMBOL-CORPUS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-052-001",
+      "to": "AIXEM-CONF-RELEASE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-052-001",
+      "to": "AIXEM-SPEC-RENDERER-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-053-001",
+      "to": "AIXEM-RELEASE-052-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-RELEASE-053-001",
+      "to": "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-RELEASE-053-001",
+      "to": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-RELEASE-053-001",
+      "to": "AIXEM-SPEC-INTERFACE-PORT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-053-001",
+      "to": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-053-001",
+      "to": "AIXEM-CONCEPT-PROJECT-NET-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-053-001",
+      "to": "AIXEM-CONF-RELEASE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-054-001",
+      "to": "AIXEM-RELEASE-053-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-RELEASE-054-001",
+      "to": "AIXEM-CONF-REFERENCE-VIEWER-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-RELEASE-054-001",
+      "to": "AIXEM-SPEC-VIEWER-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-054-001",
+      "to": "AIXEM-SPEC-WORKBENCH-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-054-001",
+      "to": "AIXEM-CONF-RELEASE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-055-001",
+      "to": "AIXEM-RELEASE-054-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-RELEASE-055-001",
+      "to": "AIXEM-CONF-AGENT-AUTHORING-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-RELEASE-055-001",
+      "to": "AIXEM-CONF-AGENT-DIAGNOSTICS-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-RELEASE-055-001",
+      "to": "AIXEM-SPEC-AGENT-DIAGNOSTIC-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-055-001",
+      "to": "AIXEM-SPEC-AGENT-CHANGESET-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-055-001",
+      "to": "AIXEM-SPEC-AGENT-EXECUTION-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-055-001",
+      "to": "AIXEM-SPEC-AGENT-RUN-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-055-001",
+      "to": "AIXEM-CONF-RELEASE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-056-001",
+      "to": "AIXEM-RELEASE-055-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-RELEASE-056-001",
+      "to": "AIXEM-CONF-AGENT-LIVE-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-RELEASE-056-001",
+      "to": "AIXEM-AGENT-LIVE-COLD-START-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-057-001",
+      "to": "AIXEM-RELEASE-056-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-RELEASE-057-001",
+      "to": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-RELEASE-057-001",
+      "to": "AIXEM-GOV-DOC-AUTHORING-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-057-001",
+      "to": "AIXEM-SPEC-METADATA-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-057-001",
+      "to": "AIXEM-GOV-RELEASE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-058-001",
+      "to": "AIXEM-RELEASE-057-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-RELEASE-058-001",
+      "to": "AIXEM-CONF-AGENT-LIVE-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-RELEASE-058-001",
+      "to": "AIXEM-SPEC-AGENT-STAGE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-058-001",
+      "to": "AIXEM-SPEC-AGENT-EXECUTOR-LIVE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-058-001",
+      "to": "AIXEM-SPEC-AGENT-OBSERVATION-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-058-001",
+      "to": "AIXEM-SPEC-AGENT-EVAL-INVARIANT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-058-001",
+      "to": "AIXEM-SPEC-AGENT-LIVE-RUN-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-0581-001",
+      "to": "AIXEM-RELEASE-058-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-RELEASE-0581-001",
+      "to": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-RELEASE-0581-001",
+      "to": "AIXEM-DOCS-HOME-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-0581-001",
+      "to": "AIXEM-AGENT-INDEX-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-0581-001",
+      "to": "AIXEM-GOV-RELEASE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-0581-001",
+      "to": "AIXEM-CONF-RELEASE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-059-001",
+      "to": "AIXEM-RELEASE-0581-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-RELEASE-059-001",
+      "to": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-RELEASE-059-001",
+      "to": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-RELEASE-059-001",
+      "to": "AIXEM-AUTHORING-GUIDES-INDEX-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-059-001",
+      "to": "AIXEM-SPEC-SYMBOL-DESIGN-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-059-001",
+      "to": "AIXEM-SCHEM-PLACEMENT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-059-001",
+      "to": "AIXEM-CONF-VALIDATION-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-INDEX-001",
+      "to": "AIXEM-RELEASE-040-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-INDEX-001",
+      "to": "AIXEM-RELEASE-050-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-INDEX-001",
+      "to": "AIXEM-RELEASE-051-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-INDEX-001",
+      "to": "AIXEM-RELEASE-052-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-INDEX-001",
+      "to": "AIXEM-RELEASE-053-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-INDEX-001",
+      "to": "AIXEM-RELEASE-054-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-INDEX-001",
+      "to": "AIXEM-RELEASE-055-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-INDEX-001",
+      "to": "AIXEM-RELEASE-056-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-INDEX-001",
+      "to": "AIXEM-RELEASE-057-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-INDEX-001",
+      "to": "AIXEM-RELEASE-058-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-INDEX-001",
+      "to": "AIXEM-RELEASE-0581-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-RELEASE-INDEX-001",
+      "to": "AIXEM-RELEASE-059-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ROUTE-BEHAVIOR-001",
+      "to": "AIXEM-ROUTE-CONSTRAINT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-ROUTE-BEHAVIOR-001",
+      "to": "AIXEM-AGENT-ROUTING-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ROUTE-BEHAVIOR-001",
+      "to": "AIXEM-ARCH-PIPELINE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ROUTE-CONSTRAINT-001",
+      "to": "AIXEM-ROUTE-ORTHO-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-ROUTE-CONSTRAINT-001",
+      "to": "AIXEM-SCHEM-JUNCTION-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-ROUTE-CONSTRAINT-001",
+      "to": "AIXEM-ROUTE-BEHAVIOR-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ROUTE-CONSTRAINT-001",
+      "to": "AIXEM-CONF-VALIDATION-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ROUTE-COOKBOOK-001",
+      "to": "AIXEM-ROUTE-NETS-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-ROUTE-COOKBOOK-001",
+      "to": "AIXEM-ROUTE-CROSSING-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-ROUTE-COOKBOOK-001",
+      "to": "AIXEM-FORMAT-AIXLAYOUT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-ROUTE-COOKBOOK-001",
+      "to": "AIXEM-SCHEM-COOKBOOK-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ROUTE-COOKBOOK-001",
+      "to": "AIXEM-AGENT-ROUTING-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ROUTE-COOKBOOK-001",
+      "to": "AIXEM-CONCEPT-PROJECT-NET-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ROUTE-CROSSING-001",
+      "to": "AIXEM-SCHEM-JUNCTION-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-ROUTE-CROSSING-001",
+      "to": "AIXEM-ROUTE-ORTHO-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-ROUTE-CROSSING-001",
+      "to": "AIXEM-ROUTE-CONSTRAINT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ROUTE-INDEX-001",
+      "to": "AIXEM-ROUTE-NETS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ROUTE-INDEX-001",
+      "to": "AIXEM-ROUTE-ORTHO-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ROUTE-INDEX-001",
+      "to": "AIXEM-ROUTE-CONSTRAINT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ROUTE-NETS-001",
+      "to": "AIXEM-CONCEPT-NET-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-ROUTE-NETS-001",
+      "to": "AIXEM-CONCEPT-LAYOUT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-ROUTE-NETS-001",
+      "to": "AIXEM-FORMAT-AIXLAYOUT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ROUTE-NETS-001",
+      "to": "AIXEM-ROUTE-BEHAVIOR-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ROUTE-NETS-001",
+      "to": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ROUTE-ORTHO-001",
+      "to": "AIXEM-SCHEM-GRID-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-ROUTE-ORTHO-001",
+      "to": "AIXEM-ROUTE-NETS-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-ROUTE-ORTHO-001",
+      "to": "AIXEM-ROUTE-CONSTRAINT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-ROUTE-ORTHO-001",
+      "to": "AIXEM-ROUTE-CROSSING-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SCHEM-ANNOTATION-001",
+      "to": "AIXEM-CONCEPT-SYMBOL-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SCHEM-ANNOTATION-001",
+      "to": "AIXEM-SYMBOL-FIELDS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SCHEM-ANNOTATION-001",
+      "to": "AIXEM-SCHEM-VISUAL-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SCHEM-COOKBOOK-001",
+      "to": "AIXEM-CONCEPT-AUTHORITY-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SCHEM-COOKBOOK-001",
+      "to": "AIXEM-SYMBOL-BINDING-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SCHEM-COOKBOOK-001",
+      "to": "AIXEM-FORMAT-AIXEM-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SCHEM-COOKBOOK-001",
+      "to": "AIXEM-FORMAT-AIXLAYOUT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SCHEM-COOKBOOK-001",
+      "to": "AIXEM-ROUTE-COOKBOOK-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SCHEM-COOKBOOK-001",
+      "to": "AIXEM-AGENT-VISUAL-QA-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SCHEM-GRID-001",
+      "to": "AIXEM-SPEC-COORD-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SCHEM-GRID-001",
+      "to": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SCHEM-GRID-001",
+      "to": "AIXEM-SPEC-GRID-PROFILE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SCHEM-GRID-001",
+      "to": "AIXEM-SCHEM-PLACEMENT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SCHEM-GRID-001",
+      "to": "AIXEM-ROUTE-ORTHO-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SCHEM-INDEX-001",
+      "to": "AIXEM-SCHEM-GRID-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SCHEM-INDEX-001",
+      "to": "AIXEM-SCHEM-VISUAL-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SCHEM-INDEX-001",
+      "to": "AIXEM-ROUTE-INDEX-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SCHEM-JUNCTION-001",
+      "to": "AIXEM-CONCEPT-NET-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SCHEM-JUNCTION-001",
+      "to": "AIXEM-ROUTE-CROSSING-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SCHEM-JUNCTION-001",
+      "to": "AIXEM-FORMAT-AIXLAYOUT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SCHEM-PLACEMENT-001",
+      "to": "AIXEM-SCHEM-GRID-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SCHEM-PLACEMENT-001",
+      "to": "AIXEM-CONCEPT-LAYOUT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SCHEM-PLACEMENT-001",
+      "to": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SCHEM-PLACEMENT-001",
+      "to": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SCHEM-PLACEMENT-001",
+      "to": "AIXEM-SCHEM-VISUAL-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SCHEM-PLACEMENT-001",
+      "to": "AIXEM-FORMAT-AIXLAYOUT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SCHEM-SHEET-001",
+      "to": "AIXEM-SCHEM-PLACEMENT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SCHEM-SHEET-001",
+      "to": "AIXEM-EXAMPLE-HIERARCHY-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SCHEM-SHEET-001",
+      "to": "AIXEM-SCHEM-ANNOTATION-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SCHEM-SHEET-001",
+      "to": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SCHEM-VISUAL-001",
+      "to": "AIXEM-SCHEM-GRID-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SCHEM-VISUAL-001",
+      "to": "AIXEM-CONCEPT-SYMBOL-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SCHEM-VISUAL-001",
+      "to": "AIXEM-SPEC-VISUAL-PROFILE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SCHEM-VISUAL-001",
+      "to": "AIXEM-ARCH-ADR-0003",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SCHEM-VISUAL-001",
+      "to": "AIXEM-SPEC-VIEWER-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-CHANGESET-001",
+      "to": "AIXEM-SPEC-AGENT-DIAGNOSTIC-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-CHANGESET-001",
+      "to": "AIXEM-CONCEPT-AUTHORITY-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-CHANGESET-001",
+      "to": "AIXEM-SPEC-AGENT-EXECUTION-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-DIAGNOSTIC-001",
+      "to": "AIXEM-SPEC-AGENT-RETRIEVAL-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-DIAGNOSTIC-001",
+      "to": "AIXEM-CONF-VALIDATION-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-DIAGNOSTIC-001",
+      "to": "AIXEM-CONF-AGENT-DIAGNOSTICS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-DIAGNOSTIC-001",
+      "to": "AIXEM-SPEC-AGENT-EXECUTION-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-EVAL-INVARIANT-001",
+      "to": "AIXEM-SPEC-AGENT-STAGE-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-EVAL-INVARIANT-001",
+      "to": "AIXEM-SPEC-AGENT-EXECUTION-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-EVAL-INVARIANT-001",
+      "to": "AIXEM-SPEC-AGENT-LIVE-RUN-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-EVAL-INVARIANT-001",
+      "to": "AIXEM-CONF-AGENT-LIVE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-EXECUTION-001",
+      "to": "AIXEM-SPEC-AGENT-DIAGNOSTIC-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-EXECUTION-001",
+      "to": "AIXEM-SPEC-AGENT-CHANGESET-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-EXECUTION-001",
+      "to": "AIXEM-SPEC-AGENT-RETRIEVAL-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-EXECUTION-001",
+      "to": "AIXEM-SPEC-AGENT-RUN-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-EXECUTION-001",
+      "to": "AIXEM-CONF-AGENT-AUTHORING-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-EXECUTOR-LIVE-001",
+      "to": "AIXEM-SPEC-AGENT-STAGE-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-EXECUTOR-LIVE-001",
+      "to": "AIXEM-SPEC-AGENT-OBSERVATION-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-EXECUTOR-LIVE-001",
+      "to": "AIXEM-SPEC-AGENT-LIVE-RUN-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-LIVE-RUN-001",
+      "to": "AIXEM-SPEC-AGENT-EXECUTOR-LIVE-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-LIVE-RUN-001",
+      "to": "AIXEM-SPEC-AGENT-EVAL-INVARIANT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-LIVE-RUN-001",
+      "to": "AIXEM-SPEC-AGENT-RUN-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-LIVE-RUN-001",
+      "to": "AIXEM-CONF-AGENT-LIVE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-OBSERVATION-001",
+      "to": "AIXEM-SPEC-AGENT-TASK-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-OBSERVATION-001",
+      "to": "AIXEM-SPEC-AGENT-EXECUTOR-LIVE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-OBSERVATION-001",
+      "to": "AIXEM-SPEC-AGENT-LIVE-RUN-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-RETRIEVAL-001",
+      "to": "AIXEM-ARCH-ADR-0002",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-RETRIEVAL-001",
+      "to": "AIXEM-AGENT-RETRIEVAL-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-RETRIEVAL-001",
+      "to": "AIXEM-AGENT-ROUTES-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-RUN-001",
+      "to": "AIXEM-SPEC-AGENT-EXECUTION-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-RUN-001",
+      "to": "AIXEM-SPEC-AGENT-CHANGESET-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-RUN-001",
+      "to": "AIXEM-CONF-AGENT-AUTHORING-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-STAGE-001",
+      "to": "AIXEM-SPEC-AGENT-TASK-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-STAGE-001",
+      "to": "AIXEM-SPEC-AGENT-RETRIEVAL-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-STAGE-001",
+      "to": "AIXEM-SPEC-AGENT-EXECUTOR-LIVE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-STAGE-001",
+      "to": "AIXEM-SPEC-AGENT-EVAL-INVARIANT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-TASK-001",
+      "to": "AIXEM-SPEC-AGENT-RETRIEVAL-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-TASK-001",
+      "to": "AIXEM-SPEC-AGENT-EXECUTION-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-TASK-001",
+      "to": "AIXEM-SPEC-AGENT-STAGE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-AGENT-TASK-001",
+      "to": "AIXEM-CONF-AGENT-LIVE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-AUTHORITY-001",
+      "to": "AIXEM-CONCEPT-AUTHORITY-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-AUTHORITY-001",
+      "to": "AIXEM-ARCH-ARTIFACT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-AUTHORITY-001",
+      "to": "AIXEM-AGENT-FAILURE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-COORD-001",
+      "to": "AIXEM-SCHEM-GRID-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-COORD-001",
+      "to": "AIXEM-SYMBOL-ANATOMY-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-COORD-001",
+      "to": "AIXEM-FORMAT-AIXLAYOUT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+      "to": "AIXEM-SPEC-DOCUMENT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+      "to": "AIXEM-SPEC-METADATA-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+      "to": "AIXEM-SPEC-RELEASE-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+      "to": "AIXEM-GOV-DOC-AUTHORING-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+      "to": "AIXEM-AGENT-ROUTES-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+      "to": "AIXEM-GOV-RELEASE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-DOCUMENT-001",
+      "to": "AIXEM-SPEC-METADATA-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-DOCUMENT-001",
+      "to": "AIXEM-GOV-VERSIONING-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-GRID-PROFILE-001",
+      "to": "AIXEM-SCHEM-GRID-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-GRID-PROFILE-001",
+      "to": "AIXEM-ROUTE-ORTHO-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-GRID-PROFILE-001",
+      "to": "AIXEM-SCHEM-JUNCTION-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-GRID-PROFILE-001",
+      "to": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-GRID-PROFILE-001",
+      "to": "AIXEM-SPEC-VISUAL-PROFILE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-GRID-PROFILE-001",
+      "to": "AIXEM-FORMAT-STYLE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
+      "to": "AIXEM-SPEC-LAYOUT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
+      "to": "AIXEM-SPEC-INTERFACE-PORT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
+      "to": "AIXEM-CONCEPT-PROJECT-NET-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
+      "to": "AIXEM-FORMAT-AIXLAYOUT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
+      "to": "AIXEM-ROUTE-NETS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-INDEX-001",
+      "to": "AIXEM-SPEC-DOCUMENT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-INDEX-001",
+      "to": "AIXEM-SPEC-AUTHORITY-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-INDEX-001",
+      "to": "AIXEM-SPEC-RELEASE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-INDEX-001",
+      "to": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-INTERFACE-PORT-001",
+      "to": "AIXEM-CONCEPT-SEMANTIC-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-INTERFACE-PORT-001",
+      "to": "AIXEM-CONCEPT-NET-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-INTERFACE-PORT-001",
+      "to": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-INTERFACE-PORT-001",
+      "to": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-INTERFACE-PORT-001",
+      "to": "AIXEM-FORMAT-AIXEM-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-LAYOUT-001",
+      "to": "AIXEM-CONCEPT-LAYOUT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-LAYOUT-001",
+      "to": "AIXEM-SPEC-COORD-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-LAYOUT-001",
+      "to": "AIXEM-FORMAT-AIXLAYOUT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+      "to": "AIXEM-FORMAT-AIXLIB-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+      "to": "AIXEM-FORMAT-AIXSYM-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+      "to": "AIXEM-SYMBOL-BINDING-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+      "to": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+      "to": "AIXEM-SPEC-SYMBOL-DESIGN-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+      "to": "AIXEM-CONF-VALIDATION-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-METADATA-001",
+      "to": "AIXEM-SPEC-DOCUMENT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-METADATA-001",
+      "to": "AIXEM-AGENT-ROUTES-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-METADATA-001",
+      "to": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
+      "to": "AIXEM-CONCEPT-COMPONENT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
+      "to": "AIXEM-FORMAT-AIXLIB-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
+      "to": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
+      "to": "AIXEM-SYMBOL-PORTS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
+      "to": "AIXEM-CONCEPT-NET-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
+      "to": "AIXEM-CONF-VALIDATION-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
+      "to": "AIXEM-SPEC-PROJECT-LOCK-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
+      "to": "AIXEM-SPEC-INTERFACE-PORT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
+      "to": "AIXEM-CONCEPT-PROJECT-NET-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
+      "to": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
+      "to": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
+      "to": "AIXEM-FORMAT-AIXPROJ-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
+      "to": "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-PROJECT-LOCK-001",
+      "to": "AIXEM-CONCEPT-DETERMINISM-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-PROJECT-LOCK-001",
+      "to": "AIXEM-FORMAT-AIXPROJ-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-PROJECT-LOCK-001",
+      "to": "AIXEM-CONF-RELEASE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-RELEASE-001",
+      "to": "AIXEM-CONCEPT-DETERMINISM-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-RELEASE-001",
+      "to": "AIXEM-SPEC-METADATA-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-RELEASE-001",
+      "to": "AIXEM-CONF-RELEASE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-RELEASE-001",
+      "to": "AIXEM-GOV-RELEASE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-RENDERER-001",
+      "to": "AIXEM-SPEC-SYMBOL-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-RENDERER-001",
+      "to": "AIXEM-SPEC-LAYOUT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-RENDERER-001",
+      "to": "AIXEM-SPEC-PROJECT-LOCK-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-RENDERER-001",
+      "to": "AIXEM-SYMBOL-BINDING-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-RENDERER-001",
+      "to": "AIXEM-AGENT-VISUAL-QA-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-RENDERER-001",
+      "to": "AIXEM-SPEC-VIEWER-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-RENDERER-001",
+      "to": "AIXEM-SPEC-WORKBENCH-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-SCHEMAS-001",
+      "to": "AIXEM-SPEC-METADATA-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-SCHEMAS-001",
+      "to": "AIXEM-SPEC-SYMBOL-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-SCHEMAS-001",
+      "to": "AIXEM-SPEC-LAYOUT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-SCHEMAS-001",
+      "to": "AIXEM-SPEC-PROJECT-LOCK-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-SYMBOL-001",
+      "to": "AIXEM-SYMBOL-ANATOMY-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-SYMBOL-001",
+      "to": "AIXEM-SYMBOL-PRIMITIVES-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-SYMBOL-001",
+      "to": "AIXEM-FORMAT-AIXSYM-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-SYMBOL-DESIGN-001",
+      "to": "AIXEM-SPEC-GRID-PROFILE-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-SYMBOL-DESIGN-001",
+      "to": "AIXEM-SPEC-VISUAL-PROFILE-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-SYMBOL-DESIGN-001",
+      "to": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-SYMBOL-DESIGN-001",
+      "to": "AIXEM-SYMBOL-DESIGN-RULES-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-SYMBOL-DESIGN-001",
+      "to": "AIXEM-SYMBOL-LINT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-VIEWER-001",
+      "to": "AIXEM-SPEC-RENDERER-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-VIEWER-001",
+      "to": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-VIEWER-001",
+      "to": "AIXEM-SPEC-VISUAL-PROFILE-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-VIEWER-001",
+      "to": "AIXEM-SPEC-WORKBENCH-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-VIEWER-001",
+      "to": "AIXEM-SPEC-VIEWER-STATE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-VIEWER-001",
+      "to": "AIXEM-SPEC-VIEWER-SECURITY-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-VIEWER-001",
+      "to": "AIXEM-CONF-REFERENCE-VIEWER-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-VIEWER-A11Y-001",
+      "to": "AIXEM-SPEC-VIEWER-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-VIEWER-A11Y-001",
+      "to": "AIXEM-SPEC-VIEWER-STATE-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-VIEWER-A11Y-001",
+      "to": "AIXEM-SPEC-VIEWER-SECURITY-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-VIEWER-A11Y-001",
+      "to": "AIXEM-CONF-REFERENCE-VIEWER-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-VIEWER-INDEX-001",
+      "to": "AIXEM-SPEC-VIEWER-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-VIEWER-INDEX-001",
+      "to": "AIXEM-SPEC-WORKBENCH-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-VIEWER-INDEX-001",
+      "to": "AIXEM-SPEC-VIEWER-STATE-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-VIEWER-INDEX-001",
+      "to": "AIXEM-SPEC-VIEWER-SECURITY-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-VIEWER-INDEX-001",
+      "to": "AIXEM-SPEC-VIEWER-A11Y-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-VIEWER-SECURITY-001",
+      "to": "AIXEM-SPEC-VIEWER-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-VIEWER-SECURITY-001",
+      "to": "AIXEM-SPEC-VIEWER-A11Y-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-VIEWER-SECURITY-001",
+      "to": "AIXEM-CONF-REFERENCE-VIEWER-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-VIEWER-STATE-001",
+      "to": "AIXEM-SPEC-VIEWER-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-VIEWER-STATE-001",
+      "to": "AIXEM-SPEC-VIEWER-A11Y-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-VIEWER-STATE-001",
+      "to": "AIXEM-SPEC-VIEWER-SECURITY-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-VISUAL-PROFILE-001",
+      "to": "AIXEM-SCHEM-VISUAL-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-VISUAL-PROFILE-001",
+      "to": "AIXEM-ARCH-ADR-0003",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-VISUAL-PROFILE-001",
+      "to": "AIXEM-EXAMPLE-CONTROLLER-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-VISUAL-PROFILE-001",
+      "to": "AIXEM-SPEC-VIEWER-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-VISUAL-PROFILE-001",
+      "to": "AIXEM-SPEC-VIEWER-A11Y-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-WORKBENCH-001",
+      "to": "AIXEM-SPEC-VIEWER-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SPEC-WORKBENCH-001",
+      "to": "AIXEM-SPEC-VIEWER-SECURITY-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SPEC-WORKBENCH-001",
+      "to": "AIXEM-CONF-REFERENCE-VIEWER-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-START-FIRST-001",
+      "to": "AIXEM-CONCEPT-AUTHORITY-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-START-FIRST-001",
+      "to": "AIXEM-FORMAT-AIXEM-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-START-FIRST-001",
+      "to": "AIXEM-FORMAT-AIXPROJ-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-START-FIRST-001",
+      "to": "AIXEM-AGENT-SCHEMATIC-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-START-FIRST-001",
+      "to": "AIXEM-SCHEM-GRID-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-START-FIRST-001",
+      "to": "AIXEM-ROUTE-ORTHO-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-START-INDEX-001",
+      "to": "AIXEM-START-INTRO-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-START-INDEX-001",
+      "to": "AIXEM-START-QUICK-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-START-INDEX-001",
+      "to": "AIXEM-START-FIRST-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-START-INTRO-001",
+      "to": "AIXEM-CONCEPT-AUTHORITY-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-START-INTRO-001",
+      "to": "AIXEM-ARCH-SYSTEM-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-START-QUICK-001",
+      "to": "AIXEM-START-INTRO-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-START-QUICK-001",
+      "to": "AIXEM-EXAMPLE-CONTROLLER-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-START-QUICK-001",
+      "to": "AIXEM-CONF-VALIDATION-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-START-QUICK-001",
+      "to": "AIXEM-SPEC-VIEWER-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SYMBOL-AIXSYM-REF-001",
+      "to": "AIXEM-SPEC-SYMBOL-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SYMBOL-AIXSYM-REF-001",
+      "to": "AIXEM-SYMBOL-PRIMITIVES-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SYMBOL-AIXSYM-REF-001",
+      "to": "AIXEM-SPEC-RENDERER-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SYMBOL-ANATOMY-001",
+      "to": "AIXEM-CONCEPT-SYMBOL-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SYMBOL-ANATOMY-001",
+      "to": "AIXEM-SYMBOL-PORTS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SYMBOL-ANATOMY-001",
+      "to": "AIXEM-SYMBOL-PRIMITIVES-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SYMBOL-AUTHORING-001",
+      "to": "AIXEM-SYMBOL-PORTS-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SYMBOL-AUTHORING-001",
+      "to": "AIXEM-SYMBOL-PRIMITIVES-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SYMBOL-AUTHORING-001",
+      "to": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SYMBOL-AUTHORING-001",
+      "to": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SYMBOL-AUTHORING-001",
+      "to": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SYMBOL-AUTHORING-001",
+      "to": "AIXEM-AGENT-SYMBOL-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SYMBOL-AUTHORING-001",
+      "to": "AIXEM-SYMBOL-LINT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SYMBOL-BINDING-001",
+      "to": "AIXEM-CONCEPT-COMPONENT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SYMBOL-BINDING-001",
+      "to": "AIXEM-FORMAT-AIXLIB-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SYMBOL-BINDING-001",
+      "to": "AIXEM-SPEC-RENDERER-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SYMBOL-BINDING-001",
+      "to": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SYMBOL-BINDING-001",
+      "to": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SYMBOL-BINDING-001",
+      "to": "AIXEM-SYMBOL-PORTS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SYMBOL-BINDING-001",
+      "to": "AIXEM-SYMBOL-FIELDS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SYMBOL-COOKBOOK-001",
+      "to": "AIXEM-SPEC-SYMBOL-DESIGN-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SYMBOL-COOKBOOK-001",
+      "to": "AIXEM-SYMBOL-AIXSYM-REF-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SYMBOL-COOKBOOK-001",
+      "to": "AIXEM-SYMBOL-PORTS-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SYMBOL-COOKBOOK-001",
+      "to": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SYMBOL-COOKBOOK-001",
+      "to": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SYMBOL-COOKBOOK-001",
+      "to": "AIXEM-SYMBOL-BINDING-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SYMBOL-COOKBOOK-001",
+      "to": "AIXEM-AGENT-VISUAL-QA-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SYMBOL-DESIGN-RULES-001",
+      "to": "AIXEM-SPEC-SYMBOL-DESIGN-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SYMBOL-DESIGN-RULES-001",
+      "to": "AIXEM-SYMBOL-LINT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SYMBOL-FIELDS-001",
+      "to": "AIXEM-SYMBOL-ANATOMY-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SYMBOL-FIELDS-001",
+      "to": "AIXEM-SCHEM-ANNOTATION-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SYMBOL-FIELDS-001",
+      "to": "AIXEM-SYMBOL-LINT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SYMBOL-INDEX-001",
+      "to": "AIXEM-SYMBOL-ANATOMY-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SYMBOL-INDEX-001",
+      "to": "AIXEM-SYMBOL-AUTHORING-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SYMBOL-INDEX-001",
+      "to": "AIXEM-SPEC-SYMBOL-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SYMBOL-LINT-001",
+      "to": "AIXEM-SYMBOL-ANATOMY-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SYMBOL-LINT-001",
+      "to": "AIXEM-SYMBOL-PORTS-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SYMBOL-LINT-001",
+      "to": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SYMBOL-LINT-001",
+      "to": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SYMBOL-LINT-001",
+      "to": "AIXEM-CONF-VALIDATION-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SYMBOL-PORTS-001",
+      "to": "AIXEM-CONCEPT-COMPONENT-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SYMBOL-PORTS-001",
+      "to": "AIXEM-SYMBOL-ANATOMY-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SYMBOL-PORTS-001",
+      "to": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SYMBOL-PORTS-001",
+      "to": "AIXEM-SCHEM-ANNOTATION-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SYMBOL-PORTS-001",
+      "to": "AIXEM-FORMAT-AIXSYM-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SYMBOL-PRIMITIVES-001",
+      "to": "AIXEM-SYMBOL-ANATOMY-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SYMBOL-PRIMITIVES-001",
+      "to": "AIXEM-FORMAT-AIXSYM-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SYMBOL-PRIMITIVES-001",
+      "to": "AIXEM-SPEC-SYMBOL-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SYMBOL-VARIANTS-001",
+      "to": "AIXEM-SYMBOL-PORTS-001",
+      "type": "depends-on"
+    },
+    {
+      "from": "AIXEM-SYMBOL-VARIANTS-001",
+      "to": "AIXEM-FORMAT-AIXLIB-001",
+      "type": "related"
+    },
+    {
+      "from": "AIXEM-SYMBOL-VARIANTS-001",
+      "to": "AIXEM-SPEC-SYMBOL-001",
+      "type": "related"
+    }
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "nodes": [
+    {
+      "domain": "agent",
+      "id": "AIXEM-AGENT-ARCH-001",
+      "path": "docs/agent/architecture.md",
+      "status": "normative",
+      "title": "Agent Architecture"
+    },
+    {
+      "domain": "agent",
+      "id": "AIXEM-AGENT-AUTHORING-001",
+      "path": "docs/agent/authoring-orchestration.md",
+      "status": "normative",
+      "title": "Agent Authoring Orchestration"
+    },
+    {
+      "domain": "agent",
+      "id": "AIXEM-AGENT-FAILURE-001",
+      "path": "docs/agent/failure-policy.md",
+      "status": "normative",
+      "title": "Fail-Closed Policy"
+    },
+    {
+      "domain": "agent",
+      "id": "AIXEM-AGENT-INDEX-001",
+      "path": "docs/agent/index.md",
+      "status": "informative",
+      "title": "AI Agent Operations"
+    },
+    {
+      "domain": "agent",
+      "id": "AIXEM-AGENT-LIVE-COLD-START-001",
+      "path": "docs/agent/live-agent-cold-start-authoring.md",
+      "status": "normative",
+      "title": "Live-Agent Cold-Start Authoring"
+    },
+    {
+      "domain": "agent",
+      "id": "AIXEM-AGENT-RETRIEVAL-001",
+      "path": "docs/agent/retrieval.md",
+      "status": "normative",
+      "title": "Bounded Retrieval"
+    },
+    {
+      "domain": "agent",
+      "id": "AIXEM-AGENT-ROUTES-001",
+      "path": "docs/agent/task-routing.md",
+      "status": "normative",
+      "title": "Task Routes"
+    },
+    {
+      "domain": "agent",
+      "id": "AIXEM-AGENT-ROUTING-001",
+      "path": "docs/agent/routing-agent.md",
+      "status": "informative",
+      "title": "Routing Agent"
+    },
+    {
+      "domain": "agent",
+      "id": "AIXEM-AGENT-SCHEMATIC-001",
+      "path": "docs/agent/schematic-authoring.md",
+      "status": "informative",
+      "title": "Schematic Authoring Agent"
+    },
+    {
+      "domain": "agent",
+      "id": "AIXEM-AGENT-SYMBOL-001",
+      "path": "docs/agent/symbol-generation.md",
+      "status": "informative",
+      "title": "Symbol Generation Agent"
+    },
+    {
+      "domain": "agent",
+      "id": "AIXEM-AGENT-VALIDATION-001",
+      "path": "docs/agent/validation-loop.md",
+      "status": "normative",
+      "title": "Three-Stage Validation Loop"
+    },
+    {
+      "domain": "agent",
+      "id": "AIXEM-AGENT-VISUAL-QA-001",
+      "path": "docs/agent/visual-qa-loop.md",
+      "status": "normative",
+      "title": "Visual QA and Repair Loop"
+    },
+    {
+      "domain": "architecture",
+      "id": "AIXEM-ARCH-ADR-0001",
+      "path": "docs/architecture/adr/0001-canonical-doc-root.md",
+      "status": "normative",
+      "title": "ADR-0001: One Canonical Documentation Root"
+    },
+    {
+      "domain": "architecture",
+      "id": "AIXEM-ARCH-ADR-0002",
+      "path": "docs/architecture/adr/0002-route-first-retrieval.md",
+      "status": "normative",
+      "title": "ADR-0002: Route-First Agent Retrieval"
+    },
+    {
+      "domain": "architecture",
+      "id": "AIXEM-ARCH-ADR-0003",
+      "path": "docs/architecture/adr/0003-vendor-neutral-ui.md",
+      "status": "normative",
+      "title": "ADR-0003: Vendor-Neutral Engineering Surfaces"
+    },
+    {
+      "domain": "architecture",
+      "id": "AIXEM-ARCH-ADR-0004",
+      "path": "docs/architecture/adr/0004-symbol-style-and-renderer-precedence.md",
+      "status": "normative",
+      "title": "ADR 0004 — Symbol Style and Renderer Precedence"
+    },
+    {
+      "domain": "architecture",
+      "id": "AIXEM-ARCH-ADR-INDEX-001",
+      "path": "docs/architecture/adr/index.md",
+      "status": "informative",
+      "title": "Architecture Decision Records"
+    },
+    {
+      "domain": "architecture",
+      "id": "AIXEM-ARCH-ARTIFACT-001",
+      "path": "docs/architecture/artifact-store.md",
+      "status": "normative",
+      "title": "Artifact Ownership and Storage"
+    },
+    {
+      "domain": "architecture",
+      "id": "AIXEM-ARCH-CACHE-001",
+      "path": "docs/architecture/cache.md",
+      "status": "normative",
+      "title": "Cache and Incremental Compilation"
+    },
+    {
+      "domain": "architecture",
+      "id": "AIXEM-ARCH-INDEX-001",
+      "path": "docs/architecture/index.md",
+      "status": "informative",
+      "title": "System Architecture"
+    },
+    {
+      "domain": "architecture",
+      "id": "AIXEM-ARCH-PIPELINE-001",
+      "path": "docs/architecture/pipeline.md",
+      "status": "normative",
+      "title": "Build and Authoring Pipeline"
+    },
+    {
+      "domain": "architecture",
+      "id": "AIXEM-ARCH-SECURITY-001",
+      "path": "docs/architecture/security.md",
+      "status": "normative",
+      "title": "Security and Trust Boundaries"
+    },
+    {
+      "domain": "architecture",
+      "id": "AIXEM-ARCH-SYSTEM-001",
+      "path": "docs/architecture/system-overview.md",
+      "status": "normative",
+      "title": "System Overview"
+    },
+    {
+      "domain": "authoring",
+      "id": "AIXEM-AUTHORING-GUIDE-AUTHOR-COMPONENT-CIRCUIT-001",
+      "path": "docs/authoring/guides/author-component-circuit.md",
+      "status": "informative",
+      "title": "Author a Component Circuit"
+    },
+    {
+      "domain": "authoring",
+      "id": "AIXEM-AUTHORING-GUIDE-COMPOSE-PROJECT-001",
+      "path": "docs/authoring/guides/compose-project.md",
+      "status": "informative",
+      "title": "Compose a Project"
+    },
+    {
+      "domain": "authoring",
+      "id": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+      "path": "docs/authoring/guides/create-library-part.md",
+      "status": "informative",
+      "title": "Create a Library Part"
+    },
+    {
+      "domain": "authoring",
+      "id": "AIXEM-AUTHORING-GUIDE-CREATE-SCHEMATIC-001",
+      "path": "docs/authoring/guides/create-schematic.md",
+      "status": "informative",
+      "title": "Create a Schematic"
+    },
+    {
+      "domain": "authoring",
+      "id": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
+      "path": "docs/authoring/guides/modify-existing-schematic.md",
+      "status": "informative",
+      "title": "Modify an Existing Schematic"
+    },
+    {
+      "domain": "authoring",
+      "id": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+      "path": "docs/authoring/guides/place-components.md",
+      "status": "informative",
+      "title": "Agent Component Placement Strategy"
+    },
+    {
+      "domain": "authoring",
+      "id": "AIXEM-AUTHORING-GUIDE-RENDER-REVIEW-001",
+      "path": "docs/authoring/guides/render-review.md",
+      "status": "informative",
+      "title": "Render and Review"
+    },
+    {
+      "domain": "authoring",
+      "id": "AIXEM-AUTHORING-GUIDE-ROUTE-NETS-001",
+      "path": "docs/authoring/guides/route-nets.md",
+      "status": "informative",
+      "title": "Route Nets"
+    },
+    {
+      "domain": "authoring",
+      "id": "AIXEM-AUTHORING-GUIDE-SELECT-LIBRARY-PART-001",
+      "path": "docs/authoring/guides/select-library-part.md",
+      "status": "informative",
+      "title": "Select a Library Part"
+    },
+    {
+      "domain": "authoring",
+      "id": "AIXEM-AUTHORING-GUIDE-VALIDATE-PROJECT-001",
+      "path": "docs/authoring/guides/validate-project.md",
+      "status": "informative",
+      "title": "Validate a Project"
+    },
+    {
+      "domain": "authoring",
+      "id": "AIXEM-AUTHORING-GUIDES-INDEX-001",
+      "path": "docs/authoring/guides/index.md",
+      "status": "informative",
+      "title": "Task-Oriented Authoring Guides"
+    },
+    {
+      "domain": "authoring",
+      "id": "AIXEM-AUTHORING-INDEX-001",
+      "path": "docs/authoring/index.md",
+      "status": "informative",
+      "title": "Authoring"
+    },
+    {
+      "domain": "concepts",
+      "id": "AIXEM-CONCEPT-AUTHORITY-001",
+      "path": "docs/concepts/authority-model.md",
+      "status": "normative",
+      "title": "Authority Model"
+    },
+    {
+      "domain": "concepts",
+      "id": "AIXEM-CONCEPT-COMPONENT-001",
+      "path": "docs/concepts/component-model.md",
+      "status": "normative",
+      "title": "Component Model"
+    },
+    {
+      "domain": "concepts",
+      "id": "AIXEM-CONCEPT-DETERMINISM-001",
+      "path": "docs/concepts/deterministic-builds.md",
+      "status": "normative",
+      "title": "Deterministic Builds"
+    },
+    {
+      "domain": "concepts",
+      "id": "AIXEM-CONCEPT-INDEX-001",
+      "path": "docs/concepts/index.md",
+      "status": "informative",
+      "title": "Core Concepts"
+    },
+    {
+      "domain": "concepts",
+      "id": "AIXEM-CONCEPT-LAYOUT-001",
+      "path": "docs/concepts/layout-model.md",
+      "status": "normative",
+      "title": "Explicit Layout Model"
+    },
+    {
+      "domain": "concepts",
+      "id": "AIXEM-CONCEPT-NET-001",
+      "path": "docs/concepts/net-model.md",
+      "status": "normative",
+      "title": "Net Model"
+    },
+    {
+      "domain": "concepts",
+      "id": "AIXEM-CONCEPT-PROJECT-NET-001",
+      "path": "docs/concepts/project-net-model.md",
+      "status": "normative",
+      "title": "Project Net Model"
+    },
+    {
+      "domain": "concepts",
+      "id": "AIXEM-CONCEPT-SEMANTIC-001",
+      "path": "docs/concepts/semantic-model.md",
+      "status": "normative",
+      "title": "Semantic Circuit Model"
+    },
+    {
+      "domain": "concepts",
+      "id": "AIXEM-CONCEPT-SYMBOL-001",
+      "path": "docs/concepts/symbol-model.md",
+      "status": "normative",
+      "title": "Symbol Presentation Model"
+    },
+    {
+      "domain": "conformance",
+      "id": "AIXEM-CONF-AGENT-AUTHORING-001",
+      "path": "docs/conformance/agent-authoring.md",
+      "status": "normative",
+      "title": "Agent Authoring Closed-Loop Conformance"
+    },
+    {
+      "domain": "conformance",
+      "id": "AIXEM-CONF-AGENT-DIAGNOSTICS-001",
+      "path": "docs/conformance/agent-diagnostics.md",
+      "status": "normative",
+      "title": "Agent Diagnostic Registry and Conformance"
+    },
+    {
+      "domain": "conformance",
+      "id": "AIXEM-CONF-AGENT-LIVE-001",
+      "path": "docs/conformance/live-agent-cold-start.md",
+      "status": "normative",
+      "title": "Live-Agent Cold-Start Conformance"
+    },
+    {
+      "domain": "conformance",
+      "id": "AIXEM-CONF-B2D-001",
+      "path": "docs/conformance/static-2d-block-profile.md",
+      "status": "normative",
+      "title": "Static 2D Block Compatibility Profile 1"
+    },
+    {
+      "domain": "conformance",
+      "id": "AIXEM-CONF-COMPAT-001",
+      "path": "docs/conformance/compatibility-conformance.md",
+      "status": "normative",
+      "title": "Compatibility and Migration Conformance"
+    },
+    {
+      "domain": "conformance",
+      "id": "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
+      "path": "docs/conformance/hierarchical-project.md",
+      "status": "normative",
+      "title": "Hierarchical Project Conformance"
+    },
+    {
+      "domain": "conformance",
+      "id": "AIXEM-CONF-INDEX-001",
+      "path": "docs/conformance/index.md",
+      "status": "informative",
+      "title": "Conformance"
+    },
+    {
+      "domain": "conformance",
+      "id": "AIXEM-CONF-REFERENCE-VIEWER-001",
+      "path": "docs/conformance/reference-viewer.md",
+      "status": "normative",
+      "title": "Reference Viewer Conformance"
+    },
+    {
+      "domain": "conformance",
+      "id": "AIXEM-CONF-RELEASE-001",
+      "path": "docs/conformance/release-gates.md",
+      "status": "normative",
+      "title": "Release Gates"
+    },
+    {
+      "domain": "conformance",
+      "id": "AIXEM-CONF-REQUIREMENTS-001",
+      "path": "docs/conformance/requirements.md",
+      "status": "normative",
+      "title": "Requirement Model"
+    },
+    {
+      "domain": "conformance",
+      "id": "AIXEM-CONF-SYMBOL-EXP-001",
+      "path": "docs/conformance/symbol-expressiveness.md",
+      "status": "normative",
+      "title": "Symbol Expressiveness Conformance Profile 1"
+    },
+    {
+      "domain": "conformance",
+      "id": "AIXEM-CONF-TESTS-001",
+      "path": "docs/conformance/test-suite.md",
+      "status": "normative",
+      "title": "Test Suite"
+    },
+    {
+      "domain": "conformance",
+      "id": "AIXEM-CONF-VALIDATION-001",
+      "path": "docs/conformance/validation.md",
+      "status": "normative",
+      "title": "Validation Architecture"
+    },
+    {
+      "domain": "documentation",
+      "id": "AIXEM-DOCS-HOME-001",
+      "path": "docs/index.md",
+      "status": "informative",
+      "title": "AIXEM Documentation"
+    },
+    {
+      "domain": "examples",
+      "id": "AIXEM-EXAMPLE-BASIC-001",
+      "path": "docs/examples/passive-divider.md",
+      "status": "informative",
+      "title": "Example: Passive Divider"
+    },
+    {
+      "domain": "examples",
+      "id": "AIXEM-EXAMPLE-CONTROLLER-001",
+      "path": "docs/examples/grid-controller.md",
+      "status": "informative",
+      "title": "Example: Grid Controller and Sensor Interface"
+    },
+    {
+      "domain": "examples",
+      "id": "AIXEM-EXAMPLE-HIERARCHY-001",
+      "path": "docs/examples/hierarchical-reference.md",
+      "status": "informative",
+      "title": "Example: Hierarchical Reference Pattern"
+    },
+    {
+      "domain": "examples",
+      "id": "AIXEM-EXAMPLE-INDEX-001",
+      "path": "docs/examples/index.md",
+      "status": "informative",
+      "title": "Examples"
+    },
+    {
+      "domain": "examples",
+      "id": "AIXEM-EXAMPLE-SYMBOL-CORPUS-001",
+      "path": "docs/examples/symbol-expressiveness-corpus.md",
+      "status": "informative",
+      "title": "Symbol Expressiveness Corpus Construction Index"
+    },
+    {
+      "domain": "file-formats",
+      "id": "AIXEM-FORMAT-AIXEM-001",
+      "path": "docs/file-formats/aixem.md",
+      "status": "normative",
+      "title": ".aixem Semantic Source"
+    },
+    {
+      "domain": "file-formats",
+      "id": "AIXEM-FORMAT-AIXLAYOUT-001",
+      "path": "docs/file-formats/aixlayout.md",
+      "status": "normative",
+      "title": ".aixlayout.json Explicit Layout"
+    },
+    {
+      "domain": "file-formats",
+      "id": "AIXEM-FORMAT-AIXLIB-001",
+      "path": "docs/file-formats/aixlib.md",
+      "status": "normative",
+      "title": ".aixlib.json Component Library"
+    },
+    {
+      "domain": "file-formats",
+      "id": "AIXEM-FORMAT-AIXPROJ-001",
+      "path": "docs/file-formats/aixproj.md",
+      "status": "normative",
+      "title": ".aixproj.json Project Lock"
+    },
+    {
+      "domain": "file-formats",
+      "id": "AIXEM-FORMAT-AIXSYM-001",
+      "path": "docs/file-formats/aixsym.md",
+      "status": "normative",
+      "title": ".aixsym.json Symbol Asset"
+    },
+    {
+      "domain": "file-formats",
+      "id": "AIXEM-FORMAT-INDEX-001",
+      "path": "docs/file-formats/index.md",
+      "status": "informative",
+      "title": "File Formats"
+    },
+    {
+      "domain": "file-formats",
+      "id": "AIXEM-FORMAT-STYLE-001",
+      "path": "docs/file-formats/style-profile.md",
+      "status": "normative",
+      "title": "Schematic Style Profile"
+    },
+    {
+      "domain": "governance",
+      "id": "AIXEM-GOV-COMPAT-001",
+      "path": "docs/governance/compatibility-policy.md",
+      "status": "normative",
+      "title": "Compatibility Policy"
+    },
+    {
+      "domain": "governance",
+      "id": "AIXEM-GOV-DEPRECATION-001",
+      "path": "docs/governance/deprecation.md",
+      "status": "normative",
+      "title": "Deprecation Policy"
+    },
+    {
+      "domain": "governance",
+      "id": "AIXEM-GOV-DOC-AUTHORING-001",
+      "path": "docs/governance/documentation-authoring-guide.md",
+      "status": "informative",
+      "title": "Documentation Authoring and Lifecycle Guide"
+    },
+    {
+      "domain": "governance",
+      "id": "AIXEM-GOV-INDEX-001",
+      "path": "docs/governance/index.md",
+      "status": "informative",
+      "title": "Governance"
+    },
+    {
+      "domain": "governance",
+      "id": "AIXEM-GOV-RELEASE-001",
+      "path": "docs/governance/release-process.md",
+      "status": "normative",
+      "title": "Release Process"
+    },
+    {
+      "domain": "governance",
+      "id": "AIXEM-GOV-TERMS-001",
+      "path": "docs/governance/terminology.md",
+      "status": "normative",
+      "title": "Terminology"
+    },
+    {
+      "domain": "governance",
+      "id": "AIXEM-GOV-VERSIONING-001",
+      "path": "docs/governance/versioning.md",
+      "status": "normative",
+      "title": "Versioning Policy"
+    },
+    {
+      "domain": "releases",
+      "id": "AIXEM-RELEASE-040-001",
+      "path": "docs/releases/0.4.md",
+      "status": "informative",
+      "title": "AIXEM 0.4 Baseline"
+    },
+    {
+      "domain": "releases",
+      "id": "AIXEM-RELEASE-050-001",
+      "path": "docs/releases/0.5.md",
+      "status": "informative",
+      "title": "AIXEM 0.5.0"
+    },
+    {
+      "domain": "releases",
+      "id": "AIXEM-RELEASE-051-001",
+      "path": "docs/releases/0.5.1.md",
+      "status": "informative",
+      "title": "AIXEM 0.5.1"
+    },
+    {
+      "domain": "releases",
+      "id": "AIXEM-RELEASE-052-001",
+      "path": "docs/releases/0.5.2.md",
+      "status": "informative",
+      "title": "AIXEM 0.5.2"
+    },
+    {
+      "domain": "releases",
+      "id": "AIXEM-RELEASE-053-001",
+      "path": "docs/releases/0.5.3.md",
+      "status": "informative",
+      "title": "AIXEM 0.5.3"
+    },
+    {
+      "domain": "releases",
+      "id": "AIXEM-RELEASE-054-001",
+      "path": "docs/releases/0.5.4.md",
+      "status": "informative",
+      "title": "AIXEM 0.5.4"
+    },
+    {
+      "domain": "releases",
+      "id": "AIXEM-RELEASE-055-001",
+      "path": "docs/releases/0.5.5.md",
+      "status": "informative",
+      "title": "AIXEM 0.5.5"
+    },
+    {
+      "domain": "releases",
+      "id": "AIXEM-RELEASE-056-001",
+      "path": "docs/releases/0.5.6.md",
+      "status": "informative",
+      "title": "AIXEM 0.5.6 Live-Agent Cold-Start Authoring"
+    },
+    {
+      "domain": "releases",
+      "id": "AIXEM-RELEASE-057-001",
+      "path": "docs/releases/0.5.7.md",
+      "status": "informative",
+      "title": "AIXEM 0.5.7 Document Information Architecture and Governance"
+    },
+    {
+      "domain": "releases",
+      "id": "AIXEM-RELEASE-058-001",
+      "path": "docs/releases/0.5.8.md",
+      "status": "informative",
+      "title": "AIXEM 0.5.8 Pre-Live Agent Readiness Hardening"
+    },
+    {
+      "domain": "releases",
+      "id": "AIXEM-RELEASE-0581-001",
+      "path": "docs/releases/0.5.8.1.md",
+      "status": "informative",
+      "title": "AIXEM 0.5.8.1 Final Documentation, Specification, and Reference-Chain Closure"
+    },
+    {
+      "domain": "releases",
+      "id": "AIXEM-RELEASE-059-001",
+      "path": "docs/releases/0.5.9.md",
+      "status": "informative",
+      "title": "AIXEM 0.5.9 Integrated Authoring, Library, Pin Semantics, and Placement Hardening"
+    },
+    {
+      "domain": "releases",
+      "id": "AIXEM-RELEASE-INDEX-001",
+      "path": "docs/releases/index.md",
+      "status": "informative",
+      "title": "Release Notes"
+    },
+    {
+      "domain": "routing",
+      "id": "AIXEM-ROUTE-BEHAVIOR-001",
+      "path": "docs/routing/router-behavior.md",
+      "status": "informative",
+      "title": "Router Behavior"
+    },
+    {
+      "domain": "routing",
+      "id": "AIXEM-ROUTE-CONSTRAINT-001",
+      "path": "docs/routing/route-constraints.md",
+      "status": "normative",
+      "title": "Route Constraints"
+    },
+    {
+      "domain": "routing",
+      "id": "AIXEM-ROUTE-COOKBOOK-001",
+      "path": "docs/routing/routing-cookbook.md",
+      "status": "informative",
+      "title": "Routing Cookbook"
+    },
+    {
+      "domain": "routing",
+      "id": "AIXEM-ROUTE-CROSSING-001",
+      "path": "docs/routing/crossings-and-junctions.md",
+      "status": "normative",
+      "title": "Crossings and Junctions"
+    },
+    {
+      "domain": "routing",
+      "id": "AIXEM-ROUTE-INDEX-001",
+      "path": "docs/routing/index.md",
+      "status": "informative",
+      "title": "Net Routing"
+    },
+    {
+      "domain": "routing",
+      "id": "AIXEM-ROUTE-NETS-001",
+      "path": "docs/routing/net-routing.md",
+      "status": "normative",
+      "title": "Semantic Net Routing"
+    },
+    {
+      "domain": "routing",
+      "id": "AIXEM-ROUTE-ORTHO-001",
+      "path": "docs/routing/orthogonal-routing.md",
+      "status": "normative",
+      "title": "Orthogonal Routing"
+    },
+    {
+      "domain": "schematic",
+      "id": "AIXEM-SCHEM-ANNOTATION-001",
+      "path": "docs/schematic/annotations.md",
+      "status": "normative",
+      "title": "Annotations and Fields"
+    },
+    {
+      "domain": "schematic",
+      "id": "AIXEM-SCHEM-COOKBOOK-001",
+      "path": "docs/schematic/schematic-authoring-cookbook.md",
+      "status": "informative",
+      "title": "Schematic Authoring Cookbook"
+    },
+    {
+      "domain": "schematic",
+      "id": "AIXEM-SCHEM-GRID-001",
+      "path": "docs/schematic/grid-system.md",
+      "status": "normative",
+      "title": "Grid and Snap System"
+    },
+    {
+      "domain": "schematic",
+      "id": "AIXEM-SCHEM-INDEX-001",
+      "path": "docs/schematic/index.md",
+      "status": "informative",
+      "title": "Schematic Authoring"
+    },
+    {
+      "domain": "schematic",
+      "id": "AIXEM-SCHEM-JUNCTION-001",
+      "path": "docs/schematic/junctions.md",
+      "status": "normative",
+      "title": "Junctions and Connectivity Cues"
+    },
+    {
+      "domain": "schematic",
+      "id": "AIXEM-SCHEM-PLACEMENT-001",
+      "path": "docs/schematic/placement.md",
+      "status": "normative",
+      "title": "Component Placement"
+    },
+    {
+      "domain": "schematic",
+      "id": "AIXEM-SCHEM-SHEET-001",
+      "path": "docs/schematic/sheet-organization.md",
+      "status": "informative",
+      "title": "Sheet Organization"
+    },
+    {
+      "domain": "schematic",
+      "id": "AIXEM-SCHEM-VISUAL-001",
+      "path": "docs/schematic/visual-language.md",
+      "status": "normative",
+      "title": "Grid-First Visual Language"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-AGENT-CHANGESET-001",
+      "path": "docs/specifications/agent/authoring-change-set-contract.md",
+      "status": "normative",
+      "title": "Authoring Change-Set Contract 1"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-AGENT-DIAGNOSTIC-001",
+      "path": "docs/specifications/agent/diagnostic-contract.md",
+      "status": "normative",
+      "title": "Agent Diagnostic Contract 1"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-AGENT-EVAL-INVARIANT-001",
+      "path": "docs/specifications/agent/evaluation-invariant-contract.md",
+      "status": "normative",
+      "title": "Evaluation Invariant Contract 1"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-AGENT-EXECUTION-001",
+      "path": "docs/specifications/agent/authoring-execution-contract.md",
+      "status": "normative",
+      "title": "Authoring Execution Contract 1"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-AGENT-EXECUTOR-LIVE-001",
+      "path": "docs/specifications/agent/live-executor-protocol.md",
+      "status": "normative",
+      "title": "Live Executor Protocol 1"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-AGENT-LIVE-RUN-001",
+      "path": "docs/specifications/agent/live-run-evidence.md",
+      "status": "normative",
+      "title": "Live Run Evidence 1"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-AGENT-OBSERVATION-001",
+      "path": "docs/specifications/agent/observation-event-contract.md",
+      "status": "normative",
+      "title": "Observation Event Contract 1"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-AGENT-RETRIEVAL-001",
+      "path": "docs/specifications/agent/retrieval-profile.md",
+      "status": "normative",
+      "title": "Agent Retrieval Profile 1"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-AGENT-RUN-001",
+      "path": "docs/specifications/agent/authoring-run-record.md",
+      "status": "normative",
+      "title": "Authoring Run Record 1"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-AGENT-STAGE-001",
+      "path": "docs/specifications/agent/cold-start-stage-contract.md",
+      "status": "normative",
+      "title": "Cold-Start Stage Contract 1"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-AGENT-TASK-001",
+      "path": "docs/specifications/agent/agent-task-contract.md",
+      "status": "normative",
+      "title": "Agent Task Contract 1"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-AUTHORITY-001",
+      "path": "docs/specifications/core/authority-precedence.md",
+      "status": "normative",
+      "title": "Authority and Precedence"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-COORD-001",
+      "path": "docs/specifications/core/coordinate-system.md",
+      "status": "normative",
+      "title": "Coordinate and Unit System"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+      "path": "docs/specifications/documentation/document-governance-contract.md",
+      "status": "normative",
+      "title": "Repository Document Governance Contract 1"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-DOCUMENT-001",
+      "path": "docs/specifications/core/document-model.md",
+      "status": "normative",
+      "title": "Canonical Document Model"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-GRID-PROFILE-001",
+      "path": "docs/specifications/schematic/grid-profile.md",
+      "status": "normative",
+      "title": "Grid Schematic Profile 1"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
+      "path": "docs/specifications/layout/hierarchical-sheet-port-contract.md",
+      "status": "normative",
+      "title": "Hierarchical Sheet-Port Layout Contract 2"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-INDEX-001",
+      "path": "docs/specifications/index.md",
+      "status": "informative",
+      "title": "Specifications"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-INTERFACE-PORT-001",
+      "path": "docs/specifications/core/interface-port-contract.md",
+      "status": "normative",
+      "title": "Interface Port Contract 1"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-LAYOUT-001",
+      "path": "docs/specifications/layout/layout-contract.md",
+      "status": "normative",
+      "title": "Explicit Layout Contract 1"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+      "path": "docs/specifications/components/library-layout-contract.md",
+      "status": "normative",
+      "title": "Library Layout and Part Integrity Contract"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-METADATA-001",
+      "path": "docs/specifications/documentation/metadata-contract.md",
+      "status": "normative",
+      "title": "Documentation Metadata Contract 1"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
+      "path": "docs/specifications/components/pin-electrical-semantics-profile.md",
+      "status": "normative",
+      "title": "Pin Electrical Semantics Profile 1"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
+      "path": "docs/specifications/project/project-composition-contract.md",
+      "status": "normative",
+      "title": "Project Composition Contract 2"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-PROJECT-LOCK-001",
+      "path": "docs/specifications/project/project-lock-contract.md",
+      "status": "normative",
+      "title": "Project Lock Contract 1"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-RELEASE-001",
+      "path": "docs/specifications/documentation/release-integrity.md",
+      "status": "normative",
+      "title": "Documentation Release Integrity 1"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-RENDERER-001",
+      "path": "docs/specifications/renderer/renderer-contract.md",
+      "status": "normative",
+      "title": "Renderer Contract 1"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-SCHEMAS-001",
+      "path": "docs/specifications/schemas/index.md",
+      "status": "informative",
+      "title": "JSON Schema Catalog"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-SYMBOL-001",
+      "path": "docs/specifications/symbols/symbol-contract.md",
+      "status": "normative",
+      "title": "Symbol Asset Contract 1"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-SYMBOL-DESIGN-001",
+      "path": "docs/specifications/symbols/symbol-design-profile.md",
+      "status": "normative",
+      "title": "Symbol Design Profile 1"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-VIEWER-001",
+      "path": "docs/specifications/viewer/reference-viewer-contract.md",
+      "status": "normative",
+      "title": "Reference Viewer Contract 1"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-VIEWER-A11Y-001",
+      "path": "docs/specifications/viewer/viewer-accessibility-profile.md",
+      "status": "normative",
+      "title": "Viewer Accessibility Profile 1"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-VIEWER-INDEX-001",
+      "path": "docs/specifications/viewer/index.md",
+      "status": "informative",
+      "title": "Viewer Specifications"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-VIEWER-SECURITY-001",
+      "path": "docs/specifications/viewer/viewer-security-and-embedding.md",
+      "status": "normative",
+      "title": "Viewer Security and Embedding 1"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-VIEWER-STATE-001",
+      "path": "docs/specifications/viewer/viewer-state-and-interaction.md",
+      "status": "normative",
+      "title": "Viewer State and Interaction 1"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-VISUAL-PROFILE-001",
+      "path": "docs/specifications/schematic/visual-profile.md",
+      "status": "normative",
+      "title": "Schematic Presentation Profile 1"
+    },
+    {
+      "domain": "specifications",
+      "id": "AIXEM-SPEC-WORKBENCH-001",
+      "path": "docs/specifications/viewer/review-workbench-contract.md",
+      "status": "normative",
+      "title": "Review Workbench Contract 1"
+    },
+    {
+      "domain": "getting-started",
+      "id": "AIXEM-START-FIRST-001",
+      "path": "docs/getting-started/first-schematic.md",
+      "status": "informative",
+      "title": "Create Your First Schematic"
+    },
+    {
+      "domain": "getting-started",
+      "id": "AIXEM-START-INDEX-001",
+      "path": "docs/getting-started/index.md",
+      "status": "informative",
+      "title": "Getting Started"
+    },
+    {
+      "domain": "getting-started",
+      "id": "AIXEM-START-INTRO-001",
+      "path": "docs/getting-started/introduction.md",
+      "status": "informative",
+      "title": "Introduction to AIXEM"
+    },
+    {
+      "domain": "getting-started",
+      "id": "AIXEM-START-QUICK-001",
+      "path": "docs/getting-started/quick-start.md",
+      "status": "informative",
+      "title": "Quick Start"
+    },
+    {
+      "domain": "symbols",
+      "id": "AIXEM-SYMBOL-AIXSYM-REF-001",
+      "path": "docs/symbols/aixsym-field-reference.md",
+      "status": "informative",
+      "title": "AIXSYM Field Reference"
+    },
+    {
+      "domain": "symbols",
+      "id": "AIXEM-SYMBOL-ANATOMY-001",
+      "path": "docs/symbols/symbol-anatomy.md",
+      "status": "normative",
+      "title": "Symbol Anatomy"
+    },
+    {
+      "domain": "symbols",
+      "id": "AIXEM-SYMBOL-AUTHORING-001",
+      "path": "docs/symbols/authoring-guide.md",
+      "status": "informative",
+      "title": "Symbol Authoring Guide"
+    },
+    {
+      "domain": "symbols",
+      "id": "AIXEM-SYMBOL-BINDING-001",
+      "path": "docs/symbols/component-symbol-binding.md",
+      "status": "normative",
+      "title": "Component to Symbol Binding"
+    },
+    {
+      "domain": "symbols",
+      "id": "AIXEM-SYMBOL-COOKBOOK-001",
+      "path": "docs/symbols/symbol-authoring-cookbook.md",
+      "status": "informative",
+      "title": "Symbol Authoring Cookbook"
+    },
+    {
+      "domain": "symbols",
+      "id": "AIXEM-SYMBOL-DESIGN-RULES-001",
+      "path": "docs/symbols/design-rules.md",
+      "status": "informative",
+      "title": "Symbol Design Rules Entry Point"
+    },
+    {
+      "domain": "symbols",
+      "id": "AIXEM-SYMBOL-FIELDS-001",
+      "path": "docs/symbols/field-layout.md",
+      "status": "normative",
+      "title": "Field Layout"
+    },
+    {
+      "domain": "symbols",
+      "id": "AIXEM-SYMBOL-INDEX-001",
+      "path": "docs/symbols/index.md",
+      "status": "informative",
+      "title": "Symbol Authoring"
+    },
+    {
+      "domain": "symbols",
+      "id": "AIXEM-SYMBOL-LINT-001",
+      "path": "docs/symbols/symbol-lint.md",
+      "status": "normative",
+      "title": "Symbol Lint"
+    },
+    {
+      "domain": "symbols",
+      "id": "AIXEM-SYMBOL-PORTS-001",
+      "path": "docs/symbols/pins-and-ports.md",
+      "status": "normative",
+      "title": "Pins, Ports, and Endpoint Mapping"
+    },
+    {
+      "domain": "symbols",
+      "id": "AIXEM-SYMBOL-PRIMITIVES-001",
+      "path": "docs/symbols/primitives.md",
+      "status": "normative",
+      "title": "Graphic Primitives"
+    },
+    {
+      "domain": "symbols",
+      "id": "AIXEM-SYMBOL-VARIANTS-001",
+      "path": "docs/symbols/variants.md",
+      "status": "normative",
+      "title": "Symbol Variants"
+    }
+  ],
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/documentation/dependency-graph/1"
+}

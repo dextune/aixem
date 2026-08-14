@@ -1,0 +1,52 @@
+{
+  "card": {
+    "aliases": [
+      "viewer specifications",
+      "Reference Viewer index"
+    ],
+    "appliesTo": [
+      "viewer-specification-index"
+    ],
+    "domain": "specifications",
+    "estimatedReadBytes": 3348,
+    "id": "AIXEM-SPEC-VIEWER-INDEX-001",
+    "inputs": [],
+    "keywords": [
+      "Reference Viewer index",
+      "Viewer Specifications",
+      "inspect-viewer",
+      "render-review",
+      "validate-project",
+      "viewer specifications"
+    ],
+    "kind": "index",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/specifications/viewer/overview.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:293de54354eb00f1c863bee33ac5a2cc7fab131ee8dba56b24d58c3e1cea5268"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 900,
+    "readNext": [],
+    "rules": [
+      {
+        "id": "AIXEM-SPEC-VIEWER-INDEX-001.read",
+        "level": "should",
+        "text": "Routes implementers and reviewers to the canonical AIXEM Reference Viewer, Workbench, state, security, accessibility, and model contracts."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SPEC-VIEWER-INDEX-001",
+        "path": "docs/specifications/viewer/index.md"
+      }
+    ],
+    "summary": "Routes implementers and reviewers to the canonical AIXEM Reference Viewer, Workbench, state, security, accessibility, and model contracts.",
+    "title": "Viewer Specifications"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

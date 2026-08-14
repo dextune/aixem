@@ -1,0 +1,66 @@
+{
+  "card": {
+    "aliases": [
+      "authoring run record",
+      "execution evidence",
+      "closure record"
+    ],
+    "appliesTo": [
+      "agent-authoring-run-record"
+    ],
+    "domain": "specifications",
+    "estimatedReadBytes": 5777,
+    "id": "AIXEM-SPEC-AGENT-RUN-001",
+    "inputs": [],
+    "keywords": [
+      "Authoring Run Record 1",
+      "author-component-circuit",
+      "authoring run record",
+      "closure record",
+      "execution evidence",
+      "validate-project"
+    ],
+    "kind": "contract",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/specifications/agent/authoring-run-record.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:c551af5c159afb2746f0755723b3547f1ead10b4d4711fc24254f51654546fe8"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SPEC-AGENT-EXECUTION-001",
+      "AIXEM-SPEC-AGENT-CHANGESET-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-AGENT-CLOSED-LOOP-0011",
+        "level": "must",
+        "text": "**MUST.** A run record MUST retain the route chain, baseline and final authoritative digests, every iteration diagnostic state, change-set digest, executed validators, and final render evidence."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-CLOSED-LOOP-0012",
+        "level": "must",
+        "text": "**MUST.** Equivalent recorded artifacts, validator results, and execution metadata MUST produce a byte-stable run record and record digest."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-CLOSED-LOOP-0013",
+        "level": "must",
+        "text": "**MUST.** A run MUST NOT close while blocking diagnostics, scope violations, generated-output edits, loop stalls, oscillation, or renderer nondeterminism remain."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SPEC-AGENT-RUN-001",
+        "path": "docs/specifications/agent/authoring-run-record.md"
+      }
+    ],
+    "summary": "Defines deterministic end-to-end evidence for one route-bounded authoring or repair task from baseline through closure.",
+    "title": "Authoring Run Record 1"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

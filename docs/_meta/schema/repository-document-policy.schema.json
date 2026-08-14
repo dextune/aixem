@@ -1,0 +1,151 @@
+{
+  "$id": "https://schemas.aixem.org/documentation/repository-document-policy/1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "defaultFilenamePattern": {
+      "minLength": 3,
+      "type": "string"
+    },
+    "formatVersion": {
+      "const": "1.0"
+    },
+    "primaryRootEntrypoint": {
+      "pattern": "^[^/]+\\.md$",
+      "type": "string"
+    },
+    "reservedFilenames": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "roles": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "allowedFilenames": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "uniqueItems": true
+          },
+          "discoverabilityOwner": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "exclude": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "uniqueItems": true
+          },
+          "filenamePattern": {
+            "type": "string"
+          },
+          "humanAuthored": {
+            "type": "boolean"
+          },
+          "id": {
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "include": {
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "type": "array",
+            "uniqueItems": true
+          },
+          "lifecycle": {
+            "enum": [
+              "permanent",
+              "current",
+              "release-scoped",
+              "historical",
+              "suite-scoped",
+              "generated"
+            ]
+          },
+          "status": {
+            "enum": [
+              "active",
+              "retained",
+              "immutable",
+              "generated"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "lifecycle",
+          "status",
+          "humanAuthored",
+          "discoverabilityOwner",
+          "include"
+        ],
+        "type": "object"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "rootMarkdownAllowlist": {
+      "items": {
+        "pattern": "^[^/]+\\.md$",
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "rootReferenceDeferredTargets": {
+      "items": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "rootReferenceMap": {
+      "pattern": "^[^/]+\\.md$",
+      "type": "string"
+    },
+    "rootReferenceRequiredTargets": {
+      "items": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "minItems": 1,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "schema": {
+      "const": "https://schemas.aixem.org/documentation/repository-document-policy/1"
+    },
+    "sharedNormativeAuthorityScopes": {
+      "items": {
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "schema",
+    "formatVersion",
+    "defaultFilenamePattern",
+    "reservedFilenames",
+    "rootMarkdownAllowlist",
+    "roles",
+    "primaryRootEntrypoint",
+    "rootReferenceMap",
+    "rootReferenceRequiredTargets",
+    "sharedNormativeAuthorityScopes"
+  ],
+  "title": "AIXEM repository document policy",
+  "type": "object"
+}

@@ -1,0 +1,98 @@
+{
+  "authority": "derived-navigation-only",
+  "budget": {
+    "max_bytes": 98304,
+    "max_depth": 3,
+    "max_documents": 7
+  },
+  "completion": [
+    "Owning boundaries are explicit",
+    "An ADR records durable decisions",
+    "Compatibility impact is stated",
+    "Affected requirements and tests are updated"
+  ],
+  "documents": [
+    {
+      "bytes": 6799,
+      "digest": "sha256:510577e90a3c756b4bbe7349f0108fc736f015ca35a9404a4df7b5613ac78e0a",
+      "document": "AIXEM-CONCEPT-AUTHORITY-001",
+      "order": 1,
+      "path": "docs/concepts/authority-model.md",
+      "purpose": "Read Authority Model for this task stage.",
+      "required": true,
+      "section": "operational-rules"
+    },
+    {
+      "bytes": 5180,
+      "digest": "sha256:90b30e5400988652cb9b1ef599e0f343a85890d45a7b8eeebbe6ad095a5ea249",
+      "document": "AIXEM-ARCH-SYSTEM-001",
+      "order": 2,
+      "path": "docs/architecture/system-overview.md",
+      "purpose": "Read System Overview for this task stage.",
+      "required": true,
+      "section": "overview"
+    },
+    {
+      "bytes": 5037,
+      "digest": "sha256:5dbb54b0557b8bf16daae50c40194b9209ab5c733fa9a4aad1124a85a406c6a0",
+      "document": "AIXEM-ARCH-PIPELINE-001",
+      "order": 3,
+      "path": "docs/architecture/pipeline.md",
+      "purpose": "Read Build and Authoring Pipeline for this task stage.",
+      "required": true,
+      "section": "authoritative-workflow"
+    },
+    {
+      "bytes": 6131,
+      "digest": "sha256:a7d5bb475edbeddf2c0bd7c482b076b9ffd2ed37718452a24fc971c1db353d7b",
+      "document": "AIXEM-SPEC-AUTHORITY-001",
+      "order": 4,
+      "path": "docs/specifications/core/authority-precedence.md",
+      "purpose": "Read Authority and Precedence for this task stage.",
+      "required": true,
+      "section": "operational-rules"
+    },
+    {
+      "bytes": 3542,
+      "digest": "sha256:16656cab13192f649e79aea65ca9f684c9a74744b7d2a9f8c01f18275e72940f",
+      "document": "AIXEM-ARCH-ADR-INDEX-001",
+      "order": 5,
+      "path": "docs/architecture/adr/index.md",
+      "purpose": "Read Architecture Decision Records for this task stage.",
+      "required": true,
+      "section": "overview"
+    },
+    {
+      "bytes": 4907,
+      "digest": "sha256:1b5c9549074ab153dd692413f331d8b2dfa5071144b306fb31c1fe0e6e4b2c6c",
+      "document": "AIXEM-GOV-COMPAT-001",
+      "order": 6,
+      "path": "docs/governance/compatibility-policy.md",
+      "purpose": "Read Compatibility Policy for this task stage.",
+      "required": true,
+      "section": "validation-and-evidence"
+    }
+  ],
+  "expectedInputs": [],
+  "expectedOutputs": [
+    "Owning boundaries are explicit",
+    "An ADR records durable decisions",
+    "Compatibility impact is stated",
+    "Affected requirements and tests are updated"
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "id": "change-architecture",
+  "intent": "change-architecture",
+  "kind": "simple",
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/documentation/task-packet/1",
+  "source": "docs/_meta/routes/change-architecture.yaml",
+  "sourceDigest": "sha256:fd503f4438ff7466c0e0904b8f7b78eb97c8635357a97e82b44a70807053d4c5",
+  "summary": "Change system architecture",
+  "validators": [
+    "manual.architecture",
+    "docs.metadata",
+    "docs.dependencies"
+  ]
+}

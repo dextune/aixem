@@ -1,0 +1,2256 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AIXEM Symbol Asset 1.0 Candidate — AIXEM Schema</title><link rel="stylesheet" href="../../../assets/site.css"></head><body><header class="topbar"><div class="brand"><span class="brand-mark">AX</span><span>AIXEM<small>Schema Reference</small></span></div></header><main class="content-wrap" style="padding-top:24px"><div class="content"><div class="breadcrumbs"><a href="../index.html">Schema Catalog</a><span>›</span><span>component-graphics-1/aixem-symbol-asset-1.schema.json</span></div><header class="doc-head"><div class="eyebrow"><span class="badge normative">JSON Schema</span><span class="doc-id">https://json-schema.org/draft/2020-12/schema</span></div><h1>AIXEM Symbol Asset 1.0 Candidate</h1><p class="lead">Machine-readable contract distributed with AIXEM 0.5.9.</p></header><div class="schema-browser"><a href="../../../assets/schemas/component-graphics-1/aixem-symbol-asset-1.schema.json">Open raw JSON schema</a></div><article class="article"><pre><code>{
+  &quot;$defs&quot;: {
+    &quot;anchor&quot;: {
+      &quot;additionalProperties&quot;: false,
+      &quot;properties&quot;: {
+        &quot;id&quot;: {
+          &quot;minLength&quot;: 1,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;kind&quot;: {
+          &quot;enum&quot;: [
+            &quot;insertion&quot;,
+            &quot;alignment&quot;,
+            &quot;rotation&quot;,
+            &quot;dimension&quot;,
+            &quot;label&quot;,
+            &quot;connection&quot;,
+            &quot;custom&quot;
+          ]
+        },
+        &quot;metadata&quot;: {
+          &quot;type&quot;: &quot;object&quot;
+        },
+        &quot;orientation&quot;: {
+          &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+        },
+        &quot;x&quot;: {
+          &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+        },
+        &quot;y&quot;: {
+          &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+        }
+      },
+      &quot;required&quot;: [
+        &quot;id&quot;,
+        &quot;x&quot;,
+        &quot;y&quot;,
+        &quot;kind&quot;
+      ],
+      &quot;type&quot;: &quot;object&quot;
+    },
+    &quot;bounds&quot;: {
+      &quot;additionalProperties&quot;: false,
+      &quot;properties&quot;: {
+        &quot;height&quot;: {
+          &quot;type&quot;: &quot;number&quot;
+        },
+        &quot;width&quot;: {
+          &quot;type&quot;: &quot;number&quot;
+        },
+        &quot;x&quot;: {
+          &quot;type&quot;: &quot;number&quot;
+        },
+        &quot;y&quot;: {
+          &quot;type&quot;: &quot;number&quot;
+        }
+      },
+      &quot;required&quot;: [
+        &quot;x&quot;,
+        &quot;y&quot;,
+        &quot;width&quot;,
+        &quot;height&quot;
+      ],
+      &quot;type&quot;: &quot;object&quot;
+    },
+    &quot;coordinateSystem&quot;: {
+      &quot;additionalProperties&quot;: false,
+      &quot;properties&quot;: {
+        &quot;angleDirection&quot;: {
+          &quot;enum&quot;: [
+            &quot;clockwise&quot;,
+            &quot;counterclockwise&quot;
+          ]
+        },
+        &quot;angleUnit&quot;: {
+          &quot;const&quot;: &quot;deg&quot;
+        },
+        &quot;grid&quot;: {
+          &quot;exclusiveMinimum&quot;: 0,
+          &quot;type&quot;: &quot;number&quot;
+        },
+        &quot;unit&quot;: {
+          &quot;enum&quot;: [
+            &quot;mm&quot;,
+            &quot;mil&quot;,
+            &quot;in&quot;,
+            &quot;px&quot;
+          ]
+        },
+        &quot;yAxis&quot;: {
+          &quot;enum&quot;: [
+            &quot;up&quot;,
+            &quot;down&quot;
+          ]
+        }
+      },
+      &quot;required&quot;: [
+        &quot;unit&quot;,
+        &quot;yAxis&quot;,
+        &quot;angleUnit&quot;,
+        &quot;angleDirection&quot;
+      ],
+      &quot;type&quot;: &quot;object&quot;
+    },
+    &quot;gradientStop&quot;: {
+      &quot;additionalProperties&quot;: false,
+      &quot;properties&quot;: {
+        &quot;color&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;offset&quot;: {
+          &quot;maximum&quot;: 1,
+          &quot;minimum&quot;: 0,
+          &quot;type&quot;: &quot;number&quot;
+        },
+        &quot;opacity&quot;: {
+          &quot;maximum&quot;: 1,
+          &quot;minimum&quot;: 0,
+          &quot;type&quot;: &quot;number&quot;
+        }
+      },
+      &quot;required&quot;: [
+        &quot;offset&quot;,
+        &quot;color&quot;
+      ],
+      &quot;type&quot;: &quot;object&quot;
+    },
+    &quot;layer&quot;: {
+      &quot;additionalProperties&quot;: false,
+      &quot;properties&quot;: {
+        &quot;defaultVisible&quot;: {
+          &quot;type&quot;: &quot;boolean&quot;
+        },
+        &quot;id&quot;: {
+          &quot;pattern&quot;: &quot;^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$&quot;,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;locked&quot;: {
+          &quot;type&quot;: &quot;boolean&quot;
+        },
+        &quot;order&quot;: {
+          &quot;type&quot;: &quot;integer&quot;
+        },
+        &quot;printable&quot;: {
+          &quot;type&quot;: &quot;boolean&quot;
+        },
+        &quot;purpose&quot;: {
+          &quot;minLength&quot;: 1,
+          &quot;type&quot;: &quot;string&quot;
+        }
+      },
+      &quot;required&quot;: [
+        &quot;id&quot;,
+        &quot;order&quot;,
+        &quot;purpose&quot;,
+        &quot;defaultVisible&quot;
+      ],
+      &quot;type&quot;: &quot;object&quot;
+    },
+    &quot;node&quot;: {
+      &quot;oneOf&quot;: [
+        {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;children&quot;: {
+              &quot;items&quot;: {
+                &quot;$ref&quot;: &quot;#/$defs/node&quot;
+              },
+              &quot;maxItems&quot;: 10000,
+              &quot;type&quot;: &quot;array&quot;
+            },
+            &quot;classes&quot;: {
+              &quot;items&quot;: {
+                &quot;minLength&quot;: 1,
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;type&quot;: &quot;array&quot;,
+              &quot;uniqueItems&quot;: true
+            },
+            &quot;id&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;layer&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;metadata&quot;: {
+              &quot;type&quot;: &quot;object&quot;
+            },
+            &quot;role&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;style&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;transform&quot;: {
+              &quot;maxItems&quot;: 6,
+              &quot;minItems&quot;: 6,
+              &quot;prefixItems&quot;: [
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                }
+              ],
+              &quot;type&quot;: &quot;array&quot;
+            },
+            &quot;type&quot;: {
+              &quot;const&quot;: &quot;group&quot;
+            },
+            &quot;visibleWhen&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/predicate&quot;
+            }
+          },
+          &quot;required&quot;: [
+            &quot;type&quot;,
+            &quot;children&quot;
+          ],
+          &quot;type&quot;: &quot;object&quot;
+        },
+        {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;classes&quot;: {
+              &quot;items&quot;: {
+                &quot;minLength&quot;: 1,
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;type&quot;: &quot;array&quot;,
+              &quot;uniqueItems&quot;: true
+            },
+            &quot;definition&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;id&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;layer&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;metadata&quot;: {
+              &quot;type&quot;: &quot;object&quot;
+            },
+            &quot;parameters&quot;: {
+              &quot;additionalProperties&quot;: {
+                &quot;$ref&quot;: &quot;#/$defs/valueExpression&quot;
+              },
+              &quot;type&quot;: &quot;object&quot;
+            },
+            &quot;role&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;style&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;transform&quot;: {
+              &quot;maxItems&quot;: 6,
+              &quot;minItems&quot;: 6,
+              &quot;prefixItems&quot;: [
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                }
+              ],
+              &quot;type&quot;: &quot;array&quot;
+            },
+            &quot;type&quot;: {
+              &quot;const&quot;: &quot;use&quot;
+            },
+            &quot;visibleWhen&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/predicate&quot;
+            }
+          },
+          &quot;required&quot;: [
+            &quot;type&quot;,
+            &quot;definition&quot;
+          ],
+          &quot;type&quot;: &quot;object&quot;
+        },
+        {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;classes&quot;: {
+              &quot;items&quot;: {
+                &quot;minLength&quot;: 1,
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;type&quot;: &quot;array&quot;,
+              &quot;uniqueItems&quot;: true
+            },
+            &quot;id&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;layer&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;metadata&quot;: {
+              &quot;type&quot;: &quot;object&quot;
+            },
+            &quot;role&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;style&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;transform&quot;: {
+              &quot;maxItems&quot;: 6,
+              &quot;minItems&quot;: 6,
+              &quot;prefixItems&quot;: [
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                }
+              ],
+              &quot;type&quot;: &quot;array&quot;
+            },
+            &quot;type&quot;: {
+              &quot;const&quot;: &quot;line&quot;
+            },
+            &quot;visibleWhen&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/predicate&quot;
+            },
+            &quot;x1&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;x2&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;y1&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;y2&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            }
+          },
+          &quot;required&quot;: [
+            &quot;type&quot;,
+            &quot;x1&quot;,
+            &quot;y1&quot;,
+            &quot;x2&quot;,
+            &quot;y2&quot;
+          ],
+          &quot;type&quot;: &quot;object&quot;
+        },
+        {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;classes&quot;: {
+              &quot;items&quot;: {
+                &quot;minLength&quot;: 1,
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;type&quot;: &quot;array&quot;,
+              &quot;uniqueItems&quot;: true
+            },
+            &quot;closed&quot;: {
+              &quot;type&quot;: &quot;boolean&quot;
+            },
+            &quot;id&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;layer&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;metadata&quot;: {
+              &quot;type&quot;: &quot;object&quot;
+            },
+            &quot;points&quot;: {
+              &quot;items&quot;: {
+                &quot;$ref&quot;: &quot;#/$defs/point&quot;
+              },
+              &quot;maxItems&quot;: 10000,
+              &quot;minItems&quot;: 2,
+              &quot;type&quot;: &quot;array&quot;
+            },
+            &quot;role&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;style&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;transform&quot;: {
+              &quot;maxItems&quot;: 6,
+              &quot;minItems&quot;: 6,
+              &quot;prefixItems&quot;: [
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                }
+              ],
+              &quot;type&quot;: &quot;array&quot;
+            },
+            &quot;type&quot;: {
+              &quot;const&quot;: &quot;polyline&quot;
+            },
+            &quot;visibleWhen&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/predicate&quot;
+            }
+          },
+          &quot;required&quot;: [
+            &quot;type&quot;,
+            &quot;points&quot;
+          ],
+          &quot;type&quot;: &quot;object&quot;
+        },
+        {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;classes&quot;: {
+              &quot;items&quot;: {
+                &quot;minLength&quot;: 1,
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;type&quot;: &quot;array&quot;,
+              &quot;uniqueItems&quot;: true
+            },
+            &quot;id&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;layer&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;metadata&quot;: {
+              &quot;type&quot;: &quot;object&quot;
+            },
+            &quot;points&quot;: {
+              &quot;items&quot;: {
+                &quot;$ref&quot;: &quot;#/$defs/point&quot;
+              },
+              &quot;maxItems&quot;: 10000,
+              &quot;minItems&quot;: 3,
+              &quot;type&quot;: &quot;array&quot;
+            },
+            &quot;role&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;style&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;transform&quot;: {
+              &quot;maxItems&quot;: 6,
+              &quot;minItems&quot;: 6,
+              &quot;prefixItems&quot;: [
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                }
+              ],
+              &quot;type&quot;: &quot;array&quot;
+            },
+            &quot;type&quot;: {
+              &quot;const&quot;: &quot;polygon&quot;
+            },
+            &quot;visibleWhen&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/predicate&quot;
+            }
+          },
+          &quot;required&quot;: [
+            &quot;type&quot;,
+            &quot;points&quot;
+          ],
+          &quot;type&quot;: &quot;object&quot;
+        },
+        {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;classes&quot;: {
+              &quot;items&quot;: {
+                &quot;minLength&quot;: 1,
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;type&quot;: &quot;array&quot;,
+              &quot;uniqueItems&quot;: true
+            },
+            &quot;height&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;id&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;layer&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;metadata&quot;: {
+              &quot;type&quot;: &quot;object&quot;
+            },
+            &quot;role&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;rx&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;ry&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;style&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;transform&quot;: {
+              &quot;maxItems&quot;: 6,
+              &quot;minItems&quot;: 6,
+              &quot;prefixItems&quot;: [
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                }
+              ],
+              &quot;type&quot;: &quot;array&quot;
+            },
+            &quot;type&quot;: {
+              &quot;const&quot;: &quot;rect&quot;
+            },
+            &quot;visibleWhen&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/predicate&quot;
+            },
+            &quot;width&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;x&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;y&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            }
+          },
+          &quot;required&quot;: [
+            &quot;type&quot;,
+            &quot;x&quot;,
+            &quot;y&quot;,
+            &quot;width&quot;,
+            &quot;height&quot;
+          ],
+          &quot;type&quot;: &quot;object&quot;
+        },
+        {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;classes&quot;: {
+              &quot;items&quot;: {
+                &quot;minLength&quot;: 1,
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;type&quot;: &quot;array&quot;,
+              &quot;uniqueItems&quot;: true
+            },
+            &quot;cx&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;cy&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;id&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;layer&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;metadata&quot;: {
+              &quot;type&quot;: &quot;object&quot;
+            },
+            &quot;r&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;role&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;style&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;transform&quot;: {
+              &quot;maxItems&quot;: 6,
+              &quot;minItems&quot;: 6,
+              &quot;prefixItems&quot;: [
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                }
+              ],
+              &quot;type&quot;: &quot;array&quot;
+            },
+            &quot;type&quot;: {
+              &quot;const&quot;: &quot;circle&quot;
+            },
+            &quot;visibleWhen&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/predicate&quot;
+            }
+          },
+          &quot;required&quot;: [
+            &quot;type&quot;,
+            &quot;cx&quot;,
+            &quot;cy&quot;,
+            &quot;r&quot;
+          ],
+          &quot;type&quot;: &quot;object&quot;
+        },
+        {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;classes&quot;: {
+              &quot;items&quot;: {
+                &quot;minLength&quot;: 1,
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;type&quot;: &quot;array&quot;,
+              &quot;uniqueItems&quot;: true
+            },
+            &quot;cx&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;cy&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;id&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;layer&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;metadata&quot;: {
+              &quot;type&quot;: &quot;object&quot;
+            },
+            &quot;role&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;rx&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;ry&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;style&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;transform&quot;: {
+              &quot;maxItems&quot;: 6,
+              &quot;minItems&quot;: 6,
+              &quot;prefixItems&quot;: [
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                }
+              ],
+              &quot;type&quot;: &quot;array&quot;
+            },
+            &quot;type&quot;: {
+              &quot;const&quot;: &quot;ellipse&quot;
+            },
+            &quot;visibleWhen&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/predicate&quot;
+            }
+          },
+          &quot;required&quot;: [
+            &quot;type&quot;,
+            &quot;cx&quot;,
+            &quot;cy&quot;,
+            &quot;rx&quot;,
+            &quot;ry&quot;
+          ],
+          &quot;type&quot;: &quot;object&quot;
+        },
+        {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;classes&quot;: {
+              &quot;items&quot;: {
+                &quot;minLength&quot;: 1,
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;type&quot;: &quot;array&quot;,
+              &quot;uniqueItems&quot;: true
+            },
+            &quot;cx&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;cy&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;id&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;layer&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;metadata&quot;: {
+              &quot;type&quot;: &quot;object&quot;
+            },
+            &quot;role&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;rx&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;ry&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;startAngle&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;style&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;sweepAngle&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;transform&quot;: {
+              &quot;maxItems&quot;: 6,
+              &quot;minItems&quot;: 6,
+              &quot;prefixItems&quot;: [
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                }
+              ],
+              &quot;type&quot;: &quot;array&quot;
+            },
+            &quot;type&quot;: {
+              &quot;const&quot;: &quot;arc&quot;
+            },
+            &quot;visibleWhen&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/predicate&quot;
+            }
+          },
+          &quot;required&quot;: [
+            &quot;type&quot;,
+            &quot;cx&quot;,
+            &quot;cy&quot;,
+            &quot;rx&quot;,
+            &quot;ry&quot;,
+            &quot;startAngle&quot;,
+            &quot;sweepAngle&quot;
+          ],
+          &quot;type&quot;: &quot;object&quot;
+        },
+        {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;classes&quot;: {
+              &quot;items&quot;: {
+                &quot;minLength&quot;: 1,
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;type&quot;: &quot;array&quot;,
+              &quot;uniqueItems&quot;: true
+            },
+            &quot;commands&quot;: {
+              &quot;items&quot;: {
+                &quot;$ref&quot;: &quot;#/$defs/pathCommand&quot;
+              },
+              &quot;maxItems&quot;: 10000,
+              &quot;minItems&quot;: 1,
+              &quot;type&quot;: &quot;array&quot;
+            },
+            &quot;fillRule&quot;: {
+              &quot;enum&quot;: [
+                &quot;nonzero&quot;,
+                &quot;evenodd&quot;
+              ]
+            },
+            &quot;id&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;layer&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;metadata&quot;: {
+              &quot;type&quot;: &quot;object&quot;
+            },
+            &quot;role&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;style&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;transform&quot;: {
+              &quot;maxItems&quot;: 6,
+              &quot;minItems&quot;: 6,
+              &quot;prefixItems&quot;: [
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                }
+              ],
+              &quot;type&quot;: &quot;array&quot;
+            },
+            &quot;type&quot;: {
+              &quot;const&quot;: &quot;path&quot;
+            },
+            &quot;visibleWhen&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/predicate&quot;
+            }
+          },
+          &quot;required&quot;: [
+            &quot;type&quot;,
+            &quot;commands&quot;
+          ],
+          &quot;type&quot;: &quot;object&quot;
+        },
+        {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;anchor&quot;: {
+              &quot;enum&quot;: [
+                &quot;start&quot;,
+                &quot;middle&quot;,
+                &quot;end&quot;
+              ]
+            },
+            &quot;baseline&quot;: {
+              &quot;enum&quot;: [
+                &quot;auto&quot;,
+                &quot;alphabetic&quot;,
+                &quot;middle&quot;,
+                &quot;hanging&quot;
+              ]
+            },
+            &quot;classes&quot;: {
+              &quot;items&quot;: {
+                &quot;minLength&quot;: 1,
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;type&quot;: &quot;array&quot;,
+              &quot;uniqueItems&quot;: true
+            },
+            &quot;field&quot;: {
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;id&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;layer&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;maxWidth&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;metadata&quot;: {
+              &quot;type&quot;: &quot;object&quot;
+            },
+            &quot;preserveUpright&quot;: {
+              &quot;type&quot;: &quot;boolean&quot;
+            },
+            &quot;role&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;rotation&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;style&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;text&quot;: {
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;transform&quot;: {
+              &quot;maxItems&quot;: 6,
+              &quot;minItems&quot;: 6,
+              &quot;prefixItems&quot;: [
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                }
+              ],
+              &quot;type&quot;: &quot;array&quot;
+            },
+            &quot;type&quot;: {
+              &quot;const&quot;: &quot;text&quot;
+            },
+            &quot;visibleWhen&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/predicate&quot;
+            },
+            &quot;x&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;y&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            }
+          },
+          &quot;required&quot;: [
+            &quot;type&quot;,
+            &quot;x&quot;,
+            &quot;y&quot;
+          ],
+          &quot;type&quot;: &quot;object&quot;
+        },
+        {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;classes&quot;: {
+              &quot;items&quot;: {
+                &quot;minLength&quot;: 1,
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;type&quot;: &quot;array&quot;,
+              &quot;uniqueItems&quot;: true
+            },
+            &quot;height&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;id&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;layer&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;metadata&quot;: {
+              &quot;type&quot;: &quot;object&quot;
+            },
+            &quot;opacity&quot;: {
+              &quot;maximum&quot;: 1,
+              &quot;minimum&quot;: 0,
+              &quot;type&quot;: &quot;number&quot;
+            },
+            &quot;preserveAspectRatio&quot;: {
+              &quot;enum&quot;: [
+                &quot;none&quot;,
+                &quot;meet&quot;,
+                &quot;slice&quot;
+              ]
+            },
+            &quot;role&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;source&quot;: {
+              &quot;additionalProperties&quot;: false,
+              &quot;properties&quot;: {
+                &quot;digest&quot;: {
+                  &quot;pattern&quot;: &quot;^sha256:[0-9a-f]{64}$&quot;,
+                  &quot;type&quot;: &quot;string&quot;
+                },
+                &quot;embedded&quot;: {
+                  &quot;type&quot;: &quot;boolean&quot;
+                },
+                &quot;mediaType&quot;: {
+                  &quot;enum&quot;: [
+                    &quot;image/png&quot;,
+                    &quot;image/jpeg&quot;,
+                    &quot;image/webp&quot;
+                  ]
+                },
+                &quot;path&quot;: {
+                  &quot;pattern&quot;: &quot;^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[a-z0-9][a-z0-9._/-]*$&quot;,
+                  &quot;type&quot;: &quot;string&quot;
+                }
+              },
+              &quot;required&quot;: [
+                &quot;path&quot;,
+                &quot;digest&quot;,
+                &quot;mediaType&quot;
+              ],
+              &quot;type&quot;: &quot;object&quot;
+            },
+            &quot;style&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;transform&quot;: {
+              &quot;maxItems&quot;: 6,
+              &quot;minItems&quot;: 6,
+              &quot;prefixItems&quot;: [
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                }
+              ],
+              &quot;type&quot;: &quot;array&quot;
+            },
+            &quot;type&quot;: {
+              &quot;const&quot;: &quot;image&quot;
+            },
+            &quot;visibleWhen&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/predicate&quot;
+            },
+            &quot;width&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;x&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;y&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            }
+          },
+          &quot;required&quot;: [
+            &quot;type&quot;,
+            &quot;x&quot;,
+            &quot;y&quot;,
+            &quot;width&quot;,
+            &quot;height&quot;,
+            &quot;source&quot;
+          ],
+          &quot;type&quot;: &quot;object&quot;
+        },
+        {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;arrowSize&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;classes&quot;: {
+              &quot;items&quot;: {
+                &quot;minLength&quot;: 1,
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;type&quot;: &quot;array&quot;,
+              &quot;uniqueItems&quot;: true
+            },
+            &quot;field&quot;: {
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;from&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/point&quot;
+            },
+            &quot;id&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;layer&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;metadata&quot;: {
+              &quot;type&quot;: &quot;object&quot;
+            },
+            &quot;offset&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;precision&quot;: {
+              &quot;maximum&quot;: 6,
+              &quot;minimum&quot;: 0,
+              &quot;type&quot;: &quot;integer&quot;
+            },
+            &quot;role&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;style&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;text&quot;: {
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;to&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/point&quot;
+            },
+            &quot;transform&quot;: {
+              &quot;maxItems&quot;: 6,
+              &quot;minItems&quot;: 6,
+              &quot;prefixItems&quot;: [
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;number&quot;
+                }
+              ],
+              &quot;type&quot;: &quot;array&quot;
+            },
+            &quot;type&quot;: {
+              &quot;const&quot;: &quot;dimension&quot;
+            },
+            &quot;unit&quot;: {
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;visibleWhen&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/predicate&quot;
+            }
+          },
+          &quot;required&quot;: [
+            &quot;type&quot;,
+            &quot;from&quot;,
+            &quot;to&quot;,
+            &quot;offset&quot;
+          ],
+          &quot;type&quot;: &quot;object&quot;
+        }
+      ]
+    },
+    &quot;numericExpression&quot;: {
+      &quot;oneOf&quot;: [
+        {
+          &quot;type&quot;: &quot;number&quot;
+        },
+        {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;param&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            }
+          },
+          &quot;required&quot;: [
+            &quot;param&quot;
+          ],
+          &quot;type&quot;: &quot;object&quot;
+        },
+        {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;args&quot;: {
+              &quot;items&quot;: {
+                &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+              },
+              &quot;maxItems&quot;: 8,
+              &quot;minItems&quot;: 1,
+              &quot;type&quot;: &quot;array&quot;
+            },
+            &quot;op&quot;: {
+              &quot;enum&quot;: [
+                &quot;add&quot;,
+                &quot;sub&quot;,
+                &quot;mul&quot;,
+                &quot;div&quot;,
+                &quot;min&quot;,
+                &quot;max&quot;,
+                &quot;clamp&quot;,
+                &quot;neg&quot;,
+                &quot;abs&quot;
+              ]
+            }
+          },
+          &quot;required&quot;: [
+            &quot;op&quot;,
+            &quot;args&quot;
+          ],
+          &quot;type&quot;: &quot;object&quot;
+        }
+      ]
+    },
+    &quot;paintServer&quot;: {
+      &quot;oneOf&quot;: [
+        {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;graphics&quot;: {
+              &quot;items&quot;: {
+                &quot;$ref&quot;: &quot;#/$defs/node&quot;
+              },
+              &quot;maxItems&quot;: 1000,
+              &quot;minItems&quot;: 1,
+              &quot;type&quot;: &quot;array&quot;
+            },
+            &quot;height&quot;: {
+              &quot;exclusiveMinimum&quot;: 0,
+              &quot;type&quot;: &quot;number&quot;
+            },
+            &quot;rotation&quot;: {
+              &quot;type&quot;: &quot;number&quot;
+            },
+            &quot;type&quot;: {
+              &quot;const&quot;: &quot;pattern&quot;
+            },
+            &quot;width&quot;: {
+              &quot;exclusiveMinimum&quot;: 0,
+              &quot;type&quot;: &quot;number&quot;
+            },
+            &quot;x&quot;: {
+              &quot;type&quot;: &quot;number&quot;
+            },
+            &quot;y&quot;: {
+              &quot;type&quot;: &quot;number&quot;
+            }
+          },
+          &quot;required&quot;: [
+            &quot;type&quot;,
+            &quot;width&quot;,
+            &quot;height&quot;,
+            &quot;graphics&quot;
+          ],
+          &quot;type&quot;: &quot;object&quot;
+        },
+        {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;stops&quot;: {
+              &quot;items&quot;: {
+                &quot;$ref&quot;: &quot;#/$defs/gradientStop&quot;
+              },
+              &quot;maxItems&quot;: 64,
+              &quot;minItems&quot;: 2,
+              &quot;type&quot;: &quot;array&quot;
+            },
+            &quot;type&quot;: {
+              &quot;const&quot;: &quot;linear-gradient&quot;
+            },
+            &quot;x1&quot;: {
+              &quot;type&quot;: &quot;number&quot;
+            },
+            &quot;x2&quot;: {
+              &quot;type&quot;: &quot;number&quot;
+            },
+            &quot;y1&quot;: {
+              &quot;type&quot;: &quot;number&quot;
+            },
+            &quot;y2&quot;: {
+              &quot;type&quot;: &quot;number&quot;
+            }
+          },
+          &quot;required&quot;: [
+            &quot;type&quot;,
+            &quot;x1&quot;,
+            &quot;y1&quot;,
+            &quot;x2&quot;,
+            &quot;y2&quot;,
+            &quot;stops&quot;
+          ],
+          &quot;type&quot;: &quot;object&quot;
+        },
+        {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;cx&quot;: {
+              &quot;type&quot;: &quot;number&quot;
+            },
+            &quot;cy&quot;: {
+              &quot;type&quot;: &quot;number&quot;
+            },
+            &quot;fx&quot;: {
+              &quot;type&quot;: &quot;number&quot;
+            },
+            &quot;fy&quot;: {
+              &quot;type&quot;: &quot;number&quot;
+            },
+            &quot;r&quot;: {
+              &quot;exclusiveMinimum&quot;: 0,
+              &quot;type&quot;: &quot;number&quot;
+            },
+            &quot;stops&quot;: {
+              &quot;items&quot;: {
+                &quot;$ref&quot;: &quot;#/$defs/gradientStop&quot;
+              },
+              &quot;maxItems&quot;: 64,
+              &quot;minItems&quot;: 2,
+              &quot;type&quot;: &quot;array&quot;
+            },
+            &quot;type&quot;: {
+              &quot;const&quot;: &quot;radial-gradient&quot;
+            }
+          },
+          &quot;required&quot;: [
+            &quot;type&quot;,
+            &quot;cx&quot;,
+            &quot;cy&quot;,
+            &quot;r&quot;,
+            &quot;stops&quot;
+          ],
+          &quot;type&quot;: &quot;object&quot;
+        }
+      ]
+    },
+    &quot;parameterDefinition&quot;: {
+      &quot;additionalProperties&quot;: false,
+      &quot;properties&quot;: {
+        &quot;default&quot;: {},
+        &quot;description&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;maximum&quot;: {
+          &quot;type&quot;: &quot;number&quot;
+        },
+        &quot;minimum&quot;: {
+          &quot;type&quot;: &quot;number&quot;
+        },
+        &quot;step&quot;: {
+          &quot;exclusiveMinimum&quot;: 0,
+          &quot;type&quot;: &quot;number&quot;
+        },
+        &quot;type&quot;: {
+          &quot;enum&quot;: [
+            &quot;number&quot;,
+            &quot;length&quot;,
+            &quot;angle&quot;,
+            &quot;integer&quot;,
+            &quot;boolean&quot;,
+            &quot;enum&quot;,
+            &quot;string&quot;
+          ]
+        },
+        &quot;unit&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;values&quot;: {
+          &quot;items&quot;: {
+            &quot;type&quot;: [
+              &quot;string&quot;,
+              &quot;number&quot;,
+              &quot;boolean&quot;
+            ]
+          },
+          &quot;minItems&quot;: 1,
+          &quot;type&quot;: &quot;array&quot;,
+          &quot;uniqueItems&quot;: true
+        }
+      },
+      &quot;required&quot;: [
+        &quot;type&quot;,
+        &quot;default&quot;
+      ],
+      &quot;type&quot;: &quot;object&quot;
+    },
+    &quot;pathCommand&quot;: {
+      &quot;oneOf&quot;: [
+        {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;cmd&quot;: {
+              &quot;const&quot;: &quot;M&quot;
+            },
+            &quot;x&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;y&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            }
+          },
+          &quot;required&quot;: [
+            &quot;cmd&quot;,
+            &quot;x&quot;,
+            &quot;y&quot;
+          ],
+          &quot;type&quot;: &quot;object&quot;
+        },
+        {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;cmd&quot;: {
+              &quot;const&quot;: &quot;L&quot;
+            },
+            &quot;x&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;y&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            }
+          },
+          &quot;required&quot;: [
+            &quot;cmd&quot;,
+            &quot;x&quot;,
+            &quot;y&quot;
+          ],
+          &quot;type&quot;: &quot;object&quot;
+        },
+        {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;cmd&quot;: {
+              &quot;const&quot;: &quot;Q&quot;
+            },
+            &quot;x&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;x1&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;y&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;y1&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            }
+          },
+          &quot;required&quot;: [
+            &quot;cmd&quot;,
+            &quot;x1&quot;,
+            &quot;y1&quot;,
+            &quot;x&quot;,
+            &quot;y&quot;
+          ],
+          &quot;type&quot;: &quot;object&quot;
+        },
+        {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;cmd&quot;: {
+              &quot;const&quot;: &quot;C&quot;
+            },
+            &quot;x&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;x1&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;x2&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;y&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;y1&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;y2&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            }
+          },
+          &quot;required&quot;: [
+            &quot;cmd&quot;,
+            &quot;x1&quot;,
+            &quot;y1&quot;,
+            &quot;x2&quot;,
+            &quot;y2&quot;,
+            &quot;x&quot;,
+            &quot;y&quot;
+          ],
+          &quot;type&quot;: &quot;object&quot;
+        },
+        {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;cmd&quot;: {
+              &quot;const&quot;: &quot;A&quot;
+            },
+            &quot;largeArc&quot;: {
+              &quot;type&quot;: &quot;boolean&quot;
+            },
+            &quot;rotation&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;rx&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;ry&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;sweep&quot;: {
+              &quot;type&quot;: &quot;boolean&quot;
+            },
+            &quot;x&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            },
+            &quot;y&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+            }
+          },
+          &quot;required&quot;: [
+            &quot;cmd&quot;,
+            &quot;rx&quot;,
+            &quot;ry&quot;,
+            &quot;rotation&quot;,
+            &quot;largeArc&quot;,
+            &quot;sweep&quot;,
+            &quot;x&quot;,
+            &quot;y&quot;
+          ],
+          &quot;type&quot;: &quot;object&quot;
+        },
+        {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;cmd&quot;: {
+              &quot;const&quot;: &quot;Z&quot;
+            }
+          },
+          &quot;required&quot;: [
+            &quot;cmd&quot;
+          ],
+          &quot;type&quot;: &quot;object&quot;
+        }
+      ]
+    },
+    &quot;point&quot;: {
+      &quot;maxItems&quot;: 2,
+      &quot;minItems&quot;: 2,
+      &quot;prefixItems&quot;: [
+        {
+          &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+        },
+        {
+          &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+        }
+      ],
+      &quot;type&quot;: &quot;array&quot;
+    },
+    &quot;port&quot;: {
+      &quot;additionalProperties&quot;: false,
+      &quot;properties&quot;: {
+        &quot;id&quot;: {
+          &quot;minLength&quot;: 1,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;kind&quot;: {
+          &quot;enum&quot;: [
+            &quot;electrical&quot;,
+            &quot;logical&quot;,
+            &quot;mechanical&quot;,
+            &quot;fluid&quot;,
+            &quot;optical&quot;,
+            &quot;architectural&quot;,
+            &quot;generic&quot;
+          ]
+        },
+        &quot;labelVisible&quot;: {
+          &quot;type&quot;: &quot;boolean&quot;
+        },
+        &quot;leadLength&quot;: {
+          &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+        },
+        &quot;metadata&quot;: {
+          &quot;type&quot;: &quot;object&quot;
+        },
+        &quot;name&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;number&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;numberVisible&quot;: {
+          &quot;type&quot;: &quot;boolean&quot;
+        },
+        &quot;orientation&quot;: {
+          &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+        },
+        &quot;snapRadius&quot;: {
+          &quot;minimum&quot;: 0,
+          &quot;type&quot;: &quot;number&quot;
+        },
+        &quot;visibleWhen&quot;: {
+          &quot;$ref&quot;: &quot;#/$defs/predicate&quot;
+        },
+        &quot;x&quot;: {
+          &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+        },
+        &quot;y&quot;: {
+          &quot;$ref&quot;: &quot;#/$defs/numericExpression&quot;
+        }
+      },
+      &quot;required&quot;: [
+        &quot;id&quot;,
+        &quot;x&quot;,
+        &quot;y&quot;,
+        &quot;orientation&quot;,
+        &quot;kind&quot;
+      ],
+      &quot;type&quot;: &quot;object&quot;
+    },
+    &quot;predicate&quot;: {
+      &quot;oneOf&quot;: [
+        {
+          &quot;type&quot;: &quot;boolean&quot;
+        },
+        {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;args&quot;: {
+              &quot;items&quot;: {
+                &quot;$ref&quot;: &quot;#/$defs/predicate&quot;
+              },
+              &quot;maxItems&quot;: 16,
+              &quot;minItems&quot;: 1,
+              &quot;type&quot;: &quot;array&quot;
+            },
+            &quot;op&quot;: {
+              &quot;enum&quot;: [
+                &quot;and&quot;,
+                &quot;or&quot;
+              ]
+            }
+          },
+          &quot;required&quot;: [
+            &quot;op&quot;,
+            &quot;args&quot;
+          ],
+          &quot;type&quot;: &quot;object&quot;
+        },
+        {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;arg&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/predicate&quot;
+            },
+            &quot;op&quot;: {
+              &quot;const&quot;: &quot;not&quot;
+            }
+          },
+          &quot;required&quot;: [
+            &quot;op&quot;,
+            &quot;arg&quot;
+          ],
+          &quot;type&quot;: &quot;object&quot;
+        },
+        {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;left&quot;: {
+              &quot;$ref&quot;: &quot;#/$defs/valueExpression&quot;
+            },
+            &quot;op&quot;: {
+              &quot;enum&quot;: [
+                &quot;eq&quot;,
+                &quot;ne&quot;,
+                &quot;lt&quot;,
+                &quot;lte&quot;,
+                &quot;gt&quot;,
+                &quot;gte&quot;,
+                &quot;in&quot;
+              ]
+            },
+            &quot;right&quot;: {
+              &quot;oneOf&quot;: [
+                {
+                  &quot;$ref&quot;: &quot;#/$defs/valueExpression&quot;
+                },
+                {
+                  &quot;items&quot;: {
+                    &quot;$ref&quot;: &quot;#/$defs/valueExpression&quot;
+                  },
+                  &quot;maxItems&quot;: 64,
+                  &quot;type&quot;: &quot;array&quot;
+                }
+              ]
+            }
+          },
+          &quot;required&quot;: [
+            &quot;op&quot;,
+            &quot;left&quot;,
+            &quot;right&quot;
+          ],
+          &quot;type&quot;: &quot;object&quot;
+        }
+      ]
+    },
+    &quot;provenance&quot;: {
+      &quot;additionalProperties&quot;: false,
+      &quot;properties&quot;: {
+        &quot;author&quot;: {
+          &quot;minLength&quot;: 1,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;created&quot;: {
+          &quot;format&quot;: &quot;date&quot;,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;license&quot;: {
+          &quot;minLength&quot;: 1,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;notes&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;origin&quot;: {
+          &quot;minLength&quot;: 1,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;sourceDigest&quot;: {
+          &quot;pattern&quot;: &quot;^sha256:[0-9a-f]{64}$&quot;,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;sourceUri&quot;: {
+          &quot;format&quot;: &quot;uri&quot;,
+          &quot;type&quot;: &quot;string&quot;
+        }
+      },
+      &quot;required&quot;: [
+        &quot;origin&quot;,
+        &quot;license&quot;,
+        &quot;author&quot;,
+        &quot;created&quot;
+      ],
+      &quot;type&quot;: &quot;object&quot;
+    },
+    &quot;style&quot;: {
+      &quot;additionalProperties&quot;: false,
+      &quot;properties&quot;: {
+        &quot;dashArray&quot;: {
+          &quot;items&quot;: {
+            &quot;minimum&quot;: 0,
+            &quot;type&quot;: &quot;number&quot;
+          },
+          &quot;maxItems&quot;: 32,
+          &quot;type&quot;: &quot;array&quot;
+        },
+        &quot;dashOffset&quot;: {
+          &quot;type&quot;: &quot;number&quot;
+        },
+        &quot;fill&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;fillRule&quot;: {
+          &quot;enum&quot;: [
+            &quot;nonzero&quot;,
+            &quot;evenodd&quot;
+          ]
+        },
+        &quot;fontFamily&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;fontSize&quot;: {
+          &quot;exclusiveMinimum&quot;: 0,
+          &quot;type&quot;: &quot;number&quot;
+        },
+        &quot;fontStyle&quot;: {
+          &quot;enum&quot;: [
+            &quot;normal&quot;,
+            &quot;italic&quot;,
+            &quot;oblique&quot;
+          ]
+        },
+        &quot;fontWeight&quot;: {
+          &quot;oneOf&quot;: [
+            {
+              &quot;maximum&quot;: 900,
+              &quot;minimum&quot;: 100,
+              &quot;type&quot;: &quot;integer&quot;
+            },
+            {
+              &quot;enum&quot;: [
+                &quot;normal&quot;,
+                &quot;bold&quot;
+              ]
+            }
+          ]
+        },
+        &quot;letterSpacing&quot;: {
+          &quot;type&quot;: &quot;number&quot;
+        },
+        &quot;opacity&quot;: {
+          &quot;maximum&quot;: 1,
+          &quot;minimum&quot;: 0,
+          &quot;type&quot;: &quot;number&quot;
+        },
+        &quot;pointerEvents&quot;: {
+          &quot;enum&quot;: [
+            &quot;none&quot;,
+            &quot;stroke&quot;,
+            &quot;fill&quot;,
+            &quot;painted&quot;,
+            &quot;all&quot;
+          ]
+        },
+        &quot;stroke&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;strokeLinecap&quot;: {
+          &quot;enum&quot;: [
+            &quot;butt&quot;,
+            &quot;round&quot;,
+            &quot;square&quot;
+          ]
+        },
+        &quot;strokeLinejoin&quot;: {
+          &quot;enum&quot;: [
+            &quot;miter&quot;,
+            &quot;round&quot;,
+            &quot;bevel&quot;
+          ]
+        },
+        &quot;strokeMiterlimit&quot;: {
+          &quot;minimum&quot;: 1,
+          &quot;type&quot;: &quot;number&quot;
+        },
+        &quot;strokeWidth&quot;: {
+          &quot;minimum&quot;: 0,
+          &quot;type&quot;: &quot;number&quot;
+        },
+        &quot;textDecoration&quot;: {
+          &quot;enum&quot;: [
+            &quot;none&quot;,
+            &quot;underline&quot;,
+            &quot;line-through&quot;
+          ]
+        }
+      },
+      &quot;type&quot;: &quot;object&quot;
+    },
+    &quot;transform&quot;: {
+      &quot;maxItems&quot;: 6,
+      &quot;minItems&quot;: 6,
+      &quot;prefixItems&quot;: [
+        {
+          &quot;type&quot;: &quot;number&quot;
+        },
+        {
+          &quot;type&quot;: &quot;number&quot;
+        },
+        {
+          &quot;type&quot;: &quot;number&quot;
+        },
+        {
+          &quot;type&quot;: &quot;number&quot;
+        },
+        {
+          &quot;type&quot;: &quot;number&quot;
+        },
+        {
+          &quot;type&quot;: &quot;number&quot;
+        }
+      ],
+      &quot;type&quot;: &quot;array&quot;
+    },
+    &quot;valueExpression&quot;: {
+      &quot;oneOf&quot;: [
+        {
+          &quot;type&quot;: [
+            &quot;number&quot;,
+            &quot;string&quot;,
+            &quot;boolean&quot;
+          ]
+        },
+        {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;param&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            }
+          },
+          &quot;required&quot;: [
+            &quot;param&quot;
+          ],
+          &quot;type&quot;: &quot;object&quot;
+        },
+        {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;field&quot;: {
+              &quot;minLength&quot;: 1,
+              &quot;type&quot;: &quot;string&quot;
+            }
+          },
+          &quot;required&quot;: [
+            &quot;field&quot;
+          ],
+          &quot;type&quot;: &quot;object&quot;
+        }
+      ]
+    },
+    &quot;variant&quot;: {
+      &quot;additionalProperties&quot;: false,
+      &quot;properties&quot;: {
+        &quot;graphics&quot;: {
+          &quot;items&quot;: {
+            &quot;$ref&quot;: &quot;#/$defs/node&quot;
+          },
+          &quot;type&quot;: &quot;array&quot;
+        },
+        &quot;id&quot;: {
+          &quot;minLength&quot;: 1,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;metadata&quot;: {
+          &quot;type&quot;: &quot;object&quot;
+        },
+        &quot;parameterDefaults&quot;: {
+          &quot;type&quot;: &quot;object&quot;
+        },
+        &quot;portOverrides&quot;: {
+          &quot;additionalProperties&quot;: {
+            &quot;type&quot;: &quot;object&quot;
+          },
+          &quot;type&quot;: &quot;object&quot;
+        },
+        &quot;selector&quot;: {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;bodyStyle&quot;: {
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;purpose&quot;: {
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;state&quot;: {
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;unit&quot;: {
+              &quot;type&quot;: &quot;string&quot;
+            }
+          },
+          &quot;type&quot;: &quot;object&quot;
+        },
+        &quot;suppress&quot;: {
+          &quot;items&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          },
+          &quot;type&quot;: &quot;array&quot;,
+          &quot;uniqueItems&quot;: true
+        },
+        &quot;title&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        }
+      },
+      &quot;required&quot;: [
+        &quot;id&quot;
+      ],
+      &quot;type&quot;: &quot;object&quot;
+    }
+  },
+  &quot;$id&quot;: &quot;https://schemas.aixem.org/component-graphics/aixsym/1&quot;,
+  &quot;$schema&quot;: &quot;https://json-schema.org/draft/2020-12/schema&quot;,
+  &quot;additionalProperties&quot;: false,
+  &quot;properties&quot;: {
+    &quot;formatVersion&quot;: {
+      &quot;const&quot;: &quot;1.0&quot;
+    },
+    &quot;schema&quot;: {
+      &quot;const&quot;: &quot;https://schemas.aixem.org/component-graphics/aixsym/1&quot;
+    },
+    &quot;symbol&quot;: {
+      &quot;additionalProperties&quot;: false,
+      &quot;properties&quot;: {
+        &quot;anchors&quot;: {
+          &quot;items&quot;: {
+            &quot;$ref&quot;: &quot;#/$defs/anchor&quot;
+          },
+          &quot;maxItems&quot;: 1024,
+          &quot;type&quot;: &quot;array&quot;
+        },
+        &quot;bounds&quot;: {
+          &quot;$ref&quot;: &quot;#/$defs/bounds&quot;
+        },
+        &quot;coordinateSystem&quot;: {
+          &quot;$ref&quot;: &quot;#/$defs/coordinateSystem&quot;
+        },
+        &quot;defaultVariant&quot;: {
+          &quot;minLength&quot;: 1,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;definitions&quot;: {
+          &quot;additionalProperties&quot;: {
+            &quot;$ref&quot;: &quot;#/$defs/node&quot;
+          },
+          &quot;type&quot;: &quot;object&quot;
+        },
+        &quot;description&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;graphics&quot;: {
+          &quot;items&quot;: {
+            &quot;$ref&quot;: &quot;#/$defs/node&quot;
+          },
+          &quot;maxItems&quot;: 100000,
+          &quot;type&quot;: &quot;array&quot;
+        },
+        &quot;id&quot;: {
+          &quot;pattern&quot;: &quot;^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$&quot;,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;layers&quot;: {
+          &quot;items&quot;: {
+            &quot;$ref&quot;: &quot;#/$defs/layer&quot;
+          },
+          &quot;maxItems&quot;: 256,
+          &quot;minItems&quot;: 1,
+          &quot;type&quot;: &quot;array&quot;
+        },
+        &quot;metadata&quot;: {
+          &quot;type&quot;: &quot;object&quot;
+        },
+        &quot;paintServers&quot;: {
+          &quot;additionalProperties&quot;: {
+            &quot;$ref&quot;: &quot;#/$defs/paintServer&quot;
+          },
+          &quot;type&quot;: &quot;object&quot;
+        },
+        &quot;parameters&quot;: {
+          &quot;additionalProperties&quot;: {
+            &quot;$ref&quot;: &quot;#/$defs/parameterDefinition&quot;
+          },
+          &quot;propertyNames&quot;: {
+            &quot;pattern&quot;: &quot;^[a-z][a-z0-9-]*$&quot;
+          },
+          &quot;type&quot;: &quot;object&quot;
+        },
+        &quot;ports&quot;: {
+          &quot;items&quot;: {
+            &quot;$ref&quot;: &quot;#/$defs/port&quot;
+          },
+          &quot;maxItems&quot;: 4096,
+          &quot;type&quot;: &quot;array&quot;
+        },
+        &quot;provenance&quot;: {
+          &quot;$ref&quot;: &quot;#/$defs/provenance&quot;
+        },
+        &quot;purpose&quot;: {
+          &quot;minLength&quot;: 1,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;requiredFeatures&quot;: {
+          &quot;items&quot;: {
+            &quot;minLength&quot;: 1,
+            &quot;type&quot;: &quot;string&quot;
+          },
+          &quot;type&quot;: &quot;array&quot;,
+          &quot;uniqueItems&quot;: true
+        },
+        &quot;revision&quot;: {
+          &quot;minLength&quot;: 1,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;styles&quot;: {
+          &quot;additionalProperties&quot;: {
+            &quot;$ref&quot;: &quot;#/$defs/style&quot;
+          },
+          &quot;minProperties&quot;: 1,
+          &quot;type&quot;: &quot;object&quot;
+        },
+        &quot;title&quot;: {
+          &quot;minLength&quot;: 1,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;variants&quot;: {
+          &quot;items&quot;: {
+            &quot;$ref&quot;: &quot;#/$defs/variant&quot;
+          },
+          &quot;maxItems&quot;: 1024,
+          &quot;type&quot;: &quot;array&quot;
+        }
+      },
+      &quot;required&quot;: [
+        &quot;id&quot;,
+        &quot;revision&quot;,
+        &quot;title&quot;,
+        &quot;coordinateSystem&quot;,
+        &quot;bounds&quot;,
+        &quot;layers&quot;,
+        &quot;styles&quot;,
+        &quot;ports&quot;,
+        &quot;graphics&quot;,
+        &quot;provenance&quot;
+      ],
+      &quot;type&quot;: &quot;object&quot;
+    }
+  },
+  &quot;required&quot;: [
+    &quot;schema&quot;,
+    &quot;formatVersion&quot;,
+    &quot;symbol&quot;
+  ],
+  &quot;title&quot;: &quot;AIXEM Symbol Asset 1.0 Candidate&quot;,
+  &quot;type&quot;: &quot;object&quot;
+}</code></pre></article></div></main></body></html>

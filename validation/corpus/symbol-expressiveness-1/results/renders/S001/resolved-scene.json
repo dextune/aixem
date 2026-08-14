@@ -1,0 +1,128 @@
+{
+  "coordinateSystem": {
+    "angleDirection": "clockwise",
+    "angleUnit": "deg",
+    "grid": 2.5,
+    "unit": "mm",
+    "yAxis": "down"
+  },
+  "diagnostics": [],
+  "entities": [
+    {
+      "componentType": "conformance:s001",
+      "key": "X1",
+      "kind": "component",
+      "parameters": {
+        "body-height": 7.5,
+        "body-length": 20,
+        "lead-length": 5
+      },
+      "placement": {
+        "entity": "X1",
+        "layer": "symbols",
+        "x": 45.0,
+        "y": 40.0
+      },
+      "ports": {
+        "1": [
+          30.0,
+          40.0
+        ],
+        "2": [
+          60.0,
+          40.0
+        ]
+      },
+      "reference": "X1",
+      "symbolDigest": "sha256:47e1e3e3e4f435221c53143f06187f35e579cbf8f5e8e08b388989f369837cd9",
+      "symbolId": "corpus:s001-resistor-iec",
+      "value": "IEC resistor",
+      "variant": null
+    }
+  ],
+  "featuresUsed": [],
+  "generatedAt": "2026-08-10T00:00:00Z",
+  "gridValidation": {
+    "crossingPolicy": "junction-required",
+    "orthogonalSegments": 0,
+    "placementExceptions": [],
+    "placements": 1,
+    "placementsOnGrid": 1,
+    "profile": "aixem.schematic.grid-light",
+    "routeSegments": 0,
+    "routeViasOnGrid": true,
+    "snap": 2.5,
+    "zeroLengthSegments": []
+  },
+  "hashes": {
+    "layout": "sha256:0fc0f7b044a27a2f012c31f6a041c9725b15a509279f3eb54d38eed06ab68773",
+    "libraries": [
+      "sha256:1eb9a2bfaa6003865e73236a7ef770ce5f87871353e6d3df885a4112c0fda425"
+    ],
+    "source": "sha256:67d034d6fb590ab1bed51fa8eb0d635ae7b93fb144b04e2d6403ac0554e189fe",
+    "symbolAssets": [
+      "sha256:47e1e3e3e4f435221c53143f06187f35e579cbf8f5e8e08b388989f369837cd9"
+    ]
+  },
+  "layers": [
+    {
+      "defaultVisible": true,
+      "id": "connections",
+      "locked": false,
+      "order": 10,
+      "printable": true,
+      "purpose": "semantic net routes"
+    },
+    {
+      "defaultVisible": true,
+      "id": "symbols",
+      "locked": false,
+      "order": 20,
+      "printable": true,
+      "purpose": "component symbols"
+    },
+    {
+      "defaultVisible": true,
+      "id": "annotation",
+      "locked": false,
+      "order": 30,
+      "printable": true,
+      "purpose": "notes"
+    }
+  ],
+  "nets": [],
+  "project": {
+    "id": "conformance:s001",
+    "profile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "title": "S001 IEC resistor conformance project"
+  },
+  "renderer": {
+    "id": "aixem-grid-schematic-reference-renderer",
+    "version": "0.5.1"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/resolved-scene/1",
+  "sheet": {
+    "height": 120.0,
+    "margin": 10,
+    "titleBlock": {
+      "drawing": "corpus_s001-layout",
+      "revision": "A",
+      "sheet": "1/1",
+      "title": "S001 — IEC resistor"
+    },
+    "width": 180.0
+  },
+  "statistics": {
+    "entities": 1,
+    "nets": 0,
+    "noConnects": 0,
+    "primitives": 5,
+    "routeSegments": 0,
+    "symbolAssets": 1
+  },
+  "styleProfile": {
+    "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+    "id": "aixem.schematic.grid-light",
+    "path": "aixem-grid-schematic-style-1.aixstyle.json"
+  }
+}

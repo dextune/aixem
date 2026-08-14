@@ -1,0 +1,156 @@
+{
+  "authority": "derived-navigation-only",
+  "budget": {
+    "max_bytes": 98304,
+    "max_depth": 3,
+    "max_documents": 7
+  },
+  "completion": [
+    "Every connection names an existing semantic net",
+    "Every semantic endpoint is routed",
+    "Every free segment is orthogonal and grid-aligned",
+    "Every branch join is explicit",
+    "Crossings remain semantically and visually unambiguous"
+  ],
+  "documents": [
+    {
+      "bytes": 5145,
+      "digest": "sha256:15f0ed7e2441883cb3509959c8eb9ce73c0a1f277d3e382e0af89730c672b6eb",
+      "document": "AIXEM-CONCEPT-NET-001",
+      "order": 1,
+      "path": "docs/concepts/net-model.md",
+      "purpose": "Confirm semantic net membership and endpoint closure.",
+      "required": true,
+      "section": "overview"
+    },
+    {
+      "bytes": 8116,
+      "digest": "sha256:641b43cd46e68c363beb52a32f76f97b90c6aba9bc16fbfc0b99bd892e47942f",
+      "document": "AIXEM-ROUTE-NETS-001",
+      "order": 2,
+      "path": "docs/routing/net-routing.md",
+      "purpose": "Resolve semantic endpoints into explicit layout paths.",
+      "required": true,
+      "section": "0-5-1-serialization-and-closure-example"
+    },
+    {
+      "bytes": 6317,
+      "digest": "sha256:1e6af046668fc955bf129fc22726dbeeecbebe1857c72fecb750acf1f93075c5",
+      "document": "AIXEM-ROUTE-COOKBOOK-001",
+      "order": 3,
+      "path": "docs/routing/routing-cookbook.md",
+      "purpose": "Choose the topology-specific routing recipe.",
+      "required": true,
+      "section": "straight-two-terminal-route"
+    },
+    {
+      "bytes": 6354,
+      "digest": "sha256:6635f8dba35db7d77e80a45b7fbddccf7055b27c4ddf4e5e328b65a458161817",
+      "document": "AIXEM-SCHEM-GRID-001",
+      "order": 4,
+      "path": "docs/schematic/grid-system.md",
+      "purpose": "Apply active grid authority to every free route bend.",
+      "required": true,
+      "section": "operational-rules"
+    },
+    {
+      "bytes": 5737,
+      "digest": "sha256:e70eaf988b584d969cd9a54cc2b25dbe914e39a1a86f88ea80ab505089feef14",
+      "document": "AIXEM-ROUTE-CONSTRAINT-001",
+      "order": 5,
+      "path": "docs/routing/route-constraints.md",
+      "purpose": "Apply obstacle, clearance, endpoint, and route-quality constraints.",
+      "required": true,
+      "section": "route-constraints"
+    },
+    {
+      "bytes": 7378,
+      "digest": "sha256:3f5039c045884821785cb22ff15f53c7d7aead8c406387a4d9c3b2e6839cc0d9",
+      "document": "AIXEM-ROUTE-CROSSING-001",
+      "order": 6,
+      "path": "docs/routing/crossings-and-junctions.md",
+      "purpose": "Represent branches and crossings without inferred connectivity.",
+      "required": true,
+      "section": "0-5-1-complete-branch-and-crossing-pattern"
+    },
+    {
+      "bytes": 9360,
+      "digest": "sha256:b98490ebabd6639be7f46616567655a16386d62d196f846f67a15751a6315d77",
+      "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+      "order": 7,
+      "path": "docs/file-formats/aixlayout.md",
+      "purpose": "Serialize connections, paths, bends, labels, and junctions.",
+      "required": true,
+      "section": "connection-fields"
+    }
+  ],
+  "expectedInputs": [
+    "closed semantic nets",
+    "resolved component placements and ports",
+    "routing constraints"
+  ],
+  "expectedOutputs": [
+    "updated .aixlayout.json connections",
+    "route closure evidence",
+    "deterministic routed render"
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "id": "route-nets",
+  "intent": "route-nets",
+  "kind": "simple",
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "remediation": {
+    "acceptsDiagnostics": [
+      "AIXEM-DIAG-ROUTE-ENDPOINT-CLOSURE",
+      "AIXEM-DIAG-ROUTE-NON-ORTHOGONAL",
+      "AIXEM-DIAG-ROUTE-VIA-OFF-GRID",
+      "AIXEM-DIAG-ROUTE-ZERO-LENGTH",
+      "AIXEM-DIAG-JUNCTION-AMBIGUOUS"
+    ]
+  },
+  "schema": "https://schemas.aixem.org/documentation/task-packet/1",
+  "source": "docs/_meta/routes/route-nets.yaml",
+  "sourceDigest": "sha256:1a36395a10aee457ee8d742b8c129f2b15d49239bbedc0b9ef0b0ac4ff4e8cca",
+  "summary": "Materialize existing semantic nets as orthogonal, explicit, unambiguous route geometry",
+  "validators": [
+    "schematic.route_closure",
+    "schematic.orthogonal",
+    "schematic.junction",
+    "schematic.renderer_contract",
+    "agent.diagnostics",
+    "agent.change_scope"
+  ],
+  "writes": {
+    "artifacts": [
+      "**/*.aixlayout.json",
+      "**/*.aixproj.json"
+    ],
+    "authority": [
+      "layout",
+      "project"
+    ],
+    "constraints": [
+      {
+        "pattern": "**/*.aixproj.json",
+        "policy": "digest-only"
+      }
+    ],
+    "derived": [
+      "render/**",
+      "evidence/**"
+    ],
+    "prohibited": [
+      "render/**",
+      "evidence/**",
+      "**/viewer.html",
+      "**/workbench.html",
+      "**/*.svg",
+      "**/resolved-scene.json",
+      "**/resolved-project-scene.json",
+      "**/viewer-model.json",
+      "**/render-manifest.json",
+      "**/project-validation.json"
+    ]
+  }
+}

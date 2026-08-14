@@ -1,0 +1,2885 @@
+{
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/component-graphics/aixsym/1",
+  "symbol": {
+    "anchors": [
+      {
+        "id": "origin",
+        "kind": "insertion",
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "bounds": {
+      "height": 280.0,
+      "width": 60.0,
+      "x": -30.0,
+      "y": -140.0
+    },
+    "coordinateSystem": {
+      "angleDirection": "clockwise",
+      "angleUnit": "deg",
+      "grid": 2.5,
+      "unit": "mm",
+      "yAxis": "down"
+    },
+    "definitions": {},
+    "description": "100-port connector evidence case with 5 mm pitch.",
+    "graphics": [
+      {
+        "id": "lead-1",
+        "layer": "body",
+        "metadata": {
+          "port": "1",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": -122.5,
+        "y2": -122.5
+      },
+      {
+        "id": "lead-2",
+        "layer": "body",
+        "metadata": {
+          "port": "2",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": -117.5,
+        "y2": -117.5
+      },
+      {
+        "id": "lead-3",
+        "layer": "body",
+        "metadata": {
+          "port": "3",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": -112.5,
+        "y2": -112.5
+      },
+      {
+        "id": "lead-4",
+        "layer": "body",
+        "metadata": {
+          "port": "4",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": -107.5,
+        "y2": -107.5
+      },
+      {
+        "id": "lead-5",
+        "layer": "body",
+        "metadata": {
+          "port": "5",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": -102.5,
+        "y2": -102.5
+      },
+      {
+        "id": "lead-6",
+        "layer": "body",
+        "metadata": {
+          "port": "6",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": -97.5,
+        "y2": -97.5
+      },
+      {
+        "id": "lead-7",
+        "layer": "body",
+        "metadata": {
+          "port": "7",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": -92.5,
+        "y2": -92.5
+      },
+      {
+        "id": "lead-8",
+        "layer": "body",
+        "metadata": {
+          "port": "8",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": -87.5,
+        "y2": -87.5
+      },
+      {
+        "id": "lead-9",
+        "layer": "body",
+        "metadata": {
+          "port": "9",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": -82.5,
+        "y2": -82.5
+      },
+      {
+        "id": "lead-10",
+        "layer": "body",
+        "metadata": {
+          "port": "10",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": -77.5,
+        "y2": -77.5
+      },
+      {
+        "id": "lead-11",
+        "layer": "body",
+        "metadata": {
+          "port": "11",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": -72.5,
+        "y2": -72.5
+      },
+      {
+        "id": "lead-12",
+        "layer": "body",
+        "metadata": {
+          "port": "12",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": -67.5,
+        "y2": -67.5
+      },
+      {
+        "id": "lead-13",
+        "layer": "body",
+        "metadata": {
+          "port": "13",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": -62.5,
+        "y2": -62.5
+      },
+      {
+        "id": "lead-14",
+        "layer": "body",
+        "metadata": {
+          "port": "14",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": -57.5,
+        "y2": -57.5
+      },
+      {
+        "id": "lead-15",
+        "layer": "body",
+        "metadata": {
+          "port": "15",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": -52.5,
+        "y2": -52.5
+      },
+      {
+        "id": "lead-16",
+        "layer": "body",
+        "metadata": {
+          "port": "16",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": -47.5,
+        "y2": -47.5
+      },
+      {
+        "id": "lead-17",
+        "layer": "body",
+        "metadata": {
+          "port": "17",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": -42.5,
+        "y2": -42.5
+      },
+      {
+        "id": "lead-18",
+        "layer": "body",
+        "metadata": {
+          "port": "18",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": -37.5,
+        "y2": -37.5
+      },
+      {
+        "id": "lead-19",
+        "layer": "body",
+        "metadata": {
+          "port": "19",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": -32.5,
+        "y2": -32.5
+      },
+      {
+        "id": "lead-20",
+        "layer": "body",
+        "metadata": {
+          "port": "20",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": -27.5,
+        "y2": -27.5
+      },
+      {
+        "id": "lead-21",
+        "layer": "body",
+        "metadata": {
+          "port": "21",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": -22.5,
+        "y2": -22.5
+      },
+      {
+        "id": "lead-22",
+        "layer": "body",
+        "metadata": {
+          "port": "22",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": -17.5,
+        "y2": -17.5
+      },
+      {
+        "id": "lead-23",
+        "layer": "body",
+        "metadata": {
+          "port": "23",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": -12.5,
+        "y2": -12.5
+      },
+      {
+        "id": "lead-24",
+        "layer": "body",
+        "metadata": {
+          "port": "24",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": -7.5,
+        "y2": -7.5
+      },
+      {
+        "id": "lead-25",
+        "layer": "body",
+        "metadata": {
+          "port": "25",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": -2.5,
+        "y2": -2.5
+      },
+      {
+        "id": "lead-26",
+        "layer": "body",
+        "metadata": {
+          "port": "26",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": 2.5,
+        "y2": 2.5
+      },
+      {
+        "id": "lead-27",
+        "layer": "body",
+        "metadata": {
+          "port": "27",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": 7.5,
+        "y2": 7.5
+      },
+      {
+        "id": "lead-28",
+        "layer": "body",
+        "metadata": {
+          "port": "28",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": 12.5,
+        "y2": 12.5
+      },
+      {
+        "id": "lead-29",
+        "layer": "body",
+        "metadata": {
+          "port": "29",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": 17.5,
+        "y2": 17.5
+      },
+      {
+        "id": "lead-30",
+        "layer": "body",
+        "metadata": {
+          "port": "30",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": 22.5,
+        "y2": 22.5
+      },
+      {
+        "id": "lead-31",
+        "layer": "body",
+        "metadata": {
+          "port": "31",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": 27.5,
+        "y2": 27.5
+      },
+      {
+        "id": "lead-32",
+        "layer": "body",
+        "metadata": {
+          "port": "32",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": 32.5,
+        "y2": 32.5
+      },
+      {
+        "id": "lead-33",
+        "layer": "body",
+        "metadata": {
+          "port": "33",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": 37.5,
+        "y2": 37.5
+      },
+      {
+        "id": "lead-34",
+        "layer": "body",
+        "metadata": {
+          "port": "34",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": 42.5,
+        "y2": 42.5
+      },
+      {
+        "id": "lead-35",
+        "layer": "body",
+        "metadata": {
+          "port": "35",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": 47.5,
+        "y2": 47.5
+      },
+      {
+        "id": "lead-36",
+        "layer": "body",
+        "metadata": {
+          "port": "36",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": 52.5,
+        "y2": 52.5
+      },
+      {
+        "id": "lead-37",
+        "layer": "body",
+        "metadata": {
+          "port": "37",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": 57.5,
+        "y2": 57.5
+      },
+      {
+        "id": "lead-38",
+        "layer": "body",
+        "metadata": {
+          "port": "38",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": 62.5,
+        "y2": 62.5
+      },
+      {
+        "id": "lead-39",
+        "layer": "body",
+        "metadata": {
+          "port": "39",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": 67.5,
+        "y2": 67.5
+      },
+      {
+        "id": "lead-40",
+        "layer": "body",
+        "metadata": {
+          "port": "40",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": 72.5,
+        "y2": 72.5
+      },
+      {
+        "id": "lead-41",
+        "layer": "body",
+        "metadata": {
+          "port": "41",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": 77.5,
+        "y2": 77.5
+      },
+      {
+        "id": "lead-42",
+        "layer": "body",
+        "metadata": {
+          "port": "42",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": 82.5,
+        "y2": 82.5
+      },
+      {
+        "id": "lead-43",
+        "layer": "body",
+        "metadata": {
+          "port": "43",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": 87.5,
+        "y2": 87.5
+      },
+      {
+        "id": "lead-44",
+        "layer": "body",
+        "metadata": {
+          "port": "44",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": 92.5,
+        "y2": 92.5
+      },
+      {
+        "id": "lead-45",
+        "layer": "body",
+        "metadata": {
+          "port": "45",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": 97.5,
+        "y2": 97.5
+      },
+      {
+        "id": "lead-46",
+        "layer": "body",
+        "metadata": {
+          "port": "46",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": 102.5,
+        "y2": 102.5
+      },
+      {
+        "id": "lead-47",
+        "layer": "body",
+        "metadata": {
+          "port": "47",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": 107.5,
+        "y2": 107.5
+      },
+      {
+        "id": "lead-48",
+        "layer": "body",
+        "metadata": {
+          "port": "48",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": 112.5,
+        "y2": 112.5
+      },
+      {
+        "id": "lead-49",
+        "layer": "body",
+        "metadata": {
+          "port": "49",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": 117.5,
+        "y2": 117.5
+      },
+      {
+        "id": "lead-50",
+        "layer": "body",
+        "metadata": {
+          "port": "50",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -7.5,
+        "y1": 122.5,
+        "y2": 122.5
+      },
+      {
+        "id": "lead-51",
+        "layer": "body",
+        "metadata": {
+          "port": "51",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": -122.5,
+        "y2": -122.5
+      },
+      {
+        "id": "lead-52",
+        "layer": "body",
+        "metadata": {
+          "port": "52",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": -117.5,
+        "y2": -117.5
+      },
+      {
+        "id": "lead-53",
+        "layer": "body",
+        "metadata": {
+          "port": "53",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": -112.5,
+        "y2": -112.5
+      },
+      {
+        "id": "lead-54",
+        "layer": "body",
+        "metadata": {
+          "port": "54",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": -107.5,
+        "y2": -107.5
+      },
+      {
+        "id": "lead-55",
+        "layer": "body",
+        "metadata": {
+          "port": "55",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": -102.5,
+        "y2": -102.5
+      },
+      {
+        "id": "lead-56",
+        "layer": "body",
+        "metadata": {
+          "port": "56",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": -97.5,
+        "y2": -97.5
+      },
+      {
+        "id": "lead-57",
+        "layer": "body",
+        "metadata": {
+          "port": "57",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": -92.5,
+        "y2": -92.5
+      },
+      {
+        "id": "lead-58",
+        "layer": "body",
+        "metadata": {
+          "port": "58",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": -87.5,
+        "y2": -87.5
+      },
+      {
+        "id": "lead-59",
+        "layer": "body",
+        "metadata": {
+          "port": "59",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": -82.5,
+        "y2": -82.5
+      },
+      {
+        "id": "lead-60",
+        "layer": "body",
+        "metadata": {
+          "port": "60",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": -77.5,
+        "y2": -77.5
+      },
+      {
+        "id": "lead-61",
+        "layer": "body",
+        "metadata": {
+          "port": "61",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": -72.5,
+        "y2": -72.5
+      },
+      {
+        "id": "lead-62",
+        "layer": "body",
+        "metadata": {
+          "port": "62",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": -67.5,
+        "y2": -67.5
+      },
+      {
+        "id": "lead-63",
+        "layer": "body",
+        "metadata": {
+          "port": "63",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": -62.5,
+        "y2": -62.5
+      },
+      {
+        "id": "lead-64",
+        "layer": "body",
+        "metadata": {
+          "port": "64",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": -57.5,
+        "y2": -57.5
+      },
+      {
+        "id": "lead-65",
+        "layer": "body",
+        "metadata": {
+          "port": "65",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": -52.5,
+        "y2": -52.5
+      },
+      {
+        "id": "lead-66",
+        "layer": "body",
+        "metadata": {
+          "port": "66",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": -47.5,
+        "y2": -47.5
+      },
+      {
+        "id": "lead-67",
+        "layer": "body",
+        "metadata": {
+          "port": "67",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": -42.5,
+        "y2": -42.5
+      },
+      {
+        "id": "lead-68",
+        "layer": "body",
+        "metadata": {
+          "port": "68",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": -37.5,
+        "y2": -37.5
+      },
+      {
+        "id": "lead-69",
+        "layer": "body",
+        "metadata": {
+          "port": "69",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": -32.5,
+        "y2": -32.5
+      },
+      {
+        "id": "lead-70",
+        "layer": "body",
+        "metadata": {
+          "port": "70",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": -27.5,
+        "y2": -27.5
+      },
+      {
+        "id": "lead-71",
+        "layer": "body",
+        "metadata": {
+          "port": "71",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": -22.5,
+        "y2": -22.5
+      },
+      {
+        "id": "lead-72",
+        "layer": "body",
+        "metadata": {
+          "port": "72",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": -17.5,
+        "y2": -17.5
+      },
+      {
+        "id": "lead-73",
+        "layer": "body",
+        "metadata": {
+          "port": "73",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": -12.5,
+        "y2": -12.5
+      },
+      {
+        "id": "lead-74",
+        "layer": "body",
+        "metadata": {
+          "port": "74",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": -7.5,
+        "y2": -7.5
+      },
+      {
+        "id": "lead-75",
+        "layer": "body",
+        "metadata": {
+          "port": "75",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": -2.5,
+        "y2": -2.5
+      },
+      {
+        "id": "lead-76",
+        "layer": "body",
+        "metadata": {
+          "port": "76",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": 2.5,
+        "y2": 2.5
+      },
+      {
+        "id": "lead-77",
+        "layer": "body",
+        "metadata": {
+          "port": "77",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": 7.5,
+        "y2": 7.5
+      },
+      {
+        "id": "lead-78",
+        "layer": "body",
+        "metadata": {
+          "port": "78",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": 12.5,
+        "y2": 12.5
+      },
+      {
+        "id": "lead-79",
+        "layer": "body",
+        "metadata": {
+          "port": "79",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": 17.5,
+        "y2": 17.5
+      },
+      {
+        "id": "lead-80",
+        "layer": "body",
+        "metadata": {
+          "port": "80",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": 22.5,
+        "y2": 22.5
+      },
+      {
+        "id": "lead-81",
+        "layer": "body",
+        "metadata": {
+          "port": "81",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": 27.5,
+        "y2": 27.5
+      },
+      {
+        "id": "lead-82",
+        "layer": "body",
+        "metadata": {
+          "port": "82",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": 32.5,
+        "y2": 32.5
+      },
+      {
+        "id": "lead-83",
+        "layer": "body",
+        "metadata": {
+          "port": "83",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": 37.5,
+        "y2": 37.5
+      },
+      {
+        "id": "lead-84",
+        "layer": "body",
+        "metadata": {
+          "port": "84",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": 42.5,
+        "y2": 42.5
+      },
+      {
+        "id": "lead-85",
+        "layer": "body",
+        "metadata": {
+          "port": "85",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": 47.5,
+        "y2": 47.5
+      },
+      {
+        "id": "lead-86",
+        "layer": "body",
+        "metadata": {
+          "port": "86",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": 52.5,
+        "y2": 52.5
+      },
+      {
+        "id": "lead-87",
+        "layer": "body",
+        "metadata": {
+          "port": "87",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": 57.5,
+        "y2": 57.5
+      },
+      {
+        "id": "lead-88",
+        "layer": "body",
+        "metadata": {
+          "port": "88",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": 62.5,
+        "y2": 62.5
+      },
+      {
+        "id": "lead-89",
+        "layer": "body",
+        "metadata": {
+          "port": "89",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": 67.5,
+        "y2": 67.5
+      },
+      {
+        "id": "lead-90",
+        "layer": "body",
+        "metadata": {
+          "port": "90",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": 72.5,
+        "y2": 72.5
+      },
+      {
+        "id": "lead-91",
+        "layer": "body",
+        "metadata": {
+          "port": "91",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": 77.5,
+        "y2": 77.5
+      },
+      {
+        "id": "lead-92",
+        "layer": "body",
+        "metadata": {
+          "port": "92",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": 82.5,
+        "y2": 82.5
+      },
+      {
+        "id": "lead-93",
+        "layer": "body",
+        "metadata": {
+          "port": "93",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": 87.5,
+        "y2": 87.5
+      },
+      {
+        "id": "lead-94",
+        "layer": "body",
+        "metadata": {
+          "port": "94",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": 92.5,
+        "y2": 92.5
+      },
+      {
+        "id": "lead-95",
+        "layer": "body",
+        "metadata": {
+          "port": "95",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": 97.5,
+        "y2": 97.5
+      },
+      {
+        "id": "lead-96",
+        "layer": "body",
+        "metadata": {
+          "port": "96",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": 102.5,
+        "y2": 102.5
+      },
+      {
+        "id": "lead-97",
+        "layer": "body",
+        "metadata": {
+          "port": "97",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": 107.5,
+        "y2": 107.5
+      },
+      {
+        "id": "lead-98",
+        "layer": "body",
+        "metadata": {
+          "port": "98",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": 112.5,
+        "y2": 112.5
+      },
+      {
+        "id": "lead-99",
+        "layer": "body",
+        "metadata": {
+          "port": "99",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": 117.5,
+        "y2": 117.5
+      },
+      {
+        "id": "lead-100",
+        "layer": "body",
+        "metadata": {
+          "port": "100",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 12.5,
+        "y1": 122.5,
+        "y2": 122.5
+      },
+      {
+        "height": 255,
+        "id": "connector-body",
+        "layer": "body",
+        "role": "body",
+        "style": "body",
+        "type": "rect",
+        "width": 15,
+        "x": -7.5,
+        "y": -127.5
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "field": "reference",
+        "id": "field-reference",
+        "layer": "fields",
+        "role": "reference-field",
+        "style": "field",
+        "type": "text",
+        "x": 0,
+        "y": -135.0
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "field": "value",
+        "id": "field-value",
+        "layer": "fields",
+        "role": "value-field",
+        "style": "value",
+        "type": "text",
+        "x": 0,
+        "y": 135.0
+      }
+    ],
+    "id": "corpus:s021-connector-100",
+    "layers": [
+      {
+        "defaultVisible": true,
+        "id": "body",
+        "locked": true,
+        "order": 10,
+        "printable": true,
+        "purpose": "symbol body and pin leads"
+      },
+      {
+        "defaultVisible": true,
+        "id": "fields",
+        "locked": false,
+        "order": 20,
+        "printable": true,
+        "purpose": "bound and literal text fields"
+      }
+    ],
+    "metadata": {
+      "corpus": "symbol-expressiveness-1",
+      "pinPitch": 5,
+      "portCount": 100,
+      "recipe": "connector"
+    },
+    "paintServers": {},
+    "parameters": {},
+    "ports": [
+      {
+        "id": "1",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L1",
+        "number": "1",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": -122.5
+      },
+      {
+        "id": "2",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L2",
+        "number": "2",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": -117.5
+      },
+      {
+        "id": "3",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L3",
+        "number": "3",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": -112.5
+      },
+      {
+        "id": "4",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L4",
+        "number": "4",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": -107.5
+      },
+      {
+        "id": "5",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L5",
+        "number": "5",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": -102.5
+      },
+      {
+        "id": "6",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L6",
+        "number": "6",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": -97.5
+      },
+      {
+        "id": "7",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L7",
+        "number": "7",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": -92.5
+      },
+      {
+        "id": "8",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L8",
+        "number": "8",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": -87.5
+      },
+      {
+        "id": "9",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L9",
+        "number": "9",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": -82.5
+      },
+      {
+        "id": "10",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L10",
+        "number": "10",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": -77.5
+      },
+      {
+        "id": "11",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L11",
+        "number": "11",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": -72.5
+      },
+      {
+        "id": "12",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L12",
+        "number": "12",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": -67.5
+      },
+      {
+        "id": "13",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L13",
+        "number": "13",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": -62.5
+      },
+      {
+        "id": "14",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L14",
+        "number": "14",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": -57.5
+      },
+      {
+        "id": "15",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L15",
+        "number": "15",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": -52.5
+      },
+      {
+        "id": "16",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L16",
+        "number": "16",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": -47.5
+      },
+      {
+        "id": "17",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L17",
+        "number": "17",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": -42.5
+      },
+      {
+        "id": "18",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L18",
+        "number": "18",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": -37.5
+      },
+      {
+        "id": "19",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L19",
+        "number": "19",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": -32.5
+      },
+      {
+        "id": "20",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L20",
+        "number": "20",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": -27.5
+      },
+      {
+        "id": "21",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L21",
+        "number": "21",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": -22.5
+      },
+      {
+        "id": "22",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L22",
+        "number": "22",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": -17.5
+      },
+      {
+        "id": "23",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L23",
+        "number": "23",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": -12.5
+      },
+      {
+        "id": "24",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L24",
+        "number": "24",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": -7.5
+      },
+      {
+        "id": "25",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L25",
+        "number": "25",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": -2.5
+      },
+      {
+        "id": "26",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L26",
+        "number": "26",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": 2.5
+      },
+      {
+        "id": "27",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L27",
+        "number": "27",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": 7.5
+      },
+      {
+        "id": "28",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L28",
+        "number": "28",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": 12.5
+      },
+      {
+        "id": "29",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L29",
+        "number": "29",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": 17.5
+      },
+      {
+        "id": "30",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L30",
+        "number": "30",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": 22.5
+      },
+      {
+        "id": "31",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L31",
+        "number": "31",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": 27.5
+      },
+      {
+        "id": "32",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L32",
+        "number": "32",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": 32.5
+      },
+      {
+        "id": "33",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L33",
+        "number": "33",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": 37.5
+      },
+      {
+        "id": "34",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L34",
+        "number": "34",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": 42.5
+      },
+      {
+        "id": "35",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L35",
+        "number": "35",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": 47.5
+      },
+      {
+        "id": "36",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L36",
+        "number": "36",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": 52.5
+      },
+      {
+        "id": "37",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L37",
+        "number": "37",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": 57.5
+      },
+      {
+        "id": "38",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L38",
+        "number": "38",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": 62.5
+      },
+      {
+        "id": "39",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L39",
+        "number": "39",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": 67.5
+      },
+      {
+        "id": "40",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L40",
+        "number": "40",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": 72.5
+      },
+      {
+        "id": "41",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L41",
+        "number": "41",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": 77.5
+      },
+      {
+        "id": "42",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L42",
+        "number": "42",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": 82.5
+      },
+      {
+        "id": "43",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L43",
+        "number": "43",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": 87.5
+      },
+      {
+        "id": "44",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L44",
+        "number": "44",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": 92.5
+      },
+      {
+        "id": "45",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L45",
+        "number": "45",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": 97.5
+      },
+      {
+        "id": "46",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L46",
+        "number": "46",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": 102.5
+      },
+      {
+        "id": "47",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L47",
+        "number": "47",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": 107.5
+      },
+      {
+        "id": "48",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L48",
+        "number": "48",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": 112.5
+      },
+      {
+        "id": "49",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L49",
+        "number": "49",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": 117.5
+      },
+      {
+        "id": "50",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "L50",
+        "number": "50",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -12.5,
+        "y": 122.5
+      },
+      {
+        "id": "51",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R1",
+        "number": "51",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": -122.5
+      },
+      {
+        "id": "52",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R2",
+        "number": "52",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": -117.5
+      },
+      {
+        "id": "53",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R3",
+        "number": "53",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": -112.5
+      },
+      {
+        "id": "54",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R4",
+        "number": "54",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": -107.5
+      },
+      {
+        "id": "55",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R5",
+        "number": "55",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": -102.5
+      },
+      {
+        "id": "56",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R6",
+        "number": "56",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": -97.5
+      },
+      {
+        "id": "57",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R7",
+        "number": "57",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": -92.5
+      },
+      {
+        "id": "58",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R8",
+        "number": "58",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": -87.5
+      },
+      {
+        "id": "59",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R9",
+        "number": "59",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": -82.5
+      },
+      {
+        "id": "60",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R10",
+        "number": "60",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": -77.5
+      },
+      {
+        "id": "61",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R11",
+        "number": "61",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": -72.5
+      },
+      {
+        "id": "62",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R12",
+        "number": "62",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": -67.5
+      },
+      {
+        "id": "63",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R13",
+        "number": "63",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": -62.5
+      },
+      {
+        "id": "64",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R14",
+        "number": "64",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": -57.5
+      },
+      {
+        "id": "65",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R15",
+        "number": "65",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": -52.5
+      },
+      {
+        "id": "66",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R16",
+        "number": "66",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": -47.5
+      },
+      {
+        "id": "67",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R17",
+        "number": "67",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": -42.5
+      },
+      {
+        "id": "68",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R18",
+        "number": "68",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": -37.5
+      },
+      {
+        "id": "69",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R19",
+        "number": "69",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": -32.5
+      },
+      {
+        "id": "70",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R20",
+        "number": "70",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": -27.5
+      },
+      {
+        "id": "71",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R21",
+        "number": "71",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": -22.5
+      },
+      {
+        "id": "72",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R22",
+        "number": "72",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": -17.5
+      },
+      {
+        "id": "73",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R23",
+        "number": "73",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": -12.5
+      },
+      {
+        "id": "74",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R24",
+        "number": "74",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": -7.5
+      },
+      {
+        "id": "75",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R25",
+        "number": "75",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": -2.5
+      },
+      {
+        "id": "76",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R26",
+        "number": "76",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": 2.5
+      },
+      {
+        "id": "77",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R27",
+        "number": "77",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": 7.5
+      },
+      {
+        "id": "78",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R28",
+        "number": "78",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": 12.5
+      },
+      {
+        "id": "79",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R29",
+        "number": "79",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": 17.5
+      },
+      {
+        "id": "80",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R30",
+        "number": "80",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": 22.5
+      },
+      {
+        "id": "81",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R31",
+        "number": "81",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": 27.5
+      },
+      {
+        "id": "82",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R32",
+        "number": "82",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": 32.5
+      },
+      {
+        "id": "83",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R33",
+        "number": "83",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": 37.5
+      },
+      {
+        "id": "84",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R34",
+        "number": "84",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": 42.5
+      },
+      {
+        "id": "85",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R35",
+        "number": "85",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": 47.5
+      },
+      {
+        "id": "86",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R36",
+        "number": "86",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": 52.5
+      },
+      {
+        "id": "87",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R37",
+        "number": "87",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": 57.5
+      },
+      {
+        "id": "88",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R38",
+        "number": "88",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": 62.5
+      },
+      {
+        "id": "89",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R39",
+        "number": "89",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": 67.5
+      },
+      {
+        "id": "90",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R40",
+        "number": "90",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": 72.5
+      },
+      {
+        "id": "91",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R41",
+        "number": "91",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": 77.5
+      },
+      {
+        "id": "92",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R42",
+        "number": "92",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": 82.5
+      },
+      {
+        "id": "93",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R43",
+        "number": "93",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": 87.5
+      },
+      {
+        "id": "94",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R44",
+        "number": "94",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": 92.5
+      },
+      {
+        "id": "95",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R45",
+        "number": "95",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": 97.5
+      },
+      {
+        "id": "96",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R46",
+        "number": "96",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": 102.5
+      },
+      {
+        "id": "97",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R47",
+        "number": "97",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": 107.5
+      },
+      {
+        "id": "98",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R48",
+        "number": "98",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": 112.5
+      },
+      {
+        "id": "99",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R49",
+        "number": "99",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": 117.5
+      },
+      {
+        "id": "100",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "R50",
+        "number": "100",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 12.5,
+        "y": 122.5
+      }
+    ],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-11",
+      "license": "CC0-1.0",
+      "notes": "Vendor-neutral evidence fixture; no proprietary library asset was copied.",
+      "origin": "AIXEM 0.5.2 self-authored conformance corpus"
+    },
+    "purpose": "schematic-symbol",
+    "requiredFeatures": [],
+    "revision": "1.0.0",
+    "styles": {
+      "body": {
+        "fill": "#fffef8",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.65
+      },
+      "dashed": {
+        "dashArray": [
+          2.5,
+          1.25
+        ],
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeWidth": 0.5
+      },
+      "detail": {
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.5
+      },
+      "dimension": {
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeWidth": 0.5
+      },
+      "field": {
+        "fill": "#17231d",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.5,
+        "fontWeight": 600,
+        "stroke": "none"
+      },
+      "filled": {
+        "fill": "#fffef8",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.65
+      },
+      "label": {
+        "fill": "#0c7772",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.0,
+        "fontWeight": 600,
+        "stroke": "none"
+      },
+      "line": {
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.65
+      },
+      "mark": {
+        "fill": "#0c7772",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.45
+      },
+      "small": {
+        "fill": "#0c7772",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 2.4,
+        "fontWeight": 500,
+        "stroke": "none"
+      },
+      "value": {
+        "fill": "#4f5e56",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.0,
+        "fontWeight": 400,
+        "stroke": "none"
+      }
+    },
+    "title": "S021 100-pin connector"
+  }
+}

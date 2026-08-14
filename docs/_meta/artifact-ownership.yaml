@@ -1,0 +1,543 @@
+schema: https://schemas.aixem.org/documentation/artifact-ownership/1
+formatVersion: '1.0'
+rules:
+- pattern: docs/index.md
+  owner: AIXEM-DOCS-HOME-001
+  authority: aixem-docs-home-001.artifact.1
+  validators:
+  - docs.artifact_existence
+- pattern: profiles/aixem-grid-schematic-style-1.aixstyle.json#/styleProfile/grid
+  owner: AIXEM-SCHEM-GRID-001
+  authority: aixem-schem-grid-001.artifact.1
+  validators:
+  - docs.artifact_existence
+- pattern: docs/_meta/schema/document-metadata.schema.json
+  owner: AIXEM-SPEC-DOCUMENT-001
+  authority: aixem-spec-document-001.artifact.1
+  validators:
+  - docs.artifact_existence
+- pattern: aixem.schematic.grid-light@1
+  owner: AIXEM-SPEC-GRID-PROFILE-001
+  authority: aixem-spec-grid-profile-001.artifact.1
+  validators:
+  - docs.artifact_existence
+- pattern: docs/specifications/schemas/component-graphics-1/aixem-symbol-asset-1.schema.json
+  owner: AIXEM-SPEC-SYMBOL-001
+  authority: aixem-spec-symbol-001.artifact.1
+  validators:
+  - docs.artifact_existence
+- pattern: docs/specifications/schemas/component-graphics-1/aixem-explicit-layout-1.schema.json
+  owner: AIXEM-SPEC-LAYOUT-001
+  authority: aixem-spec-layout-001.artifact.1
+  validators:
+  - docs.artifact_existence
+- pattern: docs/specifications/schemas/component-graphics-1/aixem-project-manifest-1.schema.json
+  owner: AIXEM-SPEC-PROJECT-LOCK-001
+  authority: aixem-spec-project-lock-001.artifact.1
+  validators:
+  - docs.artifact_existence
+- pattern: docs/_meta/schema/document-metadata.schema.json
+  owner: AIXEM-SPEC-METADATA-001
+  authority: aixem-spec-metadata-001.artifact.1
+  validators:
+  - docs.artifact_existence
+- pattern: '*.aixem'
+  owner: AIXEM-FORMAT-AIXEM-001
+  authority: aixem-format-aixem-001.artifact.1
+  validators:
+  - docs.artifact_existence
+- pattern: '*.aixlib.json'
+  owner: AIXEM-FORMAT-AIXLIB-001
+  authority: aixem-format-aixlib-001.artifact.1
+  validators:
+  - docs.artifact_existence
+- pattern: '*.aixsym.json'
+  owner: AIXEM-FORMAT-AIXSYM-001
+  authority: aixem-format-aixsym-001.artifact.1
+  validators:
+  - docs.artifact_existence
+- pattern: '*.aixlayout.json'
+  owner: AIXEM-FORMAT-AIXLAYOUT-001
+  authority: aixem-format-aixlayout-001.artifact.1
+  validators:
+  - docs.artifact_existence
+- pattern: '*.aixproj.json'
+  owner: AIXEM-FORMAT-AIXPROJ-001
+  authority: aixem-format-aixproj-001.artifact.1
+  validators:
+  - docs.artifact_existence
+- pattern: profiles/aixem-grid-schematic-style-1.aixstyle.json
+  owner: AIXEM-FORMAT-STYLE-001
+  authority: aixem-format-style-001.artifact.1
+  validators:
+  - docs.artifact_existence
+- pattern: docs/_meta/routes/*.yaml
+  owner: AIXEM-AGENT-ROUTES-001
+  authority: aixem-agent-routes-001.artifact.1
+  validators:
+  - docs.artifact_existence
+- pattern: docs/_meta/generated/route-index.json
+  owner: AIXEM-AGENT-ROUTES-001
+  authority: aixem-agent-routes-001.artifact.2
+  validators:
+  - docs.artifact_existence
+- pattern: docs/_meta/generated/artifact-map.json
+  owner: AIXEM-ARCH-ARTIFACT-001
+  authority: aixem-arch-artifact-001.artifact.1
+  validators:
+  - docs.artifact_existence
+- pattern: docs/_meta/generated/requirement-traceability.json
+  owner: AIXEM-CONF-REQUIREMENTS-001
+  authority: aixem-conf-requirements-001.artifact.1
+  validators:
+  - docs.artifact_existence
+- pattern: tests/docs/test_repository.py
+  owner: AIXEM-CONF-TESTS-001
+  authority: aixem-conf-tests-001.artifact.1
+  validators:
+  - docs.artifact_existence
+- pattern: tests/docs/retrieval-corpus.json
+  owner: AIXEM-CONF-TESTS-001
+  authority: aixem-conf-tests-001.artifact.2
+  validators:
+  - docs.artifact_existence
+- pattern: legacy/0.4-migration-map.json
+  owner: AIXEM-CONF-COMPAT-001
+  authority: aixem-conf-compat-001.artifact.1
+  validators:
+  - docs.artifact_existence
+- pattern: examples/electronics-grid-controller/project.aixproj.json
+  owner: AIXEM-EXAMPLE-CONTROLLER-001
+  authority: aixem-example-controller-001.artifact.1
+  validators:
+  - docs.artifact_existence
+- pattern: examples/electronics-grid-controller/render/workbench.html
+  owner: AIXEM-EXAMPLE-CONTROLLER-001
+  authority: aixem-example-controller-001.artifact.2
+  validators:
+  - docs.artifact_existence
+- pattern: docs/_meta/glossary.yaml
+  owner: AIXEM-GOV-TERMS-001
+  authority: aixem-gov-terms-001.artifact.1
+  validators:
+  - docs.artifact_existence
+- pattern: release/release-metadata.json
+  owner: AIXEM-RELEASE-059-001
+  authority: aixem-release-059-001.artifact.release-metadata
+  validators:
+  - docs.artifact_existence
+- pattern: validation/releases/0.5.9/final-validation.md
+  owner: AIXEM-RELEASE-059-001
+  authority: aixem-release-059-001.artifact.final-report
+  validators:
+  - docs.artifact_existence
+- pattern: docs/specifications/schemas/
+  owner: AIXEM-SPEC-SCHEMAS-001
+  authority: aixem-spec-schemas-001.artifact.1
+  validators:
+  - docs.artifact_existence
+- pattern: docs/_meta/generated/**
+  owner: AIXEM-SPEC-DOCUMENT-001
+  authority: generated.documentation.index
+  validators:
+  - docs.generated_freshness
+- pattern: site/**
+  owner: AIXEM-ARCH-SYSTEM-001
+  authority: generated.static.site
+  validators:
+  - docs.site
+- pattern: reference/**
+  owner: AIXEM-CONF-COMPAT-001
+  authority: generated.compatibility.reference
+  validators:
+  - docs.compatibility_reference
+- pattern: validation/**
+  owner: AIXEM-CONF-VALIDATION-001
+  authority: generated.validation.evidence
+  validators:
+  - docs.evidence
+- pattern: release/**
+  owner: AIXEM-CONF-RELEASE-001
+  authority: generated.release.package
+  validators:
+  - docs.manifest
+- pattern: docs/specifications/schemas/viewer/aixem-viewer-model-1.schema.json
+  owner: AIXEM-SPEC-VIEWER-001
+  authority: aixem-spec-viewer-001.artifact.schema
+  validators:
+  - schematic.reference_viewer
+- pattern: implementation/schematic/viewer/model.py
+  owner: AIXEM-SPEC-VIEWER-001
+  authority: aixem-spec-viewer-001.artifact.model
+  validators:
+  - schematic.reference_viewer
+- pattern: implementation/schematic/viewer/reference_viewer.py
+  owner: AIXEM-SPEC-VIEWER-001
+  authority: aixem-spec-viewer-001.artifact.reference-renderer
+  validators:
+  - schematic.reference_viewer
+- pattern: implementation/schematic/viewer/templates/reference-viewer.html.j2
+  owner: AIXEM-SPEC-VIEWER-001
+  authority: aixem-spec-viewer-001.artifact.reference-template
+  validators:
+  - schematic.reference_viewer
+- pattern: implementation/schematic/viewer/core.py
+  owner: AIXEM-SPEC-VIEWER-STATE-001
+  authority: aixem-spec-viewer-state-001.artifact.core
+  validators:
+  - schematic.reference_viewer
+- pattern: implementation/schematic/viewer/templates/base.html.j2
+  owner: AIXEM-SPEC-VIEWER-SECURITY-001
+  authority: aixem-spec-viewer-security-001.artifact.base-template
+  validators:
+  - schematic.reference_viewer
+- pattern: implementation/schematic/viewer/review_workbench.py
+  owner: AIXEM-SPEC-WORKBENCH-001
+  authority: aixem-spec-workbench-001.artifact.renderer
+  validators:
+  - schematic.reference_viewer
+- pattern: implementation/schematic/viewer/templates/review-workbench.html.j2
+  owner: AIXEM-SPEC-WORKBENCH-001
+  authority: aixem-spec-workbench-001.artifact.template
+  validators:
+  - schematic.reference_viewer
+- pattern: validation/corpus/reference-viewer-1/**
+  owner: AIXEM-CONF-REFERENCE-VIEWER-001
+  authority: validation.reference-viewer.corpus
+  validators:
+  - schematic.reference_viewer
+- pattern: tools/validate_reference_viewer_corpus.py
+  owner: AIXEM-CONF-REFERENCE-VIEWER-001
+  authority: implementation.reference-viewer.validator
+  validators:
+  - schematic.reference_viewer
+- pattern: tests/conformance/test_reference_viewer.py
+  owner: AIXEM-CONF-REFERENCE-VIEWER-001
+  authority: tests.reference-viewer.behavior
+  validators:
+  - schematic.reference_viewer
+- pattern: tests/conformance/test_viewer_security.py
+  owner: AIXEM-CONF-REFERENCE-VIEWER-001
+  authority: tests.reference-viewer.security
+  validators:
+  - schematic.reference_viewer
+- pattern: tests/conformance/test_viewer_accessibility.py
+  owner: AIXEM-CONF-REFERENCE-VIEWER-001
+  authority: tests.reference-viewer.accessibility
+  validators:
+  - schematic.reference_viewer
+- pattern: implementation/schematic/**
+  owner: AIXEM-SPEC-RENDERER-001
+  authority: implementation.schematic.renderer-contract
+  validators:
+  - schematic.renderer_contract
+- pattern: tools/docs/**
+  owner: AIXEM-ARCH-PIPELINE-001
+  authority: implementation.documentation.compiler
+  validators:
+  - docs.pipeline
+- pattern: docs/_meta/generated/task-packets/**
+  owner: AIXEM-AGENT-ROUTES-001
+  authority: generated.agent.task-packets
+  validators:
+  - agent.authoring_routes
+- pattern: examples/authoring/**
+  owner: AIXEM-CONF-TESTS-001
+  authority: authoring.golden.examples
+  validators:
+  - schematic.authoring_examples
+- pattern: validation/agent-evals/**
+  owner: AIXEM-AGENT-AUTHORING-001
+  authority: validation.agent.authoring-evaluations
+  validators:
+  - agent.authoring_routes
+- pattern: tools/docs/authoring_validation.py
+  owner: AIXEM-CONF-VALIDATION-001
+  authority: implementation.authoring.validation
+  validators:
+  - docs.authoring_reference
+- pattern: tests/docs/test_authoring_*.py
+  owner: AIXEM-CONF-TESTS-001
+  authority: tests.authoring.documentation
+  validators:
+  - schematic.authoring_examples
+- pattern: tests/docs/test_renderer_contract.py
+  owner: AIXEM-CONF-TESTS-001
+  authority: tests.renderer.contract
+  validators:
+  - schematic.renderer_contract
+- pattern: docs/specifications/schemas/component-graphics-2/aixem-project-manifest-2.schema.json
+  owner: AIXEM-SPEC-PROJECT-COMPOSITION-001
+  authority: aixem-spec-project-composition-001.artifact.1
+  validators:
+  - docs.artifact_existence
+- pattern: docs/specifications/schemas/component-graphics-2/aixem-explicit-layout-2.schema.json
+  owner: AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001
+  authority: aixem-spec-hierarchical-port-layout-001.artifact.1
+  validators:
+  - docs.artifact_existence
+- pattern: validation/corpus/hierarchical-project-1/**
+  owner: AIXEM-CONF-HIERARCHICAL-PROJECT-001
+  authority: validation.hierarchical-project.corpus
+  validators:
+  - docs.evidence
+- pattern: tools/build_hierarchical_corpus.py
+  owner: AIXEM-CONF-HIERARCHICAL-PROJECT-001
+  authority: implementation.hierarchical-corpus.generator
+  validators:
+  - schematic.project_schema
+- pattern: tools/validate_hierarchical_corpus.py
+  owner: AIXEM-CONF-HIERARCHICAL-PROJECT-001
+  authority: implementation.hierarchical-corpus.validator
+  validators:
+  - schematic.project_schema
+- pattern: tools/benchmark_hierarchical_project.py
+  owner: AIXEM-CONF-HIERARCHICAL-PROJECT-001
+  authority: implementation.hierarchical-performance.baseline
+  validators:
+  - schematic.deterministic
+- pattern: tools/verify_release_053.py
+  owner: AIXEM-RELEASE-053-001
+  authority: implementation.release-053.verifier
+  validators:
+  - docs.three_passes
+- pattern: tools/package_release_053.py
+  owner: AIXEM-RELEASE-053-001
+  authority: implementation.release-053.packager
+  validators:
+  - docs.manifest
+- pattern: tools/verify_release_054.py
+  owner: AIXEM-RELEASE-054-001
+  authority: implementation.release-054.verifier
+  validators:
+  - docs.three_passes
+- pattern: tools/package_release_054.py
+  owner: AIXEM-RELEASE-054-001
+  authority: implementation.release-054.packager
+  validators:
+  - docs.manifest
+- pattern: docs/specifications/schemas/agent/aixem-agent-diagnostic-1.schema.json
+  owner: AIXEM-SPEC-AGENT-DIAGNOSTIC-001
+  authority: aixem.agent-diagnostic.schema
+  validators:
+  - agent.diagnostics
+- pattern: docs/specifications/schemas/agent/aixem-agent-change-set-1.schema.json
+  owner: AIXEM-SPEC-AGENT-CHANGESET-001
+  authority: aixem.agent-change-set.schema
+  validators:
+  - agent.change_scope
+- pattern: docs/specifications/schemas/agent/aixem-agent-run-record-1.schema.json
+  owner: AIXEM-SPEC-AGENT-RUN-001
+  authority: aixem.agent-run-record.schema
+  validators:
+  - agent.run_record
+- pattern: implementation/agent/diagnostics.py
+  owner: AIXEM-SPEC-AGENT-DIAGNOSTIC-001
+  authority: implementation.agent.diagnostics
+  validators:
+  - agent.diagnostics
+- pattern: implementation/agent/change_scope.py
+  owner: AIXEM-SPEC-AGENT-CHANGESET-001
+  authority: implementation.agent.change-scope
+  validators:
+  - agent.change_scope
+- pattern: implementation/agent/run_record.py
+  owner: AIXEM-SPEC-AGENT-RUN-001
+  authority: implementation.agent.run-record
+  validators:
+  - agent.run_record
+- pattern: implementation/agent/validator_adapter.py
+  owner: AIXEM-SPEC-AGENT-EXECUTION-001
+  authority: implementation.agent.validator-adapter
+  validators:
+  - agent.authoring_closed_loop
+- pattern: tools/agent_authoring.py
+  owner: AIXEM-SPEC-AGENT-EXECUTION-001
+  authority: implementation.agent.authoring-harness
+  validators:
+  - agent.authoring_closed_loop
+- pattern: tools/run_agent_evals_2.py
+  owner: AIXEM-CONF-AGENT-AUTHORING-001
+  authority: implementation.agent-evaluation-2.runner
+  validators:
+  - agent.evaluation_tier_truth
+- pattern: tests/agent/**
+  owner: AIXEM-CONF-AGENT-AUTHORING-001
+  authority: tests.agent-authoring.closed-loop
+  validators:
+  - agent.authoring_closed_loop
+- pattern: validation/agent-evals-2/**
+  owner: AIXEM-CONF-AGENT-AUTHORING-001
+  authority: validation.agent-evaluation-2
+  validators:
+  - agent.evaluation_tier_truth
+- pattern: tools/run_tests_055.py
+  owner: AIXEM-RELEASE-055-001
+  authority: implementation.release-055.test-runner
+  validators:
+  - docs.three_passes
+- pattern: tools/verify_release_055.py
+  owner: AIXEM-RELEASE-055-001
+  authority: implementation.release-055.verifier
+  validators:
+  - docs.three_passes
+- pattern: tools/package_release_055.py
+  owner: AIXEM-RELEASE-055-001
+  authority: implementation.release-055.packager
+  validators:
+  - docs.manifest
+- pattern: docs/specifications/schemas/agent/aixem-agent-task-1.schema.json
+  owner: AIXEM-SPEC-AGENT-TASK-001
+  authority: aixem.agent-task.schema
+  validators:
+  - agent.task_contract
+- pattern: docs/specifications/schemas/agent/aixem-agent-stage-manifest-1.schema.json
+  owner: AIXEM-SPEC-AGENT-STAGE-001
+  authority: aixem.agent-stage.schema
+  validators:
+  - agent.cold_start_stage
+- pattern: docs/specifications/schemas/agent/aixem-agent-executor-1.schema.json
+  owner: AIXEM-SPEC-AGENT-EXECUTOR-LIVE-001
+  authority: aixem.agent-executor.schema
+  validators:
+  - agent.live_executor
+- pattern: docs/specifications/schemas/agent/aixem-agent-observation-event-1.schema.json
+  owner: AIXEM-SPEC-AGENT-OBSERVATION-001
+  authority: aixem.agent-observation.schema
+  validators:
+  - agent.observation
+- pattern: docs/specifications/schemas/agent/aixem-agent-evaluation-invariant-1.schema.json
+  owner: AIXEM-SPEC-AGENT-EVAL-INVARIANT-001
+  authority: aixem.agent-evaluation-invariant.schema
+  validators:
+  - agent.evaluation_invariants
+- pattern: docs/specifications/schemas/agent/aixem-agent-live-run-1.schema.json
+  owner: AIXEM-SPEC-AGENT-LIVE-RUN-001
+  authority: aixem.agent-live-run.schema
+  validators:
+  - agent.live_run
+- pattern: docs/specifications/schemas/agent/aixem-agent-attempt-set-1.schema.json
+  owner: AIXEM-SPEC-AGENT-LIVE-RUN-001
+  authority: aixem.agent-attempt-set.schema
+  validators:
+  - agent.live_run
+- pattern: implementation/agent/task_contract.py
+  owner: AIXEM-SPEC-AGENT-TASK-001
+  authority: implementation.agent.task-contract
+  validators:
+  - agent.task_contract
+- pattern: implementation/agent/cold_start_stage.py
+  owner: AIXEM-SPEC-AGENT-STAGE-001
+  authority: implementation.agent.cold-start-stage
+  validators:
+  - agent.cold_start_stage
+- pattern: implementation/agent/live_executor.py
+  owner: AIXEM-SPEC-AGENT-EXECUTOR-LIVE-001
+  authority: implementation.agent.live-executor
+  validators:
+  - agent.live_executor
+- pattern: implementation/agent/observation.py
+  owner: AIXEM-SPEC-AGENT-OBSERVATION-001
+  authority: implementation.agent.observation
+  validators:
+  - agent.observation
+- pattern: implementation/agent/invariant_scorer.py
+  owner: AIXEM-SPEC-AGENT-EVAL-INVARIANT-001
+  authority: implementation.agent.invariant-scorer
+  validators:
+  - agent.evaluation_invariants
+- pattern: implementation/agent/live_run.py
+  owner: AIXEM-SPEC-AGENT-LIVE-RUN-001
+  authority: implementation.agent.live-run
+  validators:
+  - agent.live_run
+- pattern: validation/agent-evals-3/**
+  owner: AIXEM-CONF-AGENT-LIVE-001
+  authority: validation.agent-evaluation-3
+  validators:
+  - agent.evaluation_3
+- pattern: tools/build_agent_evals_3.py
+  owner: AIXEM-CONF-AGENT-LIVE-001
+  authority: implementation.agent-evaluation-3.builder
+  validators:
+  - agent.evaluation_3
+- pattern: tools/run_agent_evals_3.py
+  owner: AIXEM-CONF-AGENT-LIVE-001
+  authority: implementation.agent-evaluation-3.runner
+  validators:
+  - agent.evaluation_3
+- pattern: tools/live_agent_authoring.py
+  owner: AIXEM-AGENT-LIVE-COLD-START-001
+  authority: implementation.agent.live-authoring-cli
+  validators:
+  - agent.evaluation_3
+- pattern: tools/run_tests_056.py
+  owner: AIXEM-RELEASE-056-001
+  authority: implementation.release-056.test-runner
+  validators:
+  - docs.three_passes
+- pattern: tools/verify_release_056.py
+  owner: AIXEM-RELEASE-056-001
+  authority: implementation.release-056.verifier
+  validators:
+  - docs.three_passes
+- pattern: tools/package_release_056.py
+  owner: AIXEM-RELEASE-056-001
+  authority: implementation.release-056.packager
+  validators:
+  - docs.manifest
+- pattern: planning/releases/0.5.6/live-agent-cold-start-authoring.md
+  owner: AIXEM-RELEASE-056-001
+  authority: release.plan-056
+  validators:
+  - docs.artifact_existence
+- pattern: docs/_meta/repository-document-policy.yaml
+  owner: AIXEM-SPEC-DOC-GOVERNANCE-001
+  authority: documentation.repository-policy
+  validators:
+  - docs.repository_inventory
+- pattern: docs/_meta/path-migrations.yaml
+  owner: AIXEM-SPEC-DOC-GOVERNANCE-001
+  authority: documentation.path-migrations
+  validators:
+  - docs.path_migrations
+- pattern: docs/_meta/generated/repository-document-inventory.json
+  owner: AIXEM-SPEC-DOC-GOVERNANCE-001
+  authority: generated.documentation.repository-inventory
+  validators:
+  - docs.repository_inventory
+- pattern: docs/_meta/generated/path-migration-index.json
+  owner: AIXEM-SPEC-DOC-GOVERNANCE-001
+  authority: generated.documentation.path-migration-index
+  validators:
+  - docs.path_migrations
+- pattern: tools/docs/audit_repository_docs.py
+  owner: AIXEM-SPEC-DOC-GOVERNANCE-001
+  authority: implementation.documentation.repository-auditor
+  validators:
+  - docs.repository_inventory
+- pattern: tests/docs/test_document_governance.py
+  owner: AIXEM-SPEC-DOC-GOVERNANCE-001
+  authority: conformance.documentation.governance-tests
+  validators:
+  - docs.repository_inventory
+- pattern: tools/run_tests_057.py
+  owner: AIXEM-RELEASE-057-001
+  authority: implementation.release-057.test-runner
+  validators:
+  - docs.five_passes
+- pattern: tools/verify_release_057.py
+  owner: AIXEM-RELEASE-057-001
+  authority: implementation.release-057.verifier
+  validators:
+  - docs.five_passes
+- pattern: tools/package_release_057.py
+  owner: AIXEM-RELEASE-057-001
+  authority: implementation.release-057.packager
+  validators:
+  - docs.manifest
+- pattern: planning/releases/0.5.7/document-information-architecture-governance.md
+  owner: AIXEM-RELEASE-057-001
+  authority: release.plan-057
+  validators:
+  - docs.artifact_existence

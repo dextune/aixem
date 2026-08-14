@@ -1,0 +1,71 @@
+{
+  "card": {
+    "aliases": [
+      "live attempt evidence",
+      "retained attempt set",
+      "denominator integrity"
+    ],
+    "appliesTo": [
+      "agent-live-run-evidence"
+    ],
+    "domain": "specifications",
+    "estimatedReadBytes": 7744,
+    "id": "AIXEM-SPEC-AGENT-LIVE-RUN-001",
+    "inputs": [],
+    "keywords": [
+      "Live Run Evidence 1",
+      "denominator integrity",
+      "live attempt evidence",
+      "retained attempt set",
+      "validate-project"
+    ],
+    "kind": "contract",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/specifications/agent/live-run-evidence.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:37baf58e67f7fd11738025b2bf6f436c09321961932a1c1d5f6a7b20cf01920b"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SPEC-AGENT-EXECUTOR-LIVE-001",
+      "AIXEM-SPEC-AGENT-EVAL-INVARIANT-001",
+      "AIXEM-SPEC-AGENT-RUN-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-AGENT-LIVE-0015",
+        "level": "must",
+        "text": "**MUST.** One live attempt MUST bind task, stage, executor, observation, authoring run record, evaluator result, stage validation, terminal status, and self-digest in an immutable evidence object."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-LIVE-0016",
+        "level": "must",
+        "text": "**MUST.** Attempt aggregation MUST require the exact declared attempt IDs, reject duplicates or omissions, and retain PASS, FAIL, TIMEOUT, EXECUTOR_ERROR, and INVALID_STAGE results in the denominator."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-LIVE-0017",
+        "level": "must",
+        "text": "**MUST.** A live-agent claim MUST require actual external-AI process proof, valid observation evidence, retained terminal evidence, and denominator integrity; deterministic fixtures and protocol-only runs MUST NOT authorize the claim."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-LIVE-0026",
+        "level": "must",
+        "text": "**MUST.** Retained attempt evidence MUST separate current repository release, corpus identity and revision, corpus baseline release, and protocol version; deterministic Tier A MAY use a fixed clock while actual Tier B evidence MUST use actual UTC execution time and results paths MUST be independent of the corpus location."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SPEC-AGENT-LIVE-RUN-001",
+        "path": "docs/specifications/agent/live-run-evidence.md"
+      }
+    ],
+    "summary": "Binds task, stage, executor, observation, authoring record, evaluator result, terminal status, and attempt-set denominator into truthful retained evidence.",
+    "title": "Live Run Evidence 1"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

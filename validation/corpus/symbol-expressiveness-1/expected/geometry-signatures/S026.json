@@ -1,0 +1,75 @@
+{
+  "bounds": {
+    "height": 65,
+    "width": 55,
+    "x": -27.5,
+    "y": -32.5
+  },
+  "capabilities": [
+    "geometry.line",
+    "geometry.path",
+    "geometry.rect",
+    "port.mapping",
+    "text.field"
+  ],
+  "case": "S026",
+  "defaultVariant": null,
+  "definitions": [],
+  "fieldAnchors": [
+    {
+      "field": "reference",
+      "id": "field-reference",
+      "x": 0,
+      "y": -27.5
+    },
+    {
+      "field": "value",
+      "id": "field-value",
+      "x": 0,
+      "y": 27.5
+    }
+  ],
+  "parameters": {},
+  "ports": [
+    {
+      "id": "EN",
+      "orientation": 180,
+      "visible": true,
+      "x": -22.5,
+      "y": -5.0
+    },
+    {
+      "id": "OUT",
+      "orientation": 0,
+      "visible": true,
+      "x": 22.5,
+      "y": -5.0
+    },
+    {
+      "id": "VDD",
+      "orientation": 90,
+      "visible": true,
+      "x": 0.0,
+      "y": -20.0
+    },
+    {
+      "id": "GND",
+      "orientation": 270,
+      "visible": true,
+      "x": 0.0,
+      "y": 20.0
+    }
+  ],
+  "primitiveCounts": {
+    "line": 6,
+    "path": 1,
+    "rect": 1,
+    "text": 2
+  },
+  "requiredFeatures": [
+    "compound-path",
+    "cubic-bezier"
+  ],
+  "symbol": "corpus:s026-crystal-oscillator",
+  "variants": []
+}

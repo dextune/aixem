@@ -1,0 +1,40 @@
+{
+  "durationSeconds": 1.484206,
+  "errors": [],
+  "executionMode": "isolated-test-module-processes",
+  "failedModules": 0,
+  "failures": [],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "moduleCount": 1,
+  "modules": [
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_diagnostics"
+      ],
+      "durationSeconds": 1.484018,
+      "module": "tests.agent.test_diagnostics",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_diagnostic_serialization_is_schema_valid_and_stable (tests.agent.test_diagnostics.AgentDiagnosticContractTests.test_diagnostic_serialization_is_schema_valid_and_stable) ... ok\ntest_registry_contains_complete_p0_set_and_valid_metadata (tests.agent.test_diagnostics.AgentDiagnosticContractTests.test_registry_contains_complete_p0_set_and_valid_metadata) ... ok\ntest_registry_metadata_cannot_be_contradicted (tests.agent.test_diagnostics.AgentDiagnosticContractTests.test_registry_metadata_cannot_be_contradicted) ... ok\ntest_rich_diagnostic_round_trip_does_not_gain_legacy_evidence (tests.agent.test_diagnostics.AgentDiagnosticContractTests.test_rich_diagnostic_round_trip_does_not_gain_legacy_evidence) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.002s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 4,
+      "valid": true
+    }
+  ],
+  "passedModules": 1,
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/test-run-shard/1",
+  "shard": {
+    "count": 29,
+    "index": 5,
+    "totalDiscoveredModules": 29
+  },
+  "skipped": [],
+  "successful": true,
+  "testsRun": 4
+}

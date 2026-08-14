@@ -1,0 +1,104 @@
+{
+  "command": {
+    "command": [
+      "/opt/pyvenv/bin/python",
+      "tools/run_tests_058.py",
+      "--shard-count",
+      "8",
+      "--shard-index",
+      "5",
+      "--output",
+      "/mnt/data/aixem058-cycle-04-test-shard-5.json"
+    ],
+    "durationSeconds": 7.270037,
+    "label": "cycle 4 repository tests shard 5",
+    "returnCode": 0,
+    "status": "PASS",
+    "stderrTail": "",
+    "stdoutTail": "[tests] START tests.agent.test_diagnostics\n[tests] PASS tests.agent.test_diagnostics (4 tests, 1.385885s)\n[tests] START tests.agent.test_task_contract\n[tests] PASS tests.agent.test_task_contract (4 tests, 1.317577s)\n[tests] START tests.docs.test_authoring_routes\n[tests] PASS tests.docs.test_authoring_routes (4 tests, 4.031908s)\n{\"failedModules\": 0, \"modules\": 3, \"successful\": true, \"testsRun\": 12}\n",
+    "valid": true
+  },
+  "cycle": 4,
+  "externalResult": "/mnt/data/aixem058-cycle-04-test-shard-5.json",
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "release": "AIXEM-SRP-0.5.8-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/pre-live-readiness-verification-stage/1",
+  "stage": "tests-5",
+  "status": "PASS",
+  "tests": {
+    "durationSeconds": 6.735747,
+    "errors": [],
+    "executionMode": "isolated-test-module-processes",
+    "failedModules": 0,
+    "failures": [],
+    "formatVersion": "1.0",
+    "generatedAt": "2026-08-12T00:00:00Z",
+    "moduleCount": 3,
+    "modules": [
+      {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "-m",
+          "unittest",
+          "-v",
+          "tests.agent.test_diagnostics"
+        ],
+        "durationSeconds": 1.385885,
+        "module": "tests.agent.test_diagnostics",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "test_diagnostic_serialization_is_schema_valid_and_stable (tests.agent.test_diagnostics.AgentDiagnosticContractTests.test_diagnostic_serialization_is_schema_valid_and_stable) ... ok\ntest_registry_contains_complete_p0_set_and_valid_metadata (tests.agent.test_diagnostics.AgentDiagnosticContractTests.test_registry_contains_complete_p0_set_and_valid_metadata) ... ok\ntest_registry_metadata_cannot_be_contradicted (tests.agent.test_diagnostics.AgentDiagnosticContractTests.test_registry_metadata_cannot_be_contradicted) ... ok\ntest_rich_diagnostic_round_trip_does_not_gain_legacy_evidence (tests.agent.test_diagnostics.AgentDiagnosticContractTests.test_rich_diagnostic_round_trip_does_not_gain_legacy_evidence) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.002s\n\nOK\n",
+        "stdoutTail": "",
+        "testsRun": 4,
+        "valid": true
+      },
+      {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "-m",
+          "unittest",
+          "-v",
+          "tests.agent.test_task_contract"
+        ],
+        "durationSeconds": 1.317577,
+        "module": "tests.agent.test_task_contract",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "test_simple_route_cannot_select_an_unrelated_active_route (tests.agent.test_task_contract.AgentTaskContractTests.test_simple_route_cannot_select_an_unrelated_active_route) ... ok\ntest_task_cannot_escape_workspace_or_write_prohibited_output (tests.agent.test_task_contract.AgentTaskContractTests.test_task_cannot_escape_workspace_or_write_prohibited_output) ... ok\ntest_task_cannot_widen_route_authority (tests.agent.test_task_contract.AgentTaskContractTests.test_task_cannot_widen_route_authority) ... ok\ntest_valid_task_resolves_route_bounded_write_scope (tests.agent.test_task_contract.AgentTaskContractTests.test_valid_task_resolves_route_bounded_write_scope) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.005s\n\nOK\n",
+        "stdoutTail": "",
+        "testsRun": 4,
+        "valid": true
+      },
+      {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "-m",
+          "unittest",
+          "-v",
+          "tests.docs.test_authoring_routes"
+        ],
+        "durationSeconds": 4.031908,
+        "module": "tests.docs.test_authoring_routes",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "test_agents_policy_contains_source_inspection_gate (tests.docs.test_authoring_routes.AuthoringRouteTests.test_agents_policy_contains_source_inspection_gate) ... ok\ntest_authoring_route_budgets (tests.docs.test_authoring_routes.AuthoringRouteTests.test_authoring_route_budgets) ... ok\ntest_composite_route_chain (tests.docs.test_authoring_routes.AuthoringRouteTests.test_composite_route_chain) ... ok\ntest_task_packets_match_route_sources (tests.docs.test_authoring_routes.AuthoringRouteTests.test_task_packets_match_route_sources) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 2.651s\n\nOK\n",
+        "stdoutTail": "",
+        "testsRun": 4,
+        "valid": true
+      }
+    ],
+    "passedModules": 3,
+    "release": "AIXEM-SRP-0.5.8-2026-08-12",
+    "schema": "https://schemas.aixem.org/validation/test-run-shard/1",
+    "shard": {
+      "count": 8,
+      "index": 5,
+      "totalDiscoveredModules": 26
+    },
+    "skipped": [],
+    "successful": true,
+    "testsRun": 12
+  },
+  "valid": true
+}

@@ -1,0 +1,56 @@
+{
+  "cycles": [
+    {
+      "caseCount": 36,
+      "cycle": 1,
+      "formatVersion": "1.0",
+      "generatedAt": "2026-08-11T00:00:00Z",
+      "passes": {
+        "qualityScaleAndAgentUsability": "PASS",
+        "regressionDeterminismAndClaimIntegrity": "PASS",
+        "representabilityAndCoverage": "PASS"
+      },
+      "release": "AIXEM-SRP-0.5.2-2026-08-11",
+      "schema": "https://schemas.aixem.org/validation/0.5.2/verification-cycle/1",
+      "testsRun": 27,
+      "valid": true
+    },
+    {
+      "caseCount": 36,
+      "cycle": 2,
+      "formatVersion": "1.0",
+      "generatedAt": "2026-08-11T00:00:00Z",
+      "passes": {
+        "qualityScaleAndAgentUsability": "PASS",
+        "regressionDeterminismAndClaimIntegrity": "PASS",
+        "representabilityAndCoverage": "PASS"
+      },
+      "release": "AIXEM-SRP-0.5.2-2026-08-11",
+      "schema": "https://schemas.aixem.org/validation/0.5.2/verification-cycle/1",
+      "testsRun": 27,
+      "valid": true
+    },
+    {
+      "caseCount": 36,
+      "cycle": 3,
+      "formatVersion": "1.0",
+      "generatedAt": "2026-08-11T00:00:00Z",
+      "passes": {
+        "qualityScaleAndAgentUsability": "PASS",
+        "regressionDeterminismAndClaimIntegrity": "PASS",
+        "representabilityAndCoverage": "PASS"
+      },
+      "release": "AIXEM-SRP-0.5.2-2026-08-11",
+      "schema": "https://schemas.aixem.org/validation/0.5.2/verification-cycle/1",
+      "testsRun": 27,
+      "valid": true
+    }
+  ],
+  "cyclesCompleted": 3,
+  "cyclesRequired": 3,
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "release": "AIXEM-SRP-0.5.2-2026-08-11",
+  "schema": "https://schemas.aixem.org/validation/0.5.2/verification-summary/1",
+  "valid": true
+}

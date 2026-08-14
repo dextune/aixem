@@ -1,0 +1,136 @@
+{
+  "artifacts": [
+    {
+      "bytes": 13823,
+      "digest": "sha256:2aa9221c7dc01a6b0488c324194e1f021d8f496bbd4de39f3260afb740b9f85c",
+      "mediaType": "image/svg+xml",
+      "path": "sheets/system.svg",
+      "role": "sheet-svg",
+      "sheet": "system"
+    },
+    {
+      "bytes": 4320,
+      "digest": "sha256:e1e541765e1f9fa150896cf83ab90eeca9626c1ec4d292f975eeb48e526e7a7a",
+      "mediaType": "application/json",
+      "path": "sheets/system.resolved-scene.json",
+      "role": "sheet-resolved-scene",
+      "sheet": "system"
+    },
+    {
+      "bytes": 382,
+      "digest": "sha256:ed3792d909f226c9855a3ff9e9fb3dcea145ff841f93a0479e4d1ac6bbd42fc4",
+      "mediaType": "application/json",
+      "path": "interface-summaries/system.json",
+      "role": "sheet-interface-summary",
+      "sheet": "system"
+    },
+    {
+      "bytes": 14483,
+      "digest": "sha256:71012e9e40ca591be2788ffb8e65c829deb17e2389e4c7a876071fe7479e9be1",
+      "mediaType": "image/svg+xml",
+      "path": "sheets/control.svg",
+      "role": "sheet-svg",
+      "sheet": "control"
+    },
+    {
+      "bytes": 4855,
+      "digest": "sha256:aabd94d143499a48a8d0c58400d067ab2796fe66261eeda51778fc5facee9817",
+      "mediaType": "application/json",
+      "path": "sheets/control.resolved-scene.json",
+      "role": "sheet-resolved-scene",
+      "sheet": "control"
+    },
+    {
+      "bytes": 529,
+      "digest": "sha256:f3d4abfa37bfdaf14155a2504f3e3122d8b8e346ff6d3af04bf4d20186ff143e",
+      "mediaType": "application/json",
+      "path": "interface-summaries/control.json",
+      "role": "sheet-interface-summary",
+      "sheet": "control"
+    },
+    {
+      "bytes": 13814,
+      "digest": "sha256:96b5d730e469054a26c313d16d6a5e9c5a2824a39d9b31fbfd3bcaac3ef16baf",
+      "mediaType": "image/svg+xml",
+      "path": "sheets/debug.svg",
+      "role": "sheet-svg",
+      "sheet": "debug"
+    },
+    {
+      "bytes": 4316,
+      "digest": "sha256:0eac561c69b11b97cc1eb880d5f93fec40f4c1ed84bf791347ee0a9708c039e3",
+      "mediaType": "application/json",
+      "path": "sheets/debug.resolved-scene.json",
+      "role": "sheet-resolved-scene",
+      "sheet": "debug"
+    },
+    {
+      "bytes": 388,
+      "digest": "sha256:de06154e6c56357a1d0a4e7fff7ac32a1131475bce52099e6a0cf3a37d1ee55f",
+      "mediaType": "application/json",
+      "path": "interface-summaries/debug.json",
+      "role": "sheet-interface-summary",
+      "sheet": "debug"
+    },
+    {
+      "bytes": 5622,
+      "digest": "sha256:943133a79e402c1eb86ceef59525acb0d3e2c4c61ea7c7e43c09845626f6a88e",
+      "mediaType": "image/svg+xml",
+      "path": "project-overview.svg",
+      "role": "project-overview-svg"
+    },
+    {
+      "bytes": 47815,
+      "digest": "sha256:11ca76dd488cdf5d04740e516cf533d7d4f6bd206a90badd3282cfc7b6745b35",
+      "mediaType": "image/svg+xml",
+      "path": "project-composite.svg",
+      "role": "project-composite-svg"
+    },
+    {
+      "bytes": 20927,
+      "digest": "sha256:25d872e18ab9cce82fd44e7255fe72f8686847e336c98bd0c93185e2e904f2f3",
+      "mediaType": "application/json",
+      "path": "resolved-project-scene.json",
+      "role": "resolved-project-scene"
+    },
+    {
+      "bytes": 35679,
+      "digest": "sha256:1e32785e3cc9769156467ebd2813f520633b66e4bbeb7cdb5631af9995f51145",
+      "mediaType": "application/json",
+      "path": "viewer-model.json",
+      "role": "viewer-model"
+    },
+    {
+      "bytes": 168852,
+      "digest": "sha256:6519185e87a276a7fb522b31a7fc92661e659b4171f0a184a52a54dab373f198",
+      "mediaType": "text/html",
+      "path": "viewer.html",
+      "role": "standalone-viewer"
+    },
+    {
+      "bytes": 170334,
+      "digest": "sha256:3a6f86b7983006182f24681e29654ef443e086d65e477bf126d63dea5fd420a6",
+      "mediaType": "text/html",
+      "path": "workbench.html",
+      "role": "engineering-workbench"
+    }
+  ],
+  "generatedAt": "2026-08-10T12:00:00Z",
+  "project": {
+    "id": "hierarchical:h005",
+    "manifestDigest": "sha256:5d416f6eb97e200312d5f200645a532b13d75416ce6621791809e5c7cc370f00",
+    "projectNets": 2,
+    "sheets": 3
+  },
+  "release": "AIXEM-SRP-0.5.5-2026-08-11",
+  "renderer": {
+    "id": "aixem-hierarchical-project-reference-renderer",
+    "version": "0.5.3"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/render-manifest/1",
+  "status": "pass",
+  "styleProfile": {
+    "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+    "id": "aixem.schematic.grid-light"
+  }
+}

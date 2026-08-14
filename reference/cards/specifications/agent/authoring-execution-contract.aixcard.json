@@ -1,0 +1,72 @@
+{
+  "card": {
+    "aliases": [
+      "authoring execution",
+      "closed loop",
+      "prepare check close"
+    ],
+    "appliesTo": [
+      "agent-authoring-execution-contract"
+    ],
+    "domain": "specifications",
+    "estimatedReadBytes": 7137,
+    "id": "AIXEM-SPEC-AGENT-EXECUTION-001",
+    "inputs": [],
+    "keywords": [
+      "Authoring Execution Contract 1",
+      "author-component-circuit",
+      "authoring execution",
+      "closed loop",
+      "prepare check close",
+      "validate-project"
+    ],
+    "kind": "contract",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/specifications/agent/authoring-execution-contract.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:3abea1ce8a8fdda167565cea20a838f8c9c6dd353b2b8c190540a33b403b9fff"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SPEC-AGENT-DIAGNOSTIC-001",
+      "AIXEM-SPEC-AGENT-CHANGESET-001",
+      "AIXEM-SPEC-AGENT-RETRIEVAL-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-AGENT-CLOSED-LOOP-0008",
+        "level": "must",
+        "text": "**MUST.** Prepare MUST resolve the entry route, active child route, write scope, validators, task packet digest, baseline digests, and initial diagnostics before an edit begins."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-CLOSED-LOOP-0009",
+        "level": "must",
+        "text": "**MUST.** A failed iteration MUST normalize diagnostics, select the smallest owning remediation route, enforce its scope, rerun narrow validators, and defer rendering until structural validity."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-CLOSED-LOOP-0010",
+        "level": "must",
+        "text": "**MUST.** The execution harness MUST expose an unchanged blocking state and an A-to-B-to-A state oscillation instead of silently repeating repair."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-CLOSED-LOOP-0016",
+        "level": "must",
+        "text": "**MUST.** Workspace snapshot and execution paths MUST remain inside the staged root and MUST fail closed on symlinks or traversal."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SPEC-AGENT-EXECUTION-001",
+        "path": "docs/specifications/agent/authoring-execution-contract.md"
+      }
+    ],
+    "summary": "Defines the PREPARED-to-CLOSED authoring state machine, prepare/check/close harness, narrow validation, authority-local repair, and loop-stall handling.",
+    "title": "Authoring Execution Contract 1"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

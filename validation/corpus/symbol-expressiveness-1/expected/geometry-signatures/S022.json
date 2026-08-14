@@ -1,0 +1,267 @@
+{
+  "bounds": {
+    "height": 105.0,
+    "width": 110,
+    "x": -55,
+    "y": -52.5
+  },
+  "capabilities": [
+    "geometry.line",
+    "geometry.rect",
+    "port.mapping",
+    "scale.high-port-count",
+    "text.field"
+  ],
+  "case": "S022",
+  "defaultVariant": null,
+  "definitions": [],
+  "fieldAnchors": [
+    {
+      "field": "reference",
+      "id": "field-reference",
+      "x": 0,
+      "y": -45
+    },
+    {
+      "field": "value",
+      "id": "field-value",
+      "x": 0,
+      "y": 45
+    }
+  ],
+  "parameters": {},
+  "ports": [
+    {
+      "id": "PA0",
+      "orientation": 180,
+      "visible": true,
+      "x": -30.0,
+      "y": -17.5
+    },
+    {
+      "id": "PA1",
+      "orientation": 180,
+      "visible": true,
+      "x": -30.0,
+      "y": -12.5
+    },
+    {
+      "id": "PA2",
+      "orientation": 180,
+      "visible": true,
+      "x": -30.0,
+      "y": -7.5
+    },
+    {
+      "id": "PA3",
+      "orientation": 180,
+      "visible": true,
+      "x": -30.0,
+      "y": -2.5
+    },
+    {
+      "id": "PA4",
+      "orientation": 180,
+      "visible": true,
+      "x": -30.0,
+      "y": 2.5
+    },
+    {
+      "id": "PA5",
+      "orientation": 180,
+      "visible": true,
+      "x": -30.0,
+      "y": 7.5
+    },
+    {
+      "id": "PA6",
+      "orientation": 180,
+      "visible": true,
+      "x": -30.0,
+      "y": 12.5
+    },
+    {
+      "id": "PA7",
+      "orientation": 180,
+      "visible": true,
+      "x": -30.0,
+      "y": 17.5
+    },
+    {
+      "id": "PB0",
+      "orientation": 0,
+      "visible": true,
+      "x": 30.0,
+      "y": -17.5
+    },
+    {
+      "id": "PB1",
+      "orientation": 0,
+      "visible": true,
+      "x": 30.0,
+      "y": -12.5
+    },
+    {
+      "id": "PB2",
+      "orientation": 0,
+      "visible": true,
+      "x": 30.0,
+      "y": -7.5
+    },
+    {
+      "id": "PB3",
+      "orientation": 0,
+      "visible": true,
+      "x": 30.0,
+      "y": -2.5
+    },
+    {
+      "id": "PB4",
+      "orientation": 0,
+      "visible": true,
+      "x": 30.0,
+      "y": 2.5
+    },
+    {
+      "id": "PB5",
+      "orientation": 0,
+      "visible": true,
+      "x": 30.0,
+      "y": 7.5
+    },
+    {
+      "id": "PB6",
+      "orientation": 0,
+      "visible": true,
+      "x": 30.0,
+      "y": 12.5
+    },
+    {
+      "id": "PB7",
+      "orientation": 0,
+      "visible": true,
+      "x": 30.0,
+      "y": 17.5
+    },
+    {
+      "id": "VDD1",
+      "orientation": 90,
+      "visible": true,
+      "x": -17.5,
+      "y": -30.0
+    },
+    {
+      "id": "VDD2",
+      "orientation": 90,
+      "visible": true,
+      "x": -12.5,
+      "y": -30.0
+    },
+    {
+      "id": "VDD3",
+      "orientation": 90,
+      "visible": true,
+      "x": -7.5,
+      "y": -30.0
+    },
+    {
+      "id": "VDD4",
+      "orientation": 90,
+      "visible": true,
+      "x": -2.5,
+      "y": -30.0
+    },
+    {
+      "id": "VDD5",
+      "orientation": 90,
+      "visible": true,
+      "x": 2.5,
+      "y": -30.0
+    },
+    {
+      "id": "VDD6",
+      "orientation": 90,
+      "visible": true,
+      "x": 7.5,
+      "y": -30.0
+    },
+    {
+      "id": "VDD7",
+      "orientation": 90,
+      "visible": true,
+      "x": 12.5,
+      "y": -30.0
+    },
+    {
+      "id": "VDD8",
+      "orientation": 90,
+      "visible": true,
+      "x": 17.5,
+      "y": -30.0
+    },
+    {
+      "id": "VSS1",
+      "orientation": 270,
+      "visible": true,
+      "x": -17.5,
+      "y": 30.0
+    },
+    {
+      "id": "VSS2",
+      "orientation": 270,
+      "visible": true,
+      "x": -12.5,
+      "y": 30.0
+    },
+    {
+      "id": "VSS3",
+      "orientation": 270,
+      "visible": true,
+      "x": -7.5,
+      "y": 30.0
+    },
+    {
+      "id": "VSS4",
+      "orientation": 270,
+      "visible": true,
+      "x": -2.5,
+      "y": 30.0
+    },
+    {
+      "id": "VSS5",
+      "orientation": 270,
+      "visible": true,
+      "x": 2.5,
+      "y": 30.0
+    },
+    {
+      "id": "VSS6",
+      "orientation": 270,
+      "visible": true,
+      "x": 7.5,
+      "y": 30.0
+    },
+    {
+      "id": "VSS7",
+      "orientation": 270,
+      "visible": true,
+      "x": 12.5,
+      "y": 30.0
+    },
+    {
+      "id": "VSS8",
+      "orientation": 270,
+      "visible": true,
+      "x": 17.5,
+      "y": 30.0
+    }
+  ],
+  "primitiveCounts": {
+    "line": 32,
+    "rect": 1,
+    "text": 6
+  },
+  "requiredFeatures": [],
+  "symbol": "corpus:s022-mcu-32",
+  "variants": []
+}

@@ -1,0 +1,57 @@
+{
+  "durationSeconds": 9.115439,
+  "errors": [],
+  "executionMode": "isolated-test-module-processes",
+  "failedModules": 0,
+  "failures": [],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "moduleCount": 2,
+  "modules": [
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_invariant_scorer"
+      ],
+      "durationSeconds": 4.39876,
+      "module": "tests.agent.test_invariant_scorer",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_exact_completed_source_oracle_is_prohibited (tests.agent.test_invariant_scorer.EvaluationInvariantContractTests.test_exact_completed_source_oracle_is_prohibited) ... ok\ntest_scorer_checks_actual_incomplete_workspace_without_self_repair (tests.agent.test_invariant_scorer.EvaluationInvariantContractTests.test_scorer_checks_actual_incomplete_workspace_without_self_repair) ... ok\ntest_semantically_repaired_workspace_passes_hidden_invariants (tests.agent.test_invariant_scorer.EvaluationInvariantContractTests.test_semantically_repaired_workspace_passes_hidden_invariants) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.507s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 3,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.conformance.test_viewer_security"
+      ],
+      "durationSeconds": 4.716305,
+      "module": "tests.conformance.test_viewer_security",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_structural_negative_viewer_models_fail_closed (tests.conformance.test_viewer_security.ViewerSecurityConformanceTests.test_structural_negative_viewer_models_fail_closed) ... ok\ntest_v013_offline_network_denial_and_csp (tests.conformance.test_viewer_security.ViewerSecurityConformanceTests.test_v013_offline_network_denial_and_csp) ... ok\ntest_v014_hostile_authored_text_is_inert (tests.conformance.test_viewer_security.ViewerSecurityConformanceTests.test_v014_hostile_authored_text_is_inert) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 1.872s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 3,
+      "valid": true
+    }
+  ],
+  "passedModules": 2,
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/test-run-shard/1",
+  "shard": {
+    "count": 12,
+    "index": 6,
+    "totalDiscoveredModules": 29
+  },
+  "skipped": [],
+  "successful": true,
+  "testsRun": 6
+}

@@ -1,0 +1,157 @@
+{
+  "category": "multi-unit",
+  "componentPorts": [
+    {
+      "id": "A0",
+      "name": "A0",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "A1",
+      "name": "A1",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "A2",
+      "name": "A2",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "A3",
+      "name": "A3",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "A4",
+      "name": "A4",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "A5",
+      "name": "A5",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "A6",
+      "name": "A6",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "A7",
+      "name": "A7",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "B0",
+      "name": "B0",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "B1",
+      "name": "B1",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "B2",
+      "name": "B2",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "B3",
+      "name": "B3",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "B4",
+      "name": "B4",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "B5",
+      "name": "B5",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "B6",
+      "name": "B6",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "B7",
+      "name": "B7",
+      "required": true,
+      "type": "bidirectional"
+    }
+  ],
+  "expectedBoundsClass": "high-density",
+  "expectedFieldRoles": [
+    "reference-field",
+    "value-field"
+  ],
+  "expectedGridPolicy": "ports-on-2.5mm",
+  "expectedParameterIds": [],
+  "expectedPortCount": 16,
+  "expectedPrimitiveFamilies": [
+    "line",
+    "rect",
+    "text"
+  ],
+  "expectedVariantIds": [],
+  "expectedVisiblePortCount": 16,
+  "formatVersion": "1.0",
+  "id": "S030",
+  "knownExclusions": [
+    "A PASS is not inferred from a monolithic full-package drawing."
+  ],
+  "manualReviewChecks": [
+    "silhouette-recognizable",
+    "ports-attached-to-expected-leads",
+    "pin-number-name-separation",
+    "reference-value-clear-of-body",
+    "polarity-arrow-inversion-state-unambiguous",
+    "repeated-geometry-evenly-spaced",
+    "normal-scale-readable",
+    "no-false-connectivity-detail",
+    "variant-endpoint-identity-preserved",
+    "path-has-no-fill-or-self-intersection-artifact"
+  ],
+  "optionalCapabilities": [],
+  "probe": {
+    "expectedResult": "NOT_SUPPORTED",
+    "graphicalMonolithExpected": "PASS",
+    "negativeTest": "duplicate-placement-entity-rejected",
+    "requiredSemanticProperties": [
+      "one-shared-component-identity",
+      "independently-placeable-units",
+      "disjoint-port-subsets",
+      "shared-reference-and-value"
+    ]
+  },
+  "purpose": "Separate graphical monolith proof from true shared-identity independently placeable unit semantics",
+  "requiredCapabilities": [
+    "geometry.line",
+    "geometry.rect",
+    "port.mapping",
+    "scale.high-port-count",
+    "text.field"
+  ],
+  "schema": "https://schemas.aixem.org/conformance/corpus-case/1",
+  "symbolPath": "symbol.aixsym.json",
+  "tier": "probe",
+  "title": "FPGA multi-unit probe"
+}

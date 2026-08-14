@@ -1,0 +1,40 @@
+{
+  "durationSeconds": 1.601663,
+  "errors": [],
+  "executionMode": "isolated-test-module-processes",
+  "failedModules": 0,
+  "failures": [],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "moduleCount": 1,
+  "modules": [
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_task_contract"
+      ],
+      "durationSeconds": 1.601483,
+      "module": "tests.agent.test_task_contract",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_simple_route_cannot_select_an_unrelated_active_route (tests.agent.test_task_contract.AgentTaskContractTests.test_simple_route_cannot_select_an_unrelated_active_route) ... ok\ntest_task_cannot_escape_workspace_or_write_prohibited_output (tests.agent.test_task_contract.AgentTaskContractTests.test_task_cannot_escape_workspace_or_write_prohibited_output) ... ok\ntest_task_cannot_widen_route_authority (tests.agent.test_task_contract.AgentTaskContractTests.test_task_cannot_widen_route_authority) ... ok\ntest_valid_task_resolves_route_bounded_write_scope (tests.agent.test_task_contract.AgentTaskContractTests.test_valid_task_resolves_route_bounded_write_scope) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.006s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 4,
+      "valid": true
+    }
+  ],
+  "passedModules": 1,
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/test-run-shard/1",
+  "shard": {
+    "count": 29,
+    "index": 13,
+    "totalDiscoveredModules": 29
+  },
+  "skipped": [],
+  "successful": true,
+  "testsRun": 4
+}

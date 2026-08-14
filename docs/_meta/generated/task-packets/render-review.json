@@ -1,0 +1,147 @@
+{
+  "authority": "derived-navigation-only",
+  "budget": {
+    "max_bytes": 98304,
+    "max_depth": 3,
+    "max_documents": 7
+  },
+  "completion": [
+    "Renderer completes without a fail-closed diagnostic",
+    "Resolved evidence and Viewer Model are inspected",
+    "Defect is classified as drawing, Viewer interaction, Workbench evidence, or semantic authority",
+    "Every defect is assigned to one authority owner",
+    "Affected SVG/Viewer output is visually and behaviorally reviewed",
+    "Rerender is deterministic after repair"
+  ],
+  "documents": [
+    {
+      "bytes": 11782,
+      "digest": "sha256:8843908e7bb5164f14a9b9877163529b67c2765d29fcd6c8f440eb653b180152",
+      "document": "AIXEM-SPEC-RENDERER-001",
+      "order": 1,
+      "path": "docs/specifications/renderer/renderer-contract.md",
+      "purpose": "Generate deterministic renderer evidence and identify the renderer/Viewer boundary.",
+      "required": true,
+      "section": "renderer-to-viewer-boundary"
+    },
+    {
+      "bytes": 15764,
+      "digest": "sha256:51f0c496601896459e57adb025523d72eff5b3d0a1468fddcc81957de9b491a9",
+      "document": "AIXEM-SPEC-VIEWER-001",
+      "order": 2,
+      "path": "docs/specifications/viewer/reference-viewer-contract.md",
+      "purpose": "Classify Viewer interaction and Workbench profile defects without altering circuit authority.",
+      "required": true,
+      "section": "product-and-authority-boundary"
+    },
+    {
+      "bytes": 6363,
+      "digest": "sha256:7aa4bd2309ac7aa9c4da199bde6c75f8cb30240dcb6102e7a332c7f14266c04e",
+      "document": "AIXEM-AGENT-VISUAL-QA-001",
+      "order": 3,
+      "path": "docs/agent/visual-qa-loop.md",
+      "purpose": "Execute the evidence-backed visual QA and local repair loop.",
+      "required": true,
+      "section": "required-loop"
+    },
+    {
+      "bytes": 7688,
+      "digest": "sha256:ad17fd56e9a7e681bdeafded504868e730f3f7ca7bc8826ee9b78bb7bde38ed0",
+      "document": "AIXEM-SPEC-VISUAL-PROFILE-001",
+      "order": 4,
+      "path": "docs/specifications/schematic/visual-profile.md",
+      "purpose": "Separate schematic drawing presentation from Viewer application chrome.",
+      "required": true,
+      "section": "0-5-4-viewer-boundary"
+    },
+    {
+      "bytes": 10379,
+      "condition": "The defect is inside a symbol or its fields.",
+      "digest": "sha256:ed7e12ded56ddcc7ff3154ef967a0c780c8a6dbb7d9a4f5dcde732a8500b0e53",
+      "document": "AIXEM-SPEC-SYMBOL-DESIGN-001",
+      "order": 5,
+      "path": "docs/specifications/symbols/symbol-design-profile.md",
+      "purpose": "Review measurable symbol rules when the defect belongs to symbol geometry.",
+      "required": false,
+      "section": "validation"
+    },
+    {
+      "bytes": 5761,
+      "condition": "Viewer or Workbench behavior is affected.",
+      "digest": "sha256:3618dec2b490eacb101826d9eb24b2f444629841770fca3b1c4161e889cba673",
+      "document": "AIXEM-CONF-REFERENCE-VIEWER-001",
+      "order": 6,
+      "path": "docs/conformance/reference-viewer.md",
+      "purpose": "Select browser behavior and evidence gates for Viewer or Workbench defects.",
+      "required": false,
+      "section": "browser-gate"
+    },
+    {
+      "bytes": 10368,
+      "digest": "sha256:79a0b3a82134a3e41bb0796fb7619a17789038f89944e154d3473ac0f9f97d9f",
+      "document": "AIXEM-CONF-VALIDATION-001",
+      "order": 7,
+      "path": "docs/conformance/validation.md",
+      "purpose": "Interpret validation diagnostics and evidence ownership.",
+      "required": true,
+      "section": "0-5-1-authoring-validation-layers"
+    }
+  ],
+  "expectedInputs": [
+    "locked project inputs",
+    "active renderer/style profile",
+    "narrow validator results"
+  ],
+  "expectedOutputs": [
+    "drawing/project SVG",
+    "resolved scene or resolved project scene",
+    "viewer-model.json",
+    "viewer.html or workbench.html",
+    "project-validation.json",
+    "visual or browser review record"
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "id": "render-review",
+  "intent": "render-review",
+  "kind": "simple",
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "remediation": {
+    "acceptsDiagnostics": [
+      "AIXEM-DIAG-RENDERER-DETERMINISM"
+    ]
+  },
+  "schema": "https://schemas.aixem.org/documentation/task-packet/1",
+  "source": "docs/_meta/routes/render-review.yaml",
+  "sourceDigest": "sha256:8a42d223b9691c1baf3ed6e45196e2ccf387fdcbc9ee2b9808aa650d6bbcca59",
+  "summary": "Render locked sources, inspect resolved evidence, classify drawing, Viewer, Workbench, or semantic defects, and repair the owning layer",
+  "validators": [
+    "schematic.renderer_contract",
+    "schematic.authoring_examples",
+    "agent.visual_qa",
+    "manual.symbol_visual_review",
+    "schematic.reference_viewer",
+    "agent.diagnostics",
+    "agent.change_scope"
+  ],
+  "writes": {
+    "artifacts": [],
+    "authority": [],
+    "derived": [
+      "render/**",
+      "evidence/**"
+    ],
+    "prohibited": [
+      "render/**",
+      "evidence/**",
+      "**/viewer.html",
+      "**/workbench.html",
+      "**/*.svg",
+      "**/resolved-scene.json",
+      "**/resolved-project-scene.json",
+      "**/viewer-model.json",
+      "**/render-manifest.json",
+      "**/project-validation.json"
+    ]
+  }
+}

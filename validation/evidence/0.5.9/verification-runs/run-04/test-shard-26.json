@@ -1,0 +1,40 @@
+{
+  "durationSeconds": 16.694167,
+  "errors": [],
+  "executionMode": "isolated-test-module-processes",
+  "failedModules": 0,
+  "failures": [],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "moduleCount": 1,
+  "modules": [
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.docs.test_repository"
+      ],
+      "durationSeconds": 16.693937,
+      "module": "tests.docs.test_repository",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_agent_policy (tests.docs.test_repository.RepositoryConformanceTests.test_agent_policy) ... ok\ntest_documentation_integrity (tests.docs.test_repository.RepositoryConformanceTests.test_documentation_integrity) ... ok\ntest_english_only_release_text (tests.docs.test_repository.RepositoryConformanceTests.test_english_only_release_text) ... ok\ntest_release_manifest_when_present (tests.docs.test_repository.RepositoryConformanceTests.test_release_manifest_when_present) ... ok\ntest_requirement_evidence (tests.docs.test_repository.RepositoryConformanceTests.test_requirement_evidence) ... ok\ntest_review_evidence (tests.docs.test_repository.RepositoryConformanceTests.test_review_evidence) ... ok\ntest_route_integrity (tests.docs.test_repository.RepositoryConformanceTests.test_route_integrity) ... ok\ntest_schematic_example (tests.docs.test_repository.RepositoryConformanceTests.test_schematic_example) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 14.517s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 8,
+      "valid": true
+    }
+  ],
+  "passedModules": 1,
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/test-run-shard/1",
+  "shard": {
+    "count": 29,
+    "index": 26,
+    "totalDiscoveredModules": 29
+  },
+  "skipped": [],
+  "successful": true,
+  "testsRun": 8
+}

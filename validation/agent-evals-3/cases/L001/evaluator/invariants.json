@@ -1,0 +1,98 @@
+{
+  "authority": "evaluator-only",
+  "caseId": "L001",
+  "formatVersion": "1.0",
+  "invariants": [
+    {
+      "arguments": {
+        "project": "project.aixproj.json",
+        "route": "validate-project"
+      },
+      "basis": [
+        {
+          "pointer": "/completionCriteria/3",
+          "type": "task"
+        }
+      ],
+      "description": "The actual final workspace passes full project validation.",
+      "id": "L001-VALID",
+      "predicate": "validator-pass",
+      "required": true
+    },
+    {
+      "arguments": {
+        "project": "project.aixproj.json",
+        "repeats": 3
+      },
+      "basis": [
+        {
+          "pointer": "/completionCriteria/3",
+          "type": "task"
+        }
+      ],
+      "description": "The actual final workspace renders deterministically three times.",
+      "id": "L001-RENDER",
+      "predicate": "render-deterministic",
+      "required": true
+    },
+    {
+      "arguments": {
+        "mode": "exact",
+        "path": "library/electronics/authoring/resistor.aixsym.json",
+        "ports": [
+          "1",
+          "2"
+        ]
+      },
+      "basis": [
+        {
+          "pointer": "/facts",
+          "type": "task"
+        }
+      ],
+      "description": "The authored passive exposes exactly two electrical ports.",
+      "id": "L001-PORTS",
+      "predicate": "symbol-port-set",
+      "required": true
+    },
+    {
+      "arguments": {
+        "componentType": "live:resistor-l001",
+        "entity": "RX41",
+        "source": "two_pin_passive.aixem"
+      },
+      "basis": [
+        {
+          "pointer": "/facts",
+          "type": "task"
+        }
+      ],
+      "description": "RX41 remains a semantic resistor instance.",
+      "id": "L001-ENTITY",
+      "predicate": "entity-present",
+      "required": true
+    },
+    {
+      "arguments": {
+        "members": [
+          "RX41.2",
+          "RX42.1"
+        ],
+        "mode": "exact",
+        "net": "synth_link_41",
+        "source": "two_pin_passive.aixem"
+      },
+      "basis": [
+        {
+          "pointer": "/facts",
+          "type": "task"
+        }
+      ],
+      "description": "The supplied divider link is preserved.",
+      "id": "L001-NET",
+      "predicate": "local-net-members",
+      "required": true
+    }
+  ],
+  "schema": "https://schemas.aixem.org/agent/evaluation-invariant/1"
+}

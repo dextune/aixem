@@ -1,0 +1,980 @@
+{
+  "formatVersion": "1.0",
+  "manifest": {
+    "files": [
+      {
+        "bytes": 1848,
+        "digest": "sha256:c696d80e7d66966e84af3bb06eb8497e2c9c74b17d3290d14a693d971a6543d2",
+        "path": "reference/cards/agent/architecture.aixcard.json"
+      },
+      {
+        "bytes": 2352,
+        "digest": "sha256:411b872064bbd6477b46d55e9dc60961840444e7ba4ea9c91239978f263f0151",
+        "path": "reference/cards/agent/authoring-orchestration.aixcard.json"
+      },
+      {
+        "bytes": 1928,
+        "digest": "sha256:1fb5348846ab21a87889635eda990e3918da52dcd13e10f71b7d71695db518aa",
+        "path": "reference/cards/agent/failure-policy.aixcard.json"
+      },
+      {
+        "bytes": 2083,
+        "digest": "sha256:d00be030372a0d2f2ce26d6f2514341a345081facd7ee9bcff1767c808913970",
+        "path": "reference/cards/agent/live-agent-cold-start-authoring.aixcard.json"
+      },
+      {
+        "bytes": 1585,
+        "digest": "sha256:c2626dcec1d60ce335a9cef1ebf2d0df7190db5fbc3318d719f7ba274bdbbf81",
+        "path": "reference/cards/agent/overview.aixcard.json"
+      },
+      {
+        "bytes": 1642,
+        "digest": "sha256:d6f6c9b4e22316a5e094bc1ebce260fe92756237a55fd7ad363f8296e207bfe0",
+        "path": "reference/cards/agent/retrieval.aixcard.json"
+      },
+      {
+        "bytes": 1586,
+        "digest": "sha256:1cd10fcf7decc615c7b2220cd73aa91be952777597fa6b94d6e48cb492549a9c",
+        "path": "reference/cards/agent/routing-agent.aixcard.json"
+      },
+      {
+        "bytes": 1671,
+        "digest": "sha256:ace97457684f0920b545130e41c5ddbf138bb78c3b8199533ca39e6733d8b1b1",
+        "path": "reference/cards/agent/schematic-authoring.aixcard.json"
+      },
+      {
+        "bytes": 1604,
+        "digest": "sha256:81b103e2ea4a19071f1f901d5bf6ea6c84e63d6dd765955733692e313699e4d8",
+        "path": "reference/cards/agent/symbol-generation.aixcard.json"
+      },
+      {
+        "bytes": 1893,
+        "digest": "sha256:2f5caf62bdc19411963142f778cef00579d8cd90eb6077c01cc6fbe934d893bd",
+        "path": "reference/cards/agent/task-routing.aixcard.json"
+      },
+      {
+        "bytes": 2013,
+        "digest": "sha256:ff64002e127dbe755a49985b86775fb7a145095d6ddd46216579163497c4d8d4",
+        "path": "reference/cards/agent/validation-loop.aixcard.json"
+      },
+      {
+        "bytes": 1930,
+        "digest": "sha256:101f684a957512bbed38cce37afbc43ffdd38706ff63b138a41436900d441e9f",
+        "path": "reference/cards/agent/visual-qa-loop.aixcard.json"
+      },
+      {
+        "bytes": 1612,
+        "digest": "sha256:97e0dde0ad2a24b40349d2ee13c755cd853a4d52628a37d3d4b8556ccdcb4470",
+        "path": "reference/cards/architecture/adr/0001-canonical-doc-root.aixcard.json"
+      },
+      {
+        "bytes": 1646,
+        "digest": "sha256:efdfb2861f6ff8dc0256485837e98936aa4372c153ba6ab557aa8912f5626485",
+        "path": "reference/cards/architecture/adr/0002-route-first-retrieval.aixcard.json"
+      },
+      {
+        "bytes": 1779,
+        "digest": "sha256:23dea692ab16b35f158f6eec2038ceb8a023f41d20bcc1f86d45aee1de42ec64",
+        "path": "reference/cards/architecture/adr/0003-vendor-neutral-ui.aixcard.json"
+      },
+      {
+        "bytes": 1843,
+        "digest": "sha256:80968eb38e0505ec62b02e2a61bf9563d0183397af54eae9586caa6a4d890976",
+        "path": "reference/cards/architecture/adr/0004-symbol-style-and-renderer-precedence.aixcard.json"
+      },
+      {
+        "bytes": 1488,
+        "digest": "sha256:acbbfa0428d4b9064a9f459d47aace07f8950c0ee6d1f0164744d84827e09b66",
+        "path": "reference/cards/architecture/adr/overview.aixcard.json"
+      },
+      {
+        "bytes": 1874,
+        "digest": "sha256:912f96fc904d75cff1c502de4f7f725f6bebb7c83c633081ceb0835ac3699e23",
+        "path": "reference/cards/architecture/artifact-store.aixcard.json"
+      },
+      {
+        "bytes": 1783,
+        "digest": "sha256:d08225d0c96f8342107473d8e92b0b1935ebfb7bcb58fbfc787400e1666115d1",
+        "path": "reference/cards/architecture/cache.aixcard.json"
+      },
+      {
+        "bytes": 1615,
+        "digest": "sha256:b7b90d1e2d91238024b951925acc6f29392253fb0c9a2c182786fb7694131e0a",
+        "path": "reference/cards/architecture/overview.aixcard.json"
+      },
+      {
+        "bytes": 1877,
+        "digest": "sha256:981f7db7cd61e97def1c56329dd70e999a6c31ecc1d6a83fd89b3008851fda82",
+        "path": "reference/cards/architecture/pipeline.aixcard.json"
+      },
+      {
+        "bytes": 1991,
+        "digest": "sha256:4581490426bab2ac1e1c317c757a86c322e4e03a25041ba7ee3928aeddc86bb0",
+        "path": "reference/cards/architecture/security.aixcard.json"
+      },
+      {
+        "bytes": 1890,
+        "digest": "sha256:01bd38fc3ea6358e8ecaf817a7bf6c992a351f389eb69872b4f1e27de1eff99a",
+        "path": "reference/cards/architecture/system-overview.aixcard.json"
+      },
+      {
+        "bytes": 1911,
+        "digest": "sha256:c47ca674ba8dfa1bc650cf79c51968d79134873a4b0478753c79c4a24aab0b78",
+        "path": "reference/cards/authoring/guides/author-component-circuit.aixcard.json"
+      },
+      {
+        "bytes": 1773,
+        "digest": "sha256:7ee017741b75db11fe2d67bdadbee775a263a4047a43a65b3507624284bf2950",
+        "path": "reference/cards/authoring/guides/compose-project.aixcard.json"
+      },
+      {
+        "bytes": 1947,
+        "digest": "sha256:c86061b1b18b588ff4ecf067044bac116c38cb84d8ace187d4b550912cbfcd6e",
+        "path": "reference/cards/authoring/guides/create-library-part.aixcard.json"
+      },
+      {
+        "bytes": 1785,
+        "digest": "sha256:c7da96876b50b8c1a27723e2085a630536be3dd233c5a503568be1f0a8d3ae4b",
+        "path": "reference/cards/authoring/guides/create-schematic.aixcard.json"
+      },
+      {
+        "bytes": 1842,
+        "digest": "sha256:ba33b1a0a17f887e3868e33587968e517bcb103ff94d0bd90dd4d8a7f75fd623",
+        "path": "reference/cards/authoring/guides/modify-existing-schematic.aixcard.json"
+      },
+      {
+        "bytes": 1833,
+        "digest": "sha256:455876d30cc9a6a91c98ed7801a24b66389a571b75e7db9c95b0ca47bcf9c1e2",
+        "path": "reference/cards/authoring/guides/overview.aixcard.json"
+      },
+      {
+        "bytes": 1956,
+        "digest": "sha256:afcb25ac312b2c2f43a01f1dbf97c274e594598b4e91aaf1d097f219a8c2d721",
+        "path": "reference/cards/authoring/guides/place-components.aixcard.json"
+      },
+      {
+        "bytes": 1741,
+        "digest": "sha256:3167e0cc35f4ee1c356406a5bdedbeec303f50b185457be5ce73fe2169bafb28",
+        "path": "reference/cards/authoring/guides/render-review.aixcard.json"
+      },
+      {
+        "bytes": 1777,
+        "digest": "sha256:45009a3fa49318a9e0391bab01ab917534689deae8b817f251714cbbb29f3422",
+        "path": "reference/cards/authoring/guides/route-nets.aixcard.json"
+      },
+      {
+        "bytes": 1826,
+        "digest": "sha256:769fa8fb77d49176740964fc13624e107c2d0dde82ff673fee522e3c17a6b13b",
+        "path": "reference/cards/authoring/guides/select-library-part.aixcard.json"
+      },
+      {
+        "bytes": 1899,
+        "digest": "sha256:9bcbe37b8571dde1725e0f34fb6f47944393cdaf7a908916268c256351c1698a",
+        "path": "reference/cards/authoring/guides/validate-project.aixcard.json"
+      },
+      {
+        "bytes": 1661,
+        "digest": "sha256:194f7d8f2b2b79ce4ba110132d64dea76e0f9f9e395734b1410a4ec533c91771",
+        "path": "reference/cards/authoring/overview.aixcard.json"
+      },
+      {
+        "bytes": 1784,
+        "digest": "sha256:98eb93c49c16123040518cc599798eff6a375e8c3f756203e65cc0ff2b71e7ee",
+        "path": "reference/cards/concepts/authority-model.aixcard.json"
+      },
+      {
+        "bytes": 1931,
+        "digest": "sha256:1a527987a2079362c0bb0a605f8184d28d17e0a96d46b2739bfe5b8231c94668",
+        "path": "reference/cards/concepts/component-model.aixcard.json"
+      },
+      {
+        "bytes": 2011,
+        "digest": "sha256:44ffb8a57cc74e358f684810624598b6a7c2a66c19bce3c7953baf046d8652a8",
+        "path": "reference/cards/concepts/deterministic-builds.aixcard.json"
+      },
+      {
+        "bytes": 1774,
+        "digest": "sha256:d0b1814c476ef8b1ffef48ee0b7949229aee5479886110d504a28e476e4edd9f",
+        "path": "reference/cards/concepts/layout-model.aixcard.json"
+      },
+      {
+        "bytes": 1712,
+        "digest": "sha256:8c18b736614733a9c63c17f1c291c566f87de508b00963f2a8ed0857b7557656",
+        "path": "reference/cards/concepts/net-model.aixcard.json"
+      },
+      {
+        "bytes": 1454,
+        "digest": "sha256:a5083387d8781e0eeb9c55ad89ed239e20e4413250cd99e2d7f11f16a787aca1",
+        "path": "reference/cards/concepts/overview.aixcard.json"
+      },
+      {
+        "bytes": 1730,
+        "digest": "sha256:96be490a1e96d55c7799d64a4d4867e1a6c9591e7a61fedb52ba819c46499beb",
+        "path": "reference/cards/concepts/project-net-model.aixcard.json"
+      },
+      {
+        "bytes": 1981,
+        "digest": "sha256:7cc70c8482661aa39a240103a270e110d13b7bb58a9a1e6f76ceaa52568cdae8",
+        "path": "reference/cards/concepts/semantic-model.aixcard.json"
+      },
+      {
+        "bytes": 1729,
+        "digest": "sha256:0ab41351aefc2b6f8a11ddcd21cdace14b66db43de6cd91b0db401f5ae2043bf",
+        "path": "reference/cards/concepts/symbol-model.aixcard.json"
+      },
+      {
+        "bytes": 2098,
+        "digest": "sha256:9b32f82a268a0b8e8ace5f060751589d18718c72a59e33d198fe32be0c7d25ea",
+        "path": "reference/cards/conformance/agent-authoring.aixcard.json"
+      },
+      {
+        "bytes": 1734,
+        "digest": "sha256:f9c8c87a33c95c0fa91a40816a36c96c866cde281f974ebe5aa1c7d658dbe55f",
+        "path": "reference/cards/conformance/agent-diagnostics.aixcard.json"
+      },
+      {
+        "bytes": 2061,
+        "digest": "sha256:405b5054eaab82d7ccbbf3e8535198f3e48a9c9d50180f4e7e46d47902e990fc",
+        "path": "reference/cards/conformance/compatibility-conformance.aixcard.json"
+      },
+      {
+        "bytes": 2832,
+        "digest": "sha256:0235d7fb700b67686cd943443509c5d2e51258a2959d785bd14ea3dfae0551ec",
+        "path": "reference/cards/conformance/hierarchical-project.aixcard.json"
+      },
+      {
+        "bytes": 3124,
+        "digest": "sha256:4f8e02c2b05fbfb3f1e0e7e1895f45db3ff673ea85bcfedda296d6aadab8d301",
+        "path": "reference/cards/conformance/live-agent-cold-start.aixcard.json"
+      },
+      {
+        "bytes": 1485,
+        "digest": "sha256:19345ea81250eabadb58b249898f0104fef5ff83fce5ee3119c694ce2048a160",
+        "path": "reference/cards/conformance/overview.aixcard.json"
+      },
+      {
+        "bytes": 1869,
+        "digest": "sha256:02e0131f0f8ffb2160fc9c9637a4b04259fc61a24d894194f90ea245fd66ce1e",
+        "path": "reference/cards/conformance/reference-viewer.aixcard.json"
+      },
+      {
+        "bytes": 2057,
+        "digest": "sha256:c5d75249ba7268d73041a6586369677355abc95b67f87b106f0d80b17b900d78",
+        "path": "reference/cards/conformance/release-gates.aixcard.json"
+      },
+      {
+        "bytes": 1928,
+        "digest": "sha256:e8f7430d8c1c86d40ec59a22ff0ba6af301e515204b61ba6a22bf14a69f40a71",
+        "path": "reference/cards/conformance/requirements.aixcard.json"
+      },
+      {
+        "bytes": 1701,
+        "digest": "sha256:d4706ec2f0aecb4b99ee315af81501f0a146b4cab1d0b5859df2a1b4610fa66b",
+        "path": "reference/cards/conformance/static-2d-block-profile.aixcard.json"
+      },
+      {
+        "bytes": 1840,
+        "digest": "sha256:dc9e53d0ed79ae21123f6e43ed72eff92cecf0ca5d1eb732af2f57012c31908a",
+        "path": "reference/cards/conformance/symbol-expressiveness.aixcard.json"
+      },
+      {
+        "bytes": 1930,
+        "digest": "sha256:d971925ded4ba3b283cdec42475330851e4e1b676217f55c3a13776ef09950dd",
+        "path": "reference/cards/conformance/test-suite.aixcard.json"
+      },
+      {
+        "bytes": 2004,
+        "digest": "sha256:f029a256c59c90c9a3fb1650bf5e7ede11a18be3db846d6b85f4a8fb44604dd8",
+        "path": "reference/cards/conformance/validation.aixcard.json"
+      },
+      {
+        "bytes": 1763,
+        "digest": "sha256:9688632f02cf34f2fbb665870b62eb64ff02fd8571602915b67e6ed1a74aa50f",
+        "path": "reference/cards/examples/grid-controller.aixcard.json"
+      },
+      {
+        "bytes": 1672,
+        "digest": "sha256:08980a0c38c3076d39999976977167d02d64db3982055c8debf4cc0f89a01a89",
+        "path": "reference/cards/examples/hierarchical-reference.aixcard.json"
+      },
+      {
+        "bytes": 1487,
+        "digest": "sha256:6ccf8224ff62adee80a99f35b38b73ffa2eb5c34131dd4f4373bc1b51a7370c0",
+        "path": "reference/cards/examples/overview.aixcard.json"
+      },
+      {
+        "bytes": 1596,
+        "digest": "sha256:4b351a93516444834a29756ab22411b0cf804f0220c6dfb5e90e975364974abd",
+        "path": "reference/cards/examples/passive-divider.aixcard.json"
+      },
+      {
+        "bytes": 1782,
+        "digest": "sha256:ff8e88584dff8862c54856a85f2c4991335f6cda33827fe00a3056654471869c",
+        "path": "reference/cards/examples/symbol-expressiveness-corpus.aixcard.json"
+      },
+      {
+        "bytes": 1789,
+        "digest": "sha256:79fab4fdb07497e8c9a6bbced86ec27383adcaa0e9e19ffc34c449d96d6709da",
+        "path": "reference/cards/file-formats/aixem.aixcard.json"
+      },
+      {
+        "bytes": 1665,
+        "digest": "sha256:0c15a9c0b07ae03f1f492a3c68a4a87b39c02bb58364bc404544989d239267c0",
+        "path": "reference/cards/file-formats/aixlayout.aixcard.json"
+      },
+      {
+        "bytes": 1773,
+        "digest": "sha256:d866944296f46a6970c891dbd9a6edbeca8a5c965f039472951c135f31e38cb1",
+        "path": "reference/cards/file-formats/aixlib.aixcard.json"
+      },
+      {
+        "bytes": 1643,
+        "digest": "sha256:2b857c5365c35f671ceb6b2cadc53e682f9bd5c5e3f539e0ae7f62b7f7b5a961",
+        "path": "reference/cards/file-formats/aixproj.aixcard.json"
+      },
+      {
+        "bytes": 1609,
+        "digest": "sha256:5c55998829f52c251ded8ca910db6b4b14937df2a52aa7c425a8c63d5832e239",
+        "path": "reference/cards/file-formats/aixsym.aixcard.json"
+      },
+      {
+        "bytes": 1525,
+        "digest": "sha256:71e94afdb7a65dcac601a7ddb39e62d963fc2ed2dee437e4370764d0c0389f19",
+        "path": "reference/cards/file-formats/overview.aixcard.json"
+      },
+      {
+        "bytes": 1820,
+        "digest": "sha256:d15376638a67c7d31226bf49589fdc0b8e00e843b08c609e72c6059187bed199",
+        "path": "reference/cards/file-formats/style-profile.aixcard.json"
+      },
+      {
+        "bytes": 1707,
+        "digest": "sha256:8280a0046c0814bbff356ad336aff5a87159f5c19661ff5cc64e3f0f44086607",
+        "path": "reference/cards/getting-started/first-schematic.aixcard.json"
+      },
+      {
+        "bytes": 1545,
+        "digest": "sha256:e9f749cf9eccda03016c37489228d844b48d61c3f97eaacc3de647f98eeded36",
+        "path": "reference/cards/getting-started/introduction.aixcard.json"
+      },
+      {
+        "bytes": 1424,
+        "digest": "sha256:12bb4250bea40d14b3a19b90839eb4df047d5cebb3bb6b5e640efcf47f1ab0e1",
+        "path": "reference/cards/getting-started/overview.aixcard.json"
+      },
+      {
+        "bytes": 1652,
+        "digest": "sha256:23b91827d59984bb786beb7afe5e30a4b0a4d7aa69f5fee98d834fdfc3ca3713",
+        "path": "reference/cards/getting-started/quick-start.aixcard.json"
+      },
+      {
+        "bytes": 1816,
+        "digest": "sha256:b63516141444956e2d671d000e47c4e32321e3be9dd5a95ce93ea12682d0924d",
+        "path": "reference/cards/governance/compatibility-policy.aixcard.json"
+      },
+      {
+        "bytes": 1772,
+        "digest": "sha256:45e069f9f1207b479a686b4fad35f12a16baec7f03caa5c2a662999b39059dfd",
+        "path": "reference/cards/governance/deprecation.aixcard.json"
+      },
+      {
+        "bytes": 1762,
+        "digest": "sha256:2c0745dd32aeab6518c4f17721ae6e045126007260c908cf49d0ace3583dabf7",
+        "path": "reference/cards/governance/documentation-authoring-guide.aixcard.json"
+      },
+      {
+        "bytes": 1455,
+        "digest": "sha256:174099dee8ba76688b29abceadb8468537cd6f44aba1ba4c3cc1f5a4aea7f7ae",
+        "path": "reference/cards/governance/overview.aixcard.json"
+      },
+      {
+        "bytes": 1709,
+        "digest": "sha256:ce0be14f81993c641e92423e391d0601dcea0a2bceaba687083a14532212675b",
+        "path": "reference/cards/governance/release-process.aixcard.json"
+      },
+      {
+        "bytes": 1594,
+        "digest": "sha256:292b62765e7d7c17ff372db7472c03849439265ff35354910e7694a6e49580de",
+        "path": "reference/cards/governance/terminology.aixcard.json"
+      },
+      {
+        "bytes": 1970,
+        "digest": "sha256:41b5c6d7e8fd86324f8c75f20de28b6199368fa2cd6ee0bdce667bfc5ad3d04e",
+        "path": "reference/cards/governance/versioning.aixcard.json"
+      },
+      {
+        "bytes": 1654,
+        "digest": "sha256:4b5e36f7936a636980496d8e113179787804f654fbe63d943c3116eae70844ab",
+        "path": "reference/cards/index.aixcard.json"
+      },
+      {
+        "bytes": 1489,
+        "digest": "sha256:58f4e097ad8c7896cf913a0c9d7fd273a06b96fa5473092837d9e4cfaa7bbe31",
+        "path": "reference/cards/releases/0.4.aixcard.json"
+      },
+      {
+        "bytes": 1675,
+        "digest": "sha256:b1e4a92b77033ca169d24cb3142645a14a673f0111b006490acff125573004cd",
+        "path": "reference/cards/releases/0.5.1.aixcard.json"
+      },
+      {
+        "bytes": 1655,
+        "digest": "sha256:e5273cc1008af2169c3d5c9eb801a91c0cf1c0769ac07386fe42c92cf3a4dadb",
+        "path": "reference/cards/releases/0.5.2.aixcard.json"
+      },
+      {
+        "bytes": 1755,
+        "digest": "sha256:1c3f86313a96d47fbef5be09dffd9710f5d08e1cf60e3e68d57db97cc27f148d",
+        "path": "reference/cards/releases/0.5.3.aixcard.json"
+      },
+      {
+        "bytes": 1689,
+        "digest": "sha256:2ab7af922ee14d4c5c75c41a240ce804ac25386b04abb99b1def18de5e7c36b1",
+        "path": "reference/cards/releases/0.5.4.aixcard.json"
+      },
+      {
+        "bytes": 1779,
+        "digest": "sha256:a35dea9d8598dd3a3711be38eaa6aa51232c71b7560d2f6c113f4c42b1088102",
+        "path": "reference/cards/releases/0.5.5.aixcard.json"
+      },
+      {
+        "bytes": 1721,
+        "digest": "sha256:f7af427e36b060bf056b3c564db99857693f14142e9ff3da263ff91d874b59cc",
+        "path": "reference/cards/releases/0.5.6.aixcard.json"
+      },
+      {
+        "bytes": 1877,
+        "digest": "sha256:1600c2db8bed5fbdb5eda0568c59a7405c6b499e31ad8e08d13dd305ec95c33a",
+        "path": "reference/cards/releases/0.5.7.aixcard.json"
+      },
+      {
+        "bytes": 1932,
+        "digest": "sha256:a14bc780413a36f3cb21cb2528e6d9504583c3772c60de897882e11055706382",
+        "path": "reference/cards/releases/0.5.8.1.aixcard.json"
+      },
+      {
+        "bytes": 2034,
+        "digest": "sha256:3b2ab2e7676c09ed46d6444caced5ac48f5db0edf64ff278e16bf5785b4e8d58",
+        "path": "reference/cards/releases/0.5.8.aixcard.json"
+      },
+      {
+        "bytes": 2065,
+        "digest": "sha256:f461dcd0370512bcfa3cd9fc11865dc8a2d5f44c4bfaf324330c1cc0dc44d355",
+        "path": "reference/cards/releases/0.5.9.aixcard.json"
+      },
+      {
+        "bytes": 1636,
+        "digest": "sha256:1b29e0e09e58c6360e13f4068902ec2883cff9a2efbcc343da3983ed592446e7",
+        "path": "reference/cards/releases/0.5.aixcard.json"
+      },
+      {
+        "bytes": 1442,
+        "digest": "sha256:6272153582a6d28e28e7967adce8239454acedcee5b01cda06457480048cd79e",
+        "path": "reference/cards/releases/overview.aixcard.json"
+      },
+      {
+        "bytes": 1827,
+        "digest": "sha256:c627eacfd55d3717728e8f4a0d7b8c5f4c6a724ce79129d6aa0bf00fdedc018f",
+        "path": "reference/cards/routing/crossings-and-junctions.aixcard.json"
+      },
+      {
+        "bytes": 1894,
+        "digest": "sha256:528a056de3547bb513476fb3b8984379e40dff2bef4420120a4f47e78e760780",
+        "path": "reference/cards/routing/net-routing.aixcard.json"
+      },
+      {
+        "bytes": 1905,
+        "digest": "sha256:814dadf591b87dd67202766420ee992bb4c277b9c468dd0fcd6df04fdc1f7bb9",
+        "path": "reference/cards/routing/orthogonal-routing.aixcard.json"
+      },
+      {
+        "bytes": 1403,
+        "digest": "sha256:755b700c396edcb581063d699a469596f3b081b53cc6d7669d940f579a9bbacb",
+        "path": "reference/cards/routing/overview.aixcard.json"
+      },
+      {
+        "bytes": 1941,
+        "digest": "sha256:cb94fa5858dd90837cd7f81b6444f4977296347fbd926fc85ef59d85c2c092c9",
+        "path": "reference/cards/routing/route-constraints.aixcard.json"
+      },
+      {
+        "bytes": 1530,
+        "digest": "sha256:20a9e7ee5e937620cd69847a6d820286f8eba06d942debca5fbb58ab582cc0b4",
+        "path": "reference/cards/routing/router-behavior.aixcard.json"
+      },
+      {
+        "bytes": 1724,
+        "digest": "sha256:37ccd4ee283931660defad8d6b2d79c5c681466980d9c9c5f6ca12c7b980de90",
+        "path": "reference/cards/routing/routing-cookbook.aixcard.json"
+      },
+      {
+        "bytes": 1780,
+        "digest": "sha256:d4416ccf756f1e8755ff8868020e43f41baf88f7a57945a84b5cb98c055f6de1",
+        "path": "reference/cards/schematic/annotations.aixcard.json"
+      },
+      {
+        "bytes": 1887,
+        "digest": "sha256:331ddb7bf7639798235ca1b120ec0cb93f211c41604f89a80058d9e3021a30fb",
+        "path": "reference/cards/schematic/grid-system.aixcard.json"
+      },
+      {
+        "bytes": 2004,
+        "digest": "sha256:978acc7c0d9097f64ca281b338a70507c2a32f6f584bd6883cd448100563262d",
+        "path": "reference/cards/schematic/junctions.aixcard.json"
+      },
+      {
+        "bytes": 1511,
+        "digest": "sha256:b351f3ffcaba3ff3ef6e8397a6ae1f53fa5564b30fcc08210149afac559c9f5b",
+        "path": "reference/cards/schematic/overview.aixcard.json"
+      },
+      {
+        "bytes": 1757,
+        "digest": "sha256:6e84fc605b47b119a4dddaef8e317a1bbc24b047776901459cfb0c6021d0f98d",
+        "path": "reference/cards/schematic/placement.aixcard.json"
+      },
+      {
+        "bytes": 1799,
+        "digest": "sha256:0431970c804d64f5cb1f53c39e044787c87228092a5eb0ff56a5ab9113a3cb27",
+        "path": "reference/cards/schematic/schematic-authoring-cookbook.aixcard.json"
+      },
+      {
+        "bytes": 1580,
+        "digest": "sha256:44ba1a8d3c8772038c5ad792d53791dcfad1f7a373da45522f340b258e418dc2",
+        "path": "reference/cards/schematic/sheet-organization.aixcard.json"
+      },
+      {
+        "bytes": 2162,
+        "digest": "sha256:0fef6f3e64f3695c22d9e1e83ecc65a802eb2da7d5b3fe142a8158c07d43b7a4",
+        "path": "reference/cards/schematic/visual-language.aixcard.json"
+      },
+      {
+        "bytes": 2347,
+        "digest": "sha256:075582218329e400ae42f54e53aec8a5f2c7418853053c0c39a8ef9b550389bc",
+        "path": "reference/cards/specifications/agent/agent-task-contract.aixcard.json"
+      },
+      {
+        "bytes": 2516,
+        "digest": "sha256:17f8bd847bdd5756e6b1623189fbc640abfcabc49871ff0633dfe391eb3f227b",
+        "path": "reference/cards/specifications/agent/authoring-change-set-contract.aixcard.json"
+      },
+      {
+        "bytes": 2689,
+        "digest": "sha256:2cfcd7134190a8e24c35c5b6ddeebe44c67305425aa9634e0c7dd361e675146d",
+        "path": "reference/cards/specifications/agent/authoring-execution-contract.aixcard.json"
+      },
+      {
+        "bytes": 2306,
+        "digest": "sha256:b5ba67a51e9e4603db57707373fc907571c653b79c6ee1d249a26ca57489c28f",
+        "path": "reference/cards/specifications/agent/authoring-run-record.aixcard.json"
+      },
+      {
+        "bytes": 2772,
+        "digest": "sha256:a8594b033017ece06357b54be36b6ec3d972ae91018a9fed6e6ba949640d6e86",
+        "path": "reference/cards/specifications/agent/cold-start-stage-contract.aixcard.json"
+      },
+      {
+        "bytes": 2313,
+        "digest": "sha256:cfdd51e724e4a78d99e96c37890ca37a1c2dbef6f40e17d1100016d77d902ae8",
+        "path": "reference/cards/specifications/agent/diagnostic-contract.aixcard.json"
+      },
+      {
+        "bytes": 2835,
+        "digest": "sha256:3883b249f9674afa6e65d2b42a304a9b1aec0ae24e2c19c856ef0221c60b24cc",
+        "path": "reference/cards/specifications/agent/evaluation-invariant-contract.aixcard.json"
+      },
+      {
+        "bytes": 2772,
+        "digest": "sha256:d181dafccf78fec75061c1f6c0f7c079a6634b0136e442e41092c0d81fafa436",
+        "path": "reference/cards/specifications/agent/live-executor-protocol.aixcard.json"
+      },
+      {
+        "bytes": 2908,
+        "digest": "sha256:a38f55cd7ce462aceff54a91ff1874e5e8a94de6f7e02bcd652a3299ee76f0c1",
+        "path": "reference/cards/specifications/agent/live-run-evidence.aixcard.json"
+      },
+      {
+        "bytes": 2828,
+        "digest": "sha256:7221e2c44333e2c23ec0dbcc9836d4345ac117482f34fa5119e2487c6f6a677f",
+        "path": "reference/cards/specifications/agent/observation-event-contract.aixcard.json"
+      },
+      {
+        "bytes": 2337,
+        "digest": "sha256:51ef6a4733374e45dca6f06bc3816234aee02570e549b775f5fffa8739ea5d92",
+        "path": "reference/cards/specifications/agent/retrieval-profile.aixcard.json"
+      },
+      {
+        "bytes": 3170,
+        "digest": "sha256:a17b151fe4d4c72924933880cfcf6f06e39eb1078176e721ddef81a7c21d6000",
+        "path": "reference/cards/specifications/components/library-layout-contract.aixcard.json"
+      },
+      {
+        "bytes": 3237,
+        "digest": "sha256:3766ae54c0423bfb31e79d8ce9eb6d388a3c4853582653a95643c643b9e63f89",
+        "path": "reference/cards/specifications/components/pin-electrical-semantics-profile.aixcard.json"
+      },
+      {
+        "bytes": 2165,
+        "digest": "sha256:4b6b1671181c336233dd7f1eaa9eaa367fd22914578aa591fcac4b129c997e28",
+        "path": "reference/cards/specifications/core/authority-precedence.aixcard.json"
+      },
+      {
+        "bytes": 1984,
+        "digest": "sha256:23a1f923b4deabd6b85596490e9a0f44c780fc8554e9b01570579f71b3b4ed5f",
+        "path": "reference/cards/specifications/core/coordinate-system.aixcard.json"
+      },
+      {
+        "bytes": 2019,
+        "digest": "sha256:0d590bc510f923f592797fa3112c8b1db55fcbcb9d3193ffed789362ef8a0dcb",
+        "path": "reference/cards/specifications/core/document-model.aixcard.json"
+      },
+      {
+        "bytes": 2300,
+        "digest": "sha256:f00cffeaa4875b0bd6ec5a59359b6395bcc20058406299d282ae193607527546",
+        "path": "reference/cards/specifications/core/interface-port-contract.aixcard.json"
+      },
+      {
+        "bytes": 4978,
+        "digest": "sha256:3d08691f9585e14b5b9ace6e2eb89533f94036db965632727780806d55a06532",
+        "path": "reference/cards/specifications/documentation/document-governance-contract.aixcard.json"
+      },
+      {
+        "bytes": 2074,
+        "digest": "sha256:b3c84037af2a8abc41ab981424bea7517edf4be9a7a37f89ef1e96734298daec",
+        "path": "reference/cards/specifications/documentation/metadata-contract.aixcard.json"
+      },
+      {
+        "bytes": 2596,
+        "digest": "sha256:8c87ea5b59bfd4ab1f8d724431b88462b7f23ab0017bea289d941ffc627f9c7f",
+        "path": "reference/cards/specifications/documentation/release-integrity.aixcard.json"
+      },
+      {
+        "bytes": 2103,
+        "digest": "sha256:765b71f09b9e45c61f2b7e85bf520344c923212153b4d2b604c124a705f1723a",
+        "path": "reference/cards/specifications/layout/hierarchical-sheet-port-contract.aixcard.json"
+      },
+      {
+        "bytes": 2043,
+        "digest": "sha256:1458b4af792e4a0570f4d442291171f4c0be505b7cbc10c149a551ad37a80acc",
+        "path": "reference/cards/specifications/layout/layout-contract.aixcard.json"
+      },
+      {
+        "bytes": 1622,
+        "digest": "sha256:3faeafb68946681d746d6a08d656680171286cc8be77e91bda74e42050dd2bd9",
+        "path": "reference/cards/specifications/overview.aixcard.json"
+      },
+      {
+        "bytes": 2865,
+        "digest": "sha256:802a8d12a6bc23fd8aef1ddc0c0978412b09cfeb4b0fe0a17882b6c95ae3a71e",
+        "path": "reference/cards/specifications/project/project-composition-contract.aixcard.json"
+      },
+      {
+        "bytes": 2153,
+        "digest": "sha256:3dc41b9a5328b5a37866d33136425ad3c46d9a663a210b5ecb46c1ddbe0537f3",
+        "path": "reference/cards/specifications/project/project-lock-contract.aixcard.json"
+      },
+      {
+        "bytes": 3016,
+        "digest": "sha256:10ca4531bc1d9e8f38504adecf01b1ba0e8c54217d0c9ef7d7698a184898f166",
+        "path": "reference/cards/specifications/renderer/renderer-contract.aixcard.json"
+      },
+      {
+        "bytes": 1608,
+        "digest": "sha256:32547e5f03dbc04d0c52fc31304b215e90e7d9eb52420eb3c3e9c124215f2287",
+        "path": "reference/cards/specifications/schemas/overview.aixcard.json"
+      },
+      {
+        "bytes": 2417,
+        "digest": "sha256:bfca16d303cfbaf4a4ad4d3ea48b77e882c5ed1024169824801508ee92a2d930",
+        "path": "reference/cards/specifications/schematic/grid-profile.aixcard.json"
+      },
+      {
+        "bytes": 2040,
+        "digest": "sha256:be26c309664de84b861811d4f6fc24a4845a9912e63c661d73e2700bf30fa7b2",
+        "path": "reference/cards/specifications/schematic/visual-profile.aixcard.json"
+      },
+      {
+        "bytes": 2025,
+        "digest": "sha256:39f1ffc6f41d16f3b6065af7d02d5470c40200b862ee69d4efc3e2d5663a581f",
+        "path": "reference/cards/specifications/symbols/symbol-contract.aixcard.json"
+      },
+      {
+        "bytes": 3006,
+        "digest": "sha256:c09f0ba02a7640ffc929b7608f53188e97f6623b36e8f21c3f66dcdec3af87b7",
+        "path": "reference/cards/specifications/symbols/symbol-design-profile.aixcard.json"
+      },
+      {
+        "bytes": 1615,
+        "digest": "sha256:2837bc5ce7bc35375e6c5b4d8dff2a9953163cc267a7117ce7eb07fe74afb4e8",
+        "path": "reference/cards/specifications/viewer/overview.aixcard.json"
+      },
+      {
+        "bytes": 3488,
+        "digest": "sha256:f5379f3d6443c368934772fccd7477186b4eec869d1ceefc1bcb5fbcc2cdbba2",
+        "path": "reference/cards/specifications/viewer/reference-viewer-contract.aixcard.json"
+      },
+      {
+        "bytes": 1760,
+        "digest": "sha256:870fcc2152008d39c1cba619e558ad4bf07e1846cddec429726f1838b582f6f2",
+        "path": "reference/cards/specifications/viewer/review-workbench-contract.aixcard.json"
+      },
+      {
+        "bytes": 1772,
+        "digest": "sha256:5e33638d6547c3cb0beb1f654e0641dc4dd989b41bc1e466d92e4c84f4e0b52c",
+        "path": "reference/cards/specifications/viewer/viewer-accessibility-profile.aixcard.json"
+      },
+      {
+        "bytes": 2159,
+        "digest": "sha256:f949f5c3c26748d3e80ab730e17506703ca6bad5502790a603e71e0d5031389a",
+        "path": "reference/cards/specifications/viewer/viewer-security-and-embedding.aixcard.json"
+      },
+      {
+        "bytes": 2345,
+        "digest": "sha256:8e881622647444c1be8d3e66461f2c066d30fed1ec0eb9bfe2056107122fdaa4",
+        "path": "reference/cards/specifications/viewer/viewer-state-and-interaction.aixcard.json"
+      },
+      {
+        "bytes": 1681,
+        "digest": "sha256:14955ef01da2e5e641f7ce7097c09bd396e455b750df7d2ca63f0a1356cdff9a",
+        "path": "reference/cards/symbols/aixsym-field-reference.aixcard.json"
+      },
+      {
+        "bytes": 1540,
+        "digest": "sha256:1f9a1b10f33f63bd088a0d495337b293a3f4b274f1d88fa01e284b8dac586e22",
+        "path": "reference/cards/symbols/authoring-guide.aixcard.json"
+      },
+      {
+        "bytes": 2016,
+        "digest": "sha256:1621d2e0e7b8ff7143f5b5e07aef9d6a0482dc02559068dfcfada22300da12d9",
+        "path": "reference/cards/symbols/component-symbol-binding.aixcard.json"
+      },
+      {
+        "bytes": 1607,
+        "digest": "sha256:dadbfb28b0b73ea18063a34a0f9ffeccec1f17bff271d0c32951e5b76dbd9165",
+        "path": "reference/cards/symbols/design-rules.aixcard.json"
+      },
+      {
+        "bytes": 1770,
+        "digest": "sha256:cd8b2d127e6b2cfa3178e0676d7123f67e1859b28e8c140ffe1f7dd4c25dbb77",
+        "path": "reference/cards/symbols/field-layout.aixcard.json"
+      },
+      {
+        "bytes": 1444,
+        "digest": "sha256:4eed606a21a431dc1f43d6023d07a489dbc3f223564c6a797bf8964e2cccd995",
+        "path": "reference/cards/symbols/overview.aixcard.json"
+      },
+      {
+        "bytes": 1986,
+        "digest": "sha256:3cd1289cd97e5d8efb879ec2d0c48fee411410d778c66b6061efe0f7c9fd3e43",
+        "path": "reference/cards/symbols/pins-and-ports.aixcard.json"
+      },
+      {
+        "bytes": 1786,
+        "digest": "sha256:c5d8d6edfc4c36c62200b491f4ccaa8147ac5bc0f20b39bc7e3f089cf5c74276",
+        "path": "reference/cards/symbols/primitives.aixcard.json"
+      },
+      {
+        "bytes": 1858,
+        "digest": "sha256:547491dd594635a81f2aed0442bff44e5a3a88527e85b7d7b728c33a12a9558a",
+        "path": "reference/cards/symbols/symbol-anatomy.aixcard.json"
+      },
+      {
+        "bytes": 1719,
+        "digest": "sha256:839fadcddb042f4a675f172ef0044fc696400be903c48ddc848ff0f7947083bd",
+        "path": "reference/cards/symbols/symbol-authoring-cookbook.aixcard.json"
+      },
+      {
+        "bytes": 1920,
+        "digest": "sha256:ca57d7e3cd889960b33055229537dfa6285361814fc25f61e68677929d1708f8",
+        "path": "reference/cards/symbols/symbol-lint.aixcard.json"
+      },
+      {
+        "bytes": 1704,
+        "digest": "sha256:f4279b246dcf6d79a6f641440d7188723ab2e18a81105e4e9479897c6ada05ce",
+        "path": "reference/cards/symbols/variants.aixcard.json"
+      },
+      {
+        "bytes": 4213,
+        "digest": "sha256:9f316e8f299458a1f8078565fa6840aeb76b0427159a2e9d3e31daa670b11d25",
+        "path": "reference/domains/agent/index.aixdomain.json"
+      },
+      {
+        "bytes": 4203,
+        "digest": "sha256:a8360439f6b84cf64cf7f94c4624f7a88a2d2382e246c550442bfbd7cc2c5960",
+        "path": "reference/domains/architecture/index.aixdomain.json"
+      },
+      {
+        "bytes": 4786,
+        "digest": "sha256:26a93fecf2376b802b348286f66768d1397192fbf72be6a93ea363cf3d3d7dbf",
+        "path": "reference/domains/authoring/index.aixdomain.json"
+      },
+      {
+        "bytes": 3115,
+        "digest": "sha256:8e73ad3cdc24fbe71e95ce172879cfd14f55867affbdeefadff83eee24bd64c6",
+        "path": "reference/domains/concepts/index.aixdomain.json"
+      },
+      {
+        "bytes": 4823,
+        "digest": "sha256:f6b8d33f706e9da2b46f6b2e86b0a857b3473dbc515644adb9874ab656c3fad8",
+        "path": "reference/domains/conformance/index.aixdomain.json"
+      },
+      {
+        "bytes": 690,
+        "digest": "sha256:9fde410722f9a4efea28baaeff385b338007d808a899454af708292b9e0669e0",
+        "path": "reference/domains/documentation/index.aixdomain.json"
+      },
+      {
+        "bytes": 2049,
+        "digest": "sha256:30bd248d84a8eb6846433d915c5d0cdc844053febe09b850c6e31a5c296634f9",
+        "path": "reference/domains/examples/index.aixdomain.json"
+      },
+      {
+        "bytes": 2624,
+        "digest": "sha256:54ab8ac12f5199cf9d8f7819980b11d09b60e93eb7e60f19bb0f21ecac10105b",
+        "path": "reference/domains/file-formats/index.aixdomain.json"
+      },
+      {
+        "bytes": 1649,
+        "digest": "sha256:05a0f4c110ad5e73157f6cbb428909defcb36a0cd08b929ae8350b4c92ffdf10",
+        "path": "reference/domains/getting-started/index.aixdomain.json"
+      },
+      {
+        "bytes": 2625,
+        "digest": "sha256:4502fb8ac9619f8a4c3b227dedf7a75c89a155eed52af83259ed8c18c39711d2",
+        "path": "reference/domains/governance/index.aixdomain.json"
+      },
+      {
+        "bytes": 5101,
+        "digest": "sha256:36853702f8c0bc78e8d87f69e43aa7167e36f11888030cb5cf655f8532bb8489",
+        "path": "reference/domains/releases/index.aixdomain.json"
+      },
+      {
+        "bytes": 2415,
+        "digest": "sha256:d935308cccde0f000130b645671bdcba2facf410ac341b37dff4287ed2df4f08",
+        "path": "reference/domains/routing/index.aixdomain.json"
+      },
+      {
+        "bytes": 2802,
+        "digest": "sha256:44e471a06fa25fdedc26d31e80b1fff3b521ddc4ec39c5969780ccc56c54f4e4",
+        "path": "reference/domains/schematic/index.aixdomain.json"
+      },
+      {
+        "bytes": 13843,
+        "digest": "sha256:1d9a62c53e37cd3cfe24abdaebe613abe467b2e010c8a3e95bd46d4e69fe3e0a",
+        "path": "reference/domains/specifications/index.aixdomain.json"
+      },
+      {
+        "bytes": 4041,
+        "digest": "sha256:945525201fb32ae107b54ac6f04c1b15b2b46eacc245cd5b7d950cf6f6423557",
+        "path": "reference/domains/symbols/index.aixdomain.json"
+      },
+      {
+        "bytes": 9917,
+        "digest": "sha256:c478eb63b4d289fa712d3d3f258f8c2cdb63397b94595fbce1a95251ba246abc",
+        "path": "reference/index.aixref.json"
+      },
+      {
+        "bytes": 27731,
+        "digest": "sha256:b7b9fd68626874bb711c19c8149a708fd99efca7d7cc08476f3a89e3b83584d3",
+        "path": "reference/indexes/artifact-map.aixmap.json"
+      },
+      {
+        "bytes": 2606,
+        "digest": "sha256:ac15cc4350263c46727d2c7d768080a0e7cc077c128e124747dee1643424b9cf",
+        "path": "reference/indexes/capabilities.aixcap.json"
+      },
+      {
+        "bytes": 116638,
+        "digest": "sha256:329fa6d68c7c3bcf328ea4dee421302e17324b0eb8a414aed68e42def59e5f7a",
+        "path": "reference/indexes/dependency-graph.json"
+      },
+      {
+        "bytes": 4121968,
+        "digest": "sha256:c26b59dc75006de65e6bb5a8b7c426826985ba6c7460dc022adfb3007fb04431",
+        "path": "reference/indexes/inverted-index.json"
+      },
+      {
+        "bytes": 3602,
+        "digest": "sha256:6cc2b302047968d381fae03ac4169bdb7f5477b1ba1bae91c37fe428afcf4dc9",
+        "path": "reference/routes/author-component-circuit.aixroute.json"
+      },
+      {
+        "bytes": 3053,
+        "digest": "sha256:8bead6b253cd7ca9093ef8a653e842044855fafd304e2843771e98f8972519b4",
+        "path": "reference/routes/build-documentation.aixroute.json"
+      },
+      {
+        "bytes": 3364,
+        "digest": "sha256:e74f28185a1d239dc6ae5316841a3b5d2178091c9fee3ec9d882a78d5cdc0f5d",
+        "path": "reference/routes/change-architecture.aixroute.json"
+      },
+      {
+        "bytes": 3957,
+        "digest": "sha256:e7b93906f06abb3e83cf5f5017009c0a985784b9c439abee79c8e8abeebb8cb7",
+        "path": "reference/routes/compose-project.aixroute.json"
+      },
+      {
+        "bytes": 4231,
+        "digest": "sha256:a22f582a35f306df81af32301982d62f14453cbc81f5656a7398d32f4762b228",
+        "path": "reference/routes/create-schematic.aixroute.json"
+      },
+      {
+        "bytes": 4973,
+        "digest": "sha256:31acda954eda41a95f3ebf0886354d22998d30e1baab530b4eab65ddff3984a7",
+        "path": "reference/routes/create-symbol.aixroute.json"
+      },
+      {
+        "bytes": 2547,
+        "digest": "sha256:4706ad53043b964e9f0bee448c0b48da179083dd250cb905eadcdc67b18db91c",
+        "path": "reference/routes/inspect-artifact.aixroute.json"
+      },
+      {
+        "bytes": 3923,
+        "digest": "sha256:deebd0eb9530c691a110a52f599632b96b22dc31b95284b670c48e0600a41458",
+        "path": "reference/routes/inspect-viewer.aixroute.json"
+      },
+      {
+        "bytes": 2653,
+        "digest": "sha256:e9f76730cbca448587af9a525529a58cd3457fa32119a0fe8de74bfdf4cf62e4",
+        "path": "reference/routes/migrate-baseline.aixroute.json"
+      },
+      {
+        "bytes": 2729,
+        "digest": "sha256:82c6a6eb60d75ae4304e3e50f11147c586ea30f0eeba80837e3449410f3ebc01",
+        "path": "reference/routes/publish-release.aixroute.json"
+      },
+      {
+        "bytes": 4663,
+        "digest": "sha256:c5b5e32262cfb571ce1f5c3f3b9df27ce77c215427238ca2b8795ec48334b2ea",
+        "path": "reference/routes/render-review.aixroute.json"
+      },
+      {
+        "bytes": 3928,
+        "digest": "sha256:1ac26cca2f27a1b27c1d0eca7bfcb33314db7b6ab97d26555bbd05ad03fe5b25",
+        "path": "reference/routes/route-nets.aixroute.json"
+      },
+      {
+        "bytes": 3940,
+        "digest": "sha256:468d36381d0137e0e88da3a47a26ad37237a6f3bc7ee2e29d7d0a9501ecaf67c",
+        "path": "reference/routes/route-project-nets.aixroute.json"
+      },
+      {
+        "bytes": 4531,
+        "digest": "sha256:767de033c3ca36b77866bb476a85b1ae4a22c3ac01693e60999b0bdc3918718b",
+        "path": "reference/routes/validate-live-agent-authoring.aixroute.json"
+      },
+      {
+        "bytes": 4547,
+        "digest": "sha256:e7feb6286cf0c0521ae590e9ed2a29b9f74635052e420736546b025a8af51941",
+        "path": "reference/routes/validate-project.aixroute.json"
+      },
+      {
+        "bytes": 4761,
+        "digest": "sha256:22f5654cd80bf489ae66909bbb72ef3f09cfedbca8f82420af4b7508ab870afc",
+        "path": "reference/routes/validate-symbol-expressiveness.aixroute.json"
+      }
+    ],
+    "generatedAt": "2026-08-12T00:00:00Z",
+    "release": "AIXEM-SRP-0.5.9-2026-08-12"
+  },
+  "schema": "https://schemas.aixem.org/reference/aixmanifest/1"
+}

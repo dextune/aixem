@@ -1,0 +1,55 @@
+aixem 1.0
+model grid_controller kind=design profile=circuit.schematic@1 title="Grid Controller and Sensor Interface"
+units length=mm angle=deg
+use demo = "file:libraries/grid-electronics.aixlib.json" digest=sha256:873b9133b8001b630f816642ce50bf5f4a00f84cbb175cd2669787729e08f025
+feature component.graphics@1 required=true
+feature explicit.layout@1 required=true
+connector power_in refdes=J1 type=demo.electronics:terminal-2 value="24 V INPUT"
+component fuse refdes=F1 type=demo.electronics:fuse value="500 mA"
+component tvs refdes=D1 type=demo.electronics:tvs-diode value="SMBJ33A"
+component regulator refdes=U1 type=demo.electronics:buck-regulator value="24 V → 3.3 V"
+component bulk_cap refdes=C1 type=demo.electronics:capacitor value="47 uF"
+component logic_cap refdes=C2 type=demo.electronics:capacitor value="1 uF"
+connector sensor refdes=J2 type=demo.electronics:sensor-connector-3 value="3-wire sensor"
+component divider_top refdes=R1 type=demo.electronics:resistor value="47 kOhm"
+component divider_bottom refdes=R2 type=demo.electronics:resistor value="10 kOhm"
+component afe refdes=U2 type=demo.electronics:analog-front-end value="AFE / LPF"
+component controller refdes=U3 type=demo.electronics:controller-24 value="AIXEM-MCU24"
+connector debug refdes=J3 type=demo.electronics:debug-header-10 value="SWD 2x5"
+connector field_io refdes=J4 type=demo.electronics:io-header-8 value="FIELD I/O"
+component led_r1 refdes=R3 type=demo.electronics:resistor value="1 kOhm"
+component led1 refdes=LED1 type=demo.electronics:led value="RUN"
+component led_r2 refdes=R4 type=demo.electronics:resistor value="1 kOhm"
+component led2 refdes=LED2 type=demo.electronics:led value="FAULT"
+net vin_24 = power_in.1 fuse.1
+net vin_fused = fuse.2 tvs.K regulator.VIN sensor.1
+net gnd = power_in.2 tvs.A regulator.GND bulk_cap.2 logic_cap.2 sensor.3 divider_bottom.2 afe.GND controller.GNDA controller.GNDD debug.3 debug.5 debug.10 field_io.8 led1.K led2.K
+net rail_3v3 = regulator.VOUT bulk_cap.1 logic_cap.1 afe.3V3 controller.3V3A controller.3V3D debug.1 field_io.7
+net sensor_signal = sensor.2 divider_top.1 afe.VINP
+net divider_node = divider_top.2 divider_bottom.1 afe.VINN
+net afe_output = afe.VOUT controller.ADC0
+net vref = afe.VREF controller.ADC1
+net swdio = controller.SWDIO debug.2
+net swclk = controller.SWCLK debug.4
+net swo = controller.PA2 debug.6
+net reset_n = controller.NRST debug.9
+net out1 = controller.PB0 field_io.1
+net out2 = controller.PB1 field_io.2
+net in1 = controller.PA0 field_io.5
+net in2 = controller.PA1 field_io.6
+net led1_drive = controller.PB2 led_r1.1
+net led1_anode = led_r1.2 led1.A
+net led2_drive = controller.PB3 led_r2.1
+net led2_anode = led_r2.2 led2.A
+noconn controller.PA3
+noconn controller.BOOT0
+noconn controller.XTAL1
+noconn controller.XTAL2
+noconn controller.UART_TX
+noconn controller.UART_RX
+noconn controller.USB_DP
+noconn controller.USB_DM
+noconn debug.7
+noconn debug.8
+noconn field_io.3
+noconn field_io.4

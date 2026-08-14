@@ -1,0 +1,1148 @@
+{
+  "capabilities": {
+    "composite": true,
+    "diagnostics": true,
+    "hierarchy": true,
+    "interfacePorts": true,
+    "offline": true,
+    "overview": true,
+    "projectNets": true,
+    "qualifiedSearch": true,
+    "readOnly": true,
+    "sheet": true,
+    "sheetScopedLayers": true,
+    "viewport": true
+  },
+  "diagnostics": [
+    {
+      "code": "VIEWER-READONLY-001",
+      "message": "Reference Viewer runtime state is derived and read-only.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-QID-001",
+      "message": "14 qualified objects indexed without ambiguity.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-MODES-001",
+      "message": "Sheet, Overview, and Composite modes are available from resolved project evidence.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-ASSET-001",
+      "message": "The self-contained Viewer requires no remote presentation assets.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "PROJECT-DIAGNOSTIC",
+      "message": "Mixed interface roles are diagnostic-only in P0.",
+      "severity": "warning",
+      "status": "PASS"
+    }
+  ],
+  "domContract": "1",
+  "formatVersion": "1.0",
+  "hierarchy": [
+    {
+      "children": [],
+      "depth": 0,
+      "id": "left",
+      "order": 10,
+      "parent": null,
+      "qid": "sheet:left",
+      "title": "Left"
+    },
+    {
+      "children": [],
+      "depth": 0,
+      "id": "right",
+      "order": 20,
+      "parent": null,
+      "qid": "sheet:right",
+      "title": "Right"
+    }
+  ],
+  "initialState": {
+    "activeNavigatorCategory": "sheet",
+    "activeSheet": "left",
+    "mode": "sheet",
+    "searchQuery": "",
+    "selection": null,
+    "visibleLayersBySheet": {
+      "left": {
+        "annotation": true,
+        "connections": true,
+        "symbols": true
+      },
+      "right": {
+        "annotation": true,
+        "connections": true,
+        "symbols": true
+      }
+    }
+  },
+  "objects": {
+    "entity:left:U1": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "nativeId": "U1",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:left:U1"
+        },
+        {
+          "label": "Sheet",
+          "value": "left"
+        },
+        {
+          "label": "Entity ID",
+          "value": "U1"
+        },
+        {
+          "label": "Reference",
+          "value": "U1"
+        },
+        {
+          "label": "Value",
+          "value": "AXC12"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"U1\",\"layer\":\"symbols\",\"x\":80,\"y\":50}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[60.0,42.5],\"10\":[85.0,30.0],\"11\":[75.0,70.0],\"12\":[85.0,70.0],\"2\":[60.0,47.5],\"3\":[60.0,52.5],\"4\":[60.0,57.5],\"5\":[100.0,42.5],\"6\":[100.0,47.5],\"7\":[100.0,52.5],\"8\":[100.0,57.5],\"9\":[75.0,30.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:2fe409df19cfd0257cdc4802e8be6dd84d4d0b840938abb23c22c7c941a1f3ae"
+        }
+      ],
+      "qid": "entity:left:U1",
+      "relatedQids": [],
+      "representations": [
+        "sheet:left",
+        "composite"
+      ],
+      "searchText": "entity:left:u1 u1 · axc12 u1 left u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "left"
+    },
+    "entity:right:U1": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "nativeId": "U1",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:right:U1"
+        },
+        {
+          "label": "Sheet",
+          "value": "right"
+        },
+        {
+          "label": "Entity ID",
+          "value": "U1"
+        },
+        {
+          "label": "Reference",
+          "value": "U1"
+        },
+        {
+          "label": "Value",
+          "value": "AXC12"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"U1\",\"layer\":\"symbols\",\"x\":80,\"y\":50}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[60.0,42.5],\"10\":[85.0,30.0],\"11\":[75.0,70.0],\"12\":[85.0,70.0],\"2\":[60.0,47.5],\"3\":[60.0,52.5],\"4\":[60.0,57.5],\"5\":[100.0,42.5],\"6\":[100.0,47.5],\"7\":[100.0,52.5],\"8\":[100.0,57.5],\"9\":[75.0,30.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:2fe409df19cfd0257cdc4802e8be6dd84d4d0b840938abb23c22c7c941a1f3ae"
+        }
+      ],
+      "qid": "entity:right:U1",
+      "relatedQids": [],
+      "representations": [
+        "sheet:right",
+        "composite"
+      ],
+      "searchText": "entity:right:u1 u1 · axc12 u1 right u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "right"
+    },
+    "interface:left:OUT": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "left / @OUT",
+      "nativeId": "OUT",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:left:OUT"
+        },
+        {
+          "label": "Sheet",
+          "value": "left"
+        },
+        {
+          "label": "Port ID",
+          "value": "OUT"
+        },
+        {
+          "label": "Direction",
+          "value": "output"
+        },
+        {
+          "label": "Role",
+          "value": "signal"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:left:out"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:signal_a"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[260.0,72.0]"
+        }
+      ],
+      "qid": "interface:left:OUT",
+      "relatedQids": [
+        "local-net:left:out",
+        "project-net:signal_a"
+      ],
+      "representations": [
+        "sheet:left",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:left:out left / @out out left output signal out project-net:signal_a",
+      "sheet": "left"
+    },
+    "interface:left:STATUS": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "left / @STATUS",
+      "nativeId": "STATUS",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:left:STATUS"
+        },
+        {
+          "label": "Sheet",
+          "value": "left"
+        },
+        {
+          "label": "Port ID",
+          "value": "STATUS"
+        },
+        {
+          "label": "Direction",
+          "value": "output"
+        },
+        {
+          "label": "Role",
+          "value": "signal"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:left:status"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:signal_b"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[260.0,116.0]"
+        }
+      ],
+      "qid": "interface:left:STATUS",
+      "relatedQids": [
+        "local-net:left:status",
+        "project-net:signal_b"
+      ],
+      "representations": [
+        "sheet:left",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:left:status left / @status status left output signal status project-net:signal_b",
+      "sheet": "left"
+    },
+    "interface:right:CLK": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "right / @CLK",
+      "nativeId": "CLK",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:right:CLK"
+        },
+        {
+          "label": "Sheet",
+          "value": "right"
+        },
+        {
+          "label": "Port ID",
+          "value": "CLK"
+        },
+        {
+          "label": "Direction",
+          "value": "input"
+        },
+        {
+          "label": "Role",
+          "value": "clock"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:right:clk"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:signal_a"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[80.0,252.0]"
+        }
+      ],
+      "qid": "interface:right:CLK",
+      "relatedQids": [
+        "local-net:right:clk",
+        "project-net:signal_a"
+      ],
+      "representations": [
+        "sheet:right",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:right:clk right / @clk clk right input clock clk project-net:signal_a",
+      "sheet": "right"
+    },
+    "interface:right:IN": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "right / @IN",
+      "nativeId": "IN",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:right:IN"
+        },
+        {
+          "label": "Sheet",
+          "value": "right"
+        },
+        {
+          "label": "Port ID",
+          "value": "IN"
+        },
+        {
+          "label": "Direction",
+          "value": "input"
+        },
+        {
+          "label": "Role",
+          "value": "signal"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:right:in"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:signal_b"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[80.0,296.0]"
+        }
+      ],
+      "qid": "interface:right:IN",
+      "relatedQids": [
+        "local-net:right:in",
+        "project-net:signal_b"
+      ],
+      "representations": [
+        "sheet:right",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:right:in right / @in in right input signal in project-net:signal_b",
+      "sheet": "right"
+    },
+    "local-net:left:out": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "left / out",
+      "nativeId": "out",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:left:out"
+        },
+        {
+          "label": "Sheet",
+          "value": "left"
+        },
+        {
+          "label": "Local net ID",
+          "value": "out"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.5\",\"@OUT\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:signal_a"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:left:out",
+      "relatedQids": [],
+      "representations": [
+        "sheet:left",
+        "composite"
+      ],
+      "searchText": "local-net:left:out left / out out left [\"u1.5\",\"@out\"] project-net:signal_a",
+      "sheet": "left"
+    },
+    "local-net:left:status": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "left / status",
+      "nativeId": "status",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:left:status"
+        },
+        {
+          "label": "Sheet",
+          "value": "left"
+        },
+        {
+          "label": "Local net ID",
+          "value": "status"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.7\",\"@STATUS\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:signal_b"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:left:status",
+      "relatedQids": [],
+      "representations": [
+        "sheet:left",
+        "composite"
+      ],
+      "searchText": "local-net:left:status left / status status left [\"u1.7\",\"@status\"] project-net:signal_b",
+      "sheet": "left"
+    },
+    "local-net:right:clk": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "right / clk",
+      "nativeId": "clk",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:right:clk"
+        },
+        {
+          "label": "Sheet",
+          "value": "right"
+        },
+        {
+          "label": "Local net ID",
+          "value": "clk"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.3\",\"@CLK\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:signal_a"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:right:clk",
+      "relatedQids": [],
+      "representations": [
+        "sheet:right",
+        "composite"
+      ],
+      "searchText": "local-net:right:clk right / clk clk right [\"u1.3\",\"@clk\"] project-net:signal_a",
+      "sheet": "right"
+    },
+    "local-net:right:in": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "right / in",
+      "nativeId": "in",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:right:in"
+        },
+        {
+          "label": "Sheet",
+          "value": "right"
+        },
+        {
+          "label": "Local net ID",
+          "value": "in"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.1\",\"@IN\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:signal_b"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:right:in",
+      "relatedQids": [],
+      "representations": [
+        "sheet:right",
+        "composite"
+      ],
+      "searchText": "local-net:right:in right / in in right [\"u1.1\",\"@in\"] project-net:signal_b",
+      "sheet": "right"
+    },
+    "project-net:signal_a": {
+      "category": "Project Nets",
+      "kind": "project-net",
+      "label": "signal_a",
+      "nativeId": "signal_a",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "project-net:signal_a"
+        },
+        {
+          "label": "Project-net ID",
+          "value": "signal_a"
+        },
+        {
+          "label": "Participating sheets",
+          "value": "[\"left\",\"right\"]"
+        },
+        {
+          "label": "Interface members",
+          "value": "[\"interface:left:OUT\",\"interface:right:CLK\"]"
+        },
+        {
+          "label": "Backing local nets",
+          "value": "[\"local-net:left:out\",\"local-net:right:clk\"]"
+        },
+        {
+          "label": "Transitive endpoint count",
+          "value": "4"
+        },
+        {
+          "label": "Transitive endpoints",
+          "value": "[\"entity:left:U1.5\",\"entity:right:U1.3\",\"interface:left:OUT\",\"interface:right:CLK\"]"
+        },
+        {
+          "label": "Crosses hierarchy boundary",
+          "value": "true"
+        }
+      ],
+      "qid": "project-net:signal_a",
+      "relatedQids": [
+        "interface:left:OUT",
+        "interface:right:CLK"
+      ],
+      "representations": [
+        "overview",
+        "composite"
+      ],
+      "searchText": "project-net:signal_a signal_a signal_a  [\"left\",\"right\"] [\"interface:left:out\",\"interface:right:clk\"] [\"local-net:left:out\",\"local-net:right:clk\"]",
+      "sheet": null
+    },
+    "project-net:signal_b": {
+      "category": "Project Nets",
+      "kind": "project-net",
+      "label": "signal_b",
+      "nativeId": "signal_b",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "project-net:signal_b"
+        },
+        {
+          "label": "Project-net ID",
+          "value": "signal_b"
+        },
+        {
+          "label": "Participating sheets",
+          "value": "[\"left\",\"right\"]"
+        },
+        {
+          "label": "Interface members",
+          "value": "[\"interface:left:STATUS\",\"interface:right:IN\"]"
+        },
+        {
+          "label": "Backing local nets",
+          "value": "[\"local-net:left:status\",\"local-net:right:in\"]"
+        },
+        {
+          "label": "Transitive endpoint count",
+          "value": "4"
+        },
+        {
+          "label": "Transitive endpoints",
+          "value": "[\"entity:left:U1.7\",\"entity:right:U1.1\",\"interface:left:STATUS\",\"interface:right:IN\"]"
+        },
+        {
+          "label": "Crosses hierarchy boundary",
+          "value": "true"
+        }
+      ],
+      "qid": "project-net:signal_b",
+      "relatedQids": [
+        "interface:left:STATUS",
+        "interface:right:IN"
+      ],
+      "representations": [
+        "overview",
+        "composite"
+      ],
+      "searchText": "project-net:signal_b signal_b signal_b  [\"left\",\"right\"] [\"interface:left:status\",\"interface:right:in\"] [\"local-net:left:status\",\"local-net:right:in\"]",
+      "sheet": null
+    },
+    "sheet:left": {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Left",
+      "nativeId": "left",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "sheet:left"
+        },
+        {
+          "label": "Sheet",
+          "value": "left"
+        },
+        {
+          "label": "Title",
+          "value": "Left"
+        },
+        {
+          "label": "Parent",
+          "value": "Root"
+        },
+        {
+          "label": "Hierarchy depth",
+          "value": "0"
+        },
+        {
+          "label": "Width",
+          "value": "160"
+        },
+        {
+          "label": "Height",
+          "value": "100"
+        },
+        {
+          "label": "Unit",
+          "value": "mm"
+        }
+      ],
+      "qid": "sheet:left",
+      "relatedQids": [],
+      "representations": [
+        "sheet:left",
+        "overview",
+        "composite"
+      ],
+      "searchText": "sheet:left left left left []",
+      "sheet": "left"
+    },
+    "sheet:right": {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Right",
+      "nativeId": "right",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "sheet:right"
+        },
+        {
+          "label": "Sheet",
+          "value": "right"
+        },
+        {
+          "label": "Title",
+          "value": "Right"
+        },
+        {
+          "label": "Parent",
+          "value": "Root"
+        },
+        {
+          "label": "Hierarchy depth",
+          "value": "0"
+        },
+        {
+          "label": "Width",
+          "value": "160"
+        },
+        {
+          "label": "Height",
+          "value": "100"
+        },
+        {
+          "label": "Unit",
+          "value": "mm"
+        }
+      ],
+      "qid": "sheet:right",
+      "relatedQids": [],
+      "representations": [
+        "sheet:right",
+        "overview",
+        "composite"
+      ],
+      "searchText": "sheet:right right right right []",
+      "sheet": "right"
+    }
+  },
+  "project": {
+    "id": "hierarchical:h014",
+    "multiSheet": true,
+    "profile": "aixem.schematic.multisheet@1",
+    "schema": "https://schemas.aixem.org/component-graphics/aixproj/2",
+    "title": "Cross sheet route crossings"
+  },
+  "provenance": {
+    "authority": {
+      "connectivityFromGeometry": false,
+      "layersAreSheets": false,
+      "localPresentation": "aixlayout/2",
+      "localSemantics": ".aixem",
+      "projectComposition": "aixproj/2",
+      "viewerState": "derived-non-authoritative"
+    },
+    "generatedAt": "2026-08-10T12:00:00Z",
+    "hashes": {
+      "inputs": [
+        {
+          "layoutDigest": "sha256:472a1e9e036b618c5f9206bdb7210c270abda0be04cbecabe8043af0fcde684f",
+          "layoutPath": "layouts/left.aixlayout.json",
+          "resolvedSceneDigest": "sha256:e1424d780763dec248c6de6708c52ec0070d3d1302a67eebde091958b7ad3d4c",
+          "sheet": "left",
+          "sourceDigest": "sha256:802ae284c59d88dc5cbafbfa56d1eee5105b8b4cb4b538758a7b030d3fd75fbf",
+          "sourcePath": "circuits/left.aixem",
+          "svgDigest": "sha256:4ddd6a0ac5e5529a8f6de37f0aef4e246b2ab05d00d593017d9aa9524eb39ece"
+        },
+        {
+          "layoutDigest": "sha256:76044fe1b20ebb1116133c4bd30f6f999f55181368f5008e82ec81b524a997b9",
+          "layoutPath": "layouts/right.aixlayout.json",
+          "resolvedSceneDigest": "sha256:01a2df22ad51bb94019888dce743e8898c16d9b2d42c616ebd6c441e51e5271b",
+          "sheet": "right",
+          "sourceDigest": "sha256:669d09cc8d95fe78d915f5bb712170a38700de19bcd9d39461fc52d713de5913",
+          "sourcePath": "circuits/right.aixem",
+          "svgDigest": "sha256:f6e392da329cc67f85a5e61a89353de9caffb5148ad80381e26ac652e3981d8e"
+        }
+      ],
+      "manifest": "sha256:c54807785113313afdfc746b918faef7f8e06193993a52f4302704b21719b854",
+      "styleProfile": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393"
+    },
+    "renderer": {
+      "id": "aixem-hierarchical-project-reference-renderer",
+      "version": "0.5.3"
+    },
+    "resolvedProjectSceneSchema": "https://schemas.aixem.org/component-graphics/resolved-project-scene/1"
+  },
+  "release": "AIXEM-SRP-0.5.5-2026-08-11",
+  "schema": "https://schemas.aixem.org/viewer/viewer-model/1",
+  "searchIndex": [
+    {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Left",
+      "qid": "sheet:left",
+      "searchText": "sheet:left left left left []",
+      "sheet": "left"
+    },
+    {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Right",
+      "qid": "sheet:right",
+      "searchText": "sheet:right right right right []",
+      "sheet": "right"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "qid": "entity:left:U1",
+      "searchText": "entity:left:u1 u1 · axc12 u1 left u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "left"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "qid": "entity:right:U1",
+      "searchText": "entity:right:u1 u1 · axc12 u1 right u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "right"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "left / out",
+      "qid": "local-net:left:out",
+      "searchText": "local-net:left:out left / out out left [\"u1.5\",\"@out\"] project-net:signal_a",
+      "sheet": "left"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "left / status",
+      "qid": "local-net:left:status",
+      "searchText": "local-net:left:status left / status status left [\"u1.7\",\"@status\"] project-net:signal_b",
+      "sheet": "left"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "right / clk",
+      "qid": "local-net:right:clk",
+      "searchText": "local-net:right:clk right / clk clk right [\"u1.3\",\"@clk\"] project-net:signal_a",
+      "sheet": "right"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "right / in",
+      "qid": "local-net:right:in",
+      "searchText": "local-net:right:in right / in in right [\"u1.1\",\"@in\"] project-net:signal_b",
+      "sheet": "right"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "left / @OUT",
+      "qid": "interface:left:OUT",
+      "searchText": "interface:left:out left / @out out left output signal out project-net:signal_a",
+      "sheet": "left"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "left / @STATUS",
+      "qid": "interface:left:STATUS",
+      "searchText": "interface:left:status left / @status status left output signal status project-net:signal_b",
+      "sheet": "left"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "right / @CLK",
+      "qid": "interface:right:CLK",
+      "searchText": "interface:right:clk right / @clk clk right input clock clk project-net:signal_a",
+      "sheet": "right"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "right / @IN",
+      "qid": "interface:right:IN",
+      "searchText": "interface:right:in right / @in in right input signal in project-net:signal_b",
+      "sheet": "right"
+    },
+    {
+      "category": "Project Nets",
+      "kind": "project-net",
+      "label": "signal_a",
+      "qid": "project-net:signal_a",
+      "searchText": "project-net:signal_a signal_a signal_a  [\"left\",\"right\"] [\"interface:left:out\",\"interface:right:clk\"] [\"local-net:left:out\",\"local-net:right:clk\"]",
+      "sheet": null
+    },
+    {
+      "category": "Project Nets",
+      "kind": "project-net",
+      "label": "signal_b",
+      "qid": "project-net:signal_b",
+      "searchText": "project-net:signal_b signal_b signal_b  [\"left\",\"right\"] [\"interface:left:status\",\"interface:right:in\"] [\"local-net:left:status\",\"local-net:right:in\"]",
+      "sheet": null
+    }
+  ],
+  "sheets": [
+    {
+      "height": 100.0,
+      "id": "left",
+      "layers": [
+        {
+          "defaultVisible": true,
+          "id": "connections",
+          "locked": false,
+          "order": 10,
+          "printable": true,
+          "purpose": "semantic net routes and sheet ports",
+          "qualifiedId": "layer:left:connections",
+          "sheet": "left"
+        },
+        {
+          "defaultVisible": true,
+          "id": "symbols",
+          "locked": false,
+          "order": 20,
+          "printable": true,
+          "purpose": "component symbols",
+          "qualifiedId": "layer:left:symbols",
+          "sheet": "left"
+        },
+        {
+          "defaultVisible": true,
+          "id": "annotation",
+          "locked": false,
+          "order": 30,
+          "printable": true,
+          "purpose": "notes",
+          "qualifiedId": "layer:left:annotation",
+          "sheet": "left"
+        }
+      ],
+      "order": 10,
+      "parent": null,
+      "qid": "sheet:left",
+      "title": "Left",
+      "unit": "mm",
+      "width": 160.0
+    },
+    {
+      "height": 100.0,
+      "id": "right",
+      "layers": [
+        {
+          "defaultVisible": true,
+          "id": "connections",
+          "locked": false,
+          "order": 10,
+          "printable": true,
+          "purpose": "semantic net routes and sheet ports",
+          "qualifiedId": "layer:right:connections",
+          "sheet": "right"
+        },
+        {
+          "defaultVisible": true,
+          "id": "symbols",
+          "locked": false,
+          "order": 20,
+          "printable": true,
+          "purpose": "component symbols",
+          "qualifiedId": "layer:right:symbols",
+          "sheet": "right"
+        },
+        {
+          "defaultVisible": true,
+          "id": "annotation",
+          "locked": false,
+          "order": 30,
+          "printable": true,
+          "purpose": "notes",
+          "qualifiedId": "layer:right:annotation",
+          "sheet": "right"
+        }
+      ],
+      "order": 20,
+      "parent": null,
+      "qid": "sheet:right",
+      "title": "Right",
+      "unit": "mm",
+      "width": 160.0
+    }
+  ],
+  "statistics": {
+    "entities": 2,
+    "hierarchyDepth": 0,
+    "interfacePorts": 4,
+    "localNets": 4,
+    "localRouteSegments": 4,
+    "projectNets": 2,
+    "projectRouteSegments": 32,
+    "qualifiedObjects": 14,
+    "sheets": 2,
+    "unconnectedProjectPorts": 0
+  },
+  "viewerContract": "aixem.reference-viewer@1",
+  "views": [
+    {
+      "available": true,
+      "canvases": [
+        {
+          "height": 100.0,
+          "key": "sheet:left",
+          "sheet": "left",
+          "unit": "mm",
+          "width": 160.0
+        },
+        {
+          "height": 100.0,
+          "key": "sheet:right",
+          "sheet": "right",
+          "unit": "mm",
+          "width": 160.0
+        }
+      ],
+      "id": "sheet",
+      "label": "Sheet"
+    },
+    {
+      "available": true,
+      "canvases": [
+        {
+          "height": 378.0,
+          "key": "overview",
+          "sheet": null,
+          "unit": "project-space",
+          "width": 419.0
+        }
+      ],
+      "id": "overview",
+      "label": "Overview"
+    },
+    {
+      "available": true,
+      "canvases": [
+        {
+          "height": 441.0,
+          "key": "composite",
+          "sheet": null,
+          "unit": "project-space",
+          "width": 399.0
+        }
+      ],
+      "id": "composite",
+      "label": "Composite"
+    }
+  ]
+}

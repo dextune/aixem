@@ -1,0 +1,158 @@
+{
+  "formatVersion": "2.0",
+  "project": {
+    "applicationProfile": "aixem.schematic.multisheet@1",
+    "description": "Hierarchical conformance case H005: Three level sheet hierarchy",
+    "features": [
+      "component.graphics@1",
+      "explicit.layout@2",
+      "hierarchical.interface@1",
+      "project-net@1",
+      "deterministic-project-routing@1"
+    ],
+    "id": "hierarchical:h005",
+    "libraries": [
+      {
+        "digest": "sha256:d6f65cd2d99d51e7a0eeb9ca230ea2207936a84e90bcbe65e7bc3561d393f9b6",
+        "id": "hierarchical:reference-library",
+        "mediaType": "application/vnd.aixem.library+json",
+        "path": "libraries/authoring.aixlib.json",
+        "version": "1.0.0"
+      }
+    ],
+    "metadata": {
+      "case": "H005",
+      "corpus": "hierarchical-project-1",
+      "geometryCreatesConnectivity": false,
+      "layersAreSheets": false
+    },
+    "outputs": [
+      {
+        "mediaType": "image/svg+xml",
+        "path": "render/project-overview.svg",
+        "role": "project-overview-svg"
+      },
+      {
+        "mediaType": "image/svg+xml",
+        "path": "render/project-composite.svg",
+        "role": "project-composite-svg"
+      },
+      {
+        "mediaType": "application/json",
+        "path": "render/resolved-project-scene.json",
+        "role": "resolved-project-scene"
+      },
+      {
+        "mediaType": "text/html",
+        "path": "render/workbench.html",
+        "role": "engineering-workbench"
+      }
+    ],
+    "projectNets": [
+      {
+        "id": "vcc",
+        "members": [
+          {
+            "port": "VCC",
+            "sheet": "system"
+          },
+          {
+            "port": "VCC",
+            "sheet": "control"
+          }
+        ],
+        "role": "power"
+      },
+      {
+        "id": "debug_signal",
+        "members": [
+          {
+            "port": "OUT",
+            "sheet": "control"
+          },
+          {
+            "port": "IN",
+            "sheet": "debug"
+          }
+        ]
+      }
+    ],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-11",
+      "license": "CC0-1.0"
+    },
+    "renderPolicy": {
+      "backend": "svg",
+      "defaultVariantPolicy": "library-default",
+      "fontPolicy": "system-fallback",
+      "purpose": "primary-diagram",
+      "remoteAssets": "deny",
+      "unsupportedRequiredFeature": "reject"
+    },
+    "sheets": [
+      {
+        "id": "system",
+        "layout": {
+          "digest": "sha256:51cd10ea1c157a4c68ab8fcf435e82044205d4dc6e0da53886026d6590ec833c",
+          "id": "h005-three-level-sheet-hierarchy:system-layout",
+          "mediaType": "application/json",
+          "path": "layouts/system.aixlayout.json",
+          "version": "2.0"
+        },
+        "order": 10,
+        "source": {
+          "digest": "sha256:ea38f0f16ea46c8f9630d809fb4b69f204a03190c9929277a3a62e175dba1357",
+          "id": "h005-three-level-sheet-hierarchy:system",
+          "mediaType": "text/x-aixem",
+          "path": "circuits/system.aixem",
+          "version": "1.0"
+        },
+        "title": "System"
+      },
+      {
+        "id": "control",
+        "layout": {
+          "digest": "sha256:c36878ad4cb5d26ef813218bfe82d134601e459ef0e9b3d961ee2104ba0c6974",
+          "id": "h005-three-level-sheet-hierarchy:control-layout",
+          "mediaType": "application/json",
+          "path": "layouts/control.aixlayout.json",
+          "version": "2.0"
+        },
+        "order": 10,
+        "parent": "system",
+        "source": {
+          "digest": "sha256:6a0b8fa7b090216e12eb81b8c3a9f30d11e2551706dd9dd0e2d6a3489f3c26ee",
+          "id": "h005-three-level-sheet-hierarchy:control",
+          "mediaType": "text/x-aixem",
+          "path": "circuits/control.aixem",
+          "version": "1.0"
+        },
+        "title": "Control"
+      },
+      {
+        "id": "debug",
+        "layout": {
+          "digest": "sha256:536942f997781008ec61b946e255e92620c8b99bcf4ee630833b1e4702ba643a",
+          "id": "h005-three-level-sheet-hierarchy:debug-layout",
+          "mediaType": "application/json",
+          "path": "layouts/debug.aixlayout.json",
+          "version": "2.0"
+        },
+        "order": 10,
+        "parent": "control",
+        "source": {
+          "digest": "sha256:0d3a56e2338370541e454522b164fc754309c4280cf6f36e7ad79f5feb90cfde",
+          "id": "h005-three-level-sheet-hierarchy:debug",
+          "mediaType": "text/x-aixem",
+          "path": "circuits/debug.aixem",
+          "version": "1.0"
+        },
+        "title": "Debug"
+      }
+    ],
+    "status": "example",
+    "title": "Three level sheet hierarchy"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/aixproj/2"
+}

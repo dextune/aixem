@@ -1,0 +1,8 @@
+{
+  "assertions": [],
+  "expected": "fail",
+  "expectedDiagnostic": "PROJECT_HIERARCHY_UNKNOWN_PARENT",
+  "id": "N011",
+  "project": "project.aixproj.json",
+  "title": "Unknown hierarchy parent"
+}

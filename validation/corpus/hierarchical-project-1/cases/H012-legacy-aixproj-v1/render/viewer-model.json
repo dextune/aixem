@@ -1,0 +1,303 @@
+{
+  "capabilities": {
+    "composite": false,
+    "diagnostics": true,
+    "hierarchy": false,
+    "interfacePorts": false,
+    "offline": true,
+    "overview": false,
+    "projectNets": false,
+    "qualifiedSearch": true,
+    "readOnly": true,
+    "sheet": true,
+    "sheetScopedLayers": true,
+    "viewport": true
+  },
+  "diagnostics": [
+    {
+      "code": "VIEWER-READONLY-001",
+      "message": "Reference Viewer runtime state is derived and read-only.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-QID-001",
+      "message": "2 qualified objects indexed without ambiguity.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-ASSET-001",
+      "message": "The self-contained Viewer requires no remote presentation assets.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "GRID-001",
+      "message": "1/1 placements satisfy the declared snap grid.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "ROUTE-001",
+      "message": "0 orthogonal route segments are resolved.",
+      "severity": "info",
+      "status": "PASS"
+    }
+  ],
+  "domContract": "1",
+  "formatVersion": "1.0",
+  "hierarchy": [
+    {
+      "children": [],
+      "depth": 0,
+      "id": "main",
+      "order": 0,
+      "parent": null,
+      "qid": "sheet:main",
+      "title": "Legacy aixproj v1"
+    }
+  ],
+  "initialState": {
+    "activeNavigatorCategory": "entity",
+    "activeSheet": "main",
+    "mode": "sheet",
+    "searchQuery": "",
+    "selection": null,
+    "visibleLayersBySheet": {
+      "main": {
+        "annotation": true,
+        "connections": true,
+        "symbols": true
+      }
+    }
+  },
+  "objects": {
+    "entity:main:U1": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "nativeId": "U1",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:main:U1"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Entity ID",
+          "value": "U1"
+        },
+        {
+          "label": "Reference",
+          "value": "U1"
+        },
+        {
+          "label": "Value",
+          "value": "AXC12"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"U1\",\"layer\":\"symbols\",\"x\":80,\"y\":50}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[60.0,42.5],\"10\":[85.0,30.0],\"11\":[75.0,70.0],\"12\":[85.0,70.0],\"2\":[60.0,47.5],\"3\":[60.0,52.5],\"4\":[60.0,57.5],\"5\":[100.0,42.5],\"6\":[100.0,47.5],\"7\":[100.0,52.5],\"8\":[100.0,57.5],\"9\":[75.0,30.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:2fe409df19cfd0257cdc4802e8be6dd84d4d0b840938abb23c22c7c941a1f3ae"
+        }
+      ],
+      "qid": "entity:main:U1",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "entity:main:u1 u1 · axc12 u1 main u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "main"
+    },
+    "sheet:main": {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Legacy aixproj v1",
+      "nativeId": "main",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "sheet:main"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Title",
+          "value": "Legacy aixproj v1"
+        },
+        {
+          "label": "Width",
+          "value": "160"
+        },
+        {
+          "label": "Height",
+          "value": "100"
+        },
+        {
+          "label": "Unit",
+          "value": "mm"
+        }
+      ],
+      "qid": "sheet:main",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "sheet:main legacy aixproj v1 main main hierarchical:h012-legacy legacy aixproj v1",
+      "sheet": "main"
+    }
+  },
+  "project": {
+    "id": "hierarchical:h012-legacy",
+    "multiSheet": false,
+    "profile": "circuit.schematic@1 + component.graphics@1",
+    "schema": "https://schemas.aixem.org/component-graphics/aixproj/1",
+    "title": "Legacy aixproj v1"
+  },
+  "provenance": {
+    "authority": {
+      "presentation": ".aixlayout",
+      "semantics": ".aixem",
+      "viewerState": "derived-non-authoritative"
+    },
+    "generatedAt": "2026-08-10T00:00:00Z",
+    "hashes": {
+      "layout": "sha256:da804267cf520ff9ff988755f5ebc85418868ad4dcbe26b42e42992ea45a3208",
+      "libraries": [
+        "sha256:d6f65cd2d99d51e7a0eeb9ca230ea2207936a84e90bcbe65e7bc3561d393f9b6"
+      ],
+      "source": "sha256:a1d3ac664975b702f8d5049c2a2b123e6dcd5be101071c31705a6e7d8fa1fd9b",
+      "symbolAssets": [
+        "sha256:2fe409df19cfd0257cdc4802e8be6dd84d4d0b840938abb23c22c7c941a1f3ae"
+      ]
+    },
+    "renderer": {
+      "id": "aixem-grid-schematic-reference-renderer",
+      "version": "0.5.1"
+    },
+    "resolvedSceneSchema": "https://schemas.aixem.org/component-graphics/resolved-scene/1",
+    "styleProfile": {
+      "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+      "id": "aixem.schematic.grid-light",
+      "path": "aixem-grid-schematic-style-1.aixstyle.json"
+    }
+  },
+  "release": "AIXEM-SRP-0.5.5-2026-08-11",
+  "schema": "https://schemas.aixem.org/viewer/viewer-model/1",
+  "searchIndex": [
+    {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Legacy aixproj v1",
+      "qid": "sheet:main",
+      "searchText": "sheet:main legacy aixproj v1 main main hierarchical:h012-legacy legacy aixproj v1",
+      "sheet": "main"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "qid": "entity:main:U1",
+      "searchText": "entity:main:u1 u1 · axc12 u1 main u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "main"
+    }
+  ],
+  "sheets": [
+    {
+      "height": 100.0,
+      "id": "main",
+      "layers": [
+        {
+          "defaultVisible": true,
+          "id": "connections",
+          "locked": false,
+          "order": 10,
+          "printable": true,
+          "purpose": "semantic net routes and sheet ports",
+          "qualifiedId": "layer:main:connections",
+          "sheet": "main"
+        },
+        {
+          "defaultVisible": true,
+          "id": "symbols",
+          "locked": false,
+          "order": 20,
+          "printable": true,
+          "purpose": "component symbols",
+          "qualifiedId": "layer:main:symbols",
+          "sheet": "main"
+        },
+        {
+          "defaultVisible": true,
+          "id": "annotation",
+          "locked": false,
+          "order": 30,
+          "printable": true,
+          "purpose": "notes",
+          "qualifiedId": "layer:main:annotation",
+          "sheet": "main"
+        }
+      ],
+      "order": 0,
+      "parent": null,
+      "qid": "sheet:main",
+      "title": "Legacy aixproj v1",
+      "unit": "mm",
+      "width": 160.0
+    }
+  ],
+  "statistics": {
+    "entities": 1,
+    "interfacePorts": 0,
+    "localNets": 0,
+    "projectNets": 0,
+    "qualifiedObjects": 2,
+    "sheets": 1
+  },
+  "viewerContract": "aixem.reference-viewer@1",
+  "views": [
+    {
+      "available": true,
+      "canvases": [
+        {
+          "height": 100.0,
+          "key": "sheet:main",
+          "sheet": "main",
+          "unit": "mm",
+          "width": 160.0
+        }
+      ],
+      "id": "sheet",
+      "label": "Sheet"
+    }
+  ]
+}

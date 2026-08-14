@@ -1,0 +1,15 @@
+{
+  "canonicalHashes": {},
+  "checks": [],
+  "deterministic": true,
+  "diagnosticMatched": true,
+  "error": "PROJECT_NET_EQUIVALENCE_COLLISION: local-net:bridge:shared_1 collapses project nets ['one', 'two']",
+  "expected": "fail",
+  "expectedDiagnostic": "PROJECT_NET_EQUIVALENCE_COLLISION",
+  "id": "H015",
+  "observed": "fail",
+  "projectDigest": "sha256:a555d9cc753fadd4eba75dee68f09ff28702c0dcfe5eef37fed3e26a29e9df1b",
+  "repeatCount": 0,
+  "status": "pass",
+  "title": "Local net project net equivalence collision"
+}

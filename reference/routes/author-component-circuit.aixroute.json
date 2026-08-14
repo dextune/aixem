@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.0",
+  "route": {
+    "aliases": [
+      "create component circuit",
+      "new component and schematic",
+      "draw new component in circuit",
+      "end-to-end authoring"
+    ],
+    "budget": {
+      "fallbackDocuments": 2,
+      "maxBytes": 98304,
+      "maxDepth": 3,
+      "maxDocuments": 7
+    },
+    "conditionalReads": [],
+    "id": "author-component-circuit",
+    "intents": [
+      "author-component-circuit"
+    ],
+    "metadata": {
+      "exactRoutePreferred": true,
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "kind": "composite",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "source": "docs/_meta/routes/author-component-circuit.yaml"
+    },
+    "outputs": [
+      "validated component/symbol assets",
+      "closed semantic schematic",
+      "orthogonal explicit layout",
+      "deterministic renderer evidence",
+      "final validation report"
+    ],
+    "steps": [
+      {
+        "exitCheck": "symbol-ready",
+        "id": "stage-1",
+        "order": 1,
+        "produces": [
+          "locked symbol and presentation binding"
+        ],
+        "purpose": "Create or reuse the component symbol and presentation binding.",
+        "read": [
+          "reference/routes/create-symbol.aixroute.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "semantic-and-placement-ready",
+        "id": "stage-2",
+        "order": 2,
+        "produces": [
+          "closed semantic source and placements"
+        ],
+        "purpose": "Create semantic entities, nets, and placements.",
+        "read": [
+          "reference/routes/create-schematic.aixroute.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "routing-ready",
+        "id": "stage-3",
+        "order": 3,
+        "produces": [
+          "closed layout connections"
+        ],
+        "purpose": "Materialize semantic nets as explicit orthogonal geometry.",
+        "read": [
+          "reference/routes/route-nets.aixroute.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "visual-review-ready",
+        "id": "stage-4",
+        "order": 4,
+        "produces": [
+          "deterministic render and review record"
+        ],
+        "purpose": "Render, inspect evidence, classify defects, and repair authority-local sources.",
+        "read": [
+          "reference/routes/render-review.aixroute.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "release-valid",
+        "id": "stage-5",
+        "order": 5,
+        "produces": [
+          "release-valid evidence"
+        ],
+        "purpose": "Run final project and authoring conformance gates.",
+        "read": [
+          "reference/routes/validate-project.aixroute.json"
+        ],
+        "required": true
+      }
+    ],
+    "stopConditions": [
+      "All child routes complete in declared order",
+      "Each stage exit condition passes",
+      "No repository-wide discovery or renderer archaeology was required for normal work",
+      "Final source, render, and evidence artifacts are deterministic"
+    ],
+    "title": "Create or modify a component presentation, use it in a semantic schematic, route it, render it, and validate it",
+    "validators": [
+      "agent.authoring_routes",
+      "agent.visual_qa",
+      "schematic.authoring_examples",
+      "schematic.renderer_contract",
+      "agent.diagnostics",
+      "agent.change_scope",
+      "agent.run_record",
+      "agent.authoring_closed_loop",
+      "agent.evaluation_tier_truth"
+    ]
+  },
+  "schema": "https://schemas.aixem.org/reference/aixroute/1"
+}

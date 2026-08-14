@@ -1,0 +1,304 @@
+{
+  "artifacts": [
+    {
+      "bytes": 14477,
+      "digest": "sha256:546c2d7857cb49a470ba8caa42b49e486161624ce533cdd3ff29f8aacc198441",
+      "mediaType": "image/svg+xml",
+      "path": "sheets/sheet-01.svg",
+      "role": "sheet-svg",
+      "sheet": "sheet-01"
+    },
+    {
+      "bytes": 4852,
+      "digest": "sha256:946cc1311b56e2121b097db3ae54e4320e8bdede6921bb515e99b71ace1c7a9f",
+      "mediaType": "application/json",
+      "path": "sheets/sheet-01.resolved-scene.json",
+      "role": "sheet-resolved-scene",
+      "sheet": "sheet-01"
+    },
+    {
+      "bytes": 522,
+      "digest": "sha256:8a16a17994e73bd62c280b5b87a589d8740f61d05a0fb77a201ba2e8b07c610f",
+      "mediaType": "application/json",
+      "path": "interface-summaries/sheet-01.json",
+      "role": "sheet-interface-summary",
+      "sheet": "sheet-01"
+    },
+    {
+      "bytes": 14477,
+      "digest": "sha256:373f7a46e9d8b173735ced0681a822b2e9e0ffcd8013ebae9ae0c51911063a2b",
+      "mediaType": "image/svg+xml",
+      "path": "sheets/sheet-02.svg",
+      "role": "sheet-svg",
+      "sheet": "sheet-02"
+    },
+    {
+      "bytes": 4858,
+      "digest": "sha256:aff29c1d9bc18449ff7459691ea81e9d0a75c0997104af377d30a9f4a9af965d",
+      "mediaType": "application/json",
+      "path": "sheets/sheet-02.resolved-scene.json",
+      "role": "sheet-resolved-scene",
+      "sheet": "sheet-02"
+    },
+    {
+      "bytes": 522,
+      "digest": "sha256:a8947e99fca4214a01885512e3c6d7cd52454d707135464376b0fd83429fc2f3",
+      "mediaType": "application/json",
+      "path": "interface-summaries/sheet-02.json",
+      "role": "sheet-interface-summary",
+      "sheet": "sheet-02"
+    },
+    {
+      "bytes": 14477,
+      "digest": "sha256:b2c0a6b47d5b22f8de439f250c71728f5920376a764791abee0767d99807151f",
+      "mediaType": "image/svg+xml",
+      "path": "sheets/sheet-03.svg",
+      "role": "sheet-svg",
+      "sheet": "sheet-03"
+    },
+    {
+      "bytes": 4858,
+      "digest": "sha256:aa5f8f391febdb1e5588d0e36058f7880d8ffe9452cc13e701b940b019047a85",
+      "mediaType": "application/json",
+      "path": "sheets/sheet-03.resolved-scene.json",
+      "role": "sheet-resolved-scene",
+      "sheet": "sheet-03"
+    },
+    {
+      "bytes": 522,
+      "digest": "sha256:70142266860dc5fde32ee9c4cfd7d16e6d6c58d7963c734a222275bceba0dccf",
+      "mediaType": "application/json",
+      "path": "interface-summaries/sheet-03.json",
+      "role": "sheet-interface-summary",
+      "sheet": "sheet-03"
+    },
+    {
+      "bytes": 14477,
+      "digest": "sha256:0d7e33a4d480ed686b891ede8315be02f163d53611228410d96a72b500d44f42",
+      "mediaType": "image/svg+xml",
+      "path": "sheets/sheet-04.svg",
+      "role": "sheet-svg",
+      "sheet": "sheet-04"
+    },
+    {
+      "bytes": 4858,
+      "digest": "sha256:06aedffaa267a56336e852a6f035ccd4261630404f28b5f8855ca751d7be0619",
+      "mediaType": "application/json",
+      "path": "sheets/sheet-04.resolved-scene.json",
+      "role": "sheet-resolved-scene",
+      "sheet": "sheet-04"
+    },
+    {
+      "bytes": 522,
+      "digest": "sha256:bf26c33d032c195bb64242cc45ebf9f8d61efe05725dc4c7b57ada75183271fc",
+      "mediaType": "application/json",
+      "path": "interface-summaries/sheet-04.json",
+      "role": "sheet-interface-summary",
+      "sheet": "sheet-04"
+    },
+    {
+      "bytes": 14477,
+      "digest": "sha256:e2158f59d4593f7257c14d937c423c9bfc69c37f7ba5c6dd5354c95946f4bde7",
+      "mediaType": "image/svg+xml",
+      "path": "sheets/sheet-05.svg",
+      "role": "sheet-svg",
+      "sheet": "sheet-05"
+    },
+    {
+      "bytes": 4858,
+      "digest": "sha256:6112ef6a1392b814d9ace3fe726712929cdfdd3bf996a0d4f80dab5960b6bf02",
+      "mediaType": "application/json",
+      "path": "sheets/sheet-05.resolved-scene.json",
+      "role": "sheet-resolved-scene",
+      "sheet": "sheet-05"
+    },
+    {
+      "bytes": 522,
+      "digest": "sha256:e72a60a67aba85ac2b742caacdc0c37e1c07ad77849ebdd1191e29475ba665e5",
+      "mediaType": "application/json",
+      "path": "interface-summaries/sheet-05.json",
+      "role": "sheet-interface-summary",
+      "sheet": "sheet-05"
+    },
+    {
+      "bytes": 14477,
+      "digest": "sha256:e813422f1e1bd24f0334f6d59efd80f7c95a16b7a925e86df32212ffa35b142d",
+      "mediaType": "image/svg+xml",
+      "path": "sheets/sheet-06.svg",
+      "role": "sheet-svg",
+      "sheet": "sheet-06"
+    },
+    {
+      "bytes": 4858,
+      "digest": "sha256:45112eabb99224c0a59c877bc6e32589d42d259a4944139e9c6d52fcecf3440e",
+      "mediaType": "application/json",
+      "path": "sheets/sheet-06.resolved-scene.json",
+      "role": "sheet-resolved-scene",
+      "sheet": "sheet-06"
+    },
+    {
+      "bytes": 522,
+      "digest": "sha256:22495265d2c06768300215afc3cf88c83774602252957673d4fed5b564d143f0",
+      "mediaType": "application/json",
+      "path": "interface-summaries/sheet-06.json",
+      "role": "sheet-interface-summary",
+      "sheet": "sheet-06"
+    },
+    {
+      "bytes": 14477,
+      "digest": "sha256:65e87d01e9bddb48972d104ac9c609dae95d841a129ade60bb21cbaf500215f1",
+      "mediaType": "image/svg+xml",
+      "path": "sheets/sheet-07.svg",
+      "role": "sheet-svg",
+      "sheet": "sheet-07"
+    },
+    {
+      "bytes": 4858,
+      "digest": "sha256:c80e10d3b3f70b88252cb2faca4482f1964ffc4862f9825360b4e99e5d77d3d6",
+      "mediaType": "application/json",
+      "path": "sheets/sheet-07.resolved-scene.json",
+      "role": "sheet-resolved-scene",
+      "sheet": "sheet-07"
+    },
+    {
+      "bytes": 522,
+      "digest": "sha256:a64efefc7f0239e48c7a95d30057b0758710027d66a0a2adfc7208185e6a082e",
+      "mediaType": "application/json",
+      "path": "interface-summaries/sheet-07.json",
+      "role": "sheet-interface-summary",
+      "sheet": "sheet-07"
+    },
+    {
+      "bytes": 14477,
+      "digest": "sha256:97e739fd7d8e730dd5dd5460855c32b91523f0c7038d6ec3fe4e21911ab0f806",
+      "mediaType": "image/svg+xml",
+      "path": "sheets/sheet-08.svg",
+      "role": "sheet-svg",
+      "sheet": "sheet-08"
+    },
+    {
+      "bytes": 4858,
+      "digest": "sha256:953fc50a5c31fe5f3713aeac9782d07a267d63aa74fdf93620f83604bd052724",
+      "mediaType": "application/json",
+      "path": "sheets/sheet-08.resolved-scene.json",
+      "role": "sheet-resolved-scene",
+      "sheet": "sheet-08"
+    },
+    {
+      "bytes": 522,
+      "digest": "sha256:b47746e3e5734974fb8f5478250c15b1b2592e2ecad4818ecdd5d3aa508365a1",
+      "mediaType": "application/json",
+      "path": "interface-summaries/sheet-08.json",
+      "role": "sheet-interface-summary",
+      "sheet": "sheet-08"
+    },
+    {
+      "bytes": 14477,
+      "digest": "sha256:df8e3f4246e3d74f49a80bda0c2e0c9ce2fe4feceee41c68070b3a7cab86ae35",
+      "mediaType": "image/svg+xml",
+      "path": "sheets/sheet-09.svg",
+      "role": "sheet-svg",
+      "sheet": "sheet-09"
+    },
+    {
+      "bytes": 4858,
+      "digest": "sha256:07963cb8115517674a6d15e056fface3496ce2577dd8cee3ce4274b90075aada",
+      "mediaType": "application/json",
+      "path": "sheets/sheet-09.resolved-scene.json",
+      "role": "sheet-resolved-scene",
+      "sheet": "sheet-09"
+    },
+    {
+      "bytes": 522,
+      "digest": "sha256:ccdc8e2313c0df8e7cb4d5c03795c122c6331c76c08dd579f77a89f0b28aea49",
+      "mediaType": "application/json",
+      "path": "interface-summaries/sheet-09.json",
+      "role": "sheet-interface-summary",
+      "sheet": "sheet-09"
+    },
+    {
+      "bytes": 14477,
+      "digest": "sha256:cc787545d0203ec52c4bdb735d1719eb90b951988ff587a9d8c92bad58506cee",
+      "mediaType": "image/svg+xml",
+      "path": "sheets/sheet-10.svg",
+      "role": "sheet-svg",
+      "sheet": "sheet-10"
+    },
+    {
+      "bytes": 4859,
+      "digest": "sha256:b6ecaef86d274d5ed022dd5fbf316435c446fe54f4ee64152169c5048b4dbb7b",
+      "mediaType": "application/json",
+      "path": "sheets/sheet-10.resolved-scene.json",
+      "role": "sheet-resolved-scene",
+      "sheet": "sheet-10"
+    },
+    {
+      "bytes": 522,
+      "digest": "sha256:5ed3223416cd04362470e4e4202fc8912c2be2368d54fea2a78bbbe6e5bb23b8",
+      "mediaType": "application/json",
+      "path": "interface-summaries/sheet-10.json",
+      "role": "sheet-interface-summary",
+      "sheet": "sheet-10"
+    },
+    {
+      "bytes": 17907,
+      "digest": "sha256:17e81d0795792dffb6e21bed210c20df572b8afc6cac646e5eac669757f2fe9c",
+      "mediaType": "image/svg+xml",
+      "path": "project-overview.svg",
+      "role": "project-overview-svg"
+    },
+    {
+      "bytes": 162228,
+      "digest": "sha256:038994878452b72016053bba8a0f94f4c30c0b6e5cdd4b1e50df4e74e4ef95ab",
+      "mediaType": "image/svg+xml",
+      "path": "project-composite.svg",
+      "role": "project-composite-svg"
+    },
+    {
+      "bytes": 76516,
+      "digest": "sha256:5de5aa6f1fe1572a8ae8f321a692150c4b9fc92bd130c2a31ddb67b6c1f5ba8a",
+      "mediaType": "application/json",
+      "path": "resolved-project-scene.json",
+      "role": "resolved-project-scene"
+    },
+    {
+      "bytes": 128725,
+      "digest": "sha256:28661cd49d13672fd3d86faa12989be5fcec469908467c7534f499b2b54576d3",
+      "mediaType": "application/json",
+      "path": "viewer-model.json",
+      "role": "viewer-model"
+    },
+    {
+      "bytes": 517102,
+      "digest": "sha256:d423c93fdbe217b3fbe513ce3945d8b8a925a29c366bacef015dd50374111158",
+      "mediaType": "text/html",
+      "path": "viewer.html",
+      "role": "standalone-viewer"
+    },
+    {
+      "bytes": 518584,
+      "digest": "sha256:014b325cec7e5511f587f45a3feccf52392124e469af84548db0adbecd4c8ed0",
+      "mediaType": "text/html",
+      "path": "workbench.html",
+      "role": "engineering-workbench"
+    }
+  ],
+  "generatedAt": "2026-08-10T12:00:00Z",
+  "project": {
+    "id": "hierarchical:h013",
+    "manifestDigest": "sha256:4f1cc94a906cc78530f2c0bb8d65c20ecdd18da35ddc200b440b5de49de5d28e",
+    "projectNets": 2,
+    "sheets": 10
+  },
+  "release": "AIXEM-SRP-0.5.5-2026-08-11",
+  "renderer": {
+    "id": "aixem-hierarchical-project-reference-renderer",
+    "version": "0.5.3"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/render-manifest/1",
+  "status": "pass",
+  "styleProfile": {
+    "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+    "id": "aixem.schematic.grid-light"
+  }
+}

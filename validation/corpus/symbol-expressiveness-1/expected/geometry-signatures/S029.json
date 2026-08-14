@@ -1,0 +1,80 @@
+{
+  "bounds": {
+    "height": 80,
+    "width": 70,
+    "x": -35,
+    "y": -40
+  },
+  "capabilities": [
+    "geometry.line",
+    "geometry.path",
+    "geometry.polyline",
+    "port.mapping",
+    "structure.use",
+    "text.field"
+  ],
+  "case": "S029",
+  "defaultVariant": null,
+  "definitions": [
+    "pulse"
+  ],
+  "fieldAnchors": [
+    {
+      "field": "reference",
+      "id": "field-reference",
+      "x": 0,
+      "y": -35
+    },
+    {
+      "field": "value",
+      "id": "field-value",
+      "x": 0,
+      "y": 35
+    }
+  ],
+  "parameters": {},
+  "ports": [
+    {
+      "id": "W",
+      "orientation": 180,
+      "visible": true,
+      "x": -27.5,
+      "y": 0.0
+    },
+    {
+      "id": "E",
+      "orientation": 0,
+      "visible": true,
+      "x": 27.5,
+      "y": 0.0
+    },
+    {
+      "id": "N",
+      "orientation": 90,
+      "visible": true,
+      "x": 0.0,
+      "y": -27.5
+    },
+    {
+      "id": "S",
+      "orientation": 270,
+      "visible": true,
+      "x": 0.0,
+      "y": 27.5
+    }
+  ],
+  "primitiveCounts": {
+    "line": 4,
+    "path": 1,
+    "polyline": 1,
+    "text": 2,
+    "use": 2
+  },
+  "requiredFeatures": [
+    "compound-path",
+    "cubic-bezier",
+    "definition-use"
+  ],
+  "symbol": "corpus:s029-irregular-custom",
+  "variants": []
+}

@@ -1,0 +1,91 @@
+{
+  "canonicalHashes": {
+    "project-composite.svg": "sha256:e6de37ffe3561179d62416a8c056e0b412f104291025caa26adb0d5f5fb9a097",
+    "project-overview.svg": "sha256:daa46a31eaaed402e925b01c4e4f6d5eff332a002e0785bfcd54963a36a02fbf",
+    "resolved-project-scene.json": "sha256:360c980052f722d13fd6f8edc67a1b2adf6c38380550ff5b0488a2c937934116",
+    "sheets/sink.resolved-scene.json": "sha256:1b395531976b67fc0079edd0d2a31305fd3dc8708b965bf8fbee627728aebcdd",
+    "sheets/sink.svg": "sha256:d24b325eec530c29d4730554b0a5604047f80f506073a4eafcc07ade4ee8b6cd",
+    "sheets/source.resolved-scene.json": "sha256:b95bd8ac593f52b55c3973ecde3c82f629a7d212970dee5409d99d06bafab4c6",
+    "sheets/source.svg": "sha256:86d989cfbe253f7c484685607a9138bb43592fc3ebf967ae5e66d00d9a03ca81",
+    "viewer-model.json": "sha256:3ad55b1c52ab25595a99f2c075a78ab01d2c2933f396f9fe41e24111fab012e2",
+    "viewer.html": "sha256:ef31e508b41a1aa12698ae8876e021c8ae702f791cf1a1a399f240b871c56f4f",
+    "workbench.html": "sha256:e29ccf8abf243f5b35f12ce0c65a57d2c2453f3ff83a1ba688c3f1f8a1ce6aca"
+  },
+  "checks": [
+    {
+      "id": "PROJECT_SHEET_COUNT",
+      "observation": 2,
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_GRAPH_PRESENT",
+      "observation": [
+        "identities",
+        "projectNets",
+        "unconnectedPorts"
+      ],
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_AUTHORITY",
+      "observation": {
+        "connectivityFromGeometry": false,
+        "layersAreSheets": false,
+        "localPresentation": "aixlayout/2",
+        "localSemantics": ".aixem",
+        "projectComposition": "aixproj/2"
+      },
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_LAYER_AUTHORITY",
+      "observation": {
+        "connectivityFromGeometry": false,
+        "layersAreSheets": false,
+        "localPresentation": "aixlayout/2",
+        "localSemantics": ".aixem",
+        "projectComposition": "aixproj/2"
+      },
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_ROUTES_ORTHOGONAL",
+      "observation": "overview+composite",
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_WORKBENCH_DATA_DRIVEN",
+      "observation": "resolved hierarchy",
+      "status": "pass"
+    },
+    {
+      "id": "H002_LOCAL_TWO_ENDPOINTS",
+      "observation": {
+        "sink": {
+          "in": [
+            "U1.1",
+            "@IN"
+          ]
+        },
+        "source": {
+          "out": [
+            "U1.5",
+            "@OUT"
+          ]
+        }
+      },
+      "status": "pass"
+    }
+  ],
+  "deterministic": true,
+  "diagnosticMatched": true,
+  "error": null,
+  "expected": "pass",
+  "expectedDiagnostic": null,
+  "id": "H002",
+  "observed": "pass",
+  "projectDigest": "sha256:0aff6616104f8f2ce99c982e9f964a5a6b68189cdd1592ff697d12307adaf103",
+  "repeatCount": 3,
+  "status": "pass",
+  "title": "Single local endpoint + interface port"
+}

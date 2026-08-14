@@ -1,0 +1,40 @@
+{
+  "durationSeconds": 0.616455,
+  "errors": [],
+  "executionMode": "isolated-test-module-processes",
+  "failedModules": 0,
+  "failures": [],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "moduleCount": 1,
+  "modules": [
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.docs.test_authoring_hardening"
+      ],
+      "durationSeconds": 0.616206,
+      "module": "tests.docs.test_authoring_hardening",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_agent_visible_examples_use_canonical_library_tree (tests.docs.test_authoring_hardening.AuthoringHardeningDocumentationTests.test_agent_visible_examples_use_canonical_library_tree) ... ok\ntest_create_library_part_exposes_required_decisions (tests.docs.test_authoring_hardening.AuthoringHardeningDocumentationTests.test_create_library_part_exposes_required_decisions) ... ok\ntest_guide_index_links_each_guide_exactly_once (tests.docs.test_authoring_hardening.AuthoringHardeningDocumentationTests.test_guide_index_links_each_guide_exactly_once) ... ok\ntest_guide_inventory_and_size_budget (tests.docs.test_authoring_hardening.AuthoringHardeningDocumentationTests.test_guide_inventory_and_size_budget) ... ok\ntest_guides_do_not_own_normative_requirements (tests.docs.test_authoring_hardening.AuthoringHardeningDocumentationTests.test_guides_do_not_own_normative_requirements) ... ok\ntest_legacy_path_compatibility_fixture_remains_explicit (tests.docs.test_authoring_hardening.AuthoringHardeningDocumentationTests.test_legacy_path_compatibility_fixture_remains_explicit) ... ok\ntest_root_and_local_retrieval_chain (tests.docs.test_authoring_hardening.AuthoringHardeningDocumentationTests.test_root_and_local_retrieval_chain) ... ok\ntest_route_visibility_and_budgets (tests.docs.test_authoring_hardening.AuthoringHardeningDocumentationTests.test_route_visibility_and_budgets) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.003s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 8,
+      "valid": true
+    }
+  ],
+  "passedModules": 1,
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/test-run-shard/1",
+  "shard": {
+    "count": 29,
+    "index": 20,
+    "totalDiscoveredModules": 29
+  },
+  "skipped": [],
+  "successful": true,
+  "testsRun": 8
+}

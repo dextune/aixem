@@ -1,0 +1,79 @@
+{
+  "coverage": 1.0,
+  "covered": 156,
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "groups": {
+    "component": {
+      "covered": 10,
+      "document": "docs/symbols/component-symbol-binding.md",
+      "missing": [],
+      "total": 10
+    },
+    "connection": {
+      "covered": 7,
+      "document": "docs/file-formats/aixlayout.md",
+      "missing": [],
+      "total": 7
+    },
+    "connectionPath": {
+      "covered": 5,
+      "document": "docs/file-formats/aixlayout.md",
+      "missing": [],
+      "total": 5
+    },
+    "placement": {
+      "covered": 18,
+      "document": "docs/file-formats/aixlayout.md",
+      "missing": [],
+      "total": 18
+    },
+    "presentation": {
+      "covered": 7,
+      "document": "docs/symbols/component-symbol-binding.md",
+      "missing": [],
+      "total": 7
+    },
+    "primitiveProperties": {
+      "covered": 47,
+      "document": "docs/symbols/primitives.md",
+      "missing": [],
+      "total": 47
+    },
+    "primitiveTypes": {
+      "covered": 13,
+      "document": "docs/symbols/primitives.md",
+      "missing": [],
+      "total": 13
+    },
+    "symbolParameter": {
+      "covered": 8,
+      "document": "docs/symbols/aixsym-field-reference.md",
+      "missing": [],
+      "total": 8
+    },
+    "symbolPort": {
+      "covered": 13,
+      "document": "docs/symbols/pins-and-ports.md",
+      "missing": [],
+      "total": 13
+    },
+    "symbolTopLevel": {
+      "covered": 20,
+      "document": "docs/symbols/aixsym-field-reference.md",
+      "missing": [],
+      "total": 20
+    },
+    "symbolVariant": {
+      "covered": 8,
+      "document": "docs/symbols/variants.md",
+      "missing": [],
+      "total": 8
+    }
+  },
+  "issues": [],
+  "release": "AIXEM-SRP-0.5.1-2026-08-11",
+  "schema": "https://schemas.aixem.org/validation/schema-reference-coverage/1",
+  "total": 156,
+  "valid": true
+}

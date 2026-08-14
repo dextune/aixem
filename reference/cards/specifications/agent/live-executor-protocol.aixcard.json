@@ -1,0 +1,71 @@
+{
+  "card": {
+    "aliases": [
+      "live executor",
+      "external agent subprocess",
+      "provider-neutral agent adapter"
+    ],
+    "appliesTo": [
+      "live-executor-protocol"
+    ],
+    "domain": "specifications",
+    "estimatedReadBytes": 7987,
+    "id": "AIXEM-SPEC-AGENT-EXECUTOR-LIVE-001",
+    "inputs": [],
+    "keywords": [
+      "Live Executor Protocol 1",
+      "author-component-circuit",
+      "external agent subprocess",
+      "live executor",
+      "provider-neutral agent adapter",
+      "validate-project"
+    ],
+    "kind": "contract",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/specifications/agent/live-executor-protocol.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:2e5c47799be736d40925f66132530837bf22bf5f1a9e87301c23ce278924f7a7"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SPEC-AGENT-STAGE-001",
+      "AIXEM-SPEC-AGENT-OBSERVATION-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-AGENT-LIVE-0007",
+        "level": "must",
+        "text": "**MUST.** AIXEM core MUST launch external agents through a generic argv-based subprocess descriptor and MUST NOT require a provider SDK in the authoring-conformance core."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-LIVE-0008",
+        "level": "must",
+        "text": "**MUST.** The executor MUST enforce wall-time, output-byte, and observation-event bounds and MUST distinguish unavailable, started, failed, timed-out, and completed processes with observable execution proof."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-LIVE-0009",
+        "level": "must",
+        "text": "**MUST.** Credential values MUST NOT appear in executor descriptors or retained output; explicitly inherited secret-bearing environment values MUST be redacted while inherited variable names may be recorded."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-LIVE-0021",
+        "level": "must",
+        "text": "**MUST.** On supported POSIX systems the executor MUST launch each attempt in a dedicated process group and terminate the complete group with bounded terminate-to-kill escalation when wall time expires."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SPEC-AGENT-EXECUTOR-LIVE-001",
+        "path": "docs/specifications/agent/live-executor-protocol.md"
+      }
+    ],
+    "summary": "Defines a provider-neutral, bounded external subprocess boundary with explicit execution proof, observation capability, network policy, and secret handling.",
+    "title": "Live Executor Protocol 1"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

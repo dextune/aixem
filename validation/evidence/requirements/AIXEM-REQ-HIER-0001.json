@@ -1,0 +1,59 @@
+{
+  "evidencePath": [
+    "validation/evidence/requirements/AIXEM-REQ-HIER-0001.json"
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "requirement": "AIXEM-REQ-HIER-0001",
+  "schema": "https://schemas.aixem.org/validation/requirement-evidence/1",
+  "source": {
+    "anchor": "AIXEM-REQ-HIER-0001",
+    "document": "AIXEM-SPEC-INTERFACE-PORT-001",
+    "line": 137,
+    "path": "docs/specifications/core/interface-port-contract.md",
+    "sitePath": "specifications/core/interface-port-contract.html#AIXEM-REQ-HIER-0001"
+  },
+  "statement": "**MUST.** A semantic source that declares interface ports or uses @PORT endpoints MUST declare hierarchical.interface@1 as a required feature.",
+  "status": "pass",
+  "testResult": {
+    "durationSeconds": 120.511789,
+    "evidence": "validation/test-results.json",
+    "status": "pass",
+    "successful": true,
+    "testsRun": 218
+  },
+  "tests": [
+    "tests/conformance/test_hierarchical_project.py::HierarchicalProjectConformanceTests.test_interface_endpoint_is_a_real_leaf_semantic_endpoint"
+  ],
+  "title": "Feature-gated interface declarations",
+  "validatorResults": [
+    {
+      "artifacts": [
+        "validation/evidence/0.5.9/verification-runs/run-01/summary.json",
+        "validation/evidence/0.5.9/verification-runs/run-02/summary.json",
+        "validation/evidence/0.5.9/verification-runs/run-03/summary.json",
+        "validation/evidence/0.5.9/verification-runs/run-04/summary.json",
+        "validation/evidence/0.5.9/verification-runs/run-05/summary.json",
+        "validation/evidence/0.5.9/verification-runs/summary.json",
+        "validation/releases/0.5.9/final-validation.json",
+        "validation/releases/0.5.9/implementation-matrix.json",
+        "validation/test-results.json",
+        "validation/agent-evals-3/results/readiness/readiness-report.json",
+        "validation/agent-evals-3/results/tier-a-results.json",
+        "validation/agent-evals-3/results/tier-b-status.json",
+        "validation/agent-evals-2/results/tier-a-results.json",
+        "docs/_meta/generated/document-relationship-audit.json",
+        "docs/_meta/generated/requirement-traceability.json"
+      ],
+      "id": "schematic.feature_support",
+      "status": "pass",
+      "summary": "Mapped validator schematic.feature_support passed in all five consecutive clean AIXEM 0.5.9 verification passes.",
+      "valid": true
+    }
+  ],
+  "validators": [
+    "schematic.feature_support"
+  ],
+  "verificationMode": "automated"
+}

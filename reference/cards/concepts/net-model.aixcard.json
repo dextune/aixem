@@ -1,0 +1,62 @@
+{
+  "card": {
+    "aliases": [
+      "net model",
+      "logical net",
+      "network connectivity"
+    ],
+    "appliesTo": [
+      "net-semantics"
+    ],
+    "domain": "concepts",
+    "estimatedReadBytes": 5145,
+    "id": "AIXEM-CONCEPT-NET-001",
+    "inputs": [],
+    "keywords": [
+      "Net Model",
+      "compose-project",
+      "create-schematic",
+      "logical net",
+      "net model",
+      "network connectivity",
+      "route-nets",
+      "validate-project"
+    ],
+    "kind": "concept",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/concepts/net-model.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:15f0ed7e2441883cb3509959c8eb9ce73c0a1f277d3e382e0af89730c672b6eb"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-CONCEPT-SEMANTIC-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-CORE-0013",
+        "level": "must",
+        "text": "**MUST.** Net membership MUST be declared as endpoint references in semantic source data."
+      },
+      {
+        "id": "AIXEM-REQ-CORE-0014",
+        "level": "must",
+        "text": "**MUST.** An endpoint MUST NOT be both a member of a net and explicitly marked no-connect."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-CONCEPT-NET-001",
+        "path": "docs/concepts/net-model.md"
+      }
+    ],
+    "summary": "Defines net membership, endpoint closure, labels, and the separation between logical nets and route paths.",
+    "title": "Net Model"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

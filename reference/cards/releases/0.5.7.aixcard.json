@@ -1,0 +1,56 @@
+{
+  "card": {
+    "aliases": [
+      "0.5.7 release",
+      "document governance release",
+      "documentation information architecture release"
+    ],
+    "appliesTo": [
+      "release-notes"
+    ],
+    "domain": "releases",
+    "estimatedReadBytes": 4025,
+    "id": "AIXEM-RELEASE-057-001",
+    "inputs": [],
+    "keywords": [
+      "0.5.7 release",
+      "AIXEM 0.5.7 Document Information Architecture and Governance",
+      "build-documentation",
+      "document governance release",
+      "documentation information architecture release",
+      "publish-release"
+    ],
+    "kind": "release-note",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/releases/0.5.7.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:3ef29e80dc5d8c6521dbb88ecb07731312704b78da17e44ebdcdedc904c26a2f"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 900,
+    "readNext": [
+      "AIXEM-RELEASE-056-001",
+      "AIXEM-SPEC-DOC-GOVERNANCE-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-RELEASE-057-001.read",
+        "level": "should",
+        "text": "Establishes repository-wide document roles, version-scoped planning and validation homes, canonical path migrations, controlled metadata, and fail-closed documentation governance."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-RELEASE-057-001",
+        "path": "docs/releases/0.5.7.md"
+      }
+    ],
+    "summary": "Establishes repository-wide document roles, version-scoped planning and validation homes, canonical path migrations, controlled metadata, and fail-closed documentation governance.",
+    "title": "AIXEM 0.5.7 Document Information Architecture and Governance"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

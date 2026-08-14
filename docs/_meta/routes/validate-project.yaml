@@ -1,0 +1,114 @@
+schema: https://schemas.aixem.org/documentation/task-route/1
+formatVersion: '1.0'
+kind: simple
+id: validate-project
+intent: validate-project
+aliases:
+- validate project
+- check schematic
+- run conformance
+- verify project
+- schematic lint
+summary: Validate final authoring sources, bindings, routes, deterministic rendering,
+  and evidence
+budget:
+  max_documents: 7
+  max_bytes: 98304
+  max_depth: 3
+expected_inputs:
+- final authoritative source artifacts
+- locked project manifest
+- render/review outputs
+steps:
+- order: 1
+  document: AIXEM-SPEC-PROJECT-LOCK-001
+  section: operational-rules
+  purpose: Verify project-local paths, identities, and digests.
+  required: true
+- order: 2
+  document: AIXEM-CONF-VALIDATION-001
+  section: 0-5-1-authoring-validation-layers
+  purpose: Run structural, semantic, placement, routing, review, and evidence validation
+    in authority order.
+  required: true
+- order: 3
+  document: AIXEM-SPEC-LIBRARY-LAYOUT-001
+  section: review-and-claim-boundaries
+  purpose: Validate canonical new paths, provenance, semantic identity, review evidence,
+    and separated result claims.
+  required: true
+- order: 4
+  document: AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001
+  section: bounded-compatibility-precheck
+  purpose: Validate pin semantics and conservative PASS/WARN/ERROR/NOT_EVALUATED compatibility
+    outcomes.
+  required: true
+- order: 5
+  document: AIXEM-SPEC-RENDERER-001
+  section: fail-closed-conditions
+  purpose: Confirm renderer inputs and bindings resolve fail closed.
+  required: true
+- order: 6
+  document: AIXEM-SYMBOL-LINT-001
+  section: 0-5-2-corpus-conformance-checks
+  purpose: Apply path, provenance, schema, design-profile, binding, and golden-render
+    checks.
+  required: true
+- order: 7
+  document: AIXEM-AGENT-VISUAL-QA-001
+  section: completion-record
+  purpose: Confirm visual evidence, owner-local repair, and completion.
+  required: true
+completion:
+- Schemas and project locks pass
+- Semantic, component, port, placement, and route closure pass
+- Authoring examples and renderer contract tests pass
+- Visual review has no release-critical defect
+- Deterministic outputs and evidence pass
+- Applicable symbol expressiveness tier and MU boundary are reported
+expected_outputs:
+- machine-readable validation results
+- requirement/test evidence
+- release-ready project artifacts
+validators:
+- schematic.authoring_integrity
+- schematic.project_schema
+- schematic.digest_lock
+- schematic.authoring_binding
+- schematic.symbol_design
+- schematic.authoring_examples
+- schematic.renderer_contract
+- agent.visual_qa
+- agent.diagnostics
+- agent.change_scope
+- agent.run_record
+- agent.authoring_closed_loop
+writes:
+  authority: []
+  artifacts: []
+  derived:
+  - render/**
+  - evidence/**
+  prohibited:
+  - render/**
+  - evidence/**
+  - '**/viewer.html'
+  - '**/workbench.html'
+  - '**/*.svg'
+  - '**/resolved-scene.json'
+  - '**/resolved-project-scene.json'
+  - '**/viewer-model.json'
+  - '**/render-manifest.json'
+  - '**/project-validation.json'
+remediation:
+  acceptsDiagnostics:
+  - AIXEM-DIAG-SCHEMA-INVALID
+  - AIXEM-DIAG-UNSUPPORTED-CAPABILITY
+  - AIXEM-DIAG-LIBRARY-PART-PINOUT-REVIEW-MISSING
+  - AIXEM-DIAG-LIBRARY-PART-INTENT-REVIEW-INCOMPLETE
+  - AIXEM-DIAG-PIN-SOURCE-REVIEW-INCOMPLETE
+  - AIXEM-DIAG-ERC-OUTPUT-CONFLICT
+  - AIXEM-DIAG-ERC-POWER-OUTPUT-CONFLICT
+  - AIXEM-DIAG-ERC-CONNECTED-NOCONNECT
+  - AIXEM-DIAG-ERC-INPUT-ONLY
+  - AIXEM-DIAG-ERC-UNCERTAIN-TOPOLOGY

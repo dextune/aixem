@@ -1,0 +1,55 @@
+{
+  "card": {
+    "aliases": [
+      "AI agent",
+      "agent operations",
+      "agent docs"
+    ],
+    "appliesTo": [
+      "agent-guide-navigation"
+    ],
+    "domain": "agent",
+    "estimatedReadBytes": 4834,
+    "id": "AIXEM-AGENT-INDEX-001",
+    "inputs": [],
+    "keywords": [
+      "AI Agent Operations",
+      "AI agent",
+      "agent docs",
+      "agent operations",
+      "change-architecture",
+      "create-schematic",
+      "create-symbol",
+      "route-nets"
+    ],
+    "kind": "index",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/agent/overview.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:d8c65f1b18269aff2e4d627f725d498efb66b98d8e99266ed895b9425032d9b1"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 500,
+    "readNext": [],
+    "rules": [
+      {
+        "id": "AIXEM-AGENT-INDEX-001.read",
+        "level": "should",
+        "text": "The operational entrypoint for bounded retrieval, authority-aware modification, schematic authoring, validation, and release work by AI agents."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-AGENT-INDEX-001",
+        "path": "docs/agent/index.md"
+      }
+    ],
+    "summary": "The operational entrypoint for bounded retrieval, authority-aware modification, schematic authoring, validation, and release work by AI agents.",
+    "title": "AI Agent Operations"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

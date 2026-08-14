@@ -1,0 +1,56 @@
+schema: https://schemas.aixem.org/documentation/task-route/1
+formatVersion: '1.0'
+id: change-architecture
+intent: change-architecture
+aliases:
+- change architecture
+- modify system design
+- architecture refactor
+- add service
+- change authority
+summary: Change system architecture
+budget:
+  max_documents: 7
+  max_bytes: 98304
+  max_depth: 3
+steps:
+- order: 1
+  document: AIXEM-CONCEPT-AUTHORITY-001
+  section: operational-rules
+  purpose: Read Authority Model for this task stage.
+  required: true
+- order: 2
+  document: AIXEM-ARCH-SYSTEM-001
+  section: overview
+  purpose: Read System Overview for this task stage.
+  required: true
+- order: 3
+  document: AIXEM-ARCH-PIPELINE-001
+  section: authoritative-workflow
+  purpose: Read Build and Authoring Pipeline for this task stage.
+  required: true
+- order: 4
+  document: AIXEM-SPEC-AUTHORITY-001
+  section: operational-rules
+  purpose: Read Authority and Precedence for this task stage.
+  required: true
+- order: 5
+  document: AIXEM-ARCH-ADR-INDEX-001
+  section: overview
+  purpose: Read Architecture Decision Records for this task stage.
+  required: true
+- order: 6
+  document: AIXEM-GOV-COMPAT-001
+  section: validation-and-evidence
+  purpose: Read Compatibility Policy for this task stage.
+  required: true
+completion: &id001
+- Owning boundaries are explicit
+- An ADR records durable decisions
+- Compatibility impact is stated
+- Affected requirements and tests are updated
+expected_outputs: *id001
+validators:
+- manual.architecture
+- docs.metadata
+- docs.dependencies

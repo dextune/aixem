@@ -1,0 +1,18 @@
+{
+  "entryRoute": "author-component-circuit",
+  "exampleFixture": "examples/authoring/02-connector",
+  "formatVersion": "1.0",
+  "id": "EVAL-02",
+  "prohibitedDiscovery": [
+    "repository-wide search",
+    "renderer implementation inspection"
+  ],
+  "prompt": "Create a six-pin connector with correct pitch, numbering, total port mapping, and field layout.",
+  "requiredExitConditions": [
+    "symbol-ready",
+    "release-valid"
+  ],
+  "schema": "https://schemas.aixem.org/validation/agent-eval-task/1",
+  "scoringProfile": "validation/agent-evals/scoring.md",
+  "title": "Six-pin connector"
+}

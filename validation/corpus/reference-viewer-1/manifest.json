@@ -1,0 +1,46 @@
+{
+  "browser": "controlled Chromium through Playwright",
+  "caseCount": 18,
+  "cases": [
+    "cases/V001.json",
+    "cases/V002.json",
+    "cases/V003.json",
+    "cases/V004.json",
+    "cases/V005.json",
+    "cases/V006.json",
+    "cases/V007.json",
+    "cases/V008.json",
+    "cases/V009.json",
+    "cases/V010.json",
+    "cases/V011.json",
+    "cases/V012.json",
+    "cases/V013.json",
+    "cases/V014.json",
+    "cases/V015.json",
+    "cases/V016.json",
+    "cases/V017.json",
+    "cases/V018.json"
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "id": "reference-viewer-1",
+  "networkPolicy": "deny",
+  "release": "0.5.4",
+  "requiredProfiles": [
+    "reference-viewer",
+    "review-workbench"
+  ],
+  "schema": "https://schemas.aixem.org/conformance/reference-viewer-corpus/1",
+  "screenshots": [
+    "single-sheet-desktop.png",
+    "single-sheet-narrow.png",
+    "multi-sheet-sheet-desktop.png",
+    "multi-sheet-overview-desktop.png",
+    "multi-sheet-composite-desktop.png",
+    "multi-sheet-narrow.png",
+    "project-net-selected.png",
+    "interface-selected.png",
+    "layer-hidden.png",
+    "keyboard-focus-visible.png"
+  ]
+}

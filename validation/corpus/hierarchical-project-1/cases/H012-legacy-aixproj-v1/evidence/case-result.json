@@ -1,0 +1,38 @@
+{
+  "canonicalHashes": {
+    "drawing.svg": "sha256:f83eddc359ad3ea3713bbc1032ee66bbbb6fd14d55b82bc1e1deca7a2a3eba21",
+    "resolved-scene.json": "sha256:0f4a1ae8564a0a02829739f85a9b29d0138cb18efa86104d24f1c36b1ac66f2f",
+    "viewer-model.json": "sha256:06e2bb316f37519ae8d4abd15dc408af1fb816e3f4d27f6b3f95d9879c73f649",
+    "viewer.html": "sha256:cfda533e0e1bd4cb6f5b1c074dff8ff39c0c987d3342ed567f17acdedbaf66b9",
+    "workbench.html": "sha256:70543c21cba554b72278159e76d7d38d080271baeeb1448c7f5e2ea164f53e97"
+  },
+  "checks": [
+    {
+      "id": "H012_LEGACY_SCHEMA",
+      "observation": "https://schemas.aixem.org/component-graphics/aixproj/1",
+      "status": "pass"
+    },
+    {
+      "id": "H012_LEGACY_ARTIFACTS",
+      "observation": [
+        "drawing-svg",
+        "resolved-scene",
+        "viewer-model",
+        "standalone-viewer",
+        "engineering-workbench"
+      ],
+      "status": "pass"
+    }
+  ],
+  "deterministic": true,
+  "diagnosticMatched": true,
+  "error": null,
+  "expected": "pass",
+  "expectedDiagnostic": null,
+  "id": "H012",
+  "observed": "pass",
+  "projectDigest": "sha256:b5dc70f92d81155e35f0453f2b9decf88fa676ecf33e43b57d4433650c0a3b7e",
+  "repeatCount": 3,
+  "status": "pass",
+  "title": "Legacy aixproj v1"
+}

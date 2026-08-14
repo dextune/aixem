@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; connect-src 'none'; font-src 'none'; object-src 'none'; media-src 'none'; frame-src 'none'; child-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="aixem-release" content="AIXEM-SRP-0.5.5-2026-08-11">
+<meta name="aixem-viewer-contract" content="aixem.reference-viewer@1">
+<meta name="aixem-dom-contract" content="1">
+<title>Visual Repair — AIXEM Review Workbench</title>
+<style>
+:root{--bg:#d9dcda;--chrome:#f4f5f3;--panel:#fbfcfa;--line:#bec5c0;--line-strong:#929c95;--ink:#1d2520;--muted:#65716a;--accent:#245c92;--accent-soft:#e0edf8;--selection:#1769aa;--pass:#246d43;--warning:#8a6318;--danger:#9b3b32;--canvas:#bfc4c1;--focus:#0b65b0;--review:#eef2ef}*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:var(--bg);color:var(--ink);font:12px/1.4 Arial,Helvetica,sans-serif}button,input{font:inherit;color:inherit}button{cursor:pointer}.skip{position:fixed;left:8px;top:-50px;z-index:100;background:#fff;border:2px solid var(--focus);padding:8px}.skip:focus{top:8px}.app{height:100%;display:grid;grid-template-rows:36px 42px minmax(0,1fr) 25px}.app.has-review{grid-template-rows:36px 42px minmax(0,1fr) minmax(112px,20vh) 25px}.titlebar{display:grid;grid-template-columns:minmax(190px,1fr) auto minmax(190px,1fr);align-items:center;background:#e5e7e4;border-bottom:1px solid var(--line-strong);padding:0 10px}.brand{display:flex;align-items:center;gap:8px;font-weight:700;letter-spacing:.08em}.brand-mark{width:22px;height:22px;display:grid;place-items:center;border:1px solid #58645d;background:#fff;font:700 10px/1 ui-monospace,monospace}.project-title{font-weight:700;text-align:center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.profile-badge{justify-self:end;border:1px solid var(--line-strong);background:#fff;padding:3px 7px;font:10px/1.2 ui-monospace,monospace;text-transform:uppercase;letter-spacing:.05em}.toolbar{display:flex;align-items:center;gap:5px;padding:5px 8px;background:var(--chrome);border-bottom:1px solid var(--line-strong);overflow:auto}.mode-group,.viewport-group,.panel-group{display:flex;align-items:center;gap:3px}.toolbar-separator{height:25px;width:1px;background:var(--line);margin:0 4px}.toolbar button{min-height:30px;border:1px solid var(--line);background:#fff;padding:4px 9px}.toolbar button:hover{background:#f0f5f2}.toolbar button[aria-pressed="true"]{background:var(--accent-soft);border-color:#7a9fbe;color:#16466d;font-weight:700}.toolbar button:disabled{opacity:.45;cursor:not-allowed}.readonly{margin-left:auto;color:var(--muted);white-space:nowrap}.readonly b{color:var(--pass)}.workspace{position:relative;min-height:0;display:grid;grid-template-columns:268px minmax(0,1fr) 292px;background:var(--canvas)}.panel{min-width:0;min-height:0;background:var(--panel);display:flex;flex-direction:column}.navigator{border-right:1px solid var(--line-strong)}.inspector{border-left:1px solid var(--line-strong)}.panel-header{height:31px;display:flex;align-items:center;justify-content:space-between;padding:0 9px;background:#e6e9e6;border-bottom:1px solid var(--line);font-weight:700}.panel-close{display:none;border:1px solid var(--line);background:#fff;padding:2px 6px}.search-wrap{padding:7px;border-bottom:1px solid var(--line)}.search-wrap input{width:100%;height:31px;border:1px solid var(--line-strong);background:#fff;padding:5px 8px;outline:none}.search-wrap input:focus{border-color:var(--focus);box-shadow:0 0 0 2px #0b65b033}.category-tabs{display:flex;overflow:auto;border-bottom:1px solid var(--line);background:#f0f2f0}.category-tabs button{border:0;border-right:1px solid var(--line);background:transparent;padding:7px 8px;white-space:nowrap}.category-tabs button[aria-selected="true"]{background:#fff;color:var(--accent);font-weight:700;box-shadow:inset 0 -2px var(--accent)}.navigator-scroll{min-height:0;overflow:auto;flex:1;padding:5px}.nav-group{margin-bottom:8px}.nav-group h2{margin:0;padding:5px 6px;color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:.08em}.nav-row{width:100%;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px;align-items:center;text-align:left;border:1px solid transparent;background:transparent;padding:6px 7px;min-height:31px}.nav-row:hover,.nav-row.active{background:var(--accent-soft);border-color:#9cb9d0}.nav-row .label{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.nav-row .scope{font-size:10px;color:var(--muted);max-width:84px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.nav-row[data-kind="sheet"]{padding-left:calc(7px + var(--depth,0)*13px)}.layers{border-top:1px solid var(--line);max-height:190px;overflow:auto}.layer-sheet{padding:6px 8px}.layer-sheet[hidden]{display:none}.layer-sheet strong{display:block;margin-bottom:5px}.layer-sheet label{display:flex;align-items:flex-start;gap:6px;padding:3px 0}.layer-sheet small{display:block;color:var(--muted)}.stage{position:relative;min-width:0;min-height:0;overflow:hidden}.view-panel{position:absolute;inset:0}.view-panel[hidden]{display:none}.viewport{position:absolute;inset:0;overflow:hidden;background:#c3c7c4;outline:none;touch-action:none;cursor:default}.viewport:focus{box-shadow:inset 0 0 0 3px var(--focus)}.viewport.panning{cursor:grabbing}.canvas-transform{position:absolute;left:0;top:0;transform-origin:0 0;background:#fff;box-shadow:0 2px 12px #0004;will-change:transform}.canvas-transform>svg{display:block;width:100%;height:100%;max-width:none}.canvas-transform [data-aixem-qid]{cursor:pointer}.canvas-transform [data-aixem-qid].selected{outline:none}.canvas-transform [data-aixem-kind="sheet"].selected>.project-sheet-block{stroke:var(--selection)!important;stroke-width:2!important}.canvas-transform [data-aixem-kind="interface"].selected{filter:drop-shadow(0 0 2px var(--selection))}.canvas-transform [data-aixem-kind="project-net"].selected .project-net-route,.canvas-transform [data-aixem-kind="project-net"].selected.project-net-route{stroke:var(--selection)!important;stroke-width:2!important}.canvas-transform [data-aixem-kind="project-net"].selected .project-net-junction,.canvas-transform [data-aixem-kind="project-net"].selected.project-net-junction{fill:var(--selection)!important}.canvas-transform [data-aixem-kind="local-net"].selected .net-route,.canvas-transform [data-aixem-kind="local-net"].selected.net-route{stroke:var(--selection)!important;stroke-width:1.25!important}.canvas-transform [data-aixem-kind="entity"].selected{filter:drop-shadow(0 0 1.5px var(--selection))}.canvas-hint{position:absolute;z-index:4;right:8px;top:8px;padding:4px 7px;background:#ffffffde;border:1px solid var(--line);color:var(--muted);pointer-events:none}.inspector-body{min-height:0;overflow:auto;flex:1;padding:8px}.empty{color:var(--muted);padding:10px 2px}.property-grid{display:grid;grid-template-columns:108px minmax(0,1fr);border-top:1px solid var(--line);border-left:1px solid var(--line)}.property-grid dt,.property-grid dd{margin:0;padding:6px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);overflow-wrap:anywhere}.property-grid dt{background:#edf0ed;color:#536059}.property-grid dd{background:#fff}.selection-kind{display:inline-block;margin-bottom:8px;padding:3px 6px;border:1px solid #8eabc2;background:var(--accent-soft);font:10px/1.2 ui-monospace,monospace;text-transform:uppercase}.authority-note{margin-top:9px;padding:8px;border-left:3px solid var(--accent);background:#eef5fa;color:#385368}.review-panel{min-height:0;background:var(--review);border-top:1px solid var(--line-strong);display:grid;grid-template-columns:minmax(0,2fr) minmax(250px,1fr);overflow:hidden}.review-section{min-height:0;overflow:auto}.review-section+ .review-section{border-left:1px solid var(--line)}.review-section h2{position:sticky;top:0;margin:0;padding:6px 9px;background:#dde3df;border-bottom:1px solid var(--line);font-size:11px}.review-table{width:100%;border-collapse:collapse;background:#fff}.review-table th,.review-table td{border-bottom:1px solid var(--line);padding:5px 7px;text-align:left;vertical-align:top}.review-table th{background:#f0f3f1}.status-pass{color:var(--pass);font-weight:700}.status-fail{color:var(--danger);font-weight:700}.provenance-list{margin:0;padding:6px 9px;display:grid;grid-template-columns:110px minmax(0,1fr);gap:4px 7px}.provenance-list dt{color:var(--muted)}.provenance-list dd{margin:0;overflow-wrap:anywhere;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:10px}.statusbar{display:grid;grid-template-columns:minmax(0,1fr) auto auto auto;gap:0;background:#e8eae8;border-top:1px solid var(--line-strong)}.statusbar span{padding:4px 8px;border-right:1px solid var(--line);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.status-main{font-weight:600}.panel-toggle{display:none!important}button:focus-visible,input:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--focus);outline-offset:1px}@media(max-width:920px){.workspace{grid-template-columns:minmax(0,1fr)}.navigator,.inspector{position:absolute;z-index:20;top:0;bottom:0;width:min(88vw,320px);box-shadow:0 0 24px #0004;transition:transform .16s ease}.navigator{left:0;transform:translateX(-104%)}.inspector{right:0;transform:translateX(104%)}.workspace.nav-open .navigator{transform:translateX(0)}.workspace.inspector-open .inspector{transform:translateX(0)}.panel-close,.panel-toggle{display:inline-block!important}.readonly{display:none}.project-title{text-align:left}.titlebar{grid-template-columns:auto minmax(0,1fr) auto;gap:8px}.profile-badge{font-size:8px}.canvas-hint{display:none}}@media(max-width:620px){.app.has-review{grid-template-rows:36px 42px minmax(0,1fr) 140px 25px}.review-panel{grid-template-columns:1fr}.review-section.provenance{display:none}.toolbar{padding-inline:4px}.toolbar button{padding-inline:7px}.titlebar{padding-inline:6px}.brand span:last-child{display:none}.statusbar{grid-template-columns:minmax(0,1fr) auto}.statusbar span:nth-child(3),.statusbar span:nth-child(4){display:none}}
+</style>
+</head>
+<body>
+<a class="skip" href="#viewer-stage">Skip to schematic canvas</a>
+<div class="app has-review" data-aixem-viewer="1" data-aixem-profile="review-workbench" data-aixem-project="authoring:visual_repair" data-aixem-dom-contract="1">
+<header class="titlebar">
+  <div class="brand"><span class="brand-mark">AX</span><span>AIXEM</span></div>
+  <div class="project-title">Visual Repair</div>
+  <div class="profile-badge">Review Workbench 1</div>
+</header>
+<nav class="toolbar" aria-label="Viewer controls">
+  <div class="panel-group">
+    <button type="button" class="panel-toggle" data-aixem-action="toggle-navigator" aria-controls="viewer-navigator" aria-expanded="false">Navigator</button>
+    <button type="button" class="panel-toggle" data-aixem-action="toggle-inspector" aria-controls="viewer-inspector" aria-expanded="false">Inspector</button>
+  </div>
+  <span class="toolbar-separator panel-toggle" aria-hidden="true"></span>
+  <div class="mode-group" aria-label="View mode">
+    <button type="button" data-aixem-action="mode:sheet" data-mode="sheet" aria-pressed="false">Sheet</button>
+  </div>
+  <span class="toolbar-separator" aria-hidden="true"></span>
+  <div class="viewport-group" aria-label="Viewport controls">
+    <button type="button" data-aixem-action="zoom-out" aria-label="Zoom out">−</button>
+    <button type="button" data-aixem-action="fit" aria-label="Fit current view">Fit</button>
+    <button type="button" data-aixem-action="zoom-in" aria-label="Zoom in">+</button>
+  </div>
+  <span class="toolbar-separator" aria-hidden="true"></span>
+  <button type="button" data-aixem-action="clear-selection">Clear selection</button>
+  <span class="readonly"><b>READ ONLY</b> · derived viewer state</span>
+</nav>
+<div class="workspace" id="viewer-workspace">
+  <aside class="panel navigator" id="viewer-navigator" aria-label="Qualified object navigator">
+    <div class="panel-header"><span>Navigator</span><button class="panel-close" type="button" data-aixem-action="close-navigator" aria-label="Close navigator">×</button></div>
+    <div class="search-wrap"><label for="viewer-search">Search qualified objects</label><input id="viewer-search" type="search" autocomplete="off" spellcheck="false" placeholder="Reference, value, net, port, or QID"></div>
+    <div class="category-tabs" role="tablist" aria-label="Navigator categories">
+      <button type="button" role="tab" data-nav-category="sheet" aria-selected="false">Sheets</button>
+      <button type="button" role="tab" data-nav-category="entity" aria-selected="false">Components</button>
+    </div>
+    <div class="navigator-scroll" id="navigator-results">
+      <section class="nav-group" data-nav-group="sheet">
+        <h2>Sheets</h2>
+        <button type="button" class="nav-row" data-aixem-select="sheet:main" data-qid="sheet:main" data-kind="sheet" data-search-text="sheet:main visual repair main main authoring:visual_repair visual repair" aria-selected="false" style="--depth:0">
+          <span class="label">Visual Repair</span><span class="scope">main</span>
+        </button>
+      </section>
+      <section class="nav-group" data-nav-group="entity">
+        <h2>Components</h2>
+        <button type="button" class="nav-row" data-aixem-select="entity:main:R1" data-qid="entity:main:R1" data-kind="entity" data-search-text="entity:main:r1 r1 · 1k r1 main r1 1k authoring:resistor authoring:resistor" aria-selected="false">
+          <span class="label">R1 · 1k</span><span class="scope">main</span>
+        </button>
+      </section>
+    </div>
+    <section class="layers" aria-label="Sheet layer visibility">
+      <div class="panel-header"><span>Layers</span></div>
+      <div class="layer-sheet" data-layer-sheet="main" hidden>
+        <strong>Visual Repair</strong>
+        <label><input type="checkbox" data-toggle-sheet-layer="1" data-layer-sheet-id="main" data-layer-id="connections" checked><span>connections<small>semantic net routes</small></span></label>
+        <label><input type="checkbox" data-toggle-sheet-layer="1" data-layer-sheet-id="main" data-layer-id="symbols" checked><span>symbols<small>component symbols</small></span></label>
+        <label><input type="checkbox" data-toggle-sheet-layer="1" data-layer-sheet-id="main" data-layer-id="annotation" checked><span>annotation<small>notes</small></span></label>
+      </div>
+    </section>
+  </aside>
+  <main class="stage" id="viewer-stage" aria-label="Schematic views">
+    <section class="view-panel" data-aixem-view="sheet" data-sheet-panel="main" hidden>
+      <div class="viewport" data-viewport-key="sheet:main" data-source-width="160.0" data-source-height="100.0" data-source-unit="mm" tabindex="0" aria-label="Visual Repair sheet canvas">
+        <div class="canvas-hint">Wheel zoom · Space-drag or middle-drag pan · arrows pan · 0 fit</div>
+        <div class="canvas-transform" data-canvas-key="sheet:main" data-canvas-width="320.0" data-canvas-height="200.0" style="width:320.0px;height:200.0px"><svg data-sheet-canvas="main" data-sheet="main" data-aixem-kind="sheet" data-aixem-qid="sheet:main" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" viewBox="0 0 160 100" width="160" height="100" aria-labelledby="review-workbench-sheet-main-aixem-title review-workbench-sheet-main-aixem-desc" data-project="authoring:visual_repair"><title id="review-workbench-sheet-main-aixem-title">Visual Repair</title><desc id="review-workbench-sheet-main-aixem-desc">AIXEM deterministic symbol-graphics rendering. Connectivity follows the semantic source, not geometry.</desc><defs><pattern id="review-workbench-sheet-main-aixem-minor-grid" width="2.5" height="2.5" patternUnits="userSpaceOnUse"><circle cx="0" cy="0" r=".18" fill="#ECEDE9"/></pattern><pattern id="review-workbench-sheet-main-aixem-major-grid" width="10" height="10" patternUnits="userSpaceOnUse"><circle cx="0" cy="0" r=".32" fill="#D7D9D5"/></pattern><style>
+svg{background:#FCFCFB;font-family:Arial,Helvetica,sans-serif;text-rendering:geometricPrecision}
+.sheet-background{fill:#FCFCFB!important;stroke:none!important}.sheet-grid{pointer-events:none}.sheet-frame{fill:none;stroke:#8b918c;stroke-width:.45;vector-effect:non-scaling-stroke}
+#layer-symbols .entity line,#layer-symbols .entity polyline,#layer-symbols .entity polygon,#layer-symbols .entity rect,#layer-symbols .entity circle,#layer-symbols .entity ellipse,#layer-symbols .entity path{stroke:#0C7772!important;vector-effect:non-scaling-stroke;stroke-linecap:square!important;stroke-linejoin:miter!important}
+#layer-symbols .entity rect{fill:#fffef8!important}#layer-symbols .entity text{fill:#0C7772!important;stroke:none!important}
+.net-route{stroke:#24864A!important;stroke-width:.68!important;stroke-linecap:square!important;stroke-linejoin:miter!important;fill:none;vector-effect:non-scaling-stroke;shape-rendering:geometricPrecision}
+.net-junction{fill:#24864A!important;stroke:none!important}.net-label{font:600 3.4px Arial,sans-serif;fill:#1B4E8C!important;stroke:#fff!important;stroke-width:1.5!important;paint-order:stroke;letter-spacing:.02em}
+.pin-name{font:600 2.65px Arial,sans-serif;fill:#0C7772!important;stroke:#fff!important;stroke-width:.7!important;paint-order:stroke;pointer-events:none}
+.pin-number{font:600 2.35px Arial,sans-serif;fill:#A33C30!important;stroke:#fff!important;stroke-width:.7!important;paint-order:stroke;pointer-events:none}
+.pin-target{fill:transparent;stroke:transparent;vector-effect:non-scaling-stroke}.entity:hover .pin-target,.entity.selected .pin-target{fill:#fff;stroke:#E18A24!important;stroke-width:.6!important}
+.no-connect line{stroke:#a33c30;stroke-width:.7;vector-effect:non-scaling-stroke}.title-block line,.title-block rect{stroke:#626b65;stroke-width:.45;vector-effect:non-scaling-stroke;fill:#fffef8}.title-block text{fill:#2f3632;stroke:none;font-family:Arial,sans-serif}
+.entity{cursor:pointer}.entity.selected>*:not(title),.entity.selected .pin-overlay>*{filter:drop-shadow(0 0 .8px #E18A24);stroke:#E18A24!important}.net.selected .net-route{stroke:#E18A24!important;stroke-width:1.2!important}.net.selected .net-junction{fill:#E18A24!important}
+.annotation-label{fill:#1B4E8C!important}*{shape-rendering:geometricPrecision}
+</style><marker id="review-workbench-sheet-main-dimension-arrow" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto-start-reverse" markerUnits="strokeWidth"><path d="M 6 0 L 0 3 L 6 6" fill="none" stroke="context-stroke"/></marker></defs><rect class="sheet-background" x="0" y="0" width="160" height="100"/><rect class="sheet-grid minor-grid" x="0" y="0" width="160" height="100" fill="url(#review-workbench-sheet-main-aixem-minor-grid)"/><rect class="sheet-grid major-grid" x="0" y="0" width="160" height="100" fill="url(#review-workbench-sheet-main-aixem-major-grid)"/><rect class="sheet-frame" x="8" y="8" width="144" height="84"/><g id="review-workbench-sheet-main-layer-connections" data-layer="connections" data-purpose="semantic net routes"></g><g id="review-workbench-sheet-main-layer-symbols" data-layer="symbols" data-purpose="component symbols"><g data-entity="R1" data-component-type="authoring:resistor" aria-label="R1 — Repaired resistor" tabindex="0" class="entity symbol-instance" transform="matrix(1 0 0 1 80 50)" data-aixem-kind="entity" data-aixem-qid="entity:main:R1"><title>R1 — Repaired resistor</title><line id="review-workbench-sheet-main-R1-lead-1" data-symbol-layer="body" data-role="pin-lead" stroke="#0c7772" stroke-width="0.65" stroke-linecap="square" stroke-linejoin="miter" fill="none" x1="-15" y1="0" x2="-10" y2="0"/><line id="review-workbench-sheet-main-R1-lead-2" data-symbol-layer="body" data-role="pin-lead" stroke="#0c7772" stroke-width="0.65" stroke-linecap="square" stroke-linejoin="miter" fill="none" x1="10" y1="0" x2="15" y2="0"/><rect id="review-workbench-sheet-main-R1-body-iec" data-symbol-layer="body" data-role="body" stroke="#0c7772" stroke-width="0.65" stroke-linecap="square" stroke-linejoin="miter" fill="#fffef8" x="-10" y="-3.75" width="20" height="7.5"/><text id="review-workbench-sheet-main-R1-field-reference" data-symbol-layer="fields" data-role="reference-field" stroke="none" fill="#17231d" font-family="Arial, sans-serif" font-size="3.5" font-weight="600" x="0" y="-7.5" text-anchor="middle" dominant-baseline="middle">R1</text><text id="review-workbench-sheet-main-R1-field-value" data-symbol-layer="fields" data-role="value-field" stroke="none" fill="#4f5e56" font-family="Arial, sans-serif" font-size="3.0" font-weight="400" x="0" y="7.5" text-anchor="middle" dominant-baseline="middle">1k</text></g></g><g id="review-workbench-sheet-main-layer-annotation" data-layer="annotation" data-purpose="notes"></g><g id="review-workbench-sheet-main-layer-no-connect" data-layer="no-connect"><g class="no-connect" data-endpoint="R1.1"><title>No connect R1.1</title><line x1="63" y1="48" x2="67" y2="52"/><line x1="67" y1="48" x2="63" y2="52"/></g><g class="no-connect" data-endpoint="R1.2"><title>No connect R1.2</title><line x1="93" y1="48" x2="97" y2="52"/><line x1="97" y1="48" x2="93" y2="52"/></g></g><g class="title-block" aria-label="Drawing title block"><rect x="28" y="69" width="122" height="21"/><line x1="28" y1="79" x2="150" y2="79"/><line x1="112" y1="79" x2="112" y2="90"/><line x1="131" y1="79" x2="131" y2="90"/><text x="32" y="75.4" font-size="4.1" font-weight="700">Visual repair</text><text x="32" y="85.2" font-size="3.2">visual_repair-layout</text><text x="115" y="83" font-size="2.2">REV</text><text x="121" y="87.2" font-size="3.6" font-weight="700">A</text><text x="134" y="83" font-size="2.2">SHEET</text><text x="138" y="87.2" font-size="3.6" font-weight="700">1/1</text></g></svg></div>
+      </div>
+    </section>
+  </main>
+  <aside class="panel inspector" id="viewer-inspector" aria-label="Selected object inspector">
+    <div class="panel-header"><span>Inspector</span><button class="panel-close" type="button" data-aixem-action="close-inspector" aria-label="Close inspector">×</button></div>
+    <div class="inspector-body" id="inspector-body"><div class="empty">No semantic object selected.</div></div>
+  </aside>
+</div>
+<section class="review-panel" data-aixem-workbench-region="evidence" aria-label="Engineering review evidence">
+  <div class="review-section diagnostics"><h2>Diagnostics / Evidence</h2><table class="review-table"><thead><tr><th>Check</th><th>Status</th><th>Observation</th></tr></thead><tbody>
+<tr><td>VIEWER-READONLY-001</td><td class="status-pass">PASS</td><td>Reference Viewer runtime state is derived and read-only.</td></tr><tr><td>VIEWER-QID-001</td><td class="status-pass">PASS</td><td>2 qualified objects indexed without ambiguity.</td></tr><tr><td>VIEWER-ASSET-001</td><td class="status-pass">PASS</td><td>The self-contained Viewer requires no remote presentation assets.</td></tr><tr><td>GRID-001</td><td class="status-pass">PASS</td><td>1/1 placements satisfy the declared snap grid.</td></tr><tr><td>ROUTE-001</td><td class="status-pass">PASS</td><td>0 orthogonal route segments are resolved.</td></tr>  </tbody></table></div>
+  <div class="review-section provenance"><h2>Artifact Provenance</h2><dl class="provenance-list"><dt>Viewer contract</dt><dd>aixem.reference-viewer@1</dd><dt>DOM contract</dt><dd>1</dd><dt>Project schema</dt><dd>https://schemas.aixem.org/component-graphics/aixproj/1</dd><dt>Renderer</dt><dd>{&#34;id&#34;: &#34;aixem-grid-schematic-reference-renderer&#34;, &#34;version&#34;: &#34;0.5.1&#34;}</dd><dt>Resolved evidence</dt><dd>https://schemas.aixem.org/component-graphics/resolved-scene/1</dd><dt>Viewer state</dt><dd>derived, ephemeral, non-authoritative</dd></dl></div>
+</section>
+<footer class="statusbar" aria-live="polite"><span class="status-main" id="viewer-status">Ready</span><span id="viewer-coordinate">X — · Y —</span><span id="viewer-mode-status">Sheet</span><span>AIXEM-SRP-0.5.5-2026-08-11</span></footer>
+</div>
+<script id="aixem-viewer-model" type="application/json">{"capabilities":{"composite":false,"diagnostics":true,"hierarchy":false,"interfacePorts":false,"offline":true,"overview":false,"projectNets":false,"qualifiedSearch":true,"readOnly":true,"sheet":true,"sheetScopedLayers":true,"viewport":true},"diagnostics":[{"code":"VIEWER-READONLY-001","message":"Reference Viewer runtime state is derived and read-only.","severity":"info","status":"PASS"},{"code":"VIEWER-QID-001","message":"2 qualified objects indexed without ambiguity.","severity":"info","status":"PASS"},{"code":"VIEWER-ASSET-001","message":"The self-contained Viewer requires no remote presentation assets.","severity":"info","status":"PASS"},{"code":"GRID-001","message":"1/1 placements satisfy the declared snap grid.","severity":"info","status":"PASS"},{"code":"ROUTE-001","message":"0 orthogonal route segments are resolved.","severity":"info","status":"PASS"}],"domContract":"1","formatVersion":"1.0","hierarchy":[{"children":[],"depth":0,"id":"main","order":0,"parent":null,"qid":"sheet:main","title":"Visual Repair"}],"initialState":{"activeNavigatorCategory":"entity","activeSheet":"main","mode":"sheet","searchQuery":"","selection":null,"visibleLayersBySheet":{"main":{"annotation":true,"connections":true,"symbols":true}}},"objects":{"entity:main:R1":{"category":"Components","kind":"entity","label":"R1 · 1k","nativeId":"R1","properties":[{"label":"Qualified ID","value":"entity:main:R1"},{"label":"Sheet","value":"main"},{"label":"Entity ID","value":"R1"},{"label":"Reference","value":"R1"},{"label":"Value","value":"1k"},{"label":"Component type","value":"authoring:resistor"},{"label":"Symbol ID","value":"authoring:resistor"},{"label":"Variant","value":"default"},{"label":"Placement","value":"{\"entity\":\"R1\",\"layer\":\"symbols\",\"x\":80,\"y\":50}"},{"label":"Parameters","value":"{\"body-height\":7.5,\"body-length\":20,\"lead-length\":5}"},{"label":"Ports","value":"{\"1\":[65.0,50.0],\"2\":[95.0,50.0]}"},{"label":"Symbol digest","value":"sha256:59c410ab8cba7e0d023c9831ff8830606ba74ed8d19d888b6cf888377e243493"}],"qid":"entity:main:R1","relatedQids":[],"representations":["sheet:main"],"searchText":"entity:main:r1 r1 · 1k r1 main r1 1k authoring:resistor authoring:resistor","sheet":"main"},"sheet:main":{"category":"Sheets","kind":"sheet","label":"Visual Repair","nativeId":"main","properties":[{"label":"Qualified ID","value":"sheet:main"},{"label":"Sheet","value":"main"},{"label":"Title","value":"Visual Repair"},{"label":"Width","value":"160"},{"label":"Height","value":"100"},{"label":"Unit","value":"mm"}],"qid":"sheet:main","relatedQids":[],"representations":["sheet:main"],"searchText":"sheet:main visual repair main main authoring:visual_repair visual repair","sheet":"main"}},"project":{"id":"authoring:visual_repair","multiSheet":false,"profile":"circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1","schema":"https://schemas.aixem.org/component-graphics/aixproj/1","title":"Visual Repair"},"provenance":{"authority":{"presentation":".aixlayout","semantics":".aixem","viewerState":"derived-non-authoritative"},"generatedAt":"2026-08-10T00:00:00Z","hashes":{"layout":"sha256:16648e277333dc15e551ab8ffe404a210c2d8432c31a38268541785f18fc3063","libraries":["sha256:5bacb034a1cc4746da16867a30d731e6cc83df741e9c3c28bfb8777d367662e6"],"source":"sha256:fd631efc9f3b87c291a27fa663266a17a0c574a95c9e92468364a3f0751f368c","symbolAssets":["sha256:59c410ab8cba7e0d023c9831ff8830606ba74ed8d19d888b6cf888377e243493"]},"renderer":{"id":"aixem-grid-schematic-reference-renderer","version":"0.5.1"},"resolvedSceneSchema":"https://schemas.aixem.org/component-graphics/resolved-scene/1","styleProfile":{"digest":"sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393","id":"aixem.schematic.grid-light","path":"aixem-grid-schematic-style-1.aixstyle.json"}},"release":"AIXEM-SRP-0.5.5-2026-08-11","schema":"https://schemas.aixem.org/viewer/viewer-model/1","searchIndex":[{"category":"Sheets","kind":"sheet","label":"Visual Repair","qid":"sheet:main","searchText":"sheet:main visual repair main main authoring:visual_repair visual repair","sheet":"main"},{"category":"Components","kind":"entity","label":"R1 · 1k","qid":"entity:main:R1","searchText":"entity:main:r1 r1 · 1k r1 main r1 1k authoring:resistor authoring:resistor","sheet":"main"}],"sheets":[{"height":100.0,"id":"main","layers":[{"defaultVisible":true,"id":"connections","locked":false,"order":10,"printable":true,"purpose":"semantic net routes","qualifiedId":"layer:main:connections","sheet":"main"},{"defaultVisible":true,"id":"symbols","locked":false,"order":20,"printable":true,"purpose":"component symbols","qualifiedId":"layer:main:symbols","sheet":"main"},{"defaultVisible":true,"id":"annotation","locked":false,"order":30,"printable":true,"purpose":"notes","qualifiedId":"layer:main:annotation","sheet":"main"}],"order":0,"parent":null,"qid":"sheet:main","title":"Visual Repair","unit":"mm","width":160.0}],"statistics":{"entities":1,"interfacePorts":0,"localNets":0,"projectNets":0,"qualifiedObjects":2,"sheets":1},"viewerContract":"aixem.reference-viewer@1","views":[{"available":true,"canvases":[{"height":100.0,"key":"sheet:main","sheet":"main","unit":"mm","width":160.0}],"id":"sheet","label":"Sheet"}]}</script>
+<script>
+(()=>{
+'use strict';
+const model=JSON.parse(document.getElementById('aixem-viewer-model').textContent);
+const root=document.querySelector('[data-aixem-viewer="1"]');
+const workspace=document.getElementById('viewer-workspace');
+const status=document.getElementById('viewer-status');
+const coordinate=document.getElementById('viewer-coordinate');
+const modeStatus=document.getElementById('viewer-mode-status');
+const inspector=document.getElementById('inspector-body');
+const search=document.getElementById('viewer-search');
+const byQid=model.objects;
+const BASE_SCALE=2.0;
+const state={
+  mode:model.initialState.mode,
+  activeSheet:model.initialState.activeSheet,
+  selection:model.initialState.selection,
+  searchQuery:model.initialState.searchQuery,
+  activeNavigatorCategory:model.initialState.activeNavigatorCategory,
+  visibleLayersBySheet:JSON.parse(JSON.stringify(model.initialState.visibleLayersBySheet)),
+  viewportByView:Object.create(null)
+};
+let spaceDown=false;
+let drag=null;
+const all=(selector,scope=document)=>Array.from(scope.querySelectorAll(selector));
+const one=(selector,scope=document)=>scope.querySelector(selector);
+const escaped=value=>CSS.escape(String(value));
+function isNarrow(){return window.matchMedia('(max-width:920px)').matches}
+function setPanel(name,open){
+  const className=name==='navigator'?'nav-open':'inspector-open';
+  workspace.classList.toggle(className,Boolean(open));
+  const button=one(`[data-aixem-action="toggle-${name}"]`);
+  if(button)button.setAttribute('aria-expanded',String(Boolean(open)));
+}
+function currentPanel(){
+  if(state.mode==='sheet')return one(`[data-aixem-view="sheet"][data-sheet-panel="${escaped(state.activeSheet)}"]`);
+  return one(`[data-aixem-view="${escaped(state.mode)}"]`);
+}
+function currentViewport(){return currentPanel()?.querySelector('.viewport')||null}
+function currentViewportKey(){return currentViewport()?.dataset.viewportKey||null}
+function ensureViewport(key){
+  if(!state.viewportByView[key])state.viewportByView[key]={scale:null,tx:0,ty:0};
+  return state.viewportByView[key];
+}
+function applyViewport(key){
+  const transform=one(`[data-canvas-key="${escaped(key)}"]`);
+  const view=ensureViewport(key);
+  if(transform&&view.scale!==null)transform.style.transform=`translate(${view.tx}px,${view.ty}px) scale(${view.scale})`;
+}
+function fit(key=currentViewportKey()){
+  if(!key)return;
+  const viewport=one(`[data-viewport-key="${escaped(key)}"]`);
+  const transform=one(`[data-canvas-key="${escaped(key)}"]`);
+  if(!viewport||!transform||viewport.clientWidth<10||viewport.clientHeight<10)return;
+  const width=Number(transform.dataset.canvasWidth),height=Number(transform.dataset.canvasHeight);
+  const view=ensureViewport(key);
+  view.scale=Math.max(.03,Math.min(12,Math.min((viewport.clientWidth-42)/width,(viewport.clientHeight-42)/height)));
+  view.tx=(viewport.clientWidth-width*view.scale)/2;
+  view.ty=(viewport.clientHeight-height*view.scale)/2;
+  applyViewport(key);
+}
+function zoom(factor,anchorX=null,anchorY=null,key=currentViewportKey()){
+  if(!key)return;
+  const viewport=one(`[data-viewport-key="${escaped(key)}"]`);
+  if(!viewport)return;
+  const view=ensureViewport(key);
+  if(view.scale===null)fit(key);
+  const old=view.scale||1;
+  const next=Math.max(.03,Math.min(12,old*factor));
+  const x=anchorX===null?viewport.clientWidth/2:anchorX;
+  const y=anchorY===null?viewport.clientHeight/2:anchorY;
+  view.tx=x-(x-view.tx)*(next/old);
+  view.ty=y-(y-view.ty)*(next/old);
+  view.scale=next;
+  applyViewport(key);
+}
+function pan(dx,dy,key=currentViewportKey()){
+  if(!key)return;
+  const view=ensureViewport(key);
+  if(view.scale===null)fit(key);
+  view.tx+=dx;view.ty+=dy;applyViewport(key);
+}
+function updateModePanels(){
+  all('.view-panel').forEach(panel=>{
+    const visible=panel.dataset.aixemView===state.mode&&(state.mode!=='sheet'||panel.dataset.sheetPanel===state.activeSheet);
+    panel.hidden=!visible;
+  });
+  all('[data-mode]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.mode===state.mode)));
+  modeStatus.textContent=state.mode==='sheet'?`Sheet · ${state.activeSheet}`:state.mode[0].toUpperCase()+state.mode.slice(1);
+  requestAnimationFrame(()=>{const key=currentViewportKey();if(key&&ensureViewport(key).scale===null)fit(key);applySelection();});
+}
+function setMode(mode){
+  if(!model.views.some(view=>view.id===mode))return;
+  state.mode=mode;updateModePanels();status.textContent=`View · ${mode}`;
+}
+function setSheet(sheet,{switchMode=false}={}){
+  if(!model.sheets.some(item=>item.id===sheet))return;
+  state.activeSheet=sheet;
+  all('[data-layer-sheet]').forEach(panel=>panel.hidden=panel.dataset.layerSheet!==sheet);
+  all('[data-aixem-select^="sheet:"]').forEach(button=>button.classList.toggle('active',button.dataset.aixemSelect===`sheet:${sheet}`&&state.selection===null));
+  if(switchMode)state.mode='sheet';
+  updateModePanels();
+}
+function clearVisualSelection(){
+  all('[data-aixem-qid].selected').forEach(element=>element.classList.remove('selected'));
+  all('[data-aixem-select].active').forEach(element=>element.classList.remove('active'));
+  all('[data-aixem-select][aria-selected="true"]').forEach(element=>element.setAttribute('aria-selected','false'));
+}
+function renderInspector(item){
+  inspector.replaceChildren();
+  if(!item){const empty=document.createElement('div');empty.className='empty';empty.textContent='No semantic object selected.';inspector.append(empty);return;}
+  const badge=document.createElement('span');badge.className='selection-kind';badge.textContent=item.kind;
+  const dl=document.createElement('dl');dl.className='property-grid';
+  item.properties.forEach(row=>{const dt=document.createElement('dt');const dd=document.createElement('dd');dt.textContent=row.label;dd.textContent=row.value;dl.append(dt,dd)});
+  const note=document.createElement('div');note.className='authority-note';note.textContent='Inspection and highlighting are presentation-only. Viewer state never changes AIXEM semantic, layout, or project authority.';
+  inspector.append(badge,dl,note);
+}
+function applySelection(){
+  clearVisualSelection();
+  if(!state.selection){renderInspector(null);return;}
+  const item=byQid[state.selection];
+  if(!item){state.selection=null;renderInspector(null);return;}
+  const qids=[item.qid,...item.relatedQids];
+  qids.forEach(qid=>all(`[data-aixem-qid="${escaped(qid)}"]`).forEach(element=>element.classList.add('selected')));
+  all(`[data-aixem-select="${escaped(item.qid)}"]`).forEach(element=>{element.classList.add('active');element.setAttribute('aria-selected','true')});
+  renderInspector(item);
+}
+function select(qid,{source='navigator'}={}){
+  const item=byQid[qid];if(!item)return;
+  if(item.sheet)setSheet(item.sheet,{switchMode:item.kind==='entity'||item.kind==='local-net'||item.kind==='sheet'||(source==='search'&&item.kind==='interface')});
+  state.selection=qid;applySelection();status.textContent=`Selected ${item.kind} · ${item.qid}`;
+  if(isNarrow())setPanel('inspector',true);
+}
+function clearSelection(){state.selection=null;applySelection();status.textContent='Selection cleared'}
+function applyLayers(){
+  Object.entries(state.visibleLayersBySheet).forEach(([sheet,layers])=>Object.entries(layers).forEach(([layer,visible])=>{
+    all(`[data-sheet-canvas="${escaped(sheet)}"] [data-layer="${escaped(layer)}"]`).forEach(element=>element.style.display=visible?'':'none');
+  }));
+}
+function filterNavigator(){
+  const query=search.value.trim().toLowerCase();state.searchQuery=query;
+  all('[data-nav-group]').forEach(group=>{
+    const category=group.dataset.navGroup;
+    let visibleCount=0;
+    all('[data-search-text]',group).forEach(button=>{
+      const visible=query?button.dataset.searchText.includes(query):category===state.activeNavigatorCategory;
+      button.hidden=!visible;if(visible)visibleCount+=1;
+    });
+    group.hidden=query?visibleCount===0:category!==state.activeNavigatorCategory;
+  });
+}
+function setCategory(category){
+  state.activeNavigatorCategory=category;
+  all('[data-nav-category]').forEach(button=>button.setAttribute('aria-selected',String(button.dataset.navCategory===category)));
+  if(!search.value)filterNavigator();
+}
+function updateCoordinate(event,viewport){
+  if(state.mode!=='sheet'){coordinate.textContent='Project space';return;}
+  const key=viewport.dataset.viewportKey,view=ensureViewport(key);if(view.scale===null)return;
+  const rect=viewport.getBoundingClientRect();
+  const x=(event.clientX-rect.left-view.tx)/(view.scale*BASE_SCALE);
+  const y=(event.clientY-rect.top-view.ty)/(view.scale*BASE_SCALE);
+  coordinate.textContent=`X ${x.toFixed(1)} · Y ${y.toFixed(1)} ${viewport.dataset.sourceUnit}`;
+}
+all('[data-mode]').forEach(button=>button.addEventListener('click',()=>setMode(button.dataset.mode)));
+all('[data-aixem-action="zoom-in"]').forEach(button=>button.addEventListener('click',()=>zoom(1.2)));
+all('[data-aixem-action="zoom-out"]').forEach(button=>button.addEventListener('click',()=>zoom(1/1.2)));
+all('[data-aixem-action="fit"]').forEach(button=>button.addEventListener('click',()=>fit()));
+all('[data-aixem-action="clear-selection"]').forEach(button=>button.addEventListener('click',clearSelection));
+one('[data-aixem-action="toggle-navigator"]')?.addEventListener('click',()=>setPanel('navigator',!workspace.classList.contains('nav-open')));
+one('[data-aixem-action="toggle-inspector"]')?.addEventListener('click',()=>setPanel('inspector',!workspace.classList.contains('inspector-open')));
+one('[data-aixem-action="close-navigator"]')?.addEventListener('click',()=>setPanel('navigator',false));
+one('[data-aixem-action="close-inspector"]')?.addEventListener('click',()=>setPanel('inspector',false));
+all('[data-aixem-select]').forEach(button=>button.addEventListener('click',()=>select(button.dataset.aixemSelect,{source:state.searchQuery?'search':'navigator'})));
+all('[data-nav-category]').forEach(button=>button.addEventListener('click',()=>setCategory(button.dataset.navCategory)));
+search.addEventListener('input',filterNavigator);
+all('[data-toggle-sheet-layer]').forEach(input=>input.addEventListener('change',()=>{
+  const sheet=input.dataset.layerSheetId,layer=input.dataset.layerId;
+  state.visibleLayersBySheet[sheet][layer]=input.checked;applyLayers();status.textContent=`Layer ${sheet}/${layer} · ${input.checked?'visible':'hidden'}`;
+}));
+all('.canvas-transform').forEach(canvas=>canvas.addEventListener('click',event=>{
+  const target=event.target.closest('[data-aixem-qid]');
+  if(target&&canvas.contains(target)){event.stopPropagation();select(target.dataset.aixemQid,{source:'canvas'})}
+  else clearSelection();
+}));
+all('.viewport').forEach(viewport=>{
+  viewport.addEventListener('wheel',event=>{event.preventDefault();const rect=viewport.getBoundingClientRect();zoom(event.deltaY<0?1.12:1/1.12,event.clientX-rect.left,event.clientY-rect.top,viewport.dataset.viewportKey)},{passive:false});
+  viewport.addEventListener('pointerdown',event=>{
+    if(event.button!==1&&!(event.button===0&&spaceDown))return;
+    event.preventDefault();drag={key:viewport.dataset.viewportKey,x:event.clientX,y:event.clientY,pointerId:event.pointerId};viewport.setPointerCapture(event.pointerId);viewport.classList.add('panning');
+  });
+  viewport.addEventListener('pointermove',event=>{
+    updateCoordinate(event,viewport);if(!drag||drag.pointerId!==event.pointerId)return;
+    pan(event.clientX-drag.x,event.clientY-drag.y,drag.key);drag.x=event.clientX;drag.y=event.clientY;
+  });
+  const end=event=>{if(drag&&drag.pointerId===event.pointerId)drag=null;viewport.classList.remove('panning')};
+  viewport.addEventListener('pointerup',end);viewport.addEventListener('pointercancel',end);
+  viewport.addEventListener('keydown',event=>{
+    const amount=event.shiftKey?48:18;
+    if(event.key==='ArrowLeft'){event.preventDefault();pan(amount,0,viewport.dataset.viewportKey)}
+    if(event.key==='ArrowRight'){event.preventDefault();pan(-amount,0,viewport.dataset.viewportKey)}
+    if(event.key==='ArrowUp'){event.preventDefault();pan(0,amount,viewport.dataset.viewportKey)}
+    if(event.key==='ArrowDown'){event.preventDefault();pan(0,-amount,viewport.dataset.viewportKey)}
+  });
+});
+window.addEventListener('keydown',event=>{
+  if(event.code==='Space'&&!/^(INPUT|TEXTAREA|SELECT|BUTTON)$/.test(event.target.tagName)){spaceDown=true;event.preventDefault()}
+  if(event.key==='Escape'){clearSelection();setPanel('navigator',false);setPanel('inspector',false)}
+  if(event.key==='/'&&!/^(INPUT|TEXTAREA)$/.test(event.target.tagName)){event.preventDefault();search.focus();if(isNarrow())setPanel('navigator',true)}
+  if(!/^(INPUT|TEXTAREA|SELECT)$/.test(event.target.tagName)){
+    if(event.key==='0'){event.preventDefault();fit()}
+    if(event.key==='+'||event.key==='='){event.preventDefault();zoom(1.2)}
+    if(event.key==='-'){event.preventDefault();zoom(1/1.2)}
+  }
+});
+window.addEventListener('keyup',event=>{if(event.code==='Space')spaceDown=false});
+window.addEventListener('blur',()=>{spaceDown=false;drag=null});
+window.addEventListener('resize',()=>requestAnimationFrame(()=>{const key=currentViewportKey();if(key&&ensureViewport(key).scale===null)fit(key)}));
+setCategory(state.activeNavigatorCategory);
+setSheet(state.activeSheet);
+setMode(state.mode);
+applyLayers();
+status.textContent=`Ready · ${model.statistics.qualifiedObjects} qualified objects · read only`;
+})();
+</script>
+</body>
+</html>

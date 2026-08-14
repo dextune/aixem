@@ -1,0 +1,729 @@
+{
+  "agentEvaluation": {
+    "executionMode": "fixture-backed-route-simulation",
+    "formatVersion": "1.0",
+    "generatedAt": "2026-08-11T00:00:00Z",
+    "liveExternalAgentExecuted": false,
+    "release": "AIXEM-SRP-0.5.2-2026-08-11",
+    "routeValidation": {
+      "aliases": 60,
+      "errors": [],
+      "routes": 12,
+      "valid": true,
+      "warnings": []
+    },
+    "schema": "https://schemas.aixem.org/validation/agent-eval-results/1",
+    "summary": {
+      "failed": 0,
+      "normalTaskRendererSourceInspections": 0,
+      "normalTaskRepositoryWideSearches": 0,
+      "passed": 8,
+      "tasks": 8
+    },
+    "tasks": [
+      {
+        "authorityDiagnosis": null,
+        "deterministicRerender": true,
+        "entryRoute": "author-component-circuit",
+        "executionMode": "fixture-backed-route-simulation",
+        "fixtureChecks": 23,
+        "fixtureIssues": [],
+        "id": "EVAL-01",
+        "rendererSourceInspectionCount": 0,
+        "rendererSuccess": true,
+        "repositoryWideSearchCount": 0,
+        "schemaValidity": true,
+        "semanticPortClosure": true,
+        "stageRoutes": [
+          "create-symbol",
+          "create-schematic",
+          "route-nets",
+          "render-review",
+          "validate-project"
+        ],
+        "stages": [
+          {
+            "depth": 3,
+            "documentationBytes": 68511,
+            "documentsLoaded": 7,
+            "paths": [
+              "docs/specifications/symbols/symbol-design-profile.md",
+              "docs/examples/symbol-expressiveness-corpus.md",
+              "docs/symbols/authoring-cookbook.md",
+              "docs/symbols/aixsym-field-reference.md",
+              "docs/symbols/component-symbol-binding.md",
+              "docs/specifications/renderer/renderer-contract.md",
+              "docs/symbols/symbol-lint.md"
+            ],
+            "route": "create-symbol",
+            "withinBudget": true
+          },
+          {
+            "depth": 3,
+            "documentationBytes": 43565,
+            "documentsLoaded": 7,
+            "paths": [
+              "docs/concepts/authority-model.md",
+              "docs/schematic/authoring-cookbook.md",
+              "docs/schematic/grid-system.md",
+              "docs/symbols/component-symbol-binding.md",
+              "docs/file-formats/aixem.md",
+              "docs/file-formats/aixlayout.md",
+              "docs/routing/routing-cookbook.md"
+            ],
+            "route": "create-schematic",
+            "withinBudget": true
+          },
+          {
+            "depth": 3,
+            "documentationBytes": 44807,
+            "documentsLoaded": 7,
+            "paths": [
+              "docs/concepts/net-model.md",
+              "docs/routing/net-routing.md",
+              "docs/routing/routing-cookbook.md",
+              "docs/routing/crossings-and-junctions.md",
+              "docs/file-formats/aixlayout.md",
+              "docs/agent/routing-agent.md",
+              "docs/conformance/validation.md"
+            ],
+            "route": "route-nets",
+            "withinBudget": true
+          },
+          {
+            "depth": 3,
+            "documentationBytes": 39145,
+            "documentsLoaded": 5,
+            "paths": [
+              "docs/specifications/renderer/renderer-contract.md",
+              "docs/agent/visual-qa-loop.md",
+              "docs/specifications/schematic/visual-profile.md",
+              "docs/specifications/symbols/symbol-design-profile.md",
+              "docs/conformance/validation.md"
+            ],
+            "route": "render-review",
+            "withinBudget": true
+          },
+          {
+            "depth": 3,
+            "documentationBytes": 56758,
+            "documentsLoaded": 7,
+            "paths": [
+              "docs/specifications/project/project-lock-contract.md",
+              "docs/conformance/validation.md",
+              "docs/conformance/test-suite.md",
+              "docs/specifications/renderer/renderer-contract.md",
+              "docs/symbols/symbol-lint.md",
+              "docs/agent/visual-qa-loop.md",
+              "docs/conformance/symbol-expressiveness.md"
+            ],
+            "route": "validate-project",
+            "withinBudget": true
+          }
+        ],
+        "status": "pass",
+        "title": "New two-pin component"
+      },
+      {
+        "authorityDiagnosis": null,
+        "deterministicRerender": true,
+        "entryRoute": "author-component-circuit",
+        "executionMode": "fixture-backed-route-simulation",
+        "fixtureChecks": 44,
+        "fixtureIssues": [],
+        "id": "EVAL-02",
+        "rendererSourceInspectionCount": 0,
+        "rendererSuccess": true,
+        "repositoryWideSearchCount": 0,
+        "schemaValidity": true,
+        "semanticPortClosure": true,
+        "stageRoutes": [
+          "create-symbol",
+          "create-schematic",
+          "route-nets",
+          "render-review",
+          "validate-project"
+        ],
+        "stages": [
+          {
+            "depth": 3,
+            "documentationBytes": 68511,
+            "documentsLoaded": 7,
+            "paths": [
+              "docs/specifications/symbols/symbol-design-profile.md",
+              "docs/examples/symbol-expressiveness-corpus.md",
+              "docs/symbols/authoring-cookbook.md",
+              "docs/symbols/aixsym-field-reference.md",
+              "docs/symbols/component-symbol-binding.md",
+              "docs/specifications/renderer/renderer-contract.md",
+              "docs/symbols/symbol-lint.md"
+            ],
+            "route": "create-symbol",
+            "withinBudget": true
+          },
+          {
+            "depth": 3,
+            "documentationBytes": 43565,
+            "documentsLoaded": 7,
+            "paths": [
+              "docs/concepts/authority-model.md",
+              "docs/schematic/authoring-cookbook.md",
+              "docs/schematic/grid-system.md",
+              "docs/symbols/component-symbol-binding.md",
+              "docs/file-formats/aixem.md",
+              "docs/file-formats/aixlayout.md",
+              "docs/routing/routing-cookbook.md"
+            ],
+            "route": "create-schematic",
+            "withinBudget": true
+          },
+          {
+            "depth": 3,
+            "documentationBytes": 44807,
+            "documentsLoaded": 7,
+            "paths": [
+              "docs/concepts/net-model.md",
+              "docs/routing/net-routing.md",
+              "docs/routing/routing-cookbook.md",
+              "docs/routing/crossings-and-junctions.md",
+              "docs/file-formats/aixlayout.md",
+              "docs/agent/routing-agent.md",
+              "docs/conformance/validation.md"
+            ],
+            "route": "route-nets",
+            "withinBudget": true
+          },
+          {
+            "depth": 3,
+            "documentationBytes": 39145,
+            "documentsLoaded": 5,
+            "paths": [
+              "docs/specifications/renderer/renderer-contract.md",
+              "docs/agent/visual-qa-loop.md",
+              "docs/specifications/schematic/visual-profile.md",
+              "docs/specifications/symbols/symbol-design-profile.md",
+              "docs/conformance/validation.md"
+            ],
+            "route": "render-review",
+            "withinBudget": true
+          },
+          {
+            "depth": 3,
+            "documentationBytes": 56758,
+            "documentsLoaded": 7,
+            "paths": [
+              "docs/specifications/project/project-lock-contract.md",
+              "docs/conformance/validation.md",
+              "docs/conformance/test-suite.md",
+              "docs/specifications/renderer/renderer-contract.md",
+              "docs/symbols/symbol-lint.md",
+              "docs/agent/visual-qa-loop.md",
+              "docs/conformance/symbol-expressiveness.md"
+            ],
+            "route": "validate-project",
+            "withinBudget": true
+          }
+        ],
+        "status": "pass",
+        "title": "Six-pin connector"
+      },
+      {
+        "authorityDiagnosis": null,
+        "deterministicRerender": true,
+        "entryRoute": "author-component-circuit",
+        "executionMode": "fixture-backed-route-simulation",
+        "fixtureChecks": 71,
+        "fixtureIssues": [],
+        "id": "EVAL-03",
+        "rendererSourceInspectionCount": 0,
+        "rendererSuccess": true,
+        "repositoryWideSearchCount": 0,
+        "schemaValidity": true,
+        "semanticPortClosure": true,
+        "stageRoutes": [
+          "create-symbol",
+          "create-schematic",
+          "route-nets",
+          "render-review",
+          "validate-project"
+        ],
+        "stages": [
+          {
+            "depth": 3,
+            "documentationBytes": 68511,
+            "documentsLoaded": 7,
+            "paths": [
+              "docs/specifications/symbols/symbol-design-profile.md",
+              "docs/examples/symbol-expressiveness-corpus.md",
+              "docs/symbols/authoring-cookbook.md",
+              "docs/symbols/aixsym-field-reference.md",
+              "docs/symbols/component-symbol-binding.md",
+              "docs/specifications/renderer/renderer-contract.md",
+              "docs/symbols/symbol-lint.md"
+            ],
+            "route": "create-symbol",
+            "withinBudget": true
+          },
+          {
+            "depth": 3,
+            "documentationBytes": 43565,
+            "documentsLoaded": 7,
+            "paths": [
+              "docs/concepts/authority-model.md",
+              "docs/schematic/authoring-cookbook.md",
+              "docs/schematic/grid-system.md",
+              "docs/symbols/component-symbol-binding.md",
+              "docs/file-formats/aixem.md",
+              "docs/file-formats/aixlayout.md",
+              "docs/routing/routing-cookbook.md"
+            ],
+            "route": "create-schematic",
+            "withinBudget": true
+          },
+          {
+            "depth": 3,
+            "documentationBytes": 44807,
+            "documentsLoaded": 7,
+            "paths": [
+              "docs/concepts/net-model.md",
+              "docs/routing/net-routing.md",
+              "docs/routing/routing-cookbook.md",
+              "docs/routing/crossings-and-junctions.md",
+              "docs/file-formats/aixlayout.md",
+              "docs/agent/routing-agent.md",
+              "docs/conformance/validation.md"
+            ],
+            "route": "route-nets",
+            "withinBudget": true
+          },
+          {
+            "depth": 3,
+            "documentationBytes": 39145,
+            "documentsLoaded": 5,
+            "paths": [
+              "docs/specifications/renderer/renderer-contract.md",
+              "docs/agent/visual-qa-loop.md",
+              "docs/specifications/schematic/visual-profile.md",
+              "docs/specifications/symbols/symbol-design-profile.md",
+              "docs/conformance/validation.md"
+            ],
+            "route": "render-review",
+            "withinBudget": true
+          },
+          {
+            "depth": 3,
+            "documentationBytes": 56758,
+            "documentsLoaded": 7,
+            "paths": [
+              "docs/specifications/project/project-lock-contract.md",
+              "docs/conformance/validation.md",
+              "docs/conformance/test-suite.md",
+              "docs/specifications/renderer/renderer-contract.md",
+              "docs/symbols/symbol-lint.md",
+              "docs/agent/visual-qa-loop.md",
+              "docs/conformance/symbol-expressiveness.md"
+            ],
+            "route": "validate-project",
+            "withinBudget": true
+          }
+        ],
+        "status": "pass",
+        "title": "Twelve-pin controller"
+      },
+      {
+        "authorityDiagnosis": null,
+        "deterministicRerender": true,
+        "entryRoute": "create-symbol",
+        "executionMode": "fixture-backed-route-simulation",
+        "fixtureChecks": 23,
+        "fixtureIssues": [],
+        "id": "EVAL-04",
+        "rendererSourceInspectionCount": 0,
+        "rendererSuccess": true,
+        "repositoryWideSearchCount": 0,
+        "schemaValidity": true,
+        "semanticPortClosure": true,
+        "stageRoutes": [
+          "create-symbol"
+        ],
+        "stages": [
+          {
+            "depth": 3,
+            "documentationBytes": 68511,
+            "documentsLoaded": 7,
+            "paths": [
+              "docs/specifications/symbols/symbol-design-profile.md",
+              "docs/examples/symbol-expressiveness-corpus.md",
+              "docs/symbols/authoring-cookbook.md",
+              "docs/symbols/aixsym-field-reference.md",
+              "docs/symbols/component-symbol-binding.md",
+              "docs/specifications/renderer/renderer-contract.md",
+              "docs/symbols/symbol-lint.md"
+            ],
+            "route": "create-symbol",
+            "withinBudget": true
+          }
+        ],
+        "status": "pass",
+        "title": "Variant override"
+      },
+      {
+        "authorityDiagnosis": null,
+        "deterministicRerender": true,
+        "entryRoute": "route-nets",
+        "executionMode": "fixture-backed-route-simulation",
+        "fixtureChecks": 17,
+        "fixtureIssues": [],
+        "id": "EVAL-05",
+        "rendererSourceInspectionCount": 0,
+        "rendererSuccess": true,
+        "repositoryWideSearchCount": 0,
+        "schemaValidity": true,
+        "semanticPortClosure": true,
+        "stageRoutes": [
+          "route-nets"
+        ],
+        "stages": [
+          {
+            "depth": 3,
+            "documentationBytes": 44807,
+            "documentsLoaded": 7,
+            "paths": [
+              "docs/concepts/net-model.md",
+              "docs/routing/net-routing.md",
+              "docs/routing/routing-cookbook.md",
+              "docs/routing/crossings-and-junctions.md",
+              "docs/file-formats/aixlayout.md",
+              "docs/agent/routing-agent.md",
+              "docs/conformance/validation.md"
+            ],
+            "route": "route-nets",
+            "withinBudget": true
+          }
+        ],
+        "status": "pass",
+        "title": "Junction semantics"
+      },
+      {
+        "authorityDiagnosis": null,
+        "deterministicRerender": true,
+        "entryRoute": "create-symbol",
+        "executionMode": "fixture-backed-route-simulation",
+        "fixtureChecks": 23,
+        "fixtureIssues": [],
+        "id": "EVAL-06",
+        "rendererSourceInspectionCount": 0,
+        "rendererSuccess": true,
+        "repositoryWideSearchCount": 0,
+        "schemaValidity": true,
+        "semanticPortClosure": true,
+        "stageRoutes": [
+          "create-symbol"
+        ],
+        "stages": [
+          {
+            "depth": 3,
+            "documentationBytes": 68511,
+            "documentsLoaded": 7,
+            "paths": [
+              "docs/specifications/symbols/symbol-design-profile.md",
+              "docs/examples/symbol-expressiveness-corpus.md",
+              "docs/symbols/authoring-cookbook.md",
+              "docs/symbols/aixsym-field-reference.md",
+              "docs/symbols/component-symbol-binding.md",
+              "docs/specifications/renderer/renderer-contract.md",
+              "docs/symbols/symbol-lint.md"
+            ],
+            "route": "create-symbol",
+            "withinBudget": true
+          }
+        ],
+        "status": "pass",
+        "title": "Field override"
+      },
+      {
+        "authorityDiagnosis": null,
+        "deterministicRerender": true,
+        "entryRoute": "render-review",
+        "executionMode": "fixture-backed-route-simulation",
+        "fixtureChecks": 23,
+        "fixtureIssues": [],
+        "id": "EVAL-07",
+        "rendererSourceInspectionCount": 0,
+        "rendererSuccess": true,
+        "repositoryWideSearchCount": 0,
+        "schemaValidity": true,
+        "semanticPortClosure": true,
+        "stageRoutes": [
+          "render-review"
+        ],
+        "stages": [
+          {
+            "depth": 3,
+            "documentationBytes": 39145,
+            "documentsLoaded": 5,
+            "paths": [
+              "docs/specifications/renderer/renderer-contract.md",
+              "docs/agent/visual-qa-loop.md",
+              "docs/specifications/schematic/visual-profile.md",
+              "docs/specifications/symbols/symbol-design-profile.md",
+              "docs/conformance/validation.md"
+            ],
+            "route": "render-review",
+            "withinBudget": true
+          }
+        ],
+        "status": "pass",
+        "title": "Visual repair"
+      },
+      {
+        "authorityDiagnosis": "semantic source (.aixem)",
+        "deterministicRerender": true,
+        "entryRoute": "render-review",
+        "executionMode": "fixture-backed-route-simulation",
+        "fixtureChecks": 2,
+        "fixtureIssues": [],
+        "id": "EVAL-08",
+        "rendererSourceInspectionCount": 0,
+        "rendererSuccess": true,
+        "repositoryWideSearchCount": 0,
+        "schemaValidity": true,
+        "semanticPortClosure": true,
+        "stageRoutes": [
+          "render-review"
+        ],
+        "stages": [
+          {
+            "depth": 3,
+            "documentationBytes": 39145,
+            "documentsLoaded": 5,
+            "paths": [
+              "docs/specifications/renderer/renderer-contract.md",
+              "docs/agent/visual-qa-loop.md",
+              "docs/specifications/schematic/visual-profile.md",
+              "docs/specifications/symbols/symbol-design-profile.md",
+              "docs/conformance/validation.md"
+            ],
+            "route": "render-review",
+            "withinBudget": true
+          }
+        ],
+        "status": "pass",
+        "title": "Authority-layer diagnosis"
+      }
+    ],
+    "valid": true
+  },
+  "agentRoute": {
+    "computed": {
+      "bytes": 64554,
+      "documents": 7,
+      "maxDepth": 3
+    },
+    "errors": [],
+    "route": "validate-symbol-expressiveness",
+    "valid": true
+  },
+  "authoringBaseline": {
+    "examples": {
+      "brokenFixture": {
+        "checks": 10,
+        "issues": [
+          {
+            "code": "lead-port-mismatch",
+            "message": "Port 1 is at (-15.0, 0.0), but its visible lead ends at (-12.5, 0.0)",
+            "path": "examples/authoring/08-visual-repair/fixtures/broken-lead-port.aixsym.json",
+            "severity": "error"
+          }
+        ],
+        "path": "examples/authoring/08-visual-repair/fixtures/broken-lead-port.aixsym.json",
+        "valid": false
+      },
+      "checks": 241,
+      "examples": 8,
+      "expectedBrokenFixtureDetected": true,
+      "results": [
+        {
+          "checks": 23,
+          "id": "01-two-pin-passive",
+          "issues": [],
+          "valid": true
+        },
+        {
+          "checks": 44,
+          "id": "02-connector",
+          "issues": [],
+          "valid": true
+        },
+        {
+          "checks": 71,
+          "id": "03-multi-pin-ic",
+          "issues": [],
+          "valid": true
+        },
+        {
+          "checks": 23,
+          "id": "04-parameterized-variant",
+          "issues": [],
+          "valid": true
+        },
+        {
+          "checks": 23,
+          "id": "05-field-and-port-binding",
+          "issues": [],
+          "valid": true
+        },
+        {
+          "checks": 17,
+          "id": "06-two-terminal-route",
+          "issues": [],
+          "valid": true
+        },
+        {
+          "checks": 17,
+          "id": "07-multi-terminal-junction",
+          "issues": [],
+          "valid": true
+        },
+        {
+          "checks": 23,
+          "id": "08-visual-repair",
+          "issues": [],
+          "valid": true
+        }
+      ],
+      "valid": true
+    },
+    "referenceCoverage": {
+      "coverage": 1.0,
+      "covered": 156,
+      "groups": {
+        "component": {
+          "covered": 10,
+          "document": "docs/symbols/component-symbol-binding.md",
+          "missing": [],
+          "total": 10
+        },
+        "connection": {
+          "covered": 7,
+          "document": "docs/file-formats/aixlayout.md",
+          "missing": [],
+          "total": 7
+        },
+        "connectionPath": {
+          "covered": 5,
+          "document": "docs/file-formats/aixlayout.md",
+          "missing": [],
+          "total": 5
+        },
+        "placement": {
+          "covered": 18,
+          "document": "docs/file-formats/aixlayout.md",
+          "missing": [],
+          "total": 18
+        },
+        "presentation": {
+          "covered": 7,
+          "document": "docs/symbols/component-symbol-binding.md",
+          "missing": [],
+          "total": 7
+        },
+        "primitiveProperties": {
+          "covered": 47,
+          "document": "docs/symbols/primitives.md",
+          "missing": [],
+          "total": 47
+        },
+        "primitiveTypes": {
+          "covered": 13,
+          "document": "docs/symbols/primitives.md",
+          "missing": [],
+          "total": 13
+        },
+        "symbolParameter": {
+          "covered": 8,
+          "document": "docs/symbols/aixsym-field-reference.md",
+          "missing": [],
+          "total": 8
+        },
+        "symbolPort": {
+          "covered": 13,
+          "document": "docs/symbols/pins-and-ports.md",
+          "missing": [],
+          "total": 13
+        },
+        "symbolTopLevel": {
+          "covered": 20,
+          "document": "docs/symbols/aixsym-field-reference.md",
+          "missing": [],
+          "total": 20
+        },
+        "symbolVariant": {
+          "covered": 8,
+          "document": "docs/symbols/variants.md",
+          "missing": [],
+          "total": 8
+        }
+      },
+      "issues": [],
+      "total": 156,
+      "valid": true
+    },
+    "rendererContract": {
+      "checks": 9,
+      "issues": [],
+      "valid": true
+    },
+    "snippets": {
+      "documents": 109,
+      "issues": [],
+      "snippets": 18,
+      "valid": true
+    },
+    "valid": true
+  },
+  "cycle": 3,
+  "errors": [],
+  "focus": "visual quality, scale, and agent usability",
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "highPinCount": {
+    "S021": {
+      "ports": 100,
+      "sceneStatistics": {
+        "entities": 1,
+        "nets": 0,
+        "noConnects": 0,
+        "primitives": 103,
+        "routeSegments": 0,
+        "symbolAssets": 1
+      },
+      "visiblePorts": 100,
+      "visual": "PASS"
+    },
+    "S024": {
+      "ports": 100,
+      "sceneStatistics": {
+        "entities": 1,
+        "nets": 0,
+        "noConnects": 0,
+        "primitives": 107,
+        "routeSegments": 0,
+        "symbolAssets": 1
+      },
+      "visiblePorts": 100,
+      "visual": "PASS"
+    }
+  },
+  "release": "AIXEM-SRP-0.5.2-2026-08-11",
+  "schema": "https://schemas.aixem.org/validation/0.5.2/pass-02/1",
+  "valid": true,
+  "visualReview": {
+    "cases": 36,
+    "errors": [],
+    "reviewMethods": [
+      "AI-assisted structured manual inspection of full-resolution production SVG and contact-sheet renderings"
+    ],
+    "valid": true
+  }
+}

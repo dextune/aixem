@@ -1,0 +1,15 @@
+{
+  "canonicalHashes": {},
+  "checks": [],
+  "deterministic": true,
+  "diagnosticMatched": true,
+  "error": "PROJECT_NET_UNKNOWN_INTERFACE_PORT: project net vcc_5v references control:@UNKNOWN",
+  "expected": "fail",
+  "expectedDiagnostic": "PROJECT_NET_UNKNOWN_INTERFACE_PORT",
+  "id": "N008",
+  "observed": "fail",
+  "projectDigest": "sha256:b349784d1a977c7d4a0fb84c50ed9b2730ced7b1463f35ac116fe199e586b0f1",
+  "repeatCount": 0,
+  "status": "pass",
+  "title": "Project member unknown interface port"
+}

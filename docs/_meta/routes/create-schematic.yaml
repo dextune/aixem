@@ -1,0 +1,115 @@
+schema: https://schemas.aixem.org/documentation/task-route/1
+formatVersion: '1.0'
+kind: simple
+id: create-schematic
+intent: create-schematic
+aliases:
+- create schematic
+- draw circuit
+- author schematic
+- new circuit
+- place components
+summary: Create semantic entities and nets, place instances, and hand off valid endpoints
+  to routing
+budget:
+  max_documents: 7
+  max_bytes: 98304
+  max_depth: 3
+expected_inputs:
+- component library and symbol assets
+- circuit semantic intent
+- active grid/style profile
+steps:
+- order: 1
+  document: AIXEM-CONCEPT-AUTHORITY-001
+  section: overview
+  purpose: Classify semantic, component, symbol, layout, style, and derived authority.
+  required: true
+- order: 2
+  document: AIXEM-SCHEM-COOKBOOK-001
+  section: end-to-end-sequence
+  purpose: Close component selection, entities, semantic nets, and placement handoff
+    in authority order.
+  required: true
+- order: 3
+  document: AIXEM-SCHEM-GRID-001
+  section: operational-rules
+  purpose: Resolve active G/P/M grid authority and deterministic snap semantics.
+  required: true
+- order: 4
+  document: AIXEM-SCHEM-PLACEMENT-001
+  section: operational-rules
+  purpose: Apply canonical anchor, grouping, spacing, channel, and minimal-change
+    placement rules.
+  required: true
+- order: 5
+  document: AIXEM-SYMBOL-BINDING-001
+  section: complete-binding-example
+  purpose: Resolve component type, endpoint, field, and presentation mapping.
+  required: true
+- order: 6
+  document: AIXEM-FORMAT-AIXEM-001
+  section: 0-5-1-complete-minimal-semantic-model
+  purpose: Author entities, nets, attributes, interface ports, and no-connect intent.
+  required: true
+- order: 7
+  document: AIXEM-FORMAT-AIXLAYOUT-001
+  section: 0-5-1-placement-and-connection-serialization
+  purpose: Author grid-coherent placements and prepare explicit connection records.
+  required: true
+completion:
+- Semantic entities and endpoint intent are closed
+- Every entity type and presentation resolves
+- Every presented entity has one placement
+- Semantic and layout authority remain separate
+- Project inputs are ready for route-nets
+expected_outputs:
+- closed .aixem source
+- placements in .aixlayout.json
+- locked component/symbol references
+- routing handoff
+validators:
+- schematic.semantic
+- schematic.component_type_closure
+- schematic.placement_closure
+- schematic.authoring_binding
+- schematic.grid
+- agent.diagnostics
+- agent.change_scope
+- schematic.authoring_integrity
+- schematic.placement_assist
+writes:
+  authority:
+  - semantic
+  - layout
+  - project
+  artifacts:
+  - '**/*.aixem'
+  - '**/*.aixlayout.json'
+  - '**/*.aixproj.json'
+  derived:
+  - render/**
+  - evidence/**
+  prohibited:
+  - render/**
+  - evidence/**
+  - '**/viewer.html'
+  - '**/workbench.html'
+  - '**/*.svg'
+  - '**/resolved-scene.json'
+  - '**/resolved-project-scene.json'
+  - '**/viewer-model.json'
+  - '**/render-manifest.json'
+  - '**/project-validation.json'
+  constraints:
+  - pattern: '**/*.aixproj.json'
+    policy: digest-only
+remediation:
+  acceptsDiagnostics:
+  - AIXEM-DIAG-SEMANTIC-PORT-UNKNOWN
+  - AIXEM-DIAG-SEMANTIC-NET-ENDPOINT-UNKNOWN
+  - AIXEM-DIAG-SEMANTIC-NET-CLOSURE
+  - AIXEM-DIAG-COMPONENT-TYPE-UNKNOWN
+  - AIXEM-DIAG-LAYOUT-PLACEMENT-MISSING
+  - AIXEM-DIAG-LAYOUT-PLACEMENT-OFF-GRID
+  - AIXEM-DIAG-LAYOUT-GRID-PROFILE-MISMATCH

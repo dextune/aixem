@@ -1,0 +1,74 @@
+{
+  "durationSeconds": 8.741234,
+  "errors": [],
+  "executionMode": "isolated-test-module-processes",
+  "failedModules": 0,
+  "failures": [],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "moduleCount": 3,
+  "modules": [
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_cold_start_stage"
+      ],
+      "durationSeconds": 2.114766,
+      "module": "tests.agent.test_cold_start_stage",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_all_l001_l012_stages_are_deterministic_valid_and_oracle_free (tests.agent.test_cold_start_stage.ColdStartStageContractTests.test_all_l001_l012_stages_are_deterministic_valid_and_oracle_free) ... ok\ntest_fresh_attempt_destination_must_be_empty (tests.agent.test_cold_start_stage.ColdStartStageContractTests.test_fresh_attempt_destination_must_be_empty) ... ok\ntest_symlinks_in_start_state_fail_closed (tests.agent.test_cold_start_stage.ColdStartStageContractTests.test_symlinks_in_start_state_fail_closed) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.640s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 3,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.conformance.test_symbol_expressiveness_corpus"
+      ],
+      "durationSeconds": 5.330312,
+      "module": "tests.conformance.test_symbol_expressiveness_corpus",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_all_case_contracts_symbols_digests_and_reviews_are_closed (tests.conformance.test_symbol_expressiveness_corpus.SymbolCorpusConformanceTests.test_all_case_contracts_symbols_digests_and_reviews_are_closed) ... ok\ntest_current_symbol_schema_is_unchanged_from_0_5_1 (tests.conformance.test_symbol_expressiveness_corpus.SymbolCorpusConformanceTests.test_current_symbol_schema_is_unchanged_from_0_5_1) ... ok\ntest_dimension_label_regression_is_explicit_and_deterministic (tests.conformance.test_symbol_expressiveness_corpus.SymbolCorpusConformanceTests.test_dimension_label_regression_is_explicit_and_deterministic) ... ok\ntest_full_corpus_runs_through_production_renderer (tests.conformance.test_symbol_expressiveness_corpus.SymbolCorpusConformanceTests.test_full_corpus_runs_through_production_renderer) ... ok\ntest_inventory_is_exact_and_complete (tests.conformance.test_symbol_expressiveness_corpus.SymbolCorpusConformanceTests.test_inventory_is_exact_and_complete) ... ok\ntest_multi_unit_probe_rejects_simulated_shared_identity (tests.conformance.test_symbol_expressiveness_corpus.SymbolCorpusConformanceTests.test_multi_unit_probe_rejects_simulated_shared_identity) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 3.745s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 6,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.schematic.test_placement_assist"
+      ],
+      "durationSeconds": 1.295818,
+      "module": "tests.schematic.test_placement_assist",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_at_window_boundary_is_acquired (tests.schematic.test_placement_assist.PlacementAssistTests.test_at_window_boundary_is_acquired) ... ok\ntest_candidate_count_is_bounded (tests.schematic.test_placement_assist.PlacementAssistTests.test_candidate_count_is_bounded) ... ok\ntest_cli_emits_read_only_payload (tests.schematic.test_placement_assist.PlacementAssistTests.test_cli_emits_read_only_payload) ... ok\ntest_g001_already_legal (tests.schematic.test_placement_assist.PlacementAssistTests.test_g001_already_legal) ... ok\ntest_g002_quantized (tests.schematic.test_placement_assist.PlacementAssistTests.test_g002_quantized) ... ok\ntest_g003_magnetic_row (tests.schematic.test_placement_assist.PlacementAssistTests.test_g003_magnetic_row) ... ok\ntest_g004_outside_window_not_acquired (tests.schematic.test_placement_assist.PlacementAssistTests.test_g004_outside_window_not_acquired) ... ok\ntest_illegal_existing_origin_is_ignored (tests.schematic.test_placement_assist.PlacementAssistTests.test_illegal_existing_origin_is_ignored) ... ok\ntest_input_order_does_not_change_result (tests.schematic.test_placement_assist.PlacementAssistTests.test_input_order_does_not_change_result) ... ok\ntest_invalid_coordinate_fails (tests.schematic.test_placement_assist.PlacementAssistTests.test_invalid_coordinate_fails) ... ok\ntest_magnetic_column (tests.schematic.test_placement_assist.PlacementAssistTests.test_magnetic_column) ... ok\ntest_negative_midpoint_is_away_from_zero (tests.schematic.test_placement_assist.PlacementAssistTests.test_negative_midpoint_is_away_from_zero) ... ok\ntest_no_mutation_of_inputs (tests.schematic.test_placement_assist.PlacementAssistTests.test_no_mutation_of_inputs) ... ok\ntest_nonzero_origin (tests.schematic.test_placement_assist.PlacementAssistTests.test_nonzero_origin) ... ok\ntest_positive_midpoint_is_away_from_zero (tests.schematic.test_placement_assist.PlacementAssistTests.test_positive_midpoint_is_away_from_zero) ... ok\ntest_snap_is_idempotent (tests.schematic.test_placement_assist.PlacementAssistTests.test_snap_is_idempotent) ... ok\ntest_xy_alignment_wins (tests.schematic.test_placement_assist.PlacementAssistTests.test_xy_alignment_wins) ... ok\n\n----------------------------------------------------------------------\nRan 17 tests in 0.666s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 17,
+      "valid": true
+    }
+  ],
+  "passedModules": 3,
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/test-run-shard/1",
+  "shard": {
+    "count": 12,
+    "index": 4,
+    "totalDiscoveredModules": 29
+  },
+  "skipped": [],
+  "successful": true,
+  "testsRun": 26
+}

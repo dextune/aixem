@@ -1,0 +1,195 @@
+{
+  "$id": "https://schemas.aixem.org/agent/executor/1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AIXEM Live Executor Protocol 1 Descriptor",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "formatVersion",
+    "id",
+    "adapterVersion",
+    "agentClass",
+    "command",
+    "workingDirectoryPolicy",
+    "inputMode",
+    "observationCapability",
+    "networkPolicy",
+    "limits",
+    "redactedConfigurationDigest"
+  ],
+  "properties": {
+    "schema": {
+      "const": "https://schemas.aixem.org/agent/executor/1"
+    },
+    "formatVersion": {
+      "const": "1.0"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+    },
+    "adapterVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "agentClass": {
+      "enum": [
+        "external-ai",
+        "test-fixture"
+      ]
+    },
+    "command": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "workingDirectoryPolicy": {
+      "enum": [
+        "stage-root",
+        "workspace",
+        "reference-root"
+      ]
+    },
+    "inputMode": {
+      "enum": [
+        "none",
+        "task-path-argument",
+        "stdin-task-json"
+      ]
+    },
+    "observationCapability": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "fileReads",
+        "searches",
+        "commands",
+        "writes",
+        "routeActions"
+      ],
+      "properties": {
+        "fileReads": {
+          "type": "boolean"
+        },
+        "searches": {
+          "type": "boolean"
+        },
+        "commands": {
+          "type": "boolean"
+        },
+        "writes": {
+          "type": "boolean"
+        },
+        "routeActions": {
+          "type": "boolean"
+        }
+      }
+    },
+    "networkPolicy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mode",
+        "enforcement"
+      ],
+      "properties": {
+        "mode": {
+          "enum": [
+            "deny",
+            "declared",
+            "allow"
+          ]
+        },
+        "enforcement": {
+          "enum": [
+            "descriptor-only",
+            "adapter-enforced",
+            "external-sandbox"
+          ]
+        },
+        "allowedHosts": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "limits": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "wallTimeSeconds",
+        "outputBytes",
+        "observationEvents"
+      ],
+      "properties": {
+        "wallTimeSeconds": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 86400
+        },
+        "outputBytes": {
+          "type": "integer",
+          "minimum": 1024,
+          "maximum": 104857600
+        },
+        "observationEvents": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 1000000
+        }
+      }
+    },
+    "identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "provider": {
+          "type": "string"
+        },
+        "model": {
+          "type": "string"
+        },
+        "tool": {
+          "type": "string"
+        },
+        "toolVersion": {
+          "type": "string"
+        },
+        "configLabel": {
+          "type": "string"
+        }
+      }
+    },
+    "environment": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "redactedConfigurationDigest": {
+      "$ref": "#/$defs/digest"
+    },
+    "inheritEnvironment": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Za-z_][A-Za-z0-9_]*$"
+      },
+      "uniqueItems": true,
+      "description": "Environment variable names inherited at launch; values are never serialized in the descriptor or evidence."
+    }
+  },
+  "$defs": {
+    "digest": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    }
+  }
+}

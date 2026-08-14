@@ -1,0 +1,305 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AIXEM Multi-Sheet Project Manifest 2.0 Candidate — AIXEM Schema</title><link rel="stylesheet" href="../../../assets/site.css"></head><body><header class="topbar"><div class="brand"><span class="brand-mark">AX</span><span>AIXEM<small>Schema Reference</small></span></div></header><main class="content-wrap" style="padding-top:24px"><div class="content"><div class="breadcrumbs"><a href="../index.html">Schema Catalog</a><span>›</span><span>component-graphics-2/aixem-project-manifest-2.schema.json</span></div><header class="doc-head"><div class="eyebrow"><span class="badge normative">JSON Schema</span><span class="doc-id">https://json-schema.org/draft/2020-12/schema</span></div><h1>AIXEM Multi-Sheet Project Manifest 2.0 Candidate</h1><p class="lead">Machine-readable contract distributed with AIXEM 0.5.9.</p></header><div class="schema-browser"><a href="../../../assets/schemas/component-graphics-2/aixem-project-manifest-2.schema.json">Open raw JSON schema</a></div><article class="article"><pre><code>{
+  &quot;$defs&quot;: {
+    &quot;fileRef&quot;: {
+      &quot;additionalProperties&quot;: false,
+      &quot;properties&quot;: {
+        &quot;digest&quot;: {
+          &quot;pattern&quot;: &quot;^sha256:[0-9a-f]{64}$&quot;,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;id&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;mediaType&quot;: {
+          &quot;minLength&quot;: 1,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;optional&quot;: {
+          &quot;type&quot;: &quot;boolean&quot;
+        },
+        &quot;path&quot;: {
+          &quot;pattern&quot;: &quot;^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[a-z0-9][a-z0-9._/-]*$&quot;,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;version&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        }
+      },
+      &quot;required&quot;: [
+        &quot;path&quot;,
+        &quot;digest&quot;,
+        &quot;mediaType&quot;
+      ],
+      &quot;type&quot;: &quot;object&quot;
+    },
+    &quot;projectNet&quot;: {
+      &quot;additionalProperties&quot;: false,
+      &quot;properties&quot;: {
+        &quot;id&quot;: {
+          &quot;pattern&quot;: &quot;^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$&quot;,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;label&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;members&quot;: {
+          &quot;items&quot;: {
+            &quot;$ref&quot;: &quot;#/$defs/projectNetMember&quot;
+          },
+          &quot;maxItems&quot;: 100000,
+          &quot;minItems&quot;: 2,
+          &quot;type&quot;: &quot;array&quot;,
+          &quot;uniqueItems&quot;: true
+        },
+        &quot;metadata&quot;: {
+          &quot;type&quot;: &quot;object&quot;
+        },
+        &quot;role&quot;: {
+          &quot;enum&quot;: [
+            &quot;signal&quot;,
+            &quot;power&quot;,
+            &quot;clock&quot;,
+            &quot;reset&quot;,
+            &quot;control&quot;,
+            &quot;analog&quot;
+          ]
+        }
+      },
+      &quot;required&quot;: [
+        &quot;id&quot;,
+        &quot;members&quot;
+      ],
+      &quot;type&quot;: &quot;object&quot;
+    },
+    &quot;projectNetMember&quot;: {
+      &quot;additionalProperties&quot;: false,
+      &quot;properties&quot;: {
+        &quot;port&quot;: {
+          &quot;pattern&quot;: &quot;^[A-Za-z_][A-Za-z0-9_-]*$&quot;,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;sheet&quot;: {
+          &quot;pattern&quot;: &quot;^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$&quot;,
+          &quot;type&quot;: &quot;string&quot;
+        }
+      },
+      &quot;required&quot;: [
+        &quot;sheet&quot;,
+        &quot;port&quot;
+      ],
+      &quot;type&quot;: &quot;object&quot;
+    },
+    &quot;renderPolicy&quot;: {
+      &quot;additionalProperties&quot;: false,
+      &quot;properties&quot;: {
+        &quot;backend&quot;: {
+          &quot;enum&quot;: [
+            &quot;svg&quot;,
+            &quot;canvas2d&quot;,
+            &quot;pdf&quot;,
+            &quot;custom&quot;
+          ]
+        },
+        &quot;defaultVariantPolicy&quot;: {
+          &quot;enum&quot;: [
+            &quot;asset-default&quot;,
+            &quot;library-default&quot;,
+            &quot;explicit-only&quot;
+          ]
+        },
+        &quot;fontPolicy&quot;: {
+          &quot;enum&quot;: [
+            &quot;bundled-metrics&quot;,
+            &quot;system-fallback&quot;,
+            &quot;declared-fixture&quot;
+          ]
+        },
+        &quot;purpose&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;remoteAssets&quot;: {
+          &quot;enum&quot;: [
+            &quot;deny&quot;,
+            &quot;allow-listed&quot;
+          ]
+        },
+        &quot;unsupportedRequiredFeature&quot;: {
+          &quot;enum&quot;: [
+            &quot;reject&quot;,
+            &quot;diagnostic-only&quot;
+          ]
+        }
+      },
+      &quot;required&quot;: [
+        &quot;purpose&quot;,
+        &quot;backend&quot;,
+        &quot;fontPolicy&quot;,
+        &quot;remoteAssets&quot;
+      ],
+      &quot;type&quot;: &quot;object&quot;
+    },
+    &quot;sheet&quot;: {
+      &quot;additionalProperties&quot;: false,
+      &quot;properties&quot;: {
+        &quot;id&quot;: {
+          &quot;pattern&quot;: &quot;^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$&quot;,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;layout&quot;: {
+          &quot;$ref&quot;: &quot;#/$defs/fileRef&quot;
+        },
+        &quot;metadata&quot;: {
+          &quot;type&quot;: &quot;object&quot;
+        },
+        &quot;order&quot;: {
+          &quot;type&quot;: &quot;integer&quot;
+        },
+        &quot;parent&quot;: {
+          &quot;pattern&quot;: &quot;^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$&quot;,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;purpose&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;source&quot;: {
+          &quot;$ref&quot;: &quot;#/$defs/fileRef&quot;
+        },
+        &quot;title&quot;: {
+          &quot;minLength&quot;: 1,
+          &quot;type&quot;: &quot;string&quot;
+        }
+      },
+      &quot;required&quot;: [
+        &quot;id&quot;,
+        &quot;title&quot;,
+        &quot;source&quot;,
+        &quot;layout&quot;
+      ],
+      &quot;type&quot;: &quot;object&quot;
+    }
+  },
+  &quot;$id&quot;: &quot;https://schemas.aixem.org/component-graphics/aixproj/2&quot;,
+  &quot;$schema&quot;: &quot;https://json-schema.org/draft/2020-12/schema&quot;,
+  &quot;additionalProperties&quot;: false,
+  &quot;properties&quot;: {
+    &quot;formatVersion&quot;: {
+      &quot;const&quot;: &quot;2.0&quot;
+    },
+    &quot;project&quot;: {
+      &quot;additionalProperties&quot;: false,
+      &quot;properties&quot;: {
+        &quot;applicationProfile&quot;: {
+          &quot;minLength&quot;: 1,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;description&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;features&quot;: {
+          &quot;items&quot;: {
+            &quot;minLength&quot;: 1,
+            &quot;type&quot;: &quot;string&quot;
+          },
+          &quot;type&quot;: &quot;array&quot;,
+          &quot;uniqueItems&quot;: true
+        },
+        &quot;id&quot;: {
+          &quot;pattern&quot;: &quot;^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$&quot;,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;libraries&quot;: {
+          &quot;items&quot;: {
+            &quot;$ref&quot;: &quot;#/$defs/fileRef&quot;
+          },
+          &quot;maxItems&quot;: 1024,
+          &quot;minItems&quot;: 1,
+          &quot;type&quot;: &quot;array&quot;
+        },
+        &quot;metadata&quot;: {
+          &quot;type&quot;: &quot;object&quot;
+        },
+        &quot;outputs&quot;: {
+          &quot;items&quot;: {
+            &quot;additionalProperties&quot;: false,
+            &quot;properties&quot;: {
+              &quot;digest&quot;: {
+                &quot;pattern&quot;: &quot;^sha256:[0-9a-f]{64}$&quot;,
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;mediaType&quot;: {
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;path&quot;: {
+                &quot;pattern&quot;: &quot;^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[a-z0-9][a-z0-9._/-]*$&quot;,
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;role&quot;: {
+                &quot;type&quot;: &quot;string&quot;
+              }
+            },
+            &quot;required&quot;: [
+              &quot;role&quot;,
+              &quot;path&quot;,
+              &quot;mediaType&quot;
+            ],
+            &quot;type&quot;: &quot;object&quot;
+          },
+          &quot;type&quot;: &quot;array&quot;
+        },
+        &quot;projectNets&quot;: {
+          &quot;items&quot;: {
+            &quot;$ref&quot;: &quot;#/$defs/projectNet&quot;
+          },
+          &quot;maxItems&quot;: 100000,
+          &quot;type&quot;: &quot;array&quot;
+        },
+        &quot;provenance&quot;: {
+          &quot;type&quot;: &quot;object&quot;
+        },
+        &quot;renderPolicy&quot;: {
+          &quot;$ref&quot;: &quot;#/$defs/renderPolicy&quot;
+        },
+        &quot;sheets&quot;: {
+          &quot;items&quot;: {
+            &quot;$ref&quot;: &quot;#/$defs/sheet&quot;
+          },
+          &quot;maxItems&quot;: 10000,
+          &quot;minItems&quot;: 1,
+          &quot;type&quot;: &quot;array&quot;
+        },
+        &quot;status&quot;: {
+          &quot;enum&quot;: [
+            &quot;example&quot;,
+            &quot;draft&quot;,
+            &quot;controlled&quot;,
+            &quot;released&quot;
+          ]
+        },
+        &quot;title&quot;: {
+          &quot;minLength&quot;: 1,
+          &quot;type&quot;: &quot;string&quot;
+        }
+      },
+      &quot;required&quot;: [
+        &quot;id&quot;,
+        &quot;title&quot;,
+        &quot;applicationProfile&quot;,
+        &quot;sheets&quot;,
+        &quot;projectNets&quot;,
+        &quot;libraries&quot;,
+        &quot;renderPolicy&quot;
+      ],
+      &quot;type&quot;: &quot;object&quot;
+    },
+    &quot;schema&quot;: {
+      &quot;const&quot;: &quot;https://schemas.aixem.org/component-graphics/aixproj/2&quot;
+    }
+  },
+  &quot;required&quot;: [
+    &quot;schema&quot;,
+    &quot;formatVersion&quot;,
+    &quot;project&quot;
+  ],
+  &quot;title&quot;: &quot;AIXEM Multi-Sheet Project Manifest 2.0 Candidate&quot;,
+  &quot;type&quot;: &quot;object&quot;
+}</code></pre></article></div></main></body></html>

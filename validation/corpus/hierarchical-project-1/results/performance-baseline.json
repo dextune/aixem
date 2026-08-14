@@ -1,0 +1,231 @@
+{
+  "case": "H013",
+  "counts": {
+    "interfacePortCount": 20,
+    "localEntityCount": 10,
+    "localNetCount": 20,
+    "projectNetCount": 2,
+    "routeDiagnosticCount": 0
+  },
+  "environment": {
+    "implementation": "CPython",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+    "python": "3.13.5"
+  },
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "input": {
+    "hierarchyDepth": 1,
+    "projectBytes": 11167,
+    "projectDigest": "sha256:4f1cc94a906cc78530f2c0bb8d65c20ecdd18da35ddc200b440b5de49de5d28e",
+    "projectNetCount": 2,
+    "sheetCount": 10,
+    "totalLayoutBytes": 28290,
+    "totalSourceBytes": 5260
+  },
+  "memory": {
+    "processMaxRssBytes": {
+      "maximum": 173047808,
+      "median": 173047808,
+      "minimum": 173047808
+    },
+    "tracemallocCurrentBytes": {
+      "maximum": 1778734,
+      "median": 1720848,
+      "minimum": 1699624
+    },
+    "tracemallocPeakBytes": {
+      "maximum": 4174036,
+      "median": 4116281,
+      "minimum": 4095108
+    }
+  },
+  "outputSizes": {
+    "compositeSvgBytes": 162228,
+    "overviewSvgBytes": 17907,
+    "resolvedProjectSceneBytes": 76516,
+    "totalRenderBytes": 1275594,
+    "workbenchBytes": 405206
+  },
+  "policy": {
+    "cacheAdded": false,
+    "measureBeforeOptimizing": true,
+    "scaleGate": "Ten digest-locked sheets must resolve and render reliably without release-blocking diagnostics."
+  },
+  "project": "validation/corpus/hierarchical-project-1/cases/H013-ten-sheet-scale-baseline/project.aixproj.json",
+  "release": "AIXEM-SRP-0.5.3-2026-08-11",
+  "result": "PASS",
+  "runs": [
+    {
+      "compositeDigestProbe": 162181,
+      "counts": {
+        "interfacePortCount": 20,
+        "localEntityCount": 10,
+        "localNetCount": 20,
+        "projectNetCount": 2,
+        "routeDiagnosticCount": 0
+      },
+      "memory": {
+        "processMaxRssBytes": 173047808,
+        "tracemallocCurrentBytes": 1778734,
+        "tracemallocPeakBytes": 4174036
+      },
+      "outputSizes": {
+        "compositeSvgBytes": 162228,
+        "overviewSvgBytes": 17907,
+        "resolvedProjectSceneBytes": 76516,
+        "totalRenderBytes": 1275594,
+        "workbenchBytes": 405206
+      },
+      "timingsSeconds": {
+        "compositeRouteSeconds": 0.003006,
+        "compositeSvgBuildSeconds": 0.015308,
+        "hierarchyOrderSeconds": 3.1e-05,
+        "hierarchyValidationSeconds": 6.2e-05,
+        "initializationTotalSeconds": 0.52427,
+        "leafResolveSeconds": 0.485188,
+        "outputRenderSeconds": 0.05438,
+        "overviewRouteSeconds": 0.003523,
+        "projectGraphResolveSeconds": 0.000348,
+        "referenceVerificationSeconds": 0.022361,
+        "resolverTotalSeconds": 0.517023,
+        "totalSeconds": 0.596054
+      }
+    },
+    {
+      "compositeDigestProbe": 162181,
+      "counts": {
+        "interfacePortCount": 20,
+        "localEntityCount": 10,
+        "localNetCount": 20,
+        "projectNetCount": 2,
+        "routeDiagnosticCount": 0
+      },
+      "memory": {
+        "processMaxRssBytes": 173047808,
+        "tracemallocCurrentBytes": 1720848,
+        "tracemallocPeakBytes": 4116281
+      },
+      "outputSizes": {
+        "compositeSvgBytes": 162228,
+        "overviewSvgBytes": 17907,
+        "resolvedProjectSceneBytes": 76516,
+        "totalRenderBytes": 1275594,
+        "workbenchBytes": 405206
+      },
+      "timingsSeconds": {
+        "compositeRouteSeconds": 0.003058,
+        "compositeSvgBuildSeconds": 0.013936,
+        "hierarchyOrderSeconds": 3.1e-05,
+        "hierarchyValidationSeconds": 4.7e-05,
+        "initializationTotalSeconds": 0.521917,
+        "leafResolveSeconds": 0.486501,
+        "outputRenderSeconds": 0.056269,
+        "overviewRouteSeconds": 0.003692,
+        "projectGraphResolveSeconds": 0.000333,
+        "referenceVerificationSeconds": 0.020117,
+        "resolverTotalSeconds": 0.514474,
+        "totalSeconds": 0.593835
+      }
+    },
+    {
+      "compositeDigestProbe": 162181,
+      "counts": {
+        "interfacePortCount": 20,
+        "localEntityCount": 10,
+        "localNetCount": 20,
+        "projectNetCount": 2,
+        "routeDiagnosticCount": 0
+      },
+      "memory": {
+        "processMaxRssBytes": 173047808,
+        "tracemallocCurrentBytes": 1699624,
+        "tracemallocPeakBytes": 4095108
+      },
+      "outputSizes": {
+        "compositeSvgBytes": 162228,
+        "overviewSvgBytes": 17907,
+        "resolvedProjectSceneBytes": 76516,
+        "totalRenderBytes": 1275594,
+        "workbenchBytes": 405206
+      },
+      "timingsSeconds": {
+        "compositeRouteSeconds": 0.002688,
+        "compositeSvgBuildSeconds": 0.016941,
+        "hierarchyOrderSeconds": 2.8e-05,
+        "hierarchyValidationSeconds": 4.8e-05,
+        "initializationTotalSeconds": 0.504007,
+        "leafResolveSeconds": 0.467586,
+        "outputRenderSeconds": 0.053846,
+        "overviewRouteSeconds": 0.003017,
+        "projectGraphResolveSeconds": 0.00025,
+        "referenceVerificationSeconds": 0.022052,
+        "resolverTotalSeconds": 0.497471,
+        "totalSeconds": 0.576458
+      }
+    }
+  ],
+  "schema": "https://schemas.aixem.org/validation/hierarchical-performance/1",
+  "timingsSeconds": {
+    "compositeRouteSeconds": {
+      "maximum": 0.003058,
+      "median": 0.003006,
+      "minimum": 0.002688
+    },
+    "compositeSvgBuildSeconds": {
+      "maximum": 0.016941,
+      "median": 0.015308,
+      "minimum": 0.013936
+    },
+    "hierarchyOrderSeconds": {
+      "maximum": 3.1e-05,
+      "median": 3.1e-05,
+      "minimum": 2.8e-05
+    },
+    "hierarchyValidationSeconds": {
+      "maximum": 6.2e-05,
+      "median": 4.8e-05,
+      "minimum": 4.7e-05
+    },
+    "initializationTotalSeconds": {
+      "maximum": 0.52427,
+      "median": 0.521917,
+      "minimum": 0.504007
+    },
+    "leafResolveSeconds": {
+      "maximum": 0.486501,
+      "median": 0.485188,
+      "minimum": 0.467586
+    },
+    "outputRenderSeconds": {
+      "maximum": 0.056269,
+      "median": 0.05438,
+      "minimum": 0.053846
+    },
+    "overviewRouteSeconds": {
+      "maximum": 0.003692,
+      "median": 0.003523,
+      "minimum": 0.003017
+    },
+    "projectGraphResolveSeconds": {
+      "maximum": 0.000348,
+      "median": 0.000333,
+      "minimum": 0.00025
+    },
+    "referenceVerificationSeconds": {
+      "maximum": 0.022361,
+      "median": 0.022052,
+      "minimum": 0.020117
+    },
+    "resolverTotalSeconds": {
+      "maximum": 0.517023,
+      "median": 0.514474,
+      "minimum": 0.497471
+    },
+    "totalSeconds": {
+      "maximum": 0.596054,
+      "median": 0.593835,
+      "minimum": 0.576458
+    }
+  }
+}

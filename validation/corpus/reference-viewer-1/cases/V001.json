@@ -1,0 +1,14 @@
+{
+  "expected": "pass",
+  "formatVersion": "1.0",
+  "id": "V001",
+  "order": 1,
+  "profiles": [
+    "reference-viewer"
+  ],
+  "purpose": "Sheet-only Reference Viewer baseline",
+  "schema": "https://schemas.aixem.org/conformance/reference-viewer-case/1",
+  "source": "examples/electronics-grid-controller/project.aixproj.json",
+  "test": "tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v001_single_sheet_reference_viewer",
+  "title": "Legacy single-sheet viewer"
+}

@@ -1,0 +1,61 @@
+{
+  "bounds": {
+    "height": 30,
+    "width": 40,
+    "x": -20,
+    "y": -15
+  },
+  "capabilities": [
+    "geometry.line",
+    "geometry.rect",
+    "parameter.numeric",
+    "port.mapping",
+    "text.field"
+  ],
+  "case": "S001",
+  "defaultVariant": null,
+  "definitions": [],
+  "fieldAnchors": [
+    {
+      "field": "reference",
+      "id": "field-reference",
+      "x": 0,
+      "y": -10
+    },
+    {
+      "field": "value",
+      "id": "field-value",
+      "x": 0,
+      "y": 10
+    }
+  ],
+  "parameters": {
+    "body-height": 7.5,
+    "body-length": 20,
+    "lead-length": 5
+  },
+  "ports": [
+    {
+      "id": "1",
+      "orientation": 180,
+      "visible": true,
+      "x": -15.0,
+      "y": 0.0
+    },
+    {
+      "id": "2",
+      "orientation": 0,
+      "visible": true,
+      "x": 15.0,
+      "y": 0.0
+    }
+  ],
+  "primitiveCounts": {
+    "line": 2,
+    "rect": 1,
+    "text": 2
+  },
+  "requiredFeatures": [],
+  "symbol": "corpus:s001-resistor-iec",
+  "variants": []
+}

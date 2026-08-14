@@ -1,0 +1,7 @@
+{
+  "case": "N011",
+  "expectedDiagnostic": "PROJECT_HIERARCHY_UNKNOWN_PARENT",
+  "matched": true,
+  "observedError": "PROJECT_HIERARCHY_UNKNOWN_PARENT: sheet control references unknown parent missing",
+  "status": "pass"
+}

@@ -1,0 +1,57 @@
+{
+  "card": {
+    "aliases": [
+      "0.5.8 release",
+      "pre-live readiness release",
+      "agent harness hardening release"
+    ],
+    "appliesTo": [
+      "release-notes"
+    ],
+    "domain": "releases",
+    "estimatedReadBytes": 4171,
+    "id": "AIXEM-RELEASE-058-001",
+    "inputs": [],
+    "keywords": [
+      "0.5.8 release",
+      "AIXEM 0.5.8 Pre-Live Agent Readiness Hardening",
+      "agent harness hardening release",
+      "author-component-circuit",
+      "pre-live readiness release",
+      "publish-release",
+      "validate-project"
+    ],
+    "kind": "release-note",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/releases/0.5.8.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:1442c45719cf7bfe446a0e204d0fa43aa288f7b443cdecb835e2793a36e47779"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 900,
+    "readNext": [
+      "AIXEM-RELEASE-057-001",
+      "AIXEM-CONF-AGENT-LIVE-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-RELEASE-058-001.read",
+        "level": "should",
+        "text": "Proves the deterministic platform boundary immediately below a future external AI agent through portable execution, immutable-stage postflight checks, process-tree cleanup, evidence hygiene, fair scoring, successful non-AI subprocess closure, and integrated fault retention."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-RELEASE-058-001",
+        "path": "docs/releases/0.5.8.md"
+      }
+    ],
+    "summary": "Proves the deterministic platform boundary immediately below a future external AI agent through portable execution, immutable-stage postflight checks, process-tree cleanup, evidence hygiene, fair scoring, successful non-AI subprocess closure, and integrated fault retention.",
+    "title": "AIXEM 0.5.8 Pre-Live Agent Readiness Hardening"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

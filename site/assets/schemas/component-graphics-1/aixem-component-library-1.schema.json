@@ -1,0 +1,383 @@
+{
+  "$defs": {
+    "component": {
+      "additionalProperties": false,
+      "properties": {
+        "classification": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        "description": {
+          "type": "string"
+        },
+        "displayName": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "id": {
+          "pattern": "^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$",
+          "type": "string"
+        },
+        "kind": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "metadata": {
+          "type": "object"
+        },
+        "models": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "digest": {
+                "pattern": "^sha256:[0-9a-f]{64}$",
+                "type": "string"
+              },
+              "mediaType": {
+                "type": "string"
+              },
+              "metadata": {
+                "type": "object"
+              },
+              "path": {
+                "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[a-z0-9][a-z0-9._/-]*$",
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "role",
+              "path",
+              "digest",
+              "mediaType"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "ports": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "description": {
+                "type": "string"
+              },
+              "id": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "metadata": {
+                "type": "object"
+              },
+              "name": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "required": {
+                "type": "boolean"
+              },
+              "terminal": {
+                "type": "string"
+              },
+              "type": {
+                "enum": [
+                  "input",
+                  "output",
+                  "bidirectional",
+                  "passive",
+                  "power-input",
+                  "power-output",
+                  "open-collector",
+                  "open-emitter",
+                  "tri-state",
+                  "no-connect",
+                  "unspecified",
+                  "architectural-control",
+                  "architectural-load",
+                  "architectural-source",
+                  "generic"
+                ]
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "type"
+            ],
+            "type": "object"
+          },
+          "maxItems": 4096,
+          "type": "array"
+        },
+        "presentations": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "asset": {
+                "additionalProperties": false,
+                "properties": {
+                  "digest": {
+                    "pattern": "^sha256:[0-9a-f]{64}$",
+                    "type": "string"
+                  },
+                  "path": {
+                    "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[a-z0-9][a-z0-9._/-]*$",
+                    "type": "string"
+                  },
+                  "revision": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "symbolId": {
+                    "pattern": "^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "path",
+                  "digest",
+                  "symbolId",
+                  "revision"
+                ],
+                "type": "object"
+              },
+              "defaultVariant": {
+                "type": "string"
+              },
+              "fieldMap": {
+                "additionalProperties": {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "type": "object"
+              },
+              "metadata": {
+                "type": "object"
+              },
+              "parameterMap": {
+                "additionalProperties": {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "type": "object"
+              },
+              "portMap": {
+                "additionalProperties": {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "type": "object"
+              },
+              "purpose": {
+                "minLength": 1,
+                "type": "string"
+              }
+            },
+            "required": [
+              "purpose",
+              "asset",
+              "portMap"
+            ],
+            "type": "object"
+          },
+          "maxItems": 256,
+          "minItems": 1,
+          "type": "array"
+        },
+        "properties": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "default": {},
+              "description": {
+                "type": "string"
+              },
+              "id": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "required": {
+                "type": "boolean"
+              },
+              "type": {
+                "enum": [
+                  "string",
+                  "number",
+                  "integer",
+                  "boolean",
+                  "quantity",
+                  "enum",
+                  "uri"
+                ]
+              },
+              "unit": {
+                "type": "string"
+              },
+              "values": {
+                "type": "array"
+              }
+            },
+            "required": [
+              "id",
+              "type"
+            ],
+            "type": "object"
+          },
+          "maxItems": 4096,
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "kind",
+        "displayName",
+        "ports",
+        "properties",
+        "presentations"
+      ],
+      "type": "object"
+    },
+    "provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "author": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "created": {
+          "format": "date",
+          "type": "string"
+        },
+        "license": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "origin": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "sourceDigest": {
+          "pattern": "^sha256:[0-9a-f]{64}$",
+          "type": "string"
+        },
+        "sourceUri": {
+          "format": "uri",
+          "type": "string"
+        }
+      },
+      "required": [
+        "origin",
+        "license",
+        "author",
+        "created"
+      ],
+      "type": "object"
+    }
+  },
+  "$id": "https://schemas.aixem.org/component-graphics/aixlib/1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "formatVersion": {
+      "const": "1.0"
+    },
+    "library": {
+      "additionalProperties": false,
+      "properties": {
+        "components": {
+          "items": {
+            "$ref": "#/$defs/component"
+          },
+          "maxItems": 100000,
+          "minItems": 1,
+          "type": "array"
+        },
+        "dependencies": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "digest": {
+                "pattern": "^sha256:[0-9a-f]{64}$",
+                "type": "string"
+              },
+              "id": {
+                "pattern": "^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$",
+                "type": "string"
+              },
+              "optional": {
+                "type": "boolean"
+              },
+              "path": {
+                "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[a-z0-9][a-z0-9._/-]*$",
+                "type": "string"
+              },
+              "version": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "version",
+              "path",
+              "digest"
+            ],
+            "type": "object"
+          },
+          "maxItems": 1024,
+          "type": "array"
+        },
+        "description": {
+          "type": "string"
+        },
+        "id": {
+          "pattern": "^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$",
+          "type": "string"
+        },
+        "metadata": {
+          "type": "object"
+        },
+        "namespace": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "provenance": {
+          "$ref": "#/$defs/provenance"
+        },
+        "title": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "version": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "version",
+        "title",
+        "components",
+        "provenance"
+      ],
+      "type": "object"
+    },
+    "schema": {
+      "const": "https://schemas.aixem.org/component-graphics/aixlib/1"
+    }
+  },
+  "required": [
+    "schema",
+    "formatVersion",
+    "library"
+  ],
+  "title": "AIXEM Component Library 1.0 Candidate",
+  "type": "object"
+}

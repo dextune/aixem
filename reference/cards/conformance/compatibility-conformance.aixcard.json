@@ -1,0 +1,64 @@
+{
+  "card": {
+    "aliases": [
+      "compatibility conformance",
+      "migration validation",
+      "compatibility evidence"
+    ],
+    "appliesTo": [
+      "compatibility-conformance"
+    ],
+    "domain": "conformance",
+    "estimatedReadBytes": 7833,
+    "id": "AIXEM-CONF-COMPAT-001",
+    "inputs": [],
+    "keywords": [
+      "Compatibility and Migration Conformance",
+      "compatibility conformance",
+      "compatibility evidence",
+      "compose-project",
+      "migrate-baseline",
+      "migration validation",
+      "publish-release"
+    ],
+    "kind": "policy",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/conformance/compatibility-conformance.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:7883dc9e8eab029c263c59f7ff7fb4a7f86b8af22d3dff294f0979f12b276ccb"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-CONF-0030",
+        "level": "must",
+        "text": "**MUST.** The 0.5 release MUST inventory every file in the shipped 0.4 baseline used for migration analysis."
+      },
+      {
+        "id": "AIXEM-REQ-CONF-0031",
+        "level": "must",
+        "text": "**MUST.** Every baseline inventory entry MUST have a migration disposition and target or rationale."
+      },
+      {
+        "id": "AIXEM-REQ-CONF-0032",
+        "level": "must",
+        "text": "**MUST.** The 0.5 build MUST generate a route-and-card compatibility reference tree from canonical documentation."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-CONF-COMPAT-001",
+        "path": "docs/conformance/compatibility-conformance.md"
+      }
+    ],
+    "summary": "Defines version compatibility claims, migration maps, deprecated paths, and 0.4 reference-output compatibility.",
+    "title": "Compatibility and Migration Conformance"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

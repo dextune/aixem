@@ -1,0 +1,57 @@
+{
+  "activeRoute": "create-symbol",
+  "completionCriteria": [
+    "Use AGENTS.md and the compiled route packet before editing.",
+    "Edit only the authoritative files allowed by the active route.",
+    "Run prepare, check, authority-local repair, and close.",
+    "Leave zero blocking diagnostics, zero scope violations, and deterministic render evidence."
+  ],
+  "entryRoute": "create-symbol",
+  "expectedArtifacts": [
+    "library/electronics/authoring/connector-6.aixsym.json",
+    "library/electronics/authoring/authoring-components.aixlib.json",
+    "project.aixproj.json"
+  ],
+  "facts": {
+    "componentType": "live:connector-l002",
+    "pinCount": 6,
+    "pinPitchMm": 5,
+    "ports": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "reference": "JX62"
+  },
+  "formatVersion": "1.0",
+  "id": "L002",
+  "operation": "create",
+  "project": "project.aixproj.json",
+  "prompt": "Create the missing six-pin connector symbol and total presentation binding for JX62. Use a 5 mm pin pitch and preserve all supplied endpoints.",
+  "routingMode": "fixed",
+  "schema": "https://schemas.aixem.org/agent/task/1",
+  "title": "Six-pin connector",
+  "writeConstraints": {
+    "prohibitedPaths": [
+      "render/**",
+      "evidence/**"
+    ],
+    "requiredValidators": [
+      "agent.live_stage",
+      "agent.evaluation_invariants"
+    ],
+    "writableAuthorities": [
+      "symbol",
+      "component-library",
+      "project"
+    ],
+    "writablePaths": [
+      "library/electronics/authoring/connector-6.aixsym.json",
+      "library/electronics/authoring/authoring-components.aixlib.json",
+      "project.aixproj.json"
+    ]
+  }
+}

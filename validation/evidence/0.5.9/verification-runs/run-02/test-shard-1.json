@@ -1,0 +1,74 @@
+{
+  "durationSeconds": 6.021085,
+  "errors": [],
+  "executionMode": "isolated-test-module-processes",
+  "failedModules": 0,
+  "failures": [],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "moduleCount": 3,
+  "modules": [
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_agent_evals_3"
+      ],
+      "durationSeconds": 2.86321,
+      "module": "tests.agent.test_agent_evals_3",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_corpus_builder_is_byte_reproducible (tests.agent.test_agent_evals_3.AgentEvaluation3CorpusTests.test_corpus_builder_is_byte_reproducible) ... ok\ntest_corpus_readme_links_every_registered_task (tests.agent.test_agent_evals_3.AgentEvaluation3CorpusTests.test_corpus_readme_links_every_registered_task) ... ok\ntest_declared_initial_diagnostics_match_the_actual_incomplete_start_state (tests.agent.test_agent_evals_3.AgentEvaluation3CorpusTests.test_declared_initial_diagnostics_match_the_actual_incomplete_start_state) ... ok\ntest_manifest_contains_exact_l001_l012_creation_and_repair_inventory (tests.agent.test_agent_evals_3.AgentEvaluation3CorpusTests.test_manifest_contains_exact_l001_l012_creation_and_repair_inventory) ... ok\ntest_tasks_and_evaluator_manifests_are_schema_valid_and_separated (tests.agent.test_agent_evals_3.AgentEvaluation3CorpusTests.test_tasks_and_evaluator_manifests_are_schema_valid_and_separated) ... ok\ntest_tier_b_status_never_claims_an_execution_that_did_not_happen (tests.agent.test_agent_evals_3.AgentEvaluation3CorpusTests.test_tier_b_status_never_claims_an_execution_that_did_not_happen) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 1.369s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 6,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_task_contract"
+      ],
+      "durationSeconds": 1.529361,
+      "module": "tests.agent.test_task_contract",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_simple_route_cannot_select_an_unrelated_active_route (tests.agent.test_task_contract.AgentTaskContractTests.test_simple_route_cannot_select_an_unrelated_active_route) ... ok\ntest_task_cannot_escape_workspace_or_write_prohibited_output (tests.agent.test_task_contract.AgentTaskContractTests.test_task_cannot_escape_workspace_or_write_prohibited_output) ... ok\ntest_task_cannot_widen_route_authority (tests.agent.test_task_contract.AgentTaskContractTests.test_task_cannot_widen_route_authority) ... ok\ntest_valid_task_resolves_route_bounded_write_scope (tests.agent.test_task_contract.AgentTaskContractTests.test_valid_task_resolves_route_bounded_write_scope) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.005s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 4,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.docs.test_renderer_contract"
+      ],
+      "durationSeconds": 1.628107,
+      "module": "tests.docs.test_renderer_contract",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_fail_closed_binding_cases (tests.docs.test_renderer_contract.RendererContractTests.test_fail_closed_binding_cases) ... ok\ntest_field_precedence (tests.docs.test_renderer_contract.RendererContractTests.test_field_precedence) ... ok\ntest_port_map_direction_totality_and_visibility (tests.docs.test_renderer_contract.RendererContractTests.test_port_map_direction_totality_and_visibility) ... ok\ntest_variant_and_parameter_precedence (tests.docs.test_renderer_contract.RendererContractTests.test_variant_and_parameter_precedence) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.041s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 4,
+      "valid": true
+    }
+  ],
+  "passedModules": 3,
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/test-run-shard/1",
+  "shard": {
+    "count": 12,
+    "index": 1,
+    "totalDiscoveredModules": 29
+  },
+  "skipped": [],
+  "successful": true,
+  "testsRun": 14
+}

@@ -1,0 +1,60 @@
+{
+  "card": {
+    "aliases": [
+      "authoring task guides",
+      "how to author",
+      "agent authoring guides"
+    ],
+    "appliesTo": [
+      "authoring-guide-navigation"
+    ],
+    "domain": "authoring",
+    "estimatedReadBytes": 3257,
+    "id": "AIXEM-AUTHORING-GUIDES-INDEX-001",
+    "inputs": [],
+    "keywords": [
+      "Task-Oriented Authoring Guides",
+      "agent authoring guides",
+      "author-component-circuit",
+      "authoring task guides",
+      "compose-project",
+      "create-schematic",
+      "create-symbol",
+      "how to author",
+      "render-review",
+      "route-nets",
+      "validate-project"
+    ],
+    "kind": "index",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/authoring/guides/overview.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:45ef567f846eeba5cf1c8d900e0cd260f4c27563f13b984a34ae60573a532643"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-AUTHORING-INDEX-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-AUTHORING-GUIDES-INDEX-001.read",
+        "level": "should",
+        "text": "Provides one-hop task selection for reusable part creation, schematic placement, routing, rendering, modification, composition, and validation."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-AUTHORING-GUIDES-INDEX-001",
+        "path": "docs/authoring/guides/index.md"
+      }
+    ],
+    "summary": "Provides one-hop task selection for reusable part creation, schematic placement, routing, rendering, modification, composition, and validation.",
+    "title": "Task-Oriented Authoring Guides"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

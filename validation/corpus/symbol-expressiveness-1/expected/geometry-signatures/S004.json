@@ -1,0 +1,59 @@
+{
+  "bounds": {
+    "height": 37.5,
+    "width": 45,
+    "x": -22.5,
+    "y": -20
+  },
+  "capabilities": [
+    "geometry.line",
+    "geometry.path",
+    "port.mapping",
+    "text.field"
+  ],
+  "case": "S004",
+  "defaultVariant": null,
+  "definitions": [],
+  "fieldAnchors": [
+    {
+      "field": "reference",
+      "id": "field-reference",
+      "x": 0,
+      "y": -15
+    },
+    {
+      "field": "value",
+      "id": "field-value",
+      "x": 0,
+      "y": 12.5
+    }
+  ],
+  "parameters": {},
+  "ports": [
+    {
+      "id": "1",
+      "orientation": 180,
+      "visible": true,
+      "x": -17.5,
+      "y": 0.0
+    },
+    {
+      "id": "2",
+      "orientation": 0,
+      "visible": true,
+      "x": 17.5,
+      "y": 0.0
+    }
+  ],
+  "primitiveCounts": {
+    "line": 3,
+    "path": 1,
+    "text": 3
+  },
+  "requiredFeatures": [
+    "compound-path",
+    "quadratic-bezier"
+  ],
+  "symbol": "corpus:s004-capacitor-polarized",
+  "variants": []
+}

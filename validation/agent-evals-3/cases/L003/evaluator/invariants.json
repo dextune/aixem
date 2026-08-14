@@ -1,0 +1,87 @@
+{
+  "authority": "evaluator-only",
+  "caseId": "L003",
+  "formatVersion": "1.0",
+  "invariants": [
+    {
+      "arguments": {
+        "project": "project.aixproj.json",
+        "route": "validate-project"
+      },
+      "basis": [
+        {
+          "pointer": "/completionCriteria/3",
+          "type": "task"
+        }
+      ],
+      "description": "The actual final workspace passes full project validation.",
+      "id": "L003-VALID",
+      "predicate": "validator-pass",
+      "required": true
+    },
+    {
+      "arguments": {
+        "project": "project.aixproj.json",
+        "repeats": 3
+      },
+      "basis": [
+        {
+          "pointer": "/completionCriteria/3",
+          "type": "task"
+        }
+      ],
+      "description": "The actual final workspace renders deterministically three times.",
+      "id": "L003-RENDER",
+      "predicate": "render-deterministic",
+      "required": true
+    },
+    {
+      "arguments": {
+        "mode": "exact",
+        "path": "library/electronics/authoring/controller-12.aixsym.json",
+        "ports": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12"
+        ]
+      },
+      "basis": [
+        {
+          "pointer": "/facts",
+          "type": "task"
+        }
+      ],
+      "description": "The controller exposes the complete 1-12 endpoint set.",
+      "id": "L003-PORTS",
+      "predicate": "symbol-port-set",
+      "required": true
+    },
+    {
+      "arguments": {
+        "componentType": "live:controller-l003",
+        "entity": "UX12",
+        "source": "controller_12.aixem"
+      },
+      "basis": [
+        {
+          "pointer": "/facts",
+          "type": "task"
+        }
+      ],
+      "description": "UX12 resolves to the requested controller type.",
+      "id": "L003-ENTITY",
+      "predicate": "entity-present",
+      "required": true
+    }
+  ],
+  "schema": "https://schemas.aixem.org/agent/evaluation-invariant/1"
+}

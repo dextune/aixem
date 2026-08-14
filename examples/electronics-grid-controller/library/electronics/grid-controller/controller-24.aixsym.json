@@ -1,0 +1,701 @@
+{
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/component-graphics/aixsym/1",
+  "symbol": {
+    "anchors": [
+      {
+        "id": "origin",
+        "kind": "insertion",
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "bounds": {
+      "height": 108.5,
+      "width": 104,
+      "x": -52.0,
+      "y": -54.25
+    },
+    "coordinateSystem": {
+      "angleDirection": "clockwise",
+      "angleUnit": "deg",
+      "grid": 2.5,
+      "unit": "mm",
+      "yAxis": "down"
+    },
+    "definitions": {},
+    "description": "Original AIXEM grid schematic symbol for CONTROL MCU.",
+    "graphics": [
+      {
+        "height": 82.5,
+        "id": "body",
+        "layer": "body",
+        "style": "body-fill",
+        "type": "rect",
+        "width": 70,
+        "x": -35.0,
+        "y": -41.25
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "id": "title",
+        "layer": "detail",
+        "style": "field",
+        "text": "CONTROL MCU",
+        "type": "text",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "field": "reference",
+        "id": "reference",
+        "layer": "fields",
+        "style": "field",
+        "type": "text",
+        "x": 0,
+        "y": -47.25
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "field": "value",
+        "id": "value",
+        "layer": "fields",
+        "style": "value",
+        "type": "text",
+        "x": 0,
+        "y": 48.25
+      },
+      {
+        "id": "pin-PA0",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": -40.0,
+        "x2": -35.0,
+        "y1": -33.75,
+        "y2": -33.75
+      },
+      {
+        "id": "pin-PA1",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": -40.0,
+        "x2": -35.0,
+        "y1": -26.25,
+        "y2": -26.25
+      },
+      {
+        "id": "pin-PA2",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": -40.0,
+        "x2": -35.0,
+        "y1": -18.75,
+        "y2": -18.75
+      },
+      {
+        "id": "pin-PA3",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": -40.0,
+        "x2": -35.0,
+        "y1": -11.25,
+        "y2": -11.25
+      },
+      {
+        "id": "pin-ADC0",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": -40.0,
+        "x2": -35.0,
+        "y1": -3.75,
+        "y2": -3.75
+      },
+      {
+        "id": "pin-ADC1",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": -40.0,
+        "x2": -35.0,
+        "y1": 3.75,
+        "y2": 3.75
+      },
+      {
+        "id": "pin-NRST",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": -40.0,
+        "x2": -35.0,
+        "y1": 11.25,
+        "y2": 11.25
+      },
+      {
+        "id": "pin-BOOT0",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": -40.0,
+        "x2": -35.0,
+        "y1": 18.75,
+        "y2": 18.75
+      },
+      {
+        "id": "pin-XTAL1",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": -40.0,
+        "x2": -35.0,
+        "y1": 26.25,
+        "y2": 26.25
+      },
+      {
+        "id": "pin-XTAL2",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": -40.0,
+        "x2": -35.0,
+        "y1": 33.75,
+        "y2": 33.75
+      },
+      {
+        "id": "pin-PB0",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": 35.0,
+        "x2": 40.0,
+        "y1": -33.75,
+        "y2": -33.75
+      },
+      {
+        "id": "pin-PB1",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": 35.0,
+        "x2": 40.0,
+        "y1": -26.25,
+        "y2": -26.25
+      },
+      {
+        "id": "pin-PB2",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": 35.0,
+        "x2": 40.0,
+        "y1": -18.75,
+        "y2": -18.75
+      },
+      {
+        "id": "pin-PB3",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": 35.0,
+        "x2": 40.0,
+        "y1": -11.25,
+        "y2": -11.25
+      },
+      {
+        "id": "pin-SWDIO",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": 35.0,
+        "x2": 40.0,
+        "y1": -3.75,
+        "y2": -3.75
+      },
+      {
+        "id": "pin-SWCLK",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": 35.0,
+        "x2": 40.0,
+        "y1": 3.75,
+        "y2": 3.75
+      },
+      {
+        "id": "pin-UART_TX",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": 35.0,
+        "x2": 40.0,
+        "y1": 11.25,
+        "y2": 11.25
+      },
+      {
+        "id": "pin-UART_RX",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": 35.0,
+        "x2": 40.0,
+        "y1": 18.75,
+        "y2": 18.75
+      },
+      {
+        "id": "pin-USB_DP",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": 35.0,
+        "x2": 40.0,
+        "y1": 26.25,
+        "y2": 26.25
+      },
+      {
+        "id": "pin-USB_DM",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": 35.0,
+        "x2": 40.0,
+        "y1": 33.75,
+        "y2": 33.75
+      },
+      {
+        "id": "pin-3V3A",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": -3.75,
+        "x2": -3.75,
+        "y1": -46.25,
+        "y2": -41.25
+      },
+      {
+        "id": "pin-3V3D",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": 3.75,
+        "x2": 3.75,
+        "y1": -46.25,
+        "y2": -41.25
+      },
+      {
+        "id": "pin-GNDA",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": -3.75,
+        "x2": -3.75,
+        "y1": 41.25,
+        "y2": 46.25
+      },
+      {
+        "id": "pin-GNDD",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": 3.75,
+        "x2": 3.75,
+        "y1": 41.25,
+        "y2": 46.25
+      }
+    ],
+    "id": "demo.electronics:controller-24",
+    "layers": [
+      {
+        "defaultVisible": true,
+        "id": "body",
+        "locked": true,
+        "order": 10,
+        "printable": true,
+        "purpose": "symbol body and pins"
+      },
+      {
+        "defaultVisible": true,
+        "id": "detail",
+        "locked": true,
+        "order": 20,
+        "printable": true,
+        "purpose": "pin names and body title"
+      },
+      {
+        "defaultVisible": true,
+        "id": "fields",
+        "locked": false,
+        "order": 30,
+        "printable": true,
+        "purpose": "reference and value fields"
+      }
+    ],
+    "paintServers": {},
+    "parameters": {},
+    "ports": [
+      {
+        "id": "PA0",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "PA0 / IN1",
+        "number": "1",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.5,
+        "x": -40.0,
+        "y": -33.75
+      },
+      {
+        "id": "PA1",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "PA1 / IN2",
+        "number": "2",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.5,
+        "x": -40.0,
+        "y": -26.25
+      },
+      {
+        "id": "PA2",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "SWO",
+        "number": "3",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.5,
+        "x": -40.0,
+        "y": -18.75
+      },
+      {
+        "id": "PA3",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "PA3",
+        "number": "4",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.5,
+        "x": -40.0,
+        "y": -11.25
+      },
+      {
+        "id": "ADC0",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "ADC0",
+        "number": "5",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.5,
+        "x": -40.0,
+        "y": -3.75
+      },
+      {
+        "id": "ADC1",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "ADC1",
+        "number": "6",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.5,
+        "x": -40.0,
+        "y": 3.75
+      },
+      {
+        "id": "NRST",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "NRST#",
+        "number": "7",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.5,
+        "x": -40.0,
+        "y": 11.25
+      },
+      {
+        "id": "BOOT0",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "BOOT0",
+        "number": "8",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.5,
+        "x": -40.0,
+        "y": 18.75
+      },
+      {
+        "id": "XTAL1",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "XTAL1",
+        "number": "9",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.5,
+        "x": -40.0,
+        "y": 26.25
+      },
+      {
+        "id": "XTAL2",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "XTAL2",
+        "number": "10",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.5,
+        "x": -40.0,
+        "y": 33.75
+      },
+      {
+        "id": "PB0",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "PB0 / OUT1",
+        "number": "11",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.5,
+        "x": 40.0,
+        "y": -33.75
+      },
+      {
+        "id": "PB1",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "PB1 / OUT2",
+        "number": "12",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.5,
+        "x": 40.0,
+        "y": -26.25
+      },
+      {
+        "id": "PB2",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "PB2 / LED1",
+        "number": "13",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.5,
+        "x": 40.0,
+        "y": -18.75
+      },
+      {
+        "id": "PB3",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "PB3 / LED2",
+        "number": "14",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.5,
+        "x": 40.0,
+        "y": -11.25
+      },
+      {
+        "id": "SWDIO",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "SWDIO",
+        "number": "15",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.5,
+        "x": 40.0,
+        "y": -3.75
+      },
+      {
+        "id": "SWCLK",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "SWCLK",
+        "number": "16",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.5,
+        "x": 40.0,
+        "y": 3.75
+      },
+      {
+        "id": "UART_TX",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "UART_TX",
+        "number": "17",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.5,
+        "x": 40.0,
+        "y": 11.25
+      },
+      {
+        "id": "UART_RX",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "UART_RX",
+        "number": "18",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.5,
+        "x": 40.0,
+        "y": 18.75
+      },
+      {
+        "id": "USB_DP",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "USB_DP",
+        "number": "19",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.5,
+        "x": 40.0,
+        "y": 26.25
+      },
+      {
+        "id": "USB_DM",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "USB_DM",
+        "number": "20",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.5,
+        "x": 40.0,
+        "y": 33.75
+      },
+      {
+        "id": "3V3A",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "3V3A",
+        "number": "21",
+        "numberVisible": true,
+        "orientation": 270,
+        "snapRadius": 1.5,
+        "x": -3.75,
+        "y": -46.25
+      },
+      {
+        "id": "3V3D",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "3V3D",
+        "number": "22",
+        "numberVisible": true,
+        "orientation": 270,
+        "snapRadius": 1.5,
+        "x": 3.75,
+        "y": -46.25
+      },
+      {
+        "id": "GNDA",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "GNDA",
+        "number": "23",
+        "numberVisible": true,
+        "orientation": 90,
+        "snapRadius": 1.5,
+        "x": -3.75,
+        "y": 46.25
+      },
+      {
+        "id": "GNDD",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "GNDD",
+        "number": "24",
+        "numberVisible": true,
+        "orientation": 90,
+        "snapRadius": 1.5,
+        "x": 3.75,
+        "y": 46.25
+      }
+    ],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-10",
+      "license": "CC0-1.0",
+      "notes": "Original geometry; no vendor symbol library copied.",
+      "origin": "AIXEM Schematic Reference Platform 0.4"
+    },
+    "purpose": "schematic-symbol",
+    "requiredFeatures": [],
+    "revision": "1.0.0",
+    "styles": {
+      "accent": {
+        "fill": "none",
+        "stroke": "#1b4e8c",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.7
+      },
+      "body": {
+        "fill": "#ffffff",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.8
+      },
+      "body-fill": {
+        "fill": "#fffef8",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.8
+      },
+      "field": {
+        "fill": "#0c7772",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 4.2,
+        "fontWeight": 600,
+        "stroke": "none"
+      },
+      "line": {
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.8
+      },
+      "solid": {
+        "fill": "#0c7772",
+        "stroke": "#0c7772",
+        "strokeWidth": 0.5
+      },
+      "thin": {
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.55
+      },
+      "value": {
+        "fill": "#1b4e8c",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.5,
+        "fontWeight": 400,
+        "stroke": "none"
+      }
+    },
+    "title": "CONTROL MCU",
+    "variants": []
+  }
+}

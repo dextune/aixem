@@ -1,0 +1,7 @@
+{
+  "case": "N004",
+  "expectedDiagnostic": "endpoints both connected and noconn",
+  "matched": true,
+  "observedError": "endpoints both connected and noconn: ['@VCC']",
+  "status": "pass"
+}

@@ -1,0 +1,49 @@
+{
+  "activeRoute": "create-schematic",
+  "completionCriteria": [
+    "Use AGENTS.md and the compiled route packet before editing.",
+    "Edit only the authoritative files allowed by the active route.",
+    "Run prepare, check, authority-local repair, and close.",
+    "Leave zero blocking diagnostics, zero scope violations, and deterministic render evidence."
+  ],
+  "entryRoute": "create-schematic",
+  "expectedArtifacts": [
+    "two_terminal_route.aixem",
+    "project.aixproj.json"
+  ],
+  "facts": {
+    "diagnostic": "AIXEM-DIAG-SEMANTIC-NET-CLOSURE",
+    "invalidNet": "misbound_l009",
+    "members": [
+      "T1.1",
+      "T2.1"
+    ],
+    "validNet": "signal"
+  },
+  "formatVersion": "1.0",
+  "id": "L009",
+  "operation": "repair",
+  "project": "project.aixproj.json",
+  "prompt": "Remove the contradictory semantic membership misbound_l009 while preserving the valid signal net and existing layout geometry.",
+  "routingMode": "fixed",
+  "schema": "https://schemas.aixem.org/agent/task/1",
+  "title": "Correct-looking route on wrong semantic net",
+  "writeConstraints": {
+    "prohibitedPaths": [
+      "render/**",
+      "evidence/**"
+    ],
+    "requiredValidators": [
+      "agent.live_stage",
+      "agent.evaluation_invariants"
+    ],
+    "writableAuthorities": [
+      "semantic",
+      "project"
+    ],
+    "writablePaths": [
+      "two_terminal_route.aixem",
+      "project.aixproj.json"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "entryRoute": "create-symbol",
+  "executionMode": "deterministic-harness-replay",
+  "expectedInitialDiagnostics": [
+    "AIXEM-DIAG-SYMBOL-LEAD-PORT-MISMATCH"
+  ],
+  "id": "A008",
+  "iterations": 1,
+  "liveExternalAgentExecuted": false,
+  "missingExpectedDiagnostics": [],
+  "mutation": "broken-lead-port",
+  "observedInitialDiagnostics": [
+    "AIXEM-DIAG-SYMBOL-LEAD-PORT-MISMATCH"
+  ],
+  "passConditions": {
+    "checkPassedAfterRepair": true,
+    "closePassed": true,
+    "expectedInitialDiagnosticsObserved": true,
+    "liveClaimFalse": true,
+    "renderDeterministic": true,
+    "zeroGeneratedOutputEdits": true,
+    "zeroScopeViolations": true
+  },
+  "recordDigest": "sha256:09a7caa4d1504bb65d56a6dbbeb8eac3d7a44145198f7b5bb5a75b104f08005a",
+  "retainedRunRecord": "runs/A008-authoring-run-record.json",
+  "status": "pass",
+  "title": "Broken lead and port"
+}

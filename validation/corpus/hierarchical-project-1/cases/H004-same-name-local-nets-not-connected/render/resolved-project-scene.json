@@ -1,0 +1,385 @@
+{
+  "authority": {
+    "connectivityFromGeometry": false,
+    "layersAreSheets": false,
+    "localPresentation": "aixlayout/2",
+    "localSemantics": ".aixem",
+    "projectComposition": "aixproj/2"
+  },
+  "diagnostics": [],
+  "generatedAt": "2026-08-10T12:00:00Z",
+  "hashes": {
+    "inputs": [
+      {
+        "layoutDigest": "sha256:b1f6817bd924b9b187a96c3af86d7b1ccf5e70628e2e01ab780724da694467a4",
+        "layoutPath": "layouts/alpha.aixlayout.json",
+        "resolvedSceneDigest": "sha256:bccade356c403b4909cc86aed5cacdfd60a69bd48bb81232b5e5aee62d7180d0",
+        "sheet": "alpha",
+        "sourceDigest": "sha256:ab1af735bf038ef312371d7f5f1ad22b1eb0f2cc95a3e99f8d8b7c9f8844ae19",
+        "sourcePath": "circuits/alpha.aixem",
+        "svgDigest": "sha256:644ba4de4165de299f05ed9c55f22bfb63a8c7c467a45c8dc67ed67fc7a84355"
+      },
+      {
+        "layoutDigest": "sha256:5d10de91aa63b3ed94fa441dfcb4be8db760e4513e3f0d71914f09eaaef1385d",
+        "layoutPath": "layouts/beta.aixlayout.json",
+        "resolvedSceneDigest": "sha256:598cb5ded998d904b4f1fb2d9373c9e04a6eb38d93cc60a97ab0782c7ba6b8ce",
+        "sheet": "beta",
+        "sourceDigest": "sha256:b6c0f9dfdf21a6a694121261219a80abb8cd9ade333c93a27441e16694c24d43",
+        "sourcePath": "circuits/beta.aixem",
+        "svgDigest": "sha256:5dc567e8f19809cb3469bfd85e3b28ae94e7e347b5d98c6e1a213c524a79ef4c"
+      }
+    ],
+    "manifest": "sha256:fdc31f353df579f0fadc1c59ec563c1e53a17948141977f10d61ded6e1d8bc5e",
+    "styleProfile": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393"
+  },
+  "hierarchy": [
+    {
+      "children": [],
+      "depth": 0,
+      "id": "alpha",
+      "order": 10,
+      "parent": null,
+      "title": "Alpha"
+    },
+    {
+      "children": [],
+      "depth": 0,
+      "id": "beta",
+      "order": 20,
+      "parent": null,
+      "title": "Beta"
+    }
+  ],
+  "interfaceSummaries": {
+    "alpha": {
+      "layoutDigest": "sha256:b1f6817bd924b9b187a96c3af86d7b1ccf5e70628e2e01ab780724da694467a4",
+      "ports": [
+        {
+          "direction": "passive",
+          "id": "GND",
+          "localNet": "gnd",
+          "projectNet": null,
+          "role": "power"
+        },
+        {
+          "direction": "input",
+          "id": "VCC",
+          "localNet": "vcc",
+          "projectNet": null,
+          "role": "power"
+        }
+      ],
+      "sheet": "alpha",
+      "sourceDigest": "sha256:ab1af735bf038ef312371d7f5f1ad22b1eb0f2cc95a3e99f8d8b7c9f8844ae19",
+      "title": "Alpha"
+    },
+    "beta": {
+      "layoutDigest": "sha256:5d10de91aa63b3ed94fa441dfcb4be8db760e4513e3f0d71914f09eaaef1385d",
+      "ports": [
+        {
+          "direction": "passive",
+          "id": "GND",
+          "localNet": "gnd",
+          "projectNet": null,
+          "role": "power"
+        },
+        {
+          "direction": "input",
+          "id": "VCC",
+          "localNet": "vcc",
+          "projectNet": null,
+          "role": "power"
+        }
+      ],
+      "sheet": "beta",
+      "sourceDigest": "sha256:b6c0f9dfdf21a6a694121261219a80abb8cd9ade333c93a27441e16694c24d43",
+      "title": "Beta"
+    }
+  },
+  "project": {
+    "id": "hierarchical:h004",
+    "profile": "aixem.schematic.multisheet@1",
+    "schema": "https://schemas.aixem.org/component-graphics/aixproj/2",
+    "title": "Same name local nets not connected"
+  },
+  "renderer": {
+    "id": "aixem-hierarchical-project-reference-renderer",
+    "version": "0.5.3"
+  },
+  "routing": {
+    "composite": {
+      "anchors": [
+        {
+          "direction": "passive",
+          "localNet": "gnd",
+          "point": [
+            145.0,
+            150.0
+          ],
+          "port": "GND",
+          "projectNet": null,
+          "role": "power",
+          "sheet": "alpha",
+          "side": "bottom"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            145.0,
+            70.0
+          ],
+          "port": "VCC",
+          "projectNet": null,
+          "role": "power",
+          "sheet": "alpha",
+          "side": "top"
+        },
+        {
+          "direction": "passive",
+          "localNet": "gnd",
+          "point": [
+            145.0,
+            368.0
+          ],
+          "port": "GND",
+          "projectNet": null,
+          "role": "power",
+          "sheet": "beta",
+          "side": "bottom"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            145.0,
+            288.0
+          ],
+          "port": "VCC",
+          "projectNet": null,
+          "role": "power",
+          "sheet": "beta",
+          "side": "top"
+        }
+      ],
+      "canvas": {
+        "height": 438.0,
+        "width": 295.0
+      },
+      "diagnostics": [],
+      "mode": "composite",
+      "nets": [],
+      "sheets": [
+        {
+          "depth": 0,
+          "id": "alpha",
+          "rect": [
+            70.0,
+            60.0,
+            160.0,
+            100.0
+          ],
+          "title": "Alpha",
+          "transform": {
+            "scale": 1.0,
+            "x": 70.0,
+            "y": 60.0
+          }
+        },
+        {
+          "depth": 0,
+          "id": "beta",
+          "rect": [
+            70.0,
+            278.0,
+            160.0,
+            100.0
+          ],
+          "title": "Beta",
+          "transform": {
+            "scale": 1.0,
+            "x": 70.0,
+            "y": 278.0
+          }
+        }
+      ]
+    },
+    "overview": {
+      "anchors": [
+        {
+          "direction": "passive",
+          "localNet": "gnd",
+          "point": [
+            160.0,
+            138.0
+          ],
+          "port": "GND",
+          "projectNet": null,
+          "role": "power",
+          "sheet": "alpha",
+          "side": "bottom"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            160.0,
+            50.0
+          ],
+          "port": "VCC",
+          "projectNet": null,
+          "role": "power",
+          "sheet": "alpha",
+          "side": "top"
+        },
+        {
+          "direction": "passive",
+          "localNet": "gnd",
+          "point": [
+            160.0,
+            318.0
+          ],
+          "port": "GND",
+          "projectNet": null,
+          "role": "power",
+          "sheet": "beta",
+          "side": "bottom"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            160.0,
+            230.0
+          ],
+          "port": "VCC",
+          "projectNet": null,
+          "role": "power",
+          "sheet": "beta",
+          "side": "top"
+        }
+      ],
+      "canvas": {
+        "height": 378.0,
+        "width": 315.0
+      },
+      "diagnostics": [],
+      "mode": "overview",
+      "nets": [],
+      "sheets": [
+        {
+          "depth": 0,
+          "id": "alpha",
+          "rect": [
+            70.0,
+            50.0,
+            180.0,
+            88.0
+          ],
+          "title": "Alpha",
+          "transform": {
+            "scale": 1.0,
+            "x": 70.0,
+            "y": 50.0
+          }
+        },
+        {
+          "depth": 0,
+          "id": "beta",
+          "rect": [
+            70.0,
+            230.0,
+            180.0,
+            88.0
+          ],
+          "title": "Beta",
+          "transform": {
+            "scale": 1.0,
+            "x": 70.0,
+            "y": 230.0
+          }
+        }
+      ]
+    }
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/resolved-project-scene/1",
+  "semanticGraph": {
+    "identities": {
+      "interfaces": [
+        "interface:alpha:GND",
+        "interface:alpha:VCC",
+        "interface:beta:GND",
+        "interface:beta:VCC"
+      ],
+      "projectNets": [],
+      "sheets": [
+        "sheet:alpha",
+        "sheet:beta"
+      ]
+    },
+    "projectNets": [],
+    "unconnectedPorts": [
+      "interface:alpha:GND",
+      "interface:alpha:VCC",
+      "interface:beta:GND",
+      "interface:beta:VCC"
+    ]
+  },
+  "sheets": [
+    {
+      "id": "alpha",
+      "layout": {
+        "digest": "sha256:b1f6817bd924b9b187a96c3af86d7b1ccf5e70628e2e01ab780724da694467a4",
+        "id": "h004-same-name-local-nets-not-connected:alpha-layout",
+        "mediaType": "application/json",
+        "path": "layouts/alpha.aixlayout.json",
+        "version": "2.0"
+      },
+      "order": 10,
+      "parent": null,
+      "resolvedScene": "sheets/alpha.resolved-scene.json",
+      "source": {
+        "digest": "sha256:ab1af735bf038ef312371d7f5f1ad22b1eb0f2cc95a3e99f8d8b7c9f8844ae19",
+        "id": "h004-same-name-local-nets-not-connected:alpha",
+        "mediaType": "text/x-aixem",
+        "path": "circuits/alpha.aixem",
+        "version": "1.0"
+      },
+      "svg": "sheets/alpha.svg",
+      "title": "Alpha"
+    },
+    {
+      "id": "beta",
+      "layout": {
+        "digest": "sha256:5d10de91aa63b3ed94fa441dfcb4be8db760e4513e3f0d71914f09eaaef1385d",
+        "id": "h004-same-name-local-nets-not-connected:beta-layout",
+        "mediaType": "application/json",
+        "path": "layouts/beta.aixlayout.json",
+        "version": "2.0"
+      },
+      "order": 20,
+      "parent": null,
+      "resolvedScene": "sheets/beta.resolved-scene.json",
+      "source": {
+        "digest": "sha256:b6c0f9dfdf21a6a694121261219a80abb8cd9ade333c93a27441e16694c24d43",
+        "id": "h004-same-name-local-nets-not-connected:beta",
+        "mediaType": "text/x-aixem",
+        "path": "circuits/beta.aixem",
+        "version": "1.0"
+      },
+      "svg": "sheets/beta.svg",
+      "title": "Beta"
+    }
+  ],
+  "statistics": {
+    "entities": 2,
+    "hierarchyDepth": 0,
+    "interfacePorts": 4,
+    "localNets": 4,
+    "localRouteSegments": 4,
+    "projectNets": 0,
+    "projectRouteSegments": 0,
+    "sheets": 2,
+    "unconnectedProjectPorts": 4
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "card": {
+    "aliases": [
+      "orthogonal routing",
+      "Manhattan routing",
+      "right-angle wires"
+    ],
+    "appliesTo": [
+      "orthogonal-route-geometry"
+    ],
+    "domain": "routing",
+    "estimatedReadBytes": 5624,
+    "id": "AIXEM-ROUTE-ORTHO-001",
+    "inputs": [],
+    "keywords": [
+      "Manhattan routing",
+      "Orthogonal Routing",
+      "orthogonal routing",
+      "right-angle wires",
+      "route-nets",
+      "validate-project"
+    ],
+    "kind": "guide",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/routing/orthogonal-routing.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:f8119dbdb03253db26820ad4a27ac4e886d8adfc8b5e097d73ea8c760086c703"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SCHEM-GRID-001",
+      "AIXEM-ROUTE-NETS-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-ROUTE-0004",
+        "level": "must",
+        "text": "**MUST.** Every reference-profile route segment MUST be horizontal or vertical."
+      },
+      {
+        "id": "AIXEM-REQ-ROUTE-0005",
+        "level": "must",
+        "text": "**MUST.** A route path MUST NOT contain a zero-length segment."
+      },
+      {
+        "id": "AIXEM-REQ-ROUTE-0006",
+        "level": "must",
+        "text": "**MUST.** Route points MUST preserve deterministic endpoint-to-endpoint ordering."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-ROUTE-ORTHO-001",
+        "path": "docs/routing/orthogonal-routing.md"
+      }
+    ],
+    "summary": "Defines horizontal and vertical route segments, bend placement, channel alignment, and deterministic path ordering.",
+    "title": "Orthogonal Routing"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

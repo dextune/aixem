@@ -1,0 +1,61 @@
+{
+  "card": {
+    "aliases": [
+      "compatibility",
+      "backward compatibility",
+      "migration policy"
+    ],
+    "appliesTo": [
+      "compatibility-policy"
+    ],
+    "domain": "governance",
+    "estimatedReadBytes": 4907,
+    "id": "AIXEM-GOV-COMPAT-001",
+    "inputs": [],
+    "keywords": [
+      "Compatibility Policy",
+      "backward compatibility",
+      "change-architecture",
+      "compatibility",
+      "migrate-baseline",
+      "migration policy",
+      "publish-release"
+    ],
+    "kind": "policy",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/governance/compatibility-policy.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:1b5c9549074ab153dd692413f331d8b2dfa5071144b306fb31c1fe0e6e4b2c6c"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-GOV-VERSIONING-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-GOV-0010",
+        "level": "must",
+        "text": "**MUST.** A release MUST state which prior release artifacts or interfaces it preserves, migrates, replaces, or drops."
+      },
+      {
+        "id": "AIXEM-REQ-GOV-0011",
+        "level": "must",
+        "text": "**MUST.** Every intentional breaking change MUST include a migration path or an explicit unsupported rationale."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-GOV-COMPAT-001",
+        "path": "docs/governance/compatibility-policy.md"
+      }
+    ],
+    "summary": "Defines backward, forward, source, schema, renderer, documentation, and agent-route compatibility claims.",
+    "title": "Compatibility Policy"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

@@ -1,0 +1,8 @@
+{
+  "assertions": [],
+  "expected": "fail",
+  "expectedDiagnostic": "PROJECT_HIERARCHY_CYCLE",
+  "id": "N012",
+  "project": "project.aixproj.json",
+  "title": "Hierarchy cycle"
+}

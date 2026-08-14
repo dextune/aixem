@@ -1,0 +1,40 @@
+{
+  "durationSeconds": 2.392191,
+  "errors": [],
+  "executionMode": "isolated-test-module-processes",
+  "failedModules": 0,
+  "failures": [],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "moduleCount": 1,
+  "modules": [
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_cold_start_stage"
+      ],
+      "durationSeconds": 2.391878,
+      "module": "tests.agent.test_cold_start_stage",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_all_l001_l012_stages_are_deterministic_valid_and_oracle_free (tests.agent.test_cold_start_stage.ColdStartStageContractTests.test_all_l001_l012_stages_are_deterministic_valid_and_oracle_free) ... ok\ntest_fresh_attempt_destination_must_be_empty (tests.agent.test_cold_start_stage.ColdStartStageContractTests.test_fresh_attempt_destination_must_be_empty) ... ok\ntest_symlinks_in_start_state_fail_closed (tests.agent.test_cold_start_stage.ColdStartStageContractTests.test_symlinks_in_start_state_fail_closed) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.747s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 3,
+      "valid": true
+    }
+  ],
+  "passedModules": 1,
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/test-run-shard/1",
+  "shard": {
+    "count": 29,
+    "index": 4,
+    "totalDiscoveredModules": 29
+  },
+  "skipped": [],
+  "successful": true,
+  "testsRun": 3
+}

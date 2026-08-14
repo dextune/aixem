@@ -1,0 +1,54 @@
+{
+  "card": {
+    "aliases": [
+      "specifications",
+      "standard",
+      "normative documents"
+    ],
+    "appliesTo": [
+      "specification-navigation"
+    ],
+    "domain": "specifications",
+    "estimatedReadBytes": 7433,
+    "id": "AIXEM-SPEC-INDEX-001",
+    "inputs": [],
+    "keywords": [
+      "Specifications",
+      "change-architecture",
+      "inspect-artifact",
+      "normative documents",
+      "specifications",
+      "standard",
+      "validate-project"
+    ],
+    "kind": "index",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/specifications/overview.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:b023a61248887b4b8fec91ceba53d143c929a3f85117d83e28a808926d4c40d3"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 500,
+    "readNext": [],
+    "rules": [
+      {
+        "id": "AIXEM-SPEC-INDEX-001.read",
+        "level": "should",
+        "text": "The normative contract set for document metadata, semantic authority, coordinates, graphics, layout, project locks, agent retrieval, and release integrity."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SPEC-INDEX-001",
+        "path": "docs/specifications/index.md"
+      }
+    ],
+    "summary": "The normative contract set for document metadata, semantic authority, coordinates, graphics, layout, project locks, agent retrieval, and release integrity.",
+    "title": "Specifications"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

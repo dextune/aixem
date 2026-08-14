@@ -1,0 +1,10 @@
+{
+  "assertions": [
+    "all-required-digests-verified"
+  ],
+  "expected": "pass",
+  "expectedDiagnostic": null,
+  "id": "H011",
+  "project": "project.aixproj.json",
+  "title": "Digest locked multi sheet project"
+}

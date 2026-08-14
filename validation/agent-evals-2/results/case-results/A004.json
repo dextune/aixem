@@ -1,0 +1,24 @@
+{
+  "entryRoute": "create-symbol",
+  "executionMode": "deterministic-harness-replay",
+  "expectedInitialDiagnostics": [],
+  "id": "A004",
+  "iterations": 1,
+  "liveExternalAgentExecuted": false,
+  "missingExpectedDiagnostics": [],
+  "mutation": null,
+  "observedInitialDiagnostics": [],
+  "passConditions": {
+    "checkPassedAfterRepair": true,
+    "closePassed": true,
+    "expectedInitialDiagnosticsObserved": true,
+    "liveClaimFalse": true,
+    "renderDeterministic": true,
+    "zeroGeneratedOutputEdits": true,
+    "zeroScopeViolations": true
+  },
+  "recordDigest": "sha256:4de58926ec3001cea38fcdac288071f03dca6a5768b1e2954ebecf60376258b8",
+  "retainedRunRecord": "runs/A004-authoring-run-record.json",
+  "status": "pass",
+  "title": "Parameter and variant use"
+}

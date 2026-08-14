@@ -1,0 +1,131 @@
+{
+  "coordinateSystem": {
+    "angleDirection": "clockwise",
+    "angleUnit": "deg",
+    "grid": 2.5,
+    "unit": "mm",
+    "yAxis": "down"
+  },
+  "diagnostics": [],
+  "entities": [
+    {
+      "componentType": "conformance:s017",
+      "key": "X1",
+      "kind": "component",
+      "parameters": {},
+      "placement": {
+        "entity": "X1",
+        "layer": "symbols",
+        "x": 52.5,
+        "y": 52.5
+      },
+      "ports": {
+        "A": [
+          32.5,
+          47.5
+        ],
+        "B": [
+          32.5,
+          57.5
+        ],
+        "Y": [
+          75.0,
+          52.5
+        ]
+      },
+      "reference": "X1",
+      "symbolDigest": "sha256:2bef841dc174f996491731669db51cbfa274d6498f1ddf50c276749141564d8f",
+      "symbolId": "corpus:s017-nand-gate",
+      "value": "NAND gate",
+      "variant": null
+    }
+  ],
+  "featuresUsed": [
+    "compound-path",
+    "cubic-bezier"
+  ],
+  "generatedAt": "2026-08-10T00:00:00Z",
+  "gridValidation": {
+    "crossingPolicy": "junction-required",
+    "orthogonalSegments": 0,
+    "placementExceptions": [],
+    "placements": 1,
+    "placementsOnGrid": 1,
+    "profile": "aixem.schematic.grid-light",
+    "routeSegments": 0,
+    "routeViasOnGrid": true,
+    "snap": 2.5,
+    "zeroLengthSegments": []
+  },
+  "hashes": {
+    "layout": "sha256:e006d2c8f6250d6f2cb78af92fcf71062cd897515d9265b7315270b9c18a0060",
+    "libraries": [
+      "sha256:3880fabb5d6ec1d7e9ea6c13b09d07db7b6aa23102a74a355ddd0afafe09ee81"
+    ],
+    "source": "sha256:a502ac943cd0e883aea41bc3150d4a8aa9c84cb5a97b0c667b2f89d684560566",
+    "symbolAssets": [
+      "sha256:2bef841dc174f996491731669db51cbfa274d6498f1ddf50c276749141564d8f"
+    ]
+  },
+  "layers": [
+    {
+      "defaultVisible": true,
+      "id": "connections",
+      "locked": false,
+      "order": 10,
+      "printable": true,
+      "purpose": "semantic net routes"
+    },
+    {
+      "defaultVisible": true,
+      "id": "symbols",
+      "locked": false,
+      "order": 20,
+      "printable": true,
+      "purpose": "component symbols"
+    },
+    {
+      "defaultVisible": true,
+      "id": "annotation",
+      "locked": false,
+      "order": 30,
+      "printable": true,
+      "purpose": "notes"
+    }
+  ],
+  "nets": [],
+  "project": {
+    "id": "conformance:s017",
+    "profile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "title": "S017 NAND gate conformance project"
+  },
+  "renderer": {
+    "id": "aixem-grid-schematic-reference-renderer",
+    "version": "0.5.1"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/resolved-scene/1",
+  "sheet": {
+    "height": 130.0,
+    "margin": 10,
+    "titleBlock": {
+      "drawing": "corpus_s017-layout",
+      "revision": "A",
+      "sheet": "1/1",
+      "title": "S017 — NAND gate"
+    },
+    "width": 180.0
+  },
+  "statistics": {
+    "entities": 1,
+    "nets": 0,
+    "noConnects": 0,
+    "primitives": 7,
+    "routeSegments": 0,
+    "symbolAssets": 1
+  },
+  "styleProfile": {
+    "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+    "id": "aixem.schematic.grid-light",
+    "path": "aixem-grid-schematic-style-1.aixstyle.json"
+  }
+}

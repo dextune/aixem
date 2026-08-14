@@ -1,0 +1,876 @@
+{
+  "authority": {
+    "connectivityFromGeometry": false,
+    "layersAreSheets": false,
+    "localPresentation": "aixlayout/2",
+    "localSemantics": ".aixem",
+    "projectComposition": "aixproj/2"
+  },
+  "diagnostics": [],
+  "generatedAt": "2026-08-10T12:00:00Z",
+  "hashes": {
+    "inputs": [
+      {
+        "layoutDigest": "sha256:51cd10ea1c157a4c68ab8fcf435e82044205d4dc6e0da53886026d6590ec833c",
+        "layoutPath": "layouts/system.aixlayout.json",
+        "resolvedSceneDigest": "sha256:e1e541765e1f9fa150896cf83ab90eeca9626c1ec4d292f975eeb48e526e7a7a",
+        "sheet": "system",
+        "sourceDigest": "sha256:ea38f0f16ea46c8f9630d809fb4b69f204a03190c9929277a3a62e175dba1357",
+        "sourcePath": "circuits/system.aixem",
+        "svgDigest": "sha256:2aa9221c7dc01a6b0488c324194e1f021d8f496bbd4de39f3260afb740b9f85c"
+      },
+      {
+        "layoutDigest": "sha256:c36878ad4cb5d26ef813218bfe82d134601e459ef0e9b3d961ee2104ba0c6974",
+        "layoutPath": "layouts/control.aixlayout.json",
+        "resolvedSceneDigest": "sha256:aabd94d143499a48a8d0c58400d067ab2796fe66261eeda51778fc5facee9817",
+        "sheet": "control",
+        "sourceDigest": "sha256:6a0b8fa7b090216e12eb81b8c3a9f30d11e2551706dd9dd0e2d6a3489f3c26ee",
+        "sourcePath": "circuits/control.aixem",
+        "svgDigest": "sha256:71012e9e40ca591be2788ffb8e65c829deb17e2389e4c7a876071fe7479e9be1"
+      },
+      {
+        "layoutDigest": "sha256:536942f997781008ec61b946e255e92620c8b99bcf4ee630833b1e4702ba643a",
+        "layoutPath": "layouts/debug.aixlayout.json",
+        "resolvedSceneDigest": "sha256:0eac561c69b11b97cc1eb880d5f93fec40f4c1ed84bf791347ee0a9708c039e3",
+        "sheet": "debug",
+        "sourceDigest": "sha256:0d3a56e2338370541e454522b164fc754309c4280cf6f36e7ad79f5feb90cfde",
+        "sourcePath": "circuits/debug.aixem",
+        "svgDigest": "sha256:96b5d730e469054a26c313d16d6a5e9c5a2824a39d9b31fbfd3bcaac3ef16baf"
+      }
+    ],
+    "manifest": "sha256:5d416f6eb97e200312d5f200645a532b13d75416ce6621791809e5c7cc370f00",
+    "styleProfile": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393"
+  },
+  "hierarchy": [
+    {
+      "children": [
+        "control"
+      ],
+      "depth": 0,
+      "id": "system",
+      "order": 10,
+      "parent": null,
+      "title": "System"
+    },
+    {
+      "children": [
+        "debug"
+      ],
+      "depth": 1,
+      "id": "control",
+      "order": 10,
+      "parent": "system",
+      "title": "Control"
+    },
+    {
+      "children": [],
+      "depth": 2,
+      "id": "debug",
+      "order": 10,
+      "parent": "control",
+      "title": "Debug"
+    }
+  ],
+  "interfaceSummaries": {
+    "control": {
+      "layoutDigest": "sha256:c36878ad4cb5d26ef813218bfe82d134601e459ef0e9b3d961ee2104ba0c6974",
+      "ports": [
+        {
+          "direction": "output",
+          "id": "OUT",
+          "localNet": "out",
+          "projectNet": "debug_signal",
+          "role": "signal"
+        },
+        {
+          "direction": "input",
+          "id": "VCC",
+          "localNet": "vcc",
+          "projectNet": "vcc",
+          "role": "power"
+        }
+      ],
+      "sheet": "control",
+      "sourceDigest": "sha256:6a0b8fa7b090216e12eb81b8c3a9f30d11e2551706dd9dd0e2d6a3489f3c26ee",
+      "title": "Control"
+    },
+    "debug": {
+      "layoutDigest": "sha256:536942f997781008ec61b946e255e92620c8b99bcf4ee630833b1e4702ba643a",
+      "ports": [
+        {
+          "direction": "input",
+          "id": "IN",
+          "localNet": "in",
+          "projectNet": "debug_signal",
+          "role": "signal"
+        }
+      ],
+      "sheet": "debug",
+      "sourceDigest": "sha256:0d3a56e2338370541e454522b164fc754309c4280cf6f36e7ad79f5feb90cfde",
+      "title": "Debug"
+    },
+    "system": {
+      "layoutDigest": "sha256:51cd10ea1c157a4c68ab8fcf435e82044205d4dc6e0da53886026d6590ec833c",
+      "ports": [
+        {
+          "direction": "input",
+          "id": "VCC",
+          "localNet": "vcc",
+          "projectNet": "vcc",
+          "role": "power"
+        }
+      ],
+      "sheet": "system",
+      "sourceDigest": "sha256:ea38f0f16ea46c8f9630d809fb4b69f204a03190c9929277a3a62e175dba1357",
+      "title": "System"
+    }
+  },
+  "project": {
+    "id": "hierarchical:h005",
+    "profile": "aixem.schematic.multisheet@1",
+    "schema": "https://schemas.aixem.org/component-graphics/aixproj/2",
+    "title": "Three level sheet hierarchy"
+  },
+  "renderer": {
+    "id": "aixem-hierarchical-project-reference-renderer",
+    "version": "0.5.3"
+  },
+  "routing": {
+    "composite": {
+      "anchors": [
+        {
+          "direction": "output",
+          "localNet": "out",
+          "point": [
+            270.0,
+            323.5
+          ],
+          "port": "OUT",
+          "projectNet": "debug_signal",
+          "role": "signal",
+          "sheet": "control",
+          "side": "right"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            195.0,
+            291.0
+          ],
+          "port": "VCC",
+          "projectNet": "vcc",
+          "role": "power",
+          "sheet": "control",
+          "side": "top"
+        },
+        {
+          "direction": "input",
+          "localNet": "in",
+          "point": [
+            170.0,
+            544.5
+          ],
+          "port": "IN",
+          "projectNet": "debug_signal",
+          "role": "signal",
+          "sheet": "debug",
+          "side": "left"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            155.0,
+            70.0
+          ],
+          "port": "VCC",
+          "projectNet": "vcc",
+          "role": "power",
+          "sheet": "system",
+          "side": "top"
+        }
+      ],
+      "canvas": {
+        "height": 662.0,
+        "width": 479.0
+      },
+      "diagnostics": [],
+      "mode": "composite",
+      "nets": [
+        {
+          "id": "debug_signal",
+          "junctions": [
+            [
+              390.0,
+              326.5
+            ],
+            [
+              390.0,
+              473.0
+            ]
+          ],
+          "label": "debug_signal",
+          "members": [
+            {
+              "anchor": [
+                270.0,
+                323.5
+              ],
+              "localNet": "out",
+              "port": "OUT",
+              "sheet": "control",
+              "side": "right"
+            },
+            {
+              "anchor": [
+                170.0,
+                544.5
+              ],
+              "localNet": "in",
+              "port": "IN",
+              "sheet": "debug",
+              "side": "left"
+            }
+          ],
+          "paths": [
+            [
+              [
+                270.0,
+                323.5
+              ],
+              [
+                294.0,
+                323.5
+              ],
+              [
+                294.0,
+                326.5
+              ],
+              [
+                390.0,
+                326.5
+              ]
+            ],
+            [
+              [
+                170.0,
+                544.5
+              ],
+              [
+                146.0,
+                544.5
+              ],
+              [
+                32.0,
+                544.5
+              ],
+              [
+                32.0,
+                473.0
+              ],
+              [
+                390.0,
+                473.0
+              ]
+            ],
+            [
+              [
+                390.0,
+                326.5
+              ],
+              [
+                390.0,
+                473.0
+              ]
+            ]
+          ],
+          "role": null,
+          "trunkX": 390.0
+        },
+        {
+          "id": "vcc",
+          "junctions": [
+            [
+              414.0,
+              40.0
+            ],
+            [
+              414.0,
+              261.0
+            ]
+          ],
+          "label": "vcc",
+          "members": [
+            {
+              "anchor": [
+                155.0,
+                70.0
+              ],
+              "localNet": "vcc",
+              "port": "VCC",
+              "sheet": "system",
+              "side": "top"
+            },
+            {
+              "anchor": [
+                195.0,
+                291.0
+              ],
+              "localNet": "vcc",
+              "port": "VCC",
+              "sheet": "control",
+              "side": "top"
+            }
+          ],
+          "paths": [
+            [
+              [
+                155.0,
+                70.0
+              ],
+              [
+                155.0,
+                46.0
+              ],
+              [
+                155.0,
+                40.0
+              ],
+              [
+                414.0,
+                40.0
+              ]
+            ],
+            [
+              [
+                195.0,
+                291.0
+              ],
+              [
+                195.0,
+                267.0
+              ],
+              [
+                195.0,
+                261.0
+              ],
+              [
+                414.0,
+                261.0
+              ]
+            ],
+            [
+              [
+                414.0,
+                40.0
+              ],
+              [
+                414.0,
+                261.0
+              ]
+            ]
+          ],
+          "role": "power",
+          "trunkX": 414.0
+        }
+      ],
+      "sheets": [
+        {
+          "depth": 0,
+          "id": "system",
+          "rect": [
+            80.0,
+            60.0,
+            160.0,
+            100.0
+          ],
+          "title": "System",
+          "transform": {
+            "scale": 1.0,
+            "x": 80.0,
+            "y": 60.0
+          }
+        },
+        {
+          "depth": 1,
+          "id": "control",
+          "rect": [
+            120.0,
+            281.0,
+            160.0,
+            100.0
+          ],
+          "title": "Control",
+          "transform": {
+            "scale": 1.0,
+            "x": 120.0,
+            "y": 281.0
+          }
+        },
+        {
+          "depth": 2,
+          "id": "debug",
+          "rect": [
+            160.0,
+            502.0,
+            160.0,
+            100.0
+          ],
+          "title": "Debug",
+          "transform": {
+            "scale": 1.0,
+            "x": 160.0,
+            "y": 502.0
+          }
+        }
+      ]
+    },
+    "overview": {
+      "anchors": [
+        {
+          "direction": "output",
+          "localNet": "out",
+          "point": [
+            298.0,
+            274.0
+          ],
+          "port": "OUT",
+          "projectNet": "debug_signal",
+          "role": "signal",
+          "sheet": "control",
+          "side": "right"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            208.0,
+            230.0
+          ],
+          "port": "VCC",
+          "projectNet": "vcc",
+          "role": "power",
+          "sheet": "control",
+          "side": "top"
+        },
+        {
+          "direction": "input",
+          "localNet": "in",
+          "point": [
+            156.0,
+            454.0
+          ],
+          "port": "IN",
+          "projectNet": "debug_signal",
+          "role": "signal",
+          "sheet": "debug",
+          "side": "left"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            170.0,
+            50.0
+          ],
+          "port": "VCC",
+          "projectNet": "vcc",
+          "role": "power",
+          "sheet": "system",
+          "side": "top"
+        }
+      ],
+      "canvas": {
+        "height": 558.0,
+        "width": 495.0
+      },
+      "diagnostics": [],
+      "mode": "overview",
+      "nets": [
+        {
+          "id": "debug_signal",
+          "junctions": [
+            [
+              406.0,
+              277.0
+            ],
+            [
+              406.0,
+              381.0
+            ]
+          ],
+          "label": "debug_signal",
+          "members": [
+            {
+              "anchor": [
+                298.0,
+                274.0
+              ],
+              "localNet": "out",
+              "port": "OUT",
+              "sheet": "control",
+              "side": "right"
+            },
+            {
+              "anchor": [
+                156.0,
+                454.0
+              ],
+              "localNet": "in",
+              "port": "IN",
+              "sheet": "debug",
+              "side": "left"
+            }
+          ],
+          "paths": [
+            [
+              [
+                298.0,
+                274.0
+              ],
+              [
+                312.0,
+                274.0
+              ],
+              [
+                312.0,
+                277.0
+              ],
+              [
+                406.0,
+                277.0
+              ]
+            ],
+            [
+              [
+                156.0,
+                454.0
+              ],
+              [
+                142.0,
+                454.0
+              ],
+              [
+                32.0,
+                454.0
+              ],
+              [
+                32.0,
+                381.0
+              ],
+              [
+                406.0,
+                381.0
+              ]
+            ],
+            [
+              [
+                406.0,
+                277.0
+              ],
+              [
+                406.0,
+                381.0
+              ]
+            ]
+          ],
+          "role": null,
+          "trunkX": 406.0
+        },
+        {
+          "id": "vcc",
+          "junctions": [
+            [
+              430.0,
+              30.0
+            ],
+            [
+              430.0,
+              210.0
+            ]
+          ],
+          "label": "vcc",
+          "members": [
+            {
+              "anchor": [
+                170.0,
+                50.0
+              ],
+              "localNet": "vcc",
+              "port": "VCC",
+              "sheet": "system",
+              "side": "top"
+            },
+            {
+              "anchor": [
+                208.0,
+                230.0
+              ],
+              "localNet": "vcc",
+              "port": "VCC",
+              "sheet": "control",
+              "side": "top"
+            }
+          ],
+          "paths": [
+            [
+              [
+                170.0,
+                50.0
+              ],
+              [
+                170.0,
+                36.0
+              ],
+              [
+                170.0,
+                30.0
+              ],
+              [
+                430.0,
+                30.0
+              ]
+            ],
+            [
+              [
+                208.0,
+                230.0
+              ],
+              [
+                208.0,
+                216.0
+              ],
+              [
+                208.0,
+                210.0
+              ],
+              [
+                430.0,
+                210.0
+              ]
+            ],
+            [
+              [
+                430.0,
+                30.0
+              ],
+              [
+                430.0,
+                210.0
+              ]
+            ]
+          ],
+          "role": "power",
+          "trunkX": 430.0
+        }
+      ],
+      "sheets": [
+        {
+          "depth": 0,
+          "id": "system",
+          "rect": [
+            80.0,
+            50.0,
+            180.0,
+            88.0
+          ],
+          "title": "System",
+          "transform": {
+            "scale": 1.0,
+            "x": 80.0,
+            "y": 50.0
+          }
+        },
+        {
+          "depth": 1,
+          "id": "control",
+          "rect": [
+            118.0,
+            230.0,
+            180.0,
+            88.0
+          ],
+          "title": "Control",
+          "transform": {
+            "scale": 1.0,
+            "x": 118.0,
+            "y": 230.0
+          }
+        },
+        {
+          "depth": 2,
+          "id": "debug",
+          "rect": [
+            156.0,
+            410.0,
+            180.0,
+            88.0
+          ],
+          "title": "Debug",
+          "transform": {
+            "scale": 1.0,
+            "x": 156.0,
+            "y": 410.0
+          }
+        }
+      ]
+    }
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/resolved-project-scene/1",
+  "semanticGraph": {
+    "identities": {
+      "interfaces": [
+        "interface:system:VCC",
+        "interface:control:OUT",
+        "interface:control:VCC",
+        "interface:debug:IN"
+      ],
+      "projectNets": [
+        "project-net:debug_signal",
+        "project-net:vcc"
+      ],
+      "sheets": [
+        "sheet:system",
+        "sheet:control",
+        "sheet:debug"
+      ]
+    },
+    "projectNets": [
+      {
+        "crossesHierarchyBoundary": true,
+        "id": "debug_signal",
+        "members": [
+          {
+            "interface": "interface:control:OUT",
+            "localNet": "out",
+            "port": "OUT",
+            "qualifiedLocalNet": "local-net:control:out",
+            "sheet": "control"
+          },
+          {
+            "interface": "interface:debug:IN",
+            "localNet": "in",
+            "port": "IN",
+            "qualifiedLocalNet": "local-net:debug:in",
+            "sheet": "debug"
+          }
+        ],
+        "qualifiedId": "project-net:debug_signal",
+        "transitiveEndpoints": [
+          "entity:control:U1.5",
+          "entity:debug:U1.1",
+          "interface:control:OUT",
+          "interface:debug:IN"
+        ]
+      },
+      {
+        "crossesHierarchyBoundary": true,
+        "id": "vcc",
+        "members": [
+          {
+            "interface": "interface:system:VCC",
+            "localNet": "vcc",
+            "port": "VCC",
+            "qualifiedLocalNet": "local-net:system:vcc",
+            "sheet": "system"
+          },
+          {
+            "interface": "interface:control:VCC",
+            "localNet": "vcc",
+            "port": "VCC",
+            "qualifiedLocalNet": "local-net:control:vcc",
+            "sheet": "control"
+          }
+        ],
+        "qualifiedId": "project-net:vcc",
+        "transitiveEndpoints": [
+          "entity:control:U1.9",
+          "entity:system:U1.9",
+          "interface:control:VCC",
+          "interface:system:VCC"
+        ]
+      }
+    ],
+    "unconnectedPorts": []
+  },
+  "sheets": [
+    {
+      "id": "system",
+      "layout": {
+        "digest": "sha256:51cd10ea1c157a4c68ab8fcf435e82044205d4dc6e0da53886026d6590ec833c",
+        "id": "h005-three-level-sheet-hierarchy:system-layout",
+        "mediaType": "application/json",
+        "path": "layouts/system.aixlayout.json",
+        "version": "2.0"
+      },
+      "order": 10,
+      "parent": null,
+      "resolvedScene": "sheets/system.resolved-scene.json",
+      "source": {
+        "digest": "sha256:ea38f0f16ea46c8f9630d809fb4b69f204a03190c9929277a3a62e175dba1357",
+        "id": "h005-three-level-sheet-hierarchy:system",
+        "mediaType": "text/x-aixem",
+        "path": "circuits/system.aixem",
+        "version": "1.0"
+      },
+      "svg": "sheets/system.svg",
+      "title": "System"
+    },
+    {
+      "id": "control",
+      "layout": {
+        "digest": "sha256:c36878ad4cb5d26ef813218bfe82d134601e459ef0e9b3d961ee2104ba0c6974",
+        "id": "h005-three-level-sheet-hierarchy:control-layout",
+        "mediaType": "application/json",
+        "path": "layouts/control.aixlayout.json",
+        "version": "2.0"
+      },
+      "order": 10,
+      "parent": "system",
+      "resolvedScene": "sheets/control.resolved-scene.json",
+      "source": {
+        "digest": "sha256:6a0b8fa7b090216e12eb81b8c3a9f30d11e2551706dd9dd0e2d6a3489f3c26ee",
+        "id": "h005-three-level-sheet-hierarchy:control",
+        "mediaType": "text/x-aixem",
+        "path": "circuits/control.aixem",
+        "version": "1.0"
+      },
+      "svg": "sheets/control.svg",
+      "title": "Control"
+    },
+    {
+      "id": "debug",
+      "layout": {
+        "digest": "sha256:536942f997781008ec61b946e255e92620c8b99bcf4ee630833b1e4702ba643a",
+        "id": "h005-three-level-sheet-hierarchy:debug-layout",
+        "mediaType": "application/json",
+        "path": "layouts/debug.aixlayout.json",
+        "version": "2.0"
+      },
+      "order": 10,
+      "parent": "control",
+      "resolvedScene": "sheets/debug.resolved-scene.json",
+      "source": {
+        "digest": "sha256:0d3a56e2338370541e454522b164fc754309c4280cf6f36e7ad79f5feb90cfde",
+        "id": "h005-three-level-sheet-hierarchy:debug",
+        "mediaType": "text/x-aixem",
+        "path": "circuits/debug.aixem",
+        "version": "1.0"
+      },
+      "svg": "sheets/debug.svg",
+      "title": "Debug"
+    }
+  ],
+  "statistics": {
+    "entities": 3,
+    "hierarchyDepth": 2,
+    "interfacePorts": 4,
+    "localNets": 4,
+    "localRouteSegments": 4,
+    "projectNets": 2,
+    "projectRouteSegments": 30,
+    "sheets": 3,
+    "unconnectedProjectPorts": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "durationSeconds": 4.898793,
+  "errors": [],
+  "executionMode": "isolated-test-module-processes",
+  "failedModules": 0,
+  "failures": [],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "moduleCount": 1,
+  "modules": [
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.docs.test_authoring_routes"
+      ],
+      "durationSeconds": 4.898583,
+      "module": "tests.docs.test_authoring_routes",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_agents_policy_contains_source_inspection_gate (tests.docs.test_authoring_routes.AuthoringRouteTests.test_agents_policy_contains_source_inspection_gate) ... ok\ntest_authoring_route_budgets (tests.docs.test_authoring_routes.AuthoringRouteTests.test_authoring_route_budgets) ... ok\ntest_composite_route_chain (tests.docs.test_authoring_routes.AuthoringRouteTests.test_composite_route_chain) ... ok\ntest_task_packets_match_route_sources (tests.docs.test_authoring_routes.AuthoringRouteTests.test_task_packets_match_route_sources) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 3.225s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 4,
+      "valid": true
+    }
+  ],
+  "passedModules": 1,
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/test-run-shard/1",
+  "shard": {
+    "count": 29,
+    "index": 22,
+    "totalDiscoveredModules": 29
+  },
+  "skipped": [],
+  "successful": true,
+  "testsRun": 4
+}

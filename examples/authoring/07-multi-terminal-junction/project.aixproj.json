@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.0",
+  "project": {
+    "applicationProfile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "description": "Multi-terminal Junction",
+    "features": [
+      "component.graphics@1",
+      "explicit.layout@1",
+      "semantic-route-binding@1",
+      "orthogonal-routing@1",
+      "grid-snap@1"
+    ],
+    "id": "authoring:multi_terminal_junction",
+    "layout": {
+      "digest": "sha256:58068a596012f6c48d2408d22d84c6d8f84cab5fd47c71733a1749222c845097",
+      "id": "multi_terminal_junction-layout",
+      "mediaType": "application/vnd.aixem.layout+json",
+      "path": "multi_terminal_junction.aixlayout.json",
+      "version": "1.0"
+    },
+    "libraries": [
+      {
+        "digest": "sha256:55792cfe6ba61376d49d610d57dbaca5e2da21f6f426ae499cbda26b5b1c5003",
+        "id": "authoring:multi_terminal_junction-library",
+        "mediaType": "application/vnd.aixem.library+json",
+        "path": "library/electronics/authoring/authoring-components.aixlib.json",
+        "version": "1.0.0"
+      }
+    ],
+    "metadata": {
+      "exampleDomain": "agent-authoring",
+      "independentDesign": true,
+      "styleProfile": "aixem.schematic.grid-light"
+    },
+    "outputs": [
+      {
+        "mediaType": "text/html",
+        "path": "render/workbench.html",
+        "role": "engineering-workbench"
+      },
+      {
+        "mediaType": "image/svg+xml",
+        "path": "render/drawing.svg",
+        "role": "drawing-svg"
+      },
+      {
+        "mediaType": "application/json",
+        "path": "render/resolved-scene.json",
+        "role": "resolved-scene"
+      }
+    ],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-11",
+      "license": "CC0-1.0"
+    },
+    "renderPolicy": {
+      "backend": "svg",
+      "defaultVariantPolicy": "library-default",
+      "fontPolicy": "system-fallback",
+      "purpose": "primary-diagram",
+      "remoteAssets": "deny",
+      "unsupportedRequiredFeature": "reject"
+    },
+    "source": {
+      "digest": "sha256:07877d26ea06c7a6b95f22540983d73f40f3a98aed0fffe726e473e395f32232",
+      "id": "multi_terminal_junction",
+      "mediaType": "application/vnd.aixem+text",
+      "path": "multi_terminal_junction.aixem",
+      "version": "1.0"
+    },
+    "status": "example",
+    "title": "Multi-terminal Junction"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/aixproj/1"
+}

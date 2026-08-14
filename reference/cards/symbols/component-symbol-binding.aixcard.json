@@ -1,0 +1,63 @@
+{
+  "card": {
+    "aliases": [
+      "component symbol binding",
+      "portmap fieldmap",
+      "library presentation binding"
+    ],
+    "appliesTo": [
+      "component-symbol-binding"
+    ],
+    "domain": "symbols",
+    "estimatedReadBytes": 9595,
+    "id": "AIXEM-SYMBOL-BINDING-001",
+    "inputs": [],
+    "keywords": [
+      "Component to Symbol Binding",
+      "author-component-circuit",
+      "component symbol binding",
+      "create-schematic",
+      "create-symbol",
+      "library presentation binding",
+      "portmap fieldmap"
+    ],
+    "kind": "guide",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/symbols/component-symbol-binding.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:ab00aba15fcf380926bc2c8613c1d1b314bd26c4650a8b2761f69093a4cba5fd"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-CONCEPT-COMPONENT-001",
+      "AIXEM-FORMAT-AIXLIB-001",
+      "AIXEM-SPEC-RENDERER-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-SYMBOL-BINDING-0001",
+        "level": "must",
+        "text": "**MUST.** Every active component presentation MUST map every semantic component port exactly once to an existing visible symbol port."
+      },
+      {
+        "id": "AIXEM-REQ-SYMBOL-BINDING-0002",
+        "level": "must",
+        "text": "**MUST.** A component presentation fieldMap MUST map symbol field names to semantic component property or entity attribute names."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SYMBOL-BINDING-001",
+        "path": "docs/symbols/component-symbol-binding.md"
+      }
+    ],
+    "summary": "Defines how semantic component ports and properties bind through AIXLIB presentations into AIXSYM ports and text fields.",
+    "title": "Component to Symbol Binding"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

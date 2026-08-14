@@ -1,0 +1,142 @@
+{
+  "cases": 12,
+  "exactOrTokenRouteMatches": 11,
+  "failures": [],
+  "fallbackCases": 1,
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "passRate": 1.0,
+  "release": "AIXEM-SRP-0.5.1-2026-08-11",
+  "results": [
+    {
+      "expectedRoute": "create-schematic",
+      "fallbackUsed": false,
+      "id": "route-001",
+      "match": "exact",
+      "observedRoute": "create-schematic",
+      "query": "create schematic",
+      "returnedDocuments": [],
+      "valid": true
+    },
+    {
+      "expectedRoute": "create-schematic",
+      "fallbackUsed": false,
+      "id": "route-002",
+      "match": "exact",
+      "observedRoute": "create-schematic",
+      "query": "draw circuit",
+      "returnedDocuments": [],
+      "valid": true
+    },
+    {
+      "expectedRoute": "create-symbol",
+      "fallbackUsed": false,
+      "id": "route-003",
+      "match": "exact",
+      "observedRoute": "create-symbol",
+      "query": "create symbol",
+      "returnedDocuments": [],
+      "valid": true
+    },
+    {
+      "expectedRoute": "route-nets",
+      "fallbackUsed": false,
+      "id": "route-004",
+      "match": "exact",
+      "observedRoute": "route-nets",
+      "query": "orthogonal routing",
+      "returnedDocuments": [],
+      "valid": true
+    },
+    {
+      "expectedRoute": "validate-project",
+      "fallbackUsed": false,
+      "id": "route-005",
+      "match": "exact",
+      "observedRoute": "validate-project",
+      "query": "validate project",
+      "returnedDocuments": [],
+      "valid": true
+    },
+    {
+      "expectedRoute": "change-architecture",
+      "fallbackUsed": false,
+      "id": "route-006",
+      "match": "exact",
+      "observedRoute": "change-architecture",
+      "query": "change architecture",
+      "returnedDocuments": [],
+      "valid": true
+    },
+    {
+      "expectedRoute": "inspect-artifact",
+      "fallbackUsed": false,
+      "id": "route-007",
+      "match": "exact",
+      "observedRoute": "inspect-artifact",
+      "query": "find owner",
+      "returnedDocuments": [],
+      "valid": true
+    },
+    {
+      "expectedRoute": "migrate-baseline",
+      "fallbackUsed": false,
+      "id": "route-008",
+      "match": "exact",
+      "observedRoute": "migrate-baseline",
+      "query": "migrate 0.4",
+      "returnedDocuments": [],
+      "valid": true
+    },
+    {
+      "expectedRoute": "build-documentation",
+      "fallbackUsed": false,
+      "id": "route-009",
+      "match": "exact",
+      "observedRoute": "build-documentation",
+      "query": "build documentation",
+      "returnedDocuments": [],
+      "valid": true
+    },
+    {
+      "expectedRoute": "publish-release",
+      "fallbackUsed": false,
+      "id": "route-010",
+      "match": "exact",
+      "observedRoute": "publish-release",
+      "query": "package zip",
+      "returnedDocuments": [],
+      "valid": true
+    },
+    {
+      "expectedRoute": "create-symbol",
+      "fallbackUsed": false,
+      "id": "route-011",
+      "match": "route-token",
+      "observedRoute": "create-symbol",
+      "query": "How should a component symbol pin be aligned to the grid?",
+      "returnedDocuments": [],
+      "valid": true
+    },
+    {
+      "expectedRoute": null,
+      "fallbackUsed": true,
+      "id": "route-012",
+      "match": "fallback",
+      "observedRoute": null,
+      "query": "What is the rule for visual crossings and semantic junctions?",
+      "returnedDocuments": [
+        "AIXEM-ROUTE-CROSSING-001",
+        "AIXEM-FORMAT-AIXEM-001",
+        "AIXEM-SCHEM-COOKBOOK-001",
+        "AIXEM-FORMAT-AIXLAYOUT-001",
+        "AIXEM-SYMBOL-BINDING-001",
+        "AIXEM-AGENT-VISUAL-QA-001",
+        "AIXEM-ROUTE-NETS-001"
+      ],
+      "valid": true
+    }
+  ],
+  "schema": "https://schemas.aixem.org/validation/retrieval-corpus-result/1",
+  "valid": true
+}

@@ -1,0 +1,3 @@
+{"formatVersion":"1.0","kind":"task-open","result":"opened","schema":"https://schemas.aixem.org/agent/observation-event/1","sequence":1,"target":"task/agent-task.json"}
+{"formatVersion":"1.0","kind":"route-resolve","result":"resolved","route":"create-symbol","schema":"https://schemas.aixem.org/agent/observation-event/1","sequence":2,"target":"reference/docs/_meta/generated/task-packets/create-symbol.json"}
+{"formatVersion":"1.0","kind":"file-write","result":"mutated before timeout","schema":"https://schemas.aixem.org/agent/observation-event/1","sequence":3,"target":"workspace/project.aixproj.json"}

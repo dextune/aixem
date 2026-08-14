@@ -1,0 +1,13 @@
+aixem 1.0
+model connector_6 title="Six-pin connector"
+feature component.graphics@1 required=true
+feature explicit.layout@1 required=true
+
+connector JX62 type=live:connector-l002 refdes=JX62 value=FIELD_IO
+
+noconn JX62.1
+noconn JX62.2
+noconn JX62.3
+noconn JX62.4
+noconn JX62.5
+noconn JX62.6

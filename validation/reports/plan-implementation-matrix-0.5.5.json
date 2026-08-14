@@ -1,0 +1,203 @@
+{
+  "deferredByPlan": {
+    "P1": [
+      "deterministic repair hints",
+      "semantic diff display",
+      "diagnostic-to-Viewer linkage",
+      "agent-tool adapters"
+    ],
+    "P2": [
+      "structured editor command language",
+      "GUI Editor",
+      "authoritative transaction engine"
+    ]
+  },
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "p0": {
+    "items": [
+      {
+        "item": "freeze 0.5.4 authoring/viewer baseline",
+        "order": 1,
+        "status": "PASS"
+      },
+      {
+        "item": "classify legacy Viewer helper",
+        "order": 2,
+        "status": "PASS"
+      },
+      {
+        "item": "publish Agent Diagnostic Contract 1",
+        "order": 3,
+        "status": "PASS"
+      },
+      {
+        "item": "publish diagnostic schema and P0 registry",
+        "order": 4,
+        "status": "PASS"
+      },
+      {
+        "item": "normalize existing validator output",
+        "order": 5,
+        "status": "PASS"
+      },
+      {
+        "item": "attach authority owner and remediation route",
+        "order": 6,
+        "status": "PASS"
+      },
+      {
+        "item": "publish Authoring Change-Set Contract 1",
+        "order": 7,
+        "status": "PASS"
+      },
+      {
+        "item": "add route write-scope metadata",
+        "order": 8,
+        "status": "PASS"
+      },
+      {
+        "item": "detect generated-output edits and scope violations",
+        "order": 9,
+        "status": "PASS"
+      },
+      {
+        "item": "publish Authoring Execution Contract 1",
+        "order": 10,
+        "status": "PASS"
+      },
+      {
+        "item": "publish Authoring Run Record 1",
+        "order": 11,
+        "status": "PASS"
+      },
+      {
+        "item": "implement prepare/check/close harness",
+        "order": 12,
+        "status": "PASS"
+      },
+      {
+        "item": "record per-iteration diagnostics and changes",
+        "order": 13,
+        "status": "PASS"
+      },
+      {
+        "item": "detect stalled and oscillating loops",
+        "order": 14,
+        "status": "PASS"
+      },
+      {
+        "item": "integrate route/task-packet compiler",
+        "order": 15,
+        "status": "PASS"
+      },
+      {
+        "item": "update AGENTS and canonical authoring docs",
+        "order": 16,
+        "status": "PASS"
+      },
+      {
+        "item": "add Agent Evaluation 2 Tier A corpus",
+        "order": 17,
+        "status": "PASS"
+      },
+      {
+        "item": "provide rigorous Tier B boundary without false claim",
+        "order": 18,
+        "status": "PASS"
+      },
+      {
+        "item": "preserve renderer/Viewer/hierarchy/symbol regressions",
+        "order": 19,
+        "status": "PASS"
+      },
+      {
+        "item": "run three complete verification passes",
+        "order": 20,
+        "status": "PASS"
+      }
+    ],
+    "status": "COMPLETE"
+  },
+  "phases": [
+    {
+      "evidence": [
+        "0.5.5-baseline/protected-digests.json",
+        "legacy eval truth"
+      ],
+      "id": "Phase 0",
+      "objective": "Freeze the 0.5.4 agent, renderer, Viewer, and protected artifact baseline",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        "three Agent schemas",
+        "35 stable codes",
+        "30 planned codes"
+      ],
+      "id": "Phase 1",
+      "objective": "Publish Diagnostic Contract 1 and complete P0 registry",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        "canonical route writes/remediation",
+        "generated-output detection",
+        "digest-only lock"
+      ],
+      "id": "Phase 2",
+      "objective": "Publish and enforce route write scope through Change-Set 1",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        "tools/agent_authoring.py",
+        "stalled/oscillating loop detection",
+        "three-render closure"
+      ],
+      "id": "Phase 3",
+      "objective": "Implement Execution Contract 1, prepare/check/close, and Run Record 1",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        "AGENTS.md",
+        "canonical linked documentation",
+        "read-only Viewer boundary"
+      ],
+      "id": "Phase 4",
+      "objective": "Integrate existing orchestration, failure, validation, visual-QA, authority, and retrieval guidance",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        "12 Tier A cases",
+        "12 run records",
+        "Tier B not executed"
+      ],
+      "id": "Phase 5",
+      "objective": "Add Agent Evaluation 2 A001-A012 with truthful tier separation",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        "three verification passes",
+        "81 tests",
+        "legacy corpora",
+        "manifest"
+      ],
+      "id": "Phase 6",
+      "objective": "Close conformance, regression, traceability, release evidence, and packaging",
+      "status": "PASS"
+    }
+  ],
+  "plan": "PLAN-0.5.5-AGENT-AUTHORING-CLOSED-LOOP.md",
+  "release": "AIXEM-SRP-0.5.5-2026-08-11",
+  "schema": "https://schemas.aixem.org/validation/plan-implementation-matrix/1",
+  "status": "PASS",
+  "tierB": {
+    "claim": "No live external-agent success claim.",
+    "executed": false
+  },
+  "valid": true
+}

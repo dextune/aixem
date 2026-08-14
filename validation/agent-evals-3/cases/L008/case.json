@@ -1,0 +1,28 @@
+{
+  "agentVisible": [
+    "agent-task.json",
+    "TASK.md",
+    "start/**",
+    "compiled reference pack"
+  ],
+  "category": "repair",
+  "completedTargetBundled": false,
+  "evaluatorOnly": [
+    "evaluator/invariants.json",
+    "case.json",
+    "scoring metadata"
+  ],
+  "expectedInitialDiagnostics": [
+    "AIXEM-DIAG-SYMBOL-LEAD-PORT-MISMATCH"
+  ],
+  "forbiddenCompletedDigests": [
+    "sha256:87a3dcc64d0c9c220bde531c7949a518a315c705d7ca4067a28206ef0c3f6c27",
+    "sha256:edaeeb24b4498e7dc1baf3cb2f1ef48af519392512d86ae1666d78c39c336e87"
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "id": "L008",
+  "schema": "https://schemas.aixem.org/validation/agent-eval-3-case/1",
+  "startSource": "examples/authoring/08-visual-repair",
+  "title": "Broken lead and port"
+}

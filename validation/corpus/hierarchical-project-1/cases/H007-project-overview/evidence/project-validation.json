@@ -1,0 +1,53 @@
+{
+  "checks": {
+    "allInputDigestsVerified": true,
+    "allLeafLayoutsV2Valid": true,
+    "allLeafSourcesValid": true,
+    "compositeOrthogonal": true,
+    "dataDrivenWorkbenchHierarchy": true,
+    "geometryDoesNotCreateConnectivity": true,
+    "hierarchyAcyclic": true,
+    "layersAreNotSheets": true,
+    "overviewOrthogonal": true,
+    "projectNetClosure": true,
+    "projectNetEquivalenceClosure": true,
+    "projectSchemaV2": true,
+    "sameNameIsolation": true,
+    "sheetQualifiedIdentity": true,
+    "viewerModelSchema": true,
+    "viewerOffline": true,
+    "viewerQualifiedIdentityClosure": true,
+    "viewerReadOnly": true,
+    "viewerWorkbenchDistinct": true
+  },
+  "diagnostics": [],
+  "generatedAt": "2026-08-10T12:00:00Z",
+  "hashes": {
+    "manifest": "sha256:9b0f3f810bc86bad81f752f7ed39f649f195f759cd5144b0ac0a1d99d170e8e3",
+    "projectComposite": "sha256:ebe216f3cd425e42214bb1cad768525a990393c44d60d473a70841942df87d7f",
+    "projectOverview": "sha256:e54e37e14f71fcbcc412c394bcd9d0e58c7a1edf7bb84010e1d6a812b0b2b96b",
+    "resolvedProjectScene": "sha256:e7b54f69edb3401334eadf1513ff9d701b6394aa3d96eef562e45f202cf0b288",
+    "sheet:control:scene": "sha256:51335604921d2146c38f707d6ff79b61615f71ea59068a8a250ea68503f1c94c",
+    "sheet:control:svg": "sha256:a95bb0d3a5e7db401dca5b9ec5f12416e1c82b3b4b89d0a450148df25cc5aeb0",
+    "sheet:power:scene": "sha256:76242db8bc8b51a864faa84fbb184ae79f53d6b20574426f1534f93716026ce0",
+    "sheet:power:svg": "sha256:6685c6308a7bf0ad3578d687a2489f74702b1114caab049f854e9b372e3cd0c3",
+    "viewer": "sha256:5430ce6ec2c05ac3cb04fc26aa74b68fe2f477435a92918e39721b0b07f9f375",
+    "viewerModel": "sha256:3a1884b58e915facad6c406fb2ce65029bff3f0b1ef3bf8b6abec4612643a53e",
+    "workbench": "sha256:0eb9491204026862d021dcd53ab8b1e12610eac0075e89588caec9df56f7f5a4"
+  },
+  "project": "hierarchical:h007",
+  "release": "AIXEM-SRP-0.5.5-2026-08-11",
+  "schema": "https://schemas.aixem.org/component-graphics/project-validation/1",
+  "statistics": {
+    "entities": 2,
+    "hierarchyDepth": 0,
+    "interfacePorts": 6,
+    "localNets": 6,
+    "localRouteSegments": 6,
+    "projectNets": 3,
+    "projectRouteSegments": 44,
+    "sheets": 2,
+    "unconnectedProjectPorts": 0
+  },
+  "valid": true
+}

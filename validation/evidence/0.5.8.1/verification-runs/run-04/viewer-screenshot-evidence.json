@@ -1,0 +1,97 @@
+{
+  "browserErrors": [],
+  "runtimeRequests": [],
+  "screenshots": [
+    {
+      "bytes": 192720,
+      "digest": "sha256:6d291b5ef2f76651190019407be0fd9b6746e0881aca6081206271e06cac9b8c",
+      "path": "results/screenshots/single-sheet-desktop.png",
+      "viewport": [
+        1440,
+        960
+      ]
+    },
+    {
+      "bytes": 117452,
+      "digest": "sha256:3629bb31635ad704e7ca052fd9c3b05ebd0068c7754faa0bda22a93e4cde984b",
+      "path": "results/screenshots/single-sheet-narrow.png",
+      "viewport": [
+        760,
+        700
+      ]
+    },
+    {
+      "bytes": 104233,
+      "digest": "sha256:e2ebccf459c0e71608f9921d3905c257d22f3b28926c44ced16d460399d5db7f",
+      "path": "results/screenshots/multi-sheet-sheet-desktop.png",
+      "viewport": [
+        1440,
+        960
+      ]
+    },
+    {
+      "bytes": 64205,
+      "digest": "sha256:7ae2f23ed4500ec0f3887eb75a1db42d2cf2daae9cbd670dce05f7538cdcbcde",
+      "path": "results/screenshots/multi-sheet-overview-desktop.png",
+      "viewport": [
+        1440,
+        960
+      ]
+    },
+    {
+      "bytes": 85707,
+      "digest": "sha256:032601f22b4a0eda8fa697e37da8f53c1c761e5d63339ae141adcbb3d405b9bb",
+      "path": "results/screenshots/multi-sheet-composite-desktop.png",
+      "viewport": [
+        1440,
+        960
+      ]
+    },
+    {
+      "bytes": 74653,
+      "digest": "sha256:7126ce9706bb685472f9472ee96351c2d1bc9db3605f4f363a6b0e96c6a1603d",
+      "path": "results/screenshots/multi-sheet-narrow.png",
+      "viewport": [
+        760,
+        700
+      ]
+    },
+    {
+      "bytes": 152800,
+      "digest": "sha256:4ce1e9468f0d940c9274de0a6ecd3cc3cce593bfa59099cb967d6e3c9514bf00",
+      "path": "results/screenshots/project-net-selected.png",
+      "viewport": [
+        1440,
+        960
+      ]
+    },
+    {
+      "bytes": 148083,
+      "digest": "sha256:2f59f15b3bd56bb8245b29aa0f2fb9f6c45d990e5a61d0543a16be6115949bfa",
+      "path": "results/screenshots/interface-selected.png",
+      "viewport": [
+        1440,
+        960
+      ]
+    },
+    {
+      "bytes": 85622,
+      "digest": "sha256:21fd8e2863097b983f27b8bae9d1acaffee9168b69ecee6d06adda1eee369862",
+      "path": "results/screenshots/layer-hidden.png",
+      "viewport": [
+        1440,
+        960
+      ]
+    },
+    {
+      "bytes": 104293,
+      "digest": "sha256:664100cdd9a96d290349c7c7c799022e89e58e803d5fe72fe2b0214b92b49921",
+      "path": "results/screenshots/keyboard-focus-visible.png",
+      "viewport": [
+        1440,
+        960
+      ]
+    }
+  ],
+  "status": "pass"
+}

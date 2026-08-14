@@ -1,0 +1,591 @@
+{
+  "checks": [
+    {
+      "commands": [
+        {
+          "command": [
+            "/opt/pyvenv/bin/python",
+            "-m",
+            "py_compile",
+            "implementation/agent/task_contract.py",
+            "implementation/agent/cold_start_stage.py",
+            "implementation/agent/live_executor.py",
+            "implementation/agent/observation.py",
+            "implementation/agent/invariant_scorer.py",
+            "implementation/agent/live_run.py",
+            "tools/live_agent_authoring.py",
+            "tools/build_agent_evals_3.py",
+            "tools/run_agent_evals_3.py",
+            "tools/docs/aixem_docs.py",
+            "tools/docs/audit_repository_docs.py",
+            "tools/run_tests_057.py",
+            "tools/verify_release_057.py",
+            "tools/package_release_057.py"
+          ],
+          "durationSeconds": 2.532923,
+          "label": "cycle 4 Python compilation",
+          "returnCode": 0,
+          "status": "PASS",
+          "stderrTail": "",
+          "stdoutTail": "",
+          "valid": true
+        },
+        {
+          "command": [
+            "/opt/pyvenv/bin/python",
+            "tools/docs/build_all.py"
+          ],
+          "durationSeconds": 11.453488,
+          "label": "cycle 4 documentation build 1",
+          "returnCode": 0,
+          "status": "PASS",
+          "stderrTail": "",
+          "stdoutTail": "{\n  \"documents\": 142,\n  \"routes\": 16,\n  \"reference\": {\n    \"cards\": 142,\n    \"routes\": 16,\n    \"domains\": 15,\n    \"files\": 179\n  },\n  \"site\": {\n    \"pages\": 172,\n    \"canonicalPages\": 142,\n    \"schemaPages\": 25,\n    \"redirectPages\": 4,\n    \"assets\": 44\n  }\n}\n",
+          "valid": true
+        },
+        {
+          "command": [
+            "/opt/pyvenv/bin/python",
+            "tools/docs/build_all.py"
+          ],
+          "durationSeconds": 11.700675,
+          "label": "cycle 4 documentation build 2",
+          "returnCode": 0,
+          "status": "PASS",
+          "stderrTail": "",
+          "stdoutTail": "{\n  \"documents\": 142,\n  \"routes\": 16,\n  \"reference\": {\n    \"cards\": 142,\n    \"routes\": 16,\n    \"domains\": 15,\n    \"files\": 179\n  },\n  \"site\": {\n    \"pages\": 172,\n    \"canonicalPages\": 142,\n    \"schemaPages\": 25,\n    \"redirectPages\": 4,\n    \"assets\": 44\n  }\n}\n",
+          "valid": true
+        },
+        {
+          "command": [
+            "/opt/pyvenv/bin/python",
+            "tools/docs/audit_repository_docs.py",
+            "--require-redirects"
+          ],
+          "durationSeconds": 5.944124,
+          "label": "cycle 4 repository document audit",
+          "returnCode": 0,
+          "status": "PASS",
+          "stderrTail": "",
+          "stdoutTail": "{\n  \"documents\": 244,\n  \"errors\": [],\n  \"humanAuthored\": 238,\n  \"orphans\": 0,\n  \"pathMigrations\": {\n    \"errors\": [],\n    \"migrations\": 4,\n    \"redirectsChecked\": true,\n    \"valid\": true\n  },\n  \"roles\": {\n    \"canonical-document\": 142,\n    \"corpus-instruction\": 2,\n    \"evaluation-suite-document\": 6,\n    \"evaluation-task\": 12,\n    \"evidence-review\": 5,\n    \"example-local-instruction\": 10,\n    \"implementation-plan\": 8,\n    \"legacy-explanation\": 1,\n    \"planning-entrypoint\": 1,\n    \"root-entrypoint\": 7,\n    \"validation-entrypoint\": 3,\n    \"validation-release-index\": 8,\n    \"validation-report\": 33,\n    \"verification-run-report\": 6\n  },\n  \"unknownRoles\": 0,\n  \"valid\": true,\n  \"warnings\": []\n}\n",
+          "valid": true
+        },
+        {
+          "command": [
+            "/opt/pyvenv/bin/python",
+            "tools/docs/validate_docs.py"
+          ],
+          "durationSeconds": 5.933681,
+          "label": "cycle 4 canonical documentation validation",
+          "returnCode": 0,
+          "status": "PASS",
+          "stderrTail": "",
+          "stdoutTail": "{\n  \"documents\": 142,\n  \"errors\": [],\n  \"normativeDocuments\": 96,\n  \"requirements\": 237,\n  \"totalBytes\": 862361,\n  \"valid\": true,\n  \"warnings\": []\n}\n",
+          "valid": true
+        },
+        {
+          "command": [
+            "/opt/pyvenv/bin/python",
+            "-m",
+            "unittest",
+            "-v",
+            "tests.docs.test_document_governance",
+            "tests.agent.test_task_contract",
+            "tests.agent.test_cold_start_stage",
+            "tests.agent.test_observation",
+            "tests.agent.test_live_executor",
+            "tests.agent.test_invariant_scorer",
+            "tests.agent.test_live_run_evidence",
+            "tests.agent.test_agent_evals_3"
+          ],
+          "durationSeconds": 57.551192,
+          "label": "cycle 4 documentation and live-agent focused tests",
+          "returnCode": 0,
+          "status": "PASS",
+          "stderrTail": "test_agents_document_creation_gate (tests.docs.test_document_governance.DocumentGovernanceTests.test_agents_document_creation_gate) ... ok\ntest_canonical_structure_has_terminal_footer_and_no_patch_blocks (tests.docs.test_document_governance.DocumentGovernanceTests.test_canonical_structure_has_terminal_footer_and_no_patch_blocks) ... ok\ntest_every_markdown_has_exactly_one_role (tests.docs.test_document_governance.DocumentGovernanceTests.test_every_markdown_has_exactly_one_role) ... ok\ntest_metadata_vocabularies_and_token_estimates (tests.docs.test_document_governance.DocumentGovernanceTests.test_metadata_vocabularies_and_token_estimates) ... ok\ntest_path_migrations_preserve_identity_and_redirects (tests.docs.test_document_governance.DocumentGovernanceTests.test_path_migrations_preserve_identity_and_redirects) ... ok\ntest_planning_and_validation_lifecycles (tests.docs.test_document_governance.DocumentGovernanceTests.test_planning_and_validation_lifecycles) ... ok\ntest_repository_inventory_is_deterministic (tests.docs.test_document_governance.DocumentGovernanceTests.test_repository_inventory_is_deterministic) ... ok\ntest_role_aware_discoverability_has_no_orphans (tests.docs.test_document_governance.DocumentGovernanceTests.test_role_aware_discoverability_has_no_orphans) ... ok\ntest_root_hygiene_and_reserved_names (tests.docs.test_document_governance.DocumentGovernanceTests.test_root_hygiene_and_reserved_names) ... ok\ntest_unknown_markdown_fails_closed (tests.docs.test_document_governance.DocumentGovernanceTests.test_unknown_markdown_fails_closed) ... ok\ntest_simple_route_cannot_select_an_unrelated_active_route (tests.agent.test_task_contract.AgentTaskContractTests.test_simple_route_cannot_select_an_unrelated_active_route) ... ok\ntest_task_cannot_escape_workspace_or_write_prohibited_output (tests.agent.test_task_contract.AgentTaskContractTests.test_task_cannot_escape_workspace_or_write_prohibited_output) ... ok\ntest_task_cannot_widen_route_authority (tests.agent.test_task_contract.AgentTaskContractTests.test_task_cannot_widen_route_authority) ... ok\ntest_valid_task_resolves_route_bounded_write_scope (tests.agent.test_task_contract.AgentTaskContractTests.test_valid_task_resolves_route_bounded_write_scope) ... ok\ntest_all_l001_l012_stages_are_deterministic_valid_and_oracle_free (tests.agent.test_cold_start_stage.ColdStartStageContractTests.test_all_l001_l012_stages_are_deterministic_valid_and_oracle_free) ... ok\ntest_fresh_attempt_destination_must_be_empty (tests.agent.test_cold_start_stage.ColdStartStageContractTests.test_fresh_attempt_destination_must_be_empty) ... ok\ntest_symlinks_in_start_state_fail_closed (tests.agent.test_cold_start_stage.ColdStartStageContractTests.test_symlinks_in_start_state_fail_closed) ... ok\ntest_observable_stream_is_sequence_checked_and_digest_addressed (tests.agent.test_observation.ObservationEventContractTests.test_observable_stream_is_sequence_checked_and_digest_addressed) ... ok\ntest_path_traversal_and_sequence_gaps_are_rejected (tests.agent.test_observation.ObservationEventContractTests.test_path_traversal_and_sequence_gaps_are_rejected) ... ok\ntest_private_reasoning_fields_are_rejected (tests.agent.test_observation.ObservationEventContractTests.test_private_reasoning_fields_are_rejected) ... ok\ntest_descriptor_rejects_serialized_credentials (tests.agent.test_live_executor.LiveExecutorProtocolTests.test_descriptor_rejects_serialized_credentials) ... ok\ntest_inherited_secret_value_is_redacted_without_serializing_it (tests.agent.test_live_executor.LiveExecutorProtocolTests.test_inherited_secret_value_is_redacted_without_serializing_it) ... ok\ntest_missing_executable_is_retained_as_executor_error (tests.agent.test_live_executor.LiveExecutorProtocolTests.test_missing_executable_is_retained_as_executor_error) ... ok\ntest_non_ai_protocol_fixture_proves_execution_but_never_a_live_ai_claim (tests.agent.test_live_executor.LiveExecutorProtocolTests.test_non_ai_protocol_fixture_proves_execution_but_never_a_live_ai_claim) ... ok\ntest_observation_limit_is_enforced (tests.agent.test_live_executor.LiveExecutorProtocolTests.test_observation_limit_is_enforced) ... ok\ntest_wall_time_and_output_limits_fail_closed (tests.agent.test_live_executor.LiveExecutorProtocolTests.test_wall_time_and_output_limits_fail_closed) ... ok\ntest_exact_completed_source_oracle_is_prohibited (tests.agent.test_invariant_scorer.EvaluationInvariantContractTests.test_exact_completed_source_oracle_is_prohibited) ... ok\ntest_scorer_checks_actual_incomplete_workspace_without_self_repair (tests.agent.test_invariant_scorer.EvaluationInvariantContractTests.test_scorer_checks_actual_incomplete_workspace_without_self_repair) ... ok\ntest_semantically_repaired_workspace_passes_hidden_invariants (tests.agent.test_invariant_scorer.EvaluationInvariantContractTests.test_semantically_repaired_workspace_passes_hidden_invariants) ... ok\ntest_cherry_picked_or_duplicate_attempt_set_fails_closed (tests.agent.test_live_run_evidence.LiveRunEvidenceContractTests.test_cherry_picked_or_duplicate_attempt_set_fails_closed) ... ok\ntest_evidence_digest_tampering_is_detected (tests.agent.test_live_run_evidence.LiveRunEvidenceContractTests.test_evidence_digest_tampering_is_detected) ... ok\ntest_failed_or_non_live_attempt_remains_in_denominator (tests.agent.test_live_run_evidence.LiveRunEvidenceContractTests.test_failed_or_non_live_attempt_remains_in_denominator) ... ok\ntest_live_pass_requires_evaluation_and_conformant_authoring_record (tests.agent.test_live_run_evidence.LiveRunEvidenceContractTests.test_live_pass_requires_evaluation_and_conformant_authoring_record) ... ok\ntest_corpus_builder_is_byte_reproducible (tests.agent.test_agent_evals_3.AgentEvaluation3CorpusTests.test_corpus_builder_is_byte_reproducible) ... ok\ntest_declared_initial_diagnostics_match_the_actual_incomplete_start_state (tests.agent.test_agent_evals_3.AgentEvaluation3CorpusTests.test_declared_initial_diagnostics_match_the_actual_incomplete_start_state) ... ok\ntest_manifest_contains_exact_l001_l012_creation_and_repair_inventory (tests.agent.test_agent_evals_3.AgentEvaluation3CorpusTests.test_manifest_contains_exact_l001_l012_creation_and_repair_inventory) ... ok\ntest_tasks_and_evaluator_manifests_are_schema_valid_and_separated (tests.agent.test_agent_evals_3.AgentEvaluation3CorpusTests.test_tasks_and_evaluator_manifests_are_schema_valid_and_separated) ... ok\ntest_tier_b_status_never_claims_an_execution_that_did_not_happen (tests.agent.test_agent_evals_3.AgentEvaluation3CorpusTests.test_tier_b_status_never_claims_an_execution_that_did_not_happen) ... ok\n\n----------------------------------------------------------------------\nRan 38 tests in 52.633s\n\nOK\n",
+          "stdoutTail": "",
+          "valid": true
+        },
+        {
+          "command": [
+            "/opt/pyvenv/bin/python",
+            "tools/run_agent_evals_3.py",
+            "--tier-a-only"
+          ],
+          "durationSeconds": 24.280277,
+          "label": "cycle 4 Agent Evaluation 3 Tier A",
+          "returnCode": 0,
+          "status": "PASS",
+          "stderrTail": "",
+          "stdoutTail": "{\n  \"durationSeconds\": 19.748781,\n  \"engineeringStatus\": \"PROTOCOL_CONFORMANT_LIVE_TIER_B_PENDING\",\n  \"formatVersion\": \"1.0\",\n  \"generatedAt\": \"2026-08-12T00:00:00Z\",\n  \"liveClaimAuthorized\": false,\n  \"liveExternalAgentExecuted\": false,\n  \"release\": \"AIXEM-SRP-0.5.6-2026-08-12\",\n  \"schema\": \"https://schemas.aixem.org/validation/agent-eval-3-summary/1\",\n  \"tierAValid\": true,\n  \"tierBExecuted\": false,\n  \"valid\": true\n}\n",
+          "valid": true
+        },
+        {
+          "command": [
+            "/opt/pyvenv/bin/python",
+            "tools/run_agent_evals_2.py"
+          ],
+          "durationSeconds": 11.892947,
+          "label": "cycle 4 historical Agent Evaluation 2",
+          "returnCode": 0,
+          "status": "PASS",
+          "stderrTail": "A001: pass\nA002: pass\nA003: pass\nA004: pass\nA005: pass\nA006: pass\nA007: pass\nA008: pass\nA009: pass\nA010: pass\nA011: pass\nA012: pass\n",
+          "stdoutTail": "{\n  \"tierA\": {\n    \"cases\": 12,\n    \"failed\": 0,\n    \"passed\": 12\n  },\n  \"tierBExecuted\": false,\n  \"valid\": true\n}\n",
+          "valid": true
+        },
+        {
+          "command": [
+            "internal",
+            "prepare-repository-self-test-inputs"
+          ],
+          "durationSeconds": 0.0,
+          "label": "cycle 4 repository self-test manifest/evidence preflight",
+          "manifest": {
+            "errors": [],
+            "files": 2390,
+            "totalBytes": 58212195,
+            "valid": true
+          },
+          "requirementEvidence": {
+            "errors": [],
+            "evidenceFiles": 237,
+            "requirements": 237,
+            "valid": true
+          },
+          "returnCode": 0,
+          "status": "PASS",
+          "stderrTail": "",
+          "stdoutTail": "",
+          "valid": true
+        },
+        {
+          "command": [
+            "/opt/pyvenv/bin/python",
+            "tools/run_tests_057.py",
+            "--output",
+            "validation/test-results.json"
+          ],
+          "durationSeconds": 307.716181,
+          "label": "cycle 4 complete repository tests",
+          "returnCode": 0,
+          "status": "PASS",
+          "stderrTail": "",
+          "stdoutTail": "[tests] START tests.agent.test_agent_evals_2\n[tests] PASS tests.agent.test_agent_evals_2 (4 tests, 6.507059s)\n[tests] START tests.agent.test_agent_evals_3\n[tests] PASS tests.agent.test_agent_evals_3 (5 tests, 9.339165s)\n[tests] START tests.agent.test_authoring_harness\n[tests] PASS tests.agent.test_authoring_harness (3 tests, 34.866275s)\n[tests] START tests.agent.test_change_scope\n[tests] PASS tests.agent.test_change_scope (4 tests, 4.389562s)\n[tests] START tests.agent.test_cold_start_stage\n[tests] PASS tests.agent.test_cold_start_stage (3 tests, 6.818535s)\n[tests] START tests.agent.test_diagnostics\n[tests] PASS tests.agent.test_diagnostics (4 tests, 4.745813s)\n[tests] START tests.agent.test_invariant_scorer\n[tests] PASS tests.agent.test_invariant_scorer (3 tests, 6.068077s)\n[tests] START tests.agent.test_live_executor\n[tests] PASS tests.agent.test_live_executor (6 tests, 28.644276s)\n[tests] START tests.agent.test_live_run_evidence\n[tests] PASS tests.agent.test_live_run_evidence (4 tests, 4.70799s)\n[tests] START tests.agent.test_observation\n[tests] PASS tests.agent.test_observation (3 tests, 4.40421s)\n[tests] START tests.agent.test_route_execution_metadata\n[tests] PASS tests.agent.test_route_execution_metadata (3 tests, 2.508389s)\n[tests] START tests.agent.test_run_record\n[tests] PASS tests.agent.test_run_record (3 tests, 4.508419s)\n[tests] START tests.agent.test_task_contract\n[tests] PASS tests.agent.test_task_contract (4 tests, 4.393421s)\n[tests] START tests.conformance.test_hierarchical_project\n[tests] PASS tests.conformance.test_hierarchical_project (10 tests, 15.677002s)\n[tests] START tests.conformance.test_reference_viewer\n[tests] PASS tests.conformance.test_reference_viewer (12 tests, 24.343697s)\n[tests] START tests.conformance.test_symbol_expressiveness_corpus\n[tests] PASS tests.conformance.test_symbol_expressiveness_corpus (6 tests, 15.459358s)\n[tests] START tests.conformance.test_viewer_accessibility\n[tests] PASS tests.conformance.test_viewer_accessibility (3 tests, 13.140235s)\n[tests] START tests.conformance.test_viewer_security\n[tests] PASS tests.conformance.test_viewer_security (3 tests, 10.709589s)\n[tests] START tests.docs.test_authoring_examples\n[tests] PASS tests.docs.test_authoring_examples (3 tests, 5.754157s)\n[tests] START tests.docs.test_authoring_reference\n[tests] PASS tests.docs.test_authoring_reference (2 tests, 4.841326s)\n[tests] START tests.docs.test_authoring_routes\n[tests] PASS tests.docs.test_authoring_routes (4 tests, 11.922286s)\n[tests] START tests.docs.test_document_governance\n[tests] PASS tests.docs.test_document_governance (10 tests, 25.373779s)\n[tests] START tests.docs.test_hierarchical_authoring_routes\n[tests] PASS tests.docs.test_hierarchical_authoring_routes (5 tests, 9.605804s)\n[tests] START tests.docs.test_renderer_contract\n[tests] PASS tests.docs.test_renderer_contract (4 tests, 4.872053s)\n[tests] START tests.docs.test_repository\n[tests] PASS tests.docs.test_repository (8 tests, 41.753545s)\n{\"failedModules\": 0, \"modules\": 25, \"successful\": true, \"testsRun\": 119}\n",
+          "valid": true
+        },
+        {
+          "command": [
+            "/opt/pyvenv/bin/python",
+            "tools/docs/authoring_validation.py"
+          ],
+          "durationSeconds": 5.356087,
+          "label": "cycle 4 executable authoring validation",
+          "returnCode": 0,
+          "status": "PASS",
+          "stderrTail": "",
+          "stdoutTail": "{\n  \"examples\": {\n    \"brokenFixture\": {\n      \"checks\": 10,\n      \"issues\": [\n        {\n          \"code\": \"lead-port-mismatch\",\n          \"message\": \"Port 1 is at (-15.0, 0.0), but its visible lead ends at (-12.5, 0.0)\",\n          \"path\": \"examples/authoring/08-visual-repair/fixtures/broken-lead-port.aixsym.json\",\n          \"severity\": \"error\"\n        }\n      ],\n      \"path\": \"examples/authoring/08-visual-repair/fixtures/broken-lead-port.aixsym.json\",\n      \"valid\": false\n    },\n    \"checks\": 249,\n    \"examples\": 8,\n    \"expectedBrokenFixtureDetected\": true,\n    \"results\": [\n      {\n        \"checks\": 24,\n        \"id\": \"01-two-pin-passive\",\n        \"issues\": [],\n        \"valid\": true\n      },\n      {\n        \"checks\": 45,\n        \"id\": \"02-connector\",\n        \"issues\": [],\n        \"valid\": true\n      },\n      {\n        \"checks\": 72,\n        \"id\": \"03-multi-pin-ic\",\n        \"issues\": [],\n        \"valid\": true\n      },\n      {\n        \"checks\": 24,\n        \"id\": \"04-parameterized-variant\",\n        \"issues\": [],\n        \"valid\": true\n      },\n      {\n        \"checks\": 24,\n        \"id\": \"05-field-and-port-binding\",\n        \"issues\": [],\n        \"valid\": true\n      },\n      {\n        \"checks\": 18,\n        \"id\": \"06-two-terminal-route\",\n        \"issues\": [],\n        \"valid\": true\n      },\n      {\n        \"checks\": 18,\n        \"id\": \"07-multi-terminal-junction\",\n        \"issues\": [],\n        \"valid\": true\n      },\n      {\n        \"checks\": 24,\n        \"id\": \"08-visual-repair\",\n        \"issues\": [],\n        \"valid\": true\n      }\n    ],\n    \"valid\": true\n  },\n  \"referenceCoverage\": {\n    \"coverage\": 1.0,\n    \"covered\": 156,\n    \"groups\": {\n      \"component\": {\n        \"covered\": 10,\n        \"document\": \"docs/symbols/component-symbol-binding.md\",\n        \"missing\": [],\n        \"total\": 10\n      },\n      \"connection\": {\n        \"covered\": 7,\n        \"document\": \"docs/file-formats/aixlayout.md\",\n        \"missing\": [],\n        \"total\": 7\n      },\n      \"connectionPath\": {\n        \"covered\": 5,\n        \"document\": \"docs/file-formats/aixlayout.md\",\n        \"missing\": [],\n        \"total\": 5\n      },\n      \"placement\": {\n        \"covered\": 18,\n        \"document\": \"docs/file-formats/aixlayout.md\",\n        \"missing\": [],\n        \"total\": 18\n      },\n      \"presentation\": {\n        \"covered\": 7,\n        \"document\": \"docs/symbols/component-symbol-binding.md\",\n        \"missing\": [],\n        \"total\": 7\n      },\n      \"primitiveProperties\": {\n        \"covered\": 47,\n        \"document\": \"docs/symbols/primitives.md\",\n        \"missing\": [],\n        \"total\": 47\n      },\n      \"primitiveTypes\": {\n        \"covered\": 13,\n        \"document\": \"docs/symbols/primitives.md\",\n        \"missing\": [],\n        \"total\": 13\n      },\n      \"symbolParameter\": {\n        \"covered\": 8,\n        \"document\": \"docs/symbols/aixsym-field-reference.md\",\n        \"missing\": [],\n        \"total\": 8\n      },\n      \"symbolPort\": {\n        \"covered\": 13,\n        \"document\": \"docs/symbols/pins-and-ports.md\",\n        \"missing\": [],\n        \"total\": 13\n      },\n      \"symbolTopLevel\": {\n        \"covered\": 20,\n        \"document\": \"docs/symbols/aixsym-field-reference.md\",\n        \"missing\": [],\n        \"total\": 20\n      },\n      \"symbolVariant\": {\n        \"covered\": 8,\n        \"document\": \"docs/symbols/variants.md\",\n        \"missing\": [],\n        \"total\": 8\n      }\n    },\n    \"issues\": [],\n    \"total\": 156,\n    \"valid\": true\n  },\n  \"rendererContract\": {\n    \"checks\": 9,\n    \"issues\": [],\n    \"valid\": true\n  },\n  \"snippets\": {\n    \"documents\": 142,\n    \"issues\": [],\n    \"snippets\": 18,\n    \"valid\": true\n  },\n  \"valid\": true\n}\n",
+          "valid": true
+        },
+        {
+          "command": [
+            "/opt/pyvenv/bin/python",
+            "tools/validate_symbol_corpus.py",
+            "--all",
+            "--repeat",
+            "3",
+            "--emit-report"
+          ],
+          "durationSeconds": 16.797825,
+          "label": "cycle 4 symbol/static-block corpus",
+          "returnCode": 0,
+          "status": "PASS",
+          "stderrTail": "",
+          "stdoutTail": "B001 b2d: automated=PASS; digest=PASS; visual=PASS\nB002 b2d: automated=PASS; digest=PASS; visual=PASS\nB003 b2d: automated=PASS; digest=PASS; visual=PASS\nB004 b2d: automated=PASS; digest=PASS; visual=PASS\nB005 b2d: automated=PASS; digest=PASS; visual=PASS\nB006 b2d: automated=PASS; digest=PASS; visual=PASS\nS001 core: automated=PASS; digest=PASS; visual=PASS\nS002 core: automated=PASS; digest=PASS; visual=PASS\nS003 core: automated=PASS; digest=PASS; visual=PASS\nS004 core: automated=PASS; digest=PASS; visual=PASS\nS005 core: automated=PASS; digest=PASS; visual=PASS\nS006 core: automated=PASS; digest=PASS; visual=PASS\nS007 core: automated=PASS; digest=PASS; visual=PASS\nS008 core: automated=PASS; digest=PASS; visual=PASS\nS009 core: automated=PASS; digest=PASS; visual=PASS\nS010 core: automated=PASS; digest=PASS; visual=PASS\nS011 core: automated=PASS; digest=PASS; visual=PASS\nS012 core: automated=PASS; digest=PASS; visual=PASS\nS013 core: automated=PASS; digest=PASS; visual=PASS\nS014 core: automated=PASS; digest=PASS; visual=PASS\nS015 core: automated=PASS; digest=PASS; visual=PASS\nS016 core: automated=PASS; digest=PASS; visual=PASS\nS017 core: automated=PASS; digest=PASS; visual=PASS\nS018 core: automated=PASS; digest=PASS; visual=PASS\nS019 core: automated=PASS; digest=PASS; visual=PASS\nS020 core: automated=PASS; digest=PASS; visual=PASS\nS021 core: automated=PASS; digest=PASS; visual=PASS\nS022 core: automated=PASS; digest=PASS; visual=PASS\nS023 core: automated=PASS; digest=PASS; visual=PASS\nS024 core: automated=PASS; digest=PASS; visual=PASS\nS025 extended: automated=PASS; digest=PASS; visual=PASS\nS026 extended: automated=PASS; digest=PASS; visual=PASS\nS027 extended: automated=PASS; digest=PASS; visual=PASS\nS028 extended: automated=PASS; digest=PASS; visual=PASS\nS029 extended: automated=PASS; digest=PASS; visual=PASS\nS030 probe: automated=PASS; digest=PASS; visual=PASS\ncases: 36; automated failures: 0; visual failures: 0; visual pending: 0\n",
+          "valid": true
+        },
+        {
+          "command": [
+            "/opt/pyvenv/bin/python",
+            "tools/validate_hierarchical_corpus.py",
+            "--repeats",
+            "3"
+          ],
+          "durationSeconds": 14.399277,
+          "label": "cycle 4 hierarchical corpus",
+          "returnCode": 0,
+          "status": "PASS",
+          "stderrTail": "",
+          "stdoutTail": "H001: PASS (expected pass, observed pass)\nH002: PASS (expected pass, observed pass)\nH003: PASS (expected pass, observed pass)\nH004: PASS (expected pass, observed pass)\nH005: PASS (expected pass, observed pass)\nH006: PASS (expected pass, observed pass)\nH007: PASS (expected pass, observed pass)\nH008: PASS (expected pass, observed pass)\nH009: PASS (expected fail, observed fail)\nH010: PASS (expected fail, observed fail)\nH011: PASS (expected pass, observed pass)\nH012: PASS (expected pass, observed pass)\nH013: PASS (expected pass, observed pass)\nH014: PASS (expected pass, observed pass)\nH015: PASS (expected fail, observed fail)\nN001: PASS (expected fail, observed fail)\nN002: PASS (expected fail, observed fail)\nN003: PASS (expected fail, observed fail)\nN004: PASS (expected fail, observed fail)\nN005: PASS (expected fail, observed fail)\nN006: PASS (expected fail, observed fail)\nN007: PASS (expected fail, observed fail)\nN008: PASS (expected fail, observed fail)\nN009: PASS (expected fail, observed fail)\nN010: PASS (expected fail, observed fail)\nN011: PASS (expected fail, observed fail)\nN012: PASS (expected fail, observed fail)\nN013: PASS (expected fail, observed fail)\nN014: PASS (expected fail, observed fail)\nN015: PASS (expected fail, observed fail)\nhierarchical corpus: PASS (30/30)\n",
+          "valid": true
+        },
+        {
+          "command": [
+            "/opt/pyvenv/bin/python",
+            "tools/validate_reference_viewer_corpus.py",
+            "--repeats",
+            "3",
+            "--screenshots"
+          ],
+          "durationSeconds": 29.272526,
+          "label": "cycle 4 Reference Viewer corpus",
+          "returnCode": 0,
+          "status": "PASS",
+          "stderrTail": "",
+          "stdoutTail": "V001: PASS — Legacy single-sheet viewer\nV002: PASS — Multi-sheet three-mode viewer\nV003: PASS — Data-driven hierarchy navigation\nV004: PASS — Same-name local nets\nV005: PASS — Project-net selection\nV006: PASS — Interface-port inspection\nV007: PASS — Sheet-scoped layer visibility\nV008: PASS — Cross-view selection continuity\nV009: PASS — Component search navigation\nV010: PASS — Pan, zoom, and fit\nV011: PASS — Keyboard-only inspection\nV012: PASS — Narrow viewport\nV013: PASS — Offline and network denial\nV014: PASS — Hostile authored text\nV015: PASS — DOM qualified identity\nV016: PASS — Ten-sheet project\nV017: PASS — Viewer and Workbench separation\nV018: PASS — Three-run HTML determinism\nreference viewer corpus: PASS (18/18)\n",
+          "valid": true
+        }
+      ],
+      "id": "CYCLE-PYTHON-AND-COMMANDS",
+      "status": "PASS",
+      "summary": "Every command in the complete verification loop returned its expected status.",
+      "valid": true
+    },
+    {
+      "details": {
+        "changed": [],
+        "files": 421,
+        "valid": true
+      },
+      "id": "CYCLE-GENERATED-DETERMINISM",
+      "status": "PASS",
+      "summary": "Two clean documentation/reference/site builds are byte-identical.",
+      "valid": true
+    },
+    {
+      "details": {
+        "agentLines": 251,
+        "canonicalDocuments": 142,
+        "errors": [],
+        "governanceRequirements": 10,
+        "orphans": 0,
+        "pathMigrations": 4,
+        "plans": 8,
+        "redirectsChecked": true,
+        "repositoryMarkdown": 244,
+        "roleCounts": {
+          "canonical-document": 142,
+          "corpus-instruction": 2,
+          "evaluation-suite-document": 6,
+          "evaluation-task": 12,
+          "evidence-review": 5,
+          "example-local-instruction": 10,
+          "implementation-plan": 8,
+          "legacy-explanation": 1,
+          "planning-entrypoint": 1,
+          "root-entrypoint": 7,
+          "validation-entrypoint": 3,
+          "validation-release-index": 8,
+          "validation-report": 33,
+          "verification-run-report": 6
+        },
+        "rootMarkdown": [
+          "AGENTS.md",
+          "CHANGELOG.md",
+          "CONTRIBUTING.md",
+          "NOTICE.md",
+          "README.md",
+          "SECURITY.md",
+          "START_HERE.md"
+        ],
+        "unknownRoles": 0,
+        "valid": true
+      },
+      "id": "CYCLE-DOCUMENT-GOVERNANCE",
+      "status": "PASS",
+      "summary": "Every Markdown file has one role, a valid name/lifecycle, and an official discovery owner; path migrations and redirects close.",
+      "valid": true
+    },
+    {
+      "details": {
+        "agentSchemas": 10,
+        "errors": [],
+        "liveRequirements": 19,
+        "liveSchemas": 7,
+        "valid": true
+      },
+      "id": "CYCLE-LIVE-CONTRACT-SCHEMAS",
+      "status": "PASS",
+      "summary": "All inherited live-agent schemas and nineteen requirement mappings remain valid.",
+      "valid": true
+    },
+    {
+      "details": {
+        "caseShortcutRoutes": [],
+        "errors": [],
+        "maintenanceRouteCount": 1,
+        "routeCount": 16,
+        "valid": true
+      },
+      "id": "CYCLE-ROUTE-AUTHORITY",
+      "status": "PASS",
+      "summary": "Existing authoring routes and the live-harness maintenance route remain canonical.",
+      "valid": true
+    },
+    {
+      "details": {
+        "artifactDeclarationsChecked": 229,
+        "documents": 142,
+        "errors": [],
+        "normativeDocuments": 96,
+        "repositoryDocumentGovernance": {
+          "agentLines": 251,
+          "canonicalDocuments": 142,
+          "errors": [],
+          "governanceRequirements": 10,
+          "orphans": 0,
+          "pathMigrations": 4,
+          "plans": 8,
+          "redirectsChecked": true,
+          "repositoryMarkdown": 244,
+          "roleCounts": {
+            "canonical-document": 142,
+            "corpus-instruction": 2,
+            "evaluation-suite-document": 6,
+            "evaluation-task": 12,
+            "evidence-review": 5,
+            "example-local-instruction": 10,
+            "implementation-plan": 8,
+            "legacy-explanation": 1,
+            "planning-entrypoint": 1,
+            "root-entrypoint": 7,
+            "validation-entrypoint": 3,
+            "validation-release-index": 8,
+            "validation-report": 33,
+            "verification-run-report": 6
+          },
+          "rootMarkdown": [
+            "AGENTS.md",
+            "CHANGELOG.md",
+            "CONTRIBUTING.md",
+            "NOTICE.md",
+            "README.md",
+            "SECURITY.md",
+            "START_HERE.md"
+          ],
+          "unknownRoles": 0,
+          "valid": true
+        },
+        "requirements": 237,
+        "routes": 16,
+        "silentGaps": 0,
+        "sitePages": 174,
+        "valid": true
+      },
+      "id": "CYCLE-DOCUMENT-LINKAGE",
+      "status": "PASS",
+      "summary": "Canonical documentation, repository inventory, routes, site, artifacts, and traceability relationships close.",
+      "valid": true
+    },
+    {
+      "details": {
+        "agentEval2TierA": {
+          "cases": 12,
+          "failed": 0,
+          "passed": 12
+        },
+        "agentEval3Attempts": 0,
+        "agentEval3TierA": {
+          "cases": 12,
+          "corpusCasesValid": 12,
+          "deterministicStages": 12,
+          "protocolFixtureValid": true
+        },
+        "agentEval3TierBExecuted": false,
+        "caseIds": [
+          "L001",
+          "L002",
+          "L003",
+          "L004",
+          "L005",
+          "L006",
+          "L007",
+          "L008",
+          "L009",
+          "L010",
+          "L011",
+          "L012"
+        ],
+        "errors": [],
+        "valid": true
+      },
+      "id": "CYCLE-EVALUATION-TRUTH",
+      "status": "PASS",
+      "summary": "Agent Evaluation 3 Tier A passes while inherited external Tier B remains explicitly unexecuted; historical A001-A012 remain 12/12.",
+      "valid": true
+    },
+    {
+      "details": {
+        "durationSeconds": 305.358692,
+        "failedModules": 0,
+        "moduleCount": 25,
+        "passedModules": 25,
+        "successful": true,
+        "testsRun": 119
+      },
+      "id": "CYCLE-REPOSITORY-TESTS",
+      "status": "PASS",
+      "summary": "The complete isolated-module repository test inventory passes.",
+      "valid": true
+    },
+    {
+      "details": {
+        "errors": [],
+        "hierarchical": {
+          "cases": 30,
+          "deterministic": 30,
+          "expectedFailures": 18,
+          "failed": 0,
+          "passed": 30,
+          "positive": 12
+        },
+        "symbol": {
+          "B2D": {
+            "automatedPassed": 6,
+            "expectedCases": 6,
+            "observedCases": 6,
+            "status": "PASS",
+            "visualPassed": 6
+          },
+          "MU": {
+            "case": "S030",
+            "expectedResult": "NOT_SUPPORTED",
+            "extensionDecision": "No speculative core extension was introduced in 0.5.2. A dedicated ADR is required before future multi-unit semantics are implemented.",
+            "graphicalMonolith": "PASS",
+            "interpretation": "The current model can draw the monolithic FPGA shape, but cannot represent independently placeable unit presentations that share one semantic component identity. Variants were not misused as units.",
+            "negativeTest": {
+              "name": "duplicate-placement-entity-rejected",
+              "observed": "duplicate placement entity",
+              "pass": true
+            },
+            "requiredSemanticProperties": {
+              "disjointPortSubsets": false,
+              "independentlyPlaceableUnits": false,
+              "oneSharedComponentIdentity": false,
+              "sharedReferenceAndValue": false,
+              "unambiguousResolvedSceneIdentity": false
+            },
+            "result": "NOT_SUPPORTED",
+            "valid": true
+          },
+          "S-Core": {
+            "automatedPassed": 24,
+            "expectedCases": 24,
+            "observedCases": 24,
+            "status": "PASS",
+            "visualPassed": 24
+          },
+          "S-Extended": {
+            "core": {
+              "automatedPassed": 24,
+              "expectedCases": 24,
+              "observedCases": 24,
+              "status": "PASS",
+              "visualPassed": 24
+            },
+            "extendedCases": {
+              "automatedPassed": 5,
+              "expectedCases": 5,
+              "observedCases": 5,
+              "status": "PASS",
+              "visualPassed": 5
+            },
+            "status": "PASS"
+          },
+          "release": "AIXEM-SRP-0.5.2-2026-08-11"
+        },
+        "symbolReport": "validation/reports/symbol-expressiveness-0.5.2.json",
+        "valid": true,
+        "viewer": {
+          "cases": 18,
+          "deterministicRuns": 3,
+          "failed": 0,
+          "passed": 18,
+          "skipped": 0
+        },
+        "viewerDeterminismRuns": 3,
+        "viewerScreenshots": 10
+      },
+      "id": "CYCLE-CORPORA",
+      "status": "PASS",
+      "summary": "Authoring, symbol/static-block, hierarchical, and Reference Viewer evidence remains conformant and deterministic.",
+      "valid": true
+    },
+    {
+      "details": {
+        "committedMismatches": [],
+        "errors": [],
+        "freshProducts": {
+          "h001Composite": "dde1dbe458e1975b7468e291613d2fe3c3fee90535de5fd90f0c535e5e1e0d9d",
+          "h001Overview": "80f59f7d6102b0161d013098ac20f654b724a8eb9fd04b6dab533b5f24a755c8",
+          "h001ResolvedProjectScene": "9b54a68bdff50a8b2d592232d3daad8c3f59c55f87bfad02115da5e744848277",
+          "singleDrawing": "cbf6775048b06eeb120530abece8148a73e0b0bebdf493f5cfc7eee9708d8080",
+          "singleResolvedScene": "d72ad96f1778d459e42933aee2ec1c381158305a9f5015031d93a53f016dad22"
+        },
+        "h001Command": {
+          "command": [
+            "/opt/pyvenv/bin/python",
+            "implementation/schematic/render_project.py",
+            "validation/corpus/hierarchical-project-1/cases/H001-two-sheet-power-+-control/project.aixproj.json",
+            "--output-dir",
+            "/tmp/aixem-056-protected-04-kc6wm3en/h001"
+          ],
+          "durationSeconds": 4.911202,
+          "label": "cycle 4 protected H001 render",
+          "returnCode": 0,
+          "status": "PASS",
+          "stderrTail": "",
+          "stdoutTail": "project: hierarchical:h001\nsheets: 2; entities: 2; local nets: 6; project nets: 3\noverview: /tmp/aixem-056-protected-04-kc6wm3en/h001/project-overview.svg\ncomposite: /tmp/aixem-056-protected-04-kc6wm3en/h001/project-composite.svg\nhierarchical project validation: PASS\nworkbench: /tmp/aixem-056-protected-04-kc6wm3en/h001/workbench.html\n",
+          "valid": true
+        },
+        "protectedCommittedFiles": 19,
+        "schemaDigests": {
+          "aixlayout1": "4f92e5e292a694aabfca922cc449f2f59a1a08e6465181a096a62b47b23bfca7",
+          "aixproj1": "056932ff46d7b6928f3b01dba50403353bdfda8f4d28e8b7bf0d38ab1dd39a41"
+        },
+        "singleCommand": {
+          "command": [
+            "/opt/pyvenv/bin/python",
+            "implementation/schematic/render_project.py",
+            "examples/electronics-grid-controller/project.aixproj.json",
+            "--output-dir",
+            "/tmp/aixem-056-protected-04-kc6wm3en/single"
+          ],
+          "durationSeconds": 5.102413,
+          "label": "cycle 4 protected single-sheet render",
+          "returnCode": 0,
+          "status": "PASS",
+          "stderrTail": "",
+          "stdoutTail": "project: demo.electronics:grid-controller\nentities: 17; nets: 20; route segments: 126\ngrid schematic validation: PASS\nworkbench: /tmp/aixem-056-protected-04-kc6wm3en/single/workbench.html\n",
+          "valid": true
+        },
+        "valid": true
+      },
+      "id": "CYCLE-PROTECTED-HASHES",
+      "status": "PASS",
+      "summary": "Protected circuit schemas and locked renderer/Viewer evidence remain byte-identical.",
+      "valid": true
+    },
+    {
+      "details": {
+        "errors": [],
+        "filesChecked": 6,
+        "valid": true
+      },
+      "id": "CYCLE-CLAIM-INTEGRITY",
+      "status": "PASS",
+      "summary": "The documentation-governance release does not fabricate an inherited Tier B or arbitrary autonomous-design claim.",
+      "valid": true
+    }
+  ],
+  "cycle": 4,
+  "documentationGovernancePlanPassed": true,
+  "durationSeconds": 529.730931,
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "inheritedExternalTierBExecuted": false,
+  "inheritedLiveClaimAuthorized": false,
+  "release": "AIXEM-SRP-0.5.7-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/document-governance-verification-cycle/1",
+  "status": "PASS",
+  "valid": true
+}

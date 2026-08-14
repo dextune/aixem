@@ -1,0 +1,23 @@
+aixem 1.0
+model h014-cross-sheet-route-crossings:left title="Left"
+feature component.graphics@1 required=true
+feature explicit.layout@2 required=true
+feature hierarchical.interface@1 required=true
+
+port OUT direction=output role=signal label=OUT
+port STATUS direction=output role=signal label=STATUS
+
+component U1 type=authoring:controller-12 refdes=U1 value=AXC12
+
+net out = U1.5 @OUT
+net status = U1.7 @STATUS
+noconn U1.1
+noconn U1.2
+noconn U1.3
+noconn U1.4
+noconn U1.6
+noconn U1.8
+noconn U1.9
+noconn U1.10
+noconn U1.11
+noconn U1.12

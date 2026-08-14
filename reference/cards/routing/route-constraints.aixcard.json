@@ -1,0 +1,66 @@
+{
+  "card": {
+    "aliases": [
+      "routing constraints",
+      "wire rules",
+      "route rules"
+    ],
+    "appliesTo": [
+      "route-constraints"
+    ],
+    "domain": "routing",
+    "estimatedReadBytes": 5737,
+    "id": "AIXEM-ROUTE-CONSTRAINT-001",
+    "inputs": [],
+    "keywords": [
+      "Route Constraints",
+      "route rules",
+      "route-nets",
+      "routing constraints",
+      "validate-project",
+      "wire rules"
+    ],
+    "kind": "reference",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/routing/route-constraints.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:e70eaf988b584d969cd9a54cc2b25dbe914e39a1a86f88ea80ab505089feef14"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-ROUTE-ORTHO-001",
+      "AIXEM-SCHEM-JUNCTION-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-ROUTE-0007",
+        "level": "must",
+        "text": "**MUST.** A route MUST respect symbol body and annotation clearance constraints declared by the active profile."
+      },
+      {
+        "id": "AIXEM-REQ-ROUTE-0008",
+        "level": "must",
+        "text": "**MUST.** A route crossing MUST have an unambiguous junction or non-junction interpretation."
+      },
+      {
+        "id": "AIXEM-REQ-ROUTE-0009",
+        "level": "must",
+        "text": "**MUST.** A route terminal MUST meet the declared symbol port connection point without an unbound gap."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-ROUTE-CONSTRAINT-001",
+        "path": "docs/routing/route-constraints.md"
+      }
+    ],
+    "summary": "Defines grid, obstacle, clearance, crossing, endpoint, and route-quality constraints.",
+    "title": "Route Constraints"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

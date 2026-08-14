@@ -1,0 +1,8 @@
+{
+  "assertions": [],
+  "expected": "fail",
+  "expectedDiagnostic": "is too short",
+  "id": "N009",
+  "project": "project.aixproj.json",
+  "title": "Project net one member"
+}

@@ -1,0 +1,124 @@
+{
+  "coordinateSystem": {
+    "angleDirection": "clockwise",
+    "angleUnit": "deg",
+    "grid": 2.5,
+    "unit": "mm",
+    "yAxis": "down"
+  },
+  "diagnostics": [],
+  "entities": [
+    {
+      "componentType": "conformance:s019",
+      "key": "X1",
+      "kind": "component",
+      "parameters": {},
+      "placement": {
+        "entity": "X1",
+        "layer": "symbols",
+        "x": 52.5,
+        "y": 45.0
+      },
+      "ports": {
+        "1": [
+          42.5,
+          45.0
+        ],
+        "2": [
+          62.5,
+          45.0
+        ]
+      },
+      "reference": "X1",
+      "symbolDigest": "sha256:872a8a46db3bc8917acf1a9d03ff3a6eb2fabe5eeebadc8d16a634d80542a701",
+      "symbolId": "corpus:s019-connector-2",
+      "value": "2-pin connector",
+      "variant": null
+    }
+  ],
+  "featuresUsed": [],
+  "generatedAt": "2026-08-10T00:00:00Z",
+  "gridValidation": {
+    "crossingPolicy": "junction-required",
+    "orthogonalSegments": 0,
+    "placementExceptions": [],
+    "placements": 1,
+    "placementsOnGrid": 1,
+    "profile": "aixem.schematic.grid-light",
+    "routeSegments": 0,
+    "routeViasOnGrid": true,
+    "snap": 2.5,
+    "zeroLengthSegments": []
+  },
+  "hashes": {
+    "layout": "sha256:92b432de6f2f21d03966a01aaa5fd23912152ae1c232fd457c93c2b65c195d0f",
+    "libraries": [
+      "sha256:ce7df3a8014bee455aff25c8162786b7fc4990538edfcdc8300af87fbe8c56ea"
+    ],
+    "source": "sha256:5f2ea3f4bb0958afcfef0892ad28abe3d20d29ed950ed75818f07c8b25b998c7",
+    "symbolAssets": [
+      "sha256:872a8a46db3bc8917acf1a9d03ff3a6eb2fabe5eeebadc8d16a634d80542a701"
+    ]
+  },
+  "layers": [
+    {
+      "defaultVisible": true,
+      "id": "connections",
+      "locked": false,
+      "order": 10,
+      "printable": true,
+      "purpose": "semantic net routes"
+    },
+    {
+      "defaultVisible": true,
+      "id": "symbols",
+      "locked": false,
+      "order": 20,
+      "printable": true,
+      "purpose": "component symbols"
+    },
+    {
+      "defaultVisible": true,
+      "id": "annotation",
+      "locked": false,
+      "order": 30,
+      "printable": true,
+      "purpose": "notes"
+    }
+  ],
+  "nets": [],
+  "project": {
+    "id": "conformance:s019",
+    "profile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "title": "S019 2-pin connector conformance project"
+  },
+  "renderer": {
+    "id": "aixem-grid-schematic-reference-renderer",
+    "version": "0.5.1"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/resolved-scene/1",
+  "sheet": {
+    "height": 120.0,
+    "margin": 10,
+    "titleBlock": {
+      "drawing": "corpus_s019-layout",
+      "revision": "A",
+      "sheet": "1/1",
+      "title": "S019 — 2-pin connector"
+    },
+    "width": 180.0
+  },
+  "statistics": {
+    "entities": 1,
+    "nets": 0,
+    "noConnects": 0,
+    "primitives": 5,
+    "routeSegments": 0,
+    "symbolAssets": 1
+  },
+  "styleProfile": {
+    "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+    "id": "aixem.schematic.grid-light",
+    "path": "aixem-grid-schematic-style-1.aixstyle.json"
+  }
+}

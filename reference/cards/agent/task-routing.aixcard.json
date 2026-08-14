@@ -1,0 +1,65 @@
+{
+  "card": {
+    "aliases": [
+      "task routes",
+      "route index",
+      "intent routing"
+    ],
+    "appliesTo": [
+      "agent-route-contract"
+    ],
+    "domain": "agent",
+    "estimatedReadBytes": 6658,
+    "id": "AIXEM-AGENT-ROUTES-001",
+    "inputs": [],
+    "keywords": [
+      "Task Routes",
+      "build-documentation",
+      "intent routing",
+      "publish-release",
+      "route index",
+      "task routes"
+    ],
+    "kind": "reference",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/agent/task-routing.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:d4c5746c955989eb322a6aaddcd153ebe23b33937af2baa8ec09b916fc0684cd"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-AGENT-RETRIEVAL-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-AGENT-0012",
+        "level": "must",
+        "text": "**MUST.** Normalized route IDs and aliases MUST resolve to at most one active route."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-0013",
+        "level": "must",
+        "text": "**MUST.** A route MUST preserve an explicit ordered list of canonical document and optional section targets."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-0014",
+        "level": "must",
+        "text": "**MUST.** A route MUST declare objective completion conditions appropriate to its task."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-AGENT-ROUTES-001",
+        "path": "docs/agent/task-routing.md"
+      }
+    ],
+    "summary": "Defines authored route YAML, aliases, ordered document targets, section anchors, budgets, conditions, and completion criteria.",
+    "title": "Task Routes"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

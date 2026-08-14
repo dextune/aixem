@@ -1,0 +1,61 @@
+{
+  "card": {
+    "aliases": [
+      "agent architecture",
+      "AI workflow architecture",
+      "agent components"
+    ],
+    "appliesTo": [
+      "agent-system-architecture"
+    ],
+    "domain": "agent",
+    "estimatedReadBytes": 5137,
+    "id": "AIXEM-AGENT-ARCH-001",
+    "inputs": [],
+    "keywords": [
+      "AI workflow architecture",
+      "Agent Architecture",
+      "agent architecture",
+      "agent components",
+      "build-documentation",
+      "change-architecture"
+    ],
+    "kind": "guide",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/agent/architecture.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:6e20fc583f87b48e525ffb6bbd2651ebdb0f8d7470dc88d04c02543c76c8464f"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-CONCEPT-AUTHORITY-001",
+      "AIXEM-SPEC-AGENT-RETRIEVAL-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-AGENT-0010",
+        "level": "must",
+        "text": "**MUST.** An AIXEM agent MUST identify the owning authority layer before modifying an artifact."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-0011",
+        "level": "must",
+        "text": "**MUST.** An agent MUST retain the validation commands and evidence required by the scope before reporting completion."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-AGENT-ARCH-001",
+        "path": "docs/agent/architecture.md"
+      }
+    ],
+    "summary": "Defines the planner, bounded retriever, authority resolver, authoring tools, validators, evidence store, and release gate used by an AIXEM agent.",
+    "title": "Agent Architecture"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

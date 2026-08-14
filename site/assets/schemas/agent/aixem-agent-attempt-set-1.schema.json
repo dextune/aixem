@@ -1,0 +1,19 @@
+{
+  "$id": "https://schemas.aixem.org/agent/attempt-set/1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AIXEM Agent Attempt Set 1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "formatVersion", "release", "generatedAt", "executor", "expectedAttemptIds", "attempts", "summary", "denominatorIntegrity", "liveExternalAgentExecuted", "claim", "authority", "attemptSetDigest"],
+  "properties": {
+    "schema": {"const": "https://schemas.aixem.org/agent/attempt-set/1"},
+    "formatVersion": {"const": "1.0"}, "release": {"type": "string"}, "generatedAt": {"type": "string", "format": "date-time"},
+    "executor": {"type": "object", "additionalProperties": true},
+    "expectedAttemptIds": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "attempts": {"type": "array", "items": {"type": "object", "additionalProperties": true}},
+    "summary": {"type": "object", "additionalProperties": false, "required": ["attempts", "liveAttempts", "passed", "failed", "timeouts", "executorErrors", "invalidStages"], "properties": {"attempts": {"type": "integer", "minimum": 0}, "liveAttempts": {"type": "integer", "minimum": 0}, "passed": {"type": "integer", "minimum": 0}, "failed": {"type": "integer", "minimum": 0}, "timeouts": {"type": "integer", "minimum": 0}, "executorErrors": {"type": "integer", "minimum": 0}, "invalidStages": {"type": "integer", "minimum": 0}}},
+    "denominatorIntegrity": {"const": true}, "liveExternalAgentExecuted": {"type": "boolean"}, "claim": {"type": ["string", "null"]},
+    "authority": {"const": "derived-live-evidence-only"}, "attemptSetDigest": {"$ref": "#/$defs/digest"}
+  },
+  "$defs": {"digest": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"}}
+}

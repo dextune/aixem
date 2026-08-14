@@ -1,0 +1,58 @@
+{
+  "card": {
+    "aliases": [
+      "documentation home",
+      "AIXEM docs",
+      "documentation index"
+    ],
+    "appliesTo": [
+      "documentation-navigation"
+    ],
+    "domain": "documentation",
+    "estimatedReadBytes": 5710,
+    "id": "AIXEM-DOCS-HOME-001",
+    "inputs": [],
+    "keywords": [
+      "AIXEM Documentation",
+      "AIXEM docs",
+      "compose-project",
+      "create-schematic",
+      "create-symbol",
+      "discover-documentation",
+      "documentation home",
+      "documentation index",
+      "route-nets",
+      "route-project-nets",
+      "validate-project"
+    ],
+    "kind": "index",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/index.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:e899ab953ac7c04851544a58f537175eaf02f6000240e0d2568c997d725474d5"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 500,
+    "readNext": [],
+    "rules": [
+      {
+        "id": "AIXEM-DOCS-HOME-001.read",
+        "level": "should",
+        "text": "The canonical entrypoint for the AIXEM schematic platform, its specifications, workflows, agent routes, and conformance evidence."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-DOCS-HOME-001",
+        "path": "docs/index.md"
+      }
+    ],
+    "summary": "The canonical entrypoint for the AIXEM schematic platform, its specifications, workflows, agent routes, and conformance evidence.",
+    "title": "AIXEM Documentation"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

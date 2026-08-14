@@ -1,0 +1,196 @@
+{
+  "coordinateSystem": {
+    "angleDirection": "clockwise",
+    "angleUnit": "deg",
+    "grid": 2.5,
+    "unit": "mm",
+    "yAxis": "down"
+  },
+  "diagnostics": [],
+  "entities": [
+    {
+      "componentType": "conformance:s020",
+      "key": "X1",
+      "kind": "component",
+      "parameters": {},
+      "placement": {
+        "entity": "X1",
+        "layer": "symbols",
+        "x": 52.5,
+        "y": 65.0
+      },
+      "ports": {
+        "1": [
+          42.5,
+          42.5
+        ],
+        "10": [
+          42.5,
+          87.5
+        ],
+        "11": [
+          62.5,
+          42.5
+        ],
+        "12": [
+          62.5,
+          47.5
+        ],
+        "13": [
+          62.5,
+          52.5
+        ],
+        "14": [
+          62.5,
+          57.5
+        ],
+        "15": [
+          62.5,
+          62.5
+        ],
+        "16": [
+          62.5,
+          67.5
+        ],
+        "17": [
+          62.5,
+          72.5
+        ],
+        "18": [
+          62.5,
+          77.5
+        ],
+        "19": [
+          62.5,
+          82.5
+        ],
+        "2": [
+          42.5,
+          47.5
+        ],
+        "20": [
+          62.5,
+          87.5
+        ],
+        "3": [
+          42.5,
+          52.5
+        ],
+        "4": [
+          42.5,
+          57.5
+        ],
+        "5": [
+          42.5,
+          62.5
+        ],
+        "6": [
+          42.5,
+          67.5
+        ],
+        "7": [
+          42.5,
+          72.5
+        ],
+        "8": [
+          42.5,
+          77.5
+        ],
+        "9": [
+          42.5,
+          82.5
+        ]
+      },
+      "reference": "X1",
+      "symbolDigest": "sha256:57486acb3180122627f3cb215f7a8c748848bcd632d417e6b8ba87091ac937d2",
+      "symbolId": "corpus:s020-connector-20",
+      "value": "20-pin connector",
+      "variant": null
+    }
+  ],
+  "featuresUsed": [],
+  "generatedAt": "2026-08-10T00:00:00Z",
+  "gridValidation": {
+    "crossingPolicy": "junction-required",
+    "orthogonalSegments": 0,
+    "placementExceptions": [],
+    "placements": 1,
+    "placementsOnGrid": 1,
+    "profile": "aixem.schematic.grid-light",
+    "routeSegments": 0,
+    "routeViasOnGrid": true,
+    "snap": 2.5,
+    "zeroLengthSegments": []
+  },
+  "hashes": {
+    "layout": "sha256:87d1a0e7f53588fa0650ef7b06f10eb0049b90e89ba171ce619ccbdbfb25f978",
+    "libraries": [
+      "sha256:49502fd239e57c222b6c6dd05e9b4606cf04b796419f0b20cfab52e5f0d540bb"
+    ],
+    "source": "sha256:9e275adcd7ed5bd0dc755a2dc10acf313bef968b9218cfa27d62f01e26f9a6ff",
+    "symbolAssets": [
+      "sha256:57486acb3180122627f3cb215f7a8c748848bcd632d417e6b8ba87091ac937d2"
+    ]
+  },
+  "layers": [
+    {
+      "defaultVisible": true,
+      "id": "connections",
+      "locked": false,
+      "order": 10,
+      "printable": true,
+      "purpose": "semantic net routes"
+    },
+    {
+      "defaultVisible": true,
+      "id": "symbols",
+      "locked": false,
+      "order": 20,
+      "printable": true,
+      "purpose": "component symbols"
+    },
+    {
+      "defaultVisible": true,
+      "id": "annotation",
+      "locked": false,
+      "order": 30,
+      "printable": true,
+      "purpose": "notes"
+    }
+  ],
+  "nets": [],
+  "project": {
+    "id": "conformance:s020",
+    "profile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "title": "S020 20-pin connector conformance project"
+  },
+  "renderer": {
+    "id": "aixem-grid-schematic-reference-renderer",
+    "version": "0.5.1"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/resolved-scene/1",
+  "sheet": {
+    "height": 155.0,
+    "margin": 10,
+    "titleBlock": {
+      "drawing": "corpus_s020-layout",
+      "revision": "A",
+      "sheet": "1/1",
+      "title": "S020 — 20-pin connector"
+    },
+    "width": 180.0
+  },
+  "statistics": {
+    "entities": 1,
+    "nets": 0,
+    "noConnects": 0,
+    "primitives": 23,
+    "routeSegments": 0,
+    "symbolAssets": 1
+  },
+  "styleProfile": {
+    "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+    "id": "aixem.schematic.grid-light",
+    "path": "aixem-grid-schematic-style-1.aixstyle.json"
+  }
+}

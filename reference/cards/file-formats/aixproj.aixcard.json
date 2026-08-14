@@ -1,0 +1,57 @@
+{
+  "card": {
+    "aliases": [
+      ".aixproj",
+      "project lock JSON",
+      "project manifest file"
+    ],
+    "appliesTo": [
+      "aixproj-format"
+    ],
+    "domain": "file-formats",
+    "estimatedReadBytes": 4835,
+    "id": "AIXEM-FORMAT-AIXPROJ-001",
+    "inputs": [],
+    "keywords": [
+      ".aixproj",
+      ".aixproj.json Project Lock",
+      "compose-project",
+      "inspect-artifact",
+      "project lock JSON",
+      "project manifest file",
+      "publish-release",
+      "validate-project"
+    ],
+    "kind": "reference",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/file-formats/aixproj.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:33332c60c9c164e817f9983fa726c36302411112f7f645fe36e2fd969ff524e9"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 900,
+    "readNext": [
+      "AIXEM-SPEC-PROJECT-LOCK-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-FORMAT-AIXPROJ-001.read",
+        "level": "should",
+        "text": "Documents the project manifest that binds all locked inputs, active profiles, render policy, provenance, and outputs."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-FORMAT-AIXPROJ-001",
+        "path": "docs/file-formats/aixproj.md"
+      }
+    ],
+    "summary": "Documents the project manifest that binds all locked inputs, active profiles, render policy, provenance, and outputs.",
+    "title": ".aixproj.json Project Lock"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

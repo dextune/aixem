@@ -1,0 +1,57 @@
+{
+  "card": {
+    "aliases": [
+      "Viewer accessibility",
+      "keyboard viewer",
+      "narrow viewport"
+    ],
+    "appliesTo": [
+      "viewer-accessibility-profile"
+    ],
+    "domain": "specifications",
+    "estimatedReadBytes": 4369,
+    "id": "AIXEM-SPEC-VIEWER-A11Y-001",
+    "inputs": [],
+    "keywords": [
+      "Viewer Accessibility Profile 1",
+      "Viewer accessibility",
+      "inspect-viewer",
+      "keyboard viewer",
+      "narrow viewport",
+      "render-review",
+      "validate-project"
+    ],
+    "kind": "specification",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/specifications/viewer/viewer-accessibility-profile.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:5cca189b7241ba20b12097784c359cd3a6cecedea0e90e26c76a4eebaeacdf0b"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 900,
+    "readNext": [
+      "AIXEM-SPEC-VIEWER-001",
+      "AIXEM-SPEC-VIEWER-STATE-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-VIEWER-0014",
+        "level": "must",
+        "text": "**MUST.** Required navigation and inspection capabilities MUST remain reachable in the declared narrow-viewport profile."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SPEC-VIEWER-A11Y-001",
+        "path": "docs/specifications/viewer/viewer-accessibility-profile.md"
+      }
+    ],
+    "summary": "Defines keyboard access, visible focus, semantic control state, non-color cues, qualified navigation, and narrow-viewport access for Viewer Contract 1.",
+    "title": "Viewer Accessibility Profile 1"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

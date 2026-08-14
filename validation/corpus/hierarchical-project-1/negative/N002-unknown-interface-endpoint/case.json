@@ -1,0 +1,8 @@
+{
+  "assertions": [],
+  "expected": "fail",
+  "expectedDiagnostic": "unknown interface endpoint @UNKNOWN",
+  "id": "N002",
+  "project": "project.aixproj.json",
+  "title": "Unknown interface endpoint"
+}

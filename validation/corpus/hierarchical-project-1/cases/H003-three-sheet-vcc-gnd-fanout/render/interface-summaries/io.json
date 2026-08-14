@@ -1,0 +1,22 @@
+{
+  "layoutDigest": "sha256:b65f81fe05e9a506353f0c69f6e6b15536c7f0b4802903f2f889090ffba7eb46",
+  "ports": [
+    {
+      "direction": "passive",
+      "id": "GND",
+      "localNet": "gnd",
+      "projectNet": "gnd",
+      "role": "power"
+    },
+    {
+      "direction": "input",
+      "id": "VCC",
+      "localNet": "vcc",
+      "projectNet": "vcc_5v",
+      "role": "power"
+    }
+  ],
+  "sheet": "io",
+  "sourceDigest": "sha256:f01ce547ff0a0185b807b4c3a97cb975e493ab8ab68bdd11f82104b3c0124839",
+  "title": "Io"
+}

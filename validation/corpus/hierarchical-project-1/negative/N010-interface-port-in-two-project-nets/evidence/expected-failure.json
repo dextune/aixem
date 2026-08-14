@@ -1,0 +1,7 @@
+{
+  "case": "N010",
+  "expectedDiagnostic": "PROJECT_NET_DUPLICATE_OWNERSHIP",
+  "matched": true,
+  "observedError": "PROJECT_NET_DUPLICATE_OWNERSHIP: control:@GND belongs to both duplicate and gnd",
+  "status": "pass"
+}

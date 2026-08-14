@@ -1,0 +1,28 @@
+{
+  "agentVisible": [
+    "agent-task.json",
+    "TASK.md",
+    "start/**",
+    "compiled reference pack"
+  ],
+  "category": "creation",
+  "completedTargetBundled": false,
+  "evaluatorOnly": [
+    "evaluator/invariants.json",
+    "case.json",
+    "scoring metadata"
+  ],
+  "expectedInitialDiagnostics": [
+    "AIXEM-DIAG-ROUTE-ENDPOINT-CLOSURE"
+  ],
+  "forbiddenCompletedDigests": [
+    "sha256:0992b7e95670d4897f2d2428c6440a28cfd1e55c7c242b38bc76a90f3fc07898",
+    "sha256:9067d6bc912d74d9b199d47b676499236ee7fed51dbe0559049f70817fe4e2b0"
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "id": "L005",
+  "schema": "https://schemas.aixem.org/validation/agent-eval-3-case/1",
+  "startSource": "examples/authoring/07-multi-terminal-junction",
+  "title": "Three-terminal semantic net"
+}

@@ -1,0 +1,40 @@
+{
+  "durationSeconds": 5.544981,
+  "errors": [],
+  "executionMode": "isolated-test-module-processes",
+  "failedModules": 0,
+  "failures": [],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "moduleCount": 1,
+  "modules": [
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.conformance.test_symbol_expressiveness_corpus"
+      ],
+      "durationSeconds": 5.544742,
+      "module": "tests.conformance.test_symbol_expressiveness_corpus",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_all_case_contracts_symbols_digests_and_reviews_are_closed (tests.conformance.test_symbol_expressiveness_corpus.SymbolCorpusConformanceTests.test_all_case_contracts_symbols_digests_and_reviews_are_closed) ... ok\ntest_current_symbol_schema_is_unchanged_from_0_5_1 (tests.conformance.test_symbol_expressiveness_corpus.SymbolCorpusConformanceTests.test_current_symbol_schema_is_unchanged_from_0_5_1) ... ok\ntest_dimension_label_regression_is_explicit_and_deterministic (tests.conformance.test_symbol_expressiveness_corpus.SymbolCorpusConformanceTests.test_dimension_label_regression_is_explicit_and_deterministic) ... ok\ntest_full_corpus_runs_through_production_renderer (tests.conformance.test_symbol_expressiveness_corpus.SymbolCorpusConformanceTests.test_full_corpus_runs_through_production_renderer) ... ok\ntest_inventory_is_exact_and_complete (tests.conformance.test_symbol_expressiveness_corpus.SymbolCorpusConformanceTests.test_inventory_is_exact_and_complete) ... ok\ntest_multi_unit_probe_rejects_simulated_shared_identity (tests.conformance.test_symbol_expressiveness_corpus.SymbolCorpusConformanceTests.test_multi_unit_probe_rejects_simulated_shared_identity) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 3.986s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 6,
+      "valid": true
+    }
+  ],
+  "passedModules": 1,
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/test-run-shard/1",
+  "shard": {
+    "count": 29,
+    "index": 16,
+    "totalDiscoveredModules": 29
+  },
+  "skipped": [],
+  "successful": true,
+  "testsRun": 6
+}

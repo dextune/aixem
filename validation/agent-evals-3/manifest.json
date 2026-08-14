@@ -1,0 +1,120 @@
+{
+  "baselineRelease": "AIXEM-SRP-0.5.8.1-2026-08-12",
+  "cases": [
+    {
+      "case": "validation/agent-evals-3/cases/L001/case.json",
+      "category": "creation",
+      "id": "L001",
+      "invariants": "validation/agent-evals-3/cases/L001/evaluator/invariants.json",
+      "task": "validation/agent-evals-3/cases/L001/agent-task.json",
+      "title": "New two-pin passive"
+    },
+    {
+      "case": "validation/agent-evals-3/cases/L002/case.json",
+      "category": "creation",
+      "id": "L002",
+      "invariants": "validation/agent-evals-3/cases/L002/evaluator/invariants.json",
+      "task": "validation/agent-evals-3/cases/L002/agent-task.json",
+      "title": "Six-pin connector"
+    },
+    {
+      "case": "validation/agent-evals-3/cases/L003/case.json",
+      "category": "creation",
+      "id": "L003",
+      "invariants": "validation/agent-evals-3/cases/L003/evaluator/invariants.json",
+      "task": "validation/agent-evals-3/cases/L003/agent-task.json",
+      "title": "Twelve-pin controller"
+    },
+    {
+      "case": "validation/agent-evals-3/cases/L004/case.json",
+      "category": "creation",
+      "id": "L004",
+      "invariants": "validation/agent-evals-3/cases/L004/evaluator/invariants.json",
+      "task": "validation/agent-evals-3/cases/L004/agent-task.json",
+      "title": "Parameterized variant instance"
+    },
+    {
+      "case": "validation/agent-evals-3/cases/L005/case.json",
+      "category": "creation",
+      "id": "L005",
+      "invariants": "validation/agent-evals-3/cases/L005/evaluator/invariants.json",
+      "task": "validation/agent-evals-3/cases/L005/agent-task.json",
+      "title": "Three-terminal semantic net"
+    },
+    {
+      "case": "validation/agent-evals-3/cases/L006/case.json",
+      "category": "creation",
+      "id": "L006",
+      "invariants": "validation/agent-evals-3/cases/L006/evaluator/invariants.json",
+      "task": "validation/agent-evals-3/cases/L006/agent-task.json",
+      "title": "Two-sheet hierarchical composition"
+    },
+    {
+      "case": "validation/agent-evals-3/cases/L007/case.json",
+      "category": "creation",
+      "id": "L007",
+      "invariants": "validation/agent-evals-3/cases/L007/evaluator/invariants.json",
+      "task": "validation/agent-evals-3/cases/L007/agent-task.json",
+      "title": "Same-name local nets"
+    },
+    {
+      "case": "validation/agent-evals-3/cases/L008/case.json",
+      "category": "repair",
+      "id": "L008",
+      "invariants": "validation/agent-evals-3/cases/L008/evaluator/invariants.json",
+      "task": "validation/agent-evals-3/cases/L008/agent-task.json",
+      "title": "Broken lead and port"
+    },
+    {
+      "case": "validation/agent-evals-3/cases/L009/case.json",
+      "category": "repair",
+      "id": "L009",
+      "invariants": "validation/agent-evals-3/cases/L009/evaluator/invariants.json",
+      "task": "validation/agent-evals-3/cases/L009/agent-task.json",
+      "title": "Correct-looking route on wrong semantic net"
+    },
+    {
+      "case": "validation/agent-evals-3/cases/L010/case.json",
+      "category": "repair",
+      "id": "L010",
+      "invariants": "validation/agent-evals-3/cases/L010/evaluator/invariants.json",
+      "task": "validation/agent-evals-3/cases/L010/agent-task.json",
+      "title": "Off-grid non-orthogonal route"
+    },
+    {
+      "case": "validation/agent-evals-3/cases/L011/case.json",
+      "category": "repair",
+      "id": "L011",
+      "invariants": "validation/agent-evals-3/cases/L011/evaluator/invariants.json",
+      "task": "validation/agent-evals-3/cases/L011/agent-task.json",
+      "title": "Duplicate project-net member"
+    },
+    {
+      "case": "validation/agent-evals-3/cases/L012/case.json",
+      "category": "repair",
+      "id": "L012",
+      "invariants": "validation/agent-evals-3/cases/L012/evaluator/invariants.json",
+      "task": "validation/agent-evals-3/cases/L012/agent-task.json",
+      "title": "Field and body overlap"
+    }
+  ],
+  "completedTargetsBundled": false,
+  "corpusId": "agent-evals-3",
+  "corpusRevision": "1.1",
+  "evaluatorDataStaged": false,
+  "formatVersion": "1.1",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "id": "agent-evals-3",
+  "liveExternalAgentExecuted": false,
+  "protocolVersion": "1.0",
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "repositoryRelease": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/agent-eval-3-corpus/1",
+  "summary": {
+    "cases": 12,
+    "creation": 7,
+    "repair": 5
+  },
+  "tierAProtocolAvailable": true,
+  "tierBRequiresExplicitExternalExecutor": true
+}

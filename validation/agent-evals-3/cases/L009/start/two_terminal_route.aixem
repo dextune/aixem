@@ -1,0 +1,11 @@
+aixem 1.0
+model two_terminal_route title="Two-terminal route"
+feature component.graphics@1 required=true
+feature explicit.layout@1 required=true
+
+connector T1 type=authoring:terminal refdes=T1 value=SOURCE
+connector T2 type=authoring:terminal refdes=T2 value=SINK
+
+net signal = T1.1 T2.1
+
+net misbound_l009 = T1.1 T2.1

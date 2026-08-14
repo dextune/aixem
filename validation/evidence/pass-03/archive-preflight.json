@@ -1,0 +1,19 @@
+{
+  "archive": "aixem-schematic-reference-platform-0.5.1-preflight.zip",
+  "bytes": 13461300,
+  "digest": "sha256:efe7647ed609bf169043c1fe32092706048ebc192c2d47b43b9208f246b673e1",
+  "errors": [],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "members": 878,
+  "package": {
+    "bytes": 13461300,
+    "digest": "sha256:efe7647ed609bf169043c1fe32092706048ebc192c2d47b43b9208f246b673e1",
+    "members": 878,
+    "path": "/tmp/aixem-archive-preflight-dk5cau7a/aixem-schematic-reference-platform-0.5.1-preflight.zip",
+    "sourceFiles": 878
+  },
+  "release": "AIXEM-SRP-0.5.1-2026-08-11",
+  "schema": "https://schemas.aixem.org/validation/archive-preflight/1",
+  "valid": true
+}

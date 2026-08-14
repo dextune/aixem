@@ -1,0 +1,411 @@
+{
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/component-graphics/aixsym/1",
+  "symbol": {
+    "anchors": [
+      {
+        "id": "origin",
+        "kind": "insertion",
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "bounds": {
+      "height": 28,
+      "width": 40,
+      "x": -20,
+      "y": -14
+    },
+    "coordinateSystem": {
+      "angleDirection": "clockwise",
+      "angleUnit": "deg",
+      "grid": 0.5,
+      "unit": "mm",
+      "yAxis": "down"
+    },
+    "defaultVariant": "iec",
+    "definitions": {},
+    "description": "Parameterized resistor",
+    "graphics": [
+      {
+        "id": "lead-left",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": {
+          "args": [
+            {
+              "args": [
+                {
+                  "args": [
+                    {
+                      "param": "body-length"
+                    },
+                    2
+                  ],
+                  "op": "div"
+                },
+                {
+                  "param": "lead-length"
+                }
+              ],
+              "op": "add"
+            }
+          ],
+          "op": "neg"
+        },
+        "x2": {
+          "args": [
+            {
+              "args": [
+                {
+                  "param": "body-length"
+                },
+                2
+              ],
+              "op": "div"
+            }
+          ],
+          "op": "neg"
+        },
+        "y1": 0,
+        "y2": 0
+      },
+      {
+        "id": "lead-right",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": {
+          "args": [
+            {
+              "param": "body-length"
+            },
+            2
+          ],
+          "op": "div"
+        },
+        "x2": {
+          "args": [
+            {
+              "args": [
+                {
+                  "param": "body-length"
+                },
+                2
+              ],
+              "op": "div"
+            },
+            {
+              "param": "lead-length"
+            }
+          ],
+          "op": "add"
+        },
+        "y1": 0,
+        "y2": 0
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "field": "reference",
+        "id": "reference",
+        "layer": "fields",
+        "style": "field",
+        "type": "text",
+        "x": 0,
+        "y": -9
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "field": "value",
+        "id": "value",
+        "layer": "fields",
+        "style": "value",
+        "type": "text",
+        "x": 0,
+        "y": 10
+      }
+    ],
+    "id": "demo.electronics:resistor",
+    "layers": [
+      {
+        "defaultVisible": true,
+        "id": "body",
+        "locked": true,
+        "order": 10,
+        "printable": true,
+        "purpose": "symbol body"
+      },
+      {
+        "defaultVisible": true,
+        "id": "detail",
+        "locked": true,
+        "order": 20,
+        "printable": true,
+        "purpose": "symbol details"
+      },
+      {
+        "defaultVisible": true,
+        "id": "fields",
+        "locked": false,
+        "order": 30,
+        "printable": true,
+        "purpose": "reference and value fields"
+      }
+    ],
+    "paintServers": {},
+    "parameters": {
+      "body-height": {
+        "default": 7,
+        "maximum": 14,
+        "minimum": 4,
+        "type": "length",
+        "unit": "mm"
+      },
+      "body-length": {
+        "default": 20,
+        "maximum": 40,
+        "minimum": 10,
+        "type": "length",
+        "unit": "mm"
+      },
+      "lead-length": {
+        "default": 6,
+        "maximum": 12,
+        "minimum": 2,
+        "type": "length",
+        "unit": "mm"
+      }
+    },
+    "ports": [
+      {
+        "id": "1",
+        "kind": "electrical",
+        "labelVisible": false,
+        "name": "1",
+        "number": "1",
+        "numberVisible": false,
+        "orientation": 180,
+        "snapRadius": 1.5,
+        "x": {
+          "args": [
+            {
+              "args": [
+                {
+                  "args": [
+                    {
+                      "param": "body-length"
+                    },
+                    2
+                  ],
+                  "op": "div"
+                },
+                {
+                  "param": "lead-length"
+                }
+              ],
+              "op": "add"
+            }
+          ],
+          "op": "neg"
+        },
+        "y": 0
+      },
+      {
+        "id": "2",
+        "kind": "electrical",
+        "labelVisible": false,
+        "name": "2",
+        "number": "2",
+        "numberVisible": false,
+        "orientation": 0,
+        "snapRadius": 1.5,
+        "x": {
+          "args": [
+            {
+              "args": [
+                {
+                  "param": "body-length"
+                },
+                2
+              ],
+              "op": "div"
+            },
+            {
+              "param": "lead-length"
+            }
+          ],
+          "op": "add"
+        },
+        "y": 0
+      }
+    ],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-10",
+      "license": "CC0-1.0",
+      "notes": "Exercises typed parameters and IEC/ANSI variants.",
+      "origin": "AIXEM Implementation Baseline 0.3 original example asset"
+    },
+    "purpose": "schematic-symbol",
+    "requiredFeatures": [],
+    "revision": "1.0.0",
+    "styles": {
+      "accent": {
+        "fill": "none",
+        "stroke": "#2458a6",
+        "strokeLinecap": "round",
+        "strokeLinejoin": "round",
+        "strokeWidth": 1.3
+      },
+      "body": {
+        "fill": "#ffffff",
+        "stroke": "#17212b",
+        "strokeLinecap": "round",
+        "strokeLinejoin": "round",
+        "strokeWidth": 1.4
+      },
+      "body-fill": {
+        "fill": "#eef3f7",
+        "stroke": "#17212b",
+        "strokeLinecap": "round",
+        "strokeLinejoin": "round",
+        "strokeWidth": 1.4
+      },
+      "field": {
+        "fill": "#17212b",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 4.2,
+        "fontWeight": 600,
+        "stroke": "none"
+      },
+      "line": {
+        "fill": "none",
+        "stroke": "#17212b",
+        "strokeLinecap": "round",
+        "strokeLinejoin": "round",
+        "strokeWidth": 1.4
+      },
+      "solid": {
+        "fill": "#17212b",
+        "stroke": "#17212b",
+        "strokeWidth": 1.1
+      },
+      "thin": {
+        "fill": "none",
+        "stroke": "#56616d",
+        "strokeLinecap": "round",
+        "strokeLinejoin": "round",
+        "strokeWidth": 0.9
+      },
+      "value": {
+        "fill": "#56616d",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.4,
+        "fontWeight": 400,
+        "stroke": "none"
+      }
+    },
+    "title": "Parameterized resistor",
+    "variants": [
+      {
+        "graphics": [
+          {
+            "height": {
+              "param": "body-height"
+            },
+            "id": "iec-body",
+            "layer": "body",
+            "rx": 0.8,
+            "ry": 0.8,
+            "style": "body",
+            "type": "rect",
+            "width": {
+              "param": "body-length"
+            },
+            "x": {
+              "args": [
+                {
+                  "args": [
+                    {
+                      "param": "body-length"
+                    },
+                    2
+                  ],
+                  "op": "div"
+                }
+              ],
+              "op": "neg"
+            },
+            "y": {
+              "args": [
+                {
+                  "args": [
+                    {
+                      "param": "body-height"
+                    },
+                    2
+                  ],
+                  "op": "div"
+                }
+              ],
+              "op": "neg"
+            }
+          }
+        ],
+        "id": "iec",
+        "selector": {
+          "bodyStyle": "iec"
+        },
+        "title": "IEC rectangular body"
+      },
+      {
+        "graphics": [
+          {
+            "id": "ansi-body",
+            "layer": "body",
+            "points": [
+              [
+                -10,
+                0
+              ],
+              [
+                -7,
+                -4
+              ],
+              [
+                -3.5,
+                4
+              ],
+              [
+                0,
+                -4
+              ],
+              [
+                3.5,
+                4
+              ],
+              [
+                7,
+                -4
+              ],
+              [
+                10,
+                0
+              ]
+            ],
+            "style": "line",
+            "type": "polyline"
+          }
+        ],
+        "id": "ansi",
+        "selector": {
+          "bodyStyle": "ansi"
+        },
+        "title": "ANSI zig-zag body"
+      }
+    ]
+  }
+}

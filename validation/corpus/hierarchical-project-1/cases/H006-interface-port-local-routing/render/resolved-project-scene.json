@@ -1,0 +1,1060 @@
+{
+  "authority": {
+    "connectivityFromGeometry": false,
+    "layersAreSheets": false,
+    "localPresentation": "aixlayout/2",
+    "localSemantics": ".aixem",
+    "projectComposition": "aixproj/2"
+  },
+  "diagnostics": [],
+  "generatedAt": "2026-08-10T12:00:00Z",
+  "hashes": {
+    "inputs": [
+      {
+        "layoutDigest": "sha256:b2a8c037abf210db59c6f49423774fd44840679105393c03745258cd94731bd3",
+        "layoutPath": "layouts/driver.aixlayout.json",
+        "resolvedSceneDigest": "sha256:f47a95197ed586a649bf1d3bca6df819681871688eedc0bcdbe4c2129b82286e",
+        "sheet": "driver",
+        "sourceDigest": "sha256:aa576b3e00f333d11772f54a0c89473ed42cbc836bf2c255fa79cf3378199973",
+        "sourcePath": "circuits/driver.aixem",
+        "svgDigest": "sha256:27ed36c81ba3eefe071d019c88ce72bfe3db709361f96cbaba18e1f7fb8791fc"
+      },
+      {
+        "layoutDigest": "sha256:36ddcfda1a1119ec6b7d7609f4fb6b847264f50e0bf69bb32ba09360c70e0308",
+        "layoutPath": "layouts/receiver.aixlayout.json",
+        "resolvedSceneDigest": "sha256:6627c0fd890e69f9d55539e9c89b49b86391418711bac68f2ed8f459af87030e",
+        "sheet": "receiver",
+        "sourceDigest": "sha256:809f6e2999b70071fc2d46dd21bd38ae0bf229194de58b569072b8b1cc46796c",
+        "sourcePath": "circuits/receiver.aixem",
+        "svgDigest": "sha256:ab379eed260050bef4d69cddbee7719686288e6ea088f8da66e61f25fac2dfb7"
+      }
+    ],
+    "manifest": "sha256:606e021f2bb4bb430ffe9112673586d4d07d6b68813673592c7809d4ac570444",
+    "styleProfile": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393"
+  },
+  "hierarchy": [
+    {
+      "children": [],
+      "depth": 0,
+      "id": "driver",
+      "order": 10,
+      "parent": null,
+      "title": "Driver"
+    },
+    {
+      "children": [],
+      "depth": 0,
+      "id": "receiver",
+      "order": 20,
+      "parent": null,
+      "title": "Receiver"
+    }
+  ],
+  "interfaceSummaries": {
+    "driver": {
+      "layoutDigest": "sha256:b2a8c037abf210db59c6f49423774fd44840679105393c03745258cd94731bd3",
+      "ports": [
+        {
+          "direction": "passive",
+          "id": "GND",
+          "localNet": "gnd",
+          "projectNet": "gnd",
+          "role": "power"
+        },
+        {
+          "direction": "output",
+          "id": "OUT",
+          "localNet": "out",
+          "projectNet": "control_signal",
+          "role": "signal"
+        },
+        {
+          "direction": "input",
+          "id": "VCC",
+          "localNet": "vcc",
+          "projectNet": "vcc_5v",
+          "role": "power"
+        }
+      ],
+      "sheet": "driver",
+      "sourceDigest": "sha256:aa576b3e00f333d11772f54a0c89473ed42cbc836bf2c255fa79cf3378199973",
+      "title": "Driver"
+    },
+    "receiver": {
+      "layoutDigest": "sha256:36ddcfda1a1119ec6b7d7609f4fb6b847264f50e0bf69bb32ba09360c70e0308",
+      "ports": [
+        {
+          "direction": "passive",
+          "id": "GND",
+          "localNet": "gnd",
+          "projectNet": "gnd",
+          "role": "power"
+        },
+        {
+          "direction": "input",
+          "id": "IN",
+          "localNet": "in",
+          "projectNet": "control_signal",
+          "role": "signal"
+        },
+        {
+          "direction": "input",
+          "id": "VCC",
+          "localNet": "vcc",
+          "projectNet": "vcc_5v",
+          "role": "power"
+        }
+      ],
+      "sheet": "receiver",
+      "sourceDigest": "sha256:809f6e2999b70071fc2d46dd21bd38ae0bf229194de58b569072b8b1cc46796c",
+      "title": "Receiver"
+    }
+  },
+  "project": {
+    "id": "hierarchical:h006",
+    "profile": "aixem.schematic.multisheet@1",
+    "schema": "https://schemas.aixem.org/component-graphics/aixproj/2",
+    "title": "Interface port local routing"
+  },
+  "renderer": {
+    "id": "aixem-hierarchical-project-reference-renderer",
+    "version": "0.5.3"
+  },
+  "routing": {
+    "composite": {
+      "anchors": [
+        {
+          "direction": "passive",
+          "localNet": "gnd",
+          "point": [
+            165.0,
+            150.0
+          ],
+          "port": "GND",
+          "projectNet": "gnd",
+          "role": "power",
+          "sheet": "driver",
+          "side": "bottom"
+        },
+        {
+          "direction": "output",
+          "localNet": "out",
+          "point": [
+            240.0,
+            102.5
+          ],
+          "port": "OUT",
+          "projectNet": "control_signal",
+          "role": "signal",
+          "sheet": "driver",
+          "side": "right"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            165.0,
+            70.0
+          ],
+          "port": "VCC",
+          "projectNet": "vcc_5v",
+          "role": "power",
+          "sheet": "driver",
+          "side": "top"
+        },
+        {
+          "direction": "passive",
+          "localNet": "gnd",
+          "point": [
+            165.0,
+            374.0
+          ],
+          "port": "GND",
+          "projectNet": "gnd",
+          "role": "power",
+          "sheet": "receiver",
+          "side": "bottom"
+        },
+        {
+          "direction": "input",
+          "localNet": "in",
+          "point": [
+            100.0,
+            326.5
+          ],
+          "port": "IN",
+          "projectNet": "control_signal",
+          "role": "signal",
+          "sheet": "receiver",
+          "side": "left"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            165.0,
+            294.0
+          ],
+          "port": "VCC",
+          "projectNet": "vcc_5v",
+          "role": "power",
+          "sheet": "receiver",
+          "side": "top"
+        }
+      ],
+      "canvas": {
+        "height": 444.0,
+        "width": 433.0
+      },
+      "diagnostics": [],
+      "mode": "composite",
+      "nets": [
+        {
+          "id": "control_signal",
+          "junctions": [
+            [
+              320.0,
+              105.5
+            ],
+            [
+              320.0,
+              255.0
+            ]
+          ],
+          "label": "control_signal",
+          "members": [
+            {
+              "anchor": [
+                240.0,
+                102.5
+              ],
+              "localNet": "out",
+              "port": "OUT",
+              "sheet": "driver",
+              "side": "right"
+            },
+            {
+              "anchor": [
+                100.0,
+                326.5
+              ],
+              "localNet": "in",
+              "port": "IN",
+              "sheet": "receiver",
+              "side": "left"
+            }
+          ],
+          "paths": [
+            [
+              [
+                240.0,
+                102.5
+              ],
+              [
+                264.0,
+                102.5
+              ],
+              [
+                264.0,
+                105.5
+              ],
+              [
+                320.0,
+                105.5
+              ]
+            ],
+            [
+              [
+                100.0,
+                326.5
+              ],
+              [
+                76.0,
+                326.5
+              ],
+              [
+                42.0,
+                326.5
+              ],
+              [
+                42.0,
+                255.0
+              ],
+              [
+                320.0,
+                255.0
+              ]
+            ],
+            [
+              [
+                320.0,
+                105.5
+              ],
+              [
+                320.0,
+                255.0
+              ]
+            ]
+          ],
+          "role": "signal",
+          "trunkX": 320.0
+        },
+        {
+          "id": "gnd",
+          "junctions": [
+            [
+              344.0,
+              180.0
+            ],
+            [
+              344.0,
+              404.0
+            ]
+          ],
+          "label": "gnd",
+          "members": [
+            {
+              "anchor": [
+                165.0,
+                150.0
+              ],
+              "localNet": "gnd",
+              "port": "GND",
+              "sheet": "driver",
+              "side": "bottom"
+            },
+            {
+              "anchor": [
+                165.0,
+                374.0
+              ],
+              "localNet": "gnd",
+              "port": "GND",
+              "sheet": "receiver",
+              "side": "bottom"
+            }
+          ],
+          "paths": [
+            [
+              [
+                165.0,
+                150.0
+              ],
+              [
+                165.0,
+                174.0
+              ],
+              [
+                165.0,
+                180.0
+              ],
+              [
+                344.0,
+                180.0
+              ]
+            ],
+            [
+              [
+                165.0,
+                374.0
+              ],
+              [
+                165.0,
+                398.0
+              ],
+              [
+                165.0,
+                404.0
+              ],
+              [
+                344.0,
+                404.0
+              ]
+            ],
+            [
+              [
+                344.0,
+                180.0
+              ],
+              [
+                344.0,
+                404.0
+              ]
+            ]
+          ],
+          "role": "power",
+          "trunkX": 344.0
+        },
+        {
+          "id": "vcc_5v",
+          "junctions": [
+            [
+              368.0,
+              37.0
+            ],
+            [
+              368.0,
+              261.0
+            ]
+          ],
+          "label": "vcc_5v",
+          "members": [
+            {
+              "anchor": [
+                165.0,
+                70.0
+              ],
+              "localNet": "vcc",
+              "port": "VCC",
+              "sheet": "driver",
+              "side": "top"
+            },
+            {
+              "anchor": [
+                165.0,
+                294.0
+              ],
+              "localNet": "vcc",
+              "port": "VCC",
+              "sheet": "receiver",
+              "side": "top"
+            }
+          ],
+          "paths": [
+            [
+              [
+                165.0,
+                70.0
+              ],
+              [
+                165.0,
+                46.0
+              ],
+              [
+                165.0,
+                37.0
+              ],
+              [
+                368.0,
+                37.0
+              ]
+            ],
+            [
+              [
+                165.0,
+                294.0
+              ],
+              [
+                165.0,
+                270.0
+              ],
+              [
+                165.0,
+                261.0
+              ],
+              [
+                368.0,
+                261.0
+              ]
+            ],
+            [
+              [
+                368.0,
+                37.0
+              ],
+              [
+                368.0,
+                261.0
+              ]
+            ]
+          ],
+          "role": "power",
+          "trunkX": 368.0
+        }
+      ],
+      "sheets": [
+        {
+          "depth": 0,
+          "id": "driver",
+          "rect": [
+            90.0,
+            60.0,
+            160.0,
+            100.0
+          ],
+          "title": "Driver",
+          "transform": {
+            "scale": 1.0,
+            "x": 90.0,
+            "y": 60.0
+          }
+        },
+        {
+          "depth": 0,
+          "id": "receiver",
+          "rect": [
+            90.0,
+            284.0,
+            160.0,
+            100.0
+          ],
+          "title": "Receiver",
+          "transform": {
+            "scale": 1.0,
+            "x": 90.0,
+            "y": 284.0
+          }
+        }
+      ]
+    },
+    "overview": {
+      "anchors": [
+        {
+          "direction": "passive",
+          "localNet": "gnd",
+          "point": [
+            180.0,
+            138.0
+          ],
+          "port": "GND",
+          "projectNet": "gnd",
+          "role": "power",
+          "sheet": "driver",
+          "side": "bottom"
+        },
+        {
+          "direction": "output",
+          "localNet": "out",
+          "point": [
+            270.0,
+            94.0
+          ],
+          "port": "OUT",
+          "projectNet": "control_signal",
+          "role": "signal",
+          "sheet": "driver",
+          "side": "right"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            180.0,
+            50.0
+          ],
+          "port": "VCC",
+          "projectNet": "vcc_5v",
+          "role": "power",
+          "sheet": "driver",
+          "side": "top"
+        },
+        {
+          "direction": "passive",
+          "localNet": "gnd",
+          "point": [
+            180.0,
+            318.0
+          ],
+          "port": "GND",
+          "projectNet": "gnd",
+          "role": "power",
+          "sheet": "receiver",
+          "side": "bottom"
+        },
+        {
+          "direction": "input",
+          "localNet": "in",
+          "point": [
+            90.0,
+            274.0
+          ],
+          "port": "IN",
+          "projectNet": "control_signal",
+          "role": "signal",
+          "sheet": "receiver",
+          "side": "left"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            180.0,
+            230.0
+          ],
+          "port": "VCC",
+          "projectNet": "vcc_5v",
+          "role": "power",
+          "sheet": "receiver",
+          "side": "top"
+        }
+      ],
+      "canvas": {
+        "height": 378.0,
+        "width": 453.0
+      },
+      "diagnostics": [],
+      "mode": "overview",
+      "nets": [
+        {
+          "id": "control_signal",
+          "junctions": [
+            [
+              340.0,
+              97.0
+            ],
+            [
+              340.0,
+              201.0
+            ]
+          ],
+          "label": "control_signal",
+          "members": [
+            {
+              "anchor": [
+                270.0,
+                94.0
+              ],
+              "localNet": "out",
+              "port": "OUT",
+              "sheet": "driver",
+              "side": "right"
+            },
+            {
+              "anchor": [
+                90.0,
+                274.0
+              ],
+              "localNet": "in",
+              "port": "IN",
+              "sheet": "receiver",
+              "side": "left"
+            }
+          ],
+          "paths": [
+            [
+              [
+                270.0,
+                94.0
+              ],
+              [
+                284.0,
+                94.0
+              ],
+              [
+                284.0,
+                97.0
+              ],
+              [
+                340.0,
+                97.0
+              ]
+            ],
+            [
+              [
+                90.0,
+                274.0
+              ],
+              [
+                76.0,
+                274.0
+              ],
+              [
+                42.0,
+                274.0
+              ],
+              [
+                42.0,
+                201.0
+              ],
+              [
+                340.0,
+                201.0
+              ]
+            ],
+            [
+              [
+                340.0,
+                97.0
+              ],
+              [
+                340.0,
+                201.0
+              ]
+            ]
+          ],
+          "role": "signal",
+          "trunkX": 340.0
+        },
+        {
+          "id": "gnd",
+          "junctions": [
+            [
+              364.0,
+              158.0
+            ],
+            [
+              364.0,
+              338.0
+            ]
+          ],
+          "label": "gnd",
+          "members": [
+            {
+              "anchor": [
+                180.0,
+                138.0
+              ],
+              "localNet": "gnd",
+              "port": "GND",
+              "sheet": "driver",
+              "side": "bottom"
+            },
+            {
+              "anchor": [
+                180.0,
+                318.0
+              ],
+              "localNet": "gnd",
+              "port": "GND",
+              "sheet": "receiver",
+              "side": "bottom"
+            }
+          ],
+          "paths": [
+            [
+              [
+                180.0,
+                138.0
+              ],
+              [
+                180.0,
+                152.0
+              ],
+              [
+                180.0,
+                158.0
+              ],
+              [
+                364.0,
+                158.0
+              ]
+            ],
+            [
+              [
+                180.0,
+                318.0
+              ],
+              [
+                180.0,
+                332.0
+              ],
+              [
+                180.0,
+                338.0
+              ],
+              [
+                364.0,
+                338.0
+              ]
+            ],
+            [
+              [
+                364.0,
+                158.0
+              ],
+              [
+                364.0,
+                338.0
+              ]
+            ]
+          ],
+          "role": "power",
+          "trunkX": 364.0
+        },
+        {
+          "id": "vcc_5v",
+          "junctions": [
+            [
+              388.0,
+              27.0
+            ],
+            [
+              388.0,
+              207.0
+            ]
+          ],
+          "label": "vcc_5v",
+          "members": [
+            {
+              "anchor": [
+                180.0,
+                50.0
+              ],
+              "localNet": "vcc",
+              "port": "VCC",
+              "sheet": "driver",
+              "side": "top"
+            },
+            {
+              "anchor": [
+                180.0,
+                230.0
+              ],
+              "localNet": "vcc",
+              "port": "VCC",
+              "sheet": "receiver",
+              "side": "top"
+            }
+          ],
+          "paths": [
+            [
+              [
+                180.0,
+                50.0
+              ],
+              [
+                180.0,
+                36.0
+              ],
+              [
+                180.0,
+                27.0
+              ],
+              [
+                388.0,
+                27.0
+              ]
+            ],
+            [
+              [
+                180.0,
+                230.0
+              ],
+              [
+                180.0,
+                216.0
+              ],
+              [
+                180.0,
+                207.0
+              ],
+              [
+                388.0,
+                207.0
+              ]
+            ],
+            [
+              [
+                388.0,
+                27.0
+              ],
+              [
+                388.0,
+                207.0
+              ]
+            ]
+          ],
+          "role": "power",
+          "trunkX": 388.0
+        }
+      ],
+      "sheets": [
+        {
+          "depth": 0,
+          "id": "driver",
+          "rect": [
+            90.0,
+            50.0,
+            180.0,
+            88.0
+          ],
+          "title": "Driver",
+          "transform": {
+            "scale": 1.0,
+            "x": 90.0,
+            "y": 50.0
+          }
+        },
+        {
+          "depth": 0,
+          "id": "receiver",
+          "rect": [
+            90.0,
+            230.0,
+            180.0,
+            88.0
+          ],
+          "title": "Receiver",
+          "transform": {
+            "scale": 1.0,
+            "x": 90.0,
+            "y": 230.0
+          }
+        }
+      ]
+    }
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/resolved-project-scene/1",
+  "semanticGraph": {
+    "identities": {
+      "interfaces": [
+        "interface:driver:GND",
+        "interface:driver:OUT",
+        "interface:driver:VCC",
+        "interface:receiver:GND",
+        "interface:receiver:IN",
+        "interface:receiver:VCC"
+      ],
+      "projectNets": [
+        "project-net:control_signal",
+        "project-net:gnd",
+        "project-net:vcc_5v"
+      ],
+      "sheets": [
+        "sheet:driver",
+        "sheet:receiver"
+      ]
+    },
+    "projectNets": [
+      {
+        "crossesHierarchyBoundary": true,
+        "id": "control_signal",
+        "members": [
+          {
+            "interface": "interface:driver:OUT",
+            "localNet": "out",
+            "port": "OUT",
+            "qualifiedLocalNet": "local-net:driver:out",
+            "sheet": "driver"
+          },
+          {
+            "interface": "interface:receiver:IN",
+            "localNet": "in",
+            "port": "IN",
+            "qualifiedLocalNet": "local-net:receiver:in",
+            "sheet": "receiver"
+          }
+        ],
+        "qualifiedId": "project-net:control_signal",
+        "transitiveEndpoints": [
+          "entity:driver:U1.5",
+          "entity:receiver:U1.1",
+          "interface:driver:OUT",
+          "interface:receiver:IN"
+        ]
+      },
+      {
+        "crossesHierarchyBoundary": true,
+        "id": "gnd",
+        "members": [
+          {
+            "interface": "interface:driver:GND",
+            "localNet": "gnd",
+            "port": "GND",
+            "qualifiedLocalNet": "local-net:driver:gnd",
+            "sheet": "driver"
+          },
+          {
+            "interface": "interface:receiver:GND",
+            "localNet": "gnd",
+            "port": "GND",
+            "qualifiedLocalNet": "local-net:receiver:gnd",
+            "sheet": "receiver"
+          }
+        ],
+        "qualifiedId": "project-net:gnd",
+        "transitiveEndpoints": [
+          "entity:driver:U1.11",
+          "entity:receiver:U1.11",
+          "interface:driver:GND",
+          "interface:receiver:GND"
+        ]
+      },
+      {
+        "crossesHierarchyBoundary": true,
+        "id": "vcc_5v",
+        "members": [
+          {
+            "interface": "interface:driver:VCC",
+            "localNet": "vcc",
+            "port": "VCC",
+            "qualifiedLocalNet": "local-net:driver:vcc",
+            "sheet": "driver"
+          },
+          {
+            "interface": "interface:receiver:VCC",
+            "localNet": "vcc",
+            "port": "VCC",
+            "qualifiedLocalNet": "local-net:receiver:vcc",
+            "sheet": "receiver"
+          }
+        ],
+        "qualifiedId": "project-net:vcc_5v",
+        "transitiveEndpoints": [
+          "entity:driver:U1.9",
+          "entity:receiver:U1.9",
+          "interface:driver:VCC",
+          "interface:receiver:VCC"
+        ]
+      }
+    ],
+    "unconnectedPorts": []
+  },
+  "sheets": [
+    {
+      "id": "driver",
+      "layout": {
+        "digest": "sha256:b2a8c037abf210db59c6f49423774fd44840679105393c03745258cd94731bd3",
+        "id": "h006-interface-port-local-routing:driver-layout",
+        "mediaType": "application/json",
+        "path": "layouts/driver.aixlayout.json",
+        "version": "2.0"
+      },
+      "order": 10,
+      "parent": null,
+      "resolvedScene": "sheets/driver.resolved-scene.json",
+      "source": {
+        "digest": "sha256:aa576b3e00f333d11772f54a0c89473ed42cbc836bf2c255fa79cf3378199973",
+        "id": "h006-interface-port-local-routing:driver",
+        "mediaType": "text/x-aixem",
+        "path": "circuits/driver.aixem",
+        "version": "1.0"
+      },
+      "svg": "sheets/driver.svg",
+      "title": "Driver"
+    },
+    {
+      "id": "receiver",
+      "layout": {
+        "digest": "sha256:36ddcfda1a1119ec6b7d7609f4fb6b847264f50e0bf69bb32ba09360c70e0308",
+        "id": "h006-interface-port-local-routing:receiver-layout",
+        "mediaType": "application/json",
+        "path": "layouts/receiver.aixlayout.json",
+        "version": "2.0"
+      },
+      "order": 20,
+      "parent": null,
+      "resolvedScene": "sheets/receiver.resolved-scene.json",
+      "source": {
+        "digest": "sha256:809f6e2999b70071fc2d46dd21bd38ae0bf229194de58b569072b8b1cc46796c",
+        "id": "h006-interface-port-local-routing:receiver",
+        "mediaType": "text/x-aixem",
+        "path": "circuits/receiver.aixem",
+        "version": "1.0"
+      },
+      "svg": "sheets/receiver.svg",
+      "title": "Receiver"
+    }
+  ],
+  "statistics": {
+    "entities": 2,
+    "hierarchyDepth": 0,
+    "interfacePorts": 6,
+    "localNets": 6,
+    "localRouteSegments": 6,
+    "projectNets": 3,
+    "projectRouteSegments": 44,
+    "sheets": 2,
+    "unconnectedProjectPorts": 0
+  }
+}

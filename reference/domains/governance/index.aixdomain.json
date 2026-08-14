@@ -1,0 +1,57 @@
+{
+  "domain": {
+    "cards": [
+      {
+        "id": "AIXEM-GOV-COMPAT-001",
+        "path": "reference/cards/governance/compatibility-policy.aixcard.json",
+        "summary": "Defines backward, forward, source, schema, renderer, documentation, and agent-route compatibility claims.",
+        "title": "Compatibility Policy"
+      },
+      {
+        "id": "AIXEM-GOV-DEPRECATION-001",
+        "path": "reference/cards/governance/deprecation.aixcard.json",
+        "summary": "Defines deprecated status, replacement pointers, warning periods, compatibility output, and eventual removal criteria.",
+        "title": "Deprecation Policy"
+      },
+      {
+        "id": "AIXEM-GOV-DOC-AUTHORING-001",
+        "path": "reference/cards/governance/documentation-authoring-guide.aixcard.json",
+        "summary": "Provides a practical decision path for creating, extending, moving, deprecating, archiving, and deleting AIXEM documents.",
+        "title": "Documentation Authoring and Lifecycle Guide"
+      },
+      {
+        "id": "AIXEM-GOV-INDEX-001",
+        "path": "reference/cards/governance/overview.aixcard.json",
+        "summary": "Policies for versioning, compatibility, deprecation, release execution, and shared terminology.",
+        "title": "Governance"
+      },
+      {
+        "id": "AIXEM-GOV-RELEASE-001",
+        "path": "reference/cards/governance/release-process.aixcard.json",
+        "summary": "Defines release preparation, release-declared repeated clean verification, deterministic build, validation, visual review, manifest creation, archive creation, and checksum publication.",
+        "title": "Release Process"
+      },
+      {
+        "id": "AIXEM-GOV-TERMS-001",
+        "path": "reference/cards/governance/terminology.aixcard.json",
+        "summary": "Defines consistent meanings for entity, endpoint, net, component type, symbol port, placement, path, junction, project lock, canonical document, route, and evidence.",
+        "title": "Terminology"
+      },
+      {
+        "id": "AIXEM-GOV-VERSIONING-001",
+        "path": "reference/cards/governance/versioning.aixcard.json",
+        "summary": "Defines release, document, schema, profile, route-index, and artifact compatibility versioning.",
+        "title": "Versioning Policy"
+      }
+    ],
+    "description": "Generated canonical-document cards for the governance domain.",
+    "id": "governance",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12"
+    },
+    "title": "Governance"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixdomain/1"
+}

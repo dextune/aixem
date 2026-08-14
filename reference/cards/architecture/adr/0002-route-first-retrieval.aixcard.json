@@ -1,0 +1,55 @@
+{
+  "card": {
+    "aliases": [
+      "route first ADR",
+      "bounded retrieval ADR",
+      "ADR 0002"
+    ],
+    "appliesTo": [
+      "architecture-decision"
+    ],
+    "domain": "architecture",
+    "estimatedReadBytes": 3636,
+    "id": "AIXEM-ARCH-ADR-0002",
+    "inputs": [],
+    "keywords": [
+      "ADR 0002",
+      "ADR-0002: Route-First Agent Retrieval",
+      "bounded retrieval ADR",
+      "build-documentation",
+      "change-architecture",
+      "route first ADR"
+    ],
+    "kind": "adr",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/architecture/adr/0002-route-first-retrieval.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:23caeb19aeadd51bafdc511c2e8c87f32e44b8733560e35b9866d6e93c3396fb"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 900,
+    "readNext": [
+      "AIXEM-SPEC-AGENT-RETRIEVAL-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-ARCH-ADR-0002.read",
+        "level": "should",
+        "text": "Records the decision to resolve known work through bounded task routes before full-text or repository-wide search."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-ARCH-ADR-0002",
+        "path": "docs/architecture/adr/0002-route-first-retrieval.md"
+      }
+    ],
+    "summary": "Records the decision to resolve known work through bounded task routes before full-text or repository-wide search.",
+    "title": "ADR-0002: Route-First Agent Retrieval"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

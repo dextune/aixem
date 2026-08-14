@@ -1,0 +1,137 @@
+{
+  "authority": "derived-navigation-only",
+  "budget": {
+    "max_bytes": 98304,
+    "max_depth": 3,
+    "max_documents": 7
+  },
+  "completion": [
+    "Every sheet validates independently",
+    "Hierarchy is acyclic and deterministically ordered",
+    "Every project-net member resolves to a semantic interface port",
+    "No connectivity was inferred from names or geometry"
+  ],
+  "documents": [
+    {
+      "bytes": 11956,
+      "digest": "sha256:4e8c08391186c558988a3beaa924d13e8e432c7ac56705730c24033d1a3c5dd6",
+      "document": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
+      "order": 1,
+      "path": "docs/specifications/project/project-composition-contract.md",
+      "purpose": "Establish the Project to Sheet authority boundary and canonical aixproj/2 structure.",
+      "required": true,
+      "section": "canonical-structure"
+    },
+    {
+      "bytes": 8550,
+      "digest": "sha256:a0455554981cf8fc9038ec9724841473e6f1f4df4e36bbfb92d0a6d759eac3af",
+      "document": "AIXEM-SPEC-INTERFACE-PORT-001",
+      "order": 2,
+      "path": "docs/specifications/core/interface-port-contract.md",
+      "purpose": "Confirm that every cross-sheet boundary is backed by a real leaf semantic endpoint.",
+      "required": true,
+      "section": "local-net-closure"
+    },
+    {
+      "bytes": 4053,
+      "digest": "sha256:41c1b8d26ea8a8f8be4f330a847c7ed07602a85d85dde0ad48016141116055e7",
+      "document": "AIXEM-CONCEPT-PROJECT-NET-001",
+      "order": 3,
+      "path": "docs/concepts/project-net-model.md",
+      "purpose": "Apply local-net and project-net equivalence rules without name-based merging.",
+      "required": true,
+      "section": "equivalence-collision"
+    },
+    {
+      "bytes": 4835,
+      "digest": "sha256:33332c60c9c164e817f9983fa726c36302411112f7f645fe36e2fd969ff524e9",
+      "document": "AIXEM-FORMAT-AIXPROJ-001",
+      "order": 4,
+      "path": "docs/file-formats/aixproj.md",
+      "purpose": "Serialize sheets, hierarchy, project nets, libraries, render policy, and digests.",
+      "required": true,
+      "section": "0-5-3-multi-sheet-form-aixproj-2"
+    },
+    {
+      "bytes": 10539,
+      "digest": "sha256:5b101ad4c7254defdbad46ad565bd7bb290acfbd6b19ed555bd1320b041e4348",
+      "document": "AIXEM-AGENT-AUTHORING-001",
+      "order": 5,
+      "path": "docs/agent/authoring-orchestration.md",
+      "purpose": "Use interface summaries first and open only affected leaf files.",
+      "required": true,
+      "section": "hierarchical-authoring-stages"
+    },
+    {
+      "bytes": 10424,
+      "digest": "sha256:a951754958a0d0f0a91838ba1f395e76f92ca78642b199563ec5631f19747723",
+      "document": "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
+      "order": 6,
+      "path": "docs/conformance/hierarchical-project.md",
+      "purpose": "Validate the composed graph against positive and fail-closed corpus cases.",
+      "required": true,
+      "section": "corpus-inventory"
+    }
+  ],
+  "expectedInputs": [
+    "digest-locked leaf source and layout pairs",
+    "leaf interface summaries",
+    "project composition intent"
+  ],
+  "expectedOutputs": [
+    "digest-locked aixproj/2 manifest",
+    "resolved project semantic graph",
+    "per-sheet interface summaries",
+    "project composition validation evidence"
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "id": "compose-project",
+  "intent": "compose-project",
+  "kind": "simple",
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "remediation": {
+    "acceptsDiagnostics": [
+      "AIXEM-DIAG-PROJECT-SHEET-UNKNOWN",
+      "AIXEM-DIAG-PROJECT-INTERFACE-UNKNOWN",
+      "AIXEM-DIAG-PROJECT-NET-DUPLICATE-MEMBER",
+      "AIXEM-DIAG-PROJECT-NET-MULTIPLE-OWNERSHIP"
+    ]
+  },
+  "schema": "https://schemas.aixem.org/documentation/task-packet/1",
+  "source": "docs/_meta/routes/compose-project.yaml",
+  "sourceDigest": "sha256:ec939da9080a69e90b410a50de313ecbc539cadc8ba697655e33d1ee57084e5a",
+  "summary": "Register independent leaf sheets, define organizational hierarchy, and connect explicit semantic interface ports through project nets",
+  "validators": [
+    "schematic.project_schema",
+    "schematic.digest_lock",
+    "schematic.semantic",
+    "schematic.geometry_isolation",
+    "agent.diagnostics",
+    "agent.change_scope"
+  ],
+  "writes": {
+    "artifacts": [
+      "**/*.aixproj.json"
+    ],
+    "authority": [
+      "project"
+    ],
+    "derived": [
+      "render/**",
+      "evidence/**"
+    ],
+    "prohibited": [
+      "render/**",
+      "evidence/**",
+      "**/viewer.html",
+      "**/workbench.html",
+      "**/*.svg",
+      "**/resolved-scene.json",
+      "**/resolved-project-scene.json",
+      "**/viewer-model.json",
+      "**/render-manifest.json",
+      "**/project-validation.json"
+    ]
+  }
+}

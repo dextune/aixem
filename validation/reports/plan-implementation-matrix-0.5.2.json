@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "items": [
+    {
+      "evidence": "docs/conformance/symbol-expressiveness.md",
+      "id": "P0.1",
+      "requirement": "Symbol Expressiveness Conformance Profile 1",
+      "status": "PASS"
+    },
+    {
+      "evidence": "validation/corpus/symbol-expressiveness-1/manifest.json",
+      "id": "P0.2",
+      "requirement": "24-case S-Core corpus",
+      "status": "PASS"
+    },
+    {
+      "evidence": "validation/corpus/symbol-expressiveness-1/schema/corpus-case-1.schema.json",
+      "id": "P0.3",
+      "requirement": "Case schema and machine-readable metadata",
+      "status": "PASS"
+    },
+    {
+      "evidence": "tools/validate_symbol_corpus.py",
+      "id": "P0.4",
+      "requirement": "Production renderer batch harness",
+      "status": "PASS"
+    },
+    {
+      "evidence": "validation/reports/symbol-expressiveness-0.5.2.json",
+      "id": "P0.5",
+      "requirement": "Schema/binding/geometry/determinism/visual gates",
+      "status": "PASS"
+    },
+    {
+      "evidence": "validation/corpus/symbol-expressiveness-1/results/capability-matrix.json",
+      "id": "P0.6",
+      "requirement": "Capability and primitive matrices",
+      "status": "PASS"
+    },
+    {
+      "evidence": "docs/conformance/compatibility.md",
+      "id": "P0.7",
+      "requirement": "Claim boundaries and exclusions",
+      "status": "PASS"
+    },
+    {
+      "evidence": "validation/evidence/0.5.2/baseline-0.5.1-contract-digests.json",
+      "id": "P0.8",
+      "requirement": "0.5.1 regression compatibility",
+      "status": "PASS"
+    },
+    {
+      "evidence": "validation/corpus/symbol-expressiveness-1/manifest.json",
+      "id": "P1.1",
+      "requirement": "Five complex/edge cases",
+      "status": "PASS"
+    },
+    {
+      "evidence": "validation/reports/multi-unit-capability-0.5.2.json",
+      "id": "P1.2",
+      "requirement": "S030 multi-unit capability probe",
+      "status": "PASS: NOT_SUPPORTED published"
+    },
+    {
+      "evidence": "validation/reports/static-2d-block-0.5.2.json",
+      "id": "P1.3",
+      "requirement": "Static 2D Block Profile and six cases",
+      "status": "PASS"
+    },
+    {
+      "evidence": "docs/_meta/routes/validate-symbol-expressiveness.yaml",
+      "id": "P1.4",
+      "requirement": "Agent route and cookbook integration",
+      "status": "PASS"
+    },
+    {
+      "evidence": "validation/evidence/0.5.2/failure-classification.json",
+      "id": "P2",
+      "requirement": "Conditional core extension",
+      "status": "NOT_TRIGGERED"
+    },
+    {
+      "evidence": "validation/evidence/0.5.2/verification-cycle-01/summary.json",
+      "id": "V1",
+      "requirement": "Verification cycle 1",
+      "status": "PASS"
+    },
+    {
+      "evidence": "validation/evidence/0.5.2/verification-cycle-02/summary.json",
+      "id": "V2",
+      "requirement": "Verification cycle 2",
+      "status": "PASS"
+    },
+    {
+      "evidence": "validation/evidence/0.5.2/verification-cycle-03/summary.json",
+      "id": "V3",
+      "requirement": "Verification cycle 3",
+      "status": "PASS"
+    }
+  ],
+  "plan": "PLAN-0.5.2-SYMBOL-EXPRESSIVENESS-CONFORMANCE.md",
+  "release": "AIXEM-SRP-0.5.2-2026-08-11",
+  "schema": "https://schemas.aixem.org/validation/plan-implementation-matrix/1",
+  "summary": {
+    "cycles": 3,
+    "items": 16,
+    "notTriggered": 1,
+    "pass": 15
+  },
+  "valid": true
+}

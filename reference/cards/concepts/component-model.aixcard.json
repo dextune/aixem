@@ -1,0 +1,66 @@
+{
+  "card": {
+    "aliases": [
+      "component model",
+      "component type",
+      "component instance"
+    ],
+    "appliesTo": [
+      "component-definition"
+    ],
+    "domain": "concepts",
+    "estimatedReadBytes": 6348,
+    "id": "AIXEM-CONCEPT-COMPONENT-001",
+    "inputs": [],
+    "keywords": [
+      "Component Model",
+      "component instance",
+      "component model",
+      "component type",
+      "create-schematic",
+      "create-symbol",
+      "validate-project"
+    ],
+    "kind": "concept",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/concepts/component-model.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:3515a1837ed3a8b7c3c48cebdfce88a5d6c5046bfb10c7ea2f945af198f05de3"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-CONCEPT-SEMANTIC-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-CORE-0010",
+        "level": "must",
+        "text": "**MUST.** Every semantic component instance MUST resolve to exactly one component type in a locked library."
+      },
+      {
+        "id": "AIXEM-REQ-CORE-0011",
+        "level": "must",
+        "text": "**MUST.** Component endpoint IDs MUST be stable and MUST NOT be inferred from visual pin order."
+      },
+      {
+        "id": "AIXEM-REQ-CORE-0012",
+        "level": "must",
+        "text": "**MUST.** Every presentation port MUST map deterministically to a semantic endpoint."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-CONCEPT-COMPONENT-001",
+        "path": "docs/concepts/component-model.md"
+      }
+    ],
+    "summary": "Defines component types, instances, properties, endpoints, and presentation bindings.",
+    "title": "Component Model"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

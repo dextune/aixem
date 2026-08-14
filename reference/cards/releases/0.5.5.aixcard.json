@@ -1,0 +1,57 @@
+{
+  "card": {
+    "aliases": [
+      "0.5.5",
+      "AIXEM 0.5.5",
+      "Agent Authoring Closed-Loop release"
+    ],
+    "appliesTo": [
+      "current-release-note"
+    ],
+    "domain": "releases",
+    "estimatedReadBytes": 4094,
+    "id": "AIXEM-RELEASE-055-001",
+    "inputs": [],
+    "keywords": [
+      "0.5.5",
+      "AIXEM 0.5.5",
+      "Agent Authoring Closed-Loop release",
+      "author-component-circuit",
+      "publish-release",
+      "validate-project"
+    ],
+    "kind": "release-note",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/releases/0.5.5.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:0795d631bf8e39a87ecd6bd065d6188df12679339d232c1af7572049de8fa28a"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 900,
+    "readNext": [
+      "AIXEM-RELEASE-054-001",
+      "AIXEM-CONF-AGENT-AUTHORING-001",
+      "AIXEM-CONF-AGENT-DIAGNOSTICS-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-RELEASE-055-001.read",
+        "level": "should",
+        "text": "Documents the route-bounded agent authoring closed loop, stable diagnostics, change-scope enforcement, deterministic run records, Agent Evaluation 2, and protected 0.5.4 compatibility."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-RELEASE-055-001",
+        "path": "docs/releases/0.5.5.md"
+      }
+    ],
+    "summary": "Documents the route-bounded agent authoring closed loop, stable diagnostics, change-scope enforcement, deterministic run records, Agent Evaluation 2, and protected 0.5.4 compatibility.",
+    "title": "AIXEM 0.5.5"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

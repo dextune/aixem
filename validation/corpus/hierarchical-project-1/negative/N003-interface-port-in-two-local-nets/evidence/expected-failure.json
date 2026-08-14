@@ -1,0 +1,7 @@
+{
+  "case": "N003",
+  "expectedDiagnostic": "endpoint @VCC occurs in both",
+  "matched": true,
+  "observedError": "endpoint @VCC occurs in both vcc and conflict",
+  "status": "pass"
+}

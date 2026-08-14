@@ -1,0 +1,11 @@
+{
+  "cycle": 1,
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "release": "AIXEM-SRP-0.5.8-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/pre-live-readiness-verification-stage/1",
+  "stage": "finalize",
+  "status": "PASS",
+  "summary": "validation/evidence/0.5.8/verification-runs/run-01/summary.json",
+  "valid": true
+}

@@ -1,0 +1,92 @@
+{
+  "formatVersion": "1.0",
+  "route": {
+    "aliases": [
+      "inspect artifact",
+      "find owner",
+      "which file owns",
+      "artifact map",
+      "file contract"
+    ],
+    "budget": {
+      "fallbackDocuments": 2,
+      "maxBytes": 98304,
+      "maxDepth": 3,
+      "maxDocuments": 7
+    },
+    "conditionalReads": [],
+    "id": "inspect-artifact",
+    "intents": [
+      "inspect-artifact"
+    ],
+    "metadata": {
+      "exactRoutePreferred": true,
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "kind": "simple",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "source": "docs/_meta/routes/inspect-artifact.yaml"
+    },
+    "outputs": [
+      "Artifact owner is resolved",
+      "Canonical contract is identified",
+      "Generated status and dependencies are known"
+    ],
+    "steps": [
+      {
+        "exitCheck": "Artifact owner is resolved",
+        "id": "step-1",
+        "order": 1,
+        "produces": [],
+        "purpose": "Read Authority Model for this task stage.",
+        "read": [
+          "reference/cards/concepts/authority-model.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Canonical contract is identified",
+        "id": "step-2",
+        "order": 2,
+        "produces": [],
+        "purpose": "Read Artifact Ownership and Storage for this task stage.",
+        "read": [
+          "reference/cards/architecture/artifact-store.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Generated status and dependencies are known",
+        "id": "step-3",
+        "order": 3,
+        "produces": [],
+        "purpose": "Read File Formats for this task stage.",
+        "read": [
+          "reference/cards/file-formats/overview.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Generated status and dependencies are known",
+        "id": "step-4",
+        "order": 4,
+        "produces": [],
+        "purpose": "Read Authority and Precedence for this task stage.",
+        "read": [
+          "reference/cards/specifications/core/authority-precedence.aixcard.json"
+        ],
+        "required": true
+      }
+    ],
+    "stopConditions": [
+      "Artifact owner is resolved",
+      "Canonical contract is identified",
+      "Generated status and dependencies are known"
+    ],
+    "title": "Find an artifact owner or contract",
+    "validators": [
+      "docs.artifact_ownership",
+      "docs.artifact_existence"
+    ]
+  },
+  "schema": "https://schemas.aixem.org/reference/aixroute/1"
+}

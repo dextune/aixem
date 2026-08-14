@@ -1,0 +1,303 @@
+{
+  "capabilities": {
+    "composite": false,
+    "diagnostics": true,
+    "hierarchy": false,
+    "interfacePorts": false,
+    "offline": true,
+    "overview": false,
+    "projectNets": false,
+    "qualifiedSearch": true,
+    "readOnly": true,
+    "sheet": true,
+    "sheetScopedLayers": true,
+    "viewport": true
+  },
+  "diagnostics": [
+    {
+      "code": "VIEWER-READONLY-001",
+      "message": "Reference Viewer runtime state is derived and read-only.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-QID-001",
+      "message": "2 qualified objects indexed without ambiguity.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-ASSET-001",
+      "message": "The self-contained Viewer requires no remote presentation assets.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "GRID-001",
+      "message": "1/1 placements satisfy the declared snap grid.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "ROUTE-001",
+      "message": "0 orthogonal route segments are resolved.",
+      "severity": "info",
+      "status": "PASS"
+    }
+  ],
+  "domContract": "1",
+  "formatVersion": "1.0",
+  "hierarchy": [
+    {
+      "children": [],
+      "depth": 0,
+      "id": "main",
+      "order": 0,
+      "parent": null,
+      "qid": "sheet:main",
+      "title": "Connector Authoring"
+    }
+  ],
+  "initialState": {
+    "activeNavigatorCategory": "entity",
+    "activeSheet": "main",
+    "mode": "sheet",
+    "searchQuery": "",
+    "selection": null,
+    "visibleLayersBySheet": {
+      "main": {
+        "annotation": true,
+        "connections": true,
+        "symbols": true
+      }
+    }
+  },
+  "objects": {
+    "entity:main:J1": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "J1 · FIELD_IO",
+      "nativeId": "J1",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:main:J1"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Entity ID",
+          "value": "J1"
+        },
+        {
+          "label": "Reference",
+          "value": "J1"
+        },
+        {
+          "label": "Value",
+          "value": "FIELD_IO"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:connector-6"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:connector-6"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"J1\",\"layer\":\"symbols\",\"x\":80,\"y\":40}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[70.0,27.5],\"2\":[70.0,32.5],\"3\":[70.0,37.5],\"4\":[70.0,42.5],\"5\":[70.0,47.5],\"6\":[70.0,52.5]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:6fc1df40ea40198cf3b6bc6ffbfc2cf019ff226ad1e8322104e65da1c00ebc16"
+        }
+      ],
+      "qid": "entity:main:J1",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "entity:main:j1 j1 · field_io j1 main j1 field_io authoring:connector-6 authoring:connector-6",
+      "sheet": "main"
+    },
+    "sheet:main": {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Connector Authoring",
+      "nativeId": "main",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "sheet:main"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Title",
+          "value": "Connector Authoring"
+        },
+        {
+          "label": "Width",
+          "value": "160"
+        },
+        {
+          "label": "Height",
+          "value": "100"
+        },
+        {
+          "label": "Unit",
+          "value": "mm"
+        }
+      ],
+      "qid": "sheet:main",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "sheet:main connector authoring main main authoring:connector_6 connector authoring",
+      "sheet": "main"
+    }
+  },
+  "project": {
+    "id": "authoring:connector_6",
+    "multiSheet": false,
+    "profile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "schema": "https://schemas.aixem.org/component-graphics/aixproj/1",
+    "title": "Connector Authoring"
+  },
+  "provenance": {
+    "authority": {
+      "presentation": ".aixlayout",
+      "semantics": ".aixem",
+      "viewerState": "derived-non-authoritative"
+    },
+    "generatedAt": "2026-08-10T00:00:00Z",
+    "hashes": {
+      "layout": "sha256:6252d592ef7d767032c5915ad81ae3e731e81dcd08f0000f3487758263196fa1",
+      "libraries": [
+        "sha256:bd48008f50472414e8b1a38aa0d736550021fe5b0e1051447e4b1ede84f72b8f"
+      ],
+      "source": "sha256:1425e434e55762eeee2dbf46c2e4e5ee901efdcdc199417ef7f8416ae801dba6",
+      "symbolAssets": [
+        "sha256:6fc1df40ea40198cf3b6bc6ffbfc2cf019ff226ad1e8322104e65da1c00ebc16"
+      ]
+    },
+    "renderer": {
+      "id": "aixem-grid-schematic-reference-renderer",
+      "version": "0.5.1"
+    },
+    "resolvedSceneSchema": "https://schemas.aixem.org/component-graphics/resolved-scene/1",
+    "styleProfile": {
+      "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+      "id": "aixem.schematic.grid-light",
+      "path": "aixem-grid-schematic-style-1.aixstyle.json"
+    }
+  },
+  "release": "AIXEM-SRP-0.5.5-2026-08-11",
+  "schema": "https://schemas.aixem.org/viewer/viewer-model/1",
+  "searchIndex": [
+    {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Connector Authoring",
+      "qid": "sheet:main",
+      "searchText": "sheet:main connector authoring main main authoring:connector_6 connector authoring",
+      "sheet": "main"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "J1 · FIELD_IO",
+      "qid": "entity:main:J1",
+      "searchText": "entity:main:j1 j1 · field_io j1 main j1 field_io authoring:connector-6 authoring:connector-6",
+      "sheet": "main"
+    }
+  ],
+  "sheets": [
+    {
+      "height": 100.0,
+      "id": "main",
+      "layers": [
+        {
+          "defaultVisible": true,
+          "id": "connections",
+          "locked": false,
+          "order": 10,
+          "printable": true,
+          "purpose": "semantic net routes",
+          "qualifiedId": "layer:main:connections",
+          "sheet": "main"
+        },
+        {
+          "defaultVisible": true,
+          "id": "symbols",
+          "locked": false,
+          "order": 20,
+          "printable": true,
+          "purpose": "component symbols",
+          "qualifiedId": "layer:main:symbols",
+          "sheet": "main"
+        },
+        {
+          "defaultVisible": true,
+          "id": "annotation",
+          "locked": false,
+          "order": 30,
+          "printable": true,
+          "purpose": "notes",
+          "qualifiedId": "layer:main:annotation",
+          "sheet": "main"
+        }
+      ],
+      "order": 0,
+      "parent": null,
+      "qid": "sheet:main",
+      "title": "Connector Authoring",
+      "unit": "mm",
+      "width": 160.0
+    }
+  ],
+  "statistics": {
+    "entities": 1,
+    "interfacePorts": 0,
+    "localNets": 0,
+    "projectNets": 0,
+    "qualifiedObjects": 2,
+    "sheets": 1
+  },
+  "viewerContract": "aixem.reference-viewer@1",
+  "views": [
+    {
+      "available": true,
+      "canvases": [
+        {
+          "height": 100.0,
+          "key": "sheet:main",
+          "sheet": "main",
+          "unit": "mm",
+          "width": 160.0
+        }
+      ],
+      "id": "sheet",
+      "label": "Sheet"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "card": {
+    "aliases": [
+      "placement",
+      "place components",
+      "schematic layout"
+    ],
+    "appliesTo": [
+      "component-placement"
+    ],
+    "domain": "schematic",
+    "estimatedReadBytes": 5879,
+    "id": "AIXEM-SCHEM-PLACEMENT-001",
+    "inputs": [],
+    "keywords": [
+      "Component Placement",
+      "create-schematic",
+      "place components",
+      "place-component",
+      "placement",
+      "schematic layout"
+    ],
+    "kind": "guide",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/schematic/placement.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:2fbe4de3040dcbf42a82b80427ce2986dda4e972c69c46cf74c1373489ad5290"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SCHEM-GRID-001",
+      "AIXEM-CONCEPT-LAYOUT-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-SCHEM-0004",
+        "level": "must",
+        "text": "**MUST.** Every component placement origin MUST align to the active snap grid unless the profile declares a documented exception."
+      },
+      {
+        "id": "AIXEM-REQ-SCHEM-0005",
+        "level": "must",
+        "text": "**MUST.** The placement set MUST resolve every presented semantic entity exactly once."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SCHEM-PLACEMENT-001",
+        "path": "docs/schematic/placement.md"
+      }
+    ],
+    "summary": "Defines grid-aligned placement, orientation, spacing, flow, grouping, and collision avoidance.",
+    "title": "Component Placement"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

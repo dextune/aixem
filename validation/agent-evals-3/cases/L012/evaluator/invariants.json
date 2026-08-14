@@ -1,0 +1,75 @@
+{
+  "authority": "evaluator-only",
+  "caseId": "L012",
+  "formatVersion": "1.0",
+  "invariants": [
+    {
+      "arguments": {
+        "project": "project.aixproj.json",
+        "route": "validate-project"
+      },
+      "basis": [
+        {
+          "pointer": "/completionCriteria/3",
+          "type": "task"
+        }
+      ],
+      "description": "The actual final workspace passes full project validation.",
+      "id": "L012-VALID",
+      "predicate": "validator-pass",
+      "required": true
+    },
+    {
+      "arguments": {
+        "project": "project.aixproj.json",
+        "repeats": 3
+      },
+      "basis": [
+        {
+          "pointer": "/completionCriteria/3",
+          "type": "task"
+        }
+      ],
+      "description": "The actual final workspace renders deterministically three times.",
+      "id": "L012-RENDER",
+      "predicate": "render-deterministic",
+      "required": true
+    },
+    {
+      "arguments": {
+        "code": "AIXEM-DIAG-SYMBOL-FIELD-BODY-OVERLAP",
+        "project": "project.aixproj.json",
+        "route": "create-symbol"
+      },
+      "basis": [
+        {
+          "pointer": "/facts",
+          "type": "task"
+        }
+      ],
+      "description": "The field/body overlap diagnostic is absent.",
+      "id": "L012-DIAG",
+      "predicate": "diagnostic-absent",
+      "required": true
+    },
+    {
+      "arguments": {
+        "authorities": [
+          "semantic",
+          "layout"
+        ]
+      },
+      "basis": [
+        {
+          "pointer": "/writeConstraints/writableAuthorities",
+          "type": "task"
+        }
+      ],
+      "description": "Semantic and layout authorities remain unchanged.",
+      "id": "L012-PRESERVE",
+      "predicate": "authority-digest-unchanged",
+      "required": true
+    }
+  ],
+  "schema": "https://schemas.aixem.org/agent/evaluation-invariant/1"
+}

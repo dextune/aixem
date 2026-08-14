@@ -1,0 +1,56 @@
+{
+  "card": {
+    "aliases": [
+      "schematic agent",
+      "AI schematic authoring",
+      "agent draw circuit"
+    ],
+    "appliesTo": [
+      "agent-schematic-workflow"
+    ],
+    "domain": "agent",
+    "estimatedReadBytes": 4387,
+    "id": "AIXEM-AGENT-SCHEMATIC-001",
+    "inputs": [],
+    "keywords": [
+      "AI schematic authoring",
+      "Schematic Authoring Agent",
+      "agent draw circuit",
+      "create-schematic",
+      "schematic agent"
+    ],
+    "kind": "guide",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/agent/schematic-authoring.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:90153fd9a7a95af533a39b82fb83c5b40fedac5b4b1d53186f2a247913f1e3ea"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 500,
+    "readNext": [
+      "AIXEM-CONCEPT-AUTHORITY-001",
+      "AIXEM-SCHEM-GRID-001",
+      "AIXEM-ROUTE-NETS-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-AGENT-SCHEMATIC-001.read",
+        "level": "should",
+        "text": "Provides an authority-safe agent sequence for creating or modifying semantic circuits, placements, routes, and project locks."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-AGENT-SCHEMATIC-001",
+        "path": "docs/agent/schematic-authoring.md"
+      }
+    ],
+    "summary": "Provides an authority-safe agent sequence for creating or modifying semantic circuits, placements, routes, and project locks.",
+    "title": "Schematic Authoring Agent"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

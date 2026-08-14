@@ -1,0 +1,60 @@
+{
+  "card": {
+    "aliases": [
+      "system overview",
+      "architecture overview",
+      "AIXEM components"
+    ],
+    "appliesTo": [
+      "system-architecture"
+    ],
+    "domain": "architecture",
+    "estimatedReadBytes": 5180,
+    "id": "AIXEM-ARCH-SYSTEM-001",
+    "inputs": [],
+    "keywords": [
+      "AIXEM components",
+      "System Overview",
+      "architecture overview",
+      "change-architecture",
+      "inspect-artifact",
+      "system overview"
+    ],
+    "kind": "architecture",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/architecture/system-overview.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:90b30e5400988652cb9b1ef599e0f343a85890d45a7b8eeebbe6ad095a5ea249"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-CONCEPT-AUTHORITY-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-ARCH-0001",
+        "level": "must",
+        "text": "**MUST.** The platform MUST separate canonical authoring, compilation, validation, publication, and consumption responsibilities."
+      },
+      {
+        "id": "AIXEM-REQ-ARCH-0002",
+        "level": "must",
+        "text": "**MUST.** The official documentation site and compiled agent indexes MUST be consumable without a runtime database or required remote service."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-ARCH-SYSTEM-001",
+        "path": "docs/architecture/system-overview.md"
+      }
+    ],
+    "summary": "Defines the major bounded components and the interfaces between documentation authoring, agent retrieval, schematic rendering, conformance, and release packaging.",
+    "title": "System Overview"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

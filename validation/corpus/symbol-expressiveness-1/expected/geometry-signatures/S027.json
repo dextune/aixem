@@ -1,0 +1,74 @@
+{
+  "bounds": {
+    "height": 60,
+    "width": 60,
+    "x": -30,
+    "y": -30
+  },
+  "capabilities": [
+    "geometry.line",
+    "geometry.polygon",
+    "geometry.polyline",
+    "geometry.rect",
+    "port.mapping",
+    "text.field"
+  ],
+  "case": "S027",
+  "defaultVariant": null,
+  "definitions": [],
+  "fieldAnchors": [
+    {
+      "field": "reference",
+      "id": "field-reference",
+      "x": 0,
+      "y": -25
+    },
+    {
+      "field": "value",
+      "id": "field-value",
+      "x": 0,
+      "y": 25
+    }
+  ],
+  "parameters": {},
+  "ports": [
+    {
+      "id": "A",
+      "orientation": 180,
+      "visible": true,
+      "x": -25.0,
+      "y": -7.5
+    },
+    {
+      "id": "K",
+      "orientation": 180,
+      "visible": true,
+      "x": -25.0,
+      "y": 7.5
+    },
+    {
+      "id": "C",
+      "orientation": 0,
+      "visible": true,
+      "x": 25.0,
+      "y": -7.5
+    },
+    {
+      "id": "E",
+      "orientation": 0,
+      "visible": true,
+      "x": 25.0,
+      "y": 7.5
+    }
+  ],
+  "primitiveCounts": {
+    "line": 10,
+    "polygon": 1,
+    "polyline": 2,
+    "rect": 1,
+    "text": 2
+  },
+  "requiredFeatures": [],
+  "symbol": "corpus:s027-optocoupler",
+  "variants": []
+}

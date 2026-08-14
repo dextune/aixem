@@ -1,0 +1,1441 @@
+{
+  "capabilities": {
+    "composite": true,
+    "diagnostics": true,
+    "hierarchy": true,
+    "interfacePorts": true,
+    "offline": true,
+    "overview": true,
+    "projectNets": true,
+    "qualifiedSearch": true,
+    "readOnly": true,
+    "sheet": true,
+    "sheetScopedLayers": true,
+    "viewport": true
+  },
+  "diagnostics": [
+    {
+      "code": "VIEWER-READONLY-001",
+      "message": "Reference Viewer runtime state is derived and read-only.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-QID-001",
+      "message": "19 qualified objects indexed without ambiguity.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-MODES-001",
+      "message": "Sheet, Overview, and Composite modes are available from resolved project evidence.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-ASSET-001",
+      "message": "The self-contained Viewer requires no remote presentation assets.",
+      "severity": "info",
+      "status": "PASS"
+    }
+  ],
+  "domContract": "1",
+  "formatVersion": "1.0",
+  "hierarchy": [
+    {
+      "children": [],
+      "depth": 0,
+      "id": "power",
+      "order": 10,
+      "parent": null,
+      "qid": "sheet:power",
+      "title": "Power"
+    },
+    {
+      "children": [],
+      "depth": 0,
+      "id": "control",
+      "order": 20,
+      "parent": null,
+      "qid": "sheet:control",
+      "title": "Control"
+    }
+  ],
+  "initialState": {
+    "activeNavigatorCategory": "sheet",
+    "activeSheet": "power",
+    "mode": "sheet",
+    "searchQuery": "",
+    "selection": null,
+    "visibleLayersBySheet": {
+      "control": {
+        "annotation": true,
+        "connections": true,
+        "symbols": true
+      },
+      "power": {
+        "annotation": true,
+        "connections": true,
+        "symbols": true
+      }
+    }
+  },
+  "objects": {
+    "entity:control:U1": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "nativeId": "U1",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:control:U1"
+        },
+        {
+          "label": "Sheet",
+          "value": "control"
+        },
+        {
+          "label": "Entity ID",
+          "value": "U1"
+        },
+        {
+          "label": "Reference",
+          "value": "U1"
+        },
+        {
+          "label": "Value",
+          "value": "AXC12"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"U1\",\"layer\":\"symbols\",\"x\":80,\"y\":50}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[60.0,42.5],\"10\":[85.0,30.0],\"11\":[75.0,70.0],\"12\":[85.0,70.0],\"2\":[60.0,47.5],\"3\":[60.0,52.5],\"4\":[60.0,57.5],\"5\":[100.0,42.5],\"6\":[100.0,47.5],\"7\":[100.0,52.5],\"8\":[100.0,57.5],\"9\":[75.0,30.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:2fe409df19cfd0257cdc4802e8be6dd84d4d0b840938abb23c22c7c941a1f3ae"
+        }
+      ],
+      "qid": "entity:control:U1",
+      "relatedQids": [],
+      "representations": [
+        "sheet:control",
+        "composite"
+      ],
+      "searchText": "entity:control:u1 u1 · axc12 u1 control u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "control"
+    },
+    "entity:power:U1": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "nativeId": "U1",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:power:U1"
+        },
+        {
+          "label": "Sheet",
+          "value": "power"
+        },
+        {
+          "label": "Entity ID",
+          "value": "U1"
+        },
+        {
+          "label": "Reference",
+          "value": "U1"
+        },
+        {
+          "label": "Value",
+          "value": "AXC12"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"U1\",\"layer\":\"symbols\",\"x\":80,\"y\":50}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[60.0,42.5],\"10\":[85.0,30.0],\"11\":[75.0,70.0],\"12\":[85.0,70.0],\"2\":[60.0,47.5],\"3\":[60.0,52.5],\"4\":[60.0,57.5],\"5\":[100.0,42.5],\"6\":[100.0,47.5],\"7\":[100.0,52.5],\"8\":[100.0,57.5],\"9\":[75.0,30.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:2fe409df19cfd0257cdc4802e8be6dd84d4d0b840938abb23c22c7c941a1f3ae"
+        }
+      ],
+      "qid": "entity:power:U1",
+      "relatedQids": [],
+      "representations": [
+        "sheet:power",
+        "composite"
+      ],
+      "searchText": "entity:power:u1 u1 · axc12 u1 power u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "power"
+    },
+    "interface:control:GND": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "control / @GND",
+      "nativeId": "GND",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:control:GND"
+        },
+        {
+          "label": "Sheet",
+          "value": "control"
+        },
+        {
+          "label": "Port ID",
+          "value": "GND"
+        },
+        {
+          "label": "Direction",
+          "value": "passive"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:control:gnd"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:gnd"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[180.0,318.0]"
+        }
+      ],
+      "qid": "interface:control:GND",
+      "relatedQids": [
+        "local-net:control:gnd",
+        "project-net:gnd"
+      ],
+      "representations": [
+        "sheet:control",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:control:gnd control / @gnd gnd control passive power gnd project-net:gnd",
+      "sheet": "control"
+    },
+    "interface:control:IN": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "control / @IN",
+      "nativeId": "IN",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:control:IN"
+        },
+        {
+          "label": "Sheet",
+          "value": "control"
+        },
+        {
+          "label": "Port ID",
+          "value": "IN"
+        },
+        {
+          "label": "Direction",
+          "value": "input"
+        },
+        {
+          "label": "Role",
+          "value": "signal"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:control:in"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:control_signal"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[90.0,274.0]"
+        }
+      ],
+      "qid": "interface:control:IN",
+      "relatedQids": [
+        "local-net:control:in",
+        "project-net:control_signal"
+      ],
+      "representations": [
+        "sheet:control",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:control:in control / @in in control input signal in project-net:control_signal",
+      "sheet": "control"
+    },
+    "interface:control:VCC": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "control / @VCC",
+      "nativeId": "VCC",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:control:VCC"
+        },
+        {
+          "label": "Sheet",
+          "value": "control"
+        },
+        {
+          "label": "Port ID",
+          "value": "VCC"
+        },
+        {
+          "label": "Direction",
+          "value": "input"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:control:vcc"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:vcc_5v"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[180.0,230.0]"
+        }
+      ],
+      "qid": "interface:control:VCC",
+      "relatedQids": [
+        "local-net:control:vcc",
+        "project-net:vcc_5v"
+      ],
+      "representations": [
+        "sheet:control",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:control:vcc control / @vcc vcc control input power vcc project-net:vcc_5v",
+      "sheet": "control"
+    },
+    "interface:power:GND": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "power / @GND",
+      "nativeId": "GND",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:power:GND"
+        },
+        {
+          "label": "Sheet",
+          "value": "power"
+        },
+        {
+          "label": "Port ID",
+          "value": "GND"
+        },
+        {
+          "label": "Direction",
+          "value": "passive"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:power:gnd"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:gnd"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[180.0,138.0]"
+        }
+      ],
+      "qid": "interface:power:GND",
+      "relatedQids": [
+        "local-net:power:gnd",
+        "project-net:gnd"
+      ],
+      "representations": [
+        "sheet:power",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:power:gnd power / @gnd gnd power passive power gnd project-net:gnd",
+      "sheet": "power"
+    },
+    "interface:power:OUT": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "power / @OUT",
+      "nativeId": "OUT",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:power:OUT"
+        },
+        {
+          "label": "Sheet",
+          "value": "power"
+        },
+        {
+          "label": "Port ID",
+          "value": "OUT"
+        },
+        {
+          "label": "Direction",
+          "value": "output"
+        },
+        {
+          "label": "Role",
+          "value": "signal"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:power:out"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:control_signal"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[270.0,94.0]"
+        }
+      ],
+      "qid": "interface:power:OUT",
+      "relatedQids": [
+        "local-net:power:out",
+        "project-net:control_signal"
+      ],
+      "representations": [
+        "sheet:power",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:power:out power / @out out power output signal out project-net:control_signal",
+      "sheet": "power"
+    },
+    "interface:power:VCC": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "power / @VCC",
+      "nativeId": "VCC",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:power:VCC"
+        },
+        {
+          "label": "Sheet",
+          "value": "power"
+        },
+        {
+          "label": "Port ID",
+          "value": "VCC"
+        },
+        {
+          "label": "Direction",
+          "value": "input"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:power:vcc"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:vcc_5v"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[180.0,50.0]"
+        }
+      ],
+      "qid": "interface:power:VCC",
+      "relatedQids": [
+        "local-net:power:vcc",
+        "project-net:vcc_5v"
+      ],
+      "representations": [
+        "sheet:power",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:power:vcc power / @vcc vcc power input power vcc project-net:vcc_5v",
+      "sheet": "power"
+    },
+    "local-net:control:gnd": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "control / gnd",
+      "nativeId": "gnd",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:control:gnd"
+        },
+        {
+          "label": "Sheet",
+          "value": "control"
+        },
+        {
+          "label": "Local net ID",
+          "value": "gnd"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.11\",\"@GND\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:gnd"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:control:gnd",
+      "relatedQids": [],
+      "representations": [
+        "sheet:control",
+        "composite"
+      ],
+      "searchText": "local-net:control:gnd control / gnd gnd control [\"u1.11\",\"@gnd\"] project-net:gnd",
+      "sheet": "control"
+    },
+    "local-net:control:in": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "control / in",
+      "nativeId": "in",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:control:in"
+        },
+        {
+          "label": "Sheet",
+          "value": "control"
+        },
+        {
+          "label": "Local net ID",
+          "value": "in"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.1\",\"@IN\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:control_signal"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:control:in",
+      "relatedQids": [],
+      "representations": [
+        "sheet:control",
+        "composite"
+      ],
+      "searchText": "local-net:control:in control / in in control [\"u1.1\",\"@in\"] project-net:control_signal",
+      "sheet": "control"
+    },
+    "local-net:control:vcc": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "control / vcc",
+      "nativeId": "vcc",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:control:vcc"
+        },
+        {
+          "label": "Sheet",
+          "value": "control"
+        },
+        {
+          "label": "Local net ID",
+          "value": "vcc"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.9\",\"@VCC\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:vcc_5v"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:control:vcc",
+      "relatedQids": [],
+      "representations": [
+        "sheet:control",
+        "composite"
+      ],
+      "searchText": "local-net:control:vcc control / vcc vcc control [\"u1.9\",\"@vcc\"] project-net:vcc_5v",
+      "sheet": "control"
+    },
+    "local-net:power:gnd": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "power / gnd",
+      "nativeId": "gnd",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:power:gnd"
+        },
+        {
+          "label": "Sheet",
+          "value": "power"
+        },
+        {
+          "label": "Local net ID",
+          "value": "gnd"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.11\",\"@GND\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:gnd"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:power:gnd",
+      "relatedQids": [],
+      "representations": [
+        "sheet:power",
+        "composite"
+      ],
+      "searchText": "local-net:power:gnd power / gnd gnd power [\"u1.11\",\"@gnd\"] project-net:gnd",
+      "sheet": "power"
+    },
+    "local-net:power:out": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "power / out",
+      "nativeId": "out",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:power:out"
+        },
+        {
+          "label": "Sheet",
+          "value": "power"
+        },
+        {
+          "label": "Local net ID",
+          "value": "out"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.5\",\"@OUT\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:control_signal"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:power:out",
+      "relatedQids": [],
+      "representations": [
+        "sheet:power",
+        "composite"
+      ],
+      "searchText": "local-net:power:out power / out out power [\"u1.5\",\"@out\"] project-net:control_signal",
+      "sheet": "power"
+    },
+    "local-net:power:vcc": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "power / vcc",
+      "nativeId": "vcc",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:power:vcc"
+        },
+        {
+          "label": "Sheet",
+          "value": "power"
+        },
+        {
+          "label": "Local net ID",
+          "value": "vcc"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.9\",\"@VCC\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:vcc_5v"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:power:vcc",
+      "relatedQids": [],
+      "representations": [
+        "sheet:power",
+        "composite"
+      ],
+      "searchText": "local-net:power:vcc power / vcc vcc power [\"u1.9\",\"@vcc\"] project-net:vcc_5v",
+      "sheet": "power"
+    },
+    "project-net:control_signal": {
+      "category": "Project Nets",
+      "kind": "project-net",
+      "label": "control_signal",
+      "nativeId": "control_signal",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "project-net:control_signal"
+        },
+        {
+          "label": "Project-net ID",
+          "value": "control_signal"
+        },
+        {
+          "label": "Participating sheets",
+          "value": "[\"power\",\"control\"]"
+        },
+        {
+          "label": "Interface members",
+          "value": "[\"interface:power:OUT\",\"interface:control:IN\"]"
+        },
+        {
+          "label": "Backing local nets",
+          "value": "[\"local-net:power:out\",\"local-net:control:in\"]"
+        },
+        {
+          "label": "Transitive endpoint count",
+          "value": "4"
+        },
+        {
+          "label": "Transitive endpoints",
+          "value": "[\"entity:control:U1.1\",\"entity:power:U1.5\",\"interface:control:IN\",\"interface:power:OUT\"]"
+        },
+        {
+          "label": "Crosses hierarchy boundary",
+          "value": "true"
+        }
+      ],
+      "qid": "project-net:control_signal",
+      "relatedQids": [
+        "interface:control:IN",
+        "interface:power:OUT"
+      ],
+      "representations": [
+        "overview",
+        "composite"
+      ],
+      "searchText": "project-net:control_signal control_signal control_signal  [\"power\",\"control\"] [\"interface:power:out\",\"interface:control:in\"] [\"local-net:power:out\",\"local-net:control:in\"]",
+      "sheet": null
+    },
+    "project-net:gnd": {
+      "category": "Project Nets",
+      "kind": "project-net",
+      "label": "gnd",
+      "nativeId": "gnd",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "project-net:gnd"
+        },
+        {
+          "label": "Project-net ID",
+          "value": "gnd"
+        },
+        {
+          "label": "Participating sheets",
+          "value": "[\"power\",\"control\"]"
+        },
+        {
+          "label": "Interface members",
+          "value": "[\"interface:power:GND\",\"interface:control:GND\"]"
+        },
+        {
+          "label": "Backing local nets",
+          "value": "[\"local-net:power:gnd\",\"local-net:control:gnd\"]"
+        },
+        {
+          "label": "Transitive endpoint count",
+          "value": "4"
+        },
+        {
+          "label": "Transitive endpoints",
+          "value": "[\"entity:control:U1.11\",\"entity:power:U1.11\",\"interface:control:GND\",\"interface:power:GND\"]"
+        },
+        {
+          "label": "Crosses hierarchy boundary",
+          "value": "true"
+        }
+      ],
+      "qid": "project-net:gnd",
+      "relatedQids": [
+        "interface:control:GND",
+        "interface:power:GND"
+      ],
+      "representations": [
+        "overview",
+        "composite"
+      ],
+      "searchText": "project-net:gnd gnd gnd  [\"power\",\"control\"] [\"interface:power:gnd\",\"interface:control:gnd\"] [\"local-net:power:gnd\",\"local-net:control:gnd\"]",
+      "sheet": null
+    },
+    "project-net:vcc_5v": {
+      "category": "Project Nets",
+      "kind": "project-net",
+      "label": "vcc_5v",
+      "nativeId": "vcc_5v",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "project-net:vcc_5v"
+        },
+        {
+          "label": "Project-net ID",
+          "value": "vcc_5v"
+        },
+        {
+          "label": "Participating sheets",
+          "value": "[\"power\",\"control\"]"
+        },
+        {
+          "label": "Interface members",
+          "value": "[\"interface:power:VCC\",\"interface:control:VCC\"]"
+        },
+        {
+          "label": "Backing local nets",
+          "value": "[\"local-net:power:vcc\",\"local-net:control:vcc\"]"
+        },
+        {
+          "label": "Transitive endpoint count",
+          "value": "4"
+        },
+        {
+          "label": "Transitive endpoints",
+          "value": "[\"entity:control:U1.9\",\"entity:power:U1.9\",\"interface:control:VCC\",\"interface:power:VCC\"]"
+        },
+        {
+          "label": "Crosses hierarchy boundary",
+          "value": "true"
+        }
+      ],
+      "qid": "project-net:vcc_5v",
+      "relatedQids": [
+        "interface:control:VCC",
+        "interface:power:VCC"
+      ],
+      "representations": [
+        "overview",
+        "composite"
+      ],
+      "searchText": "project-net:vcc_5v vcc_5v vcc_5v  [\"power\",\"control\"] [\"interface:power:vcc\",\"interface:control:vcc\"] [\"local-net:power:vcc\",\"local-net:control:vcc\"]",
+      "sheet": null
+    },
+    "sheet:control": {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Control",
+      "nativeId": "control",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "sheet:control"
+        },
+        {
+          "label": "Sheet",
+          "value": "control"
+        },
+        {
+          "label": "Title",
+          "value": "Control"
+        },
+        {
+          "label": "Parent",
+          "value": "Root"
+        },
+        {
+          "label": "Hierarchy depth",
+          "value": "0"
+        },
+        {
+          "label": "Width",
+          "value": "160"
+        },
+        {
+          "label": "Height",
+          "value": "100"
+        },
+        {
+          "label": "Unit",
+          "value": "mm"
+        }
+      ],
+      "qid": "sheet:control",
+      "relatedQids": [],
+      "representations": [
+        "sheet:control",
+        "overview",
+        "composite"
+      ],
+      "searchText": "sheet:control control control control []",
+      "sheet": "control"
+    },
+    "sheet:power": {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Power",
+      "nativeId": "power",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "sheet:power"
+        },
+        {
+          "label": "Sheet",
+          "value": "power"
+        },
+        {
+          "label": "Title",
+          "value": "Power"
+        },
+        {
+          "label": "Parent",
+          "value": "Root"
+        },
+        {
+          "label": "Hierarchy depth",
+          "value": "0"
+        },
+        {
+          "label": "Width",
+          "value": "160"
+        },
+        {
+          "label": "Height",
+          "value": "100"
+        },
+        {
+          "label": "Unit",
+          "value": "mm"
+        }
+      ],
+      "qid": "sheet:power",
+      "relatedQids": [],
+      "representations": [
+        "sheet:power",
+        "overview",
+        "composite"
+      ],
+      "searchText": "sheet:power power power power []",
+      "sheet": "power"
+    }
+  },
+  "project": {
+    "id": "hierarchical:h007",
+    "multiSheet": true,
+    "profile": "aixem.schematic.multisheet@1",
+    "schema": "https://schemas.aixem.org/component-graphics/aixproj/2",
+    "title": "Project Overview"
+  },
+  "provenance": {
+    "authority": {
+      "connectivityFromGeometry": false,
+      "layersAreSheets": false,
+      "localPresentation": "aixlayout/2",
+      "localSemantics": ".aixem",
+      "projectComposition": "aixproj/2",
+      "viewerState": "derived-non-authoritative"
+    },
+    "generatedAt": "2026-08-10T12:00:00Z",
+    "hashes": {
+      "inputs": [
+        {
+          "layoutDigest": "sha256:c74fdb2209516fa5c62c8d77b907413029eff9dc25f57a91ec1db6909dcaabdf",
+          "layoutPath": "layouts/power.aixlayout.json",
+          "resolvedSceneDigest": "sha256:76242db8bc8b51a864faa84fbb184ae79f53d6b20574426f1534f93716026ce0",
+          "sheet": "power",
+          "sourceDigest": "sha256:1ba41d6c7bc611c6e0cf52e67add0ff0b1d6361f63885eb259cbd055e284df4b",
+          "sourcePath": "circuits/power.aixem",
+          "svgDigest": "sha256:6685c6308a7bf0ad3578d687a2489f74702b1114caab049f854e9b372e3cd0c3"
+        },
+        {
+          "layoutDigest": "sha256:47e0f5d68f336067226519569e64571b6738316349cdb46c47ddd683a01e9ff1",
+          "layoutPath": "layouts/control.aixlayout.json",
+          "resolvedSceneDigest": "sha256:51335604921d2146c38f707d6ff79b61615f71ea59068a8a250ea68503f1c94c",
+          "sheet": "control",
+          "sourceDigest": "sha256:4c1a21556001d9421076ac8d67f5940253e22d4e9ab2ec1195ec7bdf92014aa2",
+          "sourcePath": "circuits/control.aixem",
+          "svgDigest": "sha256:a95bb0d3a5e7db401dca5b9ec5f12416e1c82b3b4b89d0a450148df25cc5aeb0"
+        }
+      ],
+      "manifest": "sha256:9b0f3f810bc86bad81f752f7ed39f649f195f759cd5144b0ac0a1d99d170e8e3",
+      "styleProfile": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393"
+    },
+    "renderer": {
+      "id": "aixem-hierarchical-project-reference-renderer",
+      "version": "0.5.3"
+    },
+    "resolvedProjectSceneSchema": "https://schemas.aixem.org/component-graphics/resolved-project-scene/1"
+  },
+  "release": "AIXEM-SRP-0.5.5-2026-08-11",
+  "schema": "https://schemas.aixem.org/viewer/viewer-model/1",
+  "searchIndex": [
+    {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Power",
+      "qid": "sheet:power",
+      "searchText": "sheet:power power power power []",
+      "sheet": "power"
+    },
+    {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Control",
+      "qid": "sheet:control",
+      "searchText": "sheet:control control control control []",
+      "sheet": "control"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "qid": "entity:power:U1",
+      "searchText": "entity:power:u1 u1 · axc12 u1 power u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "power"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "qid": "entity:control:U1",
+      "searchText": "entity:control:u1 u1 · axc12 u1 control u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "control"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "power / gnd",
+      "qid": "local-net:power:gnd",
+      "searchText": "local-net:power:gnd power / gnd gnd power [\"u1.11\",\"@gnd\"] project-net:gnd",
+      "sheet": "power"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "power / out",
+      "qid": "local-net:power:out",
+      "searchText": "local-net:power:out power / out out power [\"u1.5\",\"@out\"] project-net:control_signal",
+      "sheet": "power"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "power / vcc",
+      "qid": "local-net:power:vcc",
+      "searchText": "local-net:power:vcc power / vcc vcc power [\"u1.9\",\"@vcc\"] project-net:vcc_5v",
+      "sheet": "power"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "control / gnd",
+      "qid": "local-net:control:gnd",
+      "searchText": "local-net:control:gnd control / gnd gnd control [\"u1.11\",\"@gnd\"] project-net:gnd",
+      "sheet": "control"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "control / in",
+      "qid": "local-net:control:in",
+      "searchText": "local-net:control:in control / in in control [\"u1.1\",\"@in\"] project-net:control_signal",
+      "sheet": "control"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "control / vcc",
+      "qid": "local-net:control:vcc",
+      "searchText": "local-net:control:vcc control / vcc vcc control [\"u1.9\",\"@vcc\"] project-net:vcc_5v",
+      "sheet": "control"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "power / @GND",
+      "qid": "interface:power:GND",
+      "searchText": "interface:power:gnd power / @gnd gnd power passive power gnd project-net:gnd",
+      "sheet": "power"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "power / @OUT",
+      "qid": "interface:power:OUT",
+      "searchText": "interface:power:out power / @out out power output signal out project-net:control_signal",
+      "sheet": "power"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "power / @VCC",
+      "qid": "interface:power:VCC",
+      "searchText": "interface:power:vcc power / @vcc vcc power input power vcc project-net:vcc_5v",
+      "sheet": "power"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "control / @GND",
+      "qid": "interface:control:GND",
+      "searchText": "interface:control:gnd control / @gnd gnd control passive power gnd project-net:gnd",
+      "sheet": "control"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "control / @IN",
+      "qid": "interface:control:IN",
+      "searchText": "interface:control:in control / @in in control input signal in project-net:control_signal",
+      "sheet": "control"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "control / @VCC",
+      "qid": "interface:control:VCC",
+      "searchText": "interface:control:vcc control / @vcc vcc control input power vcc project-net:vcc_5v",
+      "sheet": "control"
+    },
+    {
+      "category": "Project Nets",
+      "kind": "project-net",
+      "label": "control_signal",
+      "qid": "project-net:control_signal",
+      "searchText": "project-net:control_signal control_signal control_signal  [\"power\",\"control\"] [\"interface:power:out\",\"interface:control:in\"] [\"local-net:power:out\",\"local-net:control:in\"]",
+      "sheet": null
+    },
+    {
+      "category": "Project Nets",
+      "kind": "project-net",
+      "label": "gnd",
+      "qid": "project-net:gnd",
+      "searchText": "project-net:gnd gnd gnd  [\"power\",\"control\"] [\"interface:power:gnd\",\"interface:control:gnd\"] [\"local-net:power:gnd\",\"local-net:control:gnd\"]",
+      "sheet": null
+    },
+    {
+      "category": "Project Nets",
+      "kind": "project-net",
+      "label": "vcc_5v",
+      "qid": "project-net:vcc_5v",
+      "searchText": "project-net:vcc_5v vcc_5v vcc_5v  [\"power\",\"control\"] [\"interface:power:vcc\",\"interface:control:vcc\"] [\"local-net:power:vcc\",\"local-net:control:vcc\"]",
+      "sheet": null
+    }
+  ],
+  "sheets": [
+    {
+      "height": 100.0,
+      "id": "power",
+      "layers": [
+        {
+          "defaultVisible": true,
+          "id": "connections",
+          "locked": false,
+          "order": 10,
+          "printable": true,
+          "purpose": "semantic net routes and sheet ports",
+          "qualifiedId": "layer:power:connections",
+          "sheet": "power"
+        },
+        {
+          "defaultVisible": true,
+          "id": "symbols",
+          "locked": false,
+          "order": 20,
+          "printable": true,
+          "purpose": "component symbols",
+          "qualifiedId": "layer:power:symbols",
+          "sheet": "power"
+        },
+        {
+          "defaultVisible": true,
+          "id": "annotation",
+          "locked": false,
+          "order": 30,
+          "printable": true,
+          "purpose": "notes",
+          "qualifiedId": "layer:power:annotation",
+          "sheet": "power"
+        }
+      ],
+      "order": 10,
+      "parent": null,
+      "qid": "sheet:power",
+      "title": "Power",
+      "unit": "mm",
+      "width": 160.0
+    },
+    {
+      "height": 100.0,
+      "id": "control",
+      "layers": [
+        {
+          "defaultVisible": true,
+          "id": "connections",
+          "locked": false,
+          "order": 10,
+          "printable": true,
+          "purpose": "semantic net routes and sheet ports",
+          "qualifiedId": "layer:control:connections",
+          "sheet": "control"
+        },
+        {
+          "defaultVisible": true,
+          "id": "symbols",
+          "locked": false,
+          "order": 20,
+          "printable": true,
+          "purpose": "component symbols",
+          "qualifiedId": "layer:control:symbols",
+          "sheet": "control"
+        },
+        {
+          "defaultVisible": true,
+          "id": "annotation",
+          "locked": false,
+          "order": 30,
+          "printable": true,
+          "purpose": "notes",
+          "qualifiedId": "layer:control:annotation",
+          "sheet": "control"
+        }
+      ],
+      "order": 20,
+      "parent": null,
+      "qid": "sheet:control",
+      "title": "Control",
+      "unit": "mm",
+      "width": 160.0
+    }
+  ],
+  "statistics": {
+    "entities": 2,
+    "hierarchyDepth": 0,
+    "interfacePorts": 6,
+    "localNets": 6,
+    "localRouteSegments": 6,
+    "projectNets": 3,
+    "projectRouteSegments": 44,
+    "qualifiedObjects": 19,
+    "sheets": 2,
+    "unconnectedProjectPorts": 0
+  },
+  "viewerContract": "aixem.reference-viewer@1",
+  "views": [
+    {
+      "available": true,
+      "canvases": [
+        {
+          "height": 100.0,
+          "key": "sheet:power",
+          "sheet": "power",
+          "unit": "mm",
+          "width": 160.0
+        },
+        {
+          "height": 100.0,
+          "key": "sheet:control",
+          "sheet": "control",
+          "unit": "mm",
+          "width": 160.0
+        }
+      ],
+      "id": "sheet",
+      "label": "Sheet"
+    },
+    {
+      "available": true,
+      "canvases": [
+        {
+          "height": 378.0,
+          "key": "overview",
+          "sheet": null,
+          "unit": "project-space",
+          "width": 453.0
+        }
+      ],
+      "id": "overview",
+      "label": "Overview"
+    },
+    {
+      "available": true,
+      "canvases": [
+        {
+          "height": 444.0,
+          "key": "composite",
+          "sheet": null,
+          "unit": "project-space",
+          "width": 433.0
+        }
+      ],
+      "id": "composite",
+      "label": "Composite"
+    }
+  ]
+}

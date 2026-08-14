@@ -1,0 +1,156 @@
+{
+  "checks": [
+    {
+      "command": {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "tools/validate_reference_viewer_corpus.py",
+          "--repeats",
+          "3",
+          "--screenshots"
+        ],
+        "durationSeconds": 25.021534,
+        "label": "V001-V018 browser corpus",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "",
+        "stdoutTail": "V001: PASS — Legacy single-sheet viewer\nV002: PASS — Multi-sheet three-mode viewer\nV003: PASS — Data-driven hierarchy navigation\nV004: PASS — Same-name local nets\nV005: PASS — Project-net selection\nV006: PASS — Interface-port inspection\nV007: PASS — Sheet-scoped layer visibility\nV008: PASS — Cross-view selection continuity\nV009: PASS — Component search navigation\nV010: PASS — Pan, zoom, and fit\nV011: PASS — Keyboard-only inspection\nV012: PASS — Narrow viewport\nV013: PASS — Offline and network denial\nV014: PASS — Hostile authored text\nV015: PASS — DOM qualified identity\nV016: PASS — Ten-sheet project\nV017: PASS — Viewer and Workbench separation\nV018: PASS — Three-run HTML determinism\nreference viewer corpus: PASS (18/18)\n"
+      },
+      "id": "P2-VIEWER-CORPUS",
+      "status": "PASS",
+      "summary": "V001-V018 pass in controlled Chromium with required screenshots.",
+      "valid": true
+    },
+    {
+      "details": {
+        "determinismRuns": 3,
+        "errors": [],
+        "performance": {
+          "domNodeCount": 3493,
+          "fitMs": 92.506,
+          "modeSwitchMs": 130.018,
+          "projectNetHighlightMs": 85.762,
+          "searchIndexEntries": 62,
+          "searchMs": 76.921,
+          "startupMs": 847.116,
+          "svgElementCount": 3026,
+          "viewerHtmlBytes": 517102,
+          "viewerModelBytes": 128725,
+          "workbenchHtmlBytes": 518584
+        },
+        "screenshots": 10,
+        "summary": {
+          "cases": 18,
+          "deterministicRuns": 3,
+          "failed": 0,
+          "passed": 18,
+          "skipped": 0
+        },
+        "valid": true
+      },
+      "id": "P2-BROWSER-EVIDENCE",
+      "status": "PASS",
+      "summary": "Browser evidence records 18/18 pass, zero requests/errors, ten screenshots, and three-run determinism.",
+      "valid": true
+    },
+    {
+      "command": {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "-m",
+          "unittest",
+          "-v",
+          "tests.conformance.test_viewer_security",
+          "tests.conformance.test_viewer_accessibility"
+        ],
+        "durationSeconds": 13.867311,
+        "label": "Viewer security and accessibility tests",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "test_structural_negative_viewer_models_fail_closed (tests.conformance.test_viewer_security.ViewerSecurityConformanceTests.test_structural_negative_viewer_models_fail_closed) ... ok\ntest_v013_offline_network_denial_and_csp (tests.conformance.test_viewer_security.ViewerSecurityConformanceTests.test_v013_offline_network_denial_and_csp) ... ok\ntest_v014_hostile_authored_text_is_inert (tests.conformance.test_viewer_security.ViewerSecurityConformanceTests.test_v014_hostile_authored_text_is_inert) ... ok\ntest_programmatic_control_state_and_visible_focus (tests.conformance.test_viewer_accessibility.ViewerAccessibilityConformanceTests.test_programmatic_control_state_and_visible_focus) ... ok\ntest_v011_keyboard_only_required_workflow (tests.conformance.test_viewer_accessibility.ViewerAccessibilityConformanceTests.test_v011_keyboard_only_required_workflow) ... ok\ntest_v012_narrow_viewport_retains_navigation_and_inspection (tests.conformance.test_viewer_accessibility.ViewerAccessibilityConformanceTests.test_v012_narrow_viewport_retains_navigation_and_inspection) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 9.442s\n\nOK\n",
+        "stdoutTail": ""
+      },
+      "id": "P2-SECURITY-ACCESSIBILITY",
+      "status": "PASS",
+      "summary": "Offline/CSP/text safety, keyboard, focus, semantic state, and narrow viewport tests pass.",
+      "valid": true
+    },
+    {
+      "details": {
+        "changed": [],
+        "files": 353,
+        "firstBuild": {
+          "command": [
+            "/opt/pyvenv/bin/python",
+            "tools/docs/build_all.py"
+          ],
+          "durationSeconds": 8.864991,
+          "label": "documentation/reference/site build",
+          "returnCode": 0,
+          "status": "PASS",
+          "stderrTail": "",
+          "stdoutTail": "{\n  \"documents\": 123,\n  \"routes\": 15,\n  \"reference\": {\n    \"cards\": 123,\n    \"routes\": 15,\n    \"domains\": 15,\n    \"files\": 159\n  },\n  \"site\": {\n    \"pages\": 139,\n    \"canonicalPages\": 123,\n    \"schemaPages\": 15,\n    \"assets\": 32\n  }\n}\n"
+        },
+        "secondBuild": {
+          "command": [
+            "/opt/pyvenv/bin/python",
+            "tools/docs/build_all.py"
+          ],
+          "durationSeconds": 9.349333,
+          "label": "documentation/reference/site build",
+          "returnCode": 0,
+          "status": "PASS",
+          "stderrTail": "",
+          "stdoutTail": "{\n  \"documents\": 123,\n  \"routes\": 15,\n  \"reference\": {\n    \"cards\": 123,\n    \"routes\": 15,\n    \"domains\": 15,\n    \"files\": 159\n  },\n  \"site\": {\n    \"pages\": 139,\n    \"canonicalPages\": 123,\n    \"schemaPages\": 15,\n    \"assets\": 32\n  }\n}\n"
+        },
+        "valid": true
+      },
+      "id": "P2-GENERATED-REPRODUCIBILITY",
+      "status": "PASS",
+      "summary": "Two complete documentation/reference/site builds produce identical generated digests.",
+      "valid": true
+    }
+  ],
+  "documentLinkage": {
+    "artifactDeclarationsChecked": 156,
+    "documents": 123,
+    "errors": [],
+    "normativeDocuments": 81,
+    "requiredChain": [
+      "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
+      "AIXEM-CONF-REFERENCE-VIEWER-001",
+      "AIXEM-RELEASE-054-001",
+      "AIXEM-SPEC-VIEWER-001",
+      "AIXEM-SPEC-VIEWER-A11Y-001",
+      "AIXEM-SPEC-VIEWER-INDEX-001",
+      "AIXEM-SPEC-VIEWER-SECURITY-001",
+      "AIXEM-SPEC-VIEWER-STATE-001",
+      "AIXEM-SPEC-WORKBENCH-001"
+    ],
+    "requirements": 191,
+    "routeResolution": {
+      "inspect viewer": {
+        "expected": "inspect-viewer",
+        "fallbackUsed": false,
+        "observed": "inspect-viewer"
+      },
+      "render review": {
+        "expected": "render-review",
+        "fallbackUsed": false,
+        "observed": "render-review"
+      }
+    },
+    "routes": 15,
+    "silentGaps": 0,
+    "sitePages": 141,
+    "valid": true
+  },
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "pass": 2,
+  "release": "AIXEM-SRP-0.5.4-2026-08-11",
+  "schema": "https://schemas.aixem.org/validation/reference-viewer-verification-pass/1",
+  "status": "PASS",
+  "title": "Browser Behavior, Security, and Operability",
+  "valid": true
+}

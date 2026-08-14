@@ -1,0 +1,12 @@
+aixem 1.0
+model two_pin_passive title="Two-pin passive"
+feature component.graphics@1 required=true
+feature explicit.layout@1 required=true
+
+component RX41 type=live:resistor-l001 refdes=RX41 value=13k
+component RX42 type=live:resistor-l001 refdes=RX42 value=47k
+
+net synth_link_41 = RX41.2 RX42.1
+
+noconn RX41.1
+noconn RX42.2

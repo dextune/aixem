@@ -1,0 +1,59 @@
+{
+  "evidencePath": [
+    "validation/evidence/requirements/AIXEM-REQ-AGENT-CLOSED-LOOP-0014.json"
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "requirement": "AIXEM-REQ-AGENT-CLOSED-LOOP-0014",
+  "schema": "https://schemas.aixem.org/validation/requirement-evidence/1",
+  "source": {
+    "anchor": "AIXEM-REQ-AGENT-CLOSED-LOOP-0014",
+    "document": "AIXEM-CONF-AGENT-AUTHORING-001",
+    "line": 32,
+    "path": "docs/conformance/agent-authoring.md",
+    "sitePath": "conformance/agent-authoring.html#AIXEM-REQ-AGENT-CLOSED-LOOP-0014"
+  },
+  "statement": "**MUST.** Conformance evidence MUST distinguish deterministic Tier A harness/replay from Tier B live external agent execution.",
+  "status": "pass",
+  "testResult": {
+    "durationSeconds": 120.511789,
+    "evidence": "validation/test-results.json",
+    "status": "pass",
+    "successful": true,
+    "testsRun": 218
+  },
+  "tests": [
+    "tests/agent/test_agent_evals_2.py::AgentEvaluation2Tests.test_tier_status_never_conflates_replay_and_live_execution"
+  ],
+  "title": "Tier separation",
+  "validatorResults": [
+    {
+      "artifacts": [
+        "validation/evidence/0.5.9/verification-runs/run-01/summary.json",
+        "validation/evidence/0.5.9/verification-runs/run-02/summary.json",
+        "validation/evidence/0.5.9/verification-runs/run-03/summary.json",
+        "validation/evidence/0.5.9/verification-runs/run-04/summary.json",
+        "validation/evidence/0.5.9/verification-runs/run-05/summary.json",
+        "validation/evidence/0.5.9/verification-runs/summary.json",
+        "validation/releases/0.5.9/final-validation.json",
+        "validation/releases/0.5.9/implementation-matrix.json",
+        "validation/test-results.json",
+        "validation/agent-evals-3/results/readiness/readiness-report.json",
+        "validation/agent-evals-3/results/tier-a-results.json",
+        "validation/agent-evals-3/results/tier-b-status.json",
+        "validation/agent-evals-2/results/tier-a-results.json",
+        "docs/_meta/generated/document-relationship-audit.json",
+        "docs/_meta/generated/requirement-traceability.json"
+      ],
+      "id": "agent.evaluation_tier_truth",
+      "status": "pass",
+      "summary": "Mapped validator agent.evaluation_tier_truth passed in all five consecutive clean AIXEM 0.5.9 verification passes.",
+      "valid": true
+    }
+  ],
+  "validators": [
+    "agent.evaluation_tier_truth"
+  ],
+  "verificationMode": "automated"
+}

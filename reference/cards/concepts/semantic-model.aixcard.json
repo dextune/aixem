@@ -1,0 +1,65 @@
+{
+  "card": {
+    "aliases": [
+      "semantic model",
+      "circuit semantics",
+      "connectivity model"
+    ],
+    "appliesTo": [
+      "semantic-connectivity"
+    ],
+    "domain": "concepts",
+    "estimatedReadBytes": 6004,
+    "id": "AIXEM-CONCEPT-SEMANTIC-001",
+    "inputs": [],
+    "keywords": [
+      "Semantic Circuit Model",
+      "change-architecture",
+      "circuit semantics",
+      "compose-project",
+      "connectivity model",
+      "create-schematic",
+      "semantic model",
+      "validate-project"
+    ],
+    "kind": "concept",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/concepts/semantic-model.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:12a3ddceba4ee523973c8925384eb6f31ff6314872c90fdc8506cda9524bd610"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-CORE-0001",
+        "level": "must",
+        "text": "**MUST.** Semantic source data MUST be the authority for entity, endpoint, net, and no-connect identity."
+      },
+      {
+        "id": "AIXEM-REQ-CORE-0002",
+        "level": "must",
+        "text": "**MUST.** Coincident or crossing geometry MUST NOT create semantic connectivity."
+      },
+      {
+        "id": "AIXEM-REQ-CORE-0003",
+        "level": "must",
+        "text": "**MUST.** Every endpoint referenced by a net or no-connect declaration MUST resolve to a declared semantic endpoint."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-CONCEPT-SEMANTIC-001",
+        "path": "docs/concepts/semantic-model.md"
+      }
+    ],
+    "summary": "Defines the semantic circuit as entities, endpoints, nets, and explicit no-connect intent, independent of geometry.",
+    "title": "Semantic Circuit Model"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

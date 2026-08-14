@@ -1,0 +1,433 @@
+{
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/component-graphics/aixsym/1",
+  "symbol": {
+    "anchors": [
+      {
+        "id": "origin",
+        "kind": "insertion",
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "bounds": {
+      "height": 60,
+      "width": 60,
+      "x": -30,
+      "y": -30
+    },
+    "coordinateSystem": {
+      "angleDirection": "clockwise",
+      "angleUnit": "deg",
+      "grid": 2.5,
+      "unit": "mm",
+      "yAxis": "down"
+    },
+    "definitions": {},
+    "description": "Relay symbol separating electrical paths from a dashed mechanical association.",
+    "graphics": [
+      {
+        "id": "lead-A1",
+        "layer": "body",
+        "metadata": {
+          "port": "A1",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -25,
+        "x2": -12.5,
+        "y1": -10,
+        "y2": -10
+      },
+      {
+        "id": "lead-A2",
+        "layer": "body",
+        "metadata": {
+          "port": "A2",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -25,
+        "x2": -12.5,
+        "y1": 10,
+        "y2": 10
+      },
+      {
+        "id": "lead-COM",
+        "layer": "body",
+        "metadata": {
+          "port": "COM",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 12.5,
+        "x2": 25,
+        "y1": 0,
+        "y2": 0
+      },
+      {
+        "id": "lead-NC",
+        "layer": "body",
+        "metadata": {
+          "port": "NC",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 12.5,
+        "x2": 25,
+        "y1": -10,
+        "y2": -10
+      },
+      {
+        "id": "lead-NO",
+        "layer": "body",
+        "metadata": {
+          "port": "NO",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 12.5,
+        "x2": 25,
+        "y1": 10,
+        "y2": 10
+      },
+      {
+        "height": 35,
+        "id": "relay-envelope",
+        "layer": "body",
+        "role": "body",
+        "style": "dashed",
+        "type": "rect",
+        "width": 35,
+        "x": -17.5,
+        "y": -17.5
+      },
+      {
+        "height": 15,
+        "id": "coil",
+        "layer": "body",
+        "role": "coil",
+        "style": "body",
+        "type": "rect",
+        "width": 10,
+        "x": -12.5,
+        "y": -7.5
+      },
+      {
+        "id": "coil-a1",
+        "layer": "body",
+        "style": "detail",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -12.5,
+        "y1": -10,
+        "y2": -7.5
+      },
+      {
+        "id": "coil-a2",
+        "layer": "body",
+        "style": "detail",
+        "type": "line",
+        "x1": -12.5,
+        "x2": -12.5,
+        "y1": 7.5,
+        "y2": 10
+      },
+      {
+        "cx": 12.5,
+        "cy": 0,
+        "id": "pivot",
+        "layer": "body",
+        "r": 1.25,
+        "role": "contact",
+        "style": "body",
+        "type": "circle"
+      },
+      {
+        "cx": 2.5,
+        "cy": -10,
+        "id": "nc-contact",
+        "layer": "body",
+        "r": 1.25,
+        "role": "contact",
+        "style": "body",
+        "type": "circle"
+      },
+      {
+        "cx": 2.5,
+        "cy": 10,
+        "id": "no-contact",
+        "layer": "body",
+        "r": 1.25,
+        "role": "contact",
+        "style": "body",
+        "type": "circle"
+      },
+      {
+        "id": "moving-contact",
+        "layer": "body",
+        "role": "switch-blade",
+        "style": "line",
+        "type": "line",
+        "x1": 12.5,
+        "x2": 3.75,
+        "y1": 0,
+        "y2": -8.75
+      },
+      {
+        "id": "nc-fixed",
+        "layer": "body",
+        "style": "detail",
+        "type": "line",
+        "x1": 2.5,
+        "x2": 12.5,
+        "y1": -10,
+        "y2": -10
+      },
+      {
+        "id": "no-fixed",
+        "layer": "body",
+        "style": "detail",
+        "type": "line",
+        "x1": 2.5,
+        "x2": 12.5,
+        "y1": 10,
+        "y2": 10
+      },
+      {
+        "id": "mechanical-link",
+        "layer": "body",
+        "role": "mechanical-link",
+        "style": "dashed",
+        "type": "line",
+        "visibleWhen": {
+          "left": {
+            "param": "show-link"
+          },
+          "op": "eq",
+          "right": true
+        },
+        "x1": -2.5,
+        "x2": 7.5,
+        "y1": 0,
+        "y2": 0
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "field": "reference",
+        "id": "field-reference",
+        "layer": "fields",
+        "role": "reference-field",
+        "style": "field",
+        "type": "text",
+        "x": 0,
+        "y": -25
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "field": "value",
+        "id": "field-value",
+        "layer": "fields",
+        "role": "value-field",
+        "style": "value",
+        "type": "text",
+        "x": 0,
+        "y": 25
+      }
+    ],
+    "id": "corpus:s014-relay-spdt",
+    "layers": [
+      {
+        "defaultVisible": true,
+        "id": "body",
+        "locked": true,
+        "order": 10,
+        "printable": true,
+        "purpose": "symbol body and pin leads"
+      },
+      {
+        "defaultVisible": true,
+        "id": "fields",
+        "locked": false,
+        "order": 20,
+        "printable": true,
+        "purpose": "bound and literal text fields"
+      }
+    ],
+    "metadata": {
+      "corpus": "symbol-expressiveness-1"
+    },
+    "paintServers": {},
+    "parameters": {
+      "show-link": {
+        "default": true,
+        "description": "Show the non-electrical mechanical association.",
+        "type": "boolean"
+      }
+    },
+    "ports": [
+      {
+        "id": "A1",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "A1",
+        "number": "A1",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -25,
+        "y": -10
+      },
+      {
+        "id": "A2",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "A2",
+        "number": "A2",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -25,
+        "y": 10
+      },
+      {
+        "id": "COM",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "COM",
+        "number": "COM",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 25,
+        "y": 0
+      },
+      {
+        "id": "NC",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "NC",
+        "number": "NC",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 25,
+        "y": -10
+      },
+      {
+        "id": "NO",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "NO",
+        "number": "NO",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 25,
+        "y": 10
+      }
+    ],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-11",
+      "license": "CC0-1.0",
+      "notes": "Vendor-neutral evidence fixture; no proprietary library asset was copied.",
+      "origin": "AIXEM 0.5.2 self-authored conformance corpus"
+    },
+    "purpose": "schematic-symbol",
+    "requiredFeatures": [],
+    "revision": "1.0.0",
+    "styles": {
+      "body": {
+        "fill": "#fffef8",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.65
+      },
+      "dashed": {
+        "dashArray": [
+          2.5,
+          1.25
+        ],
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeWidth": 0.5
+      },
+      "detail": {
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.5
+      },
+      "dimension": {
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeWidth": 0.5
+      },
+      "field": {
+        "fill": "#17231d",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.5,
+        "fontWeight": 600,
+        "stroke": "none"
+      },
+      "filled": {
+        "fill": "#fffef8",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.65
+      },
+      "label": {
+        "fill": "#0c7772",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.0,
+        "fontWeight": 600,
+        "stroke": "none"
+      },
+      "line": {
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.65
+      },
+      "mark": {
+        "fill": "#0c7772",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.45
+      },
+      "small": {
+        "fill": "#0c7772",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 2.4,
+        "fontWeight": 500,
+        "stroke": "none"
+      },
+      "value": {
+        "fill": "#4f5e56",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.0,
+        "fontWeight": 400,
+        "stroke": "none"
+      }
+    },
+    "title": "S014 SPDT relay"
+  }
+}

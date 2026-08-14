@@ -1,0 +1,87 @@
+{
+  "domain": {
+    "cards": [
+      {
+        "id": "AIXEM-SYMBOL-AIXSYM-REF-001",
+        "path": "reference/cards/symbols/aixsym-field-reference.aixcard.json",
+        "summary": "Describes every top-level AIXSYM authoring field, parameter field, and renderer-relevant interaction in agent-readable form.",
+        "title": "AIXSYM Field Reference"
+      },
+      {
+        "id": "AIXEM-SYMBOL-ANATOMY-001",
+        "path": "reference/cards/symbols/symbol-anatomy.aixcard.json",
+        "summary": "Defines symbol coordinate space, body bounds, ports, labels, fields, anchors, variants, and reusable definitions.",
+        "title": "Symbol Anatomy"
+      },
+      {
+        "id": "AIXEM-SYMBOL-AUTHORING-001",
+        "path": "reference/cards/symbols/authoring-guide.aixcard.json",
+        "summary": "Provides a repeatable sequence for deriving a compact symbol from a component endpoint contract.",
+        "title": "Symbol Authoring Guide"
+      },
+      {
+        "id": "AIXEM-SYMBOL-BINDING-001",
+        "path": "reference/cards/symbols/component-symbol-binding.aixcard.json",
+        "summary": "Defines how semantic component ports and properties bind through AIXLIB presentations into AIXSYM ports and text fields.",
+        "title": "Component to Symbol Binding"
+      },
+      {
+        "id": "AIXEM-SYMBOL-COOKBOOK-001",
+        "path": "reference/cards/symbols/symbol-authoring-cookbook.aixcard.json",
+        "summary": "Provides executable, schema-valid recipes for drawing common AIXEM schematic symbols without renderer-code discovery.",
+        "title": "Symbol Authoring Cookbook"
+      },
+      {
+        "id": "AIXEM-SYMBOL-DESIGN-RULES-001",
+        "path": "reference/cards/symbols/design-rules.aixcard.json",
+        "summary": "Provides a short route-friendly entry point to the normative symbol design profile and its mechanical checks.",
+        "title": "Symbol Design Rules Entry Point"
+      },
+      {
+        "id": "AIXEM-SYMBOL-FIELDS-001",
+        "path": "reference/cards/symbols/field-layout.aixcard.json",
+        "summary": "Defines reference, value, pin-name, pin-number, and auxiliary field anchors, visibility, alignment, and clearance.",
+        "title": "Field Layout"
+      },
+      {
+        "id": "AIXEM-SYMBOL-INDEX-001",
+        "path": "reference/cards/symbols/overview.aixcard.json",
+        "summary": "Guidance for compact, grid-aligned, endpoint-safe, independently authored schematic symbols.",
+        "title": "Symbol Authoring"
+      },
+      {
+        "id": "AIXEM-SYMBOL-LINT-001",
+        "path": "reference/cards/symbols/symbol-lint.aixcard.json",
+        "summary": "Defines structural, geometric, mapping, readability, and vendor-independence checks for symbol assets.",
+        "title": "Symbol Lint"
+      },
+      {
+        "id": "AIXEM-SYMBOL-PORTS-001",
+        "path": "reference/cards/symbols/pins-and-ports.aixcard.json",
+        "summary": "Defines pin orientation, electrical role, number and name placement, connection points, and semantic endpoint mapping.",
+        "title": "Pins, Ports, and Endpoint Mapping"
+      },
+      {
+        "id": "AIXEM-SYMBOL-PRIMITIVES-001",
+        "path": "reference/cards/symbols/primitives.aixcard.json",
+        "summary": "Defines the permitted vector primitives, path features, text, dimensions, definitions, and locked raster images.",
+        "title": "Graphic Primitives"
+      },
+      {
+        "id": "AIXEM-SYMBOL-VARIANTS-001",
+        "path": "reference/cards/symbols/variants.aixcard.json",
+        "summary": "Defines compatible graphic variants, default selection, feature negotiation, and endpoint-preserving substitutions.",
+        "title": "Symbol Variants"
+      }
+    ],
+    "description": "Generated canonical-document cards for the symbols domain.",
+    "id": "symbols",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12"
+    },
+    "title": "Symbols"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixdomain/1"
+}

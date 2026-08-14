@@ -1,0 +1,56 @@
+{
+  "bounds": {
+    "height": 40.0,
+    "width": 55.0,
+    "x": -27.5,
+    "y": -20.0
+  },
+  "capabilities": [
+    "geometry.line",
+    "geometry.rect",
+    "port.mapping",
+    "text.field"
+  ],
+  "case": "S019",
+  "defaultVariant": null,
+  "definitions": [],
+  "fieldAnchors": [
+    {
+      "field": "reference",
+      "id": "field-reference",
+      "x": 0,
+      "y": -15.0
+    },
+    {
+      "field": "value",
+      "id": "field-value",
+      "x": 0,
+      "y": 15.0
+    }
+  ],
+  "parameters": {},
+  "ports": [
+    {
+      "id": "1",
+      "orientation": 180,
+      "visible": true,
+      "x": -10.0,
+      "y": 0.0
+    },
+    {
+      "id": "2",
+      "orientation": 0,
+      "visible": true,
+      "x": 10.0,
+      "y": 0.0
+    }
+  ],
+  "primitiveCounts": {
+    "line": 2,
+    "rect": 1,
+    "text": 2
+  },
+  "requiredFeatures": [],
+  "symbol": "corpus:s019-connector-2",
+  "variants": []
+}

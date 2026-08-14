@@ -1,0 +1,157 @@
+{
+  "activeRoute": "route-nets",
+  "baseline": {
+    "artifactDigests": {
+      "library/electronics/authoring/authoring-components.aixlib.json": "sha256:67251f3ff9fd71fb5c65b55b7446c1c237a773bc318729840483a395b3860c5d",
+      "library/electronics/authoring/terminal.aixsym.json": "sha256:c4f12f18862f6a2b41eab5de806d215bff64db45e0ef30d7b35dc3b6374d2eec",
+      "project.aixproj.json": "sha256:be5e53a5bfeee0d69d1370d40ea4610f69c060a1cf842659d82f2ab35ed89878",
+      "two_terminal_route.aixem": "sha256:d6cf9d7f9c066f5dc15a90ebfa1dcc4b5c78c8ded61d35713f77a120e7a7a8d1",
+      "two_terminal_route.aixlayout.json": "sha256:116cd8cd220fb12301302c1a5890ff879397e692a1f0e693f9367f5441306d5a"
+    },
+    "authoritativeDigest": "sha256:873751f44d0b2c2b5b4922d7793a4e5d45650f141d27980e04297b719b404f3f",
+    "snapshotDigest": "sha256:873751f44d0b2c2b5b4922d7793a4e5d45650f141d27980e04297b719b404f3f"
+  },
+  "entryRoute": "route-nets",
+  "execution": {
+    "liveExternalAgentExecuted": false,
+    "mode": "deterministic-harness"
+  },
+  "final": {
+    "authoritativeArtifactDigests": {
+      "library/electronics/authoring/authoring-components.aixlib.json": "sha256:67251f3ff9fd71fb5c65b55b7446c1c237a773bc318729840483a395b3860c5d",
+      "library/electronics/authoring/terminal.aixsym.json": "sha256:c4f12f18862f6a2b41eab5de806d215bff64db45e0ef30d7b35dc3b6374d2eec",
+      "project.aixproj.json": "sha256:25e0556ce60debf00f187672e31151c40b95db7258fd594d401a605e966d8ffb",
+      "two_terminal_route.aixem": "sha256:d6cf9d7f9c066f5dc15a90ebfa1dcc4b5c78c8ded61d35713f77a120e7a7a8d1",
+      "two_terminal_route.aixlayout.json": "sha256:ae4b7e2e10f0f76f00f9c2768f51156c96aaf4ec5b638bcc0d4ac3ef76e0abee"
+    },
+    "authoritativeDigest": "sha256:5557d38ad670c238a69855e228f518056d831aa477eb91de706f70c813a2ee79",
+    "blockingDiagnosticCount": 0,
+    "conformant": true,
+    "determinism": {
+      "changed": [],
+      "projectRuns": 3,
+      "repeatCount": 3,
+      "valid": true
+    },
+    "diagnosticCount": 0,
+    "diagnostics": [],
+    "generatedOutputEditCount": 0,
+    "renderArtifactDigests": {
+      "render/drawing.svg": "sha256:7a59374815759f6a0d9a7d955a2a8f4eb93d7c0c8eda74cfe91a0963df9dea97",
+      "render/render-manifest.json": "sha256:2ba0c3af35f40e7c1115c84eb052cff1af1050d075643d482dd62f873610c53c",
+      "render/resolved-scene.json": "sha256:e619268525ccedd3372e404358126f7c8ec6d9b90c1ccee3f0b80357711e1e78",
+      "render/viewer-model.json": "sha256:aa69fa0afc7d6c8863f097f5d23cd705715a859eb9e077607c565243e81af555",
+      "render/viewer.html": "sha256:d5e6b7db25017907df67805d55c471840d58560e41f1ada1366cb6850a5b84f1",
+      "render/workbench.html": "sha256:91f6e047002aaaee2ac8a76c4c509d23fea508f7dcc1af65d16334bee6f1fe02"
+    },
+    "scopeViolationCount": 0,
+    "snapshotDigest": "sha256:09a14a6e75f781f3c21ae6d2e9618102944bd4318da7d1a3fe30b4cbaea2589c",
+    "status": "CLOSED"
+  },
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "iterations": [
+    {
+      "authoritativeDigestAfter": "sha256:5557d38ad670c238a69855e228f518056d831aa477eb91de706f70c813a2ee79",
+      "authoritativeDigestBefore": "sha256:873751f44d0b2c2b5b4922d7793a4e5d45650f141d27980e04297b719b404f3f",
+      "blockingAfter": 0,
+      "blockingBefore": 1,
+      "changeSet": {
+        "afterAuthoritativeDigest": "sha256:5557d38ad670c238a69855e228f518056d831aa477eb91de706f70c813a2ee79",
+        "afterSnapshotDigest": "sha256:5557d38ad670c238a69855e228f518056d831aa477eb91de706f70c813a2ee79",
+        "beforeAuthoritativeDigest": "sha256:873751f44d0b2c2b5b4922d7793a4e5d45650f141d27980e04297b719b404f3f",
+        "beforeSnapshotDigest": "sha256:873751f44d0b2c2b5b4922d7793a4e5d45650f141d27980e04297b719b404f3f",
+        "changed": [
+          {
+            "afterDigest": "sha256:25e0556ce60debf00f187672e31151c40b95db7258fd594d401a605e966d8ffb",
+            "allowed": true,
+            "authority": "project",
+            "beforeDigest": "sha256:be5e53a5bfeee0d69d1370d40ea4610f69c060a1cf842659d82f2ab35ed89878",
+            "changedPointers": [
+              "/project/layout/digest"
+            ],
+            "operation": "modified",
+            "path": "project.aixproj.json",
+            "role": "authoritative"
+          },
+          {
+            "afterDigest": "sha256:ae4b7e2e10f0f76f00f9c2768f51156c96aaf4ec5b638bcc0d4ac3ef76e0abee",
+            "allowed": true,
+            "authority": "layout",
+            "beforeDigest": "sha256:116cd8cd220fb12301302c1a5890ff879397e692a1f0e693f9367f5441306d5a",
+            "operation": "modified",
+            "path": "two_terminal_route.aixlayout.json",
+            "role": "authoritative"
+          }
+        ],
+        "formatVersion": "1.0",
+        "generatedOutputEdits": [],
+        "iteration": 1,
+        "requiredValidators": [
+          "agent.change_scope",
+          "agent.diagnostics",
+          "schematic.junction",
+          "schematic.orthogonal",
+          "schematic.renderer_contract",
+          "schematic.route_closure"
+        ],
+        "route": "route-nets",
+        "schema": "https://schemas.aixem.org/agent/change-set/1",
+        "scopeViolations": [],
+        "valid": true
+      },
+      "changeSetDigest": "sha256:c3e92faca4d3427d1260d734740c5bc7f7de08abc9e94d27701b59cd572fd8b1",
+      "diagnosticStateAfter": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "diagnosticStateBefore": "sha256:e3918fd363718bbb8034b1879dda4a3a154919a48aafd096891c1cfca0739f5e",
+      "diagnosticsAfter": [],
+      "diagnosticsBefore": [
+        {
+          "artifact": "project.aixproj.json",
+          "authority": "layout",
+          "code": "AIXEM-DIAG-ROUTE-NON-ORTHOGONAL",
+          "evidence": {
+            "exceptionType": "AixemGraphicsError",
+            "validator": "schematic.renderer_contract"
+          },
+          "id": "diag-0001",
+          "location": {
+            "jsonPointer": ""
+          },
+          "message": "grid profile requires orthogonal routes: ['signal:0']",
+          "remediationRoute": "route-nets",
+          "repairClass": "routing",
+          "requirement": "AIXEM-REQ-ROUTE-0004",
+          "severity": "error"
+        }
+      ],
+      "improved": true,
+      "iteration": 1,
+      "renderedEvidence": {},
+      "route": "route-nets",
+      "stage": "VALIDATED",
+      "validatorsExecuted": [
+        "agent.change_scope",
+        "agent.diagnostics",
+        "schematic.junction",
+        "schematic.orthogonal",
+        "schematic.renderer_contract",
+        "schematic.route_closure"
+      ]
+    }
+  ],
+  "loopState": {
+    "atIteration": null,
+    "oscillating": false,
+    "stalled": false,
+    "stateDigest": null
+  },
+  "recordDigest": "sha256:ea2fc89090d1e99391f29afe2e24f4e74a23f3f3014cfffd2a944bbc026705b1",
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "routeChain": [
+    "route-nets"
+  ],
+  "runId": "run-61f6e7a9f1ab5cd8e51d",
+  "schema": "https://schemas.aixem.org/agent/run-record/1",
+  "taskId": "l010",
+  "taskPacketDigest": "sha256:9748012a55150e06a7e557e3ab473b32ac8a3b7ae9e0e2fbbe73d1d9e5407ac4"
+}

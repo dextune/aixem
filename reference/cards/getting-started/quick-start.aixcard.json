@@ -1,0 +1,57 @@
+{
+  "card": {
+    "aliases": [
+      "quick start",
+      "build example",
+      "run AIXEM"
+    ],
+    "appliesTo": [
+      "onboarding",
+      "build-workflow"
+    ],
+    "domain": "getting-started",
+    "estimatedReadBytes": 5807,
+    "id": "AIXEM-START-QUICK-001",
+    "inputs": [],
+    "keywords": [
+      "Quick Start",
+      "build example",
+      "build-documentation",
+      "create-schematic",
+      "quick start",
+      "run AIXEM",
+      "validate-project"
+    ],
+    "kind": "guide",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/getting-started/quick-start.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:b71c612223948db14104356c8049638c535379cfe3fd517207d9986805cde409"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 500,
+    "readNext": [
+      "AIXEM-START-INTRO-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-START-QUICK-001.read",
+        "level": "should",
+        "text": "Builds the bundled grid-controller example, opens the Reference Viewer as the primary inspection surface, and verifies Workbench and renderer evidence."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-START-QUICK-001",
+        "path": "docs/getting-started/quick-start.md"
+      }
+    ],
+    "summary": "Builds the bundled grid-controller example, opens the Reference Viewer as the primary inspection surface, and verifies Workbench and renderer evidence.",
+    "title": "Quick Start"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

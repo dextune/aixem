@@ -1,0 +1,345 @@
+{
+  "authority": "derived-navigation-only",
+  "budget": {
+    "max_bytes": 98304,
+    "max_depth": 3,
+    "max_documents": 7
+  },
+  "completion": [
+    "All child routes complete in declared order",
+    "Each stage exit condition passes",
+    "No repository-wide discovery or renderer archaeology was required for normal work",
+    "Final source, render, and evidence artifacts are deterministic"
+  ],
+  "expectedInputs": [
+    "component functional contract",
+    "circuit intent",
+    "active profiles"
+  ],
+  "expectedOutputs": [
+    "validated component/symbol assets",
+    "closed semantic schematic",
+    "orthogonal explicit layout",
+    "deterministic renderer evidence",
+    "final validation report"
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "id": "author-component-circuit",
+  "intent": "author-component-circuit",
+  "kind": "composite",
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/documentation/task-packet/1",
+  "source": "docs/_meta/routes/author-component-circuit.yaml",
+  "sourceDigest": "sha256:4d125789be4f665c77b4030cfafce0cf77ffb9900e1157146169079149329233",
+  "stages": [
+    {
+      "exit": "symbol-ready",
+      "inputs": [
+        "component endpoint contract"
+      ],
+      "order": 1,
+      "outputs": [
+        "locked symbol and presentation binding"
+      ],
+      "purpose": "Create or reuse the component symbol and presentation binding.",
+      "remediation": {
+        "acceptsDiagnostics": [
+          "AIXEM-DIAG-BINDING-PORTMAP-INCOMPLETE",
+          "AIXEM-DIAG-BINDING-PORTMAP-TARGET-UNKNOWN",
+          "AIXEM-DIAG-BINDING-ASSET-MISSING",
+          "AIXEM-DIAG-BINDING-ASSET-DIGEST",
+          "AIXEM-DIAG-SYMBOL-PORT-EXPRESSION",
+          "AIXEM-DIAG-SYMBOL-PORT-OFF-GRID",
+          "AIXEM-DIAG-SYMBOL-PORT-ORIENTATION",
+          "AIXEM-DIAG-SYMBOL-LEAD-MISSING",
+          "AIXEM-DIAG-SYMBOL-LEAD-PORT-MISMATCH",
+          "AIXEM-DIAG-SYMBOL-PIN-PITCH",
+          "AIXEM-DIAG-SYMBOL-FIELD-BODY-OVERLAP",
+          "AIXEM-DIAG-LIBRARY-PATH-NONCANONICAL",
+          "AIXEM-DIAG-LIBRARY-DOMAIN-UNKNOWN",
+          "AIXEM-DIAG-LIBRARY-NAME-INVALID",
+          "AIXEM-DIAG-LIBRARY-PART-SOURCE-REQUIRED",
+          "AIXEM-DIAG-LIBRARY-PART-PLACEHOLDER-UNDECLARED",
+          "AIXEM-DIAG-LIBRARY-PART-PROVENANCE-INVALID",
+          "AIXEM-DIAG-LIBRARY-COMPONENT-SEMANTIC-CLONE",
+          "AIXEM-DIAG-LIBRARY-PART-MINIMUM-ATTRIBUTES-MISSING",
+          "AIXEM-DIAG-LIBRARY-PART-PINOUT-REVIEW-MISSING",
+          "AIXEM-DIAG-PIN-SEMANTICS-PROFILE-INVALID",
+          "AIXEM-DIAG-PIN-SIGNAL-CLASS-INVALID",
+          "AIXEM-DIAG-PIN-FUNCTION-TAG-INVALID",
+          "AIXEM-DIAG-PIN-POLARITY-INCONSISTENT",
+          "AIXEM-DIAG-PIN-DIFFERENTIAL-PAIR-INCOMPLETE",
+          "AIXEM-DIAG-PIN-ALTERNATE-FUNCTION-INVALID",
+          "AIXEM-DIAG-PIN-SOURCE-REVIEW-INCOMPLETE",
+          "AIXEM-DIAG-PIN-NOCONNECT-CONTRADICTION"
+        ]
+      },
+      "required": true,
+      "route": "create-symbol",
+      "sourceDigest": "sha256:ab1d30c8099efb3ceec262a3d732d7e84e7d5630f82f7b2edf74238f5655759b",
+      "taskPacket": "docs/_meta/generated/task-packets/create-symbol.json",
+      "writes": {
+        "artifacts": [
+          "**/*.aixsym.json",
+          "**/*.aixlib.json",
+          "**/*.aixproj.json"
+        ],
+        "authority": [
+          "symbol",
+          "component-library",
+          "project"
+        ],
+        "constraints": [
+          {
+            "pattern": "**/*.aixlib.json",
+            "policy": "new-library-artifact-canonical"
+          },
+          {
+            "pattern": "**/*.aixsym.json",
+            "policy": "new-library-artifact-canonical"
+          },
+          {
+            "pattern": "**/*.aixproj.json",
+            "policy": "digest-only"
+          }
+        ],
+        "derived": [
+          "render/**",
+          "evidence/**"
+        ],
+        "prohibited": [
+          "render/**",
+          "evidence/**",
+          "**/viewer.html",
+          "**/workbench.html",
+          "**/*.svg",
+          "**/resolved-scene.json",
+          "**/resolved-project-scene.json",
+          "**/viewer-model.json",
+          "**/render-manifest.json",
+          "**/project-validation.json"
+        ]
+      }
+    },
+    {
+      "exit": "semantic-and-placement-ready",
+      "inputs": [
+        "locked component presentation",
+        "circuit intent"
+      ],
+      "order": 2,
+      "outputs": [
+        "closed semantic source and placements"
+      ],
+      "purpose": "Create semantic entities, nets, and placements.",
+      "remediation": {
+        "acceptsDiagnostics": [
+          "AIXEM-DIAG-SEMANTIC-PORT-UNKNOWN",
+          "AIXEM-DIAG-SEMANTIC-NET-ENDPOINT-UNKNOWN",
+          "AIXEM-DIAG-SEMANTIC-NET-CLOSURE",
+          "AIXEM-DIAG-COMPONENT-TYPE-UNKNOWN",
+          "AIXEM-DIAG-LAYOUT-PLACEMENT-MISSING",
+          "AIXEM-DIAG-LAYOUT-PLACEMENT-OFF-GRID",
+          "AIXEM-DIAG-LAYOUT-GRID-PROFILE-MISMATCH"
+        ]
+      },
+      "required": true,
+      "route": "create-schematic",
+      "sourceDigest": "sha256:f10be490237b5bab234838e7ab2cab0b29e805c38394f2f5b7cf5029597eb426",
+      "taskPacket": "docs/_meta/generated/task-packets/create-schematic.json",
+      "writes": {
+        "artifacts": [
+          "**/*.aixem",
+          "**/*.aixlayout.json",
+          "**/*.aixproj.json"
+        ],
+        "authority": [
+          "semantic",
+          "layout",
+          "project"
+        ],
+        "constraints": [
+          {
+            "pattern": "**/*.aixproj.json",
+            "policy": "digest-only"
+          }
+        ],
+        "derived": [
+          "render/**",
+          "evidence/**"
+        ],
+        "prohibited": [
+          "render/**",
+          "evidence/**",
+          "**/viewer.html",
+          "**/workbench.html",
+          "**/*.svg",
+          "**/resolved-scene.json",
+          "**/resolved-project-scene.json",
+          "**/viewer-model.json",
+          "**/render-manifest.json",
+          "**/project-validation.json"
+        ]
+      }
+    },
+    {
+      "exit": "routing-ready",
+      "inputs": [
+        "semantic nets",
+        "resolved placements"
+      ],
+      "order": 3,
+      "outputs": [
+        "closed layout connections"
+      ],
+      "purpose": "Materialize semantic nets as explicit orthogonal geometry.",
+      "remediation": {
+        "acceptsDiagnostics": [
+          "AIXEM-DIAG-ROUTE-ENDPOINT-CLOSURE",
+          "AIXEM-DIAG-ROUTE-NON-ORTHOGONAL",
+          "AIXEM-DIAG-ROUTE-VIA-OFF-GRID",
+          "AIXEM-DIAG-ROUTE-ZERO-LENGTH",
+          "AIXEM-DIAG-JUNCTION-AMBIGUOUS"
+        ]
+      },
+      "required": true,
+      "route": "route-nets",
+      "sourceDigest": "sha256:1a36395a10aee457ee8d742b8c129f2b15d49239bbedc0b9ef0b0ac4ff4e8cca",
+      "taskPacket": "docs/_meta/generated/task-packets/route-nets.json",
+      "writes": {
+        "artifacts": [
+          "**/*.aixlayout.json",
+          "**/*.aixproj.json"
+        ],
+        "authority": [
+          "layout",
+          "project"
+        ],
+        "constraints": [
+          {
+            "pattern": "**/*.aixproj.json",
+            "policy": "digest-only"
+          }
+        ],
+        "derived": [
+          "render/**",
+          "evidence/**"
+        ],
+        "prohibited": [
+          "render/**",
+          "evidence/**",
+          "**/viewer.html",
+          "**/workbench.html",
+          "**/*.svg",
+          "**/resolved-scene.json",
+          "**/resolved-project-scene.json",
+          "**/viewer-model.json",
+          "**/render-manifest.json",
+          "**/project-validation.json"
+        ]
+      }
+    },
+    {
+      "exit": "visual-review-ready",
+      "inputs": [
+        "locked project inputs"
+      ],
+      "order": 4,
+      "outputs": [
+        "deterministic render and review record"
+      ],
+      "purpose": "Render, inspect evidence, classify defects, and repair authority-local sources.",
+      "remediation": {
+        "acceptsDiagnostics": [
+          "AIXEM-DIAG-RENDERER-DETERMINISM"
+        ]
+      },
+      "required": true,
+      "route": "render-review",
+      "sourceDigest": "sha256:8a42d223b9691c1baf3ed6e45196e2ccf387fdcbc9ee2b9808aa650d6bbcca59",
+      "taskPacket": "docs/_meta/generated/task-packets/render-review.json",
+      "writes": {
+        "artifacts": [],
+        "authority": [],
+        "derived": [
+          "render/**",
+          "evidence/**"
+        ],
+        "prohibited": [
+          "render/**",
+          "evidence/**",
+          "**/viewer.html",
+          "**/workbench.html",
+          "**/*.svg",
+          "**/resolved-scene.json",
+          "**/resolved-project-scene.json",
+          "**/viewer-model.json",
+          "**/render-manifest.json",
+          "**/project-validation.json"
+        ]
+      }
+    },
+    {
+      "exit": "release-valid",
+      "inputs": [
+        "final source and render artifacts"
+      ],
+      "order": 5,
+      "outputs": [
+        "release-valid evidence"
+      ],
+      "purpose": "Run final project and authoring conformance gates.",
+      "remediation": {
+        "acceptsDiagnostics": [
+          "AIXEM-DIAG-SCHEMA-INVALID",
+          "AIXEM-DIAG-UNSUPPORTED-CAPABILITY",
+          "AIXEM-DIAG-LIBRARY-PART-PINOUT-REVIEW-MISSING",
+          "AIXEM-DIAG-LIBRARY-PART-INTENT-REVIEW-INCOMPLETE",
+          "AIXEM-DIAG-PIN-SOURCE-REVIEW-INCOMPLETE",
+          "AIXEM-DIAG-ERC-OUTPUT-CONFLICT",
+          "AIXEM-DIAG-ERC-POWER-OUTPUT-CONFLICT",
+          "AIXEM-DIAG-ERC-CONNECTED-NOCONNECT",
+          "AIXEM-DIAG-ERC-INPUT-ONLY",
+          "AIXEM-DIAG-ERC-UNCERTAIN-TOPOLOGY"
+        ]
+      },
+      "required": true,
+      "route": "validate-project",
+      "sourceDigest": "sha256:211da1799c844e4f943bf47243b8ec63efba4020f967f210b8bcef70313f2167",
+      "taskPacket": "docs/_meta/generated/task-packets/validate-project.json",
+      "writes": {
+        "artifacts": [],
+        "authority": [],
+        "derived": [
+          "render/**",
+          "evidence/**"
+        ],
+        "prohibited": [
+          "render/**",
+          "evidence/**",
+          "**/viewer.html",
+          "**/workbench.html",
+          "**/*.svg",
+          "**/resolved-scene.json",
+          "**/resolved-project-scene.json",
+          "**/viewer-model.json",
+          "**/render-manifest.json",
+          "**/project-validation.json"
+        ]
+      }
+    }
+  ],
+  "summary": "Create or modify a component presentation, use it in a semantic schematic, route it, render it, and validate it",
+  "validators": [
+    "agent.authoring_routes",
+    "agent.visual_qa",
+    "schematic.authoring_examples",
+    "schematic.renderer_contract",
+    "agent.diagnostics",
+    "agent.change_scope",
+    "agent.run_record",
+    "agent.authoring_closed_loop",
+    "agent.evaluation_tier_truth"
+  ]
+}

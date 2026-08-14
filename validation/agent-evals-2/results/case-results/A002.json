@@ -1,0 +1,24 @@
+{
+  "entryRoute": "create-symbol",
+  "executionMode": "deterministic-harness-replay",
+  "expectedInitialDiagnostics": [],
+  "id": "A002",
+  "iterations": 1,
+  "liveExternalAgentExecuted": false,
+  "missingExpectedDiagnostics": [],
+  "mutation": null,
+  "observedInitialDiagnostics": [],
+  "passConditions": {
+    "checkPassedAfterRepair": true,
+    "closePassed": true,
+    "expectedInitialDiagnosticsObserved": true,
+    "liveClaimFalse": true,
+    "renderDeterministic": true,
+    "zeroGeneratedOutputEdits": true,
+    "zeroScopeViolations": true
+  },
+  "recordDigest": "sha256:b91836dbbee91de94c9d405c06616c0af9a88d5fb92f7222c1857103a9ecd516",
+  "retainedRunRecord": "runs/A002-authoring-run-record.json",
+  "status": "pass",
+  "title": "Six-pin connector"
+}

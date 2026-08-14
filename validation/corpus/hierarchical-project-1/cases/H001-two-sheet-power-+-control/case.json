@@ -1,0 +1,11 @@
+{
+  "assertions": [
+    "explicit-interface-closure",
+    "project-net-closure"
+  ],
+  "expected": "pass",
+  "expectedDiagnostic": null,
+  "id": "H001",
+  "project": "project.aixproj.json",
+  "title": "Two sheet power + control"
+}

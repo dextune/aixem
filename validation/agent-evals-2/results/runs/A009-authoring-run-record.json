@@ -1,0 +1,181 @@
+{
+  "activeRoute": "create-schematic",
+  "baseline": {
+    "artifactDigests": {
+      "library/electronics/authoring/authoring-components.aixlib.json": "sha256:67251f3ff9fd71fb5c65b55b7446c1c237a773bc318729840483a395b3860c5d",
+      "library/electronics/authoring/terminal.aixsym.json": "sha256:c4f12f18862f6a2b41eab5de806d215bff64db45e0ef30d7b35dc3b6374d2eec",
+      "project.aixproj.json": "sha256:f03a6e24caa111e2fc5388f03e504dc488f6cbbab35db3990cee108812514e76",
+      "two_terminal_route.aixem": "sha256:39cb7afcad0eb4b6d1b44158282d630b6db563722218bb60fd2bb6629902628d",
+      "two_terminal_route.aixlayout.json": "sha256:ae4b7e2e10f0f76f00f9c2768f51156c96aaf4ec5b638bcc0d4ac3ef76e0abee"
+    },
+    "authoritativeDigest": "sha256:77892eb751720962d5929d3b4bd00f1f66c6b45c155c4bf4b5f27615c191bd3a",
+    "snapshotDigest": "sha256:bff689d4d1ad46fe8091d5016b362d3420736a7c63734c8b19e78b70caecaaeb"
+  },
+  "entryRoute": "create-schematic",
+  "execution": {
+    "liveExternalAgentExecuted": false,
+    "mode": "deterministic-harness"
+  },
+  "final": {
+    "authoritativeArtifactDigests": {
+      "library/electronics/authoring/authoring-components.aixlib.json": "sha256:67251f3ff9fd71fb5c65b55b7446c1c237a773bc318729840483a395b3860c5d",
+      "library/electronics/authoring/terminal.aixsym.json": "sha256:c4f12f18862f6a2b41eab5de806d215bff64db45e0ef30d7b35dc3b6374d2eec",
+      "project.aixproj.json": "sha256:25e0556ce60debf00f187672e31151c40b95db7258fd594d401a605e966d8ffb",
+      "two_terminal_route.aixem": "sha256:d6cf9d7f9c066f5dc15a90ebfa1dcc4b5c78c8ded61d35713f77a120e7a7a8d1",
+      "two_terminal_route.aixlayout.json": "sha256:ae4b7e2e10f0f76f00f9c2768f51156c96aaf4ec5b638bcc0d4ac3ef76e0abee"
+    },
+    "authoritativeDigest": "sha256:5557d38ad670c238a69855e228f518056d831aa477eb91de706f70c813a2ee79",
+    "blockingDiagnosticCount": 0,
+    "conformant": true,
+    "determinism": {
+      "changed": [],
+      "projectRuns": 3,
+      "repeatCount": 3,
+      "valid": true
+    },
+    "diagnosticCount": 0,
+    "diagnostics": [],
+    "generatedOutputEditCount": 0,
+    "renderArtifactDigests": {
+      "render/drawing.svg": "sha256:7a59374815759f6a0d9a7d955a2a8f4eb93d7c0c8eda74cfe91a0963df9dea97",
+      "render/render-manifest.json": "sha256:2ba0c3af35f40e7c1115c84eb052cff1af1050d075643d482dd62f873610c53c",
+      "render/resolved-scene.json": "sha256:e619268525ccedd3372e404358126f7c8ec6d9b90c1ccee3f0b80357711e1e78",
+      "render/viewer-model.json": "sha256:aa69fa0afc7d6c8863f097f5d23cd705715a859eb9e077607c565243e81af555",
+      "render/viewer.html": "sha256:d5e6b7db25017907df67805d55c471840d58560e41f1ada1366cb6850a5b84f1",
+      "render/workbench.html": "sha256:91f6e047002aaaee2ac8a76c4c509d23fea508f7dcc1af65d16334bee6f1fe02"
+    },
+    "scopeViolationCount": 0,
+    "snapshotDigest": "sha256:672394456e17d048df7da7c20bba59230e08f3f1808e0d725eba2a79f941b966",
+    "status": "CLOSED"
+  },
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "iterations": [
+    {
+      "authoritativeDigestAfter": "sha256:5557d38ad670c238a69855e228f518056d831aa477eb91de706f70c813a2ee79",
+      "authoritativeDigestBefore": "sha256:77892eb751720962d5929d3b4bd00f1f66c6b45c155c4bf4b5f27615c191bd3a",
+      "blockingAfter": 0,
+      "blockingBefore": 2,
+      "changeSet": {
+        "afterAuthoritativeDigest": "sha256:5557d38ad670c238a69855e228f518056d831aa477eb91de706f70c813a2ee79",
+        "afterSnapshotDigest": "sha256:672394456e17d048df7da7c20bba59230e08f3f1808e0d725eba2a79f941b966",
+        "beforeAuthoritativeDigest": "sha256:77892eb751720962d5929d3b4bd00f1f66c6b45c155c4bf4b5f27615c191bd3a",
+        "beforeSnapshotDigest": "sha256:bff689d4d1ad46fe8091d5016b362d3420736a7c63734c8b19e78b70caecaaeb",
+        "changed": [
+          {
+            "afterDigest": "sha256:25e0556ce60debf00f187672e31151c40b95db7258fd594d401a605e966d8ffb",
+            "allowed": true,
+            "authority": "project",
+            "beforeDigest": "sha256:f03a6e24caa111e2fc5388f03e504dc488f6cbbab35db3990cee108812514e76",
+            "changedPointers": [
+              "/project/source/digest"
+            ],
+            "operation": "modified",
+            "path": "project.aixproj.json",
+            "role": "authoritative"
+          },
+          {
+            "afterDigest": "sha256:d6cf9d7f9c066f5dc15a90ebfa1dcc4b5c78c8ded61d35713f77a120e7a7a8d1",
+            "allowed": true,
+            "authority": "semantic",
+            "beforeDigest": "sha256:39cb7afcad0eb4b6d1b44158282d630b6db563722218bb60fd2bb6629902628d",
+            "operation": "modified",
+            "path": "two_terminal_route.aixem",
+            "role": "authoritative"
+          }
+        ],
+        "formatVersion": "1.0",
+        "generatedOutputEdits": [],
+        "iteration": 1,
+        "requiredValidators": [
+          "agent.change_scope",
+          "agent.diagnostics",
+          "schematic.authoring_binding",
+          "schematic.authoring_integrity",
+          "schematic.component_type_closure",
+          "schematic.grid",
+          "schematic.placement_assist",
+          "schematic.placement_closure",
+          "schematic.semantic"
+        ],
+        "route": "create-schematic",
+        "schema": "https://schemas.aixem.org/agent/change-set/1",
+        "scopeViolations": [],
+        "valid": true
+      },
+      "changeSetDigest": "sha256:263db653c9e72959f33f5b77ccd9b9362634c5dd71e752492bed3102df0e8a1b",
+      "diagnosticStateAfter": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "diagnosticStateBefore": "sha256:e86342d83fee4ae8c429b7902c334aa5b7dab66514cd692d2efba5771c03f7ef",
+      "diagnosticsAfter": [],
+      "diagnosticsBefore": [
+        {
+          "artifact": "project.aixproj.json",
+          "authority": "semantic",
+          "code": "AIXEM-DIAG-SEMANTIC-NET-CLOSURE",
+          "evidence": {
+            "exceptionType": "AixemGraphicsError",
+            "validator": "schematic.renderer_contract"
+          },
+          "id": "diag-0001",
+          "location": {
+            "jsonPointer": ""
+          },
+          "message": "endpoint T1.1 occurs in both signal and duplicate_signal",
+          "remediationRoute": "create-schematic",
+          "repairClass": "authoritative-source",
+          "requirement": "AIXEM-REQ-ROUTE-0003",
+          "severity": "error"
+        },
+        {
+          "artifact": "two_terminal_route.aixem",
+          "authority": "semantic",
+          "code": "AIXEM-DIAG-SEMANTIC-NET-CLOSURE",
+          "evidence": {
+            "exceptionType": "AixemGraphicsError",
+            "validator": "schematic.semantic"
+          },
+          "id": "diag-0002",
+          "location": {
+            "jsonPointer": ""
+          },
+          "message": "endpoint T1.1 occurs in both signal and duplicate_signal",
+          "remediationRoute": "create-schematic",
+          "repairClass": "authoritative-source",
+          "requirement": "AIXEM-REQ-ROUTE-0003",
+          "severity": "error"
+        }
+      ],
+      "improved": true,
+      "iteration": 1,
+      "renderedEvidence": {},
+      "route": "create-schematic",
+      "stage": "VALIDATED",
+      "validatorsExecuted": [
+        "agent.change_scope",
+        "agent.diagnostics",
+        "schematic.authoring_binding",
+        "schematic.authoring_integrity",
+        "schematic.component_type_closure",
+        "schematic.grid",
+        "schematic.placement_assist",
+        "schematic.placement_closure",
+        "schematic.semantic"
+      ]
+    }
+  ],
+  "loopState": {
+    "atIteration": null,
+    "oscillating": false,
+    "stalled": false,
+    "stateDigest": null
+  },
+  "recordDigest": "sha256:d2ba7b29cee6027e4734d69e5014ad6d53572b99b6da2a694402799d3f7463d3",
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "routeChain": [
+    "create-schematic"
+  ],
+  "runId": "run-448f37c182a3e7f97a59",
+  "schema": "https://schemas.aixem.org/agent/run-record/1",
+  "taskId": "a009",
+  "taskPacketDigest": "sha256:b41c4a10017c9f5d10fcbd832608836937e9d1c844c5e2bf422b6e7eeca17d49"
+}

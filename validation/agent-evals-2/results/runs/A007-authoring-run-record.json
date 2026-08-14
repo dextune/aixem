@@ -1,0 +1,127 @@
+{
+  "activeRoute": "compose-project",
+  "baseline": {
+    "artifactDigests": {
+      "circuits/alpha.aixem": "sha256:ab1af735bf038ef312371d7f5f1ad22b1eb0f2cc95a3e99f8d8b7c9f8844ae19",
+      "circuits/beta.aixem": "sha256:b6c0f9dfdf21a6a694121261219a80abb8cd9ade333c93a27441e16694c24d43",
+      "layouts/alpha.aixlayout.json": "sha256:b1f6817bd924b9b187a96c3af86d7b1ccf5e70628e2e01ab780724da694467a4",
+      "layouts/beta.aixlayout.json": "sha256:5d10de91aa63b3ed94fa441dfcb4be8db760e4513e3f0d71914f09eaaef1385d",
+      "libraries/authoring.aixlib.json": "sha256:d6f65cd2d99d51e7a0eeb9ca230ea2207936a84e90bcbe65e7bc3561d393f9b6",
+      "project.aixproj.json": "sha256:fdc31f353df579f0fadc1c59ec563c1e53a17948141977f10d61ded6e1d8bc5e",
+      "symbols/controller-12.aixsym.json": "sha256:2fe409df19cfd0257cdc4802e8be6dd84d4d0b840938abb23c22c7c941a1f3ae"
+    },
+    "authoritativeDigest": "sha256:b9852f2da7e7d90bc2d453961615892e9bcde3abfb5487ba85fc5ef37acaff16",
+    "snapshotDigest": "sha256:cf67ea8a80b9c297d308237cc84dd61c2294553015114fcac0ff86f6768165b3"
+  },
+  "entryRoute": "compose-project",
+  "execution": {
+    "liveExternalAgentExecuted": false,
+    "mode": "deterministic-harness"
+  },
+  "final": {
+    "authoritativeArtifactDigests": {
+      "circuits/alpha.aixem": "sha256:ab1af735bf038ef312371d7f5f1ad22b1eb0f2cc95a3e99f8d8b7c9f8844ae19",
+      "circuits/beta.aixem": "sha256:b6c0f9dfdf21a6a694121261219a80abb8cd9ade333c93a27441e16694c24d43",
+      "layouts/alpha.aixlayout.json": "sha256:b1f6817bd924b9b187a96c3af86d7b1ccf5e70628e2e01ab780724da694467a4",
+      "layouts/beta.aixlayout.json": "sha256:5d10de91aa63b3ed94fa441dfcb4be8db760e4513e3f0d71914f09eaaef1385d",
+      "libraries/authoring.aixlib.json": "sha256:d6f65cd2d99d51e7a0eeb9ca230ea2207936a84e90bcbe65e7bc3561d393f9b6",
+      "project.aixproj.json": "sha256:fdc31f353df579f0fadc1c59ec563c1e53a17948141977f10d61ded6e1d8bc5e",
+      "symbols/controller-12.aixsym.json": "sha256:2fe409df19cfd0257cdc4802e8be6dd84d4d0b840938abb23c22c7c941a1f3ae"
+    },
+    "authoritativeDigest": "sha256:b9852f2da7e7d90bc2d453961615892e9bcde3abfb5487ba85fc5ef37acaff16",
+    "blockingDiagnosticCount": 0,
+    "conformant": true,
+    "determinism": {
+      "changed": [],
+      "projectRuns": 3,
+      "repeatCount": 3,
+      "valid": true
+    },
+    "diagnosticCount": 0,
+    "diagnostics": [],
+    "generatedOutputEditCount": 0,
+    "renderArtifactDigests": {
+      "render/interface-summaries/alpha.json": "sha256:ef206efd304be7ae8e9df819e5f9f351e69e9aca112dc9a89ed2263879e0bedc",
+      "render/interface-summaries/beta.json": "sha256:22c2fcdff3fd1a0d10ab8ccd5a72d001a72b944d97328469f68a46289daaccdc",
+      "render/project-composite.svg": "sha256:79cf9de5ee1d7b296b703b0f26200e95d75a34726acac291d299ebedd1f0028f",
+      "render/project-overview.svg": "sha256:3d838b10505fce31f1e4cac21d2a0c68666ff1d8312fe3959d7b511a051b43dd",
+      "render/render-manifest.json": "sha256:e73f372c1ce907189bd991331bfa91a6abb04bcbdd272466e2238a29ed5584d3",
+      "render/resolved-project-scene.json": "sha256:c34430b967f448c4af4ad7b7d73037248db7b4095ac8c69e44db5a345f6bafae",
+      "render/sheets/alpha.resolved-scene.json": "sha256:bccade356c403b4909cc86aed5cacdfd60a69bd48bb81232b5e5aee62d7180d0",
+      "render/sheets/alpha.svg": "sha256:644ba4de4165de299f05ed9c55f22bfb63a8c7c467a45c8dc67ed67fc7a84355",
+      "render/sheets/beta.resolved-scene.json": "sha256:598cb5ded998d904b4f1fb2d9373c9e04a6eb38d93cc60a97ab0782c7ba6b8ce",
+      "render/sheets/beta.svg": "sha256:5dc567e8f19809cb3469bfd85e3b28ae94e7e347b5d98c6e1a213c524a79ef4c",
+      "render/viewer-model.json": "sha256:111c31543b1c74b724692156260315bff6453ad1ee91ff54f049bd1eba92536d",
+      "render/viewer.html": "sha256:b06f0f9b53e8a078e32aecf6820c7a164a0133be8a46bcd1a4f7087ae7f721d0",
+      "render/workbench.html": "sha256:ca1ae47933228b70836ceae64f5b59c829832aae4670e5445525bca04c299b92"
+    },
+    "scopeViolationCount": 0,
+    "snapshotDigest": "sha256:cf67ea8a80b9c297d308237cc84dd61c2294553015114fcac0ff86f6768165b3",
+    "status": "CLOSED"
+  },
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "iterations": [
+    {
+      "authoritativeDigestAfter": "sha256:b9852f2da7e7d90bc2d453961615892e9bcde3abfb5487ba85fc5ef37acaff16",
+      "authoritativeDigestBefore": "sha256:b9852f2da7e7d90bc2d453961615892e9bcde3abfb5487ba85fc5ef37acaff16",
+      "blockingAfter": 0,
+      "blockingBefore": 0,
+      "changeSet": {
+        "afterAuthoritativeDigest": "sha256:b9852f2da7e7d90bc2d453961615892e9bcde3abfb5487ba85fc5ef37acaff16",
+        "afterSnapshotDigest": "sha256:cf67ea8a80b9c297d308237cc84dd61c2294553015114fcac0ff86f6768165b3",
+        "beforeAuthoritativeDigest": "sha256:b9852f2da7e7d90bc2d453961615892e9bcde3abfb5487ba85fc5ef37acaff16",
+        "beforeSnapshotDigest": "sha256:cf67ea8a80b9c297d308237cc84dd61c2294553015114fcac0ff86f6768165b3",
+        "changed": [],
+        "formatVersion": "1.0",
+        "generatedOutputEdits": [],
+        "iteration": 1,
+        "requiredValidators": [
+          "agent.change_scope",
+          "agent.diagnostics",
+          "schematic.digest_lock",
+          "schematic.geometry_isolation",
+          "schematic.project_schema",
+          "schematic.semantic"
+        ],
+        "route": "compose-project",
+        "schema": "https://schemas.aixem.org/agent/change-set/1",
+        "scopeViolations": [],
+        "valid": true
+      },
+      "changeSetDigest": "sha256:acd94b8e2b10b0624a067f498f1107137efd86aeee4282f8d669e5dd3a0df949",
+      "diagnosticStateAfter": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "diagnosticStateBefore": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "diagnosticsAfter": [],
+      "diagnosticsBefore": [],
+      "improved": false,
+      "iteration": 1,
+      "renderedEvidence": {},
+      "route": "compose-project",
+      "stage": "VALIDATED",
+      "validatorsExecuted": [
+        "agent.change_scope",
+        "agent.diagnostics",
+        "schematic.digest_lock",
+        "schematic.geometry_isolation",
+        "schematic.project_schema",
+        "schematic.semantic"
+      ]
+    }
+  ],
+  "loopState": {
+    "atIteration": null,
+    "oscillating": false,
+    "stalled": false,
+    "stateDigest": null
+  },
+  "recordDigest": "sha256:8330fce943d265130b9ef7d66bd4e3b3658fdab476f61f1a9559c148b112c374",
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "routeChain": [
+    "compose-project"
+  ],
+  "runId": "run-90ebeb7c0042020f2434",
+  "schema": "https://schemas.aixem.org/agent/run-record/1",
+  "taskId": "a007",
+  "taskPacketDigest": "sha256:c6015857009c7b535e7ae8802f7cbe06de8c930e91cdba22ee6178d6eda19495"
+}

@@ -1,0 +1,22 @@
+{
+  "layoutDigest": "sha256:b1f6817bd924b9b187a96c3af86d7b1ccf5e70628e2e01ab780724da694467a4",
+  "ports": [
+    {
+      "direction": "passive",
+      "id": "GND",
+      "localNet": "gnd",
+      "projectNet": null,
+      "role": "power"
+    },
+    {
+      "direction": "input",
+      "id": "VCC",
+      "localNet": "vcc",
+      "projectNet": null,
+      "role": "power"
+    }
+  ],
+  "sheet": "alpha",
+  "sourceDigest": "sha256:ab1af735bf038ef312371d7f5f1ad22b1eb0f2cc95a3e99f8d8b7c9f8844ae19",
+  "title": "Alpha"
+}

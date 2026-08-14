@@ -1,0 +1,45 @@
+schema: https://schemas.aixem.org/documentation/task-route/1
+formatVersion: '1.0'
+id: migrate-baseline
+intent: migrate-baseline
+aliases:
+- migrate 0.4
+- upgrade baseline
+- legacy migration
+- move old docs
+- 0.4 compatibility
+summary: Migrate from AIXEM 0.4
+budget:
+  max_documents: 7
+  max_bytes: 98304
+  max_depth: 3
+steps:
+- order: 1
+  document: AIXEM-RELEASE-040-001
+  section: overview
+  purpose: Read AIXEM 0.4 Baseline for this task stage.
+  required: true
+- order: 2
+  document: AIXEM-CONF-COMPAT-001
+  section: operational-rules
+  purpose: Read Compatibility and Migration Conformance for this task stage.
+  required: true
+- order: 3
+  document: AIXEM-GOV-COMPAT-001
+  section: operational-rules
+  purpose: Read Compatibility Policy for this task stage.
+  required: true
+- order: 4
+  document: AIXEM-RELEASE-050-001
+  section: validation-and-evidence
+  purpose: Read AIXEM 0.5.0 for this task stage.
+  required: true
+completion: &id001
+- Every baseline file has a disposition
+- Canonical target IDs are recorded
+- Compatibility output builds
+- No obsolete authored reference remains authoritative
+expected_outputs: *id001
+validators:
+- docs.legacy_inventory
+- docs.compatibility_reference

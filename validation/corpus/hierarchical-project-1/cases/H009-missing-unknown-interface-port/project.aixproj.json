@@ -1,0 +1,123 @@
+{
+  "formatVersion": "2.0",
+  "project": {
+    "applicationProfile": "aixem.schematic.multisheet@1",
+    "description": "Hierarchical conformance case H009: Missing unknown interface port",
+    "features": [
+      "component.graphics@1",
+      "explicit.layout@2",
+      "hierarchical.interface@1",
+      "project-net@1",
+      "deterministic-project-routing@1"
+    ],
+    "id": "hierarchical:h009",
+    "libraries": [
+      {
+        "digest": "sha256:d6f65cd2d99d51e7a0eeb9ca230ea2207936a84e90bcbe65e7bc3561d393f9b6",
+        "id": "hierarchical:reference-library",
+        "mediaType": "application/vnd.aixem.library+json",
+        "path": "libraries/authoring.aixlib.json",
+        "version": "1.0.0"
+      }
+    ],
+    "metadata": {
+      "case": "H009",
+      "corpus": "hierarchical-project-1",
+      "geometryCreatesConnectivity": false,
+      "layersAreSheets": false
+    },
+    "outputs": [
+      {
+        "mediaType": "image/svg+xml",
+        "path": "render/project-overview.svg",
+        "role": "project-overview-svg"
+      },
+      {
+        "mediaType": "image/svg+xml",
+        "path": "render/project-composite.svg",
+        "role": "project-composite-svg"
+      },
+      {
+        "mediaType": "application/json",
+        "path": "render/resolved-project-scene.json",
+        "role": "resolved-project-scene"
+      },
+      {
+        "mediaType": "text/html",
+        "path": "render/workbench.html",
+        "role": "engineering-workbench"
+      }
+    ],
+    "projectNets": [
+      {
+        "id": "bad",
+        "members": [
+          {
+            "port": "VCC",
+            "sheet": "power"
+          },
+          {
+            "port": "MISSING",
+            "sheet": "control"
+          }
+        ]
+      }
+    ],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-11",
+      "license": "CC0-1.0"
+    },
+    "renderPolicy": {
+      "backend": "svg",
+      "defaultVariantPolicy": "library-default",
+      "fontPolicy": "system-fallback",
+      "purpose": "primary-diagram",
+      "remoteAssets": "deny",
+      "unsupportedRequiredFeature": "reject"
+    },
+    "sheets": [
+      {
+        "id": "power",
+        "layout": {
+          "digest": "sha256:ae6f83d01e2514d4c7bd9ec6a24a0a9d4ef2e16b93a358fe4383f305e308cd0b",
+          "id": "h009-missing-unknown-interface-port:power-layout",
+          "mediaType": "application/json",
+          "path": "layouts/power.aixlayout.json",
+          "version": "2.0"
+        },
+        "order": 10,
+        "source": {
+          "digest": "sha256:ee35993240faf4521fd48a40ab4357e5ba6d3294dfcb3c86314d36a74fd5f5e9",
+          "id": "h009-missing-unknown-interface-port:power",
+          "mediaType": "text/x-aixem",
+          "path": "circuits/power.aixem",
+          "version": "1.0"
+        },
+        "title": "Power"
+      },
+      {
+        "id": "control",
+        "layout": {
+          "digest": "sha256:1a4eea31a9dddc8c22d6d233226dbf8dbc5ee7d9ab21860db60723e2ba43f33c",
+          "id": "h009-missing-unknown-interface-port:control-layout",
+          "mediaType": "application/json",
+          "path": "layouts/control.aixlayout.json",
+          "version": "2.0"
+        },
+        "order": 20,
+        "source": {
+          "digest": "sha256:705779bbb17bab07645be454922d6f0b34e45491f5e20f5a28b148aa74dc175a",
+          "id": "h009-missing-unknown-interface-port:control",
+          "mediaType": "text/x-aixem",
+          "path": "circuits/control.aixem",
+          "version": "1.0"
+        },
+        "title": "Control"
+      }
+    ],
+    "status": "example",
+    "title": "Missing unknown interface port"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/aixproj/2"
+}

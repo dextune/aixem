@@ -1,0 +1,17 @@
+{
+  "entryRoute": "create-symbol",
+  "exampleFixture": "examples/authoring/04-parameterized-variant",
+  "formatVersion": "1.0",
+  "id": "EVAL-04",
+  "prohibitedDiscovery": [
+    "repository-wide search",
+    "renderer implementation inspection"
+  ],
+  "prompt": "Use a parameterized symbol, select a non-default variant, and apply placement parameters.",
+  "requiredExitConditions": [
+    "symbol-ready"
+  ],
+  "schema": "https://schemas.aixem.org/validation/agent-eval-task/1",
+  "scoringProfile": "validation/agent-evals/scoring.md",
+  "title": "Variant override"
+}

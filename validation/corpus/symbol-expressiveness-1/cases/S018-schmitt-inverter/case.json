@@ -1,0 +1,63 @@
+{
+  "category": "digital",
+  "componentPorts": [
+    {
+      "id": "A",
+      "name": "A",
+      "required": true,
+      "type": "input"
+    },
+    {
+      "id": "Y",
+      "name": "Y",
+      "required": true,
+      "type": "output"
+    }
+  ],
+  "expectedBoundsClass": "compact",
+  "expectedFieldRoles": [
+    "reference-field",
+    "value-field"
+  ],
+  "expectedGridPolicy": "ports-on-2.5mm",
+  "expectedParameterIds": [],
+  "expectedPortCount": 2,
+  "expectedPrimitiveFamilies": [
+    "circle",
+    "line",
+    "polygon",
+    "polyline",
+    "text"
+  ],
+  "expectedVariantIds": [],
+  "expectedVisiblePortCount": 2,
+  "formatVersion": "1.0",
+  "id": "S018",
+  "knownExclusions": [],
+  "manualReviewChecks": [
+    "silhouette-recognizable",
+    "ports-attached-to-expected-leads",
+    "pin-number-name-separation",
+    "reference-value-clear-of-body",
+    "polarity-arrow-inversion-state-unambiguous",
+    "repeated-geometry-evenly-spaced",
+    "normal-scale-readable",
+    "no-false-connectivity-detail",
+    "variant-endpoint-identity-preserved",
+    "path-has-no-fill-or-self-intersection-artifact"
+  ],
+  "optionalCapabilities": [],
+  "purpose": "Inverter body, inversion bubble, and internal hysteresis marking",
+  "requiredCapabilities": [
+    "geometry.circle",
+    "geometry.line",
+    "geometry.polygon",
+    "geometry.polyline",
+    "port.mapping",
+    "text.field"
+  ],
+  "schema": "https://schemas.aixem.org/conformance/corpus-case/1",
+  "symbolPath": "symbol.aixsym.json",
+  "tier": "core",
+  "title": "Schmitt inverter"
+}

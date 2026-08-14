@@ -1,0 +1,69 @@
+{
+  "card": {
+    "aliases": [
+      "interface port",
+      "sheet port semantics",
+      "hierarchical interface",
+      "off-sheet semantic endpoint"
+    ],
+    "appliesTo": [
+      "leaf-interface-semantics"
+    ],
+    "domain": "specifications",
+    "estimatedReadBytes": 8550,
+    "id": "AIXEM-SPEC-INTERFACE-PORT-001",
+    "inputs": [],
+    "keywords": [
+      "Interface Port Contract 1",
+      "compose-project",
+      "create-schematic",
+      "hierarchical interface",
+      "interface port",
+      "off-sheet semantic endpoint",
+      "sheet port semantics",
+      "validate-project"
+    ],
+    "kind": "specification",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/specifications/core/interface-port-contract.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:a0455554981cf8fc9038ec9724841473e6f1f4df4e36bbfb92d0a6d759eac3af"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-CONCEPT-SEMANTIC-001",
+      "AIXEM-CONCEPT-NET-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-HIER-0001",
+        "level": "must",
+        "text": "**MUST.** A semantic source that declares interface ports or uses @PORT endpoints MUST declare hierarchical.interface@1 as a required feature."
+      },
+      {
+        "id": "AIXEM-REQ-HIER-0002",
+        "level": "must",
+        "text": "**MUST.** Every @PORT token in a net or no-connect statement MUST resolve to one unique top-level port declaration in the same leaf semantic source."
+      },
+      {
+        "id": "AIXEM-REQ-HIER-0003",
+        "level": "must",
+        "text": "**MUST.** An interface port MUST occur in at most one local semantic net and MUST NOT be both net-connected and explicitly no-connect."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SPEC-INTERFACE-PORT-001",
+        "path": "docs/specifications/core/interface-port-contract.md"
+      }
+    ],
+    "summary": "Defines feature-gated semantic sheet interface ports and the @PORT endpoint syntax used by hierarchical projects.",
+    "title": "Interface Port Contract 1"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

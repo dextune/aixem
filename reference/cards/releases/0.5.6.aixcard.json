@@ -1,0 +1,53 @@
+{
+  "card": {
+    "aliases": [
+      "0.5.6 release",
+      "live agent cold start release"
+    ],
+    "appliesTo": [
+      "release-notes"
+    ],
+    "domain": "releases",
+    "estimatedReadBytes": 3640,
+    "id": "AIXEM-RELEASE-056-001",
+    "inputs": [],
+    "keywords": [
+      "0.5.6 release",
+      "AIXEM 0.5.6 Live-Agent Cold-Start Authoring",
+      "live agent cold start release",
+      "validate-project"
+    ],
+    "kind": "release-note",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/releases/0.5.6.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:dbc16e98b21ea1154b8ed70434fa1b9c226d5bffd37dac9a3196d30a82868c23"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 500,
+    "readNext": [
+      "AIXEM-RELEASE-055-001",
+      "AIXEM-CONF-AGENT-LIVE-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-RELEASE-056-001.read",
+        "level": "should",
+        "text": "Adds provider-neutral cold-start live-agent execution, observation, hidden invariant scoring, retained attempt evidence, and Agent Evaluation 3 without weakening 0.5.5 authoring contracts."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-RELEASE-056-001",
+        "path": "docs/releases/0.5.6.md"
+      }
+    ],
+    "summary": "Adds provider-neutral cold-start live-agent execution, observation, hidden invariant scoring, retained attempt evidence, and Agent Evaluation 3 without weakening 0.5.5 authoring contracts.",
+    "title": "AIXEM 0.5.6 Live-Agent Cold-Start Authoring"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

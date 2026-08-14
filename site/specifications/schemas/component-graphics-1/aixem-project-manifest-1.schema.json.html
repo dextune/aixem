@@ -1,0 +1,196 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AIXEM Project Manifest 1.0 Candidate — AIXEM Schema</title><link rel="stylesheet" href="../../../assets/site.css"></head><body><header class="topbar"><div class="brand"><span class="brand-mark">AX</span><span>AIXEM<small>Schema Reference</small></span></div></header><main class="content-wrap" style="padding-top:24px"><div class="content"><div class="breadcrumbs"><a href="../index.html">Schema Catalog</a><span>›</span><span>component-graphics-1/aixem-project-manifest-1.schema.json</span></div><header class="doc-head"><div class="eyebrow"><span class="badge normative">JSON Schema</span><span class="doc-id">https://json-schema.org/draft/2020-12/schema</span></div><h1>AIXEM Project Manifest 1.0 Candidate</h1><p class="lead">Machine-readable contract distributed with AIXEM 0.5.9.</p></header><div class="schema-browser"><a href="../../../assets/schemas/component-graphics-1/aixem-project-manifest-1.schema.json">Open raw JSON schema</a></div><article class="article"><pre><code>{
+  &quot;$defs&quot;: {
+    &quot;fileRef&quot;: {
+      &quot;additionalProperties&quot;: false,
+      &quot;properties&quot;: {
+        &quot;digest&quot;: {
+          &quot;pattern&quot;: &quot;^sha256:[0-9a-f]{64}$&quot;,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;id&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;mediaType&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;optional&quot;: {
+          &quot;type&quot;: &quot;boolean&quot;
+        },
+        &quot;path&quot;: {
+          &quot;pattern&quot;: &quot;^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[a-z0-9][a-z0-9._/-]*$&quot;,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;version&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        }
+      },
+      &quot;required&quot;: [
+        &quot;path&quot;,
+        &quot;digest&quot;,
+        &quot;mediaType&quot;
+      ],
+      &quot;type&quot;: &quot;object&quot;
+    }
+  },
+  &quot;$id&quot;: &quot;https://schemas.aixem.org/component-graphics/aixproj/1&quot;,
+  &quot;$schema&quot;: &quot;https://json-schema.org/draft/2020-12/schema&quot;,
+  &quot;additionalProperties&quot;: false,
+  &quot;properties&quot;: {
+    &quot;formatVersion&quot;: {
+      &quot;const&quot;: &quot;1.0&quot;
+    },
+    &quot;project&quot;: {
+      &quot;additionalProperties&quot;: false,
+      &quot;properties&quot;: {
+        &quot;applicationProfile&quot;: {
+          &quot;minLength&quot;: 1,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;description&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;features&quot;: {
+          &quot;items&quot;: {
+            &quot;minLength&quot;: 1,
+            &quot;type&quot;: &quot;string&quot;
+          },
+          &quot;type&quot;: &quot;array&quot;,
+          &quot;uniqueItems&quot;: true
+        },
+        &quot;id&quot;: {
+          &quot;pattern&quot;: &quot;^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$&quot;,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;layout&quot;: {
+          &quot;$ref&quot;: &quot;#/$defs/fileRef&quot;
+        },
+        &quot;libraries&quot;: {
+          &quot;items&quot;: {
+            &quot;$ref&quot;: &quot;#/$defs/fileRef&quot;
+          },
+          &quot;maxItems&quot;: 1024,
+          &quot;minItems&quot;: 1,
+          &quot;type&quot;: &quot;array&quot;
+        },
+        &quot;metadata&quot;: {
+          &quot;type&quot;: &quot;object&quot;
+        },
+        &quot;outputs&quot;: {
+          &quot;items&quot;: {
+            &quot;additionalProperties&quot;: false,
+            &quot;properties&quot;: {
+              &quot;digest&quot;: {
+                &quot;pattern&quot;: &quot;^sha256:[0-9a-f]{64}$&quot;,
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;mediaType&quot;: {
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;path&quot;: {
+                &quot;pattern&quot;: &quot;^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[a-z0-9][a-z0-9._/-]*$&quot;,
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;role&quot;: {
+                &quot;type&quot;: &quot;string&quot;
+              }
+            },
+            &quot;required&quot;: [
+              &quot;role&quot;,
+              &quot;path&quot;,
+              &quot;mediaType&quot;
+            ],
+            &quot;type&quot;: &quot;object&quot;
+          },
+          &quot;type&quot;: &quot;array&quot;
+        },
+        &quot;provenance&quot;: {
+          &quot;type&quot;: &quot;object&quot;
+        },
+        &quot;renderPolicy&quot;: {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;backend&quot;: {
+              &quot;enum&quot;: [
+                &quot;svg&quot;,
+                &quot;canvas2d&quot;,
+                &quot;pdf&quot;,
+                &quot;custom&quot;
+              ]
+            },
+            &quot;defaultVariantPolicy&quot;: {
+              &quot;enum&quot;: [
+                &quot;asset-default&quot;,
+                &quot;library-default&quot;,
+                &quot;explicit-only&quot;
+              ]
+            },
+            &quot;fontPolicy&quot;: {
+              &quot;enum&quot;: [
+                &quot;bundled-metrics&quot;,
+                &quot;system-fallback&quot;,
+                &quot;declared-fixture&quot;
+              ]
+            },
+            &quot;purpose&quot;: {
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;remoteAssets&quot;: {
+              &quot;enum&quot;: [
+                &quot;deny&quot;,
+                &quot;allow-listed&quot;
+              ]
+            },
+            &quot;unsupportedRequiredFeature&quot;: {
+              &quot;enum&quot;: [
+                &quot;reject&quot;,
+                &quot;diagnostic-only&quot;
+              ]
+            }
+          },
+          &quot;required&quot;: [
+            &quot;purpose&quot;,
+            &quot;backend&quot;,
+            &quot;fontPolicy&quot;,
+            &quot;remoteAssets&quot;
+          ],
+          &quot;type&quot;: &quot;object&quot;
+        },
+        &quot;source&quot;: {
+          &quot;$ref&quot;: &quot;#/$defs/fileRef&quot;
+        },
+        &quot;status&quot;: {
+          &quot;enum&quot;: [
+            &quot;example&quot;,
+            &quot;draft&quot;,
+            &quot;controlled&quot;,
+            &quot;released&quot;
+          ]
+        },
+        &quot;title&quot;: {
+          &quot;minLength&quot;: 1,
+          &quot;type&quot;: &quot;string&quot;
+        }
+      },
+      &quot;required&quot;: [
+        &quot;id&quot;,
+        &quot;title&quot;,
+        &quot;applicationProfile&quot;,
+        &quot;source&quot;,
+        &quot;layout&quot;,
+        &quot;libraries&quot;,
+        &quot;renderPolicy&quot;
+      ],
+      &quot;type&quot;: &quot;object&quot;
+    },
+    &quot;schema&quot;: {
+      &quot;const&quot;: &quot;https://schemas.aixem.org/component-graphics/aixproj/1&quot;
+    }
+  },
+  &quot;required&quot;: [
+    &quot;schema&quot;,
+    &quot;formatVersion&quot;,
+    &quot;project&quot;
+  ],
+  &quot;title&quot;: &quot;AIXEM Project Manifest 1.0 Candidate&quot;,
+  &quot;type&quot;: &quot;object&quot;
+}</code></pre></article></div></main></body></html>

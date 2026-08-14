@@ -1,0 +1,32 @@
+{
+  "F4GraphicalGaps": 0,
+  "P2Decision": "NOT_TRIGGERED",
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "records": [
+    {
+      "case": "B005",
+      "class": "F3",
+      "coreFormatChange": false,
+      "id": "AIXEM-052-F3-001",
+      "owner": "production renderer component primitive serialization",
+      "regressionTest": "tests/conformance/test_symbol_expressiveness_corpus.py::SymbolCorpusConformanceTests.test_dimension_label_regression_is_explicit_and_deterministic",
+      "resolution": "Emit explicit deterministic dimension-label fill, stroke, family, and 3 mm-equivalent SVG font size.",
+      "status": "closed",
+      "symptom": "Static dimension labels inherited unsuitable SVG default text sizing."
+    },
+    {
+      "case": "S030",
+      "class": "F5",
+      "coreFormatChange": false,
+      "id": "AIXEM-052-F5-001",
+      "owner": "future component/placement semantics",
+      "resolution": "Publish MU as NOT_SUPPORTED; do not misuse variants or duplicate component entities; require a dedicated ADR before implementation.",
+      "status": "documented-not-implemented",
+      "symptom": "The model cannot place multiple unit presentations sharing one semantic component identity and disjoint port subsets."
+    }
+  ],
+  "release": "AIXEM-SRP-0.5.2-2026-08-11",
+  "schema": "https://schemas.aixem.org/validation/failure-classification/1",
+  "unclassifiedFailures": 0
+}

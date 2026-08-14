@@ -1,0 +1,104 @@
+{
+  "command": {
+    "command": [
+      "/opt/pyvenv/bin/python",
+      "tools/run_tests_058.py",
+      "--shard-count",
+      "8",
+      "--shard-index",
+      "2",
+      "--output",
+      "/mnt/data/aixem058-cycle-05-test-shard-2.json"
+    ],
+    "durationSeconds": 18.684379,
+    "label": "cycle 5 repository tests shard 2",
+    "returnCode": 0,
+    "status": "PASS",
+    "stderrTail": "",
+    "stdoutTail": "[tests] START tests.agent.test_authoring_harness\n[tests] PASS tests.agent.test_authoring_harness (3 tests, 10.601272s)\n[tests] START tests.agent.test_pre_live_readiness\n[tests] PASS tests.agent.test_pre_live_readiness (8 tests, 4.81213s)\n[tests] START tests.conformance.test_viewer_security\n[tests] PASS tests.conformance.test_viewer_security (3 tests, 2.730833s)\n{\"failedModules\": 0, \"modules\": 3, \"successful\": true, \"testsRun\": 14}\n",
+    "valid": true
+  },
+  "cycle": 5,
+  "externalResult": "/mnt/data/aixem058-cycle-05-test-shard-2.json",
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "release": "AIXEM-SRP-0.5.8-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/pre-live-readiness-verification-stage/1",
+  "stage": "tests-2",
+  "status": "PASS",
+  "tests": {
+    "durationSeconds": 18.1446,
+    "errors": [],
+    "executionMode": "isolated-test-module-processes",
+    "failedModules": 0,
+    "failures": [],
+    "formatVersion": "1.0",
+    "generatedAt": "2026-08-12T00:00:00Z",
+    "moduleCount": 3,
+    "modules": [
+      {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "-m",
+          "unittest",
+          "-v",
+          "tests.agent.test_authoring_harness"
+        ],
+        "durationSeconds": 10.601272,
+        "module": "tests.agent.test_authoring_harness",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "test_generated_output_hand_edit_blocks_check (tests.agent.test_authoring_harness.AuthoringHarnessTests.test_generated_output_hand_edit_blocks_check) ... ok\ntest_prepare_check_close_valid_project (tests.agent.test_authoring_harness.AuthoringHarnessTests.test_prepare_check_close_valid_project) ... ok\ntest_wrong_authority_edit_blocks_route (tests.agent.test_authoring_harness.AuthoringHarnessTests.test_wrong_authority_edit_blocks_route) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 10.031s\n\nOK\n",
+        "stdoutTail": "",
+        "testsRun": 3,
+        "valid": true
+      },
+      {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "-m",
+          "unittest",
+          "-v",
+          "tests.agent.test_pre_live_readiness"
+        ],
+        "durationSeconds": 4.81213,
+        "module": "tests.agent.test_pre_live_readiness",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "test_generated_readiness_report_closes_all_pre_live_gates (tests.agent.test_pre_live_readiness.PreLiveReadinessHardeningTests.test_generated_readiness_report_closes_all_pre_live_gates) ... ok\ntest_invariant_basis_rejects_missing_task_and_nonstaged_document (tests.agent.test_pre_live_readiness.PreLiveReadinessHardeningTests.test_invariant_basis_rejects_missing_task_and_nonstaged_document) ... ok\ntest_nested_observation_secrets_are_sanitized_before_retention (tests.agent.test_pre_live_readiness.PreLiveReadinessHardeningTests.test_nested_observation_secrets_are_sanitized_before_retention) ... ok\ntest_observation_consistency_preserves_change_set_authority (tests.agent.test_pre_live_readiness.PreLiveReadinessHardeningTests.test_observation_consistency_preserves_change_set_authority) ... ok\ntest_repository_corpus_protocol_identity_and_clock_modes_are_separate (tests.agent.test_pre_live_readiness.PreLiveReadinessHardeningTests.test_repository_corpus_protocol_identity_and_clock_modes_are_separate) ... ok\ntest_results_and_work_roots_are_location_independent_and_space_safe (tests.agent.test_pre_live_readiness.PreLiveReadinessHardeningTests.test_results_and_work_roots_are_location_independent_and_space_safe) ... ok\ntest_task_reference_manifest_and_symlink_tampering_fail_postflight (tests.agent.test_pre_live_readiness.PreLiveReadinessHardeningTests.test_task_reference_manifest_and_symlink_tampering_fail_postflight) ... ok\ntest_timeout_terminates_spawned_child_process_group (tests.agent.test_pre_live_readiness.PreLiveReadinessHardeningTests.test_timeout_terminates_spawned_child_process_group) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 3.400s\n\nOK\n",
+        "stdoutTail": "",
+        "testsRun": 8,
+        "valid": true
+      },
+      {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "-m",
+          "unittest",
+          "-v",
+          "tests.conformance.test_viewer_security"
+        ],
+        "durationSeconds": 2.730833,
+        "module": "tests.conformance.test_viewer_security",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "test_structural_negative_viewer_models_fail_closed (tests.conformance.test_viewer_security.ViewerSecurityConformanceTests.test_structural_negative_viewer_models_fail_closed) ... ok\ntest_v013_offline_network_denial_and_csp (tests.conformance.test_viewer_security.ViewerSecurityConformanceTests.test_v013_offline_network_denial_and_csp) ... ok\ntest_v014_hostile_authored_text_is_inert (tests.conformance.test_viewer_security.ViewerSecurityConformanceTests.test_v014_hostile_authored_text_is_inert) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 1.211s\n\nOK\n",
+        "stdoutTail": "",
+        "testsRun": 3,
+        "valid": true
+      }
+    ],
+    "passedModules": 3,
+    "release": "AIXEM-SRP-0.5.8-2026-08-12",
+    "schema": "https://schemas.aixem.org/validation/test-run-shard/1",
+    "shard": {
+      "count": 8,
+      "index": 2,
+      "totalDiscoveredModules": 26
+    },
+    "skipped": [],
+    "successful": true,
+    "testsRun": 14
+  },
+  "valid": true
+}

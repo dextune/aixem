@@ -1,0 +1,17 @@
+{
+  "entryRoute": "render-review",
+  "exampleFixture": null,
+  "formatVersion": "1.0",
+  "id": "EVAL-08",
+  "prohibitedDiscovery": [
+    "repository-wide search",
+    "renderer implementation inspection"
+  ],
+  "prompt": "Diagnose a correct-looking route attached to the wrong semantic net without changing symbol geometry.",
+  "requiredExitConditions": [
+    "visual-review-ready"
+  ],
+  "schema": "https://schemas.aixem.org/validation/agent-eval-task/1",
+  "scoringProfile": "validation/agent-evals/scoring.md",
+  "title": "Authority-layer diagnosis"
+}

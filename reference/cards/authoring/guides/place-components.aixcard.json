@@ -1,0 +1,57 @@
+{
+  "card": {
+    "aliases": [
+      "place components guide",
+      "agent placement strategy",
+      "schematic placement workflow"
+    ],
+    "appliesTo": [
+      "authoring-guide-place-components"
+    ],
+    "domain": "authoring",
+    "estimatedReadBytes": 6675,
+    "id": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+    "inputs": [],
+    "keywords": [
+      "Agent Component Placement Strategy",
+      "agent placement strategy",
+      "author-component-circuit",
+      "create-schematic",
+      "place components guide",
+      "schematic placement workflow"
+    ],
+    "kind": "guide",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/authoring/guides/place-components.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:0baad0fe39a448521e116c3ca8ac43becd0eeadbb4ae34c4868480ff14e1279c"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SCHEM-PLACEMENT-001",
+      "AIXEM-SCHEM-GRID-001",
+      "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001.read",
+        "level": "should",
+        "text": "Defines an evidence-ranked deterministic Agent strategy for component placement that preserves existing valid authority and prioritizes semantic readability over compactness."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "path": "docs/authoring/guides/place-components.md"
+      }
+    ],
+    "summary": "Defines an evidence-ranked deterministic Agent strategy for component placement that preserves existing valid authority and prioritizes semantic readability over compactness.",
+    "title": "Agent Component Placement Strategy"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

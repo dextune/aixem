@@ -1,0 +1,97 @@
+{
+  "authority": "evaluator-only",
+  "caseId": "L009",
+  "formatVersion": "1.0",
+  "invariants": [
+    {
+      "arguments": {
+        "project": "project.aixproj.json",
+        "route": "validate-project"
+      },
+      "basis": [
+        {
+          "pointer": "/completionCriteria/3",
+          "type": "task"
+        }
+      ],
+      "description": "The actual final workspace passes full project validation.",
+      "id": "L009-VALID",
+      "predicate": "validator-pass",
+      "required": true
+    },
+    {
+      "arguments": {
+        "project": "project.aixproj.json",
+        "repeats": 3
+      },
+      "basis": [
+        {
+          "pointer": "/completionCriteria/3",
+          "type": "task"
+        }
+      ],
+      "description": "The actual final workspace renders deterministically three times.",
+      "id": "L009-RENDER",
+      "predicate": "render-deterministic",
+      "required": true
+    },
+    {
+      "arguments": {
+        "code": "AIXEM-DIAG-SEMANTIC-NET-CLOSURE",
+        "project": "project.aixproj.json",
+        "route": "create-schematic"
+      },
+      "basis": [
+        {
+          "pointer": "/facts",
+          "type": "task"
+        }
+      ],
+      "description": "The semantic closure diagnostic is absent.",
+      "id": "L009-DIAG",
+      "predicate": "diagnostic-absent",
+      "required": true
+    },
+    {
+      "arguments": {
+        "members": [
+          "T1.1",
+          "T2.1"
+        ],
+        "mode": "exact",
+        "net": "signal",
+        "source": "two_terminal_route.aixem"
+      },
+      "basis": [
+        {
+          "pointer": "/facts",
+          "type": "task"
+        }
+      ],
+      "description": "The valid semantic signal membership is preserved.",
+      "id": "L009-NET",
+      "predicate": "local-net-members",
+      "required": true
+    },
+    {
+      "arguments": {
+        "authorities": [
+          "layout",
+          "symbol",
+          "component-library"
+        ]
+      },
+      "basis": [
+        {
+          "pointer": "/writeConstraints/writableAuthorities",
+          "type": "task"
+        }
+      ],
+      "description": "Layout, symbol, and library authorities remain unchanged.",
+      "id": "L009-PRESERVE",
+      "predicate": "authority-digest-unchanged",
+      "required": true
+    }
+  ],
+  "schema": "https://schemas.aixem.org/agent/evaluation-invariant/1"
+}

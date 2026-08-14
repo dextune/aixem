@@ -1,0 +1,139 @@
+{
+  "coordinateSystem": {
+    "angleDirection": "clockwise",
+    "angleUnit": "deg",
+    "grid": 2.5,
+    "unit": "mm",
+    "yAxis": "down"
+  },
+  "diagnostics": [],
+  "entities": [
+    {
+      "componentType": "conformance:s028",
+      "key": "X1",
+      "kind": "component",
+      "parameters": {},
+      "placement": {
+        "entity": "X1",
+        "layer": "symbols",
+        "x": 60.0,
+        "y": 65.0
+      },
+      "ports": {
+        "A": [
+          60.0,
+          37.5
+        ],
+        "G": [
+          32.5,
+          65.0
+        ],
+        "H1": [
+          50.0,
+          92.5
+        ],
+        "H2": [
+          70.0,
+          92.5
+        ],
+        "K": [
+          60.0,
+          92.5
+        ]
+      },
+      "reference": "X1",
+      "symbolDigest": "sha256:1953b6e6df62d18238d59b5341eb8f374803c93285b9e08fd270391d5a9f6c1f",
+      "symbolId": "corpus:s028-vacuum-tube",
+      "value": "Vacuum tube",
+      "variant": null
+    }
+  ],
+  "featuresUsed": [
+    "compound-path",
+    "cubic-bezier"
+  ],
+  "generatedAt": "2026-08-10T00:00:00Z",
+  "gridValidation": {
+    "crossingPolicy": "junction-required",
+    "orthogonalSegments": 0,
+    "placementExceptions": [],
+    "placements": 1,
+    "placementsOnGrid": 1,
+    "profile": "aixem.schematic.grid-light",
+    "routeSegments": 0,
+    "routeViasOnGrid": true,
+    "snap": 2.5,
+    "zeroLengthSegments": []
+  },
+  "hashes": {
+    "layout": "sha256:403929dbeba1b010c60cb6bf7132804a0fd2465b028f49127c536a6903c7c37a",
+    "libraries": [
+      "sha256:48ef102e9edd3e79b5f73446b66f885c01e3f4e7c1d7c6539da5b3bc06f55c7a"
+    ],
+    "source": "sha256:fadfbd708fd3a3fac167517188d87e2ec3a123821138fc5ac658cd976e21a317",
+    "symbolAssets": [
+      "sha256:1953b6e6df62d18238d59b5341eb8f374803c93285b9e08fd270391d5a9f6c1f"
+    ]
+  },
+  "layers": [
+    {
+      "defaultVisible": true,
+      "id": "connections",
+      "locked": false,
+      "order": 10,
+      "printable": true,
+      "purpose": "semantic net routes"
+    },
+    {
+      "defaultVisible": true,
+      "id": "symbols",
+      "locked": false,
+      "order": 20,
+      "printable": true,
+      "purpose": "component symbols"
+    },
+    {
+      "defaultVisible": true,
+      "id": "annotation",
+      "locked": false,
+      "order": 30,
+      "printable": true,
+      "purpose": "notes"
+    }
+  ],
+  "nets": [],
+  "project": {
+    "id": "conformance:s028",
+    "profile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "title": "S028 Vacuum tube conformance project"
+  },
+  "renderer": {
+    "id": "aixem-grid-schematic-reference-renderer",
+    "version": "0.5.1"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/resolved-scene/1",
+  "sheet": {
+    "height": 155.0,
+    "margin": 10,
+    "titleBlock": {
+      "drawing": "corpus_s028-layout",
+      "revision": "A",
+      "sheet": "1/1",
+      "title": "S028 — Vacuum tube"
+    },
+    "width": 180.0
+  },
+  "statistics": {
+    "entities": 1,
+    "nets": 0,
+    "noConnects": 0,
+    "primitives": 15,
+    "routeSegments": 0,
+    "symbolAssets": 1
+  },
+  "styleProfile": {
+    "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+    "id": "aixem.schematic.grid-light",
+    "path": "aixem-grid-schematic-style-1.aixstyle.json"
+  }
+}

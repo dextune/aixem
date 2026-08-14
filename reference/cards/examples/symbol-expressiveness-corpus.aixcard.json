@@ -1,0 +1,56 @@
+{
+  "card": {
+    "aliases": [
+      "symbol corpus examples",
+      "nearest symbol pattern",
+      "conformance symbol recipes"
+    ],
+    "appliesTo": [
+      "symbol-corpus-example-navigation"
+    ],
+    "domain": "examples",
+    "estimatedReadBytes": 4991,
+    "id": "AIXEM-EXAMPLE-SYMBOL-CORPUS-001",
+    "inputs": [],
+    "keywords": [
+      "Symbol Expressiveness Corpus Construction Index",
+      "conformance symbol recipes",
+      "create-symbol",
+      "nearest symbol pattern",
+      "symbol corpus examples",
+      "validate-symbol-expressiveness"
+    ],
+    "kind": "index",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/examples/symbol-expressiveness-corpus.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:5631a52e460292845d8b3f46b206e7cfd0edf676c7a7a646c4939f83a17d1dad"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 900,
+    "readNext": [
+      "AIXEM-CONF-SYMBOL-EXP-001",
+      "AIXEM-SYMBOL-COOKBOOK-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-EXAMPLE-SYMBOL-CORPUS-001.read",
+        "level": "should",
+        "text": "Maps common symbol classes to the nearest validated corpus construction pattern and its primary authoring risks."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-EXAMPLE-SYMBOL-CORPUS-001",
+        "path": "docs/examples/symbol-expressiveness-corpus.md"
+      }
+    ],
+    "summary": "Maps common symbol classes to the nearest validated corpus construction pattern and its primary authoring risks.",
+    "title": "Symbol Expressiveness Corpus Construction Index"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

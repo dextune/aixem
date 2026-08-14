@@ -1,0 +1,92 @@
+{
+  "capabilities": [
+    {
+      "cases": [
+        "V001"
+      ],
+      "id": "single-sheet-inspection",
+      "status": "pass"
+    },
+    {
+      "cases": [
+        "V002",
+        "V003"
+      ],
+      "id": "sheet-overview-composite",
+      "status": "pass"
+    },
+    {
+      "cases": [
+        "V004",
+        "V005",
+        "V006",
+        "V008",
+        "V009",
+        "V015"
+      ],
+      "id": "qualified-search-and-selection",
+      "status": "pass"
+    },
+    {
+      "cases": [
+        "V007"
+      ],
+      "id": "sheet-scoped-layers",
+      "status": "pass"
+    },
+    {
+      "cases": [
+        "V010"
+      ],
+      "id": "pan-zoom-fit",
+      "status": "pass"
+    },
+    {
+      "cases": [
+        "V011",
+        "V012"
+      ],
+      "id": "keyboard-and-narrow-viewport",
+      "status": "pass"
+    },
+    {
+      "cases": [
+        "V013",
+        "V014"
+      ],
+      "id": "offline-security",
+      "status": "pass"
+    },
+    {
+      "cases": [
+        "V016"
+      ],
+      "id": "ten-sheet-baseline",
+      "status": "pass"
+    },
+    {
+      "cases": [
+        "V017"
+      ],
+      "id": "viewer-workbench-separation",
+      "status": "pass"
+    },
+    {
+      "cases": [
+        "V018"
+      ],
+      "id": "three-run-determinism",
+      "status": "pass"
+    }
+  ],
+  "excludedClaims": [
+    "schematic editing",
+    "authoritative write-back",
+    "KiCad or OrCAD user-interface reproduction"
+  ],
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "publicClaim": "AIXEM provides a deterministic, self-contained, read-only HTML Reference Viewer for single-sheet and hierarchical multi-sheet schematic projects, with qualified semantic inspection, Sheet/Overview/Composite project views, project-net highlighting, hierarchy navigation, sheet-scoped layers, offline operation, and browser-level conformance evidence.",
+  "release": "AIXEM-SRP-0.5.6-2026-08-12",
+  "schema": "https://schemas.aixem.org/conformance/viewer-capability-matrix/1",
+  "status": "pass"
+}

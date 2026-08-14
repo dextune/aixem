@@ -1,0 +1,56 @@
+{
+  "card": {
+    "aliases": [
+      "routing agent",
+      "AI wire routing",
+      "automatic routing"
+    ],
+    "appliesTo": [
+      "agent-routing-workflow"
+    ],
+    "domain": "agent",
+    "estimatedReadBytes": 4429,
+    "id": "AIXEM-AGENT-ROUTING-001",
+    "inputs": [],
+    "keywords": [
+      "AI wire routing",
+      "Routing Agent",
+      "automatic routing",
+      "route-nets",
+      "route-project-nets",
+      "routing agent"
+    ],
+    "kind": "guide",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/agent/routing-agent.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:ee2d6ac7c28527d05876e3b3ad59540e69ae7f30726df779e5449ceeb99fc262"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 500,
+    "readNext": [
+      "AIXEM-ROUTE-BEHAVIOR-001",
+      "AIXEM-ROUTE-CONSTRAINT-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-AGENT-ROUTING-001.read",
+        "level": "should",
+        "text": "Provides an agent sequence for deterministic orthogonal routing with explicit crossings, junctions, and local repair."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-AGENT-ROUTING-001",
+        "path": "docs/agent/routing-agent.md"
+      }
+    ],
+    "summary": "Provides an agent sequence for deterministic orthogonal routing with explicit crossings, junctions, and local repair.",
+    "title": "Routing Agent"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

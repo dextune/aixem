@@ -1,0 +1,333 @@
+{
+  "archivePreflight": {
+    "archive": "aixem-schematic-reference-platform-0.5.1-preflight.zip",
+    "bytes": 13461300,
+    "digest": "sha256:efe7647ed609bf169043c1fe32092706048ebc192c2d47b43b9208f246b673e1",
+    "errors": [],
+    "members": 878,
+    "package": {
+      "bytes": 13461300,
+      "digest": "sha256:efe7647ed609bf169043c1fe32092706048ebc192c2d47b43b9208f246b673e1",
+      "members": 878,
+      "path": "/tmp/aixem-archive-preflight-dk5cau7a/aixem-schematic-reference-platform-0.5.1-preflight.zip",
+      "sourceFiles": 878
+    },
+    "valid": true
+  },
+  "compiledDocuments": 105,
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "initialRequirementEvidence": 160,
+  "release": "AIXEM-SRP-0.5.1-2026-08-11",
+  "releaseMetadata": {
+    "agentEntrypoint": "AGENTS.md",
+    "authoringReadiness": {
+      "documentedPrimitiveTypes": 13,
+      "evaluationMode": "fixture-backed-route-simulation",
+      "liveExternalAgentExecuted": false,
+      "normalTaskRendererSourceInspections": 0,
+      "normalTaskRepositoryWideSearches": 0,
+      "schemaReferenceCoverage": 1.0,
+      "sourceBackedSnippets": 18
+    },
+    "build": {
+      "database": false,
+      "deterministicGeneratedMetadata": true,
+      "remoteRequiredAssets": false,
+      "runtimeBackend": false
+    },
+    "canonicalDocumentationRoot": "docs/",
+    "compatibilityReference": "reference/index.aixref.json",
+    "defaultAgentBudget": {
+      "bytes": 98304,
+      "depth": 3,
+      "documents": 7,
+      "remoteFetch": "deny"
+    },
+    "formatVersion": "1.0",
+    "language": "en",
+    "release": "AIXEM-SRP-0.5.1-2026-08-11",
+    "releaseDate": "2026-08-11",
+    "routeIndex": "docs/_meta/generated/route-index.json",
+    "schema": "https://schemas.aixem.org/release/metadata/1",
+    "schematicProfile": {
+      "junctionPolicy": "explicit",
+      "majorGridMillimeters": 10.0,
+      "routing": "orthogonal",
+      "snapMillimeters": 2.5
+    },
+    "staticSiteEntrypoint": "site/index.html",
+    "statistics": {
+      "agentEvaluationTasks": 8,
+      "authoringExamples": 8,
+      "authoringRouteDocuments": 0,
+      "baseline050FilesInventoried": 642,
+      "canonicalDocuments": 105,
+      "normativeDocuments": 68,
+      "requirements": 160,
+      "sitePages": 120,
+      "taskPackets": 11,
+      "taskRoutes": 11
+    },
+    "status": "final",
+    "taskPacketIndex": "docs/_meta/generated/task-packet-index.json",
+    "validationReport": "validation/final-validation-report.md",
+    "version": "0.5.1"
+  },
+  "render": {
+    "files": 5,
+    "valid": true
+  },
+  "requirements": {
+    "byValidator": {
+      "agent.authoring_routes": 3,
+      "agent.authority_plan": 1,
+      "agent.evidence": 3,
+      "agent.visual_qa": 2,
+      "docs.archive_safety": 2,
+      "docs.artifact_existence": 1,
+      "docs.artifact_ownership": 2,
+      "docs.authority_conflict": 1,
+      "docs.canonical_root": 1,
+      "docs.compatibility_reference": 1,
+      "docs.dependencies": 1,
+      "docs.deprecation": 1,
+      "docs.deterministic": 1,
+      "docs.english": 1,
+      "docs.evidence": 2,
+      "docs.generated_freshness": 4,
+      "docs.generated_locations": 1,
+      "docs.legacy_inventory": 3,
+      "docs.links": 1,
+      "docs.manifest": 2,
+      "docs.metadata": 2,
+      "docs.path_safety": 1,
+      "docs.pipeline": 1,
+      "docs.release_gate": 2,
+      "docs.release_metadata": 2,
+      "docs.reproducibility": 2,
+      "docs.requirement_body": 1,
+      "docs.requirements": 4,
+      "docs.site": 1,
+      "docs.source_digest": 1,
+      "docs.three_passes": 1,
+      "docs.unique_ids": 2,
+      "docs.visual_review": 2,
+      "manual.accessibility": 1,
+      "manual.architecture": 1,
+      "manual.compatibility": 1,
+      "manual.symbol_visual_review": 1,
+      "manual.vendor_neutral": 2,
+      "route.aliases": 2,
+      "route.budget": 3,
+      "route.completion": 1,
+      "route.corpus": 1,
+      "route.resolve": 1,
+      "route.targets": 3,
+      "schematic.annotation": 4,
+      "schematic.authoring_binding": 1,
+      "schematic.authoring_examples": 1,
+      "schematic.component_type_closure": 1,
+      "schematic.coordinate_units": 1,
+      "schematic.deterministic": 4,
+      "schematic.digest_lock": 4,
+      "schematic.endpoint_closure": 2,
+      "schematic.example": 1,
+      "schematic.feature_support": 4,
+      "schematic.geometry_isolation": 4,
+      "schematic.grid": 3,
+      "schematic.junction": 5,
+      "schematic.layout_closure": 1,
+      "schematic.layout_schema": 1,
+      "schematic.library_schema": 1,
+      "schematic.no_connect": 2,
+      "schematic.orthogonal": 2,
+      "schematic.placement_closure": 2,
+      "schematic.port_mapping": 7,
+      "schematic.profile_checks": 1,
+      "schematic.project_schema": 3,
+      "schematic.remote_assets": 5,
+      "schematic.renderer_contract": 6,
+      "schematic.route_clearance": 1,
+      "schematic.route_closure": 3,
+      "schematic.schema": 1,
+      "schematic.semantic": 3,
+      "schematic.style_profile": 2,
+      "schematic.symbol_design": 4,
+      "schematic.symbol_geometry": 1,
+      "schematic.symbol_grid": 1,
+      "schematic.symbol_schema": 4,
+      "schematic.workbench": 1
+    },
+    "evidenceFiles": 160,
+    "formatVersion": "1.0",
+    "generatedAt": "2026-08-11T00:00:00Z",
+    "release": "AIXEM-SRP-0.5.1-2026-08-11",
+    "requirements": 160,
+    "schema": "https://schemas.aixem.org/validation/requirement-evidence-summary/1",
+    "valid": true,
+    "validatorsCovered": 78
+  },
+  "schema": "https://schemas.aixem.org/validation/pass-03/1",
+  "site": {
+    "errors": [],
+    "formatVersion": "1.0",
+    "generatedAt": "2026-08-11T00:00:00Z",
+    "pages": 120,
+    "release": "AIXEM-SRP-0.5.1-2026-08-11",
+    "schema": "https://schemas.aixem.org/validation/site/1",
+    "valid": true
+  },
+  "siteBuild": {
+    "assets": 28,
+    "canonicalPages": 105,
+    "pages": 118,
+    "schemaPages": 12
+  },
+  "tests": {
+    "successful": true,
+    "testsRun": 21
+  },
+  "valid": true,
+  "visualCapture": {
+    "captures": [
+      {
+        "bytes": 436678,
+        "digest": "sha256:6ff831489b0f3e8c228932fd64512279711d710607bac0b55eec80d7d3d5ab90",
+        "file": "validation/evidence/pass-03/site-home-desktop.png",
+        "fullPage": true,
+        "height": 3174,
+        "source": "site/index.html",
+        "viewport": {
+          "height": 1000,
+          "width": 1440
+        },
+        "width": 1440
+      },
+      {
+        "bytes": 373274,
+        "digest": "sha256:7e6adfde6c0e81dfd568adc87a1a04e572106b92b10dfe6f9efc05443c1e0471",
+        "file": "validation/evidence/pass-03/site-home-narrow.png",
+        "fullPage": true,
+        "height": 4516,
+        "source": "site/index.html",
+        "viewport": {
+          "height": 900,
+          "width": 430
+        },
+        "width": 430
+      },
+      {
+        "bytes": 279207,
+        "digest": "sha256:d32f98beb06993f5b018935b5596b2786a7d8bb310a52d73c3db048efb1f4907",
+        "file": "validation/evidence/pass-03/authoring-home-desktop.png",
+        "fullPage": true,
+        "height": 1983,
+        "source": "site/authoring/index.html",
+        "viewport": {
+          "height": 1000,
+          "width": 1440
+        },
+        "width": 1440
+      },
+      {
+        "bytes": 1362909,
+        "digest": "sha256:3e0c679cb643ea42bd807fa40ccd015767563841ea1d259d66f4dddd507520c1",
+        "file": "validation/evidence/pass-03/symbol-cookbook-desktop.png",
+        "fullPage": true,
+        "height": 19722,
+        "source": "site/symbols/authoring-cookbook.html",
+        "viewport": {
+          "height": 1000,
+          "width": 1440
+        },
+        "width": 1440
+      },
+      {
+        "bytes": 789385,
+        "digest": "sha256:885e22552ed87e294241baf41732f29f7883962ab845d9b30cb3e395446fd55b",
+        "file": "validation/evidence/pass-03/renderer-contract-desktop.png",
+        "fullPage": true,
+        "height": 5017,
+        "source": "site/specifications/renderer/renderer-contract.html",
+        "viewport": {
+          "height": 1000,
+          "width": 1440
+        },
+        "width": 1440
+      },
+      {
+        "bytes": 6979446,
+        "digest": "sha256:2664a1a0663230b459345cdc7ca871a71143eab6bb1a2f22774970f9b99939e6",
+        "file": "validation/evidence/pass-03/requirements-desktop.png",
+        "fullPage": true,
+        "height": 46164,
+        "source": "site/conformance/requirements.html",
+        "viewport": {
+          "height": 1000,
+          "width": 1440
+        },
+        "width": 1440
+      },
+      {
+        "bytes": 242586,
+        "digest": "sha256:41dbd00a8a5f649c5a993e094fc72000bca5e6a9f69d4c2db4f468d185d732f4",
+        "file": "validation/evidence/pass-03/schematic-workbench-desktop.png",
+        "fullPage": false,
+        "height": 1000,
+        "source": "examples/electronics-grid-controller/render/workbench.html",
+        "viewport": {
+          "height": 1000,
+          "width": 1600
+        },
+        "width": 1600
+      },
+      {
+        "bytes": 104051,
+        "digest": "sha256:2df805792097433703c489fd2894d090f199fb2ddba8f25156a3d56435e64778",
+        "file": "validation/evidence/pass-03/authoring-passive-workbench.png",
+        "fullPage": false,
+        "height": 1000,
+        "source": "examples/authoring/01-two-pin-passive/render/workbench.html",
+        "viewport": {
+          "height": 1000,
+          "width": 1600
+        },
+        "width": 1600
+      },
+      {
+        "bytes": 128379,
+        "digest": "sha256:aa1b8df264d4553a5d5af8a8bac150b063800323d2efe0f798f86068d0eb6789",
+        "file": "validation/evidence/pass-03/authoring-ic-workbench.png",
+        "fullPage": false,
+        "height": 1000,
+        "source": "examples/authoring/03-multi-pin-ic/render/workbench.html",
+        "viewport": {
+          "height": 1000,
+          "width": 1600
+        },
+        "width": 1600
+      },
+      {
+        "bytes": 119871,
+        "digest": "sha256:da24c5a07b86915fd76c9a37b1c194035f27a121ff89839530be69ad90c9332f",
+        "file": "validation/evidence/pass-03/authoring-junction-workbench.png",
+        "fullPage": false,
+        "height": 1000,
+        "source": "examples/authoring/07-multi-terminal-junction/render/workbench.html",
+        "viewport": {
+          "height": 1000,
+          "width": 1600
+        },
+        "width": 1600
+      }
+    ],
+    "engine": "playwright-chromium-set-content",
+    "formatVersion": "1.0",
+    "generatedAt": "2026-08-11T00:00:00Z",
+    "networkAccess": "not used",
+    "release": "AIXEM-SRP-0.5.1-2026-08-11",
+    "schema": "https://schemas.aixem.org/validation/visual-capture/1",
+    "valid": true
+  }
+}

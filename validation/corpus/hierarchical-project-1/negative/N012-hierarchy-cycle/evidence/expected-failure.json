@@ -1,0 +1,7 @@
+{
+  "case": "N012",
+  "expectedDiagnostic": "PROJECT_HIERARCHY_CYCLE",
+  "matched": true,
+  "observedError": "PROJECT_HIERARCHY_CYCLE: control -> power -> control -> control",
+  "status": "pass"
+}

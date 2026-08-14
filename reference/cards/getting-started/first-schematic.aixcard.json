@@ -1,0 +1,56 @@
+{
+  "card": {
+    "aliases": [
+      "first schematic",
+      "new schematic tutorial",
+      "create circuit"
+    ],
+    "appliesTo": [
+      "schematic-authoring-workflow"
+    ],
+    "domain": "getting-started",
+    "estimatedReadBytes": 3564,
+    "id": "AIXEM-START-FIRST-001",
+    "inputs": [],
+    "keywords": [
+      "Create Your First Schematic",
+      "create circuit",
+      "create-schematic",
+      "first schematic",
+      "new schematic tutorial"
+    ],
+    "kind": "guide",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/getting-started/first-schematic.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:9132f3bfb390e7729b106800a281ccb0e47af939c58f30573c69f9db81ab89be"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 500,
+    "readNext": [
+      "AIXEM-CONCEPT-AUTHORITY-001",
+      "AIXEM-FORMAT-AIXEM-001",
+      "AIXEM-FORMAT-AIXPROJ-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-START-FIRST-001.read",
+        "level": "should",
+        "text": "Shows the minimum authoring sequence for semantic source, library binding, symbol assets, layout, project lock, render, and validation."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-START-FIRST-001",
+        "path": "docs/getting-started/first-schematic.md"
+      }
+    ],
+    "summary": "Shows the minimum authoring sequence for semantic source, library binding, symbol assets, layout, project lock, render, and validation.",
+    "title": "Create Your First Schematic"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

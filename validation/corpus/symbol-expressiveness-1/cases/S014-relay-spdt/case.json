@@ -1,0 +1,82 @@
+{
+  "category": "electromechanical",
+  "componentPorts": [
+    {
+      "id": "A1",
+      "name": "A1",
+      "required": true,
+      "type": "passive"
+    },
+    {
+      "id": "A2",
+      "name": "A2",
+      "required": true,
+      "type": "passive"
+    },
+    {
+      "id": "COM",
+      "name": "COM",
+      "required": true,
+      "type": "passive"
+    },
+    {
+      "id": "NC",
+      "name": "NC",
+      "required": true,
+      "type": "passive"
+    },
+    {
+      "id": "NO",
+      "name": "NO",
+      "required": true,
+      "type": "passive"
+    }
+  ],
+  "expectedBoundsClass": "compact",
+  "expectedFieldRoles": [
+    "reference-field",
+    "value-field"
+  ],
+  "expectedGridPolicy": "ports-on-2.5mm",
+  "expectedParameterIds": [
+    "show-link"
+  ],
+  "expectedPortCount": 5,
+  "expectedPrimitiveFamilies": [
+    "circle",
+    "line",
+    "rect",
+    "text"
+  ],
+  "expectedVariantIds": [],
+  "expectedVisiblePortCount": 5,
+  "formatVersion": "1.0",
+  "id": "S014",
+  "knownExclusions": [],
+  "manualReviewChecks": [
+    "silhouette-recognizable",
+    "ports-attached-to-expected-leads",
+    "pin-number-name-separation",
+    "reference-value-clear-of-body",
+    "polarity-arrow-inversion-state-unambiguous",
+    "repeated-geometry-evenly-spaced",
+    "normal-scale-readable",
+    "no-false-connectivity-detail",
+    "variant-endpoint-identity-preserved",
+    "path-has-no-fill-or-self-intersection-artifact"
+  ],
+  "optionalCapabilities": [],
+  "purpose": "Coil, mechanically associated changeover contact, and five ports",
+  "requiredCapabilities": [
+    "geometry.circle",
+    "geometry.line",
+    "geometry.rect",
+    "port.mapping",
+    "text.field",
+    "visibility.predicate"
+  ],
+  "schema": "https://schemas.aixem.org/conformance/corpus-case/1",
+  "symbolPath": "symbol.aixsym.json",
+  "tier": "core",
+  "title": "SPDT relay"
+}

@@ -1,0 +1,23 @@
+schema: https://schemas.aixem.org/documentation/path-migrations/1
+formatVersion: '1.0'
+migrations:
+  - document: AIXEM-GOV-COMPAT-001
+    from: docs/governance/compatibility.md
+    to: docs/governance/compatibility-policy.md
+    since: 0.5.7
+    reason: Disambiguate the governance policy from the conformance profile.
+  - document: AIXEM-CONF-COMPAT-001
+    from: docs/conformance/compatibility.md
+    to: docs/conformance/compatibility-conformance.md
+    since: 0.5.7
+    reason: Make the conformance purpose explicit when parent-directory context is absent.
+  - document: AIXEM-SYMBOL-COOKBOOK-001
+    from: docs/symbols/authoring-cookbook.md
+    to: docs/symbols/symbol-authoring-cookbook.md
+    since: 0.5.7
+    reason: Distinguish symbol recipes from schematic authoring recipes in agent retrieval output.
+  - document: AIXEM-SCHEM-COOKBOOK-001
+    from: docs/schematic/authoring-cookbook.md
+    to: docs/schematic/schematic-authoring-cookbook.md
+    since: 0.5.7
+    reason: Distinguish schematic recipes from symbol authoring recipes in agent retrieval output.

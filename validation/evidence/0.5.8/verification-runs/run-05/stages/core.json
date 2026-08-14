@@ -1,0 +1,98 @@
+{
+  "commands": [
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "py_compile",
+        "implementation/agent/task_contract.py",
+        "implementation/agent/cold_start_stage.py",
+        "implementation/agent/live_executor.py",
+        "implementation/agent/observation.py",
+        "implementation/agent/secret_hygiene.py",
+        "implementation/agent/invariant_scorer.py",
+        "implementation/agent/live_run.py",
+        "tests/fixtures/agents/readiness_fixture_agent.py",
+        "tools/live_agent_authoring.py",
+        "tools/build_agent_evals_3.py",
+        "tools/run_agent_evals_3.py",
+        "tools/run_tests_058.py",
+        "tools/verify_release_058.py",
+        "tools/package_release_058.py"
+      ],
+      "durationSeconds": 0.707509,
+      "label": "cycle 5 core compilation",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "",
+      "stdoutTail": "",
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "tools/docs/build_all.py"
+      ],
+      "durationSeconds": 4.171661,
+      "label": "cycle 5 core documentation build 1",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "",
+      "stdoutTail": "{\n  \"documents\": 143,\n  \"routes\": 16,\n  \"reference\": {\n    \"cards\": 143,\n    \"routes\": 16,\n    \"domains\": 15,\n    \"files\": 180\n  },\n  \"site\": {\n    \"pages\": 173,\n    \"canonicalPages\": 143,\n    \"schemaPages\": 25,\n    \"redirectPages\": 4,\n    \"assets\": 44\n  }\n}\n",
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "tools/docs/build_all.py"
+      ],
+      "durationSeconds": 4.118928,
+      "label": "cycle 5 core documentation build 2",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "",
+      "stdoutTail": "{\n  \"documents\": 143,\n  \"routes\": 16,\n  \"reference\": {\n    \"cards\": 143,\n    \"routes\": 16,\n    \"domains\": 15,\n    \"files\": 180\n  },\n  \"site\": {\n    \"pages\": 173,\n    \"canonicalPages\": 143,\n    \"schemaPages\": 25,\n    \"redirectPages\": 4,\n    \"assets\": 44\n  }\n}\n",
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "tools/docs/audit_repository_docs.py",
+        "--require-redirects"
+      ],
+      "durationSeconds": 1.883925,
+      "label": "cycle 5 core repository document audit",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "",
+      "stdoutTail": "{\n  \"documents\": 255,\n  \"errors\": [],\n  \"humanAuthored\": 243,\n  \"orphans\": 0,\n  \"pathMigrations\": {\n    \"errors\": [],\n    \"migrations\": 4,\n    \"redirectsChecked\": true,\n    \"valid\": true\n  },\n  \"roles\": {\n    \"canonical-document\": 143,\n    \"corpus-instruction\": 2,\n    \"evaluation-suite-document\": 6,\n    \"evaluation-task\": 12,\n    \"evidence-review\": 5,\n    \"example-local-instruction\": 10,\n    \"implementation-plan\": 9,\n    \"legacy-explanation\": 1,\n    \"planning-entrypoint\": 1,\n    \"root-entrypoint\": 7,\n    \"validation-entrypoint\": 3,\n    \"validation-release-index\": 9,\n    \"validation-report\": 35,\n    \"verification-run-report\": 12\n  },\n  \"unknownRoles\": 0,\n  \"valid\": true,\n  \"warnings\": []\n}\n",
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "tools/docs/validate_docs.py"
+      ],
+      "durationSeconds": 1.958637,
+      "label": "cycle 5 core canonical documentation validation",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "",
+      "stdoutTail": "{\n  \"documents\": 143,\n  \"errors\": [],\n  \"normativeDocuments\": 96,\n  \"requirements\": 245,\n  \"totalBytes\": 879865,\n  \"valid\": true,\n  \"warnings\": []\n}\n",
+      "valid": true
+    }
+  ],
+  "cycle": 5,
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "generatedDeterminism": {
+    "changed": [],
+    "files": 423,
+    "valid": true
+  },
+  "release": "AIXEM-SRP-0.5.8-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/pre-live-readiness-verification-stage/1",
+  "stage": "core",
+  "status": "PASS",
+  "valid": true
+}

@@ -1,0 +1,81 @@
+{
+  "canonicalHashes": {
+    "project-composite.svg": "sha256:ebe216f3cd425e42214bb1cad768525a990393c44d60d473a70841942df87d7f",
+    "project-overview.svg": "sha256:e54e37e14f71fcbcc412c394bcd9d0e58c7a1edf7bb84010e1d6a812b0b2b96b",
+    "resolved-project-scene.json": "sha256:e7b54f69edb3401334eadf1513ff9d701b6394aa3d96eef562e45f202cf0b288",
+    "sheets/control.resolved-scene.json": "sha256:51335604921d2146c38f707d6ff79b61615f71ea59068a8a250ea68503f1c94c",
+    "sheets/control.svg": "sha256:a95bb0d3a5e7db401dca5b9ec5f12416e1c82b3b4b89d0a450148df25cc5aeb0",
+    "sheets/power.resolved-scene.json": "sha256:76242db8bc8b51a864faa84fbb184ae79f53d6b20574426f1534f93716026ce0",
+    "sheets/power.svg": "sha256:6685c6308a7bf0ad3578d687a2489f74702b1114caab049f854e9b372e3cd0c3",
+    "viewer-model.json": "sha256:3a1884b58e915facad6c406fb2ce65029bff3f0b1ef3bf8b6abec4612643a53e",
+    "viewer.html": "sha256:5430ce6ec2c05ac3cb04fc26aa74b68fe2f477435a92918e39721b0b07f9f375",
+    "workbench.html": "sha256:0eb9491204026862d021dcd53ab8b1e12610eac0075e89588caec9df56f7f5a4"
+  },
+  "checks": [
+    {
+      "id": "PROJECT_SHEET_COUNT",
+      "observation": 2,
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_GRAPH_PRESENT",
+      "observation": [
+        "identities",
+        "projectNets",
+        "unconnectedPorts"
+      ],
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_AUTHORITY",
+      "observation": {
+        "connectivityFromGeometry": false,
+        "layersAreSheets": false,
+        "localPresentation": "aixlayout/2",
+        "localSemantics": ".aixem",
+        "projectComposition": "aixproj/2"
+      },
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_LAYER_AUTHORITY",
+      "observation": {
+        "connectivityFromGeometry": false,
+        "layersAreSheets": false,
+        "localPresentation": "aixlayout/2",
+        "localSemantics": ".aixem",
+        "projectComposition": "aixproj/2"
+      },
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_ROUTES_ORTHOGONAL",
+      "observation": "overview+composite",
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_WORKBENCH_DATA_DRIVEN",
+      "observation": "resolved hierarchy",
+      "status": "pass"
+    },
+    {
+      "id": "H007_OVERVIEW",
+      "observation": {
+        "height": 378.0,
+        "width": 453.0
+      },
+      "status": "pass"
+    }
+  ],
+  "deterministic": true,
+  "diagnosticMatched": true,
+  "error": null,
+  "expected": "pass",
+  "expectedDiagnostic": null,
+  "id": "H007",
+  "observed": "pass",
+  "projectDigest": "sha256:9b0f3f810bc86bad81f752f7ed39f649f195f759cd5144b0ac0a1d99d170e8e3",
+  "repeatCount": 3,
+  "status": "pass",
+  "title": "Project Overview"
+}

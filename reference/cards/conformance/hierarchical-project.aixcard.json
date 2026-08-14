@@ -1,0 +1,78 @@
+{
+  "card": {
+    "aliases": [
+      "hierarchical corpus",
+      "multisheet conformance",
+      "H001 H015"
+    ],
+    "appliesTo": [
+      "hierarchical-conformance",
+      "hierarchical-public-claims"
+    ],
+    "domain": "conformance",
+    "estimatedReadBytes": 10424,
+    "id": "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
+    "inputs": [],
+    "keywords": [
+      "H001 H015",
+      "Hierarchical Project Conformance",
+      "compose-project",
+      "hierarchical corpus",
+      "multisheet conformance",
+      "publish-release",
+      "validate-project"
+    ],
+    "kind": "conformance",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/conformance/hierarchical-project.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:a951754958a0d0f0a91838ba1f395e76f92ca78642b199563ec5631f19747723"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SPEC-PROJECT-COMPOSITION-001",
+      "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-HIER-0011",
+        "level": "must",
+        "text": "**MUST.** Every valid aixproj/2 sheet MUST resolve and render through the production leaf pipeline as an independent SVG and resolved scene."
+      },
+      {
+        "id": "AIXEM-REQ-HIER-0012",
+        "level": "must",
+        "text": "**MUST.** A conforming hierarchical render MUST provide Sheet, Overview, and Composite views using resolved project data and sheet-qualified identity."
+      },
+      {
+        "id": "AIXEM-REQ-HIER-0013",
+        "level": "must",
+        "text": "**MUST.** Three complete render runs from identical staged inputs MUST produce identical per-sheet, overview, composite, and resolved-project-scene digests."
+      },
+      {
+        "id": "AIXEM-REQ-HIER-0014",
+        "level": "must",
+        "text": "**MUST.** Valid aixproj/1 and aixlayout/1 projects MUST remain valid and preserve their production drawing and resolved-scene bytes."
+      },
+      {
+        "id": "AIXEM-REQ-HIER-0015",
+        "level": "must",
+        "text": "**MUST.** Release evidence MUST record three completed verification passes covering semantic structure, rendering and agent usability, and regression and claim integrity."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
+        "path": "docs/conformance/hierarchical-project.md"
+      }
+    ],
+    "summary": "Defines the executable H001-H015 and N001-N015 profile, deterministic render evidence, compatibility gates, and public claim boundary for AIXEM 0.5.3.",
+    "title": "Hierarchical Project Conformance"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

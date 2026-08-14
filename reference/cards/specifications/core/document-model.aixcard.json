@@ -1,0 +1,64 @@
+{
+  "card": {
+    "aliases": [
+      "document model",
+      "canonical docs",
+      "front matter contract"
+    ],
+    "appliesTo": [
+      "canonical-document-contract"
+    ],
+    "domain": "specifications",
+    "estimatedReadBytes": 5696,
+    "id": "AIXEM-SPEC-DOCUMENT-001",
+    "inputs": [],
+    "keywords": [
+      "Canonical Document Model",
+      "build-documentation",
+      "canonical docs",
+      "change-architecture",
+      "document model",
+      "front matter contract",
+      "publish-release"
+    ],
+    "kind": "specification",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/specifications/core/document-model.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:1063c81430fdcd58a74ebed7b9fabad5b92d47b7b53de4fa373d9c5afcb974b6"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-DOCS-0001",
+        "level": "must",
+        "text": "**MUST.** Every canonical Markdown document MUST contain front matter that validates against the active document metadata schema."
+      },
+      {
+        "id": "AIXEM-REQ-DOCS-0002",
+        "level": "must",
+        "text": "**MUST.** Every canonical document MUST have a repository-unique stable ID."
+      },
+      {
+        "id": "AIXEM-REQ-DOCS-0003",
+        "level": "must",
+        "text": "**MUST.** Every 0.5 canonical document and generated documentation page MUST be written in English."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SPEC-DOCUMENT-001",
+        "path": "docs/specifications/core/document-model.md"
+      }
+    ],
+    "summary": "Defines canonical document identity, metadata, status, language, authority, dependencies, aliases, agent intents, and navigation order.",
+    "title": "Canonical Document Model"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

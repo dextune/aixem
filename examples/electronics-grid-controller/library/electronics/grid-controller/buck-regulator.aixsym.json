@@ -1,0 +1,259 @@
+{
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/component-graphics/aixsym/1",
+  "symbol": {
+    "anchors": [
+      {
+        "id": "origin",
+        "kind": "insertion",
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "bounds": {
+      "height": 40,
+      "width": 52,
+      "x": -26,
+      "y": -20
+    },
+    "coordinateSystem": {
+      "angleDirection": "clockwise",
+      "angleUnit": "deg",
+      "grid": 0.5,
+      "unit": "mm",
+      "yAxis": "down"
+    },
+    "definitions": {},
+    "description": "Buck regulator block",
+    "graphics": [
+      {
+        "id": "vin-lead",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": -24,
+        "x2": -16,
+        "y1": 0,
+        "y2": 0
+      },
+      {
+        "id": "vout-lead",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": 16,
+        "x2": 24,
+        "y1": 0,
+        "y2": 0
+      },
+      {
+        "id": "gnd-lead",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": 0,
+        "x2": 0,
+        "y1": 12,
+        "y2": 18
+      },
+      {
+        "height": 24,
+        "id": "body",
+        "layer": "body",
+        "rx": 3,
+        "ry": 3,
+        "style": "body-fill",
+        "type": "rect",
+        "width": 32,
+        "x": -16,
+        "y": -12
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "id": "name",
+        "layer": "detail",
+        "style": "field",
+        "text": "BUCK",
+        "type": "text",
+        "x": 0,
+        "y": -1
+      },
+      {
+        "id": "vin",
+        "layer": "detail",
+        "style": "value",
+        "text": "VIN",
+        "type": "text",
+        "x": -14,
+        "y": 5
+      },
+      {
+        "id": "vout",
+        "layer": "detail",
+        "style": "value",
+        "text": "VOUT",
+        "type": "text",
+        "x": 7,
+        "y": 5
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "field": "reference",
+        "id": "reference",
+        "layer": "fields",
+        "style": "field",
+        "type": "text",
+        "x": 0,
+        "y": -16
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "field": "value",
+        "id": "value",
+        "layer": "fields",
+        "style": "value",
+        "type": "text",
+        "x": 0,
+        "y": 17
+      }
+    ],
+    "id": "demo.electronics:buck-regulator",
+    "layers": [
+      {
+        "defaultVisible": true,
+        "id": "body",
+        "locked": true,
+        "order": 10,
+        "printable": true,
+        "purpose": "symbol body"
+      },
+      {
+        "defaultVisible": true,
+        "id": "detail",
+        "locked": true,
+        "order": 20,
+        "printable": true,
+        "purpose": "symbol details"
+      },
+      {
+        "defaultVisible": true,
+        "id": "fields",
+        "locked": false,
+        "order": 30,
+        "printable": true,
+        "purpose": "reference and value fields"
+      }
+    ],
+    "paintServers": {},
+    "parameters": {},
+    "ports": [
+      {
+        "id": "VIN",
+        "kind": "electrical",
+        "labelVisible": false,
+        "name": "VIN",
+        "number": "VIN",
+        "numberVisible": false,
+        "orientation": 180,
+        "snapRadius": 1.5,
+        "x": -24,
+        "y": 0
+      },
+      {
+        "id": "VOUT",
+        "kind": "electrical",
+        "labelVisible": false,
+        "name": "VOUT",
+        "number": "VOUT",
+        "numberVisible": false,
+        "orientation": 0,
+        "snapRadius": 1.5,
+        "x": 24,
+        "y": 0
+      },
+      {
+        "id": "GND",
+        "kind": "electrical",
+        "labelVisible": false,
+        "name": "GND",
+        "number": "GND",
+        "numberVisible": false,
+        "orientation": 90,
+        "snapRadius": 1.5,
+        "x": 0,
+        "y": 18
+      }
+    ],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-10",
+      "license": "CC0-1.0",
+      "notes": "Original example geometry.",
+      "origin": "AIXEM Implementation Baseline 0.3 original example asset"
+    },
+    "purpose": "schematic-symbol",
+    "requiredFeatures": [],
+    "revision": "1.0.0",
+    "styles": {
+      "accent": {
+        "fill": "none",
+        "stroke": "#2458a6",
+        "strokeLinecap": "round",
+        "strokeLinejoin": "round",
+        "strokeWidth": 1.3
+      },
+      "body": {
+        "fill": "#ffffff",
+        "stroke": "#17212b",
+        "strokeLinecap": "round",
+        "strokeLinejoin": "round",
+        "strokeWidth": 1.4
+      },
+      "body-fill": {
+        "fill": "#eef3f7",
+        "stroke": "#17212b",
+        "strokeLinecap": "round",
+        "strokeLinejoin": "round",
+        "strokeWidth": 1.4
+      },
+      "field": {
+        "fill": "#17212b",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 4.2,
+        "fontWeight": 600,
+        "stroke": "none"
+      },
+      "line": {
+        "fill": "none",
+        "stroke": "#17212b",
+        "strokeLinecap": "round",
+        "strokeLinejoin": "round",
+        "strokeWidth": 1.4
+      },
+      "solid": {
+        "fill": "#17212b",
+        "stroke": "#17212b",
+        "strokeWidth": 1.1
+      },
+      "thin": {
+        "fill": "none",
+        "stroke": "#56616d",
+        "strokeLinecap": "round",
+        "strokeLinejoin": "round",
+        "strokeWidth": 0.9
+      },
+      "value": {
+        "fill": "#56616d",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.4,
+        "fontWeight": 400,
+        "stroke": "none"
+      }
+    },
+    "title": "Buck regulator block",
+    "variants": []
+  }
+}

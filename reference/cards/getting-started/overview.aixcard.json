@@ -1,0 +1,53 @@
+{
+  "card": {
+    "aliases": [
+      "getting started",
+      "onboarding",
+      "start AIXEM"
+    ],
+    "appliesTo": [
+      "onboarding"
+    ],
+    "domain": "getting-started",
+    "estimatedReadBytes": 3571,
+    "id": "AIXEM-START-INDEX-001",
+    "inputs": [],
+    "keywords": [
+      "Getting Started",
+      "create-schematic",
+      "getting started",
+      "learn-aixem",
+      "onboarding",
+      "start AIXEM"
+    ],
+    "kind": "index",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/getting-started/overview.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:71f0ac8deefe3978aaedb7630b457a445c4eed68df9d9abba8fa7aeaccceb05a"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 500,
+    "readNext": [],
+    "rules": [
+      {
+        "id": "AIXEM-START-INDEX-001.read",
+        "level": "should",
+        "text": "A short learning path from the AIXEM model to a rendered and validated schematic."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-START-INDEX-001",
+        "path": "docs/getting-started/index.md"
+      }
+    ],
+    "summary": "A short learning path from the AIXEM model to a rendered and validated schematic.",
+    "title": "Getting Started"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

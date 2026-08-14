@@ -1,0 +1,48 @@
+{
+  "activeRoute": "compose-project",
+  "completionCriteria": [
+    "Use AGENTS.md and the compiled route packet before editing.",
+    "Edit only the authoritative files allowed by the active route.",
+    "Run prepare, check, authority-local repair, and close.",
+    "Leave zero blocking diagnostics, zero scope violations, and deterministic render evidence."
+  ],
+  "entryRoute": "compose-project",
+  "expectedArtifacts": [
+    "project.aixproj.json"
+  ],
+  "facts": {
+    "members": [
+      "alpha@GND",
+      "beta@GND"
+    ],
+    "mustRemainLocal": [
+      "alpha:vcc",
+      "beta:vcc"
+    ],
+    "projectNet": "common_return_77"
+  },
+  "formatVersion": "1.0",
+  "id": "L007",
+  "operation": "modify",
+  "project": "project.aixproj.json",
+  "prompt": "Add only the explicit common_return_77 project net between alpha.GND and beta.GND. Keep the same-name local vcc nets namespace-isolated and do not create a VCC project net.",
+  "routingMode": "fixed",
+  "schema": "https://schemas.aixem.org/agent/task/1",
+  "title": "Same-name local nets",
+  "writeConstraints": {
+    "prohibitedPaths": [
+      "render/**",
+      "evidence/**"
+    ],
+    "requiredValidators": [
+      "agent.live_stage",
+      "agent.evaluation_invariants"
+    ],
+    "writableAuthorities": [
+      "project"
+    ],
+    "writablePaths": [
+      "project.aixproj.json"
+    ]
+  }
+}

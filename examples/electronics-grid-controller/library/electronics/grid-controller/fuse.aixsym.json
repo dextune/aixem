@@ -1,0 +1,230 @@
+{
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/component-graphics/aixsym/1",
+  "symbol": {
+    "anchors": [
+      {
+        "id": "origin",
+        "kind": "insertion",
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "bounds": {
+      "height": 26,
+      "width": 40,
+      "x": -20,
+      "y": -13
+    },
+    "coordinateSystem": {
+      "angleDirection": "clockwise",
+      "angleUnit": "deg",
+      "grid": 0.5,
+      "unit": "mm",
+      "yAxis": "down"
+    },
+    "definitions": {},
+    "description": "Fuse",
+    "graphics": [
+      {
+        "id": "lead-1",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": -16,
+        "x2": -10,
+        "y1": 0,
+        "y2": 0
+      },
+      {
+        "height": 8,
+        "id": "body",
+        "layer": "body",
+        "rx": 1,
+        "ry": 1,
+        "style": "body",
+        "type": "rect",
+        "width": 20,
+        "x": -10,
+        "y": -4
+      },
+      {
+        "commands": [
+          {
+            "cmd": "M",
+            "x": -8,
+            "y": 0
+          },
+          {
+            "cmd": "C",
+            "x": 8,
+            "x1": -4,
+            "x2": 4,
+            "y": 0,
+            "y1": -5,
+            "y2": 5
+          }
+        ],
+        "id": "element",
+        "layer": "detail",
+        "style": "thin",
+        "type": "path"
+      },
+      {
+        "id": "lead-2",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": 10,
+        "x2": 16,
+        "y1": 0,
+        "y2": 0
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "field": "reference",
+        "id": "reference",
+        "layer": "fields",
+        "style": "field",
+        "type": "text",
+        "x": 0,
+        "y": -9
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "field": "value",
+        "id": "value",
+        "layer": "fields",
+        "style": "value",
+        "type": "text",
+        "x": 0,
+        "y": 10
+      }
+    ],
+    "id": "demo.electronics:fuse",
+    "layers": [
+      {
+        "defaultVisible": true,
+        "id": "body",
+        "locked": true,
+        "order": 10,
+        "printable": true,
+        "purpose": "symbol body"
+      },
+      {
+        "defaultVisible": true,
+        "id": "detail",
+        "locked": true,
+        "order": 20,
+        "printable": true,
+        "purpose": "symbol details"
+      },
+      {
+        "defaultVisible": true,
+        "id": "fields",
+        "locked": false,
+        "order": 30,
+        "printable": true,
+        "purpose": "reference and value fields"
+      }
+    ],
+    "paintServers": {},
+    "parameters": {},
+    "ports": [
+      {
+        "id": "1",
+        "kind": "electrical",
+        "labelVisible": false,
+        "name": "1",
+        "number": "1",
+        "numberVisible": false,
+        "orientation": 180,
+        "snapRadius": 1.5,
+        "x": -16,
+        "y": 0
+      },
+      {
+        "id": "2",
+        "kind": "electrical",
+        "labelVisible": false,
+        "name": "2",
+        "number": "2",
+        "numberVisible": false,
+        "orientation": 0,
+        "snapRadius": 1.5,
+        "x": 16,
+        "y": 0
+      }
+    ],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-10",
+      "license": "CC0-1.0",
+      "notes": "Uses a cubic Bézier fuse element.",
+      "origin": "AIXEM Implementation Baseline 0.3 original example asset"
+    },
+    "purpose": "schematic-symbol",
+    "requiredFeatures": [],
+    "revision": "1.0.0",
+    "styles": {
+      "accent": {
+        "fill": "none",
+        "stroke": "#2458a6",
+        "strokeLinecap": "round",
+        "strokeLinejoin": "round",
+        "strokeWidth": 1.3
+      },
+      "body": {
+        "fill": "#ffffff",
+        "stroke": "#17212b",
+        "strokeLinecap": "round",
+        "strokeLinejoin": "round",
+        "strokeWidth": 1.4
+      },
+      "body-fill": {
+        "fill": "#eef3f7",
+        "stroke": "#17212b",
+        "strokeLinecap": "round",
+        "strokeLinejoin": "round",
+        "strokeWidth": 1.4
+      },
+      "field": {
+        "fill": "#17212b",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 4.2,
+        "fontWeight": 600,
+        "stroke": "none"
+      },
+      "line": {
+        "fill": "none",
+        "stroke": "#17212b",
+        "strokeLinecap": "round",
+        "strokeLinejoin": "round",
+        "strokeWidth": 1.4
+      },
+      "solid": {
+        "fill": "#17212b",
+        "stroke": "#17212b",
+        "strokeWidth": 1.1
+      },
+      "thin": {
+        "fill": "none",
+        "stroke": "#56616d",
+        "strokeLinecap": "round",
+        "strokeLinejoin": "round",
+        "strokeWidth": 0.9
+      },
+      "value": {
+        "fill": "#56616d",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.4,
+        "fontWeight": 400,
+        "stroke": "none"
+      }
+    },
+    "title": "Fuse",
+    "variants": []
+  }
+}

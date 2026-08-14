@@ -1,0 +1,19 @@
+aixem 1.0
+model controller_12 title="Twelve-pin controller"
+feature component.graphics@1 required=true
+feature explicit.layout@1 required=true
+
+component U1 type=authoring:controller-12 refdes=U1 value=AXC12
+
+noconn U1.1
+noconn U1.2
+noconn U1.3
+noconn U1.4
+noconn U1.5
+noconn U1.6
+noconn U1.7
+noconn U1.8
+noconn U1.9
+noconn U1.10
+noconn U1.11
+noconn U1.12

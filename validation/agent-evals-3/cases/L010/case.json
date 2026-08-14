@@ -1,0 +1,28 @@
+{
+  "agentVisible": [
+    "agent-task.json",
+    "TASK.md",
+    "start/**",
+    "compiled reference pack"
+  ],
+  "category": "repair",
+  "completedTargetBundled": false,
+  "evaluatorOnly": [
+    "evaluator/invariants.json",
+    "case.json",
+    "scoring metadata"
+  ],
+  "expectedInitialDiagnostics": [
+    "AIXEM-DIAG-ROUTE-NON-ORTHOGONAL"
+  ],
+  "forbiddenCompletedDigests": [
+    "sha256:7a59374815759f6a0d9a7d955a2a8f4eb93d7c0c8eda74cfe91a0963df9dea97",
+    "sha256:e619268525ccedd3372e404358126f7c8ec6d9b90c1ccee3f0b80357711e1e78"
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "id": "L010",
+  "schema": "https://schemas.aixem.org/validation/agent-eval-3-case/1",
+  "startSource": "examples/authoring/06-two-terminal-route",
+  "title": "Off-grid non-orthogonal route"
+}

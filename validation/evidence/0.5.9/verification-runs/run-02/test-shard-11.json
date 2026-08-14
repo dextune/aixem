@@ -1,0 +1,57 @@
+{
+  "durationSeconds": 17.997763,
+  "errors": [],
+  "executionMode": "isolated-test-module-processes",
+  "failedModules": 0,
+  "failures": [],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "moduleCount": 2,
+  "modules": [
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_route_execution_metadata"
+      ],
+      "durationSeconds": 0.681911,
+      "module": "tests.agent.test_route_execution_metadata",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_all_recommended_diagnostics_are_accepted_by_an_existing_route (tests.agent.test_route_execution_metadata.RouteExecutionMetadataTests.test_all_recommended_diagnostics_are_accepted_by_an_existing_route) ... ok\ntest_canonical_authoring_routes_have_scope_and_remediation_metadata (tests.agent.test_route_execution_metadata.RouteExecutionMetadataTests.test_canonical_authoring_routes_have_scope_and_remediation_metadata) ... ok\ntest_task_packets_expose_active_child_scope (tests.agent.test_route_execution_metadata.RouteExecutionMetadataTests.test_task_packets_expose_active_child_scope) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.088s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 3,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.docs.test_document_governance"
+      ],
+      "durationSeconds": 17.315483,
+      "module": "tests.docs.test_document_governance",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_agents_document_creation_gate (tests.docs.test_document_governance.DocumentGovernanceTests.test_agents_document_creation_gate) ... ok\ntest_canonical_structure_has_terminal_footer_and_no_patch_blocks (tests.docs.test_document_governance.DocumentGovernanceTests.test_canonical_structure_has_terminal_footer_and_no_patch_blocks) ... ok\ntest_current_release_pointers_are_coherent (tests.docs.test_document_governance.DocumentGovernanceTests.test_current_release_pointers_are_coherent) ... ok\ntest_every_markdown_has_exactly_one_role (tests.docs.test_document_governance.DocumentGovernanceTests.test_every_markdown_has_exactly_one_role) ... ok\ntest_metadata_vocabularies_and_token_estimates (tests.docs.test_document_governance.DocumentGovernanceTests.test_metadata_vocabularies_and_token_estimates) ... ok\ntest_normative_authority_scopes_are_unambiguous (tests.docs.test_document_governance.DocumentGovernanceTests.test_normative_authority_scopes_are_unambiguous) ... ok\ntest_path_migrations_preserve_identity_and_redirects (tests.docs.test_document_governance.DocumentGovernanceTests.test_path_migrations_preserve_identity_and_redirects) ... ok\ntest_planning_and_validation_lifecycles (tests.docs.test_document_governance.DocumentGovernanceTests.test_planning_and_validation_lifecycles) ... ok\ntest_repository_inventory_is_deterministic (tests.docs.test_document_governance.DocumentGovernanceTests.test_repository_inventory_is_deterministic) ... ok\ntest_role_aware_discoverability_has_no_orphans (tests.docs.test_document_governance.DocumentGovernanceTests.test_role_aware_discoverability_has_no_orphans) ... ok\ntest_root_hygiene_and_reserved_names (tests.docs.test_document_governance.DocumentGovernanceTests.test_root_hygiene_and_reserved_names) ... ok\ntest_root_reference_chain_reaches_all_human_documents (tests.docs.test_document_governance.DocumentGovernanceTests.test_root_reference_chain_reaches_all_human_documents) ... ok\ntest_section_indexes_cover_navigation_members (tests.docs.test_document_governance.DocumentGovernanceTests.test_section_indexes_cover_navigation_members) ... ok\ntest_unknown_markdown_fails_closed (tests.docs.test_document_governance.DocumentGovernanceTests.test_unknown_markdown_fails_closed) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 15.773s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 14,
+      "valid": true
+    }
+  ],
+  "passedModules": 2,
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/test-run-shard/1",
+  "shard": {
+    "count": 12,
+    "index": 11,
+    "totalDiscoveredModules": 29
+  },
+  "skipped": [],
+  "successful": true,
+  "testsRun": 17
+}

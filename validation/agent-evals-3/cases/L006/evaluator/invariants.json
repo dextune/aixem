@@ -1,0 +1,123 @@
+{
+  "authority": "evaluator-only",
+  "caseId": "L006",
+  "formatVersion": "1.0",
+  "invariants": [
+    {
+      "arguments": {
+        "project": "project.aixproj.json",
+        "route": "validate-project"
+      },
+      "basis": [
+        {
+          "pointer": "/completionCriteria/3",
+          "type": "task"
+        }
+      ],
+      "description": "The actual final workspace passes full project validation.",
+      "id": "L006-VALID",
+      "predicate": "validator-pass",
+      "required": true
+    },
+    {
+      "arguments": {
+        "project": "project.aixproj.json",
+        "repeats": 3
+      },
+      "basis": [
+        {
+          "pointer": "/completionCriteria/3",
+          "type": "task"
+        }
+      ],
+      "description": "The actual final workspace renders deterministically three times.",
+      "id": "L006-RENDER",
+      "predicate": "render-deterministic",
+      "required": true
+    },
+    {
+      "arguments": {
+        "members": [
+          "power@VCC",
+          "control@VCC"
+        ],
+        "mode": "exact",
+        "net": "rail_live_56",
+        "project": "project.aixproj.json"
+      },
+      "basis": [
+        {
+          "pointer": "/facts",
+          "type": "task"
+        }
+      ],
+      "description": "The supply project net binds both explicit VCC interfaces.",
+      "id": "L006-RAIL",
+      "predicate": "project-net-members",
+      "required": true
+    },
+    {
+      "arguments": {
+        "members": [
+          "power@GND",
+          "control@GND"
+        ],
+        "mode": "exact",
+        "net": "return_live_56",
+        "project": "project.aixproj.json"
+      },
+      "basis": [
+        {
+          "pointer": "/facts",
+          "type": "task"
+        }
+      ],
+      "description": "The return project net binds both explicit GND interfaces.",
+      "id": "L006-RETURN",
+      "predicate": "project-net-members",
+      "required": true
+    },
+    {
+      "arguments": {
+        "members": [
+          "power@OUT",
+          "control@IN"
+        ],
+        "mode": "exact",
+        "net": "command_live_56",
+        "project": "project.aixproj.json"
+      },
+      "basis": [
+        {
+          "pointer": "/facts",
+          "type": "task"
+        }
+      ],
+      "description": "The command project net binds OUT to IN.",
+      "id": "L006-CMD",
+      "predicate": "project-net-members",
+      "required": true
+    },
+    {
+      "arguments": {
+        "authorities": [
+          "semantic",
+          "layout",
+          "symbol",
+          "component-library"
+        ]
+      },
+      "basis": [
+        {
+          "pointer": "/writeConstraints/writableAuthorities",
+          "type": "task"
+        }
+      ],
+      "description": "Leaf semantic, layout, symbol, and library authorities remain unchanged.",
+      "id": "L006-PRESERVE",
+      "predicate": "authority-digest-unchanged",
+      "required": true
+    }
+  ],
+  "schema": "https://schemas.aixem.org/agent/evaluation-invariant/1"
+}

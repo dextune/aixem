@@ -1,0 +1,57 @@
+{
+  "card": {
+    "aliases": [
+      "create schematic guide",
+      "draw circuit guide",
+      "author semantic circuit"
+    ],
+    "appliesTo": [
+      "authoring-guide-create-schematic"
+    ],
+    "domain": "authoring",
+    "estimatedReadBytes": 6156,
+    "id": "AIXEM-AUTHORING-GUIDE-CREATE-SCHEMATIC-001",
+    "inputs": [],
+    "keywords": [
+      "Create a Schematic",
+      "author semantic circuit",
+      "author-component-circuit",
+      "create schematic guide",
+      "create-schematic",
+      "draw circuit guide"
+    ],
+    "kind": "guide",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/authoring/guides/create-schematic.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:8f307939b57226c57e11eda7a352fd5c342aba880349064a56a2aa1c47b548ae"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-CONCEPT-AUTHORITY-001",
+      "AIXEM-FORMAT-AIXEM-001",
+      "AIXEM-FORMAT-AIXLAYOUT-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-AUTHORING-GUIDE-CREATE-SCHEMATIC-001.read",
+        "level": "should",
+        "text": "Guides creation of semantic entities and nets separately from grid-authoritative component placement and route geometry."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-AUTHORING-GUIDE-CREATE-SCHEMATIC-001",
+        "path": "docs/authoring/guides/create-schematic.md"
+      }
+    ],
+    "summary": "Guides creation of semantic entities and nets separately from grid-authoritative component placement and route geometry.",
+    "title": "Create a Schematic"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

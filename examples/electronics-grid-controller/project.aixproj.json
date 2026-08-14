@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.0",
+  "project": {
+    "applicationProfile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "description": "Dense, grid-first, vendor-neutral AIXEM schematic demonstrating multi-pin symbols, explicit orthogonal routing and an engineering workbench.",
+    "features": [
+      "component.graphics@1",
+      "explicit.layout@1",
+      "semantic-route-binding@1",
+      "orthogonal-routing@1",
+      "grid-snap@1",
+      "reference-navigation@1"
+    ],
+    "id": "demo.electronics:grid-controller",
+    "layout": {
+      "digest": "sha256:683e43c78b94ee7cb105fdc4e1ae8b046a26d450981f98be4f507d401494cdb0",
+      "id": "demo.electronics:grid-controller-layout",
+      "mediaType": "application/vnd.aixem.layout+json",
+      "path": "grid-controller.aixlayout.json",
+      "version": "1.0"
+    },
+    "libraries": [
+      {
+        "digest": "sha256:16a51fbbab27a43872d6dcefa71b5a53f4993660dfe647989c1a1a7906d8cfef",
+        "id": "demo.electronics:grid-core",
+        "mediaType": "application/vnd.aixem.library+json",
+        "path": "library/electronics/grid-controller/grid-controller-components.aixlib.json",
+        "version": "1.1.0"
+      }
+    ],
+    "metadata": {
+      "exampleDomain": "electrical-electronics",
+      "independentDesign": true,
+      "styleProfile": "aixem.schematic.grid-light"
+    },
+    "outputs": [
+      {
+        "mediaType": "text/html",
+        "path": "render/workbench.html",
+        "role": "engineering-workbench"
+      },
+      {
+        "mediaType": "image/svg+xml",
+        "path": "render/drawing.svg",
+        "role": "drawing-svg"
+      },
+      {
+        "mediaType": "application/json",
+        "path": "render/resolved-scene.json",
+        "role": "resolved-scene"
+      }
+    ],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-10",
+      "license": "CC0-1.0"
+    },
+    "renderPolicy": {
+      "backend": "svg",
+      "defaultVariantPolicy": "library-default",
+      "fontPolicy": "system-fallback",
+      "purpose": "primary-diagram",
+      "remoteAssets": "deny",
+      "unsupportedRequiredFeature": "reject"
+    },
+    "source": {
+      "digest": "sha256:b06e6963859915a5c21945be212899b6280da9ddd076c3dec49ef1d99d2507d6",
+      "id": "grid_controller",
+      "mediaType": "application/vnd.aixem+text",
+      "path": "grid-controller.aixem",
+      "version": "1.0"
+    },
+    "status": "example",
+    "title": "Grid Controller and Sensor Interface"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/aixproj/1"
+}

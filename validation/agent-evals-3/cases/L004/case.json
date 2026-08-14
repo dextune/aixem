@@ -1,0 +1,28 @@
+{
+  "agentVisible": [
+    "agent-task.json",
+    "TASK.md",
+    "start/**",
+    "compiled reference pack"
+  ],
+  "category": "creation",
+  "completedTargetBundled": false,
+  "evaluatorOnly": [
+    "evaluator/invariants.json",
+    "case.json",
+    "scoring metadata"
+  ],
+  "expectedInitialDiagnostics": [
+    "AIXEM-DIAG-UNSUPPORTED-CAPABILITY"
+  ],
+  "forbiddenCompletedDigests": [
+    "sha256:0c4315d425cd040a075a4d11e0447098b415e55506680edcc4768676fbc3f65b",
+    "sha256:90c91453b8a91c233c589683f347020e9374bb8e91f06b4863482f6011da8d6d"
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "id": "L004",
+  "schema": "https://schemas.aixem.org/validation/agent-eval-3-case/1",
+  "startSource": "examples/authoring/04-parameterized-variant",
+  "title": "Parameterized variant instance"
+}

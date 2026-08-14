@@ -1,0 +1,7 @@
+{
+  "case": "N001",
+  "expectedDiagnostic": "duplicate interface port",
+  "matched": true,
+  "observedError": "power.aixem:8: duplicate interface port VCC",
+  "status": "pass"
+}

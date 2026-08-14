@@ -1,0 +1,57 @@
+{
+  "domain": {
+    "cards": [
+      {
+        "id": "AIXEM-ROUTE-BEHAVIOR-001",
+        "path": "reference/cards/routing/router-behavior.aixcard.json",
+        "summary": "Describes a deterministic route-agent workflow, cost model, fallback sequence, and evidence output.",
+        "title": "Router Behavior"
+      },
+      {
+        "id": "AIXEM-ROUTE-CONSTRAINT-001",
+        "path": "reference/cards/routing/route-constraints.aixcard.json",
+        "summary": "Defines grid, obstacle, clearance, crossing, endpoint, and route-quality constraints.",
+        "title": "Route Constraints"
+      },
+      {
+        "id": "AIXEM-ROUTE-COOKBOOK-001",
+        "path": "reference/cards/routing/routing-cookbook.aixcard.json",
+        "summary": "Provides executable orthogonal routing patterns for two-terminal, multi-bend, multi-terminal, crossing, and junction cases.",
+        "title": "Routing Cookbook"
+      },
+      {
+        "id": "AIXEM-ROUTE-CROSSING-001",
+        "path": "reference/cards/routing/crossings-and-junctions.aixcard.json",
+        "summary": "Applies the explicit-junction model to T joins, four-way joins, non-connected crossings, and dense buses.",
+        "title": "Crossings and Junctions"
+      },
+      {
+        "id": "AIXEM-ROUTE-INDEX-001",
+        "path": "reference/cards/routing/overview.aixcard.json",
+        "summary": "Guidance for explicit, orthogonal, grid-aligned route geometry bound to semantic nets.",
+        "title": "Net Routing"
+      },
+      {
+        "id": "AIXEM-ROUTE-NETS-001",
+        "path": "reference/cards/routing/net-routing.aixcard.json",
+        "summary": "Defines how route records bind semantic nets to one or more explicit endpoint-to-endpoint paths.",
+        "title": "Semantic Net Routing"
+      },
+      {
+        "id": "AIXEM-ROUTE-ORTHO-001",
+        "path": "reference/cards/routing/orthogonal-routing.aixcard.json",
+        "summary": "Defines horizontal and vertical route segments, bend placement, channel alignment, and deterministic path ordering.",
+        "title": "Orthogonal Routing"
+      }
+    ],
+    "description": "Generated canonical-document cards for the routing domain.",
+    "id": "routing",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12"
+    },
+    "title": "Routing"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixdomain/1"
+}

@@ -1,0 +1,8 @@
+{
+  "assertions": [],
+  "expected": "fail",
+  "expectedDiagnostic": "PROJECT_NET_DUPLICATE_OWNERSHIP",
+  "id": "N010",
+  "project": "project.aixproj.json",
+  "title": "Interface port in two project nets"
+}

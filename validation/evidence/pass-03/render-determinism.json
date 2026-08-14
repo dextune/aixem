@@ -1,0 +1,22 @@
+{
+  "first": {
+    "drawing.svg": "sha256:cbf6775048b06eeb120530abece8148a73e0b0bebdf493f5cfc7eee9708d8080",
+    "render-manifest.json": "sha256:103a423df641e402945da88ecf1b34f074e70dfe8e1d090748a9d7b3aa4838b5",
+    "resolved-scene.json": "sha256:d72ad96f1778d459e42933aee2ec1c381158305a9f5015031d93a53f016dad22",
+    "viewer.html": "sha256:a66feb80cfaeb1f8016f360d036681d9d4808edfea63338bd056e54cd104d023",
+    "workbench.html": "sha256:a66feb80cfaeb1f8016f360d036681d9d4808edfea63338bd056e54cd104d023"
+  },
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "release": "AIXEM-SRP-0.5.1-2026-08-11",
+  "schema": "https://schemas.aixem.org/validation/render-determinism/1",
+  "second": {
+    "drawing.svg": "sha256:cbf6775048b06eeb120530abece8148a73e0b0bebdf493f5cfc7eee9708d8080",
+    "render-manifest.json": "sha256:103a423df641e402945da88ecf1b34f074e70dfe8e1d090748a9d7b3aa4838b5",
+    "resolved-scene.json": "sha256:d72ad96f1778d459e42933aee2ec1c381158305a9f5015031d93a53f016dad22",
+    "viewer.html": "sha256:a66feb80cfaeb1f8016f360d036681d9d4808edfea63338bd056e54cd104d023",
+    "workbench.html": "sha256:a66feb80cfaeb1f8016f360d036681d9d4808edfea63338bd056e54cd104d023"
+  },
+  "stdout": "project: demo.electronics:grid-controller\nentities: 17; nets: 20; route segments: 126\nworkbench: /mnt/data/aixem_work/aixem-schematic-reference-platform-0.5.1-2026-08-11/examples/electronics-grid-controller/render/workbench.html\ngrid schematic validation: PASS",
+  "valid": true
+}

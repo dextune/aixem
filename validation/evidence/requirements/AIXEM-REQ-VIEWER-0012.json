@@ -1,0 +1,59 @@
+{
+  "evidencePath": [
+    "validation/evidence/requirements/AIXEM-REQ-VIEWER-0012.json"
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "requirement": "AIXEM-REQ-VIEWER-0012",
+  "schema": "https://schemas.aixem.org/validation/requirement-evidence/1",
+  "source": {
+    "anchor": "AIXEM-REQ-VIEWER-0012",
+    "document": "AIXEM-SPEC-VIEWER-SECURITY-001",
+    "line": 42,
+    "path": "docs/specifications/viewer/viewer-security-and-embedding.md",
+    "sitePath": "specifications/viewer/viewer-security-and-embedding.html#AIXEM-REQ-VIEWER-0012"
+  },
+  "statement": "**MUST.** Authored text MUST be rendered as inert text and MUST NOT create executable HTML or JavaScript.",
+  "status": "pass",
+  "testResult": {
+    "durationSeconds": 120.511789,
+    "evidence": "validation/test-results.json",
+    "status": "pass",
+    "successful": true,
+    "testsRun": 218
+  },
+  "tests": [
+    "tests/conformance/test_viewer_security.py::ViewerSecurityConformanceTests.test_v014_hostile_authored_text_is_inert"
+  ],
+  "title": "Untrusted text escaping",
+  "validatorResults": [
+    {
+      "artifacts": [
+        "validation/evidence/0.5.9/verification-runs/run-01/summary.json",
+        "validation/evidence/0.5.9/verification-runs/run-02/summary.json",
+        "validation/evidence/0.5.9/verification-runs/run-03/summary.json",
+        "validation/evidence/0.5.9/verification-runs/run-04/summary.json",
+        "validation/evidence/0.5.9/verification-runs/run-05/summary.json",
+        "validation/evidence/0.5.9/verification-runs/summary.json",
+        "validation/releases/0.5.9/final-validation.json",
+        "validation/releases/0.5.9/implementation-matrix.json",
+        "validation/test-results.json",
+        "validation/agent-evals-3/results/readiness/readiness-report.json",
+        "validation/agent-evals-3/results/tier-a-results.json",
+        "validation/agent-evals-3/results/tier-b-status.json",
+        "validation/agent-evals-2/results/tier-a-results.json",
+        "docs/_meta/generated/document-relationship-audit.json",
+        "docs/_meta/generated/requirement-traceability.json"
+      ],
+      "id": "schematic.reference_viewer",
+      "status": "pass",
+      "summary": "Mapped validator schematic.reference_viewer passed in all five consecutive clean AIXEM 0.5.9 verification passes.",
+      "valid": true
+    }
+  ],
+  "validators": [
+    "schematic.reference_viewer"
+  ],
+  "verificationMode": "automated"
+}

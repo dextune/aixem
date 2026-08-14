@@ -1,0 +1,24 @@
+{
+  "entryRoute": "route-nets",
+  "executionMode": "deterministic-harness-replay",
+  "expectedInitialDiagnostics": [],
+  "id": "A005",
+  "iterations": 1,
+  "liveExternalAgentExecuted": false,
+  "missingExpectedDiagnostics": [],
+  "mutation": null,
+  "observedInitialDiagnostics": [],
+  "passConditions": {
+    "checkPassedAfterRepair": true,
+    "closePassed": true,
+    "expectedInitialDiagnosticsObserved": true,
+    "liveClaimFalse": true,
+    "renderDeterministic": true,
+    "zeroGeneratedOutputEdits": true,
+    "zeroScopeViolations": true
+  },
+  "recordDigest": "sha256:87dda913e899b6cd480741cbbea7ece5f7c07a19bef1da27eb837daf95ec08a1",
+  "retainedRunRecord": "runs/A005-authoring-run-record.json",
+  "status": "pass",
+  "title": "Three-terminal net"
+}

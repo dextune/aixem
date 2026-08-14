@@ -1,0 +1,28 @@
+{
+  "bounds": {
+    "height": 65,
+    "width": 70,
+    "x": -35,
+    "y": -30
+  },
+  "capabilities": [
+    "geometry.path",
+    "paint.gradient"
+  ],
+  "case": "B006",
+  "defaultVariant": null,
+  "definitions": [],
+  "fieldAnchors": [],
+  "parameters": {},
+  "ports": [],
+  "primitiveCounts": {
+    "path": 1
+  },
+  "requiredFeatures": [
+    "compound-path",
+    "cubic-bezier",
+    "gradient"
+  ],
+  "symbol": "corpus:b006-irregular-mark",
+  "variants": []
+}

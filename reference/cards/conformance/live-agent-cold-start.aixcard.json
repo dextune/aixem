@@ -1,0 +1,74 @@
+{
+  "card": {
+    "aliases": [
+      "agent evaluation 3",
+      "live agent tier b",
+      "cold-start corpus"
+    ],
+    "appliesTo": [
+      "live-agent-conformance"
+    ],
+    "domain": "conformance",
+    "estimatedReadBytes": 9808,
+    "id": "AIXEM-CONF-AGENT-LIVE-001",
+    "inputs": [],
+    "keywords": [
+      "Live-Agent Cold-Start Conformance",
+      "agent evaluation 3",
+      "cold-start corpus",
+      "live agent tier b",
+      "validate-project"
+    ],
+    "kind": "conformance",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/conformance/live-agent-cold-start.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:a115e6842902c7ca09212abe2438764246f34b686257c851fe6e8534288cb4d8"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SPEC-AGENT-TASK-001",
+      "AIXEM-SPEC-AGENT-STAGE-001",
+      "AIXEM-SPEC-AGENT-EXECUTOR-LIVE-001",
+      "AIXEM-SPEC-AGENT-OBSERVATION-001",
+      "AIXEM-SPEC-AGENT-EVAL-INVARIANT-001",
+      "AIXEM-SPEC-AGENT-LIVE-RUN-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-AGENT-LIVE-0018",
+        "level": "must",
+        "text": "**MUST.** Agent Evaluation 3 MUST contain exactly L001-L012 with seven creation and five repair tasks, incomplete staged starts, task/evaluator separation, declared initial diagnostics, and no bundled completed target."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-LIVE-0019",
+        "level": "must",
+        "text": "**MUST.** Deterministic protocol fixtures MUST remain Tier A only, and Tier B or a public live-agent claim MUST remain false until an actual external-AI executor produces retained execution evidence."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-LIVE-0025",
+        "level": "must",
+        "text": "**MUST.** Before Tier B, non-AI test fixtures MUST prove complete PASS flows for symbol, semantic, layout, and project authorities and retain the declared executor error, failure, timeout, tamper, scope, generated-output, invariant, close, malformed-observation, and secret-leak fault paths without setting any live-agent flag."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-LIVE-0027",
+        "level": "must",
+        "text": "**MUST.** Representative readiness fixtures MUST execute `prepare`, `check`, and `close` from the staged reference pack without source-repository `PYTHONPATH` fallback, and every existing authoring route MUST have exactly one explicit pre-live readiness classification without adding a readiness-only route."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-CONF-AGENT-LIVE-001",
+        "path": "docs/conformance/live-agent-cold-start.md"
+      }
+    ],
+    "summary": "Defines Agent Evaluation 3 L001-L012, deterministic Tier A protocol conformance, actual Tier B external execution, retention, scoring, and truthful capability claims.",
+    "title": "Live-Agent Cold-Start Conformance"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

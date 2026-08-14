@@ -1,0 +1,31 @@
+{
+  "broken": {
+    "leadEndpoint": [
+      -12.5,
+      0
+    ],
+    "path": "fixtures/broken-lead-port.aixsym.json",
+    "port": "1",
+    "portCoordinate": [
+      -15,
+      0
+    ]
+  },
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "owner": "symbol asset geometry",
+  "repair": {
+    "leadEndpoint": [
+      -15,
+      0
+    ],
+    "path": "library/electronics/authoring/repaired-resistor.aixsym.json",
+    "portCoordinate": [
+      -15,
+      0
+    ]
+  },
+  "schema": "https://schemas.aixem.org/validation/visual-repair/1",
+  "status": "pass",
+  "symptom": "Left wire target would be separated from the visible pin lead."
+}

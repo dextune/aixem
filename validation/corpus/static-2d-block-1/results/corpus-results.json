@@ -1,0 +1,1465 @@
+{
+  "cases": [
+    {
+      "approvedDigestStatus": "PASS",
+      "automatedStatus": "PASS",
+      "caseContract": {
+        "category": "static-block",
+        "componentPorts": [],
+        "expectedBoundsClass": "wide",
+        "expectedFieldRoles": [],
+        "expectedGridPolicy": "static-block-grid",
+        "expectedParameterIds": [],
+        "expectedPortCount": 0,
+        "expectedPrimitiveFamilies": [
+          "circle",
+          "line",
+          "rect"
+        ],
+        "expectedVariantIds": [],
+        "expectedVisiblePortCount": 0,
+        "formatVersion": "1.0",
+        "id": "B001",
+        "knownExclusions": [
+          "No 3D solid, material, tolerance, or associative constraint semantics."
+        ],
+        "manualReviewChecks": [
+          "outline-recognizable",
+          "repeated-geometry-evenly-spaced",
+          "text-readable-at-normal-scale",
+          "dimensions-unambiguous",
+          "no-unintended-fill-or-self-intersection-artifact",
+          "static-profile-exclusions-respected"
+        ],
+        "optionalCapabilities": [],
+        "purpose": "Circle, line, and rectangular outline geometry without electrical semantics",
+        "requiredCapabilities": [
+          "geometry.circle",
+          "geometry.line",
+          "geometry.rect"
+        ],
+        "schema": "https://schemas.aixem.org/conformance/corpus-case/1",
+        "symbolPath": "symbol.aixsym.json",
+        "tier": "b2d",
+        "title": "Mechanical mounting plate"
+      },
+      "casePath": "validation/corpus/static-2d-block-1/cases/B001-mounting-plate/case.json",
+      "corpus": "static-2d-block-1",
+      "durationMs": 103.576,
+      "errors": [],
+      "id": "B001",
+      "render": {
+        "artifacts": {
+          "drawing-svg": {
+            "bytes": 7214,
+            "digest": "sha256:ee505b4c5ba3336c6ae3c4ca52602a32bf8b7cf6d61c827d568ba7ae475c8bb8"
+          },
+          "engineering-workbench": {
+            "bytes": 45081,
+            "digest": "sha256:6bb230c59723079492b969abfcf9cc920caa532d88be4610b8029f81492e19ef"
+          },
+          "resolved-scene": {
+            "bytes": 3000,
+            "digest": "sha256:46e6cfb11cf3c06ca829880da94d78f0093656500a4b42d17fb8a3f5320a8c6e"
+          },
+          "standalone-viewer": {
+            "bytes": 43548,
+            "digest": "sha256:3240c79d473a6328ad856f0af7f80b96395df50684593c99120fdf00117cf833"
+          },
+          "viewer-model": {
+            "bytes": 8130,
+            "digest": "sha256:fa91d1c17cc3716aa6263019c34187f1bf120b05893b5e4862adf7a3d553f0eb"
+          }
+        },
+        "deterministic": true,
+        "renderDurationMs": {
+          "maximum": 32.618,
+          "mean": 31.228,
+          "minimum": 30.218
+        },
+        "renderer": {
+          "id": "aixem-grid-schematic-reference-renderer",
+          "version": "0.5.1"
+        },
+        "rendererFeaturesUsed": [],
+        "repeat": 3,
+        "sceneDigest": "sha256:46e6cfb11cf3c06ca829880da94d78f0093656500a4b42d17fb8a3f5320a8c6e",
+        "sceneStatistics": {
+          "entities": 1,
+          "nets": 0,
+          "noConnects": 0,
+          "primitives": 13,
+          "routeSegments": 0,
+          "symbolAssets": 1
+        },
+        "styleProfile": {
+          "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+          "id": "aixem.schematic.grid-light",
+          "path": "aixem-grid-schematic-style-1.aixstyle.json"
+        },
+        "svgDigest": "sha256:ee505b4c5ba3336c6ae3c4ca52602a32bf8b7cf6d61c827d568ba7ae475c8bb8",
+        "validation": {
+          "checks": {
+            "componentTypeClosure": true,
+            "geometryDoesNotCreateConnectivity": true,
+            "independentVisualAssets": true,
+            "inputDigests": 4,
+            "layoutSchema": true,
+            "librarySchemas": 1,
+            "orthogonalRouting": true,
+            "placementClosure": true,
+            "presentationPortMapClosure": true,
+            "projectSchema": true,
+            "remoteAssetsDenied": true,
+            "routeEndpointClosure": true,
+            "routeViasOnGrid": true,
+            "semanticNetClosure": true,
+            "semanticPortClosure": true,
+            "symbolSchemas": 1,
+            "viewerModelSchema": true,
+            "viewerOffline": true,
+            "viewerQualifiedIdentityClosure": true,
+            "viewerReadOnly": true,
+            "viewerWorkbenchDistinct": true
+          },
+          "diagnostics": [],
+          "featuresUsed": [],
+          "generatedAt": "2026-08-10T12:00:00Z",
+          "gridValidation": {
+            "crossingPolicy": "junction-required",
+            "orthogonalSegments": 0,
+            "placementExceptions": [],
+            "placements": 1,
+            "placementsOnGrid": 1,
+            "profile": "aixem.schematic.grid-light",
+            "routeSegments": 0,
+            "routeViasOnGrid": true,
+            "snap": 2.5,
+            "zeroLengthSegments": []
+          },
+          "hashes": {
+            "drawing-svg": "sha256:ee505b4c5ba3336c6ae3c4ca52602a32bf8b7cf6d61c827d568ba7ae475c8bb8",
+            "engineering-workbench": "sha256:6bb230c59723079492b969abfcf9cc920caa532d88be4610b8029f81492e19ef",
+            "id": "conformance:b001",
+            "layoutDigest": "sha256:660e64137f00afac8f9ff17a00294926f6478c46008615eb07832a16b54a79bf",
+            "manifestDigest": "sha256:518de0781ce3cee8bf8b13003734de1de83d387bf4ffaf841e7f396e7bbb88e4",
+            "resolved-scene": "sha256:46e6cfb11cf3c06ca829880da94d78f0093656500a4b42d17fb8a3f5320a8c6e",
+            "sourceDigest": "sha256:1a273dfd85f74fd535bf74d132a3163f6e4e6c5e1858bdcc3a79c8ca343d1ea5",
+            "standalone-viewer": "sha256:3240c79d473a6328ad856f0af7f80b96395df50684593c99120fdf00117cf833",
+            "viewer-model": "sha256:fa91d1c17cc3716aa6263019c34187f1bf120b05893b5e4862adf7a3d553f0eb"
+          },
+          "project": "conformance:b001",
+          "release": "AIXEM-SRP-0.5.5-2026-08-11",
+          "schema": "https://schemas.aixem.org/component-graphics/project-validation/1",
+          "statistics": {
+            "entities": 1,
+            "nets": 0,
+            "noConnects": 0,
+            "primitives": 13,
+            "routeSegments": 0,
+            "symbolAssets": 1
+          },
+          "valid": true
+        }
+      },
+      "sourceBytes": 6157,
+      "static": {
+        "capabilities": [
+          "geometry.circle",
+          "geometry.line",
+          "geometry.rect"
+        ],
+        "geometrySignature": {
+          "bounds": {
+            "height": 55,
+            "width": 75,
+            "x": -37.5,
+            "y": -27.5
+          },
+          "capabilities": [
+            "geometry.circle",
+            "geometry.line",
+            "geometry.rect"
+          ],
+          "case": "B001",
+          "defaultVariant": null,
+          "definitions": [],
+          "fieldAnchors": [],
+          "parameters": {},
+          "ports": [],
+          "primitiveCounts": {
+            "circle": 4,
+            "line": 8,
+            "rect": 1
+          },
+          "requiredFeatures": [],
+          "symbol": "corpus:b001-mounting-plate",
+          "variants": []
+        },
+        "geometrySignatureDigest": "sha256:1b1a136960a3c881315256cc0efb7923aafabb6b662a13c0ebbf76ddd50d1cdf",
+        "leadCoincidenceChecks": 0,
+        "portCount": 0,
+        "primitiveCounts": {
+          "circle": 4,
+          "line": 8,
+          "rect": 1
+        },
+        "symbolDigest": "sha256:62d5500b3850ad8293bd5636e57e157fca66b2f52c2aaf605334a4cae2d0c793",
+        "visiblePortCount": 0
+      },
+      "symbolPath": "validation/corpus/static-2d-block-1/cases/B001-mounting-plate/symbol.aixsym.json",
+      "tier": "b2d",
+      "title": "Mechanical mounting plate",
+      "visualReview": {
+        "issues": [],
+        "record": {
+          "checks": {
+            "dimensions-unambiguous": true,
+            "no-unintended-fill-or-self-intersection-artifact": true,
+            "outline-recognizable": true,
+            "repeated-geometry-evenly-spaced": true,
+            "static-profile-exclusions-respected": true,
+            "text-readable-at-normal-scale": true
+          },
+          "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+          "result": "PASS",
+          "reviewDate": "2026-08-11",
+          "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+          "sourceDigest": "sha256:62d5500b3850ad8293bd5636e57e157fca66b2f52c2aaf605334a4cae2d0c793",
+          "svgDigest": "sha256:ee505b4c5ba3336c6ae3c4ca52602a32bf8b7cf6d61c827d568ba7ae475c8bb8"
+        },
+        "status": "PASS",
+        "valid": true
+      }
+    },
+    {
+      "approvedDigestStatus": "PASS",
+      "automatedStatus": "PASS",
+      "caseContract": {
+        "category": "static-block",
+        "componentPorts": [],
+        "expectedBoundsClass": "wide",
+        "expectedFieldRoles": [],
+        "expectedGridPolicy": "static-block-grid",
+        "expectedParameterIds": [],
+        "expectedPortCount": 0,
+        "expectedPrimitiveFamilies": [
+          "circle",
+          "group",
+          "line",
+          "rect",
+          "use"
+        ],
+        "expectedVariantIds": [],
+        "expectedVisiblePortCount": 0,
+        "formatVersion": "1.0",
+        "id": "B002",
+        "knownExclusions": [],
+        "manualReviewChecks": [
+          "outline-recognizable",
+          "repeated-geometry-evenly-spaced",
+          "text-readable-at-normal-scale",
+          "dimensions-unambiguous",
+          "no-unintended-fill-or-self-intersection-artifact",
+          "static-profile-exclusions-respected"
+        ],
+        "optionalCapabilities": [],
+        "purpose": "Definition/use and repeated affine transforms",
+        "requiredCapabilities": [
+          "geometry.circle",
+          "geometry.line",
+          "geometry.rect",
+          "structure.group",
+          "structure.use"
+        ],
+        "schema": "https://schemas.aixem.org/conformance/corpus-case/1",
+        "symbolPath": "symbol.aixsym.json",
+        "tier": "b2d",
+        "title": "Repeated-hole panel"
+      },
+      "casePath": "validation/corpus/static-2d-block-1/cases/B002-repeated-hole-panel/case.json",
+      "corpus": "static-2d-block-1",
+      "durationMs": 108.185,
+      "errors": [],
+      "id": "B002",
+      "render": {
+        "artifacts": {
+          "drawing-svg": {
+            "bytes": 15028,
+            "digest": "sha256:bcf8f679859441554766ed46930eb190236b18b29d9c334bb766c6ff73358e88"
+          },
+          "engineering-workbench": {
+            "bytes": 52837,
+            "digest": "sha256:77693c53a759702817c3d27d097b4684280eb8e4d5f3f1d6d9730496a7f7c97b"
+          },
+          "resolved-scene": {
+            "bytes": 3011,
+            "digest": "sha256:581ef3c23532a89f8a2b377df8d64afd6fb0ba12b6855a081b4042bc8653946a"
+          },
+          "standalone-viewer": {
+            "bytes": 51304,
+            "digest": "sha256:fb7b70f801a3f8412aa128addcb39bf6fe6d5938cff2d809556aaac80115f3b9"
+          },
+          "viewer-model": {
+            "bytes": 8043,
+            "digest": "sha256:93002a677977a3e4fd64aa92947926e33dce9428843a66fbf9a77e7b22140fd7"
+          }
+        },
+        "deterministic": true,
+        "renderDurationMs": {
+          "maximum": 33.786,
+          "mean": 33.212,
+          "minimum": 32.192
+        },
+        "renderer": {
+          "id": "aixem-grid-schematic-reference-renderer",
+          "version": "0.5.1"
+        },
+        "rendererFeaturesUsed": [
+          "definition-use"
+        ],
+        "repeat": 3,
+        "sceneDigest": "sha256:581ef3c23532a89f8a2b377df8d64afd6fb0ba12b6855a081b4042bc8653946a",
+        "sceneStatistics": {
+          "entities": 1,
+          "nets": 0,
+          "noConnects": 0,
+          "primitives": 76,
+          "routeSegments": 0,
+          "symbolAssets": 1
+        },
+        "styleProfile": {
+          "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+          "id": "aixem.schematic.grid-light",
+          "path": "aixem-grid-schematic-style-1.aixstyle.json"
+        },
+        "svgDigest": "sha256:bcf8f679859441554766ed46930eb190236b18b29d9c334bb766c6ff73358e88",
+        "validation": {
+          "checks": {
+            "componentTypeClosure": true,
+            "geometryDoesNotCreateConnectivity": true,
+            "independentVisualAssets": true,
+            "inputDigests": 4,
+            "layoutSchema": true,
+            "librarySchemas": 1,
+            "orthogonalRouting": true,
+            "placementClosure": true,
+            "presentationPortMapClosure": true,
+            "projectSchema": true,
+            "remoteAssetsDenied": true,
+            "routeEndpointClosure": true,
+            "routeViasOnGrid": true,
+            "semanticNetClosure": true,
+            "semanticPortClosure": true,
+            "symbolSchemas": 1,
+            "viewerModelSchema": true,
+            "viewerOffline": true,
+            "viewerQualifiedIdentityClosure": true,
+            "viewerReadOnly": true,
+            "viewerWorkbenchDistinct": true
+          },
+          "diagnostics": [],
+          "featuresUsed": [
+            "definition-use"
+          ],
+          "generatedAt": "2026-08-10T12:00:00Z",
+          "gridValidation": {
+            "crossingPolicy": "junction-required",
+            "orthogonalSegments": 0,
+            "placementExceptions": [],
+            "placements": 1,
+            "placementsOnGrid": 1,
+            "profile": "aixem.schematic.grid-light",
+            "routeSegments": 0,
+            "routeViasOnGrid": true,
+            "snap": 2.5,
+            "zeroLengthSegments": []
+          },
+          "hashes": {
+            "drawing-svg": "sha256:bcf8f679859441554766ed46930eb190236b18b29d9c334bb766c6ff73358e88",
+            "engineering-workbench": "sha256:77693c53a759702817c3d27d097b4684280eb8e4d5f3f1d6d9730496a7f7c97b",
+            "id": "conformance:b002",
+            "layoutDigest": "sha256:8bf0ad9c5231982b91005eb8c87a03ef576ea168c327845d4b122b79811def5c",
+            "manifestDigest": "sha256:acf61b59c65b6e078ef3a0e86f151eb765faff6da7566066542126f4208902bf",
+            "resolved-scene": "sha256:581ef3c23532a89f8a2b377df8d64afd6fb0ba12b6855a081b4042bc8653946a",
+            "sourceDigest": "sha256:601a51b0f8d6486d84d32675701f8b8548ff87e52571799bd5d4e17d3e622490",
+            "standalone-viewer": "sha256:fb7b70f801a3f8412aa128addcb39bf6fe6d5938cff2d809556aaac80115f3b9",
+            "viewer-model": "sha256:93002a677977a3e4fd64aa92947926e33dce9428843a66fbf9a77e7b22140fd7"
+          },
+          "project": "conformance:b002",
+          "release": "AIXEM-SRP-0.5.5-2026-08-11",
+          "schema": "https://schemas.aixem.org/component-graphics/project-validation/1",
+          "statistics": {
+            "entities": 1,
+            "nets": 0,
+            "noConnects": 0,
+            "primitives": 76,
+            "routeSegments": 0,
+            "symbolAssets": 1
+          },
+          "valid": true
+        }
+      },
+      "sourceBytes": 8590,
+      "static": {
+        "capabilities": [
+          "geometry.circle",
+          "geometry.line",
+          "geometry.rect",
+          "structure.group",
+          "structure.use"
+        ],
+        "geometrySignature": {
+          "bounds": {
+            "height": 65,
+            "width": 95,
+            "x": -47.5,
+            "y": -32.5
+          },
+          "capabilities": [
+            "geometry.circle",
+            "geometry.line",
+            "geometry.rect",
+            "structure.group",
+            "structure.use"
+          ],
+          "case": "B002",
+          "defaultVariant": null,
+          "definitions": [
+            "panel-hole"
+          ],
+          "fieldAnchors": [],
+          "parameters": {},
+          "ports": [],
+          "primitiveCounts": {
+            "circle": 1,
+            "group": 1,
+            "line": 2,
+            "rect": 1,
+            "use": 15
+          },
+          "requiredFeatures": [
+            "definition-use"
+          ],
+          "symbol": "corpus:b002-repeated-hole-panel",
+          "variants": []
+        },
+        "geometrySignatureDigest": "sha256:d344d7e64af3e425abaec6506c9cab14ddc1e24478fe549dbb613d8a87d2f4ac",
+        "leadCoincidenceChecks": 0,
+        "portCount": 0,
+        "primitiveCounts": {
+          "circle": 1,
+          "group": 1,
+          "line": 2,
+          "rect": 1,
+          "use": 15
+        },
+        "symbolDigest": "sha256:20bb8673c599cbd6b7b3fbeab5909f50e63ca3d0a6006ebfe9958cd1ae4c16e6",
+        "visiblePortCount": 0
+      },
+      "symbolPath": "validation/corpus/static-2d-block-1/cases/B002-repeated-hole-panel/symbol.aixsym.json",
+      "tier": "b2d",
+      "title": "Repeated-hole panel",
+      "visualReview": {
+        "issues": [],
+        "record": {
+          "checks": {
+            "dimensions-unambiguous": true,
+            "no-unintended-fill-or-self-intersection-artifact": true,
+            "outline-recognizable": true,
+            "repeated-geometry-evenly-spaced": true,
+            "static-profile-exclusions-respected": true,
+            "text-readable-at-normal-scale": true
+          },
+          "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+          "result": "PASS",
+          "reviewDate": "2026-08-11",
+          "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+          "sourceDigest": "sha256:20bb8673c599cbd6b7b3fbeab5909f50e63ca3d0a6006ebfe9958cd1ae4c16e6",
+          "svgDigest": "sha256:bcf8f679859441554766ed46930eb190236b18b29d9c334bb766c6ff73358e88"
+        },
+        "status": "PASS",
+        "valid": true
+      }
+    },
+    {
+      "approvedDigestStatus": "PASS",
+      "automatedStatus": "PASS",
+      "caseContract": {
+        "category": "static-block",
+        "componentPorts": [],
+        "expectedBoundsClass": "wide",
+        "expectedFieldRoles": [],
+        "expectedGridPolicy": "static-block-grid",
+        "expectedParameterIds": [],
+        "expectedPortCount": 0,
+        "expectedPrimitiveFamilies": [
+          "arc",
+          "circle",
+          "line",
+          "path"
+        ],
+        "expectedVariantIds": [],
+        "expectedVisiblePortCount": 0,
+        "formatVersion": "1.0",
+        "id": "B003",
+        "knownExclusions": [],
+        "manualReviewChecks": [
+          "outline-recognizable",
+          "repeated-geometry-evenly-spaced",
+          "text-readable-at-normal-scale",
+          "dimensions-unambiguous",
+          "no-unintended-fill-or-self-intersection-artifact",
+          "static-profile-exclusions-respected"
+        ],
+        "optionalCapabilities": [],
+        "purpose": "Mixed path, line, circle, and arc plan geometry",
+        "requiredCapabilities": [
+          "geometry.arc",
+          "geometry.circle",
+          "geometry.line",
+          "geometry.path"
+        ],
+        "schema": "https://schemas.aixem.org/conformance/corpus-case/1",
+        "symbolPath": "symbol.aixsym.json",
+        "tier": "b2d",
+        "title": "Plan-scale electrical fixture"
+      },
+      "casePath": "validation/corpus/static-2d-block-1/cases/B003-plan-fixture/case.json",
+      "corpus": "static-2d-block-1",
+      "durationMs": 107.077,
+      "errors": [],
+      "id": "B003",
+      "render": {
+        "artifacts": {
+          "drawing-svg": {
+            "bytes": 5490,
+            "digest": "sha256:322593a7d03adaf6ab3eddd8087579fde91ad172cea562544044958f8d6da47b"
+          },
+          "engineering-workbench": {
+            "bytes": 43205,
+            "digest": "sha256:32efd0fc2ad3b8c92b3315afed0c64fa21f6eaef9d6f9482b2bfb4807629886e"
+          },
+          "resolved-scene": {
+            "bytes": 3054,
+            "digest": "sha256:63ffe9fb23ba8cbc19857c171f52e5351d6f1f0497c0ce1e423362eeaa3b2733"
+          },
+          "standalone-viewer": {
+            "bytes": 41672,
+            "digest": "sha256:1e3bbc717099ce541118a5d68bd457fb8a2e73fb0000f954b08e616fc190586d"
+          },
+          "viewer-model": {
+            "bytes": 8192,
+            "digest": "sha256:827b52d116951c9dd71058b8ae7895844449fa03283fc40faf1a05525e200b4a"
+          }
+        },
+        "deterministic": true,
+        "renderDurationMs": {
+          "maximum": 36.276,
+          "mean": 33.052,
+          "minimum": 29.782
+        },
+        "renderer": {
+          "id": "aixem-grid-schematic-reference-renderer",
+          "version": "0.5.1"
+        },
+        "rendererFeaturesUsed": [
+          "compound-path",
+          "elliptical-arc"
+        ],
+        "repeat": 3,
+        "sceneDigest": "sha256:63ffe9fb23ba8cbc19857c171f52e5351d6f1f0497c0ce1e423362eeaa3b2733",
+        "sceneStatistics": {
+          "entities": 1,
+          "nets": 0,
+          "noConnects": 0,
+          "primitives": 4,
+          "routeSegments": 0,
+          "symbolAssets": 1
+        },
+        "styleProfile": {
+          "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+          "id": "aixem.schematic.grid-light",
+          "path": "aixem-grid-schematic-style-1.aixstyle.json"
+        },
+        "svgDigest": "sha256:322593a7d03adaf6ab3eddd8087579fde91ad172cea562544044958f8d6da47b",
+        "validation": {
+          "checks": {
+            "componentTypeClosure": true,
+            "geometryDoesNotCreateConnectivity": true,
+            "independentVisualAssets": true,
+            "inputDigests": 4,
+            "layoutSchema": true,
+            "librarySchemas": 1,
+            "orthogonalRouting": true,
+            "placementClosure": true,
+            "presentationPortMapClosure": true,
+            "projectSchema": true,
+            "remoteAssetsDenied": true,
+            "routeEndpointClosure": true,
+            "routeViasOnGrid": true,
+            "semanticNetClosure": true,
+            "semanticPortClosure": true,
+            "symbolSchemas": 1,
+            "viewerModelSchema": true,
+            "viewerOffline": true,
+            "viewerQualifiedIdentityClosure": true,
+            "viewerReadOnly": true,
+            "viewerWorkbenchDistinct": true
+          },
+          "diagnostics": [],
+          "featuresUsed": [
+            "compound-path",
+            "elliptical-arc"
+          ],
+          "generatedAt": "2026-08-10T12:00:00Z",
+          "gridValidation": {
+            "crossingPolicy": "junction-required",
+            "orthogonalSegments": 0,
+            "placementExceptions": [],
+            "placements": 1,
+            "placementsOnGrid": 1,
+            "profile": "aixem.schematic.grid-light",
+            "routeSegments": 0,
+            "routeViasOnGrid": true,
+            "snap": 2.5,
+            "zeroLengthSegments": []
+          },
+          "hashes": {
+            "drawing-svg": "sha256:322593a7d03adaf6ab3eddd8087579fde91ad172cea562544044958f8d6da47b",
+            "engineering-workbench": "sha256:32efd0fc2ad3b8c92b3315afed0c64fa21f6eaef9d6f9482b2bfb4807629886e",
+            "id": "conformance:b003",
+            "layoutDigest": "sha256:cc0f4207133e7738565751b8f50529a91b07ab384e797380053d4e070cde8664",
+            "manifestDigest": "sha256:9450475cad2d89b29195fd3286b0a87a390a1fbbff4c03b8a016ee63d63ef3cf",
+            "resolved-scene": "sha256:63ffe9fb23ba8cbc19857c171f52e5351d6f1f0497c0ce1e423362eeaa3b2733",
+            "sourceDigest": "sha256:b94fafcc4c5b8a2d635031b7a3fd513b269d917246abb7518614cccf4750cd6c",
+            "standalone-viewer": "sha256:1e3bbc717099ce541118a5d68bd457fb8a2e73fb0000f954b08e616fc190586d",
+            "viewer-model": "sha256:827b52d116951c9dd71058b8ae7895844449fa03283fc40faf1a05525e200b4a"
+          },
+          "project": "conformance:b003",
+          "release": "AIXEM-SRP-0.5.5-2026-08-11",
+          "schema": "https://schemas.aixem.org/component-graphics/project-validation/1",
+          "statistics": {
+            "entities": 1,
+            "nets": 0,
+            "noConnects": 0,
+            "primitives": 4,
+            "routeSegments": 0,
+            "symbolAssets": 1
+          },
+          "valid": true
+        }
+      },
+      "sourceBytes": 5106,
+      "static": {
+        "capabilities": [
+          "geometry.arc",
+          "geometry.circle",
+          "geometry.line",
+          "geometry.path"
+        ],
+        "geometrySignature": {
+          "bounds": {
+            "height": 60,
+            "width": 70,
+            "x": -35,
+            "y": -30
+          },
+          "capabilities": [
+            "geometry.arc",
+            "geometry.circle",
+            "geometry.line",
+            "geometry.path"
+          ],
+          "case": "B003",
+          "defaultVariant": null,
+          "definitions": [],
+          "fieldAnchors": [],
+          "parameters": {},
+          "ports": [],
+          "primitiveCounts": {
+            "arc": 1,
+            "circle": 1,
+            "line": 1,
+            "path": 1
+          },
+          "requiredFeatures": [
+            "compound-path",
+            "elliptical-arc"
+          ],
+          "symbol": "corpus:b003-plan-fixture",
+          "variants": []
+        },
+        "geometrySignatureDigest": "sha256:b51f7d19febfa6266ce6a9a3dc4c9cfd9c083f0325601eaa503b8cdf82e242f6",
+        "leadCoincidenceChecks": 0,
+        "portCount": 0,
+        "primitiveCounts": {
+          "arc": 1,
+          "circle": 1,
+          "line": 1,
+          "path": 1
+        },
+        "symbolDigest": "sha256:9f7de2cb912d1d71c5b124b90b1bd6d7de5f9f4bec2afa361f5d47e48febbfa6",
+        "visiblePortCount": 0
+      },
+      "symbolPath": "validation/corpus/static-2d-block-1/cases/B003-plan-fixture/symbol.aixsym.json",
+      "tier": "b2d",
+      "title": "Plan-scale electrical fixture",
+      "visualReview": {
+        "issues": [],
+        "record": {
+          "checks": {
+            "dimensions-unambiguous": true,
+            "no-unintended-fill-or-self-intersection-artifact": true,
+            "outline-recognizable": true,
+            "repeated-geometry-evenly-spaced": true,
+            "static-profile-exclusions-respected": true,
+            "text-readable-at-normal-scale": true
+          },
+          "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+          "result": "PASS",
+          "reviewDate": "2026-08-11",
+          "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+          "sourceDigest": "sha256:9f7de2cb912d1d71c5b124b90b1bd6d7de5f9f4bec2afa361f5d47e48febbfa6",
+          "svgDigest": "sha256:322593a7d03adaf6ab3eddd8087579fde91ad172cea562544044958f8d6da47b"
+        },
+        "status": "PASS",
+        "valid": true
+      }
+    },
+    {
+      "approvedDigestStatus": "PASS",
+      "automatedStatus": "PASS",
+      "caseContract": {
+        "category": "static-block",
+        "componentPorts": [],
+        "expectedBoundsClass": "wide",
+        "expectedFieldRoles": [
+          "reference-field",
+          "value-field"
+        ],
+        "expectedGridPolicy": "static-block-grid",
+        "expectedParameterIds": [],
+        "expectedPortCount": 0,
+        "expectedPrimitiveFamilies": [
+          "line",
+          "rect",
+          "text"
+        ],
+        "expectedVariantIds": [],
+        "expectedVisiblePortCount": 0,
+        "formatVersion": "1.0",
+        "id": "B004",
+        "knownExclusions": [],
+        "manualReviewChecks": [
+          "outline-recognizable",
+          "repeated-geometry-evenly-spaced",
+          "text-readable-at-normal-scale",
+          "dimensions-unambiguous",
+          "no-unintended-fill-or-self-intersection-artifact",
+          "static-profile-exclusions-respected"
+        ],
+        "optionalCapabilities": [],
+        "purpose": "Text, line structure, and bound field-like labels",
+        "requiredCapabilities": [
+          "geometry.line",
+          "geometry.rect",
+          "text.field"
+        ],
+        "schema": "https://schemas.aixem.org/conformance/corpus-case/1",
+        "symbolPath": "symbol.aixsym.json",
+        "tier": "b2d",
+        "title": "Annotation title block"
+      },
+      "casePath": "validation/corpus/static-2d-block-1/cases/B004-annotation-title-block/case.json",
+      "corpus": "static-2d-block-1",
+      "durationMs": 91.581,
+      "errors": [],
+      "id": "B004",
+      "render": {
+        "artifacts": {
+          "drawing-svg": {
+            "bytes": 6464,
+            "digest": "sha256:532758a504fbba0795221075e3c25133e7f9fc01d96f26c80f9f7bb5d25be15a"
+          },
+          "engineering-workbench": {
+            "bytes": 44142,
+            "digest": "sha256:47a58f69c47d5b7eec526782098ce46e33ebde60475102a51c146470eb567f35"
+          },
+          "resolved-scene": {
+            "bytes": 2998,
+            "digest": "sha256:0f65fc2976b68f8cf94f6d66277fb4d90ef928faa701f110c374f0d941961b2a"
+          },
+          "standalone-viewer": {
+            "bytes": 42609,
+            "digest": "sha256:3fca95cfbec30c76fa0dc60400b2c1ec25ec285963566d91bf19ea759049dd5d"
+          },
+          "viewer-model": {
+            "bytes": 8103,
+            "digest": "sha256:f6d49f0a0388e20b818de66b5e7401dd63d49db1b617f03de6e4a9c4dde6ac05"
+          }
+        },
+        "deterministic": true,
+        "renderDurationMs": {
+          "maximum": 28.143,
+          "mean": 28.022,
+          "minimum": 27.925
+        },
+        "renderer": {
+          "id": "aixem-grid-schematic-reference-renderer",
+          "version": "0.5.1"
+        },
+        "rendererFeaturesUsed": [],
+        "repeat": 3,
+        "sceneDigest": "sha256:0f65fc2976b68f8cf94f6d66277fb4d90ef928faa701f110c374f0d941961b2a",
+        "sceneStatistics": {
+          "entities": 1,
+          "nets": 0,
+          "noConnects": 0,
+          "primitives": 8,
+          "routeSegments": 0,
+          "symbolAssets": 1
+        },
+        "styleProfile": {
+          "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+          "id": "aixem.schematic.grid-light",
+          "path": "aixem-grid-schematic-style-1.aixstyle.json"
+        },
+        "svgDigest": "sha256:532758a504fbba0795221075e3c25133e7f9fc01d96f26c80f9f7bb5d25be15a",
+        "validation": {
+          "checks": {
+            "componentTypeClosure": true,
+            "geometryDoesNotCreateConnectivity": true,
+            "independentVisualAssets": true,
+            "inputDigests": 4,
+            "layoutSchema": true,
+            "librarySchemas": 1,
+            "orthogonalRouting": true,
+            "placementClosure": true,
+            "presentationPortMapClosure": true,
+            "projectSchema": true,
+            "remoteAssetsDenied": true,
+            "routeEndpointClosure": true,
+            "routeViasOnGrid": true,
+            "semanticNetClosure": true,
+            "semanticPortClosure": true,
+            "symbolSchemas": 1,
+            "viewerModelSchema": true,
+            "viewerOffline": true,
+            "viewerQualifiedIdentityClosure": true,
+            "viewerReadOnly": true,
+            "viewerWorkbenchDistinct": true
+          },
+          "diagnostics": [],
+          "featuresUsed": [],
+          "generatedAt": "2026-08-10T12:00:00Z",
+          "gridValidation": {
+            "crossingPolicy": "junction-required",
+            "orthogonalSegments": 0,
+            "placementExceptions": [],
+            "placements": 1,
+            "placementsOnGrid": 1,
+            "profile": "aixem.schematic.grid-light",
+            "routeSegments": 0,
+            "routeViasOnGrid": true,
+            "snap": 2.5,
+            "zeroLengthSegments": []
+          },
+          "hashes": {
+            "drawing-svg": "sha256:532758a504fbba0795221075e3c25133e7f9fc01d96f26c80f9f7bb5d25be15a",
+            "engineering-workbench": "sha256:47a58f69c47d5b7eec526782098ce46e33ebde60475102a51c146470eb567f35",
+            "id": "conformance:b004",
+            "layoutDigest": "sha256:19f2158d8087d1052bf5d646658856be4d4bab9a676230c5c3efa801dfc334ca",
+            "manifestDigest": "sha256:6b2f0c24093bdef29a7091102c472fc071d74746f76c542f8f10700bb9725fbf",
+            "resolved-scene": "sha256:0f65fc2976b68f8cf94f6d66277fb4d90ef928faa701f110c374f0d941961b2a",
+            "sourceDigest": "sha256:51d7f05bb6713cc05c784f299fd873196f59dcf46b37bc47619567e9a2ec10bc",
+            "standalone-viewer": "sha256:3fca95cfbec30c76fa0dc60400b2c1ec25ec285963566d91bf19ea759049dd5d",
+            "viewer-model": "sha256:f6d49f0a0388e20b818de66b5e7401dd63d49db1b617f03de6e4a9c4dde6ac05"
+          },
+          "project": "conformance:b004",
+          "release": "AIXEM-SRP-0.5.5-2026-08-11",
+          "schema": "https://schemas.aixem.org/component-graphics/project-validation/1",
+          "statistics": {
+            "entities": 1,
+            "nets": 0,
+            "noConnects": 0,
+            "primitives": 8,
+            "routeSegments": 0,
+            "symbolAssets": 1
+          },
+          "valid": true
+        }
+      },
+      "sourceBytes": 5416,
+      "static": {
+        "capabilities": [
+          "geometry.line",
+          "geometry.rect",
+          "text.field"
+        ],
+        "geometrySignature": {
+          "bounds": {
+            "height": 55,
+            "width": 115,
+            "x": -57.5,
+            "y": -27.5
+          },
+          "capabilities": [
+            "geometry.line",
+            "geometry.rect",
+            "text.field"
+          ],
+          "case": "B004",
+          "defaultVariant": null,
+          "definitions": [],
+          "fieldAnchors": [
+            {
+              "field": "reference",
+              "id": "field-reference",
+              "x": -45,
+              "y": 1.25
+            },
+            {
+              "field": "value",
+              "id": "field-value",
+              "x": -45,
+              "y": 13.75
+            }
+          ],
+          "parameters": {},
+          "ports": [],
+          "primitiveCounts": {
+            "line": 3,
+            "rect": 1,
+            "text": 4
+          },
+          "requiredFeatures": [],
+          "symbol": "corpus:b004-annotation-title-block",
+          "variants": []
+        },
+        "geometrySignatureDigest": "sha256:6a205fdc060c14ed9282f5b3f589a45d860a7c68d248c1fffa97d3d4c8cae5e3",
+        "leadCoincidenceChecks": 0,
+        "portCount": 0,
+        "primitiveCounts": {
+          "line": 3,
+          "rect": 1,
+          "text": 4
+        },
+        "symbolDigest": "sha256:514990b1878a5992b8cd30264d132dd23f56fdc6dad61995495559f13e92b8c8",
+        "visiblePortCount": 0
+      },
+      "symbolPath": "validation/corpus/static-2d-block-1/cases/B004-annotation-title-block/symbol.aixsym.json",
+      "tier": "b2d",
+      "title": "Annotation title block",
+      "visualReview": {
+        "issues": [],
+        "record": {
+          "checks": {
+            "dimensions-unambiguous": true,
+            "no-unintended-fill-or-self-intersection-artifact": true,
+            "outline-recognizable": true,
+            "repeated-geometry-evenly-spaced": true,
+            "static-profile-exclusions-respected": true,
+            "text-readable-at-normal-scale": true
+          },
+          "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+          "result": "PASS",
+          "reviewDate": "2026-08-11",
+          "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+          "sourceDigest": "sha256:514990b1878a5992b8cd30264d132dd23f56fdc6dad61995495559f13e92b8c8",
+          "svgDigest": "sha256:532758a504fbba0795221075e3c25133e7f9fc01d96f26c80f9f7bb5d25be15a"
+        },
+        "status": "PASS",
+        "valid": true
+      }
+    },
+    {
+      "approvedDigestStatus": "PASS",
+      "automatedStatus": "PASS",
+      "caseContract": {
+        "category": "static-block",
+        "componentPorts": [],
+        "expectedBoundsClass": "wide",
+        "expectedFieldRoles": [],
+        "expectedGridPolicy": "static-block-grid",
+        "expectedParameterIds": [],
+        "expectedPortCount": 0,
+        "expectedPrimitiveFamilies": [
+          "circle",
+          "dimension",
+          "rect"
+        ],
+        "expectedVariantIds": [],
+        "expectedVisiblePortCount": 0,
+        "formatVersion": "1.0",
+        "id": "B005",
+        "knownExclusions": [
+          "Dimensions are static annotations, not associative constraints."
+        ],
+        "manualReviewChecks": [
+          "outline-recognizable",
+          "repeated-geometry-evenly-spaced",
+          "text-readable-at-normal-scale",
+          "dimensions-unambiguous",
+          "no-unintended-fill-or-self-intersection-artifact",
+          "static-profile-exclusions-respected"
+        ],
+        "optionalCapabilities": [],
+        "purpose": "Static dimension primitive and annotation behavior",
+        "requiredCapabilities": [
+          "geometry.circle",
+          "geometry.dimension",
+          "geometry.rect"
+        ],
+        "schema": "https://schemas.aixem.org/conformance/corpus-case/1",
+        "symbolPath": "symbol.aixsym.json",
+        "tier": "b2d",
+        "title": "Dimensioned 2D outline"
+      },
+      "casePath": "validation/corpus/static-2d-block-1/cases/B005-dimensioned-outline/case.json",
+      "corpus": "static-2d-block-1",
+      "durationMs": 87.156,
+      "errors": [],
+      "id": "B005",
+      "render": {
+        "artifacts": {
+          "drawing-svg": {
+            "bytes": 6069,
+            "digest": "sha256:7c737e96bdcc2f477c4e80680b4d9ab50cde69dc5417efdc2006dfeb832bf0ab"
+          },
+          "engineering-workbench": {
+            "bytes": 43735,
+            "digest": "sha256:9d4aeb979e523df6a7de66ff166ec7894812193380d2487255500ac16e62715b"
+          },
+          "resolved-scene": {
+            "bytes": 3014,
+            "digest": "sha256:60d8b2909fb09ff6cfb062705777dcc1f690e3cfefdbb25b191ff2c3cd769e13"
+          },
+          "standalone-viewer": {
+            "bytes": 42202,
+            "digest": "sha256:089b3f4e2571da8124d230c3579e7346965f6982bcc98bf1cb3525ccb0529692"
+          },
+          "viewer-model": {
+            "bytes": 8094,
+            "digest": "sha256:f6410c78c09481cf75ab7b8e915cbdc99a6e3712be0d0a3901d119b5dd33497e"
+          }
+        },
+        "deterministic": true,
+        "renderDurationMs": {
+          "maximum": 27.312,
+          "mean": 27.017,
+          "minimum": 26.841
+        },
+        "renderer": {
+          "id": "aixem-grid-schematic-reference-renderer",
+          "version": "0.5.1"
+        },
+        "rendererFeaturesUsed": [
+          "dimension"
+        ],
+        "repeat": 3,
+        "sceneDigest": "sha256:60d8b2909fb09ff6cfb062705777dcc1f690e3cfefdbb25b191ff2c3cd769e13",
+        "sceneStatistics": {
+          "entities": 1,
+          "nets": 0,
+          "noConnects": 0,
+          "primitives": 4,
+          "routeSegments": 0,
+          "symbolAssets": 1
+        },
+        "styleProfile": {
+          "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+          "id": "aixem.schematic.grid-light",
+          "path": "aixem-grid-schematic-style-1.aixstyle.json"
+        },
+        "svgDigest": "sha256:7c737e96bdcc2f477c4e80680b4d9ab50cde69dc5417efdc2006dfeb832bf0ab",
+        "validation": {
+          "checks": {
+            "componentTypeClosure": true,
+            "geometryDoesNotCreateConnectivity": true,
+            "independentVisualAssets": true,
+            "inputDigests": 4,
+            "layoutSchema": true,
+            "librarySchemas": 1,
+            "orthogonalRouting": true,
+            "placementClosure": true,
+            "presentationPortMapClosure": true,
+            "projectSchema": true,
+            "remoteAssetsDenied": true,
+            "routeEndpointClosure": true,
+            "routeViasOnGrid": true,
+            "semanticNetClosure": true,
+            "semanticPortClosure": true,
+            "symbolSchemas": 1,
+            "viewerModelSchema": true,
+            "viewerOffline": true,
+            "viewerQualifiedIdentityClosure": true,
+            "viewerReadOnly": true,
+            "viewerWorkbenchDistinct": true
+          },
+          "diagnostics": [],
+          "featuresUsed": [
+            "dimension"
+          ],
+          "generatedAt": "2026-08-10T12:00:00Z",
+          "gridValidation": {
+            "crossingPolicy": "junction-required",
+            "orthogonalSegments": 0,
+            "placementExceptions": [],
+            "placements": 1,
+            "placementsOnGrid": 1,
+            "profile": "aixem.schematic.grid-light",
+            "routeSegments": 0,
+            "routeViasOnGrid": true,
+            "snap": 2.5,
+            "zeroLengthSegments": []
+          },
+          "hashes": {
+            "drawing-svg": "sha256:7c737e96bdcc2f477c4e80680b4d9ab50cde69dc5417efdc2006dfeb832bf0ab",
+            "engineering-workbench": "sha256:9d4aeb979e523df6a7de66ff166ec7894812193380d2487255500ac16e62715b",
+            "id": "conformance:b005",
+            "layoutDigest": "sha256:95530f6ac7abfdfe2d4afb574dfd19eae9613b9dbfb60fb9866362e435bb1e6d",
+            "manifestDigest": "sha256:cdbd8aa13d92b050cd508d3b7d23d636b79e2d4cb3754f0037721bf362e4f31f",
+            "resolved-scene": "sha256:60d8b2909fb09ff6cfb062705777dcc1f690e3cfefdbb25b191ff2c3cd769e13",
+            "sourceDigest": "sha256:72018ffce812de8f602d4525d70d09ead6b3348a35f180456f3a8c4ac4f7aeb4",
+            "standalone-viewer": "sha256:089b3f4e2571da8124d230c3579e7346965f6982bcc98bf1cb3525ccb0529692",
+            "viewer-model": "sha256:f6410c78c09481cf75ab7b8e915cbdc99a6e3712be0d0a3901d119b5dd33497e"
+          },
+          "project": "conformance:b005",
+          "release": "AIXEM-SRP-0.5.5-2026-08-11",
+          "schema": "https://schemas.aixem.org/component-graphics/project-validation/1",
+          "statistics": {
+            "entities": 1,
+            "nets": 0,
+            "noConnects": 0,
+            "primitives": 4,
+            "routeSegments": 0,
+            "symbolAssets": 1
+          },
+          "valid": true
+        }
+      },
+      "sourceBytes": 4640,
+      "static": {
+        "capabilities": [
+          "geometry.circle",
+          "geometry.dimension",
+          "geometry.rect"
+        ],
+        "geometrySignature": {
+          "bounds": {
+            "height": 65,
+            "width": 85,
+            "x": -42.5,
+            "y": -32.5
+          },
+          "capabilities": [
+            "geometry.circle",
+            "geometry.dimension",
+            "geometry.rect"
+          ],
+          "case": "B005",
+          "defaultVariant": null,
+          "definitions": [],
+          "fieldAnchors": [],
+          "parameters": {},
+          "ports": [],
+          "primitiveCounts": {
+            "circle": 1,
+            "dimension": 2,
+            "rect": 1
+          },
+          "requiredFeatures": [
+            "dimension"
+          ],
+          "symbol": "corpus:b005-dimensioned-outline",
+          "variants": []
+        },
+        "geometrySignatureDigest": "sha256:e50f879fd44184a490bc696d23963d40ccd3146f41b2eed83a90bca519fe56af",
+        "leadCoincidenceChecks": 0,
+        "portCount": 0,
+        "primitiveCounts": {
+          "circle": 1,
+          "dimension": 2,
+          "rect": 1
+        },
+        "symbolDigest": "sha256:45670811d459a234b28e512c3553d7a621d914a68e866262fa78dbf894377634",
+        "visiblePortCount": 0
+      },
+      "symbolPath": "validation/corpus/static-2d-block-1/cases/B005-dimensioned-outline/symbol.aixsym.json",
+      "tier": "b2d",
+      "title": "Dimensioned 2D outline",
+      "visualReview": {
+        "issues": [],
+        "record": {
+          "checks": {
+            "dimensions-unambiguous": true,
+            "no-unintended-fill-or-self-intersection-artifact": true,
+            "outline-recognizable": true,
+            "repeated-geometry-evenly-spaced": true,
+            "static-profile-exclusions-respected": true,
+            "text-readable-at-normal-scale": true
+          },
+          "notes": "Re-reviewed after the dimension-label renderer repair. Both dimension labels are legible and do not obscure the measured outline.",
+          "result": "PASS",
+          "reviewDate": "2026-08-11",
+          "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+          "sourceDigest": "sha256:45670811d459a234b28e512c3553d7a621d914a68e866262fa78dbf894377634",
+          "svgDigest": "sha256:7c737e96bdcc2f477c4e80680b4d9ab50cde69dc5417efdc2006dfeb832bf0ab"
+        },
+        "status": "PASS",
+        "valid": true
+      }
+    },
+    {
+      "approvedDigestStatus": "PASS",
+      "automatedStatus": "PASS",
+      "caseContract": {
+        "category": "static-block",
+        "componentPorts": [],
+        "expectedBoundsClass": "wide",
+        "expectedFieldRoles": [],
+        "expectedGridPolicy": "static-block-grid",
+        "expectedParameterIds": [],
+        "expectedPortCount": 0,
+        "expectedPrimitiveFamilies": [
+          "path"
+        ],
+        "expectedVariantIds": [],
+        "expectedVisiblePortCount": 0,
+        "formatVersion": "1.0",
+        "id": "B006",
+        "knownExclusions": [],
+        "manualReviewChecks": [
+          "outline-recognizable",
+          "repeated-geometry-evenly-spaced",
+          "text-readable-at-normal-scale",
+          "dimensions-unambiguous",
+          "no-unintended-fill-or-self-intersection-artifact",
+          "static-profile-exclusions-respected"
+        ],
+        "optionalCapabilities": [],
+        "purpose": "Compound path and local paint server without raster or vendor asset dependency",
+        "requiredCapabilities": [
+          "geometry.path",
+          "paint.gradient"
+        ],
+        "schema": "https://schemas.aixem.org/conformance/corpus-case/1",
+        "symbolPath": "symbol.aixsym.json",
+        "tier": "b2d",
+        "title": "Irregular mark block"
+      },
+      "casePath": "validation/corpus/static-2d-block-1/cases/B006-irregular-mark/case.json",
+      "corpus": "static-2d-block-1",
+      "durationMs": 88.05,
+      "errors": [],
+      "id": "B006",
+      "render": {
+        "artifacts": {
+          "drawing-svg": {
+            "bytes": 5174,
+            "digest": "sha256:7431af9047c5f840282f8c41d8038605a133ad8bd5b9b92d92ff922919339eaa"
+          },
+          "engineering-workbench": {
+            "bytes": 42626,
+            "digest": "sha256:f82b3cbadf5e98923e829622a8d6bab5ee61d8306ad1e93c9b6553f14544e9a3"
+          },
+          "resolved-scene": {
+            "bytes": 3043,
+            "digest": "sha256:6488b7d1224f2b6bba60446d0d3dacadf2f12db03703e7528fdca6fff7377093"
+          },
+          "standalone-viewer": {
+            "bytes": 41093,
+            "digest": "sha256:955d49b285326973f5a8bab66d255f94c0c21294e81fcb65ba87c6c4b0e5bb51"
+          },
+          "viewer-model": {
+            "bytes": 8045,
+            "digest": "sha256:0d72322495f2ec65e43f063b8749bbeb50943c71aa2abedb71755e82b611ec3f"
+          }
+        },
+        "deterministic": true,
+        "renderDurationMs": {
+          "maximum": 27.778,
+          "mean": 27.225,
+          "minimum": 26.902
+        },
+        "renderer": {
+          "id": "aixem-grid-schematic-reference-renderer",
+          "version": "0.5.1"
+        },
+        "rendererFeaturesUsed": [
+          "compound-path",
+          "cubic-bezier",
+          "gradient"
+        ],
+        "repeat": 3,
+        "sceneDigest": "sha256:6488b7d1224f2b6bba60446d0d3dacadf2f12db03703e7528fdca6fff7377093",
+        "sceneStatistics": {
+          "entities": 1,
+          "nets": 0,
+          "noConnects": 0,
+          "primitives": 1,
+          "routeSegments": 0,
+          "symbolAssets": 1
+        },
+        "styleProfile": {
+          "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+          "id": "aixem.schematic.grid-light",
+          "path": "aixem-grid-schematic-style-1.aixstyle.json"
+        },
+        "svgDigest": "sha256:7431af9047c5f840282f8c41d8038605a133ad8bd5b9b92d92ff922919339eaa",
+        "validation": {
+          "checks": {
+            "componentTypeClosure": true,
+            "geometryDoesNotCreateConnectivity": true,
+            "independentVisualAssets": true,
+            "inputDigests": 4,
+            "layoutSchema": true,
+            "librarySchemas": 1,
+            "orthogonalRouting": true,
+            "placementClosure": true,
+            "presentationPortMapClosure": true,
+            "projectSchema": true,
+            "remoteAssetsDenied": true,
+            "routeEndpointClosure": true,
+            "routeViasOnGrid": true,
+            "semanticNetClosure": true,
+            "semanticPortClosure": true,
+            "symbolSchemas": 1,
+            "viewerModelSchema": true,
+            "viewerOffline": true,
+            "viewerQualifiedIdentityClosure": true,
+            "viewerReadOnly": true,
+            "viewerWorkbenchDistinct": true
+          },
+          "diagnostics": [],
+          "featuresUsed": [
+            "compound-path",
+            "cubic-bezier",
+            "gradient"
+          ],
+          "generatedAt": "2026-08-10T12:00:00Z",
+          "gridValidation": {
+            "crossingPolicy": "junction-required",
+            "orthogonalSegments": 0,
+            "placementExceptions": [],
+            "placements": 1,
+            "placementsOnGrid": 1,
+            "profile": "aixem.schematic.grid-light",
+            "routeSegments": 0,
+            "routeViasOnGrid": true,
+            "snap": 2.5,
+            "zeroLengthSegments": []
+          },
+          "hashes": {
+            "drawing-svg": "sha256:7431af9047c5f840282f8c41d8038605a133ad8bd5b9b92d92ff922919339eaa",
+            "engineering-workbench": "sha256:f82b3cbadf5e98923e829622a8d6bab5ee61d8306ad1e93c9b6553f14544e9a3",
+            "id": "conformance:b006",
+            "layoutDigest": "sha256:5c56035539e01484fec927bb0daf9779eaf713b104542b73d02d353b32e21482",
+            "manifestDigest": "sha256:500459fd6b859554ae68b8eb2bcb0db9c41c13f0f8dcb40156a58f6dc8f19985",
+            "resolved-scene": "sha256:6488b7d1224f2b6bba60446d0d3dacadf2f12db03703e7528fdca6fff7377093",
+            "sourceDigest": "sha256:ae5389ee0fc2fdef7453cb831a5bb349b4256f9d7fbe64f9eb916833a8920a43",
+            "standalone-viewer": "sha256:955d49b285326973f5a8bab66d255f94c0c21294e81fcb65ba87c6c4b0e5bb51",
+            "viewer-model": "sha256:0d72322495f2ec65e43f063b8749bbeb50943c71aa2abedb71755e82b611ec3f"
+          },
+          "project": "conformance:b006",
+          "release": "AIXEM-SRP-0.5.5-2026-08-11",
+          "schema": "https://schemas.aixem.org/component-graphics/project-validation/1",
+          "statistics": {
+            "entities": 1,
+            "nets": 0,
+            "noConnects": 0,
+            "primitives": 1,
+            "routeSegments": 0,
+            "symbolAssets": 1
+          },
+          "valid": true
+        }
+      },
+      "sourceBytes": 5031,
+      "static": {
+        "capabilities": [
+          "geometry.path",
+          "paint.gradient"
+        ],
+        "geometrySignature": {
+          "bounds": {
+            "height": 65,
+            "width": 70,
+            "x": -35,
+            "y": -30
+          },
+          "capabilities": [
+            "geometry.path",
+            "paint.gradient"
+          ],
+          "case": "B006",
+          "defaultVariant": null,
+          "definitions": [],
+          "fieldAnchors": [],
+          "parameters": {},
+          "ports": [],
+          "primitiveCounts": {
+            "path": 1
+          },
+          "requiredFeatures": [
+            "compound-path",
+            "cubic-bezier",
+            "gradient"
+          ],
+          "symbol": "corpus:b006-irregular-mark",
+          "variants": []
+        },
+        "geometrySignatureDigest": "sha256:18d0cedd990f2d4ddaf98c782ce99a56f589758da89fe33bae638c68fc335a02",
+        "leadCoincidenceChecks": 0,
+        "portCount": 0,
+        "primitiveCounts": {
+          "path": 1
+        },
+        "symbolDigest": "sha256:3e899265e1b15cf8c3e5633cc97aed633d38ed5148b163ed7f53af27115df801",
+        "visiblePortCount": 0
+      },
+      "symbolPath": "validation/corpus/static-2d-block-1/cases/B006-irregular-mark/symbol.aixsym.json",
+      "tier": "b2d",
+      "title": "Irregular mark block",
+      "visualReview": {
+        "issues": [],
+        "record": {
+          "checks": {
+            "dimensions-unambiguous": true,
+            "no-unintended-fill-or-self-intersection-artifact": true,
+            "outline-recognizable": true,
+            "repeated-geometry-evenly-spaced": true,
+            "static-profile-exclusions-respected": true,
+            "text-readable-at-normal-scale": true
+          },
+          "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+          "result": "PASS",
+          "reviewDate": "2026-08-11",
+          "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+          "sourceDigest": "sha256:3e899265e1b15cf8c3e5633cc97aed633d38ed5148b163ed7f53af27115df801",
+          "svgDigest": "sha256:7431af9047c5f840282f8c41d8038605a133ad8bd5b9b92d92ff922919339eaa"
+        },
+        "status": "PASS",
+        "valid": true
+      }
+    }
+  ],
+  "profile": "static-2d-block-1",
+  "release": "AIXEM-SRP-0.5.2-2026-08-11",
+  "renderer": {
+    "id": "aixem-grid-schematic-reference-renderer",
+    "sourceDigest": "sha256:178b300c91a268222cd0bd2b720b3532a6ff9b808371093acd3e96054fb26ab9",
+    "version": "0.5.1"
+  },
+  "schema": "https://schemas.aixem.org/conformance/corpus-results/1",
+  "styleProfileDigest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+  "summary": {
+    "automatedPassed": 6,
+    "expectedCases": 6,
+    "observedCases": 6,
+    "status": "PASS",
+    "visualPassed": 6
+  },
+  "symbolSchemaDigest": "sha256:ba4d442591f6e53daf07f9d8f85e2026043f4e93ae0710e2578447dd3c466831"
+}

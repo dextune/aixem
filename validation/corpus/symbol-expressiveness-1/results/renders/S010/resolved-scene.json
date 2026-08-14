@@ -1,0 +1,128 @@
+{
+  "coordinateSystem": {
+    "angleDirection": "clockwise",
+    "angleUnit": "deg",
+    "grid": 2.5,
+    "unit": "mm",
+    "yAxis": "down"
+  },
+  "diagnostics": [],
+  "entities": [
+    {
+      "componentType": "conformance:s010",
+      "key": "X1",
+      "kind": "component",
+      "parameters": {},
+      "placement": {
+        "entity": "X1",
+        "layer": "symbols",
+        "x": 50.0,
+        "y": 57.5
+      },
+      "ports": {
+        "D": [
+          60.0,
+          37.5
+        ],
+        "G": [
+          30.0,
+          57.5
+        ],
+        "S": [
+          60.0,
+          77.5
+        ]
+      },
+      "reference": "X1",
+      "symbolDigest": "sha256:9fe57a53912522c6a20077ef612f188d3835054026abdaa3ed190f9d3f9268ae",
+      "symbolId": "corpus:s010-mosfet-n",
+      "value": "N-channel MOSFET",
+      "variant": null
+    }
+  ],
+  "featuresUsed": [],
+  "generatedAt": "2026-08-10T00:00:00Z",
+  "gridValidation": {
+    "crossingPolicy": "junction-required",
+    "orthogonalSegments": 0,
+    "placementExceptions": [],
+    "placements": 1,
+    "placementsOnGrid": 1,
+    "profile": "aixem.schematic.grid-light",
+    "routeSegments": 0,
+    "routeViasOnGrid": true,
+    "snap": 2.5,
+    "zeroLengthSegments": []
+  },
+  "hashes": {
+    "layout": "sha256:4a43c274453bedb3e2b7b5b7d0235f5bfe97ca4c0d9d9e1754836419189fd34e",
+    "libraries": [
+      "sha256:33c56c9deb3ba07eec7520bc13dc488bb5efd8e17ac674d68c534fd02ddae61e"
+    ],
+    "source": "sha256:8d2601919cd98000451e2a1f2af45cc8196a49e274c0ccc6faff97010fa8e9dd",
+    "symbolAssets": [
+      "sha256:9fe57a53912522c6a20077ef612f188d3835054026abdaa3ed190f9d3f9268ae"
+    ]
+  },
+  "layers": [
+    {
+      "defaultVisible": true,
+      "id": "connections",
+      "locked": false,
+      "order": 10,
+      "printable": true,
+      "purpose": "semantic net routes"
+    },
+    {
+      "defaultVisible": true,
+      "id": "symbols",
+      "locked": false,
+      "order": 20,
+      "printable": true,
+      "purpose": "component symbols"
+    },
+    {
+      "defaultVisible": true,
+      "id": "annotation",
+      "locked": false,
+      "order": 30,
+      "printable": true,
+      "purpose": "notes"
+    }
+  ],
+  "nets": [],
+  "project": {
+    "id": "conformance:s010",
+    "profile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "title": "S010 N-channel MOSFET conformance project"
+  },
+  "renderer": {
+    "id": "aixem-grid-schematic-reference-renderer",
+    "version": "0.5.1"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/resolved-scene/1",
+  "sheet": {
+    "height": 140.0,
+    "margin": 10,
+    "titleBlock": {
+      "drawing": "corpus_s010-layout",
+      "revision": "A",
+      "sheet": "1/1",
+      "title": "S010 — N-channel MOSFET"
+    },
+    "width": 180.0
+  },
+  "statistics": {
+    "entities": 1,
+    "nets": 0,
+    "noConnects": 0,
+    "primitives": 14,
+    "routeSegments": 0,
+    "symbolAssets": 1
+  },
+  "styleProfile": {
+    "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+    "id": "aixem.schematic.grid-light",
+    "path": "aixem-grid-schematic-style-1.aixstyle.json"
+  }
+}

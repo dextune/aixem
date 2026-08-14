@@ -1,0 +1,28 @@
+{
+  "entryRoute": "route-nets",
+  "executionMode": "deterministic-harness-replay",
+  "expectedInitialDiagnostics": [
+    "AIXEM-DIAG-ROUTE-NON-ORTHOGONAL"
+  ],
+  "id": "A010",
+  "iterations": 1,
+  "liveExternalAgentExecuted": false,
+  "missingExpectedDiagnostics": [],
+  "mutation": "non-orthogonal-route",
+  "observedInitialDiagnostics": [
+    "AIXEM-DIAG-ROUTE-NON-ORTHOGONAL"
+  ],
+  "passConditions": {
+    "checkPassedAfterRepair": true,
+    "closePassed": true,
+    "expectedInitialDiagnosticsObserved": true,
+    "liveClaimFalse": true,
+    "renderDeterministic": true,
+    "zeroGeneratedOutputEdits": true,
+    "zeroScopeViolations": true
+  },
+  "recordDigest": "sha256:de5a5645bd3ae69f4b7b388d0e7d047809563f7c06aa9e33904f56e07a326137",
+  "retainedRunRecord": "runs/A010-authoring-run-record.json",
+  "status": "pass",
+  "title": "Off-grid or non-orthogonal route"
+}

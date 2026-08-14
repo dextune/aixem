@@ -1,0 +1,98 @@
+{
+  "authority": "evaluator-only",
+  "caseId": "L011",
+  "formatVersion": "1.0",
+  "invariants": [
+    {
+      "arguments": {
+        "project": "project.aixproj.json",
+        "route": "validate-project"
+      },
+      "basis": [
+        {
+          "pointer": "/completionCriteria/3",
+          "type": "task"
+        }
+      ],
+      "description": "The actual final workspace passes full project validation.",
+      "id": "L011-VALID",
+      "predicate": "validator-pass",
+      "required": true
+    },
+    {
+      "arguments": {
+        "project": "project.aixproj.json",
+        "repeats": 3
+      },
+      "basis": [
+        {
+          "pointer": "/completionCriteria/3",
+          "type": "task"
+        }
+      ],
+      "description": "The actual final workspace renders deterministically three times.",
+      "id": "L011-RENDER",
+      "predicate": "render-deterministic",
+      "required": true
+    },
+    {
+      "arguments": {
+        "code": "AIXEM-DIAG-PROJECT-NET-DUPLICATE-MEMBER",
+        "project": "project.aixproj.json",
+        "route": "compose-project"
+      },
+      "basis": [
+        {
+          "pointer": "/facts",
+          "type": "task"
+        }
+      ],
+      "description": "The duplicate-member diagnostic is absent.",
+      "id": "L011-DIAG",
+      "predicate": "diagnostic-absent",
+      "required": true
+    },
+    {
+      "arguments": {
+        "members": [
+          "power@VCC",
+          "control@VCC"
+        ],
+        "mode": "exact",
+        "net": "vcc_5v",
+        "project": "project.aixproj.json"
+      },
+      "basis": [
+        {
+          "pointer": "/facts",
+          "type": "task"
+        }
+      ],
+      "description": "The VCC project net retains exactly its two intended members.",
+      "id": "L011-VCC",
+      "predicate": "project-net-members",
+      "required": true
+    },
+    {
+      "arguments": {
+        "authorities": [
+          "semantic",
+          "layout",
+          "symbol",
+          "component-library"
+        ]
+      },
+      "basis": [
+        {
+          "pointer": "/writeConstraints/writableAuthorities",
+          "type": "task"
+        }
+      ],
+      "description": "Leaf semantic, layout, symbol, and library authorities remain unchanged.",
+      "id": "L011-PRESERVE",
+      "predicate": "authority-digest-unchanged",
+      "required": true
+    }
+  ],
+  "schema": "https://schemas.aixem.org/agent/evaluation-invariant/1"
+}

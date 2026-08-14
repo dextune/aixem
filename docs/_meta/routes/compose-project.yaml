@@ -1,0 +1,94 @@
+schema: https://schemas.aixem.org/documentation/task-route/1
+formatVersion: '1.0'
+kind: simple
+id: compose-project
+intent: compose-project
+aliases:
+- compose project
+- create multi-sheet project
+- connect sheets
+- define project nets
+- author hierarchy
+- connect sheets with project nets
+summary: Register independent leaf sheets, define organizational hierarchy, and connect explicit semantic interface ports through project nets
+budget:
+  max_documents: 7
+  max_bytes: 98304
+  max_depth: 3
+expected_inputs:
+- digest-locked leaf source and layout pairs
+- leaf interface summaries
+- project composition intent
+steps:
+- order: 1
+  document: AIXEM-SPEC-PROJECT-COMPOSITION-001
+  section: canonical-structure
+  purpose: Establish the Project to Sheet authority boundary and canonical aixproj/2 structure.
+  required: true
+- order: 2
+  document: AIXEM-SPEC-INTERFACE-PORT-001
+  section: local-net-closure
+  purpose: Confirm that every cross-sheet boundary is backed by a real leaf semantic endpoint.
+  required: true
+- order: 3
+  document: AIXEM-CONCEPT-PROJECT-NET-001
+  section: equivalence-collision
+  purpose: Apply local-net and project-net equivalence rules without name-based merging.
+  required: true
+- order: 4
+  document: AIXEM-FORMAT-AIXPROJ-001
+  section: 0-5-3-multi-sheet-form-aixproj-2
+  purpose: Serialize sheets, hierarchy, project nets, libraries, render policy, and digests.
+  required: true
+- order: 5
+  document: AIXEM-AGENT-AUTHORING-001
+  section: hierarchical-authoring-stages
+  purpose: Use interface summaries first and open only affected leaf files.
+  required: true
+- order: 6
+  document: AIXEM-CONF-HIERARCHICAL-PROJECT-001
+  section: corpus-inventory
+  purpose: Validate the composed graph against positive and fail-closed corpus cases.
+  required: true
+completion:
+- Every sheet validates independently
+- Hierarchy is acyclic and deterministically ordered
+- Every project-net member resolves to a semantic interface port
+- No connectivity was inferred from names or geometry
+expected_outputs:
+- digest-locked aixproj/2 manifest
+- resolved project semantic graph
+- per-sheet interface summaries
+- project composition validation evidence
+validators:
+- schematic.project_schema
+- schematic.digest_lock
+- schematic.semantic
+- schematic.geometry_isolation
+- agent.diagnostics
+- agent.change_scope
+writes:
+  authority:
+  - project
+  artifacts:
+  - '**/*.aixproj.json'
+  derived:
+  - render/**
+  - evidence/**
+  prohibited:
+  - render/**
+  - evidence/**
+  - '**/viewer.html'
+  - '**/workbench.html'
+  - '**/*.svg'
+  - '**/resolved-scene.json'
+  - '**/resolved-project-scene.json'
+  - '**/viewer-model.json'
+  - '**/render-manifest.json'
+  - '**/project-validation.json'
+remediation:
+  acceptsDiagnostics:
+  - AIXEM-DIAG-PROJECT-SHEET-UNKNOWN
+  - AIXEM-DIAG-PROJECT-INTERFACE-UNKNOWN
+  - AIXEM-DIAG-PROJECT-NET-DUPLICATE-MEMBER
+  - AIXEM-DIAG-PROJECT-NET-MULTIPLE-OWNERSHIP

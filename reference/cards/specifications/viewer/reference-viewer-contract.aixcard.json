@@ -1,0 +1,98 @@
+{
+  "card": {
+    "aliases": [
+      "Reference Viewer",
+      "viewer contract",
+      "viewer.html",
+      "Viewer Model 1"
+    ],
+    "appliesTo": [
+      "reference-viewer-contract",
+      "viewer-model-contract",
+      "viewer-dom-contract"
+    ],
+    "domain": "specifications",
+    "estimatedReadBytes": 15764,
+    "id": "AIXEM-SPEC-VIEWER-001",
+    "inputs": [],
+    "keywords": [
+      "Reference Viewer",
+      "Reference Viewer Contract 1",
+      "Viewer Model 1",
+      "inspect-viewer",
+      "publish-release",
+      "render-review",
+      "validate-project",
+      "viewer contract",
+      "viewer.html"
+    ],
+    "kind": "specification",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/specifications/viewer/reference-viewer-contract.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:51f0c496601896459e57adb025523d72eff5b3d0a1468fddcc81957de9b491a9"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SPEC-RENDERER-001",
+      "AIXEM-SPEC-PROJECT-COMPOSITION-001",
+      "AIXEM-SPEC-VISUAL-PROFILE-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-VIEWER-0001",
+        "level": "must",
+        "text": "**MUST.** The Reference Viewer MUST NOT create or modify semantic, layout, or project-composition authority."
+      },
+      {
+        "id": "AIXEM-REQ-VIEWER-0002",
+        "level": "must",
+        "text": "**MUST.** viewer.html and workbench.html MUST implement separately declared Reference Viewer and Review Workbench profiles rather than nominal aliases."
+      },
+      {
+        "id": "AIXEM-REQ-VIEWER-0004",
+        "level": "must",
+        "text": "**MUST.** Hierarchical projects MUST expose Sheet, Overview, and Composite modes."
+      },
+      {
+        "id": "AIXEM-REQ-VIEWER-0015",
+        "level": "must",
+        "text": "**MUST.** The generated Viewer Model MUST validate against its published schema and contain no unresolved qualified-object references."
+      },
+      {
+        "id": "AIXEM-REQ-VIEWER-0005",
+        "level": "must",
+        "text": "**MUST.** Viewer selection, search, and highlighting MUST use sheet-qualified identities wherever local names can collide."
+      },
+      {
+        "id": "AIXEM-REQ-VIEWER-0006",
+        "level": "must",
+        "text": "**MUST.** The same qualified object selected through the canvas, navigator, or search MUST resolve to the same inspector identity."
+      },
+      {
+        "id": "AIXEM-REQ-VIEWER-0007",
+        "level": "must",
+        "text": "**MUST.** Selecting a project net MUST highlight only routes and interfaces belonging to that declared project net."
+      },
+      {
+        "id": "AIXEM-REQ-VIEWER-0016",
+        "level": "must",
+        "text": "**MUST.** Three complete renders from identical staged inputs MUST produce byte-identical Viewer Model, viewer.html, and workbench.html artifacts."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SPEC-VIEWER-001",
+        "path": "docs/specifications/viewer/reference-viewer-contract.md"
+      }
+    ],
+    "summary": "Defines the deterministic, self-contained, read-only AIXEM HTML viewer, Viewer Model boundary, qualified identity, views, inspection, and compatibility rules.",
+    "title": "Reference Viewer Contract 1"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

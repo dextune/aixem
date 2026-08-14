@@ -1,0 +1,874 @@
+{
+  "artifactMap": {
+    "generatedAt": "2026-08-12T00:00:00Z",
+    "release": "AIXEM-SRP-0.5.9-2026-08-12",
+    "rules": [
+      {
+        "authority": "aixem-docs-home-001.artifact.1",
+        "owner": "AIXEM-DOCS-HOME-001",
+        "pattern": "docs/index.md",
+        "validators": [
+          "docs.artifact_existence"
+        ]
+      },
+      {
+        "authority": "aixem-schem-grid-001.artifact.1",
+        "owner": "AIXEM-SCHEM-GRID-001",
+        "pattern": "profiles/aixem-grid-schematic-style-1.aixstyle.json#/styleProfile/grid",
+        "validators": [
+          "docs.artifact_existence"
+        ]
+      },
+      {
+        "authority": "aixem-spec-document-001.artifact.1",
+        "owner": "AIXEM-SPEC-DOCUMENT-001",
+        "pattern": "docs/_meta/schema/document-metadata.schema.json",
+        "validators": [
+          "docs.artifact_existence"
+        ]
+      },
+      {
+        "authority": "aixem-spec-grid-profile-001.artifact.1",
+        "owner": "AIXEM-SPEC-GRID-PROFILE-001",
+        "pattern": "aixem.schematic.grid-light@1",
+        "validators": [
+          "docs.artifact_existence"
+        ]
+      },
+      {
+        "authority": "aixem-spec-symbol-001.artifact.1",
+        "owner": "AIXEM-SPEC-SYMBOL-001",
+        "pattern": "docs/specifications/schemas/component-graphics-1/aixem-symbol-asset-1.schema.json",
+        "validators": [
+          "docs.artifact_existence"
+        ]
+      },
+      {
+        "authority": "aixem-spec-layout-001.artifact.1",
+        "owner": "AIXEM-SPEC-LAYOUT-001",
+        "pattern": "docs/specifications/schemas/component-graphics-1/aixem-explicit-layout-1.schema.json",
+        "validators": [
+          "docs.artifact_existence"
+        ]
+      },
+      {
+        "authority": "aixem-spec-project-lock-001.artifact.1",
+        "owner": "AIXEM-SPEC-PROJECT-LOCK-001",
+        "pattern": "docs/specifications/schemas/component-graphics-1/aixem-project-manifest-1.schema.json",
+        "validators": [
+          "docs.artifact_existence"
+        ]
+      },
+      {
+        "authority": "aixem-spec-metadata-001.artifact.1",
+        "owner": "AIXEM-SPEC-METADATA-001",
+        "pattern": "docs/_meta/schema/document-metadata.schema.json",
+        "validators": [
+          "docs.artifact_existence"
+        ]
+      },
+      {
+        "authority": "aixem-format-aixem-001.artifact.1",
+        "owner": "AIXEM-FORMAT-AIXEM-001",
+        "pattern": "*.aixem",
+        "validators": [
+          "docs.artifact_existence"
+        ]
+      },
+      {
+        "authority": "aixem-format-aixlib-001.artifact.1",
+        "owner": "AIXEM-FORMAT-AIXLIB-001",
+        "pattern": "*.aixlib.json",
+        "validators": [
+          "docs.artifact_existence"
+        ]
+      },
+      {
+        "authority": "aixem-format-aixsym-001.artifact.1",
+        "owner": "AIXEM-FORMAT-AIXSYM-001",
+        "pattern": "*.aixsym.json",
+        "validators": [
+          "docs.artifact_existence"
+        ]
+      },
+      {
+        "authority": "aixem-format-aixlayout-001.artifact.1",
+        "owner": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "pattern": "*.aixlayout.json",
+        "validators": [
+          "docs.artifact_existence"
+        ]
+      },
+      {
+        "authority": "aixem-format-aixproj-001.artifact.1",
+        "owner": "AIXEM-FORMAT-AIXPROJ-001",
+        "pattern": "*.aixproj.json",
+        "validators": [
+          "docs.artifact_existence"
+        ]
+      },
+      {
+        "authority": "aixem-format-style-001.artifact.1",
+        "owner": "AIXEM-FORMAT-STYLE-001",
+        "pattern": "profiles/aixem-grid-schematic-style-1.aixstyle.json",
+        "validators": [
+          "docs.artifact_existence"
+        ]
+      },
+      {
+        "authority": "aixem-agent-routes-001.artifact.1",
+        "owner": "AIXEM-AGENT-ROUTES-001",
+        "pattern": "docs/_meta/routes/*.yaml",
+        "validators": [
+          "docs.artifact_existence"
+        ]
+      },
+      {
+        "authority": "aixem-agent-routes-001.artifact.2",
+        "owner": "AIXEM-AGENT-ROUTES-001",
+        "pattern": "docs/_meta/generated/route-index.json",
+        "validators": [
+          "docs.artifact_existence"
+        ]
+      },
+      {
+        "authority": "aixem-arch-artifact-001.artifact.1",
+        "owner": "AIXEM-ARCH-ARTIFACT-001",
+        "pattern": "docs/_meta/generated/artifact-map.json",
+        "validators": [
+          "docs.artifact_existence"
+        ]
+      },
+      {
+        "authority": "aixem-conf-requirements-001.artifact.1",
+        "owner": "AIXEM-CONF-REQUIREMENTS-001",
+        "pattern": "docs/_meta/generated/requirement-traceability.json",
+        "validators": [
+          "docs.artifact_existence"
+        ]
+      },
+      {
+        "authority": "aixem-conf-tests-001.artifact.1",
+        "owner": "AIXEM-CONF-TESTS-001",
+        "pattern": "tests/docs/test_repository.py",
+        "validators": [
+          "docs.artifact_existence"
+        ]
+      },
+      {
+        "authority": "aixem-conf-tests-001.artifact.2",
+        "owner": "AIXEM-CONF-TESTS-001",
+        "pattern": "tests/docs/retrieval-corpus.json",
+        "validators": [
+          "docs.artifact_existence"
+        ]
+      },
+      {
+        "authority": "aixem-conf-compat-001.artifact.1",
+        "owner": "AIXEM-CONF-COMPAT-001",
+        "pattern": "legacy/0.4-migration-map.json",
+        "validators": [
+          "docs.artifact_existence"
+        ]
+      },
+      {
+        "authority": "aixem-example-controller-001.artifact.1",
+        "owner": "AIXEM-EXAMPLE-CONTROLLER-001",
+        "pattern": "examples/electronics-grid-controller/project.aixproj.json",
+        "validators": [
+          "docs.artifact_existence"
+        ]
+      },
+      {
+        "authority": "aixem-example-controller-001.artifact.2",
+        "owner": "AIXEM-EXAMPLE-CONTROLLER-001",
+        "pattern": "examples/electronics-grid-controller/render/workbench.html",
+        "validators": [
+          "docs.artifact_existence"
+        ]
+      },
+      {
+        "authority": "aixem-gov-terms-001.artifact.1",
+        "owner": "AIXEM-GOV-TERMS-001",
+        "pattern": "docs/_meta/glossary.yaml",
+        "validators": [
+          "docs.artifact_existence"
+        ]
+      },
+      {
+        "authority": "aixem-release-059-001.artifact.release-metadata",
+        "owner": "AIXEM-RELEASE-059-001",
+        "pattern": "release/release-metadata.json",
+        "validators": [
+          "docs.artifact_existence"
+        ]
+      },
+      {
+        "authority": "aixem-release-059-001.artifact.final-report",
+        "owner": "AIXEM-RELEASE-059-001",
+        "pattern": "validation/releases/0.5.9/final-validation.md",
+        "validators": [
+          "docs.artifact_existence"
+        ]
+      },
+      {
+        "authority": "aixem-spec-schemas-001.artifact.1",
+        "owner": "AIXEM-SPEC-SCHEMAS-001",
+        "pattern": "docs/specifications/schemas/",
+        "validators": [
+          "docs.artifact_existence"
+        ]
+      },
+      {
+        "authority": "generated.documentation.index",
+        "owner": "AIXEM-SPEC-DOCUMENT-001",
+        "pattern": "docs/_meta/generated/**",
+        "validators": [
+          "docs.generated_freshness"
+        ]
+      },
+      {
+        "authority": "generated.static.site",
+        "owner": "AIXEM-ARCH-SYSTEM-001",
+        "pattern": "site/**",
+        "validators": [
+          "docs.site"
+        ]
+      },
+      {
+        "authority": "generated.compatibility.reference",
+        "owner": "AIXEM-CONF-COMPAT-001",
+        "pattern": "reference/**",
+        "validators": [
+          "docs.compatibility_reference"
+        ]
+      },
+      {
+        "authority": "generated.validation.evidence",
+        "owner": "AIXEM-CONF-VALIDATION-001",
+        "pattern": "validation/**",
+        "validators": [
+          "docs.evidence"
+        ]
+      },
+      {
+        "authority": "generated.release.package",
+        "owner": "AIXEM-CONF-RELEASE-001",
+        "pattern": "release/**",
+        "validators": [
+          "docs.manifest"
+        ]
+      },
+      {
+        "authority": "aixem-spec-viewer-001.artifact.schema",
+        "owner": "AIXEM-SPEC-VIEWER-001",
+        "pattern": "docs/specifications/schemas/viewer/aixem-viewer-model-1.schema.json",
+        "validators": [
+          "schematic.reference_viewer"
+        ]
+      },
+      {
+        "authority": "aixem-spec-viewer-001.artifact.model",
+        "owner": "AIXEM-SPEC-VIEWER-001",
+        "pattern": "implementation/schematic/viewer/model.py",
+        "validators": [
+          "schematic.reference_viewer"
+        ]
+      },
+      {
+        "authority": "aixem-spec-viewer-001.artifact.reference-renderer",
+        "owner": "AIXEM-SPEC-VIEWER-001",
+        "pattern": "implementation/schematic/viewer/reference_viewer.py",
+        "validators": [
+          "schematic.reference_viewer"
+        ]
+      },
+      {
+        "authority": "aixem-spec-viewer-001.artifact.reference-template",
+        "owner": "AIXEM-SPEC-VIEWER-001",
+        "pattern": "implementation/schematic/viewer/templates/reference-viewer.html.j2",
+        "validators": [
+          "schematic.reference_viewer"
+        ]
+      },
+      {
+        "authority": "aixem-spec-viewer-state-001.artifact.core",
+        "owner": "AIXEM-SPEC-VIEWER-STATE-001",
+        "pattern": "implementation/schematic/viewer/core.py",
+        "validators": [
+          "schematic.reference_viewer"
+        ]
+      },
+      {
+        "authority": "aixem-spec-viewer-security-001.artifact.base-template",
+        "owner": "AIXEM-SPEC-VIEWER-SECURITY-001",
+        "pattern": "implementation/schematic/viewer/templates/base.html.j2",
+        "validators": [
+          "schematic.reference_viewer"
+        ]
+      },
+      {
+        "authority": "aixem-spec-workbench-001.artifact.renderer",
+        "owner": "AIXEM-SPEC-WORKBENCH-001",
+        "pattern": "implementation/schematic/viewer/review_workbench.py",
+        "validators": [
+          "schematic.reference_viewer"
+        ]
+      },
+      {
+        "authority": "aixem-spec-workbench-001.artifact.template",
+        "owner": "AIXEM-SPEC-WORKBENCH-001",
+        "pattern": "implementation/schematic/viewer/templates/review-workbench.html.j2",
+        "validators": [
+          "schematic.reference_viewer"
+        ]
+      },
+      {
+        "authority": "validation.reference-viewer.corpus",
+        "owner": "AIXEM-CONF-REFERENCE-VIEWER-001",
+        "pattern": "validation/corpus/reference-viewer-1/**",
+        "validators": [
+          "schematic.reference_viewer"
+        ]
+      },
+      {
+        "authority": "implementation.reference-viewer.validator",
+        "owner": "AIXEM-CONF-REFERENCE-VIEWER-001",
+        "pattern": "tools/validate_reference_viewer_corpus.py",
+        "validators": [
+          "schematic.reference_viewer"
+        ]
+      },
+      {
+        "authority": "tests.reference-viewer.behavior",
+        "owner": "AIXEM-CONF-REFERENCE-VIEWER-001",
+        "pattern": "tests/conformance/test_reference_viewer.py",
+        "validators": [
+          "schematic.reference_viewer"
+        ]
+      },
+      {
+        "authority": "tests.reference-viewer.security",
+        "owner": "AIXEM-CONF-REFERENCE-VIEWER-001",
+        "pattern": "tests/conformance/test_viewer_security.py",
+        "validators": [
+          "schematic.reference_viewer"
+        ]
+      },
+      {
+        "authority": "tests.reference-viewer.accessibility",
+        "owner": "AIXEM-CONF-REFERENCE-VIEWER-001",
+        "pattern": "tests/conformance/test_viewer_accessibility.py",
+        "validators": [
+          "schematic.reference_viewer"
+        ]
+      },
+      {
+        "authority": "implementation.schematic.renderer-contract",
+        "owner": "AIXEM-SPEC-RENDERER-001",
+        "pattern": "implementation/schematic/**",
+        "validators": [
+          "schematic.renderer_contract"
+        ]
+      },
+      {
+        "authority": "implementation.documentation.compiler",
+        "owner": "AIXEM-ARCH-PIPELINE-001",
+        "pattern": "tools/docs/**",
+        "validators": [
+          "docs.pipeline"
+        ]
+      },
+      {
+        "authority": "generated.agent.task-packets",
+        "owner": "AIXEM-AGENT-ROUTES-001",
+        "pattern": "docs/_meta/generated/task-packets/**",
+        "validators": [
+          "agent.authoring_routes"
+        ]
+      },
+      {
+        "authority": "authoring.golden.examples",
+        "owner": "AIXEM-CONF-TESTS-001",
+        "pattern": "examples/authoring/**",
+        "validators": [
+          "schematic.authoring_examples"
+        ]
+      },
+      {
+        "authority": "validation.agent.authoring-evaluations",
+        "owner": "AIXEM-AGENT-AUTHORING-001",
+        "pattern": "validation/agent-evals/**",
+        "validators": [
+          "agent.authoring_routes"
+        ]
+      },
+      {
+        "authority": "implementation.authoring.validation",
+        "owner": "AIXEM-CONF-VALIDATION-001",
+        "pattern": "tools/docs/authoring_validation.py",
+        "validators": [
+          "docs.authoring_reference"
+        ]
+      },
+      {
+        "authority": "tests.authoring.documentation",
+        "owner": "AIXEM-CONF-TESTS-001",
+        "pattern": "tests/docs/test_authoring_*.py",
+        "validators": [
+          "schematic.authoring_examples"
+        ]
+      },
+      {
+        "authority": "tests.renderer.contract",
+        "owner": "AIXEM-CONF-TESTS-001",
+        "pattern": "tests/docs/test_renderer_contract.py",
+        "validators": [
+          "schematic.renderer_contract"
+        ]
+      },
+      {
+        "authority": "aixem-spec-project-composition-001.artifact.1",
+        "owner": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
+        "pattern": "docs/specifications/schemas/component-graphics-2/aixem-project-manifest-2.schema.json",
+        "validators": [
+          "docs.artifact_existence"
+        ]
+      },
+      {
+        "authority": "aixem-spec-hierarchical-port-layout-001.artifact.1",
+        "owner": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
+        "pattern": "docs/specifications/schemas/component-graphics-2/aixem-explicit-layout-2.schema.json",
+        "validators": [
+          "docs.artifact_existence"
+        ]
+      },
+      {
+        "authority": "validation.hierarchical-project.corpus",
+        "owner": "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
+        "pattern": "validation/corpus/hierarchical-project-1/**",
+        "validators": [
+          "docs.evidence"
+        ]
+      },
+      {
+        "authority": "implementation.hierarchical-corpus.generator",
+        "owner": "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
+        "pattern": "tools/build_hierarchical_corpus.py",
+        "validators": [
+          "schematic.project_schema"
+        ]
+      },
+      {
+        "authority": "implementation.hierarchical-corpus.validator",
+        "owner": "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
+        "pattern": "tools/validate_hierarchical_corpus.py",
+        "validators": [
+          "schematic.project_schema"
+        ]
+      },
+      {
+        "authority": "implementation.hierarchical-performance.baseline",
+        "owner": "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
+        "pattern": "tools/benchmark_hierarchical_project.py",
+        "validators": [
+          "schematic.deterministic"
+        ]
+      },
+      {
+        "authority": "implementation.release-053.verifier",
+        "owner": "AIXEM-RELEASE-053-001",
+        "pattern": "tools/verify_release_053.py",
+        "validators": [
+          "docs.three_passes"
+        ]
+      },
+      {
+        "authority": "implementation.release-053.packager",
+        "owner": "AIXEM-RELEASE-053-001",
+        "pattern": "tools/package_release_053.py",
+        "validators": [
+          "docs.manifest"
+        ]
+      },
+      {
+        "authority": "implementation.release-054.verifier",
+        "owner": "AIXEM-RELEASE-054-001",
+        "pattern": "tools/verify_release_054.py",
+        "validators": [
+          "docs.three_passes"
+        ]
+      },
+      {
+        "authority": "implementation.release-054.packager",
+        "owner": "AIXEM-RELEASE-054-001",
+        "pattern": "tools/package_release_054.py",
+        "validators": [
+          "docs.manifest"
+        ]
+      },
+      {
+        "authority": "aixem.agent-diagnostic.schema",
+        "owner": "AIXEM-SPEC-AGENT-DIAGNOSTIC-001",
+        "pattern": "docs/specifications/schemas/agent/aixem-agent-diagnostic-1.schema.json",
+        "validators": [
+          "agent.diagnostics"
+        ]
+      },
+      {
+        "authority": "aixem.agent-change-set.schema",
+        "owner": "AIXEM-SPEC-AGENT-CHANGESET-001",
+        "pattern": "docs/specifications/schemas/agent/aixem-agent-change-set-1.schema.json",
+        "validators": [
+          "agent.change_scope"
+        ]
+      },
+      {
+        "authority": "aixem.agent-run-record.schema",
+        "owner": "AIXEM-SPEC-AGENT-RUN-001",
+        "pattern": "docs/specifications/schemas/agent/aixem-agent-run-record-1.schema.json",
+        "validators": [
+          "agent.run_record"
+        ]
+      },
+      {
+        "authority": "implementation.agent.diagnostics",
+        "owner": "AIXEM-SPEC-AGENT-DIAGNOSTIC-001",
+        "pattern": "implementation/agent/diagnostics.py",
+        "validators": [
+          "agent.diagnostics"
+        ]
+      },
+      {
+        "authority": "implementation.agent.change-scope",
+        "owner": "AIXEM-SPEC-AGENT-CHANGESET-001",
+        "pattern": "implementation/agent/change_scope.py",
+        "validators": [
+          "agent.change_scope"
+        ]
+      },
+      {
+        "authority": "implementation.agent.run-record",
+        "owner": "AIXEM-SPEC-AGENT-RUN-001",
+        "pattern": "implementation/agent/run_record.py",
+        "validators": [
+          "agent.run_record"
+        ]
+      },
+      {
+        "authority": "implementation.agent.validator-adapter",
+        "owner": "AIXEM-SPEC-AGENT-EXECUTION-001",
+        "pattern": "implementation/agent/validator_adapter.py",
+        "validators": [
+          "agent.authoring_closed_loop"
+        ]
+      },
+      {
+        "authority": "implementation.agent.authoring-harness",
+        "owner": "AIXEM-SPEC-AGENT-EXECUTION-001",
+        "pattern": "tools/agent_authoring.py",
+        "validators": [
+          "agent.authoring_closed_loop"
+        ]
+      },
+      {
+        "authority": "implementation.agent-evaluation-2.runner",
+        "owner": "AIXEM-CONF-AGENT-AUTHORING-001",
+        "pattern": "tools/run_agent_evals_2.py",
+        "validators": [
+          "agent.evaluation_tier_truth"
+        ]
+      },
+      {
+        "authority": "tests.agent-authoring.closed-loop",
+        "owner": "AIXEM-CONF-AGENT-AUTHORING-001",
+        "pattern": "tests/agent/**",
+        "validators": [
+          "agent.authoring_closed_loop"
+        ]
+      },
+      {
+        "authority": "validation.agent-evaluation-2",
+        "owner": "AIXEM-CONF-AGENT-AUTHORING-001",
+        "pattern": "validation/agent-evals-2/**",
+        "validators": [
+          "agent.evaluation_tier_truth"
+        ]
+      },
+      {
+        "authority": "implementation.release-055.test-runner",
+        "owner": "AIXEM-RELEASE-055-001",
+        "pattern": "tools/run_tests_055.py",
+        "validators": [
+          "docs.three_passes"
+        ]
+      },
+      {
+        "authority": "implementation.release-055.verifier",
+        "owner": "AIXEM-RELEASE-055-001",
+        "pattern": "tools/verify_release_055.py",
+        "validators": [
+          "docs.three_passes"
+        ]
+      },
+      {
+        "authority": "implementation.release-055.packager",
+        "owner": "AIXEM-RELEASE-055-001",
+        "pattern": "tools/package_release_055.py",
+        "validators": [
+          "docs.manifest"
+        ]
+      },
+      {
+        "authority": "aixem.agent-task.schema",
+        "owner": "AIXEM-SPEC-AGENT-TASK-001",
+        "pattern": "docs/specifications/schemas/agent/aixem-agent-task-1.schema.json",
+        "validators": [
+          "agent.task_contract"
+        ]
+      },
+      {
+        "authority": "aixem.agent-stage.schema",
+        "owner": "AIXEM-SPEC-AGENT-STAGE-001",
+        "pattern": "docs/specifications/schemas/agent/aixem-agent-stage-manifest-1.schema.json",
+        "validators": [
+          "agent.cold_start_stage"
+        ]
+      },
+      {
+        "authority": "aixem.agent-executor.schema",
+        "owner": "AIXEM-SPEC-AGENT-EXECUTOR-LIVE-001",
+        "pattern": "docs/specifications/schemas/agent/aixem-agent-executor-1.schema.json",
+        "validators": [
+          "agent.live_executor"
+        ]
+      },
+      {
+        "authority": "aixem.agent-observation.schema",
+        "owner": "AIXEM-SPEC-AGENT-OBSERVATION-001",
+        "pattern": "docs/specifications/schemas/agent/aixem-agent-observation-event-1.schema.json",
+        "validators": [
+          "agent.observation"
+        ]
+      },
+      {
+        "authority": "aixem.agent-evaluation-invariant.schema",
+        "owner": "AIXEM-SPEC-AGENT-EVAL-INVARIANT-001",
+        "pattern": "docs/specifications/schemas/agent/aixem-agent-evaluation-invariant-1.schema.json",
+        "validators": [
+          "agent.evaluation_invariants"
+        ]
+      },
+      {
+        "authority": "aixem.agent-live-run.schema",
+        "owner": "AIXEM-SPEC-AGENT-LIVE-RUN-001",
+        "pattern": "docs/specifications/schemas/agent/aixem-agent-live-run-1.schema.json",
+        "validators": [
+          "agent.live_run"
+        ]
+      },
+      {
+        "authority": "aixem.agent-attempt-set.schema",
+        "owner": "AIXEM-SPEC-AGENT-LIVE-RUN-001",
+        "pattern": "docs/specifications/schemas/agent/aixem-agent-attempt-set-1.schema.json",
+        "validators": [
+          "agent.live_run"
+        ]
+      },
+      {
+        "authority": "implementation.agent.task-contract",
+        "owner": "AIXEM-SPEC-AGENT-TASK-001",
+        "pattern": "implementation/agent/task_contract.py",
+        "validators": [
+          "agent.task_contract"
+        ]
+      },
+      {
+        "authority": "implementation.agent.cold-start-stage",
+        "owner": "AIXEM-SPEC-AGENT-STAGE-001",
+        "pattern": "implementation/agent/cold_start_stage.py",
+        "validators": [
+          "agent.cold_start_stage"
+        ]
+      },
+      {
+        "authority": "implementation.agent.live-executor",
+        "owner": "AIXEM-SPEC-AGENT-EXECUTOR-LIVE-001",
+        "pattern": "implementation/agent/live_executor.py",
+        "validators": [
+          "agent.live_executor"
+        ]
+      },
+      {
+        "authority": "implementation.agent.observation",
+        "owner": "AIXEM-SPEC-AGENT-OBSERVATION-001",
+        "pattern": "implementation/agent/observation.py",
+        "validators": [
+          "agent.observation"
+        ]
+      },
+      {
+        "authority": "implementation.agent.invariant-scorer",
+        "owner": "AIXEM-SPEC-AGENT-EVAL-INVARIANT-001",
+        "pattern": "implementation/agent/invariant_scorer.py",
+        "validators": [
+          "agent.evaluation_invariants"
+        ]
+      },
+      {
+        "authority": "implementation.agent.live-run",
+        "owner": "AIXEM-SPEC-AGENT-LIVE-RUN-001",
+        "pattern": "implementation/agent/live_run.py",
+        "validators": [
+          "agent.live_run"
+        ]
+      },
+      {
+        "authority": "validation.agent-evaluation-3",
+        "owner": "AIXEM-CONF-AGENT-LIVE-001",
+        "pattern": "validation/agent-evals-3/**",
+        "validators": [
+          "agent.evaluation_3"
+        ]
+      },
+      {
+        "authority": "implementation.agent-evaluation-3.builder",
+        "owner": "AIXEM-CONF-AGENT-LIVE-001",
+        "pattern": "tools/build_agent_evals_3.py",
+        "validators": [
+          "agent.evaluation_3"
+        ]
+      },
+      {
+        "authority": "implementation.agent-evaluation-3.runner",
+        "owner": "AIXEM-CONF-AGENT-LIVE-001",
+        "pattern": "tools/run_agent_evals_3.py",
+        "validators": [
+          "agent.evaluation_3"
+        ]
+      },
+      {
+        "authority": "implementation.agent.live-authoring-cli",
+        "owner": "AIXEM-AGENT-LIVE-COLD-START-001",
+        "pattern": "tools/live_agent_authoring.py",
+        "validators": [
+          "agent.evaluation_3"
+        ]
+      },
+      {
+        "authority": "implementation.release-056.test-runner",
+        "owner": "AIXEM-RELEASE-056-001",
+        "pattern": "tools/run_tests_056.py",
+        "validators": [
+          "docs.three_passes"
+        ]
+      },
+      {
+        "authority": "implementation.release-056.verifier",
+        "owner": "AIXEM-RELEASE-056-001",
+        "pattern": "tools/verify_release_056.py",
+        "validators": [
+          "docs.three_passes"
+        ]
+      },
+      {
+        "authority": "implementation.release-056.packager",
+        "owner": "AIXEM-RELEASE-056-001",
+        "pattern": "tools/package_release_056.py",
+        "validators": [
+          "docs.manifest"
+        ]
+      },
+      {
+        "authority": "release.plan-056",
+        "owner": "AIXEM-RELEASE-056-001",
+        "pattern": "planning/releases/0.5.6/live-agent-cold-start-authoring.md",
+        "validators": [
+          "docs.artifact_existence"
+        ]
+      },
+      {
+        "authority": "documentation.repository-policy",
+        "owner": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "pattern": "docs/_meta/repository-document-policy.yaml",
+        "validators": [
+          "docs.repository_inventory"
+        ]
+      },
+      {
+        "authority": "documentation.path-migrations",
+        "owner": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "pattern": "docs/_meta/path-migrations.yaml",
+        "validators": [
+          "docs.path_migrations"
+        ]
+      },
+      {
+        "authority": "generated.documentation.repository-inventory",
+        "owner": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "pattern": "docs/_meta/generated/repository-document-inventory.json",
+        "validators": [
+          "docs.repository_inventory"
+        ]
+      },
+      {
+        "authority": "generated.documentation.path-migration-index",
+        "owner": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "pattern": "docs/_meta/generated/path-migration-index.json",
+        "validators": [
+          "docs.path_migrations"
+        ]
+      },
+      {
+        "authority": "implementation.documentation.repository-auditor",
+        "owner": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "pattern": "tools/docs/audit_repository_docs.py",
+        "validators": [
+          "docs.repository_inventory"
+        ]
+      },
+      {
+        "authority": "conformance.documentation.governance-tests",
+        "owner": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "pattern": "tests/docs/test_document_governance.py",
+        "validators": [
+          "docs.repository_inventory"
+        ]
+      },
+      {
+        "authority": "implementation.release-057.test-runner",
+        "owner": "AIXEM-RELEASE-057-001",
+        "pattern": "tools/run_tests_057.py",
+        "validators": [
+          "docs.five_passes"
+        ]
+      },
+      {
+        "authority": "implementation.release-057.verifier",
+        "owner": "AIXEM-RELEASE-057-001",
+        "pattern": "tools/verify_release_057.py",
+        "validators": [
+          "docs.five_passes"
+        ]
+      },
+      {
+        "authority": "implementation.release-057.packager",
+        "owner": "AIXEM-RELEASE-057-001",
+        "pattern": "tools/package_release_057.py",
+        "validators": [
+          "docs.manifest"
+        ]
+      },
+      {
+        "authority": "release.plan-057",
+        "owner": "AIXEM-RELEASE-057-001",
+        "pattern": "planning/releases/0.5.7/document-information-architecture-governance.md",
+        "validators": [
+          "docs.artifact_existence"
+        ]
+      }
+    ]
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixmap/1"
+}

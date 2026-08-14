@@ -1,0 +1,162 @@
+{
+  "examples": {
+    "brokenFixture": {
+      "checks": 10,
+      "issues": [
+        {
+          "code": "lead-port-mismatch",
+          "message": "Port 1 is at (-15.0, 0.0), but its visible lead ends at (-12.5, 0.0)",
+          "path": "examples/authoring/08-visual-repair/fixtures/broken-lead-port.aixsym.json",
+          "severity": "error"
+        }
+      ],
+      "path": "examples/authoring/08-visual-repair/fixtures/broken-lead-port.aixsym.json",
+      "valid": false
+    },
+    "checks": 241,
+    "examples": 8,
+    "expectedBrokenFixtureDetected": true,
+    "results": [
+      {
+        "checks": 23,
+        "id": "01-two-pin-passive",
+        "issues": [],
+        "valid": true
+      },
+      {
+        "checks": 44,
+        "id": "02-connector",
+        "issues": [],
+        "valid": true
+      },
+      {
+        "checks": 71,
+        "id": "03-multi-pin-ic",
+        "issues": [],
+        "valid": true
+      },
+      {
+        "checks": 23,
+        "id": "04-parameterized-variant",
+        "issues": [],
+        "valid": true
+      },
+      {
+        "checks": 23,
+        "id": "05-field-and-port-binding",
+        "issues": [],
+        "valid": true
+      },
+      {
+        "checks": 17,
+        "id": "06-two-terminal-route",
+        "issues": [],
+        "valid": true
+      },
+      {
+        "checks": 17,
+        "id": "07-multi-terminal-junction",
+        "issues": [],
+        "valid": true
+      },
+      {
+        "checks": 23,
+        "id": "08-visual-repair",
+        "issues": [],
+        "valid": true
+      }
+    ],
+    "valid": true
+  },
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "referenceCoverage": {
+    "coverage": 1.0,
+    "covered": 156,
+    "groups": {
+      "component": {
+        "covered": 10,
+        "document": "docs/symbols/component-symbol-binding.md",
+        "missing": [],
+        "total": 10
+      },
+      "connection": {
+        "covered": 7,
+        "document": "docs/file-formats/aixlayout.md",
+        "missing": [],
+        "total": 7
+      },
+      "connectionPath": {
+        "covered": 5,
+        "document": "docs/file-formats/aixlayout.md",
+        "missing": [],
+        "total": 5
+      },
+      "placement": {
+        "covered": 18,
+        "document": "docs/file-formats/aixlayout.md",
+        "missing": [],
+        "total": 18
+      },
+      "presentation": {
+        "covered": 7,
+        "document": "docs/symbols/component-symbol-binding.md",
+        "missing": [],
+        "total": 7
+      },
+      "primitiveProperties": {
+        "covered": 47,
+        "document": "docs/symbols/primitives.md",
+        "missing": [],
+        "total": 47
+      },
+      "primitiveTypes": {
+        "covered": 13,
+        "document": "docs/symbols/primitives.md",
+        "missing": [],
+        "total": 13
+      },
+      "symbolParameter": {
+        "covered": 8,
+        "document": "docs/symbols/aixsym-field-reference.md",
+        "missing": [],
+        "total": 8
+      },
+      "symbolPort": {
+        "covered": 13,
+        "document": "docs/symbols/pins-and-ports.md",
+        "missing": [],
+        "total": 13
+      },
+      "symbolTopLevel": {
+        "covered": 20,
+        "document": "docs/symbols/aixsym-field-reference.md",
+        "missing": [],
+        "total": 20
+      },
+      "symbolVariant": {
+        "covered": 8,
+        "document": "docs/symbols/variants.md",
+        "missing": [],
+        "total": 8
+      }
+    },
+    "issues": [],
+    "total": 156,
+    "valid": true
+  },
+  "release": "AIXEM-SRP-0.5.1-2026-08-11",
+  "rendererContract": {
+    "checks": 9,
+    "issues": [],
+    "valid": true
+  },
+  "schema": "https://schemas.aixem.org/validation/authoring-readiness/1",
+  "snippets": {
+    "documents": 105,
+    "issues": [],
+    "snippets": 18,
+    "valid": true
+  },
+  "valid": true
+}

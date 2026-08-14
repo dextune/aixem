@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "id": "A001",
+      "task": "validation/agent-evals-2/cases/A001/task.json"
+    },
+    {
+      "id": "A002",
+      "task": "validation/agent-evals-2/cases/A002/task.json"
+    },
+    {
+      "id": "A003",
+      "task": "validation/agent-evals-2/cases/A003/task.json"
+    },
+    {
+      "id": "A004",
+      "task": "validation/agent-evals-2/cases/A004/task.json"
+    },
+    {
+      "id": "A005",
+      "task": "validation/agent-evals-2/cases/A005/task.json"
+    },
+    {
+      "id": "A006",
+      "task": "validation/agent-evals-2/cases/A006/task.json"
+    },
+    {
+      "id": "A007",
+      "task": "validation/agent-evals-2/cases/A007/task.json"
+    },
+    {
+      "id": "A008",
+      "task": "validation/agent-evals-2/cases/A008/task.json"
+    },
+    {
+      "id": "A009",
+      "task": "validation/agent-evals-2/cases/A009/task.json"
+    },
+    {
+      "id": "A010",
+      "task": "validation/agent-evals-2/cases/A010/task.json"
+    },
+    {
+      "id": "A011",
+      "task": "validation/agent-evals-2/cases/A011/task.json"
+    },
+    {
+      "id": "A012",
+      "task": "validation/agent-evals-2/cases/A012/task.json"
+    }
+  ],
+  "executionTiers": {
+    "tierA": {
+      "liveExternalAgentExecuted": false,
+      "mode": "deterministic-harness-replay",
+      "required": true
+    },
+    "tierB": {
+      "claimPolicy": "MUST NOT claim success unless an external executor actually ran and evidence is retained",
+      "liveExternalAgentExecuted": false,
+      "mode": "live-external-agent",
+      "required": false
+    }
+  },
+  "formatVersion": "1.0",
+  "release": "AIXEM-SRP-0.5.5-2026-08-11",
+  "schema": "https://schemas.aixem.org/validation/agent-eval-2-manifest/1"
+}

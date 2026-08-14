@@ -1,0 +1,28 @@
+{
+  "agentVisible": [
+    "agent-task.json",
+    "TASK.md",
+    "start/**",
+    "compiled reference pack"
+  ],
+  "category": "creation",
+  "completedTargetBundled": false,
+  "evaluatorOnly": [
+    "evaluator/invariants.json",
+    "case.json",
+    "scoring metadata"
+  ],
+  "expectedInitialDiagnostics": [
+    "AIXEM-DIAG-BINDING-ASSET-DIGEST"
+  ],
+  "forbiddenCompletedDigests": [
+    "sha256:23982e0cebac91c1b3575d293d6fe138166844bf7ec08b343c0fd22a21c6b0fa",
+    "sha256:32efff4eefe3c12b869805605a6f64ea828348fad9bdf834e1ed622b9dcdbb38"
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "id": "L001",
+  "schema": "https://schemas.aixem.org/validation/agent-eval-3-case/1",
+  "startSource": "examples/authoring/01-two-pin-passive",
+  "title": "New two-pin passive"
+}

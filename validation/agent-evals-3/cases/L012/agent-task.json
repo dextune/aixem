@@ -1,0 +1,50 @@
+{
+  "activeRoute": "create-symbol",
+  "completionCriteria": [
+    "Use AGENTS.md and the compiled route packet before editing.",
+    "Edit only the authoritative files allowed by the active route.",
+    "Run prepare, check, authority-local repair, and close.",
+    "Leave zero blocking diagnostics, zero scope violations, and deterministic render evidence."
+  ],
+  "entryRoute": "create-symbol",
+  "expectedArtifacts": [
+    "library/electronics/authoring/repaired-resistor.aixsym.json",
+    "project.aixproj.json"
+  ],
+  "facts": {
+    "diagnostic": "AIXEM-DIAG-SYMBOL-FIELD-BODY-OVERLAP",
+    "fields": [
+      "reference",
+      "value"
+    ],
+    "symbol": "library/electronics/authoring/repaired-resistor.aixsym.json"
+  },
+  "formatVersion": "1.0",
+  "id": "L012",
+  "operation": "repair",
+  "project": "project.aixproj.json",
+  "prompt": "Move reference and value fields outside the body according to the symbol design profile. Preserve all endpoint semantics and route geometry.",
+  "routingMode": "fixed",
+  "schema": "https://schemas.aixem.org/agent/task/1",
+  "title": "Field and body overlap",
+  "writeConstraints": {
+    "prohibitedPaths": [
+      "render/**",
+      "evidence/**"
+    ],
+    "requiredValidators": [
+      "agent.live_stage",
+      "agent.evaluation_invariants"
+    ],
+    "writableAuthorities": [
+      "symbol",
+      "component-library",
+      "project"
+    ],
+    "writablePaths": [
+      "library/electronics/authoring/repaired-resistor.aixsym.json",
+      "library/electronics/authoring/authoring-components.aixlib.json",
+      "project.aixproj.json"
+    ]
+  }
+}

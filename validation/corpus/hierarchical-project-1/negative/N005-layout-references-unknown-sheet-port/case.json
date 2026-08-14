@@ -1,0 +1,8 @@
+{
+  "assertions": [],
+  "expected": "fail",
+  "expectedDiagnostic": "layout sheetPort references unknown semantic port",
+  "id": "N005",
+  "project": "project.aixproj.json",
+  "title": "Layout references unknown sheet port"
+}

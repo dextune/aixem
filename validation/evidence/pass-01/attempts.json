@@ -1,0 +1,15 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "durationSeconds": 14.730829,
+      "status": "pass"
+    }
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "pass": "pass-01",
+  "release": "AIXEM-SRP-0.5.1-2026-08-11",
+  "schema": "https://schemas.aixem.org/validation/pass-attempts/1",
+  "valid": true
+}

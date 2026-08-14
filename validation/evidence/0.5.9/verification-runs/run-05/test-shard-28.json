@@ -1,0 +1,40 @@
+{
+  "durationSeconds": 1.29014,
+  "errors": [],
+  "executionMode": "isolated-test-module-processes",
+  "failedModules": 0,
+  "failures": [],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "moduleCount": 1,
+  "modules": [
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.schematic.test_placement_assist"
+      ],
+      "durationSeconds": 1.286577,
+      "module": "tests.schematic.test_placement_assist",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_at_window_boundary_is_acquired (tests.schematic.test_placement_assist.PlacementAssistTests.test_at_window_boundary_is_acquired) ... ok\ntest_candidate_count_is_bounded (tests.schematic.test_placement_assist.PlacementAssistTests.test_candidate_count_is_bounded) ... ok\ntest_cli_emits_read_only_payload (tests.schematic.test_placement_assist.PlacementAssistTests.test_cli_emits_read_only_payload) ... ok\ntest_g001_already_legal (tests.schematic.test_placement_assist.PlacementAssistTests.test_g001_already_legal) ... ok\ntest_g002_quantized (tests.schematic.test_placement_assist.PlacementAssistTests.test_g002_quantized) ... ok\ntest_g003_magnetic_row (tests.schematic.test_placement_assist.PlacementAssistTests.test_g003_magnetic_row) ... ok\ntest_g004_outside_window_not_acquired (tests.schematic.test_placement_assist.PlacementAssistTests.test_g004_outside_window_not_acquired) ... ok\ntest_illegal_existing_origin_is_ignored (tests.schematic.test_placement_assist.PlacementAssistTests.test_illegal_existing_origin_is_ignored) ... ok\ntest_input_order_does_not_change_result (tests.schematic.test_placement_assist.PlacementAssistTests.test_input_order_does_not_change_result) ... ok\ntest_invalid_coordinate_fails (tests.schematic.test_placement_assist.PlacementAssistTests.test_invalid_coordinate_fails) ... ok\ntest_magnetic_column (tests.schematic.test_placement_assist.PlacementAssistTests.test_magnetic_column) ... ok\ntest_negative_midpoint_is_away_from_zero (tests.schematic.test_placement_assist.PlacementAssistTests.test_negative_midpoint_is_away_from_zero) ... ok\ntest_no_mutation_of_inputs (tests.schematic.test_placement_assist.PlacementAssistTests.test_no_mutation_of_inputs) ... ok\ntest_nonzero_origin (tests.schematic.test_placement_assist.PlacementAssistTests.test_nonzero_origin) ... ok\ntest_positive_midpoint_is_away_from_zero (tests.schematic.test_placement_assist.PlacementAssistTests.test_positive_midpoint_is_away_from_zero) ... ok\ntest_snap_is_idempotent (tests.schematic.test_placement_assist.PlacementAssistTests.test_snap_is_idempotent) ... ok\ntest_xy_alignment_wins (tests.schematic.test_placement_assist.PlacementAssistTests.test_xy_alignment_wins) ... ok\n\n----------------------------------------------------------------------\nRan 17 tests in 0.628s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 17,
+      "valid": true
+    }
+  ],
+  "passedModules": 1,
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/test-run-shard/1",
+  "shard": {
+    "count": 29,
+    "index": 28,
+    "totalDiscoveredModules": 29
+  },
+  "skipped": [],
+  "successful": true,
+  "testsRun": 17
+}

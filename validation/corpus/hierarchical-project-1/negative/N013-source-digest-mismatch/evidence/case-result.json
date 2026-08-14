@@ -1,0 +1,15 @@
+{
+  "canonicalHashes": {},
+  "checks": [],
+  "deterministic": true,
+  "diagnosticMatched": true,
+  "error": "sheet[power].source digest mismatch: expected sha256:0000000000000000000000000000000000000000000000000000000000000000, observed sha256:f295c02b5a77db52e290715ec1295130eb10ed12c627094088dd803eb9c2c8d2",
+  "expected": "fail",
+  "expectedDiagnostic": "source digest mismatch",
+  "id": "N013",
+  "observed": "fail",
+  "projectDigest": "sha256:7e8e533e87173aaffd3c55cdebddcc1a266b3e022d0aac7806f79908c6d0f196",
+  "repeatCount": 0,
+  "status": "pass",
+  "title": "Source digest mismatch"
+}

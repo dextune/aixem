@@ -1,0 +1,70 @@
+{
+  "$id": "https://schemas.aixem.org/reference/aixref-domain/1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "domainIndex": {
+      "additionalProperties": false,
+      "properties": {
+        "cards": {
+          "items": {
+            "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$",
+            "type": "string"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        "defaultCard": {
+          "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$",
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "id": {
+          "pattern": "^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$",
+          "type": "string"
+        },
+        "routes": {
+          "items": {
+            "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$",
+            "type": "string"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        "subdomains": {
+          "items": {
+            "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$",
+            "type": "string"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        "title": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "cards",
+        "routes"
+      ],
+      "type": "object"
+    },
+    "formatVersion": {
+      "const": "1.0"
+    },
+    "schema": {
+      "const": "https://schemas.aixem.org/reference/aixref-domain/1"
+    }
+  },
+  "required": [
+    "schema",
+    "formatVersion",
+    "domainIndex"
+  ],
+  "title": "AIXEM Reference Domain Index 1.0",
+  "type": "object"
+}

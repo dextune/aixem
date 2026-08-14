@@ -1,0 +1,363 @@
+{
+  "formatVersion": "2.0",
+  "project": {
+    "applicationProfile": "aixem.schematic.multisheet@1",
+    "description": "Hierarchical conformance case H013: Ten sheet scale baseline",
+    "features": [
+      "component.graphics@1",
+      "explicit.layout@2",
+      "hierarchical.interface@1",
+      "project-net@1",
+      "deterministic-project-routing@1"
+    ],
+    "id": "hierarchical:h013",
+    "libraries": [
+      {
+        "digest": "sha256:d6f65cd2d99d51e7a0eeb9ca230ea2207936a84e90bcbe65e7bc3561d393f9b6",
+        "id": "hierarchical:reference-library",
+        "mediaType": "application/vnd.aixem.library+json",
+        "path": "libraries/authoring.aixlib.json",
+        "version": "1.0.0"
+      }
+    ],
+    "metadata": {
+      "case": "H013",
+      "corpus": "hierarchical-project-1",
+      "geometryCreatesConnectivity": false,
+      "layersAreSheets": false
+    },
+    "outputs": [
+      {
+        "mediaType": "image/svg+xml",
+        "path": "render/project-overview.svg",
+        "role": "project-overview-svg"
+      },
+      {
+        "mediaType": "image/svg+xml",
+        "path": "render/project-composite.svg",
+        "role": "project-composite-svg"
+      },
+      {
+        "mediaType": "application/json",
+        "path": "render/resolved-project-scene.json",
+        "role": "resolved-project-scene"
+      },
+      {
+        "mediaType": "text/html",
+        "path": "render/workbench.html",
+        "role": "engineering-workbench"
+      }
+    ],
+    "projectNets": [
+      {
+        "id": "vcc",
+        "members": [
+          {
+            "port": "VCC",
+            "sheet": "sheet-01"
+          },
+          {
+            "port": "VCC",
+            "sheet": "sheet-02"
+          },
+          {
+            "port": "VCC",
+            "sheet": "sheet-03"
+          },
+          {
+            "port": "VCC",
+            "sheet": "sheet-04"
+          },
+          {
+            "port": "VCC",
+            "sheet": "sheet-05"
+          },
+          {
+            "port": "VCC",
+            "sheet": "sheet-06"
+          },
+          {
+            "port": "VCC",
+            "sheet": "sheet-07"
+          },
+          {
+            "port": "VCC",
+            "sheet": "sheet-08"
+          },
+          {
+            "port": "VCC",
+            "sheet": "sheet-09"
+          },
+          {
+            "port": "VCC",
+            "sheet": "sheet-10"
+          }
+        ],
+        "role": "power"
+      },
+      {
+        "id": "gnd",
+        "members": [
+          {
+            "port": "GND",
+            "sheet": "sheet-01"
+          },
+          {
+            "port": "GND",
+            "sheet": "sheet-02"
+          },
+          {
+            "port": "GND",
+            "sheet": "sheet-03"
+          },
+          {
+            "port": "GND",
+            "sheet": "sheet-04"
+          },
+          {
+            "port": "GND",
+            "sheet": "sheet-05"
+          },
+          {
+            "port": "GND",
+            "sheet": "sheet-06"
+          },
+          {
+            "port": "GND",
+            "sheet": "sheet-07"
+          },
+          {
+            "port": "GND",
+            "sheet": "sheet-08"
+          },
+          {
+            "port": "GND",
+            "sheet": "sheet-09"
+          },
+          {
+            "port": "GND",
+            "sheet": "sheet-10"
+          }
+        ],
+        "role": "power"
+      }
+    ],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-11",
+      "license": "CC0-1.0"
+    },
+    "renderPolicy": {
+      "backend": "svg",
+      "defaultVariantPolicy": "library-default",
+      "fontPolicy": "system-fallback",
+      "purpose": "primary-diagram",
+      "remoteAssets": "deny",
+      "unsupportedRequiredFeature": "reject"
+    },
+    "sheets": [
+      {
+        "id": "sheet-01",
+        "layout": {
+          "digest": "sha256:6b4061ff4b1494210fcf974ba25a947228355e78f844e1870468a98809ac68bc",
+          "id": "h013-ten-sheet-scale-baseline:sheet-01-layout",
+          "mediaType": "application/json",
+          "path": "layouts/sheet-01.aixlayout.json",
+          "version": "2.0"
+        },
+        "order": 1,
+        "source": {
+          "digest": "sha256:451e96820d2ae6417bd4e0ed9f93d1dc9a8a362fee27120ac721f8083ab0b173",
+          "id": "h013-ten-sheet-scale-baseline:sheet-01",
+          "mediaType": "text/x-aixem",
+          "path": "circuits/sheet-01.aixem",
+          "version": "1.0"
+        },
+        "title": "Sheet 01"
+      },
+      {
+        "id": "sheet-02",
+        "layout": {
+          "digest": "sha256:9b0747ccff47b3febf6786cd8a0533226f0a685760827fe3724b765d0a3b5c22",
+          "id": "h013-ten-sheet-scale-baseline:sheet-02-layout",
+          "mediaType": "application/json",
+          "path": "layouts/sheet-02.aixlayout.json",
+          "version": "2.0"
+        },
+        "order": 2,
+        "parent": "sheet-01",
+        "source": {
+          "digest": "sha256:f66866cbfd1b0bfa7684a2ed12306a8607ebe31db018676b29eb774cb7292b86",
+          "id": "h013-ten-sheet-scale-baseline:sheet-02",
+          "mediaType": "text/x-aixem",
+          "path": "circuits/sheet-02.aixem",
+          "version": "1.0"
+        },
+        "title": "Sheet 02"
+      },
+      {
+        "id": "sheet-03",
+        "layout": {
+          "digest": "sha256:afe09ea7b0439020a379b8db35894b04f0746cec0ccdc435b5f5aa2ef52c4b94",
+          "id": "h013-ten-sheet-scale-baseline:sheet-03-layout",
+          "mediaType": "application/json",
+          "path": "layouts/sheet-03.aixlayout.json",
+          "version": "2.0"
+        },
+        "order": 3,
+        "parent": "sheet-01",
+        "source": {
+          "digest": "sha256:66f94a91c897a12add64e9d84b314eb8de0d95b1397802899dcd04762d74ec79",
+          "id": "h013-ten-sheet-scale-baseline:sheet-03",
+          "mediaType": "text/x-aixem",
+          "path": "circuits/sheet-03.aixem",
+          "version": "1.0"
+        },
+        "title": "Sheet 03"
+      },
+      {
+        "id": "sheet-04",
+        "layout": {
+          "digest": "sha256:26837495cd289c45523e6224fc3fc2b6e779133ca5d4beecb79caed6240685fe",
+          "id": "h013-ten-sheet-scale-baseline:sheet-04-layout",
+          "mediaType": "application/json",
+          "path": "layouts/sheet-04.aixlayout.json",
+          "version": "2.0"
+        },
+        "order": 4,
+        "parent": "sheet-01",
+        "source": {
+          "digest": "sha256:197804611009a76c293827a13b695f297991dbb9f1e7b8583dff490cb770ed4c",
+          "id": "h013-ten-sheet-scale-baseline:sheet-04",
+          "mediaType": "text/x-aixem",
+          "path": "circuits/sheet-04.aixem",
+          "version": "1.0"
+        },
+        "title": "Sheet 04"
+      },
+      {
+        "id": "sheet-05",
+        "layout": {
+          "digest": "sha256:d08e9e88c7bb4927850dfffa54746a73527ebc8f5d45c59dbc96a80e53659e48",
+          "id": "h013-ten-sheet-scale-baseline:sheet-05-layout",
+          "mediaType": "application/json",
+          "path": "layouts/sheet-05.aixlayout.json",
+          "version": "2.0"
+        },
+        "order": 5,
+        "parent": "sheet-01",
+        "source": {
+          "digest": "sha256:a3fc700f1c05d26ecb3e8faedca1b7302733d247540d40b40861d4b6d2f78d55",
+          "id": "h013-ten-sheet-scale-baseline:sheet-05",
+          "mediaType": "text/x-aixem",
+          "path": "circuits/sheet-05.aixem",
+          "version": "1.0"
+        },
+        "title": "Sheet 05"
+      },
+      {
+        "id": "sheet-06",
+        "layout": {
+          "digest": "sha256:476a490300cb3230b9f1d4ca217d610d8a62238dc32662b0fba70a2938705bba",
+          "id": "h013-ten-sheet-scale-baseline:sheet-06-layout",
+          "mediaType": "application/json",
+          "path": "layouts/sheet-06.aixlayout.json",
+          "version": "2.0"
+        },
+        "order": 6,
+        "parent": "sheet-01",
+        "source": {
+          "digest": "sha256:8ff7d4ceb473aab42ccb72ea92609777b5b238b197f706355e640a39c1f76075",
+          "id": "h013-ten-sheet-scale-baseline:sheet-06",
+          "mediaType": "text/x-aixem",
+          "path": "circuits/sheet-06.aixem",
+          "version": "1.0"
+        },
+        "title": "Sheet 06"
+      },
+      {
+        "id": "sheet-07",
+        "layout": {
+          "digest": "sha256:1b5c2f170d8655caccb17eaba2f0475add84327c5991d199319212f1fa9fc0ba",
+          "id": "h013-ten-sheet-scale-baseline:sheet-07-layout",
+          "mediaType": "application/json",
+          "path": "layouts/sheet-07.aixlayout.json",
+          "version": "2.0"
+        },
+        "order": 7,
+        "parent": "sheet-01",
+        "source": {
+          "digest": "sha256:74fe8f1e5f298440a3e37064ad905728fcda6e0fbeddaeaaab55f8930456457b",
+          "id": "h013-ten-sheet-scale-baseline:sheet-07",
+          "mediaType": "text/x-aixem",
+          "path": "circuits/sheet-07.aixem",
+          "version": "1.0"
+        },
+        "title": "Sheet 07"
+      },
+      {
+        "id": "sheet-08",
+        "layout": {
+          "digest": "sha256:87e479b68ea4eafd75a69446042415d3937f919fe35c8b8d52f06fbd4c1195b0",
+          "id": "h013-ten-sheet-scale-baseline:sheet-08-layout",
+          "mediaType": "application/json",
+          "path": "layouts/sheet-08.aixlayout.json",
+          "version": "2.0"
+        },
+        "order": 8,
+        "parent": "sheet-01",
+        "source": {
+          "digest": "sha256:35d7610a6f558d682f96955f808038ef6f0c6f1fd2f46944c1073b164f57e157",
+          "id": "h013-ten-sheet-scale-baseline:sheet-08",
+          "mediaType": "text/x-aixem",
+          "path": "circuits/sheet-08.aixem",
+          "version": "1.0"
+        },
+        "title": "Sheet 08"
+      },
+      {
+        "id": "sheet-09",
+        "layout": {
+          "digest": "sha256:84643398f6f35e406a940c591cd45872ee4404c18894678fe83a5ca438e79103",
+          "id": "h013-ten-sheet-scale-baseline:sheet-09-layout",
+          "mediaType": "application/json",
+          "path": "layouts/sheet-09.aixlayout.json",
+          "version": "2.0"
+        },
+        "order": 9,
+        "parent": "sheet-01",
+        "source": {
+          "digest": "sha256:4d1022b012ad67df370363634d1b8328b68f7fb135ab4686f076c774c67aa285",
+          "id": "h013-ten-sheet-scale-baseline:sheet-09",
+          "mediaType": "text/x-aixem",
+          "path": "circuits/sheet-09.aixem",
+          "version": "1.0"
+        },
+        "title": "Sheet 09"
+      },
+      {
+        "id": "sheet-10",
+        "layout": {
+          "digest": "sha256:954b61c1c9714ba4e4bdf6248b0e6a6caee2deb96e698355844c87a98d45b186",
+          "id": "h013-ten-sheet-scale-baseline:sheet-10-layout",
+          "mediaType": "application/json",
+          "path": "layouts/sheet-10.aixlayout.json",
+          "version": "2.0"
+        },
+        "order": 10,
+        "parent": "sheet-01",
+        "source": {
+          "digest": "sha256:6771c50582fc970d30e81dfd46c2b370e3b401d88e306fc2259eefbe8955b6ba",
+          "id": "h013-ten-sheet-scale-baseline:sheet-10",
+          "mediaType": "text/x-aixem",
+          "path": "circuits/sheet-10.aixem",
+          "version": "1.0"
+        },
+        "title": "Sheet 10"
+      }
+    ],
+    "status": "example",
+    "title": "Ten sheet scale baseline"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/aixproj/2"
+}

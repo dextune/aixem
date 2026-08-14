@@ -1,0 +1,167 @@
+{
+  "category": "connector",
+  "componentPorts": [
+    {
+      "id": "1",
+      "name": "L1",
+      "required": true,
+      "type": "passive"
+    },
+    {
+      "id": "2",
+      "name": "L2",
+      "required": true,
+      "type": "passive"
+    },
+    {
+      "id": "3",
+      "name": "L3",
+      "required": true,
+      "type": "passive"
+    },
+    {
+      "id": "4",
+      "name": "L4",
+      "required": true,
+      "type": "passive"
+    },
+    {
+      "id": "5",
+      "name": "L5",
+      "required": true,
+      "type": "passive"
+    },
+    {
+      "id": "6",
+      "name": "L6",
+      "required": true,
+      "type": "passive"
+    },
+    {
+      "id": "7",
+      "name": "L7",
+      "required": true,
+      "type": "passive"
+    },
+    {
+      "id": "8",
+      "name": "L8",
+      "required": true,
+      "type": "passive"
+    },
+    {
+      "id": "9",
+      "name": "L9",
+      "required": true,
+      "type": "passive"
+    },
+    {
+      "id": "10",
+      "name": "L10",
+      "required": true,
+      "type": "passive"
+    },
+    {
+      "id": "11",
+      "name": "R1",
+      "required": true,
+      "type": "passive"
+    },
+    {
+      "id": "12",
+      "name": "R2",
+      "required": true,
+      "type": "passive"
+    },
+    {
+      "id": "13",
+      "name": "R3",
+      "required": true,
+      "type": "passive"
+    },
+    {
+      "id": "14",
+      "name": "R4",
+      "required": true,
+      "type": "passive"
+    },
+    {
+      "id": "15",
+      "name": "R5",
+      "required": true,
+      "type": "passive"
+    },
+    {
+      "id": "16",
+      "name": "R6",
+      "required": true,
+      "type": "passive"
+    },
+    {
+      "id": "17",
+      "name": "R7",
+      "required": true,
+      "type": "passive"
+    },
+    {
+      "id": "18",
+      "name": "R8",
+      "required": true,
+      "type": "passive"
+    },
+    {
+      "id": "19",
+      "name": "R9",
+      "required": true,
+      "type": "passive"
+    },
+    {
+      "id": "20",
+      "name": "R10",
+      "required": true,
+      "type": "passive"
+    }
+  ],
+  "expectedBoundsClass": "high-density",
+  "expectedFieldRoles": [
+    "reference-field",
+    "value-field"
+  ],
+  "expectedGridPolicy": "ports-on-2.5mm",
+  "expectedParameterIds": [],
+  "expectedPortCount": 20,
+  "expectedPrimitiveFamilies": [
+    "line",
+    "rect",
+    "text"
+  ],
+  "expectedVariantIds": [],
+  "expectedVisiblePortCount": 20,
+  "formatVersion": "1.0",
+  "id": "S020",
+  "knownExclusions": [],
+  "manualReviewChecks": [
+    "silhouette-recognizable",
+    "ports-attached-to-expected-leads",
+    "pin-number-name-separation",
+    "reference-value-clear-of-body",
+    "polarity-arrow-inversion-state-unambiguous",
+    "repeated-geometry-evenly-spaced",
+    "normal-scale-readable",
+    "no-false-connectivity-detail",
+    "variant-endpoint-identity-preserved",
+    "path-has-no-fill-or-self-intersection-artifact"
+  ],
+  "optionalCapabilities": [],
+  "purpose": "20-port repeated geometry, numbering, pitch, and deterministic scale",
+  "requiredCapabilities": [
+    "geometry.line",
+    "geometry.rect",
+    "port.mapping",
+    "text.field"
+  ],
+  "schema": "https://schemas.aixem.org/conformance/corpus-case/1",
+  "symbolPath": "symbol.aixsym.json",
+  "tier": "core",
+  "title": "20-pin connector"
+}

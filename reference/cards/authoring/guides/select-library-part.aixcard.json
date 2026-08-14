@@ -1,0 +1,56 @@
+{
+  "card": {
+    "aliases": [
+      "select library part",
+      "reuse component",
+      "choose existing part"
+    ],
+    "appliesTo": [
+      "authoring-guide-select-library-part"
+    ],
+    "domain": "authoring",
+    "estimatedReadBytes": 5611,
+    "id": "AIXEM-AUTHORING-GUIDE-SELECT-LIBRARY-PART-001",
+    "inputs": [],
+    "keywords": [
+      "Select a Library Part",
+      "author-component-circuit",
+      "choose existing part",
+      "create-schematic",
+      "reuse component",
+      "select library part"
+    ],
+    "kind": "guide",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/authoring/guides/select-library-part.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:dfec0ad174e3e5167bff4aca446b6145c28546f9db87469308121fbb83518025"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+      "AIXEM-CONCEPT-COMPONENT-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-AUTHORING-GUIDE-SELECT-LIBRARY-PART-001.read",
+        "level": "should",
+        "text": "Guides semantic and provenance-based selection of an existing reusable component without relying on filename, symbol appearance, or a render-only claim."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-AUTHORING-GUIDE-SELECT-LIBRARY-PART-001",
+        "path": "docs/authoring/guides/select-library-part.md"
+      }
+    ],
+    "summary": "Guides semantic and provenance-based selection of an existing reusable component without relying on filename, symbol appearance, or a render-only claim.",
+    "title": "Select a Library Part"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

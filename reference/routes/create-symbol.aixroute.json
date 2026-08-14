@@ -1,0 +1,135 @@
+{
+  "formatVersion": "1.0",
+  "route": {
+    "aliases": [
+      "create symbol",
+      "draw component symbol",
+      "author symbol",
+      "new symbol",
+      "symbol library"
+    ],
+    "budget": {
+      "fallbackDocuments": 2,
+      "maxBytes": 98304,
+      "maxDepth": 3,
+      "maxDocuments": 7
+    },
+    "conditionalReads": [],
+    "id": "create-symbol",
+    "intents": [
+      "create-symbol"
+    ],
+    "metadata": {
+      "exactRoutePreferred": true,
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "kind": "simple",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "source": "docs/_meta/routes/create-symbol.yaml"
+    },
+    "outputs": [
+      "valid .aixsym.json asset",
+      "valid .aixlib.json presentation binding",
+      "deterministic render evidence",
+      "symbol authoring validation result"
+    ],
+    "steps": [
+      {
+        "exitCheck": "New artifacts use library/electronics or library/architecture and semantic lower-kebab names",
+        "id": "step-1",
+        "order": 1,
+        "produces": [],
+        "purpose": "Choose the canonical new-artifact path, provenance class, semantic identity, and separated validation claims.",
+        "read": [
+          "reference/cards/specifications/components/library-layout-contract.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Concrete identity is source-backed or truthfully retained as a non-semantic-ready placeholder",
+        "id": "step-2",
+        "order": 2,
+        "produces": [],
+        "purpose": "Author electrical behavior and source-reviewed orthogonal pin semantics without inventing endpoint truth.",
+        "read": [
+          "reference/cards/specifications/components/pin-electrical-semantics-profile.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Every component ID has a distinct semantic contract and total presentation binding",
+        "id": "step-3",
+        "order": 3,
+        "produces": [],
+        "purpose": "Apply the G/P/M sizing rhythm, grid, lead, pitch, field, and grouping rules.",
+        "read": [
+          "reference/cards/specifications/symbols/symbol-design-profile.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Pin semantics are source-reviewed where applicable",
+        "id": "step-4",
+        "order": 4,
+        "produces": [],
+        "purpose": "Serialize component identity, ports, properties, provenance metadata, presentations, and digest locks.",
+        "read": [
+          "reference/cards/file-formats/aixlib.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Structural, part semantic, placeholder, and circuit-intent results remain separate",
+        "id": "step-5",
+        "order": 5,
+        "produces": [],
+        "purpose": "Serialize reusable graphic presentation without redefining component semantics.",
+        "read": [
+          "reference/cards/file-formats/aixsym.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Rendered output and resolved scene pass deterministic visual review",
+        "id": "step-6",
+        "order": 6,
+        "produces": [],
+        "purpose": "Bind every required component endpoint and field to the selected symbol presentation.",
+        "read": [
+          "reference/cards/symbols/component-symbol-binding.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Rendered output and resolved scene pass deterministic visual review",
+        "id": "step-7",
+        "order": 7,
+        "produces": [],
+        "purpose": "Validate path, provenance, semantics, schema, design profile, binding, render, digest, and claim separation.",
+        "read": [
+          "reference/cards/symbols/symbol-lint.aixcard.json"
+        ],
+        "required": true
+      }
+    ],
+    "stopConditions": [
+      "New artifacts use library/electronics or library/architecture and semantic lower-kebab names",
+      "Concrete identity is source-backed or truthfully retained as a non-semantic-ready placeholder",
+      "Every component ID has a distinct semantic contract and total presentation binding",
+      "Pin semantics are source-reviewed where applicable",
+      "Structural, part semantic, placeholder, and circuit-intent results remain separate",
+      "Rendered output and resolved scene pass deterministic visual review"
+    ],
+    "title": "Create or repair a provenance-classified reusable component and its grid-proportional symbol presentation at a canonical project-library location",
+    "validators": [
+      "schematic.authoring_integrity",
+      "schematic.symbol_schema",
+      "schematic.symbol_design",
+      "schematic.authoring_binding",
+      "schematic.renderer_contract",
+      "schematic.authoring_examples",
+      "agent.diagnostics",
+      "agent.change_scope"
+    ]
+  },
+  "schema": "https://schemas.aixem.org/reference/aixroute/1"
+}

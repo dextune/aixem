@@ -1,0 +1,24 @@
+{
+  "browserErrors": [],
+  "case": "V016",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "interpretation": "Measurement baseline only; no optimization threshold or compatibility claim is inferred.",
+  "measurements": {
+    "domNodeCount": 3493,
+    "fitMs": 56.273,
+    "modeSwitchMs": 77.777,
+    "projectNetHighlightMs": 44.472,
+    "searchIndexEntries": 62,
+    "searchMs": 46.102,
+    "startupMs": 413.398,
+    "svgElementCount": 3026,
+    "viewerHtmlBytes": 517102,
+    "viewerModelBytes": 128725,
+    "workbenchHtmlBytes": 518584
+  },
+  "project": "hierarchical:h013",
+  "release": "AIXEM-SRP-0.5.6-2026-08-12",
+  "runtimeRequests": [],
+  "schema": "https://schemas.aixem.org/conformance/viewer-performance-baseline/1",
+  "status": "pass"
+}

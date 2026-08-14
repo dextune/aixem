@@ -1,0 +1,17 @@
+{
+  "entryRoute": "create-symbol",
+  "exampleFixture": "examples/authoring/05-field-and-port-binding",
+  "formatVersion": "1.0",
+  "id": "EVAL-06",
+  "prohibitedDiscovery": [
+    "repository-wide search",
+    "renderer implementation inspection"
+  ],
+  "prompt": "Map a semantic property to a symbol field and override that field for one placement.",
+  "requiredExitConditions": [
+    "symbol-ready"
+  ],
+  "schema": "https://schemas.aixem.org/validation/agent-eval-task/1",
+  "scoringProfile": "validation/agent-evals/scoring.md",
+  "title": "Field override"
+}

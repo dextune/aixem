@@ -1,0 +1,29 @@
+{
+  "layoutDigest": "sha256:47e0f5d68f336067226519569e64571b6738316349cdb46c47ddd683a01e9ff1",
+  "ports": [
+    {
+      "direction": "passive",
+      "id": "GND",
+      "localNet": "gnd",
+      "projectNet": "gnd",
+      "role": "power"
+    },
+    {
+      "direction": "input",
+      "id": "IN",
+      "localNet": "in",
+      "projectNet": "control_signal",
+      "role": "signal"
+    },
+    {
+      "direction": "input",
+      "id": "VCC",
+      "localNet": "vcc",
+      "projectNet": "vcc_5v",
+      "role": "power"
+    }
+  ],
+  "sheet": "control",
+  "sourceDigest": "sha256:4c1a21556001d9421076ac8d67f5940253e22d4e9ab2ec1195ec7bdf92014aa2",
+  "title": "Control"
+}

@@ -1,0 +1,55 @@
+{
+  "card": {
+    "aliases": [
+      "create symbol",
+      "draw symbol",
+      "symbol guide"
+    ],
+    "appliesTo": [
+      "symbol-authoring-workflow"
+    ],
+    "domain": "symbols",
+    "estimatedReadBytes": 8982,
+    "id": "AIXEM-SYMBOL-AUTHORING-001",
+    "inputs": [],
+    "keywords": [
+      "Symbol Authoring Guide",
+      "create symbol",
+      "create-symbol",
+      "draw symbol",
+      "symbol guide"
+    ],
+    "kind": "guide",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/symbols/authoring-guide.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:0d58f90e1855b79bc9fdf68eaaa856c87f63c6aeae1ad41b304499445d49596d"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 500,
+    "readNext": [
+      "AIXEM-SYMBOL-PORTS-001",
+      "AIXEM-SYMBOL-PRIMITIVES-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-SYMBOL-AUTHORING-001.read",
+        "level": "should",
+        "text": "Provides a repeatable sequence for deriving a compact symbol from a component endpoint contract."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SYMBOL-AUTHORING-001",
+        "path": "docs/symbols/authoring-guide.md"
+      }
+    ],
+    "summary": "Provides a repeatable sequence for deriving a compact symbol from a component endpoint contract.",
+    "title": "Symbol Authoring Guide"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

@@ -1,0 +1,27 @@
+{
+  "command": {
+    "command": [
+      "/opt/pyvenv/bin/python",
+      "tools/validate_symbol_corpus.py",
+      "--all",
+      "--repeat",
+      "3",
+      "--emit-report"
+    ],
+    "durationSeconds": 5.794248,
+    "label": "cycle 4 symbol/static-block corpus",
+    "returnCode": 0,
+    "status": "PASS",
+    "stderrTail": "",
+    "stdoutTail": "B001 b2d: automated=PASS; digest=PASS; visual=PASS\nB002 b2d: automated=PASS; digest=PASS; visual=PASS\nB003 b2d: automated=PASS; digest=PASS; visual=PASS\nB004 b2d: automated=PASS; digest=PASS; visual=PASS\nB005 b2d: automated=PASS; digest=PASS; visual=PASS\nB006 b2d: automated=PASS; digest=PASS; visual=PASS\nS001 core: automated=PASS; digest=PASS; visual=PASS\nS002 core: automated=PASS; digest=PASS; visual=PASS\nS003 core: automated=PASS; digest=PASS; visual=PASS\nS004 core: automated=PASS; digest=PASS; visual=PASS\nS005 core: automated=PASS; digest=PASS; visual=PASS\nS006 core: automated=PASS; digest=PASS; visual=PASS\nS007 core: automated=PASS; digest=PASS; visual=PASS\nS008 core: automated=PASS; digest=PASS; visual=PASS\nS009 core: automated=PASS; digest=PASS; visual=PASS\nS010 core: automated=PASS; digest=PASS; visual=PASS\nS011 core: automated=PASS; digest=PASS; visual=PASS\nS012 core: automated=PASS; digest=PASS; visual=PASS\nS013 core: automated=PASS; digest=PASS; visual=PASS\nS014 core: automated=PASS; digest=PASS; visual=PASS\nS015 core: automated=PASS; digest=PASS; visual=PASS\nS016 core: automated=PASS; digest=PASS; visual=PASS\nS017 core: automated=PASS; digest=PASS; visual=PASS\nS018 core: automated=PASS; digest=PASS; visual=PASS\nS019 core: automated=PASS; digest=PASS; visual=PASS\nS020 core: automated=PASS; digest=PASS; visual=PASS\nS021 core: automated=PASS; digest=PASS; visual=PASS\nS022 core: automated=PASS; digest=PASS; visual=PASS\nS023 core: automated=PASS; digest=PASS; visual=PASS\nS024 core: automated=PASS; digest=PASS; visual=PASS\nS025 extended: automated=PASS; digest=PASS; visual=PASS\nS026 extended: automated=PASS; digest=PASS; visual=PASS\nS027 extended: automated=PASS; digest=PASS; visual=PASS\nS028 extended: automated=PASS; digest=PASS; visual=PASS\nS029 extended: automated=PASS; digest=PASS; visual=PASS\nS030 probe: automated=PASS; digest=PASS; visual=PASS\ncases: 36; automated failures: 0; visual failures: 0; visual pending: 0\n",
+    "valid": true
+  },
+  "cycle": 4,
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "release": "AIXEM-SRP-0.5.8-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/pre-live-readiness-verification-stage/1",
+  "stage": "symbol",
+  "status": "PASS",
+  "valid": true
+}

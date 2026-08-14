@@ -1,0 +1,78 @@
+{
+  "card": {
+    "aliases": [
+      "pin electrical semantics",
+      "pin semantics profile",
+      "bounded electrical compatibility"
+    ],
+    "appliesTo": [
+      "component-pin-electrical-semantics"
+    ],
+    "domain": "specifications",
+    "estimatedReadBytes": 11768,
+    "id": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
+    "inputs": [],
+    "keywords": [
+      "Pin Electrical Semantics Profile 1",
+      "bounded electrical compatibility",
+      "create-schematic",
+      "create-symbol",
+      "pin electrical semantics",
+      "pin semantics profile",
+      "validate-project"
+    ],
+    "kind": "profile",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/specifications/components/pin-electrical-semantics-profile.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:2efaa8b0b08c67f2c088d407b6a799dc462552f7d423a8f5411d5497595735c7"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-CONCEPT-COMPONENT-001",
+      "AIXEM-FORMAT-AIXLIB-001",
+      "AIXEM-SPEC-LIBRARY-LAYOUT-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-PIN-0001",
+        "level": "must",
+        "text": "**MUST.** Stable component port IDs and `port.type` MUST remain the endpoint and basic electrical-behavior authority, while `metadata.pinSemantics` MUST use the explicit `aixem-pin-semantics-1` profile when present."
+      },
+      {
+        "id": "AIXEM-REQ-PIN-0002",
+        "level": "must",
+        "text": "**MUST.** Signal class, functional tags, polarity, differential membership, power-domain hints, capabilities, and alternate functions MUST remain orthogonal facets and MUST NOT create additional physical endpoints."
+      },
+      {
+        "id": "AIXEM-REQ-PIN-0003",
+        "level": "must",
+        "text": "**MUST.** Pin semantic profiles MUST reject invalid tokens, contradictory no-connect obligations, duplicate differential members, and malformed alternate-function declarations."
+      },
+      {
+        "id": "AIXEM-REQ-PIN-0004",
+        "level": "must",
+        "text": "**MUST.** Detailed source-dependent pin semantics on a datasheet-backed component MUST be covered by review evidence bound to the cited source and exact component state before semantic-ready status is granted."
+      },
+      {
+        "id": "AIXEM-REQ-PIN-0005",
+        "level": "must",
+        "text": "**MUST.** The bounded static compatibility precheck MUST report `PASS`, `WARN`, `ERROR`, or `NOT_EVALUATED` conservatively and MUST NOT claim voltage safety, timing correctness, simulation correctness, or production readiness."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
+        "path": "docs/specifications/components/pin-electrical-semantics-profile.md"
+      }
+    ],
+    "summary": "Defines orthogonal source-reviewable component pin semantics and a conservative static compatibility precheck without claiming full ERC or simulation correctness.",
+    "title": "Pin Electrical Semantics Profile 1"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

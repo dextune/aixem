@@ -1,0 +1,121 @@
+{
+  "command": {
+    "command": [
+      "/opt/pyvenv/bin/python",
+      "tools/run_tests_058.py",
+      "--shard-count",
+      "8",
+      "--shard-index",
+      "0",
+      "--output",
+      "/mnt/data/aixem058-cycle-03-test-shard-0.json"
+    ],
+    "durationSeconds": 9.773617,
+    "label": "cycle 3 repository tests shard 0",
+    "returnCode": 0,
+    "status": "PASS",
+    "stderrTail": "",
+    "stdoutTail": "[tests] START tests.agent.test_agent_evals_2\n[tests] PASS tests.agent.test_agent_evals_2 (4 tests, 1.880181s)\n[tests] START tests.agent.test_live_run_evidence\n[tests] PASS tests.agent.test_live_run_evidence (4 tests, 1.292019s)\n[tests] START tests.conformance.test_symbol_expressiveness_corpus\n[tests] PASS tests.conformance.test_symbol_expressiveness_corpus (6 tests, 4.722327s)\n[tests] START tests.docs.test_renderer_contract\n[tests] PASS tests.docs.test_renderer_contract (4 tests, 1.345697s)\n{\"failedModules\": 0, \"modules\": 4, \"successful\": true, \"testsRun\": 18}\n",
+    "valid": true
+  },
+  "cycle": 3,
+  "externalResult": "/mnt/data/aixem058-cycle-03-test-shard-0.json",
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "release": "AIXEM-SRP-0.5.8-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/pre-live-readiness-verification-stage/1",
+  "stage": "tests-0",
+  "status": "PASS",
+  "tests": {
+    "durationSeconds": 9.240566,
+    "errors": [],
+    "executionMode": "isolated-test-module-processes",
+    "failedModules": 0,
+    "failures": [],
+    "formatVersion": "1.0",
+    "generatedAt": "2026-08-12T00:00:00Z",
+    "moduleCount": 4,
+    "modules": [
+      {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "-m",
+          "unittest",
+          "-v",
+          "tests.agent.test_agent_evals_2"
+        ],
+        "durationSeconds": 1.880181,
+        "module": "tests.agent.test_agent_evals_2",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "test_manifest_contains_exact_a001_a012_inventory (tests.agent.test_agent_evals_2.AgentEvaluation2Tests.test_manifest_contains_exact_a001_a012_inventory) ... ok\ntest_runner_rejects_live_mode_without_separate_cold_start_corpus (tests.agent.test_agent_evals_2.AgentEvaluation2Tests.test_runner_rejects_live_mode_without_separate_cold_start_corpus) ... ok\ntest_tier_a_results_are_complete_and_pass (tests.agent.test_agent_evals_2.AgentEvaluation2Tests.test_tier_a_results_are_complete_and_pass) ... ok\ntest_tier_status_never_conflates_replay_and_live_execution (tests.agent.test_agent_evals_2.AgentEvaluation2Tests.test_tier_status_never_conflates_replay_and_live_execution) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 1.348s\n\nOK\n",
+        "stdoutTail": "",
+        "testsRun": 4,
+        "valid": true
+      },
+      {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "-m",
+          "unittest",
+          "-v",
+          "tests.agent.test_live_run_evidence"
+        ],
+        "durationSeconds": 1.292019,
+        "module": "tests.agent.test_live_run_evidence",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "test_cherry_picked_or_duplicate_attempt_set_fails_closed (tests.agent.test_live_run_evidence.LiveRunEvidenceContractTests.test_cherry_picked_or_duplicate_attempt_set_fails_closed) ... ok\ntest_evidence_digest_tampering_is_detected (tests.agent.test_live_run_evidence.LiveRunEvidenceContractTests.test_evidence_digest_tampering_is_detected) ... ok\ntest_failed_or_non_live_attempt_remains_in_denominator (tests.agent.test_live_run_evidence.LiveRunEvidenceContractTests.test_failed_or_non_live_attempt_remains_in_denominator) ... ok\ntest_live_pass_requires_evaluation_and_conformant_authoring_record (tests.agent.test_live_run_evidence.LiveRunEvidenceContractTests.test_live_pass_requires_evaluation_and_conformant_authoring_record) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.003s\n\nOK\n",
+        "stdoutTail": "",
+        "testsRun": 4,
+        "valid": true
+      },
+      {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "-m",
+          "unittest",
+          "-v",
+          "tests.conformance.test_symbol_expressiveness_corpus"
+        ],
+        "durationSeconds": 4.722327,
+        "module": "tests.conformance.test_symbol_expressiveness_corpus",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "test_all_case_contracts_symbols_digests_and_reviews_are_closed (tests.conformance.test_symbol_expressiveness_corpus.SymbolCorpusConformanceTests.test_all_case_contracts_symbols_digests_and_reviews_are_closed) ... ok\ntest_current_symbol_schema_is_unchanged_from_0_5_1 (tests.conformance.test_symbol_expressiveness_corpus.SymbolCorpusConformanceTests.test_current_symbol_schema_is_unchanged_from_0_5_1) ... ok\ntest_dimension_label_regression_is_explicit_and_deterministic (tests.conformance.test_symbol_expressiveness_corpus.SymbolCorpusConformanceTests.test_dimension_label_regression_is_explicit_and_deterministic) ... ok\ntest_full_corpus_runs_through_production_renderer (tests.conformance.test_symbol_expressiveness_corpus.SymbolCorpusConformanceTests.test_full_corpus_runs_through_production_renderer) ... ok\ntest_inventory_is_exact_and_complete (tests.conformance.test_symbol_expressiveness_corpus.SymbolCorpusConformanceTests.test_inventory_is_exact_and_complete) ... ok\ntest_multi_unit_probe_rejects_simulated_shared_identity (tests.conformance.test_symbol_expressiveness_corpus.SymbolCorpusConformanceTests.test_multi_unit_probe_rejects_simulated_shared_identity) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 3.387s\n\nOK\n",
+        "stdoutTail": "",
+        "testsRun": 6,
+        "valid": true
+      },
+      {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "-m",
+          "unittest",
+          "-v",
+          "tests.docs.test_renderer_contract"
+        ],
+        "durationSeconds": 1.345697,
+        "module": "tests.docs.test_renderer_contract",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "test_fail_closed_binding_cases (tests.docs.test_renderer_contract.RendererContractTests.test_fail_closed_binding_cases) ... ok\ntest_field_precedence (tests.docs.test_renderer_contract.RendererContractTests.test_field_precedence) ... ok\ntest_port_map_direction_totality_and_visibility (tests.docs.test_renderer_contract.RendererContractTests.test_port_map_direction_totality_and_visibility) ... ok\ntest_variant_and_parameter_precedence (tests.docs.test_renderer_contract.RendererContractTests.test_variant_and_parameter_precedence) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.037s\n\nOK\n",
+        "stdoutTail": "",
+        "testsRun": 4,
+        "valid": true
+      }
+    ],
+    "passedModules": 4,
+    "release": "AIXEM-SRP-0.5.8-2026-08-12",
+    "schema": "https://schemas.aixem.org/validation/test-run-shard/1",
+    "shard": {
+      "count": 8,
+      "index": 0,
+      "totalDiscoveredModules": 26
+    },
+    "skipped": [],
+    "successful": true,
+    "testsRun": 18
+  },
+  "valid": true
+}

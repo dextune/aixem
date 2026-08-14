@@ -1,0 +1,27 @@
+{
+  "bounds": {
+    "height": 55,
+    "width": 75,
+    "x": -37.5,
+    "y": -27.5
+  },
+  "capabilities": [
+    "geometry.circle",
+    "geometry.line",
+    "geometry.rect"
+  ],
+  "case": "B001",
+  "defaultVariant": null,
+  "definitions": [],
+  "fieldAnchors": [],
+  "parameters": {},
+  "ports": [],
+  "primitiveCounts": {
+    "circle": 4,
+    "line": 8,
+    "rect": 1
+  },
+  "requiredFeatures": [],
+  "symbol": "corpus:b001-mounting-plate",
+  "variants": []
+}

@@ -1,0 +1,10 @@
+{
+  "assertions": [
+    "entity-to-interface-route-closure"
+  ],
+  "expected": "pass",
+  "expectedDiagnostic": null,
+  "id": "H006",
+  "project": "project.aixproj.json",
+  "title": "Interface port local routing"
+}

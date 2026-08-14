@@ -1,0 +1,48 @@
+{
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "migrations": [
+    {
+      "document": "AIXEM-CONF-COMPAT-001",
+      "from": "docs/conformance/compatibility.md",
+      "fromSitePath": "conformance/compatibility.html",
+      "reason": "Make the conformance purpose explicit when parent-directory context is absent.",
+      "since": "0.5.7",
+      "targetDigest": "sha256:7883dc9e8eab029c263c59f7ff7fb4a7f86b8af22d3dff294f0979f12b276ccb",
+      "to": "docs/conformance/compatibility-conformance.md",
+      "toSitePath": "conformance/compatibility-conformance.html"
+    },
+    {
+      "document": "AIXEM-GOV-COMPAT-001",
+      "from": "docs/governance/compatibility.md",
+      "fromSitePath": "governance/compatibility.html",
+      "reason": "Disambiguate the governance policy from the conformance profile.",
+      "since": "0.5.7",
+      "targetDigest": "sha256:1b5c9549074ab153dd692413f331d8b2dfa5071144b306fb31c1fe0e6e4b2c6c",
+      "to": "docs/governance/compatibility-policy.md",
+      "toSitePath": "governance/compatibility-policy.html"
+    },
+    {
+      "document": "AIXEM-SCHEM-COOKBOOK-001",
+      "from": "docs/schematic/authoring-cookbook.md",
+      "fromSitePath": "schematic/authoring-cookbook.html",
+      "reason": "Distinguish schematic recipes from symbol authoring recipes in agent retrieval output.",
+      "since": "0.5.7",
+      "targetDigest": "sha256:4fc20a940086e2bc9ccb79a941bf357cd007a010d3e42ef3863cb6929cc9fb97",
+      "to": "docs/schematic/schematic-authoring-cookbook.md",
+      "toSitePath": "schematic/schematic-authoring-cookbook.html"
+    },
+    {
+      "document": "AIXEM-SYMBOL-COOKBOOK-001",
+      "from": "docs/symbols/authoring-cookbook.md",
+      "fromSitePath": "symbols/authoring-cookbook.html",
+      "reason": "Distinguish symbol recipes from schematic authoring recipes in agent retrieval output.",
+      "since": "0.5.7",
+      "targetDigest": "sha256:c931e3461f22773f49257bfef60b0f4f6213dff428d5c9864fb95b9e2489a301",
+      "to": "docs/symbols/symbol-authoring-cookbook.md",
+      "toSitePath": "symbols/symbol-authoring-cookbook.html"
+    }
+  ],
+  "release": "AIXEM-SRP-0.5.8-2026-08-12",
+  "schema": "https://schemas.aixem.org/documentation/path-migration-index/1"
+}

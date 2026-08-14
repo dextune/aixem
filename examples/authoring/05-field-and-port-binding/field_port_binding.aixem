@@ -1,0 +1,9 @@
+aixem 1.0
+model field_port_binding title="Field and port binding"
+feature component.graphics@1 required=true
+feature explicit.layout@1 required=true
+
+component S1 type=authoring:sensor refdes=S1 rating=3V3 label=TEMP
+
+noconn S1.in
+noconn S1.out

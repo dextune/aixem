@@ -1,0 +1,76 @@
+{
+  "category": "electromechanical",
+  "componentPorts": [
+    {
+      "id": "P1",
+      "name": "P1",
+      "required": true,
+      "type": "passive"
+    },
+    {
+      "id": "P2",
+      "name": "P2",
+      "required": true,
+      "type": "passive"
+    },
+    {
+      "id": "S1",
+      "name": "S1",
+      "required": true,
+      "type": "passive"
+    },
+    {
+      "id": "S2",
+      "name": "S2",
+      "required": true,
+      "type": "passive"
+    }
+  ],
+  "expectedBoundsClass": "compact",
+  "expectedFieldRoles": [
+    "reference-field",
+    "value-field"
+  ],
+  "expectedGridPolicy": "ports-on-2.5mm",
+  "expectedParameterIds": [
+    "show-core"
+  ],
+  "expectedPortCount": 4,
+  "expectedPrimitiveFamilies": [
+    "line",
+    "path",
+    "text",
+    "use"
+  ],
+  "expectedVariantIds": [],
+  "expectedVisiblePortCount": 4,
+  "formatVersion": "1.0",
+  "id": "S013",
+  "knownExclusions": [],
+  "manualReviewChecks": [
+    "silhouette-recognizable",
+    "ports-attached-to-expected-leads",
+    "pin-number-name-separation",
+    "reference-value-clear-of-body",
+    "polarity-arrow-inversion-state-unambiguous",
+    "repeated-geometry-evenly-spaced",
+    "normal-scale-readable",
+    "no-false-connectivity-detail",
+    "variant-endpoint-identity-preserved",
+    "path-has-no-fill-or-self-intersection-artifact"
+  ],
+  "optionalCapabilities": [],
+  "purpose": "Mirrored repeated windings, optional core, and four electrical ports",
+  "requiredCapabilities": [
+    "geometry.line",
+    "geometry.path",
+    "port.mapping",
+    "structure.use",
+    "text.field",
+    "visibility.predicate"
+  ],
+  "schema": "https://schemas.aixem.org/conformance/corpus-case/1",
+  "symbolPath": "symbol.aixsym.json",
+  "tier": "core",
+  "title": "Transformer"
+}

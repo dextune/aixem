@@ -1,0 +1,8 @@
+{
+  "assertions": [],
+  "expected": "fail",
+  "expectedDiagnostic": "sheetPort presentation closure mismatch",
+  "id": "N006",
+  "project": "project.aixproj.json",
+  "title": "Missing required sheet port presentation"
+}

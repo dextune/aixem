@@ -1,0 +1,89 @@
+{
+  "authority": "derived-navigation-only",
+  "budget": {
+    "max_bytes": 98304,
+    "max_depth": 3,
+    "max_documents": 7
+  },
+  "completion": [
+    "Canonical validation passes",
+    "All generated indexes are fresh",
+    "Static site links resolve",
+    "Compatibility reference output is current"
+  ],
+  "documents": [
+    {
+      "bytes": 5696,
+      "digest": "sha256:1063c81430fdcd58a74ebed7b9fabad5b92d47b7b53de4fa373d9c5afcb974b6",
+      "document": "AIXEM-SPEC-DOCUMENT-001",
+      "order": 1,
+      "path": "docs/specifications/core/document-model.md",
+      "purpose": "Read Canonical Document Model for this task stage.",
+      "required": true,
+      "section": "operational-rules"
+    },
+    {
+      "bytes": 6727,
+      "digest": "sha256:65b494e0639ee8106ae36e4eb4ba98cf5309e36a068d3ade3c1312ec474d07be",
+      "document": "AIXEM-SPEC-METADATA-001",
+      "order": 2,
+      "path": "docs/specifications/documentation/metadata-contract.md",
+      "purpose": "Read Documentation Metadata Contract 1 for this task stage.",
+      "required": true,
+      "section": "operational-rules"
+    },
+    {
+      "bytes": 6658,
+      "digest": "sha256:d4c5746c955989eb322a6aaddcd153ebe23b33937af2baa8ec09b916fc0684cd",
+      "document": "AIXEM-AGENT-ROUTES-001",
+      "order": 3,
+      "path": "docs/agent/task-routing.md",
+      "purpose": "Read Task Routes for this task stage.",
+      "required": true,
+      "section": "authoritative-workflow"
+    },
+    {
+      "bytes": 5037,
+      "digest": "sha256:5dbb54b0557b8bf16daae50c40194b9209ab5c733fa9a4aad1124a85a406c6a0",
+      "document": "AIXEM-ARCH-PIPELINE-001",
+      "order": 4,
+      "path": "docs/architecture/pipeline.md",
+      "purpose": "Read Build and Authoring Pipeline for this task stage.",
+      "required": true,
+      "section": "authoritative-workflow"
+    },
+    {
+      "bytes": 7813,
+      "digest": "sha256:9e06776349ebb0b20e67c9579fc7ce5a124f1e9ea36271b34af230b9b0ad4a55",
+      "document": "AIXEM-SPEC-RELEASE-001",
+      "order": 5,
+      "path": "docs/specifications/documentation/release-integrity.md",
+      "purpose": "Read Documentation Release Integrity 1 for this task stage.",
+      "required": true,
+      "section": "validation-and-evidence"
+    }
+  ],
+  "expectedInputs": [],
+  "expectedOutputs": [
+    "Canonical validation passes",
+    "All generated indexes are fresh",
+    "Static site links resolve",
+    "Compatibility reference output is current"
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "id": "build-documentation",
+  "intent": "build-documentation",
+  "kind": "simple",
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/documentation/task-packet/1",
+  "source": "docs/_meta/routes/build-documentation.yaml",
+  "sourceDigest": "sha256:49758e33f308358baed5a7b962b3a15410f7dabfac3f01e77c044ddabb22a6ce",
+  "summary": "Build documentation and agent indexes",
+  "validators": [
+    "docs.metadata",
+    "docs.links",
+    "docs.generated_freshness",
+    "docs.site"
+  ]
+}

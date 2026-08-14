@@ -1,0 +1,59 @@
+{
+  "evidencePath": [
+    "validation/evidence/requirements/AIXEM-REQ-UI-0002.json"
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "requirement": "AIXEM-REQ-UI-0002",
+  "schema": "https://schemas.aixem.org/validation/requirement-evidence/1",
+  "source": {
+    "anchor": "AIXEM-REQ-UI-0002",
+    "document": "AIXEM-SCHEM-VISUAL-001",
+    "line": 56,
+    "path": "docs/schematic/visual-language.md",
+    "sitePath": "schematic/visual-language.html#AIXEM-REQ-UI-0002"
+  },
+  "statement": "**MUST.** AIXEM schematic presentation MUST use original functional grouping and drawing tokens without copying a vendor product pixel-for-pixel.",
+  "status": "pass",
+  "testResult": {
+    "durationSeconds": 120.511789,
+    "evidence": "validation/test-results.json",
+    "status": "pass",
+    "successful": true,
+    "testsRun": 218
+  },
+  "tests": [
+    "tests/docs/test_repository.py::RepositoryConformanceTests.test_schematic_example"
+  ],
+  "title": "Vendor-neutral drawing presentation",
+  "validatorResults": [
+    {
+      "artifacts": [
+        "validation/evidence/0.5.9/verification-runs/run-01/summary.json",
+        "validation/evidence/0.5.9/verification-runs/run-02/summary.json",
+        "validation/evidence/0.5.9/verification-runs/run-03/summary.json",
+        "validation/evidence/0.5.9/verification-runs/run-04/summary.json",
+        "validation/evidence/0.5.9/verification-runs/run-05/summary.json",
+        "validation/evidence/0.5.9/verification-runs/summary.json",
+        "validation/releases/0.5.9/final-validation.json",
+        "validation/releases/0.5.9/implementation-matrix.json",
+        "validation/test-results.json",
+        "validation/agent-evals-3/results/readiness/readiness-report.json",
+        "validation/agent-evals-3/results/tier-a-results.json",
+        "validation/agent-evals-3/results/tier-b-status.json",
+        "validation/agent-evals-2/results/tier-a-results.json",
+        "docs/_meta/generated/document-relationship-audit.json",
+        "docs/_meta/generated/requirement-traceability.json"
+      ],
+      "id": "schematic.workbench",
+      "status": "pass",
+      "summary": "Mapped validator schematic.workbench passed in all five consecutive clean AIXEM 0.5.9 verification passes.",
+      "valid": true
+    }
+  ],
+  "validators": [
+    "schematic.workbench"
+  ],
+  "verificationMode": "automated"
+}

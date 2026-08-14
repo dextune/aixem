@@ -1,0 +1,7 @@
+{
+  "case": "N006",
+  "expectedDiagnostic": "sheetPort presentation closure mismatch",
+  "matched": true,
+  "observedError": "sheetPort presentation closure mismatch: missing=['VCC'], extra=[]",
+  "status": "pass"
+}

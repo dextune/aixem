@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/schematic/style/1",
+  "styleProfile": {
+    "description": "A vendor-neutral, grid-first schematic drawing profile with orthogonal wiring, compact square controls and an independently designed engineering workbench.",
+    "grid": {
+      "major": 10,
+      "majorEvery": 4,
+      "minor": 2.5,
+      "origin": [0, 0],
+      "render": "dots",
+      "snap": 2.5
+    },
+    "id": "aixem.schematic.grid-light",
+    "independence": {
+      "layoutSimilarityLimit": "Uses conventional CAD regions only; dimensions, icons, colors, naming, spacing and interaction code are original AIXEM assets.",
+      "noVendorAssets": true,
+      "originalIcons": true,
+      "vendorNeutral": true
+    },
+    "palette": {
+      "annotation": "#1B4E8C",
+      "background": "#FCFCFB",
+      "gridMajor": "#D7D9D5",
+      "gridMinor": "#ECEDE9",
+      "junction": "#24864A",
+      "pinName": "#0C7772",
+      "pinNumber": "#A33C30",
+      "selection": "#E18A24",
+      "symbol": "#0C7772",
+      "wire": "#24864A"
+    },
+    "routing": {
+      "allowedAngles": [0, 90, 180, 270],
+      "crossingPolicy": "junction-required",
+      "junctionRadius": 1.25,
+      "labelHalo": true,
+      "minimumSegment": 2.5,
+      "mode": "orthogonal"
+    },
+    "symbol": {
+      "bodyStroke": 0.65,
+      "cornerPolicy": "square",
+      "fieldPlacement": "outside",
+      "pinLength": 5,
+      "pinPitch": 5,
+      "showPinNames": true,
+      "showPinNumbers": true
+    },
+    "title": "AIXEM Grid-Light Schematic",
+    "workbench": {
+      "bottomDiagnostics": true,
+      "leftInspector": true,
+      "menuBar": true,
+      "rightToolRail": true,
+      "squareControls": true,
+      "toolBar": true
+    }
+  }
+}

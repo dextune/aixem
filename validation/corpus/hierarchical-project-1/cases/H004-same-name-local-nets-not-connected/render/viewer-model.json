@@ -1,0 +1,1020 @@
+{
+  "capabilities": {
+    "composite": true,
+    "diagnostics": true,
+    "hierarchy": true,
+    "interfacePorts": true,
+    "offline": true,
+    "overview": true,
+    "projectNets": false,
+    "qualifiedSearch": true,
+    "readOnly": true,
+    "sheet": true,
+    "sheetScopedLayers": true,
+    "viewport": true
+  },
+  "diagnostics": [
+    {
+      "code": "VIEWER-READONLY-001",
+      "message": "Reference Viewer runtime state is derived and read-only.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-QID-001",
+      "message": "12 qualified objects indexed without ambiguity.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-MODES-001",
+      "message": "Sheet, Overview, and Composite modes are available from resolved project evidence.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-ASSET-001",
+      "message": "The self-contained Viewer requires no remote presentation assets.",
+      "severity": "info",
+      "status": "PASS"
+    }
+  ],
+  "domContract": "1",
+  "formatVersion": "1.0",
+  "hierarchy": [
+    {
+      "children": [],
+      "depth": 0,
+      "id": "alpha",
+      "order": 10,
+      "parent": null,
+      "qid": "sheet:alpha",
+      "title": "Alpha"
+    },
+    {
+      "children": [],
+      "depth": 0,
+      "id": "beta",
+      "order": 20,
+      "parent": null,
+      "qid": "sheet:beta",
+      "title": "Beta"
+    }
+  ],
+  "initialState": {
+    "activeNavigatorCategory": "sheet",
+    "activeSheet": "alpha",
+    "mode": "sheet",
+    "searchQuery": "",
+    "selection": null,
+    "visibleLayersBySheet": {
+      "alpha": {
+        "annotation": true,
+        "connections": true,
+        "symbols": true
+      },
+      "beta": {
+        "annotation": true,
+        "connections": true,
+        "symbols": true
+      }
+    }
+  },
+  "objects": {
+    "entity:alpha:U1": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "nativeId": "U1",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:alpha:U1"
+        },
+        {
+          "label": "Sheet",
+          "value": "alpha"
+        },
+        {
+          "label": "Entity ID",
+          "value": "U1"
+        },
+        {
+          "label": "Reference",
+          "value": "U1"
+        },
+        {
+          "label": "Value",
+          "value": "AXC12"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"U1\",\"layer\":\"symbols\",\"x\":80,\"y\":50}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[60.0,42.5],\"10\":[85.0,30.0],\"11\":[75.0,70.0],\"12\":[85.0,70.0],\"2\":[60.0,47.5],\"3\":[60.0,52.5],\"4\":[60.0,57.5],\"5\":[100.0,42.5],\"6\":[100.0,47.5],\"7\":[100.0,52.5],\"8\":[100.0,57.5],\"9\":[75.0,30.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:2fe409df19cfd0257cdc4802e8be6dd84d4d0b840938abb23c22c7c941a1f3ae"
+        }
+      ],
+      "qid": "entity:alpha:U1",
+      "relatedQids": [],
+      "representations": [
+        "sheet:alpha",
+        "composite"
+      ],
+      "searchText": "entity:alpha:u1 u1 · axc12 u1 alpha u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "alpha"
+    },
+    "entity:beta:U1": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "nativeId": "U1",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:beta:U1"
+        },
+        {
+          "label": "Sheet",
+          "value": "beta"
+        },
+        {
+          "label": "Entity ID",
+          "value": "U1"
+        },
+        {
+          "label": "Reference",
+          "value": "U1"
+        },
+        {
+          "label": "Value",
+          "value": "AXC12"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"U1\",\"layer\":\"symbols\",\"x\":80,\"y\":50}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[60.0,42.5],\"10\":[85.0,30.0],\"11\":[75.0,70.0],\"12\":[85.0,70.0],\"2\":[60.0,47.5],\"3\":[60.0,52.5],\"4\":[60.0,57.5],\"5\":[100.0,42.5],\"6\":[100.0,47.5],\"7\":[100.0,52.5],\"8\":[100.0,57.5],\"9\":[75.0,30.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:2fe409df19cfd0257cdc4802e8be6dd84d4d0b840938abb23c22c7c941a1f3ae"
+        }
+      ],
+      "qid": "entity:beta:U1",
+      "relatedQids": [],
+      "representations": [
+        "sheet:beta",
+        "composite"
+      ],
+      "searchText": "entity:beta:u1 u1 · axc12 u1 beta u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "beta"
+    },
+    "interface:alpha:GND": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "alpha / @GND",
+      "nativeId": "GND",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:alpha:GND"
+        },
+        {
+          "label": "Sheet",
+          "value": "alpha"
+        },
+        {
+          "label": "Port ID",
+          "value": "GND"
+        },
+        {
+          "label": "Direction",
+          "value": "passive"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:alpha:gnd"
+        },
+        {
+          "label": "Project net",
+          "value": "unconnected"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[160.0,138.0]"
+        }
+      ],
+      "qid": "interface:alpha:GND",
+      "relatedQids": [
+        "local-net:alpha:gnd"
+      ],
+      "representations": [
+        "sheet:alpha",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:alpha:gnd alpha / @gnd gnd alpha passive power gnd",
+      "sheet": "alpha"
+    },
+    "interface:alpha:VCC": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "alpha / @VCC",
+      "nativeId": "VCC",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:alpha:VCC"
+        },
+        {
+          "label": "Sheet",
+          "value": "alpha"
+        },
+        {
+          "label": "Port ID",
+          "value": "VCC"
+        },
+        {
+          "label": "Direction",
+          "value": "input"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:alpha:vcc"
+        },
+        {
+          "label": "Project net",
+          "value": "unconnected"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[160.0,50.0]"
+        }
+      ],
+      "qid": "interface:alpha:VCC",
+      "relatedQids": [
+        "local-net:alpha:vcc"
+      ],
+      "representations": [
+        "sheet:alpha",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:alpha:vcc alpha / @vcc vcc alpha input power vcc",
+      "sheet": "alpha"
+    },
+    "interface:beta:GND": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "beta / @GND",
+      "nativeId": "GND",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:beta:GND"
+        },
+        {
+          "label": "Sheet",
+          "value": "beta"
+        },
+        {
+          "label": "Port ID",
+          "value": "GND"
+        },
+        {
+          "label": "Direction",
+          "value": "passive"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:beta:gnd"
+        },
+        {
+          "label": "Project net",
+          "value": "unconnected"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[160.0,318.0]"
+        }
+      ],
+      "qid": "interface:beta:GND",
+      "relatedQids": [
+        "local-net:beta:gnd"
+      ],
+      "representations": [
+        "sheet:beta",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:beta:gnd beta / @gnd gnd beta passive power gnd",
+      "sheet": "beta"
+    },
+    "interface:beta:VCC": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "beta / @VCC",
+      "nativeId": "VCC",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:beta:VCC"
+        },
+        {
+          "label": "Sheet",
+          "value": "beta"
+        },
+        {
+          "label": "Port ID",
+          "value": "VCC"
+        },
+        {
+          "label": "Direction",
+          "value": "input"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:beta:vcc"
+        },
+        {
+          "label": "Project net",
+          "value": "unconnected"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[160.0,230.0]"
+        }
+      ],
+      "qid": "interface:beta:VCC",
+      "relatedQids": [
+        "local-net:beta:vcc"
+      ],
+      "representations": [
+        "sheet:beta",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:beta:vcc beta / @vcc vcc beta input power vcc",
+      "sheet": "beta"
+    },
+    "local-net:alpha:gnd": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "alpha / gnd",
+      "nativeId": "gnd",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:alpha:gnd"
+        },
+        {
+          "label": "Sheet",
+          "value": "alpha"
+        },
+        {
+          "label": "Local net ID",
+          "value": "gnd"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.11\",\"@GND\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "none"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:alpha:gnd",
+      "relatedQids": [],
+      "representations": [
+        "sheet:alpha",
+        "composite"
+      ],
+      "searchText": "local-net:alpha:gnd alpha / gnd gnd alpha [\"u1.11\",\"@gnd\"]",
+      "sheet": "alpha"
+    },
+    "local-net:alpha:vcc": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "alpha / vcc",
+      "nativeId": "vcc",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:alpha:vcc"
+        },
+        {
+          "label": "Sheet",
+          "value": "alpha"
+        },
+        {
+          "label": "Local net ID",
+          "value": "vcc"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.9\",\"@VCC\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "none"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:alpha:vcc",
+      "relatedQids": [],
+      "representations": [
+        "sheet:alpha",
+        "composite"
+      ],
+      "searchText": "local-net:alpha:vcc alpha / vcc vcc alpha [\"u1.9\",\"@vcc\"]",
+      "sheet": "alpha"
+    },
+    "local-net:beta:gnd": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "beta / gnd",
+      "nativeId": "gnd",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:beta:gnd"
+        },
+        {
+          "label": "Sheet",
+          "value": "beta"
+        },
+        {
+          "label": "Local net ID",
+          "value": "gnd"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.11\",\"@GND\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "none"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:beta:gnd",
+      "relatedQids": [],
+      "representations": [
+        "sheet:beta",
+        "composite"
+      ],
+      "searchText": "local-net:beta:gnd beta / gnd gnd beta [\"u1.11\",\"@gnd\"]",
+      "sheet": "beta"
+    },
+    "local-net:beta:vcc": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "beta / vcc",
+      "nativeId": "vcc",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:beta:vcc"
+        },
+        {
+          "label": "Sheet",
+          "value": "beta"
+        },
+        {
+          "label": "Local net ID",
+          "value": "vcc"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.9\",\"@VCC\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "none"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:beta:vcc",
+      "relatedQids": [],
+      "representations": [
+        "sheet:beta",
+        "composite"
+      ],
+      "searchText": "local-net:beta:vcc beta / vcc vcc beta [\"u1.9\",\"@vcc\"]",
+      "sheet": "beta"
+    },
+    "sheet:alpha": {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Alpha",
+      "nativeId": "alpha",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "sheet:alpha"
+        },
+        {
+          "label": "Sheet",
+          "value": "alpha"
+        },
+        {
+          "label": "Title",
+          "value": "Alpha"
+        },
+        {
+          "label": "Parent",
+          "value": "Root"
+        },
+        {
+          "label": "Hierarchy depth",
+          "value": "0"
+        },
+        {
+          "label": "Width",
+          "value": "160"
+        },
+        {
+          "label": "Height",
+          "value": "100"
+        },
+        {
+          "label": "Unit",
+          "value": "mm"
+        }
+      ],
+      "qid": "sheet:alpha",
+      "relatedQids": [],
+      "representations": [
+        "sheet:alpha",
+        "overview",
+        "composite"
+      ],
+      "searchText": "sheet:alpha alpha alpha alpha []",
+      "sheet": "alpha"
+    },
+    "sheet:beta": {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Beta",
+      "nativeId": "beta",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "sheet:beta"
+        },
+        {
+          "label": "Sheet",
+          "value": "beta"
+        },
+        {
+          "label": "Title",
+          "value": "Beta"
+        },
+        {
+          "label": "Parent",
+          "value": "Root"
+        },
+        {
+          "label": "Hierarchy depth",
+          "value": "0"
+        },
+        {
+          "label": "Width",
+          "value": "160"
+        },
+        {
+          "label": "Height",
+          "value": "100"
+        },
+        {
+          "label": "Unit",
+          "value": "mm"
+        }
+      ],
+      "qid": "sheet:beta",
+      "relatedQids": [],
+      "representations": [
+        "sheet:beta",
+        "overview",
+        "composite"
+      ],
+      "searchText": "sheet:beta beta beta beta []",
+      "sheet": "beta"
+    }
+  },
+  "project": {
+    "id": "hierarchical:h004",
+    "multiSheet": true,
+    "profile": "aixem.schematic.multisheet@1",
+    "schema": "https://schemas.aixem.org/component-graphics/aixproj/2",
+    "title": "Same name local nets not connected"
+  },
+  "provenance": {
+    "authority": {
+      "connectivityFromGeometry": false,
+      "layersAreSheets": false,
+      "localPresentation": "aixlayout/2",
+      "localSemantics": ".aixem",
+      "projectComposition": "aixproj/2",
+      "viewerState": "derived-non-authoritative"
+    },
+    "generatedAt": "2026-08-10T12:00:00Z",
+    "hashes": {
+      "inputs": [
+        {
+          "layoutDigest": "sha256:b1f6817bd924b9b187a96c3af86d7b1ccf5e70628e2e01ab780724da694467a4",
+          "layoutPath": "layouts/alpha.aixlayout.json",
+          "resolvedSceneDigest": "sha256:bccade356c403b4909cc86aed5cacdfd60a69bd48bb81232b5e5aee62d7180d0",
+          "sheet": "alpha",
+          "sourceDigest": "sha256:ab1af735bf038ef312371d7f5f1ad22b1eb0f2cc95a3e99f8d8b7c9f8844ae19",
+          "sourcePath": "circuits/alpha.aixem",
+          "svgDigest": "sha256:644ba4de4165de299f05ed9c55f22bfb63a8c7c467a45c8dc67ed67fc7a84355"
+        },
+        {
+          "layoutDigest": "sha256:5d10de91aa63b3ed94fa441dfcb4be8db760e4513e3f0d71914f09eaaef1385d",
+          "layoutPath": "layouts/beta.aixlayout.json",
+          "resolvedSceneDigest": "sha256:598cb5ded998d904b4f1fb2d9373c9e04a6eb38d93cc60a97ab0782c7ba6b8ce",
+          "sheet": "beta",
+          "sourceDigest": "sha256:b6c0f9dfdf21a6a694121261219a80abb8cd9ade333c93a27441e16694c24d43",
+          "sourcePath": "circuits/beta.aixem",
+          "svgDigest": "sha256:5dc567e8f19809cb3469bfd85e3b28ae94e7e347b5d98c6e1a213c524a79ef4c"
+        }
+      ],
+      "manifest": "sha256:fdc31f353df579f0fadc1c59ec563c1e53a17948141977f10d61ded6e1d8bc5e",
+      "styleProfile": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393"
+    },
+    "renderer": {
+      "id": "aixem-hierarchical-project-reference-renderer",
+      "version": "0.5.3"
+    },
+    "resolvedProjectSceneSchema": "https://schemas.aixem.org/component-graphics/resolved-project-scene/1"
+  },
+  "release": "AIXEM-SRP-0.5.5-2026-08-11",
+  "schema": "https://schemas.aixem.org/viewer/viewer-model/1",
+  "searchIndex": [
+    {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Alpha",
+      "qid": "sheet:alpha",
+      "searchText": "sheet:alpha alpha alpha alpha []",
+      "sheet": "alpha"
+    },
+    {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Beta",
+      "qid": "sheet:beta",
+      "searchText": "sheet:beta beta beta beta []",
+      "sheet": "beta"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "qid": "entity:alpha:U1",
+      "searchText": "entity:alpha:u1 u1 · axc12 u1 alpha u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "alpha"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "qid": "entity:beta:U1",
+      "searchText": "entity:beta:u1 u1 · axc12 u1 beta u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "beta"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "alpha / gnd",
+      "qid": "local-net:alpha:gnd",
+      "searchText": "local-net:alpha:gnd alpha / gnd gnd alpha [\"u1.11\",\"@gnd\"]",
+      "sheet": "alpha"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "alpha / vcc",
+      "qid": "local-net:alpha:vcc",
+      "searchText": "local-net:alpha:vcc alpha / vcc vcc alpha [\"u1.9\",\"@vcc\"]",
+      "sheet": "alpha"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "beta / gnd",
+      "qid": "local-net:beta:gnd",
+      "searchText": "local-net:beta:gnd beta / gnd gnd beta [\"u1.11\",\"@gnd\"]",
+      "sheet": "beta"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "beta / vcc",
+      "qid": "local-net:beta:vcc",
+      "searchText": "local-net:beta:vcc beta / vcc vcc beta [\"u1.9\",\"@vcc\"]",
+      "sheet": "beta"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "alpha / @GND",
+      "qid": "interface:alpha:GND",
+      "searchText": "interface:alpha:gnd alpha / @gnd gnd alpha passive power gnd",
+      "sheet": "alpha"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "alpha / @VCC",
+      "qid": "interface:alpha:VCC",
+      "searchText": "interface:alpha:vcc alpha / @vcc vcc alpha input power vcc",
+      "sheet": "alpha"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "beta / @GND",
+      "qid": "interface:beta:GND",
+      "searchText": "interface:beta:gnd beta / @gnd gnd beta passive power gnd",
+      "sheet": "beta"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "beta / @VCC",
+      "qid": "interface:beta:VCC",
+      "searchText": "interface:beta:vcc beta / @vcc vcc beta input power vcc",
+      "sheet": "beta"
+    }
+  ],
+  "sheets": [
+    {
+      "height": 100.0,
+      "id": "alpha",
+      "layers": [
+        {
+          "defaultVisible": true,
+          "id": "connections",
+          "locked": false,
+          "order": 10,
+          "printable": true,
+          "purpose": "semantic net routes and sheet ports",
+          "qualifiedId": "layer:alpha:connections",
+          "sheet": "alpha"
+        },
+        {
+          "defaultVisible": true,
+          "id": "symbols",
+          "locked": false,
+          "order": 20,
+          "printable": true,
+          "purpose": "component symbols",
+          "qualifiedId": "layer:alpha:symbols",
+          "sheet": "alpha"
+        },
+        {
+          "defaultVisible": true,
+          "id": "annotation",
+          "locked": false,
+          "order": 30,
+          "printable": true,
+          "purpose": "notes",
+          "qualifiedId": "layer:alpha:annotation",
+          "sheet": "alpha"
+        }
+      ],
+      "order": 10,
+      "parent": null,
+      "qid": "sheet:alpha",
+      "title": "Alpha",
+      "unit": "mm",
+      "width": 160.0
+    },
+    {
+      "height": 100.0,
+      "id": "beta",
+      "layers": [
+        {
+          "defaultVisible": true,
+          "id": "connections",
+          "locked": false,
+          "order": 10,
+          "printable": true,
+          "purpose": "semantic net routes and sheet ports",
+          "qualifiedId": "layer:beta:connections",
+          "sheet": "beta"
+        },
+        {
+          "defaultVisible": true,
+          "id": "symbols",
+          "locked": false,
+          "order": 20,
+          "printable": true,
+          "purpose": "component symbols",
+          "qualifiedId": "layer:beta:symbols",
+          "sheet": "beta"
+        },
+        {
+          "defaultVisible": true,
+          "id": "annotation",
+          "locked": false,
+          "order": 30,
+          "printable": true,
+          "purpose": "notes",
+          "qualifiedId": "layer:beta:annotation",
+          "sheet": "beta"
+        }
+      ],
+      "order": 20,
+      "parent": null,
+      "qid": "sheet:beta",
+      "title": "Beta",
+      "unit": "mm",
+      "width": 160.0
+    }
+  ],
+  "statistics": {
+    "entities": 2,
+    "hierarchyDepth": 0,
+    "interfacePorts": 4,
+    "localNets": 4,
+    "localRouteSegments": 4,
+    "projectNets": 0,
+    "projectRouteSegments": 0,
+    "qualifiedObjects": 12,
+    "sheets": 2,
+    "unconnectedProjectPorts": 4
+  },
+  "viewerContract": "aixem.reference-viewer@1",
+  "views": [
+    {
+      "available": true,
+      "canvases": [
+        {
+          "height": 100.0,
+          "key": "sheet:alpha",
+          "sheet": "alpha",
+          "unit": "mm",
+          "width": 160.0
+        },
+        {
+          "height": 100.0,
+          "key": "sheet:beta",
+          "sheet": "beta",
+          "unit": "mm",
+          "width": 160.0
+        }
+      ],
+      "id": "sheet",
+      "label": "Sheet"
+    },
+    {
+      "available": true,
+      "canvases": [
+        {
+          "height": 378.0,
+          "key": "overview",
+          "sheet": null,
+          "unit": "project-space",
+          "width": 315.0
+        }
+      ],
+      "id": "overview",
+      "label": "Overview"
+    },
+    {
+      "available": true,
+      "canvases": [
+        {
+          "height": 438.0,
+          "key": "composite",
+          "sheet": null,
+          "unit": "project-space",
+          "width": 295.0
+        }
+      ],
+      "id": "composite",
+      "label": "Composite"
+    }
+  ]
+}

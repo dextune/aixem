@@ -1,0 +1,387 @@
+{
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/component-graphics/aixsym/1",
+  "symbol": {
+    "anchors": [
+      {
+        "id": "origin",
+        "kind": "insertion",
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "bounds": {
+      "height": 55,
+      "width": 55,
+      "x": -27.5,
+      "y": -27.5
+    },
+    "coordinateSystem": {
+      "angleDirection": "clockwise",
+      "angleUnit": "deg",
+      "grid": 2.5,
+      "unit": "mm",
+      "yAxis": "down"
+    },
+    "definitions": {
+      "winding": {
+        "commands": [
+          {
+            "cmd": "M",
+            "x": 0,
+            "y": -10
+          },
+          {
+            "cmd": "C",
+            "x": 0,
+            "x1": -7.5,
+            "x2": -7.5,
+            "y": 0,
+            "y1": -7.5,
+            "y2": -2.5
+          },
+          {
+            "cmd": "C",
+            "x": 0,
+            "x1": -7.5,
+            "x2": -7.5,
+            "y": 10,
+            "y1": 2.5,
+            "y2": 7.5
+          }
+        ],
+        "layer": "body",
+        "role": "body",
+        "style": "line",
+        "type": "path"
+      }
+    },
+    "description": "Transformer assembled from one reusable winding definition and a conditional magnetic core.",
+    "graphics": [
+      {
+        "id": "lead-P1",
+        "layer": "body",
+        "metadata": {
+          "port": "P1",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -22.5,
+        "x2": -7.5,
+        "y1": -10,
+        "y2": -10
+      },
+      {
+        "id": "lead-P2",
+        "layer": "body",
+        "metadata": {
+          "port": "P2",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -22.5,
+        "x2": -7.5,
+        "y1": 10,
+        "y2": 10
+      },
+      {
+        "id": "lead-S1",
+        "layer": "body",
+        "metadata": {
+          "port": "S1",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 22.5,
+        "y1": -10,
+        "y2": -10
+      },
+      {
+        "id": "lead-S2",
+        "layer": "body",
+        "metadata": {
+          "port": "S2",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 7.5,
+        "x2": 22.5,
+        "y1": 10,
+        "y2": 10
+      },
+      {
+        "definition": "winding",
+        "id": "primary-winding",
+        "layer": "body",
+        "role": "body",
+        "transform": [
+          1,
+          0,
+          0,
+          1,
+          -2.5,
+          0
+        ],
+        "type": "use"
+      },
+      {
+        "definition": "winding",
+        "id": "secondary-winding",
+        "layer": "body",
+        "role": "body",
+        "transform": [
+          -1,
+          0,
+          0,
+          1,
+          2.5,
+          0
+        ],
+        "type": "use"
+      },
+      {
+        "id": "core-left",
+        "layer": "body",
+        "role": "core",
+        "style": "detail",
+        "type": "line",
+        "visibleWhen": {
+          "left": {
+            "param": "show-core"
+          },
+          "op": "eq",
+          "right": true
+        },
+        "x1": -1.25,
+        "x2": -1.25,
+        "y1": -12.5,
+        "y2": 12.5
+      },
+      {
+        "id": "core-right",
+        "layer": "body",
+        "role": "core",
+        "style": "detail",
+        "type": "line",
+        "visibleWhen": {
+          "left": {
+            "param": "show-core"
+          },
+          "op": "eq",
+          "right": true
+        },
+        "x1": 1.25,
+        "x2": 1.25,
+        "y1": -12.5,
+        "y2": 12.5
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "field": "reference",
+        "id": "field-reference",
+        "layer": "fields",
+        "role": "reference-field",
+        "style": "field",
+        "type": "text",
+        "x": 0,
+        "y": -22.5
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "field": "value",
+        "id": "field-value",
+        "layer": "fields",
+        "role": "value-field",
+        "style": "value",
+        "type": "text",
+        "x": 0,
+        "y": 22.5
+      }
+    ],
+    "id": "corpus:s013-transformer",
+    "layers": [
+      {
+        "defaultVisible": true,
+        "id": "body",
+        "locked": true,
+        "order": 10,
+        "printable": true,
+        "purpose": "symbol body and pin leads"
+      },
+      {
+        "defaultVisible": true,
+        "id": "fields",
+        "locked": false,
+        "order": 20,
+        "printable": true,
+        "purpose": "bound and literal text fields"
+      }
+    ],
+    "metadata": {
+      "corpus": "symbol-expressiveness-1"
+    },
+    "paintServers": {},
+    "parameters": {
+      "show-core": {
+        "default": true,
+        "description": "Show magnetic core lines.",
+        "type": "boolean"
+      }
+    },
+    "ports": [
+      {
+        "id": "P1",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "P1",
+        "number": "P1",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -22.5,
+        "y": -10
+      },
+      {
+        "id": "P2",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "P2",
+        "number": "P2",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -22.5,
+        "y": 10
+      },
+      {
+        "id": "S1",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "S1",
+        "number": "S1",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 22.5,
+        "y": -10
+      },
+      {
+        "id": "S2",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "S2",
+        "number": "S2",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 22.5,
+        "y": 10
+      }
+    ],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-11",
+      "license": "CC0-1.0",
+      "notes": "Vendor-neutral evidence fixture; no proprietary library asset was copied.",
+      "origin": "AIXEM 0.5.2 self-authored conformance corpus"
+    },
+    "purpose": "schematic-symbol",
+    "requiredFeatures": [
+      "definition-use",
+      "compound-path",
+      "cubic-bezier"
+    ],
+    "revision": "1.0.0",
+    "styles": {
+      "body": {
+        "fill": "#fffef8",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.65
+      },
+      "dashed": {
+        "dashArray": [
+          2.5,
+          1.25
+        ],
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeWidth": 0.5
+      },
+      "detail": {
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.5
+      },
+      "dimension": {
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeWidth": 0.5
+      },
+      "field": {
+        "fill": "#17231d",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.5,
+        "fontWeight": 600,
+        "stroke": "none"
+      },
+      "filled": {
+        "fill": "#fffef8",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.65
+      },
+      "label": {
+        "fill": "#0c7772",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.0,
+        "fontWeight": 600,
+        "stroke": "none"
+      },
+      "line": {
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.65
+      },
+      "mark": {
+        "fill": "#0c7772",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.45
+      },
+      "small": {
+        "fill": "#0c7772",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 2.4,
+        "fontWeight": 500,
+        "stroke": "none"
+      },
+      "value": {
+        "fill": "#4f5e56",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.0,
+        "fontWeight": 400,
+        "stroke": "none"
+      }
+    },
+    "title": "S013 Transformer"
+  }
+}

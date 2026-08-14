@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.aixem.org/documentation/task-packet-index/1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "formatVersion", "release", "generatedAt", "packets"],
+  "properties": {
+    "schema": {"const": "https://schemas.aixem.org/documentation/task-packet-index/1"},
+    "formatVersion": {"const": "1.0"},
+    "release": {"type": "string", "minLength": 1},
+    "generatedAt": {"type": "string", "format": "date-time"},
+    "packets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "kind", "path", "digest"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"},
+          "kind": {"enum": ["simple", "composite"]},
+          "path": {"type": "string", "pattern": "^docs/_meta/generated/task-packets/.+\\.json$"},
+          "digest": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"}
+        }
+      }
+    }
+  }
+}

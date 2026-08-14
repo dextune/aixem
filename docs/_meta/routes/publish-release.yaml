@@ -1,0 +1,52 @@
+schema: https://schemas.aixem.org/documentation/task-route/1
+formatVersion: '1.0'
+id: publish-release
+intent: publish-release
+aliases:
+- publish release
+- package zip
+- release build
+- ship version
+- final archive
+summary: Publish a release
+budget:
+  max_documents: 7
+  max_bytes: 98304
+  max_depth: 3
+steps:
+- order: 1
+  document: AIXEM-GOV-RELEASE-001
+  section: authoritative-workflow
+  purpose: Read Release Process for this task stage.
+  required: true
+- order: 2
+  document: AIXEM-CONF-RELEASE-001
+  section: operational-rules
+  purpose: Read Release Gates for this task stage.
+  required: true
+- order: 3
+  document: AIXEM-SPEC-RELEASE-001
+  section: operational-rules
+  purpose: Read Documentation Release Integrity 1 for this task stage.
+  required: true
+- order: 4
+  document: AIXEM-ARCH-SECURITY-001
+  section: validation-and-evidence
+  purpose: Read Security and Trust Boundaries for this task stage.
+  required: true
+completion:
+- The release-declared clean verification cycles are complete
+- All tests and evidence pass
+- Manifest verifies
+- ZIP paths and membership are safe
+- External archive checksum is recorded
+expected_outputs:
+- The release-declared clean verification cycles are complete
+- All tests and evidence pass
+- Manifest verifies
+- ZIP paths and membership are safe
+- External archive checksum is recorded
+validators:
+- docs.release_gate
+- docs.manifest
+- docs.archive_safety

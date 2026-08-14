@@ -1,0 +1,75 @@
+{
+  "authority": "derived-navigation-only",
+  "budget": {
+    "max_bytes": 98304,
+    "max_depth": 3,
+    "max_documents": 7
+  },
+  "completion": [
+    "Artifact owner is resolved",
+    "Canonical contract is identified",
+    "Generated status and dependencies are known"
+  ],
+  "documents": [
+    {
+      "bytes": 6799,
+      "digest": "sha256:510577e90a3c756b4bbe7349f0108fc736f015ca35a9404a4df7b5613ac78e0a",
+      "document": "AIXEM-CONCEPT-AUTHORITY-001",
+      "order": 1,
+      "path": "docs/concepts/authority-model.md",
+      "purpose": "Read Authority Model for this task stage.",
+      "required": true,
+      "section": "overview"
+    },
+    {
+      "bytes": 5057,
+      "digest": "sha256:e85ba2e5da13ec150687a53dbd6859bcd98df893061b06ca70b56235d3ece7f5",
+      "document": "AIXEM-ARCH-ARTIFACT-001",
+      "order": 2,
+      "path": "docs/architecture/artifact-store.md",
+      "purpose": "Read Artifact Ownership and Storage for this task stage.",
+      "required": true,
+      "section": "operational-rules"
+    },
+    {
+      "bytes": 4280,
+      "digest": "sha256:5cd5b996d29418c7cd5b18400c6ebe1c27ca94a76a29b50dcf6227c201b6a20d",
+      "document": "AIXEM-FORMAT-INDEX-001",
+      "order": 3,
+      "path": "docs/file-formats/index.md",
+      "purpose": "Read File Formats for this task stage.",
+      "required": true,
+      "section": "overview"
+    },
+    {
+      "bytes": 6131,
+      "digest": "sha256:a7d5bb475edbeddf2c0bd7c482b076b9ffd2ed37718452a24fc971c1db353d7b",
+      "document": "AIXEM-SPEC-AUTHORITY-001",
+      "order": 4,
+      "path": "docs/specifications/core/authority-precedence.md",
+      "purpose": "Read Authority and Precedence for this task stage.",
+      "required": true,
+      "section": "validation-and-evidence"
+    }
+  ],
+  "expectedInputs": [],
+  "expectedOutputs": [
+    "Artifact owner is resolved",
+    "Canonical contract is identified",
+    "Generated status and dependencies are known"
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "id": "inspect-artifact",
+  "intent": "inspect-artifact",
+  "kind": "simple",
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/documentation/task-packet/1",
+  "source": "docs/_meta/routes/inspect-artifact.yaml",
+  "sourceDigest": "sha256:86c6b7afb1138fec6d163642859083101920845cac17192bc58d2b2407cc9f03",
+  "summary": "Find an artifact owner or contract",
+  "validators": [
+    "docs.artifact_ownership",
+    "docs.artifact_existence"
+  ]
+}

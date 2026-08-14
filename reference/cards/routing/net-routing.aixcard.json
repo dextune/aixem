@@ -1,0 +1,67 @@
+{
+  "card": {
+    "aliases": [
+      "semantic routing",
+      "route net",
+      "connect components"
+    ],
+    "appliesTo": [
+      "route-binding"
+    ],
+    "domain": "routing",
+    "estimatedReadBytes": 8116,
+    "id": "AIXEM-ROUTE-NETS-001",
+    "inputs": [],
+    "keywords": [
+      "Semantic Net Routing",
+      "connect components",
+      "create-schematic",
+      "route net",
+      "route-nets",
+      "route-project-nets",
+      "semantic routing"
+    ],
+    "kind": "guide",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/routing/net-routing.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:641b43cd46e68c363beb52a32f76f97b90c6aba9bc16fbfc0b99bd892e47942f"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-CONCEPT-NET-001",
+      "AIXEM-CONCEPT-LAYOUT-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-ROUTE-0001",
+        "level": "must",
+        "text": "**MUST.** Every route connection MUST name an existing semantic net."
+      },
+      {
+        "id": "AIXEM-REQ-ROUTE-0002",
+        "level": "must",
+        "text": "**MUST.** Every route path terminal MUST resolve to an endpoint that belongs to the named semantic net."
+      },
+      {
+        "id": "AIXEM-REQ-ROUTE-0003",
+        "level": "must",
+        "text": "**MUST.** Route geometry MUST NOT add an endpoint to a semantic net."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-ROUTE-NETS-001",
+        "path": "docs/routing/net-routing.md"
+      }
+    ],
+    "summary": "Defines how route records bind semantic nets to one or more explicit endpoint-to-endpoint paths.",
+    "title": "Semantic Net Routing"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

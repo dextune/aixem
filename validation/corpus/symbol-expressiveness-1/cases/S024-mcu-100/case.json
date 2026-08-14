@@ -1,0 +1,648 @@
+{
+  "category": "high-pin-count",
+  "componentPorts": [
+    {
+      "id": "PA0",
+      "name": "PA0",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PA1",
+      "name": "PA1",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PA2",
+      "name": "PA2",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PA3",
+      "name": "PA3",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PA4",
+      "name": "PA4",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PA5",
+      "name": "PA5",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PA6",
+      "name": "PA6",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PA7",
+      "name": "PA7",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PA8",
+      "name": "PA8",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PA9",
+      "name": "PA9",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PA10",
+      "name": "PA10",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PA11",
+      "name": "PA11",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PA12",
+      "name": "PA12",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PA13",
+      "name": "PA13",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PA14",
+      "name": "PA14",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PA15",
+      "name": "PA15",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PA16",
+      "name": "PA16",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PA17",
+      "name": "PA17",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PA18",
+      "name": "PA18",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PA19",
+      "name": "PA19",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PA20",
+      "name": "PA20",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PA21",
+      "name": "PA21",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PA22",
+      "name": "PA22",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PA23",
+      "name": "PA23",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PA24",
+      "name": "PA24",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PB0",
+      "name": "PB0",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PB1",
+      "name": "PB1",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PB2",
+      "name": "PB2",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PB3",
+      "name": "PB3",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PB4",
+      "name": "PB4",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PB5",
+      "name": "PB5",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PB6",
+      "name": "PB6",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PB7",
+      "name": "PB7",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PB8",
+      "name": "PB8",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PB9",
+      "name": "PB9",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PB10",
+      "name": "PB10",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PB11",
+      "name": "PB11",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PB12",
+      "name": "PB12",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PB13",
+      "name": "PB13",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PB14",
+      "name": "PB14",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PB15",
+      "name": "PB15",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PB16",
+      "name": "PB16",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PB17",
+      "name": "PB17",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PB18",
+      "name": "PB18",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PB19",
+      "name": "PB19",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PB20",
+      "name": "PB20",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PB21",
+      "name": "PB21",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PB22",
+      "name": "PB22",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PB23",
+      "name": "PB23",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "PB24",
+      "name": "PB24",
+      "required": true,
+      "type": "bidirectional"
+    },
+    {
+      "id": "VDD1",
+      "name": "VDD1",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VDD2",
+      "name": "VDD2",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VDD3",
+      "name": "VDD3",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VDD4",
+      "name": "VDD4",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VDD5",
+      "name": "VDD5",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VDD6",
+      "name": "VDD6",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VDD7",
+      "name": "VDD7",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VDD8",
+      "name": "VDD8",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VDD9",
+      "name": "VDD9",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VDD10",
+      "name": "VDD10",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VDD11",
+      "name": "VDD11",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VDD12",
+      "name": "VDD12",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VDD13",
+      "name": "VDD13",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VDD14",
+      "name": "VDD14",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VDD15",
+      "name": "VDD15",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VDD16",
+      "name": "VDD16",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VDD17",
+      "name": "VDD17",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VDD18",
+      "name": "VDD18",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VDD19",
+      "name": "VDD19",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VDD20",
+      "name": "VDD20",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VDD21",
+      "name": "VDD21",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VDD22",
+      "name": "VDD22",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VDD23",
+      "name": "VDD23",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VDD24",
+      "name": "VDD24",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VDD25",
+      "name": "VDD25",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VSS1",
+      "name": "VSS1",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VSS2",
+      "name": "VSS2",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VSS3",
+      "name": "VSS3",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VSS4",
+      "name": "VSS4",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VSS5",
+      "name": "VSS5",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VSS6",
+      "name": "VSS6",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VSS7",
+      "name": "VSS7",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VSS8",
+      "name": "VSS8",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VSS9",
+      "name": "VSS9",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VSS10",
+      "name": "VSS10",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VSS11",
+      "name": "VSS11",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VSS12",
+      "name": "VSS12",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VSS13",
+      "name": "VSS13",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VSS14",
+      "name": "VSS14",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VSS15",
+      "name": "VSS15",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VSS16",
+      "name": "VSS16",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VSS17",
+      "name": "VSS17",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VSS18",
+      "name": "VSS18",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VSS19",
+      "name": "VSS19",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VSS20",
+      "name": "VSS20",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VSS21",
+      "name": "VSS21",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VSS22",
+      "name": "VSS22",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VSS23",
+      "name": "VSS23",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VSS24",
+      "name": "VSS24",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "VSS25",
+      "name": "VSS25",
+      "required": true,
+      "type": "power-input"
+    }
+  ],
+  "expectedBoundsClass": "high-density",
+  "expectedFieldRoles": [
+    "reference-field",
+    "value-field"
+  ],
+  "expectedGridPolicy": "ports-on-2.5mm",
+  "expectedParameterIds": [],
+  "expectedPortCount": 100,
+  "expectedPrimitiveFamilies": [
+    "line",
+    "rect",
+    "text"
+  ],
+  "expectedVariantIds": [],
+  "expectedVisiblePortCount": 100,
+  "formatVersion": "1.0",
+  "id": "S024",
+  "knownExclusions": [],
+  "manualReviewChecks": [
+    "silhouette-recognizable",
+    "ports-attached-to-expected-leads",
+    "pin-number-name-separation",
+    "reference-value-clear-of-body",
+    "polarity-arrow-inversion-state-unambiguous",
+    "repeated-geometry-evenly-spaced",
+    "normal-scale-readable",
+    "no-false-connectivity-detail",
+    "variant-endpoint-identity-preserved",
+    "path-has-no-fill-or-self-intersection-artifact"
+  ],
+  "optionalCapabilities": [],
+  "purpose": "100-pin MCU functional grouping, label layout, and renderer scalability",
+  "requiredCapabilities": [
+    "geometry.line",
+    "geometry.rect",
+    "port.mapping",
+    "scale.high-port-count",
+    "text.field"
+  ],
+  "schema": "https://schemas.aixem.org/conformance/corpus-case/1",
+  "symbolPath": "symbol.aixsym.json",
+  "tier": "core",
+  "title": "100-pin MCU"
+}

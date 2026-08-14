@@ -1,0 +1,189 @@
+{
+  "$id": "https://schemas.aixem.org/reference/aixref-root/1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "formatVersion": {
+      "const": "1.0"
+    },
+    "referenceRoot": {
+      "additionalProperties": false,
+      "properties": {
+        "description": {
+          "type": "string"
+        },
+        "domains": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "description": {
+                "type": "string"
+              },
+              "id": {
+                "pattern": "^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$",
+                "type": "string"
+              },
+              "index": {
+                "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$",
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "index"
+            ],
+            "type": "object"
+          },
+          "maxItems": 64,
+          "minItems": 1,
+          "type": "array"
+        },
+        "entrypoints": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "aliases": {
+                "items": {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "type": "array",
+                "uniqueItems": true
+              },
+              "intent": {
+                "pattern": "^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$",
+                "type": "string"
+              },
+              "priority": {
+                "maximum": 1000,
+                "minimum": 0,
+                "type": "integer"
+              },
+              "route": {
+                "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$",
+                "type": "string"
+              }
+            },
+            "required": [
+              "intent",
+              "route"
+            ],
+            "type": "object"
+          },
+          "maxItems": 128,
+          "minItems": 1,
+          "type": "array"
+        },
+        "id": {
+          "pattern": "^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$",
+          "type": "string"
+        },
+        "indexes": {
+          "additionalProperties": false,
+          "properties": {
+            "artifacts": {
+              "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$",
+              "type": "string"
+            },
+            "capabilities": {
+              "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$",
+              "type": "string"
+            },
+            "dependencyGraph": {
+              "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$",
+              "type": "string"
+            },
+            "invertedIndex": {
+              "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$",
+              "type": "string"
+            },
+            "manifest": {
+              "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$",
+              "type": "string"
+            }
+          },
+          "required": [
+            "capabilities",
+            "artifacts",
+            "manifest",
+            "invertedIndex",
+            "dependencyGraph"
+          ],
+          "type": "object"
+        },
+        "metadata": {
+          "type": "object"
+        },
+        "policies": {
+          "additionalProperties": false,
+          "properties": {
+            "defaultMaxBytes": {
+              "minimum": 1024,
+              "type": "integer"
+            },
+            "defaultMaxDocuments": {
+              "maximum": 64,
+              "minimum": 1,
+              "type": "integer"
+            },
+            "exactRouteFirst": {
+              "type": "boolean"
+            },
+            "failClosedOnDigestMismatch": {
+              "type": "boolean"
+            },
+            "maxDepth": {
+              "maximum": 8,
+              "minimum": 1,
+              "type": "integer"
+            },
+            "remoteFetch": {
+              "enum": [
+                "deny",
+                "allow-locked"
+              ]
+            }
+          },
+          "required": [
+            "defaultMaxDocuments",
+            "defaultMaxBytes",
+            "maxDepth",
+            "failClosedOnDigestMismatch"
+          ],
+          "type": "object"
+        },
+        "release": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "version": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "version",
+        "release",
+        "policies",
+        "entrypoints",
+        "domains",
+        "indexes"
+      ],
+      "type": "object"
+    },
+    "schema": {
+      "const": "https://schemas.aixem.org/reference/aixref-root/1"
+    }
+  },
+  "required": [
+    "schema",
+    "formatVersion",
+    "referenceRoot"
+  ],
+  "title": "AIXEM Reference Root Index 1.0",
+  "type": "object"
+}

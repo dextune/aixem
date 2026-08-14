@@ -1,0 +1,56 @@
+{
+  "card": {
+    "aliases": [
+      "0.5",
+      "AIXEM 0.5",
+      "documentation platform release"
+    ],
+    "appliesTo": [
+      "previous-release-note"
+    ],
+    "domain": "releases",
+    "estimatedReadBytes": 5313,
+    "id": "AIXEM-RELEASE-050-001",
+    "inputs": [],
+    "keywords": [
+      "0.5",
+      "AIXEM 0.5",
+      "AIXEM 0.5.0",
+      "build-documentation",
+      "documentation platform release",
+      "migrate-baseline",
+      "publish-release"
+    ],
+    "kind": "release-note",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/releases/0.5.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:625b1b18e1141de4527946ec5a2d13e7183eb05c8cbe4cdca6b67176d290680c"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 500,
+    "readNext": [
+      "AIXEM-GOV-RELEASE-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-RELEASE-050-001.read",
+        "level": "should",
+        "text": "Documents the completed documentation architecture, agent reference compiler, static site, traceability, three-pass hardening, and release integrity system."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-RELEASE-050-001",
+        "path": "docs/releases/0.5.md"
+      }
+    ],
+    "summary": "Documents the completed documentation architecture, agent reference compiler, static site, traceability, three-pass hardening, and release integrity system.",
+    "title": "AIXEM 0.5.0"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

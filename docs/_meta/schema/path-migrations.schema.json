@@ -1,0 +1,27 @@
+{
+  "$id": "https://schemas.aixem.org/documentation/path-migrations/1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AIXEM canonical documentation path migrations",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "formatVersion", "migrations"],
+  "properties": {
+    "schema": {"const": "https://schemas.aixem.org/documentation/path-migrations/1"},
+    "formatVersion": {"const": "1.0"},
+    "migrations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["document", "from", "to", "since", "reason"],
+        "properties": {
+          "document": {"pattern": "^AIXEM-[A-Z0-9-]+-[0-9]{3,4}$", "type": "string"},
+          "from": {"pattern": "^docs/.+\\.md$", "type": "string"},
+          "to": {"pattern": "^docs/.+\\.md$", "type": "string"},
+          "since": {"pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$", "type": "string"},
+          "reason": {"type": "string", "minLength": 12}
+        }
+      }
+    }
+  }
+}

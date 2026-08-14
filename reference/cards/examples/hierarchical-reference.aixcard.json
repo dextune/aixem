@@ -1,0 +1,55 @@
+{
+  "card": {
+    "aliases": [
+      "hierarchical example",
+      "multi sheet schematic",
+      "sheet hierarchy"
+    ],
+    "appliesTo": [
+      "example"
+    ],
+    "domain": "examples",
+    "estimatedReadBytes": 4403,
+    "id": "AIXEM-EXAMPLE-HIERARCHY-001",
+    "inputs": [],
+    "keywords": [
+      "Example: Hierarchical Reference Pattern",
+      "compose-project",
+      "create-schematic",
+      "hierarchical example",
+      "multi sheet schematic",
+      "sheet hierarchy"
+    ],
+    "kind": "example",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/examples/hierarchical-reference.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:8cc875ab15b8a1e3e73add38745fa9ec287b971a9db28ce1749bb35bcf8c829c"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 500,
+    "readNext": [
+      "AIXEM-SCHEM-SHEET-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-EXAMPLE-HIERARCHY-001.read",
+        "level": "should",
+        "text": "Shows how to partition power, sensing, control, and external I/O across sheets while retaining explicit semantic net continuity."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-EXAMPLE-HIERARCHY-001",
+        "path": "docs/examples/hierarchical-reference.md"
+      }
+    ],
+    "summary": "Shows how to partition power, sensing, control, and external I/O across sheets while retaining explicit semantic net continuity.",
+    "title": "Example: Hierarchical Reference Pattern"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

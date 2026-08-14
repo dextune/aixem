@@ -1,0 +1,14 @@
+{
+  "expected": "pass",
+  "formatVersion": "1.0",
+  "id": "V012",
+  "order": 12,
+  "profiles": [
+    "reference-viewer"
+  ],
+  "purpose": "Navigation and inspector remain reachable",
+  "schema": "https://schemas.aixem.org/conformance/reference-viewer-case/1",
+  "source": "validation/corpus/hierarchical-project-1/cases/H001-two-sheet-power-+-control/project.aixproj.json",
+  "test": "tests/conformance/test_viewer_accessibility.py::ViewerAccessibilityConformanceTests.test_v012_narrow_viewport_retains_navigation_and_inspection",
+  "title": "Narrow viewport"
+}

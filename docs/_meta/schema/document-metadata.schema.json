@@ -1,0 +1,247 @@
+{
+  "$id": "https://schemas.aixem.org/documentation/document-metadata/1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "agent": {
+      "additionalProperties": false,
+      "properties": {
+        "estimated_tokens": {
+          "minimum": 1,
+          "type": "integer"
+        },
+        "intents": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        "priority": {
+          "enum": [
+            "normal",
+            "high",
+            "critical"
+          ]
+        }
+      },
+      "required": [
+        "priority",
+        "estimated_tokens",
+        "intents"
+      ],
+      "type": "object"
+    },
+    "aliases": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "artifacts": {
+      "additionalProperties": false,
+      "properties": {
+        "consumes": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        "owns": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array",
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "owns",
+        "consumes"
+      ],
+      "type": "object"
+    },
+    "authority": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "depends_on": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "domain": {
+      "enum": [
+        "agent",
+        "architecture",
+        "authoring",
+        "concepts",
+        "conformance",
+        "documentation",
+        "examples",
+        "file-formats",
+        "getting-started",
+        "governance",
+        "releases",
+        "routing",
+        "schematic",
+        "specifications",
+        "symbols"
+      ],
+      "type": "string"
+    },
+    "id": {
+      "pattern": "^AIXEM-[A-Z0-9-]+-[0-9]{3,4}$",
+      "type": "string"
+    },
+    "kind": {
+      "enum": [
+        "index",
+        "specification",
+        "contract",
+        "profile",
+        "policy",
+        "reference",
+        "guide",
+        "cookbook",
+        "concept",
+        "architecture",
+        "adr",
+        "conformance",
+        "release-note",
+        "example"
+      ],
+      "type": "string"
+    },
+    "language": {
+      "const": "en"
+    },
+    "navigation": {
+      "additionalProperties": false,
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "order": {
+          "minimum": 0,
+          "type": "integer"
+        }
+      },
+      "required": [
+        "group",
+        "order"
+      ],
+      "type": "object"
+    },
+    "related": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "requirements": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "evidence": {
+            "pattern": "^validation/evidence/requirements/.+\\.json$",
+            "type": "string"
+          },
+          "id": {
+            "pattern": "^AIXEM-REQ-[A-Z0-9-]+-[0-9]{4}$",
+            "type": "string"
+          },
+          "level": {
+            "enum": [
+              "MUST",
+              "SHOULD",
+              "MAY"
+            ]
+          },
+          "statement": {
+            "minLength": 20,
+            "type": "string"
+          },
+          "test": {
+            "minLength": 3,
+            "type": "string"
+          },
+          "title": {
+            "minLength": 3,
+            "type": "string"
+          },
+          "validator": {
+            "minLength": 3,
+            "type": "string"
+          },
+          "verification_mode": {
+            "enum": [
+              "automated",
+              "review"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "level",
+          "statement",
+          "validator",
+          "verification_mode",
+          "test",
+          "evidence"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "status": {
+      "enum": [
+        "normative",
+        "informative",
+        "draft",
+        "deprecated"
+      ]
+    },
+    "summary": {
+      "minLength": 24,
+      "type": "string"
+    },
+    "title": {
+      "minLength": 3,
+      "type": "string"
+    },
+    "version": {
+      "pattern": "^[0-9]+\\.[0-9]+$",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "title",
+    "status",
+    "version",
+    "language",
+    "domain",
+    "kind",
+    "summary",
+    "authority",
+    "aliases",
+    "agent",
+    "depends_on",
+    "related",
+    "navigation",
+    "artifacts",
+    "requirements"
+  ],
+  "title": "AIXEM canonical document metadata",
+  "type": "object"
+}

@@ -1,0 +1,21 @@
+{
+  "authorityOwner": null,
+  "deterministicRerender": true,
+  "formatVersion": "1.0",
+  "maxBytesPerSimpleStage": 98304,
+  "maxDocumentsPerSimpleStage": 7,
+  "rendererSourceInspectionCount": 0,
+  "rendererSuccess": true,
+  "repositoryWideSearchCount": 0,
+  "requiredEvidence": [
+    "route task packet",
+    "canonical route-selected docs",
+    "validation result",
+    "resolved scene or authority diagnosis"
+  ],
+  "routeCompliance": true,
+  "schema": "https://schemas.aixem.org/validation/agent-eval-expected/1",
+  "schemaValidity": true,
+  "semanticPortClosure": true,
+  "task": "EVAL-03"
+}

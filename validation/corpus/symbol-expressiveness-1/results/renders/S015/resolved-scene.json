@@ -1,0 +1,124 @@
+{
+  "coordinateSystem": {
+    "angleDirection": "clockwise",
+    "angleUnit": "deg",
+    "grid": 2.5,
+    "unit": "mm",
+    "yAxis": "down"
+  },
+  "diagnostics": [],
+  "entities": [
+    {
+      "componentType": "conformance:s015",
+      "key": "X1",
+      "kind": "component",
+      "parameters": {},
+      "placement": {
+        "entity": "X1",
+        "layer": "symbols",
+        "x": 50.0,
+        "y": 52.5
+      },
+      "ports": {
+        "1": [
+          30.0,
+          52.5
+        ],
+        "2": [
+          70.0,
+          52.5
+        ]
+      },
+      "reference": "X1",
+      "symbolDigest": "sha256:93c9dc3d4727d8c1c15afa6fe7c19454671ed1ef4ccfb9c0365c9b7e6e65d98b",
+      "symbolId": "corpus:s015-push-switch-no",
+      "value": "Normally-open push switch",
+      "variant": null
+    }
+  ],
+  "featuresUsed": [],
+  "generatedAt": "2026-08-10T00:00:00Z",
+  "gridValidation": {
+    "crossingPolicy": "junction-required",
+    "orthogonalSegments": 0,
+    "placementExceptions": [],
+    "placements": 1,
+    "placementsOnGrid": 1,
+    "profile": "aixem.schematic.grid-light",
+    "routeSegments": 0,
+    "routeViasOnGrid": true,
+    "snap": 2.5,
+    "zeroLengthSegments": []
+  },
+  "hashes": {
+    "layout": "sha256:bc65e92e685affd51c8c1385d896aaecd1a52b7580112277377467c06083da73",
+    "libraries": [
+      "sha256:ba99c068c3f2f1936b83bc499911dac3ec52065bae65bad1fe8239ae56060216"
+    ],
+    "source": "sha256:21096c82dd6b173f4ab1ca8978ae39125efb1daaffada32f4a58a47584d861b8",
+    "symbolAssets": [
+      "sha256:93c9dc3d4727d8c1c15afa6fe7c19454671ed1ef4ccfb9c0365c9b7e6e65d98b"
+    ]
+  },
+  "layers": [
+    {
+      "defaultVisible": true,
+      "id": "connections",
+      "locked": false,
+      "order": 10,
+      "printable": true,
+      "purpose": "semantic net routes"
+    },
+    {
+      "defaultVisible": true,
+      "id": "symbols",
+      "locked": false,
+      "order": 20,
+      "printable": true,
+      "purpose": "component symbols"
+    },
+    {
+      "defaultVisible": true,
+      "id": "annotation",
+      "locked": false,
+      "order": 30,
+      "printable": true,
+      "purpose": "notes"
+    }
+  ],
+  "nets": [],
+  "project": {
+    "id": "conformance:s015",
+    "profile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "title": "S015 Normally-open push switch conformance project"
+  },
+  "renderer": {
+    "id": "aixem-grid-schematic-reference-renderer",
+    "version": "0.5.1"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/resolved-scene/1",
+  "sheet": {
+    "height": 122.5,
+    "margin": 10,
+    "titleBlock": {
+      "drawing": "corpus_s015-layout",
+      "revision": "A",
+      "sheet": "1/1",
+      "title": "S015 — Normally-open push switch"
+    },
+    "width": 180.0
+  },
+  "statistics": {
+    "entities": 1,
+    "nets": 0,
+    "noConnects": 0,
+    "primitives": 9,
+    "routeSegments": 0,
+    "symbolAssets": 1
+  },
+  "styleProfile": {
+    "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+    "id": "aixem.schematic.grid-light",
+    "path": "aixem-grid-schematic-style-1.aixstyle.json"
+  }
+}

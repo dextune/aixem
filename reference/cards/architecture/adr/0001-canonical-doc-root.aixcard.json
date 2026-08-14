@@ -1,0 +1,53 @@
+{
+  "card": {
+    "aliases": [
+      "canonical docs ADR",
+      "one docs root",
+      "ADR 0001"
+    ],
+    "appliesTo": [
+      "architecture-decision"
+    ],
+    "domain": "architecture",
+    "estimatedReadBytes": 3764,
+    "id": "AIXEM-ARCH-ADR-0001",
+    "inputs": [],
+    "keywords": [
+      "ADR 0001",
+      "ADR-0001: One Canonical Documentation Root",
+      "build-documentation",
+      "canonical docs ADR",
+      "change-architecture",
+      "one docs root"
+    ],
+    "kind": "adr",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/architecture/adr/0001-canonical-doc-root.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:05554de68216052da0caa0c814d655ec9c5a4f9936434dcd77abd18591d6236b"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 900,
+    "readNext": [],
+    "rules": [
+      {
+        "id": "AIXEM-ARCH-ADR-0001.read",
+        "level": "should",
+        "text": "Records the decision to author human and agent knowledge once under docs/ and generate all derivative navigation products."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-ARCH-ADR-0001",
+        "path": "docs/architecture/adr/0001-canonical-doc-root.md"
+      }
+    ],
+    "summary": "Records the decision to author human and agent knowledge once under docs/ and generate all derivative navigation products.",
+    "title": "ADR-0001: One Canonical Documentation Root"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

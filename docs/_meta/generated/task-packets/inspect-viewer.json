@@ -1,0 +1,104 @@
+{
+  "authority": "derived-navigation-only",
+  "budget": {
+    "max_bytes": 98304,
+    "max_depth": 3,
+    "max_documents": 7
+  },
+  "completion": [
+    "Authority owner is identified before code changes",
+    "Qualified identity and Viewer Model closure remain valid",
+    "Affected V-cases pass in controlled Chromium",
+    "No semantic/write-back or network path is introduced",
+    "Viewer artifacts remain deterministic"
+  ],
+  "documents": [
+    {
+      "bytes": 15764,
+      "digest": "sha256:51f0c496601896459e57adb025523d72eff5b3d0a1468fddcc81957de9b491a9",
+      "document": "AIXEM-SPEC-VIEWER-001",
+      "order": 1,
+      "path": "docs/specifications/viewer/reference-viewer-contract.md",
+      "purpose": "Establish the product, authority, capability, model, identity, and compatibility boundary.",
+      "required": true,
+      "section": "product-and-authority-boundary"
+    },
+    {
+      "bytes": 8371,
+      "digest": "sha256:20ca1ae9d53e67c5ef17157925668de8489d2678c1f0ea5300d83eb748dee7dd",
+      "document": "AIXEM-SPEC-VIEWER-STATE-001",
+      "order": 2,
+      "path": "docs/specifications/viewer/viewer-state-and-interaction.md",
+      "purpose": "Resolve deterministic state and interaction ownership.",
+      "required": true,
+      "section": "state-record"
+    },
+    {
+      "bytes": 6507,
+      "digest": "sha256:a0ef396647595aa1dc23b6d01369c4be9c1b6f7df31c366570cac2dd41119e93",
+      "document": "AIXEM-SPEC-VIEWER-SECURITY-001",
+      "order": 3,
+      "path": "docs/specifications/viewer/viewer-security-and-embedding.md",
+      "purpose": "Apply offline, inert-text, CSP, and no-write constraints.",
+      "required": true,
+      "section": "offline-package-boundary"
+    },
+    {
+      "bytes": 4369,
+      "digest": "sha256:5cca189b7241ba20b12097784c359cd3a6cecedea0e90e26c76a4eebaeacdf0b",
+      "document": "AIXEM-SPEC-VIEWER-A11Y-001",
+      "order": 4,
+      "path": "docs/specifications/viewer/viewer-accessibility-profile.md",
+      "purpose": "Preserve keyboard, focus, semantic-state, and narrow-viewport operability.",
+      "required": true,
+      "section": "keyboard-and-focus"
+    },
+    {
+      "bytes": 3220,
+      "condition": "Review Workbench behavior or evidence is affected.",
+      "digest": "sha256:fc6dc93b0b617ea4365c79dea22606638350f6af3b1d11a077dc690d0653de5e",
+      "document": "AIXEM-SPEC-WORKBENCH-001",
+      "order": 5,
+      "path": "docs/specifications/viewer/review-workbench-contract.md",
+      "purpose": "Load only when the defect concerns diagnostics, provenance, or Workbench separation.",
+      "required": false,
+      "section": "product-role"
+    },
+    {
+      "bytes": 5761,
+      "digest": "sha256:3618dec2b490eacb101826d9eb24b2f444629841770fca3b1c4161e889cba673",
+      "document": "AIXEM-CONF-REFERENCE-VIEWER-001",
+      "order": 6,
+      "path": "docs/conformance/reference-viewer.md",
+      "purpose": "Select the smallest executable V-case and required browser evidence.",
+      "required": true,
+      "section": "corpus-inventory"
+    }
+  ],
+  "expectedInputs": [
+    "generated viewer-model.json or renderer evidence",
+    "affected Viewer behavior or defect",
+    "browser/conformance observation"
+  ],
+  "expectedOutputs": [
+    "viewer-model.json",
+    "viewer.html or workbench.html",
+    "targeted V-case result",
+    "updated conformance evidence when normative behavior changes"
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "id": "inspect-viewer",
+  "intent": "inspect-viewer",
+  "kind": "simple",
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/documentation/task-packet/1",
+  "source": "docs/_meta/routes/inspect-viewer.yaml",
+  "sourceDigest": "sha256:523df31c94e27e675b16e74f89ddc59b8b99b9d2982ec86e71cc22f2d392e8fb",
+  "summary": "Inspect or modify Reference Viewer behavior through its canonical read-only contracts without loading unrelated authoring material",
+  "validators": [
+    "schematic.reference_viewer",
+    "docs.requirements",
+    "docs.links"
+  ]
+}

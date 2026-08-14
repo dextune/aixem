@@ -1,0 +1,7 @@
+{
+  "case": "H009",
+  "expectedDiagnostic": "PROJECT_NET_UNKNOWN_INTERFACE_PORT",
+  "matched": true,
+  "observedError": "PROJECT_NET_UNKNOWN_INTERFACE_PORT: project net bad references control:@MISSING",
+  "status": "pass"
+}

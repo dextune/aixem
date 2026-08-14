@@ -1,0 +1,93 @@
+{
+  "domain": {
+    "cards": [
+      {
+        "id": "AIXEM-CONF-AGENT-AUTHORING-001",
+        "path": "reference/cards/conformance/agent-authoring.aixcard.json",
+        "summary": "Defines Tier A deterministic harness proof, optional Tier B live-agent evidence, A001-A012 corpus outcomes, scope discipline, closure, and claim truthfulness.",
+        "title": "Agent Authoring Closed-Loop Conformance"
+      },
+      {
+        "id": "AIXEM-CONF-AGENT-DIAGNOSTICS-001",
+        "path": "reference/cards/conformance/agent-diagnostics.aixcard.json",
+        "summary": "Defines the P0 diagnostic registry, controlled ownership vocabulary, remediation-route coverage, and structural negative conformance for agent authoring feedback.",
+        "title": "Agent Diagnostic Registry and Conformance"
+      },
+      {
+        "id": "AIXEM-CONF-AGENT-LIVE-001",
+        "path": "reference/cards/conformance/live-agent-cold-start.aixcard.json",
+        "summary": "Defines Agent Evaluation 3 L001-L012, deterministic Tier A protocol conformance, actual Tier B external execution, retention, scoring, and truthful capability claims.",
+        "title": "Live-Agent Cold-Start Conformance"
+      },
+      {
+        "id": "AIXEM-CONF-B2D-001",
+        "path": "reference/cards/conformance/static-2d-block-profile.aixcard.json",
+        "summary": "Defines a deliberately limited deterministic vector-block profile without native DWG or interactive Dynamic Block claims.",
+        "title": "Static 2D Block Compatibility Profile 1"
+      },
+      {
+        "id": "AIXEM-CONF-COMPAT-001",
+        "path": "reference/cards/conformance/compatibility-conformance.aixcard.json",
+        "summary": "Defines version compatibility claims, migration maps, deprecated paths, and 0.4 reference-output compatibility.",
+        "title": "Compatibility and Migration Conformance"
+      },
+      {
+        "id": "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
+        "path": "reference/cards/conformance/hierarchical-project.aixcard.json",
+        "summary": "Defines the executable H001-H015 and N001-N015 profile, deterministic render evidence, compatibility gates, and public claim boundary for AIXEM 0.5.3.",
+        "title": "Hierarchical Project Conformance"
+      },
+      {
+        "id": "AIXEM-CONF-INDEX-001",
+        "path": "reference/cards/conformance/overview.aixcard.json",
+        "summary": "Explains how requirements, validators, tests, evidence, compatibility, and release gates establish conformance.",
+        "title": "Conformance"
+      },
+      {
+        "id": "AIXEM-CONF-REFERENCE-VIEWER-001",
+        "path": "reference/cards/conformance/reference-viewer.aixcard.json",
+        "summary": "Defines V001-V018 browser, security, accessibility, scale, separation, and three-run deterministic evidence for Reference Viewer Contract 1.",
+        "title": "Reference Viewer Conformance"
+      },
+      {
+        "id": "AIXEM-CONF-RELEASE-001",
+        "path": "reference/cards/conformance/release-gates.aixcard.json",
+        "summary": "Defines the final conditions for documentation, examples, conformance evidence, generated freshness, manifests, and archive integrity.",
+        "title": "Release Gates"
+      },
+      {
+        "id": "AIXEM-CONF-REQUIREMENTS-001",
+        "path": "reference/cards/conformance/requirements.aixcard.json",
+        "summary": "Defines requirement IDs, levels, statements, verification modes, validator and test references, evidence paths, and status.",
+        "title": "Requirement Model"
+      },
+      {
+        "id": "AIXEM-CONF-SYMBOL-EXP-001",
+        "path": "reference/cards/conformance/symbol-expressiveness.aixcard.json",
+        "summary": "Defines evidence-backed schematic-symbol expressiveness tiers, corpus gates, extension controls, and public claim boundaries.",
+        "title": "Symbol Expressiveness Conformance Profile 1"
+      },
+      {
+        "id": "AIXEM-CONF-TESTS-001",
+        "path": "reference/cards/conformance/test-suite.aixcard.json",
+        "summary": "Defines unit, integration, retrieval-corpus, deterministic rebuild, static-site, schematic, and archive tests.",
+        "title": "Test Suite"
+      },
+      {
+        "id": "AIXEM-CONF-VALIDATION-001",
+        "path": "reference/cards/conformance/validation.aixcard.json",
+        "summary": "Defines validator scopes, result severity, fail-closed behavior, diagnostic structure, and evidence recording.",
+        "title": "Validation Architecture"
+      }
+    ],
+    "description": "Generated canonical-document cards for the conformance domain.",
+    "id": "conformance",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12"
+    },
+    "title": "Conformance"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixdomain/1"
+}

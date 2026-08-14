@@ -1,0 +1,183 @@
+{
+  "bounds": {
+    "height": 80.0,
+    "width": 55.0,
+    "x": -27.5,
+    "y": -40.0
+  },
+  "capabilities": [
+    "geometry.line",
+    "geometry.rect",
+    "port.mapping",
+    "scale.high-port-count",
+    "text.field"
+  ],
+  "case": "S020",
+  "defaultVariant": null,
+  "definitions": [],
+  "fieldAnchors": [
+    {
+      "field": "reference",
+      "id": "field-reference",
+      "x": 0,
+      "y": -35.0
+    },
+    {
+      "field": "value",
+      "id": "field-value",
+      "x": 0,
+      "y": 35.0
+    }
+  ],
+  "parameters": {},
+  "ports": [
+    {
+      "id": "1",
+      "orientation": 180,
+      "visible": true,
+      "x": -10.0,
+      "y": -22.5
+    },
+    {
+      "id": "2",
+      "orientation": 180,
+      "visible": true,
+      "x": -10.0,
+      "y": -17.5
+    },
+    {
+      "id": "3",
+      "orientation": 180,
+      "visible": true,
+      "x": -10.0,
+      "y": -12.5
+    },
+    {
+      "id": "4",
+      "orientation": 180,
+      "visible": true,
+      "x": -10.0,
+      "y": -7.5
+    },
+    {
+      "id": "5",
+      "orientation": 180,
+      "visible": true,
+      "x": -10.0,
+      "y": -2.5
+    },
+    {
+      "id": "6",
+      "orientation": 180,
+      "visible": true,
+      "x": -10.0,
+      "y": 2.5
+    },
+    {
+      "id": "7",
+      "orientation": 180,
+      "visible": true,
+      "x": -10.0,
+      "y": 7.5
+    },
+    {
+      "id": "8",
+      "orientation": 180,
+      "visible": true,
+      "x": -10.0,
+      "y": 12.5
+    },
+    {
+      "id": "9",
+      "orientation": 180,
+      "visible": true,
+      "x": -10.0,
+      "y": 17.5
+    },
+    {
+      "id": "10",
+      "orientation": 180,
+      "visible": true,
+      "x": -10.0,
+      "y": 22.5
+    },
+    {
+      "id": "11",
+      "orientation": 0,
+      "visible": true,
+      "x": 10.0,
+      "y": -22.5
+    },
+    {
+      "id": "12",
+      "orientation": 0,
+      "visible": true,
+      "x": 10.0,
+      "y": -17.5
+    },
+    {
+      "id": "13",
+      "orientation": 0,
+      "visible": true,
+      "x": 10.0,
+      "y": -12.5
+    },
+    {
+      "id": "14",
+      "orientation": 0,
+      "visible": true,
+      "x": 10.0,
+      "y": -7.5
+    },
+    {
+      "id": "15",
+      "orientation": 0,
+      "visible": true,
+      "x": 10.0,
+      "y": -2.5
+    },
+    {
+      "id": "16",
+      "orientation": 0,
+      "visible": true,
+      "x": 10.0,
+      "y": 2.5
+    },
+    {
+      "id": "17",
+      "orientation": 0,
+      "visible": true,
+      "x": 10.0,
+      "y": 7.5
+    },
+    {
+      "id": "18",
+      "orientation": 0,
+      "visible": true,
+      "x": 10.0,
+      "y": 12.5
+    },
+    {
+      "id": "19",
+      "orientation": 0,
+      "visible": true,
+      "x": 10.0,
+      "y": 17.5
+    },
+    {
+      "id": "20",
+      "orientation": 0,
+      "visible": true,
+      "x": 10.0,
+      "y": 22.5
+    }
+  ],
+  "primitiveCounts": {
+    "line": 20,
+    "rect": 1,
+    "text": 2
+  },
+  "requiredFeatures": [],
+  "symbol": "corpus:s020-connector-20",
+  "variants": []
+}

@@ -1,0 +1,63 @@
+{
+  "card": {
+    "aliases": [
+      "aixlayout 2",
+      "sheetPorts",
+      "interface port placement"
+    ],
+    "appliesTo": [
+      "hierarchical-interface-presentation",
+      "leaf-route-geometry"
+    ],
+    "domain": "specifications",
+    "estimatedReadBytes": 6258,
+    "id": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
+    "inputs": [],
+    "keywords": [
+      "Hierarchical Sheet-Port Layout Contract 2",
+      "aixlayout 2",
+      "interface port placement",
+      "route-nets",
+      "route-project-nets",
+      "sheetPorts",
+      "validate-project"
+    ],
+    "kind": "specification",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/specifications/layout/hierarchical-sheet-port-contract.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:81cef50427ec3e17118b54d96947ece0e9622bf428db34f830808b3c21b6d02e"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SPEC-LAYOUT-001",
+      "AIXEM-SPEC-INTERFACE-PORT-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-HIER-0004",
+        "level": "must",
+        "text": "**MUST.** Every semantic interface port in a hierarchical leaf MUST have exactly one valid sheetPorts presentation in aixlayout/2, and no unknown presentation may exist."
+      },
+      {
+        "id": "AIXEM-REQ-HIER-0005",
+        "level": "must",
+        "text": "**MUST.** Local route paths MUST cover every connected @PORT endpoint using the semantic net that owns the endpoint."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
+        "path": "docs/specifications/layout/hierarchical-sheet-port-contract.md"
+      }
+    ],
+    "summary": "Defines aixlayout/2 sheetPorts presentation, interface route endpoint resolution, and the separation between local and project routing.",
+    "title": "Hierarchical Sheet-Port Layout Contract 2"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

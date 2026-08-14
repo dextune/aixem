@@ -1,0 +1,60 @@
+{
+  "card": {
+    "aliases": [
+      "cache",
+      "incremental build",
+      "digest cache"
+    ],
+    "appliesTo": [
+      "documentation-cache"
+    ],
+    "domain": "architecture",
+    "estimatedReadBytes": 4999,
+    "id": "AIXEM-ARCH-CACHE-001",
+    "inputs": [],
+    "keywords": [
+      "Cache and Incremental Compilation",
+      "build-documentation",
+      "cache",
+      "change-architecture",
+      "digest cache",
+      "incremental build"
+    ],
+    "kind": "architecture",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/architecture/cache.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:96458ca22efe86256225c70aa41bbafe6686621a39ad54976eacc9d9632febc9"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-CONCEPT-DETERMINISM-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-ARCH-0020",
+        "level": "must",
+        "text": "**MUST.** An incremental compiler cache MUST invalidate an output when its canonical content or declared dependency digest changes."
+      },
+      {
+        "id": "AIXEM-REQ-ARCH-0021",
+        "level": "must",
+        "text": "**MUST.** A cache hit MUST NOT bypass canonical validation or change source authority."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-ARCH-CACHE-001",
+        "path": "docs/architecture/cache.md"
+      }
+    ],
+    "summary": "Defines source digests, dependency invalidation, route cache keys, deterministic cache content, and safe incremental rebuilds.",
+    "title": "Cache and Incremental Compilation"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

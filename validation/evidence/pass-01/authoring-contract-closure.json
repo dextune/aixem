@@ -1,0 +1,24 @@
+{
+  "baseline": {
+    "added": 236,
+    "baselineFiles": 642,
+    "errors": [],
+    "modified": 467,
+    "removed": 0,
+    "valid": true
+  },
+  "canonicalDocuments": 105,
+  "documentedPrimitiveTypes": 13,
+  "documentedSchemaFieldsAndTypes": 156,
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "normativeDocuments": 68,
+  "referenceCoverage": 1.0,
+  "release": "AIXEM-SRP-0.5.1-2026-08-11",
+  "rendererContractChecks": 9,
+  "requirements": 160,
+  "schema": "https://schemas.aixem.org/validation/authoring-contract-closure/1",
+  "sourceBackedSnippets": 18,
+  "unresolvedContractGaps": [],
+  "valid": true
+}

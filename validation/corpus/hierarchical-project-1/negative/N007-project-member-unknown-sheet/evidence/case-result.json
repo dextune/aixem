@@ -1,0 +1,15 @@
+{
+  "canonicalHashes": {},
+  "checks": [],
+  "deterministic": true,
+  "diagnosticMatched": true,
+  "error": "PROJECT_NET_UNKNOWN_SHEET: project net vcc_5v references missing",
+  "expected": "fail",
+  "expectedDiagnostic": "PROJECT_NET_UNKNOWN_SHEET",
+  "id": "N007",
+  "observed": "fail",
+  "projectDigest": "sha256:a50ac597306e403f43d6205136db2f0011b0898def0366cdd087b1c7b8b5069b",
+  "repeatCount": 0,
+  "status": "pass",
+  "title": "Project member unknown sheet"
+}

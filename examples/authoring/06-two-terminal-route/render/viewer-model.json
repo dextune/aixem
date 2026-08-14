@@ -1,0 +1,433 @@
+{
+  "capabilities": {
+    "composite": false,
+    "diagnostics": true,
+    "hierarchy": false,
+    "interfacePorts": false,
+    "offline": true,
+    "overview": false,
+    "projectNets": false,
+    "qualifiedSearch": true,
+    "readOnly": true,
+    "sheet": true,
+    "sheetScopedLayers": true,
+    "viewport": true
+  },
+  "diagnostics": [
+    {
+      "code": "VIEWER-READONLY-001",
+      "message": "Reference Viewer runtime state is derived and read-only.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-QID-001",
+      "message": "4 qualified objects indexed without ambiguity.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-ASSET-001",
+      "message": "The self-contained Viewer requires no remote presentation assets.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "GRID-001",
+      "message": "2/2 placements satisfy the declared snap grid.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "ROUTE-001",
+      "message": "3 orthogonal route segments are resolved.",
+      "severity": "info",
+      "status": "PASS"
+    }
+  ],
+  "domContract": "1",
+  "formatVersion": "1.0",
+  "hierarchy": [
+    {
+      "children": [],
+      "depth": 0,
+      "id": "main",
+      "order": 0,
+      "parent": null,
+      "qid": "sheet:main",
+      "title": "Two-terminal Routing"
+    }
+  ],
+  "initialState": {
+    "activeNavigatorCategory": "entity",
+    "activeSheet": "main",
+    "mode": "sheet",
+    "searchQuery": "",
+    "selection": null,
+    "visibleLayersBySheet": {
+      "main": {
+        "annotation": true,
+        "connections": true,
+        "symbols": true
+      }
+    }
+  },
+  "objects": {
+    "entity:main:T1": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "T1 · SOURCE",
+      "nativeId": "T1",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:main:T1"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Entity ID",
+          "value": "T1"
+        },
+        {
+          "label": "Reference",
+          "value": "T1"
+        },
+        {
+          "label": "Value",
+          "value": "SOURCE"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:terminal"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:terminal"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"T1\",\"layer\":\"symbols\",\"x\":40,\"y\":35}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[40.0,35.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:c4f12f18862f6a2b41eab5de806d215bff64db45e0ef30d7b35dc3b6374d2eec"
+        }
+      ],
+      "qid": "entity:main:T1",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "entity:main:t1 t1 · source t1 main t1 source authoring:terminal authoring:terminal",
+      "sheet": "main"
+    },
+    "entity:main:T2": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "T2 · SINK",
+      "nativeId": "T2",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:main:T2"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Entity ID",
+          "value": "T2"
+        },
+        {
+          "label": "Reference",
+          "value": "T2"
+        },
+        {
+          "label": "Value",
+          "value": "SINK"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:terminal"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:terminal"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"T2\",\"layer\":\"symbols\",\"x\":120,\"y\":60}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[120.0,60.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:c4f12f18862f6a2b41eab5de806d215bff64db45e0ef30d7b35dc3b6374d2eec"
+        }
+      ],
+      "qid": "entity:main:T2",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "entity:main:t2 t2 · sink t2 main t2 sink authoring:terminal authoring:terminal",
+      "sheet": "main"
+    },
+    "local-net:main:signal": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "signal",
+      "nativeId": "signal",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:main:signal"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Local net ID",
+          "value": "signal"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"T1.1\",\"T2.1\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "none"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:main:signal",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "local-net:main:signal signal signal main [\"t1.1\",\"t2.1\"]",
+      "sheet": "main"
+    },
+    "sheet:main": {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Two-terminal Routing",
+      "nativeId": "main",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "sheet:main"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Title",
+          "value": "Two-terminal Routing"
+        },
+        {
+          "label": "Width",
+          "value": "160"
+        },
+        {
+          "label": "Height",
+          "value": "100"
+        },
+        {
+          "label": "Unit",
+          "value": "mm"
+        }
+      ],
+      "qid": "sheet:main",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "sheet:main two-terminal routing main main authoring:two_terminal_route two-terminal routing",
+      "sheet": "main"
+    }
+  },
+  "project": {
+    "id": "authoring:two_terminal_route",
+    "multiSheet": false,
+    "profile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "schema": "https://schemas.aixem.org/component-graphics/aixproj/1",
+    "title": "Two-terminal Routing"
+  },
+  "provenance": {
+    "authority": {
+      "presentation": ".aixlayout",
+      "semantics": ".aixem",
+      "viewerState": "derived-non-authoritative"
+    },
+    "generatedAt": "2026-08-10T00:00:00Z",
+    "hashes": {
+      "layout": "sha256:ae4b7e2e10f0f76f00f9c2768f51156c96aaf4ec5b638bcc0d4ac3ef76e0abee",
+      "libraries": [
+        "sha256:67251f3ff9fd71fb5c65b55b7446c1c237a773bc318729840483a395b3860c5d"
+      ],
+      "source": "sha256:d6cf9d7f9c066f5dc15a90ebfa1dcc4b5c78c8ded61d35713f77a120e7a7a8d1",
+      "symbolAssets": [
+        "sha256:c4f12f18862f6a2b41eab5de806d215bff64db45e0ef30d7b35dc3b6374d2eec"
+      ]
+    },
+    "renderer": {
+      "id": "aixem-grid-schematic-reference-renderer",
+      "version": "0.5.1"
+    },
+    "resolvedSceneSchema": "https://schemas.aixem.org/component-graphics/resolved-scene/1",
+    "styleProfile": {
+      "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+      "id": "aixem.schematic.grid-light",
+      "path": "aixem-grid-schematic-style-1.aixstyle.json"
+    }
+  },
+  "release": "AIXEM-SRP-0.5.5-2026-08-11",
+  "schema": "https://schemas.aixem.org/viewer/viewer-model/1",
+  "searchIndex": [
+    {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Two-terminal Routing",
+      "qid": "sheet:main",
+      "searchText": "sheet:main two-terminal routing main main authoring:two_terminal_route two-terminal routing",
+      "sheet": "main"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "T1 · SOURCE",
+      "qid": "entity:main:T1",
+      "searchText": "entity:main:t1 t1 · source t1 main t1 source authoring:terminal authoring:terminal",
+      "sheet": "main"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "T2 · SINK",
+      "qid": "entity:main:T2",
+      "searchText": "entity:main:t2 t2 · sink t2 main t2 sink authoring:terminal authoring:terminal",
+      "sheet": "main"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "signal",
+      "qid": "local-net:main:signal",
+      "searchText": "local-net:main:signal signal signal main [\"t1.1\",\"t2.1\"]",
+      "sheet": "main"
+    }
+  ],
+  "sheets": [
+    {
+      "height": 100.0,
+      "id": "main",
+      "layers": [
+        {
+          "defaultVisible": true,
+          "id": "connections",
+          "locked": false,
+          "order": 10,
+          "printable": true,
+          "purpose": "semantic net routes",
+          "qualifiedId": "layer:main:connections",
+          "sheet": "main"
+        },
+        {
+          "defaultVisible": true,
+          "id": "symbols",
+          "locked": false,
+          "order": 20,
+          "printable": true,
+          "purpose": "component symbols",
+          "qualifiedId": "layer:main:symbols",
+          "sheet": "main"
+        },
+        {
+          "defaultVisible": true,
+          "id": "annotation",
+          "locked": false,
+          "order": 30,
+          "printable": true,
+          "purpose": "notes",
+          "qualifiedId": "layer:main:annotation",
+          "sheet": "main"
+        }
+      ],
+      "order": 0,
+      "parent": null,
+      "qid": "sheet:main",
+      "title": "Two-terminal Routing",
+      "unit": "mm",
+      "width": 160.0
+    }
+  ],
+  "statistics": {
+    "entities": 2,
+    "interfacePorts": 0,
+    "localNets": 1,
+    "projectNets": 0,
+    "qualifiedObjects": 4,
+    "sheets": 1
+  },
+  "viewerContract": "aixem.reference-viewer@1",
+  "views": [
+    {
+      "available": true,
+      "canvases": [
+        {
+          "height": 100.0,
+          "key": "sheet:main",
+          "sheet": "main",
+          "unit": "mm",
+          "width": 160.0
+        }
+      ],
+      "id": "sheet",
+      "label": "Sheet"
+    }
+  ]
+}

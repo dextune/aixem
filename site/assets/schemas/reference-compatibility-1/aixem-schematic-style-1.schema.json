@@ -1,0 +1,301 @@
+{
+  "$id": "https://schemas.aixem.org/schematic/style/1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "formatVersion": {
+      "const": "1.0"
+    },
+    "schema": {
+      "const": "https://schemas.aixem.org/schematic/style/1"
+    },
+    "styleProfile": {
+      "additionalProperties": false,
+      "properties": {
+        "description": {
+          "type": "string"
+        },
+        "grid": {
+          "additionalProperties": false,
+          "properties": {
+            "major": {
+              "exclusiveMinimum": 0,
+              "type": "number"
+            },
+            "majorEvery": {
+              "maximum": 20,
+              "minimum": 2,
+              "type": "integer"
+            },
+            "minor": {
+              "exclusiveMinimum": 0,
+              "type": "number"
+            },
+            "origin": {
+              "maxItems": 2,
+              "minItems": 2,
+              "prefixItems": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                }
+              ],
+              "type": "array"
+            },
+            "render": {
+              "enum": [
+                "dots",
+                "lines",
+                "crosses"
+              ]
+            },
+            "snap": {
+              "exclusiveMinimum": 0,
+              "type": "number"
+            }
+          },
+          "required": [
+            "minor",
+            "major",
+            "snap",
+            "origin",
+            "render"
+          ],
+          "type": "object"
+        },
+        "id": {
+          "pattern": "^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$",
+          "type": "string"
+        },
+        "independence": {
+          "additionalProperties": false,
+          "properties": {
+            "layoutSimilarityLimit": {
+              "minLength": 10,
+              "type": "string"
+            },
+            "noVendorAssets": {
+              "type": "boolean"
+            },
+            "originalIcons": {
+              "type": "boolean"
+            },
+            "vendorNeutral": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "vendorNeutral",
+            "originalIcons",
+            "noVendorAssets",
+            "layoutSimilarityLimit"
+          ],
+          "type": "object"
+        },
+        "metadata": {
+          "type": "object"
+        },
+        "palette": {
+          "additionalProperties": false,
+          "properties": {
+            "annotation": {
+              "pattern": "^#[0-9A-Fa-f]{6}$",
+              "type": "string"
+            },
+            "background": {
+              "pattern": "^#[0-9A-Fa-f]{6}$",
+              "type": "string"
+            },
+            "gridMajor": {
+              "pattern": "^#[0-9A-Fa-f]{6}$",
+              "type": "string"
+            },
+            "gridMinor": {
+              "pattern": "^#[0-9A-Fa-f]{6}$",
+              "type": "string"
+            },
+            "junction": {
+              "pattern": "^#[0-9A-Fa-f]{6}$",
+              "type": "string"
+            },
+            "pinName": {
+              "pattern": "^#[0-9A-Fa-f]{6}$",
+              "type": "string"
+            },
+            "pinNumber": {
+              "pattern": "^#[0-9A-Fa-f]{6}$",
+              "type": "string"
+            },
+            "selection": {
+              "pattern": "^#[0-9A-Fa-f]{6}$",
+              "type": "string"
+            },
+            "symbol": {
+              "pattern": "^#[0-9A-Fa-f]{6}$",
+              "type": "string"
+            },
+            "wire": {
+              "pattern": "^#[0-9A-Fa-f]{6}$",
+              "type": "string"
+            }
+          },
+          "required": [
+            "background",
+            "gridMinor",
+            "gridMajor",
+            "symbol",
+            "pinNumber",
+            "pinName",
+            "wire",
+            "junction",
+            "annotation",
+            "selection"
+          ],
+          "type": "object"
+        },
+        "routing": {
+          "additionalProperties": false,
+          "properties": {
+            "allowedAngles": {
+              "items": {
+                "type": "integer"
+              },
+              "type": "array",
+              "uniqueItems": true
+            },
+            "crossingPolicy": {
+              "enum": [
+                "geometry-never-connects",
+                "junction-required"
+              ]
+            },
+            "junctionRadius": {
+              "minimum": 0,
+              "type": "number"
+            },
+            "labelHalo": {
+              "type": "boolean"
+            },
+            "minimumSegment": {
+              "minimum": 0,
+              "type": "number"
+            },
+            "mode": {
+              "enum": [
+                "orthogonal",
+                "octilinear"
+              ]
+            }
+          },
+          "required": [
+            "mode",
+            "allowedAngles",
+            "junctionRadius",
+            "crossingPolicy",
+            "labelHalo"
+          ],
+          "type": "object"
+        },
+        "symbol": {
+          "additionalProperties": false,
+          "properties": {
+            "bodyStroke": {
+              "exclusiveMinimum": 0,
+              "type": "number"
+            },
+            "cornerPolicy": {
+              "enum": [
+                "square",
+                "small-radius"
+              ]
+            },
+            "fieldPlacement": {
+              "enum": [
+                "outside",
+                "inside",
+                "profile-controlled"
+              ]
+            },
+            "pinLength": {
+              "exclusiveMinimum": 0,
+              "type": "number"
+            },
+            "pinPitch": {
+              "exclusiveMinimum": 0,
+              "type": "number"
+            },
+            "showPinNames": {
+              "type": "boolean"
+            },
+            "showPinNumbers": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "bodyStroke",
+            "pinPitch",
+            "pinLength",
+            "fieldPlacement",
+            "cornerPolicy"
+          ],
+          "type": "object"
+        },
+        "title": {
+          "type": "string"
+        },
+        "workbench": {
+          "additionalProperties": false,
+          "properties": {
+            "bottomDiagnostics": {
+              "type": "boolean"
+            },
+            "leftInspector": {
+              "type": "boolean"
+            },
+            "menuBar": {
+              "type": "boolean"
+            },
+            "rightToolRail": {
+              "type": "boolean"
+            },
+            "squareControls": {
+              "type": "boolean"
+            },
+            "toolBar": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "menuBar",
+            "toolBar",
+            "leftInspector",
+            "rightToolRail",
+            "bottomDiagnostics",
+            "squareControls"
+          ],
+          "type": "object"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "grid",
+        "routing",
+        "symbol",
+        "palette",
+        "workbench",
+        "independence"
+      ],
+      "type": "object"
+    }
+  },
+  "required": [
+    "schema",
+    "formatVersion",
+    "styleProfile"
+  ],
+  "title": "AIXEM Grid Schematic Style Profile 1.0",
+  "type": "object"
+}

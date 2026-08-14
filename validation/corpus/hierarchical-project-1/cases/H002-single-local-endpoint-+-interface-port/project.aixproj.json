@@ -1,0 +1,123 @@
+{
+  "formatVersion": "2.0",
+  "project": {
+    "applicationProfile": "aixem.schematic.multisheet@1",
+    "description": "Hierarchical conformance case H002: Single local endpoint + interface port",
+    "features": [
+      "component.graphics@1",
+      "explicit.layout@2",
+      "hierarchical.interface@1",
+      "project-net@1",
+      "deterministic-project-routing@1"
+    ],
+    "id": "hierarchical:h002",
+    "libraries": [
+      {
+        "digest": "sha256:d6f65cd2d99d51e7a0eeb9ca230ea2207936a84e90bcbe65e7bc3561d393f9b6",
+        "id": "hierarchical:reference-library",
+        "mediaType": "application/vnd.aixem.library+json",
+        "path": "libraries/authoring.aixlib.json",
+        "version": "1.0.0"
+      }
+    ],
+    "metadata": {
+      "case": "H002",
+      "corpus": "hierarchical-project-1",
+      "geometryCreatesConnectivity": false,
+      "layersAreSheets": false
+    },
+    "outputs": [
+      {
+        "mediaType": "image/svg+xml",
+        "path": "render/project-overview.svg",
+        "role": "project-overview-svg"
+      },
+      {
+        "mediaType": "image/svg+xml",
+        "path": "render/project-composite.svg",
+        "role": "project-composite-svg"
+      },
+      {
+        "mediaType": "application/json",
+        "path": "render/resolved-project-scene.json",
+        "role": "resolved-project-scene"
+      },
+      {
+        "mediaType": "text/html",
+        "path": "render/workbench.html",
+        "role": "engineering-workbench"
+      }
+    ],
+    "projectNets": [
+      {
+        "id": "signal",
+        "members": [
+          {
+            "port": "OUT",
+            "sheet": "source"
+          },
+          {
+            "port": "IN",
+            "sheet": "sink"
+          }
+        ]
+      }
+    ],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-11",
+      "license": "CC0-1.0"
+    },
+    "renderPolicy": {
+      "backend": "svg",
+      "defaultVariantPolicy": "library-default",
+      "fontPolicy": "system-fallback",
+      "purpose": "primary-diagram",
+      "remoteAssets": "deny",
+      "unsupportedRequiredFeature": "reject"
+    },
+    "sheets": [
+      {
+        "id": "source",
+        "layout": {
+          "digest": "sha256:a0941cf0d98766dd8c945b1ad350246535fe528c771e879ae50614fe1ecac3ff",
+          "id": "h002-single-local-endpoint-interface-port:source-layout",
+          "mediaType": "application/json",
+          "path": "layouts/source.aixlayout.json",
+          "version": "2.0"
+        },
+        "order": 10,
+        "source": {
+          "digest": "sha256:09ceae094a60598570970ace2e7698d28092a094a2618aa656926b3b2e4dabed",
+          "id": "h002-single-local-endpoint-interface-port:source",
+          "mediaType": "text/x-aixem",
+          "path": "circuits/source.aixem",
+          "version": "1.0"
+        },
+        "title": "Source"
+      },
+      {
+        "id": "sink",
+        "layout": {
+          "digest": "sha256:296dc07710072aca84a27de988b09382c39ebe39cf738cd00d3a62ecb04c446d",
+          "id": "h002-single-local-endpoint-interface-port:sink-layout",
+          "mediaType": "application/json",
+          "path": "layouts/sink.aixlayout.json",
+          "version": "2.0"
+        },
+        "order": 20,
+        "source": {
+          "digest": "sha256:39ec1052f0aaf41fb0ef28a2310ef30e19ad068d874eabca9d59cc8288c39877",
+          "id": "h002-single-local-endpoint-interface-port:sink",
+          "mediaType": "text/x-aixem",
+          "path": "circuits/sink.aixem",
+          "version": "1.0"
+        },
+        "title": "Sink"
+      }
+    ],
+    "status": "example",
+    "title": "Single local endpoint + interface port"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/aixproj/2"
+}

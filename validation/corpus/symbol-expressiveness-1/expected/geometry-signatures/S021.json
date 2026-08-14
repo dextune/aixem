@@ -1,0 +1,743 @@
+{
+  "bounds": {
+    "height": 280.0,
+    "width": 60.0,
+    "x": -30.0,
+    "y": -140.0
+  },
+  "capabilities": [
+    "geometry.line",
+    "geometry.rect",
+    "port.mapping",
+    "scale.high-port-count",
+    "text.field"
+  ],
+  "case": "S021",
+  "defaultVariant": null,
+  "definitions": [],
+  "fieldAnchors": [
+    {
+      "field": "reference",
+      "id": "field-reference",
+      "x": 0,
+      "y": -135.0
+    },
+    {
+      "field": "value",
+      "id": "field-value",
+      "x": 0,
+      "y": 135.0
+    }
+  ],
+  "parameters": {},
+  "ports": [
+    {
+      "id": "1",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": -122.5
+    },
+    {
+      "id": "2",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": -117.5
+    },
+    {
+      "id": "3",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": -112.5
+    },
+    {
+      "id": "4",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": -107.5
+    },
+    {
+      "id": "5",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": -102.5
+    },
+    {
+      "id": "6",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": -97.5
+    },
+    {
+      "id": "7",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": -92.5
+    },
+    {
+      "id": "8",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": -87.5
+    },
+    {
+      "id": "9",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": -82.5
+    },
+    {
+      "id": "10",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": -77.5
+    },
+    {
+      "id": "11",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": -72.5
+    },
+    {
+      "id": "12",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": -67.5
+    },
+    {
+      "id": "13",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": -62.5
+    },
+    {
+      "id": "14",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": -57.5
+    },
+    {
+      "id": "15",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": -52.5
+    },
+    {
+      "id": "16",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": -47.5
+    },
+    {
+      "id": "17",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": -42.5
+    },
+    {
+      "id": "18",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": -37.5
+    },
+    {
+      "id": "19",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": -32.5
+    },
+    {
+      "id": "20",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": -27.5
+    },
+    {
+      "id": "21",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": -22.5
+    },
+    {
+      "id": "22",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": -17.5
+    },
+    {
+      "id": "23",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": -12.5
+    },
+    {
+      "id": "24",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": -7.5
+    },
+    {
+      "id": "25",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": -2.5
+    },
+    {
+      "id": "26",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": 2.5
+    },
+    {
+      "id": "27",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": 7.5
+    },
+    {
+      "id": "28",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": 12.5
+    },
+    {
+      "id": "29",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": 17.5
+    },
+    {
+      "id": "30",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": 22.5
+    },
+    {
+      "id": "31",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": 27.5
+    },
+    {
+      "id": "32",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": 32.5
+    },
+    {
+      "id": "33",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": 37.5
+    },
+    {
+      "id": "34",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": 42.5
+    },
+    {
+      "id": "35",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": 47.5
+    },
+    {
+      "id": "36",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": 52.5
+    },
+    {
+      "id": "37",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": 57.5
+    },
+    {
+      "id": "38",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": 62.5
+    },
+    {
+      "id": "39",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": 67.5
+    },
+    {
+      "id": "40",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": 72.5
+    },
+    {
+      "id": "41",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": 77.5
+    },
+    {
+      "id": "42",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": 82.5
+    },
+    {
+      "id": "43",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": 87.5
+    },
+    {
+      "id": "44",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": 92.5
+    },
+    {
+      "id": "45",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": 97.5
+    },
+    {
+      "id": "46",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": 102.5
+    },
+    {
+      "id": "47",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": 107.5
+    },
+    {
+      "id": "48",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": 112.5
+    },
+    {
+      "id": "49",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": 117.5
+    },
+    {
+      "id": "50",
+      "orientation": 180,
+      "visible": true,
+      "x": -12.5,
+      "y": 122.5
+    },
+    {
+      "id": "51",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": -122.5
+    },
+    {
+      "id": "52",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": -117.5
+    },
+    {
+      "id": "53",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": -112.5
+    },
+    {
+      "id": "54",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": -107.5
+    },
+    {
+      "id": "55",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": -102.5
+    },
+    {
+      "id": "56",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": -97.5
+    },
+    {
+      "id": "57",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": -92.5
+    },
+    {
+      "id": "58",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": -87.5
+    },
+    {
+      "id": "59",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": -82.5
+    },
+    {
+      "id": "60",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": -77.5
+    },
+    {
+      "id": "61",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": -72.5
+    },
+    {
+      "id": "62",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": -67.5
+    },
+    {
+      "id": "63",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": -62.5
+    },
+    {
+      "id": "64",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": -57.5
+    },
+    {
+      "id": "65",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": -52.5
+    },
+    {
+      "id": "66",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": -47.5
+    },
+    {
+      "id": "67",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": -42.5
+    },
+    {
+      "id": "68",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": -37.5
+    },
+    {
+      "id": "69",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": -32.5
+    },
+    {
+      "id": "70",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": -27.5
+    },
+    {
+      "id": "71",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": -22.5
+    },
+    {
+      "id": "72",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": -17.5
+    },
+    {
+      "id": "73",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": -12.5
+    },
+    {
+      "id": "74",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": -7.5
+    },
+    {
+      "id": "75",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": -2.5
+    },
+    {
+      "id": "76",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": 2.5
+    },
+    {
+      "id": "77",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": 7.5
+    },
+    {
+      "id": "78",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": 12.5
+    },
+    {
+      "id": "79",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": 17.5
+    },
+    {
+      "id": "80",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": 22.5
+    },
+    {
+      "id": "81",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": 27.5
+    },
+    {
+      "id": "82",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": 32.5
+    },
+    {
+      "id": "83",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": 37.5
+    },
+    {
+      "id": "84",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": 42.5
+    },
+    {
+      "id": "85",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": 47.5
+    },
+    {
+      "id": "86",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": 52.5
+    },
+    {
+      "id": "87",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": 57.5
+    },
+    {
+      "id": "88",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": 62.5
+    },
+    {
+      "id": "89",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": 67.5
+    },
+    {
+      "id": "90",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": 72.5
+    },
+    {
+      "id": "91",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": 77.5
+    },
+    {
+      "id": "92",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": 82.5
+    },
+    {
+      "id": "93",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": 87.5
+    },
+    {
+      "id": "94",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": 92.5
+    },
+    {
+      "id": "95",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": 97.5
+    },
+    {
+      "id": "96",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": 102.5
+    },
+    {
+      "id": "97",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": 107.5
+    },
+    {
+      "id": "98",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": 112.5
+    },
+    {
+      "id": "99",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": 117.5
+    },
+    {
+      "id": "100",
+      "orientation": 0,
+      "visible": true,
+      "x": 12.5,
+      "y": 122.5
+    }
+  ],
+  "primitiveCounts": {
+    "line": 100,
+    "rect": 1,
+    "text": 2
+  },
+  "requiredFeatures": [],
+  "symbol": "corpus:s021-connector-100",
+  "variants": []
+}

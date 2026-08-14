@@ -1,0 +1,155 @@
+{
+  "formatVersion": "2.0",
+  "project": {
+    "applicationProfile": "aixem.schematic.multisheet@1",
+    "description": "Hierarchical conformance case H015: Local net project net equivalence collision",
+    "features": [
+      "component.graphics@1",
+      "explicit.layout@2",
+      "hierarchical.interface@1",
+      "project-net@1",
+      "deterministic-project-routing@1"
+    ],
+    "id": "hierarchical:h015",
+    "libraries": [
+      {
+        "digest": "sha256:d6f65cd2d99d51e7a0eeb9ca230ea2207936a84e90bcbe65e7bc3561d393f9b6",
+        "id": "hierarchical:reference-library",
+        "mediaType": "application/vnd.aixem.library+json",
+        "path": "libraries/authoring.aixlib.json",
+        "version": "1.0.0"
+      }
+    ],
+    "metadata": {
+      "case": "H015",
+      "corpus": "hierarchical-project-1",
+      "geometryCreatesConnectivity": false,
+      "layersAreSheets": false
+    },
+    "outputs": [
+      {
+        "mediaType": "image/svg+xml",
+        "path": "render/project-overview.svg",
+        "role": "project-overview-svg"
+      },
+      {
+        "mediaType": "image/svg+xml",
+        "path": "render/project-composite.svg",
+        "role": "project-composite-svg"
+      },
+      {
+        "mediaType": "application/json",
+        "path": "render/resolved-project-scene.json",
+        "role": "resolved-project-scene"
+      },
+      {
+        "mediaType": "text/html",
+        "path": "render/workbench.html",
+        "role": "engineering-workbench"
+      }
+    ],
+    "projectNets": [
+      {
+        "id": "one",
+        "members": [
+          {
+            "port": "VCC",
+            "sheet": "bridge"
+          },
+          {
+            "port": "VCC",
+            "sheet": "sink-a"
+          }
+        ]
+      },
+      {
+        "id": "two",
+        "members": [
+          {
+            "port": "AUX",
+            "sheet": "bridge"
+          },
+          {
+            "port": "VCC",
+            "sheet": "sink-b"
+          }
+        ]
+      }
+    ],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-11",
+      "license": "CC0-1.0"
+    },
+    "renderPolicy": {
+      "backend": "svg",
+      "defaultVariantPolicy": "library-default",
+      "fontPolicy": "system-fallback",
+      "purpose": "primary-diagram",
+      "remoteAssets": "deny",
+      "unsupportedRequiredFeature": "reject"
+    },
+    "sheets": [
+      {
+        "id": "bridge",
+        "layout": {
+          "digest": "sha256:3cf408ef4b8fc0cedce979ad7d1a99d7a98eca81242fa7c6c04200f2b63a089b",
+          "id": "h015-local-net-project-net-equivalence-collision:bridge-layout",
+          "mediaType": "application/json",
+          "path": "layouts/bridge.aixlayout.json",
+          "version": "2.0"
+        },
+        "order": 10,
+        "source": {
+          "digest": "sha256:e94acf85e2b1b30d1659437329dda909084ea3389ae2fe5d936556bdf9e4af78",
+          "id": "h015-local-net-project-net-equivalence-collision:bridge",
+          "mediaType": "text/x-aixem",
+          "path": "circuits/bridge.aixem",
+          "version": "1.0"
+        },
+        "title": "Bridge"
+      },
+      {
+        "id": "sink-a",
+        "layout": {
+          "digest": "sha256:94f7b8df8f17917acbd3e5f9ae301925111508152f848695f8d4ca1b03b120a7",
+          "id": "h015-local-net-project-net-equivalence-collision:sink-a-layout",
+          "mediaType": "application/json",
+          "path": "layouts/sink-a.aixlayout.json",
+          "version": "2.0"
+        },
+        "order": 20,
+        "source": {
+          "digest": "sha256:254901993ef67ee02563e24213bf5479f66f4de36cf748b85b376ceeddbb8d22",
+          "id": "h015-local-net-project-net-equivalence-collision:sink-a",
+          "mediaType": "text/x-aixem",
+          "path": "circuits/sink-a.aixem",
+          "version": "1.0"
+        },
+        "title": "Sink A"
+      },
+      {
+        "id": "sink-b",
+        "layout": {
+          "digest": "sha256:8ad6b3b577b37fa21fb0462ad83661f9975437c85a58174381a83e681a4c0cd1",
+          "id": "h015-local-net-project-net-equivalence-collision:sink-b-layout",
+          "mediaType": "application/json",
+          "path": "layouts/sink-b.aixlayout.json",
+          "version": "2.0"
+        },
+        "order": 30,
+        "source": {
+          "digest": "sha256:b93e7a48d8e59fa845fe91d1495956a7c86e139ab5d8b7b55d16f11d7d243c98",
+          "id": "h015-local-net-project-net-equivalence-collision:sink-b",
+          "mediaType": "text/x-aixem",
+          "path": "circuits/sink-b.aixem",
+          "version": "1.0"
+        },
+        "title": "Sink B"
+      }
+    ],
+    "status": "example",
+    "title": "Local net project net equivalence collision"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/aixproj/2"
+}

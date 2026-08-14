@@ -1,0 +1,215 @@
+{
+  "cases": [
+    {
+      "deterministic": true,
+      "hashes": {
+        "project-composite.svg": "sha256:dde1dbe458e1975b7468e291613d2fe3c3fee90535de5fd90f0c535e5e1e0d9d",
+        "project-overview.svg": "sha256:80f59f7d6102b0161d013098ac20f654b724a8eb9fd04b6dab533b5f24a755c8",
+        "resolved-project-scene.json": "sha256:9b54a68bdff50a8b2d592232d3daad8c3f59c55f87bfad02115da5e744848277",
+        "sheets/control.resolved-scene.json": "sha256:72f2ee05ec7fe41e8c39f0e6f1e222dd8a00f44472cce3e0555855a6ad20227f",
+        "sheets/control.svg": "sha256:a0918633d1e0ea7e627832390ec75e8a7e747b40896ab06c652ec243c20d0ad4",
+        "sheets/power.resolved-scene.json": "sha256:894b17e698a6a25857b246459251d411b6bd21bb3cc8a37ac6638ebb1a8b6fa3",
+        "sheets/power.svg": "sha256:9798b23e865fe19de2fc4486a1ea0a99301e5d9be0850f6630c1abd0f0c087ff",
+        "viewer-model.json": "sha256:71531acf57504cf2d3376655d1d123fdc49a42da0c1ac002b83dc930e78de57f",
+        "viewer.html": "sha256:7fe4e242c87701594ff09bb7bab2c01c5d4116b88f287029baade5e9e0aeae2a",
+        "workbench.html": "sha256:609677871422fac9fdbe1ddc37ac646313aa5575e2af96d4af0a47c799218ba6"
+      },
+      "id": "H001"
+    },
+    {
+      "deterministic": true,
+      "hashes": {
+        "project-composite.svg": "sha256:e6de37ffe3561179d62416a8c056e0b412f104291025caa26adb0d5f5fb9a097",
+        "project-overview.svg": "sha256:daa46a31eaaed402e925b01c4e4f6d5eff332a002e0785bfcd54963a36a02fbf",
+        "resolved-project-scene.json": "sha256:360c980052f722d13fd6f8edc67a1b2adf6c38380550ff5b0488a2c937934116",
+        "sheets/sink.resolved-scene.json": "sha256:1b395531976b67fc0079edd0d2a31305fd3dc8708b965bf8fbee627728aebcdd",
+        "sheets/sink.svg": "sha256:d24b325eec530c29d4730554b0a5604047f80f506073a4eafcc07ade4ee8b6cd",
+        "sheets/source.resolved-scene.json": "sha256:b95bd8ac593f52b55c3973ecde3c82f629a7d212970dee5409d99d06bafab4c6",
+        "sheets/source.svg": "sha256:86d989cfbe253f7c484685607a9138bb43592fc3ebf967ae5e66d00d9a03ca81",
+        "viewer-model.json": "sha256:3ad55b1c52ab25595a99f2c075a78ab01d2c2933f396f9fe41e24111fab012e2",
+        "viewer.html": "sha256:ef31e508b41a1aa12698ae8876e021c8ae702f791cf1a1a399f240b871c56f4f",
+        "workbench.html": "sha256:e29ccf8abf243f5b35f12ce0c65a57d2c2453f3ff83a1ba688c3f1f8a1ce6aca"
+      },
+      "id": "H002"
+    },
+    {
+      "deterministic": true,
+      "hashes": {
+        "project-composite.svg": "sha256:1e82c6e29abc1e6ff66941584d096245f5a7ed96d40159d57387832e98028347",
+        "project-overview.svg": "sha256:8f03ad5826cac8653d43e388191c9193441776726cb255096d3e30c4b8c77214",
+        "resolved-project-scene.json": "sha256:457ea918e4e9d7219c6b10e4b4f6fe2400ac8d210a53fcf538d1b83eb874034f",
+        "sheets/control.resolved-scene.json": "sha256:c6769e8b9e0951ff4611708c12ccc40058b8caf20bb7acedb9fa0c7cbfb4a594",
+        "sheets/control.svg": "sha256:9d08783218d4c9bfb4ce9986c03415c53f0224a0f68775e0a0fc774e04e47566",
+        "sheets/io.resolved-scene.json": "sha256:1fc74d4d9ae42fb5f0cf7ab8985c8274f17abc70ea22cfa2aa687387d4e44857",
+        "sheets/io.svg": "sha256:563c0c7fa0406a9c27af352d885e7359635f60a52d2ce9c2382c7cf84ebe01d8",
+        "sheets/power.resolved-scene.json": "sha256:fa0dbf7cac103bf66e48613f75710ad8e5e1c2e2c70149c8b6d4d69b9114ece0",
+        "sheets/power.svg": "sha256:10f53eca8a5748ce7349534f0601f856c342dff03a833c4de8ff8602dce95979",
+        "viewer-model.json": "sha256:3bd24f11ed33c53da4fc9b26921878b8572d2df34915d1db99103faaf1a27199",
+        "viewer.html": "sha256:35d94c8dc7b38e70abe98889f186398846b6cb19d2018a8ad2320fdcec1cc3ef",
+        "workbench.html": "sha256:ef0f53deff8d79ca41a5953122664b60c325ddd38f59e9a463fa74db6ef57f16"
+      },
+      "id": "H003"
+    },
+    {
+      "deterministic": true,
+      "hashes": {
+        "project-composite.svg": "sha256:79cf9de5ee1d7b296b703b0f26200e95d75a34726acac291d299ebedd1f0028f",
+        "project-overview.svg": "sha256:3d838b10505fce31f1e4cac21d2a0c68666ff1d8312fe3959d7b511a051b43dd",
+        "resolved-project-scene.json": "sha256:c34430b967f448c4af4ad7b7d73037248db7b4095ac8c69e44db5a345f6bafae",
+        "sheets/alpha.resolved-scene.json": "sha256:bccade356c403b4909cc86aed5cacdfd60a69bd48bb81232b5e5aee62d7180d0",
+        "sheets/alpha.svg": "sha256:644ba4de4165de299f05ed9c55f22bfb63a8c7c467a45c8dc67ed67fc7a84355",
+        "sheets/beta.resolved-scene.json": "sha256:598cb5ded998d904b4f1fb2d9373c9e04a6eb38d93cc60a97ab0782c7ba6b8ce",
+        "sheets/beta.svg": "sha256:5dc567e8f19809cb3469bfd85e3b28ae94e7e347b5d98c6e1a213c524a79ef4c",
+        "viewer-model.json": "sha256:111c31543b1c74b724692156260315bff6453ad1ee91ff54f049bd1eba92536d",
+        "viewer.html": "sha256:b06f0f9b53e8a078e32aecf6820c7a164a0133be8a46bcd1a4f7087ae7f721d0",
+        "workbench.html": "sha256:ca1ae47933228b70836ceae64f5b59c829832aae4670e5445525bca04c299b92"
+      },
+      "id": "H004"
+    },
+    {
+      "deterministic": true,
+      "hashes": {
+        "project-composite.svg": "sha256:11ca76dd488cdf5d04740e516cf533d7d4f6bd206a90badd3282cfc7b6745b35",
+        "project-overview.svg": "sha256:943133a79e402c1eb86ceef59525acb0d3e2c4c61ea7c7e43c09845626f6a88e",
+        "resolved-project-scene.json": "sha256:25d872e18ab9cce82fd44e7255fe72f8686847e336c98bd0c93185e2e904f2f3",
+        "sheets/control.resolved-scene.json": "sha256:aabd94d143499a48a8d0c58400d067ab2796fe66261eeda51778fc5facee9817",
+        "sheets/control.svg": "sha256:71012e9e40ca591be2788ffb8e65c829deb17e2389e4c7a876071fe7479e9be1",
+        "sheets/debug.resolved-scene.json": "sha256:0eac561c69b11b97cc1eb880d5f93fec40f4c1ed84bf791347ee0a9708c039e3",
+        "sheets/debug.svg": "sha256:96b5d730e469054a26c313d16d6a5e9c5a2824a39d9b31fbfd3bcaac3ef16baf",
+        "sheets/system.resolved-scene.json": "sha256:e1e541765e1f9fa150896cf83ab90eeca9626c1ec4d292f975eeb48e526e7a7a",
+        "sheets/system.svg": "sha256:2aa9221c7dc01a6b0488c324194e1f021d8f496bbd4de39f3260afb740b9f85c",
+        "viewer-model.json": "sha256:1e32785e3cc9769156467ebd2813f520633b66e4bbeb7cdb5631af9995f51145",
+        "viewer.html": "sha256:6519185e87a276a7fb522b31a7fc92661e659b4171f0a184a52a54dab373f198",
+        "workbench.html": "sha256:3a6f86b7983006182f24681e29654ef443e086d65e477bf126d63dea5fd420a6"
+      },
+      "id": "H005"
+    },
+    {
+      "deterministic": true,
+      "hashes": {
+        "project-composite.svg": "sha256:e698656d7be0ff644a5ee773647df308057343ff71a027e4bbc4d5f6302357f6",
+        "project-overview.svg": "sha256:4218a98cbb3c845dd2ab9a5309e5962f9f551ff2fd5c38d72769f16bdd98e6ba",
+        "resolved-project-scene.json": "sha256:8c5ba599968b5bac2459325886cad99a25506a8b95c67563ee623cec70b6ebf6",
+        "sheets/driver.resolved-scene.json": "sha256:f47a95197ed586a649bf1d3bca6df819681871688eedc0bcdbe4c2129b82286e",
+        "sheets/driver.svg": "sha256:27ed36c81ba3eefe071d019c88ce72bfe3db709361f96cbaba18e1f7fb8791fc",
+        "sheets/receiver.resolved-scene.json": "sha256:6627c0fd890e69f9d55539e9c89b49b86391418711bac68f2ed8f459af87030e",
+        "sheets/receiver.svg": "sha256:ab379eed260050bef4d69cddbee7719686288e6ea088f8da66e61f25fac2dfb7",
+        "viewer-model.json": "sha256:51ae422087483dc1e9325e268de0c74981d1a6c9dd2e0e61169d78dac412f531",
+        "viewer.html": "sha256:77656ca37dd6d306c4201978e5aa3ddd0c6fdfea1ba09e854350c1115ff572a1",
+        "workbench.html": "sha256:81373ed5da1b4c6d5208081b0ad9248c594653d124a3c1fa25609375c044fe00"
+      },
+      "id": "H006"
+    },
+    {
+      "deterministic": true,
+      "hashes": {
+        "project-composite.svg": "sha256:ebe216f3cd425e42214bb1cad768525a990393c44d60d473a70841942df87d7f",
+        "project-overview.svg": "sha256:e54e37e14f71fcbcc412c394bcd9d0e58c7a1edf7bb84010e1d6a812b0b2b96b",
+        "resolved-project-scene.json": "sha256:e7b54f69edb3401334eadf1513ff9d701b6394aa3d96eef562e45f202cf0b288",
+        "sheets/control.resolved-scene.json": "sha256:51335604921d2146c38f707d6ff79b61615f71ea59068a8a250ea68503f1c94c",
+        "sheets/control.svg": "sha256:a95bb0d3a5e7db401dca5b9ec5f12416e1c82b3b4b89d0a450148df25cc5aeb0",
+        "sheets/power.resolved-scene.json": "sha256:76242db8bc8b51a864faa84fbb184ae79f53d6b20574426f1534f93716026ce0",
+        "sheets/power.svg": "sha256:6685c6308a7bf0ad3578d687a2489f74702b1114caab049f854e9b372e3cd0c3",
+        "viewer-model.json": "sha256:3a1884b58e915facad6c406fb2ce65029bff3f0b1ef3bf8b6abec4612643a53e",
+        "viewer.html": "sha256:5430ce6ec2c05ac3cb04fc26aa74b68fe2f477435a92918e39721b0b07f9f375",
+        "workbench.html": "sha256:0eb9491204026862d021dcd53ab8b1e12610eac0075e89588caec9df56f7f5a4"
+      },
+      "id": "H007"
+    },
+    {
+      "deterministic": true,
+      "hashes": {
+        "project-composite.svg": "sha256:f6528bebe4677cc917651184914ea930de1ae649ccefcc9d421716ab34bbc536",
+        "project-overview.svg": "sha256:4261b2742cd1aacba30a46c6b02a193205b56e4e7a8d6dc50e6658ba81923b1a",
+        "resolved-project-scene.json": "sha256:2484bec50f53d401b8668fe37c0f394a10d58e7d30eba8f4320e47d4acac80c8",
+        "sheets/control.resolved-scene.json": "sha256:ec50bbb6f76c44a5d19ae4efc82944e91ee8cb143c8e5e97cc2cd3bc32d967c3",
+        "sheets/control.svg": "sha256:e93a5cab769e8cc5b162edb65454abcfbf75be30d296eb2615090c2971bb44c2",
+        "sheets/power.resolved-scene.json": "sha256:49104f738747ad6ae2309f72a5f7ec7aa203297b4d79ec007a50071e72f0e620",
+        "sheets/power.svg": "sha256:bdcba84261d818be1251a88a4c5744447c9cc966d00d303c07fa9b56c70918ef",
+        "viewer-model.json": "sha256:09291207fc8b8776fad28f7445c3c69428220d20474733b4c42d7513d1fae449",
+        "viewer.html": "sha256:62c2d7ae5246fbc41de2f4cc060aa664706fdc549a3162ec7a2e41796062304d",
+        "workbench.html": "sha256:4dbc462e7998ae7b5a6727d42e7f1da1a81af06f08a0c38d6f29afc7a9481a72"
+      },
+      "id": "H008"
+    },
+    {
+      "deterministic": true,
+      "hashes": {
+        "project-composite.svg": "sha256:c3c6d06b2a4c6acc297a5b18577bf77cd104974e566ca4ca3816f8395c014832",
+        "project-overview.svg": "sha256:1c170ee0870778565102516f0831abc79a1f48b7c5834de0dbc50f009d8e998b",
+        "resolved-project-scene.json": "sha256:cd6472d56d9bcbdc86db0f82a4ec22c4aeeb208f1071281bf72085f37b1be873",
+        "sheets/control.resolved-scene.json": "sha256:495741a61badf576169f51bceb52584951848438859459120eb0d236d223d9ab",
+        "sheets/control.svg": "sha256:14349446024b2512a1290cec3f63bad9434669f27b4a0833f650abca3cc4e55e",
+        "sheets/power.resolved-scene.json": "sha256:91c34e0b7e90aab24921635a9f92fb7864cce58dc0a5581ff3aa52dc9203fb07",
+        "sheets/power.svg": "sha256:6a0eaaca4c8e4b6e0943ad4e682a29760b0db80a4dc94cc4fb420e170179477b",
+        "viewer-model.json": "sha256:c772b2b46682bd57aa10afb4d134dc3d32ec218178948214756545f74140247d",
+        "viewer.html": "sha256:6e7ec87f0ec9ea531cd8481d9c5419aa785379a287d703c930aebbefa68754ae",
+        "workbench.html": "sha256:45cf4ddd0ac06c9dec841eea332386696de91c5a6a9d9007ec50b545e9254154"
+      },
+      "id": "H011"
+    },
+    {
+      "deterministic": true,
+      "hashes": {
+        "drawing.svg": "sha256:f83eddc359ad3ea3713bbc1032ee66bbbb6fd14d55b82bc1e1deca7a2a3eba21",
+        "resolved-scene.json": "sha256:0f4a1ae8564a0a02829739f85a9b29d0138cb18efa86104d24f1c36b1ac66f2f",
+        "viewer-model.json": "sha256:06e2bb316f37519ae8d4abd15dc408af1fb816e3f4d27f6b3f95d9879c73f649",
+        "viewer.html": "sha256:cfda533e0e1bd4cb6f5b1c074dff8ff39c0c987d3342ed567f17acdedbaf66b9",
+        "workbench.html": "sha256:70543c21cba554b72278159e76d7d38d080271baeeb1448c7f5e2ea164f53e97"
+      },
+      "id": "H012"
+    },
+    {
+      "deterministic": true,
+      "hashes": {
+        "project-composite.svg": "sha256:038994878452b72016053bba8a0f94f4c30c0b6e5cdd4b1e50df4e74e4ef95ab",
+        "project-overview.svg": "sha256:17e81d0795792dffb6e21bed210c20df572b8afc6cac646e5eac669757f2fe9c",
+        "resolved-project-scene.json": "sha256:5de5aa6f1fe1572a8ae8f321a692150c4b9fc92bd130c2a31ddb67b6c1f5ba8a",
+        "sheets/sheet-01.resolved-scene.json": "sha256:946cc1311b56e2121b097db3ae54e4320e8bdede6921bb515e99b71ace1c7a9f",
+        "sheets/sheet-01.svg": "sha256:546c2d7857cb49a470ba8caa42b49e486161624ce533cdd3ff29f8aacc198441",
+        "sheets/sheet-02.resolved-scene.json": "sha256:aff29c1d9bc18449ff7459691ea81e9d0a75c0997104af377d30a9f4a9af965d",
+        "sheets/sheet-02.svg": "sha256:373f7a46e9d8b173735ced0681a822b2e9e0ffcd8013ebae9ae0c51911063a2b",
+        "sheets/sheet-03.resolved-scene.json": "sha256:aa5f8f391febdb1e5588d0e36058f7880d8ffe9452cc13e701b940b019047a85",
+        "sheets/sheet-03.svg": "sha256:b2c0a6b47d5b22f8de439f250c71728f5920376a764791abee0767d99807151f",
+        "sheets/sheet-04.resolved-scene.json": "sha256:06aedffaa267a56336e852a6f035ccd4261630404f28b5f8855ca751d7be0619",
+        "sheets/sheet-04.svg": "sha256:0d7e33a4d480ed686b891ede8315be02f163d53611228410d96a72b500d44f42",
+        "sheets/sheet-05.resolved-scene.json": "sha256:6112ef6a1392b814d9ace3fe726712929cdfdd3bf996a0d4f80dab5960b6bf02",
+        "sheets/sheet-05.svg": "sha256:e2158f59d4593f7257c14d937c423c9bfc69c37f7ba5c6dd5354c95946f4bde7",
+        "sheets/sheet-06.resolved-scene.json": "sha256:45112eabb99224c0a59c877bc6e32589d42d259a4944139e9c6d52fcecf3440e",
+        "sheets/sheet-06.svg": "sha256:e813422f1e1bd24f0334f6d59efd80f7c95a16b7a925e86df32212ffa35b142d",
+        "sheets/sheet-07.resolved-scene.json": "sha256:c80e10d3b3f70b88252cb2faca4482f1964ffc4862f9825360b4e99e5d77d3d6",
+        "sheets/sheet-07.svg": "sha256:65e87d01e9bddb48972d104ac9c609dae95d841a129ade60bb21cbaf500215f1",
+        "sheets/sheet-08.resolved-scene.json": "sha256:953fc50a5c31fe5f3713aeac9782d07a267d63aa74fdf93620f83604bd052724",
+        "sheets/sheet-08.svg": "sha256:97e739fd7d8e730dd5dd5460855c32b91523f0c7038d6ec3fe4e21911ab0f806",
+        "sheets/sheet-09.resolved-scene.json": "sha256:07963cb8115517674a6d15e056fface3496ce2577dd8cee3ce4274b90075aada",
+        "sheets/sheet-09.svg": "sha256:df8e3f4246e3d74f49a80bda0c2e0c9ce2fe4feceee41c68070b3a7cab86ae35",
+        "sheets/sheet-10.resolved-scene.json": "sha256:b6ecaef86d274d5ed022dd5fbf316435c446fe54f4ee64152169c5048b4dbb7b",
+        "sheets/sheet-10.svg": "sha256:cc787545d0203ec52c4bdb735d1719eb90b951988ff587a9d8c92bad58506cee",
+        "viewer-model.json": "sha256:28661cd49d13672fd3d86faa12989be5fcec469908467c7534f499b2b54576d3",
+        "viewer.html": "sha256:d423c93fdbe217b3fbe513ce3945d8b8a925a29c366bacef015dd50374111158",
+        "workbench.html": "sha256:014b325cec7e5511f587f45a3feccf52392124e469af84548db0adbecd4c8ed0"
+      },
+      "id": "H013"
+    },
+    {
+      "deterministic": true,
+      "hashes": {
+        "project-composite.svg": "sha256:10a319e62944d6a5d64b81da155a735f7025e131f83c0d82a73030aae1332759",
+        "project-overview.svg": "sha256:277868b128c08eaa48e3ce1a6acd7d3173558225385b9fa76c0ad861642f9e87",
+        "resolved-project-scene.json": "sha256:e076904607ccea7e2532f2ccbb6e0292f9c24750d09282240c841efbeec4c78c",
+        "sheets/left.resolved-scene.json": "sha256:e1424d780763dec248c6de6708c52ec0070d3d1302a67eebde091958b7ad3d4c",
+        "sheets/left.svg": "sha256:4ddd6a0ac5e5529a8f6de37f0aef4e246b2ab05d00d593017d9aa9524eb39ece",
+        "sheets/right.resolved-scene.json": "sha256:01a2df22ad51bb94019888dce743e8898c16d9b2d42c616ebd6c441e51e5271b",
+        "sheets/right.svg": "sha256:f6e392da329cc67f85a5e61a89353de9caffb5148ad80381e26ac652e3981d8e",
+        "viewer-model.json": "sha256:9bcf166d1cffd7ab56066a038ad8ae3fc27e62096c4fe528bc4067126fac2c1f",
+        "viewer.html": "sha256:941045a1114bc400a616265812cde0b69e8b10166b46050dc921e6a4a797044b",
+        "workbench.html": "sha256:e9bdb5e14672860f56f85bf31af64dfde65cc57e125e0af49b7ec8380d6794e3"
+      },
+      "id": "H014"
+    }
+  ],
+  "corpus": "hierarchical-project-1",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "repeatCount": 3,
+  "status": "pass"
+}

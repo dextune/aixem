@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.0",
+  "route": {
+    "aliases": [
+      "render review",
+      "render schematic",
+      "inspect drawing",
+      "visual qa",
+      "review svg"
+    ],
+    "budget": {
+      "fallbackDocuments": 2,
+      "maxBytes": 98304,
+      "maxDepth": 3,
+      "maxDocuments": 7
+    },
+    "conditionalReads": [],
+    "id": "render-review",
+    "intents": [
+      "render-review"
+    ],
+    "metadata": {
+      "exactRoutePreferred": true,
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "kind": "simple",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "source": "docs/_meta/routes/render-review.yaml"
+    },
+    "outputs": [
+      "drawing/project SVG",
+      "resolved scene or resolved project scene",
+      "viewer-model.json",
+      "viewer.html or workbench.html",
+      "project-validation.json",
+      "visual or browser review record"
+    ],
+    "steps": [
+      {
+        "exitCheck": "Renderer completes without a fail-closed diagnostic",
+        "id": "step-1",
+        "order": 1,
+        "produces": [],
+        "purpose": "Generate deterministic renderer evidence and identify the renderer/Viewer boundary.",
+        "read": [
+          "reference/cards/specifications/renderer/renderer-contract.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Resolved evidence and Viewer Model are inspected",
+        "id": "step-2",
+        "order": 2,
+        "produces": [],
+        "purpose": "Classify Viewer interaction and Workbench profile defects without altering circuit authority.",
+        "read": [
+          "reference/cards/specifications/viewer/reference-viewer-contract.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Defect is classified as drawing, Viewer interaction, Workbench evidence, or semantic authority",
+        "id": "step-3",
+        "order": 3,
+        "produces": [],
+        "purpose": "Execute the evidence-backed visual QA and local repair loop.",
+        "read": [
+          "reference/cards/agent/visual-qa-loop.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Every defect is assigned to one authority owner",
+        "id": "step-4",
+        "order": 4,
+        "produces": [],
+        "purpose": "Separate schematic drawing presentation from Viewer application chrome.",
+        "read": [
+          "reference/cards/specifications/schematic/visual-profile.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Affected SVG/Viewer output is visually and behaviorally reviewed",
+        "id": "step-5",
+        "order": 5,
+        "produces": [],
+        "purpose": "Review measurable symbol rules when the defect belongs to symbol geometry.",
+        "read": [
+          "reference/cards/specifications/symbols/symbol-design-profile.aixcard.json"
+        ],
+        "required": false,
+        "when": "The defect is inside a symbol or its fields."
+      },
+      {
+        "exitCheck": "Rerender is deterministic after repair",
+        "id": "step-6",
+        "order": 6,
+        "produces": [],
+        "purpose": "Select browser behavior and evidence gates for Viewer or Workbench defects.",
+        "read": [
+          "reference/cards/conformance/reference-viewer.aixcard.json"
+        ],
+        "required": false,
+        "when": "Viewer or Workbench behavior is affected."
+      },
+      {
+        "exitCheck": "Rerender is deterministic after repair",
+        "id": "step-7",
+        "order": 7,
+        "produces": [],
+        "purpose": "Interpret validation diagnostics and evidence ownership.",
+        "read": [
+          "reference/cards/conformance/validation.aixcard.json"
+        ],
+        "required": true
+      }
+    ],
+    "stopConditions": [
+      "Renderer completes without a fail-closed diagnostic",
+      "Resolved evidence and Viewer Model are inspected",
+      "Defect is classified as drawing, Viewer interaction, Workbench evidence, or semantic authority",
+      "Every defect is assigned to one authority owner",
+      "Affected SVG/Viewer output is visually and behaviorally reviewed",
+      "Rerender is deterministic after repair"
+    ],
+    "title": "Render locked sources, inspect resolved evidence, classify drawing, Viewer, Workbench, or semantic defects, and repair the owning layer",
+    "validators": [
+      "schematic.renderer_contract",
+      "schematic.authoring_examples",
+      "agent.visual_qa",
+      "manual.symbol_visual_review",
+      "schematic.reference_viewer",
+      "agent.diagnostics",
+      "agent.change_scope"
+    ]
+  },
+  "schema": "https://schemas.aixem.org/reference/aixroute/1"
+}

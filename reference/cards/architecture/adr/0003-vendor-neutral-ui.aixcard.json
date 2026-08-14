@@ -1,0 +1,55 @@
+{
+  "card": {
+    "aliases": [
+      "vendor neutral UI ADR",
+      "independent CAD UI",
+      "ADR 0003"
+    ],
+    "appliesTo": [
+      "architecture-decision"
+    ],
+    "domain": "architecture",
+    "estimatedReadBytes": 4800,
+    "id": "AIXEM-ARCH-ADR-0003",
+    "inputs": [],
+    "keywords": [
+      "ADR 0003",
+      "ADR-0003: Vendor-Neutral Engineering Surfaces",
+      "change-architecture",
+      "independent CAD UI",
+      "inspect-artifact",
+      "vendor neutral UI ADR"
+    ],
+    "kind": "adr",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/architecture/adr/0003-vendor-neutral-ui.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:62e312ad7a78bc6557752c32598b3789d09460e1f9ffc82a9121ddb9426059d1"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 900,
+    "readNext": [
+      "AIXEM-SCHEM-VISUAL-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-ARCH-ADR-0003.read",
+        "level": "should",
+        "text": "Records the decision to use conventional engineering inspection patterns with original AIXEM assets while separating the read-only Viewer, Review Workbench, and any future Editor."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-ARCH-ADR-0003",
+        "path": "docs/architecture/adr/0003-vendor-neutral-ui.md"
+      }
+    ],
+    "summary": "Records the decision to use conventional engineering inspection patterns with original AIXEM assets while separating the read-only Viewer, Review Workbench, and any future Editor.",
+    "title": "ADR-0003: Vendor-Neutral Engineering Surfaces"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

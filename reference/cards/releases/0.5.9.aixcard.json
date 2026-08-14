@@ -1,0 +1,59 @@
+{
+  "card": {
+    "aliases": [
+      "0.5.9 release",
+      "integrated authoring hardening release",
+      "library and pin semantics release"
+    ],
+    "appliesTo": [
+      "release-notes"
+    ],
+    "domain": "releases",
+    "estimatedReadBytes": 5793,
+    "id": "AIXEM-RELEASE-059-001",
+    "inputs": [],
+    "keywords": [
+      "0.5.9 release",
+      "AIXEM 0.5.9 Integrated Authoring, Library, Pin Semantics, and Placement Hardening",
+      "create-schematic",
+      "create-symbol",
+      "integrated authoring hardening release",
+      "library and pin semantics release",
+      "publish-release",
+      "validate-project"
+    ],
+    "kind": "release-note",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/releases/0.5.9.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:d0557b5b897e93b780e0c186c875be8405aae0f1488f743a14cb3a98fdd931a2"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 900,
+    "readNext": [
+      "AIXEM-RELEASE-0581-001",
+      "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+      "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-RELEASE-059-001.read",
+        "level": "should",
+        "text": "Establishes canonical reusable-library authoring, source-or-placeholder part integrity, pin semantics, bounded electrical compatibility, deterministic placement assistance, and task-oriented Agent guidance."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-RELEASE-059-001",
+        "path": "docs/releases/0.5.9.md"
+      }
+    ],
+    "summary": "Establishes canonical reusable-library authoring, source-or-placeholder part integrity, pin semantics, bounded electrical compatibility, deterministic placement assistance, and task-oriented Agent guidance.",
+    "title": "AIXEM 0.5.9 Integrated Authoring, Library, Pin Semantics, and Placement Hardening"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

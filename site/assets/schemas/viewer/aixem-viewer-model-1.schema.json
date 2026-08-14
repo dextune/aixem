@@ -1,0 +1,186 @@
+{
+  "$id": "https://schemas.aixem.org/viewer/viewer-model/1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AIXEM Viewer Model 1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema", "formatVersion", "viewerContract", "domContract", "release",
+    "project", "capabilities", "initialState", "views", "hierarchy", "sheets",
+    "objects", "searchIndex", "diagnostics", "statistics", "provenance"
+  ],
+  "properties": {
+    "schema": {"const": "https://schemas.aixem.org/viewer/viewer-model/1"},
+    "formatVersion": {"const": "1.0"},
+    "viewerContract": {"const": "aixem.reference-viewer@1"},
+    "domContract": {"const": "1"},
+    "release": {"type": "string", "minLength": 3},
+    "project": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "title", "schema", "profile", "multiSheet"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "title": {"type": "string"},
+        "schema": {"type": "string", "minLength": 1},
+        "profile": {"type": "string", "minLength": 1},
+        "multiSheet": {"type": "boolean"}
+      }
+    },
+    "capabilities": {
+      "type": "object", "additionalProperties": false,
+      "required": ["sheet", "overview", "composite", "hierarchy", "projectNets", "interfacePorts", "diagnostics", "qualifiedSearch", "sheetScopedLayers", "viewport", "readOnly", "offline"],
+      "properties": {
+        "sheet": {"type": "boolean"}, "overview": {"type": "boolean"}, "composite": {"type": "boolean"},
+        "hierarchy": {"type": "boolean"}, "projectNets": {"type": "boolean"}, "interfacePorts": {"type": "boolean"},
+        "diagnostics": {"type": "boolean"}, "qualifiedSearch": {"type": "boolean"}, "sheetScopedLayers": {"type": "boolean"},
+        "viewport": {"type": "boolean"}, "readOnly": {"const": true}, "offline": {"const": true}
+      }
+    },
+    "initialState": {
+      "type": "object", "additionalProperties": false,
+      "required": ["mode", "activeSheet", "selection", "searchQuery", "activeNavigatorCategory", "visibleLayersBySheet"],
+      "properties": {
+        "mode": {"enum": ["sheet", "overview", "composite"]},
+        "activeSheet": {"type": "string", "minLength": 1},
+        "selection": {"type": ["string", "null"]},
+        "searchQuery": {"type": "string"},
+        "activeNavigatorCategory": {"enum": ["sheet", "entity", "local-net", "interface", "project-net"]},
+        "visibleLayersBySheet": {
+          "type": "object", "additionalProperties": {
+            "type": "object", "additionalProperties": {"type": "boolean"}
+          }
+        }
+      }
+    },
+    "views": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["id", "label", "available", "canvases"],
+        "properties": {
+          "id": {"enum": ["sheet", "overview", "composite"]},
+          "label": {"type": "string", "minLength": 1},
+          "available": {"const": true},
+          "canvases": {
+            "type": "array", "minItems": 1,
+            "items": {
+              "type": "object", "additionalProperties": false,
+              "required": ["key", "sheet", "width", "height", "unit"],
+              "properties": {
+                "key": {"type": "string", "minLength": 1},
+                "sheet": {"type": ["string", "null"]},
+                "width": {"type": "number", "exclusiveMinimum": 0},
+                "height": {"type": "number", "exclusiveMinimum": 0},
+                "unit": {"type": "string", "minLength": 1}
+              }
+            }
+          }
+        }
+      }
+    },
+    "hierarchy": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["qid", "id", "title", "parent", "children", "depth", "order"],
+        "properties": {
+          "qid": {"type": "string", "pattern": "^sheet:"},
+          "id": {"type": "string", "minLength": 1},
+          "title": {"type": "string"},
+          "parent": {"type": ["string", "null"]},
+          "children": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          "depth": {"type": "integer", "minimum": 0},
+          "order": {"type": "integer"}
+        }
+      }
+    },
+    "sheets": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["qid", "id", "title", "parent", "order", "width", "height", "unit", "layers"],
+        "properties": {
+          "qid": {"type": "string", "pattern": "^sheet:"},
+          "id": {"type": "string", "minLength": 1},
+          "title": {"type": "string"},
+          "parent": {"type": ["string", "null"]},
+          "order": {"type": "integer"},
+          "width": {"type": "number", "exclusiveMinimum": 0},
+          "height": {"type": "number", "exclusiveMinimum": 0},
+          "unit": {"type": "string", "minLength": 1},
+          "layers": {
+            "type": "array",
+            "items": {
+              "type": "object", "additionalProperties": false,
+              "required": ["id", "sheet", "qualifiedId", "purpose", "order", "defaultVisible", "locked", "printable"],
+              "properties": {
+                "id": {"type": "string", "minLength": 1},
+                "sheet": {"type": "string", "minLength": 1},
+                "qualifiedId": {"type": "string", "pattern": "^layer:"},
+                "purpose": {"type": "string"},
+                "order": {"type": "integer"},
+                "defaultVisible": {"type": "boolean"},
+                "locked": {"type": "boolean"},
+                "printable": {"type": "boolean"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "objects": {
+      "type": "object", "minProperties": 1,
+      "additionalProperties": {
+        "type": "object", "additionalProperties": false,
+        "required": ["qid", "kind", "category", "label", "nativeId", "sheet", "searchText", "properties", "relatedQids", "representations"],
+        "properties": {
+          "qid": {"type": "string", "minLength": 3},
+          "kind": {"enum": ["sheet", "entity", "local-net", "interface", "project-net"]},
+          "category": {"enum": ["Sheets", "Components", "Local Nets", "Interface Ports", "Project Nets"]},
+          "label": {"type": "string"},
+          "nativeId": {"type": "string"},
+          "sheet": {"type": ["string", "null"]},
+          "searchText": {"type": "string"},
+          "properties": {
+            "type": "array",
+            "items": {
+              "type": "object", "additionalProperties": false,
+              "required": ["label", "value"],
+              "properties": {"label": {"type": "string"}, "value": {"type": "string"}}
+            }
+          },
+          "relatedQids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          "representations": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    },
+    "searchIndex": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["qid", "kind", "category", "label", "sheet", "searchText"],
+        "properties": {
+          "qid": {"type": "string"},
+          "kind": {"enum": ["sheet", "entity", "local-net", "interface", "project-net"]},
+          "category": {"type": "string"},
+          "label": {"type": "string"},
+          "sheet": {"type": ["string", "null"]},
+          "searchText": {"type": "string"}
+        }
+      }
+    },
+    "diagnostics": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["code", "severity", "status", "message"],
+        "properties": {
+          "code": {"type": "string"}, "severity": {"enum": ["info", "warning", "error"]},
+          "status": {"enum": ["PASS", "FAIL"]}, "message": {"type": "string"}
+        }
+      }
+    },
+    "statistics": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+    "provenance": {"type": "object"}
+  }
+}

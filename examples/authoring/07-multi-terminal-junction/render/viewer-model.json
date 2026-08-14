@@ -1,0 +1,705 @@
+{
+  "capabilities": {
+    "composite": false,
+    "diagnostics": true,
+    "hierarchy": false,
+    "interfacePorts": false,
+    "offline": true,
+    "overview": false,
+    "projectNets": false,
+    "qualifiedSearch": true,
+    "readOnly": true,
+    "sheet": true,
+    "sheetScopedLayers": true,
+    "viewport": true
+  },
+  "diagnostics": [
+    {
+      "code": "VIEWER-READONLY-001",
+      "message": "Reference Viewer runtime state is derived and read-only.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-QID-001",
+      "message": "8 qualified objects indexed without ambiguity.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-ASSET-001",
+      "message": "The self-contained Viewer requires no remote presentation assets.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "GRID-001",
+      "message": "5/5 placements satisfy the declared snap grid.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "ROUTE-001",
+      "message": "5 orthogonal route segments are resolved.",
+      "severity": "info",
+      "status": "PASS"
+    }
+  ],
+  "domContract": "1",
+  "formatVersion": "1.0",
+  "hierarchy": [
+    {
+      "children": [],
+      "depth": 0,
+      "id": "main",
+      "order": 0,
+      "parent": null,
+      "qid": "sheet:main",
+      "title": "Multi-terminal Junction"
+    }
+  ],
+  "initialState": {
+    "activeNavigatorCategory": "entity",
+    "activeSheet": "main",
+    "mode": "sheet",
+    "searchQuery": "",
+    "selection": null,
+    "visibleLayersBySheet": {
+      "main": {
+        "annotation": true,
+        "connections": true,
+        "symbols": true
+      }
+    }
+  },
+  "objects": {
+    "entity:main:T1": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "T1 · T1",
+      "nativeId": "T1",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:main:T1"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Entity ID",
+          "value": "T1"
+        },
+        {
+          "label": "Reference",
+          "value": "T1"
+        },
+        {
+          "label": "Value",
+          "value": "T1"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:terminal"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:terminal"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"T1\",\"layer\":\"symbols\",\"x\":25,\"y\":50}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[25.0,50.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:c4f12f18862f6a2b41eab5de806d215bff64db45e0ef30d7b35dc3b6374d2eec"
+        }
+      ],
+      "qid": "entity:main:T1",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "entity:main:t1 t1 · t1 t1 main t1 t1 authoring:terminal authoring:terminal",
+      "sheet": "main"
+    },
+    "entity:main:T2": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "T2 · T2",
+      "nativeId": "T2",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:main:T2"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Entity ID",
+          "value": "T2"
+        },
+        {
+          "label": "Reference",
+          "value": "T2"
+        },
+        {
+          "label": "Value",
+          "value": "T2"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:terminal"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:terminal"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"T2\",\"layer\":\"symbols\",\"x\":85,\"y\":25}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[85.0,25.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:c4f12f18862f6a2b41eab5de806d215bff64db45e0ef30d7b35dc3b6374d2eec"
+        }
+      ],
+      "qid": "entity:main:T2",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "entity:main:t2 t2 · t2 t2 main t2 t2 authoring:terminal authoring:terminal",
+      "sheet": "main"
+    },
+    "entity:main:T3": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "T3 · T3",
+      "nativeId": "T3",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:main:T3"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Entity ID",
+          "value": "T3"
+        },
+        {
+          "label": "Reference",
+          "value": "T3"
+        },
+        {
+          "label": "Value",
+          "value": "T3"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:terminal"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:terminal"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"T3\",\"layer\":\"symbols\",\"x\":115,\"y\":50}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[115.0,50.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:c4f12f18862f6a2b41eab5de806d215bff64db45e0ef30d7b35dc3b6374d2eec"
+        }
+      ],
+      "qid": "entity:main:T3",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "entity:main:t3 t3 · t3 t3 main t3 t3 authoring:terminal authoring:terminal",
+      "sheet": "main"
+    },
+    "entity:main:T4": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "T4 · T4",
+      "nativeId": "T4",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:main:T4"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Entity ID",
+          "value": "T4"
+        },
+        {
+          "label": "Reference",
+          "value": "T4"
+        },
+        {
+          "label": "Value",
+          "value": "T4"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:terminal"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:terminal"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"T4\",\"layer\":\"symbols\",\"x\":85,\"y\":35}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[85.0,35.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:c4f12f18862f6a2b41eab5de806d215bff64db45e0ef30d7b35dc3b6374d2eec"
+        }
+      ],
+      "qid": "entity:main:T4",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "entity:main:t4 t4 · t4 t4 main t4 t4 authoring:terminal authoring:terminal",
+      "sheet": "main"
+    },
+    "entity:main:T5": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "T5 · T5",
+      "nativeId": "T5",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:main:T5"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Entity ID",
+          "value": "T5"
+        },
+        {
+          "label": "Reference",
+          "value": "T5"
+        },
+        {
+          "label": "Value",
+          "value": "T5"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:terminal"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:terminal"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"T5\",\"layer\":\"symbols\",\"x\":85,\"y\":65}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[85.0,65.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:c4f12f18862f6a2b41eab5de806d215bff64db45e0ef30d7b35dc3b6374d2eec"
+        }
+      ],
+      "qid": "entity:main:T5",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "entity:main:t5 t5 · t5 t5 main t5 t5 authoring:terminal authoring:terminal",
+      "sheet": "main"
+    },
+    "local-net:main:bus": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "bus",
+      "nativeId": "bus",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:main:bus"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Local net ID",
+          "value": "bus"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "3"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"T1.1\",\"T2.1\",\"T3.1\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "3"
+        },
+        {
+          "label": "Junction count",
+          "value": "1"
+        },
+        {
+          "label": "Related project net",
+          "value": "none"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:main:bus",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "local-net:main:bus bus bus main [\"t1.1\",\"t2.1\",\"t3.1\"]",
+      "sheet": "main"
+    },
+    "local-net:main:cross": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "cross",
+      "nativeId": "cross",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:main:cross"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Local net ID",
+          "value": "cross"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"T4.1\",\"T5.1\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "none"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:main:cross",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "local-net:main:cross cross cross main [\"t4.1\",\"t5.1\"]",
+      "sheet": "main"
+    },
+    "sheet:main": {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Multi-terminal Junction",
+      "nativeId": "main",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "sheet:main"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Title",
+          "value": "Multi-terminal Junction"
+        },
+        {
+          "label": "Width",
+          "value": "160"
+        },
+        {
+          "label": "Height",
+          "value": "100"
+        },
+        {
+          "label": "Unit",
+          "value": "mm"
+        }
+      ],
+      "qid": "sheet:main",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "sheet:main multi-terminal junction main main authoring:multi_terminal_junction multi-terminal junction",
+      "sheet": "main"
+    }
+  },
+  "project": {
+    "id": "authoring:multi_terminal_junction",
+    "multiSheet": false,
+    "profile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "schema": "https://schemas.aixem.org/component-graphics/aixproj/1",
+    "title": "Multi-terminal Junction"
+  },
+  "provenance": {
+    "authority": {
+      "presentation": ".aixlayout",
+      "semantics": ".aixem",
+      "viewerState": "derived-non-authoritative"
+    },
+    "generatedAt": "2026-08-10T00:00:00Z",
+    "hashes": {
+      "layout": "sha256:58068a596012f6c48d2408d22d84c6d8f84cab5fd47c71733a1749222c845097",
+      "libraries": [
+        "sha256:55792cfe6ba61376d49d610d57dbaca5e2da21f6f426ae499cbda26b5b1c5003"
+      ],
+      "source": "sha256:07877d26ea06c7a6b95f22540983d73f40f3a98aed0fffe726e473e395f32232",
+      "symbolAssets": [
+        "sha256:c4f12f18862f6a2b41eab5de806d215bff64db45e0ef30d7b35dc3b6374d2eec"
+      ]
+    },
+    "renderer": {
+      "id": "aixem-grid-schematic-reference-renderer",
+      "version": "0.5.1"
+    },
+    "resolvedSceneSchema": "https://schemas.aixem.org/component-graphics/resolved-scene/1",
+    "styleProfile": {
+      "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+      "id": "aixem.schematic.grid-light",
+      "path": "aixem-grid-schematic-style-1.aixstyle.json"
+    }
+  },
+  "release": "AIXEM-SRP-0.5.5-2026-08-11",
+  "schema": "https://schemas.aixem.org/viewer/viewer-model/1",
+  "searchIndex": [
+    {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Multi-terminal Junction",
+      "qid": "sheet:main",
+      "searchText": "sheet:main multi-terminal junction main main authoring:multi_terminal_junction multi-terminal junction",
+      "sheet": "main"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "T1 · T1",
+      "qid": "entity:main:T1",
+      "searchText": "entity:main:t1 t1 · t1 t1 main t1 t1 authoring:terminal authoring:terminal",
+      "sheet": "main"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "T2 · T2",
+      "qid": "entity:main:T2",
+      "searchText": "entity:main:t2 t2 · t2 t2 main t2 t2 authoring:terminal authoring:terminal",
+      "sheet": "main"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "T3 · T3",
+      "qid": "entity:main:T3",
+      "searchText": "entity:main:t3 t3 · t3 t3 main t3 t3 authoring:terminal authoring:terminal",
+      "sheet": "main"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "T4 · T4",
+      "qid": "entity:main:T4",
+      "searchText": "entity:main:t4 t4 · t4 t4 main t4 t4 authoring:terminal authoring:terminal",
+      "sheet": "main"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "T5 · T5",
+      "qid": "entity:main:T5",
+      "searchText": "entity:main:t5 t5 · t5 t5 main t5 t5 authoring:terminal authoring:terminal",
+      "sheet": "main"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "bus",
+      "qid": "local-net:main:bus",
+      "searchText": "local-net:main:bus bus bus main [\"t1.1\",\"t2.1\",\"t3.1\"]",
+      "sheet": "main"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "cross",
+      "qid": "local-net:main:cross",
+      "searchText": "local-net:main:cross cross cross main [\"t4.1\",\"t5.1\"]",
+      "sheet": "main"
+    }
+  ],
+  "sheets": [
+    {
+      "height": 100.0,
+      "id": "main",
+      "layers": [
+        {
+          "defaultVisible": true,
+          "id": "connections",
+          "locked": false,
+          "order": 10,
+          "printable": true,
+          "purpose": "semantic net routes",
+          "qualifiedId": "layer:main:connections",
+          "sheet": "main"
+        },
+        {
+          "defaultVisible": true,
+          "id": "symbols",
+          "locked": false,
+          "order": 20,
+          "printable": true,
+          "purpose": "component symbols",
+          "qualifiedId": "layer:main:symbols",
+          "sheet": "main"
+        },
+        {
+          "defaultVisible": true,
+          "id": "annotation",
+          "locked": false,
+          "order": 30,
+          "printable": true,
+          "purpose": "notes",
+          "qualifiedId": "layer:main:annotation",
+          "sheet": "main"
+        }
+      ],
+      "order": 0,
+      "parent": null,
+      "qid": "sheet:main",
+      "title": "Multi-terminal Junction",
+      "unit": "mm",
+      "width": 160.0
+    }
+  ],
+  "statistics": {
+    "entities": 5,
+    "interfacePorts": 0,
+    "localNets": 2,
+    "projectNets": 0,
+    "qualifiedObjects": 8,
+    "sheets": 1
+  },
+  "viewerContract": "aixem.reference-viewer@1",
+  "views": [
+    {
+      "available": true,
+      "canvases": [
+        {
+          "height": 100.0,
+          "key": "sheet:main",
+          "sheet": "main",
+          "unit": "mm",
+          "width": 160.0
+        }
+      ],
+      "id": "sheet",
+      "label": "Sheet"
+    }
+  ]
+}

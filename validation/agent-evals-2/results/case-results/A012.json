@@ -1,0 +1,28 @@
+{
+  "entryRoute": "create-symbol",
+  "executionMode": "deterministic-harness-replay",
+  "expectedInitialDiagnostics": [
+    "AIXEM-DIAG-SYMBOL-FIELD-BODY-OVERLAP"
+  ],
+  "id": "A012",
+  "iterations": 1,
+  "liveExternalAgentExecuted": false,
+  "missingExpectedDiagnostics": [],
+  "mutation": "field-body-overlap",
+  "observedInitialDiagnostics": [
+    "AIXEM-DIAG-SYMBOL-FIELD-BODY-OVERLAP"
+  ],
+  "passConditions": {
+    "checkPassedAfterRepair": true,
+    "closePassed": true,
+    "expectedInitialDiagnosticsObserved": true,
+    "liveClaimFalse": true,
+    "renderDeterministic": true,
+    "zeroGeneratedOutputEdits": true,
+    "zeroScopeViolations": true
+  },
+  "recordDigest": "sha256:aa4d2a984584ebd7e3c81d12a3814fe8fa629fbf2a7192e3fa366fcfa44af770",
+  "retainedRunRecord": "runs/A012-authoring-run-record.json",
+  "status": "pass",
+  "title": "Field and body overlap"
+}

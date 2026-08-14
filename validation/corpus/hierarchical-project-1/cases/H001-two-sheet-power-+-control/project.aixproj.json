@@ -1,0 +1,152 @@
+{
+  "formatVersion": "2.0",
+  "project": {
+    "applicationProfile": "aixem.schematic.multisheet@1",
+    "description": "Hierarchical conformance case H001: Two sheet power + control",
+    "features": [
+      "component.graphics@1",
+      "explicit.layout@2",
+      "hierarchical.interface@1",
+      "project-net@1",
+      "deterministic-project-routing@1"
+    ],
+    "id": "hierarchical:h001",
+    "libraries": [
+      {
+        "digest": "sha256:d6f65cd2d99d51e7a0eeb9ca230ea2207936a84e90bcbe65e7bc3561d393f9b6",
+        "id": "hierarchical:reference-library",
+        "mediaType": "application/vnd.aixem.library+json",
+        "path": "libraries/authoring.aixlib.json",
+        "version": "1.0.0"
+      }
+    ],
+    "metadata": {
+      "case": "H001",
+      "corpus": "hierarchical-project-1",
+      "geometryCreatesConnectivity": false,
+      "layersAreSheets": false
+    },
+    "outputs": [
+      {
+        "mediaType": "image/svg+xml",
+        "path": "render/project-overview.svg",
+        "role": "project-overview-svg"
+      },
+      {
+        "mediaType": "image/svg+xml",
+        "path": "render/project-composite.svg",
+        "role": "project-composite-svg"
+      },
+      {
+        "mediaType": "application/json",
+        "path": "render/resolved-project-scene.json",
+        "role": "resolved-project-scene"
+      },
+      {
+        "mediaType": "text/html",
+        "path": "render/workbench.html",
+        "role": "engineering-workbench"
+      }
+    ],
+    "projectNets": [
+      {
+        "id": "vcc_5v",
+        "members": [
+          {
+            "port": "VCC",
+            "sheet": "power"
+          },
+          {
+            "port": "VCC",
+            "sheet": "control"
+          }
+        ],
+        "role": "power"
+      },
+      {
+        "id": "gnd",
+        "members": [
+          {
+            "port": "GND",
+            "sheet": "power"
+          },
+          {
+            "port": "GND",
+            "sheet": "control"
+          }
+        ],
+        "role": "power"
+      },
+      {
+        "id": "control_signal",
+        "members": [
+          {
+            "port": "OUT",
+            "sheet": "power"
+          },
+          {
+            "port": "IN",
+            "sheet": "control"
+          }
+        ],
+        "role": "signal"
+      }
+    ],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-11",
+      "license": "CC0-1.0"
+    },
+    "renderPolicy": {
+      "backend": "svg",
+      "defaultVariantPolicy": "library-default",
+      "fontPolicy": "system-fallback",
+      "purpose": "primary-diagram",
+      "remoteAssets": "deny",
+      "unsupportedRequiredFeature": "reject"
+    },
+    "sheets": [
+      {
+        "id": "power",
+        "layout": {
+          "digest": "sha256:a6704f186330a60eb0d541b0adf03c6f8ca2530619907084e6b3e176944b47f8",
+          "id": "h001-two-sheet-power-control:power-layout",
+          "mediaType": "application/json",
+          "path": "layouts/power.aixlayout.json",
+          "version": "2.0"
+        },
+        "order": 10,
+        "source": {
+          "digest": "sha256:f295c02b5a77db52e290715ec1295130eb10ed12c627094088dd803eb9c2c8d2",
+          "id": "h001-two-sheet-power-control:power",
+          "mediaType": "text/x-aixem",
+          "path": "circuits/power.aixem",
+          "version": "1.0"
+        },
+        "title": "Power"
+      },
+      {
+        "id": "control",
+        "layout": {
+          "digest": "sha256:0933a8274583c59ddf17f7f0e23a6365f4241c124ecd917dd611423e14c310a5",
+          "id": "h001-two-sheet-power-control:control-layout",
+          "mediaType": "application/json",
+          "path": "layouts/control.aixlayout.json",
+          "version": "2.0"
+        },
+        "order": 20,
+        "source": {
+          "digest": "sha256:707e73ad22d5fd61744153589d24fc79f482866a6c40c67d75bf6ca50ebbe19a",
+          "id": "h001-two-sheet-power-control:control",
+          "mediaType": "text/x-aixem",
+          "path": "circuits/control.aixem",
+          "version": "1.0"
+        },
+        "title": "Control"
+      }
+    ],
+    "status": "example",
+    "title": "Two sheet power + control"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/aixproj/2"
+}

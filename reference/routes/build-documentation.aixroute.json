@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.0",
+  "route": {
+    "aliases": [
+      "build documentation",
+      "compile docs",
+      "generate site",
+      "build reference index",
+      "documentation compiler"
+    ],
+    "budget": {
+      "fallbackDocuments": 2,
+      "maxBytes": 98304,
+      "maxDepth": 3,
+      "maxDocuments": 7
+    },
+    "conditionalReads": [],
+    "id": "build-documentation",
+    "intents": [
+      "build-documentation"
+    ],
+    "metadata": {
+      "exactRoutePreferred": true,
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "kind": "simple",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "source": "docs/_meta/routes/build-documentation.yaml"
+    },
+    "outputs": [
+      "Canonical validation passes",
+      "All generated indexes are fresh",
+      "Static site links resolve",
+      "Compatibility reference output is current"
+    ],
+    "steps": [
+      {
+        "exitCheck": "Canonical validation passes",
+        "id": "step-1",
+        "order": 1,
+        "produces": [],
+        "purpose": "Read Canonical Document Model for this task stage.",
+        "read": [
+          "reference/cards/specifications/core/document-model.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "All generated indexes are fresh",
+        "id": "step-2",
+        "order": 2,
+        "produces": [],
+        "purpose": "Read Documentation Metadata Contract 1 for this task stage.",
+        "read": [
+          "reference/cards/specifications/documentation/metadata-contract.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Static site links resolve",
+        "id": "step-3",
+        "order": 3,
+        "produces": [],
+        "purpose": "Read Task Routes for this task stage.",
+        "read": [
+          "reference/cards/agent/task-routing.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Compatibility reference output is current",
+        "id": "step-4",
+        "order": 4,
+        "produces": [],
+        "purpose": "Read Build and Authoring Pipeline for this task stage.",
+        "read": [
+          "reference/cards/architecture/pipeline.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Compatibility reference output is current",
+        "id": "step-5",
+        "order": 5,
+        "produces": [],
+        "purpose": "Read Documentation Release Integrity 1 for this task stage.",
+        "read": [
+          "reference/cards/specifications/documentation/release-integrity.aixcard.json"
+        ],
+        "required": true
+      }
+    ],
+    "stopConditions": [
+      "Canonical validation passes",
+      "All generated indexes are fresh",
+      "Static site links resolve",
+      "Compatibility reference output is current"
+    ],
+    "title": "Build documentation and agent indexes",
+    "validators": [
+      "docs.metadata",
+      "docs.links",
+      "docs.generated_freshness",
+      "docs.site"
+    ]
+  },
+  "schema": "https://schemas.aixem.org/reference/aixroute/1"
+}

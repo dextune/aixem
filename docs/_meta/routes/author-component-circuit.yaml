@@ -1,0 +1,88 @@
+schema: https://schemas.aixem.org/documentation/task-route/1
+formatVersion: '1.0'
+kind: composite
+id: author-component-circuit
+intent: author-component-circuit
+aliases:
+- create component circuit
+- new component and schematic
+- draw new component in circuit
+- end-to-end authoring
+summary: Create or modify a component presentation, use it in a semantic schematic, route it, render it, and validate it
+budget:
+  max_documents: 7
+  max_bytes: 98304
+  max_depth: 3
+expected_inputs:
+- component functional contract
+- circuit intent
+- active profiles
+stages:
+- order: 1
+  route: create-symbol
+  purpose: Create or reuse the component symbol and presentation binding.
+  required: true
+  exit: symbol-ready
+  inputs:
+  - component endpoint contract
+  outputs:
+  - locked symbol and presentation binding
+- order: 2
+  route: create-schematic
+  purpose: Create semantic entities, nets, and placements.
+  required: true
+  exit: semantic-and-placement-ready
+  inputs:
+  - locked component presentation
+  - circuit intent
+  outputs:
+  - closed semantic source and placements
+- order: 3
+  route: route-nets
+  purpose: Materialize semantic nets as explicit orthogonal geometry.
+  required: true
+  exit: routing-ready
+  inputs:
+  - semantic nets
+  - resolved placements
+  outputs:
+  - closed layout connections
+- order: 4
+  route: render-review
+  purpose: Render, inspect evidence, classify defects, and repair authority-local sources.
+  required: true
+  exit: visual-review-ready
+  inputs:
+  - locked project inputs
+  outputs:
+  - deterministic render and review record
+- order: 5
+  route: validate-project
+  purpose: Run final project and authoring conformance gates.
+  required: true
+  exit: release-valid
+  inputs:
+  - final source and render artifacts
+  outputs:
+  - release-valid evidence
+completion:
+- All child routes complete in declared order
+- Each stage exit condition passes
+- No repository-wide discovery or renderer archaeology was required for normal work
+- Final source, render, and evidence artifacts are deterministic
+expected_outputs:
+- validated component/symbol assets
+- closed semantic schematic
+- orthogonal explicit layout
+- deterministic renderer evidence
+- final validation report
+validators:
+- agent.authoring_routes
+- agent.visual_qa
+- schematic.authoring_examples
+- schematic.renderer_contract
+- agent.diagnostics
+- agent.change_scope
+- agent.run_record
+- agent.authoring_closed_loop
+- agent.evaluation_tier_truth

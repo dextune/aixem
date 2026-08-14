@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.0",
+  "route": {
+    "aliases": [
+      "validate project",
+      "check schematic",
+      "run conformance",
+      "verify project",
+      "schematic lint"
+    ],
+    "budget": {
+      "fallbackDocuments": 2,
+      "maxBytes": 98304,
+      "maxDepth": 3,
+      "maxDocuments": 7
+    },
+    "conditionalReads": [],
+    "id": "validate-project",
+    "intents": [
+      "validate-project"
+    ],
+    "metadata": {
+      "exactRoutePreferred": true,
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "kind": "simple",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "source": "docs/_meta/routes/validate-project.yaml"
+    },
+    "outputs": [
+      "machine-readable validation results",
+      "requirement/test evidence",
+      "release-ready project artifacts"
+    ],
+    "steps": [
+      {
+        "exitCheck": "Schemas and project locks pass",
+        "id": "step-1",
+        "order": 1,
+        "produces": [],
+        "purpose": "Verify project-local paths, identities, and digests.",
+        "read": [
+          "reference/cards/specifications/project/project-lock-contract.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Semantic, component, port, placement, and route closure pass",
+        "id": "step-2",
+        "order": 2,
+        "produces": [],
+        "purpose": "Run structural, semantic, placement, routing, review, and evidence validation in authority order.",
+        "read": [
+          "reference/cards/conformance/validation.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Authoring examples and renderer contract tests pass",
+        "id": "step-3",
+        "order": 3,
+        "produces": [],
+        "purpose": "Validate canonical new paths, provenance, semantic identity, review evidence, and separated result claims.",
+        "read": [
+          "reference/cards/specifications/components/library-layout-contract.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Visual review has no release-critical defect",
+        "id": "step-4",
+        "order": 4,
+        "produces": [],
+        "purpose": "Validate pin semantics and conservative PASS/WARN/ERROR/NOT_EVALUATED compatibility outcomes.",
+        "read": [
+          "reference/cards/specifications/components/pin-electrical-semantics-profile.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Deterministic outputs and evidence pass",
+        "id": "step-5",
+        "order": 5,
+        "produces": [],
+        "purpose": "Confirm renderer inputs and bindings resolve fail closed.",
+        "read": [
+          "reference/cards/specifications/renderer/renderer-contract.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Applicable symbol expressiveness tier and MU boundary are reported",
+        "id": "step-6",
+        "order": 6,
+        "produces": [],
+        "purpose": "Apply path, provenance, schema, design-profile, binding, and golden-render checks.",
+        "read": [
+          "reference/cards/symbols/symbol-lint.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Applicable symbol expressiveness tier and MU boundary are reported",
+        "id": "step-7",
+        "order": 7,
+        "produces": [],
+        "purpose": "Confirm visual evidence, owner-local repair, and completion.",
+        "read": [
+          "reference/cards/agent/visual-qa-loop.aixcard.json"
+        ],
+        "required": true
+      }
+    ],
+    "stopConditions": [
+      "Schemas and project locks pass",
+      "Semantic, component, port, placement, and route closure pass",
+      "Authoring examples and renderer contract tests pass",
+      "Visual review has no release-critical defect",
+      "Deterministic outputs and evidence pass",
+      "Applicable symbol expressiveness tier and MU boundary are reported"
+    ],
+    "title": "Validate final authoring sources, bindings, routes, deterministic rendering, and evidence",
+    "validators": [
+      "schematic.authoring_integrity",
+      "schematic.project_schema",
+      "schematic.digest_lock",
+      "schematic.authoring_binding",
+      "schematic.symbol_design",
+      "schematic.authoring_examples",
+      "schematic.renderer_contract",
+      "agent.visual_qa",
+      "agent.diagnostics",
+      "agent.change_scope",
+      "agent.run_record",
+      "agent.authoring_closed_loop"
+    ]
+  },
+  "schema": "https://schemas.aixem.org/reference/aixroute/1"
+}

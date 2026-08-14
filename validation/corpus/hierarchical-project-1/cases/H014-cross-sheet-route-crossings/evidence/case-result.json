@@ -1,0 +1,107 @@
+{
+  "canonicalHashes": {
+    "project-composite.svg": "sha256:10a319e62944d6a5d64b81da155a735f7025e131f83c0d82a73030aae1332759",
+    "project-overview.svg": "sha256:277868b128c08eaa48e3ce1a6acd7d3173558225385b9fa76c0ad861642f9e87",
+    "resolved-project-scene.json": "sha256:e076904607ccea7e2532f2ccbb6e0292f9c24750d09282240c841efbeec4c78c",
+    "sheets/left.resolved-scene.json": "sha256:e1424d780763dec248c6de6708c52ec0070d3d1302a67eebde091958b7ad3d4c",
+    "sheets/left.svg": "sha256:4ddd6a0ac5e5529a8f6de37f0aef4e246b2ab05d00d593017d9aa9524eb39ece",
+    "sheets/right.resolved-scene.json": "sha256:01a2df22ad51bb94019888dce743e8898c16d9b2d42c616ebd6c441e51e5271b",
+    "sheets/right.svg": "sha256:f6e392da329cc67f85a5e61a89353de9caffb5148ad80381e26ac652e3981d8e",
+    "viewer-model.json": "sha256:9bcf166d1cffd7ab56066a038ad8ae3fc27e62096c4fe528bc4067126fac2c1f",
+    "viewer.html": "sha256:941045a1114bc400a616265812cde0b69e8b10166b46050dc921e6a4a797044b",
+    "workbench.html": "sha256:e9bdb5e14672860f56f85bf31af64dfde65cc57e125e0af49b7ec8380d6794e3"
+  },
+  "checks": [
+    {
+      "id": "PROJECT_SHEET_COUNT",
+      "observation": 2,
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_GRAPH_PRESENT",
+      "observation": [
+        "identities",
+        "projectNets",
+        "unconnectedPorts"
+      ],
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_AUTHORITY",
+      "observation": {
+        "connectivityFromGeometry": false,
+        "layersAreSheets": false,
+        "localPresentation": "aixlayout/2",
+        "localSemantics": ".aixem",
+        "projectComposition": "aixproj/2"
+      },
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_LAYER_AUTHORITY",
+      "observation": {
+        "connectivityFromGeometry": false,
+        "layersAreSheets": false,
+        "localPresentation": "aixlayout/2",
+        "localSemantics": ".aixem",
+        "projectComposition": "aixproj/2"
+      },
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_ROUTES_ORTHOGONAL",
+      "observation": "overview+composite",
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_WORKBENCH_DATA_DRIVEN",
+      "observation": "resolved hierarchy",
+      "status": "pass"
+    },
+    {
+      "id": "H014_DISTINCT_PROJECT_NETS",
+      "observation": [
+        "signal_a",
+        "signal_b"
+      ],
+      "status": "pass"
+    },
+    {
+      "id": "H014_JUNCTION_SCOPED",
+      "observation": {
+        "signal_a": [
+          [
+            330.0,
+            75.0
+          ],
+          [
+            330.0,
+            201.0
+          ]
+        ],
+        "signal_b": [
+          [
+            354.0,
+            122.0
+          ],
+          [
+            354.0,
+            198.0
+          ]
+        ]
+      },
+      "status": "pass"
+    }
+  ],
+  "deterministic": true,
+  "diagnosticMatched": true,
+  "error": null,
+  "expected": "pass",
+  "expectedDiagnostic": null,
+  "id": "H014",
+  "observed": "pass",
+  "projectDigest": "sha256:c54807785113313afdfc746b918faef7f8e06193993a52f4302704b21719b854",
+  "repeatCount": 3,
+  "status": "pass",
+  "title": "Cross sheet route crossings"
+}

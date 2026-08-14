@@ -1,0 +1,32 @@
+{
+  "bounds": {
+    "height": 60,
+    "width": 70,
+    "x": -35,
+    "y": -30
+  },
+  "capabilities": [
+    "geometry.arc",
+    "geometry.circle",
+    "geometry.line",
+    "geometry.path"
+  ],
+  "case": "B003",
+  "defaultVariant": null,
+  "definitions": [],
+  "fieldAnchors": [],
+  "parameters": {},
+  "ports": [],
+  "primitiveCounts": {
+    "arc": 1,
+    "circle": 1,
+    "line": 1,
+    "path": 1
+  },
+  "requiredFeatures": [
+    "compound-path",
+    "elliptical-arc"
+  ],
+  "symbol": "corpus:b003-plan-fixture",
+  "variants": []
+}

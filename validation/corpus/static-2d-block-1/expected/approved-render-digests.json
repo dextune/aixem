@@ -1,0 +1,47 @@
+{
+  "cases": {
+    "B001": {
+      "geometrySignatureDigest": "sha256:1b1a136960a3c881315256cc0efb7923aafabb6b662a13c0ebbf76ddd50d1cdf",
+      "sceneDigest": "sha256:46e6cfb11cf3c06ca829880da94d78f0093656500a4b42d17fb8a3f5320a8c6e",
+      "sourceDigest": "sha256:62d5500b3850ad8293bd5636e57e157fca66b2f52c2aaf605334a4cae2d0c793",
+      "svgDigest": "sha256:ee505b4c5ba3336c6ae3c4ca52602a32bf8b7cf6d61c827d568ba7ae475c8bb8"
+    },
+    "B002": {
+      "geometrySignatureDigest": "sha256:d344d7e64af3e425abaec6506c9cab14ddc1e24478fe549dbb613d8a87d2f4ac",
+      "sceneDigest": "sha256:581ef3c23532a89f8a2b377df8d64afd6fb0ba12b6855a081b4042bc8653946a",
+      "sourceDigest": "sha256:20bb8673c599cbd6b7b3fbeab5909f50e63ca3d0a6006ebfe9958cd1ae4c16e6",
+      "svgDigest": "sha256:bcf8f679859441554766ed46930eb190236b18b29d9c334bb766c6ff73358e88"
+    },
+    "B003": {
+      "geometrySignatureDigest": "sha256:b51f7d19febfa6266ce6a9a3dc4c9cfd9c083f0325601eaa503b8cdf82e242f6",
+      "sceneDigest": "sha256:63ffe9fb23ba8cbc19857c171f52e5351d6f1f0497c0ce1e423362eeaa3b2733",
+      "sourceDigest": "sha256:9f7de2cb912d1d71c5b124b90b1bd6d7de5f9f4bec2afa361f5d47e48febbfa6",
+      "svgDigest": "sha256:322593a7d03adaf6ab3eddd8087579fde91ad172cea562544044958f8d6da47b"
+    },
+    "B004": {
+      "geometrySignatureDigest": "sha256:6a205fdc060c14ed9282f5b3f589a45d860a7c68d248c1fffa97d3d4c8cae5e3",
+      "sceneDigest": "sha256:0f65fc2976b68f8cf94f6d66277fb4d90ef928faa701f110c374f0d941961b2a",
+      "sourceDigest": "sha256:514990b1878a5992b8cd30264d132dd23f56fdc6dad61995495559f13e92b8c8",
+      "svgDigest": "sha256:532758a504fbba0795221075e3c25133e7f9fc01d96f26c80f9f7bb5d25be15a"
+    },
+    "B005": {
+      "geometrySignatureDigest": "sha256:e50f879fd44184a490bc696d23963d40ccd3146f41b2eed83a90bca519fe56af",
+      "sceneDigest": "sha256:60d8b2909fb09ff6cfb062705777dcc1f690e3cfefdbb25b191ff2c3cd769e13",
+      "sourceDigest": "sha256:45670811d459a234b28e512c3553d7a621d914a68e866262fa78dbf894377634",
+      "svgDigest": "sha256:7c737e96bdcc2f477c4e80680b4d9ab50cde69dc5417efdc2006dfeb832bf0ab"
+    },
+    "B006": {
+      "geometrySignatureDigest": "sha256:18d0cedd990f2d4ddaf98c782ce99a56f589758da89fe33bae638c68fc335a02",
+      "sceneDigest": "sha256:6488b7d1224f2b6bba60446d0d3dacadf2f12db03703e7528fdca6fff7377093",
+      "sourceDigest": "sha256:3e899265e1b15cf8c3e5633cc97aed633d38ed5148b163ed7f53af27115df801",
+      "svgDigest": "sha256:7431af9047c5f840282f8c41d8038605a133ad8bd5b9b92d92ff922919339eaa"
+    }
+  },
+  "profile": "static-2d-block-1",
+  "release": "AIXEM-SRP-0.5.2-2026-08-11",
+  "renderer": {
+    "id": "aixem-grid-schematic-reference-renderer",
+    "version": "0.5.1"
+  },
+  "schema": "https://schemas.aixem.org/conformance/approved-render-digests/1"
+}

@@ -1,0 +1,62 @@
+{
+  "card": {
+    "aliases": [
+      "style profile",
+      "aixstyle",
+      "schematic theme"
+    ],
+    "appliesTo": [
+      "style-profile-format"
+    ],
+    "domain": "file-formats",
+    "estimatedReadBytes": 4984,
+    "id": "AIXEM-FORMAT-STYLE-001",
+    "inputs": [],
+    "keywords": [
+      "Schematic Style Profile",
+      "aixstyle",
+      "change-architecture",
+      "create-schematic",
+      "inspect-artifact",
+      "schematic theme",
+      "style profile"
+    ],
+    "kind": "reference",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/file-formats/style-profile.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:330ea420f6d99d36dc104b7a9c664db06e6f464d1339c807213533ad1cdf4323"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SPEC-GRID-PROFILE-001",
+      "AIXEM-SPEC-VISUAL-PROFILE-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-FORMAT-0020",
+        "level": "must",
+        "text": "**MUST.** A style profile MUST declare a stable ID, version, unit, grid policy, and visual token groups."
+      },
+      {
+        "id": "AIXEM-REQ-FORMAT-0021",
+        "level": "must",
+        "text": "**MUST.** A style profile MUST NOT alter semantic endpoint identity or net membership."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-FORMAT-STYLE-001",
+        "path": "docs/file-formats/style-profile.md"
+      }
+    ],
+    "summary": "Documents the style profile for grid spacing, strokes, colors, fonts, markers, selection states, and workbench presentation.",
+    "title": "Schematic Style Profile"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

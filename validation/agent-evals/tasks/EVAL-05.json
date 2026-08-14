@@ -1,0 +1,17 @@
+{
+  "entryRoute": "route-nets",
+  "exampleFixture": "examples/authoring/07-multi-terminal-junction",
+  "formatVersion": "1.0",
+  "id": "EVAL-05",
+  "prohibitedDiscovery": [
+    "repository-wide search",
+    "renderer implementation inspection"
+  ],
+  "prompt": "Route a three-endpoint net with one explicit junction and one unrelated crossing.",
+  "requiredExitConditions": [
+    "routing-ready"
+  ],
+  "schema": "https://schemas.aixem.org/validation/agent-eval-task/1",
+  "scoringProfile": "validation/agent-evals/scoring.md",
+  "title": "Junction semantics"
+}

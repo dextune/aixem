@@ -1,0 +1,87 @@
+{
+  "domain": {
+    "cards": [
+      {
+        "id": "AIXEM-AUTHORING-GUIDE-AUTHOR-COMPONENT-CIRCUIT-001",
+        "path": "reference/cards/authoring/guides/author-component-circuit.aixcard.json",
+        "summary": "Provides the stable end-to-end chain from reusable component identity through semantic schematic, placement, routing, rendering, and separated validation claims.",
+        "title": "Author a Component Circuit"
+      },
+      {
+        "id": "AIXEM-AUTHORING-GUIDE-COMPOSE-PROJECT-001",
+        "path": "reference/cards/authoring/guides/compose-project.aixcard.json",
+        "summary": "Guides deterministic registration of independent sheets, explicit interface ports, hierarchy, project nets, and digest-locked project composition.",
+        "title": "Compose a Project"
+      },
+      {
+        "id": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "path": "reference/cards/authoring/guides/create-library-part.aixcard.json",
+        "summary": "Guides a fresh Agent from provenance classification and semantic component definition through grid-proportional symbol creation, binding, and separated review claims.",
+        "title": "Create a Library Part"
+      },
+      {
+        "id": "AIXEM-AUTHORING-GUIDE-CREATE-SCHEMATIC-001",
+        "path": "reference/cards/authoring/guides/create-schematic.aixcard.json",
+        "summary": "Guides creation of semantic entities and nets separately from grid-authoritative component placement and route geometry.",
+        "title": "Create a Schematic"
+      },
+      {
+        "id": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
+        "path": "reference/cards/authoring/guides/modify-existing-schematic.aixcard.json",
+        "summary": "Guides minimal-diff changes to an existing validated schematic while freezing unaffected semantic, placement, and routing authority.",
+        "title": "Modify an Existing Schematic"
+      },
+      {
+        "id": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "path": "reference/cards/authoring/guides/place-components.aixcard.json",
+        "summary": "Defines an evidence-ranked deterministic Agent strategy for component placement that preserves existing valid authority and prioritizes semantic readability over compactness.",
+        "title": "Agent Component Placement Strategy"
+      },
+      {
+        "id": "AIXEM-AUTHORING-GUIDE-RENDER-REVIEW-001",
+        "path": "reference/cards/authoring/guides/render-review.aixcard.json",
+        "summary": "Guides read-only deterministic rendering and evidence-backed classification of source, symbol, layout, Viewer, and Workbench defects.",
+        "title": "Render and Review"
+      },
+      {
+        "id": "AIXEM-AUTHORING-GUIDE-ROUTE-NETS-001",
+        "path": "reference/cards/authoring/guides/route-nets.aixcard.json",
+        "summary": "Guides conversion of closed semantic nets into explicit orthogonal grid-aligned route geometry with unambiguous branches, junctions, and crossings.",
+        "title": "Route Nets"
+      },
+      {
+        "id": "AIXEM-AUTHORING-GUIDE-SELECT-LIBRARY-PART-001",
+        "path": "reference/cards/authoring/guides/select-library-part.aixcard.json",
+        "summary": "Guides semantic and provenance-based selection of an existing reusable component without relying on filename, symbol appearance, or a render-only claim.",
+        "title": "Select a Library Part"
+      },
+      {
+        "id": "AIXEM-AUTHORING-GUIDE-VALIDATE-PROJECT-001",
+        "path": "reference/cards/authoring/guides/validate-project.aixcard.json",
+        "summary": "Guides final closure of schema, lock, semantic, placement, routing, part provenance, pin semantics, bounded compatibility, intent, render, and evidence results.",
+        "title": "Validate a Project"
+      },
+      {
+        "id": "AIXEM-AUTHORING-GUIDES-INDEX-001",
+        "path": "reference/cards/authoring/guides/overview.aixcard.json",
+        "summary": "Provides one-hop task selection for reusable part creation, schematic placement, routing, rendering, modification, composition, and validation.",
+        "title": "Task-Oriented Authoring Guides"
+      },
+      {
+        "id": "AIXEM-AUTHORING-INDEX-001",
+        "path": "reference/cards/authoring/overview.aixcard.json",
+        "summary": "Provides the shortest official path from a component contract to a drawn, routed, rendered, inspected, and validated AIXEM schematic.",
+        "title": "Authoring"
+      }
+    ],
+    "description": "Generated canonical-document cards for the authoring domain.",
+    "id": "authoring",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12"
+    },
+    "title": "Authoring"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixdomain/1"
+}

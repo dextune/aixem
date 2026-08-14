@@ -1,0 +1,71 @@
+{
+  "card": {
+    "aliases": [
+      "cold-start stage",
+      "isolated agent workspace",
+      "sanitized reference pack"
+    ],
+    "appliesTo": [
+      "cold-start-stage-contract"
+    ],
+    "domain": "specifications",
+    "estimatedReadBytes": 7625,
+    "id": "AIXEM-SPEC-AGENT-STAGE-001",
+    "inputs": [],
+    "keywords": [
+      "Cold-Start Stage Contract 1",
+      "author-component-circuit",
+      "cold-start stage",
+      "isolated agent workspace",
+      "sanitized reference pack",
+      "validate-project"
+    ],
+    "kind": "contract",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/specifications/agent/cold-start-stage-contract.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:daed8acd4bfa4f98e55d4d5a4e2a07036c0cf5d1aedb88d425df4663530d12ff"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SPEC-AGENT-TASK-001",
+      "AIXEM-SPEC-AGENT-RETRIEVAL-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-AGENT-LIVE-0004",
+        "level": "must",
+        "text": "**MUST.** Equivalent task, route pack, incomplete start state, and attempt ID MUST produce the same task, reference-pack, start-workspace, and stage digests in a fresh stage."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-LIVE-0005",
+        "level": "must",
+        "text": "**MUST.** A cold-start stage MUST exclude evaluator invariants, scoring metadata, prior attempts, completed target sources, and completed target renders while permitting only general route-selected reference material."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-LIVE-0006",
+        "level": "must",
+        "text": "**MUST.** Stage construction MUST require an empty destination, copy without following symlinks, keep task and reference roots read-only by contract, and fail closed on traversal or symlink input."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-LIVE-0020",
+        "level": "must",
+        "text": "**MUST.** The harness MUST digest task, reference, and stage-manifest inputs before launch, recompute them after execution, detect additions, modifications, deletions, replacements, and symlinks, and block `PASS` when any immutable input changed."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SPEC-AGENT-STAGE-001",
+        "path": "docs/specifications/agent/cold-start-stage-contract.md"
+      }
+    ],
+    "summary": "Defines deterministic, fresh, target-isolated task, reference, workspace, and state roots for one live authoring attempt.",
+    "title": "Cold-Start Stage Contract 1"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

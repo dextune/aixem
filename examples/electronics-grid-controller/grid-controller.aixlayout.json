@@ -1,0 +1,1547 @@
+{
+  "formatVersion": "1.0",
+  "layout": {
+    "annotations": [
+      {
+        "id": "title-note",
+        "layer": "annotation",
+        "style": "note",
+        "text": "AIXEM GRID CONTROLLER · semantic connectivity is explicit; geometry never creates a net",
+        "type": "text",
+        "x": 15,
+        "y": 12.5
+      },
+      {
+        "id": "section-power",
+        "layer": "annotation",
+        "style": "note",
+        "text": "POWER AND FIELD INPUT",
+        "type": "text",
+        "x": 15,
+        "y": 92.5
+      },
+      {
+        "id": "section-core",
+        "layer": "annotation",
+        "style": "note",
+        "text": "CONTROL CORE",
+        "type": "text",
+        "x": 222.5,
+        "y": 32.5
+      },
+      {
+        "id": "section-debug",
+        "layer": "annotation",
+        "style": "note",
+        "text": "DEBUG / FIELD I/O",
+        "type": "text",
+        "x": 335,
+        "y": 25
+      }
+    ],
+    "connections": [
+      {
+        "junctions": [
+          [
+            39.0,
+            32.5
+          ],
+          [
+            54.0,
+            32.5
+          ]
+        ],
+        "labels": [
+          {
+            "text": "VIN_24",
+            "x": 42.5,
+            "y": 27.5
+          }
+        ],
+        "layer": "connections",
+        "net": "vin_24",
+        "paths": [
+          {
+            "from": {
+              "endpoint": "power_in.1"
+            },
+            "to": {
+              "endpoint": "fuse.1"
+            },
+            "via": [
+              [
+                39.0,
+                32.5
+              ]
+            ]
+          }
+        ],
+        "style": "power"
+      },
+      {
+        "junctions": [
+          [
+            86.0,
+            42.5
+          ],
+          [
+            102.5,
+            42.5
+          ],
+          [
+            103.5,
+            42.5
+          ],
+          [
+            51.0,
+            42.5
+          ]
+        ],
+        "labels": [
+          {
+            "text": "VIN_FUSED",
+            "x": 92.5,
+            "y": 37.5
+          }
+        ],
+        "layer": "connections",
+        "net": "vin_fused",
+        "paths": [
+          {
+            "from": {
+              "endpoint": "fuse.2"
+            },
+            "to": {
+              "endpoint": "tvs.K"
+            },
+            "via": [
+              [
+                86.0,
+                42.5
+              ],
+              [
+                102.5,
+                42.5
+              ]
+            ]
+          },
+          {
+            "from": {
+              "endpoint": "fuse.2"
+            },
+            "to": {
+              "endpoint": "regulator.VIN"
+            },
+            "via": [
+              [
+                86.0,
+                42.5
+              ],
+              [
+                103.5,
+                42.5
+              ]
+            ]
+          },
+          {
+            "from": {
+              "endpoint": "fuse.2"
+            },
+            "to": {
+              "endpoint": "sensor.1"
+            },
+            "via": [
+              [
+                86.0,
+                42.5
+              ],
+              [
+                51.0,
+                42.5
+              ]
+            ]
+          }
+        ],
+        "style": "power"
+      },
+      {
+        "junctions": [
+          [
+            151.5,
+            17.5
+          ],
+          [
+            177.5,
+            17.5
+          ],
+          [
+            202.5,
+            17.5
+          ],
+          [
+            157.5,
+            17.5
+          ],
+          [
+            251.25,
+            17.5
+          ],
+          [
+            258.75,
+            17.5
+          ],
+          [
+            336.0,
+            17.5
+          ],
+          [
+            389.5,
+            17.5
+          ]
+        ],
+        "labels": [
+          {
+            "text": "3V3",
+            "x": 205,
+            "y": 12.5
+          }
+        ],
+        "layer": "connections",
+        "net": "rail_3v3",
+        "paths": [
+          {
+            "from": {
+              "endpoint": "regulator.VOUT"
+            },
+            "to": {
+              "endpoint": "bulk_cap.1"
+            },
+            "via": [
+              [
+                151.5,
+                17.5
+              ],
+              [
+                177.5,
+                17.5
+              ]
+            ]
+          },
+          {
+            "from": {
+              "endpoint": "regulator.VOUT"
+            },
+            "to": {
+              "endpoint": "logic_cap.1"
+            },
+            "via": [
+              [
+                151.5,
+                17.5
+              ],
+              [
+                202.5,
+                17.5
+              ]
+            ]
+          },
+          {
+            "from": {
+              "endpoint": "regulator.VOUT"
+            },
+            "to": {
+              "endpoint": "afe.3V3"
+            },
+            "via": [
+              [
+                151.5,
+                17.5
+              ],
+              [
+                157.5,
+                17.5
+              ]
+            ]
+          },
+          {
+            "from": {
+              "endpoint": "regulator.VOUT"
+            },
+            "to": {
+              "endpoint": "controller.3V3A"
+            },
+            "via": [
+              [
+                151.5,
+                17.5
+              ],
+              [
+                251.25,
+                17.5
+              ]
+            ]
+          },
+          {
+            "from": {
+              "endpoint": "regulator.VOUT"
+            },
+            "to": {
+              "endpoint": "controller.3V3D"
+            },
+            "via": [
+              [
+                151.5,
+                17.5
+              ],
+              [
+                258.75,
+                17.5
+              ]
+            ]
+          },
+          {
+            "from": {
+              "endpoint": "regulator.VOUT"
+            },
+            "to": {
+              "endpoint": "debug.1"
+            },
+            "via": [
+              [
+                151.5,
+                17.5
+              ],
+              [
+                336.0,
+                17.5
+              ]
+            ]
+          },
+          {
+            "from": {
+              "endpoint": "regulator.VOUT"
+            },
+            "to": {
+              "endpoint": "field_io.7"
+            },
+            "via": [
+              [
+                151.5,
+                17.5
+              ],
+              [
+                389.5,
+                17.5
+              ]
+            ]
+          }
+        ],
+        "style": "power-low"
+      },
+      {
+        "junctions": [
+          [
+            39.0,
+            247.5
+          ],
+          [
+            102.5,
+            247.5
+          ],
+          [
+            127.5,
+            247.5
+          ],
+          [
+            177.5,
+            247.5
+          ],
+          [
+            202.5,
+            247.5
+          ],
+          [
+            51.0,
+            247.5
+          ],
+          [
+            115.0,
+            247.5
+          ],
+          [
+            157.5,
+            247.5
+          ],
+          [
+            251.25,
+            247.5
+          ],
+          [
+            258.75,
+            247.5
+          ],
+          [
+            336.0,
+            247.5
+          ],
+          [
+            384.0,
+            247.5
+          ],
+          [
+            389.5,
+            247.5
+          ]
+        ],
+        "labels": [
+          {
+            "text": "GND",
+            "x": 25,
+            "y": 242.5
+          }
+        ],
+        "layer": "connections",
+        "net": "gnd",
+        "paths": [
+          {
+            "from": {
+              "endpoint": "power_in.2"
+            },
+            "to": {
+              "endpoint": "tvs.A"
+            },
+            "via": [
+              [
+                39.0,
+                247.5
+              ],
+              [
+                102.5,
+                247.5
+              ]
+            ]
+          },
+          {
+            "from": {
+              "endpoint": "power_in.2"
+            },
+            "to": {
+              "endpoint": "regulator.GND"
+            },
+            "via": [
+              [
+                39.0,
+                247.5
+              ],
+              [
+                127.5,
+                247.5
+              ]
+            ]
+          },
+          {
+            "from": {
+              "endpoint": "power_in.2"
+            },
+            "to": {
+              "endpoint": "bulk_cap.2"
+            },
+            "via": [
+              [
+                39.0,
+                247.5
+              ],
+              [
+                177.5,
+                247.5
+              ]
+            ]
+          },
+          {
+            "from": {
+              "endpoint": "power_in.2"
+            },
+            "to": {
+              "endpoint": "logic_cap.2"
+            },
+            "via": [
+              [
+                39.0,
+                247.5
+              ],
+              [
+                202.5,
+                247.5
+              ]
+            ]
+          },
+          {
+            "from": {
+              "endpoint": "power_in.2"
+            },
+            "to": {
+              "endpoint": "sensor.3"
+            },
+            "via": [
+              [
+                39.0,
+                247.5
+              ],
+              [
+                51.0,
+                247.5
+              ]
+            ]
+          },
+          {
+            "from": {
+              "endpoint": "power_in.2"
+            },
+            "to": {
+              "endpoint": "divider_bottom.2"
+            },
+            "via": [
+              [
+                39.0,
+                247.5
+              ],
+              [
+                115.0,
+                247.5
+              ]
+            ]
+          },
+          {
+            "from": {
+              "endpoint": "power_in.2"
+            },
+            "to": {
+              "endpoint": "afe.GND"
+            },
+            "via": [
+              [
+                39.0,
+                247.5
+              ],
+              [
+                157.5,
+                247.5
+              ]
+            ]
+          },
+          {
+            "from": {
+              "endpoint": "power_in.2"
+            },
+            "to": {
+              "endpoint": "controller.GNDA"
+            },
+            "via": [
+              [
+                39.0,
+                247.5
+              ],
+              [
+                251.25,
+                247.5
+              ]
+            ]
+          },
+          {
+            "from": {
+              "endpoint": "power_in.2"
+            },
+            "to": {
+              "endpoint": "controller.GNDD"
+            },
+            "via": [
+              [
+                39.0,
+                247.5
+              ],
+              [
+                258.75,
+                247.5
+              ]
+            ]
+          },
+          {
+            "from": {
+              "endpoint": "power_in.2"
+            },
+            "to": {
+              "endpoint": "debug.3"
+            },
+            "via": [
+              [
+                39.0,
+                247.5
+              ],
+              [
+                336.0,
+                247.5
+              ]
+            ]
+          },
+          {
+            "from": {
+              "endpoint": "power_in.2"
+            },
+            "to": {
+              "endpoint": "debug.5"
+            },
+            "via": [
+              [
+                39.0,
+                247.5
+              ],
+              [
+                336.0,
+                247.5
+              ]
+            ]
+          },
+          {
+            "from": {
+              "endpoint": "power_in.2"
+            },
+            "to": {
+              "endpoint": "debug.10"
+            },
+            "via": [
+              [
+                39.0,
+                247.5
+              ],
+              [
+                384.0,
+                247.5
+              ]
+            ]
+          },
+          {
+            "from": {
+              "endpoint": "power_in.2"
+            },
+            "to": {
+              "endpoint": "field_io.8"
+            },
+            "via": [
+              [
+                39.0,
+                247.5
+              ],
+              [
+                389.5,
+                247.5
+              ]
+            ]
+          },
+          {
+            "from": {
+              "endpoint": "power_in.2"
+            },
+            "to": {
+              "endpoint": "led1.K"
+            },
+            "via": [
+              [
+                39.0,
+                247.5
+              ],
+              [
+                384.0,
+                247.5
+              ]
+            ]
+          },
+          {
+            "from": {
+              "endpoint": "power_in.2"
+            },
+            "to": {
+              "endpoint": "led2.K"
+            },
+            "via": [
+              [
+                39.0,
+                247.5
+              ],
+              [
+                384.0,
+                247.5
+              ]
+            ]
+          }
+        ],
+        "style": "ground"
+      },
+      {
+        "junctions": [
+          [
+            51.0,
+            130
+          ],
+          [
+            71.5,
+            130
+          ],
+          [
+            128.5,
+            130
+          ]
+        ],
+        "labels": [
+          {
+            "text": "SENSOR_A",
+            "x": 55,
+            "y": 125
+          }
+        ],
+        "layer": "connections",
+        "net": "sensor_signal",
+        "paths": [
+          {
+            "from": {
+              "endpoint": "sensor.2"
+            },
+            "to": {
+              "endpoint": "divider_top.1"
+            },
+            "via": [
+              [
+                51.0,
+                130
+              ],
+              [
+                71.5,
+                130
+              ]
+            ]
+          },
+          {
+            "from": {
+              "endpoint": "sensor.2"
+            },
+            "to": {
+              "endpoint": "afe.VINP"
+            },
+            "via": [
+              [
+                51.0,
+                130
+              ],
+              [
+                128.5,
+                130
+              ]
+            ]
+          }
+        ],
+        "style": "signal"
+      },
+      {
+        "junctions": [
+          [
+            122.5,
+            135.0
+          ],
+          [
+            122.5,
+            156.5
+          ],
+          [
+            122.5,
+            142.5
+          ]
+        ],
+        "labels": [
+          {
+            "text": "DIV",
+            "x": 125,
+            "y": 152.5
+          }
+        ],
+        "layer": "connections",
+        "net": "divider_node",
+        "paths": [
+          {
+            "from": {
+              "endpoint": "divider_top.2"
+            },
+            "to": {
+              "endpoint": "divider_bottom.1"
+            },
+            "via": [
+              [
+                122.5,
+                135.0
+              ],
+              [
+                122.5,
+                156.5
+              ]
+            ]
+          },
+          {
+            "from": {
+              "endpoint": "divider_top.2"
+            },
+            "to": {
+              "endpoint": "afe.VINN"
+            },
+            "via": [
+              [
+                122.5,
+                135.0
+              ],
+              [
+                122.5,
+                142.5
+              ]
+            ]
+          }
+        ],
+        "style": "signal"
+      },
+      {
+        "junctions": [
+          [
+            205,
+            142.5
+          ],
+          [
+            205,
+            121.25
+          ]
+        ],
+        "labels": [
+          {
+            "text": "ADC0",
+            "x": 207.5,
+            "y": 132.5
+          }
+        ],
+        "layer": "connections",
+        "net": "afe_output",
+        "paths": [
+          {
+            "from": {
+              "endpoint": "afe.VOUT"
+            },
+            "to": {
+              "endpoint": "controller.ADC0"
+            },
+            "via": [
+              [
+                205,
+                142.5
+              ],
+              [
+                205,
+                121.25
+              ]
+            ]
+          }
+        ],
+        "style": "signal"
+      },
+      {
+        "junctions": [
+          [
+            215,
+            152.5
+          ],
+          [
+            215,
+            128.75
+          ]
+        ],
+        "labels": [
+          {
+            "text": "VREF",
+            "x": 217.5,
+            "y": 147.5
+          }
+        ],
+        "layer": "connections",
+        "net": "vref",
+        "paths": [
+          {
+            "from": {
+              "endpoint": "afe.VREF"
+            },
+            "to": {
+              "endpoint": "controller.ADC1"
+            },
+            "via": [
+              [
+                215,
+                152.5
+              ]
+            ]
+          }
+        ],
+        "style": "signal"
+      },
+      {
+        "junctions": [
+          [
+            295.0,
+            70
+          ],
+          [
+            384.0,
+            70
+          ]
+        ],
+        "labels": [
+          {
+            "text": "SWDIO",
+            "x": 310,
+            "y": 65
+          }
+        ],
+        "layer": "connections",
+        "net": "swdio",
+        "paths": [
+          {
+            "from": {
+              "endpoint": "controller.SWDIO"
+            },
+            "to": {
+              "endpoint": "debug.2"
+            },
+            "via": [
+              [
+                295.0,
+                70
+              ],
+              [
+                384.0,
+                70
+              ]
+            ]
+          }
+        ],
+        "style": "signal"
+      },
+      {
+        "junctions": [
+          [
+            295.0,
+            80
+          ],
+          [
+            384.0,
+            80
+          ]
+        ],
+        "labels": [
+          {
+            "text": "SWCLK",
+            "x": 310,
+            "y": 75
+          }
+        ],
+        "layer": "connections",
+        "net": "swclk",
+        "paths": [
+          {
+            "from": {
+              "endpoint": "controller.SWCLK"
+            },
+            "to": {
+              "endpoint": "debug.4"
+            },
+            "via": [
+              [
+                295.0,
+                80
+              ],
+              [
+                384.0,
+                80
+              ]
+            ]
+          }
+        ],
+        "style": "signal"
+      },
+      {
+        "junctions": [
+          [
+            215.0,
+            90
+          ],
+          [
+            384.0,
+            90
+          ]
+        ],
+        "labels": [
+          {
+            "text": "SWO",
+            "x": 310,
+            "y": 85
+          }
+        ],
+        "layer": "connections",
+        "net": "swo",
+        "paths": [
+          {
+            "from": {
+              "endpoint": "controller.PA2"
+            },
+            "to": {
+              "endpoint": "debug.6"
+            },
+            "via": [
+              [
+                215.0,
+                90
+              ],
+              [
+                384.0,
+                90
+              ]
+            ]
+          }
+        ],
+        "style": "signal"
+      },
+      {
+        "junctions": [
+          [
+            215.0,
+            100
+          ],
+          [
+            336.0,
+            100
+          ]
+        ],
+        "labels": [
+          {
+            "text": "RESET_N",
+            "x": 305,
+            "y": 95
+          }
+        ],
+        "layer": "connections",
+        "net": "reset_n",
+        "paths": [
+          {
+            "from": {
+              "endpoint": "controller.NRST"
+            },
+            "to": {
+              "endpoint": "debug.9"
+            },
+            "via": [
+              [
+                215.0,
+                100
+              ],
+              [
+                336.0,
+                100
+              ]
+            ]
+          }
+        ],
+        "style": "signal"
+      },
+      {
+        "junctions": [
+          [
+            295.0,
+            132.5
+          ],
+          [
+            345.5,
+            132.5
+          ]
+        ],
+        "labels": [
+          {
+            "text": "OUT1",
+            "x": 315,
+            "y": 127.5
+          }
+        ],
+        "layer": "connections",
+        "net": "out1",
+        "paths": [
+          {
+            "from": {
+              "endpoint": "controller.PB0"
+            },
+            "to": {
+              "endpoint": "field_io.1"
+            },
+            "via": [
+              [
+                295.0,
+                132.5
+              ],
+              [
+                345.5,
+                132.5
+              ]
+            ]
+          }
+        ],
+        "style": "signal"
+      },
+      {
+        "junctions": [
+          [
+            295.0,
+            142.5
+          ],
+          [
+            345.5,
+            142.5
+          ]
+        ],
+        "labels": [
+          {
+            "text": "OUT2",
+            "x": 315,
+            "y": 137.5
+          }
+        ],
+        "layer": "connections",
+        "net": "out2",
+        "paths": [
+          {
+            "from": {
+              "endpoint": "controller.PB1"
+            },
+            "to": {
+              "endpoint": "field_io.2"
+            },
+            "via": [
+              [
+                295.0,
+                142.5
+              ],
+              [
+                345.5,
+                142.5
+              ]
+            ]
+          }
+        ],
+        "style": "signal"
+      },
+      {
+        "junctions": [
+          [
+            215.0,
+            162.5
+          ],
+          [
+            389.5,
+            162.5
+          ]
+        ],
+        "labels": [
+          {
+            "text": "IN1",
+            "x": 315,
+            "y": 157.5
+          }
+        ],
+        "layer": "connections",
+        "net": "in1",
+        "paths": [
+          {
+            "from": {
+              "endpoint": "controller.PA0"
+            },
+            "to": {
+              "endpoint": "field_io.5"
+            },
+            "via": [
+              [
+                215.0,
+                162.5
+              ],
+              [
+                389.5,
+                162.5
+              ]
+            ]
+          }
+        ],
+        "style": "signal"
+      },
+      {
+        "junctions": [
+          [
+            215.0,
+            172.5
+          ],
+          [
+            389.5,
+            172.5
+          ]
+        ],
+        "labels": [
+          {
+            "text": "IN2",
+            "x": 315,
+            "y": 167.5
+          }
+        ],
+        "layer": "connections",
+        "net": "in2",
+        "paths": [
+          {
+            "from": {
+              "endpoint": "controller.PA1"
+            },
+            "to": {
+              "endpoint": "field_io.6"
+            },
+            "via": [
+              [
+                215.0,
+                172.5
+              ],
+              [
+                389.5,
+                172.5
+              ]
+            ]
+          }
+        ],
+        "style": "signal"
+      },
+      {
+        "junctions": [
+          [
+            300,
+            106.25
+          ],
+          [
+            300,
+            215.0
+          ]
+        ],
+        "labels": [
+          {
+            "text": "RUN_DRV",
+            "x": 302.5,
+            "y": 202.5
+          }
+        ],
+        "layer": "connections",
+        "net": "led1_drive",
+        "paths": [
+          {
+            "from": {
+              "endpoint": "controller.PB2"
+            },
+            "to": {
+              "endpoint": "led_r1.1"
+            },
+            "via": [
+              [
+                300,
+                106.25
+              ],
+              [
+                300,
+                215.0
+              ]
+            ]
+          }
+        ],
+        "style": "signal"
+      },
+      {
+        "junctions": [],
+        "labels": [],
+        "layer": "connections",
+        "net": "led1_anode",
+        "paths": [
+          {
+            "from": {
+              "endpoint": "led_r1.2"
+            },
+            "to": {
+              "endpoint": "led1.A"
+            }
+          }
+        ],
+        "style": "signal"
+      },
+      {
+        "junctions": [
+          [
+            292.5,
+            113.75
+          ],
+          [
+            292.5,
+            235.0
+          ]
+        ],
+        "labels": [
+          {
+            "text": "FAULT_DRV",
+            "x": 295,
+            "y": 222.5
+          }
+        ],
+        "layer": "connections",
+        "net": "led2_drive",
+        "paths": [
+          {
+            "from": {
+              "endpoint": "controller.PB3"
+            },
+            "to": {
+              "endpoint": "led_r2.1"
+            },
+            "via": [
+              [
+                292.5,
+                113.75
+              ],
+              [
+                292.5,
+                235.0
+              ]
+            ]
+          }
+        ],
+        "style": "signal"
+      },
+      {
+        "junctions": [],
+        "labels": [],
+        "layer": "connections",
+        "net": "led2_anode",
+        "paths": [
+          {
+            "from": {
+              "endpoint": "led_r2.2"
+            },
+            "to": {
+              "endpoint": "led2.A"
+            }
+          }
+        ],
+        "style": "signal"
+      }
+    ],
+    "coordinateSystem": {
+      "angleDirection": "clockwise",
+      "angleUnit": "deg",
+      "grid": 2.5,
+      "unit": "mm",
+      "yAxis": "down"
+    },
+    "designId": "grid_controller",
+    "id": "demo.electronics:grid-controller-layout",
+    "layers": [
+      {
+        "defaultVisible": true,
+        "id": "connections",
+        "locked": false,
+        "order": 10,
+        "printable": true,
+        "purpose": "semantic net routes"
+      },
+      {
+        "defaultVisible": true,
+        "id": "symbols",
+        "locked": false,
+        "order": 20,
+        "printable": true,
+        "purpose": "component symbol instances"
+      },
+      {
+        "defaultVisible": true,
+        "id": "annotation",
+        "locked": false,
+        "order": 30,
+        "printable": true,
+        "purpose": "notes and title"
+      }
+    ],
+    "metadata": {
+      "connectionAuthority": "semantic-source-only",
+      "routingMode": "orthogonal",
+      "styleProfile": "specifications/aixem-grid-schematic-style-1.aixstyle.json"
+    },
+    "placements": [
+      {
+        "entity": "power_in",
+        "fields": {
+          "value": "24 VDC"
+        },
+        "layer": "symbols",
+        "x": 25,
+        "y": 37.5
+      },
+      {
+        "entity": "fuse",
+        "layer": "symbols",
+        "x": 70,
+        "y": 32.5
+      },
+      {
+        "entity": "tvs",
+        "layer": "symbols",
+        "rotation": 90,
+        "x": 102.5,
+        "y": 57.5
+      },
+      {
+        "entity": "regulator",
+        "layer": "symbols",
+        "x": 127.5,
+        "y": 32.5
+      },
+      {
+        "entity": "bulk_cap",
+        "layer": "symbols",
+        "rotation": 90,
+        "x": 177.5,
+        "y": 57.5
+      },
+      {
+        "entity": "logic_cap",
+        "layer": "symbols",
+        "rotation": 90,
+        "x": 202.5,
+        "y": 57.5
+      },
+      {
+        "entity": "sensor",
+        "layer": "symbols",
+        "x": 35,
+        "y": 142.5
+      },
+      {
+        "entity": "divider_top",
+        "layer": "symbols",
+        "variant": "iec",
+        "x": 87.5,
+        "y": 135
+      },
+      {
+        "entity": "divider_bottom",
+        "layer": "symbols",
+        "rotation": 90,
+        "variant": "iec",
+        "x": 115,
+        "y": 172.5
+      },
+      {
+        "entity": "afe",
+        "layer": "symbols",
+        "x": 157.5,
+        "y": 142.5
+      },
+      {
+        "entity": "controller",
+        "layer": "symbols",
+        "x": 255,
+        "y": 125
+      },
+      {
+        "entity": "debug",
+        "layer": "symbols",
+        "x": 360,
+        "y": 62.5
+      },
+      {
+        "entity": "field_io",
+        "layer": "symbols",
+        "x": 367.5,
+        "y": 155
+      },
+      {
+        "entity": "led_r1",
+        "layer": "symbols",
+        "variant": "iec",
+        "x": 320,
+        "y": 215
+      },
+      {
+        "entity": "led1",
+        "layer": "symbols",
+        "x": 370,
+        "y": 215
+      },
+      {
+        "entity": "led_r2",
+        "layer": "symbols",
+        "variant": "iec",
+        "x": 320,
+        "y": 235
+      },
+      {
+        "entity": "led2",
+        "layer": "symbols",
+        "x": 370,
+        "y": 235
+      }
+    ],
+    "purpose": "schematic-layout",
+    "sheet": {
+      "height": 260,
+      "margin": 10,
+      "titleBlock": {
+        "drawing": "AIXEM-ELEC-040",
+        "revision": "A",
+        "sheet": "1/1",
+        "title": "Grid Controller and Sensor Interface"
+      },
+      "width": 420
+    },
+    "styles": {
+      "ground": {
+        "fill": "none",
+        "stroke": "#24864a",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.8
+      },
+      "note": {
+        "fill": "#1b4e8c",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 4.2,
+        "stroke": "none"
+      },
+      "power": {
+        "fill": "none",
+        "stroke": "#24864a",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.9
+      },
+      "power-low": {
+        "fill": "none",
+        "stroke": "#24864a",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.9
+      },
+      "signal": {
+        "fill": "none",
+        "stroke": "#24864a",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.65
+      }
+    }
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/aixlayout/1"
+}

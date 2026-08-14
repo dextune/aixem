@@ -1,0 +1,57 @@
+{
+  "card": {
+    "aliases": [
+      ".aixlayout",
+      "layout JSON",
+      "explicit layout file"
+    ],
+    "appliesTo": [
+      "aixlayout-format"
+    ],
+    "domain": "file-formats",
+    "estimatedReadBytes": 9360,
+    "id": "AIXEM-FORMAT-AIXLAYOUT-001",
+    "inputs": [],
+    "keywords": [
+      ".aixlayout",
+      ".aixlayout.json Explicit Layout",
+      "create-schematic",
+      "explicit layout file",
+      "inspect-artifact",
+      "layout JSON",
+      "route-nets",
+      "route-project-nets"
+    ],
+    "kind": "reference",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/file-formats/aixlayout.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:b98490ebabd6639be7f46616567655a16386d62d196f846f67a15751a6315d77"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 900,
+    "readNext": [
+      "AIXEM-SPEC-LAYOUT-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-FORMAT-AIXLAYOUT-001.read",
+        "level": "should",
+        "text": "Documents sheets, placements, route connections, path endpoints, via points, junctions, labels, annotations, and title blocks."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "path": "docs/file-formats/aixlayout.md"
+      }
+    ],
+    "summary": "Documents sheets, placements, route connections, path endpoints, via points, junctions, labels, annotations, and title blocks.",
+    "title": ".aixlayout.json Explicit Layout"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

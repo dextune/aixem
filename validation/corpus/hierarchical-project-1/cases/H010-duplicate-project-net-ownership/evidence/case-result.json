@@ -1,0 +1,15 @@
+{
+  "canonicalHashes": {},
+  "checks": [],
+  "deterministic": true,
+  "diagnosticMatched": true,
+  "error": "PROJECT_NET_DUPLICATE_OWNERSHIP: power:@VCC belongs to both one and two",
+  "expected": "fail",
+  "expectedDiagnostic": "PROJECT_NET_DUPLICATE_OWNERSHIP",
+  "id": "H010",
+  "observed": "fail",
+  "projectDigest": "sha256:6ac4e483d618957d8202773036de564de1eace90ddbc814c1492681ab0450721",
+  "repeatCount": 0,
+  "status": "pass",
+  "title": "Duplicate project net ownership"
+}

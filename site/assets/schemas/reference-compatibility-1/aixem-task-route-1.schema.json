@@ -1,0 +1,208 @@
+{
+  "$id": "https://schemas.aixem.org/reference/aixroute/1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "formatVersion": {
+      "const": "1.0"
+    },
+    "route": {
+      "additionalProperties": false,
+      "properties": {
+        "aliases": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        "budget": {
+          "additionalProperties": false,
+          "properties": {
+            "fallbackDocuments": {
+              "maximum": 32,
+              "minimum": 0,
+              "type": "integer"
+            },
+            "maxBytes": {
+              "maximum": 2000000,
+              "minimum": 1024,
+              "type": "integer"
+            },
+            "maxDepth": {
+              "maximum": 8,
+              "minimum": 1,
+              "type": "integer"
+            },
+            "maxDocuments": {
+              "maximum": 64,
+              "minimum": 1,
+              "type": "integer"
+            }
+          },
+          "required": [
+            "maxDocuments",
+            "maxBytes",
+            "maxDepth"
+          ],
+          "type": "object"
+        },
+        "conditionalReads": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "maxAdditionalDocuments": {
+                "maximum": 16,
+                "minimum": 1,
+                "type": "integer"
+              },
+              "read": {
+                "items": {
+                  "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$",
+                  "type": "string"
+                },
+                "minItems": 1,
+                "type": "array",
+                "uniqueItems": true
+              },
+              "when": {
+                "minLength": 1,
+                "type": "string"
+              }
+            },
+            "required": [
+              "when",
+              "read"
+            ],
+            "type": "object"
+          },
+          "maxItems": 32,
+          "type": "array"
+        },
+        "id": {
+          "pattern": "^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$",
+          "type": "string"
+        },
+        "intents": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "metadata": {
+          "type": "object"
+        },
+        "outputs": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "steps": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "exitCheck": {
+                "type": "string"
+              },
+              "id": {
+                "pattern": "^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$",
+                "type": "string"
+              },
+              "order": {
+                "minimum": 1,
+                "type": "integer"
+              },
+              "produces": {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array",
+                "uniqueItems": true
+              },
+              "purpose": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "read": {
+                "items": {
+                  "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$",
+                  "type": "string"
+                },
+                "minItems": 1,
+                "type": "array",
+                "uniqueItems": true
+              },
+              "required": {
+                "type": "boolean"
+              },
+              "when": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "order",
+              "id",
+              "purpose",
+              "read",
+              "required"
+            ],
+            "type": "object"
+          },
+          "maxItems": 32,
+          "minItems": 1,
+          "type": "array"
+        },
+        "stopConditions": {
+          "items": {
+            "minLength": 4,
+            "type": "string"
+          },
+          "minItems": 1,
+          "type": "array"
+        },
+        "title": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "validators": {
+          "items": {
+            "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$",
+            "type": "string"
+          },
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "intents",
+        "budget",
+        "steps",
+        "stopConditions",
+        "outputs",
+        "validators"
+      ],
+      "type": "object"
+    },
+    "schema": {
+      "const": "https://schemas.aixem.org/reference/aixroute/1"
+    }
+  },
+  "required": [
+    "schema",
+    "formatVersion",
+    "route"
+  ],
+  "title": "AIXEM Agent Task Route 1.0",
+  "type": "object"
+}

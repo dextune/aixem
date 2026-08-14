@@ -1,0 +1,25 @@
+{
+  "case": "V018",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "release": "AIXEM-SRP-0.5.6-2026-08-12",
+  "repeatCount": 3,
+  "runs": [
+    {
+      "viewer-model.json": "sha256:71531acf57504cf2d3376655d1d123fdc49a42da0c1ac002b83dc930e78de57f",
+      "viewer.html": "sha256:7fe4e242c87701594ff09bb7bab2c01c5d4116b88f287029baade5e9e0aeae2a",
+      "workbench.html": "sha256:609677871422fac9fdbe1ddc37ac646313aa5575e2af96d4af0a47c799218ba6"
+    },
+    {
+      "viewer-model.json": "sha256:71531acf57504cf2d3376655d1d123fdc49a42da0c1ac002b83dc930e78de57f",
+      "viewer.html": "sha256:7fe4e242c87701594ff09bb7bab2c01c5d4116b88f287029baade5e9e0aeae2a",
+      "workbench.html": "sha256:609677871422fac9fdbe1ddc37ac646313aa5575e2af96d4af0a47c799218ba6"
+    },
+    {
+      "viewer-model.json": "sha256:71531acf57504cf2d3376655d1d123fdc49a42da0c1ac002b83dc930e78de57f",
+      "viewer.html": "sha256:7fe4e242c87701594ff09bb7bab2c01c5d4116b88f287029baade5e9e0aeae2a",
+      "workbench.html": "sha256:609677871422fac9fdbe1ddc37ac646313aa5575e2af96d4af0a47c799218ba6"
+    }
+  ],
+  "schema": "https://schemas.aixem.org/conformance/viewer-determinism/1",
+  "status": "pass"
+}

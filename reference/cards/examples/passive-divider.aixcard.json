@@ -1,0 +1,55 @@
+{
+  "card": {
+    "aliases": [
+      "passive divider",
+      "resistor divider example",
+      "basic schematic"
+    ],
+    "appliesTo": [
+      "example"
+    ],
+    "domain": "examples",
+    "estimatedReadBytes": 3750,
+    "id": "AIXEM-EXAMPLE-BASIC-001",
+    "inputs": [],
+    "keywords": [
+      "Example: Passive Divider",
+      "basic schematic",
+      "create-schematic",
+      "learn-aixem",
+      "passive divider",
+      "resistor divider example"
+    ],
+    "kind": "example",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/examples/passive-divider.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:2c387b431f3d5e3886926680aeba34c6242f68bacdd7eb2e5072fde9fa2bcdf4"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 500,
+    "readNext": [
+      "AIXEM-START-FIRST-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-EXAMPLE-BASIC-001.read",
+        "level": "should",
+        "text": "Walks through the semantic, symbol, placement, and routing decisions for a two-resistor divider with an output test point."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-EXAMPLE-BASIC-001",
+        "path": "docs/examples/passive-divider.md"
+      }
+    ],
+    "summary": "Walks through the semantic, symbol, placement, and routing decisions for a two-resistor divider with an output test point.",
+    "title": "Example: Passive Divider"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

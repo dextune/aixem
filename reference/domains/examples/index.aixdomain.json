@@ -1,0 +1,45 @@
+{
+  "domain": {
+    "cards": [
+      {
+        "id": "AIXEM-EXAMPLE-BASIC-001",
+        "path": "reference/cards/examples/passive-divider.aixcard.json",
+        "summary": "Walks through the semantic, symbol, placement, and routing decisions for a two-resistor divider with an output test point.",
+        "title": "Example: Passive Divider"
+      },
+      {
+        "id": "AIXEM-EXAMPLE-CONTROLLER-001",
+        "path": "reference/cards/examples/grid-controller.aixcard.json",
+        "summary": "Documents the bundled executable project with 17 entities, 20 semantic nets, 12 symbol assets, and explicit orthogonal routing.",
+        "title": "Example: Grid Controller and Sensor Interface"
+      },
+      {
+        "id": "AIXEM-EXAMPLE-HIERARCHY-001",
+        "path": "reference/cards/examples/hierarchical-reference.aixcard.json",
+        "summary": "Shows how to partition power, sensing, control, and external I/O across sheets while retaining explicit semantic net continuity.",
+        "title": "Example: Hierarchical Reference Pattern"
+      },
+      {
+        "id": "AIXEM-EXAMPLE-INDEX-001",
+        "path": "reference/cards/examples/overview.aixcard.json",
+        "summary": "A progression from a minimal passive circuit to the complete grid-controller reference and a hierarchical design pattern.",
+        "title": "Examples"
+      },
+      {
+        "id": "AIXEM-EXAMPLE-SYMBOL-CORPUS-001",
+        "path": "reference/cards/examples/symbol-expressiveness-corpus.aixcard.json",
+        "summary": "Maps common symbol classes to the nearest validated corpus construction pattern and its primary authoring risks.",
+        "title": "Symbol Expressiveness Corpus Construction Index"
+      }
+    ],
+    "description": "Generated canonical-document cards for the examples domain.",
+    "id": "examples",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12"
+    },
+    "title": "Examples"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixdomain/1"
+}

@@ -1,0 +1,24 @@
+{
+  "entryRoute": "compose-project",
+  "executionMode": "deterministic-harness-replay",
+  "expectedInitialDiagnostics": [],
+  "id": "A006",
+  "iterations": 1,
+  "liveExternalAgentExecuted": false,
+  "missingExpectedDiagnostics": [],
+  "mutation": null,
+  "observedInitialDiagnostics": [],
+  "passConditions": {
+    "checkPassedAfterRepair": true,
+    "closePassed": true,
+    "expectedInitialDiagnosticsObserved": true,
+    "liveClaimFalse": true,
+    "renderDeterministic": true,
+    "zeroGeneratedOutputEdits": true,
+    "zeroScopeViolations": true
+  },
+  "recordDigest": "sha256:d1e431b7c315ab5eec12be5721a101f01bb862610d6b8d712faaecc4fc89e1f4",
+  "retainedRunRecord": "runs/A006-authoring-run-record.json",
+  "status": "pass",
+  "title": "Hierarchical two-sheet composition"
+}

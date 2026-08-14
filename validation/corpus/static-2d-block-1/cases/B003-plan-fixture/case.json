@@ -1,0 +1,40 @@
+{
+  "category": "static-block",
+  "componentPorts": [],
+  "expectedBoundsClass": "wide",
+  "expectedFieldRoles": [],
+  "expectedGridPolicy": "static-block-grid",
+  "expectedParameterIds": [],
+  "expectedPortCount": 0,
+  "expectedPrimitiveFamilies": [
+    "arc",
+    "circle",
+    "line",
+    "path"
+  ],
+  "expectedVariantIds": [],
+  "expectedVisiblePortCount": 0,
+  "formatVersion": "1.0",
+  "id": "B003",
+  "knownExclusions": [],
+  "manualReviewChecks": [
+    "outline-recognizable",
+    "repeated-geometry-evenly-spaced",
+    "text-readable-at-normal-scale",
+    "dimensions-unambiguous",
+    "no-unintended-fill-or-self-intersection-artifact",
+    "static-profile-exclusions-respected"
+  ],
+  "optionalCapabilities": [],
+  "purpose": "Mixed path, line, circle, and arc plan geometry",
+  "requiredCapabilities": [
+    "geometry.arc",
+    "geometry.circle",
+    "geometry.line",
+    "geometry.path"
+  ],
+  "schema": "https://schemas.aixem.org/conformance/corpus-case/1",
+  "symbolPath": "symbol.aixsym.json",
+  "tier": "b2d",
+  "title": "Plan-scale electrical fixture"
+}

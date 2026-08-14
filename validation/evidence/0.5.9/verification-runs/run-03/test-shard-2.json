@@ -1,0 +1,74 @@
+{
+  "durationSeconds": 35.948602,
+  "errors": [],
+  "executionMode": "isolated-test-module-processes-bounded-split",
+  "failedModules": 0,
+  "failures": [],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "moduleCount": 3,
+  "modules": [
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_authoring_harness"
+      ],
+      "durationSeconds": 11.909294,
+      "module": "tests.agent.test_authoring_harness",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_generated_output_hand_edit_blocks_check (tests.agent.test_authoring_harness.AuthoringHarnessTests.test_generated_output_hand_edit_blocks_check) ... ok\ntest_prepare_check_close_valid_project (tests.agent.test_authoring_harness.AuthoringHarnessTests.test_prepare_check_close_valid_project) ... ok\ntest_wrong_authority_edit_blocks_route (tests.agent.test_authoring_harness.AuthoringHarnessTests.test_wrong_authority_edit_blocks_route) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 11.236s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 3,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.conformance.test_hierarchical_project"
+      ],
+      "durationSeconds": 5.892067,
+      "module": "tests.conformance.test_hierarchical_project",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_complete_corpus_runner (tests.conformance.test_hierarchical_project.HierarchicalProjectConformanceTests.test_complete_corpus_runner) ... ok\ntest_hierarchy_is_explicit_acyclic_and_deterministic (tests.conformance.test_hierarchical_project.HierarchicalProjectConformanceTests.test_hierarchy_is_explicit_acyclic_and_deterministic) ... ok\ntest_interface_endpoint_is_a_real_leaf_semantic_endpoint (tests.conformance.test_hierarchical_project.HierarchicalProjectConformanceTests.test_interface_endpoint_is_a_real_leaf_semantic_endpoint) ... ok\ntest_inventory_is_exact (tests.conformance.test_hierarchical_project.HierarchicalProjectConformanceTests.test_inventory_is_exact) ... ok\ntest_multi_view_render_outputs_and_workbench_are_data_driven (tests.conformance.test_hierarchical_project.HierarchicalProjectConformanceTests.test_multi_view_render_outputs_and_workbench_are_data_driven) ... ok\ntest_production_geometry_remains_stable_after_canonical_library_migration (tests.conformance.test_hierarchical_project.HierarchicalProjectConformanceTests.test_production_geometry_remains_stable_after_canonical_library_migration) ... ok\ntest_project_graph_queries_and_name_isolation (tests.conformance.test_hierarchical_project.HierarchicalProjectConformanceTests.test_project_graph_queries_and_name_isolation) ... ok\ntest_project_net_equivalence_collision_fails_closed (tests.conformance.test_hierarchical_project.HierarchicalProjectConformanceTests.test_project_net_equivalence_collision_fails_closed) ... ok\ntest_ten_sheet_project_and_three_run_determinism (tests.conformance.test_hierarchical_project.HierarchicalProjectConformanceTests.test_ten_sheet_project_and_three_run_determinism) ... ok\ntest_v1_schema_contracts_are_immutable (tests.conformance.test_hierarchical_project.HierarchicalProjectConformanceTests.test_v1_schema_contracts_are_immutable) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 4.289s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 10,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.docs.test_repository"
+      ],
+      "durationSeconds": 18.146919,
+      "module": "tests.docs.test_repository",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_agent_policy (tests.docs.test_repository.RepositoryConformanceTests.test_agent_policy) ... ok\ntest_documentation_integrity (tests.docs.test_repository.RepositoryConformanceTests.test_documentation_integrity) ... ok\ntest_english_only_release_text (tests.docs.test_repository.RepositoryConformanceTests.test_english_only_release_text) ... ok\ntest_release_manifest_when_present (tests.docs.test_repository.RepositoryConformanceTests.test_release_manifest_when_present) ... ok\ntest_requirement_evidence (tests.docs.test_repository.RepositoryConformanceTests.test_requirement_evidence) ... ok\ntest_review_evidence (tests.docs.test_repository.RepositoryConformanceTests.test_review_evidence) ... ok\ntest_route_integrity (tests.docs.test_repository.RepositoryConformanceTests.test_route_integrity) ... ok\ntest_schematic_example (tests.docs.test_repository.RepositoryConformanceTests.test_schematic_example) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 15.736s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 8,
+      "valid": true
+    }
+  ],
+  "passedModules": 3,
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/test-run-shard/1",
+  "shard": {
+    "count": 12,
+    "index": 2,
+    "totalDiscoveredModules": 29
+  },
+  "skipped": [],
+  "successful": true,
+  "testsRun": 21
+}

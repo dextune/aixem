@@ -1,0 +1,41 @@
+{
+  "category": "static-block",
+  "componentPorts": [],
+  "expectedBoundsClass": "wide",
+  "expectedFieldRoles": [
+    "reference-field",
+    "value-field"
+  ],
+  "expectedGridPolicy": "static-block-grid",
+  "expectedParameterIds": [],
+  "expectedPortCount": 0,
+  "expectedPrimitiveFamilies": [
+    "line",
+    "rect",
+    "text"
+  ],
+  "expectedVariantIds": [],
+  "expectedVisiblePortCount": 0,
+  "formatVersion": "1.0",
+  "id": "B004",
+  "knownExclusions": [],
+  "manualReviewChecks": [
+    "outline-recognizable",
+    "repeated-geometry-evenly-spaced",
+    "text-readable-at-normal-scale",
+    "dimensions-unambiguous",
+    "no-unintended-fill-or-self-intersection-artifact",
+    "static-profile-exclusions-respected"
+  ],
+  "optionalCapabilities": [],
+  "purpose": "Text, line structure, and bound field-like labels",
+  "requiredCapabilities": [
+    "geometry.line",
+    "geometry.rect",
+    "text.field"
+  ],
+  "schema": "https://schemas.aixem.org/conformance/corpus-case/1",
+  "symbolPath": "symbol.aixsym.json",
+  "tier": "b2d",
+  "title": "Annotation title block"
+}

@@ -1,0 +1,38 @@
+{
+  "$id": "https://schemas.aixem.org/agent/task/1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AIXEM Agent Task Contract 1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "formatVersion", "id", "title", "operation", "routingMode", "entryRoute", "activeRoute", "prompt", "facts", "completionCriteria", "expectedArtifacts"],
+  "properties": {
+    "schema": {"const": "https://schemas.aixem.org/agent/task/1"},
+    "formatVersion": {"const": "1.0"},
+    "id": {"type": "string", "pattern": "^[A-Z][A-Z0-9-]{2,63}$"},
+    "title": {"type": "string", "minLength": 3, "maxLength": 160},
+    "operation": {"enum": ["create", "modify", "repair"]},
+    "routingMode": {"enum": ["agent-resolve", "fixed"]},
+    "entryRoute": {"$ref": "#/$defs/route"},
+    "activeRoute": {"$ref": "#/$defs/route"},
+    "project": {"$ref": "#/$defs/safePath"},
+    "prompt": {"type": "string", "minLength": 12, "maxLength": 12000},
+    "facts": {"type": "object", "additionalProperties": true},
+    "writeConstraints": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "writableAuthorities": {"type": "array", "items": {"enum": ["semantic", "component-library", "symbol", "layout", "project", "project-routing"]}, "uniqueItems": true},
+        "writablePaths": {"type": "array", "items": {"$ref": "#/$defs/safePath"}, "uniqueItems": true},
+        "prohibitedPaths": {"type": "array", "items": {"$ref": "#/$defs/safePath"}, "uniqueItems": true},
+        "requiredValidators": {"type": "array", "items": {"type": "string", "minLength": 3}, "uniqueItems": true}
+      }
+    },
+    "completionCriteria": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 3}, "uniqueItems": true},
+    "expectedArtifacts": {"type": "array", "items": {"$ref": "#/$defs/safePath"}, "uniqueItems": true},
+    "notes": {"type": "array", "items": {"type": "string"}}
+  },
+  "$defs": {
+    "route": {"type": "string", "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"},
+    "safePath": {"type": "string", "minLength": 1, "not": {"pattern": "(^/|(^|/)\\.\\.(/|$)|^[A-Za-z]:)"}}
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "layoutDigest": "sha256:c36878ad4cb5d26ef813218bfe82d134601e459ef0e9b3d961ee2104ba0c6974",
+  "ports": [
+    {
+      "direction": "output",
+      "id": "OUT",
+      "localNet": "out",
+      "projectNet": "debug_signal",
+      "role": "signal"
+    },
+    {
+      "direction": "input",
+      "id": "VCC",
+      "localNet": "vcc",
+      "projectNet": "vcc",
+      "role": "power"
+    }
+  ],
+  "sheet": "control",
+  "sourceDigest": "sha256:6a0b8fa7b090216e12eb81b8c3a9f30d11e2551706dd9dd0e2d6a3489f3c26ee",
+  "title": "Control"
+}

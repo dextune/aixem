@@ -1,0 +1,48 @@
+{
+  "adapterVersion": "1.0",
+  "agentClass": "external-ai",
+  "command": [
+    "external-ai-agent",
+    "--task",
+    "{task}",
+    "--workspace",
+    "{workspace}",
+    "--reference",
+    "{reference}",
+    "--state",
+    "{state}",
+    "--observation-log",
+    "{observationLog}"
+  ],
+  "formatVersion": "1.0",
+  "id": "replace-with-external-agent",
+  "identity": {
+    "configLabel": "reference-executor",
+    "model": "replace-me",
+    "provider": "replace-me",
+    "tool": "replace-me",
+    "toolVersion": "replace-me"
+  },
+  "inheritEnvironment": [],
+  "inputMode": "task-path-argument",
+  "limits": {
+    "observationEvents": 100000,
+    "outputBytes": 4194304,
+    "wallTimeSeconds": 1800
+  },
+  "networkPolicy": {
+    "allowedHosts": [],
+    "enforcement": "external-sandbox",
+    "mode": "declared"
+  },
+  "observationCapability": {
+    "commands": true,
+    "fileReads": true,
+    "routeActions": true,
+    "searches": true,
+    "writes": true
+  },
+  "redactedConfigurationDigest": "sha256:5e2c1a09e94b63d17e517be0fd011a6e4e0f7de7483a7e864812ec46347e241c",
+  "schema": "https://schemas.aixem.org/agent/executor/1",
+  "workingDirectoryPolicy": "stage-root"
+}

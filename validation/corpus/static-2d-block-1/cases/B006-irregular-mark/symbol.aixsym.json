@@ -1,0 +1,223 @@
+{
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/component-graphics/aixsym/1",
+  "symbol": {
+    "anchors": [
+      {
+        "id": "origin",
+        "kind": "insertion",
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "bounds": {
+      "height": 65,
+      "width": 70,
+      "x": -35,
+      "y": -30
+    },
+    "coordinateSystem": {
+      "angleDirection": "clockwise",
+      "angleUnit": "deg",
+      "grid": 2.5,
+      "unit": "mm",
+      "yAxis": "down"
+    },
+    "definitions": {},
+    "description": "Self-authored irregular static mark using a compound cubic path and local gradient.",
+    "graphics": [
+      {
+        "commands": [
+          {
+            "cmd": "M",
+            "x": -25,
+            "y": 5
+          },
+          {
+            "cmd": "C",
+            "x": 0,
+            "x1": -15,
+            "x2": -2.5,
+            "y": 0,
+            "y1": -20,
+            "y2": -20
+          },
+          {
+            "cmd": "C",
+            "x": 25,
+            "x1": 2.5,
+            "x2": 15,
+            "y": -5,
+            "y1": 20,
+            "y2": 20
+          },
+          {
+            "cmd": "L",
+            "x": 12.5,
+            "y": 15
+          },
+          {
+            "cmd": "C",
+            "x": -15,
+            "x1": 5,
+            "x2": -7.5,
+            "y": 15,
+            "y1": 27.5,
+            "y2": 27.5
+          },
+          {
+            "cmd": "Z"
+          }
+        ],
+        "id": "irregular-mark",
+        "layer": "body",
+        "role": "body",
+        "style": "mark-gradient",
+        "type": "path"
+      }
+    ],
+    "id": "corpus:b006-irregular-mark",
+    "layers": [
+      {
+        "defaultVisible": true,
+        "id": "body",
+        "locked": true,
+        "order": 10,
+        "printable": true,
+        "purpose": "symbol body and pin leads"
+      },
+      {
+        "defaultVisible": true,
+        "id": "fields",
+        "locked": false,
+        "order": 20,
+        "printable": true,
+        "purpose": "bound and literal text fields"
+      }
+    ],
+    "metadata": {
+      "corpus": "static-2d-block-1"
+    },
+    "paintServers": {
+      "mark-gradient": {
+        "stops": [
+          {
+            "color": "#fffef8",
+            "offset": 0
+          },
+          {
+            "color": "#b7d9d6",
+            "offset": 1
+          }
+        ],
+        "type": "linear-gradient",
+        "x1": -25,
+        "x2": 25,
+        "y1": -20,
+        "y2": 20
+      }
+    },
+    "parameters": {},
+    "ports": [],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-11",
+      "license": "CC0-1.0",
+      "notes": "Vendor-neutral evidence fixture; no proprietary library asset was copied.",
+      "origin": "AIXEM 0.5.2 self-authored conformance corpus"
+    },
+    "purpose": "schematic-symbol",
+    "requiredFeatures": [
+      "compound-path",
+      "cubic-bezier",
+      "gradient"
+    ],
+    "revision": "1.0.0",
+    "styles": {
+      "body": {
+        "fill": "#fffef8",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.65
+      },
+      "dashed": {
+        "dashArray": [
+          2.5,
+          1.25
+        ],
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeWidth": 0.5
+      },
+      "detail": {
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.5
+      },
+      "dimension": {
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeWidth": 0.5
+      },
+      "field": {
+        "fill": "#17231d",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.5,
+        "fontWeight": 600,
+        "stroke": "none"
+      },
+      "filled": {
+        "fill": "#fffef8",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.65
+      },
+      "label": {
+        "fill": "#0c7772",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.0,
+        "fontWeight": 600,
+        "stroke": "none"
+      },
+      "line": {
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.65
+      },
+      "mark": {
+        "fill": "#0c7772",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.45
+      },
+      "mark-gradient": {
+        "fill": "paint:mark-gradient",
+        "stroke": "#0c7772",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.65
+      },
+      "small": {
+        "fill": "#0c7772",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 2.4,
+        "fontWeight": 500,
+        "stroke": "none"
+      },
+      "value": {
+        "fill": "#4f5e56",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.0,
+        "fontWeight": 400,
+        "stroke": "none"
+      }
+    },
+    "title": "B006 Irregular mark"
+  }
+}

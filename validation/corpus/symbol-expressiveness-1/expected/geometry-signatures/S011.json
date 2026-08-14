@@ -1,0 +1,77 @@
+{
+  "bounds": {
+    "height": 65,
+    "width": 50,
+    "x": -25,
+    "y": -32.5
+  },
+  "capabilities": [
+    "geometry.line",
+    "geometry.polygon",
+    "port.mapping",
+    "text.field"
+  ],
+  "case": "S011",
+  "defaultVariant": null,
+  "definitions": [],
+  "fieldAnchors": [
+    {
+      "field": "reference",
+      "id": "field-reference",
+      "x": 0,
+      "y": -27.5
+    },
+    {
+      "field": "value",
+      "id": "field-value",
+      "x": 0,
+      "y": 27.5
+    }
+  ],
+  "parameters": {},
+  "ports": [
+    {
+      "id": "INP",
+      "orientation": 180,
+      "visible": true,
+      "x": -17.5,
+      "y": -5.0
+    },
+    {
+      "id": "INN",
+      "orientation": 180,
+      "visible": true,
+      "x": -17.5,
+      "y": 5.0
+    },
+    {
+      "id": "OUT",
+      "orientation": 0,
+      "visible": true,
+      "x": 17.5,
+      "y": 0.0
+    },
+    {
+      "id": "VP",
+      "orientation": 90,
+      "visible": true,
+      "x": 0.0,
+      "y": -20.0
+    },
+    {
+      "id": "VN",
+      "orientation": 270,
+      "visible": true,
+      "x": 0.0,
+      "y": 20.0
+    }
+  ],
+  "primitiveCounts": {
+    "line": 5,
+    "polygon": 1,
+    "text": 4
+  },
+  "requiredFeatures": [],
+  "symbol": "corpus:s011-op-amp",
+  "variants": []
+}

@@ -1,0 +1,138 @@
+{
+  "coordinateSystem": {
+    "angleDirection": "clockwise",
+    "angleUnit": "deg",
+    "grid": 2.5,
+    "unit": "mm",
+    "yAxis": "down"
+  },
+  "diagnostics": [],
+  "entities": [
+    {
+      "componentType": "conformance:s013",
+      "key": "X1",
+      "kind": "component",
+      "parameters": {
+        "show-core": true
+      },
+      "placement": {
+        "entity": "X1",
+        "layer": "symbols",
+        "x": 52.5,
+        "y": 52.5
+      },
+      "ports": {
+        "P1": [
+          30.0,
+          42.5
+        ],
+        "P2": [
+          30.0,
+          62.5
+        ],
+        "S1": [
+          75.0,
+          42.5
+        ],
+        "S2": [
+          75.0,
+          62.5
+        ]
+      },
+      "reference": "X1",
+      "symbolDigest": "sha256:dbc44de9f3b297f81385705f795a3a4234e01d636bfa6f266539e6f0d6c19b75",
+      "symbolId": "corpus:s013-transformer",
+      "value": "Transformer",
+      "variant": null
+    }
+  ],
+  "featuresUsed": [
+    "compound-path",
+    "cubic-bezier",
+    "definition-use"
+  ],
+  "generatedAt": "2026-08-10T00:00:00Z",
+  "gridValidation": {
+    "crossingPolicy": "junction-required",
+    "orthogonalSegments": 0,
+    "placementExceptions": [],
+    "placements": 1,
+    "placementsOnGrid": 1,
+    "profile": "aixem.schematic.grid-light",
+    "routeSegments": 0,
+    "routeViasOnGrid": true,
+    "snap": 2.5,
+    "zeroLengthSegments": []
+  },
+  "hashes": {
+    "layout": "sha256:20a8d04222ea248a16a75b2e17a380f1bd7625e01d0d2f72daa878093871b28a",
+    "libraries": [
+      "sha256:2fe5b4540d1b83c11fcbc868688e66523132cbb192f0f1abcd8e50674011d326"
+    ],
+    "source": "sha256:00a517ed01863bc805e02da3b095fe8dc236a1bc7a0fcfa58c014608d05b0dcd",
+    "symbolAssets": [
+      "sha256:dbc44de9f3b297f81385705f795a3a4234e01d636bfa6f266539e6f0d6c19b75"
+    ]
+  },
+  "layers": [
+    {
+      "defaultVisible": true,
+      "id": "connections",
+      "locked": false,
+      "order": 10,
+      "printable": true,
+      "purpose": "semantic net routes"
+    },
+    {
+      "defaultVisible": true,
+      "id": "symbols",
+      "locked": false,
+      "order": 20,
+      "printable": true,
+      "purpose": "component symbols"
+    },
+    {
+      "defaultVisible": true,
+      "id": "annotation",
+      "locked": false,
+      "order": 30,
+      "printable": true,
+      "purpose": "notes"
+    }
+  ],
+  "nets": [],
+  "project": {
+    "id": "conformance:s013",
+    "profile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "title": "S013 Transformer conformance project"
+  },
+  "renderer": {
+    "id": "aixem-grid-schematic-reference-renderer",
+    "version": "0.5.1"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/resolved-scene/1",
+  "sheet": {
+    "height": 130.0,
+    "margin": 10,
+    "titleBlock": {
+      "drawing": "corpus_s013-layout",
+      "revision": "A",
+      "sheet": "1/1",
+      "title": "S013 — Transformer"
+    },
+    "width": 180.0
+  },
+  "statistics": {
+    "entities": 1,
+    "nets": 0,
+    "noConnects": 0,
+    "primitives": 12,
+    "routeSegments": 0,
+    "symbolAssets": 1
+  },
+  "styleProfile": {
+    "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+    "id": "aixem.schematic.grid-light",
+    "path": "aixem-grid-schematic-style-1.aixstyle.json"
+  }
+}

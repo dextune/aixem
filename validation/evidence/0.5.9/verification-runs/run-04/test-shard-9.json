@@ -1,0 +1,40 @@
+{
+  "durationSeconds": 1.71469,
+  "errors": [],
+  "executionMode": "isolated-test-module-processes",
+  "failedModules": 0,
+  "failures": [],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "moduleCount": 1,
+  "modules": [
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_observation"
+      ],
+      "durationSeconds": 1.714334,
+      "module": "tests.agent.test_observation",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "test_observable_stream_is_sequence_checked_and_digest_addressed (tests.agent.test_observation.ObservationEventContractTests.test_observable_stream_is_sequence_checked_and_digest_addressed) ... ok\ntest_path_traversal_and_sequence_gaps_are_rejected (tests.agent.test_observation.ObservationEventContractTests.test_path_traversal_and_sequence_gaps_are_rejected) ... ok\ntest_private_reasoning_fields_are_rejected (tests.agent.test_observation.ObservationEventContractTests.test_private_reasoning_fields_are_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.003s\n\nOK\n",
+      "stdoutTail": "",
+      "testsRun": 3,
+      "valid": true
+    }
+  ],
+  "passedModules": 1,
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/test-run-shard/1",
+  "shard": {
+    "count": 29,
+    "index": 9,
+    "totalDiscoveredModules": 29
+  },
+  "skipped": [],
+  "successful": true,
+  "testsRun": 3
+}

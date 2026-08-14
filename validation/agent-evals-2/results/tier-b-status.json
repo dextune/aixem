@@ -1,0 +1,15 @@
+{
+  "cases": 0,
+  "claim": "No live external agent execution was performed. This release makes no Tier B live-agent success claim.",
+  "executed": false,
+  "executionMode": "live-external-agent",
+  "executor": null,
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "liveExternalAgentExecuted": false,
+  "passed": 0,
+  "release": "AIXEM-SRP-0.5.5-2026-08-11",
+  "schema": "https://schemas.aixem.org/validation/agent-eval-2-tier-b-status/1",
+  "tier": "B",
+  "valid": true
+}

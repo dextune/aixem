@@ -1,0 +1,15 @@
+{
+  "canonicalHashes": {},
+  "checks": [],
+  "deterministic": true,
+  "diagnosticMatched": true,
+  "error": "sheetPort presentation closure mismatch: missing=['VCC'], extra=[]",
+  "expected": "fail",
+  "expectedDiagnostic": "sheetPort presentation closure mismatch",
+  "id": "N006",
+  "observed": "fail",
+  "projectDigest": "sha256:758698a63db2fa9a70a1b6e677683ad017a1290735cedd49d2800cfc40dbfd60",
+  "repeatCount": 0,
+  "status": "pass",
+  "title": "Missing required sheet port presentation"
+}

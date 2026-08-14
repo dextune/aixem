@@ -1,0 +1,178 @@
+{
+  "activeRoute": "create-symbol",
+  "baseline": {
+    "artifactDigests": {
+      "library/electronics/authoring/authoring-components.aixlib.json": "sha256:22e65f4ce4866c5f89d5d30d2e3689cd0ecab4e1db1b16fc4b7c46beddc805e5",
+      "library/electronics/authoring/repaired-resistor.aixsym.json": "sha256:3e9c3ad9c2591679232b35c63d6ee44abc1114ec45ce309064338dc4d0ecbda4",
+      "project.aixproj.json": "sha256:03d7e7fd8f32b5a2571d5dd52022764d3e44b4f74cf390922488d6d43294c848",
+      "visual_repair.aixem": "sha256:fd631efc9f3b87c291a27fa663266a17a0c574a95c9e92468364a3f0751f368c",
+      "visual_repair.aixlayout.json": "sha256:16648e277333dc15e551ab8ffe404a210c2d8432c31a38268541785f18fc3063"
+    },
+    "authoritativeDigest": "sha256:075d207866d4e5cb2f4c1c3254d7290b7bd13f54b09d4b411ef937fc8ffd3895",
+    "snapshotDigest": "sha256:53bf6e1083fe70f60b2f56922963aa170ddabe8b58d701d5bab8f1e7fffed7e3"
+  },
+  "entryRoute": "create-symbol",
+  "execution": {
+    "liveExternalAgentExecuted": false,
+    "mode": "deterministic-harness"
+  },
+  "final": {
+    "authoritativeArtifactDigests": {
+      "library/electronics/authoring/authoring-components.aixlib.json": "sha256:e5f766b2ad9d115ef752a698040f3403b62d7d9b1fb177f61685e690a9933b67",
+      "library/electronics/authoring/repaired-resistor.aixsym.json": "sha256:974ceeaf98b0defe0ccae7b72dcdda0f8c4dafd879ff72fbe47b82578373b9e5",
+      "project.aixproj.json": "sha256:12c7e7db3d4f2ee14debec5c8c7d098de55976e3e516131ce88215c00a5be668",
+      "visual_repair.aixem": "sha256:fd631efc9f3b87c291a27fa663266a17a0c574a95c9e92468364a3f0751f368c",
+      "visual_repair.aixlayout.json": "sha256:16648e277333dc15e551ab8ffe404a210c2d8432c31a38268541785f18fc3063"
+    },
+    "authoritativeDigest": "sha256:c8cf3d8784fce22ec1ad08f7a5573a81e9bf29f77b3d089b179f985940a27a23",
+    "blockingDiagnosticCount": 0,
+    "conformant": true,
+    "determinism": {
+      "changed": [],
+      "projectRuns": 3,
+      "repeatCount": 3,
+      "valid": true
+    },
+    "diagnosticCount": 0,
+    "diagnostics": [],
+    "generatedOutputEditCount": 0,
+    "renderArtifactDigests": {
+      "render/drawing.svg": "sha256:87a3dcc64d0c9c220bde531c7949a518a315c705d7ca4067a28206ef0c3f6c27",
+      "render/render-manifest.json": "sha256:131a5f30a1f5efbd9d0e546844a25dbee8d8661d7997d7a5f39838f3d9513638",
+      "render/resolved-scene.json": "sha256:01947f8f657000cf563b4067c68b7709bcec55b3acbff919fcbc045e98a88a83",
+      "render/viewer-model.json": "sha256:b3a166bb69e67d706e864894ede7c96b5e513d128e39b7d1032fd416008e999a",
+      "render/viewer.html": "sha256:553ab79119c4e582f0838ce0d30c2cb0c4c533566bbeea6be4ad72512f7df4f2",
+      "render/workbench.html": "sha256:bb6fcc5792e5e764baa959ce952dbc1d4229dea7c8d6b78cb42934caa4e2eeda"
+    },
+    "scopeViolationCount": 0,
+    "snapshotDigest": "sha256:d33db344db92ec561e39706cf11f79733011fbb3043a7ca04d268ef0ec4e4f8b",
+    "status": "CLOSED"
+  },
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "iterations": [
+    {
+      "authoritativeDigestAfter": "sha256:c8cf3d8784fce22ec1ad08f7a5573a81e9bf29f77b3d089b179f985940a27a23",
+      "authoritativeDigestBefore": "sha256:075d207866d4e5cb2f4c1c3254d7290b7bd13f54b09d4b411ef937fc8ffd3895",
+      "blockingAfter": 0,
+      "blockingBefore": 1,
+      "changeSet": {
+        "afterAuthoritativeDigest": "sha256:c8cf3d8784fce22ec1ad08f7a5573a81e9bf29f77b3d089b179f985940a27a23",
+        "afterSnapshotDigest": "sha256:5bd0af48fb343b4d089316c6ce4e82162d8022536298067d3f08acd0de307bff",
+        "beforeAuthoritativeDigest": "sha256:075d207866d4e5cb2f4c1c3254d7290b7bd13f54b09d4b411ef937fc8ffd3895",
+        "beforeSnapshotDigest": "sha256:53bf6e1083fe70f60b2f56922963aa170ddabe8b58d701d5bab8f1e7fffed7e3",
+        "changed": [
+          {
+            "afterDigest": "sha256:e5f766b2ad9d115ef752a698040f3403b62d7d9b1fb177f61685e690a9933b67",
+            "allowed": true,
+            "authority": "component-library",
+            "beforeDigest": "sha256:22e65f4ce4866c5f89d5d30d2e3689cd0ecab4e1db1b16fc4b7c46beddc805e5",
+            "operation": "modified",
+            "path": "library/electronics/authoring/authoring-components.aixlib.json",
+            "role": "authoritative"
+          },
+          {
+            "afterDigest": "sha256:974ceeaf98b0defe0ccae7b72dcdda0f8c4dafd879ff72fbe47b82578373b9e5",
+            "allowed": true,
+            "authority": "symbol",
+            "beforeDigest": "sha256:3e9c3ad9c2591679232b35c63d6ee44abc1114ec45ce309064338dc4d0ecbda4",
+            "operation": "modified",
+            "path": "library/electronics/authoring/repaired-resistor.aixsym.json",
+            "role": "authoritative"
+          },
+          {
+            "afterDigest": "sha256:12c7e7db3d4f2ee14debec5c8c7d098de55976e3e516131ce88215c00a5be668",
+            "allowed": true,
+            "authority": "project",
+            "beforeDigest": "sha256:03d7e7fd8f32b5a2571d5dd52022764d3e44b4f74cf390922488d6d43294c848",
+            "changedPointers": [
+              "/project/libraries/0/digest"
+            ],
+            "operation": "modified",
+            "path": "project.aixproj.json",
+            "role": "authoritative"
+          }
+        ],
+        "formatVersion": "1.0",
+        "generatedOutputEdits": [],
+        "iteration": 1,
+        "requiredValidators": [
+          "agent.change_scope",
+          "agent.diagnostics",
+          "schematic.authoring_binding",
+          "schematic.authoring_examples",
+          "schematic.authoring_integrity",
+          "schematic.renderer_contract",
+          "schematic.symbol_design",
+          "schematic.symbol_schema"
+        ],
+        "route": "create-symbol",
+        "schema": "https://schemas.aixem.org/agent/change-set/1",
+        "scopeViolations": [],
+        "valid": true
+      },
+      "changeSetDigest": "sha256:712c2fc84d13651d83689324d3cbaf681d552389e66e3eb1cb4e6799932efb1b",
+      "diagnosticStateAfter": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "diagnosticStateBefore": "sha256:90d120fa6ec2e6e4e767058b1a82ecaf1f6fb220599cd0fc569a892688674cea",
+      "diagnosticsAfter": [],
+      "diagnosticsBefore": [
+        {
+          "artifact": "library/electronics/authoring/repaired-resistor.aixsym.json",
+          "authority": "symbol",
+          "code": "AIXEM-DIAG-SYMBOL-LEAD-PORT-MISMATCH",
+          "evidence": {
+            "leadEndpoint": [
+              -12.5,
+              0.0
+            ],
+            "port": [
+              -15.0,
+              0.0
+            ],
+            "validator": "schematic.symbol_design"
+          },
+          "id": "diag-0001",
+          "location": {
+            "objectId": "1",
+            "objectKind": "symbol-port"
+          },
+          "message": "Port 1 is at (-15.0, 0.0), but its visible lead ends at (-12.5, 0.0).",
+          "remediationRoute": "create-symbol",
+          "repairClass": "authoritative-source",
+          "requirement": "AIXEM-REQ-SYMBOL-DESIGN-0002",
+          "severity": "error"
+        }
+      ],
+      "improved": true,
+      "iteration": 1,
+      "renderedEvidence": {},
+      "route": "create-symbol",
+      "stage": "VALIDATED",
+      "validatorsExecuted": [
+        "agent.change_scope",
+        "agent.diagnostics",
+        "schematic.authoring_binding",
+        "schematic.authoring_examples",
+        "schematic.authoring_integrity",
+        "schematic.renderer_contract",
+        "schematic.symbol_design",
+        "schematic.symbol_schema"
+      ]
+    }
+  ],
+  "loopState": {
+    "atIteration": null,
+    "oscillating": false,
+    "stalled": false,
+    "stateDigest": null
+  },
+  "recordDigest": "sha256:4dbfdb3a5891aaffd5d9da997a0efffb17a5b45a6bac3a8f1f541a5395f4c4a3",
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "routeChain": [
+    "create-symbol"
+  ],
+  "runId": "run-def0f3342d8da3d68476",
+  "schema": "https://schemas.aixem.org/agent/run-record/1",
+  "taskId": "l008",
+  "taskPacketDigest": "sha256:83eeed3b1727037db1f48f63a9bb0a6d39ae1b51667ed0ad72c988b07bd3f762"
+}

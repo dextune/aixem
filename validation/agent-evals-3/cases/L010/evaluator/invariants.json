@@ -1,0 +1,76 @@
+{
+  "authority": "evaluator-only",
+  "caseId": "L010",
+  "formatVersion": "1.0",
+  "invariants": [
+    {
+      "arguments": {
+        "project": "project.aixproj.json",
+        "route": "validate-project"
+      },
+      "basis": [
+        {
+          "pointer": "/completionCriteria/3",
+          "type": "task"
+        }
+      ],
+      "description": "The actual final workspace passes full project validation.",
+      "id": "L010-VALID",
+      "predicate": "validator-pass",
+      "required": true
+    },
+    {
+      "arguments": {
+        "project": "project.aixproj.json",
+        "repeats": 3
+      },
+      "basis": [
+        {
+          "pointer": "/completionCriteria/3",
+          "type": "task"
+        }
+      ],
+      "description": "The actual final workspace renders deterministically three times.",
+      "id": "L010-RENDER",
+      "predicate": "render-deterministic",
+      "required": true
+    },
+    {
+      "arguments": {
+        "code": "AIXEM-DIAG-ROUTE-NON-ORTHOGONAL",
+        "project": "project.aixproj.json",
+        "route": "route-nets"
+      },
+      "basis": [
+        {
+          "pointer": "/facts",
+          "type": "task"
+        }
+      ],
+      "description": "The non-orthogonal route diagnostic is absent.",
+      "id": "L010-DIAG",
+      "predicate": "diagnostic-absent",
+      "required": true
+    },
+    {
+      "arguments": {
+        "authorities": [
+          "semantic",
+          "symbol",
+          "component-library"
+        ]
+      },
+      "basis": [
+        {
+          "pointer": "/writeConstraints/writableAuthorities",
+          "type": "task"
+        }
+      ],
+      "description": "Semantic, symbol, and library authorities remain unchanged.",
+      "id": "L010-PRESERVE",
+      "predicate": "authority-digest-unchanged",
+      "required": true
+    }
+  ],
+  "schema": "https://schemas.aixem.org/agent/evaluation-invariant/1"
+}

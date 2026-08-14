@@ -1,0 +1,64 @@
+{
+  "bounds": {
+    "height": 35,
+    "width": 55,
+    "x": -27.5,
+    "y": -17.5
+  },
+  "capabilities": [
+    "geometry.line",
+    "geometry.path",
+    "port.mapping",
+    "structure.use",
+    "text.field"
+  ],
+  "case": "S005",
+  "defaultVariant": null,
+  "definitions": [
+    "coil"
+  ],
+  "fieldAnchors": [
+    {
+      "field": "reference",
+      "id": "field-reference",
+      "x": 0,
+      "y": -12.5
+    },
+    {
+      "field": "value",
+      "id": "field-value",
+      "x": 0,
+      "y": 12.5
+    }
+  ],
+  "parameters": {},
+  "ports": [
+    {
+      "id": "1",
+      "orientation": 180,
+      "visible": true,
+      "x": -22.5,
+      "y": 0.0
+    },
+    {
+      "id": "2",
+      "orientation": 0,
+      "visible": true,
+      "x": 22.5,
+      "y": 0.0
+    }
+  ],
+  "primitiveCounts": {
+    "line": 2,
+    "path": 1,
+    "text": 2,
+    "use": 2
+  },
+  "requiredFeatures": [
+    "compound-path",
+    "cubic-bezier",
+    "definition-use"
+  ],
+  "symbol": "corpus:s005-inductor",
+  "variants": []
+}

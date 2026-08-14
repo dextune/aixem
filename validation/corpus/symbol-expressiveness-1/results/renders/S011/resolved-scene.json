@@ -1,0 +1,136 @@
+{
+  "coordinateSystem": {
+    "angleDirection": "clockwise",
+    "angleUnit": "deg",
+    "grid": 2.5,
+    "unit": "mm",
+    "yAxis": "down"
+  },
+  "diagnostics": [],
+  "entities": [
+    {
+      "componentType": "conformance:s011",
+      "key": "X1",
+      "kind": "component",
+      "parameters": {},
+      "placement": {
+        "entity": "X1",
+        "layer": "symbols",
+        "x": 50.0,
+        "y": 57.5
+      },
+      "ports": {
+        "INN": [
+          32.5,
+          62.5
+        ],
+        "INP": [
+          32.5,
+          52.5
+        ],
+        "OUT": [
+          67.5,
+          57.5
+        ],
+        "VN": [
+          50.0,
+          77.5
+        ],
+        "VP": [
+          50.0,
+          37.5
+        ]
+      },
+      "reference": "X1",
+      "symbolDigest": "sha256:e6c12e8aefac3b1828e139400e5661bca5dfaa144f726990aefe446337cd665e",
+      "symbolId": "corpus:s011-op-amp",
+      "value": "Operational amplifier",
+      "variant": null
+    }
+  ],
+  "featuresUsed": [],
+  "generatedAt": "2026-08-10T00:00:00Z",
+  "gridValidation": {
+    "crossingPolicy": "junction-required",
+    "orthogonalSegments": 0,
+    "placementExceptions": [],
+    "placements": 1,
+    "placementsOnGrid": 1,
+    "profile": "aixem.schematic.grid-light",
+    "routeSegments": 0,
+    "routeViasOnGrid": true,
+    "snap": 2.5,
+    "zeroLengthSegments": []
+  },
+  "hashes": {
+    "layout": "sha256:a15c75793a480662f9e67e1139ca15e52ddf655d411350520aee0a680e6cb8f4",
+    "libraries": [
+      "sha256:e4f689675cb3ba86b5c0e0c57ad90685d9f0ab966e6da78a60501c0ec1292177"
+    ],
+    "source": "sha256:64a4c3f2cf803de11bf320509750c90f9a22f6f25c061354f57fadad9d7c13fb",
+    "symbolAssets": [
+      "sha256:e6c12e8aefac3b1828e139400e5661bca5dfaa144f726990aefe446337cd665e"
+    ]
+  },
+  "layers": [
+    {
+      "defaultVisible": true,
+      "id": "connections",
+      "locked": false,
+      "order": 10,
+      "printable": true,
+      "purpose": "semantic net routes"
+    },
+    {
+      "defaultVisible": true,
+      "id": "symbols",
+      "locked": false,
+      "order": 20,
+      "printable": true,
+      "purpose": "component symbols"
+    },
+    {
+      "defaultVisible": true,
+      "id": "annotation",
+      "locked": false,
+      "order": 30,
+      "printable": true,
+      "purpose": "notes"
+    }
+  ],
+  "nets": [],
+  "project": {
+    "id": "conformance:s011",
+    "profile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "title": "S011 Operational amplifier conformance project"
+  },
+  "renderer": {
+    "id": "aixem-grid-schematic-reference-renderer",
+    "version": "0.5.1"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/resolved-scene/1",
+  "sheet": {
+    "height": 140.0,
+    "margin": 10,
+    "titleBlock": {
+      "drawing": "corpus_s011-layout",
+      "revision": "A",
+      "sheet": "1/1",
+      "title": "S011 — Operational amplifier"
+    },
+    "width": 180.0
+  },
+  "statistics": {
+    "entities": 1,
+    "nets": 0,
+    "noConnects": 0,
+    "primitives": 10,
+    "routeSegments": 0,
+    "symbolAssets": 1
+  },
+  "styleProfile": {
+    "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+    "id": "aixem.schematic.grid-light",
+    "path": "aixem-grid-schematic-style-1.aixstyle.json"
+  }
+}

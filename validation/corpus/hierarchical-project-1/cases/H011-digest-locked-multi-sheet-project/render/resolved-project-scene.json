@@ -1,0 +1,1060 @@
+{
+  "authority": {
+    "connectivityFromGeometry": false,
+    "layersAreSheets": false,
+    "localPresentation": "aixlayout/2",
+    "localSemantics": ".aixem",
+    "projectComposition": "aixproj/2"
+  },
+  "diagnostics": [],
+  "generatedAt": "2026-08-10T12:00:00Z",
+  "hashes": {
+    "inputs": [
+      {
+        "layoutDigest": "sha256:8abd78ab29b80c35d02cf71522e3a18d688f56c30c6a7646f427cb0aaf4cdcd1",
+        "layoutPath": "layouts/power.aixlayout.json",
+        "resolvedSceneDigest": "sha256:91c34e0b7e90aab24921635a9f92fb7864cce58dc0a5581ff3aa52dc9203fb07",
+        "sheet": "power",
+        "sourceDigest": "sha256:d0aa08872cea9feae7dd70fce75b2e5ac95def91642321179f003411995471a9",
+        "sourcePath": "circuits/power.aixem",
+        "svgDigest": "sha256:6a0eaaca4c8e4b6e0943ad4e682a29760b0db80a4dc94cc4fb420e170179477b"
+      },
+      {
+        "layoutDigest": "sha256:265c307a7d8e6282a51d60219279dab5408018da677ec9844309ec201e53c27b",
+        "layoutPath": "layouts/control.aixlayout.json",
+        "resolvedSceneDigest": "sha256:495741a61badf576169f51bceb52584951848438859459120eb0d236d223d9ab",
+        "sheet": "control",
+        "sourceDigest": "sha256:01693a46688a08dad6cf0be690dcc5862017948a951743184527332708fe1377",
+        "sourcePath": "circuits/control.aixem",
+        "svgDigest": "sha256:14349446024b2512a1290cec3f63bad9434669f27b4a0833f650abca3cc4e55e"
+      }
+    ],
+    "manifest": "sha256:d264a4691030d1d0343d45c8d70cd52d0f5929cca2f60fdac933d1ba24468984",
+    "styleProfile": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393"
+  },
+  "hierarchy": [
+    {
+      "children": [],
+      "depth": 0,
+      "id": "power",
+      "order": 10,
+      "parent": null,
+      "title": "Power"
+    },
+    {
+      "children": [],
+      "depth": 0,
+      "id": "control",
+      "order": 20,
+      "parent": null,
+      "title": "Control"
+    }
+  ],
+  "interfaceSummaries": {
+    "control": {
+      "layoutDigest": "sha256:265c307a7d8e6282a51d60219279dab5408018da677ec9844309ec201e53c27b",
+      "ports": [
+        {
+          "direction": "passive",
+          "id": "GND",
+          "localNet": "gnd",
+          "projectNet": "gnd",
+          "role": "power"
+        },
+        {
+          "direction": "input",
+          "id": "IN",
+          "localNet": "in",
+          "projectNet": "control_signal",
+          "role": "signal"
+        },
+        {
+          "direction": "input",
+          "id": "VCC",
+          "localNet": "vcc",
+          "projectNet": "vcc_5v",
+          "role": "power"
+        }
+      ],
+      "sheet": "control",
+      "sourceDigest": "sha256:01693a46688a08dad6cf0be690dcc5862017948a951743184527332708fe1377",
+      "title": "Control"
+    },
+    "power": {
+      "layoutDigest": "sha256:8abd78ab29b80c35d02cf71522e3a18d688f56c30c6a7646f427cb0aaf4cdcd1",
+      "ports": [
+        {
+          "direction": "passive",
+          "id": "GND",
+          "localNet": "gnd",
+          "projectNet": "gnd",
+          "role": "power"
+        },
+        {
+          "direction": "output",
+          "id": "OUT",
+          "localNet": "out",
+          "projectNet": "control_signal",
+          "role": "signal"
+        },
+        {
+          "direction": "input",
+          "id": "VCC",
+          "localNet": "vcc",
+          "projectNet": "vcc_5v",
+          "role": "power"
+        }
+      ],
+      "sheet": "power",
+      "sourceDigest": "sha256:d0aa08872cea9feae7dd70fce75b2e5ac95def91642321179f003411995471a9",
+      "title": "Power"
+    }
+  },
+  "project": {
+    "id": "hierarchical:h011",
+    "profile": "aixem.schematic.multisheet@1",
+    "schema": "https://schemas.aixem.org/component-graphics/aixproj/2",
+    "title": "Digest locked multi sheet project"
+  },
+  "renderer": {
+    "id": "aixem-hierarchical-project-reference-renderer",
+    "version": "0.5.3"
+  },
+  "routing": {
+    "composite": {
+      "anchors": [
+        {
+          "direction": "passive",
+          "localNet": "gnd",
+          "point": [
+            165.0,
+            374.0
+          ],
+          "port": "GND",
+          "projectNet": "gnd",
+          "role": "power",
+          "sheet": "control",
+          "side": "bottom"
+        },
+        {
+          "direction": "input",
+          "localNet": "in",
+          "point": [
+            100.0,
+            326.5
+          ],
+          "port": "IN",
+          "projectNet": "control_signal",
+          "role": "signal",
+          "sheet": "control",
+          "side": "left"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            165.0,
+            294.0
+          ],
+          "port": "VCC",
+          "projectNet": "vcc_5v",
+          "role": "power",
+          "sheet": "control",
+          "side": "top"
+        },
+        {
+          "direction": "passive",
+          "localNet": "gnd",
+          "point": [
+            165.0,
+            150.0
+          ],
+          "port": "GND",
+          "projectNet": "gnd",
+          "role": "power",
+          "sheet": "power",
+          "side": "bottom"
+        },
+        {
+          "direction": "output",
+          "localNet": "out",
+          "point": [
+            240.0,
+            102.5
+          ],
+          "port": "OUT",
+          "projectNet": "control_signal",
+          "role": "signal",
+          "sheet": "power",
+          "side": "right"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            165.0,
+            70.0
+          ],
+          "port": "VCC",
+          "projectNet": "vcc_5v",
+          "role": "power",
+          "sheet": "power",
+          "side": "top"
+        }
+      ],
+      "canvas": {
+        "height": 444.0,
+        "width": 433.0
+      },
+      "diagnostics": [],
+      "mode": "composite",
+      "nets": [
+        {
+          "id": "control_signal",
+          "junctions": [
+            [
+              320.0,
+              105.5
+            ],
+            [
+              320.0,
+              255.0
+            ]
+          ],
+          "label": "control_signal",
+          "members": [
+            {
+              "anchor": [
+                240.0,
+                102.5
+              ],
+              "localNet": "out",
+              "port": "OUT",
+              "sheet": "power",
+              "side": "right"
+            },
+            {
+              "anchor": [
+                100.0,
+                326.5
+              ],
+              "localNet": "in",
+              "port": "IN",
+              "sheet": "control",
+              "side": "left"
+            }
+          ],
+          "paths": [
+            [
+              [
+                240.0,
+                102.5
+              ],
+              [
+                264.0,
+                102.5
+              ],
+              [
+                264.0,
+                105.5
+              ],
+              [
+                320.0,
+                105.5
+              ]
+            ],
+            [
+              [
+                100.0,
+                326.5
+              ],
+              [
+                76.0,
+                326.5
+              ],
+              [
+                42.0,
+                326.5
+              ],
+              [
+                42.0,
+                255.0
+              ],
+              [
+                320.0,
+                255.0
+              ]
+            ],
+            [
+              [
+                320.0,
+                105.5
+              ],
+              [
+                320.0,
+                255.0
+              ]
+            ]
+          ],
+          "role": "signal",
+          "trunkX": 320.0
+        },
+        {
+          "id": "gnd",
+          "junctions": [
+            [
+              344.0,
+              180.0
+            ],
+            [
+              344.0,
+              404.0
+            ]
+          ],
+          "label": "gnd",
+          "members": [
+            {
+              "anchor": [
+                165.0,
+                150.0
+              ],
+              "localNet": "gnd",
+              "port": "GND",
+              "sheet": "power",
+              "side": "bottom"
+            },
+            {
+              "anchor": [
+                165.0,
+                374.0
+              ],
+              "localNet": "gnd",
+              "port": "GND",
+              "sheet": "control",
+              "side": "bottom"
+            }
+          ],
+          "paths": [
+            [
+              [
+                165.0,
+                150.0
+              ],
+              [
+                165.0,
+                174.0
+              ],
+              [
+                165.0,
+                180.0
+              ],
+              [
+                344.0,
+                180.0
+              ]
+            ],
+            [
+              [
+                165.0,
+                374.0
+              ],
+              [
+                165.0,
+                398.0
+              ],
+              [
+                165.0,
+                404.0
+              ],
+              [
+                344.0,
+                404.0
+              ]
+            ],
+            [
+              [
+                344.0,
+                180.0
+              ],
+              [
+                344.0,
+                404.0
+              ]
+            ]
+          ],
+          "role": "power",
+          "trunkX": 344.0
+        },
+        {
+          "id": "vcc_5v",
+          "junctions": [
+            [
+              368.0,
+              37.0
+            ],
+            [
+              368.0,
+              261.0
+            ]
+          ],
+          "label": "vcc_5v",
+          "members": [
+            {
+              "anchor": [
+                165.0,
+                70.0
+              ],
+              "localNet": "vcc",
+              "port": "VCC",
+              "sheet": "power",
+              "side": "top"
+            },
+            {
+              "anchor": [
+                165.0,
+                294.0
+              ],
+              "localNet": "vcc",
+              "port": "VCC",
+              "sheet": "control",
+              "side": "top"
+            }
+          ],
+          "paths": [
+            [
+              [
+                165.0,
+                70.0
+              ],
+              [
+                165.0,
+                46.0
+              ],
+              [
+                165.0,
+                37.0
+              ],
+              [
+                368.0,
+                37.0
+              ]
+            ],
+            [
+              [
+                165.0,
+                294.0
+              ],
+              [
+                165.0,
+                270.0
+              ],
+              [
+                165.0,
+                261.0
+              ],
+              [
+                368.0,
+                261.0
+              ]
+            ],
+            [
+              [
+                368.0,
+                37.0
+              ],
+              [
+                368.0,
+                261.0
+              ]
+            ]
+          ],
+          "role": "power",
+          "trunkX": 368.0
+        }
+      ],
+      "sheets": [
+        {
+          "depth": 0,
+          "id": "power",
+          "rect": [
+            90.0,
+            60.0,
+            160.0,
+            100.0
+          ],
+          "title": "Power",
+          "transform": {
+            "scale": 1.0,
+            "x": 90.0,
+            "y": 60.0
+          }
+        },
+        {
+          "depth": 0,
+          "id": "control",
+          "rect": [
+            90.0,
+            284.0,
+            160.0,
+            100.0
+          ],
+          "title": "Control",
+          "transform": {
+            "scale": 1.0,
+            "x": 90.0,
+            "y": 284.0
+          }
+        }
+      ]
+    },
+    "overview": {
+      "anchors": [
+        {
+          "direction": "passive",
+          "localNet": "gnd",
+          "point": [
+            180.0,
+            318.0
+          ],
+          "port": "GND",
+          "projectNet": "gnd",
+          "role": "power",
+          "sheet": "control",
+          "side": "bottom"
+        },
+        {
+          "direction": "input",
+          "localNet": "in",
+          "point": [
+            90.0,
+            274.0
+          ],
+          "port": "IN",
+          "projectNet": "control_signal",
+          "role": "signal",
+          "sheet": "control",
+          "side": "left"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            180.0,
+            230.0
+          ],
+          "port": "VCC",
+          "projectNet": "vcc_5v",
+          "role": "power",
+          "sheet": "control",
+          "side": "top"
+        },
+        {
+          "direction": "passive",
+          "localNet": "gnd",
+          "point": [
+            180.0,
+            138.0
+          ],
+          "port": "GND",
+          "projectNet": "gnd",
+          "role": "power",
+          "sheet": "power",
+          "side": "bottom"
+        },
+        {
+          "direction": "output",
+          "localNet": "out",
+          "point": [
+            270.0,
+            94.0
+          ],
+          "port": "OUT",
+          "projectNet": "control_signal",
+          "role": "signal",
+          "sheet": "power",
+          "side": "right"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            180.0,
+            50.0
+          ],
+          "port": "VCC",
+          "projectNet": "vcc_5v",
+          "role": "power",
+          "sheet": "power",
+          "side": "top"
+        }
+      ],
+      "canvas": {
+        "height": 378.0,
+        "width": 453.0
+      },
+      "diagnostics": [],
+      "mode": "overview",
+      "nets": [
+        {
+          "id": "control_signal",
+          "junctions": [
+            [
+              340.0,
+              97.0
+            ],
+            [
+              340.0,
+              201.0
+            ]
+          ],
+          "label": "control_signal",
+          "members": [
+            {
+              "anchor": [
+                270.0,
+                94.0
+              ],
+              "localNet": "out",
+              "port": "OUT",
+              "sheet": "power",
+              "side": "right"
+            },
+            {
+              "anchor": [
+                90.0,
+                274.0
+              ],
+              "localNet": "in",
+              "port": "IN",
+              "sheet": "control",
+              "side": "left"
+            }
+          ],
+          "paths": [
+            [
+              [
+                270.0,
+                94.0
+              ],
+              [
+                284.0,
+                94.0
+              ],
+              [
+                284.0,
+                97.0
+              ],
+              [
+                340.0,
+                97.0
+              ]
+            ],
+            [
+              [
+                90.0,
+                274.0
+              ],
+              [
+                76.0,
+                274.0
+              ],
+              [
+                42.0,
+                274.0
+              ],
+              [
+                42.0,
+                201.0
+              ],
+              [
+                340.0,
+                201.0
+              ]
+            ],
+            [
+              [
+                340.0,
+                97.0
+              ],
+              [
+                340.0,
+                201.0
+              ]
+            ]
+          ],
+          "role": "signal",
+          "trunkX": 340.0
+        },
+        {
+          "id": "gnd",
+          "junctions": [
+            [
+              364.0,
+              158.0
+            ],
+            [
+              364.0,
+              338.0
+            ]
+          ],
+          "label": "gnd",
+          "members": [
+            {
+              "anchor": [
+                180.0,
+                138.0
+              ],
+              "localNet": "gnd",
+              "port": "GND",
+              "sheet": "power",
+              "side": "bottom"
+            },
+            {
+              "anchor": [
+                180.0,
+                318.0
+              ],
+              "localNet": "gnd",
+              "port": "GND",
+              "sheet": "control",
+              "side": "bottom"
+            }
+          ],
+          "paths": [
+            [
+              [
+                180.0,
+                138.0
+              ],
+              [
+                180.0,
+                152.0
+              ],
+              [
+                180.0,
+                158.0
+              ],
+              [
+                364.0,
+                158.0
+              ]
+            ],
+            [
+              [
+                180.0,
+                318.0
+              ],
+              [
+                180.0,
+                332.0
+              ],
+              [
+                180.0,
+                338.0
+              ],
+              [
+                364.0,
+                338.0
+              ]
+            ],
+            [
+              [
+                364.0,
+                158.0
+              ],
+              [
+                364.0,
+                338.0
+              ]
+            ]
+          ],
+          "role": "power",
+          "trunkX": 364.0
+        },
+        {
+          "id": "vcc_5v",
+          "junctions": [
+            [
+              388.0,
+              27.0
+            ],
+            [
+              388.0,
+              207.0
+            ]
+          ],
+          "label": "vcc_5v",
+          "members": [
+            {
+              "anchor": [
+                180.0,
+                50.0
+              ],
+              "localNet": "vcc",
+              "port": "VCC",
+              "sheet": "power",
+              "side": "top"
+            },
+            {
+              "anchor": [
+                180.0,
+                230.0
+              ],
+              "localNet": "vcc",
+              "port": "VCC",
+              "sheet": "control",
+              "side": "top"
+            }
+          ],
+          "paths": [
+            [
+              [
+                180.0,
+                50.0
+              ],
+              [
+                180.0,
+                36.0
+              ],
+              [
+                180.0,
+                27.0
+              ],
+              [
+                388.0,
+                27.0
+              ]
+            ],
+            [
+              [
+                180.0,
+                230.0
+              ],
+              [
+                180.0,
+                216.0
+              ],
+              [
+                180.0,
+                207.0
+              ],
+              [
+                388.0,
+                207.0
+              ]
+            ],
+            [
+              [
+                388.0,
+                27.0
+              ],
+              [
+                388.0,
+                207.0
+              ]
+            ]
+          ],
+          "role": "power",
+          "trunkX": 388.0
+        }
+      ],
+      "sheets": [
+        {
+          "depth": 0,
+          "id": "power",
+          "rect": [
+            90.0,
+            50.0,
+            180.0,
+            88.0
+          ],
+          "title": "Power",
+          "transform": {
+            "scale": 1.0,
+            "x": 90.0,
+            "y": 50.0
+          }
+        },
+        {
+          "depth": 0,
+          "id": "control",
+          "rect": [
+            90.0,
+            230.0,
+            180.0,
+            88.0
+          ],
+          "title": "Control",
+          "transform": {
+            "scale": 1.0,
+            "x": 90.0,
+            "y": 230.0
+          }
+        }
+      ]
+    }
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/resolved-project-scene/1",
+  "semanticGraph": {
+    "identities": {
+      "interfaces": [
+        "interface:power:GND",
+        "interface:power:OUT",
+        "interface:power:VCC",
+        "interface:control:GND",
+        "interface:control:IN",
+        "interface:control:VCC"
+      ],
+      "projectNets": [
+        "project-net:control_signal",
+        "project-net:gnd",
+        "project-net:vcc_5v"
+      ],
+      "sheets": [
+        "sheet:power",
+        "sheet:control"
+      ]
+    },
+    "projectNets": [
+      {
+        "crossesHierarchyBoundary": true,
+        "id": "control_signal",
+        "members": [
+          {
+            "interface": "interface:power:OUT",
+            "localNet": "out",
+            "port": "OUT",
+            "qualifiedLocalNet": "local-net:power:out",
+            "sheet": "power"
+          },
+          {
+            "interface": "interface:control:IN",
+            "localNet": "in",
+            "port": "IN",
+            "qualifiedLocalNet": "local-net:control:in",
+            "sheet": "control"
+          }
+        ],
+        "qualifiedId": "project-net:control_signal",
+        "transitiveEndpoints": [
+          "entity:control:U1.1",
+          "entity:power:U1.5",
+          "interface:control:IN",
+          "interface:power:OUT"
+        ]
+      },
+      {
+        "crossesHierarchyBoundary": true,
+        "id": "gnd",
+        "members": [
+          {
+            "interface": "interface:power:GND",
+            "localNet": "gnd",
+            "port": "GND",
+            "qualifiedLocalNet": "local-net:power:gnd",
+            "sheet": "power"
+          },
+          {
+            "interface": "interface:control:GND",
+            "localNet": "gnd",
+            "port": "GND",
+            "qualifiedLocalNet": "local-net:control:gnd",
+            "sheet": "control"
+          }
+        ],
+        "qualifiedId": "project-net:gnd",
+        "transitiveEndpoints": [
+          "entity:control:U1.11",
+          "entity:power:U1.11",
+          "interface:control:GND",
+          "interface:power:GND"
+        ]
+      },
+      {
+        "crossesHierarchyBoundary": true,
+        "id": "vcc_5v",
+        "members": [
+          {
+            "interface": "interface:power:VCC",
+            "localNet": "vcc",
+            "port": "VCC",
+            "qualifiedLocalNet": "local-net:power:vcc",
+            "sheet": "power"
+          },
+          {
+            "interface": "interface:control:VCC",
+            "localNet": "vcc",
+            "port": "VCC",
+            "qualifiedLocalNet": "local-net:control:vcc",
+            "sheet": "control"
+          }
+        ],
+        "qualifiedId": "project-net:vcc_5v",
+        "transitiveEndpoints": [
+          "entity:control:U1.9",
+          "entity:power:U1.9",
+          "interface:control:VCC",
+          "interface:power:VCC"
+        ]
+      }
+    ],
+    "unconnectedPorts": []
+  },
+  "sheets": [
+    {
+      "id": "power",
+      "layout": {
+        "digest": "sha256:8abd78ab29b80c35d02cf71522e3a18d688f56c30c6a7646f427cb0aaf4cdcd1",
+        "id": "h011-digest-locked-multi-sheet-project:power-layout",
+        "mediaType": "application/json",
+        "path": "layouts/power.aixlayout.json",
+        "version": "2.0"
+      },
+      "order": 10,
+      "parent": null,
+      "resolvedScene": "sheets/power.resolved-scene.json",
+      "source": {
+        "digest": "sha256:d0aa08872cea9feae7dd70fce75b2e5ac95def91642321179f003411995471a9",
+        "id": "h011-digest-locked-multi-sheet-project:power",
+        "mediaType": "text/x-aixem",
+        "path": "circuits/power.aixem",
+        "version": "1.0"
+      },
+      "svg": "sheets/power.svg",
+      "title": "Power"
+    },
+    {
+      "id": "control",
+      "layout": {
+        "digest": "sha256:265c307a7d8e6282a51d60219279dab5408018da677ec9844309ec201e53c27b",
+        "id": "h011-digest-locked-multi-sheet-project:control-layout",
+        "mediaType": "application/json",
+        "path": "layouts/control.aixlayout.json",
+        "version": "2.0"
+      },
+      "order": 20,
+      "parent": null,
+      "resolvedScene": "sheets/control.resolved-scene.json",
+      "source": {
+        "digest": "sha256:01693a46688a08dad6cf0be690dcc5862017948a951743184527332708fe1377",
+        "id": "h011-digest-locked-multi-sheet-project:control",
+        "mediaType": "text/x-aixem",
+        "path": "circuits/control.aixem",
+        "version": "1.0"
+      },
+      "svg": "sheets/control.svg",
+      "title": "Control"
+    }
+  ],
+  "statistics": {
+    "entities": 2,
+    "hierarchyDepth": 0,
+    "interfacePorts": 6,
+    "localNets": 6,
+    "localRouteSegments": 6,
+    "projectNets": 3,
+    "projectRouteSegments": 44,
+    "sheets": 2,
+    "unconnectedProjectPorts": 0
+  }
+}

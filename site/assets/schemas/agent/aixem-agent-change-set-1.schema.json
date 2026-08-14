@@ -1,0 +1,225 @@
+{
+  "$id": "https://schemas.aixem.org/agent/change-set/1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AIXEM Agent Authoring Change Set 1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "formatVersion",
+    "iteration",
+    "route",
+    "beforeSnapshotDigest",
+    "afterSnapshotDigest",
+    "beforeAuthoritativeDigest",
+    "afterAuthoritativeDigest",
+    "changed",
+    "generatedOutputEdits",
+    "scopeViolations",
+    "requiredValidators",
+    "valid"
+  ],
+  "properties": {
+    "schema": {
+      "const": "https://schemas.aixem.org/agent/change-set/1"
+    },
+    "formatVersion": {
+      "const": "1.0"
+    },
+    "iteration": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "route": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+    },
+    "beforeSnapshotDigest": {
+      "$ref": "#/$defs/digest"
+    },
+    "afterSnapshotDigest": {
+      "$ref": "#/$defs/digest"
+    },
+    "beforeAuthoritativeDigest": {
+      "$ref": "#/$defs/digest"
+    },
+    "afterAuthoritativeDigest": {
+      "$ref": "#/$defs/digest"
+    },
+    "changed": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/change"
+      }
+    },
+    "generatedOutputEdits": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/generatedChange"
+      }
+    },
+    "scopeViolations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/violation"
+      }
+    },
+    "requiredValidators": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "valid": {
+      "type": "boolean"
+    }
+  },
+  "$defs": {
+    "digest": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "safePath": {
+      "type": "string",
+      "minLength": 1,
+      "not": {
+        "pattern": "(^/|(^|/)\\.\\.(/|$)|^[A-Za-z]:)"
+      }
+    },
+    "change": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path",
+        "operation",
+        "role",
+        "authority",
+        "beforeDigest",
+        "afterDigest",
+        "allowed"
+      ],
+      "properties": {
+        "path": {
+          "$ref": "#/$defs/safePath"
+        },
+        "operation": {
+          "enum": [
+            "added",
+            "modified",
+            "deleted"
+          ]
+        },
+        "role": {
+          "enum": [
+            "authoritative",
+            "derived",
+            "support"
+          ]
+        },
+        "authority": {
+          "type": "string"
+        },
+        "beforeDigest": {
+          "$ref": "#/$defs/digest"
+        },
+        "afterDigest": {
+          "$ref": "#/$defs/digest"
+        },
+        "allowed": {
+          "type": "boolean"
+        },
+        "changedPointers": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^(|/.*)$"
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "generatedChange": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path",
+        "operation",
+        "role",
+        "authority",
+        "beforeDigest",
+        "afterDigest",
+        "allowed",
+        "reason"
+      ],
+      "properties": {
+        "path": {
+          "$ref": "#/$defs/safePath"
+        },
+        "operation": {
+          "enum": [
+            "added",
+            "modified",
+            "deleted"
+          ]
+        },
+        "role": {
+          "enum": [
+            "authoritative",
+            "derived",
+            "support"
+          ]
+        },
+        "authority": {
+          "type": "string"
+        },
+        "beforeDigest": {
+          "$ref": "#/$defs/digest"
+        },
+        "afterDigest": {
+          "$ref": "#/$defs/digest"
+        },
+        "allowed": {
+          "type": "boolean"
+        },
+        "changedPointers": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^(|/.*)$"
+          },
+          "uniqueItems": true
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "violation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path",
+        "kind",
+        "message"
+      ],
+      "properties": {
+        "path": {
+          "$ref": "#/$defs/safePath"
+        },
+        "kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "message": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

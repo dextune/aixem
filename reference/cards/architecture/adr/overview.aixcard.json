@@ -1,0 +1,52 @@
+{
+  "card": {
+    "aliases": [
+      "ADR",
+      "architecture decisions",
+      "decision records"
+    ],
+    "appliesTo": [
+      "adr-navigation"
+    ],
+    "domain": "architecture",
+    "estimatedReadBytes": 3542,
+    "id": "AIXEM-ARCH-ADR-INDEX-001",
+    "inputs": [],
+    "keywords": [
+      "ADR",
+      "Architecture Decision Records",
+      "architecture decisions",
+      "change-architecture",
+      "decision records"
+    ],
+    "kind": "index",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/architecture/adr/overview.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:16656cab13192f649e79aea65ca9f684c9a74744b7d2a9f8c01f18275e72940f"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 500,
+    "readNext": [],
+    "rules": [
+      {
+        "id": "AIXEM-ARCH-ADR-INDEX-001.read",
+        "level": "should",
+        "text": "Index of durable decisions that constrain the AIXEM 0.5 documentation and reference architecture."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-ARCH-ADR-INDEX-001",
+        "path": "docs/architecture/adr/index.md"
+      }
+    ],
+    "summary": "Index of durable decisions that constrain the AIXEM 0.5 documentation and reference architecture.",
+    "title": "Architecture Decision Records"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

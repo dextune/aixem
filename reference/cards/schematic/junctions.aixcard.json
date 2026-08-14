@@ -1,0 +1,68 @@
+{
+  "card": {
+    "aliases": [
+      "junctions",
+      "wire crossing",
+      "connection dot",
+      "no connect mark"
+    ],
+    "appliesTo": [
+      "junction-presentation"
+    ],
+    "domain": "schematic",
+    "estimatedReadBytes": 5769,
+    "id": "AIXEM-SCHEM-JUNCTION-001",
+    "inputs": [],
+    "keywords": [
+      "Junctions and Connectivity Cues",
+      "connection dot",
+      "create-schematic",
+      "junctions",
+      "no connect mark",
+      "route-nets",
+      "validate-project",
+      "wire crossing"
+    ],
+    "kind": "guide",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/schematic/junctions.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:d0967419d1445b9d1f8ead64933152a847c27f93c1906fb09afe42e4a2d7438a"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-CONCEPT-NET-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-SCHEM-0006",
+        "level": "must",
+        "text": "**MUST.** A multi-segment electrical join MUST have an explicit junction declaration when required by the active profile."
+      },
+      {
+        "id": "AIXEM-REQ-SCHEM-0007",
+        "level": "must",
+        "text": "**MUST.** A route crossing without an explicit junction MUST render and validate as not connected."
+      },
+      {
+        "id": "AIXEM-REQ-SCHEM-0008",
+        "level": "must",
+        "text": "**MUST.** A no-connect mark MUST correspond to an explicit semantic no-connect declaration."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SCHEM-JUNCTION-001",
+        "path": "docs/schematic/junctions.md"
+      }
+    ],
+    "summary": "Defines explicit junction dots, non-connecting crossings, endpoint joins, and no-connect marks.",
+    "title": "Junctions and Connectivity Cues"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

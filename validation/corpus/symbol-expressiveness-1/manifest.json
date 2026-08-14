@@ -1,0 +1,209 @@
+{
+  "caseSchema": "schema/corpus-case-1.schema.json",
+  "cases": [
+    {
+      "id": "S001",
+      "path": "cases/S001-resistor-iec/case.json",
+      "tier": "core",
+      "title": "IEC resistor"
+    },
+    {
+      "id": "S002",
+      "path": "cases/S002-resistor-ansi/case.json",
+      "tier": "core",
+      "title": "ANSI resistor"
+    },
+    {
+      "id": "S003",
+      "path": "cases/S003-capacitor-nonpolar/case.json",
+      "tier": "core",
+      "title": "Non-polar capacitor"
+    },
+    {
+      "id": "S004",
+      "path": "cases/S004-capacitor-polarized/case.json",
+      "tier": "core",
+      "title": "Polarized capacitor"
+    },
+    {
+      "id": "S005",
+      "path": "cases/S005-inductor/case.json",
+      "tier": "core",
+      "title": "Inductor"
+    },
+    {
+      "id": "S006",
+      "path": "cases/S006-diode-standard/case.json",
+      "tier": "core",
+      "title": "Standard diode"
+    },
+    {
+      "id": "S007",
+      "path": "cases/S007-led/case.json",
+      "tier": "core",
+      "title": "LED"
+    },
+    {
+      "id": "S008",
+      "path": "cases/S008-zener-tvs/case.json",
+      "tier": "core",
+      "title": "Zener / TVS"
+    },
+    {
+      "id": "S009",
+      "path": "cases/S009-bjt-npn/case.json",
+      "tier": "core",
+      "title": "NPN BJT"
+    },
+    {
+      "id": "S010",
+      "path": "cases/S010-mosfet-n/case.json",
+      "tier": "core",
+      "title": "N-channel MOSFET"
+    },
+    {
+      "id": "S011",
+      "path": "cases/S011-op-amp/case.json",
+      "tier": "core",
+      "title": "Operational amplifier"
+    },
+    {
+      "id": "S012",
+      "path": "cases/S012-comparator/case.json",
+      "tier": "core",
+      "title": "Comparator"
+    },
+    {
+      "id": "S013",
+      "path": "cases/S013-transformer/case.json",
+      "tier": "core",
+      "title": "Transformer"
+    },
+    {
+      "id": "S014",
+      "path": "cases/S014-relay-spdt/case.json",
+      "tier": "core",
+      "title": "SPDT relay"
+    },
+    {
+      "id": "S015",
+      "path": "cases/S015-push-switch-no/case.json",
+      "tier": "core",
+      "title": "Normally-open push switch"
+    },
+    {
+      "id": "S016",
+      "path": "cases/S016-rotary-1p4t/case.json",
+      "tier": "core",
+      "title": "1P4T rotary switch"
+    },
+    {
+      "id": "S017",
+      "path": "cases/S017-nand-gate/case.json",
+      "tier": "core",
+      "title": "NAND gate"
+    },
+    {
+      "id": "S018",
+      "path": "cases/S018-schmitt-inverter/case.json",
+      "tier": "core",
+      "title": "Schmitt inverter"
+    },
+    {
+      "id": "S019",
+      "path": "cases/S019-connector-2/case.json",
+      "tier": "core",
+      "title": "2-pin connector"
+    },
+    {
+      "id": "S020",
+      "path": "cases/S020-connector-20/case.json",
+      "tier": "core",
+      "title": "20-pin connector"
+    },
+    {
+      "id": "S021",
+      "path": "cases/S021-connector-100/case.json",
+      "tier": "core",
+      "title": "100-pin connector"
+    },
+    {
+      "id": "S022",
+      "path": "cases/S022-mcu-32/case.json",
+      "tier": "core",
+      "title": "32-pin MCU"
+    },
+    {
+      "id": "S023",
+      "path": "cases/S023-mcu-64/case.json",
+      "tier": "core",
+      "title": "64-pin MCU"
+    },
+    {
+      "id": "S024",
+      "path": "cases/S024-mcu-100/case.json",
+      "tier": "core",
+      "title": "100-pin MCU"
+    },
+    {
+      "id": "S025",
+      "path": "cases/S025-jfet/case.json",
+      "tier": "extended",
+      "title": "JFET"
+    },
+    {
+      "id": "S026",
+      "path": "cases/S026-crystal-oscillator/case.json",
+      "tier": "extended",
+      "title": "Crystal oscillator"
+    },
+    {
+      "id": "S027",
+      "path": "cases/S027-optocoupler/case.json",
+      "tier": "extended",
+      "title": "Optocoupler"
+    },
+    {
+      "id": "S028",
+      "path": "cases/S028-vacuum-tube/case.json",
+      "tier": "extended",
+      "title": "Vacuum tube"
+    },
+    {
+      "id": "S029",
+      "path": "cases/S029-irregular-custom/case.json",
+      "tier": "extended",
+      "title": "Irregular custom symbol"
+    },
+    {
+      "id": "S030",
+      "path": "cases/S030-fpga-multi-unit-probe/case.json",
+      "tier": "probe",
+      "title": "FPGA multi-unit probe"
+    }
+  ],
+  "claimPolicy": {
+    "core": "All S001-S024 mandatory gates pass.",
+    "extended": "Core passes and S025-S029 pass.",
+    "multiUnit": "S030 has an independent PASS/PARTIAL/NOT_SUPPORTED result."
+  },
+  "exclusions": [
+    "No native KiCad or OrCAD format compatibility claim.",
+    "No vendor-library visual identity claim.",
+    "No Dynamic Block, DWG/DXF round trip, 3D, footprint, or SPICE compatibility claim."
+  ],
+  "formatVersion": "1.0",
+  "productionRendererRequired": true,
+  "profile": {
+    "id": "symbol-expressiveness-1",
+    "release": "AIXEM-SRP-0.5.2-2026-08-11",
+    "title": "AIXEM Symbol Expressiveness Conformance Profile 1",
+    "version": "1.0.0"
+  },
+  "schema": "https://schemas.aixem.org/conformance/symbol-corpus-manifest/1",
+  "tiers": {
+    "core": 24,
+    "extended": 5,
+    "probe": 1
+  }
+}

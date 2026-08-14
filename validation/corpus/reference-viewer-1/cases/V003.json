@@ -1,0 +1,14 @@
+{
+  "expected": "pass",
+  "formatVersion": "1.0",
+  "id": "V003",
+  "order": 3,
+  "profiles": [
+    "reference-viewer"
+  ],
+  "purpose": "Resolved hierarchy controls active-sheet navigation",
+  "schema": "https://schemas.aixem.org/conformance/reference-viewer-case/1",
+  "source": "validation/corpus/hierarchical-project-1/cases/H005-three-level-sheet-hierarchy/project.aixproj.json",
+  "test": "tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v002_v003_multisheet_modes_and_hierarchy_navigation",
+  "title": "Data-driven hierarchy navigation"
+}

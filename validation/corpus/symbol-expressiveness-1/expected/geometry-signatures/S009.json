@@ -1,0 +1,67 @@
+{
+  "bounds": {
+    "height": 60,
+    "width": 45,
+    "x": -22.5,
+    "y": -30
+  },
+  "capabilities": [
+    "geometry.circle",
+    "geometry.line",
+    "geometry.polygon",
+    "geometry.polyline",
+    "port.mapping",
+    "text.field"
+  ],
+  "case": "S009",
+  "defaultVariant": null,
+  "definitions": [],
+  "fieldAnchors": [
+    {
+      "field": "reference",
+      "id": "field-reference",
+      "x": 0,
+      "y": -25
+    },
+    {
+      "field": "value",
+      "id": "field-value",
+      "x": 0,
+      "y": 25
+    }
+  ],
+  "parameters": {},
+  "ports": [
+    {
+      "id": "B",
+      "orientation": 180,
+      "visible": true,
+      "x": -17.5,
+      "y": 0.0
+    },
+    {
+      "id": "C",
+      "orientation": 90,
+      "visible": true,
+      "x": 10.0,
+      "y": -17.5
+    },
+    {
+      "id": "E",
+      "orientation": 270,
+      "visible": true,
+      "x": 10.0,
+      "y": 17.5
+    }
+  ],
+  "primitiveCounts": {
+    "circle": 1,
+    "line": 4,
+    "polygon": 1,
+    "polyline": 2,
+    "text": 2
+  },
+  "requiredFeatures": [],
+  "symbol": "corpus:s009-bjt-npn",
+  "variants": []
+}

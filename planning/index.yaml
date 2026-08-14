@@ -1,0 +1,54 @@
+schema: https://schemas.aixem.org/documentation/planning-index/1
+formatVersion: '1.0'
+plans:
+- version: 0.5.0
+  title: Documentation Platform
+  path: planning/releases/0.5.0/documentation-platform.md
+  status: completed
+- version: 0.5.1
+  title: Agent Authoring and Drawing
+  path: planning/releases/0.5.1/agent-authoring-drawing.md
+  status: completed
+- version: 0.5.2
+  title: Symbol Expressiveness and Conformance
+  path: planning/releases/0.5.2/symbol-expressiveness-conformance.md
+  status: completed
+- version: 0.5.3
+  title: Hierarchical Multi-Sheet Composition
+  path: planning/releases/0.5.3/hierarchical-multisheet-composition.md
+  status: completed
+- version: 0.5.4
+  title: Reference Viewer Contract
+  path: planning/releases/0.5.4/reference-viewer-contract.md
+  status: completed
+- version: 0.5.5
+  title: Agent Authoring Closed Loop
+  path: planning/releases/0.5.5/agent-authoring-closed-loop.md
+  status: completed
+- version: 0.5.6
+  title: Live-Agent Cold-Start Authoring
+  path: planning/releases/0.5.6/live-agent-cold-start-authoring.md
+  status: completed
+  note: External Tier B execution evidence remains a separate capability-claim gate.
+- version: 0.5.7
+  title: Document Information Architecture and Governance
+  path: planning/releases/0.5.7/document-information-architecture-governance.md
+  status: completed
+- version: 0.5.8
+  title: Pre-Live Agent Readiness Hardening
+  path: planning/releases/0.5.8/pre-live-agent-readiness-hardening.md
+  status: completed
+  note: External Tier B remains unexecuted; this plan closes deterministic platform
+    readiness only.
+- version: 0.5.8.1
+  title: Final Documentation, Specification, and Reference-Chain Closure
+  path: planning/releases/0.5.8.1/final-document-specification-reference-chain-closure.md
+  status: completed
+  note: Final documentation/specification coherence gate before external AI-agent
+    integration; external Tier B remains unexecuted.
+- version: 0.5.9
+  title: Integrated Authoring, Library, Pin Semantics, and Agent Placement Hardening
+  path: planning/releases/0.5.9/integrated-authoring-library-pin-semantics-and-agent-placement-hardening.md
+  status: completed
+  note: Implemented as the consolidated 0.5.9 hardening release; full ERC, simulation,
+    global auto-layout, and external Tier B remain outside scope.

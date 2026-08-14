@@ -1,0 +1,21 @@
+{
+  "$id": "https://schemas.aixem.org/agent/observation-event/1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AIXEM Observation Event Contract 1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "formatVersion", "sequence", "kind"],
+  "properties": {
+    "schema": {"const": "https://schemas.aixem.org/agent/observation-event/1"},
+    "formatVersion": {"const": "1.0"},
+    "sequence": {"type": "integer", "minimum": 1},
+    "kind": {"enum": ["task-open", "route-resolve", "document-open", "file-read", "search", "command", "validator", "render", "file-write", "file-delete", "completion", "executor-error"]},
+    "target": {"$ref": "#/$defs/safePath"},
+    "route": {"type": "string", "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"},
+    "tool": {"type": "string", "maxLength": 256},
+    "result": {"type": "string", "maxLength": 2000},
+    "elapsedMs": {"type": "integer", "minimum": 0},
+    "details": {"type": "object", "additionalProperties": true}
+  },
+  "$defs": {"safePath": {"type": "string", "minLength": 1, "not": {"pattern": "(^/|(^|/)\\.\\.(/|$)|^[A-Za-z]:)"}}}
+}

@@ -1,0 +1,66 @@
+{
+  "card": {
+    "aliases": [
+      "agent diagnostics",
+      "diagnostic contract",
+      "machine repair feedback"
+    ],
+    "appliesTo": [
+      "agent-diagnostic-contract"
+    ],
+    "domain": "specifications",
+    "estimatedReadBytes": 6305,
+    "id": "AIXEM-SPEC-AGENT-DIAGNOSTIC-001",
+    "inputs": [],
+    "keywords": [
+      "Agent Diagnostic Contract 1",
+      "agent diagnostics",
+      "author-component-circuit",
+      "diagnostic contract",
+      "machine repair feedback",
+      "validate-project"
+    ],
+    "kind": "contract",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/specifications/agent/diagnostic-contract.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:788649ae71ef484b3ed49ac6b8450f2a2e2fc9eca4c39fc4c8a434b6cfa153a7"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SPEC-AGENT-RETRIEVAL-001",
+      "AIXEM-CONF-VALIDATION-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-AGENT-CLOSED-LOOP-0001",
+        "level": "must",
+        "text": "**MUST.** Every P0 blocking authoring failure MUST be emitted with a stable diagnostic code and schema-valid machine-readable envelope."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-CLOSED-LOOP-0002",
+        "level": "must",
+        "text": "**MUST.** Every P0 diagnostic MUST identify the authoritative owner and an existing narrow remediation route without requiring prose parsing."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-CLOSED-LOOP-0003",
+        "level": "must",
+        "text": "**MUST.** A diagnostic MUST NOT identify generated SVG, resolved evidence, Viewer Model, Viewer HTML, or Workbench HTML as the authoritative final repair target."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SPEC-AGENT-DIAGNOSTIC-001",
+        "path": "docs/specifications/agent/diagnostic-contract.md"
+      }
+    ],
+    "summary": "Defines stable machine-readable authoring diagnostics with authority ownership, structured location, remediation routing, and fail-closed repair targets.",
+    "title": "Agent Diagnostic Contract 1"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

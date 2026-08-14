@@ -1,0 +1,115 @@
+{
+  "coordinateSystem": {
+    "angleDirection": "clockwise",
+    "angleUnit": "deg",
+    "grid": 2.5,
+    "unit": "mm",
+    "yAxis": "down"
+  },
+  "diagnostics": [],
+  "entities": [
+    {
+      "componentType": "conformance:b004",
+      "key": "X1",
+      "kind": "component",
+      "parameters": {},
+      "placement": {
+        "entity": "X1",
+        "layer": "symbols",
+        "x": 82.5,
+        "y": 52.5
+      },
+      "ports": {},
+      "reference": "X1",
+      "symbolDigest": "sha256:514990b1878a5992b8cd30264d132dd23f56fdc6dad61995495559f13e92b8c8",
+      "symbolId": "corpus:b004-annotation-title-block",
+      "value": "Annotation title block",
+      "variant": null
+    }
+  ],
+  "featuresUsed": [],
+  "generatedAt": "2026-08-10T00:00:00Z",
+  "gridValidation": {
+    "crossingPolicy": "junction-required",
+    "orthogonalSegments": 0,
+    "placementExceptions": [],
+    "placements": 1,
+    "placementsOnGrid": 1,
+    "profile": "aixem.schematic.grid-light",
+    "routeSegments": 0,
+    "routeViasOnGrid": true,
+    "snap": 2.5,
+    "zeroLengthSegments": []
+  },
+  "hashes": {
+    "layout": "sha256:19f2158d8087d1052bf5d646658856be4d4bab9a676230c5c3efa801dfc334ca",
+    "libraries": [
+      "sha256:58e566f7c6a5f83b58b3957725349f80c140e4e35cf7e4909601b6ba9b8dcac1"
+    ],
+    "source": "sha256:51d7f05bb6713cc05c784f299fd873196f59dcf46b37bc47619567e9a2ec10bc",
+    "symbolAssets": [
+      "sha256:514990b1878a5992b8cd30264d132dd23f56fdc6dad61995495559f13e92b8c8"
+    ]
+  },
+  "layers": [
+    {
+      "defaultVisible": true,
+      "id": "connections",
+      "locked": false,
+      "order": 10,
+      "printable": true,
+      "purpose": "semantic net routes"
+    },
+    {
+      "defaultVisible": true,
+      "id": "symbols",
+      "locked": false,
+      "order": 20,
+      "printable": true,
+      "purpose": "component symbols"
+    },
+    {
+      "defaultVisible": true,
+      "id": "annotation",
+      "locked": false,
+      "order": 30,
+      "printable": true,
+      "purpose": "notes"
+    }
+  ],
+  "nets": [],
+  "project": {
+    "id": "conformance:b004",
+    "profile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "title": "B004 Annotation title block conformance project"
+  },
+  "renderer": {
+    "id": "aixem-grid-schematic-reference-renderer",
+    "version": "0.5.1"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/resolved-scene/1",
+  "sheet": {
+    "height": 130.0,
+    "margin": 10,
+    "titleBlock": {
+      "drawing": "corpus_b004-layout",
+      "revision": "A",
+      "sheet": "1/1",
+      "title": "B004 — Annotation title block"
+    },
+    "width": 195.0
+  },
+  "statistics": {
+    "entities": 1,
+    "nets": 0,
+    "noConnects": 0,
+    "primitives": 8,
+    "routeSegments": 0,
+    "symbolAssets": 1
+  },
+  "styleProfile": {
+    "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+    "id": "aixem.schematic.grid-light",
+    "path": "aixem-grid-schematic-style-1.aixstyle.json"
+  }
+}

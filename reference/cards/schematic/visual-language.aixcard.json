@@ -1,0 +1,69 @@
+{
+  "card": {
+    "aliases": [
+      "visual language",
+      "schematic style",
+      "CAD drawing language",
+      "schematic appearance"
+    ],
+    "appliesTo": [
+      "schematic-visual-language"
+    ],
+    "domain": "schematic",
+    "estimatedReadBytes": 9016,
+    "id": "AIXEM-SCHEM-VISUAL-001",
+    "inputs": [],
+    "keywords": [
+      "CAD drawing language",
+      "Grid-First Visual Language",
+      "change-architecture",
+      "create-schematic",
+      "inspect-artifact",
+      "schematic appearance",
+      "schematic style",
+      "visual language"
+    ],
+    "kind": "guide",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/schematic/visual-language.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:3a6443263d3a107e84537df326f563583bf1ed755f7961ce3e527c23651feac7"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SCHEM-GRID-001",
+      "AIXEM-CONCEPT-SYMBOL-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-UI-0001",
+        "level": "must",
+        "text": "**MUST.** AIXEM drawing and presentation assets MUST use original code, icons, visual tokens, and symbol assets."
+      },
+      {
+        "id": "AIXEM-REQ-UI-0002",
+        "level": "must",
+        "text": "**MUST.** AIXEM schematic presentation MUST use original functional grouping and drawing tokens without copying a vendor product pixel-for-pixel."
+      },
+      {
+        "id": "AIXEM-REQ-UI-0003",
+        "level": "must",
+        "text": "**MUST.** Color and stroke choices MUST NOT be the sole carrier of semantic connectivity or endpoint identity."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SCHEM-VISUAL-001",
+        "path": "docs/schematic/visual-language.md"
+      }
+    ],
+    "summary": "Defines the compact, high-contrast, original AIXEM schematic drawing language independently from Viewer application chrome.",
+    "title": "Grid-First Visual Language"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

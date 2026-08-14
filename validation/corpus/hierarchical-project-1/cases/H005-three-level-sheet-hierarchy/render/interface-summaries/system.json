@@ -1,0 +1,15 @@
+{
+  "layoutDigest": "sha256:51cd10ea1c157a4c68ab8fcf435e82044205d4dc6e0da53886026d6590ec833c",
+  "ports": [
+    {
+      "direction": "input",
+      "id": "VCC",
+      "localNet": "vcc",
+      "projectNet": "vcc",
+      "role": "power"
+    }
+  ],
+  "sheet": "system",
+  "sourceDigest": "sha256:ea38f0f16ea46c8f9630d809fb4b69f204a03190c9929277a3a62e175dba1357",
+  "title": "System"
+}

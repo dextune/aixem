@@ -1,0 +1,611 @@
+{
+  "cases": {
+    "S001": {
+      "checks": {
+        "no-false-connectivity-detail": true,
+        "normal-scale-readable": true,
+        "path-has-no-fill-or-self-intersection-artifact": true,
+        "pin-number-name-separation": true,
+        "polarity-arrow-inversion-state-unambiguous": true,
+        "ports-attached-to-expected-leads": true,
+        "reference-value-clear-of-body": true,
+        "repeated-geometry-evenly-spaced": true,
+        "silhouette-recognizable": true,
+        "variant-endpoint-identity-preserved": true
+      },
+      "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:47e1e3e3e4f435221c53143f06187f35e579cbf8f5e8e08b388989f369837cd9",
+      "svgDigest": "sha256:d1bb41a032a6c9e9d14130a81fef24fc76949b0df245eee41db1d1d287430276"
+    },
+    "S002": {
+      "checks": {
+        "no-false-connectivity-detail": true,
+        "normal-scale-readable": true,
+        "path-has-no-fill-or-self-intersection-artifact": true,
+        "pin-number-name-separation": true,
+        "polarity-arrow-inversion-state-unambiguous": true,
+        "ports-attached-to-expected-leads": true,
+        "reference-value-clear-of-body": true,
+        "repeated-geometry-evenly-spaced": true,
+        "silhouette-recognizable": true,
+        "variant-endpoint-identity-preserved": true
+      },
+      "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:2c66888c0f0e47b2c6c1271d58fb63903c362ed0e0d456a156a78916d9c72fd0",
+      "svgDigest": "sha256:0ebfaeb4d69da5e035d4583503a944bb134368681ef42515da30e8d347476098"
+    },
+    "S003": {
+      "checks": {
+        "no-false-connectivity-detail": true,
+        "normal-scale-readable": true,
+        "path-has-no-fill-or-self-intersection-artifact": true,
+        "pin-number-name-separation": true,
+        "polarity-arrow-inversion-state-unambiguous": true,
+        "ports-attached-to-expected-leads": true,
+        "reference-value-clear-of-body": true,
+        "repeated-geometry-evenly-spaced": true,
+        "silhouette-recognizable": true,
+        "variant-endpoint-identity-preserved": true
+      },
+      "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:3fc0e35576ed0ffd713f2900e485297353bde5a1132bc1063bfbd5bfa523e2f1",
+      "svgDigest": "sha256:b2982ffb90078d3515fcbf88f550c961f04463c68d23f12efe3d6701df9d828a"
+    },
+    "S004": {
+      "checks": {
+        "no-false-connectivity-detail": true,
+        "normal-scale-readable": true,
+        "path-has-no-fill-or-self-intersection-artifact": true,
+        "pin-number-name-separation": true,
+        "polarity-arrow-inversion-state-unambiguous": true,
+        "ports-attached-to-expected-leads": true,
+        "reference-value-clear-of-body": true,
+        "repeated-geometry-evenly-spaced": true,
+        "silhouette-recognizable": true,
+        "variant-endpoint-identity-preserved": true
+      },
+      "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:11330898699c54af311f67da2d7604cedbb02208f3d15fee89e21568de4f6fbc",
+      "svgDigest": "sha256:7ff7836ca311b3cbaf5b60f0aa709576f2106e3328df46e71afefe40c270a026"
+    },
+    "S005": {
+      "checks": {
+        "no-false-connectivity-detail": true,
+        "normal-scale-readable": true,
+        "path-has-no-fill-or-self-intersection-artifact": true,
+        "pin-number-name-separation": true,
+        "polarity-arrow-inversion-state-unambiguous": true,
+        "ports-attached-to-expected-leads": true,
+        "reference-value-clear-of-body": true,
+        "repeated-geometry-evenly-spaced": true,
+        "silhouette-recognizable": true,
+        "variant-endpoint-identity-preserved": true
+      },
+      "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:929dd09b820513e9be8fad69ae453786537ca4f1b61105d6059b09a2a486fe65",
+      "svgDigest": "sha256:ebd8cc72da2dcd291a69b00bbb865d82dcc99d14f8f633b6289c34229b1f1352"
+    },
+    "S006": {
+      "checks": {
+        "no-false-connectivity-detail": true,
+        "normal-scale-readable": true,
+        "path-has-no-fill-or-self-intersection-artifact": true,
+        "pin-number-name-separation": true,
+        "polarity-arrow-inversion-state-unambiguous": true,
+        "ports-attached-to-expected-leads": true,
+        "reference-value-clear-of-body": true,
+        "repeated-geometry-evenly-spaced": true,
+        "silhouette-recognizable": true,
+        "variant-endpoint-identity-preserved": true
+      },
+      "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:60c611ffd28174b6398eb4fe4ea30e1e01ce76ff67ebaa10178bcd485521978c",
+      "svgDigest": "sha256:150252e58ce52d0588b75bf66c0f2c9a0f5453fb1d4eeedc0d37a75d67006443"
+    },
+    "S007": {
+      "checks": {
+        "no-false-connectivity-detail": true,
+        "normal-scale-readable": true,
+        "path-has-no-fill-or-self-intersection-artifact": true,
+        "pin-number-name-separation": true,
+        "polarity-arrow-inversion-state-unambiguous": true,
+        "ports-attached-to-expected-leads": true,
+        "reference-value-clear-of-body": true,
+        "repeated-geometry-evenly-spaced": true,
+        "silhouette-recognizable": true,
+        "variant-endpoint-identity-preserved": true
+      },
+      "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:0d5bca125ed3d3181c092d6571d1f8d3be0618d3d03d06da172abc36b69b3245",
+      "svgDigest": "sha256:b2628e4b2788c8e17be99ab870b17afc6f8d140b39043d5869d954059b7bc192"
+    },
+    "S008": {
+      "checks": {
+        "no-false-connectivity-detail": true,
+        "normal-scale-readable": true,
+        "path-has-no-fill-or-self-intersection-artifact": true,
+        "pin-number-name-separation": true,
+        "polarity-arrow-inversion-state-unambiguous": true,
+        "ports-attached-to-expected-leads": true,
+        "reference-value-clear-of-body": true,
+        "repeated-geometry-evenly-spaced": true,
+        "silhouette-recognizable": true,
+        "variant-endpoint-identity-preserved": true
+      },
+      "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:dbcdbcb28336fc2ce15db04bd33b16a8ec915a3a1c72205bff509cdb0f6a8159",
+      "svgDigest": "sha256:ddf6acab6850615ff983acea1c40f21482885b6f7bbeecd9b660e95228fe8b16"
+    },
+    "S009": {
+      "checks": {
+        "no-false-connectivity-detail": true,
+        "normal-scale-readable": true,
+        "path-has-no-fill-or-self-intersection-artifact": true,
+        "pin-number-name-separation": true,
+        "polarity-arrow-inversion-state-unambiguous": true,
+        "ports-attached-to-expected-leads": true,
+        "reference-value-clear-of-body": true,
+        "repeated-geometry-evenly-spaced": true,
+        "silhouette-recognizable": true,
+        "variant-endpoint-identity-preserved": true
+      },
+      "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:d38f8fa97418285f0c628e38b707ef7efc4d87e9526d45b3329584f85b2998dc",
+      "svgDigest": "sha256:d08d60da46dc13283b1fcc89cac46398664418f4d2526f02e9d49decefaf4799"
+    },
+    "S010": {
+      "checks": {
+        "no-false-connectivity-detail": true,
+        "normal-scale-readable": true,
+        "path-has-no-fill-or-self-intersection-artifact": true,
+        "pin-number-name-separation": true,
+        "polarity-arrow-inversion-state-unambiguous": true,
+        "ports-attached-to-expected-leads": true,
+        "reference-value-clear-of-body": true,
+        "repeated-geometry-evenly-spaced": true,
+        "silhouette-recognizable": true,
+        "variant-endpoint-identity-preserved": true
+      },
+      "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:9fe57a53912522c6a20077ef612f188d3835054026abdaa3ed190f9d3f9268ae",
+      "svgDigest": "sha256:d2f638822367ca183a5d85956553e8954c7816c1619d672690364d0a2ec82804"
+    },
+    "S011": {
+      "checks": {
+        "no-false-connectivity-detail": true,
+        "normal-scale-readable": true,
+        "path-has-no-fill-or-self-intersection-artifact": true,
+        "pin-number-name-separation": true,
+        "polarity-arrow-inversion-state-unambiguous": true,
+        "ports-attached-to-expected-leads": true,
+        "reference-value-clear-of-body": true,
+        "repeated-geometry-evenly-spaced": true,
+        "silhouette-recognizable": true,
+        "variant-endpoint-identity-preserved": true
+      },
+      "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:e6c12e8aefac3b1828e139400e5661bca5dfaa144f726990aefe446337cd665e",
+      "svgDigest": "sha256:e3ac9e89124a0c034c827ec11ec76b2f255b3c6cdf3bf80beecef3ec60f55c0f"
+    },
+    "S012": {
+      "checks": {
+        "no-false-connectivity-detail": true,
+        "normal-scale-readable": true,
+        "path-has-no-fill-or-self-intersection-artifact": true,
+        "pin-number-name-separation": true,
+        "polarity-arrow-inversion-state-unambiguous": true,
+        "ports-attached-to-expected-leads": true,
+        "reference-value-clear-of-body": true,
+        "repeated-geometry-evenly-spaced": true,
+        "silhouette-recognizable": true,
+        "variant-endpoint-identity-preserved": true
+      },
+      "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:5997cb7aa60c95c95e70123b2d351396a7e50975aced0e710f9cdd2e454d9e93",
+      "svgDigest": "sha256:407155d7d8f3d6fd7c6e79b82f6e0eb4492a1a4bdcd33ef1dda192690899de28"
+    },
+    "S013": {
+      "checks": {
+        "no-false-connectivity-detail": true,
+        "normal-scale-readable": true,
+        "path-has-no-fill-or-self-intersection-artifact": true,
+        "pin-number-name-separation": true,
+        "polarity-arrow-inversion-state-unambiguous": true,
+        "ports-attached-to-expected-leads": true,
+        "reference-value-clear-of-body": true,
+        "repeated-geometry-evenly-spaced": true,
+        "silhouette-recognizable": true,
+        "variant-endpoint-identity-preserved": true
+      },
+      "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:dbc44de9f3b297f81385705f795a3a4234e01d636bfa6f266539e6f0d6c19b75",
+      "svgDigest": "sha256:43a27123427871697802581d29c2f3f7fb982c9499f121d43330fb2d4cfdb35f"
+    },
+    "S014": {
+      "checks": {
+        "no-false-connectivity-detail": true,
+        "normal-scale-readable": true,
+        "path-has-no-fill-or-self-intersection-artifact": true,
+        "pin-number-name-separation": true,
+        "polarity-arrow-inversion-state-unambiguous": true,
+        "ports-attached-to-expected-leads": true,
+        "reference-value-clear-of-body": true,
+        "repeated-geometry-evenly-spaced": true,
+        "silhouette-recognizable": true,
+        "variant-endpoint-identity-preserved": true
+      },
+      "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:26adcb82f63e611eec805853c65109a36fdbf1e34185f00cf830b77803632a47",
+      "svgDigest": "sha256:fd92b3fb9f8c7f4aa507ef48800c8ea2dfd803abf19eecdaf3e7e3d225bae821"
+    },
+    "S015": {
+      "checks": {
+        "no-false-connectivity-detail": true,
+        "normal-scale-readable": true,
+        "path-has-no-fill-or-self-intersection-artifact": true,
+        "pin-number-name-separation": true,
+        "polarity-arrow-inversion-state-unambiguous": true,
+        "ports-attached-to-expected-leads": true,
+        "reference-value-clear-of-body": true,
+        "repeated-geometry-evenly-spaced": true,
+        "silhouette-recognizable": true,
+        "variant-endpoint-identity-preserved": true
+      },
+      "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:93c9dc3d4727d8c1c15afa6fe7c19454671ed1ef4ccfb9c0365c9b7e6e65d98b",
+      "svgDigest": "sha256:cd8f023bd59dbe1b0f8469d63e5ca411889de5ba7b0b0e61be8a26ac3e3c5cf4"
+    },
+    "S016": {
+      "checks": {
+        "no-false-connectivity-detail": true,
+        "normal-scale-readable": true,
+        "path-has-no-fill-or-self-intersection-artifact": true,
+        "pin-number-name-separation": true,
+        "polarity-arrow-inversion-state-unambiguous": true,
+        "ports-attached-to-expected-leads": true,
+        "reference-value-clear-of-body": true,
+        "repeated-geometry-evenly-spaced": true,
+        "silhouette-recognizable": true,
+        "variant-endpoint-identity-preserved": true
+      },
+      "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:9bcc4c53ae8f6860c02ad55b3d27f389215072b5e7de32a302197d76ed8eaa70",
+      "svgDigest": "sha256:9006c6ed4056353df93805bce364a2a04bccd2124cf949b66acae12533696e50"
+    },
+    "S017": {
+      "checks": {
+        "no-false-connectivity-detail": true,
+        "normal-scale-readable": true,
+        "path-has-no-fill-or-self-intersection-artifact": true,
+        "pin-number-name-separation": true,
+        "polarity-arrow-inversion-state-unambiguous": true,
+        "ports-attached-to-expected-leads": true,
+        "reference-value-clear-of-body": true,
+        "repeated-geometry-evenly-spaced": true,
+        "silhouette-recognizable": true,
+        "variant-endpoint-identity-preserved": true
+      },
+      "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:2bef841dc174f996491731669db51cbfa274d6498f1ddf50c276749141564d8f",
+      "svgDigest": "sha256:cb7d62899390e8c0094639dbd15a503aa4d32607cb4b4523c76210b3d2aa37af"
+    },
+    "S018": {
+      "checks": {
+        "no-false-connectivity-detail": true,
+        "normal-scale-readable": true,
+        "path-has-no-fill-or-self-intersection-artifact": true,
+        "pin-number-name-separation": true,
+        "polarity-arrow-inversion-state-unambiguous": true,
+        "ports-attached-to-expected-leads": true,
+        "reference-value-clear-of-body": true,
+        "repeated-geometry-evenly-spaced": true,
+        "silhouette-recognizable": true,
+        "variant-endpoint-identity-preserved": true
+      },
+      "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:a75e7912b306541c16ee464c285f4c500dfc12a9d988ebda50016cbc36c1a0f5",
+      "svgDigest": "sha256:5e7d89c6e95a23fa2fa5b9df1027b8b21e121ad32555d307259904c8fd8efc17"
+    },
+    "S019": {
+      "checks": {
+        "no-false-connectivity-detail": true,
+        "normal-scale-readable": true,
+        "path-has-no-fill-or-self-intersection-artifact": true,
+        "pin-number-name-separation": true,
+        "polarity-arrow-inversion-state-unambiguous": true,
+        "ports-attached-to-expected-leads": true,
+        "reference-value-clear-of-body": true,
+        "repeated-geometry-evenly-spaced": true,
+        "silhouette-recognizable": true,
+        "variant-endpoint-identity-preserved": true
+      },
+      "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:872a8a46db3bc8917acf1a9d03ff3a6eb2fabe5eeebadc8d16a634d80542a701",
+      "svgDigest": "sha256:3972bdf002293e771ec6d13c473a05d4e310516f3fcd5788f59464db05a1ef79"
+    },
+    "S020": {
+      "checks": {
+        "no-false-connectivity-detail": true,
+        "normal-scale-readable": true,
+        "path-has-no-fill-or-self-intersection-artifact": true,
+        "pin-number-name-separation": true,
+        "polarity-arrow-inversion-state-unambiguous": true,
+        "ports-attached-to-expected-leads": true,
+        "reference-value-clear-of-body": true,
+        "repeated-geometry-evenly-spaced": true,
+        "silhouette-recognizable": true,
+        "variant-endpoint-identity-preserved": true
+      },
+      "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:57486acb3180122627f3cb215f7a8c748848bcd632d417e6b8ba87091ac937d2",
+      "svgDigest": "sha256:b370743754c3577d8d67e8ac34c9d4dc233b3de47afc8fa65c025f45542f33bc"
+    },
+    "S021": {
+      "checks": {
+        "no-false-connectivity-detail": true,
+        "normal-scale-readable": true,
+        "path-has-no-fill-or-self-intersection-artifact": true,
+        "pin-number-name-separation": true,
+        "polarity-arrow-inversion-state-unambiguous": true,
+        "ports-attached-to-expected-leads": true,
+        "reference-value-clear-of-body": true,
+        "repeated-geometry-evenly-spaced": true,
+        "silhouette-recognizable": true,
+        "variant-endpoint-identity-preserved": true
+      },
+      "notes": "Inspected at full resolution in addition to the contact sheet. Pin names and numbers remain separable at the corpus-defined normal scale.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:ae71cef127bdb6b5c7e17f7d7107304ff023c30a0305d4165c31a039848523f7",
+      "svgDigest": "sha256:d5c5488d152f9a29bc9418d3502402b2f2342f25f1f4daf0ef51bb7f91bef583"
+    },
+    "S022": {
+      "checks": {
+        "no-false-connectivity-detail": true,
+        "normal-scale-readable": true,
+        "path-has-no-fill-or-self-intersection-artifact": true,
+        "pin-number-name-separation": true,
+        "polarity-arrow-inversion-state-unambiguous": true,
+        "ports-attached-to-expected-leads": true,
+        "reference-value-clear-of-body": true,
+        "repeated-geometry-evenly-spaced": true,
+        "silhouette-recognizable": true,
+        "variant-endpoint-identity-preserved": true
+      },
+      "notes": "Inspected at full resolution in addition to the contact sheet. Pin names and numbers remain separable at the corpus-defined normal scale.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:44a3aaf854d138fcba0e29edee8b2ab044eed888c1aeec1e63b6ce5ee7f2c2bc",
+      "svgDigest": "sha256:3e5f00bd70e7f0b2439537fb0b689fce91d5c6a086e36c4670c9f169bd48fdea"
+    },
+    "S023": {
+      "checks": {
+        "no-false-connectivity-detail": true,
+        "normal-scale-readable": true,
+        "path-has-no-fill-or-self-intersection-artifact": true,
+        "pin-number-name-separation": true,
+        "polarity-arrow-inversion-state-unambiguous": true,
+        "ports-attached-to-expected-leads": true,
+        "reference-value-clear-of-body": true,
+        "repeated-geometry-evenly-spaced": true,
+        "silhouette-recognizable": true,
+        "variant-endpoint-identity-preserved": true
+      },
+      "notes": "Inspected at full resolution in addition to the contact sheet. Pin names and numbers remain separable at the corpus-defined normal scale.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:bcf9c1a7fed6e9626cf105f330b31c43b2e97678ce71483ab6b388c714080346",
+      "svgDigest": "sha256:580e0496f0fb06568b8b5e7865b445ebb039aebcf8f07997a1ba138f62163ad4"
+    },
+    "S024": {
+      "checks": {
+        "no-false-connectivity-detail": true,
+        "normal-scale-readable": true,
+        "path-has-no-fill-or-self-intersection-artifact": true,
+        "pin-number-name-separation": true,
+        "polarity-arrow-inversion-state-unambiguous": true,
+        "ports-attached-to-expected-leads": true,
+        "reference-value-clear-of-body": true,
+        "repeated-geometry-evenly-spaced": true,
+        "silhouette-recognizable": true,
+        "variant-endpoint-identity-preserved": true
+      },
+      "notes": "Inspected at full resolution in addition to the contact sheet. Pin names and numbers remain separable at the corpus-defined normal scale.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:225dd3cf787157a2b39a58d2f680a118b53f638d790ecc878511684a6df010f9",
+      "svgDigest": "sha256:10343e8bccd128296f15399539c0fad177fdabec4898d4f783996be30b1c7cfb"
+    },
+    "S025": {
+      "checks": {
+        "no-false-connectivity-detail": true,
+        "normal-scale-readable": true,
+        "path-has-no-fill-or-self-intersection-artifact": true,
+        "pin-number-name-separation": true,
+        "polarity-arrow-inversion-state-unambiguous": true,
+        "ports-attached-to-expected-leads": true,
+        "reference-value-clear-of-body": true,
+        "repeated-geometry-evenly-spaced": true,
+        "silhouette-recognizable": true,
+        "variant-endpoint-identity-preserved": true
+      },
+      "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:9663a57bed3673e34f8fff1829aa8168cd5f70e67b8ffe12db3167eb80c68b59",
+      "svgDigest": "sha256:d21f7a0c5c0e04e0e3a902706373647c05bed87119fdfd617a6f468404311492"
+    },
+    "S026": {
+      "checks": {
+        "no-false-connectivity-detail": true,
+        "normal-scale-readable": true,
+        "path-has-no-fill-or-self-intersection-artifact": true,
+        "pin-number-name-separation": true,
+        "polarity-arrow-inversion-state-unambiguous": true,
+        "ports-attached-to-expected-leads": true,
+        "reference-value-clear-of-body": true,
+        "repeated-geometry-evenly-spaced": true,
+        "silhouette-recognizable": true,
+        "variant-endpoint-identity-preserved": true
+      },
+      "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:555a80eadb1706c4a2c310fcbda3d96960f853593c0f23a491f8327fa67b26f5",
+      "svgDigest": "sha256:adc98801ad8d03b84ea8a3e9b0eaf25f2ce252cf76d1d812e0c9fb2ddc15d223"
+    },
+    "S027": {
+      "checks": {
+        "no-false-connectivity-detail": true,
+        "normal-scale-readable": true,
+        "path-has-no-fill-or-self-intersection-artifact": true,
+        "pin-number-name-separation": true,
+        "polarity-arrow-inversion-state-unambiguous": true,
+        "ports-attached-to-expected-leads": true,
+        "reference-value-clear-of-body": true,
+        "repeated-geometry-evenly-spaced": true,
+        "silhouette-recognizable": true,
+        "variant-endpoint-identity-preserved": true
+      },
+      "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:8c367e641cacb377358a0bfa53f82f8ecb8ec0fcbae0f1207cc9219e04a4af74",
+      "svgDigest": "sha256:fd24e4d7161359933b12a1a1b672f7dc11c2412eb2784d407151e3600c5d2bc5"
+    },
+    "S028": {
+      "checks": {
+        "no-false-connectivity-detail": true,
+        "normal-scale-readable": true,
+        "path-has-no-fill-or-self-intersection-artifact": true,
+        "pin-number-name-separation": true,
+        "polarity-arrow-inversion-state-unambiguous": true,
+        "ports-attached-to-expected-leads": true,
+        "reference-value-clear-of-body": true,
+        "repeated-geometry-evenly-spaced": true,
+        "silhouette-recognizable": true,
+        "variant-endpoint-identity-preserved": true
+      },
+      "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:1953b6e6df62d18238d59b5341eb8f374803c93285b9e08fd270391d5a9f6c1f",
+      "svgDigest": "sha256:05b296e55fe8ef37516be1549d66dfb883cbf3d5350776a1b968f7d123217582"
+    },
+    "S029": {
+      "checks": {
+        "no-false-connectivity-detail": true,
+        "normal-scale-readable": true,
+        "path-has-no-fill-or-self-intersection-artifact": true,
+        "pin-number-name-separation": true,
+        "polarity-arrow-inversion-state-unambiguous": true,
+        "ports-attached-to-expected-leads": true,
+        "reference-value-clear-of-body": true,
+        "repeated-geometry-evenly-spaced": true,
+        "silhouette-recognizable": true,
+        "variant-endpoint-identity-preserved": true
+      },
+      "notes": "Inspected in the full-resolution production SVG and category contact sheet; no critical silhouette, attachment, spacing, or false-connectivity defect was observed.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:48d03ab1494f53e8541f6ce45224c24ad019902dc3713536942718483b6532a8",
+      "svgDigest": "sha256:d03075c6bec614e660013ad0947a301c69272f6027e949a1dbbabd42a30f5dd1"
+    },
+    "S030": {
+      "checks": {
+        "no-false-connectivity-detail": true,
+        "normal-scale-readable": true,
+        "path-has-no-fill-or-self-intersection-artifact": true,
+        "pin-number-name-separation": true,
+        "polarity-arrow-inversion-state-unambiguous": true,
+        "ports-attached-to-expected-leads": true,
+        "reference-value-clear-of-body": true,
+        "repeated-geometry-evenly-spaced": true,
+        "silhouette-recognizable": true,
+        "variant-endpoint-identity-preserved": true
+      },
+      "notes": "The monolithic drawing is visually valid. True independently placeable multi-unit semantics are evaluated separately and reported NOT_SUPPORTED.",
+      "result": "PASS",
+      "reviewDate": "2026-08-11",
+      "reviewer": "OpenAI GPT-5.6 Pro visual inspector",
+      "sourceDigest": "sha256:24dddf9e0c1c413b2289f1ae1e6b7332f8a7236838cb0f10833deb216623cc6e",
+      "svgDigest": "sha256:a25802b00b36f46c2b061f659c61c84c46bc96f6e93f86541053af98b6815062"
+    }
+  },
+  "certificationBoundary": "Internal release-candidate evidence; independent human or third-party certification is outside this package.",
+  "profile": "symbol-expressiveness-1",
+  "release": "AIXEM-SRP-0.5.2-2026-08-11",
+  "reviewAuthority": "OpenAI GPT-5.6 Pro, acting as the implementation and verification agent delegated by the project owner",
+  "reviewDate": "2026-08-11",
+  "reviewMethod": "AI-assisted structured manual inspection of full-resolution production SVG and contact-sheet renderings",
+  "schema": "https://schemas.aixem.org/conformance/visual-review/1"
+}

@@ -1,0 +1,74 @@
+schema: https://schemas.aixem.org/documentation/task-route/1
+formatVersion: '1.0'
+kind: simple
+id: validate-symbol-expressiveness
+intent: validate-symbol-expressiveness
+aliases:
+- validate symbol expressiveness
+- check symbol corpus
+- find proven symbol pattern
+- validate static 2d block
+summary: Find the nearest proven symbol pattern and run production-pipeline expressiveness conformance without speculative format growth
+budget:
+  max_documents: 7
+  max_bytes: 98304
+  max_depth: 3
+expected_inputs:
+- intended component and endpoint contract
+- target symbol class or existing .aixsym source
+- selected corpus tier or case
+steps:
+- order: 1
+  document: AIXEM-CONF-SYMBOL-EXP-001
+  section: claim-levels
+  purpose: Establish the requested tier, mandatory gates, semantic boundary, and permitted claim.
+  required: true
+- order: 2
+  document: AIXEM-EXAMPLE-SYMBOL-CORPUS-001
+  section: core-pattern-index
+  purpose: Select the nearest validated construction pattern without loading the full corpus.
+  required: true
+- order: 3
+  document: AIXEM-SPEC-SYMBOL-DESIGN-001
+  section: profile-values
+  purpose: Preserve grid, lead, pitch, field, and grouping measurements.
+  required: true
+- order: 4
+  document: AIXEM-SYMBOL-COOKBOOK-001
+  section: recipe-selection
+  purpose: Adapt the proven pattern to the actual component endpoint contract.
+  required: true
+- order: 5
+  document: AIXEM-SYMBOL-LINT-001
+  section: 0-5-2-corpus-conformance-checks
+  purpose: Apply schema, binding, geometry, production-render, digest, and review checks.
+  required: true
+- order: 6
+  document: AIXEM-SPEC-RENDERER-001
+  section: variant-selection
+  purpose: Confirm public resolution and determinism behavior before diagnosing a renderer or model gap.
+  required: true
+- order: 7
+  document: AIXEM-CONF-B2D-001
+  section: explicit-exclusions
+  purpose: Apply the separate static-block boundary when the target is a non-schematic CAD-style block.
+  required: false
+  condition: Read only for Static 2D Block Profile work.
+completion:
+- The nearest validated construction pattern is identified
+- The source passes the current symbol schema without speculative extensions
+- Component ports map totally to visible electrical symbol ports
+- Production SVG and resolved scene are deterministic and digest-bound
+- Visual review has no critical readability or connectivity defect
+- Graphical and semantic capability results are reported separately
+expected_outputs:
+- validated .aixsym source or classified gap report
+- production-render evidence and geometry signature
+- S-Core, S-Extended, MU, or B2D result as applicable
+validators:
+- schematic.symbol_schema
+- schematic.symbol_design
+- schematic.authoring_binding
+- schematic.renderer_contract
+- docs.visual_review
+- docs.evidence

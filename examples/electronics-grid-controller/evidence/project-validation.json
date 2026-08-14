@@ -1,0 +1,68 @@
+{
+  "checks": {
+    "componentTypeClosure": true,
+    "geometryDoesNotCreateConnectivity": true,
+    "independentVisualAssets": true,
+    "inputDigests": 15,
+    "layoutSchema": true,
+    "librarySchemas": 1,
+    "orthogonalRouting": true,
+    "placementClosure": true,
+    "presentationPortMapClosure": true,
+    "projectSchema": true,
+    "remoteAssetsDenied": true,
+    "routeEndpointClosure": true,
+    "routeViasOnGrid": true,
+    "semanticNetClosure": true,
+    "semanticPortClosure": true,
+    "symbolSchemas": 12,
+    "viewerModelSchema": true,
+    "viewerOffline": true,
+    "viewerQualifiedIdentityClosure": true,
+    "viewerReadOnly": true,
+    "viewerWorkbenchDistinct": true
+  },
+  "diagnostics": [],
+  "featuresUsed": [
+    "compound-path",
+    "cubic-bezier",
+    "definition-use",
+    "quadratic-bezier"
+  ],
+  "generatedAt": "2026-08-10T12:00:00Z",
+  "gridValidation": {
+    "crossingPolicy": "junction-required",
+    "orthogonalSegments": 126,
+    "placementExceptions": [],
+    "placements": 17,
+    "placementsOnGrid": 17,
+    "profile": "aixem.schematic.grid-light",
+    "routeSegments": 126,
+    "routeViasOnGrid": true,
+    "snap": 2.5,
+    "zeroLengthSegments": []
+  },
+  "hashes": {
+    "drawing-svg": "sha256:cbf6775048b06eeb120530abece8148a73e0b0bebdf493f5cfc7eee9708d8080",
+    "engineering-workbench": "sha256:e7beb9ef7f2e7291bb35e225cb9305b68dc1881f5640ab155e25135ab187aa22",
+    "id": "demo.electronics:grid-controller",
+    "layoutDigest": "sha256:683e43c78b94ee7cb105fdc4e1ae8b046a26d450981f98be4f507d401494cdb0",
+    "manifestDigest": "sha256:17e9e8f067cb5e0277a6d362a1f975e1589da6ea7238f1940023e34d81bf0e98",
+    "resolved-scene": "sha256:ebdd9d963765ff7b771683ead96e209ed7f0ef8cb7d7d21c12f4daa84decdd0a",
+    "sourceDigest": "sha256:b06e6963859915a5c21945be212899b6280da9ddd076c3dec49ef1d99d2507d6",
+    "standalone-viewer": "sha256:0dc8b1bff117fce0af12970251020812de3c16fb500700a97ffdf58f3af4abbf",
+    "viewer-model": "sha256:b7ec98bae07a518582ee4e3c34e7777bca3c55d0f2d36bb0bdd4b794c29b46f0"
+  },
+  "project": "demo.electronics:grid-controller",
+  "release": "AIXEM-SRP-0.5.5-2026-08-11",
+  "schema": "https://schemas.aixem.org/component-graphics/project-validation/1",
+  "statistics": {
+    "entities": 17,
+    "nets": 20,
+    "noConnects": 12,
+    "primitives": 155,
+    "routeSegments": 126,
+    "symbolAssets": 12
+  },
+  "valid": true
+}

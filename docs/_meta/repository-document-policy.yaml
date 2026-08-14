@@ -1,0 +1,201 @@
+schema: https://schemas.aixem.org/documentation/repository-document-policy/1
+formatVersion: '1.0'
+defaultFilenamePattern: ^[a-z0-9]+(?:-[a-z0-9]+)*\.md$
+reservedFilenames:
+- AGENTS.md
+- CHANGELOG.md
+- CONTRIBUTING.md
+- NOTICE.md
+- README.md
+- REFERENCE.md
+- SECURITY.md
+- START_HERE.md
+- TASK.md
+- index.md
+rootMarkdownAllowlist:
+- AGENTS.md
+- CHANGELOG.md
+- CONTRIBUTING.md
+- NOTICE.md
+- README.md
+- REFERENCE.md
+- SECURITY.md
+- START_HERE.md
+roles:
+- id: root-entrypoint
+  lifecycle: permanent
+  status: active
+  humanAuthored: true
+  discoverabilityOwner: repository-root-whitelist
+  include:
+  - AGENTS.md
+  - CHANGELOG.md
+  - CONTRIBUTING.md
+  - NOTICE.md
+  - README.md
+  - REFERENCE.md
+  - SECURITY.md
+  - START_HERE.md
+  allowedFilenames:
+  - AGENTS.md
+  - CHANGELOG.md
+  - CONTRIBUTING.md
+  - NOTICE.md
+  - README.md
+  - REFERENCE.md
+  - SECURITY.md
+  - START_HERE.md
+- id: canonical-document
+  lifecycle: current
+  status: active
+  humanAuthored: true
+  discoverabilityOwner: docs/_meta/navigation.yaml
+  include:
+  - docs/*.md
+  - docs/**/*.md
+  exclude:
+  - docs/_meta/**/*.md
+  allowedFilenames:
+  - index.md
+- id: library-entrypoint
+  lifecycle: current
+  status: active
+  humanAuthored: true
+  discoverabilityOwner: REFERENCE.md
+  include:
+  - library/README.md
+  allowedFilenames:
+  - README.md
+- id: planning-entrypoint
+  lifecycle: permanent
+  status: active
+  humanAuthored: true
+  discoverabilityOwner: planning/index.yaml
+  include:
+  - planning/README.md
+  allowedFilenames:
+  - README.md
+- id: implementation-plan
+  lifecycle: historical
+  status: immutable
+  humanAuthored: true
+  discoverabilityOwner: planning/index.yaml
+  include:
+  - planning/releases/*/*.md
+- id: validation-entrypoint
+  lifecycle: permanent
+  status: active
+  humanAuthored: true
+  discoverabilityOwner: validation/README.md
+  include:
+  - validation/README.md
+  - validation/releases/README.md
+  - validation/evidence/README.md
+  allowedFilenames:
+  - README.md
+- id: validation-release-index
+  lifecycle: release-scoped
+  status: immutable
+  humanAuthored: true
+  discoverabilityOwner: validation/releases/README.md
+  include:
+  - validation/releases/*/README.md
+  allowedFilenames:
+  - README.md
+- id: validation-report
+  lifecycle: release-scoped
+  status: immutable
+  humanAuthored: true
+  discoverabilityOwner: validation/releases/<version>/README.md
+  include:
+  - validation/releases/*/*.md
+  exclude:
+  - validation/releases/*/README.md
+- id: verification-run-report
+  lifecycle: generated
+  status: generated
+  humanAuthored: false
+  discoverabilityOwner: validation/evidence/<version>/verification-runs/summary.json
+  include:
+  - validation/evidence/*/verification-runs/*/report.md
+- id: evidence-review
+  lifecycle: historical
+  status: retained
+  humanAuthored: true
+  discoverabilityOwner: validation/evidence/README.md
+  include:
+  - validation/evidence/reviews/*.md
+- id: evaluation-suite-document
+  lifecycle: suite-scoped
+  status: retained
+  humanAuthored: true
+  discoverabilityOwner: local-suite-root
+  include:
+  - validation/agent-evals*/README.md
+  - validation/agent-evals*/scoring.md
+  - validation/agent-evals*/results/summary.md
+  allowedFilenames:
+  - README.md
+- id: evaluation-task
+  lifecycle: suite-scoped
+  status: retained
+  humanAuthored: true
+  discoverabilityOwner: local-case-descriptor
+  include:
+  - validation/agent-evals*/cases/*/TASK.md
+  allowedFilenames:
+  - TASK.md
+- id: corpus-instruction
+  lifecycle: suite-scoped
+  status: retained
+  humanAuthored: true
+  discoverabilityOwner: local-corpus-root
+  include:
+  - validation/corpus/*/README.md
+  allowedFilenames:
+  - README.md
+- id: example-local-instruction
+  lifecycle: suite-scoped
+  status: retained
+  humanAuthored: true
+  discoverabilityOwner: local-example-root
+  include:
+  - examples/*/README.md
+  - examples/**/README.md
+  allowedFilenames:
+  - README.md
+- id: legacy-explanation
+  lifecycle: historical
+  status: retained
+  humanAuthored: true
+  discoverabilityOwner: legacy/README.md
+  include:
+  - legacy/README.md
+  allowedFilenames:
+  - README.md
+primaryRootEntrypoint: README.md
+rootReferenceMap: REFERENCE.md
+sharedNormativeAuthorityScopes:
+- architecture-decision
+rootReferenceDeferredTargets:
+- docs/_meta/generated/task-packets/
+- reference/
+- site/
+- release/manifest.json
+rootReferenceRequiredTargets:
+- docs/
+- examples/
+- implementation/
+- legacy/
+- planning/
+- profiles/
+- reference/
+- release/
+- site/
+- tests/
+- tools/
+- validation/
+- Makefile
+- VERSION
+- requirements.txt
+- requirements-release.txt

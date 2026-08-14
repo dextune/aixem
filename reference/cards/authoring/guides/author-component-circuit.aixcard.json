@@ -1,0 +1,55 @@
+{
+  "card": {
+    "aliases": [
+      "author component circuit guide",
+      "end-to-end circuit authoring",
+      "new part and schematic"
+    ],
+    "appliesTo": [
+      "authoring-guide-author-component-circuit"
+    ],
+    "domain": "authoring",
+    "estimatedReadBytes": 5688,
+    "id": "AIXEM-AUTHORING-GUIDE-AUTHOR-COMPONENT-CIRCUIT-001",
+    "inputs": [],
+    "keywords": [
+      "Author a Component Circuit",
+      "author component circuit guide",
+      "author-component-circuit",
+      "end-to-end circuit authoring",
+      "new part and schematic"
+    ],
+    "kind": "guide",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/authoring/guides/author-component-circuit.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:c1deecfe9db69f7188bc159bf309e88a4024638018cb78f82894e0332b5a4e81"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-AUTHORING-GUIDES-INDEX-001",
+      "AIXEM-AGENT-AUTHORING-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-AUTHORING-GUIDE-AUTHOR-COMPONENT-CIRCUIT-001.read",
+        "level": "should",
+        "text": "Provides the stable end-to-end chain from reusable component identity through semantic schematic, placement, routing, rendering, and separated validation claims."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-AUTHORING-GUIDE-AUTHOR-COMPONENT-CIRCUIT-001",
+        "path": "docs/authoring/guides/author-component-circuit.md"
+      }
+    ],
+    "summary": "Provides the stable end-to-end chain from reusable component identity through semantic schematic, placement, routing, rendering, and separated validation claims.",
+    "title": "Author a Component Circuit"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

@@ -1,0 +1,24 @@
+{
+  "entryRoute": "compose-project",
+  "executionMode": "deterministic-harness-replay",
+  "expectedInitialDiagnostics": [],
+  "id": "A007",
+  "iterations": 1,
+  "liveExternalAgentExecuted": false,
+  "missingExpectedDiagnostics": [],
+  "mutation": null,
+  "observedInitialDiagnostics": [],
+  "passConditions": {
+    "checkPassedAfterRepair": true,
+    "closePassed": true,
+    "expectedInitialDiagnosticsObserved": true,
+    "liveClaimFalse": true,
+    "renderDeterministic": true,
+    "zeroGeneratedOutputEdits": true,
+    "zeroScopeViolations": true
+  },
+  "recordDigest": "sha256:8330fce943d265130b9ef7d66bd4e3b3658fdab476f61f1a9559c148b112c374",
+  "retainedRunRecord": "runs/A007-authoring-run-record.json",
+  "status": "pass",
+  "title": "Same-name local nets"
+}

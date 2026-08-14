@@ -1,0 +1,180 @@
+{
+  "coordinateSystem": {
+    "angleDirection": "clockwise",
+    "angleUnit": "deg",
+    "grid": 2.5,
+    "unit": "mm",
+    "yAxis": "down"
+  },
+  "diagnostics": [],
+  "entities": [
+    {
+      "componentType": "authoring:resistor",
+      "key": "R1",
+      "kind": "component",
+      "parameters": {
+        "body-height": 7.5,
+        "body-length": 20,
+        "lead-length": 5
+      },
+      "placement": {
+        "entity": "R1",
+        "layer": "symbols",
+        "x": 45,
+        "y": 50
+      },
+      "ports": {
+        "1": [
+          30.0,
+          50.0
+        ],
+        "2": [
+          60.0,
+          50.0
+        ]
+      },
+      "reference": "R1",
+      "symbolDigest": "sha256:59c410ab8cba7e0d023c9831ff8830606ba74ed8d19d888b6cf888377e243493",
+      "symbolId": "authoring:resistor",
+      "value": "10k",
+      "variant": null
+    },
+    {
+      "componentType": "authoring:resistor",
+      "key": "R2",
+      "kind": "component",
+      "parameters": {
+        "body-height": 7.5,
+        "body-length": 20,
+        "lead-length": 5
+      },
+      "placement": {
+        "entity": "R2",
+        "layer": "symbols",
+        "x": 85,
+        "y": 50
+      },
+      "ports": {
+        "1": [
+          70.0,
+          50.0
+        ],
+        "2": [
+          100.0,
+          50.0
+        ]
+      },
+      "reference": "R2",
+      "symbolDigest": "sha256:59c410ab8cba7e0d023c9831ff8830606ba74ed8d19d888b6cf888377e243493",
+      "symbolId": "authoring:resistor",
+      "value": "22k",
+      "variant": null
+    }
+  ],
+  "featuresUsed": [],
+  "generatedAt": "2026-08-10T00:00:00Z",
+  "gridValidation": {
+    "crossingPolicy": "junction-required",
+    "orthogonalSegments": 1,
+    "placementExceptions": [],
+    "placements": 2,
+    "placementsOnGrid": 2,
+    "profile": "aixem.schematic.grid-light",
+    "routeSegments": 1,
+    "routeViasOnGrid": true,
+    "snap": 2.5,
+    "zeroLengthSegments": []
+  },
+  "hashes": {
+    "layout": "sha256:05864c8835b73891fa149e16970398ede4d5e7a6294f38e5b4f7dc1aad0b2337",
+    "libraries": [
+      "sha256:ccd0b383055584b2962fbc3420c6d9aabb3943fc7d1b5051194e26984ff9346d"
+    ],
+    "source": "sha256:06624df6f437585301ab6a9d691006489e6265f9fcf102520c985a96d4731836",
+    "symbolAssets": [
+      "sha256:59c410ab8cba7e0d023c9831ff8830606ba74ed8d19d888b6cf888377e243493"
+    ]
+  },
+  "layers": [
+    {
+      "defaultVisible": true,
+      "id": "connections",
+      "locked": false,
+      "order": 10,
+      "printable": true,
+      "purpose": "semantic net routes"
+    },
+    {
+      "defaultVisible": true,
+      "id": "symbols",
+      "locked": false,
+      "order": 20,
+      "printable": true,
+      "purpose": "component symbols"
+    },
+    {
+      "defaultVisible": true,
+      "id": "annotation",
+      "locked": false,
+      "order": 30,
+      "printable": true,
+      "purpose": "notes"
+    }
+  ],
+  "nets": [
+    {
+      "endpoints": [
+        "R1.2",
+        "R2.1"
+      ],
+      "junctions": [],
+      "name": "link",
+      "paths": [
+        [
+          [
+            60.0,
+            50.0
+          ],
+          [
+            70.0,
+            50.0
+          ]
+        ]
+      ]
+    }
+  ],
+  "project": {
+    "id": "authoring:two_pin_passive",
+    "profile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "title": "Two-pin Passive Authoring"
+  },
+  "renderer": {
+    "id": "aixem-grid-schematic-reference-renderer",
+    "version": "0.5.1"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/resolved-scene/1",
+  "sheet": {
+    "height": 100,
+    "margin": 10,
+    "titleBlock": {
+      "drawing": "two_pin_passive-layout",
+      "revision": "A",
+      "sheet": "1/1",
+      "title": "Two-pin passive"
+    },
+    "width": 160
+  },
+  "statistics": {
+    "entities": 2,
+    "nets": 1,
+    "noConnects": 2,
+    "primitives": 10,
+    "routeSegments": 1,
+    "symbolAssets": 1
+  },
+  "styleProfile": {
+    "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+    "id": "aixem.schematic.grid-light",
+    "path": "aixem-grid-schematic-style-1.aixstyle.json"
+  }
+}

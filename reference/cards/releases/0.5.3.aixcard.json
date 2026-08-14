@@ -1,0 +1,58 @@
+{
+  "card": {
+    "aliases": [
+      "0.5.3",
+      "AIXEM 0.5.3",
+      "hierarchical multi-sheet release"
+    ],
+    "appliesTo": [
+      "current-release-note"
+    ],
+    "domain": "releases",
+    "estimatedReadBytes": 4068,
+    "id": "AIXEM-RELEASE-053-001",
+    "inputs": [],
+    "keywords": [
+      "0.5.3",
+      "AIXEM 0.5.3",
+      "compose-project",
+      "hierarchical multi-sheet release",
+      "publish-release",
+      "route-project-nets",
+      "validate-project"
+    ],
+    "kind": "release-note",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/releases/0.5.3.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:e8970220db862a9d5da10febfc3f9b18ad84b8634ea52c3c3a48867c767c6aea"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 900,
+    "readNext": [
+      "AIXEM-RELEASE-052-001",
+      "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
+      "AIXEM-SPEC-PROJECT-COMPOSITION-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-RELEASE-053-001.read",
+        "level": "should",
+        "text": "Documents deterministic hierarchical multi-sheet composition, explicit project nets, three project views, compatibility preservation, and three-pass verification."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-RELEASE-053-001",
+        "path": "docs/releases/0.5.3.md"
+      }
+    ],
+    "summary": "Documents deterministic hierarchical multi-sheet composition, explicit project nets, three project views, compatibility preservation, and three-pass verification.",
+    "title": "AIXEM 0.5.3"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

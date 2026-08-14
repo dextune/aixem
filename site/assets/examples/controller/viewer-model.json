@@ -1,0 +1,2630 @@
+{
+  "capabilities": {
+    "composite": false,
+    "diagnostics": true,
+    "hierarchy": false,
+    "interfacePorts": false,
+    "offline": true,
+    "overview": false,
+    "projectNets": false,
+    "qualifiedSearch": true,
+    "readOnly": true,
+    "sheet": true,
+    "sheetScopedLayers": true,
+    "viewport": true
+  },
+  "diagnostics": [
+    {
+      "code": "VIEWER-READONLY-001",
+      "message": "Reference Viewer runtime state is derived and read-only.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-QID-001",
+      "message": "38 qualified objects indexed without ambiguity.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-ASSET-001",
+      "message": "The self-contained Viewer requires no remote presentation assets.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "GRID-001",
+      "message": "17/17 placements satisfy the declared snap grid.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "ROUTE-001",
+      "message": "126 orthogonal route segments are resolved.",
+      "severity": "info",
+      "status": "PASS"
+    }
+  ],
+  "domContract": "1",
+  "formatVersion": "1.0",
+  "hierarchy": [
+    {
+      "children": [],
+      "depth": 0,
+      "id": "main",
+      "order": 0,
+      "parent": null,
+      "qid": "sheet:main",
+      "title": "Grid Controller and Sensor Interface"
+    }
+  ],
+  "initialState": {
+    "activeNavigatorCategory": "entity",
+    "activeSheet": "main",
+    "mode": "sheet",
+    "searchQuery": "",
+    "selection": null,
+    "visibleLayersBySheet": {
+      "main": {
+        "annotation": true,
+        "connections": true,
+        "symbols": true
+      }
+    }
+  },
+  "objects": {
+    "entity:main:afe": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U2 · AFE / LPF",
+      "nativeId": "afe",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:main:afe"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Entity ID",
+          "value": "afe"
+        },
+        {
+          "label": "Reference",
+          "value": "U2"
+        },
+        {
+          "label": "Value",
+          "value": "AFE / LPF"
+        },
+        {
+          "label": "Component type",
+          "value": "demo.electronics:analog-front-end"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "demo.electronics:analog-front-end"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"afe\",\"layer\":\"symbols\",\"x\":157.5,\"y\":142.5}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"3V3\":[157.5,115.0],\"GND\":[157.5,170.0],\"VINN\":[128.5,142.5],\"VINP\":[128.5,132.5],\"VOUT\":[186.5,142.5],\"VREF\":[128.5,152.5]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:56544f87179fd90d34d3ffa5bf6d733df4707e2fda2eece32adb57c4bd5a1ff6"
+        }
+      ],
+      "qid": "entity:main:afe",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "entity:main:afe u2 · afe / lpf afe main u2 afe / lpf demo.electronics:analog-front-end demo.electronics:analog-front-end",
+      "sheet": "main"
+    },
+    "entity:main:bulk_cap": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "C1 · 47 uF",
+      "nativeId": "bulk_cap",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:main:bulk_cap"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Entity ID",
+          "value": "bulk_cap"
+        },
+        {
+          "label": "Reference",
+          "value": "C1"
+        },
+        {
+          "label": "Value",
+          "value": "47 uF"
+        },
+        {
+          "label": "Component type",
+          "value": "demo.electronics:capacitor"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "demo.electronics:capacitor"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"bulk_cap\",\"layer\":\"symbols\",\"rotation\":90,\"x\":177.5,\"y\":57.5}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[177.5,43.5],\"2\":[177.5,71.5]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:a4a46557016e7f828965780176b0b1501fb360eb7d5a3a6e703d3d4341fb7ee4"
+        }
+      ],
+      "qid": "entity:main:bulk_cap",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "entity:main:bulk_cap c1 · 47 uf bulk_cap main c1 47 uf demo.electronics:capacitor demo.electronics:capacitor",
+      "sheet": "main"
+    },
+    "entity:main:controller": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U3 · AIXEM-MCU24",
+      "nativeId": "controller",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:main:controller"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Entity ID",
+          "value": "controller"
+        },
+        {
+          "label": "Reference",
+          "value": "U3"
+        },
+        {
+          "label": "Value",
+          "value": "AIXEM-MCU24"
+        },
+        {
+          "label": "Component type",
+          "value": "demo.electronics:controller-24"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "demo.electronics:controller-24"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"controller\",\"layer\":\"symbols\",\"x\":255,\"y\":125}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"3V3A\":[251.25,78.75],\"3V3D\":[258.75,78.75],\"ADC0\":[215.0,121.25],\"ADC1\":[215.0,128.75],\"BOOT0\":[215.0,143.75],\"GNDA\":[251.25,171.25],\"GNDD\":[258.75,171.25],\"NRST\":[215.0,136.25],\"PA0\":[215.0,91.25],\"PA1\":[215.0,98.75],\"PA2\":[215.0,106.25],\"PA3\":[215.0,113.75],\"PB0\":[295.0,91.25],\"PB1\":[295.0,98.75],\"PB2\":[295.0,106.25],\"PB3\":[295.0,113.75],\"SWCLK\":[295.0,128.75],\"SWDIO\":[295.0,121.25],\"UART_RX\":[295.0,143.75],\"UART_TX\":[295.0,136.25],\"USB_DM\":[295.0,158.75],\"USB_DP\":[295.0,151.25],\"XTAL1\":[215.0,151.25],\"XTAL2\":[215.0,158.75]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:27c0ddd46f5abe5c7cc8d3c116a19d7a179db71f52a5021829e6882eb6df0aa8"
+        }
+      ],
+      "qid": "entity:main:controller",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "entity:main:controller u3 · aixem-mcu24 controller main u3 aixem-mcu24 demo.electronics:controller-24 demo.electronics:controller-24",
+      "sheet": "main"
+    },
+    "entity:main:debug": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "J3 · SWD 2x5",
+      "nativeId": "debug",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:main:debug"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Entity ID",
+          "value": "debug"
+        },
+        {
+          "label": "Reference",
+          "value": "J3"
+        },
+        {
+          "label": "Value",
+          "value": "SWD 2x5"
+        },
+        {
+          "label": "Component type",
+          "value": "demo.electronics:debug-header-10"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "demo.electronics:debug-header-10"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"debug\",\"layer\":\"symbols\",\"x\":360,\"y\":62.5}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[336.0,47.5],\"10\":[384.0,77.5],\"2\":[384.0,47.5],\"3\":[336.0,55.0],\"4\":[384.0,55.0],\"5\":[336.0,62.5],\"6\":[384.0,62.5],\"7\":[336.0,70.0],\"8\":[384.0,70.0],\"9\":[336.0,77.5]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:b978605c193685347cedf930e0f0a8a76d5aa2195ec7a6417c3e4ea62f13f8bb"
+        }
+      ],
+      "qid": "entity:main:debug",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "entity:main:debug j3 · swd 2x5 debug main j3 swd 2x5 demo.electronics:debug-header-10 demo.electronics:debug-header-10",
+      "sheet": "main"
+    },
+    "entity:main:divider_bottom": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "R2 · 10 kOhm",
+      "nativeId": "divider_bottom",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:main:divider_bottom"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Entity ID",
+          "value": "divider_bottom"
+        },
+        {
+          "label": "Reference",
+          "value": "R2"
+        },
+        {
+          "label": "Value",
+          "value": "10 kOhm"
+        },
+        {
+          "label": "Component type",
+          "value": "demo.electronics:resistor"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "demo.electronics:resistor"
+        },
+        {
+          "label": "Variant",
+          "value": "iec"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"divider_bottom\",\"layer\":\"symbols\",\"rotation\":90,\"variant\":\"iec\",\"x\":115,\"y\":172.5}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{\"body-height\":7,\"body-length\":20,\"lead-length\":6}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[115.0,156.5],\"2\":[115.0,188.5]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:c30ee87185bc5d5596739bb0343f99a0a602256dd768ea8c58a466eab28d8de8"
+        }
+      ],
+      "qid": "entity:main:divider_bottom",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "entity:main:divider_bottom r2 · 10 kohm divider_bottom main r2 10 kohm demo.electronics:resistor demo.electronics:resistor",
+      "sheet": "main"
+    },
+    "entity:main:divider_top": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "R1 · 47 kOhm",
+      "nativeId": "divider_top",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:main:divider_top"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Entity ID",
+          "value": "divider_top"
+        },
+        {
+          "label": "Reference",
+          "value": "R1"
+        },
+        {
+          "label": "Value",
+          "value": "47 kOhm"
+        },
+        {
+          "label": "Component type",
+          "value": "demo.electronics:resistor"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "demo.electronics:resistor"
+        },
+        {
+          "label": "Variant",
+          "value": "iec"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"divider_top\",\"layer\":\"symbols\",\"variant\":\"iec\",\"x\":87.5,\"y\":135}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{\"body-height\":7,\"body-length\":20,\"lead-length\":6}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[71.5,135.0],\"2\":[103.5,135.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:c30ee87185bc5d5596739bb0343f99a0a602256dd768ea8c58a466eab28d8de8"
+        }
+      ],
+      "qid": "entity:main:divider_top",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "entity:main:divider_top r1 · 47 kohm divider_top main r1 47 kohm demo.electronics:resistor demo.electronics:resistor",
+      "sheet": "main"
+    },
+    "entity:main:field_io": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "J4 · FIELD I/O",
+      "nativeId": "field_io",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:main:field_io"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Entity ID",
+          "value": "field_io"
+        },
+        {
+          "label": "Reference",
+          "value": "J4"
+        },
+        {
+          "label": "Value",
+          "value": "FIELD I/O"
+        },
+        {
+          "label": "Component type",
+          "value": "demo.electronics:io-header-8"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "demo.electronics:io-header-8"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"field_io\",\"layer\":\"symbols\",\"x\":367.5,\"y\":155}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[345.5,143.75],\"2\":[345.5,151.25],\"3\":[345.5,158.75],\"4\":[345.5,166.25],\"5\":[389.5,143.75],\"6\":[389.5,151.25],\"7\":[389.5,158.75],\"8\":[389.5,166.25]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:6f75c80a590c4d34cf024937ef114bf4c67deca3793df9b0d838dea90f6ba2aa"
+        }
+      ],
+      "qid": "entity:main:field_io",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "entity:main:field_io j4 · field i/o field_io main j4 field i/o demo.electronics:io-header-8 demo.electronics:io-header-8",
+      "sheet": "main"
+    },
+    "entity:main:fuse": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "F1 · 500 mA",
+      "nativeId": "fuse",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:main:fuse"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Entity ID",
+          "value": "fuse"
+        },
+        {
+          "label": "Reference",
+          "value": "F1"
+        },
+        {
+          "label": "Value",
+          "value": "500 mA"
+        },
+        {
+          "label": "Component type",
+          "value": "demo.electronics:fuse"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "demo.electronics:fuse"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"fuse\",\"layer\":\"symbols\",\"x\":70,\"y\":32.5}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[54.0,32.5],\"2\":[86.0,32.5]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:7bad704b4ef0626566c343e2ddd516e2007edece2c2d8f9b4bd301f4d6df5558"
+        }
+      ],
+      "qid": "entity:main:fuse",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "entity:main:fuse f1 · 500 ma fuse main f1 500 ma demo.electronics:fuse demo.electronics:fuse",
+      "sheet": "main"
+    },
+    "entity:main:led1": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "LED1 · RUN",
+      "nativeId": "led1",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:main:led1"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Entity ID",
+          "value": "led1"
+        },
+        {
+          "label": "Reference",
+          "value": "LED1"
+        },
+        {
+          "label": "Value",
+          "value": "RUN"
+        },
+        {
+          "label": "Component type",
+          "value": "demo.electronics:led"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "demo.electronics:led"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"led1\",\"layer\":\"symbols\",\"x\":370,\"y\":215}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"A\":[356.0,215.0],\"K\":[384.0,215.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:4ece48f40e0fc2b2f87c553c1d7efb706b46d89579919b36fc41c0631b789d79"
+        }
+      ],
+      "qid": "entity:main:led1",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "entity:main:led1 led1 · run led1 main led1 run demo.electronics:led demo.electronics:led",
+      "sheet": "main"
+    },
+    "entity:main:led2": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "LED2 · FAULT",
+      "nativeId": "led2",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:main:led2"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Entity ID",
+          "value": "led2"
+        },
+        {
+          "label": "Reference",
+          "value": "LED2"
+        },
+        {
+          "label": "Value",
+          "value": "FAULT"
+        },
+        {
+          "label": "Component type",
+          "value": "demo.electronics:led"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "demo.electronics:led"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"led2\",\"layer\":\"symbols\",\"x\":370,\"y\":235}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"A\":[356.0,235.0],\"K\":[384.0,235.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:4ece48f40e0fc2b2f87c553c1d7efb706b46d89579919b36fc41c0631b789d79"
+        }
+      ],
+      "qid": "entity:main:led2",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "entity:main:led2 led2 · fault led2 main led2 fault demo.electronics:led demo.electronics:led",
+      "sheet": "main"
+    },
+    "entity:main:led_r1": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "R3 · 1 kOhm",
+      "nativeId": "led_r1",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:main:led_r1"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Entity ID",
+          "value": "led_r1"
+        },
+        {
+          "label": "Reference",
+          "value": "R3"
+        },
+        {
+          "label": "Value",
+          "value": "1 kOhm"
+        },
+        {
+          "label": "Component type",
+          "value": "demo.electronics:resistor"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "demo.electronics:resistor"
+        },
+        {
+          "label": "Variant",
+          "value": "iec"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"led_r1\",\"layer\":\"symbols\",\"variant\":\"iec\",\"x\":320,\"y\":215}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{\"body-height\":7,\"body-length\":20,\"lead-length\":6}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[304.0,215.0],\"2\":[336.0,215.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:c30ee87185bc5d5596739bb0343f99a0a602256dd768ea8c58a466eab28d8de8"
+        }
+      ],
+      "qid": "entity:main:led_r1",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "entity:main:led_r1 r3 · 1 kohm led_r1 main r3 1 kohm demo.electronics:resistor demo.electronics:resistor",
+      "sheet": "main"
+    },
+    "entity:main:led_r2": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "R4 · 1 kOhm",
+      "nativeId": "led_r2",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:main:led_r2"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Entity ID",
+          "value": "led_r2"
+        },
+        {
+          "label": "Reference",
+          "value": "R4"
+        },
+        {
+          "label": "Value",
+          "value": "1 kOhm"
+        },
+        {
+          "label": "Component type",
+          "value": "demo.electronics:resistor"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "demo.electronics:resistor"
+        },
+        {
+          "label": "Variant",
+          "value": "iec"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"led_r2\",\"layer\":\"symbols\",\"variant\":\"iec\",\"x\":320,\"y\":235}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{\"body-height\":7,\"body-length\":20,\"lead-length\":6}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[304.0,235.0],\"2\":[336.0,235.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:c30ee87185bc5d5596739bb0343f99a0a602256dd768ea8c58a466eab28d8de8"
+        }
+      ],
+      "qid": "entity:main:led_r2",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "entity:main:led_r2 r4 · 1 kohm led_r2 main r4 1 kohm demo.electronics:resistor demo.electronics:resistor",
+      "sheet": "main"
+    },
+    "entity:main:logic_cap": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "C2 · 1 uF",
+      "nativeId": "logic_cap",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:main:logic_cap"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Entity ID",
+          "value": "logic_cap"
+        },
+        {
+          "label": "Reference",
+          "value": "C2"
+        },
+        {
+          "label": "Value",
+          "value": "1 uF"
+        },
+        {
+          "label": "Component type",
+          "value": "demo.electronics:capacitor"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "demo.electronics:capacitor"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"logic_cap\",\"layer\":\"symbols\",\"rotation\":90,\"x\":202.5,\"y\":57.5}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[202.5,43.5],\"2\":[202.5,71.5]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:a4a46557016e7f828965780176b0b1501fb360eb7d5a3a6e703d3d4341fb7ee4"
+        }
+      ],
+      "qid": "entity:main:logic_cap",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "entity:main:logic_cap c2 · 1 uf logic_cap main c2 1 uf demo.electronics:capacitor demo.electronics:capacitor",
+      "sheet": "main"
+    },
+    "entity:main:power_in": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "J1 · 24 VDC",
+      "nativeId": "power_in",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:main:power_in"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Entity ID",
+          "value": "power_in"
+        },
+        {
+          "label": "Reference",
+          "value": "J1"
+        },
+        {
+          "label": "Value",
+          "value": "24 VDC"
+        },
+        {
+          "label": "Component type",
+          "value": "demo.electronics:terminal-2"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "demo.electronics:terminal-2"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"power_in\",\"fields\":{\"value\":\"24 VDC\"},\"layer\":\"symbols\",\"x\":25,\"y\":37.5}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[39.0,31.5],\"2\":[39.0,43.5]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:5042a45420e4239d9fa9d2f3fdce81c9c932b42286b6ba13ca33b80877e0f4ce"
+        }
+      ],
+      "qid": "entity:main:power_in",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "entity:main:power_in j1 · 24 vdc power_in main j1 24 vdc demo.electronics:terminal-2 demo.electronics:terminal-2",
+      "sheet": "main"
+    },
+    "entity:main:regulator": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · 24 V → 3.3 V",
+      "nativeId": "regulator",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:main:regulator"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Entity ID",
+          "value": "regulator"
+        },
+        {
+          "label": "Reference",
+          "value": "U1"
+        },
+        {
+          "label": "Value",
+          "value": "24 V → 3.3 V"
+        },
+        {
+          "label": "Component type",
+          "value": "demo.electronics:buck-regulator"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "demo.electronics:buck-regulator"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"regulator\",\"layer\":\"symbols\",\"x\":127.5,\"y\":32.5}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"GND\":[127.5,50.5],\"VIN\":[103.5,32.5],\"VOUT\":[151.5,32.5]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:794d2154b3821a288933bdb8cc03daa5d68237fd0de2d50c7d5538d76dc24655"
+        }
+      ],
+      "qid": "entity:main:regulator",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "entity:main:regulator u1 · 24 v → 3.3 v regulator main u1 24 v → 3.3 v demo.electronics:buck-regulator demo.electronics:buck-regulator",
+      "sheet": "main"
+    },
+    "entity:main:sensor": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "J2 · 3-wire sensor",
+      "nativeId": "sensor",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:main:sensor"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Entity ID",
+          "value": "sensor"
+        },
+        {
+          "label": "Reference",
+          "value": "J2"
+        },
+        {
+          "label": "Value",
+          "value": "3-wire sensor"
+        },
+        {
+          "label": "Component type",
+          "value": "demo.electronics:sensor-connector-3"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "demo.electronics:sensor-connector-3"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"sensor\",\"layer\":\"symbols\",\"x\":35,\"y\":142.5}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[51.0,134.5],\"2\":[51.0,142.5],\"3\":[51.0,150.5]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:44a4b48baec34076c56d390d8b7dbb62e7462673c8c2a28f5b87068ea8f67431"
+        }
+      ],
+      "qid": "entity:main:sensor",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "entity:main:sensor j2 · 3-wire sensor sensor main j2 3-wire sensor demo.electronics:sensor-connector-3 demo.electronics:sensor-connector-3",
+      "sheet": "main"
+    },
+    "entity:main:tvs": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "D1 · SMBJ33A",
+      "nativeId": "tvs",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:main:tvs"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Entity ID",
+          "value": "tvs"
+        },
+        {
+          "label": "Reference",
+          "value": "D1"
+        },
+        {
+          "label": "Value",
+          "value": "SMBJ33A"
+        },
+        {
+          "label": "Component type",
+          "value": "demo.electronics:tvs-diode"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "demo.electronics:tvs-diode"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"tvs\",\"layer\":\"symbols\",\"rotation\":90,\"x\":102.5,\"y\":57.5}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"A\":[102.5,71.5],\"K\":[102.5,43.5]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:4ab8d69e24b6e46dda934f2d97ff4b355d116b773e1d4650d1064778f6ce6469"
+        }
+      ],
+      "qid": "entity:main:tvs",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "entity:main:tvs d1 · smbj33a tvs main d1 smbj33a demo.electronics:tvs-diode demo.electronics:tvs-diode",
+      "sheet": "main"
+    },
+    "local-net:main:afe_output": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "afe_output",
+      "nativeId": "afe_output",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:main:afe_output"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Local net ID",
+          "value": "afe_output"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"afe.VOUT\",\"controller.ADC0\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "2"
+        },
+        {
+          "label": "Related project net",
+          "value": "none"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:main:afe_output",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "local-net:main:afe_output afe_output afe_output main [\"afe.vout\",\"controller.adc0\"]",
+      "sheet": "main"
+    },
+    "local-net:main:divider_node": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "divider_node",
+      "nativeId": "divider_node",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:main:divider_node"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Local net ID",
+          "value": "divider_node"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "3"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"divider_top.2\",\"divider_bottom.1\",\"afe.VINN\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "2"
+        },
+        {
+          "label": "Junction count",
+          "value": "3"
+        },
+        {
+          "label": "Related project net",
+          "value": "none"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:main:divider_node",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "local-net:main:divider_node divider_node divider_node main [\"divider_top.2\",\"divider_bottom.1\",\"afe.vinn\"]",
+      "sheet": "main"
+    },
+    "local-net:main:gnd": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "gnd",
+      "nativeId": "gnd",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:main:gnd"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Local net ID",
+          "value": "gnd"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "16"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"power_in.2\",\"tvs.A\",\"regulator.GND\",\"bulk_cap.2\",\"logic_cap.2\",\"sensor.3\",\"divider_bottom.2\",\"afe.GND\",\"controller.GNDA\",\"controller.GNDD\",\"debug.3\",\"debug.5\",\"debug.10\",\"field_io.8\",\"led1.K\",\"led2.K\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "15"
+        },
+        {
+          "label": "Junction count",
+          "value": "13"
+        },
+        {
+          "label": "Related project net",
+          "value": "none"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:main:gnd",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "local-net:main:gnd gnd gnd main [\"power_in.2\",\"tvs.a\",\"regulator.gnd\",\"bulk_cap.2\",\"logic_cap.2\",\"sensor.3\",\"divider_bottom.2\",\"afe.gnd\",\"controller.gnda\",\"controller.gndd\",\"debug.3\",\"debug.5\",\"debug.10\",\"field_io.8\",\"led1.k\",\"led2.k\"]",
+      "sheet": "main"
+    },
+    "local-net:main:in1": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "in1",
+      "nativeId": "in1",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:main:in1"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Local net ID",
+          "value": "in1"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"controller.PA0\",\"field_io.5\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "2"
+        },
+        {
+          "label": "Related project net",
+          "value": "none"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:main:in1",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "local-net:main:in1 in1 in1 main [\"controller.pa0\",\"field_io.5\"]",
+      "sheet": "main"
+    },
+    "local-net:main:in2": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "in2",
+      "nativeId": "in2",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:main:in2"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Local net ID",
+          "value": "in2"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"controller.PA1\",\"field_io.6\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "2"
+        },
+        {
+          "label": "Related project net",
+          "value": "none"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:main:in2",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "local-net:main:in2 in2 in2 main [\"controller.pa1\",\"field_io.6\"]",
+      "sheet": "main"
+    },
+    "local-net:main:led1_anode": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "led1_anode",
+      "nativeId": "led1_anode",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:main:led1_anode"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Local net ID",
+          "value": "led1_anode"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"led_r1.2\",\"led1.A\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "none"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:main:led1_anode",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "local-net:main:led1_anode led1_anode led1_anode main [\"led_r1.2\",\"led1.a\"]",
+      "sheet": "main"
+    },
+    "local-net:main:led1_drive": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "led1_drive",
+      "nativeId": "led1_drive",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:main:led1_drive"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Local net ID",
+          "value": "led1_drive"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"controller.PB2\",\"led_r1.1\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "2"
+        },
+        {
+          "label": "Related project net",
+          "value": "none"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:main:led1_drive",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "local-net:main:led1_drive led1_drive led1_drive main [\"controller.pb2\",\"led_r1.1\"]",
+      "sheet": "main"
+    },
+    "local-net:main:led2_anode": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "led2_anode",
+      "nativeId": "led2_anode",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:main:led2_anode"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Local net ID",
+          "value": "led2_anode"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"led_r2.2\",\"led2.A\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "none"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:main:led2_anode",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "local-net:main:led2_anode led2_anode led2_anode main [\"led_r2.2\",\"led2.a\"]",
+      "sheet": "main"
+    },
+    "local-net:main:led2_drive": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "led2_drive",
+      "nativeId": "led2_drive",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:main:led2_drive"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Local net ID",
+          "value": "led2_drive"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"controller.PB3\",\"led_r2.1\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "2"
+        },
+        {
+          "label": "Related project net",
+          "value": "none"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:main:led2_drive",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "local-net:main:led2_drive led2_drive led2_drive main [\"controller.pb3\",\"led_r2.1\"]",
+      "sheet": "main"
+    },
+    "local-net:main:out1": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "out1",
+      "nativeId": "out1",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:main:out1"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Local net ID",
+          "value": "out1"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"controller.PB0\",\"field_io.1\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "2"
+        },
+        {
+          "label": "Related project net",
+          "value": "none"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:main:out1",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "local-net:main:out1 out1 out1 main [\"controller.pb0\",\"field_io.1\"]",
+      "sheet": "main"
+    },
+    "local-net:main:out2": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "out2",
+      "nativeId": "out2",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:main:out2"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Local net ID",
+          "value": "out2"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"controller.PB1\",\"field_io.2\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "2"
+        },
+        {
+          "label": "Related project net",
+          "value": "none"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:main:out2",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "local-net:main:out2 out2 out2 main [\"controller.pb1\",\"field_io.2\"]",
+      "sheet": "main"
+    },
+    "local-net:main:rail_3v3": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "rail_3v3",
+      "nativeId": "rail_3v3",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:main:rail_3v3"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Local net ID",
+          "value": "rail_3v3"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "8"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"regulator.VOUT\",\"bulk_cap.1\",\"logic_cap.1\",\"afe.3V3\",\"controller.3V3A\",\"controller.3V3D\",\"debug.1\",\"field_io.7\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "7"
+        },
+        {
+          "label": "Junction count",
+          "value": "8"
+        },
+        {
+          "label": "Related project net",
+          "value": "none"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:main:rail_3v3",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "local-net:main:rail_3v3 rail_3v3 rail_3v3 main [\"regulator.vout\",\"bulk_cap.1\",\"logic_cap.1\",\"afe.3v3\",\"controller.3v3a\",\"controller.3v3d\",\"debug.1\",\"field_io.7\"]",
+      "sheet": "main"
+    },
+    "local-net:main:reset_n": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "reset_n",
+      "nativeId": "reset_n",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:main:reset_n"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Local net ID",
+          "value": "reset_n"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"controller.NRST\",\"debug.9\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "2"
+        },
+        {
+          "label": "Related project net",
+          "value": "none"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:main:reset_n",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "local-net:main:reset_n reset_n reset_n main [\"controller.nrst\",\"debug.9\"]",
+      "sheet": "main"
+    },
+    "local-net:main:sensor_signal": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sensor_signal",
+      "nativeId": "sensor_signal",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:main:sensor_signal"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Local net ID",
+          "value": "sensor_signal"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "3"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"sensor.2\",\"divider_top.1\",\"afe.VINP\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "2"
+        },
+        {
+          "label": "Junction count",
+          "value": "3"
+        },
+        {
+          "label": "Related project net",
+          "value": "none"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:main:sensor_signal",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "local-net:main:sensor_signal sensor_signal sensor_signal main [\"sensor.2\",\"divider_top.1\",\"afe.vinp\"]",
+      "sheet": "main"
+    },
+    "local-net:main:swclk": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "swclk",
+      "nativeId": "swclk",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:main:swclk"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Local net ID",
+          "value": "swclk"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"controller.SWCLK\",\"debug.4\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "2"
+        },
+        {
+          "label": "Related project net",
+          "value": "none"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:main:swclk",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "local-net:main:swclk swclk swclk main [\"controller.swclk\",\"debug.4\"]",
+      "sheet": "main"
+    },
+    "local-net:main:swdio": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "swdio",
+      "nativeId": "swdio",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:main:swdio"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Local net ID",
+          "value": "swdio"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"controller.SWDIO\",\"debug.2\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "2"
+        },
+        {
+          "label": "Related project net",
+          "value": "none"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:main:swdio",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "local-net:main:swdio swdio swdio main [\"controller.swdio\",\"debug.2\"]",
+      "sheet": "main"
+    },
+    "local-net:main:swo": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "swo",
+      "nativeId": "swo",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:main:swo"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Local net ID",
+          "value": "swo"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"controller.PA2\",\"debug.6\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "2"
+        },
+        {
+          "label": "Related project net",
+          "value": "none"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:main:swo",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "local-net:main:swo swo swo main [\"controller.pa2\",\"debug.6\"]",
+      "sheet": "main"
+    },
+    "local-net:main:vin_24": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "vin_24",
+      "nativeId": "vin_24",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:main:vin_24"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Local net ID",
+          "value": "vin_24"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"power_in.1\",\"fuse.1\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "2"
+        },
+        {
+          "label": "Related project net",
+          "value": "none"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:main:vin_24",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "local-net:main:vin_24 vin_24 vin_24 main [\"power_in.1\",\"fuse.1\"]",
+      "sheet": "main"
+    },
+    "local-net:main:vin_fused": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "vin_fused",
+      "nativeId": "vin_fused",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:main:vin_fused"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Local net ID",
+          "value": "vin_fused"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "4"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"fuse.2\",\"tvs.K\",\"regulator.VIN\",\"sensor.1\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "3"
+        },
+        {
+          "label": "Junction count",
+          "value": "4"
+        },
+        {
+          "label": "Related project net",
+          "value": "none"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:main:vin_fused",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "local-net:main:vin_fused vin_fused vin_fused main [\"fuse.2\",\"tvs.k\",\"regulator.vin\",\"sensor.1\"]",
+      "sheet": "main"
+    },
+    "local-net:main:vref": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "vref",
+      "nativeId": "vref",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:main:vref"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Local net ID",
+          "value": "vref"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"afe.VREF\",\"controller.ADC1\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "2"
+        },
+        {
+          "label": "Related project net",
+          "value": "none"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:main:vref",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "local-net:main:vref vref vref main [\"afe.vref\",\"controller.adc1\"]",
+      "sheet": "main"
+    },
+    "sheet:main": {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Grid Controller and Sensor Interface",
+      "nativeId": "main",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "sheet:main"
+        },
+        {
+          "label": "Sheet",
+          "value": "main"
+        },
+        {
+          "label": "Title",
+          "value": "Grid Controller and Sensor Interface"
+        },
+        {
+          "label": "Width",
+          "value": "420"
+        },
+        {
+          "label": "Height",
+          "value": "260"
+        },
+        {
+          "label": "Unit",
+          "value": "mm"
+        }
+      ],
+      "qid": "sheet:main",
+      "relatedQids": [],
+      "representations": [
+        "sheet:main"
+      ],
+      "searchText": "sheet:main grid controller and sensor interface main main demo.electronics:grid-controller grid controller and sensor interface",
+      "sheet": "main"
+    }
+  },
+  "project": {
+    "id": "demo.electronics:grid-controller",
+    "multiSheet": false,
+    "profile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "schema": "https://schemas.aixem.org/component-graphics/aixproj/1",
+    "title": "Grid Controller and Sensor Interface"
+  },
+  "provenance": {
+    "authority": {
+      "presentation": ".aixlayout",
+      "semantics": ".aixem",
+      "viewerState": "derived-non-authoritative"
+    },
+    "generatedAt": "2026-08-10T00:00:00Z",
+    "hashes": {
+      "layout": "sha256:683e43c78b94ee7cb105fdc4e1ae8b046a26d450981f98be4f507d401494cdb0",
+      "libraries": [
+        "sha256:16a51fbbab27a43872d6dcefa71b5a53f4993660dfe647989c1a1a7906d8cfef"
+      ],
+      "source": "sha256:b06e6963859915a5c21945be212899b6280da9ddd076c3dec49ef1d99d2507d6",
+      "symbolAssets": [
+        "sha256:27c0ddd46f5abe5c7cc8d3c116a19d7a179db71f52a5021829e6882eb6df0aa8",
+        "sha256:44a4b48baec34076c56d390d8b7dbb62e7462673c8c2a28f5b87068ea8f67431",
+        "sha256:4ab8d69e24b6e46dda934f2d97ff4b355d116b773e1d4650d1064778f6ce6469",
+        "sha256:4ece48f40e0fc2b2f87c553c1d7efb706b46d89579919b36fc41c0631b789d79",
+        "sha256:5042a45420e4239d9fa9d2f3fdce81c9c932b42286b6ba13ca33b80877e0f4ce",
+        "sha256:56544f87179fd90d34d3ffa5bf6d733df4707e2fda2eece32adb57c4bd5a1ff6",
+        "sha256:6f75c80a590c4d34cf024937ef114bf4c67deca3793df9b0d838dea90f6ba2aa",
+        "sha256:794d2154b3821a288933bdb8cc03daa5d68237fd0de2d50c7d5538d76dc24655",
+        "sha256:7bad704b4ef0626566c343e2ddd516e2007edece2c2d8f9b4bd301f4d6df5558",
+        "sha256:a4a46557016e7f828965780176b0b1501fb360eb7d5a3a6e703d3d4341fb7ee4",
+        "sha256:b978605c193685347cedf930e0f0a8a76d5aa2195ec7a6417c3e4ea62f13f8bb",
+        "sha256:c30ee87185bc5d5596739bb0343f99a0a602256dd768ea8c58a466eab28d8de8"
+      ]
+    },
+    "renderer": {
+      "id": "aixem-grid-schematic-reference-renderer",
+      "version": "0.5.1"
+    },
+    "resolvedSceneSchema": "https://schemas.aixem.org/component-graphics/resolved-scene/1",
+    "styleProfile": {
+      "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+      "id": "aixem.schematic.grid-light",
+      "path": "aixem-grid-schematic-style-1.aixstyle.json"
+    }
+  },
+  "release": "AIXEM-SRP-0.5.5-2026-08-11",
+  "schema": "https://schemas.aixem.org/viewer/viewer-model/1",
+  "searchIndex": [
+    {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Grid Controller and Sensor Interface",
+      "qid": "sheet:main",
+      "searchText": "sheet:main grid controller and sensor interface main main demo.electronics:grid-controller grid controller and sensor interface",
+      "sheet": "main"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U2 · AFE / LPF",
+      "qid": "entity:main:afe",
+      "searchText": "entity:main:afe u2 · afe / lpf afe main u2 afe / lpf demo.electronics:analog-front-end demo.electronics:analog-front-end",
+      "sheet": "main"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "C1 · 47 uF",
+      "qid": "entity:main:bulk_cap",
+      "searchText": "entity:main:bulk_cap c1 · 47 uf bulk_cap main c1 47 uf demo.electronics:capacitor demo.electronics:capacitor",
+      "sheet": "main"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U3 · AIXEM-MCU24",
+      "qid": "entity:main:controller",
+      "searchText": "entity:main:controller u3 · aixem-mcu24 controller main u3 aixem-mcu24 demo.electronics:controller-24 demo.electronics:controller-24",
+      "sheet": "main"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "J3 · SWD 2x5",
+      "qid": "entity:main:debug",
+      "searchText": "entity:main:debug j3 · swd 2x5 debug main j3 swd 2x5 demo.electronics:debug-header-10 demo.electronics:debug-header-10",
+      "sheet": "main"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "R2 · 10 kOhm",
+      "qid": "entity:main:divider_bottom",
+      "searchText": "entity:main:divider_bottom r2 · 10 kohm divider_bottom main r2 10 kohm demo.electronics:resistor demo.electronics:resistor",
+      "sheet": "main"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "R1 · 47 kOhm",
+      "qid": "entity:main:divider_top",
+      "searchText": "entity:main:divider_top r1 · 47 kohm divider_top main r1 47 kohm demo.electronics:resistor demo.electronics:resistor",
+      "sheet": "main"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "J4 · FIELD I/O",
+      "qid": "entity:main:field_io",
+      "searchText": "entity:main:field_io j4 · field i/o field_io main j4 field i/o demo.electronics:io-header-8 demo.electronics:io-header-8",
+      "sheet": "main"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "F1 · 500 mA",
+      "qid": "entity:main:fuse",
+      "searchText": "entity:main:fuse f1 · 500 ma fuse main f1 500 ma demo.electronics:fuse demo.electronics:fuse",
+      "sheet": "main"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "LED1 · RUN",
+      "qid": "entity:main:led1",
+      "searchText": "entity:main:led1 led1 · run led1 main led1 run demo.electronics:led demo.electronics:led",
+      "sheet": "main"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "LED2 · FAULT",
+      "qid": "entity:main:led2",
+      "searchText": "entity:main:led2 led2 · fault led2 main led2 fault demo.electronics:led demo.electronics:led",
+      "sheet": "main"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "R3 · 1 kOhm",
+      "qid": "entity:main:led_r1",
+      "searchText": "entity:main:led_r1 r3 · 1 kohm led_r1 main r3 1 kohm demo.electronics:resistor demo.electronics:resistor",
+      "sheet": "main"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "R4 · 1 kOhm",
+      "qid": "entity:main:led_r2",
+      "searchText": "entity:main:led_r2 r4 · 1 kohm led_r2 main r4 1 kohm demo.electronics:resistor demo.electronics:resistor",
+      "sheet": "main"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "C2 · 1 uF",
+      "qid": "entity:main:logic_cap",
+      "searchText": "entity:main:logic_cap c2 · 1 uf logic_cap main c2 1 uf demo.electronics:capacitor demo.electronics:capacitor",
+      "sheet": "main"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "J1 · 24 VDC",
+      "qid": "entity:main:power_in",
+      "searchText": "entity:main:power_in j1 · 24 vdc power_in main j1 24 vdc demo.electronics:terminal-2 demo.electronics:terminal-2",
+      "sheet": "main"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · 24 V → 3.3 V",
+      "qid": "entity:main:regulator",
+      "searchText": "entity:main:regulator u1 · 24 v → 3.3 v regulator main u1 24 v → 3.3 v demo.electronics:buck-regulator demo.electronics:buck-regulator",
+      "sheet": "main"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "J2 · 3-wire sensor",
+      "qid": "entity:main:sensor",
+      "searchText": "entity:main:sensor j2 · 3-wire sensor sensor main j2 3-wire sensor demo.electronics:sensor-connector-3 demo.electronics:sensor-connector-3",
+      "sheet": "main"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "D1 · SMBJ33A",
+      "qid": "entity:main:tvs",
+      "searchText": "entity:main:tvs d1 · smbj33a tvs main d1 smbj33a demo.electronics:tvs-diode demo.electronics:tvs-diode",
+      "sheet": "main"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "afe_output",
+      "qid": "local-net:main:afe_output",
+      "searchText": "local-net:main:afe_output afe_output afe_output main [\"afe.vout\",\"controller.adc0\"]",
+      "sheet": "main"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "divider_node",
+      "qid": "local-net:main:divider_node",
+      "searchText": "local-net:main:divider_node divider_node divider_node main [\"divider_top.2\",\"divider_bottom.1\",\"afe.vinn\"]",
+      "sheet": "main"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "gnd",
+      "qid": "local-net:main:gnd",
+      "searchText": "local-net:main:gnd gnd gnd main [\"power_in.2\",\"tvs.a\",\"regulator.gnd\",\"bulk_cap.2\",\"logic_cap.2\",\"sensor.3\",\"divider_bottom.2\",\"afe.gnd\",\"controller.gnda\",\"controller.gndd\",\"debug.3\",\"debug.5\",\"debug.10\",\"field_io.8\",\"led1.k\",\"led2.k\"]",
+      "sheet": "main"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "in1",
+      "qid": "local-net:main:in1",
+      "searchText": "local-net:main:in1 in1 in1 main [\"controller.pa0\",\"field_io.5\"]",
+      "sheet": "main"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "in2",
+      "qid": "local-net:main:in2",
+      "searchText": "local-net:main:in2 in2 in2 main [\"controller.pa1\",\"field_io.6\"]",
+      "sheet": "main"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "led1_anode",
+      "qid": "local-net:main:led1_anode",
+      "searchText": "local-net:main:led1_anode led1_anode led1_anode main [\"led_r1.2\",\"led1.a\"]",
+      "sheet": "main"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "led1_drive",
+      "qid": "local-net:main:led1_drive",
+      "searchText": "local-net:main:led1_drive led1_drive led1_drive main [\"controller.pb2\",\"led_r1.1\"]",
+      "sheet": "main"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "led2_anode",
+      "qid": "local-net:main:led2_anode",
+      "searchText": "local-net:main:led2_anode led2_anode led2_anode main [\"led_r2.2\",\"led2.a\"]",
+      "sheet": "main"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "led2_drive",
+      "qid": "local-net:main:led2_drive",
+      "searchText": "local-net:main:led2_drive led2_drive led2_drive main [\"controller.pb3\",\"led_r2.1\"]",
+      "sheet": "main"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "out1",
+      "qid": "local-net:main:out1",
+      "searchText": "local-net:main:out1 out1 out1 main [\"controller.pb0\",\"field_io.1\"]",
+      "sheet": "main"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "out2",
+      "qid": "local-net:main:out2",
+      "searchText": "local-net:main:out2 out2 out2 main [\"controller.pb1\",\"field_io.2\"]",
+      "sheet": "main"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "rail_3v3",
+      "qid": "local-net:main:rail_3v3",
+      "searchText": "local-net:main:rail_3v3 rail_3v3 rail_3v3 main [\"regulator.vout\",\"bulk_cap.1\",\"logic_cap.1\",\"afe.3v3\",\"controller.3v3a\",\"controller.3v3d\",\"debug.1\",\"field_io.7\"]",
+      "sheet": "main"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "reset_n",
+      "qid": "local-net:main:reset_n",
+      "searchText": "local-net:main:reset_n reset_n reset_n main [\"controller.nrst\",\"debug.9\"]",
+      "sheet": "main"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "sensor_signal",
+      "qid": "local-net:main:sensor_signal",
+      "searchText": "local-net:main:sensor_signal sensor_signal sensor_signal main [\"sensor.2\",\"divider_top.1\",\"afe.vinp\"]",
+      "sheet": "main"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "swclk",
+      "qid": "local-net:main:swclk",
+      "searchText": "local-net:main:swclk swclk swclk main [\"controller.swclk\",\"debug.4\"]",
+      "sheet": "main"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "swdio",
+      "qid": "local-net:main:swdio",
+      "searchText": "local-net:main:swdio swdio swdio main [\"controller.swdio\",\"debug.2\"]",
+      "sheet": "main"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "swo",
+      "qid": "local-net:main:swo",
+      "searchText": "local-net:main:swo swo swo main [\"controller.pa2\",\"debug.6\"]",
+      "sheet": "main"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "vin_24",
+      "qid": "local-net:main:vin_24",
+      "searchText": "local-net:main:vin_24 vin_24 vin_24 main [\"power_in.1\",\"fuse.1\"]",
+      "sheet": "main"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "vin_fused",
+      "qid": "local-net:main:vin_fused",
+      "searchText": "local-net:main:vin_fused vin_fused vin_fused main [\"fuse.2\",\"tvs.k\",\"regulator.vin\",\"sensor.1\"]",
+      "sheet": "main"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "vref",
+      "qid": "local-net:main:vref",
+      "searchText": "local-net:main:vref vref vref main [\"afe.vref\",\"controller.adc1\"]",
+      "sheet": "main"
+    }
+  ],
+  "sheets": [
+    {
+      "height": 260.0,
+      "id": "main",
+      "layers": [
+        {
+          "defaultVisible": true,
+          "id": "connections",
+          "locked": false,
+          "order": 10,
+          "printable": true,
+          "purpose": "semantic net routes",
+          "qualifiedId": "layer:main:connections",
+          "sheet": "main"
+        },
+        {
+          "defaultVisible": true,
+          "id": "symbols",
+          "locked": false,
+          "order": 20,
+          "printable": true,
+          "purpose": "component symbol instances",
+          "qualifiedId": "layer:main:symbols",
+          "sheet": "main"
+        },
+        {
+          "defaultVisible": true,
+          "id": "annotation",
+          "locked": false,
+          "order": 30,
+          "printable": true,
+          "purpose": "notes and title",
+          "qualifiedId": "layer:main:annotation",
+          "sheet": "main"
+        }
+      ],
+      "order": 0,
+      "parent": null,
+      "qid": "sheet:main",
+      "title": "Grid Controller and Sensor Interface",
+      "unit": "mm",
+      "width": 420.0
+    }
+  ],
+  "statistics": {
+    "entities": 17,
+    "interfacePorts": 0,
+    "localNets": 20,
+    "projectNets": 0,
+    "qualifiedObjects": 38,
+    "sheets": 1
+  },
+  "viewerContract": "aixem.reference-viewer@1",
+  "views": [
+    {
+      "available": true,
+      "canvases": [
+        {
+          "height": 260.0,
+          "key": "sheet:main",
+          "sheet": "main",
+          "unit": "mm",
+          "width": 420.0
+        }
+      ],
+      "id": "sheet",
+      "label": "Sheet"
+    }
+  ]
+}

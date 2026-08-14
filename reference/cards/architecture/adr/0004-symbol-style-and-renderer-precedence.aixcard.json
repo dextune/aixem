@@ -1,0 +1,57 @@
+{
+  "card": {
+    "aliases": [
+      "adr 0004",
+      "symbol style precedence",
+      "renderer style authority"
+    ],
+    "appliesTo": [
+      "style-precedence-decision"
+    ],
+    "domain": "architecture",
+    "estimatedReadBytes": 3323,
+    "id": "AIXEM-ARCH-ADR-0004",
+    "inputs": [],
+    "keywords": [
+      "ADR 0004 — Symbol Style and Renderer Precedence",
+      "adr 0004",
+      "change-architecture",
+      "create-symbol",
+      "render-review",
+      "renderer style authority",
+      "symbol style precedence"
+    ],
+    "kind": "adr",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/architecture/adr/0004-symbol-style-and-renderer-precedence.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:0c3a1182530c2655d8e0eb8c62649a7a8ea3512c724331d61ea0a75d76c5f331"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 900,
+    "readNext": [
+      "AIXEM-CONCEPT-AUTHORITY-001",
+      "AIXEM-SPEC-RENDERER-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-ARCH-ADR-0004.read",
+        "level": "should",
+        "text": "Decides that symbol assets own geometry and fallback style while active profiles may override approved presentation roles without changing semantics."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-ARCH-ADR-0004",
+        "path": "docs/architecture/adr/0004-symbol-style-and-renderer-precedence.md"
+      }
+    ],
+    "summary": "Decides that symbol assets own geometry and fallback style while active profiles may override approved presentation roles without changing semantics.",
+    "title": "ADR 0004 — Symbol Style and Renderer Precedence"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

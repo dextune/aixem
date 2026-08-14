@@ -1,0 +1,1347 @@
+{
+  "capabilities": {
+    "composite": true,
+    "diagnostics": true,
+    "hierarchy": true,
+    "interfacePorts": true,
+    "offline": true,
+    "overview": true,
+    "projectNets": true,
+    "qualifiedSearch": true,
+    "readOnly": true,
+    "sheet": true,
+    "sheetScopedLayers": true,
+    "viewport": true
+  },
+  "diagnostics": [
+    {
+      "code": "VIEWER-READONLY-001",
+      "message": "Reference Viewer runtime state is derived and read-only.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-QID-001",
+      "message": "16 qualified objects indexed without ambiguity.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-MODES-001",
+      "message": "Sheet, Overview, and Composite modes are available from resolved project evidence.",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "code": "VIEWER-ASSET-001",
+      "message": "The self-contained Viewer requires no remote presentation assets.",
+      "severity": "info",
+      "status": "PASS"
+    }
+  ],
+  "domContract": "1",
+  "formatVersion": "1.0",
+  "hierarchy": [
+    {
+      "children": [
+        "control"
+      ],
+      "depth": 0,
+      "id": "system",
+      "order": 10,
+      "parent": null,
+      "qid": "sheet:system",
+      "title": "System"
+    },
+    {
+      "children": [
+        "debug"
+      ],
+      "depth": 1,
+      "id": "control",
+      "order": 10,
+      "parent": "system",
+      "qid": "sheet:control",
+      "title": "Control"
+    },
+    {
+      "children": [],
+      "depth": 2,
+      "id": "debug",
+      "order": 10,
+      "parent": "control",
+      "qid": "sheet:debug",
+      "title": "Debug"
+    }
+  ],
+  "initialState": {
+    "activeNavigatorCategory": "sheet",
+    "activeSheet": "system",
+    "mode": "sheet",
+    "searchQuery": "",
+    "selection": null,
+    "visibleLayersBySheet": {
+      "control": {
+        "annotation": true,
+        "connections": true,
+        "symbols": true
+      },
+      "debug": {
+        "annotation": true,
+        "connections": true,
+        "symbols": true
+      },
+      "system": {
+        "annotation": true,
+        "connections": true,
+        "symbols": true
+      }
+    }
+  },
+  "objects": {
+    "entity:control:U1": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "nativeId": "U1",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:control:U1"
+        },
+        {
+          "label": "Sheet",
+          "value": "control"
+        },
+        {
+          "label": "Entity ID",
+          "value": "U1"
+        },
+        {
+          "label": "Reference",
+          "value": "U1"
+        },
+        {
+          "label": "Value",
+          "value": "AXC12"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"U1\",\"layer\":\"symbols\",\"x\":80,\"y\":50}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[60.0,42.5],\"10\":[85.0,30.0],\"11\":[75.0,70.0],\"12\":[85.0,70.0],\"2\":[60.0,47.5],\"3\":[60.0,52.5],\"4\":[60.0,57.5],\"5\":[100.0,42.5],\"6\":[100.0,47.5],\"7\":[100.0,52.5],\"8\":[100.0,57.5],\"9\":[75.0,30.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:2fe409df19cfd0257cdc4802e8be6dd84d4d0b840938abb23c22c7c941a1f3ae"
+        }
+      ],
+      "qid": "entity:control:U1",
+      "relatedQids": [],
+      "representations": [
+        "sheet:control",
+        "composite"
+      ],
+      "searchText": "entity:control:u1 u1 · axc12 u1 control u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "control"
+    },
+    "entity:debug:U1": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "nativeId": "U1",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:debug:U1"
+        },
+        {
+          "label": "Sheet",
+          "value": "debug"
+        },
+        {
+          "label": "Entity ID",
+          "value": "U1"
+        },
+        {
+          "label": "Reference",
+          "value": "U1"
+        },
+        {
+          "label": "Value",
+          "value": "AXC12"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"U1\",\"layer\":\"symbols\",\"x\":80,\"y\":50}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[60.0,42.5],\"10\":[85.0,30.0],\"11\":[75.0,70.0],\"12\":[85.0,70.0],\"2\":[60.0,47.5],\"3\":[60.0,52.5],\"4\":[60.0,57.5],\"5\":[100.0,42.5],\"6\":[100.0,47.5],\"7\":[100.0,52.5],\"8\":[100.0,57.5],\"9\":[75.0,30.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:2fe409df19cfd0257cdc4802e8be6dd84d4d0b840938abb23c22c7c941a1f3ae"
+        }
+      ],
+      "qid": "entity:debug:U1",
+      "relatedQids": [],
+      "representations": [
+        "sheet:debug",
+        "composite"
+      ],
+      "searchText": "entity:debug:u1 u1 · axc12 u1 debug u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "debug"
+    },
+    "entity:system:U1": {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "nativeId": "U1",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "entity:system:U1"
+        },
+        {
+          "label": "Sheet",
+          "value": "system"
+        },
+        {
+          "label": "Entity ID",
+          "value": "U1"
+        },
+        {
+          "label": "Reference",
+          "value": "U1"
+        },
+        {
+          "label": "Value",
+          "value": "AXC12"
+        },
+        {
+          "label": "Component type",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Symbol ID",
+          "value": "authoring:controller-12"
+        },
+        {
+          "label": "Variant",
+          "value": "default"
+        },
+        {
+          "label": "Placement",
+          "value": "{\"entity\":\"U1\",\"layer\":\"symbols\",\"x\":80,\"y\":50}"
+        },
+        {
+          "label": "Parameters",
+          "value": "{}"
+        },
+        {
+          "label": "Ports",
+          "value": "{\"1\":[60.0,42.5],\"10\":[85.0,30.0],\"11\":[75.0,70.0],\"12\":[85.0,70.0],\"2\":[60.0,47.5],\"3\":[60.0,52.5],\"4\":[60.0,57.5],\"5\":[100.0,42.5],\"6\":[100.0,47.5],\"7\":[100.0,52.5],\"8\":[100.0,57.5],\"9\":[75.0,30.0]}"
+        },
+        {
+          "label": "Symbol digest",
+          "value": "sha256:2fe409df19cfd0257cdc4802e8be6dd84d4d0b840938abb23c22c7c941a1f3ae"
+        }
+      ],
+      "qid": "entity:system:U1",
+      "relatedQids": [],
+      "representations": [
+        "sheet:system",
+        "composite"
+      ],
+      "searchText": "entity:system:u1 u1 · axc12 u1 system u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "system"
+    },
+    "interface:control:OUT": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "control / @OUT",
+      "nativeId": "OUT",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:control:OUT"
+        },
+        {
+          "label": "Sheet",
+          "value": "control"
+        },
+        {
+          "label": "Port ID",
+          "value": "OUT"
+        },
+        {
+          "label": "Direction",
+          "value": "output"
+        },
+        {
+          "label": "Role",
+          "value": "signal"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:control:out"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:debug_signal"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[298.0,274.0]"
+        }
+      ],
+      "qid": "interface:control:OUT",
+      "relatedQids": [
+        "local-net:control:out",
+        "project-net:debug_signal"
+      ],
+      "representations": [
+        "sheet:control",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:control:out control / @out out control output signal out project-net:debug_signal",
+      "sheet": "control"
+    },
+    "interface:control:VCC": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "control / @VCC",
+      "nativeId": "VCC",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:control:VCC"
+        },
+        {
+          "label": "Sheet",
+          "value": "control"
+        },
+        {
+          "label": "Port ID",
+          "value": "VCC"
+        },
+        {
+          "label": "Direction",
+          "value": "input"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:control:vcc"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:vcc"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[208.0,230.0]"
+        }
+      ],
+      "qid": "interface:control:VCC",
+      "relatedQids": [
+        "local-net:control:vcc",
+        "project-net:vcc"
+      ],
+      "representations": [
+        "sheet:control",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:control:vcc control / @vcc vcc control input power vcc project-net:vcc",
+      "sheet": "control"
+    },
+    "interface:debug:IN": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "debug / @IN",
+      "nativeId": "IN",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:debug:IN"
+        },
+        {
+          "label": "Sheet",
+          "value": "debug"
+        },
+        {
+          "label": "Port ID",
+          "value": "IN"
+        },
+        {
+          "label": "Direction",
+          "value": "input"
+        },
+        {
+          "label": "Role",
+          "value": "signal"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:debug:in"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:debug_signal"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[156.0,454.0]"
+        }
+      ],
+      "qid": "interface:debug:IN",
+      "relatedQids": [
+        "local-net:debug:in",
+        "project-net:debug_signal"
+      ],
+      "representations": [
+        "sheet:debug",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:debug:in debug / @in in debug input signal in project-net:debug_signal",
+      "sheet": "debug"
+    },
+    "interface:system:VCC": {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "system / @VCC",
+      "nativeId": "VCC",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "interface:system:VCC"
+        },
+        {
+          "label": "Sheet",
+          "value": "system"
+        },
+        {
+          "label": "Port ID",
+          "value": "VCC"
+        },
+        {
+          "label": "Direction",
+          "value": "input"
+        },
+        {
+          "label": "Role",
+          "value": "power"
+        },
+        {
+          "label": "Local net",
+          "value": "local-net:system:vcc"
+        },
+        {
+          "label": "Project net",
+          "value": "project-net:vcc"
+        },
+        {
+          "label": "Sheet coordinate",
+          "value": "[170.0,50.0]"
+        }
+      ],
+      "qid": "interface:system:VCC",
+      "relatedQids": [
+        "local-net:system:vcc",
+        "project-net:vcc"
+      ],
+      "representations": [
+        "sheet:system",
+        "overview",
+        "composite"
+      ],
+      "searchText": "interface:system:vcc system / @vcc vcc system input power vcc project-net:vcc",
+      "sheet": "system"
+    },
+    "local-net:control:out": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "control / out",
+      "nativeId": "out",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:control:out"
+        },
+        {
+          "label": "Sheet",
+          "value": "control"
+        },
+        {
+          "label": "Local net ID",
+          "value": "out"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.5\",\"@OUT\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:debug_signal"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:control:out",
+      "relatedQids": [],
+      "representations": [
+        "sheet:control",
+        "composite"
+      ],
+      "searchText": "local-net:control:out control / out out control [\"u1.5\",\"@out\"] project-net:debug_signal",
+      "sheet": "control"
+    },
+    "local-net:control:vcc": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "control / vcc",
+      "nativeId": "vcc",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:control:vcc"
+        },
+        {
+          "label": "Sheet",
+          "value": "control"
+        },
+        {
+          "label": "Local net ID",
+          "value": "vcc"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.9\",\"@VCC\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:vcc"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:control:vcc",
+      "relatedQids": [],
+      "representations": [
+        "sheet:control",
+        "composite"
+      ],
+      "searchText": "local-net:control:vcc control / vcc vcc control [\"u1.9\",\"@vcc\"] project-net:vcc",
+      "sheet": "control"
+    },
+    "local-net:debug:in": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "debug / in",
+      "nativeId": "in",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:debug:in"
+        },
+        {
+          "label": "Sheet",
+          "value": "debug"
+        },
+        {
+          "label": "Local net ID",
+          "value": "in"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.1\",\"@IN\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:debug_signal"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:debug:in",
+      "relatedQids": [],
+      "representations": [
+        "sheet:debug",
+        "composite"
+      ],
+      "searchText": "local-net:debug:in debug / in in debug [\"u1.1\",\"@in\"] project-net:debug_signal",
+      "sheet": "debug"
+    },
+    "local-net:system:vcc": {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "system / vcc",
+      "nativeId": "vcc",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "local-net:system:vcc"
+        },
+        {
+          "label": "Sheet",
+          "value": "system"
+        },
+        {
+          "label": "Local net ID",
+          "value": "vcc"
+        },
+        {
+          "label": "Endpoint count",
+          "value": "2"
+        },
+        {
+          "label": "Endpoints",
+          "value": "[\"U1.9\",\"@VCC\"]"
+        },
+        {
+          "label": "Path count",
+          "value": "1"
+        },
+        {
+          "label": "Junction count",
+          "value": "0"
+        },
+        {
+          "label": "Related project net",
+          "value": "project-net:vcc"
+        },
+        {
+          "label": "Semantic authority",
+          "value": ".aixem"
+        }
+      ],
+      "qid": "local-net:system:vcc",
+      "relatedQids": [],
+      "representations": [
+        "sheet:system",
+        "composite"
+      ],
+      "searchText": "local-net:system:vcc system / vcc vcc system [\"u1.9\",\"@vcc\"] project-net:vcc",
+      "sheet": "system"
+    },
+    "project-net:debug_signal": {
+      "category": "Project Nets",
+      "kind": "project-net",
+      "label": "debug_signal",
+      "nativeId": "debug_signal",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "project-net:debug_signal"
+        },
+        {
+          "label": "Project-net ID",
+          "value": "debug_signal"
+        },
+        {
+          "label": "Participating sheets",
+          "value": "[\"control\",\"debug\"]"
+        },
+        {
+          "label": "Interface members",
+          "value": "[\"interface:control:OUT\",\"interface:debug:IN\"]"
+        },
+        {
+          "label": "Backing local nets",
+          "value": "[\"local-net:control:out\",\"local-net:debug:in\"]"
+        },
+        {
+          "label": "Transitive endpoint count",
+          "value": "4"
+        },
+        {
+          "label": "Transitive endpoints",
+          "value": "[\"entity:control:U1.5\",\"entity:debug:U1.1\",\"interface:control:OUT\",\"interface:debug:IN\"]"
+        },
+        {
+          "label": "Crosses hierarchy boundary",
+          "value": "true"
+        }
+      ],
+      "qid": "project-net:debug_signal",
+      "relatedQids": [
+        "interface:control:OUT",
+        "interface:debug:IN"
+      ],
+      "representations": [
+        "overview",
+        "composite"
+      ],
+      "searchText": "project-net:debug_signal debug_signal debug_signal  [\"control\",\"debug\"] [\"interface:control:out\",\"interface:debug:in\"] [\"local-net:control:out\",\"local-net:debug:in\"]",
+      "sheet": null
+    },
+    "project-net:vcc": {
+      "category": "Project Nets",
+      "kind": "project-net",
+      "label": "vcc",
+      "nativeId": "vcc",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "project-net:vcc"
+        },
+        {
+          "label": "Project-net ID",
+          "value": "vcc"
+        },
+        {
+          "label": "Participating sheets",
+          "value": "[\"system\",\"control\"]"
+        },
+        {
+          "label": "Interface members",
+          "value": "[\"interface:system:VCC\",\"interface:control:VCC\"]"
+        },
+        {
+          "label": "Backing local nets",
+          "value": "[\"local-net:system:vcc\",\"local-net:control:vcc\"]"
+        },
+        {
+          "label": "Transitive endpoint count",
+          "value": "4"
+        },
+        {
+          "label": "Transitive endpoints",
+          "value": "[\"entity:control:U1.9\",\"entity:system:U1.9\",\"interface:control:VCC\",\"interface:system:VCC\"]"
+        },
+        {
+          "label": "Crosses hierarchy boundary",
+          "value": "true"
+        }
+      ],
+      "qid": "project-net:vcc",
+      "relatedQids": [
+        "interface:control:VCC",
+        "interface:system:VCC"
+      ],
+      "representations": [
+        "overview",
+        "composite"
+      ],
+      "searchText": "project-net:vcc vcc vcc  [\"system\",\"control\"] [\"interface:system:vcc\",\"interface:control:vcc\"] [\"local-net:system:vcc\",\"local-net:control:vcc\"]",
+      "sheet": null
+    },
+    "sheet:control": {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Control",
+      "nativeId": "control",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "sheet:control"
+        },
+        {
+          "label": "Sheet",
+          "value": "control"
+        },
+        {
+          "label": "Title",
+          "value": "Control"
+        },
+        {
+          "label": "Parent",
+          "value": "system"
+        },
+        {
+          "label": "Hierarchy depth",
+          "value": "1"
+        },
+        {
+          "label": "Width",
+          "value": "160"
+        },
+        {
+          "label": "Height",
+          "value": "100"
+        },
+        {
+          "label": "Unit",
+          "value": "mm"
+        }
+      ],
+      "qid": "sheet:control",
+      "relatedQids": [],
+      "representations": [
+        "sheet:control",
+        "overview",
+        "composite"
+      ],
+      "searchText": "sheet:control control control control system [\"debug\"]",
+      "sheet": "control"
+    },
+    "sheet:debug": {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Debug",
+      "nativeId": "debug",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "sheet:debug"
+        },
+        {
+          "label": "Sheet",
+          "value": "debug"
+        },
+        {
+          "label": "Title",
+          "value": "Debug"
+        },
+        {
+          "label": "Parent",
+          "value": "control"
+        },
+        {
+          "label": "Hierarchy depth",
+          "value": "2"
+        },
+        {
+          "label": "Width",
+          "value": "160"
+        },
+        {
+          "label": "Height",
+          "value": "100"
+        },
+        {
+          "label": "Unit",
+          "value": "mm"
+        }
+      ],
+      "qid": "sheet:debug",
+      "relatedQids": [],
+      "representations": [
+        "sheet:debug",
+        "overview",
+        "composite"
+      ],
+      "searchText": "sheet:debug debug debug debug control []",
+      "sheet": "debug"
+    },
+    "sheet:system": {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "System",
+      "nativeId": "system",
+      "properties": [
+        {
+          "label": "Qualified ID",
+          "value": "sheet:system"
+        },
+        {
+          "label": "Sheet",
+          "value": "system"
+        },
+        {
+          "label": "Title",
+          "value": "System"
+        },
+        {
+          "label": "Parent",
+          "value": "Root"
+        },
+        {
+          "label": "Hierarchy depth",
+          "value": "0"
+        },
+        {
+          "label": "Width",
+          "value": "160"
+        },
+        {
+          "label": "Height",
+          "value": "100"
+        },
+        {
+          "label": "Unit",
+          "value": "mm"
+        }
+      ],
+      "qid": "sheet:system",
+      "relatedQids": [],
+      "representations": [
+        "sheet:system",
+        "overview",
+        "composite"
+      ],
+      "searchText": "sheet:system system system system [\"control\"]",
+      "sheet": "system"
+    }
+  },
+  "project": {
+    "id": "hierarchical:h005",
+    "multiSheet": true,
+    "profile": "aixem.schematic.multisheet@1",
+    "schema": "https://schemas.aixem.org/component-graphics/aixproj/2",
+    "title": "Three level sheet hierarchy"
+  },
+  "provenance": {
+    "authority": {
+      "connectivityFromGeometry": false,
+      "layersAreSheets": false,
+      "localPresentation": "aixlayout/2",
+      "localSemantics": ".aixem",
+      "projectComposition": "aixproj/2",
+      "viewerState": "derived-non-authoritative"
+    },
+    "generatedAt": "2026-08-10T12:00:00Z",
+    "hashes": {
+      "inputs": [
+        {
+          "layoutDigest": "sha256:51cd10ea1c157a4c68ab8fcf435e82044205d4dc6e0da53886026d6590ec833c",
+          "layoutPath": "layouts/system.aixlayout.json",
+          "resolvedSceneDigest": "sha256:e1e541765e1f9fa150896cf83ab90eeca9626c1ec4d292f975eeb48e526e7a7a",
+          "sheet": "system",
+          "sourceDigest": "sha256:ea38f0f16ea46c8f9630d809fb4b69f204a03190c9929277a3a62e175dba1357",
+          "sourcePath": "circuits/system.aixem",
+          "svgDigest": "sha256:2aa9221c7dc01a6b0488c324194e1f021d8f496bbd4de39f3260afb740b9f85c"
+        },
+        {
+          "layoutDigest": "sha256:c36878ad4cb5d26ef813218bfe82d134601e459ef0e9b3d961ee2104ba0c6974",
+          "layoutPath": "layouts/control.aixlayout.json",
+          "resolvedSceneDigest": "sha256:aabd94d143499a48a8d0c58400d067ab2796fe66261eeda51778fc5facee9817",
+          "sheet": "control",
+          "sourceDigest": "sha256:6a0b8fa7b090216e12eb81b8c3a9f30d11e2551706dd9dd0e2d6a3489f3c26ee",
+          "sourcePath": "circuits/control.aixem",
+          "svgDigest": "sha256:71012e9e40ca591be2788ffb8e65c829deb17e2389e4c7a876071fe7479e9be1"
+        },
+        {
+          "layoutDigest": "sha256:536942f997781008ec61b946e255e92620c8b99bcf4ee630833b1e4702ba643a",
+          "layoutPath": "layouts/debug.aixlayout.json",
+          "resolvedSceneDigest": "sha256:0eac561c69b11b97cc1eb880d5f93fec40f4c1ed84bf791347ee0a9708c039e3",
+          "sheet": "debug",
+          "sourceDigest": "sha256:0d3a56e2338370541e454522b164fc754309c4280cf6f36e7ad79f5feb90cfde",
+          "sourcePath": "circuits/debug.aixem",
+          "svgDigest": "sha256:96b5d730e469054a26c313d16d6a5e9c5a2824a39d9b31fbfd3bcaac3ef16baf"
+        }
+      ],
+      "manifest": "sha256:5d416f6eb97e200312d5f200645a532b13d75416ce6621791809e5c7cc370f00",
+      "styleProfile": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393"
+    },
+    "renderer": {
+      "id": "aixem-hierarchical-project-reference-renderer",
+      "version": "0.5.3"
+    },
+    "resolvedProjectSceneSchema": "https://schemas.aixem.org/component-graphics/resolved-project-scene/1"
+  },
+  "release": "AIXEM-SRP-0.5.5-2026-08-11",
+  "schema": "https://schemas.aixem.org/viewer/viewer-model/1",
+  "searchIndex": [
+    {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "System",
+      "qid": "sheet:system",
+      "searchText": "sheet:system system system system [\"control\"]",
+      "sheet": "system"
+    },
+    {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Control",
+      "qid": "sheet:control",
+      "searchText": "sheet:control control control control system [\"debug\"]",
+      "sheet": "control"
+    },
+    {
+      "category": "Sheets",
+      "kind": "sheet",
+      "label": "Debug",
+      "qid": "sheet:debug",
+      "searchText": "sheet:debug debug debug debug control []",
+      "sheet": "debug"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "qid": "entity:system:U1",
+      "searchText": "entity:system:u1 u1 · axc12 u1 system u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "system"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "qid": "entity:control:U1",
+      "searchText": "entity:control:u1 u1 · axc12 u1 control u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "control"
+    },
+    {
+      "category": "Components",
+      "kind": "entity",
+      "label": "U1 · AXC12",
+      "qid": "entity:debug:U1",
+      "searchText": "entity:debug:u1 u1 · axc12 u1 debug u1 axc12 authoring:controller-12 authoring:controller-12",
+      "sheet": "debug"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "system / vcc",
+      "qid": "local-net:system:vcc",
+      "searchText": "local-net:system:vcc system / vcc vcc system [\"u1.9\",\"@vcc\"] project-net:vcc",
+      "sheet": "system"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "control / out",
+      "qid": "local-net:control:out",
+      "searchText": "local-net:control:out control / out out control [\"u1.5\",\"@out\"] project-net:debug_signal",
+      "sheet": "control"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "control / vcc",
+      "qid": "local-net:control:vcc",
+      "searchText": "local-net:control:vcc control / vcc vcc control [\"u1.9\",\"@vcc\"] project-net:vcc",
+      "sheet": "control"
+    },
+    {
+      "category": "Local Nets",
+      "kind": "local-net",
+      "label": "debug / in",
+      "qid": "local-net:debug:in",
+      "searchText": "local-net:debug:in debug / in in debug [\"u1.1\",\"@in\"] project-net:debug_signal",
+      "sheet": "debug"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "system / @VCC",
+      "qid": "interface:system:VCC",
+      "searchText": "interface:system:vcc system / @vcc vcc system input power vcc project-net:vcc",
+      "sheet": "system"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "control / @OUT",
+      "qid": "interface:control:OUT",
+      "searchText": "interface:control:out control / @out out control output signal out project-net:debug_signal",
+      "sheet": "control"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "control / @VCC",
+      "qid": "interface:control:VCC",
+      "searchText": "interface:control:vcc control / @vcc vcc control input power vcc project-net:vcc",
+      "sheet": "control"
+    },
+    {
+      "category": "Interface Ports",
+      "kind": "interface",
+      "label": "debug / @IN",
+      "qid": "interface:debug:IN",
+      "searchText": "interface:debug:in debug / @in in debug input signal in project-net:debug_signal",
+      "sheet": "debug"
+    },
+    {
+      "category": "Project Nets",
+      "kind": "project-net",
+      "label": "debug_signal",
+      "qid": "project-net:debug_signal",
+      "searchText": "project-net:debug_signal debug_signal debug_signal  [\"control\",\"debug\"] [\"interface:control:out\",\"interface:debug:in\"] [\"local-net:control:out\",\"local-net:debug:in\"]",
+      "sheet": null
+    },
+    {
+      "category": "Project Nets",
+      "kind": "project-net",
+      "label": "vcc",
+      "qid": "project-net:vcc",
+      "searchText": "project-net:vcc vcc vcc  [\"system\",\"control\"] [\"interface:system:vcc\",\"interface:control:vcc\"] [\"local-net:system:vcc\",\"local-net:control:vcc\"]",
+      "sheet": null
+    }
+  ],
+  "sheets": [
+    {
+      "height": 100.0,
+      "id": "system",
+      "layers": [
+        {
+          "defaultVisible": true,
+          "id": "connections",
+          "locked": false,
+          "order": 10,
+          "printable": true,
+          "purpose": "semantic net routes and sheet ports",
+          "qualifiedId": "layer:system:connections",
+          "sheet": "system"
+        },
+        {
+          "defaultVisible": true,
+          "id": "symbols",
+          "locked": false,
+          "order": 20,
+          "printable": true,
+          "purpose": "component symbols",
+          "qualifiedId": "layer:system:symbols",
+          "sheet": "system"
+        },
+        {
+          "defaultVisible": true,
+          "id": "annotation",
+          "locked": false,
+          "order": 30,
+          "printable": true,
+          "purpose": "notes",
+          "qualifiedId": "layer:system:annotation",
+          "sheet": "system"
+        }
+      ],
+      "order": 10,
+      "parent": null,
+      "qid": "sheet:system",
+      "title": "System",
+      "unit": "mm",
+      "width": 160.0
+    },
+    {
+      "height": 100.0,
+      "id": "control",
+      "layers": [
+        {
+          "defaultVisible": true,
+          "id": "connections",
+          "locked": false,
+          "order": 10,
+          "printable": true,
+          "purpose": "semantic net routes and sheet ports",
+          "qualifiedId": "layer:control:connections",
+          "sheet": "control"
+        },
+        {
+          "defaultVisible": true,
+          "id": "symbols",
+          "locked": false,
+          "order": 20,
+          "printable": true,
+          "purpose": "component symbols",
+          "qualifiedId": "layer:control:symbols",
+          "sheet": "control"
+        },
+        {
+          "defaultVisible": true,
+          "id": "annotation",
+          "locked": false,
+          "order": 30,
+          "printable": true,
+          "purpose": "notes",
+          "qualifiedId": "layer:control:annotation",
+          "sheet": "control"
+        }
+      ],
+      "order": 10,
+      "parent": "system",
+      "qid": "sheet:control",
+      "title": "Control",
+      "unit": "mm",
+      "width": 160.0
+    },
+    {
+      "height": 100.0,
+      "id": "debug",
+      "layers": [
+        {
+          "defaultVisible": true,
+          "id": "connections",
+          "locked": false,
+          "order": 10,
+          "printable": true,
+          "purpose": "semantic net routes and sheet ports",
+          "qualifiedId": "layer:debug:connections",
+          "sheet": "debug"
+        },
+        {
+          "defaultVisible": true,
+          "id": "symbols",
+          "locked": false,
+          "order": 20,
+          "printable": true,
+          "purpose": "component symbols",
+          "qualifiedId": "layer:debug:symbols",
+          "sheet": "debug"
+        },
+        {
+          "defaultVisible": true,
+          "id": "annotation",
+          "locked": false,
+          "order": 30,
+          "printable": true,
+          "purpose": "notes",
+          "qualifiedId": "layer:debug:annotation",
+          "sheet": "debug"
+        }
+      ],
+      "order": 10,
+      "parent": "control",
+      "qid": "sheet:debug",
+      "title": "Debug",
+      "unit": "mm",
+      "width": 160.0
+    }
+  ],
+  "statistics": {
+    "entities": 3,
+    "hierarchyDepth": 2,
+    "interfacePorts": 4,
+    "localNets": 4,
+    "localRouteSegments": 4,
+    "projectNets": 2,
+    "projectRouteSegments": 30,
+    "qualifiedObjects": 16,
+    "sheets": 3,
+    "unconnectedProjectPorts": 0
+  },
+  "viewerContract": "aixem.reference-viewer@1",
+  "views": [
+    {
+      "available": true,
+      "canvases": [
+        {
+          "height": 100.0,
+          "key": "sheet:system",
+          "sheet": "system",
+          "unit": "mm",
+          "width": 160.0
+        },
+        {
+          "height": 100.0,
+          "key": "sheet:control",
+          "sheet": "control",
+          "unit": "mm",
+          "width": 160.0
+        },
+        {
+          "height": 100.0,
+          "key": "sheet:debug",
+          "sheet": "debug",
+          "unit": "mm",
+          "width": 160.0
+        }
+      ],
+      "id": "sheet",
+      "label": "Sheet"
+    },
+    {
+      "available": true,
+      "canvases": [
+        {
+          "height": 558.0,
+          "key": "overview",
+          "sheet": null,
+          "unit": "project-space",
+          "width": 495.0
+        }
+      ],
+      "id": "overview",
+      "label": "Overview"
+    },
+    {
+      "available": true,
+      "canvases": [
+        {
+          "height": 662.0,
+          "key": "composite",
+          "sheet": null,
+          "unit": "project-space",
+          "width": 479.0
+        }
+      ],
+      "id": "composite",
+      "label": "Composite"
+    }
+  ]
+}

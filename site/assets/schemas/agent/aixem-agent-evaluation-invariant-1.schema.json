@@ -1,0 +1,140 @@
+{
+  "$id": "https://schemas.aixem.org/agent/evaluation-invariant/1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "authority": {
+      "const": "evaluator-only"
+    },
+    "caseId": {
+      "pattern": "^[A-Z][A-Z0-9-]{2,63}$",
+      "type": "string"
+    },
+    "formatVersion": {
+      "const": "1.0"
+    },
+    "invariants": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "arguments": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "basis": {
+            "items": {
+              "oneOf": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "pointer": {
+                      "pattern": "^/(?:[^/~]|~[01])*(?:/(?:[^/~]|~[01])*)*$",
+                      "type": "string"
+                    },
+                    "type": {
+                      "const": "task"
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "pointer"
+                  ],
+                  "type": "object"
+                },
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "documentId": {
+                      "minLength": 3,
+                      "type": "string"
+                    },
+                    "requirementId": {
+                      "minLength": 3,
+                      "type": "string"
+                    },
+                    "type": {
+                      "const": "document"
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "documentId",
+                    "requirementId"
+                  ],
+                  "type": "object"
+                },
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "path": {
+                      "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$)).+",
+                      "type": "string"
+                    },
+                    "type": {
+                      "const": "profile"
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "path"
+                  ],
+                  "type": "object"
+                }
+              ]
+            },
+            "minItems": 1,
+            "type": "array"
+          },
+          "description": {
+            "minLength": 3,
+            "type": "string"
+          },
+          "id": {
+            "pattern": "^[A-Z][A-Z0-9-]{2,95}$",
+            "type": "string"
+          },
+          "predicate": {
+            "enum": [
+              "validator-pass",
+              "diagnostic-absent",
+              "artifact-present",
+              "authority-digest-unchanged",
+              "symbol-port-set",
+              "entity-present",
+              "local-net-members",
+              "project-net-members",
+              "interface-binding",
+              "render-deterministic"
+            ]
+          },
+          "required": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "predicate",
+          "description",
+          "required",
+          "arguments",
+          "basis"
+        ],
+        "type": "object"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "schema": {
+      "const": "https://schemas.aixem.org/agent/evaluation-invariant/1"
+    }
+  },
+  "required": [
+    "schema",
+    "formatVersion",
+    "caseId",
+    "invariants",
+    "authority"
+  ],
+  "title": "AIXEM Evaluation Invariant Contract 1",
+  "type": "object"
+}

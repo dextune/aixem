@@ -1,0 +1,49 @@
+{
+  "$id": "https://schemas.aixem.org/documentation/artifact-ownership/1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "formatVersion": {
+      "type": "string"
+    },
+    "rules": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "authority": {
+            "type": "string"
+          },
+          "owner": {
+            "type": "string"
+          },
+          "pattern": {
+            "type": "string"
+          },
+          "validators": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "pattern",
+          "owner",
+          "authority",
+          "validators"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "schema": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema",
+    "formatVersion",
+    "rules"
+  ],
+  "type": "object"
+}

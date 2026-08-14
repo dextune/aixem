@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.0",
+  "route": {
+    "aliases": [
+      "publish release",
+      "package zip",
+      "release build",
+      "ship version",
+      "final archive"
+    ],
+    "budget": {
+      "fallbackDocuments": 2,
+      "maxBytes": 98304,
+      "maxDepth": 3,
+      "maxDocuments": 7
+    },
+    "conditionalReads": [],
+    "id": "publish-release",
+    "intents": [
+      "publish-release"
+    ],
+    "metadata": {
+      "exactRoutePreferred": true,
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "kind": "simple",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "source": "docs/_meta/routes/publish-release.yaml"
+    },
+    "outputs": [
+      "The release-declared clean verification cycles are complete",
+      "All tests and evidence pass",
+      "Manifest verifies",
+      "ZIP paths and membership are safe",
+      "External archive checksum is recorded"
+    ],
+    "steps": [
+      {
+        "exitCheck": "The release-declared clean verification cycles are complete",
+        "id": "step-1",
+        "order": 1,
+        "produces": [],
+        "purpose": "Read Release Process for this task stage.",
+        "read": [
+          "reference/cards/governance/release-process.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "All tests and evidence pass",
+        "id": "step-2",
+        "order": 2,
+        "produces": [],
+        "purpose": "Read Release Gates for this task stage.",
+        "read": [
+          "reference/cards/conformance/release-gates.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Manifest verifies",
+        "id": "step-3",
+        "order": 3,
+        "produces": [],
+        "purpose": "Read Documentation Release Integrity 1 for this task stage.",
+        "read": [
+          "reference/cards/specifications/documentation/release-integrity.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "ZIP paths and membership are safe",
+        "id": "step-4",
+        "order": 4,
+        "produces": [],
+        "purpose": "Read Security and Trust Boundaries for this task stage.",
+        "read": [
+          "reference/cards/architecture/security.aixcard.json"
+        ],
+        "required": true
+      }
+    ],
+    "stopConditions": [
+      "The release-declared clean verification cycles are complete",
+      "All tests and evidence pass",
+      "Manifest verifies",
+      "ZIP paths and membership are safe",
+      "External archive checksum is recorded"
+    ],
+    "title": "Publish a release",
+    "validators": [
+      "docs.release_gate",
+      "docs.manifest",
+      "docs.archive_safety"
+    ]
+  },
+  "schema": "https://schemas.aixem.org/reference/aixroute/1"
+}

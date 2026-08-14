@@ -1,0 +1,521 @@
+{
+  "checks": [
+    {
+      "errors": [],
+      "id": "CYCLE-STAGES",
+      "stages": [
+        "core",
+        "focused",
+        "readiness",
+        "eval2",
+        "preflight",
+        "tests-0",
+        "tests-manifest",
+        "tests-1",
+        "tests-2",
+        "tests-3",
+        "tests-4",
+        "tests-5",
+        "tests-6",
+        "tests-7",
+        "tests-merge",
+        "symbol",
+        "hierarchy",
+        "viewer"
+      ],
+      "status": "PASS",
+      "summary": "Every required staged verification operation completed successfully.",
+      "valid": true
+    },
+    {
+      "details": {
+        "changed": [],
+        "files": 423,
+        "valid": true
+      },
+      "id": "CYCLE-GENERATED-DETERMINISM",
+      "status": "PASS",
+      "summary": "Two clean documentation/reference/site builds are byte-identical.",
+      "valid": true
+    },
+    {
+      "details": {
+        "agentLines": 251,
+        "canonicalDocuments": 143,
+        "errors": [],
+        "governanceRequirements": 10,
+        "orphans": 0,
+        "pathMigrations": 4,
+        "plans": 9,
+        "preLiveRequirements": 8,
+        "redirectsChecked": true,
+        "repositoryMarkdown": 254,
+        "roleCounts": {
+          "canonical-document": 143,
+          "corpus-instruction": 2,
+          "evaluation-suite-document": 6,
+          "evaluation-task": 12,
+          "evidence-review": 5,
+          "example-local-instruction": 10,
+          "implementation-plan": 9,
+          "legacy-explanation": 1,
+          "planning-entrypoint": 1,
+          "root-entrypoint": 7,
+          "validation-entrypoint": 3,
+          "validation-release-index": 9,
+          "validation-report": 35,
+          "verification-run-report": 11
+        },
+        "rootMarkdown": [
+          "AGENTS.md",
+          "CHANGELOG.md",
+          "CONTRIBUTING.md",
+          "NOTICE.md",
+          "README.md",
+          "SECURITY.md",
+          "START_HERE.md"
+        ],
+        "unknownRoles": 0,
+        "valid": true
+      },
+      "id": "CYCLE-DOCUMENT-GOVERNANCE",
+      "status": "PASS",
+      "summary": "Every Markdown file retains one role, lifecycle, and discovery owner.",
+      "valid": true
+    },
+    {
+      "details": {
+        "agentSchemas": 10,
+        "errors": [],
+        "liveRequirements": 27,
+        "liveSchemas": 7,
+        "preLiveReadinessRequirements": 8,
+        "valid": true
+      },
+      "id": "CYCLE-LIVE-CONTRACT-SCHEMAS",
+      "status": "PASS",
+      "summary": "All live schemas and twenty-seven requirement mappings validate.",
+      "valid": true
+    },
+    {
+      "details": {
+        "caseShortcutRoutes": [],
+        "errors": [],
+        "maintenanceRouteCount": 1,
+        "routeCount": 16,
+        "valid": true
+      },
+      "id": "CYCLE-ROUTE-AUTHORITY",
+      "status": "PASS",
+      "summary": "Existing authoring routes and write authorities remain canonical.",
+      "valid": true
+    },
+    {
+      "details": {
+        "artifactDeclarationsChecked": 231,
+        "documents": 143,
+        "errors": [],
+        "normativeDocuments": 96,
+        "repositoryDocumentGovernance": {
+          "agentLines": 251,
+          "canonicalDocuments": 143,
+          "errors": [],
+          "governanceRequirements": 10,
+          "orphans": 0,
+          "pathMigrations": 4,
+          "plans": 9,
+          "preLiveRequirements": 8,
+          "redirectsChecked": true,
+          "repositoryMarkdown": 254,
+          "roleCounts": {
+            "canonical-document": 143,
+            "corpus-instruction": 2,
+            "evaluation-suite-document": 6,
+            "evaluation-task": 12,
+            "evidence-review": 5,
+            "example-local-instruction": 10,
+            "implementation-plan": 9,
+            "legacy-explanation": 1,
+            "planning-entrypoint": 1,
+            "root-entrypoint": 7,
+            "validation-entrypoint": 3,
+            "validation-release-index": 9,
+            "validation-report": 35,
+            "verification-run-report": 11
+          },
+          "rootMarkdown": [
+            "AGENTS.md",
+            "CHANGELOG.md",
+            "CONTRIBUTING.md",
+            "NOTICE.md",
+            "README.md",
+            "SECURITY.md",
+            "START_HERE.md"
+          ],
+          "unknownRoles": 0,
+          "valid": true
+        },
+        "requirements": 245,
+        "routes": 16,
+        "silentGaps": 0,
+        "sitePages": 175,
+        "valid": true
+      },
+      "id": "CYCLE-DOCUMENT-LINKAGE",
+      "status": "PASS",
+      "summary": "Documentation, routes, site, artifacts, inventory, and traceability close.",
+      "valid": true
+    },
+    {
+      "details": {
+        "errors": [],
+        "fairness": {
+          "cases": 12,
+          "failed": 0,
+          "passed": 12
+        },
+        "faultFixtures": {
+          "failed": 0,
+          "faults": 10,
+          "passed": 10
+        },
+        "preLiveReadiness": true,
+        "routes": {
+          "failed": 0,
+          "passed": 8,
+          "routes": 8
+        },
+        "runnerPortability": {
+          "locationIndependent": true,
+          "resultsRoot": "/mnt/data/aixem058 verification cycle 04/results with spaces",
+          "workRoot": "/mnt/data/aixem058 verification cycle 04/work with spaces"
+        },
+        "successFixtures": {
+          "failed": 0,
+          "fixtures": 4,
+          "passed": 4
+        },
+        "summary": {
+          "corpus": {
+            "baselineRelease": "AIXEM-SRP-0.5.6-2026-08-12",
+            "id": "agent-evals-3",
+            "protocolVersion": "1.0",
+            "revision": "1.1"
+          },
+          "durationSeconds": 26.384478,
+          "engineeringStatus": "PRE_LIVE_READINESS_PASS_TIER_B_PENDING",
+          "formatVersion": "1.1",
+          "generatedAt": "2026-08-12T00:00:00Z",
+          "liveClaimAuthorized": false,
+          "liveExternalAgentExecuted": false,
+          "preLiveReadiness": true,
+          "release": "AIXEM-SRP-0.5.8-2026-08-12",
+          "repositoryRelease": "AIXEM-SRP-0.5.8-2026-08-12",
+          "schema": "https://schemas.aixem.org/validation/agent-eval-3-summary/1",
+          "tierAValid": true,
+          "tierBExecuted": false,
+          "valid": true
+        },
+        "tierASummary": {
+          "cases": 12,
+          "corpusCasesValid": 12,
+          "deterministicStages": 12,
+          "fairInvariantCases": 12,
+          "faultFixtures": {
+            "failed": 0,
+            "faults": 10,
+            "passed": 10
+          },
+          "protocolFixtureValid": true,
+          "readyRoutes": 8,
+          "successFixtures": {
+            "failed": 0,
+            "fixtures": 4,
+            "passed": 4
+          }
+        },
+        "tierBExecuted": false,
+        "valid": true
+      },
+      "id": "CYCLE-PRE-LIVE-READINESS",
+      "status": "PASS",
+      "summary": "Portable success, fault, fairness, and route-readiness gates close without an AI claim.",
+      "valid": true
+    },
+    {
+      "details": {
+        "agentEval2TierA": {
+          "cases": 12,
+          "failed": 0,
+          "passed": 12
+        },
+        "caseIds": [
+          "L001",
+          "L002",
+          "L003",
+          "L004",
+          "L005",
+          "L006",
+          "L007",
+          "L008",
+          "L009",
+          "L010",
+          "L011",
+          "L012"
+        ],
+        "errors": [],
+        "preLive": {
+          "errors": [],
+          "fairness": {
+            "cases": 12,
+            "failed": 0,
+            "passed": 12
+          },
+          "faultFixtures": {
+            "failed": 0,
+            "faults": 10,
+            "passed": 10
+          },
+          "preLiveReadiness": true,
+          "routes": {
+            "failed": 0,
+            "passed": 8,
+            "routes": 8
+          },
+          "runnerPortability": {
+            "locationIndependent": true,
+            "resultsRoot": "/mnt/data/aixem058 verification cycle 04/results with spaces",
+            "workRoot": "/mnt/data/aixem058 verification cycle 04/work with spaces"
+          },
+          "successFixtures": {
+            "failed": 0,
+            "fixtures": 4,
+            "passed": 4
+          },
+          "summary": {
+            "corpus": {
+              "baselineRelease": "AIXEM-SRP-0.5.6-2026-08-12",
+              "id": "agent-evals-3",
+              "protocolVersion": "1.0",
+              "revision": "1.1"
+            },
+            "durationSeconds": 26.384478,
+            "engineeringStatus": "PRE_LIVE_READINESS_PASS_TIER_B_PENDING",
+            "formatVersion": "1.1",
+            "generatedAt": "2026-08-12T00:00:00Z",
+            "liveClaimAuthorized": false,
+            "liveExternalAgentExecuted": false,
+            "preLiveReadiness": true,
+            "release": "AIXEM-SRP-0.5.8-2026-08-12",
+            "repositoryRelease": "AIXEM-SRP-0.5.8-2026-08-12",
+            "schema": "https://schemas.aixem.org/validation/agent-eval-3-summary/1",
+            "tierAValid": true,
+            "tierBExecuted": false,
+            "valid": true
+          },
+          "tierASummary": {
+            "cases": 12,
+            "corpusCasesValid": 12,
+            "deterministicStages": 12,
+            "fairInvariantCases": 12,
+            "faultFixtures": {
+              "failed": 0,
+              "faults": 10,
+              "passed": 10
+            },
+            "protocolFixtureValid": true,
+            "readyRoutes": 8,
+            "successFixtures": {
+              "failed": 0,
+              "fixtures": 4,
+              "passed": 4
+            }
+          },
+          "tierBExecuted": false,
+          "valid": true
+        },
+        "valid": true
+      },
+      "id": "CYCLE-EVALUATION-TRUTH",
+      "status": "PASS",
+      "summary": "Tier A passes and external Tier B remains explicitly unexecuted.",
+      "valid": true
+    },
+    {
+      "details": {
+        "durationSeconds": 99.647801,
+        "failedModules": 0,
+        "moduleCount": 26,
+        "passedModules": 26,
+        "successful": true,
+        "testsRun": 127
+      },
+      "id": "CYCLE-REPOSITORY-TESTS",
+      "status": "PASS",
+      "summary": "The complete sharded isolated-module repository test inventory passes.",
+      "valid": true
+    },
+    {
+      "details": {
+        "errors": [],
+        "hierarchical": {
+          "cases": 30,
+          "deterministic": 30,
+          "expectedFailures": 18,
+          "failed": 0,
+          "passed": 30,
+          "positive": 12
+        },
+        "symbol": {
+          "B2D": {
+            "automatedPassed": 6,
+            "expectedCases": 6,
+            "observedCases": 6,
+            "status": "PASS",
+            "visualPassed": 6
+          },
+          "MU": {
+            "case": "S030",
+            "expectedResult": "NOT_SUPPORTED",
+            "extensionDecision": "No speculative core extension was introduced in 0.5.2. A dedicated ADR is required before future multi-unit semantics are implemented.",
+            "graphicalMonolith": "PASS",
+            "interpretation": "The current model can draw the monolithic FPGA shape, but cannot represent independently placeable unit presentations that share one semantic component identity. Variants were not misused as units.",
+            "negativeTest": {
+              "name": "duplicate-placement-entity-rejected",
+              "observed": "duplicate placement entity",
+              "pass": true
+            },
+            "requiredSemanticProperties": {
+              "disjointPortSubsets": false,
+              "independentlyPlaceableUnits": false,
+              "oneSharedComponentIdentity": false,
+              "sharedReferenceAndValue": false,
+              "unambiguousResolvedSceneIdentity": false
+            },
+            "result": "NOT_SUPPORTED",
+            "valid": true
+          },
+          "S-Core": {
+            "automatedPassed": 24,
+            "expectedCases": 24,
+            "observedCases": 24,
+            "status": "PASS",
+            "visualPassed": 24
+          },
+          "S-Extended": {
+            "core": {
+              "automatedPassed": 24,
+              "expectedCases": 24,
+              "observedCases": 24,
+              "status": "PASS",
+              "visualPassed": 24
+            },
+            "extendedCases": {
+              "automatedPassed": 5,
+              "expectedCases": 5,
+              "observedCases": 5,
+              "status": "PASS",
+              "visualPassed": 5
+            },
+            "status": "PASS"
+          },
+          "release": "AIXEM-SRP-0.5.2-2026-08-11"
+        },
+        "symbolReport": "validation/reports/symbol-expressiveness-0.5.2.json",
+        "valid": true,
+        "viewer": {
+          "cases": 18,
+          "deterministicRuns": 3,
+          "failed": 0,
+          "passed": 18,
+          "skipped": 0
+        },
+        "viewerDeterminismRuns": 3,
+        "viewerScreenshots": 10
+      },
+      "id": "CYCLE-CORPORA",
+      "status": "PASS",
+      "summary": "Symbol/static-block, hierarchy, and Reference Viewer corpora remain conformant.",
+      "valid": true
+    },
+    {
+      "details": {
+        "committedMismatches": [],
+        "errors": [],
+        "freshProducts": {
+          "h001Composite": "dde1dbe458e1975b7468e291613d2fe3c3fee90535de5fd90f0c535e5e1e0d9d",
+          "h001Overview": "80f59f7d6102b0161d013098ac20f654b724a8eb9fd04b6dab533b5f24a755c8",
+          "h001ResolvedProjectScene": "9b54a68bdff50a8b2d592232d3daad8c3f59c55f87bfad02115da5e744848277",
+          "singleDrawing": "cbf6775048b06eeb120530abece8148a73e0b0bebdf493f5cfc7eee9708d8080",
+          "singleResolvedScene": "d72ad96f1778d459e42933aee2ec1c381158305a9f5015031d93a53f016dad22"
+        },
+        "h001Command": {
+          "command": [
+            "/opt/pyvenv/bin/python",
+            "implementation/schematic/render_project.py",
+            "validation/corpus/hierarchical-project-1/cases/H001-two-sheet-power-+-control/project.aixproj.json",
+            "--output-dir",
+            "/tmp/aixem-056-protected-04-e35qg65e/h001"
+          ],
+          "durationSeconds": 1.501505,
+          "label": "cycle 4 protected H001 render",
+          "returnCode": 0,
+          "status": "PASS",
+          "stderrTail": "",
+          "stdoutTail": "project: hierarchical:h001\nsheets: 2; entities: 2; local nets: 6; project nets: 3\noverview: /tmp/aixem-056-protected-04-e35qg65e/h001/project-overview.svg\ncomposite: /tmp/aixem-056-protected-04-e35qg65e/h001/project-composite.svg\nhierarchical project validation: PASS\nworkbench: /tmp/aixem-056-protected-04-e35qg65e/h001/workbench.html\n",
+          "valid": true
+        },
+        "protectedCommittedFiles": 19,
+        "schemaDigests": {
+          "aixlayout1": "4f92e5e292a694aabfca922cc449f2f59a1a08e6465181a096a62b47b23bfca7",
+          "aixproj1": "056932ff46d7b6928f3b01dba50403353bdfda8f4d28e8b7bf0d38ab1dd39a41"
+        },
+        "singleCommand": {
+          "command": [
+            "/opt/pyvenv/bin/python",
+            "implementation/schematic/render_project.py",
+            "examples/electronics-grid-controller/project.aixproj.json",
+            "--output-dir",
+            "/tmp/aixem-056-protected-04-e35qg65e/single"
+          ],
+          "durationSeconds": 1.568662,
+          "label": "cycle 4 protected single-sheet render",
+          "returnCode": 0,
+          "status": "PASS",
+          "stderrTail": "",
+          "stdoutTail": "project: demo.electronics:grid-controller\nentities: 17; nets: 20; route segments: 126\ngrid schematic validation: PASS\nworkbench: /tmp/aixem-056-protected-04-e35qg65e/single/workbench.html\n",
+          "valid": true
+        },
+        "valid": true
+      },
+      "id": "CYCLE-PROTECTED-HASHES",
+      "status": "PASS",
+      "summary": "Protected circuit schemas and renderer/Viewer evidence remain byte-identical.",
+      "valid": true
+    },
+    {
+      "details": {
+        "errors": [],
+        "filesChecked": 9,
+        "valid": true
+      },
+      "id": "CYCLE-CLAIM-INTEGRITY",
+      "status": "PASS",
+      "summary": "No external AI execution or arbitrary autonomous-design claim is fabricated.",
+      "valid": true
+    }
+  ],
+  "cycle": 4,
+  "durationSeconds": 42.427535,
+  "externalTierBExecuted": false,
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "liveClaimAuthorized": false,
+  "liveExternalAgentExecuted": false,
+  "preLiveReadiness": true,
+  "preLiveReadinessPlanPassed": true,
+  "release": "AIXEM-SRP-0.5.8-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/pre-live-readiness-verification-cycle/1",
+  "status": "PASS",
+  "valid": true
+}

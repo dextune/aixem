@@ -1,0 +1,286 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Defines repository-wide roles, naming, lifecycle, discoverability, migration, and validation rules for every authored Markdown document."><meta name="aixem-document-id" content="AIXEM-SPEC-DOC-GOVERNANCE-001"><meta name="aixem-release" content="AIXEM-SRP-0.5.9-2026-08-12"><title>Repository Document Governance Contract 1 — AIXEM Documentation</title><link rel="stylesheet" href="../../assets/site.css"></head><body class=""><a class="skip" href="#main">Skip to main content</a><header class="topbar"><div class="brand"><span class="brand-mark">AX</span><span>AIXEM<small>Schematic Reference Platform</small></span></div><div class="top-actions"><span class="version">v0.5.9</span><button class="menu-open" id="menu-open" type="button" aria-controls="site-sidebar" aria-expanded="false">Menu</button><button class="search-open" id="search-open" type="button">Search <kbd>⌘K</kbd></button></div></header><div class="layout"><nav class="sidebar" id="site-sidebar" aria-label="Documentation navigation"><h2>Documentation Home</h2><a class="section-index" href="../../index.html">AIXEM Documentation</a><h2>Getting Started</h2><a class="section-index" href="../../getting-started/index.html">Getting Started</a><a class="" href="../../getting-started/introduction.html">Introduction to AIXEM</a><a class="" href="../../getting-started/quick-start.html">Quick Start</a><a class="" href="../../getting-started/first-schematic.html">Create Your First Schematic</a><h2>Authoring</h2><a class="section-index" href="../../authoring/index.html">Authoring</a><a class="" href="../../symbols/symbol-authoring-cookbook.html">Symbol Authoring Cookbook</a><a class="" href="../../symbols/aixsym-field-reference.html">AIXSYM Field Reference</a><a class="" href="../../symbols/component-symbol-binding.html">Component to Symbol Binding</a><a class="" href="../../schematic/schematic-authoring-cookbook.html">Schematic Authoring Cookbook</a><a class="" href="../../routing/routing-cookbook.html">Routing Cookbook</a><a class="" href="../../agent/visual-qa-loop.html">Visual QA and Repair Loop</a><a class="" href="../../symbols/symbol-lint.html">Symbol Lint</a><h2>Task-Oriented Authoring Guides</h2><a class="section-index" href="../../authoring/guides/index.html">Task-Oriented Authoring Guides</a><a class="" href="../../authoring/guides/create-library-part.html">Create a Library Part</a><a class="" href="../../authoring/guides/select-library-part.html">Select a Library Part</a><a class="" href="../../authoring/guides/create-schematic.html">Create a Schematic</a><a class="" href="../../authoring/guides/place-components.html">Agent Component Placement Strategy</a><a class="" href="../../authoring/guides/route-nets.html">Route Nets</a><a class="" href="../../authoring/guides/compose-project.html">Compose a Project</a><a class="" href="../../authoring/guides/modify-existing-schematic.html">Modify an Existing Schematic</a><a class="" href="../../authoring/guides/author-component-circuit.html">Author a Component Circuit</a><a class="" href="../../authoring/guides/render-review.html">Render and Review</a><a class="" href="../../authoring/guides/validate-project.html">Validate a Project</a><h2>Core Concepts</h2><a class="section-index" href="../../concepts/index.html">Core Concepts</a><a class="" href="../../concepts/semantic-model.html">Semantic Circuit Model</a><a class="" href="../../concepts/authority-model.html">Authority Model</a><a class="" href="../../concepts/component-model.html">Component Model</a><a class="" href="../../concepts/net-model.html">Net Model</a><a class="" href="../../concepts/symbol-model.html">Symbol Presentation Model</a><a class="" href="../../concepts/layout-model.html">Explicit Layout Model</a><a class="" href="../../concepts/deterministic-builds.html">Deterministic Builds</a><a class="" href="../../concepts/project-net-model.html">Project Net Model</a><h2>Schematic Authoring</h2><a class="section-index" href="../../schematic/index.html">Schematic Authoring</a><a class="" href="../../schematic/grid-system.html">Grid and Snap System</a><a class="" href="../../schematic/placement.html">Component Placement</a><a class="" href="../../schematic/junctions.html">Junctions and Connectivity Cues</a><a class="" href="../../schematic/annotations.html">Annotations and Fields</a><a class="" href="../../schematic/visual-language.html">Grid-First Visual Language</a><a class="" href="../../schematic/sheet-organization.html">Sheet Organization</a><h2>Reference Viewer</h2><a class="section-index" href="../viewer/index.html">Viewer Specifications</a><a class="" href="../viewer/reference-viewer-contract.html">Reference Viewer Contract 1</a><a class="" href="../viewer/review-workbench-contract.html">Review Workbench Contract 1</a><a class="" href="../viewer/viewer-state-and-interaction.html">Viewer State and Interaction 1</a><a class="" href="../viewer/viewer-security-and-embedding.html">Viewer Security and Embedding 1</a><a class="" href="../viewer/viewer-accessibility-profile.html">Viewer Accessibility Profile 1</a><h2>Symbol Authoring</h2><a class="section-index" href="../../symbols/index.html">Symbol Authoring</a><a class="" href="../../symbols/symbol-anatomy.html">Symbol Anatomy</a><a class="" href="../../symbols/pins-and-ports.html">Pins, Ports, and Endpoint Mapping</a><a class="" href="../../symbols/primitives.html">Graphic Primitives</a><a class="" href="../../symbols/authoring-guide.html">Symbol Authoring Guide</a><a class="" href="../../symbols/variants.html">Symbol Variants</a><a class="" href="../../symbols/field-layout.html">Field Layout</a><a class="" href="../../symbols/design-rules.html">Symbol Design Rules Entry Point</a><h2>Routing</h2><a class="section-index" href="../../routing/index.html">Net Routing</a><a class="" href="../../routing/net-routing.html">Semantic Net Routing</a><a class="" href="../../routing/orthogonal-routing.html">Orthogonal Routing</a><a class="" href="../../routing/route-constraints.html">Route Constraints</a><a class="" href="../../routing/router-behavior.html">Router Behavior</a><a class="" href="../../routing/crossings-and-junctions.html">Crossings and Junctions</a><h2>Specifications</h2><a class="section-index" href="../index.html">Specifications</a><a class="" href="../core/document-model.html">Canonical Document Model</a><a class="" href="../core/coordinate-system.html">Coordinate and Unit System</a><a class="" href="../core/authority-precedence.html">Authority and Precedence</a><a class="" href="../schematic/grid-profile.html">Grid Schematic Profile 1</a><a class="" href="../schematic/visual-profile.html">Schematic Presentation Profile 1</a><a class="" href="../symbols/symbol-contract.html">Symbol Asset Contract 1</a><a class="" href="../layout/layout-contract.html">Explicit Layout Contract 1</a><a class="" href="../project/project-lock-contract.html">Project Lock Contract 1</a><a class="" href="../agent/retrieval-profile.html">Agent Retrieval Profile 1</a><a class="" href="metadata-contract.html">Documentation Metadata Contract 1</a><a class="active" href="document-governance-contract.html">Repository Document Governance Contract 1</a><a class="" href="release-integrity.html">Documentation Release Integrity 1</a><a class="" href="../schemas/index.html">JSON Schema Catalog</a><a class="" href="../symbols/symbol-design-profile.html">Symbol Design Profile 1</a><a class="" href="../renderer/renderer-contract.html">Renderer Contract 1</a><a class="" href="../core/interface-port-contract.html">Interface Port Contract 1</a><a class="" href="../layout/hierarchical-sheet-port-contract.html">Hierarchical Sheet-Port Layout Contract 2</a><a class="" href="../project/project-composition-contract.html">Project Composition Contract 2</a><a class="" href="../agent/diagnostic-contract.html">Agent Diagnostic Contract 1</a><a class="" href="../agent/authoring-change-set-contract.html">Authoring Change-Set Contract 1</a><a class="" href="../agent/authoring-execution-contract.html">Authoring Execution Contract 1</a><a class="" href="../agent/authoring-run-record.html">Authoring Run Record 1</a><a class="" href="../agent/agent-task-contract.html">Agent Task Contract 1</a><a class="" href="../agent/cold-start-stage-contract.html">Cold-Start Stage Contract 1</a><a class="" href="../agent/live-executor-protocol.html">Live Executor Protocol 1</a><a class="" href="../agent/observation-event-contract.html">Observation Event Contract 1</a><a class="" href="../agent/evaluation-invariant-contract.html">Evaluation Invariant Contract 1</a><a class="" href="../agent/live-run-evidence.html">Live Run Evidence 1</a><a class="" href="../components/library-layout-contract.html">Library Layout and Part Integrity Contract</a><a class="" href="../components/pin-electrical-semantics-profile.html">Pin Electrical Semantics Profile 1</a><h2>File Formats</h2><a class="section-index" href="../../file-formats/index.html">File Formats</a><a class="" href="../../file-formats/aixem.html">.aixem Semantic Source</a><a class="" href="../../file-formats/aixlib.html">.aixlib.json Component Library</a><a class="" href="../../file-formats/aixsym.html">.aixsym.json Symbol Asset</a><a class="" href="../../file-formats/aixlayout.html">.aixlayout.json Explicit Layout</a><a class="" href="../../file-formats/aixproj.html">.aixproj.json Project Lock</a><a class="" href="../../file-formats/style-profile.html">Schematic Style Profile</a><h2>AI Agent Operations</h2><a class="section-index" href="../../agent/index.html">AI Agent Operations</a><a class="" href="../../agent/architecture.html">Agent Architecture</a><a class="" href="../../agent/retrieval.html">Bounded Retrieval</a><a class="" href="../../agent/task-routing.html">Task Routes</a><a class="" href="../../agent/schematic-authoring.html">Schematic Authoring Agent</a><a class="" href="../../agent/symbol-generation.html">Symbol Generation Agent</a><a class="" href="../../agent/routing-agent.html">Routing Agent</a><a class="" href="../../agent/validation-loop.html">Three-Stage Validation Loop</a><a class="" href="../../agent/failure-policy.html">Fail-Closed Policy</a><a class="" href="../../agent/authoring-orchestration.html">Agent Authoring Orchestration</a><a class="" href="../../agent/live-agent-cold-start-authoring.html">Live-Agent Cold-Start Authoring</a><h2>Architecture</h2><a class="section-index" href="../../architecture/index.html">System Architecture</a><a class="" href="../../architecture/system-overview.html">System Overview</a><a class="" href="../../architecture/pipeline.html">Build and Authoring Pipeline</a><a class="" href="../../architecture/artifact-store.html">Artifact Ownership and Storage</a><a class="" href="../../architecture/cache.html">Cache and Incremental Compilation</a><a class="" href="../../architecture/security.html">Security and Trust Boundaries</a><a class="" href="../../architecture/adr/index.html">Architecture Decision Records</a><a class="" href="../../architecture/adr/0001-canonical-doc-root.html">ADR-0001: One Canonical Documentation Root</a><a class="" href="../../architecture/adr/0002-route-first-retrieval.html">ADR-0002: Route-First Agent Retrieval</a><a class="" href="../../architecture/adr/0003-vendor-neutral-ui.html">ADR-0003: Vendor-Neutral Engineering Surfaces</a><a class="" href="../../architecture/adr/0004-symbol-style-and-renderer-precedence.html">ADR 0004 — Symbol Style and Renderer Precedence</a><h2>Conformance</h2><a class="section-index" href="../../conformance/index.html">Conformance</a><a class="" href="../../conformance/requirements.html">Requirement Model</a><a class="" href="../../conformance/validation.html">Validation Architecture</a><a class="" href="../../conformance/test-suite.html">Test Suite</a><a class="" href="../../conformance/symbol-expressiveness.html">Symbol Expressiveness Conformance Profile 1</a><a class="" href="../../conformance/static-2d-block-profile.html">Static 2D Block Compatibility Profile 1</a><a class="" href="../../conformance/compatibility-conformance.html">Compatibility and Migration Conformance</a><a class="" href="../../conformance/release-gates.html">Release Gates</a><a class="" href="../../conformance/hierarchical-project.html">Hierarchical Project Conformance</a><a class="" href="../../conformance/reference-viewer.html">Reference Viewer Conformance</a><a class="" href="../../conformance/agent-diagnostics.html">Agent Diagnostic Registry and Conformance</a><a class="" href="../../conformance/agent-authoring.html">Agent Authoring Closed-Loop Conformance</a><a class="" href="../../conformance/live-agent-cold-start.html">Live-Agent Cold-Start Conformance</a><h2>Examples</h2><a class="section-index" href="../../examples/index.html">Examples</a><a class="" href="../../examples/passive-divider.html">Example: Passive Divider</a><a class="" href="../../examples/grid-controller.html">Example: Grid Controller and Sensor Interface</a><a class="" href="../../examples/hierarchical-reference.html">Example: Hierarchical Reference Pattern</a><a class="" href="../../examples/symbol-expressiveness-corpus.html">Symbol Expressiveness Corpus Construction Index</a><h2>Governance</h2><a class="section-index" href="../../governance/index.html">Governance</a><a class="" href="../../governance/versioning.html">Versioning Policy</a><a class="" href="../../governance/compatibility-policy.html">Compatibility Policy</a><a class="" href="../../governance/deprecation.html">Deprecation Policy</a><a class="" href="../../governance/release-process.html">Release Process</a><a class="" href="../../governance/terminology.html">Terminology</a><a class="" href="../../governance/documentation-authoring-guide.html">Documentation Authoring and Lifecycle Guide</a><h2>Releases</h2><a class="section-index" href="../../releases/index.html">Release Notes</a><a class="" href="../../releases/0.4.html">AIXEM 0.4 Baseline</a><a class="" href="../../releases/0.5.html">AIXEM 0.5.0</a><a class="" href="../../releases/0.5.1.html">AIXEM 0.5.1</a><a class="" href="../../releases/0.5.2.html">AIXEM 0.5.2</a><a class="" href="../../releases/0.5.3.html">AIXEM 0.5.3</a><a class="" href="../../releases/0.5.4.html">AIXEM 0.5.4</a><a class="" href="../../releases/0.5.5.html">AIXEM 0.5.5</a><a class="" href="../../releases/0.5.6.html">AIXEM 0.5.6 Live-Agent Cold-Start Authoring</a><a class="" href="../../releases/0.5.7.html">AIXEM 0.5.7 Document Information Architecture and Governance</a><a class="" href="../../releases/0.5.8.html">AIXEM 0.5.8 Pre-Live Agent Readiness Hardening</a><a class="" href="../../releases/0.5.8.1.html">AIXEM 0.5.8.1 Final Documentation, Specification, and Reference-Chain Closure</a><a class="" href="../../releases/0.5.9.html">AIXEM 0.5.9 Integrated Authoring, Library, Pin Semantics, and Placement Hardening</a></nav><main class="content-wrap" id="main"><div class="content"><div class="breadcrumbs"><a href="../../index.html">Documentation</a><span>›</span><a href="../index.html">Specifications</a><span>›</span><span>Repository Document Governance Contract 1</span></div><header class="doc-head"><div class="eyebrow"><span class="badge normative">normative</span><span class="doc-id">AIXEM-SPEC-DOC-GOVERNANCE-001 · v1.0</span></div><h1>Repository Document Governance Contract 1</h1><p class="lead">Defines repository-wide roles, naming, lifecycle, discoverability, migration, and validation rules for every authored Markdown document.</p></header><article class="article"><h1 id="repository-document-governance-contract-1">Repository Document Governance Contract 1<a class="heading-anchor" href="#repository-document-governance-contract-1" aria-label="Link to this section">#</a></h1>
+<p>Defines repository-wide roles, naming, lifecycle, discoverability, migration, and validation rules for every authored Markdown document.</p>
+<blockquote>
+<p><strong>Document ID:</strong> <code>AIXEM-SPEC-DOC-GOVERNANCE-001</code><br />
+<strong>Status:</strong> Normative<br />
+<strong>Version:</strong> 1.0</p>
+</blockquote>
+<h2 id="1-authority-boundary">1. Authority Boundary<a class="heading-anchor" href="#1-authority-boundary" aria-label="Link to this section">#</a></h2>
+<p><code>docs/</code> remains the only canonical authored technical-documentation root. Repository entrypoints, implementation plans, release validation reports, evidence narratives, fixture tasks, and legacy explanations are intentionally noncanonical. Moving a file into <code>docs/</code> does not make its claims authoritative unless it also receives canonical identity, metadata, navigation, requirement, and validation treatment.</p>
+<p>The policy distinguishes four questions that must not be conflated:</p>
+<ol>
+<li><strong>What is true now?</strong> Canonical documentation owns current technical truth.</li>
+<li><strong>Why was a change proposed?</strong> A version-scoped implementation plan owns intent and rationale.</li>
+<li><strong>What changed in a release?</strong> <code>CHANGELOG.md</code> and <code>docs/releases/&lt;version&gt;.md</code> own release history.</li>
+<li><strong>What was actually verified?</strong> <code>validation/releases/&lt;version&gt;/</code> and machine evidence own observed results.</li>
+</ol>
+<h2 id="2-repository-document-roles">2. Repository Document Roles<a class="heading-anchor" href="#2-repository-document-roles" aria-label="Link to this section">#</a></h2>
+<p>Every Markdown file is classified by <code>docs/_meta/repository-document-policy.yaml</code>. Classification is fail-closed and exact: zero matches and multiple matches are both errors.</p>
+<p>The supported roles are:</p>
+<table>
+<thead>
+<tr>
+  <th>Role</th>
+  <th>Authority and lifecycle</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Repository entrypoint or policy</td>
+  <td>Permanent, conventional root guidance; never a substitute for canonical technical rules.</td>
+</tr>
+<tr>
+  <td>Canonical documentation</td>
+  <td>Current technical authority under <code>docs/</code>, with stable ID and navigation registration.</td>
+</tr>
+<tr>
+  <td>Implementation plan</td>
+  <td>Version-scoped historical intent under <code>planning/releases/</code>.</td>
+</tr>
+<tr>
+  <td>Validation release index/report</td>
+  <td>Version-scoped immutable human evidence under <code>validation/releases/</code>.</td>
+</tr>
+<tr>
+  <td>Machine-bound evidence narrative</td>
+  <td>Retained under <code>validation/evidence/</code> because paths may be schema-, test-, or digest-bound.</td>
+</tr>
+<tr>
+  <td>Evaluation or corpus instruction</td>
+  <td>Local <code>README.md</code>, scoring guide, result summary, or <code>TASK.md</code> owned by a registered suite/case.</td>
+</tr>
+<tr>
+  <td>Example-local instruction</td>
+  <td>Local guidance owned by a self-contained example directory.</td>
+</tr>
+<tr>
+  <td>Legacy explanation</td>
+  <td>Historical compatibility context under <code>legacy/</code>.</td>
+</tr>
+<tr>
+  <td>Generated documentation product</td>
+  <td>A deterministic pointer or inventory generated from an authoritative input.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="3-naming-and-placement">3. Naming and Placement<a class="heading-anchor" href="#3-naming-and-placement" aria-label="Link to this section">#</a></h2>
+<p>The default filename is lowercase kebab case:</p>
+<pre><code class="language-text">[a-z0-9]+(?:-[a-z0-9]+)*.md
+</code></pre>
+<p>The only reserved special names are <code>README.md</code>, <code>AGENTS.md</code>, <code>CHANGELOG.md</code>, <code>CONTRIBUTING.md</code>, <code>SECURITY.md</code>, <code>NOTICE.md</code>, <code>START_HERE.md</code>, <code>TASK.md</code>, and canonical <code>index.md</code>. A special name is valid only in the role and path declared by policy.</p>
+<p>Versions belong in directory context for plans and validation reports:</p>
+<pre><code class="language-text">planning/releases/0.5.7/document-information-architecture-governance.md
+validation/releases/0.5.7/implementation-matrix.md
+</code></pre>
+<p>Canonical release notes intentionally use <code>docs/releases/0.5.7.md</code> because the filename is the series identity.</p>
+<h2 id="4-discoverability-and-orphan-semantics">4. Discoverability and Orphan Semantics<a class="heading-anchor" href="#4-discoverability-and-orphan-semantics" aria-label="Link to this section">#</a></h2>
+<p>A document is orphaned when it lacks the official discovery mechanism for its role, not merely when it has no Markdown hyperlink.</p>
+<ul>
+<li>canonical documents are discovered through <code>docs/_meta/navigation.yaml</code>;</li>
+<li>root entrypoints are discovered through the root whitelist;</li>
+<li>plans are registered in <code>planning/index.yaml</code> and linked from <code>planning/README.md</code>;</li>
+<li>human validation reports are linked from their release <code>README.md</code>;</li>
+<li>suite and corpus instructions are owned by their local registered directory;</li>
+<li>evaluation <code>TASK.md</code> files are owned by the case descriptor in the same case directory;</li>
+<li>machine-bound evidence narratives are owned by evidence policy and machine references;</li>
+<li>generated documentation products are owned by their generator and generated manifest.</li>
+</ul>
+<p>The generated inventory records both inbound Markdown references and textual machine references, but neither count alone defines authority.</p>
+<h2 id="5-canonical-current-state-discipline">5. Canonical Current-State Discipline<a class="heading-anchor" href="#5-canonical-current-state-discipline" aria-label="Link to this section">#</a></h2>
+<p>Canonical documents describe the active system directly. Release patch comments such as <code>AIXEM-0.5.x-...:START</code>, <code>:END</code>, <code>:begin</code>, or <code>:end</code> are prohibited. Valid rules introduced by an earlier release must be integrated into the semantic section that owns them.</p>
+<p>The standard canonical footer is terminal:</p>
+<pre><code class="language-text">---
+
+&lt;canonical-footer-sentence&gt;
+</code></pre>
+<p>No heading, requirement, example, or comment may follow it.</p>
+<h2 id="6-canonical-path-migration">6. Canonical Path Migration<a class="heading-anchor" href="#6-canonical-path-migration" aria-label="Link to this section">#</a></h2>
+<p>A canonical move preserves the stable document ID and records the old and new paths in <code>docs/_meta/path-migrations.yaml</code>. Migration records are append-only after release. Validation rejects missing targets, reused old paths, identity mismatch, cycles, duplicate sources, or a migration whose old path remains an active canonical document.</p>
+<p>The compiler publishes <code>path-migration-index.json</code>, annotates the current document-index entry with previous paths, and emits an offline HTML redirect at the old site path. Internal authored links must use the current path; historical evidence may retain the old path as provenance.</p>
+<h2 id="7-metadata-vocabulary-and-size-estimates">7. Metadata Vocabulary and Size Estimates<a class="heading-anchor" href="#7-metadata-vocabulary-and-size-estimates" aria-label="Link to this section">#</a></h2>
+<p><code>domain</code> and <code>kind</code> are controlled enumerations in the canonical metadata schema. A new value requires an information-architecture change rather than an ad hoc string.</p>
+<p>The authored <code>agent.estimated_tokens</code> value is checked against a deterministic body-size estimate. Byte limits remain the hard route budget. The estimate exists only to help bounded retrieval planning and must not be treated as a tokenizer-specific guarantee.</p>
+<h2 id="8-lifecycle-operations">8. Lifecycle Operations<a class="heading-anchor" href="#8-lifecycle-operations" aria-label="Link to this section">#</a></h2>
+<h3 id="create">Create<a class="heading-anchor" href="#create" aria-label="Link to this section">#</a></h3>
+<p>Create a document only after identifying its role, unique owner, audience, lifecycle, official discovery mechanism, filename, and validator. Extend the existing owner when authority, audience, lifecycle, and retrieval intent are the same.</p>
+<h3 id="move">Move<a class="heading-anchor" href="#move" aria-label="Link to this section">#</a></h3>
+<p>Update every current authored consumer. Canonical moves additionally require stable-ID migration records and generated redirects. Historical evidence is not rewritten merely to make paths look current.</p>
+<h3 id="deprecate-or-supersede">Deprecate or supersede<a class="heading-anchor" href="#deprecate-or-supersede" aria-label="Link to this section">#</a></h3>
+<p>Keep the replacement and lifecycle visible. Canonical deprecation uses canonical metadata; plans use <code>planning/index.yaml</code>; validation reports remain immutable evidence.</p>
+<h3 id="delete">Delete<a class="heading-anchor" href="#delete" aria-label="Link to this section">#</a></h3>
+<p>Delete only after references, replacement, ownership, evidence retention, and release-history obligations are resolved. A deletion is a reviewed lifecycle event, not cleanup by intuition.</p>
+<h2 id="9-generated-inventory">9. Generated Inventory<a class="heading-anchor" href="#9-generated-inventory" aria-label="Link to this section">#</a></h2>
+<p><code>docs/_meta/generated/repository-document-inventory.json</code> contains, for every Markdown file:</p>
+<pre><code class="language-text">path, role, lifecycle, canonicalDocumentId, release, sourceOwner,
+discoverabilityOwner, inboundDocumentRefs, machineRefs, status, bytes, digest
+</code></pre>
+<p>The inventory is derived and non-authoritative. <code>docs/_meta/repository-document-policy.yaml</code>, canonical metadata, planning lifecycle data, release indexes, and registered fixture structure remain the authored inputs.</p>
+<h2 id="10-root-reference-and-relationship-closure">10. Root Reference and Relationship Closure<a class="heading-anchor" href="#10-root-reference-and-relationship-closure" aria-label="Link to this section">#</a></h2>
+<p><code>README.md</code> is the primary repository entrypoint. <code>REFERENCE.md</code> owns the stable root category, artifact, validation, and history map. <code>AGENTS.md</code> remains a bounded operating contract and links to that map instead of duplicating category content.</p>
+<p>The repository relationship audit must prove:</p>
+<ol>
+<li>every approved root-local link and Markdown anchor resolves without escaping the repository;</li>
+<li><code>REFERENCE.md</code> links every policy-required repository area and root build control;</li>
+<li>every human-authored Markdown file is reachable from <code>README.md</code> through explicit links;</li>
+<li>every category index links every navigation member registered beneath it;</li>
+<li>current operational pointers agree with <code>VERSION</code>;</li>
+<li>active routes contain no stale release-scoped evidence path;</li>
+<li>normative authority scopes have one owner unless explicitly declared shareable.</li>
+</ol>
+<p>The generated audit is evidence, not technical authority. Its inputs remain the root documents, canonical metadata, navigation, route definitions, planning registry, release indexes, repository-document policy, and release metadata.</p>
+<h2 id="normative-requirements">Normative Requirements<a class="heading-anchor" href="#normative-requirements" aria-label="Link to this section">#</a></h2>
+<p><a id="AIXEM-REQ-DOC-GOV-0001"></a></p>
+<h3 id="aixem-req-doc-gov-0001-exact-repository-document-role">AIXEM-REQ-DOC-GOV-0001 <a class="req-backlink" href="../../conformance/requirements.html#AIXEM-REQ-DOC-GOV-0001">trace</a> — Exact repository document role<a class="heading-anchor" href="#aixem-req-doc-gov-0001-exact-repository-document-role" aria-label="Link to this section">#</a></h3>
+<p><strong>MUST.</strong> Every authored Markdown file MUST resolve to exactly one declared repository document role.</p>
+<ul>
+<li>Verification mode: <code>automated</code></li>
+<li>Validator: <code>docs.repository_inventory</code></li>
+<li>Test reference: <code>tests/docs/test_document_governance.py::DocumentGovernanceTests.test_every_markdown_has_exactly_one_role</code></li>
+<li>Release evidence: <code>validation/evidence/requirements/AIXEM-REQ-DOC-GOV-0001.json</code></li>
+</ul>
+<p><a id="AIXEM-REQ-DOC-GOV-0002"></a></p>
+<h3 id="aixem-req-doc-gov-0002-root-hygiene-and-reserved-names">AIXEM-REQ-DOC-GOV-0002 <a class="req-backlink" href="../../conformance/requirements.html#AIXEM-REQ-DOC-GOV-0002">trace</a> — Root hygiene and reserved names<a class="heading-anchor" href="#aixem-req-doc-gov-0002-root-hygiene-and-reserved-names" aria-label="Link to this section">#</a></h3>
+<p><strong>MUST.</strong> Root Markdown and reserved special filenames MUST be limited to the explicit policy allowlists.</p>
+<ul>
+<li>Verification mode: <code>automated</code></li>
+<li>Validator: <code>docs.document_naming</code></li>
+<li>Test reference: <code>tests/docs/test_document_governance.py::DocumentGovernanceTests.test_root_hygiene_and_reserved_names</code></li>
+<li>Release evidence: <code>validation/evidence/requirements/AIXEM-REQ-DOC-GOV-0002.json</code></li>
+</ul>
+<p><a id="AIXEM-REQ-DOC-GOV-0003"></a></p>
+<h3 id="aixem-req-doc-gov-0003-role-aware-discoverability">AIXEM-REQ-DOC-GOV-0003 <a class="req-backlink" href="../../conformance/requirements.html#AIXEM-REQ-DOC-GOV-0003">trace</a> — Role-aware discoverability<a class="heading-anchor" href="#aixem-req-doc-gov-0003-role-aware-discoverability" aria-label="Link to this section">#</a></h3>
+<p><strong>MUST.</strong> Every human-authored document MUST be discoverable through the official mechanism declared for its role.</p>
+<ul>
+<li>Verification mode: <code>automated</code></li>
+<li>Validator: <code>docs.document_discoverability</code></li>
+<li>Test reference: <code>tests/docs/test_document_governance.py::DocumentGovernanceTests.test_role_aware_discoverability_has_no_orphans</code></li>
+<li>Release evidence: <code>validation/evidence/requirements/AIXEM-REQ-DOC-GOV-0003.json</code></li>
+</ul>
+<p><a id="AIXEM-REQ-DOC-GOV-0004"></a></p>
+<h3 id="aixem-req-doc-gov-0004-canonical-current-state-structure">AIXEM-REQ-DOC-GOV-0004 <a class="req-backlink" href="../../conformance/requirements.html#AIXEM-REQ-DOC-GOV-0004">trace</a> — Canonical current-state structure<a class="heading-anchor" href="#aixem-req-doc-gov-0004-canonical-current-state-structure" aria-label="Link to this section">#</a></h3>
+<p><strong>MUST.</strong> Canonical documents MUST end at the canonical footer and MUST NOT contain release patch append markers.</p>
+<ul>
+<li>Verification mode: <code>automated</code></li>
+<li>Validator: <code>docs.canonical_structure</code></li>
+<li>Test reference: <code>tests/docs/test_document_governance.py::DocumentGovernanceTests.test_canonical_structure_has_terminal_footer_and_no_patch_blocks</code></li>
+<li>Release evidence: <code>validation/evidence/requirements/AIXEM-REQ-DOC-GOV-0004.json</code></li>
+</ul>
+<p><a id="AIXEM-REQ-DOC-GOV-0005"></a></p>
+<h3 id="aixem-req-doc-gov-0005-stable-identity-across-path-migration">AIXEM-REQ-DOC-GOV-0005 <a class="req-backlink" href="../../conformance/requirements.html#AIXEM-REQ-DOC-GOV-0005">trace</a> — Stable identity across path migration<a class="heading-anchor" href="#aixem-req-doc-gov-0005-stable-identity-across-path-migration" aria-label="Link to this section">#</a></h3>
+<p><strong>MUST.</strong> A canonical path migration MUST preserve document identity and produce a validated prior-path redirect.</p>
+<ul>
+<li>Verification mode: <code>automated</code></li>
+<li>Validator: <code>docs.path_migrations</code></li>
+<li>Test reference: <code>tests/docs/test_document_governance.py::DocumentGovernanceTests.test_path_migrations_preserve_identity_and_redirects</code></li>
+<li>Release evidence: <code>validation/evidence/requirements/AIXEM-REQ-DOC-GOV-0005.json</code></li>
+</ul>
+<p><a id="AIXEM-REQ-DOC-GOV-0006"></a></p>
+<h3 id="aixem-req-doc-gov-0006-controlled-metadata-vocabulary">AIXEM-REQ-DOC-GOV-0006 <a class="req-backlink" href="../../conformance/requirements.html#AIXEM-REQ-DOC-GOV-0006">trace</a> — Controlled metadata vocabulary<a class="heading-anchor" href="#aixem-req-doc-gov-0006-controlled-metadata-vocabulary" aria-label="Link to this section">#</a></h3>
+<p><strong>MUST.</strong> Canonical domain and kind values MUST use the controlled metadata vocabulary and size estimates MUST be machine checked.</p>
+<ul>
+<li>Verification mode: <code>automated</code></li>
+<li>Validator: <code>docs.metadata_vocabulary</code></li>
+<li>Test reference: <code>tests/docs/test_document_governance.py::DocumentGovernanceTests.test_metadata_vocabularies_and_token_estimates</code></li>
+<li>Release evidence: <code>validation/evidence/requirements/AIXEM-REQ-DOC-GOV-0006.json</code></li>
+</ul>
+<p><a id="AIXEM-REQ-DOC-GOV-0007"></a></p>
+<h3 id="aixem-req-doc-gov-0007-deterministic-repository-inventory">AIXEM-REQ-DOC-GOV-0007 <a class="req-backlink" href="../../conformance/requirements.html#AIXEM-REQ-DOC-GOV-0007">trace</a> — Deterministic repository inventory<a class="heading-anchor" href="#aixem-req-doc-gov-0007-deterministic-repository-inventory" aria-label="Link to this section">#</a></h3>
+<p><strong>MUST.</strong> Identical authored inputs MUST produce a byte-identical repository document inventory and path migration index.</p>
+<ul>
+<li>Verification mode: <code>automated</code></li>
+<li>Validator: <code>docs.repository_inventory</code></li>
+<li>Test reference: <code>tests/docs/test_document_governance.py::DocumentGovernanceTests.test_repository_inventory_is_deterministic</code></li>
+<li>Release evidence: <code>validation/evidence/requirements/AIXEM-REQ-DOC-GOV-0007.json</code></li>
+</ul>
+<p><a id="AIXEM-REQ-DOC-GOV-0008"></a></p>
+<h3 id="aixem-req-doc-gov-0008-version-scoped-plan-and-report-lifecycle">AIXEM-REQ-DOC-GOV-0008 <a class="req-backlink" href="../../conformance/requirements.html#AIXEM-REQ-DOC-GOV-0008">trace</a> — Version-scoped plan and report lifecycle<a class="heading-anchor" href="#aixem-req-doc-gov-0008-version-scoped-plan-and-report-lifecycle" aria-label="Link to this section">#</a></h3>
+<p><strong>MUST.</strong> Implementation plans and human validation reports MUST be version scoped and registered by their lifecycle owner.</p>
+<ul>
+<li>Verification mode: <code>automated</code></li>
+<li>Validator: <code>docs.document_lifecycle</code></li>
+<li>Test reference: <code>tests/docs/test_document_governance.py::DocumentGovernanceTests.test_planning_and_validation_lifecycles</code></li>
+<li>Release evidence: <code>validation/evidence/requirements/AIXEM-REQ-DOC-GOV-0008.json</code></li>
+</ul>
+<p><a id="AIXEM-REQ-DOC-GOV-0009"></a></p>
+<h3 id="aixem-req-doc-gov-0009-agent-document-creation-gate">AIXEM-REQ-DOC-GOV-0009 <a class="req-backlink" href="../../conformance/requirements.html#AIXEM-REQ-DOC-GOV-0009">trace</a> — Agent document creation gate<a class="heading-anchor" href="#aixem-req-doc-gov-0009-agent-document-creation-gate" aria-label="Link to this section">#</a></h3>
+<p><strong>MUST.</strong> Repository agent instructions MUST require role, owner, discovery, lifecycle, naming, and validation decisions before creating a document.</p>
+<ul>
+<li>Verification mode: <code>automated</code></li>
+<li>Validator: <code>docs.agent_document_rules</code></li>
+<li>Test reference: <code>tests/docs/test_document_governance.py::DocumentGovernanceTests.test_agents_document_creation_gate</code></li>
+<li>Release evidence: <code>validation/evidence/requirements/AIXEM-REQ-DOC-GOV-0009.json</code></li>
+</ul>
+<p><a id="AIXEM-REQ-DOC-GOV-0010"></a></p>
+<h3 id="aixem-req-doc-gov-0010-unknown-markdown-fails-closed">AIXEM-REQ-DOC-GOV-0010 <a class="req-backlink" href="../../conformance/requirements.html#AIXEM-REQ-DOC-GOV-0010">trace</a> — Unknown Markdown fails closed<a class="heading-anchor" href="#aixem-req-doc-gov-0010-unknown-markdown-fails-closed" aria-label="Link to this section">#</a></h3>
+<p><strong>MUST.</strong> A Markdown path that matches no declared role MUST fail repository documentation validation.</p>
+<ul>
+<li>Verification mode: <code>automated</code></li>
+<li>Validator: <code>docs.repository_inventory</code></li>
+<li>Test reference: <code>tests/docs/test_document_governance.py::DocumentGovernanceTests.test_unknown_markdown_fails_closed</code></li>
+<li>Release evidence: <code>validation/evidence/requirements/AIXEM-REQ-DOC-GOV-0010.json</code></li>
+</ul>
+<p><a id="AIXEM-REQ-DOC-GOV-0011"></a></p>
+<h3 id="aixem-req-doc-gov-0011-root-reference-chain-integrity">AIXEM-REQ-DOC-GOV-0011 <a class="req-backlink" href="../../conformance/requirements.html#AIXEM-REQ-DOC-GOV-0011">trace</a> — Root reference-chain integrity<a class="heading-anchor" href="#aixem-req-doc-gov-0011-root-reference-chain-integrity" aria-label="Link to this section">#</a></h3>
+<p><strong>MUST.</strong> Every approved root Markdown link MUST resolve safely, the root reference map MUST link every policy-required repository area and build control, and every human-authored Markdown document MUST be reachable from the primary root entrypoint.</p>
+<ul>
+<li>Verification mode: <code>automated</code></li>
+<li>Validator: <code>docs.root_reference_chain</code></li>
+<li>Test reference: <code>tests/docs/test_document_governance.py::DocumentGovernanceTests.test_root_reference_chain_reaches_all_human_documents</code></li>
+<li>Release evidence: <code>validation/evidence/requirements/AIXEM-REQ-DOC-GOV-0011.json</code></li>
+</ul>
+<p><a id="AIXEM-REQ-DOC-GOV-0012"></a></p>
+<h3 id="aixem-req-doc-gov-0012-complete-category-index-coverage">AIXEM-REQ-DOC-GOV-0012 <a class="req-backlink" href="../../conformance/requirements.html#AIXEM-REQ-DOC-GOV-0012">trace</a> — Complete category-index coverage<a class="heading-anchor" href="#aixem-req-doc-gov-0012-complete-category-index-coverage" aria-label="Link to this section">#</a></h3>
+<p><strong>MUST.</strong> Every canonical category index MUST link every document registered in its navigation section.</p>
+<ul>
+<li>Verification mode: <code>automated</code></li>
+<li>Validator: <code>docs.section_index_coverage</code></li>
+<li>Test reference: <code>tests/docs/test_document_governance.py::DocumentGovernanceTests.test_section_indexes_cover_navigation_members</code></li>
+<li>Release evidence: <code>validation/evidence/requirements/AIXEM-REQ-DOC-GOV-0012.json</code></li>
+</ul>
+<p><a id="AIXEM-REQ-DOC-GOV-0013"></a></p>
+<h3 id="aixem-req-doc-gov-0013-current-release-coherence">AIXEM-REQ-DOC-GOV-0013 <a class="req-backlink" href="../../conformance/requirements.html#AIXEM-REQ-DOC-GOV-0013">trace</a> — Current-release coherence<a class="heading-anchor" href="#aixem-req-doc-gov-0013-current-release-coherence" aria-label="Link to this section">#</a></h3>
+<p><strong>MUST.</strong> Operational root entrypoints, current release navigation, planning, validation, route paths, and release metadata MUST agree with VERSION.</p>
+<ul>
+<li>Verification mode: <code>automated</code></li>
+<li>Validator: <code>docs.release_coherence</code></li>
+<li>Test reference: <code>tests/docs/test_document_governance.py::DocumentGovernanceTests.test_current_release_pointers_are_coherent</code></li>
+<li>Release evidence: <code>validation/evidence/requirements/AIXEM-REQ-DOC-GOV-0013.json</code></li>
+</ul>
+<p><a id="AIXEM-REQ-DOC-GOV-0014"></a></p>
+<h3 id="aixem-req-doc-gov-0014-unambiguous-normative-authority-scope">AIXEM-REQ-DOC-GOV-0014 <a class="req-backlink" href="../../conformance/requirements.html#AIXEM-REQ-DOC-GOV-0014">trace</a> — Unambiguous normative authority scope<a class="heading-anchor" href="#aixem-req-doc-gov-0014-unambiguous-normative-authority-scope" aria-label="Link to this section">#</a></h3>
+<p><strong>MUST.</strong> A normative authority scope MUST have exactly one owner unless the repository document policy explicitly declares that scope shareable.</p>
+<ul>
+<li>Verification mode: <code>automated</code></li>
+<li>Validator: <code>docs.authority_scope</code></li>
+<li>Test reference: <code>tests/docs/test_document_governance.py::DocumentGovernanceTests.test_normative_authority_scopes_are_unambiguous</code></li>
+<li>Release evidence: <code>validation/evidence/requirements/AIXEM-REQ-DOC-GOV-0014.json</code></li>
+</ul>
+<h2 id="11-validation-and-release-closure">11. Validation and Release Closure<a class="heading-anchor" href="#11-validation-and-release-closure" aria-label="Link to this section">#</a></h2>
+<p>Repository documentation validation must cover:</p>
+<ol>
+<li>exact role classification;</li>
+<li>root whitelist and naming rules;</li>
+<li>canonical metadata, links, navigation, requirements, and dependencies;</li>
+<li>role-aware discoverability and zero orphans;</li>
+<li>canonical footer and patch-marker prohibition;</li>
+<li>path-migration identity and redirect integrity;</li>
+<li>controlled metadata vocabulary and size-estimate bounds;</li>
+<li>deterministic inventory and generated products;</li>
+<li>current-release consistency in operational entrypoints;</li>
+<li>root-link safety and complete root reachability;</li>
+<li>category-index coverage;</li>
+<li>current-release coherence;</li>
+<li>normative authority-scope ownership;</li>
+<li>release manifest and archive closure.</li>
+</ol>
+<p>A documentation-only release must still prove that protected circuit formats, renderer output, Viewer output, and agent execution contracts did not change unintentionally.</p>
+<h2 id="related-documents">Related Documents<a class="heading-anchor" href="#related-documents" aria-label="Link to this section">#</a></h2>
+<ul>
+<li><a href="../core/document-model.html">Canonical Document Model</a> — <code>AIXEM-SPEC-DOCUMENT-001</code></li>
+<li><a href="metadata-contract.html">Documentation Metadata Contract 1</a> — <code>AIXEM-SPEC-METADATA-001</code></li>
+<li><a href="../../governance/documentation-authoring-guide.html">Documentation Authoring and Lifecycle Guide</a> — <code>AIXEM-GOV-DOC-AUTHORING-001</code></li>
+<li><a href="release-integrity.html">Release Integrity Contract</a> — <code>AIXEM-SPEC-RELEASE-001</code></li>
+</ul>
+<hr />
+<p>This file is canonical authored documentation. Generated HTML, agent cards, route indexes, and traceability records are derived from its metadata and content.</p>
+</article><section class="meta-panel"><h2>Document metadata</h2><dl class="meta-list"><dt>Authority</dt><dd>repository-document-governance, documentation-information-architecture</dd><dt>Agent intents</dt><dd>build-documentation, publish-release</dd><dt>Dependencies</dt><dd><span class="related"><a href="../core/document-model.html">Canonical Document Model</a><a href="metadata-contract.html">Documentation Metadata Contract 1</a><a href="release-integrity.html">Documentation Release Integrity 1</a></span></dd><dt>Related documents</dt><dd><span class="related"><a href="../../governance/documentation-authoring-guide.html">Documentation Authoring and Lifecycle Guide</a><a href="../../agent/task-routing.html">Task Routes</a><a href="../../governance/release-process.html">Release Process</a></span></dd><dt>Canonical source</dt><dd><code>docs/specifications/documentation/document-governance-contract.md</code></dd><dt>Source digest</dt><dd><code>sha256:793b036854ad8bdaf64523b88fba7d4729b40dfe2deb65ea9ea6b9041112e581</code></dd></dl></section><div class="pager"><a href="metadata-contract.html"><small>Previous</small>Documentation Metadata Contract 1</a><a href="release-integrity.html"><small>Next</small>Documentation Release Integrity 1</a></div><footer class="footer">AIXEM 0.5.9 · Canonical English documentation · Generated from <code>docs/</code> without a runtime backend.</footer></div></main><aside class="toc" aria-label="On this page"><h2>On this page</h2><a class="level-2" href="#1-authority-boundary">1. Authority Boundary</a><a class="level-2" href="#2-repository-document-roles">2. Repository Document Roles</a><a class="level-2" href="#3-naming-and-placement">3. Naming and Placement</a><a class="level-2" href="#4-discoverability-and-orphan-semantics">4. Discoverability and Orphan Semantics</a><a class="level-2" href="#5-canonical-current-state-discipline">5. Canonical Current-State Discipline</a><a class="level-2" href="#6-canonical-path-migration">6. Canonical Path Migration</a><a class="level-2" href="#7-metadata-vocabulary-and-size-estimates">7. Metadata Vocabulary and Size Estimates</a><a class="level-2" href="#8-lifecycle-operations">8. Lifecycle Operations</a><a class="level-3" href="#create">Create</a><a class="level-3" href="#move">Move</a><a class="level-3" href="#deprecate-or-supersede">Deprecate or supersede</a><a class="level-3" href="#delete">Delete</a><a class="level-2" href="#9-generated-inventory">9. Generated Inventory</a><a class="level-2" href="#10-root-reference-and-relationship-closure">10. Root Reference and Relationship Closure</a><a class="level-2" href="#normative-requirements">Normative Requirements</a><a class="level-3" href="#aixem-req-doc-gov-0001-exact-repository-document-role">AIXEM-REQ-DOC-GOV-0001 — Exact repository document role</a><a class="level-3" href="#aixem-req-doc-gov-0002-root-hygiene-and-reserved-names">AIXEM-REQ-DOC-GOV-0002 — Root hygiene and reserved names</a><a class="level-3" href="#aixem-req-doc-gov-0003-role-aware-discoverability">AIXEM-REQ-DOC-GOV-0003 — Role-aware discoverability</a><a class="level-3" href="#aixem-req-doc-gov-0004-canonical-current-state-structure">AIXEM-REQ-DOC-GOV-0004 — Canonical current-state structure</a><a class="level-3" href="#aixem-req-doc-gov-0005-stable-identity-across-path-migration">AIXEM-REQ-DOC-GOV-0005 — Stable identity across path migration</a><a class="level-3" href="#aixem-req-doc-gov-0006-controlled-metadata-vocabulary">AIXEM-REQ-DOC-GOV-0006 — Controlled metadata vocabulary</a><a class="level-3" href="#aixem-req-doc-gov-0007-deterministic-repository-inventory">AIXEM-REQ-DOC-GOV-0007 — Deterministic repository inventory</a><a class="level-3" href="#aixem-req-doc-gov-0008-version-scoped-plan-and-report-lifecycle">AIXEM-REQ-DOC-GOV-0008 — Version-scoped plan and report lifecycle</a><a class="level-3" href="#aixem-req-doc-gov-0009-agent-document-creation-gate">AIXEM-REQ-DOC-GOV-0009 — Agent document creation gate</a><a class="level-3" href="#aixem-req-doc-gov-0010-unknown-markdown-fails-closed">AIXEM-REQ-DOC-GOV-0010 — Unknown Markdown fails closed</a><a class="level-3" href="#aixem-req-doc-gov-0011-root-reference-chain-integrity">AIXEM-REQ-DOC-GOV-0011 — Root reference-chain integrity</a><a class="level-3" href="#aixem-req-doc-gov-0012-complete-category-index-coverage">AIXEM-REQ-DOC-GOV-0012 — Complete category-index coverage</a><a class="level-3" href="#aixem-req-doc-gov-0013-current-release-coherence">AIXEM-REQ-DOC-GOV-0013 — Current-release coherence</a><a class="level-3" href="#aixem-req-doc-gov-0014-unambiguous-normative-authority-scope">AIXEM-REQ-DOC-GOV-0014 — Unambiguous normative authority scope</a><a class="level-2" href="#11-validation-and-release-closure">11. Validation and Release Closure</a><a class="level-2" href="#related-documents">Related Documents</a></aside></div><dialog class="search-dialog" id="search-dialog" aria-label="Documentation search"><div class="search-box"><header><input id="site-search" type="search" autocomplete="off" placeholder="Search documents, intents, IDs, and requirements"><button type="button" id="search-close">Close</button></header><div class="results" id="search-results"></div></div></dialog><script src="../../assets/search-data.js"></script><script src="../../assets/site.js"></script></body></html>

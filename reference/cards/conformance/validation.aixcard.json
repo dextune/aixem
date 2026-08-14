@@ -1,0 +1,66 @@
+{
+  "card": {
+    "aliases": [
+      "validation",
+      "validators",
+      "validation architecture"
+    ],
+    "appliesTo": [
+      "validation-architecture"
+    ],
+    "domain": "conformance",
+    "estimatedReadBytes": 10368,
+    "id": "AIXEM-CONF-VALIDATION-001",
+    "inputs": [],
+    "keywords": [
+      "Validation Architecture",
+      "build-documentation",
+      "publish-release",
+      "validate-project",
+      "validation",
+      "validation architecture",
+      "validators"
+    ],
+    "kind": "guide",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/conformance/validation.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:79a0b3a82134a3e41bb0796fb7619a17789038f89944e154d3473ac0f9f97d9f"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-CONF-REQUIREMENTS-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-CONF-0010",
+        "level": "must",
+        "text": "**MUST.** A release-critical validator MUST emit a machine-readable result with check IDs, status, diagnostics, and observed metrics."
+      },
+      {
+        "id": "AIXEM-REQ-CONF-0011",
+        "level": "must",
+        "text": "**MUST.** A failed MUST requirement MUST produce an error and prevent release completion."
+      },
+      {
+        "id": "AIXEM-REQ-CONF-0012",
+        "level": "must",
+        "text": "**MUST.** Evidence MUST record the actual observed value or artifact digest used to reach its status."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-CONF-VALIDATION-001",
+        "path": "docs/conformance/validation.md"
+      }
+    ],
+    "summary": "Defines validator scopes, result severity, fail-closed behavior, diagnostic structure, and evidence recording.",
+    "title": "Validation Architecture"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

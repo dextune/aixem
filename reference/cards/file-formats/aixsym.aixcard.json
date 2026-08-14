@@ -1,0 +1,56 @@
+{
+  "card": {
+    "aliases": [
+      ".aixsym",
+      "symbol JSON",
+      "symbol asset format"
+    ],
+    "appliesTo": [
+      "aixsym-format"
+    ],
+    "domain": "file-formats",
+    "estimatedReadBytes": 12836,
+    "id": "AIXEM-FORMAT-AIXSYM-001",
+    "inputs": [],
+    "keywords": [
+      ".aixsym",
+      ".aixsym.json Symbol Asset",
+      "create-symbol",
+      "inspect-artifact",
+      "symbol JSON",
+      "symbol asset format",
+      "validate-project"
+    ],
+    "kind": "reference",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/file-formats/aixsym.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:b1206ca1354feb677fa228b8180a620fde01ed8d88492b870b7491af77d411cf"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 900,
+    "readNext": [
+      "AIXEM-SPEC-SYMBOL-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-FORMAT-AIXSYM-001.read",
+        "level": "should",
+        "text": "Documents symbol metadata, coordinate system, bounds, definitions, primitives, ports, fields, variants, and feature requirements."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-FORMAT-AIXSYM-001",
+        "path": "docs/file-formats/aixsym.md"
+      }
+    ],
+    "summary": "Documents symbol metadata, coordinate system, bounds, definitions, primitives, ports, fields, variants, and feature requirements.",
+    "title": ".aixsym.json Symbol Asset"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

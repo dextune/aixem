@@ -1,0 +1,62 @@
+{
+  "card": {
+    "aliases": [
+      ".aixem",
+      "semantic source",
+      "AIXEM source file"
+    ],
+    "appliesTo": [
+      "aixem-format"
+    ],
+    "domain": "file-formats",
+    "estimatedReadBytes": 7121,
+    "id": "AIXEM-FORMAT-AIXEM-001",
+    "inputs": [],
+    "keywords": [
+      ".aixem",
+      ".aixem Semantic Source",
+      "AIXEM source file",
+      "compose-project",
+      "create-schematic",
+      "inspect-artifact",
+      "semantic source",
+      "validate-project"
+    ],
+    "kind": "reference",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/file-formats/aixem.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:afdc90e99fec9cc492bc9028c59bb5a4886aa86e92df46bd9103fc335ead988a"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-CONCEPT-SEMANTIC-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-FORMAT-0001",
+        "level": "must",
+        "text": "**MUST.** An .aixem source MUST parse without duplicate entity IDs, duplicate net IDs, or unresolved endpoint references."
+      },
+      {
+        "id": "AIXEM-REQ-FORMAT-0002",
+        "level": "must",
+        "text": "**MUST.** Required semantic features MUST be declared before use."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-FORMAT-AIXEM-001",
+        "path": "docs/file-formats/aixem.md"
+      }
+    ],
+    "summary": "Documents the line-oriented semantic source format for model headers, features, library use, entities, nets, and no-connect declarations.",
+    "title": ".aixem Semantic Source"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

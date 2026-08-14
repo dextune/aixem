@@ -1,0 +1,10 @@
+{
+  "assertions": [
+    "fail-closed"
+  ],
+  "expected": "fail",
+  "expectedDiagnostic": "PROJECT_NET_UNKNOWN_INTERFACE_PORT",
+  "id": "H009",
+  "project": "project.aixproj.json",
+  "title": "Missing unknown interface port"
+}

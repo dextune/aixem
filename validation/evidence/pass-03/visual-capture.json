@@ -1,0 +1,141 @@
+{
+  "captures": [
+    {
+      "bytes": 436678,
+      "digest": "sha256:6ff831489b0f3e8c228932fd64512279711d710607bac0b55eec80d7d3d5ab90",
+      "file": "validation/evidence/pass-03/site-home-desktop.png",
+      "fullPage": true,
+      "height": 3174,
+      "source": "site/index.html",
+      "viewport": {
+        "height": 1000,
+        "width": 1440
+      },
+      "width": 1440
+    },
+    {
+      "bytes": 373274,
+      "digest": "sha256:7e6adfde6c0e81dfd568adc87a1a04e572106b92b10dfe6f9efc05443c1e0471",
+      "file": "validation/evidence/pass-03/site-home-narrow.png",
+      "fullPage": true,
+      "height": 4516,
+      "source": "site/index.html",
+      "viewport": {
+        "height": 900,
+        "width": 430
+      },
+      "width": 430
+    },
+    {
+      "bytes": 279207,
+      "digest": "sha256:d32f98beb06993f5b018935b5596b2786a7d8bb310a52d73c3db048efb1f4907",
+      "file": "validation/evidence/pass-03/authoring-home-desktop.png",
+      "fullPage": true,
+      "height": 1983,
+      "source": "site/authoring/index.html",
+      "viewport": {
+        "height": 1000,
+        "width": 1440
+      },
+      "width": 1440
+    },
+    {
+      "bytes": 1362909,
+      "digest": "sha256:3e0c679cb643ea42bd807fa40ccd015767563841ea1d259d66f4dddd507520c1",
+      "file": "validation/evidence/pass-03/symbol-cookbook-desktop.png",
+      "fullPage": true,
+      "height": 19722,
+      "source": "site/symbols/authoring-cookbook.html",
+      "viewport": {
+        "height": 1000,
+        "width": 1440
+      },
+      "width": 1440
+    },
+    {
+      "bytes": 789385,
+      "digest": "sha256:885e22552ed87e294241baf41732f29f7883962ab845d9b30cb3e395446fd55b",
+      "file": "validation/evidence/pass-03/renderer-contract-desktop.png",
+      "fullPage": true,
+      "height": 5017,
+      "source": "site/specifications/renderer/renderer-contract.html",
+      "viewport": {
+        "height": 1000,
+        "width": 1440
+      },
+      "width": 1440
+    },
+    {
+      "bytes": 6979446,
+      "digest": "sha256:2664a1a0663230b459345cdc7ca871a71143eab6bb1a2f22774970f9b99939e6",
+      "file": "validation/evidence/pass-03/requirements-desktop.png",
+      "fullPage": true,
+      "height": 46164,
+      "source": "site/conformance/requirements.html",
+      "viewport": {
+        "height": 1000,
+        "width": 1440
+      },
+      "width": 1440
+    },
+    {
+      "bytes": 242586,
+      "digest": "sha256:41dbd00a8a5f649c5a993e094fc72000bca5e6a9f69d4c2db4f468d185d732f4",
+      "file": "validation/evidence/pass-03/schematic-workbench-desktop.png",
+      "fullPage": false,
+      "height": 1000,
+      "source": "examples/electronics-grid-controller/render/workbench.html",
+      "viewport": {
+        "height": 1000,
+        "width": 1600
+      },
+      "width": 1600
+    },
+    {
+      "bytes": 104051,
+      "digest": "sha256:2df805792097433703c489fd2894d090f199fb2ddba8f25156a3d56435e64778",
+      "file": "validation/evidence/pass-03/authoring-passive-workbench.png",
+      "fullPage": false,
+      "height": 1000,
+      "source": "examples/authoring/01-two-pin-passive/render/workbench.html",
+      "viewport": {
+        "height": 1000,
+        "width": 1600
+      },
+      "width": 1600
+    },
+    {
+      "bytes": 128379,
+      "digest": "sha256:aa1b8df264d4553a5d5af8a8bac150b063800323d2efe0f798f86068d0eb6789",
+      "file": "validation/evidence/pass-03/authoring-ic-workbench.png",
+      "fullPage": false,
+      "height": 1000,
+      "source": "examples/authoring/03-multi-pin-ic/render/workbench.html",
+      "viewport": {
+        "height": 1000,
+        "width": 1600
+      },
+      "width": 1600
+    },
+    {
+      "bytes": 119871,
+      "digest": "sha256:da24c5a07b86915fd76c9a37b1c194035f27a121ff89839530be69ad90c9332f",
+      "file": "validation/evidence/pass-03/authoring-junction-workbench.png",
+      "fullPage": false,
+      "height": 1000,
+      "source": "examples/authoring/07-multi-terminal-junction/render/workbench.html",
+      "viewport": {
+        "height": 1000,
+        "width": 1600
+      },
+      "width": 1600
+    }
+  ],
+  "engine": "playwright-chromium-set-content",
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "networkAccess": "not used",
+  "release": "AIXEM-SRP-0.5.1-2026-08-11",
+  "schema": "https://schemas.aixem.org/validation/visual-capture/1",
+  "valid": true
+}

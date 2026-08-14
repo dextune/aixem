@@ -1,0 +1,180 @@
+{
+  "coordinateSystem": {
+    "angleDirection": "clockwise",
+    "angleUnit": "deg",
+    "grid": 2.5,
+    "unit": "mm",
+    "yAxis": "down"
+  },
+  "diagnostics": [],
+  "entities": [
+    {
+      "componentType": "conformance:s030",
+      "key": "X1",
+      "kind": "component",
+      "parameters": {},
+      "placement": {
+        "entity": "X1",
+        "layer": "symbols",
+        "x": 70.0,
+        "y": 67.5
+      },
+      "ports": {
+        "A0": [
+          35.0,
+          50.0
+        ],
+        "A1": [
+          35.0,
+          55.0
+        ],
+        "A2": [
+          35.0,
+          60.0
+        ],
+        "A3": [
+          35.0,
+          65.0
+        ],
+        "A4": [
+          35.0,
+          70.0
+        ],
+        "A5": [
+          35.0,
+          75.0
+        ],
+        "A6": [
+          35.0,
+          80.0
+        ],
+        "A7": [
+          35.0,
+          85.0
+        ],
+        "B0": [
+          105.0,
+          50.0
+        ],
+        "B1": [
+          105.0,
+          55.0
+        ],
+        "B2": [
+          105.0,
+          60.0
+        ],
+        "B3": [
+          105.0,
+          65.0
+        ],
+        "B4": [
+          105.0,
+          70.0
+        ],
+        "B5": [
+          105.0,
+          75.0
+        ],
+        "B6": [
+          105.0,
+          80.0
+        ],
+        "B7": [
+          105.0,
+          85.0
+        ]
+      },
+      "reference": "X1",
+      "symbolDigest": "sha256:24dddf9e0c1c413b2289f1ae1e6b7332f8a7236838cb0f10833deb216623cc6e",
+      "symbolId": "corpus:s030-fpga-multi-unit-probe",
+      "value": "FPGA multi-unit probe",
+      "variant": null
+    }
+  ],
+  "featuresUsed": [],
+  "generatedAt": "2026-08-10T00:00:00Z",
+  "gridValidation": {
+    "crossingPolicy": "junction-required",
+    "orthogonalSegments": 0,
+    "placementExceptions": [],
+    "placements": 1,
+    "placementsOnGrid": 1,
+    "profile": "aixem.schematic.grid-light",
+    "routeSegments": 0,
+    "routeViasOnGrid": true,
+    "snap": 2.5,
+    "zeroLengthSegments": []
+  },
+  "hashes": {
+    "layout": "sha256:25369bdf2abe25d1436ad8d9dad4b35b5163a15c7babfe76fcddd5032c8eb9f7",
+    "libraries": [
+      "sha256:c9dffcd99b8c77e7b9ac255850c4f04a1c4a89a5126d3c05fb69eb538cf6d98f"
+    ],
+    "source": "sha256:9427731f2d5bf4cb011d65d45f6a5fca1fc098735963ec0fd2b0209607aaef28",
+    "symbolAssets": [
+      "sha256:24dddf9e0c1c413b2289f1ae1e6b7332f8a7236838cb0f10833deb216623cc6e"
+    ]
+  },
+  "layers": [
+    {
+      "defaultVisible": true,
+      "id": "connections",
+      "locked": false,
+      "order": 10,
+      "printable": true,
+      "purpose": "semantic net routes"
+    },
+    {
+      "defaultVisible": true,
+      "id": "symbols",
+      "locked": false,
+      "order": 20,
+      "printable": true,
+      "purpose": "component symbols"
+    },
+    {
+      "defaultVisible": true,
+      "id": "annotation",
+      "locked": false,
+      "order": 30,
+      "printable": true,
+      "purpose": "notes"
+    }
+  ],
+  "nets": [],
+  "project": {
+    "id": "conformance:s030",
+    "profile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "title": "S030 FPGA multi-unit probe conformance project"
+  },
+  "renderer": {
+    "id": "aixem-grid-schematic-reference-renderer",
+    "version": "0.5.1"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/resolved-scene/1",
+  "sheet": {
+    "height": 160.0,
+    "margin": 10,
+    "titleBlock": {
+      "drawing": "corpus_s030-layout",
+      "revision": "A",
+      "sheet": "1/1",
+      "title": "S030 — FPGA multi-unit probe"
+    },
+    "width": 180.0
+  },
+  "statistics": {
+    "entities": 1,
+    "nets": 0,
+    "noConnects": 0,
+    "primitives": 24,
+    "routeSegments": 0,
+    "symbolAssets": 1
+  },
+  "styleProfile": {
+    "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+    "id": "aixem.schematic.grid-light",
+    "path": "aixem-grid-schematic-style-1.aixstyle.json"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "card": {
+    "aliases": [
+      "author component circuit",
+      "composite authoring route",
+      "drawing task orchestration"
+    ],
+    "appliesTo": [
+      "agent-authoring-orchestration"
+    ],
+    "domain": "agent",
+    "estimatedReadBytes": 10539,
+    "id": "AIXEM-AGENT-AUTHORING-001",
+    "inputs": [],
+    "keywords": [
+      "Agent Authoring Orchestration",
+      "author component circuit",
+      "author-component-circuit",
+      "compose-project",
+      "composite authoring route",
+      "create-schematic",
+      "create-symbol",
+      "drawing task orchestration",
+      "route-project-nets"
+    ],
+    "kind": "policy",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/agent/authoring-orchestration.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:5b101ad4c7254defdbad46ad565bd7bb290acfbd6b19ed555bd1320b041e4348"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-AGENT-ROUTES-001",
+      "AIXEM-CONCEPT-AUTHORITY-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-AGENT-AUTHORING-0001",
+        "level": "must",
+        "text": "**MUST.** A composite authoring task MUST execute declared child routes in order and satisfy each stage exit condition before advancing."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-AUTHORING-0002",
+        "level": "must",
+        "text": "**MUST.** Each child route in a composite authoring task MUST remain within the configured seven-document, ninety-six-KiB, depth-three retrieval budget."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-AUTHORING-0003",
+        "level": "must",
+        "text": "**MUST.** An agent MUST read the route-selected format and renderer contracts before inspecting renderer implementation for ordinary authoring behavior."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-AGENT-AUTHORING-001",
+        "path": "docs/agent/authoring-orchestration.md"
+      }
+    ],
+    "summary": "Defines bounded route chaining, stage inputs and outputs, authority checkpoints, and stop conditions for composite drawing tasks.",
+    "title": "Agent Authoring Orchestration"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

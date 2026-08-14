@@ -1,0 +1,8 @@
+{
+  "assertions": [],
+  "expected": "fail",
+  "expectedDiagnostic": "source digest mismatch",
+  "id": "N013",
+  "project": "project.aixproj.json",
+  "title": "Source digest mismatch"
+}

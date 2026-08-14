@@ -1,0 +1,128 @@
+{
+  "coordinateSystem": {
+    "angleDirection": "clockwise",
+    "angleUnit": "deg",
+    "grid": 2.5,
+    "unit": "mm",
+    "yAxis": "down"
+  },
+  "diagnostics": [],
+  "entities": [
+    {
+      "componentType": "conformance:s009",
+      "key": "X1",
+      "kind": "component",
+      "parameters": {},
+      "placement": {
+        "entity": "X1",
+        "layer": "symbols",
+        "x": 47.5,
+        "y": 55.0
+      },
+      "ports": {
+        "B": [
+          30.0,
+          55.0
+        ],
+        "C": [
+          57.5,
+          37.5
+        ],
+        "E": [
+          57.5,
+          72.5
+        ]
+      },
+      "reference": "X1",
+      "symbolDigest": "sha256:d38f8fa97418285f0c628e38b707ef7efc4d87e9526d45b3329584f85b2998dc",
+      "symbolId": "corpus:s009-bjt-npn",
+      "value": "NPN BJT",
+      "variant": null
+    }
+  ],
+  "featuresUsed": [],
+  "generatedAt": "2026-08-10T00:00:00Z",
+  "gridValidation": {
+    "crossingPolicy": "junction-required",
+    "orthogonalSegments": 0,
+    "placementExceptions": [],
+    "placements": 1,
+    "placementsOnGrid": 1,
+    "profile": "aixem.schematic.grid-light",
+    "routeSegments": 0,
+    "routeViasOnGrid": true,
+    "snap": 2.5,
+    "zeroLengthSegments": []
+  },
+  "hashes": {
+    "layout": "sha256:31fafd9beba153f5f3b3c10df9e503686b45c79165398a9e3721d2c357d064a2",
+    "libraries": [
+      "sha256:3af8b9ad1aae96c23a42d46fbf61882b4159c8dcc479a3ce95ec2368dbe6ed01"
+    ],
+    "source": "sha256:ea29f24e9b61c1286ad05d645e6885d859296b9fadfd6b8f7c1e0de3be87c49c",
+    "symbolAssets": [
+      "sha256:d38f8fa97418285f0c628e38b707ef7efc4d87e9526d45b3329584f85b2998dc"
+    ]
+  },
+  "layers": [
+    {
+      "defaultVisible": true,
+      "id": "connections",
+      "locked": false,
+      "order": 10,
+      "printable": true,
+      "purpose": "semantic net routes"
+    },
+    {
+      "defaultVisible": true,
+      "id": "symbols",
+      "locked": false,
+      "order": 20,
+      "printable": true,
+      "purpose": "component symbols"
+    },
+    {
+      "defaultVisible": true,
+      "id": "annotation",
+      "locked": false,
+      "order": 30,
+      "printable": true,
+      "purpose": "notes"
+    }
+  ],
+  "nets": [],
+  "project": {
+    "id": "conformance:s009",
+    "profile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "title": "S009 NPN BJT conformance project"
+  },
+  "renderer": {
+    "id": "aixem-grid-schematic-reference-renderer",
+    "version": "0.5.1"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/resolved-scene/1",
+  "sheet": {
+    "height": 135.0,
+    "margin": 10,
+    "titleBlock": {
+      "drawing": "corpus_s009-layout",
+      "revision": "A",
+      "sheet": "1/1",
+      "title": "S009 — NPN BJT"
+    },
+    "width": 180.0
+  },
+  "statistics": {
+    "entities": 1,
+    "nets": 0,
+    "noConnects": 0,
+    "primitives": 10,
+    "routeSegments": 0,
+    "symbolAssets": 1
+  },
+  "styleProfile": {
+    "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+    "id": "aixem.schematic.grid-light",
+    "path": "aixem-grid-schematic-style-1.aixstyle.json"
+  }
+}

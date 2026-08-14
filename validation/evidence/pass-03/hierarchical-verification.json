@@ -1,0 +1,246 @@
+{
+  "checks": [
+    {
+      "command": {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "tools/docs/build_all.py"
+        ],
+        "durationSeconds": 8.995432,
+        "label": "documentation/reference/site build",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "",
+        "stdoutTail": "{\n  \"documents\": 123,\n  \"routes\": 15,\n  \"reference\": {\n    \"cards\": 123,\n    \"routes\": 15,\n    \"domains\": 15,\n    \"files\": 159\n  },\n  \"site\": {\n    \"pages\": 139,\n    \"canonicalPages\": 123,\n    \"schemaPages\": 15,\n    \"assets\": 32\n  }\n}\n"
+      },
+      "id": "P3-DOCUMENT-BUILD",
+      "status": "PASS",
+      "summary": "Documentation/reference/site regenerate before final regression.",
+      "valid": true
+    },
+    {
+      "command": {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "tools/validate_reference_viewer_corpus.py",
+          "--repeats",
+          "3",
+          "--screenshots"
+        ],
+        "durationSeconds": 24.176401,
+        "label": "Viewer corpus final determinism",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "",
+        "stdoutTail": "V001: PASS — Legacy single-sheet viewer\nV002: PASS — Multi-sheet three-mode viewer\nV003: PASS — Data-driven hierarchy navigation\nV004: PASS — Same-name local nets\nV005: PASS — Project-net selection\nV006: PASS — Interface-port inspection\nV007: PASS — Sheet-scoped layer visibility\nV008: PASS — Cross-view selection continuity\nV009: PASS — Component search navigation\nV010: PASS — Pan, zoom, and fit\nV011: PASS — Keyboard-only inspection\nV012: PASS — Narrow viewport\nV013: PASS — Offline and network denial\nV014: PASS — Hostile authored text\nV015: PASS — DOM qualified identity\nV016: PASS — Ten-sheet project\nV017: PASS — Viewer and Workbench separation\nV018: PASS — Three-run HTML determinism\nreference viewer corpus: PASS (18/18)\n"
+      },
+      "id": "P3-VIEWER-DETERMINISM",
+      "status": "PASS",
+      "summary": "V001-V018 and three Viewer artifact renders pass again.",
+      "valid": true
+    },
+    {
+      "command": {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "tools/validate_hierarchical_corpus.py",
+          "--repeats",
+          "3"
+        ],
+        "durationSeconds": 12.002555,
+        "label": "hierarchical corpus three-run regression",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "",
+        "stdoutTail": "H001: PASS (expected pass, observed pass)\nH002: PASS (expected pass, observed pass)\nH003: PASS (expected pass, observed pass)\nH004: PASS (expected pass, observed pass)\nH005: PASS (expected pass, observed pass)\nH006: PASS (expected pass, observed pass)\nH007: PASS (expected pass, observed pass)\nH008: PASS (expected pass, observed pass)\nH009: PASS (expected fail, observed fail)\nH010: PASS (expected fail, observed fail)\nH011: PASS (expected pass, observed pass)\nH012: PASS (expected pass, observed pass)\nH013: PASS (expected pass, observed pass)\nH014: PASS (expected pass, observed pass)\nH015: PASS (expected fail, observed fail)\nN001: PASS (expected fail, observed fail)\nN002: PASS (expected fail, observed fail)\nN003: PASS (expected fail, observed fail)\nN004: PASS (expected fail, observed fail)\nN005: PASS (expected fail, observed fail)\nN006: PASS (expected fail, observed fail)\nN007: PASS (expected fail, observed fail)\nN008: PASS (expected fail, observed fail)\nN009: PASS (expected fail, observed fail)\nN010: PASS (expected fail, observed fail)\nN011: PASS (expected fail, observed fail)\nN012: PASS (expected fail, observed fail)\nN013: PASS (expected fail, observed fail)\nN014: PASS (expected fail, observed fail)\nN015: PASS (expected fail, observed fail)\nhierarchical corpus: PASS (30/30)\n"
+      },
+      "id": "P3-HIERARCHICAL-REGRESSION",
+      "status": "PASS",
+      "summary": "All hierarchical positive/negative cases pass three-render regression.",
+      "valid": true
+    },
+    {
+      "command": {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "tools/validate_symbol_corpus.py",
+          "--all",
+          "--repeat",
+          "3",
+          "--emit-report"
+        ],
+        "durationSeconds": 14.618626,
+        "label": "symbol/static-block corpus three-run regression",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "",
+        "stdoutTail": "B001 b2d: automated=PASS; digest=PASS; visual=PASS\nB002 b2d: automated=PASS; digest=PASS; visual=PASS\nB003 b2d: automated=PASS; digest=PASS; visual=PASS\nB004 b2d: automated=PASS; digest=PASS; visual=PASS\nB005 b2d: automated=PASS; digest=PASS; visual=PASS\nB006 b2d: automated=PASS; digest=PASS; visual=PASS\nS001 core: automated=PASS; digest=PASS; visual=PASS\nS002 core: automated=PASS; digest=PASS; visual=PASS\nS003 core: automated=PASS; digest=PASS; visual=PASS\nS004 core: automated=PASS; digest=PASS; visual=PASS\nS005 core: automated=PASS; digest=PASS; visual=PASS\nS006 core: automated=PASS; digest=PASS; visual=PASS\nS007 core: automated=PASS; digest=PASS; visual=PASS\nS008 core: automated=PASS; digest=PASS; visual=PASS\nS009 core: automated=PASS; digest=PASS; visual=PASS\nS010 core: automated=PASS; digest=PASS; visual=PASS\nS011 core: automated=PASS; digest=PASS; visual=PASS\nS012 core: automated=PASS; digest=PASS; visual=PASS\nS013 core: automated=PASS; digest=PASS; visual=PASS\nS014 core: automated=PASS; digest=PASS; visual=PASS\nS015 core: automated=PASS; digest=PASS; visual=PASS\nS016 core: automated=PASS; digest=PASS; visual=PASS\nS017 core: automated=PASS; digest=PASS; visual=PASS\nS018 core: automated=PASS; digest=PASS; visual=PASS\nS019 core: automated=PASS; digest=PASS; visual=PASS\nS020 core: automated=PASS; digest=PASS; visual=PASS\nS021 core: automated=PASS; digest=PASS; visual=PASS\nS022 core: automated=PASS; digest=PASS; visual=PASS\nS023 core: automated=PASS; digest=PASS; visual=PASS\nS024 core: automated=PASS; digest=PASS; visual=PASS\nS025 extended: automated=PASS; digest=PASS; visual=PASS\nS026 extended: automated=PASS; digest=PASS; visual=PASS\nS027 extended: automated=PASS; digest=PASS; visual=PASS\nS028 extended: automated=PASS; digest=PASS; visual=PASS\nS029 extended: automated=PASS; digest=PASS; visual=PASS\nS030 probe: automated=PASS; digest=PASS; visual=PASS\ncases: 36; automated failures: 0; visual failures: 0; visual pending: 0\n"
+      },
+      "id": "P3-SYMBOL-BLOCK-REGRESSION",
+      "status": "PASS",
+      "summary": "All 36 symbol/static-block cases pass three production renders.",
+      "valid": true
+    },
+    {
+      "command": {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "tools/docs/authoring_validation.py"
+        ],
+        "durationSeconds": 4.784107,
+        "label": "authoring corpus validation",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "",
+        "stdoutTail": "{\n  \"examples\": {\n    \"brokenFixture\": {\n      \"checks\": 10,\n      \"issues\": [\n        {\n          \"code\": \"lead-port-mismatch\",\n          \"message\": \"Port 1 is at (-15.0, 0.0), but its visible lead ends at (-12.5, 0.0)\",\n          \"path\": \"examples/authoring/08-visual-repair/fixtures/broken-lead-port.aixsym.json\",\n          \"severity\": \"error\"\n        }\n      ],\n      \"path\": \"examples/authoring/08-visual-repair/fixtures/broken-lead-port.aixsym.json\",\n      \"valid\": false\n    },\n    \"checks\": 249,\n    \"examples\": 8,\n    \"expectedBrokenFixtureDetected\": true,\n    \"results\": [\n      {\n        \"checks\": 24,\n        \"id\": \"01-two-pin-passive\",\n        \"issues\": [],\n        \"valid\": true\n      },\n      {\n        \"checks\": 45,\n        \"id\": \"02-connector\",\n        \"issues\": [],\n        \"valid\": true\n      },\n      {\n        \"checks\": 72,\n        \"id\": \"03-multi-pin-ic\",\n        \"issues\": [],\n        \"valid\": true\n      },\n      {\n        \"checks\": 24,\n        \"id\": \"04-parameterized-variant\",\n        \"issues\": [],\n        \"valid\": true\n      },\n      {\n        \"checks\": 24,\n        \"id\": \"05-field-and-port-binding\",\n        \"issues\": [],\n        \"valid\": true\n      },\n      {\n        \"checks\": 18,\n        \"id\": \"06-two-terminal-route\",\n        \"issues\": [],\n        \"valid\": true\n      },\n      {\n        \"checks\": 18,\n        \"id\": \"07-multi-terminal-junction\",\n        \"issues\": [],\n        \"valid\": true\n      },\n      {\n        \"checks\": 24,\n        \"id\": \"08-visual-repair\",\n        \"issues\": [],\n        \"valid\": true\n      }\n    ],\n    \"valid\": true\n  },\n  \"referenceCoverage\": {\n    \"coverage\": 1.0,\n    \"covered\": 156,\n    \"groups\": {\n      \"component\": {\n        \"covered\": 10,\n        \"document\": \"docs/symbols/component-symbol-binding.md\",\n        \"missing\": [],\n        \"total\": 10\n      },\n      \"connection\": {\n        \"covered\": 7,\n        \"document\": \"docs/file-formats/aixlayout.md\",\n        \"missing\": [],\n        \"total\": 7\n      },\n      \"connectionPath\": {\n        \"covered\": 5,\n        \"document\": \"docs/file-formats/aixlayout.md\",\n        \"missing\": [],\n        \"total\": 5\n      },\n      \"placement\": {\n        \"covered\": 18,\n        \"document\": \"docs/file-formats/aixlayout.md\",\n        \"missing\": [],\n        \"total\": 18\n      },\n      \"presentation\": {\n        \"covered\": 7,\n        \"document\": \"docs/symbols/component-symbol-binding.md\",\n        \"missing\": [],\n        \"total\": 7\n      },\n      \"primitiveProperties\": {\n        \"covered\": 47,\n        \"document\": \"docs/symbols/primitives.md\",\n        \"missing\": [],\n        \"total\": 47\n      },\n      \"primitiveTypes\": {\n        \"covered\": 13,\n        \"document\": \"docs/symbols/primitives.md\",\n        \"missing\": [],\n        \"total\": 13\n      },\n      \"symbolParameter\": {\n        \"covered\": 8,\n        \"document\": \"docs/symbols/aixsym-field-reference.md\",\n        \"missing\": [],\n        \"total\": 8\n      },\n      \"symbolPort\": {\n        \"covered\": 13,\n        \"document\": \"docs/symbols/pins-and-ports.md\",\n        \"missing\": [],\n        \"total\": 13\n      },\n      \"symbolTopLevel\": {\n        \"covered\": 20,\n        \"document\": \"docs/symbols/aixsym-field-reference.md\",\n        \"missing\": [],\n        \"total\": 20\n      },\n      \"symbolVariant\": {\n        \"covered\": 8,\n        \"document\": \"docs/symbols/variants.md\",\n        \"missing\": [],\n        \"total\": 8\n      }\n    },\n    \"issues\": [],\n    \"total\": 156,\n    \"valid\": true\n  },\n  \"rendererContract\": {\n    \"checks\": 9,\n    \"issues\": [],\n    \"valid\": true\n  },\n  \"snippets\": {\n    \"documents\": 123,\n    \"issues\": [],\n    \"snippets\": 18,\n    \"valid\": true\n  },\n  \"valid\": true\n}\n"
+      },
+      "id": "P3-AUTHORING-REGRESSION",
+      "status": "PASS",
+      "summary": "All eight authoring examples and source-backed references remain valid.",
+      "valid": true
+    },
+    {
+      "details": {
+        "commands": [
+          {
+            "command": [
+              "/opt/pyvenv/bin/python",
+              "implementation/schematic/render_project.py",
+              "examples/electronics-grid-controller/project.aixproj.json",
+              "--output-dir",
+              "/tmp/aixem-054-compat-f06ik0qs/single"
+            ],
+            "durationSeconds": 4.440916,
+            "label": "protected single-sheet render",
+            "returnCode": 0,
+            "status": "PASS",
+            "stderrTail": "",
+            "stdoutTail": "project: demo.electronics:grid-controller\nentities: 17; nets: 20; route segments: 126\ngrid schematic validation: PASS\nworkbench: /tmp/aixem-054-compat-f06ik0qs/single/workbench.html\n"
+          },
+          {
+            "command": [
+              "/opt/pyvenv/bin/python",
+              "implementation/schematic/render_project.py",
+              "validation/corpus/hierarchical-project-1/cases/H001-two-sheet-power-+-control/project.aixproj.json",
+              "--output-dir",
+              "/tmp/aixem-054-compat-f06ik0qs/h001"
+            ],
+            "durationSeconds": 4.187718,
+            "label": "protected H001 render",
+            "returnCode": 0,
+            "status": "PASS",
+            "stderrTail": "",
+            "stdoutTail": "project: hierarchical:h001\nsheets: 2; entities: 2; local nets: 6; project nets: 3\noverview: /tmp/aixem-054-compat-f06ik0qs/h001/project-overview.svg\ncomposite: /tmp/aixem-054-compat-f06ik0qs/h001/project-composite.svg\nhierarchical project validation: PASS\nworkbench: /tmp/aixem-054-compat-f06ik0qs/h001/workbench.html\n"
+          }
+        ],
+        "errors": [],
+        "expectedProductDigests": {
+          "h001Composite": "dde1dbe458e1975b7468e291613d2fe3c3fee90535de5fd90f0c535e5e1e0d9d",
+          "h001Overview": "80f59f7d6102b0161d013098ac20f654b724a8eb9fd04b6dab533b5f24a755c8",
+          "h001ResolvedProjectScene": "9b54a68bdff50a8b2d592232d3daad8c3f59c55f87bfad02115da5e744848277",
+          "singleDrawing": "cbf6775048b06eeb120530abece8148a73e0b0bebdf493f5cfc7eee9708d8080",
+          "singleResolvedScene": "d72ad96f1778d459e42933aee2ec1c381158305a9f5015031d93a53f016dad22"
+        },
+        "productDigests": {
+          "h001Composite": "dde1dbe458e1975b7468e291613d2fe3c3fee90535de5fd90f0c535e5e1e0d9d",
+          "h001Overview": "80f59f7d6102b0161d013098ac20f654b724a8eb9fd04b6dab533b5f24a755c8",
+          "h001ResolvedProjectScene": "9b54a68bdff50a8b2d592232d3daad8c3f59c55f87bfad02115da5e744848277",
+          "singleDrawing": "cbf6775048b06eeb120530abece8148a73e0b0bebdf493f5cfc7eee9708d8080",
+          "singleResolvedScene": "d72ad96f1778d459e42933aee2ec1c381158305a9f5015031d93a53f016dad22"
+        },
+        "schemaDigests": {
+          "aixlayout1": "4f92e5e292a694aabfca922cc449f2f59a1a08e6465181a096a62b47b23bfca7",
+          "aixproj1": "056932ff46d7b6928f3b01dba50403353bdfda8f4d28e8b7bf0d38ab1dd39a41"
+        },
+        "valid": true
+      },
+      "id": "P3-PROTECTED-RENDERER",
+      "status": "PASS",
+      "summary": "Protected circuit evidence remains byte-stable after all Viewer changes.",
+      "valid": true
+    },
+    {
+      "details": {
+        "errors": [],
+        "excludedClaims": [
+          "KiCad or OrCAD user-interface reproduction",
+          "authoritative write-back",
+          "schematic editing"
+        ],
+        "filesChecked": [
+          "README.md",
+          "RELEASE_NOTES.md",
+          "IMPLEMENTATION_STATUS.md",
+          "docs/releases/0.5.4.md",
+          "validation/corpus/reference-viewer-1/results/capability-matrix.json"
+        ],
+        "publicClaim": "AIXEM provides a deterministic, self-contained, read-only HTML Reference Viewer for single-sheet and hierarchical multi-sheet schematic projects, with qualified semantic inspection, Sheet/Overview/Composite project views, project-net highlighting, hierarchy navigation, sheet-scoped layers, offline operation, and browser-level conformance evidence.",
+        "valid": true
+      },
+      "id": "P3-CLAIM-INTEGRITY",
+      "status": "PASS",
+      "summary": "Public claims remain bounded to read-only Viewer evidence and exclusions remain explicit.",
+      "valid": true
+    },
+    {
+      "command": {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "tools/docs/run_tests.py"
+        ],
+        "durationSeconds": 82.500797,
+        "label": "complete repository test suite",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "",
+        "stdoutTail": "est_reference_viewer.ReferenceViewerConformanceTests.test_v018_three_run_viewer_artifact_determinism) ... ok\ntest_all_case_contracts_symbols_digests_and_reviews_are_closed (tests.conformance.test_symbol_expressiveness_corpus.SymbolCorpusConformanceTests.test_all_case_contracts_symbols_digests_and_reviews_are_closed) ... ok\ntest_current_symbol_schema_is_unchanged_from_0_5_1 (tests.conformance.test_symbol_expressiveness_corpus.SymbolCorpusConformanceTests.test_current_symbol_schema_is_unchanged_from_0_5_1) ... ok\ntest_dimension_label_regression_is_explicit_and_deterministic (tests.conformance.test_symbol_expressiveness_corpus.SymbolCorpusConformanceTests.test_dimension_label_regression_is_explicit_and_deterministic) ... ok\ntest_full_corpus_runs_through_production_renderer (tests.conformance.test_symbol_expressiveness_corpus.SymbolCorpusConformanceTests.test_full_corpus_runs_through_production_renderer) ... ok\ntest_inventory_is_exact_and_complete (tests.conformance.test_symbol_expressiveness_corpus.SymbolCorpusConformanceTests.test_inventory_is_exact_and_complete) ... ok\ntest_multi_unit_probe_rejects_simulated_shared_identity (tests.conformance.test_symbol_expressiveness_corpus.SymbolCorpusConformanceTests.test_multi_unit_probe_rejects_simulated_shared_identity) ... ok\ntest_programmatic_control_state_and_visible_focus (tests.conformance.test_viewer_accessibility.ViewerAccessibilityConformanceTests.test_programmatic_control_state_and_visible_focus) ... ok\ntest_v011_keyboard_only_required_workflow (tests.conformance.test_viewer_accessibility.ViewerAccessibilityConformanceTests.test_v011_keyboard_only_required_workflow) ... ok\ntest_v012_narrow_viewport_retains_navigation_and_inspection (tests.conformance.test_viewer_accessibility.ViewerAccessibilityConformanceTests.test_v012_narrow_viewport_retains_navigation_and_inspection) ... ok\ntest_structural_negative_viewer_models_fail_closed (tests.conformance.test_viewer_security.ViewerSecurityConformanceTests.test_structural_negative_viewer_models_fail_closed) ... ok\ntest_v013_offline_network_denial_and_csp (tests.conformance.test_viewer_security.ViewerSecurityConformanceTests.test_v013_offline_network_denial_and_csp) ... ok\ntest_v014_hostile_authored_text_is_inert (tests.conformance.test_viewer_security.ViewerSecurityConformanceTests.test_v014_hostile_authored_text_is_inert) ... ok\ntest_authoring_golden_examples (tests.docs.test_authoring_examples.AuthoringExampleTests.test_authoring_golden_examples) ... ok\ntest_symbol_design_profile (tests.docs.test_authoring_examples.AuthoringExampleTests.test_symbol_design_profile) ... ok\ntest_visual_repair_fixture (tests.docs.test_authoring_examples.AuthoringExampleTests.test_visual_repair_fixture) ... ok\ntest_schema_reference_coverage (tests.docs.test_authoring_reference.AuthoringReferenceTests.test_schema_reference_coverage) ... ok\ntest_source_backed_snippets (tests.docs.test_authoring_reference.AuthoringReferenceTests.test_source_backed_snippets) ... ok\ntest_agents_policy_contains_source_inspection_gate (tests.docs.test_authoring_routes.AuthoringRouteTests.test_agents_policy_contains_source_inspection_gate) ... ok\ntest_authoring_route_budgets (tests.docs.test_authoring_routes.AuthoringRouteTests.test_authoring_route_budgets) ... ok\ntest_composite_route_chain (tests.docs.test_authoring_routes.AuthoringRouteTests.test_composite_route_chain) ... ok\ntest_task_packets_match_route_sources (tests.docs.test_authoring_routes.AuthoringRouteTests.test_task_packets_match_route_sources) ... ok\ntest_compose_project_route_reads_authority_before_examples (tests.docs.test_hierarchical_authoring_routes.HierarchicalAuthoringRouteTests.test_compose_project_route_reads_authority_before_examples) ... ok\ntest_document_graph_has_no_hierarchical_linkage_gap (tests.docs.test_hierarchical_authoring_routes.HierarchicalAuthoringRouteTests.test_document_graph_has_no_hierarchical_linkage_gap) ... ok\ntest_hierarchical_routes_are_bounded_and_resolvable (tests.docs.test_hierarchical_authoring_routes.HierarchicalAuthoringRouteTests.test_hierarchical_routes_are_bounded_and_resolvable) ... ok\ntest_project_route_cannot_own_semantic_membership (tests.docs.test_hierarchical_authoring_routes.HierarchicalAuthoringRouteTests.test_project_route_cannot_own_semantic_membership) ... ok\ntest_three_pass_release_evidence (tests.docs.test_hierarchical_authoring_routes.HierarchicalAuthoringRouteTests.test_three_pass_release_evidence) ... ok\ntest_fail_closed_binding_cases (tests.docs.test_renderer_contract.RendererContractTests.test_fail_closed_binding_cases) ... ok\ntest_field_precedence (tests.docs.test_renderer_contract.RendererContractTests.test_field_precedence) ... ok\ntest_port_map_direction_totality_and_visibility (tests.docs.test_renderer_contract.RendererContractTests.test_port_map_direction_totality_and_visibility) ... ok\ntest_variant_and_parameter_precedence (tests.docs.test_renderer_contract.RendererContractTests.test_variant_and_parameter_precedence) ... ok\ntest_agent_policy (tests.docs.test_repository.RepositoryConformanceTests.test_agent_policy) ... ok\ntest_documentation_integrity (tests.docs.test_repository.RepositoryConformanceTests.test_documentation_integrity) ... ok\ntest_english_only_release_text (tests.docs.test_repository.RepositoryConformanceTests.test_english_only_release_text) ... ok\ntest_release_manifest_when_present (tests.docs.test_repository.RepositoryConformanceTests.test_release_manifest_when_present) ... ok\ntest_requirement_evidence (tests.docs.test_repository.RepositoryConformanceTests.test_requirement_evidence) ... ok\ntest_review_evidence (tests.docs.test_repository.RepositoryConformanceTests.test_review_evidence) ... ok\ntest_route_integrity (tests.docs.test_repository.RepositoryConformanceTests.test_route_integrity) ... ok\ntest_schematic_example (tests.docs.test_repository.RepositoryConformanceTests.test_schematic_example) ... ok\n\n----------------------------------------------------------------------\nRan 60 tests in 77.210s\n\nOK\n"
+      },
+      "id": "P3-REPOSITORY-TESTS",
+      "status": "PASS",
+      "summary": "All 60 repository tests pass.",
+      "valid": true
+    }
+  ],
+  "documentLinkage": {
+    "artifactDeclarationsChecked": 156,
+    "documents": 123,
+    "errors": [],
+    "normativeDocuments": 81,
+    "requiredChain": [
+      "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
+      "AIXEM-CONF-REFERENCE-VIEWER-001",
+      "AIXEM-RELEASE-054-001",
+      "AIXEM-SPEC-VIEWER-001",
+      "AIXEM-SPEC-VIEWER-A11Y-001",
+      "AIXEM-SPEC-VIEWER-INDEX-001",
+      "AIXEM-SPEC-VIEWER-SECURITY-001",
+      "AIXEM-SPEC-VIEWER-STATE-001",
+      "AIXEM-SPEC-WORKBENCH-001"
+    ],
+    "requirements": 191,
+    "routeResolution": {
+      "inspect viewer": {
+        "expected": "inspect-viewer",
+        "fallbackUsed": false,
+        "observed": "inspect-viewer"
+      },
+      "render review": {
+        "expected": "render-review",
+        "fallbackUsed": false,
+        "observed": "render-review"
+      }
+    },
+    "routes": 15,
+    "silentGaps": 0,
+    "sitePages": 141,
+    "valid": true
+  },
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "pass": 3,
+  "release": "AIXEM-SRP-0.5.4-2026-08-11",
+  "schema": "https://schemas.aixem.org/validation/reference-viewer-verification-pass/1",
+  "status": "PASS",
+  "title": "Regression, Determinism, Documentation, and Claims",
+  "valid": true
+}

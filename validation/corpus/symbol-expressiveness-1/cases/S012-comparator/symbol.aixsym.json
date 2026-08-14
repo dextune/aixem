@@ -1,0 +1,363 @@
+{
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/component-graphics/aixsym/1",
+  "symbol": {
+    "anchors": [
+      {
+        "id": "origin",
+        "kind": "insertion",
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "bounds": {
+      "height": 65,
+      "width": 50,
+      "x": -25,
+      "y": -32.5
+    },
+    "coordinateSystem": {
+      "angleDirection": "clockwise",
+      "angleUnit": "deg",
+      "grid": 2.5,
+      "unit": "mm",
+      "yAxis": "down"
+    },
+    "definitions": {},
+    "description": "Comparator presentation that remains semantically distinct from the op-amp case.",
+    "graphics": [
+      {
+        "id": "lead-INP",
+        "layer": "body",
+        "metadata": {
+          "port": "INP",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -17.5,
+        "x2": -10,
+        "y1": -5,
+        "y2": -5
+      },
+      {
+        "id": "lead-INN",
+        "layer": "body",
+        "metadata": {
+          "port": "INN",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -17.5,
+        "x2": -10,
+        "y1": 5,
+        "y2": 5
+      },
+      {
+        "id": "lead-OUT",
+        "layer": "body",
+        "metadata": {
+          "port": "OUT",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 12.5,
+        "x2": 17.5,
+        "y1": 0,
+        "y2": 0
+      },
+      {
+        "id": "lead-VP",
+        "layer": "body",
+        "metadata": {
+          "port": "VP",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 0,
+        "x2": 0,
+        "y1": -20,
+        "y2": -7.5
+      },
+      {
+        "id": "lead-VN",
+        "layer": "body",
+        "metadata": {
+          "port": "VN",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 0,
+        "x2": 0,
+        "y1": 7.5,
+        "y2": 20
+      },
+      {
+        "id": "comparator-body",
+        "layer": "body",
+        "points": [
+          [
+            -10,
+            -12.5
+          ],
+          [
+            -10,
+            12.5
+          ],
+          [
+            12.5,
+            0
+          ]
+        ],
+        "role": "body",
+        "style": "filled",
+        "type": "polygon"
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "id": "plus-mark",
+        "layer": "fields",
+        "role": "polarity-mark",
+        "style": "label",
+        "text": "+",
+        "type": "text",
+        "x": -6,
+        "y": -5
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "id": "minus-mark",
+        "layer": "fields",
+        "role": "polarity-mark",
+        "style": "label",
+        "text": "−",
+        "type": "text",
+        "x": -6,
+        "y": 5
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "id": "cmp-mark",
+        "layer": "fields",
+        "role": "device-mark",
+        "style": "small",
+        "text": "CMP",
+        "type": "text",
+        "x": 2.5,
+        "y": 0
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "field": "reference",
+        "id": "field-reference",
+        "layer": "fields",
+        "role": "reference-field",
+        "style": "field",
+        "type": "text",
+        "x": 0,
+        "y": -27.5
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "field": "value",
+        "id": "field-value",
+        "layer": "fields",
+        "role": "value-field",
+        "style": "value",
+        "type": "text",
+        "x": 0,
+        "y": 27.5
+      }
+    ],
+    "id": "corpus:s012-comparator",
+    "layers": [
+      {
+        "defaultVisible": true,
+        "id": "body",
+        "locked": true,
+        "order": 10,
+        "printable": true,
+        "purpose": "symbol body and pin leads"
+      },
+      {
+        "defaultVisible": true,
+        "id": "fields",
+        "locked": false,
+        "order": 20,
+        "printable": true,
+        "purpose": "bound and literal text fields"
+      }
+    ],
+    "metadata": {
+      "corpus": "symbol-expressiveness-1"
+    },
+    "paintServers": {},
+    "parameters": {},
+    "ports": [
+      {
+        "id": "INP",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "IN+",
+        "number": "1",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -17.5,
+        "y": -5
+      },
+      {
+        "id": "INN",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "IN-",
+        "number": "2",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -17.5,
+        "y": 5
+      },
+      {
+        "id": "OUT",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "OC",
+        "number": "3",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 17.5,
+        "y": 0
+      },
+      {
+        "id": "VP",
+        "kind": "electrical",
+        "labelVisible": false,
+        "name": "VCC",
+        "number": "4",
+        "numberVisible": true,
+        "orientation": 90,
+        "snapRadius": 1.25,
+        "x": 0,
+        "y": -20
+      },
+      {
+        "id": "VN",
+        "kind": "electrical",
+        "labelVisible": false,
+        "name": "GND",
+        "number": "5",
+        "numberVisible": true,
+        "orientation": 270,
+        "snapRadius": 1.25,
+        "x": 0,
+        "y": 20
+      }
+    ],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-11",
+      "license": "CC0-1.0",
+      "notes": "Vendor-neutral evidence fixture; no proprietary library asset was copied.",
+      "origin": "AIXEM 0.5.2 self-authored conformance corpus"
+    },
+    "purpose": "schematic-symbol",
+    "requiredFeatures": [],
+    "revision": "1.0.0",
+    "styles": {
+      "body": {
+        "fill": "#fffef8",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.65
+      },
+      "dashed": {
+        "dashArray": [
+          2.5,
+          1.25
+        ],
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeWidth": 0.5
+      },
+      "detail": {
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.5
+      },
+      "dimension": {
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeWidth": 0.5
+      },
+      "field": {
+        "fill": "#17231d",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.5,
+        "fontWeight": 600,
+        "stroke": "none"
+      },
+      "filled": {
+        "fill": "#fffef8",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.65
+      },
+      "label": {
+        "fill": "#0c7772",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.0,
+        "fontWeight": 600,
+        "stroke": "none"
+      },
+      "line": {
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.65
+      },
+      "mark": {
+        "fill": "#0c7772",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.45
+      },
+      "small": {
+        "fill": "#0c7772",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 2.4,
+        "fontWeight": 500,
+        "stroke": "none"
+      },
+      "value": {
+        "fill": "#4f5e56",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.0,
+        "fontWeight": 400,
+        "stroke": "none"
+      }
+    },
+    "title": "S012 Comparator"
+  }
+}

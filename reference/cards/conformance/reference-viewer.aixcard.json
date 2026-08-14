@@ -1,0 +1,61 @@
+{
+  "card": {
+    "aliases": [
+      "viewer corpus",
+      "V001 V018",
+      "browser conformance"
+    ],
+    "appliesTo": [
+      "reference-viewer-conformance",
+      "viewer-public-claims"
+    ],
+    "domain": "conformance",
+    "estimatedReadBytes": 5761,
+    "id": "AIXEM-CONF-REFERENCE-VIEWER-001",
+    "inputs": [],
+    "keywords": [
+      "Reference Viewer Conformance",
+      "V001 V018",
+      "browser conformance",
+      "inspect-viewer",
+      "publish-release",
+      "render-review",
+      "validate-project",
+      "viewer corpus"
+    ],
+    "kind": "conformance",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/conformance/reference-viewer.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:3618dec2b490eacb101826d9eb24b2f444629841770fca3b1c4161e889cba673"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SPEC-VIEWER-001",
+      "AIXEM-SPEC-VIEWER-STATE-001",
+      "AIXEM-SPEC-VIEWER-SECURITY-001",
+      "AIXEM-SPEC-VIEWER-A11Y-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-CONF-REFERENCE-VIEWER-001.read",
+        "level": "should",
+        "text": "Defines V001-V018 browser, security, accessibility, scale, separation, and three-run deterministic evidence for Reference Viewer Contract 1."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-CONF-REFERENCE-VIEWER-001",
+        "path": "docs/conformance/reference-viewer.md"
+      }
+    ],
+    "summary": "Defines V001-V018 browser, security, accessibility, scale, separation, and three-run deterministic evidence for Reference Viewer Contract 1.",
+    "title": "Reference Viewer Conformance"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

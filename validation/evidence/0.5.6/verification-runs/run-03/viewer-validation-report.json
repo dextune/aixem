@@ -1,0 +1,164 @@
+{
+  "browser": {
+    "errors": [],
+    "runtimeRequests": []
+  },
+  "corpus": "reference-viewer-1",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "release": "AIXEM-SRP-0.5.6-2026-08-12",
+  "results": [
+    {
+      "id": "V001",
+      "purpose": "Sheet-only Reference Viewer baseline",
+      "source": "examples/electronics-grid-controller/project.aixproj.json",
+      "status": "pass",
+      "test": "tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v001_single_sheet_reference_viewer",
+      "title": "Legacy single-sheet viewer"
+    },
+    {
+      "id": "V002",
+      "purpose": "Sheet, Overview, and Composite behavior",
+      "source": "validation/corpus/hierarchical-project-1/cases/H001-two-sheet-power-+-control/project.aixproj.json",
+      "status": "pass",
+      "test": "tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v002_v003_multisheet_modes_and_hierarchy_navigation",
+      "title": "Multi-sheet three-mode viewer"
+    },
+    {
+      "id": "V003",
+      "purpose": "Resolved hierarchy controls active-sheet navigation",
+      "source": "validation/corpus/hierarchical-project-1/cases/H005-three-level-sheet-hierarchy/project.aixproj.json",
+      "status": "pass",
+      "test": "tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v002_v003_multisheet_modes_and_hierarchy_navigation",
+      "title": "Data-driven hierarchy navigation"
+    },
+    {
+      "id": "V004",
+      "purpose": "Qualified identity and search isolation",
+      "source": "validation/corpus/hierarchical-project-1/cases/H004-same-name-local-nets-not-connected/project.aixproj.json",
+      "status": "pass",
+      "test": "tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v004_same_name_local_net_isolation",
+      "title": "Same-name local nets"
+    },
+    {
+      "id": "V005",
+      "purpose": "Declared project-net route and member highlight closure",
+      "source": "validation/corpus/hierarchical-project-1/cases/H001-two-sheet-power-+-control/project.aixproj.json",
+      "status": "pass",
+      "test": "tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v005_v006_project_net_and_interface_selection",
+      "title": "Project-net selection"
+    },
+    {
+      "id": "V006",
+      "purpose": "Local-net and project-net relationship inspection",
+      "source": "validation/corpus/hierarchical-project-1/cases/H001-two-sheet-power-+-control/project.aixproj.json",
+      "status": "pass",
+      "test": "tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v005_v006_project_net_and_interface_selection",
+      "title": "Interface-port inspection"
+    },
+    {
+      "id": "V007",
+      "purpose": "Layer state does not leak across sheets",
+      "source": "validation/corpus/hierarchical-project-1/cases/H001-two-sheet-power-+-control/project.aixproj.json",
+      "status": "pass",
+      "test": "tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v007_sheet_scoped_layer_visibility",
+      "title": "Sheet-scoped layer visibility"
+    },
+    {
+      "id": "V008",
+      "purpose": "Project-net selection persists across views",
+      "source": "validation/corpus/hierarchical-project-1/cases/H001-two-sheet-power-+-control/project.aixproj.json",
+      "status": "pass",
+      "test": "tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v008_cross_view_selection_continuity",
+      "title": "Cross-view selection continuity"
+    },
+    {
+      "id": "V009",
+      "purpose": "Qualified result opens the owning sheet",
+      "source": "validation/corpus/hierarchical-project-1/cases/H001-two-sheet-power-+-control/project.aixproj.json",
+      "status": "pass",
+      "test": "tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v009_component_search_opens_owning_sheet",
+      "title": "Component search navigation"
+    },
+    {
+      "id": "V010",
+      "purpose": "Per-view deterministic viewport operations",
+      "source": "validation/corpus/hierarchical-project-1/cases/H001-two-sheet-power-+-control/project.aixproj.json",
+      "status": "pass",
+      "test": "tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v010_pan_zoom_fit_per_view_state",
+      "title": "Pan, zoom, and fit"
+    },
+    {
+      "id": "V011",
+      "purpose": "Required controls operate without pointer input",
+      "source": "validation/corpus/hierarchical-project-1/cases/H001-two-sheet-power-+-control/project.aixproj.json",
+      "status": "pass",
+      "test": "tests/conformance/test_viewer_accessibility.py::ViewerAccessibilityConformanceTests.test_v011_keyboard_only_required_workflow",
+      "title": "Keyboard-only inspection"
+    },
+    {
+      "id": "V012",
+      "purpose": "Navigation and inspector remain reachable",
+      "source": "validation/corpus/hierarchical-project-1/cases/H001-two-sheet-power-+-control/project.aixproj.json",
+      "status": "pass",
+      "test": "tests/conformance/test_viewer_accessibility.py::ViewerAccessibilityConformanceTests.test_v012_narrow_viewport_retains_navigation_and_inspection",
+      "title": "Narrow viewport"
+    },
+    {
+      "id": "V013",
+      "purpose": "Zero runtime requests and restrictive CSP",
+      "source": "validation/corpus/hierarchical-project-1/cases/H001-two-sheet-power-+-control/project.aixproj.json",
+      "status": "pass",
+      "test": "tests/conformance/test_viewer_security.py::ViewerSecurityConformanceTests.test_v013_offline_network_denial_and_csp",
+      "title": "Offline and network denial"
+    },
+    {
+      "id": "V014",
+      "purpose": "HTML and script injection remains inert",
+      "source": "validation/corpus/reference-viewer-1/fixtures/hostile-authored-text.json",
+      "status": "pass",
+      "test": "tests/conformance/test_viewer_security.py::ViewerSecurityConformanceTests.test_v014_hostile_authored_text_is_inert",
+      "title": "Hostile authored text"
+    },
+    {
+      "id": "V015",
+      "purpose": "Unique DOM IDs and closed QID references",
+      "source": "validation/corpus/hierarchical-project-1/cases/H001-two-sheet-power-+-control/project.aixproj.json",
+      "status": "pass",
+      "test": "tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v015_dom_identity_closure_and_unique_ids",
+      "title": "DOM qualified identity"
+    },
+    {
+      "id": "V016",
+      "purpose": "Minimum scale and interaction baseline",
+      "source": "validation/corpus/hierarchical-project-1/cases/H013-ten-sheet-scale-baseline/project.aixproj.json",
+      "status": "pass",
+      "test": "tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v016_ten_sheet_scale_baseline",
+      "title": "Ten-sheet project"
+    },
+    {
+      "id": "V017",
+      "purpose": "Distinct profiles over shared Viewer Core",
+      "source": "validation/corpus/hierarchical-project-1/cases/H001-two-sheet-power-+-control/project.aixproj.json",
+      "status": "pass",
+      "test": "tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v017_viewer_workbench_are_distinct_shared_profiles",
+      "title": "Viewer and Workbench separation"
+    },
+    {
+      "id": "V018",
+      "purpose": "Viewer Model and both HTML profiles remain byte-stable",
+      "source": "validation/corpus/hierarchical-project-1/cases/H001-two-sheet-power-+-control/project.aixproj.json",
+      "status": "pass",
+      "test": "tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v018_three_run_viewer_artifact_determinism",
+      "title": "Three-run HTML determinism"
+    }
+  ],
+  "schema": "https://schemas.aixem.org/conformance/reference-viewer-report/1",
+  "status": "pass",
+  "summary": {
+    "cases": 18,
+    "deterministicRuns": 3,
+    "failed": 0,
+    "passed": 18,
+    "skipped": 0
+  }
+}

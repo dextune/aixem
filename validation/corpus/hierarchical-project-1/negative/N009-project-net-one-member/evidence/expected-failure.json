@@ -1,0 +1,7 @@
+{
+  "case": "N009",
+  "expectedDiagnostic": "is too short",
+  "matched": true,
+  "observedError": "project:project/projectNets/0/members: [{'port': 'VCC', 'sheet': 'power'}] is too short",
+  "status": "pass"
+}

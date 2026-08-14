@@ -1,0 +1,68 @@
+schema: https://schemas.aixem.org/documentation/task-route/1
+formatVersion: '1.0'
+kind: simple
+id: inspect-viewer
+intent: inspect-viewer
+aliases:
+- inspect viewer
+- viewer behavior
+- review viewer model
+- debug viewer
+- viewer conformance
+summary: Inspect or modify Reference Viewer behavior through its canonical read-only contracts without loading unrelated
+  authoring material
+budget:
+  max_documents: 7
+  max_bytes: 98304
+  max_depth: 3
+expected_inputs:
+- generated viewer-model.json or renderer evidence
+- affected Viewer behavior or defect
+- browser/conformance observation
+steps:
+- order: 1
+  document: AIXEM-SPEC-VIEWER-001
+  section: product-and-authority-boundary
+  purpose: Establish the product, authority, capability, model, identity, and compatibility boundary.
+  required: true
+- order: 2
+  document: AIXEM-SPEC-VIEWER-STATE-001
+  section: state-record
+  purpose: Resolve deterministic state and interaction ownership.
+  required: true
+- order: 3
+  document: AIXEM-SPEC-VIEWER-SECURITY-001
+  section: offline-package-boundary
+  purpose: Apply offline, inert-text, CSP, and no-write constraints.
+  required: true
+- order: 4
+  document: AIXEM-SPEC-VIEWER-A11Y-001
+  section: keyboard-and-focus
+  purpose: Preserve keyboard, focus, semantic-state, and narrow-viewport operability.
+  required: true
+- order: 5
+  document: AIXEM-SPEC-WORKBENCH-001
+  section: product-role
+  purpose: Load only when the defect concerns diagnostics, provenance, or Workbench separation.
+  required: false
+  condition: Review Workbench behavior or evidence is affected.
+- order: 6
+  document: AIXEM-CONF-REFERENCE-VIEWER-001
+  section: corpus-inventory
+  purpose: Select the smallest executable V-case and required browser evidence.
+  required: true
+completion:
+- Authority owner is identified before code changes
+- Qualified identity and Viewer Model closure remain valid
+- Affected V-cases pass in controlled Chromium
+- No semantic/write-back or network path is introduced
+- Viewer artifacts remain deterministic
+expected_outputs:
+- viewer-model.json
+- viewer.html or workbench.html
+- targeted V-case result
+- updated conformance evidence when normative behavior changes
+validators:
+- schematic.reference_viewer
+- docs.requirements
+- docs.links

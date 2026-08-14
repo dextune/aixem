@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "packets": [
+    {
+      "digest": "sha256:118d7b8ff3020ab6116934c154d2f02c855091e43b9b5096b4566cdc93d23b32",
+      "id": "author-component-circuit",
+      "kind": "composite",
+      "path": "docs/_meta/generated/task-packets/author-component-circuit.json"
+    },
+    {
+      "digest": "sha256:a9d67d77b94ad3e2bcb1e78208ba88ea9c0e4bb659a16fd2b4fd732ce2721a8b",
+      "id": "build-documentation",
+      "kind": "simple",
+      "path": "docs/_meta/generated/task-packets/build-documentation.json"
+    },
+    {
+      "digest": "sha256:25fca7cb037c8f62db7ecc621096cf6648cef563ce341c22eebc35953f3d49b7",
+      "id": "change-architecture",
+      "kind": "simple",
+      "path": "docs/_meta/generated/task-packets/change-architecture.json"
+    },
+    {
+      "digest": "sha256:c6015857009c7b535e7ae8802f7cbe06de8c930e91cdba22ee6178d6eda19495",
+      "id": "compose-project",
+      "kind": "simple",
+      "path": "docs/_meta/generated/task-packets/compose-project.json"
+    },
+    {
+      "digest": "sha256:b41c4a10017c9f5d10fcbd832608836937e9d1c844c5e2bf422b6e7eeca17d49",
+      "id": "create-schematic",
+      "kind": "simple",
+      "path": "docs/_meta/generated/task-packets/create-schematic.json"
+    },
+    {
+      "digest": "sha256:83eeed3b1727037db1f48f63a9bb0a6d39ae1b51667ed0ad72c988b07bd3f762",
+      "id": "create-symbol",
+      "kind": "simple",
+      "path": "docs/_meta/generated/task-packets/create-symbol.json"
+    },
+    {
+      "digest": "sha256:256bd46f2d18d52247ef1b90fcd85da861c1a3b2d1a0a8159c61d6f26891c786",
+      "id": "inspect-artifact",
+      "kind": "simple",
+      "path": "docs/_meta/generated/task-packets/inspect-artifact.json"
+    },
+    {
+      "digest": "sha256:99852e506c3f9f588e7b4b238d0288f319b77b18f590980b36def21306857fdf",
+      "id": "inspect-viewer",
+      "kind": "simple",
+      "path": "docs/_meta/generated/task-packets/inspect-viewer.json"
+    },
+    {
+      "digest": "sha256:a4c1b59e9431f1cb54b481806896896b3867465c27a4b7052311eeeed887d21c",
+      "id": "migrate-baseline",
+      "kind": "simple",
+      "path": "docs/_meta/generated/task-packets/migrate-baseline.json"
+    },
+    {
+      "digest": "sha256:94c61bd61d2bcb3b5a22f1ea52bece0b035e8bc6686e7fcd665327c8aa47bba9",
+      "id": "publish-release",
+      "kind": "simple",
+      "path": "docs/_meta/generated/task-packets/publish-release.json"
+    },
+    {
+      "digest": "sha256:ac8a803c861e607d57480fa75616bb92fcbd73b208a3132e8215ab1401a284f8",
+      "id": "render-review",
+      "kind": "simple",
+      "path": "docs/_meta/generated/task-packets/render-review.json"
+    },
+    {
+      "digest": "sha256:9748012a55150e06a7e557e3ab473b32ac8a3b7ae9e0e2fbbe73d1d9e5407ac4",
+      "id": "route-nets",
+      "kind": "simple",
+      "path": "docs/_meta/generated/task-packets/route-nets.json"
+    },
+    {
+      "digest": "sha256:091bd05ca614a48e350a6c217780c8bfc57f61694eb1df41f45d9377fcfa60c8",
+      "id": "route-project-nets",
+      "kind": "simple",
+      "path": "docs/_meta/generated/task-packets/route-project-nets.json"
+    },
+    {
+      "digest": "sha256:d3253d26b69415c47da22d46552d5f22008412f2104f0ce1ee92d5a719a65dd3",
+      "id": "validate-live-agent-authoring",
+      "kind": "simple",
+      "path": "docs/_meta/generated/task-packets/validate-live-agent-authoring.json"
+    },
+    {
+      "digest": "sha256:a9612868714627ae5b20a1bcff7d24a599729cb41c61e63a5c798c0b7f2ff9bf",
+      "id": "validate-project",
+      "kind": "simple",
+      "path": "docs/_meta/generated/task-packets/validate-project.json"
+    },
+    {
+      "digest": "sha256:a4c8805a6a5d6d04b3121eb9a5edb4c950eabf66dcbb74d254af45a95c0bc0b7",
+      "id": "validate-symbol-expressiveness",
+      "kind": "simple",
+      "path": "docs/_meta/generated/task-packets/validate-symbol-expressiveness.json"
+    }
+  ],
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/documentation/task-packet-index/1"
+}

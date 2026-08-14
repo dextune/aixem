@@ -1,0 +1,126 @@
+{
+  "coordinateSystem": {
+    "angleDirection": "clockwise",
+    "angleUnit": "deg",
+    "grid": 2.5,
+    "unit": "mm",
+    "yAxis": "down"
+  },
+  "diagnostics": [],
+  "entities": [
+    {
+      "componentType": "conformance:s007",
+      "key": "X1",
+      "kind": "component",
+      "parameters": {},
+      "placement": {
+        "entity": "X1",
+        "layer": "symbols",
+        "x": 47.5,
+        "y": 52.5
+      },
+      "ports": {
+        "1": [
+          30.0,
+          52.5
+        ],
+        "2": [
+          65.0,
+          52.5
+        ]
+      },
+      "reference": "X1",
+      "symbolDigest": "sha256:0d5bca125ed3d3181c092d6571d1f8d3be0618d3d03d06da172abc36b69b3245",
+      "symbolId": "corpus:s007-led",
+      "value": "LED",
+      "variant": null
+    }
+  ],
+  "featuresUsed": [
+    "definition-use"
+  ],
+  "generatedAt": "2026-08-10T00:00:00Z",
+  "gridValidation": {
+    "crossingPolicy": "junction-required",
+    "orthogonalSegments": 0,
+    "placementExceptions": [],
+    "placements": 1,
+    "placementsOnGrid": 1,
+    "profile": "aixem.schematic.grid-light",
+    "routeSegments": 0,
+    "routeViasOnGrid": true,
+    "snap": 2.5,
+    "zeroLengthSegments": []
+  },
+  "hashes": {
+    "layout": "sha256:a4e6c90719759ebf30511ab5326206fdb913f8203aa5cce7e32bdaa0b9c60964",
+    "libraries": [
+      "sha256:b63c06aa2af3430f529d1ba68cd9b99552636f32a14431feec6ac75fd33070ee"
+    ],
+    "source": "sha256:20b63c03d14c4c3db2feed8c4518f70c2b35127a364b833fcd01c56208034a37",
+    "symbolAssets": [
+      "sha256:0d5bca125ed3d3181c092d6571d1f8d3be0618d3d03d06da172abc36b69b3245"
+    ]
+  },
+  "layers": [
+    {
+      "defaultVisible": true,
+      "id": "connections",
+      "locked": false,
+      "order": 10,
+      "printable": true,
+      "purpose": "semantic net routes"
+    },
+    {
+      "defaultVisible": true,
+      "id": "symbols",
+      "locked": false,
+      "order": 20,
+      "printable": true,
+      "purpose": "component symbols"
+    },
+    {
+      "defaultVisible": true,
+      "id": "annotation",
+      "locked": false,
+      "order": 30,
+      "printable": true,
+      "purpose": "notes"
+    }
+  ],
+  "nets": [],
+  "project": {
+    "id": "conformance:s007",
+    "profile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "title": "S007 LED conformance project"
+  },
+  "renderer": {
+    "id": "aixem-grid-schematic-reference-renderer",
+    "version": "0.5.1"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/resolved-scene/1",
+  "sheet": {
+    "height": 122.5,
+    "margin": 10,
+    "titleBlock": {
+      "drawing": "corpus_s007-layout",
+      "revision": "A",
+      "sheet": "1/1",
+      "title": "S007 — LED"
+    },
+    "width": 180.0
+  },
+  "statistics": {
+    "entities": 1,
+    "nets": 0,
+    "noConnects": 0,
+    "primitives": 14,
+    "routeSegments": 0,
+    "symbolAssets": 1
+  },
+  "styleProfile": {
+    "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+    "id": "aixem.schematic.grid-light",
+    "path": "aixem-grid-schematic-style-1.aixstyle.json"
+  }
+}

@@ -1,0 +1,2006 @@
+{
+  "coordinateSystem": {
+    "angleDirection": "clockwise",
+    "angleUnit": "deg",
+    "grid": 2.5,
+    "unit": "mm",
+    "yAxis": "down"
+  },
+  "diagnostics": [],
+  "entities": [
+    {
+      "componentType": "demo.electronics:analog-front-end",
+      "key": "afe",
+      "kind": "component",
+      "parameters": {},
+      "placement": {
+        "entity": "afe",
+        "layer": "symbols",
+        "x": 157.5,
+        "y": 142.5
+      },
+      "ports": {
+        "3V3": [
+          157.5,
+          115.0
+        ],
+        "GND": [
+          157.5,
+          170.0
+        ],
+        "VINN": [
+          128.5,
+          142.5
+        ],
+        "VINP": [
+          128.5,
+          132.5
+        ],
+        "VOUT": [
+          186.5,
+          142.5
+        ],
+        "VREF": [
+          128.5,
+          152.5
+        ]
+      },
+      "reference": "U2",
+      "symbolDigest": "sha256:56544f87179fd90d34d3ffa5bf6d733df4707e2fda2eece32adb57c4bd5a1ff6",
+      "symbolId": "demo.electronics:analog-front-end",
+      "value": "AFE / LPF",
+      "variant": null
+    },
+    {
+      "componentType": "demo.electronics:capacitor",
+      "key": "bulk_cap",
+      "kind": "component",
+      "parameters": {},
+      "placement": {
+        "entity": "bulk_cap",
+        "layer": "symbols",
+        "rotation": 90,
+        "x": 177.5,
+        "y": 57.5
+      },
+      "ports": {
+        "1": [
+          177.5,
+          43.5
+        ],
+        "2": [
+          177.5,
+          71.5
+        ]
+      },
+      "reference": "C1",
+      "symbolDigest": "sha256:a4a46557016e7f828965780176b0b1501fb360eb7d5a3a6e703d3d4341fb7ee4",
+      "symbolId": "demo.electronics:capacitor",
+      "value": "47 uF",
+      "variant": null
+    },
+    {
+      "componentType": "demo.electronics:controller-24",
+      "key": "controller",
+      "kind": "component",
+      "parameters": {},
+      "placement": {
+        "entity": "controller",
+        "layer": "symbols",
+        "x": 255,
+        "y": 125
+      },
+      "ports": {
+        "3V3A": [
+          251.25,
+          78.75
+        ],
+        "3V3D": [
+          258.75,
+          78.75
+        ],
+        "ADC0": [
+          215.0,
+          121.25
+        ],
+        "ADC1": [
+          215.0,
+          128.75
+        ],
+        "BOOT0": [
+          215.0,
+          143.75
+        ],
+        "GNDA": [
+          251.25,
+          171.25
+        ],
+        "GNDD": [
+          258.75,
+          171.25
+        ],
+        "NRST": [
+          215.0,
+          136.25
+        ],
+        "PA0": [
+          215.0,
+          91.25
+        ],
+        "PA1": [
+          215.0,
+          98.75
+        ],
+        "PA2": [
+          215.0,
+          106.25
+        ],
+        "PA3": [
+          215.0,
+          113.75
+        ],
+        "PB0": [
+          295.0,
+          91.25
+        ],
+        "PB1": [
+          295.0,
+          98.75
+        ],
+        "PB2": [
+          295.0,
+          106.25
+        ],
+        "PB3": [
+          295.0,
+          113.75
+        ],
+        "SWCLK": [
+          295.0,
+          128.75
+        ],
+        "SWDIO": [
+          295.0,
+          121.25
+        ],
+        "UART_RX": [
+          295.0,
+          143.75
+        ],
+        "UART_TX": [
+          295.0,
+          136.25
+        ],
+        "USB_DM": [
+          295.0,
+          158.75
+        ],
+        "USB_DP": [
+          295.0,
+          151.25
+        ],
+        "XTAL1": [
+          215.0,
+          151.25
+        ],
+        "XTAL2": [
+          215.0,
+          158.75
+        ]
+      },
+      "reference": "U3",
+      "symbolDigest": "sha256:27c0ddd46f5abe5c7cc8d3c116a19d7a179db71f52a5021829e6882eb6df0aa8",
+      "symbolId": "demo.electronics:controller-24",
+      "value": "AIXEM-MCU24",
+      "variant": null
+    },
+    {
+      "componentType": "demo.electronics:debug-header-10",
+      "key": "debug",
+      "kind": "connector",
+      "parameters": {},
+      "placement": {
+        "entity": "debug",
+        "layer": "symbols",
+        "x": 360,
+        "y": 62.5
+      },
+      "ports": {
+        "1": [
+          336.0,
+          47.5
+        ],
+        "10": [
+          384.0,
+          77.5
+        ],
+        "2": [
+          384.0,
+          47.5
+        ],
+        "3": [
+          336.0,
+          55.0
+        ],
+        "4": [
+          384.0,
+          55.0
+        ],
+        "5": [
+          336.0,
+          62.5
+        ],
+        "6": [
+          384.0,
+          62.5
+        ],
+        "7": [
+          336.0,
+          70.0
+        ],
+        "8": [
+          384.0,
+          70.0
+        ],
+        "9": [
+          336.0,
+          77.5
+        ]
+      },
+      "reference": "J3",
+      "symbolDigest": "sha256:b978605c193685347cedf930e0f0a8a76d5aa2195ec7a6417c3e4ea62f13f8bb",
+      "symbolId": "demo.electronics:debug-header-10",
+      "value": "SWD 2x5",
+      "variant": null
+    },
+    {
+      "componentType": "demo.electronics:resistor",
+      "key": "divider_bottom",
+      "kind": "component",
+      "parameters": {
+        "body-height": 7,
+        "body-length": 20,
+        "lead-length": 6
+      },
+      "placement": {
+        "entity": "divider_bottom",
+        "layer": "symbols",
+        "rotation": 90,
+        "variant": "iec",
+        "x": 115,
+        "y": 172.5
+      },
+      "ports": {
+        "1": [
+          115.0,
+          156.5
+        ],
+        "2": [
+          115.0,
+          188.5
+        ]
+      },
+      "reference": "R2",
+      "symbolDigest": "sha256:c30ee87185bc5d5596739bb0343f99a0a602256dd768ea8c58a466eab28d8de8",
+      "symbolId": "demo.electronics:resistor",
+      "value": "10 kOhm",
+      "variant": "iec"
+    },
+    {
+      "componentType": "demo.electronics:resistor",
+      "key": "divider_top",
+      "kind": "component",
+      "parameters": {
+        "body-height": 7,
+        "body-length": 20,
+        "lead-length": 6
+      },
+      "placement": {
+        "entity": "divider_top",
+        "layer": "symbols",
+        "variant": "iec",
+        "x": 87.5,
+        "y": 135
+      },
+      "ports": {
+        "1": [
+          71.5,
+          135.0
+        ],
+        "2": [
+          103.5,
+          135.0
+        ]
+      },
+      "reference": "R1",
+      "symbolDigest": "sha256:c30ee87185bc5d5596739bb0343f99a0a602256dd768ea8c58a466eab28d8de8",
+      "symbolId": "demo.electronics:resistor",
+      "value": "47 kOhm",
+      "variant": "iec"
+    },
+    {
+      "componentType": "demo.electronics:io-header-8",
+      "key": "field_io",
+      "kind": "connector",
+      "parameters": {},
+      "placement": {
+        "entity": "field_io",
+        "layer": "symbols",
+        "x": 367.5,
+        "y": 155
+      },
+      "ports": {
+        "1": [
+          345.5,
+          143.75
+        ],
+        "2": [
+          345.5,
+          151.25
+        ],
+        "3": [
+          345.5,
+          158.75
+        ],
+        "4": [
+          345.5,
+          166.25
+        ],
+        "5": [
+          389.5,
+          143.75
+        ],
+        "6": [
+          389.5,
+          151.25
+        ],
+        "7": [
+          389.5,
+          158.75
+        ],
+        "8": [
+          389.5,
+          166.25
+        ]
+      },
+      "reference": "J4",
+      "symbolDigest": "sha256:6f75c80a590c4d34cf024937ef114bf4c67deca3793df9b0d838dea90f6ba2aa",
+      "symbolId": "demo.electronics:io-header-8",
+      "value": "FIELD I/O",
+      "variant": null
+    },
+    {
+      "componentType": "demo.electronics:fuse",
+      "key": "fuse",
+      "kind": "component",
+      "parameters": {},
+      "placement": {
+        "entity": "fuse",
+        "layer": "symbols",
+        "x": 70,
+        "y": 32.5
+      },
+      "ports": {
+        "1": [
+          54.0,
+          32.5
+        ],
+        "2": [
+          86.0,
+          32.5
+        ]
+      },
+      "reference": "F1",
+      "symbolDigest": "sha256:7bad704b4ef0626566c343e2ddd516e2007edece2c2d8f9b4bd301f4d6df5558",
+      "symbolId": "demo.electronics:fuse",
+      "value": "500 mA",
+      "variant": null
+    },
+    {
+      "componentType": "demo.electronics:led",
+      "key": "led1",
+      "kind": "component",
+      "parameters": {},
+      "placement": {
+        "entity": "led1",
+        "layer": "symbols",
+        "x": 370,
+        "y": 215
+      },
+      "ports": {
+        "A": [
+          356.0,
+          215.0
+        ],
+        "K": [
+          384.0,
+          215.0
+        ]
+      },
+      "reference": "LED1",
+      "symbolDigest": "sha256:4ece48f40e0fc2b2f87c553c1d7efb706b46d89579919b36fc41c0631b789d79",
+      "symbolId": "demo.electronics:led",
+      "value": "RUN",
+      "variant": null
+    },
+    {
+      "componentType": "demo.electronics:led",
+      "key": "led2",
+      "kind": "component",
+      "parameters": {},
+      "placement": {
+        "entity": "led2",
+        "layer": "symbols",
+        "x": 370,
+        "y": 235
+      },
+      "ports": {
+        "A": [
+          356.0,
+          235.0
+        ],
+        "K": [
+          384.0,
+          235.0
+        ]
+      },
+      "reference": "LED2",
+      "symbolDigest": "sha256:4ece48f40e0fc2b2f87c553c1d7efb706b46d89579919b36fc41c0631b789d79",
+      "symbolId": "demo.electronics:led",
+      "value": "FAULT",
+      "variant": null
+    },
+    {
+      "componentType": "demo.electronics:resistor",
+      "key": "led_r1",
+      "kind": "component",
+      "parameters": {
+        "body-height": 7,
+        "body-length": 20,
+        "lead-length": 6
+      },
+      "placement": {
+        "entity": "led_r1",
+        "layer": "symbols",
+        "variant": "iec",
+        "x": 320,
+        "y": 215
+      },
+      "ports": {
+        "1": [
+          304.0,
+          215.0
+        ],
+        "2": [
+          336.0,
+          215.0
+        ]
+      },
+      "reference": "R3",
+      "symbolDigest": "sha256:c30ee87185bc5d5596739bb0343f99a0a602256dd768ea8c58a466eab28d8de8",
+      "symbolId": "demo.electronics:resistor",
+      "value": "1 kOhm",
+      "variant": "iec"
+    },
+    {
+      "componentType": "demo.electronics:resistor",
+      "key": "led_r2",
+      "kind": "component",
+      "parameters": {
+        "body-height": 7,
+        "body-length": 20,
+        "lead-length": 6
+      },
+      "placement": {
+        "entity": "led_r2",
+        "layer": "symbols",
+        "variant": "iec",
+        "x": 320,
+        "y": 235
+      },
+      "ports": {
+        "1": [
+          304.0,
+          235.0
+        ],
+        "2": [
+          336.0,
+          235.0
+        ]
+      },
+      "reference": "R4",
+      "symbolDigest": "sha256:c30ee87185bc5d5596739bb0343f99a0a602256dd768ea8c58a466eab28d8de8",
+      "symbolId": "demo.electronics:resistor",
+      "value": "1 kOhm",
+      "variant": "iec"
+    },
+    {
+      "componentType": "demo.electronics:capacitor",
+      "key": "logic_cap",
+      "kind": "component",
+      "parameters": {},
+      "placement": {
+        "entity": "logic_cap",
+        "layer": "symbols",
+        "rotation": 90,
+        "x": 202.5,
+        "y": 57.5
+      },
+      "ports": {
+        "1": [
+          202.5,
+          43.5
+        ],
+        "2": [
+          202.5,
+          71.5
+        ]
+      },
+      "reference": "C2",
+      "symbolDigest": "sha256:a4a46557016e7f828965780176b0b1501fb360eb7d5a3a6e703d3d4341fb7ee4",
+      "symbolId": "demo.electronics:capacitor",
+      "value": "1 uF",
+      "variant": null
+    },
+    {
+      "componentType": "demo.electronics:terminal-2",
+      "key": "power_in",
+      "kind": "connector",
+      "parameters": {},
+      "placement": {
+        "entity": "power_in",
+        "fields": {
+          "value": "24 VDC"
+        },
+        "layer": "symbols",
+        "x": 25,
+        "y": 37.5
+      },
+      "ports": {
+        "1": [
+          39.0,
+          31.5
+        ],
+        "2": [
+          39.0,
+          43.5
+        ]
+      },
+      "reference": "J1",
+      "symbolDigest": "sha256:5042a45420e4239d9fa9d2f3fdce81c9c932b42286b6ba13ca33b80877e0f4ce",
+      "symbolId": "demo.electronics:terminal-2",
+      "value": "24 VDC",
+      "variant": null
+    },
+    {
+      "componentType": "demo.electronics:buck-regulator",
+      "key": "regulator",
+      "kind": "component",
+      "parameters": {},
+      "placement": {
+        "entity": "regulator",
+        "layer": "symbols",
+        "x": 127.5,
+        "y": 32.5
+      },
+      "ports": {
+        "GND": [
+          127.5,
+          50.5
+        ],
+        "VIN": [
+          103.5,
+          32.5
+        ],
+        "VOUT": [
+          151.5,
+          32.5
+        ]
+      },
+      "reference": "U1",
+      "symbolDigest": "sha256:794d2154b3821a288933bdb8cc03daa5d68237fd0de2d50c7d5538d76dc24655",
+      "symbolId": "demo.electronics:buck-regulator",
+      "value": "24 V → 3.3 V",
+      "variant": null
+    },
+    {
+      "componentType": "demo.electronics:sensor-connector-3",
+      "key": "sensor",
+      "kind": "connector",
+      "parameters": {},
+      "placement": {
+        "entity": "sensor",
+        "layer": "symbols",
+        "x": 35,
+        "y": 142.5
+      },
+      "ports": {
+        "1": [
+          51.0,
+          134.5
+        ],
+        "2": [
+          51.0,
+          142.5
+        ],
+        "3": [
+          51.0,
+          150.5
+        ]
+      },
+      "reference": "J2",
+      "symbolDigest": "sha256:44a4b48baec34076c56d390d8b7dbb62e7462673c8c2a28f5b87068ea8f67431",
+      "symbolId": "demo.electronics:sensor-connector-3",
+      "value": "3-wire sensor",
+      "variant": null
+    },
+    {
+      "componentType": "demo.electronics:tvs-diode",
+      "key": "tvs",
+      "kind": "component",
+      "parameters": {},
+      "placement": {
+        "entity": "tvs",
+        "layer": "symbols",
+        "rotation": 90,
+        "x": 102.5,
+        "y": 57.5
+      },
+      "ports": {
+        "A": [
+          102.5,
+          71.5
+        ],
+        "K": [
+          102.5,
+          43.5
+        ]
+      },
+      "reference": "D1",
+      "symbolDigest": "sha256:4ab8d69e24b6e46dda934f2d97ff4b355d116b773e1d4650d1064778f6ce6469",
+      "symbolId": "demo.electronics:tvs-diode",
+      "value": "SMBJ33A",
+      "variant": null
+    }
+  ],
+  "featuresUsed": [
+    "compound-path",
+    "cubic-bezier",
+    "definition-use",
+    "quadratic-bezier"
+  ],
+  "generatedAt": "2026-08-10T00:00:00Z",
+  "gridValidation": {
+    "crossingPolicy": "junction-required",
+    "orthogonalSegments": 126,
+    "placementExceptions": [],
+    "placements": 17,
+    "placementsOnGrid": 17,
+    "profile": "aixem.schematic.grid-light",
+    "routeSegments": 126,
+    "routeViasOnGrid": true,
+    "snap": 2.5,
+    "zeroLengthSegments": []
+  },
+  "hashes": {
+    "layout": "sha256:683e43c78b94ee7cb105fdc4e1ae8b046a26d450981f98be4f507d401494cdb0",
+    "libraries": [
+      "sha256:16a51fbbab27a43872d6dcefa71b5a53f4993660dfe647989c1a1a7906d8cfef"
+    ],
+    "source": "sha256:b06e6963859915a5c21945be212899b6280da9ddd076c3dec49ef1d99d2507d6",
+    "symbolAssets": [
+      "sha256:27c0ddd46f5abe5c7cc8d3c116a19d7a179db71f52a5021829e6882eb6df0aa8",
+      "sha256:44a4b48baec34076c56d390d8b7dbb62e7462673c8c2a28f5b87068ea8f67431",
+      "sha256:4ab8d69e24b6e46dda934f2d97ff4b355d116b773e1d4650d1064778f6ce6469",
+      "sha256:4ece48f40e0fc2b2f87c553c1d7efb706b46d89579919b36fc41c0631b789d79",
+      "sha256:5042a45420e4239d9fa9d2f3fdce81c9c932b42286b6ba13ca33b80877e0f4ce",
+      "sha256:56544f87179fd90d34d3ffa5bf6d733df4707e2fda2eece32adb57c4bd5a1ff6",
+      "sha256:6f75c80a590c4d34cf024937ef114bf4c67deca3793df9b0d838dea90f6ba2aa",
+      "sha256:794d2154b3821a288933bdb8cc03daa5d68237fd0de2d50c7d5538d76dc24655",
+      "sha256:7bad704b4ef0626566c343e2ddd516e2007edece2c2d8f9b4bd301f4d6df5558",
+      "sha256:a4a46557016e7f828965780176b0b1501fb360eb7d5a3a6e703d3d4341fb7ee4",
+      "sha256:b978605c193685347cedf930e0f0a8a76d5aa2195ec7a6417c3e4ea62f13f8bb",
+      "sha256:c30ee87185bc5d5596739bb0343f99a0a602256dd768ea8c58a466eab28d8de8"
+    ]
+  },
+  "layers": [
+    {
+      "defaultVisible": true,
+      "id": "connections",
+      "locked": false,
+      "order": 10,
+      "printable": true,
+      "purpose": "semantic net routes"
+    },
+    {
+      "defaultVisible": true,
+      "id": "symbols",
+      "locked": false,
+      "order": 20,
+      "printable": true,
+      "purpose": "component symbol instances"
+    },
+    {
+      "defaultVisible": true,
+      "id": "annotation",
+      "locked": false,
+      "order": 30,
+      "printable": true,
+      "purpose": "notes and title"
+    }
+  ],
+  "nets": [
+    {
+      "endpoints": [
+        "afe.VOUT",
+        "controller.ADC0"
+      ],
+      "junctions": [
+        [
+          205,
+          142.5
+        ],
+        [
+          205,
+          121.25
+        ]
+      ],
+      "name": "afe_output",
+      "paths": [
+        [
+          [
+            186.5,
+            142.5
+          ],
+          [
+            205.0,
+            142.5
+          ],
+          [
+            205.0,
+            121.25
+          ],
+          [
+            215.0,
+            121.25
+          ]
+        ]
+      ]
+    },
+    {
+      "endpoints": [
+        "divider_top.2",
+        "divider_bottom.1",
+        "afe.VINN"
+      ],
+      "junctions": [
+        [
+          122.5,
+          135.0
+        ],
+        [
+          122.5,
+          156.5
+        ],
+        [
+          122.5,
+          142.5
+        ]
+      ],
+      "name": "divider_node",
+      "paths": [
+        [
+          [
+            103.5,
+            135.0
+          ],
+          [
+            122.5,
+            135.0
+          ],
+          [
+            122.5,
+            156.5
+          ],
+          [
+            115.0,
+            156.5
+          ]
+        ],
+        [
+          [
+            103.5,
+            135.0
+          ],
+          [
+            122.5,
+            135.0
+          ],
+          [
+            122.5,
+            142.5
+          ],
+          [
+            128.5,
+            142.5
+          ]
+        ]
+      ]
+    },
+    {
+      "endpoints": [
+        "power_in.2",
+        "tvs.A",
+        "regulator.GND",
+        "bulk_cap.2",
+        "logic_cap.2",
+        "sensor.3",
+        "divider_bottom.2",
+        "afe.GND",
+        "controller.GNDA",
+        "controller.GNDD",
+        "debug.3",
+        "debug.5",
+        "debug.10",
+        "field_io.8",
+        "led1.K",
+        "led2.K"
+      ],
+      "junctions": [
+        [
+          39.0,
+          247.5
+        ],
+        [
+          102.5,
+          247.5
+        ],
+        [
+          127.5,
+          247.5
+        ],
+        [
+          177.5,
+          247.5
+        ],
+        [
+          202.5,
+          247.5
+        ],
+        [
+          51.0,
+          247.5
+        ],
+        [
+          115.0,
+          247.5
+        ],
+        [
+          157.5,
+          247.5
+        ],
+        [
+          251.25,
+          247.5
+        ],
+        [
+          258.75,
+          247.5
+        ],
+        [
+          336.0,
+          247.5
+        ],
+        [
+          384.0,
+          247.5
+        ],
+        [
+          389.5,
+          247.5
+        ]
+      ],
+      "name": "gnd",
+      "paths": [
+        [
+          [
+            39.0,
+            43.5
+          ],
+          [
+            39.0,
+            247.5
+          ],
+          [
+            102.5,
+            247.5
+          ],
+          [
+            102.5,
+            71.5
+          ]
+        ],
+        [
+          [
+            39.0,
+            43.5
+          ],
+          [
+            39.0,
+            247.5
+          ],
+          [
+            127.5,
+            247.5
+          ],
+          [
+            127.5,
+            50.5
+          ]
+        ],
+        [
+          [
+            39.0,
+            43.5
+          ],
+          [
+            39.0,
+            247.5
+          ],
+          [
+            177.5,
+            247.5
+          ],
+          [
+            177.5,
+            71.5
+          ]
+        ],
+        [
+          [
+            39.0,
+            43.5
+          ],
+          [
+            39.0,
+            247.5
+          ],
+          [
+            202.5,
+            247.5
+          ],
+          [
+            202.5,
+            71.5
+          ]
+        ],
+        [
+          [
+            39.0,
+            43.5
+          ],
+          [
+            39.0,
+            247.5
+          ],
+          [
+            51.0,
+            247.5
+          ],
+          [
+            51.0,
+            150.5
+          ]
+        ],
+        [
+          [
+            39.0,
+            43.5
+          ],
+          [
+            39.0,
+            247.5
+          ],
+          [
+            115.0,
+            247.5
+          ],
+          [
+            115.0,
+            188.5
+          ]
+        ],
+        [
+          [
+            39.0,
+            43.5
+          ],
+          [
+            39.0,
+            247.5
+          ],
+          [
+            157.5,
+            247.5
+          ],
+          [
+            157.5,
+            170.0
+          ]
+        ],
+        [
+          [
+            39.0,
+            43.5
+          ],
+          [
+            39.0,
+            247.5
+          ],
+          [
+            251.25,
+            247.5
+          ],
+          [
+            251.25,
+            171.25
+          ]
+        ],
+        [
+          [
+            39.0,
+            43.5
+          ],
+          [
+            39.0,
+            247.5
+          ],
+          [
+            258.75,
+            247.5
+          ],
+          [
+            258.75,
+            171.25
+          ]
+        ],
+        [
+          [
+            39.0,
+            43.5
+          ],
+          [
+            39.0,
+            247.5
+          ],
+          [
+            336.0,
+            247.5
+          ],
+          [
+            336.0,
+            55.0
+          ]
+        ],
+        [
+          [
+            39.0,
+            43.5
+          ],
+          [
+            39.0,
+            247.5
+          ],
+          [
+            336.0,
+            247.5
+          ],
+          [
+            336.0,
+            62.5
+          ]
+        ],
+        [
+          [
+            39.0,
+            43.5
+          ],
+          [
+            39.0,
+            247.5
+          ],
+          [
+            384.0,
+            247.5
+          ],
+          [
+            384.0,
+            77.5
+          ]
+        ],
+        [
+          [
+            39.0,
+            43.5
+          ],
+          [
+            39.0,
+            247.5
+          ],
+          [
+            389.5,
+            247.5
+          ],
+          [
+            389.5,
+            166.25
+          ]
+        ],
+        [
+          [
+            39.0,
+            43.5
+          ],
+          [
+            39.0,
+            247.5
+          ],
+          [
+            384.0,
+            247.5
+          ],
+          [
+            384.0,
+            215.0
+          ]
+        ],
+        [
+          [
+            39.0,
+            43.5
+          ],
+          [
+            39.0,
+            247.5
+          ],
+          [
+            384.0,
+            247.5
+          ],
+          [
+            384.0,
+            235.0
+          ]
+        ]
+      ]
+    },
+    {
+      "endpoints": [
+        "controller.PA0",
+        "field_io.5"
+      ],
+      "junctions": [
+        [
+          215.0,
+          162.5
+        ],
+        [
+          389.5,
+          162.5
+        ]
+      ],
+      "name": "in1",
+      "paths": [
+        [
+          [
+            215.0,
+            91.25
+          ],
+          [
+            215.0,
+            162.5
+          ],
+          [
+            389.5,
+            162.5
+          ],
+          [
+            389.5,
+            143.75
+          ]
+        ]
+      ]
+    },
+    {
+      "endpoints": [
+        "controller.PA1",
+        "field_io.6"
+      ],
+      "junctions": [
+        [
+          215.0,
+          172.5
+        ],
+        [
+          389.5,
+          172.5
+        ]
+      ],
+      "name": "in2",
+      "paths": [
+        [
+          [
+            215.0,
+            98.75
+          ],
+          [
+            215.0,
+            172.5
+          ],
+          [
+            389.5,
+            172.5
+          ],
+          [
+            389.5,
+            151.25
+          ]
+        ]
+      ]
+    },
+    {
+      "endpoints": [
+        "led_r1.2",
+        "led1.A"
+      ],
+      "junctions": [],
+      "name": "led1_anode",
+      "paths": [
+        [
+          [
+            336.0,
+            215.0
+          ],
+          [
+            356.0,
+            215.0
+          ]
+        ]
+      ]
+    },
+    {
+      "endpoints": [
+        "controller.PB2",
+        "led_r1.1"
+      ],
+      "junctions": [
+        [
+          300,
+          106.25
+        ],
+        [
+          300,
+          215.0
+        ]
+      ],
+      "name": "led1_drive",
+      "paths": [
+        [
+          [
+            295.0,
+            106.25
+          ],
+          [
+            300.0,
+            106.25
+          ],
+          [
+            300.0,
+            215.0
+          ],
+          [
+            304.0,
+            215.0
+          ]
+        ]
+      ]
+    },
+    {
+      "endpoints": [
+        "led_r2.2",
+        "led2.A"
+      ],
+      "junctions": [],
+      "name": "led2_anode",
+      "paths": [
+        [
+          [
+            336.0,
+            235.0
+          ],
+          [
+            356.0,
+            235.0
+          ]
+        ]
+      ]
+    },
+    {
+      "endpoints": [
+        "controller.PB3",
+        "led_r2.1"
+      ],
+      "junctions": [
+        [
+          292.5,
+          113.75
+        ],
+        [
+          292.5,
+          235.0
+        ]
+      ],
+      "name": "led2_drive",
+      "paths": [
+        [
+          [
+            295.0,
+            113.75
+          ],
+          [
+            292.5,
+            113.75
+          ],
+          [
+            292.5,
+            235.0
+          ],
+          [
+            304.0,
+            235.0
+          ]
+        ]
+      ]
+    },
+    {
+      "endpoints": [
+        "controller.PB0",
+        "field_io.1"
+      ],
+      "junctions": [
+        [
+          295.0,
+          132.5
+        ],
+        [
+          345.5,
+          132.5
+        ]
+      ],
+      "name": "out1",
+      "paths": [
+        [
+          [
+            295.0,
+            91.25
+          ],
+          [
+            295.0,
+            132.5
+          ],
+          [
+            345.5,
+            132.5
+          ],
+          [
+            345.5,
+            143.75
+          ]
+        ]
+      ]
+    },
+    {
+      "endpoints": [
+        "controller.PB1",
+        "field_io.2"
+      ],
+      "junctions": [
+        [
+          295.0,
+          142.5
+        ],
+        [
+          345.5,
+          142.5
+        ]
+      ],
+      "name": "out2",
+      "paths": [
+        [
+          [
+            295.0,
+            98.75
+          ],
+          [
+            295.0,
+            142.5
+          ],
+          [
+            345.5,
+            142.5
+          ],
+          [
+            345.5,
+            151.25
+          ]
+        ]
+      ]
+    },
+    {
+      "endpoints": [
+        "regulator.VOUT",
+        "bulk_cap.1",
+        "logic_cap.1",
+        "afe.3V3",
+        "controller.3V3A",
+        "controller.3V3D",
+        "debug.1",
+        "field_io.7"
+      ],
+      "junctions": [
+        [
+          151.5,
+          17.5
+        ],
+        [
+          177.5,
+          17.5
+        ],
+        [
+          202.5,
+          17.5
+        ],
+        [
+          157.5,
+          17.5
+        ],
+        [
+          251.25,
+          17.5
+        ],
+        [
+          258.75,
+          17.5
+        ],
+        [
+          336.0,
+          17.5
+        ],
+        [
+          389.5,
+          17.5
+        ]
+      ],
+      "name": "rail_3v3",
+      "paths": [
+        [
+          [
+            151.5,
+            32.5
+          ],
+          [
+            151.5,
+            17.5
+          ],
+          [
+            177.5,
+            17.5
+          ],
+          [
+            177.5,
+            43.5
+          ]
+        ],
+        [
+          [
+            151.5,
+            32.5
+          ],
+          [
+            151.5,
+            17.5
+          ],
+          [
+            202.5,
+            17.5
+          ],
+          [
+            202.5,
+            43.5
+          ]
+        ],
+        [
+          [
+            151.5,
+            32.5
+          ],
+          [
+            151.5,
+            17.5
+          ],
+          [
+            157.5,
+            17.5
+          ],
+          [
+            157.5,
+            115.0
+          ]
+        ],
+        [
+          [
+            151.5,
+            32.5
+          ],
+          [
+            151.5,
+            17.5
+          ],
+          [
+            251.25,
+            17.5
+          ],
+          [
+            251.25,
+            78.75
+          ]
+        ],
+        [
+          [
+            151.5,
+            32.5
+          ],
+          [
+            151.5,
+            17.5
+          ],
+          [
+            258.75,
+            17.5
+          ],
+          [
+            258.75,
+            78.75
+          ]
+        ],
+        [
+          [
+            151.5,
+            32.5
+          ],
+          [
+            151.5,
+            17.5
+          ],
+          [
+            336.0,
+            17.5
+          ],
+          [
+            336.0,
+            47.5
+          ]
+        ],
+        [
+          [
+            151.5,
+            32.5
+          ],
+          [
+            151.5,
+            17.5
+          ],
+          [
+            389.5,
+            17.5
+          ],
+          [
+            389.5,
+            158.75
+          ]
+        ]
+      ]
+    },
+    {
+      "endpoints": [
+        "controller.NRST",
+        "debug.9"
+      ],
+      "junctions": [
+        [
+          215.0,
+          100
+        ],
+        [
+          336.0,
+          100
+        ]
+      ],
+      "name": "reset_n",
+      "paths": [
+        [
+          [
+            215.0,
+            136.25
+          ],
+          [
+            215.0,
+            100.0
+          ],
+          [
+            336.0,
+            100.0
+          ],
+          [
+            336.0,
+            77.5
+          ]
+        ]
+      ]
+    },
+    {
+      "endpoints": [
+        "sensor.2",
+        "divider_top.1",
+        "afe.VINP"
+      ],
+      "junctions": [
+        [
+          51.0,
+          130
+        ],
+        [
+          71.5,
+          130
+        ],
+        [
+          128.5,
+          130
+        ]
+      ],
+      "name": "sensor_signal",
+      "paths": [
+        [
+          [
+            51.0,
+            142.5
+          ],
+          [
+            51.0,
+            130.0
+          ],
+          [
+            71.5,
+            130.0
+          ],
+          [
+            71.5,
+            135.0
+          ]
+        ],
+        [
+          [
+            51.0,
+            142.5
+          ],
+          [
+            51.0,
+            130.0
+          ],
+          [
+            128.5,
+            130.0
+          ],
+          [
+            128.5,
+            132.5
+          ]
+        ]
+      ]
+    },
+    {
+      "endpoints": [
+        "controller.SWCLK",
+        "debug.4"
+      ],
+      "junctions": [
+        [
+          295.0,
+          80
+        ],
+        [
+          384.0,
+          80
+        ]
+      ],
+      "name": "swclk",
+      "paths": [
+        [
+          [
+            295.0,
+            128.75
+          ],
+          [
+            295.0,
+            80.0
+          ],
+          [
+            384.0,
+            80.0
+          ],
+          [
+            384.0,
+            55.0
+          ]
+        ]
+      ]
+    },
+    {
+      "endpoints": [
+        "controller.SWDIO",
+        "debug.2"
+      ],
+      "junctions": [
+        [
+          295.0,
+          70
+        ],
+        [
+          384.0,
+          70
+        ]
+      ],
+      "name": "swdio",
+      "paths": [
+        [
+          [
+            295.0,
+            121.25
+          ],
+          [
+            295.0,
+            70.0
+          ],
+          [
+            384.0,
+            70.0
+          ],
+          [
+            384.0,
+            47.5
+          ]
+        ]
+      ]
+    },
+    {
+      "endpoints": [
+        "controller.PA2",
+        "debug.6"
+      ],
+      "junctions": [
+        [
+          215.0,
+          90
+        ],
+        [
+          384.0,
+          90
+        ]
+      ],
+      "name": "swo",
+      "paths": [
+        [
+          [
+            215.0,
+            106.25
+          ],
+          [
+            215.0,
+            90.0
+          ],
+          [
+            384.0,
+            90.0
+          ],
+          [
+            384.0,
+            62.5
+          ]
+        ]
+      ]
+    },
+    {
+      "endpoints": [
+        "power_in.1",
+        "fuse.1"
+      ],
+      "junctions": [
+        [
+          39.0,
+          32.5
+        ],
+        [
+          54.0,
+          32.5
+        ]
+      ],
+      "name": "vin_24",
+      "paths": [
+        [
+          [
+            39.0,
+            31.5
+          ],
+          [
+            39.0,
+            32.5
+          ],
+          [
+            54.0,
+            32.5
+          ]
+        ]
+      ]
+    },
+    {
+      "endpoints": [
+        "fuse.2",
+        "tvs.K",
+        "regulator.VIN",
+        "sensor.1"
+      ],
+      "junctions": [
+        [
+          86.0,
+          42.5
+        ],
+        [
+          102.5,
+          42.5
+        ],
+        [
+          103.5,
+          42.5
+        ],
+        [
+          51.0,
+          42.5
+        ]
+      ],
+      "name": "vin_fused",
+      "paths": [
+        [
+          [
+            86.0,
+            32.5
+          ],
+          [
+            86.0,
+            42.5
+          ],
+          [
+            102.5,
+            42.5
+          ],
+          [
+            102.5,
+            43.5
+          ]
+        ],
+        [
+          [
+            86.0,
+            32.5
+          ],
+          [
+            86.0,
+            42.5
+          ],
+          [
+            103.5,
+            42.5
+          ],
+          [
+            103.5,
+            32.5
+          ]
+        ],
+        [
+          [
+            86.0,
+            32.5
+          ],
+          [
+            86.0,
+            42.5
+          ],
+          [
+            51.0,
+            42.5
+          ],
+          [
+            51.0,
+            134.5
+          ]
+        ]
+      ]
+    },
+    {
+      "endpoints": [
+        "afe.VREF",
+        "controller.ADC1"
+      ],
+      "junctions": [
+        [
+          215,
+          152.5
+        ],
+        [
+          215,
+          128.75
+        ]
+      ],
+      "name": "vref",
+      "paths": [
+        [
+          [
+            128.5,
+            152.5
+          ],
+          [
+            215.0,
+            152.5
+          ],
+          [
+            215.0,
+            128.75
+          ]
+        ]
+      ]
+    }
+  ],
+  "project": {
+    "id": "demo.electronics:grid-controller",
+    "profile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "title": "Grid Controller and Sensor Interface"
+  },
+  "renderer": {
+    "id": "aixem-grid-schematic-reference-renderer",
+    "version": "0.5.1"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/resolved-scene/1",
+  "sheet": {
+    "height": 260,
+    "margin": 10,
+    "titleBlock": {
+      "drawing": "AIXEM-ELEC-040",
+      "revision": "A",
+      "sheet": "1/1",
+      "title": "Grid Controller and Sensor Interface"
+    },
+    "width": 420
+  },
+  "statistics": {
+    "entities": 17,
+    "nets": 20,
+    "noConnects": 12,
+    "primitives": 155,
+    "routeSegments": 126,
+    "symbolAssets": 12
+  },
+  "styleProfile": {
+    "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+    "id": "aixem.schematic.grid-light",
+    "path": "aixem-grid-schematic-style-1.aixstyle.json"
+  }
+}

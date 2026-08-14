@@ -1,0 +1,64 @@
+{
+  "card": {
+    "aliases": [
+      "symbol anatomy",
+      "symbol structure",
+      "symbol parts"
+    ],
+    "appliesTo": [
+      "symbol-structure"
+    ],
+    "domain": "symbols",
+    "estimatedReadBytes": 5587,
+    "id": "AIXEM-SYMBOL-ANATOMY-001",
+    "inputs": [],
+    "keywords": [
+      "Symbol Anatomy",
+      "create-symbol",
+      "symbol anatomy",
+      "symbol parts",
+      "symbol structure"
+    ],
+    "kind": "concept",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/symbols/symbol-anatomy.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:87fcae6e87461078791885a2c84e1d3b8fc57bad66b6a38130731bd664341ce1"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-CONCEPT-SYMBOL-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-SYMBOL-0001",
+        "level": "must",
+        "text": "**MUST.** Every symbol asset MUST declare deterministic bounds and an origin."
+      },
+      {
+        "id": "AIXEM-REQ-SYMBOL-0002",
+        "level": "must",
+        "text": "**MUST.** Every visible symbol port MUST have a unique port ID and a valid endpoint binding."
+      },
+      {
+        "id": "AIXEM-REQ-SYMBOL-0003",
+        "level": "must",
+        "text": "**MUST.** Port and field anchors MUST be compatible with the active schematic grid profile."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SYMBOL-ANATOMY-001",
+        "path": "docs/symbols/symbol-anatomy.md"
+      }
+    ],
+    "summary": "Defines symbol coordinate space, body bounds, ports, labels, fields, anchors, variants, and reusable definitions.",
+    "title": "Symbol Anatomy"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

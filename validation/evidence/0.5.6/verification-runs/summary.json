@@ -1,0 +1,35 @@
+{
+  "cycles": [
+    {
+      "cycle": 1,
+      "durationSeconds": 158.234629,
+      "evidence": "run-01/summary.json",
+      "status": "PASS"
+    },
+    {
+      "cycle": 2,
+      "durationSeconds": 160.512969,
+      "evidence": "run-02/summary.json",
+      "status": "PASS"
+    },
+    {
+      "cycle": 3,
+      "durationSeconds": 155.302441,
+      "evidence": "run-03/summary.json",
+      "status": "PASS"
+    }
+  ],
+  "engineeringImplementationComplete": true,
+  "engineeringVerificationPasses": 3,
+  "externalTierBExecuted": false,
+  "formatVersion": "1.0",
+  "fullPlanDefinitionOfDone": false,
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "liveClaimAuthorized": false,
+  "liveExternalAgentExecuted": false,
+  "release": "AIXEM-SRP-0.5.6-2026-08-12",
+  "requiredEngineeringVerificationPasses": 3,
+  "schema": "https://schemas.aixem.org/validation/live-agent-cold-start-verification-summary/1",
+  "status": "PASS_WITH_EXTERNAL_TIER_B_PENDING",
+  "valid": true
+}

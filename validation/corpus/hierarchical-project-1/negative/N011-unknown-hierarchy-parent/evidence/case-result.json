@@ -1,0 +1,15 @@
+{
+  "canonicalHashes": {},
+  "checks": [],
+  "deterministic": true,
+  "diagnosticMatched": true,
+  "error": "PROJECT_HIERARCHY_UNKNOWN_PARENT: sheet control references unknown parent missing",
+  "expected": "fail",
+  "expectedDiagnostic": "PROJECT_HIERARCHY_UNKNOWN_PARENT",
+  "id": "N011",
+  "observed": "fail",
+  "projectDigest": "sha256:00fea1ea04e369364c1e610e9684de6ab320b1fe9a2b29b5bafa25f15b3538d3",
+  "repeatCount": 0,
+  "status": "pass",
+  "title": "Unknown hierarchy parent"
+}

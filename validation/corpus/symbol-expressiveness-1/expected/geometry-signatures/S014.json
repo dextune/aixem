@@ -1,0 +1,83 @@
+{
+  "bounds": {
+    "height": 60,
+    "width": 60,
+    "x": -30,
+    "y": -30
+  },
+  "capabilities": [
+    "geometry.circle",
+    "geometry.line",
+    "geometry.rect",
+    "parameter.numeric",
+    "port.mapping",
+    "text.field",
+    "visibility.predicate"
+  ],
+  "case": "S014",
+  "defaultVariant": null,
+  "definitions": [],
+  "fieldAnchors": [
+    {
+      "field": "reference",
+      "id": "field-reference",
+      "x": 0,
+      "y": -25
+    },
+    {
+      "field": "value",
+      "id": "field-value",
+      "x": 0,
+      "y": 25
+    }
+  ],
+  "parameters": {
+    "show-link": true
+  },
+  "ports": [
+    {
+      "id": "A1",
+      "orientation": 180,
+      "visible": true,
+      "x": -25.0,
+      "y": -10.0
+    },
+    {
+      "id": "A2",
+      "orientation": 180,
+      "visible": true,
+      "x": -25.0,
+      "y": 10.0
+    },
+    {
+      "id": "COM",
+      "orientation": 0,
+      "visible": true,
+      "x": 25.0,
+      "y": 0.0
+    },
+    {
+      "id": "NC",
+      "orientation": 0,
+      "visible": true,
+      "x": 25.0,
+      "y": -10.0
+    },
+    {
+      "id": "NO",
+      "orientation": 0,
+      "visible": true,
+      "x": 25.0,
+      "y": 10.0
+    }
+  ],
+  "primitiveCounts": {
+    "circle": 3,
+    "line": 11,
+    "rect": 2,
+    "text": 2
+  },
+  "requiredFeatures": [],
+  "symbol": "corpus:s014-relay-spdt",
+  "variants": []
+}

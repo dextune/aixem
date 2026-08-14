@@ -1,0 +1,115 @@
+{
+  "agents": {
+    "agentEvaluation2": {
+      "cases": 12,
+      "failed": 0,
+      "passed": 12
+    },
+    "agentEvaluation3": {
+      "cases": 12,
+      "corpusCasesValid": 12,
+      "deterministicStages": 12,
+      "fairInvariantCases": 12,
+      "faultFixtures": {
+        "failed": 0,
+        "faults": 10,
+        "passed": 10
+      },
+      "protocolFixtureValid": true,
+      "readyRoutes": 8,
+      "successFixtures": {
+        "failed": 0,
+        "fixtures": 4,
+        "passed": 4
+      }
+    },
+    "errors": [],
+    "externalTierBExecuted": false,
+    "liveClaimAuthorized": false,
+    "liveExternalAgentExecuted": false,
+    "preLiveReadiness": true,
+    "valid": true
+  },
+  "claimBoundaries": {
+    "externalTierBExecuted": false,
+    "fullErcImplemented": false,
+    "globalAutoLayoutImplemented": false,
+    "liveClaimAuthorized": false,
+    "liveExternalAgentExecuted": false,
+    "renderPassIsStructuralOnly": true,
+    "simulationImplemented": false
+  },
+  "corpora": {
+    "errors": [],
+    "hierarchical": {
+      "cases": 30,
+      "deterministic": 30,
+      "expectedFailures": 18,
+      "failed": 0,
+      "passed": 30,
+      "positive": 12
+    },
+    "referenceViewer": {
+      "cases": 18,
+      "deterministicRuns": 3,
+      "failed": 0,
+      "passed": 18,
+      "skipped": 0
+    },
+    "static2DBlockCases": 6,
+    "symbolCases": 30,
+    "valid": true
+  },
+  "documentation": {
+    "canonicalDocuments": 158,
+    "humanAuthoredMarkdown": 268,
+    "normativeDocuments": 98,
+    "orphans": 0,
+    "repositoryMarkdown": 290,
+    "requirements": 262,
+    "routes": 16,
+    "silentGaps": 0,
+    "sourceBackedSnippets": 18,
+    "unknownRoles": 0
+  },
+  "errors": [],
+  "findingsCorrected": [
+    "Agent Evaluation 3 success fixture L008 retained a deleted legacy symbol path after example migration; the fixture was corrected to the canonical library path.",
+    "Source-backed snippets in five canonical documents retained deleted libraries/symbols paths; ten references were corrected and two changed JSON snippets were synchronized from authoritative examples.",
+    "Release pointers, aliases, artifact ownership, planning registry, and validation indexes were aligned to 0.5.9.",
+    "The Grid Controller and eight current authoring examples were migrated through their owning generators while their committed drawing SVG digests remained byte-identical."
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "implementationMatrix": "validation/releases/0.5.9/implementation-matrix.json",
+  "plan": {
+    "path": "planning/releases/0.5.9/integrated-authoring-library-pin-semantics-and-agent-placement-hardening.md",
+    "sha256": "fac80db33ab6983c1ae367c6297748a87cfd6b3b4f28a9857c6fb5ed10b5ce2f"
+  },
+  "protectedBaseline": {
+    "records": 47,
+    "valid": true
+  },
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "repositoryTests": {
+    "failedModules": 0,
+    "moduleCount": 29,
+    "successful": true,
+    "testsRun": 218
+  },
+  "schema": "https://schemas.aixem.org/validation/final-release-report/1",
+  "status": "PASS",
+  "valid": true,
+  "verification": {
+    "allPass": true,
+    "completedConsecutivePasses": 5,
+    "requiredConsecutivePasses": 5,
+    "runs": [
+      "validation/evidence/0.5.9/verification-runs/run-01/summary.json",
+      "validation/evidence/0.5.9/verification-runs/run-02/summary.json",
+      "validation/evidence/0.5.9/verification-runs/run-03/summary.json",
+      "validation/evidence/0.5.9/verification-runs/run-04/summary.json",
+      "validation/evidence/0.5.9/verification-runs/run-05/summary.json"
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "canonicalHashes": {
+    "project-composite.svg": "sha256:c3c6d06b2a4c6acc297a5b18577bf77cd104974e566ca4ca3816f8395c014832",
+    "project-overview.svg": "sha256:1c170ee0870778565102516f0831abc79a1f48b7c5834de0dbc50f009d8e998b",
+    "resolved-project-scene.json": "sha256:cd6472d56d9bcbdc86db0f82a4ec22c4aeeb208f1071281bf72085f37b1be873",
+    "sheets/control.resolved-scene.json": "sha256:495741a61badf576169f51bceb52584951848438859459120eb0d236d223d9ab",
+    "sheets/control.svg": "sha256:14349446024b2512a1290cec3f63bad9434669f27b4a0833f650abca3cc4e55e",
+    "sheets/power.resolved-scene.json": "sha256:91c34e0b7e90aab24921635a9f92fb7864cce58dc0a5581ff3aa52dc9203fb07",
+    "sheets/power.svg": "sha256:6a0eaaca4c8e4b6e0943ad4e682a29760b0db80a4dc94cc4fb420e170179477b",
+    "viewer-model.json": "sha256:c772b2b46682bd57aa10afb4d134dc3d32ec218178948214756545f74140247d",
+    "viewer.html": "sha256:6e7ec87f0ec9ea531cd8481d9c5419aa785379a287d703c930aebbefa68754ae",
+    "workbench.html": "sha256:45cf4ddd0ac06c9dec841eea332386696de91c5a6a9d9007ec50b545e9254154"
+  },
+  "checks": [
+    {
+      "id": "PROJECT_SHEET_COUNT",
+      "observation": 2,
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_GRAPH_PRESENT",
+      "observation": [
+        "identities",
+        "projectNets",
+        "unconnectedPorts"
+      ],
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_AUTHORITY",
+      "observation": {
+        "connectivityFromGeometry": false,
+        "layersAreSheets": false,
+        "localPresentation": "aixlayout/2",
+        "localSemantics": ".aixem",
+        "projectComposition": "aixproj/2"
+      },
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_LAYER_AUTHORITY",
+      "observation": {
+        "connectivityFromGeometry": false,
+        "layersAreSheets": false,
+        "localPresentation": "aixlayout/2",
+        "localSemantics": ".aixem",
+        "projectComposition": "aixproj/2"
+      },
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_ROUTES_ORTHOGONAL",
+      "observation": "overview+composite",
+      "status": "pass"
+    },
+    {
+      "id": "PROJECT_WORKBENCH_DATA_DRIVEN",
+      "observation": "resolved hierarchy",
+      "status": "pass"
+    },
+    {
+      "id": "H011_DIGEST_LOCK",
+      "observation": [
+        {
+          "layoutDigest": "sha256:8abd78ab29b80c35d02cf71522e3a18d688f56c30c6a7646f427cb0aaf4cdcd1",
+          "layoutPath": "layouts/power.aixlayout.json",
+          "resolvedSceneDigest": "sha256:91c34e0b7e90aab24921635a9f92fb7864cce58dc0a5581ff3aa52dc9203fb07",
+          "sheet": "power",
+          "sourceDigest": "sha256:d0aa08872cea9feae7dd70fce75b2e5ac95def91642321179f003411995471a9",
+          "sourcePath": "circuits/power.aixem",
+          "svgDigest": "sha256:6a0eaaca4c8e4b6e0943ad4e682a29760b0db80a4dc94cc4fb420e170179477b"
+        },
+        {
+          "layoutDigest": "sha256:265c307a7d8e6282a51d60219279dab5408018da677ec9844309ec201e53c27b",
+          "layoutPath": "layouts/control.aixlayout.json",
+          "resolvedSceneDigest": "sha256:495741a61badf576169f51bceb52584951848438859459120eb0d236d223d9ab",
+          "sheet": "control",
+          "sourceDigest": "sha256:01693a46688a08dad6cf0be690dcc5862017948a951743184527332708fe1377",
+          "sourcePath": "circuits/control.aixem",
+          "svgDigest": "sha256:14349446024b2512a1290cec3f63bad9434669f27b4a0833f650abca3cc4e55e"
+        }
+      ],
+      "status": "pass"
+    }
+  ],
+  "deterministic": true,
+  "diagnosticMatched": true,
+  "error": null,
+  "expected": "pass",
+  "expectedDiagnostic": null,
+  "id": "H011",
+  "observed": "pass",
+  "projectDigest": "sha256:d264a4691030d1d0343d45c8d70cd52d0f5929cca2f60fdac933d1ba24468984",
+  "repeatCount": 3,
+  "status": "pass",
+  "title": "Digest locked multi sheet project"
+}

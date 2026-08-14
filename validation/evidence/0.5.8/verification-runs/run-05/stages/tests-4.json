@@ -1,0 +1,104 @@
+{
+  "command": {
+    "command": [
+      "/opt/pyvenv/bin/python",
+      "tools/run_tests_058.py",
+      "--shard-count",
+      "8",
+      "--shard-index",
+      "4",
+      "--output",
+      "/mnt/data/aixem058-cycle-05-test-shard-4.json"
+    ],
+    "durationSeconds": 5.160174,
+    "label": "cycle 5 repository tests shard 4",
+    "returnCode": 0,
+    "status": "PASS",
+    "stderrTail": "",
+    "stdoutTail": "[tests] START tests.agent.test_cold_start_stage\n[tests] PASS tests.agent.test_cold_start_stage (3 tests, 1.916564s)\n[tests] START tests.agent.test_run_record\n[tests] PASS tests.agent.test_run_record (3 tests, 1.328634s)\n[tests] START tests.docs.test_authoring_reference\n[tests] PASS tests.docs.test_authoring_reference (2 tests, 1.370591s)\n{\"failedModules\": 0, \"modules\": 3, \"successful\": true, \"testsRun\": 8}\n",
+    "valid": true
+  },
+  "cycle": 5,
+  "externalResult": "/mnt/data/aixem058-cycle-05-test-shard-4.json",
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "release": "AIXEM-SRP-0.5.8-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/pre-live-readiness-verification-stage/1",
+  "stage": "tests-4",
+  "status": "PASS",
+  "tests": {
+    "durationSeconds": 4.616183,
+    "errors": [],
+    "executionMode": "isolated-test-module-processes",
+    "failedModules": 0,
+    "failures": [],
+    "formatVersion": "1.0",
+    "generatedAt": "2026-08-12T00:00:00Z",
+    "moduleCount": 3,
+    "modules": [
+      {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "-m",
+          "unittest",
+          "-v",
+          "tests.agent.test_cold_start_stage"
+        ],
+        "durationSeconds": 1.916564,
+        "module": "tests.agent.test_cold_start_stage",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "test_all_l001_l012_stages_are_deterministic_valid_and_oracle_free (tests.agent.test_cold_start_stage.ColdStartStageContractTests.test_all_l001_l012_stages_are_deterministic_valid_and_oracle_free) ... ok\ntest_fresh_attempt_destination_must_be_empty (tests.agent.test_cold_start_stage.ColdStartStageContractTests.test_fresh_attempt_destination_must_be_empty) ... ok\ntest_symlinks_in_start_state_fail_closed (tests.agent.test_cold_start_stage.ColdStartStageContractTests.test_symlinks_in_start_state_fail_closed) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.600s\n\nOK\n",
+        "stdoutTail": "",
+        "testsRun": 3,
+        "valid": true
+      },
+      {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "-m",
+          "unittest",
+          "-v",
+          "tests.agent.test_run_record"
+        ],
+        "durationSeconds": 1.328634,
+        "module": "tests.agent.test_run_record",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "test_blocking_diagnostic_prevents_closure (tests.agent.test_run_record.AgentRunRecordTests.test_blocking_diagnostic_prevents_closure) ... ok\ntest_closed_record_is_schema_valid_and_deterministic (tests.agent.test_run_record.AgentRunRecordTests.test_closed_record_is_schema_valid_and_deterministic) ... ok\ntest_stalled_and_oscillating_state_detection (tests.agent.test_run_record.AgentRunRecordTests.test_stalled_and_oscillating_state_detection) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.008s\n\nOK\n",
+        "stdoutTail": "",
+        "testsRun": 3,
+        "valid": true
+      },
+      {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "-m",
+          "unittest",
+          "-v",
+          "tests.docs.test_authoring_reference"
+        ],
+        "durationSeconds": 1.370591,
+        "module": "tests.docs.test_authoring_reference",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "test_schema_reference_coverage (tests.docs.test_authoring_reference.AuthoringReferenceTests.test_schema_reference_coverage) ... ok\ntest_source_backed_snippets (tests.docs.test_authoring_reference.AuthoringReferenceTests.test_source_backed_snippets) ... ok\n\n----------------------------------------------------------------------\nRan 2 tests in 0.007s\n\nOK\n",
+        "stdoutTail": "",
+        "testsRun": 2,
+        "valid": true
+      }
+    ],
+    "passedModules": 3,
+    "release": "AIXEM-SRP-0.5.8-2026-08-12",
+    "schema": "https://schemas.aixem.org/validation/test-run-shard/1",
+    "shard": {
+      "count": 8,
+      "index": 4,
+      "totalDiscoveredModules": 26
+    },
+    "skipped": [],
+    "successful": true,
+    "testsRun": 8
+  },
+  "valid": true
+}

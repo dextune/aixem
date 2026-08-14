@@ -1,0 +1,84 @@
+{
+  "card": {
+    "aliases": [
+      "renderer contract",
+      "field precedence",
+      "variant precedence"
+    ],
+    "appliesTo": [
+      "renderer-resolution-contract"
+    ],
+    "domain": "specifications",
+    "estimatedReadBytes": 11782,
+    "id": "AIXEM-SPEC-RENDERER-001",
+    "inputs": [],
+    "keywords": [
+      "Renderer Contract 1",
+      "create-schematic",
+      "create-symbol",
+      "field precedence",
+      "render-review",
+      "renderer contract",
+      "validate-project",
+      "variant precedence"
+    ],
+    "kind": "specification",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/specifications/renderer/renderer-contract.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:8843908e7bb5164f14a9b9877163529b67c2765d29fcd6c8f440eb653b180152"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SPEC-SYMBOL-001",
+      "AIXEM-SPEC-LAYOUT-001",
+      "AIXEM-SPEC-PROJECT-LOCK-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-RENDERER-0001",
+        "level": "must",
+        "text": "**MUST.** The renderer MUST select variants in placement, presentation default, then symbol default precedence order."
+      },
+      {
+        "id": "AIXEM-REQ-RENDERER-0002",
+        "level": "must",
+        "text": "**MUST.** The renderer MUST resolve parameters from symbol defaults, selected variant defaults, and placement overrides in that order."
+      },
+      {
+        "id": "AIXEM-REQ-RENDERER-0003",
+        "level": "must",
+        "text": "**MUST.** The renderer MUST resolve fields from identity defaults, presentation mappings, semantic entity attributes, and placement field overrides in that order."
+      },
+      {
+        "id": "AIXEM-REQ-RENDERER-0004",
+        "level": "must",
+        "text": "**MUST.** The renderer MUST expose routed port positions under semantic component port IDs after symbol-port mapping and placement transformation."
+      },
+      {
+        "id": "AIXEM-REQ-RENDERER-0005",
+        "level": "must",
+        "text": "**MUST.** The renderer MUST reject missing or mismatched locked assets, unresolved mappings, hidden mapped ports, and unsupported required features."
+      },
+      {
+        "id": "AIXEM-REQ-RENDERER-0006",
+        "level": "must",
+        "text": "**MUST.** Equivalent locked inputs MUST produce byte-stable SVG, resolved-scene, Viewer Model, viewer, workbench, and render-manifest outputs."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SPEC-RENDERER-001",
+        "path": "docs/specifications/renderer/renderer-contract.md"
+      }
+    ],
+    "summary": "Defines deterministic component presentation selection, field and variant precedence, port transforms, route binding, and renderer evidence.",
+    "title": "Renderer Contract 1"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

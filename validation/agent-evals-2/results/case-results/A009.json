@@ -1,0 +1,28 @@
+{
+  "entryRoute": "create-schematic",
+  "executionMode": "deterministic-harness-replay",
+  "expectedInitialDiagnostics": [
+    "AIXEM-DIAG-SEMANTIC-NET-CLOSURE"
+  ],
+  "id": "A009",
+  "iterations": 1,
+  "liveExternalAgentExecuted": false,
+  "missingExpectedDiagnostics": [],
+  "mutation": "duplicate-semantic-net",
+  "observedInitialDiagnostics": [
+    "AIXEM-DIAG-SEMANTIC-NET-CLOSURE"
+  ],
+  "passConditions": {
+    "checkPassedAfterRepair": true,
+    "closePassed": true,
+    "expectedInitialDiagnosticsObserved": true,
+    "liveClaimFalse": true,
+    "renderDeterministic": true,
+    "zeroGeneratedOutputEdits": true,
+    "zeroScopeViolations": true
+  },
+  "recordDigest": "sha256:d2ba7b29cee6027e4734d69e5014ad6d53572b99b6da2a694402799d3f7463d3",
+  "retainedRunRecord": "runs/A009-authoring-run-record.json",
+  "status": "pass",
+  "title": "Correct-looking wire on wrong semantic net"
+}

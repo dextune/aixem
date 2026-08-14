@@ -1,0 +1,117 @@
+{
+  "coordinateSystem": {
+    "angleDirection": "clockwise",
+    "angleUnit": "deg",
+    "grid": 2.5,
+    "unit": "mm",
+    "yAxis": "down"
+  },
+  "diagnostics": [],
+  "entities": [
+    {
+      "componentType": "conformance:b005",
+      "key": "X1",
+      "kind": "component",
+      "parameters": {},
+      "placement": {
+        "entity": "X1",
+        "layer": "symbols",
+        "x": 67.5,
+        "y": 57.5
+      },
+      "ports": {},
+      "reference": "X1",
+      "symbolDigest": "sha256:45670811d459a234b28e512c3553d7a621d914a68e866262fa78dbf894377634",
+      "symbolId": "corpus:b005-dimensioned-outline",
+      "value": "Dimensioned 2D outline",
+      "variant": null
+    }
+  ],
+  "featuresUsed": [
+    "dimension"
+  ],
+  "generatedAt": "2026-08-10T00:00:00Z",
+  "gridValidation": {
+    "crossingPolicy": "junction-required",
+    "orthogonalSegments": 0,
+    "placementExceptions": [],
+    "placements": 1,
+    "placementsOnGrid": 1,
+    "profile": "aixem.schematic.grid-light",
+    "routeSegments": 0,
+    "routeViasOnGrid": true,
+    "snap": 2.5,
+    "zeroLengthSegments": []
+  },
+  "hashes": {
+    "layout": "sha256:95530f6ac7abfdfe2d4afb574dfd19eae9613b9dbfb60fb9866362e435bb1e6d",
+    "libraries": [
+      "sha256:526db5f472beecb832c6ec400055c7db03edbd8d19905293c3c7a4d662796b7e"
+    ],
+    "source": "sha256:72018ffce812de8f602d4525d70d09ead6b3348a35f180456f3a8c4ac4f7aeb4",
+    "symbolAssets": [
+      "sha256:45670811d459a234b28e512c3553d7a621d914a68e866262fa78dbf894377634"
+    ]
+  },
+  "layers": [
+    {
+      "defaultVisible": true,
+      "id": "connections",
+      "locked": false,
+      "order": 10,
+      "printable": true,
+      "purpose": "semantic net routes"
+    },
+    {
+      "defaultVisible": true,
+      "id": "symbols",
+      "locked": false,
+      "order": 20,
+      "printable": true,
+      "purpose": "component symbols"
+    },
+    {
+      "defaultVisible": true,
+      "id": "annotation",
+      "locked": false,
+      "order": 30,
+      "printable": true,
+      "purpose": "notes"
+    }
+  ],
+  "nets": [],
+  "project": {
+    "id": "conformance:b005",
+    "profile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "title": "B005 Dimensioned 2D outline conformance project"
+  },
+  "renderer": {
+    "id": "aixem-grid-schematic-reference-renderer",
+    "version": "0.5.1"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/resolved-scene/1",
+  "sheet": {
+    "height": 140.0,
+    "margin": 10,
+    "titleBlock": {
+      "drawing": "corpus_b005-layout",
+      "revision": "A",
+      "sheet": "1/1",
+      "title": "B005 — Dimensioned 2D outline"
+    },
+    "width": 180.0
+  },
+  "statistics": {
+    "entities": 1,
+    "nets": 0,
+    "noConnects": 0,
+    "primitives": 4,
+    "routeSegments": 0,
+    "symbolAssets": 1
+  },
+  "styleProfile": {
+    "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+    "id": "aixem.schematic.grid-light",
+    "path": "aixem-grid-schematic-style-1.aixstyle.json"
+  }
+}

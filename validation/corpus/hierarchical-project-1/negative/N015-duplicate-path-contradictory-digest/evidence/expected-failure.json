@@ -1,0 +1,7 @@
+{
+  "case": "N015",
+  "expectedDiagnostic": "PROJECT_REFERENCE_DIGEST_CONFLICT",
+  "matched": true,
+  "observedError": "PROJECT_REFERENCE_DIGEST_CONFLICT: sheet[control].source reuses circuits/power.aixem with digest sha256:1111111111111111111111111111111111111111111111111111111111111111 but sheet[power].source declared sha256:f295c02b5a77db52e290715ec1295130eb10ed12c627094088dd803eb9c2c8d2",
+  "status": "pass"
+}

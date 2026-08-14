@@ -1,0 +1,354 @@
+{
+  "$id": "https://schemas.aixem.org/agent/run-record/1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AIXEM Agent Authoring Run Record 1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "formatVersion",
+    "release",
+    "generatedAt",
+    "runId",
+    "taskId",
+    "entryRoute",
+    "activeRoute",
+    "taskPacketDigest",
+    "execution",
+    "baseline",
+    "routeChain",
+    "iterations",
+    "loopState",
+    "final",
+    "recordDigest"
+  ],
+  "properties": {
+    "schema": {
+      "const": "https://schemas.aixem.org/agent/run-record/1"
+    },
+    "formatVersion": {
+      "const": "1.0"
+    },
+    "release": {
+      "type": "string",
+      "minLength": 1
+    },
+    "generatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "runId": {
+      "type": "string",
+      "pattern": "^run-[0-9a-f]{20}$"
+    },
+    "taskId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entryRoute": {
+      "$ref": "#/$defs/route"
+    },
+    "activeRoute": {
+      "$ref": "#/$defs/route"
+    },
+    "taskPacketDigest": {
+      "$ref": "#/$defs/digest"
+    },
+    "execution": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mode",
+        "liveExternalAgentExecuted"
+      ],
+      "properties": {
+        "mode": {
+          "type": "string",
+          "minLength": 1
+        },
+        "liveExternalAgentExecuted": {
+          "type": "boolean"
+        },
+        "executor": {
+          "type": "object"
+        }
+      }
+    },
+    "baseline": {
+      "$ref": "#/$defs/snapshotSummary"
+    },
+    "routeChain": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/route"
+      }
+    },
+    "iterations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/iteration"
+      }
+    },
+    "loopState": {
+      "$ref": "#/$defs/loopState"
+    },
+    "final": {
+      "$ref": "#/$defs/final"
+    },
+    "recordDigest": {
+      "$ref": "#/$defs/digest"
+    }
+  },
+  "$defs": {
+    "digest": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "nullableDigest": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "route": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+    },
+    "safePath": {
+      "type": "string",
+      "minLength": 1,
+      "not": {
+        "pattern": "(^/|(^|/)\\.\\.(/|$)|^[A-Za-z]:)"
+      }
+    },
+    "digestMap": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "#/$defs/safePath"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/digest"
+      }
+    },
+    "snapshotSummary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "snapshotDigest",
+        "authoritativeDigest",
+        "artifactDigests"
+      ],
+      "properties": {
+        "snapshotDigest": {
+          "$ref": "#/$defs/digest"
+        },
+        "authoritativeDigest": {
+          "$ref": "#/$defs/digest"
+        },
+        "artifactDigests": {
+          "$ref": "#/$defs/digestMap"
+        }
+      }
+    },
+    "diagnostic": {
+      "$ref": "https://schemas.aixem.org/agent/diagnostic/1"
+    },
+    "changeSet": {
+      "$ref": "https://schemas.aixem.org/agent/change-set/1"
+    },
+    "iteration": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "iteration",
+        "route",
+        "stage",
+        "diagnosticsBefore",
+        "diagnosticStateBefore",
+        "blockingBefore",
+        "changeSet",
+        "changeSetDigest",
+        "authoritativeDigestBefore",
+        "authoritativeDigestAfter",
+        "diagnosticsAfter",
+        "diagnosticStateAfter",
+        "blockingAfter",
+        "validatorsExecuted",
+        "renderedEvidence",
+        "improved"
+      ],
+      "properties": {
+        "iteration": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "route": {
+          "$ref": "#/$defs/route"
+        },
+        "stage": {
+          "type": "string",
+          "minLength": 1
+        },
+        "diagnosticsBefore": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/diagnostic"
+          }
+        },
+        "diagnosticStateBefore": {
+          "$ref": "#/$defs/digest"
+        },
+        "blockingBefore": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "changeSet": {
+          "$ref": "#/$defs/changeSet"
+        },
+        "changeSetDigest": {
+          "$ref": "#/$defs/digest"
+        },
+        "authoritativeDigestBefore": {
+          "$ref": "#/$defs/nullableDigest"
+        },
+        "authoritativeDigestAfter": {
+          "$ref": "#/$defs/nullableDigest"
+        },
+        "diagnosticsAfter": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/diagnostic"
+          }
+        },
+        "diagnosticStateAfter": {
+          "$ref": "#/$defs/digest"
+        },
+        "blockingAfter": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "validatorsExecuted": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "renderedEvidence": {
+          "$ref": "#/$defs/digestMap"
+        },
+        "improved": {
+          "type": "boolean"
+        }
+      }
+    },
+    "loopState": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "stalled",
+        "oscillating",
+        "atIteration",
+        "stateDigest"
+      ],
+      "properties": {
+        "stalled": {
+          "type": "boolean"
+        },
+        "oscillating": {
+          "type": "boolean"
+        },
+        "atIteration": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "stateDigest": {
+          "$ref": "#/$defs/nullableDigest"
+        }
+      }
+    },
+    "determinism": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "valid"
+      ],
+      "properties": {
+        "valid": {
+          "type": "boolean"
+        }
+      }
+    },
+    "final": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "conformant",
+        "snapshotDigest",
+        "authoritativeDigest",
+        "authoritativeArtifactDigests",
+        "renderArtifactDigests",
+        "diagnostics",
+        "diagnosticCount",
+        "blockingDiagnosticCount",
+        "scopeViolationCount",
+        "generatedOutputEditCount",
+        "determinism"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "CLOSED",
+            "BLOCKED"
+          ]
+        },
+        "conformant": {
+          "type": "boolean"
+        },
+        "snapshotDigest": {
+          "$ref": "#/$defs/digest"
+        },
+        "authoritativeDigest": {
+          "$ref": "#/$defs/digest"
+        },
+        "authoritativeArtifactDigests": {
+          "$ref": "#/$defs/digestMap"
+        },
+        "renderArtifactDigests": {
+          "$ref": "#/$defs/digestMap"
+        },
+        "diagnostics": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/diagnostic"
+          }
+        },
+        "diagnosticCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "blockingDiagnosticCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "scopeViolationCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "generatedOutputEditCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "determinism": {
+          "$ref": "#/$defs/determinism"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "formatVersion": "2.0",
+  "layout": {
+    "annotations": [],
+    "connections": [
+      {
+        "layer": "connections",
+        "net": "out",
+        "paths": [
+          {
+            "from": {
+              "endpoint": "U1.5"
+            },
+            "to": {
+              "endpoint": "@OUT"
+            }
+          }
+        ]
+      },
+      {
+        "layer": "connections",
+        "net": "status",
+        "paths": [
+          {
+            "from": {
+              "endpoint": "U1.7"
+            },
+            "to": {
+              "endpoint": "@STATUS"
+            }
+          }
+        ]
+      }
+    ],
+    "coordinateSystem": {
+      "angleDirection": "clockwise",
+      "angleUnit": "deg",
+      "grid": 2.5,
+      "unit": "mm",
+      "yAxis": "down"
+    },
+    "designId": "h014-cross-sheet-route-crossings:left",
+    "id": "h014-cross-sheet-route-crossings:left-layout",
+    "layers": [
+      {
+        "defaultVisible": true,
+        "id": "connections",
+        "locked": false,
+        "order": 10,
+        "printable": true,
+        "purpose": "semantic net routes and sheet ports"
+      },
+      {
+        "defaultVisible": true,
+        "id": "symbols",
+        "locked": false,
+        "order": 20,
+        "printable": true,
+        "purpose": "component symbols"
+      },
+      {
+        "defaultVisible": true,
+        "id": "annotation",
+        "locked": false,
+        "order": 30,
+        "printable": true,
+        "purpose": "notes"
+      }
+    ],
+    "metadata": {
+      "connectionAuthority": "semantic-source-only",
+      "routingMode": "orthogonal",
+      "structuralOwnership": "Project -> Sheet -> Layer"
+    },
+    "placements": [
+      {
+        "entity": "U1",
+        "layer": "symbols",
+        "x": 80,
+        "y": 50
+      }
+    ],
+    "purpose": "schematic-layout",
+    "sheet": {
+      "height": 100,
+      "margin": 10,
+      "titleBlock": {
+        "drawing": "h014-cross-sheet-route-crossings:left",
+        "revision": "A",
+        "sheet": "1/1",
+        "title": "Left"
+      },
+      "width": 160
+    },
+    "sheetPorts": [
+      {
+        "label": "OUT",
+        "layer": "connections",
+        "port": "OUT",
+        "side": "right",
+        "x": 150.0,
+        "y": 42.5
+      },
+      {
+        "label": "STATUS",
+        "layer": "connections",
+        "port": "STATUS",
+        "side": "right",
+        "x": 150.0,
+        "y": 52.5
+      }
+    ],
+    "styles": {
+      "note": {
+        "fill": "#1b4e8c",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.5,
+        "stroke": "none"
+      },
+      "signal": {
+        "fill": "none",
+        "stroke": "#24864a",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.65
+      }
+    }
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/aixlayout/2"
+}

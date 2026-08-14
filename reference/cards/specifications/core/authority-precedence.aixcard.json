@@ -1,0 +1,66 @@
+{
+  "card": {
+    "aliases": [
+      "precedence",
+      "authority specification",
+      "source ownership"
+    ],
+    "appliesTo": [
+      "authority-precedence"
+    ],
+    "domain": "specifications",
+    "estimatedReadBytes": 6131,
+    "id": "AIXEM-SPEC-AUTHORITY-001",
+    "inputs": [],
+    "keywords": [
+      "Authority and Precedence",
+      "authority specification",
+      "change-architecture",
+      "inspect-artifact",
+      "precedence",
+      "publish-release",
+      "source ownership"
+    ],
+    "kind": "specification",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/specifications/core/authority-precedence.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:a7d5bb475edbeddf2c0bd7c482b076b9ffd2ed37718452a24fc971c1db353d7b"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-CONCEPT-AUTHORITY-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-DOCS-0004",
+        "level": "must",
+        "text": "**MUST.** Every release artifact declared in authored metadata MUST resolve to one canonical owner or an explicitly generated owner class."
+      },
+      {
+        "id": "AIXEM-REQ-DOCS-0005",
+        "level": "must",
+        "text": "**MUST.** A build or agent MUST stop when active normative authorities conflict and no explicit precedence resolves the conflict."
+      },
+      {
+        "id": "AIXEM-REQ-DOCS-0006",
+        "level": "must",
+        "text": "**MUST.** Generated documentation and reference files MUST be regenerated from canonical sources rather than maintained as independent authored rules."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SPEC-AUTHORITY-001",
+        "path": "docs/specifications/core/authority-precedence.md"
+      }
+    ],
+    "summary": "Defines artifact ownership, normative precedence, conflict handling, generated-file policy, and migration-bearing changes.",
+    "title": "Authority and Precedence"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

@@ -1,0 +1,55 @@
+{
+  "card": {
+    "aliases": [
+      "symbol generation agent",
+      "AI symbol authoring",
+      "generate symbol"
+    ],
+    "appliesTo": [
+      "agent-symbol-workflow"
+    ],
+    "domain": "agent",
+    "estimatedReadBytes": 4119,
+    "id": "AIXEM-AGENT-SYMBOL-001",
+    "inputs": [],
+    "keywords": [
+      "AI symbol authoring",
+      "Symbol Generation Agent",
+      "create-symbol",
+      "generate symbol",
+      "symbol generation agent"
+    ],
+    "kind": "guide",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/agent/symbol-generation.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:d332cb056fd74919a2e500feee94eb49434af51824490cee801115e7fc080489"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 500,
+    "readNext": [
+      "AIXEM-SYMBOL-AUTHORING-001",
+      "AIXEM-SYMBOL-LINT-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-AGENT-SYMBOL-001.read",
+        "level": "should",
+        "text": "Provides an agent sequence for turning a component endpoint contract into an original, compact, linted symbol asset."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-AGENT-SYMBOL-001",
+        "path": "docs/agent/symbol-generation.md"
+      }
+    ],
+    "summary": "Provides an agent sequence for turning a component endpoint contract into an original, compact, linted symbol asset.",
+    "title": "Symbol Generation Agent"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

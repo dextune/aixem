@@ -1,0 +1,9 @@
+{% extends "base.html.j2" %}
+{% block review_panel %}
+<section class="review-panel" data-aixem-workbench-region="evidence" aria-label="Engineering review evidence">
+  <div class="review-section diagnostics"><h2>Diagnostics / Evidence</h2><table class="review-table"><thead><tr><th>Check</th><th>Status</th><th>Observation</th></tr></thead><tbody>
+  {% for diagnostic in model.diagnostics %}<tr><td>{{ diagnostic.code }}</td><td class="status-{{ diagnostic.status|lower }}">{{ diagnostic.status }}</td><td>{{ diagnostic.message }}</td></tr>{% endfor %}
+  </tbody></table></div>
+  <div class="review-section provenance"><h2>Artifact Provenance</h2><dl class="provenance-list">{% for row in provenance_rows %}<dt>{{ row.label }}</dt><dd>{{ row.value }}</dd>{% endfor %}</dl></div>
+</section>
+{% endblock %}

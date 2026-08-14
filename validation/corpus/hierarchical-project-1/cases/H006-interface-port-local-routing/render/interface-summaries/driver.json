@@ -1,0 +1,29 @@
+{
+  "layoutDigest": "sha256:b2a8c037abf210db59c6f49423774fd44840679105393c03745258cd94731bd3",
+  "ports": [
+    {
+      "direction": "passive",
+      "id": "GND",
+      "localNet": "gnd",
+      "projectNet": "gnd",
+      "role": "power"
+    },
+    {
+      "direction": "output",
+      "id": "OUT",
+      "localNet": "out",
+      "projectNet": "control_signal",
+      "role": "signal"
+    },
+    {
+      "direction": "input",
+      "id": "VCC",
+      "localNet": "vcc",
+      "projectNet": "vcc_5v",
+      "role": "power"
+    }
+  ],
+  "sheet": "driver",
+  "sourceDigest": "sha256:aa576b3e00f333d11772f54a0c89473ed42cbc836bf2c255fa79cf3378199973",
+  "title": "Driver"
+}

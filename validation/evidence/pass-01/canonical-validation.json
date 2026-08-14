@@ -1,0 +1,36 @@
+{
+  "baseline050": {
+    "added": 236,
+    "baselineFiles": 642,
+    "errors": [],
+    "modified": 467,
+    "removed": 0,
+    "valid": true
+  },
+  "canonicalDocumentation": {
+    "documents": 105,
+    "errors": [],
+    "normativeDocuments": 68,
+    "requirements": 160,
+    "totalBytes": 581985,
+    "valid": true,
+    "warnings": []
+  },
+  "englishOnlyRelease": {
+    "errors": [],
+    "filesScanned": 856,
+    "valid": true
+  },
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "release": "AIXEM-SRP-0.5.1-2026-08-11",
+  "schema": "https://schemas.aixem.org/validation/pass-01/1",
+  "taskRoutes": {
+    "aliases": 56,
+    "errors": [],
+    "routes": 11,
+    "valid": true,
+    "warnings": []
+  },
+  "valid": true
+}

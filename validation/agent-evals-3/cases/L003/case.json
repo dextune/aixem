@@ -1,0 +1,28 @@
+{
+  "agentVisible": [
+    "agent-task.json",
+    "TASK.md",
+    "start/**",
+    "compiled reference pack"
+  ],
+  "category": "creation",
+  "completedTargetBundled": false,
+  "evaluatorOnly": [
+    "evaluator/invariants.json",
+    "case.json",
+    "scoring metadata"
+  ],
+  "expectedInitialDiagnostics": [
+    "AIXEM-DIAG-BINDING-ASSET-DIGEST"
+  ],
+  "forbiddenCompletedDigests": [
+    "sha256:a0a0f7ac9bd9969c55129d8658bf2485adb965334cd42a263a1730932b21ffb6",
+    "sha256:ad3561d84897b359241d0955e13b19dd4cadc605029854f0f9595fb329d19e16"
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "id": "L003",
+  "schema": "https://schemas.aixem.org/validation/agent-eval-3-case/1",
+  "startSource": "examples/authoring/03-multi-pin-ic",
+  "title": "Twelve-pin controller"
+}

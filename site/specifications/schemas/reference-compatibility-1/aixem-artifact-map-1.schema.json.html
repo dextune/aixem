@@ -1,0 +1,102 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AIXEM Artifact Ownership Map 1.0 — AIXEM Schema</title><link rel="stylesheet" href="../../../assets/site.css"></head><body><header class="topbar"><div class="brand"><span class="brand-mark">AX</span><span>AIXEM<small>Schema Reference</small></span></div></header><main class="content-wrap" style="padding-top:24px"><div class="content"><div class="breadcrumbs"><a href="../index.html">Schema Catalog</a><span>›</span><span>reference-compatibility-1/aixem-artifact-map-1.schema.json</span></div><header class="doc-head"><div class="eyebrow"><span class="badge normative">JSON Schema</span><span class="doc-id">https://json-schema.org/draft/2020-12/schema</span></div><h1>AIXEM Artifact Ownership Map 1.0</h1><p class="lead">Machine-readable contract distributed with AIXEM 0.5.9.</p></header><div class="schema-browser"><a href="../../../assets/schemas/reference-compatibility-1/aixem-artifact-map-1.schema.json">Open raw JSON schema</a></div><article class="article"><pre><code>{
+  &quot;$id&quot;: &quot;https://schemas.aixem.org/reference/aixmap/1&quot;,
+  &quot;$schema&quot;: &quot;https://json-schema.org/draft/2020-12/schema&quot;,
+  &quot;additionalProperties&quot;: false,
+  &quot;properties&quot;: {
+    &quot;artifactMap&quot;: {
+      &quot;additionalProperties&quot;: false,
+      &quot;properties&quot;: {
+        &quot;artifacts&quot;: {
+          &quot;items&quot;: {
+            &quot;additionalProperties&quot;: false,
+            &quot;properties&quot;: {
+              &quot;authority&quot;: {
+                &quot;enum&quot;: [
+                  &quot;semantic&quot;,
+                  &quot;definition&quot;,
+                  &quot;presentation&quot;,
+                  &quot;layout&quot;,
+                  &quot;project-lock&quot;,
+                  &quot;reference-index&quot;,
+                  &quot;evidence&quot;,
+                  &quot;derived&quot;
+                ]
+              },
+              &quot;cards&quot;: {
+                &quot;items&quot;: {
+                  &quot;pattern&quot;: &quot;^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$&quot;,
+                  &quot;type&quot;: &quot;string&quot;
+                },
+                &quot;type&quot;: &quot;array&quot;,
+                &quot;uniqueItems&quot;: true
+              },
+              &quot;pattern&quot;: {
+                &quot;minLength&quot;: 1,
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;producedBy&quot;: {
+                &quot;items&quot;: {
+                  &quot;pattern&quot;: &quot;^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$&quot;,
+                  &quot;type&quot;: &quot;string&quot;
+                },
+                &quot;type&quot;: &quot;array&quot;,
+                &quot;uniqueItems&quot;: true
+              },
+              &quot;role&quot;: {
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;schemas&quot;: {
+                &quot;items&quot;: {
+                  &quot;pattern&quot;: &quot;^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$&quot;,
+                  &quot;type&quot;: &quot;string&quot;
+                },
+                &quot;type&quot;: &quot;array&quot;,
+                &quot;uniqueItems&quot;: true
+              },
+              &quot;validators&quot;: {
+                &quot;items&quot;: {
+                  &quot;pattern&quot;: &quot;^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$&quot;,
+                  &quot;type&quot;: &quot;string&quot;
+                },
+                &quot;type&quot;: &quot;array&quot;,
+                &quot;uniqueItems&quot;: true
+              }
+            },
+            &quot;required&quot;: [
+              &quot;pattern&quot;,
+              &quot;role&quot;,
+              &quot;authority&quot;,
+              &quot;cards&quot;,
+              &quot;validators&quot;
+            ],
+            &quot;type&quot;: &quot;object&quot;
+          },
+          &quot;minItems&quot;: 1,
+          &quot;type&quot;: &quot;array&quot;
+        },
+        &quot;id&quot;: {
+          &quot;pattern&quot;: &quot;^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$&quot;,
+          &quot;type&quot;: &quot;string&quot;
+        }
+      },
+      &quot;required&quot;: [
+        &quot;id&quot;,
+        &quot;artifacts&quot;
+      ],
+      &quot;type&quot;: &quot;object&quot;
+    },
+    &quot;formatVersion&quot;: {
+      &quot;const&quot;: &quot;1.0&quot;
+    },
+    &quot;schema&quot;: {
+      &quot;const&quot;: &quot;https://schemas.aixem.org/reference/aixmap/1&quot;
+    }
+  },
+  &quot;required&quot;: [
+    &quot;schema&quot;,
+    &quot;formatVersion&quot;,
+    &quot;artifactMap&quot;
+  ],
+  &quot;title&quot;: &quot;AIXEM Artifact Ownership Map 1.0&quot;,
+  &quot;type&quot;: &quot;object&quot;
+}</code></pre></article></div></main></body></html>

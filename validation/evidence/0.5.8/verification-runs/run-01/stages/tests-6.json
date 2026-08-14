@@ -1,0 +1,104 @@
+{
+  "command": {
+    "command": [
+      "/opt/pyvenv/bin/python",
+      "tools/run_tests_058.py",
+      "--shard-count",
+      "8",
+      "--shard-index",
+      "6",
+      "--output",
+      "/mnt/data/aixem058-cycle-01-test-shard-6.json"
+    ],
+    "durationSeconds": 17.347373,
+    "label": "cycle 1 repository tests shard 6",
+    "returnCode": 0,
+    "status": "PASS",
+    "stderrTail": "",
+    "stdoutTail": "[tests] START tests.agent.test_invariant_scorer\n[tests] PASS tests.agent.test_invariant_scorer (3 tests, 1.754787s)\n[tests] START tests.conformance.test_hierarchical_project\n[tests] PASS tests.conformance.test_hierarchical_project (10 tests, 5.292582s)\n[tests] START tests.docs.test_document_governance\n[tests] PASS tests.docs.test_document_governance (10 tests, 9.774742s)\n{\"failedModules\": 0, \"modules\": 3, \"successful\": true, \"testsRun\": 23}\n",
+    "valid": true
+  },
+  "cycle": 1,
+  "externalResult": "/mnt/data/aixem058-cycle-01-test-shard-6.json",
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "release": "AIXEM-SRP-0.5.8-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/pre-live-readiness-verification-stage/1",
+  "stage": "tests-6",
+  "status": "PASS",
+  "tests": {
+    "durationSeconds": 16.822467,
+    "errors": [],
+    "executionMode": "isolated-test-module-processes",
+    "failedModules": 0,
+    "failures": [],
+    "formatVersion": "1.0",
+    "generatedAt": "2026-08-12T00:00:00Z",
+    "moduleCount": 3,
+    "modules": [
+      {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "-m",
+          "unittest",
+          "-v",
+          "tests.agent.test_invariant_scorer"
+        ],
+        "durationSeconds": 1.754787,
+        "module": "tests.agent.test_invariant_scorer",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "test_exact_completed_source_oracle_is_prohibited (tests.agent.test_invariant_scorer.EvaluationInvariantContractTests.test_exact_completed_source_oracle_is_prohibited) ... ok\ntest_scorer_checks_actual_incomplete_workspace_without_self_repair (tests.agent.test_invariant_scorer.EvaluationInvariantContractTests.test_scorer_checks_actual_incomplete_workspace_without_self_repair) ... ok\ntest_semantically_repaired_workspace_passes_hidden_invariants (tests.agent.test_invariant_scorer.EvaluationInvariantContractTests.test_semantically_repaired_workspace_passes_hidden_invariants) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.345s\n\nOK\n",
+        "stdoutTail": "",
+        "testsRun": 3,
+        "valid": true
+      },
+      {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "-m",
+          "unittest",
+          "-v",
+          "tests.conformance.test_hierarchical_project"
+        ],
+        "durationSeconds": 5.292582,
+        "module": "tests.conformance.test_hierarchical_project",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "test_complete_corpus_runner (tests.conformance.test_hierarchical_project.HierarchicalProjectConformanceTests.test_complete_corpus_runner) ... ok\ntest_hierarchy_is_explicit_acyclic_and_deterministic (tests.conformance.test_hierarchical_project.HierarchicalProjectConformanceTests.test_hierarchy_is_explicit_acyclic_and_deterministic) ... ok\ntest_interface_endpoint_is_a_real_leaf_semantic_endpoint (tests.conformance.test_hierarchical_project.HierarchicalProjectConformanceTests.test_interface_endpoint_is_a_real_leaf_semantic_endpoint) ... ok\ntest_inventory_is_exact (tests.conformance.test_hierarchical_project.HierarchicalProjectConformanceTests.test_inventory_is_exact) ... ok\ntest_legacy_production_outputs_remain_byte_identical (tests.conformance.test_hierarchical_project.HierarchicalProjectConformanceTests.test_legacy_production_outputs_remain_byte_identical) ... ok\ntest_multi_view_render_outputs_and_workbench_are_data_driven (tests.conformance.test_hierarchical_project.HierarchicalProjectConformanceTests.test_multi_view_render_outputs_and_workbench_are_data_driven) ... ok\ntest_project_graph_queries_and_name_isolation (tests.conformance.test_hierarchical_project.HierarchicalProjectConformanceTests.test_project_graph_queries_and_name_isolation) ... ok\ntest_project_net_equivalence_collision_fails_closed (tests.conformance.test_hierarchical_project.HierarchicalProjectConformanceTests.test_project_net_equivalence_collision_fails_closed) ... ok\ntest_ten_sheet_project_and_three_run_determinism (tests.conformance.test_hierarchical_project.HierarchicalProjectConformanceTests.test_ten_sheet_project_and_three_run_determinism) ... ok\ntest_v1_schema_contracts_are_immutable (tests.conformance.test_hierarchical_project.HierarchicalProjectConformanceTests.test_v1_schema_contracts_are_immutable) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 3.919s\n\nOK\n",
+        "stdoutTail": "",
+        "testsRun": 10,
+        "valid": true
+      },
+      {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "-m",
+          "unittest",
+          "-v",
+          "tests.docs.test_document_governance"
+        ],
+        "durationSeconds": 9.774742,
+        "module": "tests.docs.test_document_governance",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "test_agents_document_creation_gate (tests.docs.test_document_governance.DocumentGovernanceTests.test_agents_document_creation_gate) ... ok\ntest_canonical_structure_has_terminal_footer_and_no_patch_blocks (tests.docs.test_document_governance.DocumentGovernanceTests.test_canonical_structure_has_terminal_footer_and_no_patch_blocks) ... ok\ntest_every_markdown_has_exactly_one_role (tests.docs.test_document_governance.DocumentGovernanceTests.test_every_markdown_has_exactly_one_role) ... ok\ntest_metadata_vocabularies_and_token_estimates (tests.docs.test_document_governance.DocumentGovernanceTests.test_metadata_vocabularies_and_token_estimates) ... ok\ntest_path_migrations_preserve_identity_and_redirects (tests.docs.test_document_governance.DocumentGovernanceTests.test_path_migrations_preserve_identity_and_redirects) ... ok\ntest_planning_and_validation_lifecycles (tests.docs.test_document_governance.DocumentGovernanceTests.test_planning_and_validation_lifecycles) ... ok\ntest_repository_inventory_is_deterministic (tests.docs.test_document_governance.DocumentGovernanceTests.test_repository_inventory_is_deterministic) ... ok\ntest_role_aware_discoverability_has_no_orphans (tests.docs.test_document_governance.DocumentGovernanceTests.test_role_aware_discoverability_has_no_orphans) ... ok\ntest_root_hygiene_and_reserved_names (tests.docs.test_document_governance.DocumentGovernanceTests.test_root_hygiene_and_reserved_names) ... ok\ntest_unknown_markdown_fails_closed (tests.docs.test_document_governance.DocumentGovernanceTests.test_unknown_markdown_fails_closed) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 8.329s\n\nOK\n",
+        "stdoutTail": "",
+        "testsRun": 10,
+        "valid": true
+      }
+    ],
+    "passedModules": 3,
+    "release": "AIXEM-SRP-0.5.8-2026-08-12",
+    "schema": "https://schemas.aixem.org/validation/test-run-shard/1",
+    "shard": {
+      "count": 8,
+      "index": 6,
+      "totalDiscoveredModules": 26
+    },
+    "skipped": [],
+    "successful": true,
+    "testsRun": 23
+  },
+  "valid": true
+}

@@ -1,0 +1,77 @@
+{
+  "card": {
+    "aliases": [
+      "release integrity",
+      "documentation release gate",
+      "manifest rules"
+    ],
+    "appliesTo": [
+      "documentation-release-integrity"
+    ],
+    "domain": "specifications",
+    "estimatedReadBytes": 7813,
+    "id": "AIXEM-SPEC-RELEASE-001",
+    "inputs": [],
+    "keywords": [
+      "Documentation Release Integrity 1",
+      "build-documentation",
+      "documentation release gate",
+      "manifest rules",
+      "publish-release",
+      "release integrity",
+      "validate-project"
+    ],
+    "kind": "specification",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/specifications/documentation/release-integrity.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:9e06776349ebb0b20e67c9579fc7ce5a124f1e9ea36271b34af230b9b0ad4a55"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-CONCEPT-DETERMINISM-001",
+      "AIXEM-SPEC-METADATA-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-DOCS-0020",
+        "level": "must",
+        "text": "**MUST.** Generated indexes, compatibility references, and site pages MUST match the current canonical source digest."
+      },
+      {
+        "id": "AIXEM-REQ-DOCS-0021",
+        "level": "must",
+        "text": "**MUST.** Canonical Markdown and generated static-site internal links MUST resolve to an existing target and anchor."
+      },
+      {
+        "id": "AIXEM-REQ-DOCS-0022",
+        "level": "must",
+        "text": "**MUST.** Every normative requirement MUST have a validator, test reference, and release evidence artifact."
+      },
+      {
+        "id": "AIXEM-REQ-DOCS-0023",
+        "level": "must",
+        "text": "**MUST.** Every shipped file covered by the release policy MUST appear in a verified SHA-256 manifest."
+      },
+      {
+        "id": "AIXEM-REQ-DOCS-0024",
+        "level": "must",
+        "text": "**MUST.** A release MUST fail when an authored document declares an artifact path that is absent from the package."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SPEC-RELEASE-001",
+        "path": "docs/specifications/documentation/release-integrity.md"
+      }
+    ],
+    "summary": "Defines generated-index freshness, link closure, requirement evidence, static-site integrity, manifests, and archive verification.",
+    "title": "Documentation Release Integrity 1"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

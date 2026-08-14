@@ -1,0 +1,40 @@
+{
+  "bounds": {
+    "height": 55,
+    "width": 115,
+    "x": -57.5,
+    "y": -27.5
+  },
+  "capabilities": [
+    "geometry.line",
+    "geometry.rect",
+    "text.field"
+  ],
+  "case": "B004",
+  "defaultVariant": null,
+  "definitions": [],
+  "fieldAnchors": [
+    {
+      "field": "reference",
+      "id": "field-reference",
+      "x": -45,
+      "y": 1.25
+    },
+    {
+      "field": "value",
+      "id": "field-value",
+      "x": -45,
+      "y": 13.75
+    }
+  ],
+  "parameters": {},
+  "ports": [],
+  "primitiveCounts": {
+    "line": 3,
+    "rect": 1,
+    "text": 4
+  },
+  "requiredFeatures": [],
+  "symbol": "corpus:b004-annotation-title-block",
+  "variants": []
+}

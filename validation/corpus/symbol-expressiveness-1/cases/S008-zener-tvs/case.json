@@ -1,0 +1,65 @@
+{
+  "category": "semiconductor",
+  "componentPorts": [
+    {
+      "id": "1",
+      "name": "A",
+      "required": true,
+      "type": "passive"
+    },
+    {
+      "id": "2",
+      "name": "K",
+      "required": true,
+      "type": "passive"
+    }
+  ],
+  "expectedBoundsClass": "compact",
+  "expectedFieldRoles": [
+    "reference-field",
+    "value-field"
+  ],
+  "expectedGridPolicy": "ports-on-2.5mm",
+  "expectedParameterIds": [],
+  "expectedPortCount": 2,
+  "expectedPrimitiveFamilies": [
+    "line",
+    "polygon",
+    "polyline",
+    "text"
+  ],
+  "expectedVariantIds": [
+    "zener",
+    "tvs"
+  ],
+  "expectedVisiblePortCount": 2,
+  "formatVersion": "1.0",
+  "id": "S008",
+  "knownExclusions": [],
+  "manualReviewChecks": [
+    "silhouette-recognizable",
+    "ports-attached-to-expected-leads",
+    "pin-number-name-separation",
+    "reference-value-clear-of-body",
+    "polarity-arrow-inversion-state-unambiguous",
+    "repeated-geometry-evenly-spaced",
+    "normal-scale-readable",
+    "no-false-connectivity-detail",
+    "variant-endpoint-identity-preserved",
+    "path-has-no-fill-or-self-intersection-artifact"
+  ],
+  "optionalCapabilities": [],
+  "purpose": "Graphical alternatives whose endpoint identity remains invariant",
+  "requiredCapabilities": [
+    "geometry.line",
+    "geometry.polygon",
+    "geometry.polyline",
+    "port.mapping",
+    "text.field",
+    "variant.graphics"
+  ],
+  "schema": "https://schemas.aixem.org/conformance/corpus-case/1",
+  "symbolPath": "symbol.aixsym.json",
+  "tier": "core",
+  "title": "Zener / TVS"
+}

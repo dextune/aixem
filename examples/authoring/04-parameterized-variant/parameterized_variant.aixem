@@ -1,0 +1,12 @@
+aixem 1.0
+model parameterized_variant title="Parameterized variant"
+feature component.graphics@1 required=true
+feature explicit.layout@1 required=true
+
+component R1 type=authoring:resistor refdes=R1 value=47k
+component R2 type=authoring:resistor refdes=R2 value=100k
+
+net series = R1.2 R2.1
+
+noconn R1.1
+noconn R2.2

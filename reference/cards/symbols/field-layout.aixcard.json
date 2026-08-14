@@ -1,0 +1,61 @@
+{
+  "card": {
+    "aliases": [
+      "field layout",
+      "symbol text fields",
+      "reference and value anchors"
+    ],
+    "appliesTo": [
+      "symbol-field-layout"
+    ],
+    "domain": "symbols",
+    "estimatedReadBytes": 7817,
+    "id": "AIXEM-SYMBOL-FIELDS-001",
+    "inputs": [],
+    "keywords": [
+      "Field Layout",
+      "create-schematic",
+      "create-symbol",
+      "field layout",
+      "reference and value anchors",
+      "symbol text fields"
+    ],
+    "kind": "guide",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/symbols/field-layout.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:e41d8ac15494bb814c1889cd29f17bc23c25a06fd0a3363a6de0ff5009d6ccf3"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SYMBOL-ANATOMY-001",
+      "AIXEM-SCHEM-ANNOTATION-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-SYMBOL-0015",
+        "level": "must",
+        "text": "**MUST.** Required symbol fields MUST use declared deterministic anchors and alignment rules."
+      },
+      {
+        "id": "AIXEM-REQ-SYMBOL-0016",
+        "level": "must",
+        "text": "**MUST.** Visible fields MUST respect the declared symbol-body, pin, and route clearance rules."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SYMBOL-FIELDS-001",
+        "path": "docs/symbols/field-layout.md"
+      }
+    ],
+    "summary": "Defines reference, value, pin-name, pin-number, and auxiliary field anchors, visibility, alignment, and clearance.",
+    "title": "Field Layout"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

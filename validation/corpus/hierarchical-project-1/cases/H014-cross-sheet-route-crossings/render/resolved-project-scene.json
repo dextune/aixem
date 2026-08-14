@@ -1,0 +1,811 @@
+{
+  "authority": {
+    "connectivityFromGeometry": false,
+    "layersAreSheets": false,
+    "localPresentation": "aixlayout/2",
+    "localSemantics": ".aixem",
+    "projectComposition": "aixproj/2"
+  },
+  "diagnostics": [
+    {
+      "id": "PROJECT_PORT_ROLE_MIX",
+      "message": "Mixed interface roles are diagnostic-only in P0.",
+      "projectNet": "signal_a",
+      "roles": [
+        "clock",
+        "signal"
+      ],
+      "severity": "warning"
+    }
+  ],
+  "generatedAt": "2026-08-10T12:00:00Z",
+  "hashes": {
+    "inputs": [
+      {
+        "layoutDigest": "sha256:472a1e9e036b618c5f9206bdb7210c270abda0be04cbecabe8043af0fcde684f",
+        "layoutPath": "layouts/left.aixlayout.json",
+        "resolvedSceneDigest": "sha256:e1424d780763dec248c6de6708c52ec0070d3d1302a67eebde091958b7ad3d4c",
+        "sheet": "left",
+        "sourceDigest": "sha256:802ae284c59d88dc5cbafbfa56d1eee5105b8b4cb4b538758a7b030d3fd75fbf",
+        "sourcePath": "circuits/left.aixem",
+        "svgDigest": "sha256:4ddd6a0ac5e5529a8f6de37f0aef4e246b2ab05d00d593017d9aa9524eb39ece"
+      },
+      {
+        "layoutDigest": "sha256:76044fe1b20ebb1116133c4bd30f6f999f55181368f5008e82ec81b524a997b9",
+        "layoutPath": "layouts/right.aixlayout.json",
+        "resolvedSceneDigest": "sha256:01a2df22ad51bb94019888dce743e8898c16d9b2d42c616ebd6c441e51e5271b",
+        "sheet": "right",
+        "sourceDigest": "sha256:669d09cc8d95fe78d915f5bb712170a38700de19bcd9d39461fc52d713de5913",
+        "sourcePath": "circuits/right.aixem",
+        "svgDigest": "sha256:f6e392da329cc67f85a5e61a89353de9caffb5148ad80381e26ac652e3981d8e"
+      }
+    ],
+    "manifest": "sha256:c54807785113313afdfc746b918faef7f8e06193993a52f4302704b21719b854",
+    "styleProfile": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393"
+  },
+  "hierarchy": [
+    {
+      "children": [],
+      "depth": 0,
+      "id": "left",
+      "order": 10,
+      "parent": null,
+      "title": "Left"
+    },
+    {
+      "children": [],
+      "depth": 0,
+      "id": "right",
+      "order": 20,
+      "parent": null,
+      "title": "Right"
+    }
+  ],
+  "interfaceSummaries": {
+    "left": {
+      "layoutDigest": "sha256:472a1e9e036b618c5f9206bdb7210c270abda0be04cbecabe8043af0fcde684f",
+      "ports": [
+        {
+          "direction": "output",
+          "id": "OUT",
+          "localNet": "out",
+          "projectNet": "signal_a",
+          "role": "signal"
+        },
+        {
+          "direction": "output",
+          "id": "STATUS",
+          "localNet": "status",
+          "projectNet": "signal_b",
+          "role": "signal"
+        }
+      ],
+      "sheet": "left",
+      "sourceDigest": "sha256:802ae284c59d88dc5cbafbfa56d1eee5105b8b4cb4b538758a7b030d3fd75fbf",
+      "title": "Left"
+    },
+    "right": {
+      "layoutDigest": "sha256:76044fe1b20ebb1116133c4bd30f6f999f55181368f5008e82ec81b524a997b9",
+      "ports": [
+        {
+          "direction": "input",
+          "id": "CLK",
+          "localNet": "clk",
+          "projectNet": "signal_a",
+          "role": "clock"
+        },
+        {
+          "direction": "input",
+          "id": "IN",
+          "localNet": "in",
+          "projectNet": "signal_b",
+          "role": "signal"
+        }
+      ],
+      "sheet": "right",
+      "sourceDigest": "sha256:669d09cc8d95fe78d915f5bb712170a38700de19bcd9d39461fc52d713de5913",
+      "title": "Right"
+    }
+  },
+  "project": {
+    "id": "hierarchical:h014",
+    "profile": "aixem.schematic.multisheet@1",
+    "schema": "https://schemas.aixem.org/component-graphics/aixproj/2",
+    "title": "Cross sheet route crossings"
+  },
+  "renderer": {
+    "id": "aixem-hierarchical-project-reference-renderer",
+    "version": "0.5.3"
+  },
+  "routing": {
+    "composite": {
+      "anchors": [
+        {
+          "direction": "output",
+          "localNet": "out",
+          "point": [
+            230.0,
+            102.5
+          ],
+          "port": "OUT",
+          "projectNet": "signal_a",
+          "role": "signal",
+          "sheet": "left",
+          "side": "right"
+        },
+        {
+          "direction": "output",
+          "localNet": "status",
+          "point": [
+            230.0,
+            112.5
+          ],
+          "port": "STATUS",
+          "projectNet": "signal_b",
+          "role": "signal",
+          "sheet": "left",
+          "side": "right"
+        },
+        {
+          "direction": "input",
+          "localNet": "clk",
+          "point": [
+            90.0,
+            333.5
+          ],
+          "port": "CLK",
+          "projectNet": "signal_a",
+          "role": "clock",
+          "sheet": "right",
+          "side": "left"
+        },
+        {
+          "direction": "input",
+          "localNet": "in",
+          "point": [
+            90.0,
+            323.5
+          ],
+          "port": "IN",
+          "projectNet": "signal_b",
+          "role": "signal",
+          "sheet": "right",
+          "side": "left"
+        }
+      ],
+      "canvas": {
+        "height": 441.0,
+        "width": 399.0
+      },
+      "diagnostics": [],
+      "mode": "composite",
+      "nets": [
+        {
+          "id": "signal_a",
+          "junctions": [
+            [
+              310.0,
+              105.5
+            ],
+            [
+              310.0,
+              252.0
+            ]
+          ],
+          "label": "signal_a",
+          "members": [
+            {
+              "anchor": [
+                230.0,
+                102.5
+              ],
+              "localNet": "out",
+              "port": "OUT",
+              "sheet": "left",
+              "side": "right"
+            },
+            {
+              "anchor": [
+                90.0,
+                333.5
+              ],
+              "localNet": "clk",
+              "port": "CLK",
+              "sheet": "right",
+              "side": "left"
+            }
+          ],
+          "paths": [
+            [
+              [
+                230.0,
+                102.5
+              ],
+              [
+                254.0,
+                102.5
+              ],
+              [
+                254.0,
+                105.5
+              ],
+              [
+                310.0,
+                105.5
+              ]
+            ],
+            [
+              [
+                90.0,
+                333.5
+              ],
+              [
+                66.0,
+                333.5
+              ],
+              [
+                32.0,
+                333.5
+              ],
+              [
+                32.0,
+                252.0
+              ],
+              [
+                310.0,
+                252.0
+              ]
+            ],
+            [
+              [
+                310.0,
+                105.5
+              ],
+              [
+                310.0,
+                252.0
+              ]
+            ]
+          ],
+          "role": null,
+          "trunkX": 310.0
+        },
+        {
+          "id": "signal_b",
+          "junctions": [
+            [
+              334.0,
+              118.5
+            ],
+            [
+              334.0,
+              249.0
+            ]
+          ],
+          "label": "signal_b",
+          "members": [
+            {
+              "anchor": [
+                230.0,
+                112.5
+              ],
+              "localNet": "status",
+              "port": "STATUS",
+              "sheet": "left",
+              "side": "right"
+            },
+            {
+              "anchor": [
+                90.0,
+                323.5
+              ],
+              "localNet": "in",
+              "port": "IN",
+              "sheet": "right",
+              "side": "left"
+            }
+          ],
+          "paths": [
+            [
+              [
+                230.0,
+                112.5
+              ],
+              [
+                254.0,
+                112.5
+              ],
+              [
+                254.0,
+                118.5
+              ],
+              [
+                334.0,
+                118.5
+              ]
+            ],
+            [
+              [
+                90.0,
+                323.5
+              ],
+              [
+                66.0,
+                323.5
+              ],
+              [
+                22.0,
+                323.5
+              ],
+              [
+                22.0,
+                249.0
+              ],
+              [
+                334.0,
+                249.0
+              ]
+            ],
+            [
+              [
+                334.0,
+                118.5
+              ],
+              [
+                334.0,
+                249.0
+              ]
+            ]
+          ],
+          "role": null,
+          "trunkX": 334.0
+        }
+      ],
+      "sheets": [
+        {
+          "depth": 0,
+          "id": "left",
+          "rect": [
+            80.0,
+            60.0,
+            160.0,
+            100.0
+          ],
+          "title": "Left",
+          "transform": {
+            "scale": 1.0,
+            "x": 80.0,
+            "y": 60.0
+          }
+        },
+        {
+          "depth": 0,
+          "id": "right",
+          "rect": [
+            80.0,
+            281.0,
+            160.0,
+            100.0
+          ],
+          "title": "Right",
+          "transform": {
+            "scale": 1.0,
+            "x": 80.0,
+            "y": 281.0
+          }
+        }
+      ]
+    },
+    "overview": {
+      "anchors": [
+        {
+          "direction": "output",
+          "localNet": "out",
+          "point": [
+            260.0,
+            72.0
+          ],
+          "port": "OUT",
+          "projectNet": "signal_a",
+          "role": "signal",
+          "sheet": "left",
+          "side": "right"
+        },
+        {
+          "direction": "output",
+          "localNet": "status",
+          "point": [
+            260.0,
+            116.0
+          ],
+          "port": "STATUS",
+          "projectNet": "signal_b",
+          "role": "signal",
+          "sheet": "left",
+          "side": "right"
+        },
+        {
+          "direction": "input",
+          "localNet": "clk",
+          "point": [
+            80.0,
+            252.0
+          ],
+          "port": "CLK",
+          "projectNet": "signal_a",
+          "role": "clock",
+          "sheet": "right",
+          "side": "left"
+        },
+        {
+          "direction": "input",
+          "localNet": "in",
+          "point": [
+            80.0,
+            296.0
+          ],
+          "port": "IN",
+          "projectNet": "signal_b",
+          "role": "signal",
+          "sheet": "right",
+          "side": "left"
+        }
+      ],
+      "canvas": {
+        "height": 378.0,
+        "width": 419.0
+      },
+      "diagnostics": [],
+      "mode": "overview",
+      "nets": [
+        {
+          "id": "signal_a",
+          "junctions": [
+            [
+              330.0,
+              75.0
+            ],
+            [
+              330.0,
+              201.0
+            ]
+          ],
+          "label": "signal_a",
+          "members": [
+            {
+              "anchor": [
+                260.0,
+                72.0
+              ],
+              "localNet": "out",
+              "port": "OUT",
+              "sheet": "left",
+              "side": "right"
+            },
+            {
+              "anchor": [
+                80.0,
+                252.0
+              ],
+              "localNet": "clk",
+              "port": "CLK",
+              "sheet": "right",
+              "side": "left"
+            }
+          ],
+          "paths": [
+            [
+              [
+                260.0,
+                72.0
+              ],
+              [
+                274.0,
+                72.0
+              ],
+              [
+                274.0,
+                75.0
+              ],
+              [
+                330.0,
+                75.0
+              ]
+            ],
+            [
+              [
+                80.0,
+                252.0
+              ],
+              [
+                66.0,
+                252.0
+              ],
+              [
+                32.0,
+                252.0
+              ],
+              [
+                32.0,
+                201.0
+              ],
+              [
+                330.0,
+                201.0
+              ]
+            ],
+            [
+              [
+                330.0,
+                75.0
+              ],
+              [
+                330.0,
+                201.0
+              ]
+            ]
+          ],
+          "role": null,
+          "trunkX": 330.0
+        },
+        {
+          "id": "signal_b",
+          "junctions": [
+            [
+              354.0,
+              122.0
+            ],
+            [
+              354.0,
+              198.0
+            ]
+          ],
+          "label": "signal_b",
+          "members": [
+            {
+              "anchor": [
+                260.0,
+                116.0
+              ],
+              "localNet": "status",
+              "port": "STATUS",
+              "sheet": "left",
+              "side": "right"
+            },
+            {
+              "anchor": [
+                80.0,
+                296.0
+              ],
+              "localNet": "in",
+              "port": "IN",
+              "sheet": "right",
+              "side": "left"
+            }
+          ],
+          "paths": [
+            [
+              [
+                260.0,
+                116.0
+              ],
+              [
+                274.0,
+                116.0
+              ],
+              [
+                274.0,
+                122.0
+              ],
+              [
+                354.0,
+                122.0
+              ]
+            ],
+            [
+              [
+                80.0,
+                296.0
+              ],
+              [
+                66.0,
+                296.0
+              ],
+              [
+                22.0,
+                296.0
+              ],
+              [
+                22.0,
+                198.0
+              ],
+              [
+                354.0,
+                198.0
+              ]
+            ],
+            [
+              [
+                354.0,
+                122.0
+              ],
+              [
+                354.0,
+                198.0
+              ]
+            ]
+          ],
+          "role": null,
+          "trunkX": 354.0
+        }
+      ],
+      "sheets": [
+        {
+          "depth": 0,
+          "id": "left",
+          "rect": [
+            80.0,
+            50.0,
+            180.0,
+            88.0
+          ],
+          "title": "Left",
+          "transform": {
+            "scale": 1.0,
+            "x": 80.0,
+            "y": 50.0
+          }
+        },
+        {
+          "depth": 0,
+          "id": "right",
+          "rect": [
+            80.0,
+            230.0,
+            180.0,
+            88.0
+          ],
+          "title": "Right",
+          "transform": {
+            "scale": 1.0,
+            "x": 80.0,
+            "y": 230.0
+          }
+        }
+      ]
+    }
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/resolved-project-scene/1",
+  "semanticGraph": {
+    "identities": {
+      "interfaces": [
+        "interface:left:OUT",
+        "interface:left:STATUS",
+        "interface:right:CLK",
+        "interface:right:IN"
+      ],
+      "projectNets": [
+        "project-net:signal_a",
+        "project-net:signal_b"
+      ],
+      "sheets": [
+        "sheet:left",
+        "sheet:right"
+      ]
+    },
+    "projectNets": [
+      {
+        "crossesHierarchyBoundary": true,
+        "id": "signal_a",
+        "members": [
+          {
+            "interface": "interface:left:OUT",
+            "localNet": "out",
+            "port": "OUT",
+            "qualifiedLocalNet": "local-net:left:out",
+            "sheet": "left"
+          },
+          {
+            "interface": "interface:right:CLK",
+            "localNet": "clk",
+            "port": "CLK",
+            "qualifiedLocalNet": "local-net:right:clk",
+            "sheet": "right"
+          }
+        ],
+        "qualifiedId": "project-net:signal_a",
+        "transitiveEndpoints": [
+          "entity:left:U1.5",
+          "entity:right:U1.3",
+          "interface:left:OUT",
+          "interface:right:CLK"
+        ]
+      },
+      {
+        "crossesHierarchyBoundary": true,
+        "id": "signal_b",
+        "members": [
+          {
+            "interface": "interface:left:STATUS",
+            "localNet": "status",
+            "port": "STATUS",
+            "qualifiedLocalNet": "local-net:left:status",
+            "sheet": "left"
+          },
+          {
+            "interface": "interface:right:IN",
+            "localNet": "in",
+            "port": "IN",
+            "qualifiedLocalNet": "local-net:right:in",
+            "sheet": "right"
+          }
+        ],
+        "qualifiedId": "project-net:signal_b",
+        "transitiveEndpoints": [
+          "entity:left:U1.7",
+          "entity:right:U1.1",
+          "interface:left:STATUS",
+          "interface:right:IN"
+        ]
+      }
+    ],
+    "unconnectedPorts": []
+  },
+  "sheets": [
+    {
+      "id": "left",
+      "layout": {
+        "digest": "sha256:472a1e9e036b618c5f9206bdb7210c270abda0be04cbecabe8043af0fcde684f",
+        "id": "h014-cross-sheet-route-crossings:left-layout",
+        "mediaType": "application/json",
+        "path": "layouts/left.aixlayout.json",
+        "version": "2.0"
+      },
+      "order": 10,
+      "parent": null,
+      "resolvedScene": "sheets/left.resolved-scene.json",
+      "source": {
+        "digest": "sha256:802ae284c59d88dc5cbafbfa56d1eee5105b8b4cb4b538758a7b030d3fd75fbf",
+        "id": "h014-cross-sheet-route-crossings:left",
+        "mediaType": "text/x-aixem",
+        "path": "circuits/left.aixem",
+        "version": "1.0"
+      },
+      "svg": "sheets/left.svg",
+      "title": "Left"
+    },
+    {
+      "id": "right",
+      "layout": {
+        "digest": "sha256:76044fe1b20ebb1116133c4bd30f6f999f55181368f5008e82ec81b524a997b9",
+        "id": "h014-cross-sheet-route-crossings:right-layout",
+        "mediaType": "application/json",
+        "path": "layouts/right.aixlayout.json",
+        "version": "2.0"
+      },
+      "order": 20,
+      "parent": null,
+      "resolvedScene": "sheets/right.resolved-scene.json",
+      "source": {
+        "digest": "sha256:669d09cc8d95fe78d915f5bb712170a38700de19bcd9d39461fc52d713de5913",
+        "id": "h014-cross-sheet-route-crossings:right",
+        "mediaType": "text/x-aixem",
+        "path": "circuits/right.aixem",
+        "version": "1.0"
+      },
+      "svg": "sheets/right.svg",
+      "title": "Right"
+    }
+  ],
+  "statistics": {
+    "entities": 2,
+    "hierarchyDepth": 0,
+    "interfacePorts": 4,
+    "localNets": 4,
+    "localRouteSegments": 4,
+    "projectNets": 2,
+    "projectRouteSegments": 32,
+    "sheets": 2,
+    "unconnectedProjectPorts": 0
+  }
+}

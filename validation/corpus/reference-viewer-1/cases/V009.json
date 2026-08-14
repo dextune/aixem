@@ -1,0 +1,14 @@
+{
+  "expected": "pass",
+  "formatVersion": "1.0",
+  "id": "V009",
+  "order": 9,
+  "profiles": [
+    "reference-viewer"
+  ],
+  "purpose": "Qualified result opens the owning sheet",
+  "schema": "https://schemas.aixem.org/conformance/reference-viewer-case/1",
+  "source": "validation/corpus/hierarchical-project-1/cases/H001-two-sheet-power-+-control/project.aixproj.json",
+  "test": "tests/conformance/test_reference_viewer.py::ReferenceViewerConformanceTests.test_v009_component_search_opens_owning_sheet",
+  "title": "Component search navigation"
+}

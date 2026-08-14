@@ -1,0 +1,276 @@
+{
+  "files": 54,
+  "records": [
+    {
+      "bytes": 72033,
+      "path": "docs/_meta/generated/route-index.json",
+      "sha256": "sha256:b0aa5ae4db6fd26a22f347f08c40397942b39b1297df9d68861170f69bf6f86f"
+    },
+    {
+      "bytes": 3718,
+      "path": "docs/_meta/generated/task-packet-index.json",
+      "sha256": "sha256:0118a8648fe2748ce0c563acb56886cc690a239bc37459fc738de38c318698f9"
+    },
+    {
+      "bytes": 4044,
+      "path": "docs/_meta/generated/task-packets/author-component-circuit.json",
+      "sha256": "sha256:51636de65ce57ace3752462f7ae3326b41a06a6f559ca9c3f4b2a6c43b9ec80a"
+    },
+    {
+      "bytes": 3035,
+      "path": "docs/_meta/generated/task-packets/build-documentation.json",
+      "sha256": "sha256:750445aa65eab16fbe96d8d547dc0ec04b00fd6df379d8745a81bfc0a8c17870"
+    },
+    {
+      "bytes": 3329,
+      "path": "docs/_meta/generated/task-packets/change-architecture.json",
+      "sha256": "sha256:846abcecaba2503807cf860622a3c37ac1e14c24f2fd761035abd6646044e068"
+    },
+    {
+      "bytes": 3947,
+      "path": "docs/_meta/generated/task-packets/compose-project.json",
+      "sha256": "sha256:1eb5f8ae699e660d86d5e34a502770eef93641c7f9914478e6213361574106cd"
+    },
+    {
+      "bytes": 4117,
+      "path": "docs/_meta/generated/task-packets/create-schematic.json",
+      "sha256": "sha256:c1383509a6f6ba9e71d5ef09696cb3c2b5cd9c3515240c6be1e087b77a5f1251"
+    },
+    {
+      "bytes": 4361,
+      "path": "docs/_meta/generated/task-packets/create-symbol.json",
+      "sha256": "sha256:a8b26118c249cc5b68581bc728b015db6918ceab0c8a5833740a806522f2e1d3"
+    },
+    {
+      "bytes": 2487,
+      "path": "docs/_meta/generated/task-packets/inspect-artifact.json",
+      "sha256": "sha256:a2b1bafb17cc15802cb4df8408bfcff308e9711409170170ab00a9c3af434e2e"
+    },
+    {
+      "bytes": 4031,
+      "path": "docs/_meta/generated/task-packets/inspect-viewer.json",
+      "sha256": "sha256:f6980e7805fb19f02fd4b0112e1f331b908a064010bb88ec433a052a2b44125a"
+    },
+    {
+      "bytes": 2557,
+      "path": "docs/_meta/generated/task-packets/migrate-baseline.json",
+      "sha256": "sha256:5057c65c512b9c3547aa6e8e56f247c5a3eda051dbbfedf0584dffa6e331c1a1"
+    },
+    {
+      "bytes": 2923,
+      "path": "docs/_meta/generated/task-packets/publish-release.json",
+      "sha256": "sha256:a136a2955e292e7dd7da07da323219e08456490213ecb2ba6f794483a76fa622"
+    },
+    {
+      "bytes": 4665,
+      "path": "docs/_meta/generated/task-packets/render-review.json",
+      "sha256": "sha256:b6157399e92013b9afaa8fcd30d14c7465496de317003db6d7e5c791e7f54e5b"
+    },
+    {
+      "bytes": 4004,
+      "path": "docs/_meta/generated/task-packets/route-nets.json",
+      "sha256": "sha256:d20885e16a7fe275f71817e05a999e2367676171553196065b2ab2ff14bb377f"
+    },
+    {
+      "bytes": 3980,
+      "path": "docs/_meta/generated/task-packets/route-project-nets.json",
+      "sha256": "sha256:c6d0a77edfec8c6fae57ef5bd517b4314ece73a9f165966223d2d4e62fca2bf4"
+    },
+    {
+      "bytes": 4375,
+      "path": "docs/_meta/generated/task-packets/validate-project.json",
+      "sha256": "sha256:14a895dad04bb027c3ebacd7381dccc63b50f8bf52cac5a1fb706607fbc2f93f"
+    },
+    {
+      "bytes": 4722,
+      "path": "docs/_meta/generated/task-packets/validate-symbol-expressiveness.json",
+      "sha256": "sha256:0301f9a88afbf15282e768ada5e765e8204781ec6249efbcd9ca6559f2d87a68"
+    },
+    {
+      "bytes": 2309,
+      "path": "docs/_meta/routes/author-component-circuit.yaml",
+      "sha256": "sha256:4c8cccc90cb064fd9fa37ceda31a9b98393740a119ab64839cc9f9805bd5c0a4"
+    },
+    {
+      "bytes": 1418,
+      "path": "docs/_meta/routes/build-documentation.yaml",
+      "sha256": "sha256:49758e33f308358baed5a7b962b3a15410f7dabfac3f01e77c044ddabb22a6ce"
+    },
+    {
+      "bytes": 1521,
+      "path": "docs/_meta/routes/change-architecture.yaml",
+      "sha256": "sha256:fd503f4438ff7466c0e0904b8f7b78eb97c8635357a97e82b44a70807053d4c5"
+    },
+    {
+      "bytes": 2292,
+      "path": "docs/_meta/routes/compose-project.yaml",
+      "sha256": "sha256:b8fad9aa13d900ad25ad44fa4e2ca37b40ee8577273db7ccb6c85f0b25241201"
+    },
+    {
+      "bytes": 2226,
+      "path": "docs/_meta/routes/create-schematic.yaml",
+      "sha256": "sha256:d1c3d9866a3cfea75906a42b596f6469cbd72119187227a5b3413909d689ea30"
+    },
+    {
+      "bytes": 2411,
+      "path": "docs/_meta/routes/create-symbol.yaml",
+      "sha256": "sha256:db8da319b49c3132d4ac6d0b61df890a2f6e62e8e4f32f0ea31e7761102a7766"
+    },
+    {
+      "bytes": 1145,
+      "path": "docs/_meta/routes/inspect-artifact.yaml",
+      "sha256": "sha256:86c6b7afb1138fec6d163642859083101920845cac17192bc58d2b2407cc9f03"
+    },
+    {
+      "bytes": 2238,
+      "path": "docs/_meta/routes/inspect-viewer.yaml",
+      "sha256": "sha256:523df31c94e27e675b16e74f89ddc59b8b99b9d2982ec86e71cc22f2d392e8fb"
+    },
+    {
+      "bytes": 1197,
+      "path": "docs/_meta/routes/migrate-baseline.yaml",
+      "sha256": "sha256:9f12b112cee7bf0af48ba0cb9f9c63e9b4313ef0770fa5fa0754639fb165d8dc"
+    },
+    {
+      "bytes": 1314,
+      "path": "docs/_meta/routes/publish-release.yaml",
+      "sha256": "sha256:7f62e1743ac861b5d233d971399dd6200d8a72f634e56335dbcafbce0cab7ff0"
+    },
+    {
+      "bytes": 2664,
+      "path": "docs/_meta/routes/render-review.yaml",
+      "sha256": "sha256:d9dd71fc47b80fdb4a3446cb10331c50da8a4fab5b4c07cb7382aad69fcc047e"
+    },
+    {
+      "bytes": 2135,
+      "path": "docs/_meta/routes/route-nets.yaml",
+      "sha256": "sha256:4ed9ceae02da0d888e65cfc35ac9e753541e4f8c0402c155c68c28487ccca8f7"
+    },
+    {
+      "bytes": 2280,
+      "path": "docs/_meta/routes/route-project-nets.yaml",
+      "sha256": "sha256:5c08fa823b3c1c79b257088313f716bd1e6b00c803131e98ebcccf3b8e9437c5"
+    },
+    {
+      "bytes": 2441,
+      "path": "docs/_meta/routes/validate-project.yaml",
+      "sha256": "sha256:741e3e7f269f20f65e60224ee8bc5db11f93094fa169d8f1c638a5608d25a817"
+    },
+    {
+      "bytes": 2760,
+      "path": "docs/_meta/routes/validate-symbol-expressiveness.yaml",
+      "sha256": "sha256:6382749ffbe95591bfd352a8dbd0dda19fa20c24aed778f7dfc69a7a86afd61b"
+    },
+    {
+      "bytes": 7613,
+      "path": "examples/authoring/01-two-pin-passive/render/drawing.svg",
+      "sha256": "sha256:23982e0cebac91c1b3575d293d6fe138166844bf7ec08b343c0fd22a21c6b0fa"
+    },
+    {
+      "bytes": 4101,
+      "path": "examples/authoring/01-two-pin-passive/render/resolved-scene.json",
+      "sha256": "sha256:19ccf03bf11169931332634ea065aa0ef01ba9a0149df67e9b99f82b49f72a75"
+    },
+    {
+      "bytes": 9049,
+      "path": "examples/authoring/02-connector/render/drawing.svg",
+      "sha256": "sha256:e04eb0e7cf82fed38e914c2dc69c1a5ff439ff6354e72f934650400c417db57a"
+    },
+    {
+      "bytes": 3279,
+      "path": "examples/authoring/02-connector/render/resolved-scene.json",
+      "sha256": "sha256:c0c31a176d52020aa363d6a83be84dbbbee08c2a9117acfc059a3ef0920d37e4"
+    },
+    {
+      "bytes": 13171,
+      "path": "examples/authoring/03-multi-pin-ic/render/drawing.svg",
+      "sha256": "sha256:ad3561d84897b359241d0955e13b19dd4cadc605029854f0f9595fb329d19e16"
+    },
+    {
+      "bytes": 3642,
+      "path": "examples/authoring/03-multi-pin-ic/render/resolved-scene.json",
+      "sha256": "sha256:3247c4e87d3a62071c4142fbae60d9b7e9cab539e191150f92c86224206a6919"
+    },
+    {
+      "bytes": 7727,
+      "path": "examples/authoring/04-parameterized-variant/render/drawing.svg",
+      "sha256": "sha256:90c91453b8a91c233c589683f347020e9374bb8e91f06b4863482f6011da8d6d"
+    },
+    {
+      "bytes": 4405,
+      "path": "examples/authoring/04-parameterized-variant/render/resolved-scene.json",
+      "sha256": "sha256:17621d06bd1caca071a8a4c5138ad6b4edc6287b731d2b96d25e3013509a5cc2"
+    },
+    {
+      "bytes": 6899,
+      "path": "examples/authoring/05-field-and-port-binding/render/drawing.svg",
+      "sha256": "sha256:2d17427506f8436f4cba881f974dd0d189688e94a32ef58e2cadd2ed10817137"
+    },
+    {
+      "bytes": 3133,
+      "path": "examples/authoring/05-field-and-port-binding/render/resolved-scene.json",
+      "sha256": "sha256:6ffc53f70cd62260fdb29c30dbd181b65df0f0cfa4883a1b84cc909b6ed2f330"
+    },
+    {
+      "bytes": 6443,
+      "path": "examples/authoring/06-two-terminal-route/render/drawing.svg",
+      "sha256": "sha256:7a59374815759f6a0d9a7d955a2a8f4eb93d7c0c8eda74cfe91a0963df9dea97"
+    },
+    {
+      "bytes": 3944,
+      "path": "examples/authoring/06-two-terminal-route/render/resolved-scene.json",
+      "sha256": "sha256:f9d19cc4aab0b86f92bd14b0a2455202e934137c64d142b717c8a6f68c186238"
+    },
+    {
+      "bytes": 9729,
+      "path": "examples/authoring/07-multi-terminal-junction/render/drawing.svg",
+      "sha256": "sha256:9067d6bc912d74d9b199d47b676499236ee7fed51dbe0559049f70817fe4e2b0"
+    },
+    {
+      "bytes": 6118,
+      "path": "examples/authoring/07-multi-terminal-junction/render/resolved-scene.json",
+      "sha256": "sha256:5ee04d5d1eb28ddd0c5ff90bd7e96bf16c492f94d09d0a691a9410de2da399d6"
+    },
+    {
+      "bytes": 6070,
+      "path": "examples/authoring/08-visual-repair/render/drawing.svg",
+      "sha256": "sha256:87a3dcc64d0c9c220bde531c7949a518a315c705d7ca4067a28206ef0c3f6c27"
+    },
+    {
+      "bytes": 3120,
+      "path": "examples/authoring/08-visual-repair/render/resolved-scene.json",
+      "sha256": "sha256:4349357c7c1900abd60cb6e04e26b45b079fa01cac7f2033cd65d2f04b5909b2"
+    },
+    {
+      "bytes": 16652,
+      "path": "validation/agent-evals/results/0.5.1-fixture-results.json",
+      "sha256": "sha256:ed9f8d2853eca1ef2f49d620e8cb98afb1444ed9cbe70f5387479b445a9bac97"
+    },
+    {
+      "bytes": 36810,
+      "path": "validation/corpus/hierarchical-project-1/cases/H001-two-sheet-power-+-control/render/project-composite.svg",
+      "sha256": "sha256:dde1dbe458e1975b7468e291613d2fe3c3fee90535de5fd90f0c535e5e1e0d9d"
+    },
+    {
+      "bytes": 6896,
+      "path": "validation/corpus/hierarchical-project-1/cases/H001-two-sheet-power-+-control/render/project-overview.svg",
+      "sha256": "sha256:80f59f7d6102b0161d013098ac20f654b724a8eb9fd04b6dab533b5f24a755c8"
+    },
+    {
+      "bytes": 3656,
+      "path": "validation/corpus/hierarchical-project-1/cases/H001-two-sheet-power-+-control/render/render-manifest.json",
+      "sha256": "sha256:fb9582ef18a43ea14a79ee7c29f768c5e1487841be12a101c96d28219b9fd4eb"
+    },
+    {
+      "bytes": 24283,
+      "path": "validation/corpus/hierarchical-project-1/cases/H001-two-sheet-power-+-control/render/resolved-project-scene.json",
+      "sha256": "sha256:9b54a68bdff50a8b2d592232d3daad8c3f59c55f87bfad02115da5e744848277"
+    },
+    {
+      "bytes": 38092,
+      "path": "validation/corpus/hierarchical-project-1/cases/H001-two-sheet-power-+-control/render/viewer-model.json",
+      "sha256": "sha256:3fcfe32388d6e0d2f8cea580218230e0d109d1cf191f96cf25c4ef1ca877c89d"
+    }
+  ],
+  "release": "0.5.4"
+}

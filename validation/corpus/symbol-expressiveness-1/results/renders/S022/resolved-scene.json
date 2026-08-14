@@ -1,0 +1,244 @@
+{
+  "coordinateSystem": {
+    "angleDirection": "clockwise",
+    "angleUnit": "deg",
+    "grid": 2.5,
+    "unit": "mm",
+    "yAxis": "down"
+  },
+  "diagnostics": [],
+  "entities": [
+    {
+      "componentType": "conformance:s022",
+      "key": "X1",
+      "kind": "component",
+      "parameters": {},
+      "placement": {
+        "entity": "X1",
+        "layer": "symbols",
+        "x": 80.0,
+        "y": 77.5
+      },
+      "ports": {
+        "PA0": [
+          50.0,
+          60.0
+        ],
+        "PA1": [
+          50.0,
+          65.0
+        ],
+        "PA2": [
+          50.0,
+          70.0
+        ],
+        "PA3": [
+          50.0,
+          75.0
+        ],
+        "PA4": [
+          50.0,
+          80.0
+        ],
+        "PA5": [
+          50.0,
+          85.0
+        ],
+        "PA6": [
+          50.0,
+          90.0
+        ],
+        "PA7": [
+          50.0,
+          95.0
+        ],
+        "PB0": [
+          110.0,
+          60.0
+        ],
+        "PB1": [
+          110.0,
+          65.0
+        ],
+        "PB2": [
+          110.0,
+          70.0
+        ],
+        "PB3": [
+          110.0,
+          75.0
+        ],
+        "PB4": [
+          110.0,
+          80.0
+        ],
+        "PB5": [
+          110.0,
+          85.0
+        ],
+        "PB6": [
+          110.0,
+          90.0
+        ],
+        "PB7": [
+          110.0,
+          95.0
+        ],
+        "VDD1": [
+          62.5,
+          47.5
+        ],
+        "VDD2": [
+          67.5,
+          47.5
+        ],
+        "VDD3": [
+          72.5,
+          47.5
+        ],
+        "VDD4": [
+          77.5,
+          47.5
+        ],
+        "VDD5": [
+          82.5,
+          47.5
+        ],
+        "VDD6": [
+          87.5,
+          47.5
+        ],
+        "VDD7": [
+          92.5,
+          47.5
+        ],
+        "VDD8": [
+          97.5,
+          47.5
+        ],
+        "VSS1": [
+          62.5,
+          107.5
+        ],
+        "VSS2": [
+          67.5,
+          107.5
+        ],
+        "VSS3": [
+          72.5,
+          107.5
+        ],
+        "VSS4": [
+          77.5,
+          107.5
+        ],
+        "VSS5": [
+          82.5,
+          107.5
+        ],
+        "VSS6": [
+          87.5,
+          107.5
+        ],
+        "VSS7": [
+          92.5,
+          107.5
+        ],
+        "VSS8": [
+          97.5,
+          107.5
+        ]
+      },
+      "reference": "X1",
+      "symbolDigest": "sha256:44a3aaf854d138fcba0e29edee8b2ab044eed888c1aeec1e63b6ce5ee7f2c2bc",
+      "symbolId": "corpus:s022-mcu-32",
+      "value": "32-pin MCU",
+      "variant": null
+    }
+  ],
+  "featuresUsed": [],
+  "generatedAt": "2026-08-10T00:00:00Z",
+  "gridValidation": {
+    "crossingPolicy": "junction-required",
+    "orthogonalSegments": 0,
+    "placementExceptions": [],
+    "placements": 1,
+    "placementsOnGrid": 1,
+    "profile": "aixem.schematic.grid-light",
+    "routeSegments": 0,
+    "routeViasOnGrid": true,
+    "snap": 2.5,
+    "zeroLengthSegments": []
+  },
+  "hashes": {
+    "layout": "sha256:ef2ad4f3bd2c948f41fc2a4a3d3e9b6b620f64a98bfe4a78b2ae8dfe3cbd72be",
+    "libraries": [
+      "sha256:f6fcf9f372982e3a9d91abf210465555f303af90913e9006952cb23efd7901d2"
+    ],
+    "source": "sha256:b00c23229d52187ebc811c0f2e7f0b1b0a0ed55fd7857b13ae91472d9a9600db",
+    "symbolAssets": [
+      "sha256:44a3aaf854d138fcba0e29edee8b2ab044eed888c1aeec1e63b6ce5ee7f2c2bc"
+    ]
+  },
+  "layers": [
+    {
+      "defaultVisible": true,
+      "id": "connections",
+      "locked": false,
+      "order": 10,
+      "printable": true,
+      "purpose": "semantic net routes"
+    },
+    {
+      "defaultVisible": true,
+      "id": "symbols",
+      "locked": false,
+      "order": 20,
+      "printable": true,
+      "purpose": "component symbols"
+    },
+    {
+      "defaultVisible": true,
+      "id": "annotation",
+      "locked": false,
+      "order": 30,
+      "printable": true,
+      "purpose": "notes"
+    }
+  ],
+  "nets": [],
+  "project": {
+    "id": "conformance:s022",
+    "profile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "title": "S022 32-pin MCU conformance project"
+  },
+  "renderer": {
+    "id": "aixem-grid-schematic-reference-renderer",
+    "version": "0.5.1"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/resolved-scene/1",
+  "sheet": {
+    "height": 180.0,
+    "margin": 10,
+    "titleBlock": {
+      "drawing": "corpus_s022-layout",
+      "revision": "A",
+      "sheet": "1/1",
+      "title": "S022 — 32-pin MCU"
+    },
+    "width": 190.0
+  },
+  "statistics": {
+    "entities": 1,
+    "nets": 0,
+    "noConnects": 0,
+    "primitives": 39,
+    "routeSegments": 0,
+    "symbolAssets": 1
+  },
+  "styleProfile": {
+    "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+    "id": "aixem.schematic.grid-light",
+    "path": "aixem-grid-schematic-style-1.aixstyle.json"
+  }
+}

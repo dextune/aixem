@@ -1,0 +1,66 @@
+{
+  "card": {
+    "aliases": [
+      "validation loop",
+      "agent self check",
+      "three pass validation"
+    ],
+    "appliesTo": [
+      "agent-validation-workflow"
+    ],
+    "domain": "agent",
+    "estimatedReadBytes": 6690,
+    "id": "AIXEM-AGENT-VALIDATION-001",
+    "inputs": [],
+    "keywords": [
+      "Three-Stage Validation Loop",
+      "agent self check",
+      "build-documentation",
+      "publish-release",
+      "three pass validation",
+      "validate-project",
+      "validation loop"
+    ],
+    "kind": "guide",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/agent/validation-loop.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:2001120b7326c7089e32a5351aedee1069bb42ae3c10a09ed69dbfc18bda1718"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-CONF-VALIDATION-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-AGENT-0020",
+        "level": "must",
+        "text": "**MUST.** An agent MUST run the narrow validator for the changed authority before release-level validation."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-0021",
+        "level": "must",
+        "text": "**MUST.** A schematic or documentation presentation change MUST include inspection of generated output at relevant viewport sizes."
+      },
+      {
+        "id": "AIXEM-REQ-AGENT-0022",
+        "level": "must",
+        "text": "**MUST.** An agent completion report MUST NOT claim a validation command that was not executed."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-AGENT-VALIDATION-001",
+        "path": "docs/agent/validation-loop.md"
+      }
+    ],
+    "summary": "Defines structural, semantic, and human-facing review stages for agent-produced changes.",
+    "title": "Three-Stage Validation Loop"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

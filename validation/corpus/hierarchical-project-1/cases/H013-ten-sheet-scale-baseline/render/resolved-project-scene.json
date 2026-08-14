@@ -1,0 +1,3146 @@
+{
+  "authority": {
+    "connectivityFromGeometry": false,
+    "layersAreSheets": false,
+    "localPresentation": "aixlayout/2",
+    "localSemantics": ".aixem",
+    "projectComposition": "aixproj/2"
+  },
+  "diagnostics": [],
+  "generatedAt": "2026-08-10T12:00:00Z",
+  "hashes": {
+    "inputs": [
+      {
+        "layoutDigest": "sha256:6b4061ff4b1494210fcf974ba25a947228355e78f844e1870468a98809ac68bc",
+        "layoutPath": "layouts/sheet-01.aixlayout.json",
+        "resolvedSceneDigest": "sha256:946cc1311b56e2121b097db3ae54e4320e8bdede6921bb515e99b71ace1c7a9f",
+        "sheet": "sheet-01",
+        "sourceDigest": "sha256:451e96820d2ae6417bd4e0ed9f93d1dc9a8a362fee27120ac721f8083ab0b173",
+        "sourcePath": "circuits/sheet-01.aixem",
+        "svgDigest": "sha256:546c2d7857cb49a470ba8caa42b49e486161624ce533cdd3ff29f8aacc198441"
+      },
+      {
+        "layoutDigest": "sha256:9b0747ccff47b3febf6786cd8a0533226f0a685760827fe3724b765d0a3b5c22",
+        "layoutPath": "layouts/sheet-02.aixlayout.json",
+        "resolvedSceneDigest": "sha256:aff29c1d9bc18449ff7459691ea81e9d0a75c0997104af377d30a9f4a9af965d",
+        "sheet": "sheet-02",
+        "sourceDigest": "sha256:f66866cbfd1b0bfa7684a2ed12306a8607ebe31db018676b29eb774cb7292b86",
+        "sourcePath": "circuits/sheet-02.aixem",
+        "svgDigest": "sha256:373f7a46e9d8b173735ced0681a822b2e9e0ffcd8013ebae9ae0c51911063a2b"
+      },
+      {
+        "layoutDigest": "sha256:afe09ea7b0439020a379b8db35894b04f0746cec0ccdc435b5f5aa2ef52c4b94",
+        "layoutPath": "layouts/sheet-03.aixlayout.json",
+        "resolvedSceneDigest": "sha256:aa5f8f391febdb1e5588d0e36058f7880d8ffe9452cc13e701b940b019047a85",
+        "sheet": "sheet-03",
+        "sourceDigest": "sha256:66f94a91c897a12add64e9d84b314eb8de0d95b1397802899dcd04762d74ec79",
+        "sourcePath": "circuits/sheet-03.aixem",
+        "svgDigest": "sha256:b2c0a6b47d5b22f8de439f250c71728f5920376a764791abee0767d99807151f"
+      },
+      {
+        "layoutDigest": "sha256:26837495cd289c45523e6224fc3fc2b6e779133ca5d4beecb79caed6240685fe",
+        "layoutPath": "layouts/sheet-04.aixlayout.json",
+        "resolvedSceneDigest": "sha256:06aedffaa267a56336e852a6f035ccd4261630404f28b5f8855ca751d7be0619",
+        "sheet": "sheet-04",
+        "sourceDigest": "sha256:197804611009a76c293827a13b695f297991dbb9f1e7b8583dff490cb770ed4c",
+        "sourcePath": "circuits/sheet-04.aixem",
+        "svgDigest": "sha256:0d7e33a4d480ed686b891ede8315be02f163d53611228410d96a72b500d44f42"
+      },
+      {
+        "layoutDigest": "sha256:d08e9e88c7bb4927850dfffa54746a73527ebc8f5d45c59dbc96a80e53659e48",
+        "layoutPath": "layouts/sheet-05.aixlayout.json",
+        "resolvedSceneDigest": "sha256:6112ef6a1392b814d9ace3fe726712929cdfdd3bf996a0d4f80dab5960b6bf02",
+        "sheet": "sheet-05",
+        "sourceDigest": "sha256:a3fc700f1c05d26ecb3e8faedca1b7302733d247540d40b40861d4b6d2f78d55",
+        "sourcePath": "circuits/sheet-05.aixem",
+        "svgDigest": "sha256:e2158f59d4593f7257c14d937c423c9bfc69c37f7ba5c6dd5354c95946f4bde7"
+      },
+      {
+        "layoutDigest": "sha256:476a490300cb3230b9f1d4ca217d610d8a62238dc32662b0fba70a2938705bba",
+        "layoutPath": "layouts/sheet-06.aixlayout.json",
+        "resolvedSceneDigest": "sha256:45112eabb99224c0a59c877bc6e32589d42d259a4944139e9c6d52fcecf3440e",
+        "sheet": "sheet-06",
+        "sourceDigest": "sha256:8ff7d4ceb473aab42ccb72ea92609777b5b238b197f706355e640a39c1f76075",
+        "sourcePath": "circuits/sheet-06.aixem",
+        "svgDigest": "sha256:e813422f1e1bd24f0334f6d59efd80f7c95a16b7a925e86df32212ffa35b142d"
+      },
+      {
+        "layoutDigest": "sha256:1b5c2f170d8655caccb17eaba2f0475add84327c5991d199319212f1fa9fc0ba",
+        "layoutPath": "layouts/sheet-07.aixlayout.json",
+        "resolvedSceneDigest": "sha256:c80e10d3b3f70b88252cb2faca4482f1964ffc4862f9825360b4e99e5d77d3d6",
+        "sheet": "sheet-07",
+        "sourceDigest": "sha256:74fe8f1e5f298440a3e37064ad905728fcda6e0fbeddaeaaab55f8930456457b",
+        "sourcePath": "circuits/sheet-07.aixem",
+        "svgDigest": "sha256:65e87d01e9bddb48972d104ac9c609dae95d841a129ade60bb21cbaf500215f1"
+      },
+      {
+        "layoutDigest": "sha256:87e479b68ea4eafd75a69446042415d3937f919fe35c8b8d52f06fbd4c1195b0",
+        "layoutPath": "layouts/sheet-08.aixlayout.json",
+        "resolvedSceneDigest": "sha256:953fc50a5c31fe5f3713aeac9782d07a267d63aa74fdf93620f83604bd052724",
+        "sheet": "sheet-08",
+        "sourceDigest": "sha256:35d7610a6f558d682f96955f808038ef6f0c6f1fd2f46944c1073b164f57e157",
+        "sourcePath": "circuits/sheet-08.aixem",
+        "svgDigest": "sha256:97e739fd7d8e730dd5dd5460855c32b91523f0c7038d6ec3fe4e21911ab0f806"
+      },
+      {
+        "layoutDigest": "sha256:84643398f6f35e406a940c591cd45872ee4404c18894678fe83a5ca438e79103",
+        "layoutPath": "layouts/sheet-09.aixlayout.json",
+        "resolvedSceneDigest": "sha256:07963cb8115517674a6d15e056fface3496ce2577dd8cee3ce4274b90075aada",
+        "sheet": "sheet-09",
+        "sourceDigest": "sha256:4d1022b012ad67df370363634d1b8328b68f7fb135ab4686f076c774c67aa285",
+        "sourcePath": "circuits/sheet-09.aixem",
+        "svgDigest": "sha256:df8e3f4246e3d74f49a80bda0c2e0c9ce2fe4feceee41c68070b3a7cab86ae35"
+      },
+      {
+        "layoutDigest": "sha256:954b61c1c9714ba4e4bdf6248b0e6a6caee2deb96e698355844c87a98d45b186",
+        "layoutPath": "layouts/sheet-10.aixlayout.json",
+        "resolvedSceneDigest": "sha256:b6ecaef86d274d5ed022dd5fbf316435c446fe54f4ee64152169c5048b4dbb7b",
+        "sheet": "sheet-10",
+        "sourceDigest": "sha256:6771c50582fc970d30e81dfd46c2b370e3b401d88e306fc2259eefbe8955b6ba",
+        "sourcePath": "circuits/sheet-10.aixem",
+        "svgDigest": "sha256:cc787545d0203ec52c4bdb735d1719eb90b951988ff587a9d8c92bad58506cee"
+      }
+    ],
+    "manifest": "sha256:4f1cc94a906cc78530f2c0bb8d65c20ecdd18da35ddc200b440b5de49de5d28e",
+    "styleProfile": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393"
+  },
+  "hierarchy": [
+    {
+      "children": [
+        "sheet-02",
+        "sheet-03",
+        "sheet-04",
+        "sheet-05",
+        "sheet-06",
+        "sheet-07",
+        "sheet-08",
+        "sheet-09",
+        "sheet-10"
+      ],
+      "depth": 0,
+      "id": "sheet-01",
+      "order": 1,
+      "parent": null,
+      "title": "Sheet 01"
+    },
+    {
+      "children": [],
+      "depth": 1,
+      "id": "sheet-02",
+      "order": 2,
+      "parent": "sheet-01",
+      "title": "Sheet 02"
+    },
+    {
+      "children": [],
+      "depth": 1,
+      "id": "sheet-03",
+      "order": 3,
+      "parent": "sheet-01",
+      "title": "Sheet 03"
+    },
+    {
+      "children": [],
+      "depth": 1,
+      "id": "sheet-04",
+      "order": 4,
+      "parent": "sheet-01",
+      "title": "Sheet 04"
+    },
+    {
+      "children": [],
+      "depth": 1,
+      "id": "sheet-05",
+      "order": 5,
+      "parent": "sheet-01",
+      "title": "Sheet 05"
+    },
+    {
+      "children": [],
+      "depth": 1,
+      "id": "sheet-06",
+      "order": 6,
+      "parent": "sheet-01",
+      "title": "Sheet 06"
+    },
+    {
+      "children": [],
+      "depth": 1,
+      "id": "sheet-07",
+      "order": 7,
+      "parent": "sheet-01",
+      "title": "Sheet 07"
+    },
+    {
+      "children": [],
+      "depth": 1,
+      "id": "sheet-08",
+      "order": 8,
+      "parent": "sheet-01",
+      "title": "Sheet 08"
+    },
+    {
+      "children": [],
+      "depth": 1,
+      "id": "sheet-09",
+      "order": 9,
+      "parent": "sheet-01",
+      "title": "Sheet 09"
+    },
+    {
+      "children": [],
+      "depth": 1,
+      "id": "sheet-10",
+      "order": 10,
+      "parent": "sheet-01",
+      "title": "Sheet 10"
+    }
+  ],
+  "interfaceSummaries": {
+    "sheet-01": {
+      "layoutDigest": "sha256:6b4061ff4b1494210fcf974ba25a947228355e78f844e1870468a98809ac68bc",
+      "ports": [
+        {
+          "direction": "passive",
+          "id": "GND",
+          "localNet": "gnd",
+          "projectNet": "gnd",
+          "role": "power"
+        },
+        {
+          "direction": "input",
+          "id": "VCC",
+          "localNet": "vcc",
+          "projectNet": "vcc",
+          "role": "power"
+        }
+      ],
+      "sheet": "sheet-01",
+      "sourceDigest": "sha256:451e96820d2ae6417bd4e0ed9f93d1dc9a8a362fee27120ac721f8083ab0b173",
+      "title": "Sheet 01"
+    },
+    "sheet-02": {
+      "layoutDigest": "sha256:9b0747ccff47b3febf6786cd8a0533226f0a685760827fe3724b765d0a3b5c22",
+      "ports": [
+        {
+          "direction": "passive",
+          "id": "GND",
+          "localNet": "gnd",
+          "projectNet": "gnd",
+          "role": "power"
+        },
+        {
+          "direction": "input",
+          "id": "VCC",
+          "localNet": "vcc",
+          "projectNet": "vcc",
+          "role": "power"
+        }
+      ],
+      "sheet": "sheet-02",
+      "sourceDigest": "sha256:f66866cbfd1b0bfa7684a2ed12306a8607ebe31db018676b29eb774cb7292b86",
+      "title": "Sheet 02"
+    },
+    "sheet-03": {
+      "layoutDigest": "sha256:afe09ea7b0439020a379b8db35894b04f0746cec0ccdc435b5f5aa2ef52c4b94",
+      "ports": [
+        {
+          "direction": "passive",
+          "id": "GND",
+          "localNet": "gnd",
+          "projectNet": "gnd",
+          "role": "power"
+        },
+        {
+          "direction": "input",
+          "id": "VCC",
+          "localNet": "vcc",
+          "projectNet": "vcc",
+          "role": "power"
+        }
+      ],
+      "sheet": "sheet-03",
+      "sourceDigest": "sha256:66f94a91c897a12add64e9d84b314eb8de0d95b1397802899dcd04762d74ec79",
+      "title": "Sheet 03"
+    },
+    "sheet-04": {
+      "layoutDigest": "sha256:26837495cd289c45523e6224fc3fc2b6e779133ca5d4beecb79caed6240685fe",
+      "ports": [
+        {
+          "direction": "passive",
+          "id": "GND",
+          "localNet": "gnd",
+          "projectNet": "gnd",
+          "role": "power"
+        },
+        {
+          "direction": "input",
+          "id": "VCC",
+          "localNet": "vcc",
+          "projectNet": "vcc",
+          "role": "power"
+        }
+      ],
+      "sheet": "sheet-04",
+      "sourceDigest": "sha256:197804611009a76c293827a13b695f297991dbb9f1e7b8583dff490cb770ed4c",
+      "title": "Sheet 04"
+    },
+    "sheet-05": {
+      "layoutDigest": "sha256:d08e9e88c7bb4927850dfffa54746a73527ebc8f5d45c59dbc96a80e53659e48",
+      "ports": [
+        {
+          "direction": "passive",
+          "id": "GND",
+          "localNet": "gnd",
+          "projectNet": "gnd",
+          "role": "power"
+        },
+        {
+          "direction": "input",
+          "id": "VCC",
+          "localNet": "vcc",
+          "projectNet": "vcc",
+          "role": "power"
+        }
+      ],
+      "sheet": "sheet-05",
+      "sourceDigest": "sha256:a3fc700f1c05d26ecb3e8faedca1b7302733d247540d40b40861d4b6d2f78d55",
+      "title": "Sheet 05"
+    },
+    "sheet-06": {
+      "layoutDigest": "sha256:476a490300cb3230b9f1d4ca217d610d8a62238dc32662b0fba70a2938705bba",
+      "ports": [
+        {
+          "direction": "passive",
+          "id": "GND",
+          "localNet": "gnd",
+          "projectNet": "gnd",
+          "role": "power"
+        },
+        {
+          "direction": "input",
+          "id": "VCC",
+          "localNet": "vcc",
+          "projectNet": "vcc",
+          "role": "power"
+        }
+      ],
+      "sheet": "sheet-06",
+      "sourceDigest": "sha256:8ff7d4ceb473aab42ccb72ea92609777b5b238b197f706355e640a39c1f76075",
+      "title": "Sheet 06"
+    },
+    "sheet-07": {
+      "layoutDigest": "sha256:1b5c2f170d8655caccb17eaba2f0475add84327c5991d199319212f1fa9fc0ba",
+      "ports": [
+        {
+          "direction": "passive",
+          "id": "GND",
+          "localNet": "gnd",
+          "projectNet": "gnd",
+          "role": "power"
+        },
+        {
+          "direction": "input",
+          "id": "VCC",
+          "localNet": "vcc",
+          "projectNet": "vcc",
+          "role": "power"
+        }
+      ],
+      "sheet": "sheet-07",
+      "sourceDigest": "sha256:74fe8f1e5f298440a3e37064ad905728fcda6e0fbeddaeaaab55f8930456457b",
+      "title": "Sheet 07"
+    },
+    "sheet-08": {
+      "layoutDigest": "sha256:87e479b68ea4eafd75a69446042415d3937f919fe35c8b8d52f06fbd4c1195b0",
+      "ports": [
+        {
+          "direction": "passive",
+          "id": "GND",
+          "localNet": "gnd",
+          "projectNet": "gnd",
+          "role": "power"
+        },
+        {
+          "direction": "input",
+          "id": "VCC",
+          "localNet": "vcc",
+          "projectNet": "vcc",
+          "role": "power"
+        }
+      ],
+      "sheet": "sheet-08",
+      "sourceDigest": "sha256:35d7610a6f558d682f96955f808038ef6f0c6f1fd2f46944c1073b164f57e157",
+      "title": "Sheet 08"
+    },
+    "sheet-09": {
+      "layoutDigest": "sha256:84643398f6f35e406a940c591cd45872ee4404c18894678fe83a5ca438e79103",
+      "ports": [
+        {
+          "direction": "passive",
+          "id": "GND",
+          "localNet": "gnd",
+          "projectNet": "gnd",
+          "role": "power"
+        },
+        {
+          "direction": "input",
+          "id": "VCC",
+          "localNet": "vcc",
+          "projectNet": "vcc",
+          "role": "power"
+        }
+      ],
+      "sheet": "sheet-09",
+      "sourceDigest": "sha256:4d1022b012ad67df370363634d1b8328b68f7fb135ab4686f076c774c67aa285",
+      "title": "Sheet 09"
+    },
+    "sheet-10": {
+      "layoutDigest": "sha256:954b61c1c9714ba4e4bdf6248b0e6a6caee2deb96e698355844c87a98d45b186",
+      "ports": [
+        {
+          "direction": "passive",
+          "id": "GND",
+          "localNet": "gnd",
+          "projectNet": "gnd",
+          "role": "power"
+        },
+        {
+          "direction": "input",
+          "id": "VCC",
+          "localNet": "vcc",
+          "projectNet": "vcc",
+          "role": "power"
+        }
+      ],
+      "sheet": "sheet-10",
+      "sourceDigest": "sha256:6771c50582fc970d30e81dfd46c2b370e3b401d88e306fc2259eefbe8955b6ba",
+      "title": "Sheet 10"
+    }
+  },
+  "project": {
+    "id": "hierarchical:h013",
+    "profile": "aixem.schematic.multisheet@1",
+    "schema": "https://schemas.aixem.org/component-graphics/aixproj/2",
+    "title": "Ten sheet scale baseline"
+  },
+  "renderer": {
+    "id": "aixem-hierarchical-project-reference-renderer",
+    "version": "0.5.3"
+  },
+  "routing": {
+    "composite": {
+      "anchors": [
+        {
+          "direction": "passive",
+          "localNet": "gnd",
+          "point": [
+            155.0,
+            150.0
+          ],
+          "port": "GND",
+          "projectNet": "gnd",
+          "role": "power",
+          "sheet": "sheet-01",
+          "side": "bottom"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            155.0,
+            70.0
+          ],
+          "port": "VCC",
+          "projectNet": "vcc",
+          "role": "power",
+          "sheet": "sheet-01",
+          "side": "top"
+        },
+        {
+          "direction": "passive",
+          "localNet": "gnd",
+          "point": [
+            195.0,
+            371.0
+          ],
+          "port": "GND",
+          "projectNet": "gnd",
+          "role": "power",
+          "sheet": "sheet-02",
+          "side": "bottom"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            195.0,
+            291.0
+          ],
+          "port": "VCC",
+          "projectNet": "vcc",
+          "role": "power",
+          "sheet": "sheet-02",
+          "side": "top"
+        },
+        {
+          "direction": "passive",
+          "localNet": "gnd",
+          "point": [
+            195.0,
+            592.0
+          ],
+          "port": "GND",
+          "projectNet": "gnd",
+          "role": "power",
+          "sheet": "sheet-03",
+          "side": "bottom"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            195.0,
+            512.0
+          ],
+          "port": "VCC",
+          "projectNet": "vcc",
+          "role": "power",
+          "sheet": "sheet-03",
+          "side": "top"
+        },
+        {
+          "direction": "passive",
+          "localNet": "gnd",
+          "point": [
+            195.0,
+            813.0
+          ],
+          "port": "GND",
+          "projectNet": "gnd",
+          "role": "power",
+          "sheet": "sheet-04",
+          "side": "bottom"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            195.0,
+            733.0
+          ],
+          "port": "VCC",
+          "projectNet": "vcc",
+          "role": "power",
+          "sheet": "sheet-04",
+          "side": "top"
+        },
+        {
+          "direction": "passive",
+          "localNet": "gnd",
+          "point": [
+            195.0,
+            1034.0
+          ],
+          "port": "GND",
+          "projectNet": "gnd",
+          "role": "power",
+          "sheet": "sheet-05",
+          "side": "bottom"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            195.0,
+            954.0
+          ],
+          "port": "VCC",
+          "projectNet": "vcc",
+          "role": "power",
+          "sheet": "sheet-05",
+          "side": "top"
+        },
+        {
+          "direction": "passive",
+          "localNet": "gnd",
+          "point": [
+            195.0,
+            1255.0
+          ],
+          "port": "GND",
+          "projectNet": "gnd",
+          "role": "power",
+          "sheet": "sheet-06",
+          "side": "bottom"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            195.0,
+            1175.0
+          ],
+          "port": "VCC",
+          "projectNet": "vcc",
+          "role": "power",
+          "sheet": "sheet-06",
+          "side": "top"
+        },
+        {
+          "direction": "passive",
+          "localNet": "gnd",
+          "point": [
+            195.0,
+            1476.0
+          ],
+          "port": "GND",
+          "projectNet": "gnd",
+          "role": "power",
+          "sheet": "sheet-07",
+          "side": "bottom"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            195.0,
+            1396.0
+          ],
+          "port": "VCC",
+          "projectNet": "vcc",
+          "role": "power",
+          "sheet": "sheet-07",
+          "side": "top"
+        },
+        {
+          "direction": "passive",
+          "localNet": "gnd",
+          "point": [
+            195.0,
+            1697.0
+          ],
+          "port": "GND",
+          "projectNet": "gnd",
+          "role": "power",
+          "sheet": "sheet-08",
+          "side": "bottom"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            195.0,
+            1617.0
+          ],
+          "port": "VCC",
+          "projectNet": "vcc",
+          "role": "power",
+          "sheet": "sheet-08",
+          "side": "top"
+        },
+        {
+          "direction": "passive",
+          "localNet": "gnd",
+          "point": [
+            195.0,
+            1918.0
+          ],
+          "port": "GND",
+          "projectNet": "gnd",
+          "role": "power",
+          "sheet": "sheet-09",
+          "side": "bottom"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            195.0,
+            1838.0
+          ],
+          "port": "VCC",
+          "projectNet": "vcc",
+          "role": "power",
+          "sheet": "sheet-09",
+          "side": "top"
+        },
+        {
+          "direction": "passive",
+          "localNet": "gnd",
+          "point": [
+            195.0,
+            2139.0
+          ],
+          "port": "GND",
+          "projectNet": "gnd",
+          "role": "power",
+          "sheet": "sheet-10",
+          "side": "bottom"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            195.0,
+            2059.0
+          ],
+          "port": "VCC",
+          "projectNet": "vcc",
+          "role": "power",
+          "sheet": "sheet-10",
+          "side": "top"
+        }
+      ],
+      "canvas": {
+        "height": 2209.0,
+        "width": 439.0
+      },
+      "diagnostics": [],
+      "mode": "composite",
+      "nets": [
+        {
+          "id": "gnd",
+          "junctions": [
+            [
+              350.0,
+              177.0
+            ],
+            [
+              350.0,
+              398.0
+            ],
+            [
+              350.0,
+              619.0
+            ],
+            [
+              350.0,
+              840.0
+            ],
+            [
+              350.0,
+              1061.0
+            ],
+            [
+              350.0,
+              1282.0
+            ],
+            [
+              350.0,
+              1503.0
+            ],
+            [
+              350.0,
+              1724.0
+            ],
+            [
+              350.0,
+              1945.0
+            ],
+            [
+              350.0,
+              2166.0
+            ]
+          ],
+          "label": "gnd",
+          "members": [
+            {
+              "anchor": [
+                155.0,
+                150.0
+              ],
+              "localNet": "gnd",
+              "port": "GND",
+              "sheet": "sheet-01",
+              "side": "bottom"
+            },
+            {
+              "anchor": [
+                195.0,
+                371.0
+              ],
+              "localNet": "gnd",
+              "port": "GND",
+              "sheet": "sheet-02",
+              "side": "bottom"
+            },
+            {
+              "anchor": [
+                195.0,
+                592.0
+              ],
+              "localNet": "gnd",
+              "port": "GND",
+              "sheet": "sheet-03",
+              "side": "bottom"
+            },
+            {
+              "anchor": [
+                195.0,
+                813.0
+              ],
+              "localNet": "gnd",
+              "port": "GND",
+              "sheet": "sheet-04",
+              "side": "bottom"
+            },
+            {
+              "anchor": [
+                195.0,
+                1034.0
+              ],
+              "localNet": "gnd",
+              "port": "GND",
+              "sheet": "sheet-05",
+              "side": "bottom"
+            },
+            {
+              "anchor": [
+                195.0,
+                1255.0
+              ],
+              "localNet": "gnd",
+              "port": "GND",
+              "sheet": "sheet-06",
+              "side": "bottom"
+            },
+            {
+              "anchor": [
+                195.0,
+                1476.0
+              ],
+              "localNet": "gnd",
+              "port": "GND",
+              "sheet": "sheet-07",
+              "side": "bottom"
+            },
+            {
+              "anchor": [
+                195.0,
+                1697.0
+              ],
+              "localNet": "gnd",
+              "port": "GND",
+              "sheet": "sheet-08",
+              "side": "bottom"
+            },
+            {
+              "anchor": [
+                195.0,
+                1918.0
+              ],
+              "localNet": "gnd",
+              "port": "GND",
+              "sheet": "sheet-09",
+              "side": "bottom"
+            },
+            {
+              "anchor": [
+                195.0,
+                2139.0
+              ],
+              "localNet": "gnd",
+              "port": "GND",
+              "sheet": "sheet-10",
+              "side": "bottom"
+            }
+          ],
+          "paths": [
+            [
+              [
+                155.0,
+                150.0
+              ],
+              [
+                155.0,
+                174.0
+              ],
+              [
+                155.0,
+                177.0
+              ],
+              [
+                350.0,
+                177.0
+              ]
+            ],
+            [
+              [
+                195.0,
+                371.0
+              ],
+              [
+                195.0,
+                395.0
+              ],
+              [
+                195.0,
+                398.0
+              ],
+              [
+                350.0,
+                398.0
+              ]
+            ],
+            [
+              [
+                195.0,
+                592.0
+              ],
+              [
+                195.0,
+                616.0
+              ],
+              [
+                195.0,
+                619.0
+              ],
+              [
+                350.0,
+                619.0
+              ]
+            ],
+            [
+              [
+                195.0,
+                813.0
+              ],
+              [
+                195.0,
+                837.0
+              ],
+              [
+                195.0,
+                840.0
+              ],
+              [
+                350.0,
+                840.0
+              ]
+            ],
+            [
+              [
+                195.0,
+                1034.0
+              ],
+              [
+                195.0,
+                1058.0
+              ],
+              [
+                195.0,
+                1061.0
+              ],
+              [
+                350.0,
+                1061.0
+              ]
+            ],
+            [
+              [
+                195.0,
+                1255.0
+              ],
+              [
+                195.0,
+                1279.0
+              ],
+              [
+                195.0,
+                1282.0
+              ],
+              [
+                350.0,
+                1282.0
+              ]
+            ],
+            [
+              [
+                195.0,
+                1476.0
+              ],
+              [
+                195.0,
+                1500.0
+              ],
+              [
+                195.0,
+                1503.0
+              ],
+              [
+                350.0,
+                1503.0
+              ]
+            ],
+            [
+              [
+                195.0,
+                1697.0
+              ],
+              [
+                195.0,
+                1721.0
+              ],
+              [
+                195.0,
+                1724.0
+              ],
+              [
+                350.0,
+                1724.0
+              ]
+            ],
+            [
+              [
+                195.0,
+                1918.0
+              ],
+              [
+                195.0,
+                1942.0
+              ],
+              [
+                195.0,
+                1945.0
+              ],
+              [
+                350.0,
+                1945.0
+              ]
+            ],
+            [
+              [
+                195.0,
+                2139.0
+              ],
+              [
+                195.0,
+                2163.0
+              ],
+              [
+                195.0,
+                2166.0
+              ],
+              [
+                350.0,
+                2166.0
+              ]
+            ],
+            [
+              [
+                350.0,
+                177.0
+              ],
+              [
+                350.0,
+                2166.0
+              ]
+            ]
+          ],
+          "role": "power",
+          "trunkX": 350.0
+        },
+        {
+          "id": "vcc",
+          "junctions": [
+            [
+              374.0,
+              40.0
+            ],
+            [
+              374.0,
+              261.0
+            ],
+            [
+              374.0,
+              482.0
+            ],
+            [
+              374.0,
+              703.0
+            ],
+            [
+              374.0,
+              924.0
+            ],
+            [
+              374.0,
+              1145.0
+            ],
+            [
+              374.0,
+              1366.0
+            ],
+            [
+              374.0,
+              1587.0
+            ],
+            [
+              374.0,
+              1808.0
+            ],
+            [
+              374.0,
+              2029.0
+            ]
+          ],
+          "label": "vcc",
+          "members": [
+            {
+              "anchor": [
+                155.0,
+                70.0
+              ],
+              "localNet": "vcc",
+              "port": "VCC",
+              "sheet": "sheet-01",
+              "side": "top"
+            },
+            {
+              "anchor": [
+                195.0,
+                291.0
+              ],
+              "localNet": "vcc",
+              "port": "VCC",
+              "sheet": "sheet-02",
+              "side": "top"
+            },
+            {
+              "anchor": [
+                195.0,
+                512.0
+              ],
+              "localNet": "vcc",
+              "port": "VCC",
+              "sheet": "sheet-03",
+              "side": "top"
+            },
+            {
+              "anchor": [
+                195.0,
+                733.0
+              ],
+              "localNet": "vcc",
+              "port": "VCC",
+              "sheet": "sheet-04",
+              "side": "top"
+            },
+            {
+              "anchor": [
+                195.0,
+                954.0
+              ],
+              "localNet": "vcc",
+              "port": "VCC",
+              "sheet": "sheet-05",
+              "side": "top"
+            },
+            {
+              "anchor": [
+                195.0,
+                1175.0
+              ],
+              "localNet": "vcc",
+              "port": "VCC",
+              "sheet": "sheet-06",
+              "side": "top"
+            },
+            {
+              "anchor": [
+                195.0,
+                1396.0
+              ],
+              "localNet": "vcc",
+              "port": "VCC",
+              "sheet": "sheet-07",
+              "side": "top"
+            },
+            {
+              "anchor": [
+                195.0,
+                1617.0
+              ],
+              "localNet": "vcc",
+              "port": "VCC",
+              "sheet": "sheet-08",
+              "side": "top"
+            },
+            {
+              "anchor": [
+                195.0,
+                1838.0
+              ],
+              "localNet": "vcc",
+              "port": "VCC",
+              "sheet": "sheet-09",
+              "side": "top"
+            },
+            {
+              "anchor": [
+                195.0,
+                2059.0
+              ],
+              "localNet": "vcc",
+              "port": "VCC",
+              "sheet": "sheet-10",
+              "side": "top"
+            }
+          ],
+          "paths": [
+            [
+              [
+                155.0,
+                70.0
+              ],
+              [
+                155.0,
+                46.0
+              ],
+              [
+                155.0,
+                40.0
+              ],
+              [
+                374.0,
+                40.0
+              ]
+            ],
+            [
+              [
+                195.0,
+                291.0
+              ],
+              [
+                195.0,
+                267.0
+              ],
+              [
+                195.0,
+                261.0
+              ],
+              [
+                374.0,
+                261.0
+              ]
+            ],
+            [
+              [
+                195.0,
+                512.0
+              ],
+              [
+                195.0,
+                488.0
+              ],
+              [
+                195.0,
+                482.0
+              ],
+              [
+                374.0,
+                482.0
+              ]
+            ],
+            [
+              [
+                195.0,
+                733.0
+              ],
+              [
+                195.0,
+                709.0
+              ],
+              [
+                195.0,
+                703.0
+              ],
+              [
+                374.0,
+                703.0
+              ]
+            ],
+            [
+              [
+                195.0,
+                954.0
+              ],
+              [
+                195.0,
+                930.0
+              ],
+              [
+                195.0,
+                924.0
+              ],
+              [
+                374.0,
+                924.0
+              ]
+            ],
+            [
+              [
+                195.0,
+                1175.0
+              ],
+              [
+                195.0,
+                1151.0
+              ],
+              [
+                195.0,
+                1145.0
+              ],
+              [
+                374.0,
+                1145.0
+              ]
+            ],
+            [
+              [
+                195.0,
+                1396.0
+              ],
+              [
+                195.0,
+                1372.0
+              ],
+              [
+                195.0,
+                1366.0
+              ],
+              [
+                374.0,
+                1366.0
+              ]
+            ],
+            [
+              [
+                195.0,
+                1617.0
+              ],
+              [
+                195.0,
+                1593.0
+              ],
+              [
+                195.0,
+                1587.0
+              ],
+              [
+                374.0,
+                1587.0
+              ]
+            ],
+            [
+              [
+                195.0,
+                1838.0
+              ],
+              [
+                195.0,
+                1814.0
+              ],
+              [
+                195.0,
+                1808.0
+              ],
+              [
+                374.0,
+                1808.0
+              ]
+            ],
+            [
+              [
+                195.0,
+                2059.0
+              ],
+              [
+                195.0,
+                2035.0
+              ],
+              [
+                195.0,
+                2029.0
+              ],
+              [
+                374.0,
+                2029.0
+              ]
+            ],
+            [
+              [
+                374.0,
+                40.0
+              ],
+              [
+                374.0,
+                2029.0
+              ]
+            ]
+          ],
+          "role": "power",
+          "trunkX": 374.0
+        }
+      ],
+      "sheets": [
+        {
+          "depth": 0,
+          "id": "sheet-01",
+          "rect": [
+            80.0,
+            60.0,
+            160.0,
+            100.0
+          ],
+          "title": "Sheet 01",
+          "transform": {
+            "scale": 1.0,
+            "x": 80.0,
+            "y": 60.0
+          }
+        },
+        {
+          "depth": 1,
+          "id": "sheet-02",
+          "rect": [
+            120.0,
+            281.0,
+            160.0,
+            100.0
+          ],
+          "title": "Sheet 02",
+          "transform": {
+            "scale": 1.0,
+            "x": 120.0,
+            "y": 281.0
+          }
+        },
+        {
+          "depth": 1,
+          "id": "sheet-03",
+          "rect": [
+            120.0,
+            502.0,
+            160.0,
+            100.0
+          ],
+          "title": "Sheet 03",
+          "transform": {
+            "scale": 1.0,
+            "x": 120.0,
+            "y": 502.0
+          }
+        },
+        {
+          "depth": 1,
+          "id": "sheet-04",
+          "rect": [
+            120.0,
+            723.0,
+            160.0,
+            100.0
+          ],
+          "title": "Sheet 04",
+          "transform": {
+            "scale": 1.0,
+            "x": 120.0,
+            "y": 723.0
+          }
+        },
+        {
+          "depth": 1,
+          "id": "sheet-05",
+          "rect": [
+            120.0,
+            944.0,
+            160.0,
+            100.0
+          ],
+          "title": "Sheet 05",
+          "transform": {
+            "scale": 1.0,
+            "x": 120.0,
+            "y": 944.0
+          }
+        },
+        {
+          "depth": 1,
+          "id": "sheet-06",
+          "rect": [
+            120.0,
+            1165.0,
+            160.0,
+            100.0
+          ],
+          "title": "Sheet 06",
+          "transform": {
+            "scale": 1.0,
+            "x": 120.0,
+            "y": 1165.0
+          }
+        },
+        {
+          "depth": 1,
+          "id": "sheet-07",
+          "rect": [
+            120.0,
+            1386.0,
+            160.0,
+            100.0
+          ],
+          "title": "Sheet 07",
+          "transform": {
+            "scale": 1.0,
+            "x": 120.0,
+            "y": 1386.0
+          }
+        },
+        {
+          "depth": 1,
+          "id": "sheet-08",
+          "rect": [
+            120.0,
+            1607.0,
+            160.0,
+            100.0
+          ],
+          "title": "Sheet 08",
+          "transform": {
+            "scale": 1.0,
+            "x": 120.0,
+            "y": 1607.0
+          }
+        },
+        {
+          "depth": 1,
+          "id": "sheet-09",
+          "rect": [
+            120.0,
+            1828.0,
+            160.0,
+            100.0
+          ],
+          "title": "Sheet 09",
+          "transform": {
+            "scale": 1.0,
+            "x": 120.0,
+            "y": 1828.0
+          }
+        },
+        {
+          "depth": 1,
+          "id": "sheet-10",
+          "rect": [
+            120.0,
+            2049.0,
+            160.0,
+            100.0
+          ],
+          "title": "Sheet 10",
+          "transform": {
+            "scale": 1.0,
+            "x": 120.0,
+            "y": 2049.0
+          }
+        }
+      ]
+    },
+    "overview": {
+      "anchors": [
+        {
+          "direction": "passive",
+          "localNet": "gnd",
+          "point": [
+            170.0,
+            138.0
+          ],
+          "port": "GND",
+          "projectNet": "gnd",
+          "role": "power",
+          "sheet": "sheet-01",
+          "side": "bottom"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            170.0,
+            50.0
+          ],
+          "port": "VCC",
+          "projectNet": "vcc",
+          "role": "power",
+          "sheet": "sheet-01",
+          "side": "top"
+        },
+        {
+          "direction": "passive",
+          "localNet": "gnd",
+          "point": [
+            208.0,
+            318.0
+          ],
+          "port": "GND",
+          "projectNet": "gnd",
+          "role": "power",
+          "sheet": "sheet-02",
+          "side": "bottom"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            208.0,
+            230.0
+          ],
+          "port": "VCC",
+          "projectNet": "vcc",
+          "role": "power",
+          "sheet": "sheet-02",
+          "side": "top"
+        },
+        {
+          "direction": "passive",
+          "localNet": "gnd",
+          "point": [
+            208.0,
+            498.0
+          ],
+          "port": "GND",
+          "projectNet": "gnd",
+          "role": "power",
+          "sheet": "sheet-03",
+          "side": "bottom"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            208.0,
+            410.0
+          ],
+          "port": "VCC",
+          "projectNet": "vcc",
+          "role": "power",
+          "sheet": "sheet-03",
+          "side": "top"
+        },
+        {
+          "direction": "passive",
+          "localNet": "gnd",
+          "point": [
+            208.0,
+            678.0
+          ],
+          "port": "GND",
+          "projectNet": "gnd",
+          "role": "power",
+          "sheet": "sheet-04",
+          "side": "bottom"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            208.0,
+            590.0
+          ],
+          "port": "VCC",
+          "projectNet": "vcc",
+          "role": "power",
+          "sheet": "sheet-04",
+          "side": "top"
+        },
+        {
+          "direction": "passive",
+          "localNet": "gnd",
+          "point": [
+            208.0,
+            858.0
+          ],
+          "port": "GND",
+          "projectNet": "gnd",
+          "role": "power",
+          "sheet": "sheet-05",
+          "side": "bottom"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            208.0,
+            770.0
+          ],
+          "port": "VCC",
+          "projectNet": "vcc",
+          "role": "power",
+          "sheet": "sheet-05",
+          "side": "top"
+        },
+        {
+          "direction": "passive",
+          "localNet": "gnd",
+          "point": [
+            208.0,
+            1038.0
+          ],
+          "port": "GND",
+          "projectNet": "gnd",
+          "role": "power",
+          "sheet": "sheet-06",
+          "side": "bottom"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            208.0,
+            950.0
+          ],
+          "port": "VCC",
+          "projectNet": "vcc",
+          "role": "power",
+          "sheet": "sheet-06",
+          "side": "top"
+        },
+        {
+          "direction": "passive",
+          "localNet": "gnd",
+          "point": [
+            208.0,
+            1218.0
+          ],
+          "port": "GND",
+          "projectNet": "gnd",
+          "role": "power",
+          "sheet": "sheet-07",
+          "side": "bottom"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            208.0,
+            1130.0
+          ],
+          "port": "VCC",
+          "projectNet": "vcc",
+          "role": "power",
+          "sheet": "sheet-07",
+          "side": "top"
+        },
+        {
+          "direction": "passive",
+          "localNet": "gnd",
+          "point": [
+            208.0,
+            1398.0
+          ],
+          "port": "GND",
+          "projectNet": "gnd",
+          "role": "power",
+          "sheet": "sheet-08",
+          "side": "bottom"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            208.0,
+            1310.0
+          ],
+          "port": "VCC",
+          "projectNet": "vcc",
+          "role": "power",
+          "sheet": "sheet-08",
+          "side": "top"
+        },
+        {
+          "direction": "passive",
+          "localNet": "gnd",
+          "point": [
+            208.0,
+            1578.0
+          ],
+          "port": "GND",
+          "projectNet": "gnd",
+          "role": "power",
+          "sheet": "sheet-09",
+          "side": "bottom"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            208.0,
+            1490.0
+          ],
+          "port": "VCC",
+          "projectNet": "vcc",
+          "role": "power",
+          "sheet": "sheet-09",
+          "side": "top"
+        },
+        {
+          "direction": "passive",
+          "localNet": "gnd",
+          "point": [
+            208.0,
+            1758.0
+          ],
+          "port": "GND",
+          "projectNet": "gnd",
+          "role": "power",
+          "sheet": "sheet-10",
+          "side": "bottom"
+        },
+        {
+          "direction": "input",
+          "localNet": "vcc",
+          "point": [
+            208.0,
+            1670.0
+          ],
+          "port": "VCC",
+          "projectNet": "vcc",
+          "role": "power",
+          "sheet": "sheet-10",
+          "side": "top"
+        }
+      ],
+      "canvas": {
+        "height": 1818.0,
+        "width": 457.0
+      },
+      "diagnostics": [],
+      "mode": "overview",
+      "nets": [
+        {
+          "id": "gnd",
+          "junctions": [
+            [
+              368.0,
+              155.0
+            ],
+            [
+              368.0,
+              335.0
+            ],
+            [
+              368.0,
+              515.0
+            ],
+            [
+              368.0,
+              695.0
+            ],
+            [
+              368.0,
+              875.0
+            ],
+            [
+              368.0,
+              1055.0
+            ],
+            [
+              368.0,
+              1235.0
+            ],
+            [
+              368.0,
+              1415.0
+            ],
+            [
+              368.0,
+              1595.0
+            ],
+            [
+              368.0,
+              1775.0
+            ]
+          ],
+          "label": "gnd",
+          "members": [
+            {
+              "anchor": [
+                170.0,
+                138.0
+              ],
+              "localNet": "gnd",
+              "port": "GND",
+              "sheet": "sheet-01",
+              "side": "bottom"
+            },
+            {
+              "anchor": [
+                208.0,
+                318.0
+              ],
+              "localNet": "gnd",
+              "port": "GND",
+              "sheet": "sheet-02",
+              "side": "bottom"
+            },
+            {
+              "anchor": [
+                208.0,
+                498.0
+              ],
+              "localNet": "gnd",
+              "port": "GND",
+              "sheet": "sheet-03",
+              "side": "bottom"
+            },
+            {
+              "anchor": [
+                208.0,
+                678.0
+              ],
+              "localNet": "gnd",
+              "port": "GND",
+              "sheet": "sheet-04",
+              "side": "bottom"
+            },
+            {
+              "anchor": [
+                208.0,
+                858.0
+              ],
+              "localNet": "gnd",
+              "port": "GND",
+              "sheet": "sheet-05",
+              "side": "bottom"
+            },
+            {
+              "anchor": [
+                208.0,
+                1038.0
+              ],
+              "localNet": "gnd",
+              "port": "GND",
+              "sheet": "sheet-06",
+              "side": "bottom"
+            },
+            {
+              "anchor": [
+                208.0,
+                1218.0
+              ],
+              "localNet": "gnd",
+              "port": "GND",
+              "sheet": "sheet-07",
+              "side": "bottom"
+            },
+            {
+              "anchor": [
+                208.0,
+                1398.0
+              ],
+              "localNet": "gnd",
+              "port": "GND",
+              "sheet": "sheet-08",
+              "side": "bottom"
+            },
+            {
+              "anchor": [
+                208.0,
+                1578.0
+              ],
+              "localNet": "gnd",
+              "port": "GND",
+              "sheet": "sheet-09",
+              "side": "bottom"
+            },
+            {
+              "anchor": [
+                208.0,
+                1758.0
+              ],
+              "localNet": "gnd",
+              "port": "GND",
+              "sheet": "sheet-10",
+              "side": "bottom"
+            }
+          ],
+          "paths": [
+            [
+              [
+                170.0,
+                138.0
+              ],
+              [
+                170.0,
+                152.0
+              ],
+              [
+                170.0,
+                155.0
+              ],
+              [
+                368.0,
+                155.0
+              ]
+            ],
+            [
+              [
+                208.0,
+                318.0
+              ],
+              [
+                208.0,
+                332.0
+              ],
+              [
+                208.0,
+                335.0
+              ],
+              [
+                368.0,
+                335.0
+              ]
+            ],
+            [
+              [
+                208.0,
+                498.0
+              ],
+              [
+                208.0,
+                512.0
+              ],
+              [
+                208.0,
+                515.0
+              ],
+              [
+                368.0,
+                515.0
+              ]
+            ],
+            [
+              [
+                208.0,
+                678.0
+              ],
+              [
+                208.0,
+                692.0
+              ],
+              [
+                208.0,
+                695.0
+              ],
+              [
+                368.0,
+                695.0
+              ]
+            ],
+            [
+              [
+                208.0,
+                858.0
+              ],
+              [
+                208.0,
+                872.0
+              ],
+              [
+                208.0,
+                875.0
+              ],
+              [
+                368.0,
+                875.0
+              ]
+            ],
+            [
+              [
+                208.0,
+                1038.0
+              ],
+              [
+                208.0,
+                1052.0
+              ],
+              [
+                208.0,
+                1055.0
+              ],
+              [
+                368.0,
+                1055.0
+              ]
+            ],
+            [
+              [
+                208.0,
+                1218.0
+              ],
+              [
+                208.0,
+                1232.0
+              ],
+              [
+                208.0,
+                1235.0
+              ],
+              [
+                368.0,
+                1235.0
+              ]
+            ],
+            [
+              [
+                208.0,
+                1398.0
+              ],
+              [
+                208.0,
+                1412.0
+              ],
+              [
+                208.0,
+                1415.0
+              ],
+              [
+                368.0,
+                1415.0
+              ]
+            ],
+            [
+              [
+                208.0,
+                1578.0
+              ],
+              [
+                208.0,
+                1592.0
+              ],
+              [
+                208.0,
+                1595.0
+              ],
+              [
+                368.0,
+                1595.0
+              ]
+            ],
+            [
+              [
+                208.0,
+                1758.0
+              ],
+              [
+                208.0,
+                1772.0
+              ],
+              [
+                208.0,
+                1775.0
+              ],
+              [
+                368.0,
+                1775.0
+              ]
+            ],
+            [
+              [
+                368.0,
+                155.0
+              ],
+              [
+                368.0,
+                1775.0
+              ]
+            ]
+          ],
+          "role": "power",
+          "trunkX": 368.0
+        },
+        {
+          "id": "vcc",
+          "junctions": [
+            [
+              392.0,
+              30.0
+            ],
+            [
+              392.0,
+              210.0
+            ],
+            [
+              392.0,
+              390.0
+            ],
+            [
+              392.0,
+              570.0
+            ],
+            [
+              392.0,
+              750.0
+            ],
+            [
+              392.0,
+              930.0
+            ],
+            [
+              392.0,
+              1110.0
+            ],
+            [
+              392.0,
+              1290.0
+            ],
+            [
+              392.0,
+              1470.0
+            ],
+            [
+              392.0,
+              1650.0
+            ]
+          ],
+          "label": "vcc",
+          "members": [
+            {
+              "anchor": [
+                170.0,
+                50.0
+              ],
+              "localNet": "vcc",
+              "port": "VCC",
+              "sheet": "sheet-01",
+              "side": "top"
+            },
+            {
+              "anchor": [
+                208.0,
+                230.0
+              ],
+              "localNet": "vcc",
+              "port": "VCC",
+              "sheet": "sheet-02",
+              "side": "top"
+            },
+            {
+              "anchor": [
+                208.0,
+                410.0
+              ],
+              "localNet": "vcc",
+              "port": "VCC",
+              "sheet": "sheet-03",
+              "side": "top"
+            },
+            {
+              "anchor": [
+                208.0,
+                590.0
+              ],
+              "localNet": "vcc",
+              "port": "VCC",
+              "sheet": "sheet-04",
+              "side": "top"
+            },
+            {
+              "anchor": [
+                208.0,
+                770.0
+              ],
+              "localNet": "vcc",
+              "port": "VCC",
+              "sheet": "sheet-05",
+              "side": "top"
+            },
+            {
+              "anchor": [
+                208.0,
+                950.0
+              ],
+              "localNet": "vcc",
+              "port": "VCC",
+              "sheet": "sheet-06",
+              "side": "top"
+            },
+            {
+              "anchor": [
+                208.0,
+                1130.0
+              ],
+              "localNet": "vcc",
+              "port": "VCC",
+              "sheet": "sheet-07",
+              "side": "top"
+            },
+            {
+              "anchor": [
+                208.0,
+                1310.0
+              ],
+              "localNet": "vcc",
+              "port": "VCC",
+              "sheet": "sheet-08",
+              "side": "top"
+            },
+            {
+              "anchor": [
+                208.0,
+                1490.0
+              ],
+              "localNet": "vcc",
+              "port": "VCC",
+              "sheet": "sheet-09",
+              "side": "top"
+            },
+            {
+              "anchor": [
+                208.0,
+                1670.0
+              ],
+              "localNet": "vcc",
+              "port": "VCC",
+              "sheet": "sheet-10",
+              "side": "top"
+            }
+          ],
+          "paths": [
+            [
+              [
+                170.0,
+                50.0
+              ],
+              [
+                170.0,
+                36.0
+              ],
+              [
+                170.0,
+                30.0
+              ],
+              [
+                392.0,
+                30.0
+              ]
+            ],
+            [
+              [
+                208.0,
+                230.0
+              ],
+              [
+                208.0,
+                216.0
+              ],
+              [
+                208.0,
+                210.0
+              ],
+              [
+                392.0,
+                210.0
+              ]
+            ],
+            [
+              [
+                208.0,
+                410.0
+              ],
+              [
+                208.0,
+                396.0
+              ],
+              [
+                208.0,
+                390.0
+              ],
+              [
+                392.0,
+                390.0
+              ]
+            ],
+            [
+              [
+                208.0,
+                590.0
+              ],
+              [
+                208.0,
+                576.0
+              ],
+              [
+                208.0,
+                570.0
+              ],
+              [
+                392.0,
+                570.0
+              ]
+            ],
+            [
+              [
+                208.0,
+                770.0
+              ],
+              [
+                208.0,
+                756.0
+              ],
+              [
+                208.0,
+                750.0
+              ],
+              [
+                392.0,
+                750.0
+              ]
+            ],
+            [
+              [
+                208.0,
+                950.0
+              ],
+              [
+                208.0,
+                936.0
+              ],
+              [
+                208.0,
+                930.0
+              ],
+              [
+                392.0,
+                930.0
+              ]
+            ],
+            [
+              [
+                208.0,
+                1130.0
+              ],
+              [
+                208.0,
+                1116.0
+              ],
+              [
+                208.0,
+                1110.0
+              ],
+              [
+                392.0,
+                1110.0
+              ]
+            ],
+            [
+              [
+                208.0,
+                1310.0
+              ],
+              [
+                208.0,
+                1296.0
+              ],
+              [
+                208.0,
+                1290.0
+              ],
+              [
+                392.0,
+                1290.0
+              ]
+            ],
+            [
+              [
+                208.0,
+                1490.0
+              ],
+              [
+                208.0,
+                1476.0
+              ],
+              [
+                208.0,
+                1470.0
+              ],
+              [
+                392.0,
+                1470.0
+              ]
+            ],
+            [
+              [
+                208.0,
+                1670.0
+              ],
+              [
+                208.0,
+                1656.0
+              ],
+              [
+                208.0,
+                1650.0
+              ],
+              [
+                392.0,
+                1650.0
+              ]
+            ],
+            [
+              [
+                392.0,
+                30.0
+              ],
+              [
+                392.0,
+                1650.0
+              ]
+            ]
+          ],
+          "role": "power",
+          "trunkX": 392.0
+        }
+      ],
+      "sheets": [
+        {
+          "depth": 0,
+          "id": "sheet-01",
+          "rect": [
+            80.0,
+            50.0,
+            180.0,
+            88.0
+          ],
+          "title": "Sheet 01",
+          "transform": {
+            "scale": 1.0,
+            "x": 80.0,
+            "y": 50.0
+          }
+        },
+        {
+          "depth": 1,
+          "id": "sheet-02",
+          "rect": [
+            118.0,
+            230.0,
+            180.0,
+            88.0
+          ],
+          "title": "Sheet 02",
+          "transform": {
+            "scale": 1.0,
+            "x": 118.0,
+            "y": 230.0
+          }
+        },
+        {
+          "depth": 1,
+          "id": "sheet-03",
+          "rect": [
+            118.0,
+            410.0,
+            180.0,
+            88.0
+          ],
+          "title": "Sheet 03",
+          "transform": {
+            "scale": 1.0,
+            "x": 118.0,
+            "y": 410.0
+          }
+        },
+        {
+          "depth": 1,
+          "id": "sheet-04",
+          "rect": [
+            118.0,
+            590.0,
+            180.0,
+            88.0
+          ],
+          "title": "Sheet 04",
+          "transform": {
+            "scale": 1.0,
+            "x": 118.0,
+            "y": 590.0
+          }
+        },
+        {
+          "depth": 1,
+          "id": "sheet-05",
+          "rect": [
+            118.0,
+            770.0,
+            180.0,
+            88.0
+          ],
+          "title": "Sheet 05",
+          "transform": {
+            "scale": 1.0,
+            "x": 118.0,
+            "y": 770.0
+          }
+        },
+        {
+          "depth": 1,
+          "id": "sheet-06",
+          "rect": [
+            118.0,
+            950.0,
+            180.0,
+            88.0
+          ],
+          "title": "Sheet 06",
+          "transform": {
+            "scale": 1.0,
+            "x": 118.0,
+            "y": 950.0
+          }
+        },
+        {
+          "depth": 1,
+          "id": "sheet-07",
+          "rect": [
+            118.0,
+            1130.0,
+            180.0,
+            88.0
+          ],
+          "title": "Sheet 07",
+          "transform": {
+            "scale": 1.0,
+            "x": 118.0,
+            "y": 1130.0
+          }
+        },
+        {
+          "depth": 1,
+          "id": "sheet-08",
+          "rect": [
+            118.0,
+            1310.0,
+            180.0,
+            88.0
+          ],
+          "title": "Sheet 08",
+          "transform": {
+            "scale": 1.0,
+            "x": 118.0,
+            "y": 1310.0
+          }
+        },
+        {
+          "depth": 1,
+          "id": "sheet-09",
+          "rect": [
+            118.0,
+            1490.0,
+            180.0,
+            88.0
+          ],
+          "title": "Sheet 09",
+          "transform": {
+            "scale": 1.0,
+            "x": 118.0,
+            "y": 1490.0
+          }
+        },
+        {
+          "depth": 1,
+          "id": "sheet-10",
+          "rect": [
+            118.0,
+            1670.0,
+            180.0,
+            88.0
+          ],
+          "title": "Sheet 10",
+          "transform": {
+            "scale": 1.0,
+            "x": 118.0,
+            "y": 1670.0
+          }
+        }
+      ]
+    }
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/resolved-project-scene/1",
+  "semanticGraph": {
+    "identities": {
+      "interfaces": [
+        "interface:sheet-01:GND",
+        "interface:sheet-01:VCC",
+        "interface:sheet-02:GND",
+        "interface:sheet-02:VCC",
+        "interface:sheet-03:GND",
+        "interface:sheet-03:VCC",
+        "interface:sheet-04:GND",
+        "interface:sheet-04:VCC",
+        "interface:sheet-05:GND",
+        "interface:sheet-05:VCC",
+        "interface:sheet-06:GND",
+        "interface:sheet-06:VCC",
+        "interface:sheet-07:GND",
+        "interface:sheet-07:VCC",
+        "interface:sheet-08:GND",
+        "interface:sheet-08:VCC",
+        "interface:sheet-09:GND",
+        "interface:sheet-09:VCC",
+        "interface:sheet-10:GND",
+        "interface:sheet-10:VCC"
+      ],
+      "projectNets": [
+        "project-net:gnd",
+        "project-net:vcc"
+      ],
+      "sheets": [
+        "sheet:sheet-01",
+        "sheet:sheet-02",
+        "sheet:sheet-03",
+        "sheet:sheet-04",
+        "sheet:sheet-05",
+        "sheet:sheet-06",
+        "sheet:sheet-07",
+        "sheet:sheet-08",
+        "sheet:sheet-09",
+        "sheet:sheet-10"
+      ]
+    },
+    "projectNets": [
+      {
+        "crossesHierarchyBoundary": true,
+        "id": "gnd",
+        "members": [
+          {
+            "interface": "interface:sheet-01:GND",
+            "localNet": "gnd",
+            "port": "GND",
+            "qualifiedLocalNet": "local-net:sheet-01:gnd",
+            "sheet": "sheet-01"
+          },
+          {
+            "interface": "interface:sheet-02:GND",
+            "localNet": "gnd",
+            "port": "GND",
+            "qualifiedLocalNet": "local-net:sheet-02:gnd",
+            "sheet": "sheet-02"
+          },
+          {
+            "interface": "interface:sheet-03:GND",
+            "localNet": "gnd",
+            "port": "GND",
+            "qualifiedLocalNet": "local-net:sheet-03:gnd",
+            "sheet": "sheet-03"
+          },
+          {
+            "interface": "interface:sheet-04:GND",
+            "localNet": "gnd",
+            "port": "GND",
+            "qualifiedLocalNet": "local-net:sheet-04:gnd",
+            "sheet": "sheet-04"
+          },
+          {
+            "interface": "interface:sheet-05:GND",
+            "localNet": "gnd",
+            "port": "GND",
+            "qualifiedLocalNet": "local-net:sheet-05:gnd",
+            "sheet": "sheet-05"
+          },
+          {
+            "interface": "interface:sheet-06:GND",
+            "localNet": "gnd",
+            "port": "GND",
+            "qualifiedLocalNet": "local-net:sheet-06:gnd",
+            "sheet": "sheet-06"
+          },
+          {
+            "interface": "interface:sheet-07:GND",
+            "localNet": "gnd",
+            "port": "GND",
+            "qualifiedLocalNet": "local-net:sheet-07:gnd",
+            "sheet": "sheet-07"
+          },
+          {
+            "interface": "interface:sheet-08:GND",
+            "localNet": "gnd",
+            "port": "GND",
+            "qualifiedLocalNet": "local-net:sheet-08:gnd",
+            "sheet": "sheet-08"
+          },
+          {
+            "interface": "interface:sheet-09:GND",
+            "localNet": "gnd",
+            "port": "GND",
+            "qualifiedLocalNet": "local-net:sheet-09:gnd",
+            "sheet": "sheet-09"
+          },
+          {
+            "interface": "interface:sheet-10:GND",
+            "localNet": "gnd",
+            "port": "GND",
+            "qualifiedLocalNet": "local-net:sheet-10:gnd",
+            "sheet": "sheet-10"
+          }
+        ],
+        "qualifiedId": "project-net:gnd",
+        "transitiveEndpoints": [
+          "entity:sheet-01:U1.11",
+          "entity:sheet-02:U1.11",
+          "entity:sheet-03:U1.11",
+          "entity:sheet-04:U1.11",
+          "entity:sheet-05:U1.11",
+          "entity:sheet-06:U1.11",
+          "entity:sheet-07:U1.11",
+          "entity:sheet-08:U1.11",
+          "entity:sheet-09:U1.11",
+          "entity:sheet-10:U1.11",
+          "interface:sheet-01:GND",
+          "interface:sheet-02:GND",
+          "interface:sheet-03:GND",
+          "interface:sheet-04:GND",
+          "interface:sheet-05:GND",
+          "interface:sheet-06:GND",
+          "interface:sheet-07:GND",
+          "interface:sheet-08:GND",
+          "interface:sheet-09:GND",
+          "interface:sheet-10:GND"
+        ]
+      },
+      {
+        "crossesHierarchyBoundary": true,
+        "id": "vcc",
+        "members": [
+          {
+            "interface": "interface:sheet-01:VCC",
+            "localNet": "vcc",
+            "port": "VCC",
+            "qualifiedLocalNet": "local-net:sheet-01:vcc",
+            "sheet": "sheet-01"
+          },
+          {
+            "interface": "interface:sheet-02:VCC",
+            "localNet": "vcc",
+            "port": "VCC",
+            "qualifiedLocalNet": "local-net:sheet-02:vcc",
+            "sheet": "sheet-02"
+          },
+          {
+            "interface": "interface:sheet-03:VCC",
+            "localNet": "vcc",
+            "port": "VCC",
+            "qualifiedLocalNet": "local-net:sheet-03:vcc",
+            "sheet": "sheet-03"
+          },
+          {
+            "interface": "interface:sheet-04:VCC",
+            "localNet": "vcc",
+            "port": "VCC",
+            "qualifiedLocalNet": "local-net:sheet-04:vcc",
+            "sheet": "sheet-04"
+          },
+          {
+            "interface": "interface:sheet-05:VCC",
+            "localNet": "vcc",
+            "port": "VCC",
+            "qualifiedLocalNet": "local-net:sheet-05:vcc",
+            "sheet": "sheet-05"
+          },
+          {
+            "interface": "interface:sheet-06:VCC",
+            "localNet": "vcc",
+            "port": "VCC",
+            "qualifiedLocalNet": "local-net:sheet-06:vcc",
+            "sheet": "sheet-06"
+          },
+          {
+            "interface": "interface:sheet-07:VCC",
+            "localNet": "vcc",
+            "port": "VCC",
+            "qualifiedLocalNet": "local-net:sheet-07:vcc",
+            "sheet": "sheet-07"
+          },
+          {
+            "interface": "interface:sheet-08:VCC",
+            "localNet": "vcc",
+            "port": "VCC",
+            "qualifiedLocalNet": "local-net:sheet-08:vcc",
+            "sheet": "sheet-08"
+          },
+          {
+            "interface": "interface:sheet-09:VCC",
+            "localNet": "vcc",
+            "port": "VCC",
+            "qualifiedLocalNet": "local-net:sheet-09:vcc",
+            "sheet": "sheet-09"
+          },
+          {
+            "interface": "interface:sheet-10:VCC",
+            "localNet": "vcc",
+            "port": "VCC",
+            "qualifiedLocalNet": "local-net:sheet-10:vcc",
+            "sheet": "sheet-10"
+          }
+        ],
+        "qualifiedId": "project-net:vcc",
+        "transitiveEndpoints": [
+          "entity:sheet-01:U1.9",
+          "entity:sheet-02:U1.9",
+          "entity:sheet-03:U1.9",
+          "entity:sheet-04:U1.9",
+          "entity:sheet-05:U1.9",
+          "entity:sheet-06:U1.9",
+          "entity:sheet-07:U1.9",
+          "entity:sheet-08:U1.9",
+          "entity:sheet-09:U1.9",
+          "entity:sheet-10:U1.9",
+          "interface:sheet-01:VCC",
+          "interface:sheet-02:VCC",
+          "interface:sheet-03:VCC",
+          "interface:sheet-04:VCC",
+          "interface:sheet-05:VCC",
+          "interface:sheet-06:VCC",
+          "interface:sheet-07:VCC",
+          "interface:sheet-08:VCC",
+          "interface:sheet-09:VCC",
+          "interface:sheet-10:VCC"
+        ]
+      }
+    ],
+    "unconnectedPorts": []
+  },
+  "sheets": [
+    {
+      "id": "sheet-01",
+      "layout": {
+        "digest": "sha256:6b4061ff4b1494210fcf974ba25a947228355e78f844e1870468a98809ac68bc",
+        "id": "h013-ten-sheet-scale-baseline:sheet-01-layout",
+        "mediaType": "application/json",
+        "path": "layouts/sheet-01.aixlayout.json",
+        "version": "2.0"
+      },
+      "order": 1,
+      "parent": null,
+      "resolvedScene": "sheets/sheet-01.resolved-scene.json",
+      "source": {
+        "digest": "sha256:451e96820d2ae6417bd4e0ed9f93d1dc9a8a362fee27120ac721f8083ab0b173",
+        "id": "h013-ten-sheet-scale-baseline:sheet-01",
+        "mediaType": "text/x-aixem",
+        "path": "circuits/sheet-01.aixem",
+        "version": "1.0"
+      },
+      "svg": "sheets/sheet-01.svg",
+      "title": "Sheet 01"
+    },
+    {
+      "id": "sheet-02",
+      "layout": {
+        "digest": "sha256:9b0747ccff47b3febf6786cd8a0533226f0a685760827fe3724b765d0a3b5c22",
+        "id": "h013-ten-sheet-scale-baseline:sheet-02-layout",
+        "mediaType": "application/json",
+        "path": "layouts/sheet-02.aixlayout.json",
+        "version": "2.0"
+      },
+      "order": 2,
+      "parent": "sheet-01",
+      "resolvedScene": "sheets/sheet-02.resolved-scene.json",
+      "source": {
+        "digest": "sha256:f66866cbfd1b0bfa7684a2ed12306a8607ebe31db018676b29eb774cb7292b86",
+        "id": "h013-ten-sheet-scale-baseline:sheet-02",
+        "mediaType": "text/x-aixem",
+        "path": "circuits/sheet-02.aixem",
+        "version": "1.0"
+      },
+      "svg": "sheets/sheet-02.svg",
+      "title": "Sheet 02"
+    },
+    {
+      "id": "sheet-03",
+      "layout": {
+        "digest": "sha256:afe09ea7b0439020a379b8db35894b04f0746cec0ccdc435b5f5aa2ef52c4b94",
+        "id": "h013-ten-sheet-scale-baseline:sheet-03-layout",
+        "mediaType": "application/json",
+        "path": "layouts/sheet-03.aixlayout.json",
+        "version": "2.0"
+      },
+      "order": 3,
+      "parent": "sheet-01",
+      "resolvedScene": "sheets/sheet-03.resolved-scene.json",
+      "source": {
+        "digest": "sha256:66f94a91c897a12add64e9d84b314eb8de0d95b1397802899dcd04762d74ec79",
+        "id": "h013-ten-sheet-scale-baseline:sheet-03",
+        "mediaType": "text/x-aixem",
+        "path": "circuits/sheet-03.aixem",
+        "version": "1.0"
+      },
+      "svg": "sheets/sheet-03.svg",
+      "title": "Sheet 03"
+    },
+    {
+      "id": "sheet-04",
+      "layout": {
+        "digest": "sha256:26837495cd289c45523e6224fc3fc2b6e779133ca5d4beecb79caed6240685fe",
+        "id": "h013-ten-sheet-scale-baseline:sheet-04-layout",
+        "mediaType": "application/json",
+        "path": "layouts/sheet-04.aixlayout.json",
+        "version": "2.0"
+      },
+      "order": 4,
+      "parent": "sheet-01",
+      "resolvedScene": "sheets/sheet-04.resolved-scene.json",
+      "source": {
+        "digest": "sha256:197804611009a76c293827a13b695f297991dbb9f1e7b8583dff490cb770ed4c",
+        "id": "h013-ten-sheet-scale-baseline:sheet-04",
+        "mediaType": "text/x-aixem",
+        "path": "circuits/sheet-04.aixem",
+        "version": "1.0"
+      },
+      "svg": "sheets/sheet-04.svg",
+      "title": "Sheet 04"
+    },
+    {
+      "id": "sheet-05",
+      "layout": {
+        "digest": "sha256:d08e9e88c7bb4927850dfffa54746a73527ebc8f5d45c59dbc96a80e53659e48",
+        "id": "h013-ten-sheet-scale-baseline:sheet-05-layout",
+        "mediaType": "application/json",
+        "path": "layouts/sheet-05.aixlayout.json",
+        "version": "2.0"
+      },
+      "order": 5,
+      "parent": "sheet-01",
+      "resolvedScene": "sheets/sheet-05.resolved-scene.json",
+      "source": {
+        "digest": "sha256:a3fc700f1c05d26ecb3e8faedca1b7302733d247540d40b40861d4b6d2f78d55",
+        "id": "h013-ten-sheet-scale-baseline:sheet-05",
+        "mediaType": "text/x-aixem",
+        "path": "circuits/sheet-05.aixem",
+        "version": "1.0"
+      },
+      "svg": "sheets/sheet-05.svg",
+      "title": "Sheet 05"
+    },
+    {
+      "id": "sheet-06",
+      "layout": {
+        "digest": "sha256:476a490300cb3230b9f1d4ca217d610d8a62238dc32662b0fba70a2938705bba",
+        "id": "h013-ten-sheet-scale-baseline:sheet-06-layout",
+        "mediaType": "application/json",
+        "path": "layouts/sheet-06.aixlayout.json",
+        "version": "2.0"
+      },
+      "order": 6,
+      "parent": "sheet-01",
+      "resolvedScene": "sheets/sheet-06.resolved-scene.json",
+      "source": {
+        "digest": "sha256:8ff7d4ceb473aab42ccb72ea92609777b5b238b197f706355e640a39c1f76075",
+        "id": "h013-ten-sheet-scale-baseline:sheet-06",
+        "mediaType": "text/x-aixem",
+        "path": "circuits/sheet-06.aixem",
+        "version": "1.0"
+      },
+      "svg": "sheets/sheet-06.svg",
+      "title": "Sheet 06"
+    },
+    {
+      "id": "sheet-07",
+      "layout": {
+        "digest": "sha256:1b5c2f170d8655caccb17eaba2f0475add84327c5991d199319212f1fa9fc0ba",
+        "id": "h013-ten-sheet-scale-baseline:sheet-07-layout",
+        "mediaType": "application/json",
+        "path": "layouts/sheet-07.aixlayout.json",
+        "version": "2.0"
+      },
+      "order": 7,
+      "parent": "sheet-01",
+      "resolvedScene": "sheets/sheet-07.resolved-scene.json",
+      "source": {
+        "digest": "sha256:74fe8f1e5f298440a3e37064ad905728fcda6e0fbeddaeaaab55f8930456457b",
+        "id": "h013-ten-sheet-scale-baseline:sheet-07",
+        "mediaType": "text/x-aixem",
+        "path": "circuits/sheet-07.aixem",
+        "version": "1.0"
+      },
+      "svg": "sheets/sheet-07.svg",
+      "title": "Sheet 07"
+    },
+    {
+      "id": "sheet-08",
+      "layout": {
+        "digest": "sha256:87e479b68ea4eafd75a69446042415d3937f919fe35c8b8d52f06fbd4c1195b0",
+        "id": "h013-ten-sheet-scale-baseline:sheet-08-layout",
+        "mediaType": "application/json",
+        "path": "layouts/sheet-08.aixlayout.json",
+        "version": "2.0"
+      },
+      "order": 8,
+      "parent": "sheet-01",
+      "resolvedScene": "sheets/sheet-08.resolved-scene.json",
+      "source": {
+        "digest": "sha256:35d7610a6f558d682f96955f808038ef6f0c6f1fd2f46944c1073b164f57e157",
+        "id": "h013-ten-sheet-scale-baseline:sheet-08",
+        "mediaType": "text/x-aixem",
+        "path": "circuits/sheet-08.aixem",
+        "version": "1.0"
+      },
+      "svg": "sheets/sheet-08.svg",
+      "title": "Sheet 08"
+    },
+    {
+      "id": "sheet-09",
+      "layout": {
+        "digest": "sha256:84643398f6f35e406a940c591cd45872ee4404c18894678fe83a5ca438e79103",
+        "id": "h013-ten-sheet-scale-baseline:sheet-09-layout",
+        "mediaType": "application/json",
+        "path": "layouts/sheet-09.aixlayout.json",
+        "version": "2.0"
+      },
+      "order": 9,
+      "parent": "sheet-01",
+      "resolvedScene": "sheets/sheet-09.resolved-scene.json",
+      "source": {
+        "digest": "sha256:4d1022b012ad67df370363634d1b8328b68f7fb135ab4686f076c774c67aa285",
+        "id": "h013-ten-sheet-scale-baseline:sheet-09",
+        "mediaType": "text/x-aixem",
+        "path": "circuits/sheet-09.aixem",
+        "version": "1.0"
+      },
+      "svg": "sheets/sheet-09.svg",
+      "title": "Sheet 09"
+    },
+    {
+      "id": "sheet-10",
+      "layout": {
+        "digest": "sha256:954b61c1c9714ba4e4bdf6248b0e6a6caee2deb96e698355844c87a98d45b186",
+        "id": "h013-ten-sheet-scale-baseline:sheet-10-layout",
+        "mediaType": "application/json",
+        "path": "layouts/sheet-10.aixlayout.json",
+        "version": "2.0"
+      },
+      "order": 10,
+      "parent": "sheet-01",
+      "resolvedScene": "sheets/sheet-10.resolved-scene.json",
+      "source": {
+        "digest": "sha256:6771c50582fc970d30e81dfd46c2b370e3b401d88e306fc2259eefbe8955b6ba",
+        "id": "h013-ten-sheet-scale-baseline:sheet-10",
+        "mediaType": "text/x-aixem",
+        "path": "circuits/sheet-10.aixem",
+        "version": "1.0"
+      },
+      "svg": "sheets/sheet-10.svg",
+      "title": "Sheet 10"
+    }
+  ],
+  "statistics": {
+    "entities": 10,
+    "hierarchyDepth": 1,
+    "interfacePorts": 20,
+    "localNets": 20,
+    "localRouteSegments": 20,
+    "projectNets": 2,
+    "projectRouteSegments": 124,
+    "sheets": 10,
+    "unconnectedProjectPorts": 0
+  }
+}

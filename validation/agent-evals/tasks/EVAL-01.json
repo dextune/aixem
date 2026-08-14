@@ -1,0 +1,21 @@
+{
+  "entryRoute": "author-component-circuit",
+  "exampleFixture": "examples/authoring/01-two-pin-passive",
+  "formatVersion": "1.0",
+  "id": "EVAL-01",
+  "prohibitedDiscovery": [
+    "repository-wide search",
+    "renderer implementation inspection"
+  ],
+  "prompt": "Create a new passive component and symbol, bind reference/value, place two instances, and connect them.",
+  "requiredExitConditions": [
+    "symbol-ready",
+    "semantic-and-placement-ready",
+    "routing-ready",
+    "visual-review-ready",
+    "release-valid"
+  ],
+  "schema": "https://schemas.aixem.org/validation/agent-eval-task/1",
+  "scoringProfile": "validation/agent-evals/scoring.md",
+  "title": "New two-pin component"
+}

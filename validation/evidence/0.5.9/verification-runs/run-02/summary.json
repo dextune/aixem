@@ -1,0 +1,905 @@
+{
+  "checks": [
+    {
+      "documents": 158,
+      "errors": [],
+      "guides": 11,
+      "id": "integrated-plan-and-structure",
+      "plan": "planning/releases/0.5.9/integrated-authoring-library-pin-semantics-and-agent-placement-hardening.md",
+      "planSha256": "fac80db33ab6983c1ae367c6297748a87cfd6b3b4f28a9857c6fb5ed10b5ce2f",
+      "requirements": 262,
+      "routes": 16,
+      "status": "PASS",
+      "summary": "Integrated plan mapping and authoring structure are closed.",
+      "valid": true
+    },
+    {
+      "canonicalDocuments": 158,
+      "errors": [],
+      "generatedAudit": {
+        "authorityScopeReview": {
+          "collisions": {},
+          "errors": [],
+          "normativeScopes": 107,
+          "sharedAllowed": [
+            "architecture-decision"
+          ],
+          "valid": true
+        },
+        "currentReleaseCoherence": {
+          "checks": [
+            {
+              "detail": "expected current-release path docs/releases/0.5.9.md",
+              "id": "releaseNote",
+              "valid": true
+            },
+            {
+              "detail": "expected current-release path validation/releases/0.5.9/README.md",
+              "id": "validationIndex",
+              "valid": true
+            },
+            {
+              "detail": "expected current-release path planning/releases/0.5.9",
+              "id": "planningRecord",
+              "valid": true
+            },
+            {
+              "detail": "README.md must identify 0.5.9",
+              "id": "rootVersion:README.md",
+              "valid": true
+            },
+            {
+              "detail": "START_HERE.md must identify 0.5.9",
+              "id": "rootVersion:START_HERE.md",
+              "valid": true
+            },
+            {
+              "detail": "REFERENCE.md must identify 0.5.9",
+              "id": "rootVersion:REFERENCE.md",
+              "valid": true
+            },
+            {
+              "detail": "current release note must be the final release navigation item",
+              "id": "releaseNavigation",
+              "valid": true
+            },
+            {
+              "detail": "publish-release must not depend on historical release notes: []",
+              "id": "publishRouteCurrentState",
+              "valid": true
+            },
+            {
+              "detail": "active routes contain stale release-scoped paths: []",
+              "id": "routeReleasePaths",
+              "valid": true
+            },
+            {
+              "detail": "Agent Evaluation 3 operational evidence must identify AIXEM-SRP-0.5.9-2026-08-12: []",
+              "id": "agentEvaluationRepositoryRelease",
+              "valid": true
+            },
+            {
+              "detail": "release metadata must identify 0.5.9 and AIXEM-SRP-0.5.9-2026-08-12",
+              "id": "releaseMetadataVersion",
+              "valid": true
+            }
+          ],
+          "errors": [],
+          "release": "AIXEM-SRP-0.5.9-2026-08-12",
+          "valid": true,
+          "version": "0.5.9"
+        },
+        "errors": [],
+        "formatVersion": "1.0",
+        "generatedAt": "2026-08-12T00:00:00Z",
+        "release": "AIXEM-SRP-0.5.9-2026-08-12",
+        "repositoryAreaCoverage": {
+          "errors": [],
+          "linked": 16,
+          "missing": [],
+          "referenceMap": "REFERENCE.md",
+          "targets": 16,
+          "valid": true
+        },
+        "rootLinkIntegrity": {
+          "errors": [],
+          "linksChecked": 129,
+          "rootDocuments": 8,
+          "valid": true
+        },
+        "rootReachability": {
+          "deepestDocuments": [
+            "validation/releases/0.5.0/migration.md",
+            "validation/releases/0.5.0/pass-01-canonicalization.md",
+            "validation/releases/0.5.0/pass-02-agent-compiler.md",
+            "validation/releases/0.5.0/pass-03-publication-and-conformance.md",
+            "validation/releases/0.5.1/agent-retrieval.md",
+            "validation/releases/0.5.1/authoring-visual-review.md",
+            "validation/releases/0.5.1/documentation-compiler.md",
+            "validation/releases/0.5.1/pass-01-authoring-contract-closure.md",
+            "validation/releases/0.5.1/pass-02-agent-usability-and-drawing-quality.md",
+            "validation/releases/0.5.1/pass-03-release-integrity-and-regression.md",
+            "validation/releases/0.5.1/release-integrity.md",
+            "validation/releases/0.5.1/requirement-traceability.md",
+            "validation/releases/0.5.2/implementation-matrix.md",
+            "validation/releases/0.5.2/multi-unit-capability.md",
+            "validation/releases/0.5.2/static-2d-block.md",
+            "validation/releases/0.5.2/symbol-expressiveness.md",
+            "validation/releases/0.5.3/implementation-matrix.md",
+            "validation/releases/0.5.3/pass-01-semantic-structural.md",
+            "validation/releases/0.5.3/pass-02-rendering-agent.md",
+            "validation/releases/0.5.3/pass-03-regression-claim-integrity.md",
+            "validation/releases/0.5.4/implementation-matrix.md",
+            "validation/releases/0.5.4/pass-01-contract-structure.md",
+            "validation/releases/0.5.4/pass-02-browser-security.md",
+            "validation/releases/0.5.4/pass-03-regression-determinism.md",
+            "validation/releases/0.5.5/implementation-matrix.md",
+            "validation/releases/0.5.5/pass-01-contract-authority.md",
+            "validation/releases/0.5.5/pass-02-repair-scope.md",
+            "validation/releases/0.5.5/pass-03-regression-evaluations.md",
+            "validation/releases/0.5.6/final-validation.md",
+            "validation/releases/0.5.6/implementation-matrix.md",
+            "validation/releases/0.5.6/implementation-status.md",
+            "validation/releases/0.5.7/final-validation.md",
+            "validation/releases/0.5.7/implementation-matrix.md",
+            "validation/releases/0.5.8.1/final-validation.md",
+            "validation/releases/0.5.8.1/implementation-matrix.md",
+            "validation/releases/0.5.8/final-validation.md",
+            "validation/releases/0.5.8/implementation-matrix.md"
+          ],
+          "errors": [],
+          "humanAuthored": 268,
+          "maxDepth": 4,
+          "primaryEntrypoint": "README.md",
+          "reachable": 268,
+          "unreachable": [],
+          "valid": true
+        },
+        "schema": "https://schemas.aixem.org/documentation/document-relationship-audit/1",
+        "sectionIndexCoverage": {
+          "errors": [],
+          "items": 141,
+          "linked": 141,
+          "records": [
+            {
+              "id": "home",
+              "index": "AIXEM-DOCS-HOME-001",
+              "items": 0,
+              "linked": 0,
+              "missing": []
+            },
+            {
+              "id": "getting-started",
+              "index": "AIXEM-START-INDEX-001",
+              "items": 3,
+              "linked": 3,
+              "missing": []
+            },
+            {
+              "id": "authoring",
+              "index": "AIXEM-AUTHORING-INDEX-001",
+              "items": 7,
+              "linked": 7,
+              "missing": []
+            },
+            {
+              "id": "authoring-guides",
+              "index": "AIXEM-AUTHORING-GUIDES-INDEX-001",
+              "items": 10,
+              "linked": 10,
+              "missing": []
+            },
+            {
+              "id": "concepts",
+              "index": "AIXEM-CONCEPT-INDEX-001",
+              "items": 8,
+              "linked": 8,
+              "missing": []
+            },
+            {
+              "id": "schematic",
+              "index": "AIXEM-SCHEM-INDEX-001",
+              "items": 6,
+              "linked": 6,
+              "missing": []
+            },
+            {
+              "id": "viewer",
+              "index": "AIXEM-SPEC-VIEWER-INDEX-001",
+              "items": 5,
+              "linked": 5,
+              "missing": []
+            },
+            {
+              "id": "symbols",
+              "index": "AIXEM-SYMBOL-INDEX-001",
+              "items": 7,
+              "linked": 7,
+              "missing": []
+            },
+            {
+              "id": "routing",
+              "index": "AIXEM-ROUTE-INDEX-001",
+              "items": 5,
+              "linked": 5,
+              "missing": []
+            },
+            {
+              "id": "specifications",
+              "index": "AIXEM-SPEC-INDEX-001",
+              "items": 30,
+              "linked": 30,
+              "missing": []
+            },
+            {
+              "id": "file-formats",
+              "index": "AIXEM-FORMAT-INDEX-001",
+              "items": 6,
+              "linked": 6,
+              "missing": []
+            },
+            {
+              "id": "agent",
+              "index": "AIXEM-AGENT-INDEX-001",
+              "items": 10,
+              "linked": 10,
+              "missing": []
+            },
+            {
+              "id": "architecture",
+              "index": "AIXEM-ARCH-INDEX-001",
+              "items": 10,
+              "linked": 10,
+              "missing": []
+            },
+            {
+              "id": "conformance",
+              "index": "AIXEM-CONF-INDEX-001",
+              "items": 12,
+              "linked": 12,
+              "missing": []
+            },
+            {
+              "id": "examples",
+              "index": "AIXEM-EXAMPLE-INDEX-001",
+              "items": 4,
+              "linked": 4,
+              "missing": []
+            },
+            {
+              "id": "governance",
+              "index": "AIXEM-GOV-INDEX-001",
+              "items": 6,
+              "linked": 6,
+              "missing": []
+            },
+            {
+              "id": "releases",
+              "index": "AIXEM-RELEASE-INDEX-001",
+              "items": 12,
+              "linked": 12,
+              "missing": []
+            }
+          ],
+          "sections": 17,
+          "valid": true
+        },
+        "valid": true
+      },
+      "id": "documentation-relationships",
+      "inventory": {
+        "byRole": {
+          "canonical-document": 158,
+          "corpus-instruction": 2,
+          "evaluation-suite-document": 6,
+          "evaluation-task": 12,
+          "evidence-review": 5,
+          "example-local-instruction": 10,
+          "implementation-plan": 11,
+          "legacy-explanation": 1,
+          "library-entrypoint": 1,
+          "planning-entrypoint": 1,
+          "root-entrypoint": 8,
+          "validation-entrypoint": 3,
+          "validation-release-index": 11,
+          "validation-report": 39,
+          "verification-run-report": 19
+        },
+        "discoverable": 287,
+        "humanAuthored": 268,
+        "markdownFiles": 287,
+        "orphans": 0,
+        "unknownRoles": 0
+      },
+      "normativeDocuments": 98,
+      "requirements": {
+        "byStatus": {
+          "pass": 262
+        },
+        "requirements": 262,
+        "silentGaps": 0
+      },
+      "routes": 16,
+      "snippets": {
+        "documents": 158,
+        "issues": [],
+        "snippets": 18,
+        "valid": true
+      },
+      "status": "PASS",
+      "summary": "Canonical documents, routes, snippets, and repository relationships are closed.",
+      "valid": true
+    },
+    {
+      "agentEvaluation2": {
+        "cases": 12,
+        "failed": 0,
+        "passed": 12
+      },
+      "agentEvaluation3": {
+        "cases": 12,
+        "corpusCasesValid": 12,
+        "deterministicStages": 12,
+        "fairInvariantCases": 12,
+        "faultFixtures": {
+          "failed": 0,
+          "faults": 10,
+          "passed": 10
+        },
+        "protocolFixtureValid": true,
+        "readyRoutes": 8,
+        "successFixtures": {
+          "failed": 0,
+          "fixtures": 4,
+          "passed": 4
+        }
+      },
+      "errors": [],
+      "externalTierBExecuted": false,
+      "id": "agent-pre-live-boundary",
+      "liveClaimAuthorized": false,
+      "liveExternalAgentExecuted": false,
+      "preLiveReadiness": true,
+      "status": "PASS",
+      "summary": "Agent Tier A/readiness is green and external Tier B remains unexecuted.",
+      "valid": true
+    },
+    {
+      "errors": [],
+      "hierarchical": {
+        "cases": 30,
+        "deterministic": 30,
+        "expectedFailures": 18,
+        "failed": 0,
+        "passed": 30,
+        "positive": 12
+      },
+      "id": "corpus-regression",
+      "referenceViewer": {
+        "cases": 18,
+        "deterministicRuns": 3,
+        "failed": 0,
+        "passed": 18,
+        "skipped": 0
+      },
+      "static2DBlockCases": 6,
+      "status": "PASS",
+      "summary": "Symbol, hierarchy, and Viewer corpora are green.",
+      "symbolCases": 30,
+      "valid": true
+    },
+    {
+      "errors": [],
+      "freshDrawingSha256": "cbf6775048b06eeb120530abece8148a73e0b0bebdf493f5cfc7eee9708d8080",
+      "freshRenderCommand": {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "implementation/schematic/render_project.py",
+          "examples/electronics-grid-controller/project.aixproj.json",
+          "--output-dir",
+          "/tmp/aixem-059-protected-02-7pg2t4fc/render"
+        ],
+        "durationSeconds": 1.593915,
+        "label": "pass 2 protected fresh renderer check",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "",
+        "stdoutTail": "project: demo.electronics:grid-controller\nentities: 17; nets: 20; route segments: 126\ngrid schematic validation: PASS\nworkbench: /tmp/aixem-059-protected-02-7pg2t4fc/render/workbench.html\n",
+        "valid": true
+      },
+      "id": "protected-baseline",
+      "records": 47,
+      "status": "PASS",
+      "summary": "Protected 0.5.8.1 schema/renderer/Viewer/drawing baseline is unchanged.",
+      "valid": true
+    },
+    {
+      "failedModules": 0,
+      "id": "repository-tests",
+      "modules": 29,
+      "status": "PASS",
+      "summary": "Complete isolated repository test inventory passed.",
+      "testsRun": 218,
+      "valid": true
+    },
+    {
+      "changed": [],
+      "files": 455,
+      "id": "generated-reproducibility",
+      "status": "PASS",
+      "summary": "Two clean documentation builds produced identical generated digests.",
+      "valid": true
+    }
+  ],
+  "cleanStart": true,
+  "commands": [
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "py_compile",
+        "implementation/schematic/authoring_integrity.py",
+        "implementation/schematic/placement_assist.py",
+        "implementation/agent/change_scope.py",
+        "implementation/agent/diagnostics.py",
+        "tools/placement_assist.py",
+        "tools/validate_authoring_integrity.py",
+        "tools/run_tests_059.py",
+        "tools/verify_release_059.py",
+        "tools/verify_release_059_stage.py",
+        "tools/package_release_059.py"
+      ],
+      "durationSeconds": 0.622609,
+      "label": "pass 2 Python compilation",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "",
+      "stdoutTail": "",
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "tools/docs/build_all.py"
+      ],
+      "durationSeconds": 4.949016,
+      "label": "pass 2 documentation build 1",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "",
+      "stdoutTail": "{\n  \"documents\": 158,\n  \"routes\": 16,\n  \"reference\": {\n    \"cards\": 158,\n    \"routes\": 16,\n    \"domains\": 15,\n    \"files\": 195\n  },\n  \"site\": {\n    \"pages\": 188,\n    \"canonicalPages\": 158,\n    \"schemaPages\": 25,\n    \"redirectPages\": 4,\n    \"assets\": 45\n  }\n}\n",
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "tools/docs/build_all.py"
+      ],
+      "durationSeconds": 4.977852,
+      "label": "pass 2 documentation build 2",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "",
+      "stdoutTail": "{\n  \"documents\": 158,\n  \"routes\": 16,\n  \"reference\": {\n    \"cards\": 158,\n    \"routes\": 16,\n    \"domains\": 15,\n    \"files\": 195\n  },\n  \"site\": {\n    \"pages\": 188,\n    \"canonicalPages\": 158,\n    \"schemaPages\": 25,\n    \"redirectPages\": 4,\n    \"assets\": 45\n  }\n}\n",
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "tools/docs/audit_repository_docs.py",
+        "--require-redirects"
+      ],
+      "durationSeconds": 2.332562,
+      "label": "pass 2 document audit",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "",
+      "stdoutTail": "{\n  \"documents\": 287,\n  \"errors\": [],\n  \"humanAuthored\": 268,\n  \"orphans\": 0,\n  \"pathMigrations\": {\n    \"errors\": [],\n    \"migrations\": 4,\n    \"redirectsChecked\": true,\n    \"valid\": true\n  },\n  \"relationships\": {\n    \"authorityScopeReview\": {\n      \"collisions\": {},\n      \"errors\": [],\n      \"normativeScopes\": 107,\n      \"sharedAllowed\": [\n        \"architecture-decision\"\n      ],\n      \"valid\": true\n    },\n    \"currentReleaseCoherence\": {\n      \"checks\": [\n        {\n          \"detail\": \"expected current-release path docs/releases/0.5.9.md\",\n          \"id\": \"releaseNote\",\n          \"valid\": true\n        },\n        {\n          \"detail\": \"expected current-release path validation/releases/0.5.9/README.md\",\n          \"id\": \"validationIndex\",\n          \"valid\": true\n        },\n        {\n          \"detail\": \"expected current-release path planning/releases/0.5.9\",\n          \"id\": \"planningRecord\",\n          \"valid\": true\n        },\n        {\n          \"detail\": \"README.md must identify 0.5.9\",\n          \"id\": \"rootVersion:README.md\",\n          \"valid\": true\n        },\n        {\n          \"detail\": \"START_HERE.md must identify 0.5.9\",\n          \"id\": \"rootVersion:START_HERE.md\",\n          \"valid\": true\n        },\n        {\n          \"detail\": \"REFERENCE.md must identify 0.5.9\",\n          \"id\": \"rootVersion:REFERENCE.md\",\n          \"valid\": true\n        },\n        {\n          \"detail\": \"current release note must be the final release navigation item\",\n          \"id\": \"releaseNavigation\",\n          \"valid\": true\n        },\n        {\n          \"detail\": \"publish-release must not depend on historical release notes: []\",\n          \"id\": \"publishRouteCurrentState\",\n          \"valid\": true\n        },\n        {\n          \"detail\": \"active routes contain stale release-scoped paths: []\",\n          \"id\": \"routeReleasePaths\",\n          \"valid\": true\n        },\n        {\n          \"detail\": \"Agent Evaluation 3 operational evidence must identify AIXEM-SRP-0.5.9-2026-08-12: []\",\n          \"id\": \"agentEvaluationRepositoryRelease\",\n          \"valid\": true\n        },\n        {\n          \"detail\": \"release metadata must identify 0.5.9 and AIXEM-SRP-0.5.9-2026-08-12\",\n          \"id\": \"releaseMetadataVersion\",\n          \"valid\": true\n        }\n      ],\n      \"errors\": [],\n      \"release\": \"AIXEM-SRP-0.5.9-2026-08-12\",\n      \"valid\": true,\n      \"version\": \"0.5.9\"\n    },\n    \"errors\": [],\n    \"formatVersion\": \"1.0\",\n    \"generatedAt\": \"2026-08-12T00:00:00Z\",\n    \"release\": \"AIXEM-SRP-0.5.9-2026-08-12\",\n    \"repositoryAreaCoverage\": {\n      \"errors\": [],\n      \"linked\": 16,\n      \"missing\": [],\n      \"referenceMap\": \"REFERENCE.md\",\n      \"targets\": 16,\n      \"valid\": true\n    },\n    \"rootLinkIntegrity\": {\n      \"errors\": [],\n      \"linksChecked\": 129,\n      \"rootDocuments\": 8,\n      \"valid\": true\n    },\n    \"rootReachability\": {\n      \"deepestDocuments\": [\n        \"validation/releases/0.5.0/migration.md\",\n        \"validation/releases/0.5.0/pass-01-canonicalization.md\",\n        \"validation/releases/0.5.0/pass-02-agent-compiler.md\",\n        \"validation/releases/0.5.0/pass-03-publication-and-conformance.md\",\n        \"validation/releases/0.5.1/agent-retrieval.md\",\n        \"validation/releases/0.5.1/authoring-visual-review.md\",\n        \"validation/releases/0.5.1/documentation-compiler.md\",\n        \"validation/releases/0.5.1/pass-01-authoring-contract-closure.md\",\n        \"validation/releases/0.5.1/pass-02-agent-usability-and-drawing-quality.md\",\n        \"validation/releases/0.5.1/pass-03-release-integrity-and-regression.md\",\n        \"validation/releases/0.5.1/release-integrity.md\",\n        \"validation/releases/0.5.1/requirement-traceability.md\",\n        \"validation/releases/0.5.2/implementation-matrix.md\",\n        \"validation/releases/0.5.2/multi-unit-capability.md\",\n        \"validation/releases/0.5.2/static-2d-block.md\",\n        \"validation/releases/0.5.2/symbol-expressiveness.md\",\n        \"validation/releases/0.5.3/implementation-matrix.md\",\n        \"validation/releases/0.5.3/pass-01-semantic-structural.md\",\n        \"validation/releases/0.5.3/pass-02-rendering-agent.md\",\n        \"validation/releases/0.5.3/pass-03-regression-claim-integrity.md\",\n        \"validation/releases/0.5.4/implementation-matrix.md\",\n        \"validation/releases/0.5.4/pass-01-contract-structure.md\",\n        \"validation/releases/0.5.4/pass-02-browser-security.md\",\n        \"validation/releases/0.5.4/pass-03-regression-determinism.md\",\n        \"validation/releases/0.5.5/implementation-matrix.md\",\n        \"validation/releases/0.5.5/pass-01-contract-authority.md\",\n        \"validation/releases/0.5.5/pass-02-repair-scope.md\",\n        \"validation/releases/0.5.5/pass-03-regression-evaluations.md\",\n        \"validation/releases/0.5.6/final-validation.md\",\n        \"validation/releases/0.5.6/implementation-matrix.md\",\n        \"validation/releases/0.5.6/implementation-status.md\",\n        \"validation/releases/0.5.7/final-validation.md\",\n        \"validation/releases/0.5.7/implementation-matrix.md\",\n        \"validation/releases/0.5.8.1/final-validation.md\",\n        \"validation/releases/0.5.8.1/implementation-matrix.md\",\n        \"validation/releases/0.5.8/final-validation.md\",\n        \"validation/releases/0.5.8/implementation-matrix.md\"\n      ],\n      \"errors\": [],\n      \"humanAuthored\": 268,\n      \"maxDepth\": 4,\n      \"primaryEntrypoint\": \"README.md\",\n      \"reachable\": 268,\n      \"unreachable\": [],\n      \"valid\": true\n    },\n    \"schema\": \"https://schemas.aixem.org/documentation/document-relationship-audit/1\",\n    \"sectionIndexCoverage\": {\n      \"errors\": [],\n      \"items\": 141,\n      \"linked\": 141,\n      \"records\": [\n        {\n          \"id\": \"home\",\n          \"index\": \"AIXEM-DOCS-HOME-001\",\n          \"items\": 0,\n          \"linked\": 0,\n          \"missing\": []\n        },\n        {\n          \"id\": \"getting-started\",\n          \"index\": \"AIXEM-START-INDEX-001\",\n          \"items\": 3,\n          \"linked\": 3,\n          \"missing\": []\n        },\n        {\n          \"id\": \"authoring\",\n          \"index\": \"AIXEM-AUTHORING-INDEX-001\",\n          \"items\": 7,\n          \"linked\": 7,\n          \"missing\": []\n        },\n        {\n          \"id\": \"authoring-guides\",\n          \"index\": \"AIXEM-AUTHORING-GUIDES-INDEX-001\",\n          \"items\": 10,\n          \"linked\": 10,\n          \"missing\": []\n        },\n        {\n          \"id\": \"concepts\",\n          \"index\": \"AIXEM-CONCEPT-INDEX-001\",\n          \"items\": 8,\n          \"linked\": 8,\n          \"missing\": []\n        },\n        {\n          \"id\": \"schematic\",\n          \"index\": \"AIXEM-SCHEM-INDEX-001\",\n          \"items\": 6,\n          \"linked\": 6,\n          \"missing\": []\n        },\n        {\n          \"id\": \"viewer\",\n          \"index\": \"AIXEM-SPEC-VIEWER-INDEX-001\",\n          \"items\": 5,\n          \"linked\": 5,\n          \"missing\": []\n        },\n        {\n          \"id\": \"symbols\",\n          \"index\": \"AIXEM-SYMBOL-INDEX-001\",\n          \"items\": 7,\n          \"linked\": 7,\n          \"missing\": []\n        },\n        {\n          \"id\": \"routing\",\n          \"index\": \"AIXEM-ROUTE-INDEX-001\",\n          \"items\": 5,\n          \"linked\": 5,\n          \"missing\": []\n        },\n        {\n          \"id\": \"specifications\",\n          \"index\": \"AIXEM-SPEC-INDEX-001\",\n          \"items\": 30,\n          \"linked\": 30,\n          \"missing\": []\n        },\n        {\n          \"id\": \"file-formats\",\n          \"index\": \"AIXEM-FORMAT-INDEX-001\",\n          \"items\": 6,\n          \"linked\": 6,\n          \"missing\": []\n        },\n        {\n          \"id\": \"agent\",\n          \"index\": \"AIXEM-AGENT-INDEX-001\",\n          \"items\": 10,\n          \"linked\": 10,\n          \"missing\": []\n        },\n        {\n          \"id\": \"architecture\",\n          \"index\": \"AIXEM-ARCH-INDEX-001\",\n          \"items\": 10,\n          \"linked\": 10,\n          \"missing\": []\n        },\n        {\n          \"id\": \"conformance\",\n          \"index\": \"AIXEM-CONF-INDEX-001\",\n          \"items\": 12,\n          \"linked\": 12,\n          \"missing\": []\n        },\n        {\n          \"id\": \"examples\",\n          \"index\": \"AIXEM-EXAMPLE-INDEX-001\",\n          \"items\": 4,\n          \"linked\": 4,\n          \"missing\": []\n        },\n        {\n          \"id\": \"governance\",\n          \"index\": \"AIXEM-GOV-INDEX-001\",\n          \"items\": 6,\n          \"linked\": 6,\n          \"missing\": []\n        },\n        {\n          \"id\": \"releases\",\n          \"index\": \"AIXEM-RELEASE-INDEX-001\",\n          \"items\": 12,\n          \"linked\": 12,\n          \"missing\": []\n        }\n      ],\n      \"sections\": 17,\n      \"valid\": true\n    },\n    \"valid\": true\n  },\n  \"roles\": {\n    \"canonical-document\": 158,\n    \"corpus-instruction\": 2,\n    \"evaluation-suite-document\": 6,\n    \"evaluation-task\": 12,\n    \"evidence-review\": 5,\n    \"example-local-instruction\": 10,\n    \"implementation-plan\": 11,\n    \"legacy-explanation\": 1,\n    \"library-entrypoint\": 1,\n    \"planning-entrypoint\": 1,\n    \"root-entrypoint\": 8,\n    \"validation-entrypoint\": 3,\n    \"validation-release-index\": 11,\n    \"validation-report\": 39,\n    \"verification-run-report\": 19\n  },\n  \"unknownRoles\": 0,\n  \"valid\": true,\n  \"warnings\": []\n}\n",
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "tools/docs/validate_docs.py"
+      ],
+      "durationSeconds": 2.338507,
+      "label": "pass 2 documentation validation",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "",
+      "stdoutTail": "{\n  \"documents\": 158,\n  \"errors\": [],\n  \"normativeDocuments\": 98,\n  \"requirements\": 262,\n  \"totalBytes\": 1022985,\n  \"valid\": true,\n  \"warnings\": []\n}\n",
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "tools/docs/authoring_validation.py"
+      ],
+      "durationSeconds": 2.129493,
+      "label": "pass 2 authoring validation",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "",
+      "stdoutTail": "{\n  \"examples\": {\n    \"brokenFixture\": {\n      \"checks\": 10,\n      \"issues\": [\n        {\n          \"code\": \"lead-port-mismatch\",\n          \"message\": \"Port 1 is at (-15.0, 0.0), but its visible lead ends at (-12.5, 0.0)\",\n          \"path\": \"examples/authoring/08-visual-repair/fixtures/broken-lead-port.aixsym.json\",\n          \"severity\": \"error\"\n        }\n      ],\n      \"path\": \"examples/authoring/08-visual-repair/fixtures/broken-lead-port.aixsym.json\",\n      \"valid\": false\n    },\n    \"checks\": 249,\n    \"examples\": 8,\n    \"expectedBrokenFixtureDetected\": true,\n    \"results\": [\n      {\n        \"checks\": 24,\n        \"id\": \"01-two-pin-passive\",\n        \"issues\": [],\n        \"valid\": true\n      },\n      {\n        \"checks\": 45,\n        \"id\": \"02-connector\",\n        \"issues\": [],\n        \"valid\": true\n      },\n      {\n        \"checks\": 72,\n        \"id\": \"03-multi-pin-ic\",\n        \"issues\": [],\n        \"valid\": true\n      },\n      {\n        \"checks\": 24,\n        \"id\": \"04-parameterized-variant\",\n        \"issues\": [],\n        \"valid\": true\n      },\n      {\n        \"checks\": 24,\n        \"id\": \"05-field-and-port-binding\",\n        \"issues\": [],\n        \"valid\": true\n      },\n      {\n        \"checks\": 18,\n        \"id\": \"06-two-terminal-route\",\n        \"issues\": [],\n        \"valid\": true\n      },\n      {\n        \"checks\": 18,\n        \"id\": \"07-multi-terminal-junction\",\n        \"issues\": [],\n        \"valid\": true\n      },\n      {\n        \"checks\": 24,\n        \"id\": \"08-visual-repair\",\n        \"issues\": [],\n        \"valid\": true\n      }\n    ],\n    \"valid\": true\n  },\n  \"referenceCoverage\": {\n    \"coverage\": 1.0,\n    \"covered\": 156,\n    \"groups\": {\n      \"component\": {\n        \"covered\": 10,\n        \"document\": \"docs/symbols/component-symbol-binding.md\",\n        \"missing\": [],\n        \"total\": 10\n      },\n      \"connection\": {\n        \"covered\": 7,\n        \"document\": \"docs/file-formats/aixlayout.md\",\n        \"missing\": [],\n        \"total\": 7\n      },\n      \"connectionPath\": {\n        \"covered\": 5,\n        \"document\": \"docs/file-formats/aixlayout.md\",\n        \"missing\": [],\n        \"total\": 5\n      },\n      \"placement\": {\n        \"covered\": 18,\n        \"document\": \"docs/file-formats/aixlayout.md\",\n        \"missing\": [],\n        \"total\": 18\n      },\n      \"presentation\": {\n        \"covered\": 7,\n        \"document\": \"docs/symbols/component-symbol-binding.md\",\n        \"missing\": [],\n        \"total\": 7\n      },\n      \"primitiveProperties\": {\n        \"covered\": 47,\n        \"document\": \"docs/symbols/primitives.md\",\n        \"missing\": [],\n        \"total\": 47\n      },\n      \"primitiveTypes\": {\n        \"covered\": 13,\n        \"document\": \"docs/symbols/primitives.md\",\n        \"missing\": [],\n        \"total\": 13\n      },\n      \"symbolParameter\": {\n        \"covered\": 8,\n        \"document\": \"docs/symbols/aixsym-field-reference.md\",\n        \"missing\": [],\n        \"total\": 8\n      },\n      \"symbolPort\": {\n        \"covered\": 13,\n        \"document\": \"docs/symbols/pins-and-ports.md\",\n        \"missing\": [],\n        \"total\": 13\n      },\n      \"symbolTopLevel\": {\n        \"covered\": 20,\n        \"document\": \"docs/symbols/aixsym-field-reference.md\",\n        \"missing\": [],\n        \"total\": 20\n      },\n      \"symbolVariant\": {\n        \"covered\": 8,\n        \"document\": \"docs/symbols/variants.md\",\n        \"missing\": [],\n        \"total\": 8\n      }\n    },\n    \"issues\": [],\n    \"total\": 156,\n    \"valid\": true\n  },\n  \"rendererContract\": {\n    \"checks\": 9,\n    \"issues\": [],\n    \"valid\": true\n  },\n  \"snippets\": {\n    \"documents\": 158,\n    \"issues\": [],\n    \"snippets\": 18,\n    \"valid\": true\n  },\n  \"valid\": true\n}\n",
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "tools/run_agent_evals_2.py"
+      ],
+      "durationSeconds": 4.716353,
+      "label": "pass 2 Agent Evaluation 2",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "A001: pass\nA002: pass\nA003: pass\nA004: pass\nA005: pass\nA006: pass\nA007: pass\nA008: pass\nA009: pass\nA010: pass\nA011: pass\nA012: pass\n",
+      "stdoutTail": "{\n  \"tierA\": {\n    \"cases\": 12,\n    \"failed\": 0,\n    \"passed\": 12\n  },\n  \"tierBExecuted\": false,\n  \"valid\": true\n}\n",
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "tools/build_agent_evals_3.py"
+      ],
+      "durationSeconds": 0.623865,
+      "label": "pass 2 Agent Evaluation 3 corpus build",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "",
+      "stdoutTail": "{\"cases\": 12, \"creation\": 7, \"repair\": 5}\n",
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "tools/run_agent_evals_3.py",
+        "--tier-a-only"
+      ],
+      "durationSeconds": 31.973806,
+      "label": "pass 2 Agent Evaluation 3 Tier A",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "",
+      "stdoutTail": "{\n  \"corpus\": {\n    \"baselineRelease\": \"AIXEM-SRP-0.5.8.1-2026-08-12\",\n    \"id\": \"agent-evals-3\",\n    \"protocolVersion\": \"1.0\",\n    \"revision\": \"1.1\"\n  },\n  \"durationSeconds\": 30.320865,\n  \"engineeringStatus\": \"PRE_LIVE_READINESS_PASS_TIER_B_PENDING\",\n  \"formatVersion\": \"1.1\",\n  \"generatedAt\": \"2026-08-12T00:00:00Z\",\n  \"liveClaimAuthorized\": false,\n  \"liveExternalAgentExecuted\": false,\n  \"preLiveReadiness\": true,\n  \"release\": \"AIXEM-SRP-0.5.9-2026-08-12\",\n  \"repositoryRelease\": \"AIXEM-SRP-0.5.9-2026-08-12\",\n  \"schema\": \"https://schemas.aixem.org/validation/agent-eval-3-summary/1\",\n  \"tierAValid\": true,\n  \"tierBExecuted\": false,\n  \"valid\": true\n}\n",
+      "valid": true
+    },
+    {
+      "command": [
+        "internal",
+        "prepare-repository-self-test"
+      ],
+      "durationSeconds": 0.0,
+      "label": "pass 2 requirement evidence and manifest preflight",
+      "manifest": {
+        "fileCount": 2939,
+        "totalBytes": 74688359,
+        "verification": {
+          "errors": [],
+          "files": 2939,
+          "totalBytes": 74688359,
+          "valid": true
+        }
+      },
+      "requirementEvidence": {
+        "errors": [],
+        "evidenceFiles": 262,
+        "requirements": 262,
+        "valid": true
+      },
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "",
+      "stdoutTail": "",
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_agent_evals_2"
+      ],
+      "durationSeconds": 7.353658,
+      "label": "pass 2 test-shard-0",
+      "moduleCount": 3,
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "",
+      "stdoutTail": "",
+      "testsRun": 12,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_agent_evals_3"
+      ],
+      "durationSeconds": 6.021085,
+      "label": "pass 2 test-shard-1",
+      "moduleCount": 3,
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "",
+      "stdoutTail": "",
+      "testsRun": 14,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_authoring_harness"
+      ],
+      "durationSeconds": 34.842427,
+      "label": "pass 2 test-shard-2",
+      "moduleCount": 3,
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "",
+      "stdoutTail": "",
+      "testsRun": 21,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_change_scope"
+      ],
+      "durationSeconds": 9.037494,
+      "label": "pass 2 test-shard-3",
+      "moduleCount": 3,
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "",
+      "stdoutTail": "",
+      "testsRun": 77,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_cold_start_stage"
+      ],
+      "durationSeconds": 8.741234,
+      "label": "pass 2 test-shard-4",
+      "moduleCount": 3,
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "",
+      "stdoutTail": "",
+      "testsRun": 26,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_diagnostics"
+      ],
+      "durationSeconds": 5.32822,
+      "label": "pass 2 test-shard-5",
+      "moduleCount": 2,
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "",
+      "stdoutTail": "",
+      "testsRun": 7,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_invariant_scorer"
+      ],
+      "durationSeconds": 4.75998,
+      "label": "pass 2 test-shard-6",
+      "moduleCount": 2,
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "",
+      "stdoutTail": "",
+      "testsRun": 6,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_live_executor"
+      ],
+      "durationSeconds": 11.980193,
+      "label": "pass 2 test-shard-7",
+      "moduleCount": 2,
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "",
+      "stdoutTail": "",
+      "testsRun": 9,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_live_run_evidence"
+      ],
+      "durationSeconds": 2.086196,
+      "label": "pass 2 test-shard-8",
+      "moduleCount": 2,
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "",
+      "stdoutTail": "",
+      "testsRun": 12,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_observation"
+      ],
+      "durationSeconds": 2.992862,
+      "label": "pass 2 test-shard-9",
+      "moduleCount": 2,
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "",
+      "stdoutTail": "",
+      "testsRun": 5,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_pre_live_readiness"
+      ],
+      "durationSeconds": 10.017258,
+      "label": "pass 2 test-shard-10",
+      "moduleCount": 2,
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "",
+      "stdoutTail": "",
+      "testsRun": 12,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.agent.test_route_execution_metadata"
+      ],
+      "durationSeconds": 17.997763,
+      "label": "pass 2 test-shard-11",
+      "moduleCount": 2,
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "",
+      "stdoutTail": "",
+      "testsRun": 17,
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "tools/run_tests_059.py",
+        "--merge-shards",
+        "/mnt/data/aixem059-verification-work/run-02/test-shard-0.json",
+        "/mnt/data/aixem059-verification-work/run-02/test-shard-1.json",
+        "/mnt/data/aixem059-verification-work/run-02/test-shard-2.json",
+        "/mnt/data/aixem059-verification-work/run-02/test-shard-3.json",
+        "/mnt/data/aixem059-verification-work/run-02/test-shard-4.json",
+        "/mnt/data/aixem059-verification-work/run-02/test-shard-5.json",
+        "/mnt/data/aixem059-verification-work/run-02/test-shard-6.json",
+        "/mnt/data/aixem059-verification-work/run-02/test-shard-7.json",
+        "/mnt/data/aixem059-verification-work/run-02/test-shard-8.json",
+        "/mnt/data/aixem059-verification-work/run-02/test-shard-9.json",
+        "/mnt/data/aixem059-verification-work/run-02/test-shard-10.json",
+        "/mnt/data/aixem059-verification-work/run-02/test-shard-11.json",
+        "--output",
+        "validation/test-results.json"
+      ],
+      "durationSeconds": 0.626006,
+      "label": "pass 2 repository test aggregation",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "",
+      "stdoutTail": "{\"failedModules\": 0, \"modules\": 29, \"successful\": true, \"testsRun\": 218}\n",
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "tools/validate_symbol_corpus.py",
+        "--all",
+        "--repeat",
+        "3",
+        "--emit-report"
+      ],
+      "durationSeconds": 6.053034,
+      "label": "pass 2 symbol and Static 2D corpus",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "",
+      "stdoutTail": "B001 b2d: automated=PASS; digest=PASS; visual=PASS\nB002 b2d: automated=PASS; digest=PASS; visual=PASS\nB003 b2d: automated=PASS; digest=PASS; visual=PASS\nB004 b2d: automated=PASS; digest=PASS; visual=PASS\nB005 b2d: automated=PASS; digest=PASS; visual=PASS\nB006 b2d: automated=PASS; digest=PASS; visual=PASS\nS001 core: automated=PASS; digest=PASS; visual=PASS\nS002 core: automated=PASS; digest=PASS; visual=PASS\nS003 core: automated=PASS; digest=PASS; visual=PASS\nS004 core: automated=PASS; digest=PASS; visual=PASS\nS005 core: automated=PASS; digest=PASS; visual=PASS\nS006 core: automated=PASS; digest=PASS; visual=PASS\nS007 core: automated=PASS; digest=PASS; visual=PASS\nS008 core: automated=PASS; digest=PASS; visual=PASS\nS009 core: automated=PASS; digest=PASS; visual=PASS\nS010 core: automated=PASS; digest=PASS; visual=PASS\nS011 core: automated=PASS; digest=PASS; visual=PASS\nS012 core: automated=PASS; digest=PASS; visual=PASS\nS013 core: automated=PASS; digest=PASS; visual=PASS\nS014 core: automated=PASS; digest=PASS; visual=PASS\nS015 core: automated=PASS; digest=PASS; visual=PASS\nS016 core: automated=PASS; digest=PASS; visual=PASS\nS017 core: automated=PASS; digest=PASS; visual=PASS\nS018 core: automated=PASS; digest=PASS; visual=PASS\nS019 core: automated=PASS; digest=PASS; visual=PASS\nS020 core: automated=PASS; digest=PASS; visual=PASS\nS021 core: automated=PASS; digest=PASS; visual=PASS\nS022 core: automated=PASS; digest=PASS; visual=PASS\nS023 core: automated=PASS; digest=PASS; visual=PASS\nS024 core: automated=PASS; digest=PASS; visual=PASS\nS025 extended: automated=PASS; digest=PASS; visual=PASS\nS026 extended: automated=PASS; digest=PASS; visual=PASS\nS027 extended: automated=PASS; digest=PASS; visual=PASS\nS028 extended: automated=PASS; digest=PASS; visual=PASS\nS029 extended: automated=PASS; digest=PASS; visual=PASS\nS030 probe: automated=PASS; digest=PASS; visual=PASS\ncases: 36; automated failures: 0; visual failures: 0; visual pending: 0\n",
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "tools/validate_hierarchical_corpus.py",
+        "--repeats",
+        "3"
+      ],
+      "durationSeconds": 5.380754,
+      "label": "pass 2 hierarchical corpus",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "",
+      "stdoutTail": "H001: PASS (expected pass, observed pass)\nH002: PASS (expected pass, observed pass)\nH003: PASS (expected pass, observed pass)\nH004: PASS (expected pass, observed pass)\nH005: PASS (expected pass, observed pass)\nH006: PASS (expected pass, observed pass)\nH007: PASS (expected pass, observed pass)\nH008: PASS (expected pass, observed pass)\nH009: PASS (expected fail, observed fail)\nH010: PASS (expected fail, observed fail)\nH011: PASS (expected pass, observed pass)\nH012: PASS (expected pass, observed pass)\nH013: PASS (expected pass, observed pass)\nH014: PASS (expected pass, observed pass)\nH015: PASS (expected fail, observed fail)\nN001: PASS (expected fail, observed fail)\nN002: PASS (expected fail, observed fail)\nN003: PASS (expected fail, observed fail)\nN004: PASS (expected fail, observed fail)\nN005: PASS (expected fail, observed fail)\nN006: PASS (expected fail, observed fail)\nN007: PASS (expected fail, observed fail)\nN008: PASS (expected fail, observed fail)\nN009: PASS (expected fail, observed fail)\nN010: PASS (expected fail, observed fail)\nN011: PASS (expected fail, observed fail)\nN012: PASS (expected fail, observed fail)\nN013: PASS (expected fail, observed fail)\nN014: PASS (expected fail, observed fail)\nN015: PASS (expected fail, observed fail)\nhierarchical corpus: PASS (30/30)\n",
+      "valid": true
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "tools/validate_reference_viewer_corpus.py",
+        "--repeats",
+        "3",
+        "--screenshots"
+      ],
+      "durationSeconds": 8.230169,
+      "label": "pass 2 Viewer corpus",
+      "returnCode": 0,
+      "status": "PASS",
+      "stderrTail": "",
+      "stdoutTail": "V001: PASS — Legacy single-sheet viewer\nV002: PASS — Multi-sheet three-mode viewer\nV003: PASS — Data-driven hierarchy navigation\nV004: PASS — Same-name local nets\nV005: PASS — Project-net selection\nV006: PASS — Interface-port inspection\nV007: PASS — Sheet-scoped layer visibility\nV008: PASS — Cross-view selection continuity\nV009: PASS — Component search navigation\nV010: PASS — Pan, zoom, and fit\nV011: PASS — Keyboard-only inspection\nV012: PASS — Narrow viewport\nV013: PASS — Offline and network denial\nV014: PASS — Hostile authored text\nV015: PASS — DOM qualified identity\nV016: PASS — Ten-sheet project\nV017: PASS — Viewer and Workbench separation\nV018: PASS — Three-run HTML determinism\nreference viewer corpus: PASS (18/18)\n",
+      "valid": true
+    }
+  ],
+  "durationSeconds": 196.112396,
+  "errors": [],
+  "externalTierBExecuted": false,
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "liveClaimAuthorized": false,
+  "liveExternalAgentExecuted": false,
+  "pass": 2,
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/verification-pass/1",
+  "status": "PASS",
+  "tests": {
+    "failedModules": 0,
+    "moduleCount": 29,
+    "testsRun": 218
+  },
+  "valid": true
+}

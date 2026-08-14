@@ -1,0 +1,124 @@
+{
+  "coordinateSystem": {
+    "angleDirection": "clockwise",
+    "angleUnit": "deg",
+    "grid": 2.5,
+    "unit": "mm",
+    "yAxis": "down"
+  },
+  "diagnostics": [],
+  "entities": [
+    {
+      "componentType": "conformance:s008",
+      "key": "X1",
+      "kind": "component",
+      "parameters": {},
+      "placement": {
+        "entity": "X1",
+        "layer": "symbols",
+        "x": 47.5,
+        "y": 45.0
+      },
+      "ports": {
+        "1": [
+          30.0,
+          45.0
+        ],
+        "2": [
+          65.0,
+          45.0
+        ]
+      },
+      "reference": "X1",
+      "symbolDigest": "sha256:dbcdbcb28336fc2ce15db04bd33b16a8ec915a3a1c72205bff509cdb0f6a8159",
+      "symbolId": "corpus:s008-zener-tvs",
+      "value": "Zener / TVS",
+      "variant": "zener"
+    }
+  ],
+  "featuresUsed": [],
+  "generatedAt": "2026-08-10T00:00:00Z",
+  "gridValidation": {
+    "crossingPolicy": "junction-required",
+    "orthogonalSegments": 0,
+    "placementExceptions": [],
+    "placements": 1,
+    "placementsOnGrid": 1,
+    "profile": "aixem.schematic.grid-light",
+    "routeSegments": 0,
+    "routeViasOnGrid": true,
+    "snap": 2.5,
+    "zeroLengthSegments": []
+  },
+  "hashes": {
+    "layout": "sha256:df28a7fdb31ca80458274be2dc9c8076be9b6c5b9b405723fc6eebfee96d095a",
+    "libraries": [
+      "sha256:b45f2007e23d20cc20e18193da2f87ab8d2ee9524eb63f03dafa892c3c8dadbc"
+    ],
+    "source": "sha256:b5bd975b33f746ef7af5d2e2076e2b15cda75879bd761dc26bdae050e45235ad",
+    "symbolAssets": [
+      "sha256:dbcdbcb28336fc2ce15db04bd33b16a8ec915a3a1c72205bff509cdb0f6a8159"
+    ]
+  },
+  "layers": [
+    {
+      "defaultVisible": true,
+      "id": "connections",
+      "locked": false,
+      "order": 10,
+      "printable": true,
+      "purpose": "semantic net routes"
+    },
+    {
+      "defaultVisible": true,
+      "id": "symbols",
+      "locked": false,
+      "order": 20,
+      "printable": true,
+      "purpose": "component symbols"
+    },
+    {
+      "defaultVisible": true,
+      "id": "annotation",
+      "locked": false,
+      "order": 30,
+      "printable": true,
+      "purpose": "notes"
+    }
+  ],
+  "nets": [],
+  "project": {
+    "id": "conformance:s008",
+    "profile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "title": "S008 Zener / TVS conformance project"
+  },
+  "renderer": {
+    "id": "aixem-grid-schematic-reference-renderer",
+    "version": "0.5.1"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/resolved-scene/1",
+  "sheet": {
+    "height": 120.0,
+    "margin": 10,
+    "titleBlock": {
+      "drawing": "corpus_s008-layout",
+      "revision": "A",
+      "sheet": "1/1",
+      "title": "S008 — Zener / TVS"
+    },
+    "width": 180.0
+  },
+  "statistics": {
+    "entities": 1,
+    "nets": 0,
+    "noConnects": 0,
+    "primitives": 6,
+    "routeSegments": 0,
+    "symbolAssets": 1
+  },
+  "styleProfile": {
+    "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+    "id": "aixem.schematic.grid-light",
+    "path": "aixem-grid-schematic-style-1.aixstyle.json"
+  }
+}

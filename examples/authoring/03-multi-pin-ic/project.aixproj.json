@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.0",
+  "project": {
+    "applicationProfile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "description": "Multi-pin IC Authoring",
+    "features": [
+      "component.graphics@1",
+      "explicit.layout@1",
+      "semantic-route-binding@1",
+      "orthogonal-routing@1",
+      "grid-snap@1"
+    ],
+    "id": "authoring:controller_12",
+    "layout": {
+      "digest": "sha256:60d6b52d85ad62ef228a1ef5b1266a537113416d86ce3f0018ffefcf021e8f98",
+      "id": "controller_12-layout",
+      "mediaType": "application/vnd.aixem.layout+json",
+      "path": "controller_12.aixlayout.json",
+      "version": "1.0"
+    },
+    "libraries": [
+      {
+        "digest": "sha256:c08f351639485cc53d5783223b332dc8cd852179c40f7cbb0cea2e1296f00f43",
+        "id": "authoring:controller_12-library",
+        "mediaType": "application/vnd.aixem.library+json",
+        "path": "library/electronics/authoring/authoring-components.aixlib.json",
+        "version": "1.0.0"
+      }
+    ],
+    "metadata": {
+      "exampleDomain": "agent-authoring",
+      "independentDesign": true,
+      "styleProfile": "aixem.schematic.grid-light"
+    },
+    "outputs": [
+      {
+        "mediaType": "text/html",
+        "path": "render/workbench.html",
+        "role": "engineering-workbench"
+      },
+      {
+        "mediaType": "image/svg+xml",
+        "path": "render/drawing.svg",
+        "role": "drawing-svg"
+      },
+      {
+        "mediaType": "application/json",
+        "path": "render/resolved-scene.json",
+        "role": "resolved-scene"
+      }
+    ],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-11",
+      "license": "CC0-1.0"
+    },
+    "renderPolicy": {
+      "backend": "svg",
+      "defaultVariantPolicy": "library-default",
+      "fontPolicy": "system-fallback",
+      "purpose": "primary-diagram",
+      "remoteAssets": "deny",
+      "unsupportedRequiredFeature": "reject"
+    },
+    "source": {
+      "digest": "sha256:c56863f19eba720655951d03b05def930352a1ee6a86f0819ee09c3f37a71abe",
+      "id": "controller_12",
+      "mediaType": "application/vnd.aixem+text",
+      "path": "controller_12.aixem",
+      "version": "1.0"
+    },
+    "status": "example",
+    "title": "Multi-pin IC Authoring"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/aixproj/1"
+}

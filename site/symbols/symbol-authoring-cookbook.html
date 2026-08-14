@@ -1,0 +1,823 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Provides executable, schema-valid recipes for drawing common AIXEM schematic symbols without renderer-code discovery."><meta name="aixem-document-id" content="AIXEM-SYMBOL-COOKBOOK-001"><meta name="aixem-release" content="AIXEM-SRP-0.5.9-2026-08-12"><title>Symbol Authoring Cookbook — AIXEM Documentation</title><link rel="stylesheet" href="../assets/site.css"></head><body class=""><a class="skip" href="#main">Skip to main content</a><header class="topbar"><div class="brand"><span class="brand-mark">AX</span><span>AIXEM<small>Schematic Reference Platform</small></span></div><div class="top-actions"><span class="version">v0.5.9</span><button class="menu-open" id="menu-open" type="button" aria-controls="site-sidebar" aria-expanded="false">Menu</button><button class="search-open" id="search-open" type="button">Search <kbd>⌘K</kbd></button></div></header><div class="layout"><nav class="sidebar" id="site-sidebar" aria-label="Documentation navigation"><h2>Documentation Home</h2><a class="section-index" href="../index.html">AIXEM Documentation</a><h2>Getting Started</h2><a class="section-index" href="../getting-started/index.html">Getting Started</a><a class="" href="../getting-started/introduction.html">Introduction to AIXEM</a><a class="" href="../getting-started/quick-start.html">Quick Start</a><a class="" href="../getting-started/first-schematic.html">Create Your First Schematic</a><h2>Authoring</h2><a class="section-index" href="../authoring/index.html">Authoring</a><a class="active" href="symbol-authoring-cookbook.html">Symbol Authoring Cookbook</a><a class="" href="aixsym-field-reference.html">AIXSYM Field Reference</a><a class="" href="component-symbol-binding.html">Component to Symbol Binding</a><a class="" href="../schematic/schematic-authoring-cookbook.html">Schematic Authoring Cookbook</a><a class="" href="../routing/routing-cookbook.html">Routing Cookbook</a><a class="" href="../agent/visual-qa-loop.html">Visual QA and Repair Loop</a><a class="" href="symbol-lint.html">Symbol Lint</a><h2>Task-Oriented Authoring Guides</h2><a class="section-index" href="../authoring/guides/index.html">Task-Oriented Authoring Guides</a><a class="" href="../authoring/guides/create-library-part.html">Create a Library Part</a><a class="" href="../authoring/guides/select-library-part.html">Select a Library Part</a><a class="" href="../authoring/guides/create-schematic.html">Create a Schematic</a><a class="" href="../authoring/guides/place-components.html">Agent Component Placement Strategy</a><a class="" href="../authoring/guides/route-nets.html">Route Nets</a><a class="" href="../authoring/guides/compose-project.html">Compose a Project</a><a class="" href="../authoring/guides/modify-existing-schematic.html">Modify an Existing Schematic</a><a class="" href="../authoring/guides/author-component-circuit.html">Author a Component Circuit</a><a class="" href="../authoring/guides/render-review.html">Render and Review</a><a class="" href="../authoring/guides/validate-project.html">Validate a Project</a><h2>Core Concepts</h2><a class="section-index" href="../concepts/index.html">Core Concepts</a><a class="" href="../concepts/semantic-model.html">Semantic Circuit Model</a><a class="" href="../concepts/authority-model.html">Authority Model</a><a class="" href="../concepts/component-model.html">Component Model</a><a class="" href="../concepts/net-model.html">Net Model</a><a class="" href="../concepts/symbol-model.html">Symbol Presentation Model</a><a class="" href="../concepts/layout-model.html">Explicit Layout Model</a><a class="" href="../concepts/deterministic-builds.html">Deterministic Builds</a><a class="" href="../concepts/project-net-model.html">Project Net Model</a><h2>Schematic Authoring</h2><a class="section-index" href="../schematic/index.html">Schematic Authoring</a><a class="" href="../schematic/grid-system.html">Grid and Snap System</a><a class="" href="../schematic/placement.html">Component Placement</a><a class="" href="../schematic/junctions.html">Junctions and Connectivity Cues</a><a class="" href="../schematic/annotations.html">Annotations and Fields</a><a class="" href="../schematic/visual-language.html">Grid-First Visual Language</a><a class="" href="../schematic/sheet-organization.html">Sheet Organization</a><h2>Reference Viewer</h2><a class="section-index" href="../specifications/viewer/index.html">Viewer Specifications</a><a class="" href="../specifications/viewer/reference-viewer-contract.html">Reference Viewer Contract 1</a><a class="" href="../specifications/viewer/review-workbench-contract.html">Review Workbench Contract 1</a><a class="" href="../specifications/viewer/viewer-state-and-interaction.html">Viewer State and Interaction 1</a><a class="" href="../specifications/viewer/viewer-security-and-embedding.html">Viewer Security and Embedding 1</a><a class="" href="../specifications/viewer/viewer-accessibility-profile.html">Viewer Accessibility Profile 1</a><h2>Symbol Authoring</h2><a class="section-index" href="index.html">Symbol Authoring</a><a class="" href="symbol-anatomy.html">Symbol Anatomy</a><a class="" href="pins-and-ports.html">Pins, Ports, and Endpoint Mapping</a><a class="" href="primitives.html">Graphic Primitives</a><a class="" href="authoring-guide.html">Symbol Authoring Guide</a><a class="" href="variants.html">Symbol Variants</a><a class="" href="field-layout.html">Field Layout</a><a class="" href="design-rules.html">Symbol Design Rules Entry Point</a><h2>Routing</h2><a class="section-index" href="../routing/index.html">Net Routing</a><a class="" href="../routing/net-routing.html">Semantic Net Routing</a><a class="" href="../routing/orthogonal-routing.html">Orthogonal Routing</a><a class="" href="../routing/route-constraints.html">Route Constraints</a><a class="" href="../routing/router-behavior.html">Router Behavior</a><a class="" href="../routing/crossings-and-junctions.html">Crossings and Junctions</a><h2>Specifications</h2><a class="section-index" href="../specifications/index.html">Specifications</a><a class="" href="../specifications/core/document-model.html">Canonical Document Model</a><a class="" href="../specifications/core/coordinate-system.html">Coordinate and Unit System</a><a class="" href="../specifications/core/authority-precedence.html">Authority and Precedence</a><a class="" href="../specifications/schematic/grid-profile.html">Grid Schematic Profile 1</a><a class="" href="../specifications/schematic/visual-profile.html">Schematic Presentation Profile 1</a><a class="" href="../specifications/symbols/symbol-contract.html">Symbol Asset Contract 1</a><a class="" href="../specifications/layout/layout-contract.html">Explicit Layout Contract 1</a><a class="" href="../specifications/project/project-lock-contract.html">Project Lock Contract 1</a><a class="" href="../specifications/agent/retrieval-profile.html">Agent Retrieval Profile 1</a><a class="" href="../specifications/documentation/metadata-contract.html">Documentation Metadata Contract 1</a><a class="" href="../specifications/documentation/document-governance-contract.html">Repository Document Governance Contract 1</a><a class="" href="../specifications/documentation/release-integrity.html">Documentation Release Integrity 1</a><a class="" href="../specifications/schemas/index.html">JSON Schema Catalog</a><a class="" href="../specifications/symbols/symbol-design-profile.html">Symbol Design Profile 1</a><a class="" href="../specifications/renderer/renderer-contract.html">Renderer Contract 1</a><a class="" href="../specifications/core/interface-port-contract.html">Interface Port Contract 1</a><a class="" href="../specifications/layout/hierarchical-sheet-port-contract.html">Hierarchical Sheet-Port Layout Contract 2</a><a class="" href="../specifications/project/project-composition-contract.html">Project Composition Contract 2</a><a class="" href="../specifications/agent/diagnostic-contract.html">Agent Diagnostic Contract 1</a><a class="" href="../specifications/agent/authoring-change-set-contract.html">Authoring Change-Set Contract 1</a><a class="" href="../specifications/agent/authoring-execution-contract.html">Authoring Execution Contract 1</a><a class="" href="../specifications/agent/authoring-run-record.html">Authoring Run Record 1</a><a class="" href="../specifications/agent/agent-task-contract.html">Agent Task Contract 1</a><a class="" href="../specifications/agent/cold-start-stage-contract.html">Cold-Start Stage Contract 1</a><a class="" href="../specifications/agent/live-executor-protocol.html">Live Executor Protocol 1</a><a class="" href="../specifications/agent/observation-event-contract.html">Observation Event Contract 1</a><a class="" href="../specifications/agent/evaluation-invariant-contract.html">Evaluation Invariant Contract 1</a><a class="" href="../specifications/agent/live-run-evidence.html">Live Run Evidence 1</a><a class="" href="../specifications/components/library-layout-contract.html">Library Layout and Part Integrity Contract</a><a class="" href="../specifications/components/pin-electrical-semantics-profile.html">Pin Electrical Semantics Profile 1</a><h2>File Formats</h2><a class="section-index" href="../file-formats/index.html">File Formats</a><a class="" href="../file-formats/aixem.html">.aixem Semantic Source</a><a class="" href="../file-formats/aixlib.html">.aixlib.json Component Library</a><a class="" href="../file-formats/aixsym.html">.aixsym.json Symbol Asset</a><a class="" href="../file-formats/aixlayout.html">.aixlayout.json Explicit Layout</a><a class="" href="../file-formats/aixproj.html">.aixproj.json Project Lock</a><a class="" href="../file-formats/style-profile.html">Schematic Style Profile</a><h2>AI Agent Operations</h2><a class="section-index" href="../agent/index.html">AI Agent Operations</a><a class="" href="../agent/architecture.html">Agent Architecture</a><a class="" href="../agent/retrieval.html">Bounded Retrieval</a><a class="" href="../agent/task-routing.html">Task Routes</a><a class="" href="../agent/schematic-authoring.html">Schematic Authoring Agent</a><a class="" href="../agent/symbol-generation.html">Symbol Generation Agent</a><a class="" href="../agent/routing-agent.html">Routing Agent</a><a class="" href="../agent/validation-loop.html">Three-Stage Validation Loop</a><a class="" href="../agent/failure-policy.html">Fail-Closed Policy</a><a class="" href="../agent/authoring-orchestration.html">Agent Authoring Orchestration</a><a class="" href="../agent/live-agent-cold-start-authoring.html">Live-Agent Cold-Start Authoring</a><h2>Architecture</h2><a class="section-index" href="../architecture/index.html">System Architecture</a><a class="" href="../architecture/system-overview.html">System Overview</a><a class="" href="../architecture/pipeline.html">Build and Authoring Pipeline</a><a class="" href="../architecture/artifact-store.html">Artifact Ownership and Storage</a><a class="" href="../architecture/cache.html">Cache and Incremental Compilation</a><a class="" href="../architecture/security.html">Security and Trust Boundaries</a><a class="" href="../architecture/adr/index.html">Architecture Decision Records</a><a class="" href="../architecture/adr/0001-canonical-doc-root.html">ADR-0001: One Canonical Documentation Root</a><a class="" href="../architecture/adr/0002-route-first-retrieval.html">ADR-0002: Route-First Agent Retrieval</a><a class="" href="../architecture/adr/0003-vendor-neutral-ui.html">ADR-0003: Vendor-Neutral Engineering Surfaces</a><a class="" href="../architecture/adr/0004-symbol-style-and-renderer-precedence.html">ADR 0004 — Symbol Style and Renderer Precedence</a><h2>Conformance</h2><a class="section-index" href="../conformance/index.html">Conformance</a><a class="" href="../conformance/requirements.html">Requirement Model</a><a class="" href="../conformance/validation.html">Validation Architecture</a><a class="" href="../conformance/test-suite.html">Test Suite</a><a class="" href="../conformance/symbol-expressiveness.html">Symbol Expressiveness Conformance Profile 1</a><a class="" href="../conformance/static-2d-block-profile.html">Static 2D Block Compatibility Profile 1</a><a class="" href="../conformance/compatibility-conformance.html">Compatibility and Migration Conformance</a><a class="" href="../conformance/release-gates.html">Release Gates</a><a class="" href="../conformance/hierarchical-project.html">Hierarchical Project Conformance</a><a class="" href="../conformance/reference-viewer.html">Reference Viewer Conformance</a><a class="" href="../conformance/agent-diagnostics.html">Agent Diagnostic Registry and Conformance</a><a class="" href="../conformance/agent-authoring.html">Agent Authoring Closed-Loop Conformance</a><a class="" href="../conformance/live-agent-cold-start.html">Live-Agent Cold-Start Conformance</a><h2>Examples</h2><a class="section-index" href="../examples/index.html">Examples</a><a class="" href="../examples/passive-divider.html">Example: Passive Divider</a><a class="" href="../examples/grid-controller.html">Example: Grid Controller and Sensor Interface</a><a class="" href="../examples/hierarchical-reference.html">Example: Hierarchical Reference Pattern</a><a class="" href="../examples/symbol-expressiveness-corpus.html">Symbol Expressiveness Corpus Construction Index</a><h2>Governance</h2><a class="section-index" href="../governance/index.html">Governance</a><a class="" href="../governance/versioning.html">Versioning Policy</a><a class="" href="../governance/compatibility-policy.html">Compatibility Policy</a><a class="" href="../governance/deprecation.html">Deprecation Policy</a><a class="" href="../governance/release-process.html">Release Process</a><a class="" href="../governance/terminology.html">Terminology</a><a class="" href="../governance/documentation-authoring-guide.html">Documentation Authoring and Lifecycle Guide</a><h2>Releases</h2><a class="section-index" href="../releases/index.html">Release Notes</a><a class="" href="../releases/0.4.html">AIXEM 0.4 Baseline</a><a class="" href="../releases/0.5.html">AIXEM 0.5.0</a><a class="" href="../releases/0.5.1.html">AIXEM 0.5.1</a><a class="" href="../releases/0.5.2.html">AIXEM 0.5.2</a><a class="" href="../releases/0.5.3.html">AIXEM 0.5.3</a><a class="" href="../releases/0.5.4.html">AIXEM 0.5.4</a><a class="" href="../releases/0.5.5.html">AIXEM 0.5.5</a><a class="" href="../releases/0.5.6.html">AIXEM 0.5.6 Live-Agent Cold-Start Authoring</a><a class="" href="../releases/0.5.7.html">AIXEM 0.5.7 Document Information Architecture and Governance</a><a class="" href="../releases/0.5.8.html">AIXEM 0.5.8 Pre-Live Agent Readiness Hardening</a><a class="" href="../releases/0.5.8.1.html">AIXEM 0.5.8.1 Final Documentation, Specification, and Reference-Chain Closure</a><a class="" href="../releases/0.5.9.html">AIXEM 0.5.9 Integrated Authoring, Library, Pin Semantics, and Placement Hardening</a></nav><main class="content-wrap" id="main"><div class="content"><div class="breadcrumbs"><a href="../index.html">Documentation</a><span>›</span><a href="index.html">Symbol Authoring</a><span>›</span><span>Symbol Authoring Cookbook</span></div><header class="doc-head"><div class="eyebrow"><span class="badge informative">informative</span><span class="doc-id">AIXEM-SYMBOL-COOKBOOK-001 · v1.0</span></div><h1>Symbol Authoring Cookbook</h1><p class="lead">Provides executable, schema-valid recipes for drawing common AIXEM schematic symbols without renderer-code discovery.</p></header><article class="article"><h1 id="symbol-authoring-cookbook">Symbol Authoring Cookbook<a class="heading-anchor" href="#symbol-authoring-cookbook" aria-label="Link to this section">#</a></h1>
+<p>This cookbook converts a component endpoint contract into a compact, deterministic <code>.aixsym.json</code> asset. The recipes are backed by executable fixtures under <code>examples/authoring/</code> and are intended to be followed directly by an authoring agent.</p>
+<h2 id="inputs-and-outputs">Inputs and Outputs<a class="heading-anchor" href="#inputs-and-outputs" aria-label="Link to this section">#</a></h2>
+<p><strong>Inputs</strong> are the semantic component ID, complete component port set, port names and electrical types, required displayed fields, preferred variant policy, and the active symbol design profile.</p>
+<p><strong>Outputs</strong> are one schema-valid symbol asset, one presentation binding in <code>.aixlib.json</code>, a passing symbol-design lint result, and rendered evidence. Symbol geometry never creates or changes semantic connectivity.</p>
+<h2 id="recipe-selection">Recipe Selection<a class="heading-anchor" href="#recipe-selection" aria-label="Link to this section">#</a></h2>
+<table>
+<thead>
+<tr>
+  <th>Component class</th>
+  <th>Start from</th>
+  <th>Body strategy</th>
+  <th>Port strategy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Two-pin passive</td>
+  <td><code>01-two-pin-passive</code></td>
+  <td>centered body with two 5 mm leads</td>
+  <td>left port at 180°, right port at 0°</td>
+</tr>
+<tr>
+  <td>Connector</td>
+  <td><code>02-connector</code></td>
+  <td>body height derived from pin count</td>
+  <td>repeated ports on 5 mm pitch</td>
+</tr>
+<tr>
+  <td>Multi-pin IC</td>
+  <td><code>03-multi-pin-ic</code></td>
+  <td>rectangular body sized by largest side group</td>
+  <td>signals left/right, supplies top/bottom</td>
+</tr>
+<tr>
+  <td>Parameterized or variant symbol</td>
+  <td><code>04-parameterized-variant</code></td>
+  <td>geometry driven by typed parameters</td>
+  <td>endpoint identity remains invariant</td>
+</tr>
+<tr>
+  <td>Custom semantic-to-graphic mapping</td>
+  <td><code>05-field-and-port-binding</code></td>
+  <td>ordinary body and field nodes</td>
+  <td>explicit <code>portMap</code> and <code>fieldMap</code></td>
+</tr>
+</tbody>
+</table>
+<p>Do not create a new symbol when an existing locked asset already satisfies the same endpoint and presentation contract.</p>
+<h2 id="coordinate-and-origin-strategy">Coordinate and Origin Strategy<a class="heading-anchor" href="#coordinate-and-origin-strategy" aria-label="Link to this section">#</a></h2>
+<p>Use millimetres, a down-positive Y axis, clockwise degrees, and the active 2.5 mm authoring grid. Put the insertion anchor at <code>(0, 0)</code> unless a package-specific convention has been approved. Center ordinary bodies around the origin so placement, mirroring, and rotation remain predictable.</p>
+<p>Derive the body before drawing details:</p>
+<ol>
+<li>Group ports by left, right, top, and bottom side.</li>
+<li>Compute the largest group span as <code>(count - 1) × pinPitch</code>.</li>
+<li>Add body padding above and below the group.</li>
+<li>Place every visible lead between the body edge and its electrical port.</li>
+<li>Place <code>reference</code> and <code>value</code> fields outside the body and outside pin-name channels.</li>
+</ol>
+<h2 id="recipe-two-pin-passive">Recipe: Two-Pin Passive<a class="heading-anchor" href="#recipe-two-pin-passive" aria-label="Link to this section">#</a></h2>
+<p>The electrical connection point is the symbol <code>port</code>. The visible lead is an explicit <code>line</code> node. The associated lead endpoint and port coordinate must resolve to the same point.</p>
+<!-- aixem-snippet: examples/authoring/01-two-pin-passive/library/electronics/authoring/resistor.aixsym.json#/symbol/ports -->
+
+<pre><code class="language-json">[
+  {
+    &quot;id&quot;: &quot;1&quot;,
+    &quot;kind&quot;: &quot;electrical&quot;,
+    &quot;labelVisible&quot;: false,
+    &quot;name&quot;: &quot;1&quot;,
+    &quot;number&quot;: &quot;1&quot;,
+    &quot;numberVisible&quot;: false,
+    &quot;orientation&quot;: 180,
+    &quot;snapRadius&quot;: 1.25,
+    &quot;x&quot;: {
+      &quot;args&quot;: [
+        {
+          &quot;args&quot;: [
+            {
+              &quot;args&quot;: [
+                {
+                  &quot;param&quot;: &quot;body-length&quot;
+                },
+                2
+              ],
+              &quot;op&quot;: &quot;div&quot;
+            },
+            {
+              &quot;param&quot;: &quot;lead-length&quot;
+            }
+          ],
+          &quot;op&quot;: &quot;add&quot;
+        }
+      ],
+      &quot;op&quot;: &quot;neg&quot;
+    },
+    &quot;y&quot;: 0
+  },
+  {
+    &quot;id&quot;: &quot;2&quot;,
+    &quot;kind&quot;: &quot;electrical&quot;,
+    &quot;labelVisible&quot;: false,
+    &quot;name&quot;: &quot;2&quot;,
+    &quot;number&quot;: &quot;2&quot;,
+    &quot;numberVisible&quot;: false,
+    &quot;orientation&quot;: 0,
+    &quot;snapRadius&quot;: 1.25,
+    &quot;x&quot;: {
+      &quot;args&quot;: [
+        {
+          &quot;args&quot;: [
+            {
+              &quot;param&quot;: &quot;body-length&quot;
+            },
+            2
+          ],
+          &quot;op&quot;: &quot;div&quot;
+        },
+        {
+          &quot;param&quot;: &quot;lead-length&quot;
+        }
+      ],
+      &quot;op&quot;: &quot;add&quot;
+    },
+    &quot;y&quot;: 0
+  }
+]
+</code></pre>
+<!-- /aixem-snippet -->
+
+<p>The body and lead geometry are independently serialized:</p>
+<!-- aixem-snippet: examples/authoring/01-two-pin-passive/library/electronics/authoring/resistor.aixsym.json#/symbol/graphics -->
+
+<pre><code class="language-json">[
+  {
+    &quot;id&quot;: &quot;lead-1&quot;,
+    &quot;layer&quot;: &quot;body&quot;,
+    &quot;metadata&quot;: {
+      &quot;port&quot;: &quot;1&quot;,
+      &quot;portEndpoint&quot;: &quot;start&quot;
+    },
+    &quot;role&quot;: &quot;pin-lead&quot;,
+    &quot;style&quot;: &quot;line&quot;,
+    &quot;type&quot;: &quot;line&quot;,
+    &quot;x1&quot;: {
+      &quot;args&quot;: [
+        {
+          &quot;args&quot;: [
+            {
+              &quot;args&quot;: [
+                {
+                  &quot;param&quot;: &quot;body-length&quot;
+                },
+                2
+              ],
+              &quot;op&quot;: &quot;div&quot;
+            },
+            {
+              &quot;param&quot;: &quot;lead-length&quot;
+            }
+          ],
+          &quot;op&quot;: &quot;add&quot;
+        }
+      ],
+      &quot;op&quot;: &quot;neg&quot;
+    },
+    &quot;x2&quot;: {
+      &quot;args&quot;: [
+        {
+          &quot;args&quot;: [
+            {
+              &quot;param&quot;: &quot;body-length&quot;
+            },
+            2
+          ],
+          &quot;op&quot;: &quot;div&quot;
+        }
+      ],
+      &quot;op&quot;: &quot;neg&quot;
+    },
+    &quot;y1&quot;: 0,
+    &quot;y2&quot;: 0
+  },
+  {
+    &quot;id&quot;: &quot;lead-2&quot;,
+    &quot;layer&quot;: &quot;body&quot;,
+    &quot;metadata&quot;: {
+      &quot;port&quot;: &quot;2&quot;,
+      &quot;portEndpoint&quot;: &quot;end&quot;
+    },
+    &quot;role&quot;: &quot;pin-lead&quot;,
+    &quot;style&quot;: &quot;line&quot;,
+    &quot;type&quot;: &quot;line&quot;,
+    &quot;x1&quot;: {
+      &quot;args&quot;: [
+        {
+          &quot;param&quot;: &quot;body-length&quot;
+        },
+        2
+      ],
+      &quot;op&quot;: &quot;div&quot;
+    },
+    &quot;x2&quot;: {
+      &quot;args&quot;: [
+        {
+          &quot;args&quot;: [
+            {
+              &quot;param&quot;: &quot;body-length&quot;
+            },
+            2
+          ],
+          &quot;op&quot;: &quot;div&quot;
+        },
+        {
+          &quot;param&quot;: &quot;lead-length&quot;
+        }
+      ],
+      &quot;op&quot;: &quot;add&quot;
+    },
+    &quot;y1&quot;: 0,
+    &quot;y2&quot;: 0
+  },
+  {
+    &quot;height&quot;: {
+      &quot;param&quot;: &quot;body-height&quot;
+    },
+    &quot;id&quot;: &quot;body-iec&quot;,
+    &quot;layer&quot;: &quot;body&quot;,
+    &quot;role&quot;: &quot;body&quot;,
+    &quot;style&quot;: &quot;body&quot;,
+    &quot;type&quot;: &quot;rect&quot;,
+    &quot;width&quot;: {
+      &quot;param&quot;: &quot;body-length&quot;
+    },
+    &quot;x&quot;: {
+      &quot;args&quot;: [
+        {
+          &quot;args&quot;: [
+            {
+              &quot;param&quot;: &quot;body-length&quot;
+            },
+            2
+          ],
+          &quot;op&quot;: &quot;div&quot;
+        }
+      ],
+      &quot;op&quot;: &quot;neg&quot;
+    },
+    &quot;y&quot;: {
+      &quot;args&quot;: [
+        {
+          &quot;args&quot;: [
+            {
+              &quot;param&quot;: &quot;body-height&quot;
+            },
+            2
+          ],
+          &quot;op&quot;: &quot;div&quot;
+        }
+      ],
+      &quot;op&quot;: &quot;neg&quot;
+    }
+  },
+  {
+    &quot;anchor&quot;: &quot;middle&quot;,
+    &quot;baseline&quot;: &quot;middle&quot;,
+    &quot;field&quot;: &quot;reference&quot;,
+    &quot;id&quot;: &quot;field-reference&quot;,
+    &quot;layer&quot;: &quot;fields&quot;,
+    &quot;role&quot;: &quot;reference-field&quot;,
+    &quot;style&quot;: &quot;field&quot;,
+    &quot;type&quot;: &quot;text&quot;,
+    &quot;x&quot;: 0,
+    &quot;y&quot;: -7.5
+  },
+  {
+    &quot;anchor&quot;: &quot;middle&quot;,
+    &quot;baseline&quot;: &quot;middle&quot;,
+    &quot;field&quot;: &quot;value&quot;,
+    &quot;id&quot;: &quot;field-value&quot;,
+    &quot;layer&quot;: &quot;fields&quot;,
+    &quot;role&quot;: &quot;value-field&quot;,
+    &quot;style&quot;: &quot;value&quot;,
+    &quot;type&quot;: &quot;text&quot;,
+    &quot;x&quot;: 0,
+    &quot;y&quot;: 7.5
+  }
+]
+</code></pre>
+<!-- /aixem-snippet -->
+
+<p>The standard construction sequence is:</p>
+<ol>
+<li>Declare typed body and lead parameters.</li>
+<li>Draw the left and right leads with <code>role: &quot;pin-lead&quot;</code>.</li>
+<li>Associate each lead with <code>metadata.port</code> and <code>metadata.portEndpoint</code> for machine-checkable coincidence.</li>
+<li>Draw the body between lead inner endpoints.</li>
+<li>Add bound text nodes for <code>reference</code> and <code>value</code>.</li>
+<li>Validate the symbol, bind it through the component library, render it, and inspect the port targets.</li>
+</ol>
+<h2 id="recipe-connector">Recipe: Connector<a class="heading-anchor" href="#recipe-connector" aria-label="Link to this section">#</a></h2>
+<p>Use a deterministic ordering rule: port <code>1</code> is the first visible position and later ports progress in increasing numerical order. Keep names and numbers distinct, even when both are displayed.</p>
+<!-- aixem-snippet: examples/authoring/02-connector/library/electronics/authoring/connector-6.aixsym.json#/symbol/ports -->
+
+<pre><code class="language-json">[
+  {
+    &quot;id&quot;: &quot;1&quot;,
+    &quot;kind&quot;: &quot;electrical&quot;,
+    &quot;labelVisible&quot;: true,
+    &quot;name&quot;: &quot;P1&quot;,
+    &quot;number&quot;: &quot;1&quot;,
+    &quot;numberVisible&quot;: true,
+    &quot;orientation&quot;: 180,
+    &quot;snapRadius&quot;: 1.25,
+    &quot;x&quot;: -10,
+    &quot;y&quot;: -12.5
+  },
+  {
+    &quot;id&quot;: &quot;2&quot;,
+    &quot;kind&quot;: &quot;electrical&quot;,
+    &quot;labelVisible&quot;: true,
+    &quot;name&quot;: &quot;P2&quot;,
+    &quot;number&quot;: &quot;2&quot;,
+    &quot;numberVisible&quot;: true,
+    &quot;orientation&quot;: 180,
+    &quot;snapRadius&quot;: 1.25,
+    &quot;x&quot;: -10,
+    &quot;y&quot;: -7.5
+  },
+  {
+    &quot;id&quot;: &quot;3&quot;,
+    &quot;kind&quot;: &quot;electrical&quot;,
+    &quot;labelVisible&quot;: true,
+    &quot;name&quot;: &quot;P3&quot;,
+    &quot;number&quot;: &quot;3&quot;,
+    &quot;numberVisible&quot;: true,
+    &quot;orientation&quot;: 180,
+    &quot;snapRadius&quot;: 1.25,
+    &quot;x&quot;: -10,
+    &quot;y&quot;: -2.5
+  },
+  {
+    &quot;id&quot;: &quot;4&quot;,
+    &quot;kind&quot;: &quot;electrical&quot;,
+    &quot;labelVisible&quot;: true,
+    &quot;name&quot;: &quot;P4&quot;,
+    &quot;number&quot;: &quot;4&quot;,
+    &quot;numberVisible&quot;: true,
+    &quot;orientation&quot;: 180,
+    &quot;snapRadius&quot;: 1.25,
+    &quot;x&quot;: -10,
+    &quot;y&quot;: 2.5
+  },
+  {
+    &quot;id&quot;: &quot;5&quot;,
+    &quot;kind&quot;: &quot;electrical&quot;,
+    &quot;labelVisible&quot;: true,
+    &quot;name&quot;: &quot;P5&quot;,
+    &quot;number&quot;: &quot;5&quot;,
+    &quot;numberVisible&quot;: true,
+    &quot;orientation&quot;: 180,
+    &quot;snapRadius&quot;: 1.25,
+    &quot;x&quot;: -10,
+    &quot;y&quot;: 7.5
+  },
+  {
+    &quot;id&quot;: &quot;6&quot;,
+    &quot;kind&quot;: &quot;electrical&quot;,
+    &quot;labelVisible&quot;: true,
+    &quot;name&quot;: &quot;P6&quot;,
+    &quot;number&quot;: &quot;6&quot;,
+    &quot;numberVisible&quot;: true,
+    &quot;orientation&quot;: 180,
+    &quot;snapRadius&quot;: 1.25,
+    &quot;x&quot;: -10,
+    &quot;y&quot;: 12.5
+  }
+]
+</code></pre>
+<!-- /aixem-snippet -->
+
+<p>For <code>N</code> pins on one side, use a body span of at least <code>(N - 1) × 5 mm</code> plus one pitch of vertical padding. Never compress pin pitch merely to reduce symbol area.</p>
+<h2 id="recipe-multi-pin-ic">Recipe: Multi-Pin IC<a class="heading-anchor" href="#recipe-multi-pin-ic" aria-label="Link to this section">#</a></h2>
+<p>Group pins by engineering function before assigning sides. A default signal-flow layout places inputs on the left and outputs on the right. Put power inputs at the top and return/ground ports at the bottom when that does not conceal the component's functional grouping.</p>
+<p>The twelve-pin fixture demonstrates all four sides:</p>
+<!-- aixem-snippet: examples/authoring/03-multi-pin-ic/library/electronics/authoring/controller-12.aixsym.json#/symbol/ports -->
+
+<pre><code class="language-json">[
+  {
+    &quot;id&quot;: &quot;1&quot;,
+    &quot;kind&quot;: &quot;electrical&quot;,
+    &quot;labelVisible&quot;: true,
+    &quot;metadata&quot;: {
+      &quot;semanticType&quot;: &quot;input&quot;
+    },
+    &quot;name&quot;: &quot;AIN0&quot;,
+    &quot;number&quot;: &quot;1&quot;,
+    &quot;numberVisible&quot;: true,
+    &quot;orientation&quot;: 180,
+    &quot;snapRadius&quot;: 1.25,
+    &quot;x&quot;: -20,
+    &quot;y&quot;: -7.5
+  },
+  {
+    &quot;id&quot;: &quot;2&quot;,
+    &quot;kind&quot;: &quot;electrical&quot;,
+    &quot;labelVisible&quot;: true,
+    &quot;metadata&quot;: {
+      &quot;semanticType&quot;: &quot;input&quot;
+    },
+    &quot;name&quot;: &quot;AIN1&quot;,
+    &quot;number&quot;: &quot;2&quot;,
+    &quot;numberVisible&quot;: true,
+    &quot;orientation&quot;: 180,
+    &quot;snapRadius&quot;: 1.25,
+    &quot;x&quot;: -20,
+    &quot;y&quot;: -2.5
+  },
+  {
+    &quot;id&quot;: &quot;3&quot;,
+    &quot;kind&quot;: &quot;electrical&quot;,
+    &quot;labelVisible&quot;: true,
+    &quot;metadata&quot;: {
+      &quot;semanticType&quot;: &quot;bidirectional&quot;
+    },
+    &quot;name&quot;: &quot;SCL&quot;,
+    &quot;number&quot;: &quot;3&quot;,
+    &quot;numberVisible&quot;: true,
+    &quot;orientation&quot;: 180,
+    &quot;snapRadius&quot;: 1.25,
+    &quot;x&quot;: -20,
+    &quot;y&quot;: 2.5
+  },
+  {
+    &quot;id&quot;: &quot;4&quot;,
+    &quot;kind&quot;: &quot;electrical&quot;,
+    &quot;labelVisible&quot;: true,
+    &quot;metadata&quot;: {
+      &quot;semanticType&quot;: &quot;bidirectional&quot;
+    },
+    &quot;name&quot;: &quot;SDA&quot;,
+    &quot;number&quot;: &quot;4&quot;,
+    &quot;numberVisible&quot;: true,
+    &quot;orientation&quot;: 180,
+    &quot;snapRadius&quot;: 1.25,
+    &quot;x&quot;: -20,
+    &quot;y&quot;: 7.5
+  },
+  {
+    &quot;id&quot;: &quot;5&quot;,
+    &quot;kind&quot;: &quot;electrical&quot;,
+    &quot;labelVisible&quot;: true,
+    &quot;metadata&quot;: {
+      &quot;semanticType&quot;: &quot;output&quot;
+    },
+    &quot;name&quot;: &quot;PWM0&quot;,
+    &quot;number&quot;: &quot;5&quot;,
+    &quot;numberVisible&quot;: true,
+    &quot;orientation&quot;: 0,
+    &quot;snapRadius&quot;: 1.25,
+    &quot;x&quot;: 20,
+    &quot;y&quot;: -7.5
+  },
+  {
+    &quot;id&quot;: &quot;6&quot;,
+    &quot;kind&quot;: &quot;electrical&quot;,
+    &quot;labelVisible&quot;: true,
+    &quot;metadata&quot;: {
+      &quot;semanticType&quot;: &quot;output&quot;
+    },
+    &quot;name&quot;: &quot;PWM1&quot;,
+    &quot;number&quot;: &quot;6&quot;,
+    &quot;numberVisible&quot;: true,
+    &quot;orientation&quot;: 0,
+    &quot;snapRadius&quot;: 1.25,
+    &quot;x&quot;: 20,
+    &quot;y&quot;: -2.5
+  },
+  {
+    &quot;id&quot;: &quot;7&quot;,
+    &quot;kind&quot;: &quot;electrical&quot;,
+    &quot;labelVisible&quot;: true,
+    &quot;metadata&quot;: {
+      &quot;semanticType&quot;: &quot;output&quot;
+    },
+    &quot;name&quot;: &quot;TX&quot;,
+    &quot;number&quot;: &quot;7&quot;,
+    &quot;numberVisible&quot;: true,
+    &quot;orientation&quot;: 0,
+    &quot;snapRadius&quot;: 1.25,
+    &quot;x&quot;: 20,
+    &quot;y&quot;: 2.5
+  },
+  {
+    &quot;id&quot;: &quot;8&quot;,
+    &quot;kind&quot;: &quot;electrical&quot;,
+    &quot;labelVisible&quot;: true,
+    &quot;metadata&quot;: {
+      &quot;semanticType&quot;: &quot;input&quot;
+    },
+    &quot;name&quot;: &quot;RX&quot;,
+    &quot;number&quot;: &quot;8&quot;,
+    &quot;numberVisible&quot;: true,
+    &quot;orientation&quot;: 0,
+    &quot;snapRadius&quot;: 1.25,
+    &quot;x&quot;: 20,
+    &quot;y&quot;: 7.5
+  },
+  {
+    &quot;id&quot;: &quot;9&quot;,
+    &quot;kind&quot;: &quot;electrical&quot;,
+    &quot;labelVisible&quot;: true,
+    &quot;metadata&quot;: {
+      &quot;semanticType&quot;: &quot;power-input&quot;
+    },
+    &quot;name&quot;: &quot;VDD&quot;,
+    &quot;number&quot;: &quot;9&quot;,
+    &quot;numberVisible&quot;: true,
+    &quot;orientation&quot;: 270,
+    &quot;snapRadius&quot;: 1.25,
+    &quot;x&quot;: -5,
+    &quot;y&quot;: -20
+  },
+  {
+    &quot;id&quot;: &quot;10&quot;,
+    &quot;kind&quot;: &quot;electrical&quot;,
+    &quot;labelVisible&quot;: true,
+    &quot;metadata&quot;: {
+      &quot;semanticType&quot;: &quot;power-input&quot;
+    },
+    &quot;name&quot;: &quot;AVDD&quot;,
+    &quot;number&quot;: &quot;10&quot;,
+    &quot;numberVisible&quot;: true,
+    &quot;orientation&quot;: 270,
+    &quot;snapRadius&quot;: 1.25,
+    &quot;x&quot;: 5,
+    &quot;y&quot;: -20
+  },
+  {
+    &quot;id&quot;: &quot;11&quot;,
+    &quot;kind&quot;: &quot;electrical&quot;,
+    &quot;labelVisible&quot;: true,
+    &quot;metadata&quot;: {
+      &quot;semanticType&quot;: &quot;power-input&quot;
+    },
+    &quot;name&quot;: &quot;GND&quot;,
+    &quot;number&quot;: &quot;11&quot;,
+    &quot;numberVisible&quot;: true,
+    &quot;orientation&quot;: 90,
+    &quot;snapRadius&quot;: 1.25,
+    &quot;x&quot;: -5,
+    &quot;y&quot;: 20
+  },
+  {
+    &quot;id&quot;: &quot;12&quot;,
+    &quot;kind&quot;: &quot;electrical&quot;,
+    &quot;labelVisible&quot;: true,
+    &quot;metadata&quot;: {
+      &quot;semanticType&quot;: &quot;power-input&quot;
+    },
+    &quot;name&quot;: &quot;AGND&quot;,
+    &quot;number&quot;: &quot;12&quot;,
+    &quot;numberVisible&quot;: true,
+    &quot;orientation&quot;: 90,
+    &quot;snapRadius&quot;: 1.25,
+    &quot;x&quot;: 5,
+    &quot;y&quot;: 20
+  }
+]
+</code></pre>
+<!-- /aixem-snippet -->
+
+<p>Body dimensions must leave room for automatic pin names and numbers. Increase the body; do not shorten the standard lead or reduce pitch to solve a label collision.</p>
+<h2 id="recipe-parameters-and-variants">Recipe: Parameters and Variants<a class="heading-anchor" href="#recipe-parameters-and-variants" aria-label="Link to this section">#</a></h2>
+<p>Use parameters for dimensions or visibility that vary without changing component identity. Use variants for recognized graphical alternatives. A variant may add graphics, set parameter defaults, override presentation metadata for an existing symbol port, or suppress named graphics. It must not silently add, remove, or rename semantic component endpoints.</p>
+<!-- aixem-snippet: examples/authoring/04-parameterized-variant/library/electronics/authoring/resistor-variant.aixsym.json#/symbol/variants -->
+
+<pre><code class="language-json">[
+  {
+    &quot;graphics&quot;: [
+      {
+        &quot;height&quot;: {
+          &quot;param&quot;: &quot;body-height&quot;
+        },
+        &quot;id&quot;: &quot;body-iec&quot;,
+        &quot;layer&quot;: &quot;body&quot;,
+        &quot;role&quot;: &quot;body&quot;,
+        &quot;style&quot;: &quot;body&quot;,
+        &quot;type&quot;: &quot;rect&quot;,
+        &quot;width&quot;: {
+          &quot;param&quot;: &quot;body-length&quot;
+        },
+        &quot;x&quot;: {
+          &quot;args&quot;: [
+            {
+              &quot;args&quot;: [
+                {
+                  &quot;param&quot;: &quot;body-length&quot;
+                },
+                2
+              ],
+              &quot;op&quot;: &quot;div&quot;
+            }
+          ],
+          &quot;op&quot;: &quot;neg&quot;
+        },
+        &quot;y&quot;: {
+          &quot;args&quot;: [
+            {
+              &quot;args&quot;: [
+                {
+                  &quot;param&quot;: &quot;body-height&quot;
+                },
+                2
+              ],
+              &quot;op&quot;: &quot;div&quot;
+            }
+          ],
+          &quot;op&quot;: &quot;neg&quot;
+        }
+      }
+    ],
+    &quot;id&quot;: &quot;iec&quot;,
+    &quot;parameterDefaults&quot;: {
+      &quot;body-length&quot;: 20
+    },
+    &quot;title&quot;: &quot;IEC rectangular body&quot;
+  },
+  {
+    &quot;graphics&quot;: [
+      {
+        &quot;id&quot;: &quot;body-ansi&quot;,
+        &quot;layer&quot;: &quot;body&quot;,
+        &quot;points&quot;: [
+          [
+            -12.5,
+            0
+          ],
+          [
+            -10,
+            -3.75
+          ],
+          [
+            -5,
+            3.75
+          ],
+          [
+            0,
+            -3.75
+          ],
+          [
+            5,
+            3.75
+          ],
+          [
+            10,
+            -3.75
+          ],
+          [
+            12.5,
+            0
+          ]
+        ],
+        &quot;role&quot;: &quot;body&quot;,
+        &quot;style&quot;: &quot;line&quot;,
+        &quot;type&quot;: &quot;polyline&quot;
+      }
+    ],
+    &quot;id&quot;: &quot;ansi&quot;,
+    &quot;parameterDefaults&quot;: {
+      &quot;body-length&quot;: 25
+    },
+    &quot;title&quot;: &quot;ANSI zig-zag body&quot;
+  }
+]
+</code></pre>
+<!-- /aixem-snippet -->
+
+<p>The renderer resolves parameters as symbol defaults, then selected-variant defaults, then placement overrides. The selected variant resolves as placement, then library presentation default, then symbol default.</p>
+<h2 id="semantic-contract-before-geometry">Semantic Contract Before Geometry<a class="heading-anchor" href="#semantic-contract-before-geometry" aria-label="Link to this section">#</a></h2>
+<p>For reusable-part work, establish the component identity, provenance status, complete port inventory, distinguishing properties, and optional source-reviewed pin semantics before creating or copying graphics. Reusing one symbol asset across multiple legitimate components is encouraged. Changing only an ID or display label around copied geometry is not legitimate component generation.</p>
+<p>Apply the reference rhythm <code>G=2.5 mm</code>, <code>P=5 mm</code>, <code>M=10 mm</code>, standard lead <code>L=5 mm</code>. Required body spans are rounded outward to <code>G</code>; a repeated group of <code>N</code> pins reserves at least <code>(N - 1)P + 2G</code> before extra label and field clearance. Never compress pin pitch or lead length to force content into a preferred box.</p>
+<h2 id="common-failure-patterns">Common Failure Patterns<a class="heading-anchor" href="#common-failure-patterns" aria-label="Link to this section">#</a></h2>
+<table>
+<thead>
+<tr>
+  <th>Defect</th>
+  <th>Cause</th>
+  <th>Repair owner</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Wire reaches a point beyond the visible lead</td>
+  <td>lead endpoint and port coordinate differ</td>
+  <td><code>.aixsym.json</code> graphics/port</td>
+</tr>
+<tr>
+  <td>Correct-looking symbol cannot bind</td>
+  <td><code>portMap</code> is incomplete or reversed</td>
+  <td><code>.aixlib.json</code> presentation</td>
+</tr>
+<tr>
+  <td>Pin name overlaps body</td>
+  <td>body too small or orientation wrong</td>
+  <td>symbol geometry/port metadata</td>
+</tr>
+<tr>
+  <td>Reference/value text sits inside the body</td>
+  <td>field anchor violates the design profile</td>
+  <td>symbol text node</td>
+</tr>
+<tr>
+  <td>Variant changes endpoint identity</td>
+  <td>variant used as a semantic substitute</td>
+  <td>component model and symbol variant</td>
+</tr>
+<tr>
+  <td>Off-grid pin target</td>
+  <td>parameter expression resolves outside the profile grid</td>
+  <td>symbol parameter/default/port expression</td>
+</tr>
+<tr>
+  <td>Decorative path obscures function</td>
+  <td>excessive primitive complexity</td>
+  <td>symbol graphics</td>
+</tr>
+</tbody>
+</table>
+<h2 id="author-render-inspect-repair">Author, Render, Inspect, Repair<a class="heading-anchor" href="#author-render-inspect-repair" aria-label="Link to this section">#</a></h2>
+<ol>
+<li>Validate JSON Schema and feature declarations.</li>
+<li>Run symbol-design lint, including grid and lead/port coincidence.</li>
+<li>Validate total component-to-symbol port mapping.</li>
+<li>Render SVG and <code>resolved-scene.json</code> from locked inputs.</li>
+<li>Inspect body proportions, pin groups, field clearance, and visible connection targets.</li>
+<li>Classify any defect by authority layer before editing.</li>
+<li>Modify only the owning source, rerender, and compare deterministic output.</li>
+</ol>
+<h2 id="completion-checklist">Completion Checklist<a class="heading-anchor" href="#completion-checklist" aria-label="Link to this section">#</a></h2>
+<ul>
+<li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox" disabled/>The semantic endpoint contract is known and unchanged.</li>
+<li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox" disabled/>The asset validates against the active <code>.aixsym</code> schema.</li>
+<li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox" disabled/>Every mapped symbol port exists and remains visible.</li>
+<li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox" disabled/>Every visible lead endpoint coincides with its electrical port.</li>
+<li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox" disabled/>Ports, body dimensions, and field anchors follow the active grid/design profile.</li>
+<li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox" disabled/><code>reference</code>, <code>value</code>, and custom fields resolve through documented precedence.</li>
+<li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox" disabled/>Parameters and variants preserve endpoint identity.</li>
+<li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox" disabled/>Rendered SVG and resolved-scene evidence were inspected.</li>
+</ul>
+<h2 id="related-documents">Related Documents<a class="heading-anchor" href="#related-documents" aria-label="Link to this section">#</a></h2>
+<ul>
+<li><a href="aixsym-field-reference.html">AIXSYM Field Reference</a></li>
+<li><a href="component-symbol-binding.html">Component to Symbol Binding</a></li>
+<li><a href="../specifications/symbols/symbol-design-profile.html">Symbol Design Profile</a></li>
+<li><a href="../agent/visual-qa-loop.html">Visual QA Loop</a></li>
+</ul>
+<p><a id="0-5-2-nearest-corpus-pattern"></a></p>
+<h2 id="nearest-corpus-pattern">Nearest Corpus Pattern<a class="heading-anchor" href="#nearest-corpus-pattern" aria-label="Link to this section">#</a></h2>
+<p>Use the nearest validated corpus construction before designing a new structure. The corpus remains informative; the actual component endpoint contract controls the new symbol.</p>
+<table>
+<thead>
+<tr>
+  <th>Target class</th>
+  <th>Cases</th>
+  <th>Preferred pattern</th>
+  <th>Primary risk</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Two-pin passive</td>
+  <td>S001-S005</td>
+  <td>Straight composition, then reuse or path for repeated detail.</td>
+  <td>Lead endpoint and electrical port diverge.</td>
+</tr>
+<tr>
+  <td>Diode/transistor</td>
+  <td>S006-S010, S025</td>
+  <td>Grouped body details with explicit external leads.</td>
+  <td>Arrow, bubble, or internal mark suggests false connectivity.</td>
+</tr>
+<tr>
+  <td>Analog/electromechanical</td>
+  <td>S011-S016</td>
+  <td>Separate conductive geometry from mechanical association.</td>
+  <td>Mechanical detail is interpreted as a net.</td>
+</tr>
+<tr>
+  <td>Logic</td>
+  <td>S017-S018</td>
+  <td>Curved path body plus explicit bubble/mark.</td>
+  <td>Endpoint identity changes with presentation.</td>
+</tr>
+<tr>
+  <td>Connector</td>
+  <td>S019-S021</td>
+  <td>Stable pitch, repeated leads, deterministic numbering.</td>
+  <td>Dense labels or off-grid ports.</td>
+</tr>
+<tr>
+  <td>MCU/high-pin IC</td>
+  <td>S022-S024</td>
+  <td>Functional side grouping and protected field zones.</td>
+  <td>Pin density exceeds readable pitch.</td>
+</tr>
+<tr>
+  <td>Complex/custom</td>
+  <td>S026-S029</td>
+  <td>Compose first; compound path only for irregular contours.</td>
+  <td>Self-intersection or undocumented renderer dependence.</td>
+</tr>
+<tr>
+  <td>Multi-unit FPGA</td>
+  <td>S030</td>
+  <td>Semantic capability probe only.</td>
+  <td>Variants or duplicated entities falsely simulate units.</td>
+</tr>
+</tbody>
+</table>
+<p>Run <code>python tools/validate_symbol_corpus.py --case &lt;ID&gt;</code> while adapting a pattern, then run the target tier and the full release gate.</p>
+<hr />
+<p>This file is canonical authored documentation. Generated HTML, agent cards, route indexes, and traceability records are derived from its metadata and content.</p>
+</article><section class="meta-panel"><h2>Document metadata</h2><dl class="meta-list"><dt>Authority</dt><dd>symbol-authoring-recipes</dd><dt>Agent intents</dt><dd>create-symbol, author-component-circuit</dd><dt>Dependencies</dt><dd><span class="related"><a href="../specifications/symbols/symbol-design-profile.html">Symbol Design Profile 1</a><a href="aixsym-field-reference.html">AIXSYM Field Reference</a><a href="pins-and-ports.html">Pins, Ports, and Endpoint Mapping</a></span></dd><dt>Related documents</dt><dd><span class="related"><a href="../specifications/components/pin-electrical-semantics-profile.html">Pin Electrical Semantics Profile 1</a><a href="../specifications/components/library-layout-contract.html">Library Layout and Part Integrity Contract</a><a href="component-symbol-binding.html">Component to Symbol Binding</a><a href="../agent/visual-qa-loop.html">Visual QA and Repair Loop</a></span></dd><dt>Canonical source</dt><dd><code>docs/symbols/symbol-authoring-cookbook.md</code></dd><dt>Source digest</dt><dd><code>sha256:2aa5c9a0fd8ede00355a470a080b6a19af3f94f9c205a4f29e2559607a192644</code></dd></dl></section><div class="pager"><a href="../authoring/index.html"><small>Previous</small>Authoring</a><a href="aixsym-field-reference.html"><small>Next</small>AIXSYM Field Reference</a></div><footer class="footer">AIXEM 0.5.9 · Canonical English documentation · Generated from <code>docs/</code> without a runtime backend.</footer></div></main><aside class="toc" aria-label="On this page"><h2>On this page</h2><a class="level-2" href="#inputs-and-outputs">Inputs and Outputs</a><a class="level-2" href="#recipe-selection">Recipe Selection</a><a class="level-2" href="#coordinate-and-origin-strategy">Coordinate and Origin Strategy</a><a class="level-2" href="#recipe-two-pin-passive">Recipe: Two-Pin Passive</a><a class="level-2" href="#recipe-connector">Recipe: Connector</a><a class="level-2" href="#recipe-multi-pin-ic">Recipe: Multi-Pin IC</a><a class="level-2" href="#recipe-parameters-and-variants">Recipe: Parameters and Variants</a><a class="level-2" href="#semantic-contract-before-geometry">Semantic Contract Before Geometry</a><a class="level-2" href="#common-failure-patterns">Common Failure Patterns</a><a class="level-2" href="#author-render-inspect-repair">Author, Render, Inspect, Repair</a><a class="level-2" href="#completion-checklist">Completion Checklist</a><a class="level-2" href="#related-documents">Related Documents</a><a class="level-2" href="#nearest-corpus-pattern">Nearest Corpus Pattern</a></aside></div><dialog class="search-dialog" id="search-dialog" aria-label="Documentation search"><div class="search-box"><header><input id="site-search" type="search" autocomplete="off" placeholder="Search documents, intents, IDs, and requirements"><button type="button" id="search-close">Close</button></header><div class="results" id="search-results"></div></div></dialog><script src="../assets/search-data.js"></script><script src="../assets/site.js"></script></body></html>

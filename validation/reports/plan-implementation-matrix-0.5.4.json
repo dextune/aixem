@@ -1,0 +1,140 @@
+{
+  "deferredByPlan": {
+    "P1": [
+      "deep links",
+      "print/export presentation",
+      "endpoint-level inspection",
+      "large-project optimization",
+      "session-state export"
+    ],
+    "P2": [
+      "AIXEM Editor",
+      "authoritative write-back",
+      "undo/redo",
+      "collaboration"
+    ]
+  },
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "p0": {
+    "items": 20,
+    "status": "COMPLETE"
+  },
+  "phases": [
+    {
+      "evidence": [
+        "protected renderer digest check",
+        "V017 baseline separation"
+      ],
+      "id": "Phase 0",
+      "objective": "Freeze the 0.5.3 Viewer and protected renderer baseline",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        "Reference Viewer Contract 1",
+        "ADR-0003",
+        "AGENTS.md"
+      ],
+      "id": "Phase 1",
+      "objective": "Normalize Viewer, Workbench, and Editor terminology and authority",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        "AIXEM-SPEC-VIEWER-001",
+        "AIXEM-SPEC-WORKBENCH-001"
+      ],
+      "id": "Phase 2",
+      "objective": "Publish Reference Viewer and Review Workbench contracts",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        "aixem-viewer-model-1.schema.json",
+        "V015",
+        "structural negative tests"
+      ],
+      "id": "Phase 3",
+      "objective": "Define schema-validated deterministic Viewer Model 1",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        "viewer/core.py",
+        "V003-V010"
+      ],
+      "id": "Phase 4",
+      "objective": "Refactor shared Viewer Core",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        "viewer.html",
+        "V001-V016"
+      ],
+      "id": "Phase 5",
+      "objective": "Implement Reference Viewer 1",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        "workbench.html",
+        "V017"
+      ],
+      "id": "Phase 6",
+      "objective": "Separate Review Workbench 1",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        "V011-V014",
+        "CSP",
+        "zero-network evidence"
+      ],
+      "id": "Phase 7",
+      "objective": "Implement security and accessibility profiles",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        "Playwright",
+        "V001-V018",
+        "screenshots"
+      ],
+      "id": "Phase 8",
+      "objective": "Add browser-level behavioral conformance",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        "inspect-viewer route",
+        "render-review route",
+        "traceability"
+      ],
+      "id": "Phase 9",
+      "objective": "Integrate documentation and agent retrieval",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        "three verification passes",
+        "all legacy corpora",
+        "manifest"
+      ],
+      "id": "Phase 10",
+      "objective": "Close release regression, determinism, claims, and package",
+      "status": "PASS"
+    }
+  ],
+  "plan": "PLAN-0.5.4-REFERENCE-VIEWER-CONTRACT.md",
+  "release": "AIXEM-SRP-0.5.4-2026-08-11",
+  "schema": "https://schemas.aixem.org/validation/plan-implementation-matrix/1",
+  "status": "PASS",
+  "unsupportedClaims": [
+    "schematic editing",
+    "authoritative write-back",
+    "vendor editor emulation"
+  ],
+  "valid": true
+}

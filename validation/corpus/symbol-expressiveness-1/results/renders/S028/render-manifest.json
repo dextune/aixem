@@ -1,0 +1,57 @@
+{
+  "artifacts": [
+    {
+      "bytes": 8993,
+      "digest": "sha256:05b296e55fe8ef37516be1549d66dfb883cbf3d5350776a1b968f7d123217582",
+      "mediaType": "image/svg+xml",
+      "path": "drawing.svg",
+      "role": "drawing-svg"
+    },
+    {
+      "bytes": 3291,
+      "digest": "sha256:5b283e56e31be0c567469aab387b51f30ce20959ea21ba7c267485942b0bb896",
+      "mediaType": "application/json",
+      "path": "resolved-scene.json",
+      "role": "resolved-scene"
+    },
+    {
+      "bytes": 7974,
+      "digest": "sha256:21f606908f174ddac798236895b8a85fd8d6198c4d8ce08792c7d17dafe69fe4",
+      "mediaType": "application/json",
+      "path": "viewer-model.json",
+      "role": "viewer-model"
+    },
+    {
+      "bytes": 45084,
+      "digest": "sha256:f4d84cbf48bfc230248e268736ab7055683301a72536fff8e677d3a69392d188",
+      "mediaType": "text/html",
+      "path": "viewer.html",
+      "role": "standalone-viewer"
+    },
+    {
+      "bytes": 46617,
+      "digest": "sha256:186ed16e2e6788510ceb8e542cb2e13bc4f9fe4acf8b9bcbe1f124dc19e5260d",
+      "mediaType": "text/html",
+      "path": "workbench.html",
+      "role": "engineering-workbench"
+    }
+  ],
+  "generatedAt": "2026-08-10T12:00:00Z",
+  "project": {
+    "id": "conformance:s028",
+    "layoutDigest": "sha256:403929dbeba1b010c60cb6bf7132804a0fd2465b028f49127c536a6903c7c37a",
+    "manifestDigest": "sha256:3f8660870543285678855190d28d94a01f0750d96327f9f4d1d268d3731ce572",
+    "sourceDigest": "sha256:fadfbd708fd3a3fac167517188d87e2ec3a123821138fc5ac658cd976e21a317"
+  },
+  "release": "AIXEM-SRP-0.5.5-2026-08-11",
+  "renderer": {
+    "id": "aixem-grid-schematic-reference-renderer",
+    "version": "0.5.1"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/render-manifest/1",
+  "status": "pass",
+  "styleProfile": {
+    "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+    "id": "aixem.schematic.grid-light"
+  }
+}

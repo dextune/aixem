@@ -1,0 +1,123 @@
+{
+  "card": {
+    "aliases": [
+      "document governance contract",
+      "repository documentation policy",
+      "documentation information architecture contract"
+    ],
+    "appliesTo": [
+      "repository-document-governance",
+      "documentation-information-architecture"
+    ],
+    "domain": "specifications",
+    "estimatedReadBytes": 24972,
+    "id": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+    "inputs": [],
+    "keywords": [
+      "Repository Document Governance Contract 1",
+      "build-documentation",
+      "document governance contract",
+      "documentation information architecture contract",
+      "publish-release",
+      "repository documentation policy"
+    ],
+    "kind": "contract",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/specifications/documentation/document-governance-contract.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:793b036854ad8bdaf64523b88fba7d4729b40dfe2deb65ea9ea6b9041112e581"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SPEC-DOCUMENT-001",
+      "AIXEM-SPEC-METADATA-001",
+      "AIXEM-SPEC-RELEASE-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-DOC-GOV-0001",
+        "level": "must",
+        "text": "**MUST.** Every authored Markdown file MUST resolve to exactly one declared repository document role."
+      },
+      {
+        "id": "AIXEM-REQ-DOC-GOV-0002",
+        "level": "must",
+        "text": "**MUST.** Root Markdown and reserved special filenames MUST be limited to the explicit policy allowlists."
+      },
+      {
+        "id": "AIXEM-REQ-DOC-GOV-0003",
+        "level": "must",
+        "text": "**MUST.** Every human-authored document MUST be discoverable through the official mechanism declared for its role."
+      },
+      {
+        "id": "AIXEM-REQ-DOC-GOV-0004",
+        "level": "must",
+        "text": "**MUST.** Canonical documents MUST end at the canonical footer and MUST NOT contain release patch append markers."
+      },
+      {
+        "id": "AIXEM-REQ-DOC-GOV-0005",
+        "level": "must",
+        "text": "**MUST.** A canonical path migration MUST preserve document identity and produce a validated prior-path redirect."
+      },
+      {
+        "id": "AIXEM-REQ-DOC-GOV-0006",
+        "level": "must",
+        "text": "**MUST.** Canonical domain and kind values MUST use the controlled metadata vocabulary and size estimates MUST be machine checked."
+      },
+      {
+        "id": "AIXEM-REQ-DOC-GOV-0007",
+        "level": "must",
+        "text": "**MUST.** Identical authored inputs MUST produce a byte-identical repository document inventory and path migration index."
+      },
+      {
+        "id": "AIXEM-REQ-DOC-GOV-0008",
+        "level": "must",
+        "text": "**MUST.** Implementation plans and human validation reports MUST be version scoped and registered by their lifecycle owner."
+      },
+      {
+        "id": "AIXEM-REQ-DOC-GOV-0009",
+        "level": "must",
+        "text": "**MUST.** Repository agent instructions MUST require role, owner, discovery, lifecycle, naming, and validation decisions before creating a document."
+      },
+      {
+        "id": "AIXEM-REQ-DOC-GOV-0010",
+        "level": "must",
+        "text": "**MUST.** A Markdown path that matches no declared role MUST fail repository documentation validation."
+      },
+      {
+        "id": "AIXEM-REQ-DOC-GOV-0011",
+        "level": "must",
+        "text": "**MUST.** Every approved root Markdown link MUST resolve safely, the root reference map MUST link every policy-required repository area and build control, and every human-authored Markdown document MUST be reachable from the primary root entrypoint."
+      },
+      {
+        "id": "AIXEM-REQ-DOC-GOV-0012",
+        "level": "must",
+        "text": "**MUST.** Every canonical category index MUST link every document registered in its navigation section."
+      },
+      {
+        "id": "AIXEM-REQ-DOC-GOV-0013",
+        "level": "must",
+        "text": "**MUST.** Operational root entrypoints, current release navigation, planning, validation, route paths, and release metadata MUST agree with VERSION."
+      },
+      {
+        "id": "AIXEM-REQ-DOC-GOV-0014",
+        "level": "must",
+        "text": "**MUST.** A normative authority scope MUST have exactly one owner unless the repository document policy explicitly declares that scope shareable."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "path": "docs/specifications/documentation/document-governance-contract.md"
+      }
+    ],
+    "summary": "Defines repository-wide roles, naming, lifecycle, discoverability, migration, and validation rules for every authored Markdown document.",
+    "title": "Repository Document Governance Contract 1"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

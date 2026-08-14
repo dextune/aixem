@@ -1,0 +1,79 @@
+{
+  "category": "electromechanical",
+  "componentPorts": [
+    {
+      "id": "COM",
+      "name": "COM",
+      "required": true,
+      "type": "passive"
+    },
+    {
+      "id": "T1",
+      "name": "T1",
+      "required": true,
+      "type": "passive"
+    },
+    {
+      "id": "T2",
+      "name": "T2",
+      "required": true,
+      "type": "passive"
+    },
+    {
+      "id": "T3",
+      "name": "T3",
+      "required": true,
+      "type": "passive"
+    },
+    {
+      "id": "T4",
+      "name": "T4",
+      "required": true,
+      "type": "passive"
+    }
+  ],
+  "expectedBoundsClass": "compact",
+  "expectedFieldRoles": [
+    "reference-field",
+    "value-field"
+  ],
+  "expectedGridPolicy": "ports-on-2.5mm",
+  "expectedParameterIds": [],
+  "expectedPortCount": 5,
+  "expectedPrimitiveFamilies": [
+    "arc",
+    "circle",
+    "line",
+    "text"
+  ],
+  "expectedVariantIds": [],
+  "expectedVisiblePortCount": 5,
+  "formatVersion": "1.0",
+  "id": "S016",
+  "knownExclusions": [],
+  "manualReviewChecks": [
+    "silhouette-recognizable",
+    "ports-attached-to-expected-leads",
+    "pin-number-name-separation",
+    "reference-value-clear-of-body",
+    "polarity-arrow-inversion-state-unambiguous",
+    "repeated-geometry-evenly-spaced",
+    "normal-scale-readable",
+    "no-false-connectivity-detail",
+    "variant-endpoint-identity-preserved",
+    "path-has-no-fill-or-self-intersection-artifact"
+  ],
+  "optionalCapabilities": [],
+  "purpose": "Arc and radial contact arrangement with one common and four throws",
+  "requiredCapabilities": [
+    "geometry.arc",
+    "geometry.circle",
+    "geometry.line",
+    "port.mapping",
+    "text.field"
+  ],
+  "schema": "https://schemas.aixem.org/conformance/corpus-case/1",
+  "symbolPath": "symbol.aixsym.json",
+  "tier": "core",
+  "title": "1P4T rotary switch"
+}

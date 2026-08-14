@@ -1,0 +1,48 @@
+{
+  "examples": [
+    {
+      "id": "01-two-pin-passive",
+      "project": "examples/authoring/01-two-pin-passive/project.aixproj.json",
+      "readme": "examples/authoring/01-two-pin-passive/README.md"
+    },
+    {
+      "id": "02-connector",
+      "project": "examples/authoring/02-connector/project.aixproj.json",
+      "readme": "examples/authoring/02-connector/README.md"
+    },
+    {
+      "id": "03-multi-pin-ic",
+      "project": "examples/authoring/03-multi-pin-ic/project.aixproj.json",
+      "readme": "examples/authoring/03-multi-pin-ic/README.md"
+    },
+    {
+      "id": "04-parameterized-variant",
+      "project": "examples/authoring/04-parameterized-variant/project.aixproj.json",
+      "readme": "examples/authoring/04-parameterized-variant/README.md"
+    },
+    {
+      "id": "05-field-and-port-binding",
+      "project": "examples/authoring/05-field-and-port-binding/project.aixproj.json",
+      "readme": "examples/authoring/05-field-and-port-binding/README.md"
+    },
+    {
+      "id": "06-two-terminal-route",
+      "project": "examples/authoring/06-two-terminal-route/project.aixproj.json",
+      "readme": "examples/authoring/06-two-terminal-route/README.md"
+    },
+    {
+      "id": "07-multi-terminal-junction",
+      "project": "examples/authoring/07-multi-terminal-junction/project.aixproj.json",
+      "readme": "examples/authoring/07-multi-terminal-junction/README.md"
+    },
+    {
+      "id": "08-visual-repair",
+      "project": "examples/authoring/08-visual-repair/project.aixproj.json",
+      "readme": "examples/authoring/08-visual-repair/README.md"
+    }
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "schema": "https://schemas.aixem.org/examples/authoring-index/1"
+}

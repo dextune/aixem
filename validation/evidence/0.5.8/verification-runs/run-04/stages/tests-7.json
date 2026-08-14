@@ -1,0 +1,104 @@
+{
+  "command": {
+    "command": [
+      "/opt/pyvenv/bin/python",
+      "tools/run_tests_058.py",
+      "--shard-count",
+      "8",
+      "--shard-index",
+      "7",
+      "--output",
+      "/mnt/data/aixem058-cycle-04-test-shard-7.json"
+    ],
+    "durationSeconds": 19.113189,
+    "label": "cycle 4 repository tests shard 7",
+    "returnCode": 0,
+    "status": "PASS",
+    "stderrTail": "",
+    "stdoutTail": "[tests] START tests.agent.test_live_executor\n[tests] PASS tests.agent.test_live_executor (6 tests, 8.93974s)\n[tests] START tests.conformance.test_reference_viewer\n[tests] PASS tests.conformance.test_reference_viewer (12 tests, 6.227075s)\n[tests] START tests.docs.test_hierarchical_authoring_routes\n[tests] PASS tests.docs.test_hierarchical_authoring_routes (5 tests, 3.398847s)\n{\"failedModules\": 0, \"modules\": 3, \"successful\": true, \"testsRun\": 23}\n",
+    "valid": true
+  },
+  "cycle": 4,
+  "externalResult": "/mnt/data/aixem058-cycle-04-test-shard-7.json",
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "release": "AIXEM-SRP-0.5.8-2026-08-12",
+  "schema": "https://schemas.aixem.org/validation/pre-live-readiness-verification-stage/1",
+  "stage": "tests-7",
+  "status": "PASS",
+  "tests": {
+    "durationSeconds": 18.565973,
+    "errors": [],
+    "executionMode": "isolated-test-module-processes",
+    "failedModules": 0,
+    "failures": [],
+    "formatVersion": "1.0",
+    "generatedAt": "2026-08-12T00:00:00Z",
+    "moduleCount": 3,
+    "modules": [
+      {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "-m",
+          "unittest",
+          "-v",
+          "tests.agent.test_live_executor"
+        ],
+        "durationSeconds": 8.93974,
+        "module": "tests.agent.test_live_executor",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "test_descriptor_rejects_serialized_credentials (tests.agent.test_live_executor.LiveExecutorProtocolTests.test_descriptor_rejects_serialized_credentials) ... ok\ntest_inherited_secret_value_is_redacted_without_serializing_it (tests.agent.test_live_executor.LiveExecutorProtocolTests.test_inherited_secret_value_is_redacted_without_serializing_it) ... ok\ntest_missing_executable_is_retained_as_executor_error (tests.agent.test_live_executor.LiveExecutorProtocolTests.test_missing_executable_is_retained_as_executor_error) ... ok\ntest_non_ai_protocol_fixture_proves_execution_but_never_a_live_ai_claim (tests.agent.test_live_executor.LiveExecutorProtocolTests.test_non_ai_protocol_fixture_proves_execution_but_never_a_live_ai_claim) ... ok\ntest_observation_limit_is_enforced (tests.agent.test_live_executor.LiveExecutorProtocolTests.test_observation_limit_is_enforced) ... ok\ntest_wall_time_and_output_limits_fail_closed (tests.agent.test_live_executor.LiveExecutorProtocolTests.test_wall_time_and_output_limits_fail_closed) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 7.580s\n\nOK\n",
+        "stdoutTail": "",
+        "testsRun": 6,
+        "valid": true
+      },
+      {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "-m",
+          "unittest",
+          "-v",
+          "tests.conformance.test_reference_viewer"
+        ],
+        "durationSeconds": 6.227075,
+        "module": "tests.conformance.test_reference_viewer",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "test_v001_single_sheet_reference_viewer (tests.conformance.test_reference_viewer.ReferenceViewerConformanceTests.test_v001_single_sheet_reference_viewer) ... ok\ntest_v002_v003_multisheet_modes_and_hierarchy_navigation (tests.conformance.test_reference_viewer.ReferenceViewerConformanceTests.test_v002_v003_multisheet_modes_and_hierarchy_navigation) ... ok\ntest_v004_same_name_local_net_isolation (tests.conformance.test_reference_viewer.ReferenceViewerConformanceTests.test_v004_same_name_local_net_isolation) ... ok\ntest_v005_v006_project_net_and_interface_selection (tests.conformance.test_reference_viewer.ReferenceViewerConformanceTests.test_v005_v006_project_net_and_interface_selection) ... ok\ntest_v007_sheet_scoped_layer_visibility (tests.conformance.test_reference_viewer.ReferenceViewerConformanceTests.test_v007_sheet_scoped_layer_visibility) ... ok\ntest_v008_cross_view_selection_continuity (tests.conformance.test_reference_viewer.ReferenceViewerConformanceTests.test_v008_cross_view_selection_continuity) ... ok\ntest_v009_component_search_opens_owning_sheet (tests.conformance.test_reference_viewer.ReferenceViewerConformanceTests.test_v009_component_search_opens_owning_sheet) ... ok\ntest_v010_pan_zoom_fit_per_view_state (tests.conformance.test_reference_viewer.ReferenceViewerConformanceTests.test_v010_pan_zoom_fit_per_view_state) ... ok\ntest_v015_dom_identity_closure_and_unique_ids (tests.conformance.test_reference_viewer.ReferenceViewerConformanceTests.test_v015_dom_identity_closure_and_unique_ids) ... ok\ntest_v016_ten_sheet_scale_baseline (tests.conformance.test_reference_viewer.ReferenceViewerConformanceTests.test_v016_ten_sheet_scale_baseline) ... ok\ntest_v017_viewer_workbench_are_distinct_shared_profiles (tests.conformance.test_reference_viewer.ReferenceViewerConformanceTests.test_v017_viewer_workbench_are_distinct_shared_profiles) ... ok\ntest_v018_three_run_viewer_artifact_determinism (tests.conformance.test_reference_viewer.ReferenceViewerConformanceTests.test_v018_three_run_viewer_artifact_determinism) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 4.665s\n\nOK\n",
+        "stdoutTail": "",
+        "testsRun": 12,
+        "valid": true
+      },
+      {
+        "command": [
+          "/opt/pyvenv/bin/python",
+          "-m",
+          "unittest",
+          "-v",
+          "tests.docs.test_hierarchical_authoring_routes"
+        ],
+        "durationSeconds": 3.398847,
+        "module": "tests.docs.test_hierarchical_authoring_routes",
+        "returnCode": 0,
+        "status": "PASS",
+        "stderrTail": "test_compose_project_route_reads_authority_before_examples (tests.docs.test_hierarchical_authoring_routes.HierarchicalAuthoringRouteTests.test_compose_project_route_reads_authority_before_examples) ... ok\ntest_document_graph_has_no_hierarchical_linkage_gap (tests.docs.test_hierarchical_authoring_routes.HierarchicalAuthoringRouteTests.test_document_graph_has_no_hierarchical_linkage_gap) ... ok\ntest_hierarchical_routes_are_bounded_and_resolvable (tests.docs.test_hierarchical_authoring_routes.HierarchicalAuthoringRouteTests.test_hierarchical_routes_are_bounded_and_resolvable) ... ok\ntest_project_route_cannot_own_semantic_membership (tests.docs.test_hierarchical_authoring_routes.HierarchicalAuthoringRouteTests.test_project_route_cannot_own_semantic_membership) ... ok\ntest_three_pass_release_evidence (tests.docs.test_hierarchical_authoring_routes.HierarchicalAuthoringRouteTests.test_three_pass_release_evidence) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 1.951s\n\nOK\n",
+        "stdoutTail": "",
+        "testsRun": 5,
+        "valid": true
+      }
+    ],
+    "passedModules": 3,
+    "release": "AIXEM-SRP-0.5.8-2026-08-12",
+    "schema": "https://schemas.aixem.org/validation/test-run-shard/1",
+    "shard": {
+      "count": 8,
+      "index": 7,
+      "totalDiscoveredModules": 26
+    },
+    "skipped": [],
+    "successful": true,
+    "testsRun": 23
+  },
+  "valid": true
+}

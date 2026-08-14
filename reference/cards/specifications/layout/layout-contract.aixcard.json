@@ -1,0 +1,67 @@
+{
+  "card": {
+    "aliases": [
+      "layout contract",
+      "aixlayout contract",
+      "layout specification"
+    ],
+    "appliesTo": [
+      "layout-serialization-contract"
+    ],
+    "domain": "specifications",
+    "estimatedReadBytes": 5791,
+    "id": "AIXEM-SPEC-LAYOUT-001",
+    "inputs": [],
+    "keywords": [
+      "Explicit Layout Contract 1",
+      "aixlayout contract",
+      "create-schematic",
+      "layout contract",
+      "layout specification",
+      "route-nets",
+      "validate-project"
+    ],
+    "kind": "specification",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/specifications/layout/layout-contract.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:67ce5b85ff3630f13bcaf3a2e29f623fdfa16a6d1c523fdafb0ab9cea92e0f98"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-CONCEPT-LAYOUT-001",
+      "AIXEM-SPEC-COORD-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-LAYOUT-0010",
+        "level": "must",
+        "text": "**MUST.** Every explicit layout document MUST validate against its declared schema version."
+      },
+      {
+        "id": "AIXEM-REQ-LAYOUT-0011",
+        "level": "must",
+        "text": "**MUST.** Every placement and connection record MUST bind to an existing semantic entity or net."
+      },
+      {
+        "id": "AIXEM-REQ-LAYOUT-0012",
+        "level": "must",
+        "text": "**MUST.** Every rendered wire path MUST be reproducible from stored endpoint and via geometry."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SPEC-LAYOUT-001",
+        "path": "docs/specifications/layout/layout-contract.md"
+      }
+    ],
+    "summary": "Defines serialized placements, connections, paths, junctions, labels, annotations, and sheet geometry.",
+    "title": "Explicit Layout Contract 1"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

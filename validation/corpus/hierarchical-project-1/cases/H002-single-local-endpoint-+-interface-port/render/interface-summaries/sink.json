@@ -1,0 +1,15 @@
+{
+  "layoutDigest": "sha256:296dc07710072aca84a27de988b09382c39ebe39cf738cd00d3a62ecb04c446d",
+  "ports": [
+    {
+      "direction": "input",
+      "id": "IN",
+      "localNet": "in",
+      "projectNet": "signal",
+      "role": "signal"
+    }
+  ],
+  "sheet": "sink",
+  "sourceDigest": "sha256:39ec1052f0aaf41fb0ef28a2310ef30e19ad068d874eabca9d59cc8288c39877",
+  "title": "Sink"
+}

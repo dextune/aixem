@@ -1,0 +1,59 @@
+{
+  "card": {
+    "aliases": [
+      "routing cookbook",
+      "wire recipes",
+      "explicit junction examples"
+    ],
+    "appliesTo": [
+      "routing-recipes"
+    ],
+    "domain": "routing",
+    "estimatedReadBytes": 6317,
+    "id": "AIXEM-ROUTE-COOKBOOK-001",
+    "inputs": [],
+    "keywords": [
+      "Routing Cookbook",
+      "author-component-circuit",
+      "create-schematic",
+      "explicit junction examples",
+      "route-nets",
+      "route-project-nets",
+      "routing cookbook",
+      "wire recipes"
+    ],
+    "kind": "cookbook",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/routing/routing-cookbook.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:1e6af046668fc955bf129fc22726dbeeecbebe1857c72fecb750acf1f93075c5"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-ROUTE-NETS-001",
+      "AIXEM-ROUTE-CROSSING-001",
+      "AIXEM-FORMAT-AIXLAYOUT-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-ROUTE-COOKBOOK-001.read",
+        "level": "should",
+        "text": "Provides executable orthogonal routing patterns for two-terminal, multi-bend, multi-terminal, crossing, and junction cases."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-ROUTE-COOKBOOK-001",
+        "path": "docs/routing/routing-cookbook.md"
+      }
+    ],
+    "summary": "Provides executable orthogonal routing patterns for two-terminal, multi-bend, multi-terminal, crossing, and junction cases.",
+    "title": "Routing Cookbook"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

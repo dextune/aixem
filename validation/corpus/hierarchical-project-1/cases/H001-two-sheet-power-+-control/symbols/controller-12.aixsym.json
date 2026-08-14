@@ -1,0 +1,514 @@
+{
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/component-graphics/aixsym/1",
+  "symbol": {
+    "anchors": [
+      {
+        "id": "origin",
+        "kind": "insertion",
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "bounds": {
+      "height": 55,
+      "width": 50,
+      "x": -25,
+      "y": -27.5
+    },
+    "coordinateSystem": {
+      "angleDirection": "clockwise",
+      "angleUnit": "deg",
+      "grid": 2.5,
+      "unit": "mm",
+      "yAxis": "down"
+    },
+    "definitions": {},
+    "description": "Functional twelve-pin controller with grouped signal, power, and ground ports.",
+    "graphics": [
+      {
+        "height": 30,
+        "id": "body",
+        "layer": "body",
+        "role": "body",
+        "style": "body",
+        "type": "rect",
+        "width": 30,
+        "x": -15,
+        "y": -15
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "field": "reference",
+        "id": "field-reference",
+        "layer": "fields",
+        "role": "reference-field",
+        "style": "field",
+        "type": "text",
+        "x": 0,
+        "y": -20
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "field": "value",
+        "id": "field-value",
+        "layer": "fields",
+        "role": "value-field",
+        "style": "value",
+        "type": "text",
+        "x": 0,
+        "y": 20
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "id": "family",
+        "layer": "body",
+        "role": "body-label",
+        "style": "field",
+        "text": "CTRL",
+        "type": "text",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "id": "lead-1",
+        "layer": "body",
+        "metadata": {
+          "port": "1",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -20,
+        "x2": -15,
+        "y1": -7.5,
+        "y2": -7.5
+      },
+      {
+        "id": "lead-2",
+        "layer": "body",
+        "metadata": {
+          "port": "2",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -20,
+        "x2": -15,
+        "y1": -2.5,
+        "y2": -2.5
+      },
+      {
+        "id": "lead-3",
+        "layer": "body",
+        "metadata": {
+          "port": "3",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -20,
+        "x2": -15,
+        "y1": 2.5,
+        "y2": 2.5
+      },
+      {
+        "id": "lead-4",
+        "layer": "body",
+        "metadata": {
+          "port": "4",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -20,
+        "x2": -15,
+        "y1": 7.5,
+        "y2": 7.5
+      },
+      {
+        "id": "lead-5",
+        "layer": "body",
+        "metadata": {
+          "port": "5",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 15,
+        "x2": 20,
+        "y1": -7.5,
+        "y2": -7.5
+      },
+      {
+        "id": "lead-6",
+        "layer": "body",
+        "metadata": {
+          "port": "6",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 15,
+        "x2": 20,
+        "y1": -2.5,
+        "y2": -2.5
+      },
+      {
+        "id": "lead-7",
+        "layer": "body",
+        "metadata": {
+          "port": "7",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 15,
+        "x2": 20,
+        "y1": 2.5,
+        "y2": 2.5
+      },
+      {
+        "id": "lead-8",
+        "layer": "body",
+        "metadata": {
+          "port": "8",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 15,
+        "x2": 20,
+        "y1": 7.5,
+        "y2": 7.5
+      },
+      {
+        "id": "lead-9",
+        "layer": "body",
+        "metadata": {
+          "port": "9",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -5,
+        "x2": -5,
+        "y1": -20,
+        "y2": -15
+      },
+      {
+        "id": "lead-10",
+        "layer": "body",
+        "metadata": {
+          "port": "10",
+          "portEndpoint": "start"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 5,
+        "x2": 5,
+        "y1": -20,
+        "y2": -15
+      },
+      {
+        "id": "lead-11",
+        "layer": "body",
+        "metadata": {
+          "port": "11",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": -5,
+        "x2": -5,
+        "y1": 15,
+        "y2": 20
+      },
+      {
+        "id": "lead-12",
+        "layer": "body",
+        "metadata": {
+          "port": "12",
+          "portEndpoint": "end"
+        },
+        "role": "pin-lead",
+        "style": "line",
+        "type": "line",
+        "x1": 5,
+        "x2": 5,
+        "y1": 15,
+        "y2": 20
+      }
+    ],
+    "id": "authoring:controller-12",
+    "layers": [
+      {
+        "defaultVisible": true,
+        "id": "body",
+        "locked": true,
+        "order": 10,
+        "printable": true,
+        "purpose": "symbol body and pin leads"
+      },
+      {
+        "defaultVisible": true,
+        "id": "fields",
+        "locked": false,
+        "order": 20,
+        "printable": true,
+        "purpose": "bound text fields"
+      }
+    ],
+    "metadata": {
+      "pinPitch": 5,
+      "recipe": "multi-pin-ic"
+    },
+    "paintServers": {},
+    "parameters": {},
+    "ports": [
+      {
+        "id": "1",
+        "kind": "electrical",
+        "labelVisible": true,
+        "metadata": {
+          "semanticType": "input"
+        },
+        "name": "AIN0",
+        "number": "1",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -20,
+        "y": -7.5
+      },
+      {
+        "id": "2",
+        "kind": "electrical",
+        "labelVisible": true,
+        "metadata": {
+          "semanticType": "input"
+        },
+        "name": "AIN1",
+        "number": "2",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -20,
+        "y": -2.5
+      },
+      {
+        "id": "3",
+        "kind": "electrical",
+        "labelVisible": true,
+        "metadata": {
+          "semanticType": "bidirectional"
+        },
+        "name": "SCL",
+        "number": "3",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -20,
+        "y": 2.5
+      },
+      {
+        "id": "4",
+        "kind": "electrical",
+        "labelVisible": true,
+        "metadata": {
+          "semanticType": "bidirectional"
+        },
+        "name": "SDA",
+        "number": "4",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.25,
+        "x": -20,
+        "y": 7.5
+      },
+      {
+        "id": "5",
+        "kind": "electrical",
+        "labelVisible": true,
+        "metadata": {
+          "semanticType": "output"
+        },
+        "name": "PWM0",
+        "number": "5",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 20,
+        "y": -7.5
+      },
+      {
+        "id": "6",
+        "kind": "electrical",
+        "labelVisible": true,
+        "metadata": {
+          "semanticType": "output"
+        },
+        "name": "PWM1",
+        "number": "6",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 20,
+        "y": -2.5
+      },
+      {
+        "id": "7",
+        "kind": "electrical",
+        "labelVisible": true,
+        "metadata": {
+          "semanticType": "output"
+        },
+        "name": "TX",
+        "number": "7",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 20,
+        "y": 2.5
+      },
+      {
+        "id": "8",
+        "kind": "electrical",
+        "labelVisible": true,
+        "metadata": {
+          "semanticType": "input"
+        },
+        "name": "RX",
+        "number": "8",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.25,
+        "x": 20,
+        "y": 7.5
+      },
+      {
+        "id": "9",
+        "kind": "electrical",
+        "labelVisible": true,
+        "metadata": {
+          "semanticType": "power-input"
+        },
+        "name": "VDD",
+        "number": "9",
+        "numberVisible": true,
+        "orientation": 270,
+        "snapRadius": 1.25,
+        "x": -5,
+        "y": -20
+      },
+      {
+        "id": "10",
+        "kind": "electrical",
+        "labelVisible": true,
+        "metadata": {
+          "semanticType": "power-input"
+        },
+        "name": "AVDD",
+        "number": "10",
+        "numberVisible": true,
+        "orientation": 270,
+        "snapRadius": 1.25,
+        "x": 5,
+        "y": -20
+      },
+      {
+        "id": "11",
+        "kind": "electrical",
+        "labelVisible": true,
+        "metadata": {
+          "semanticType": "power-input"
+        },
+        "name": "GND",
+        "number": "11",
+        "numberVisible": true,
+        "orientation": 90,
+        "snapRadius": 1.25,
+        "x": -5,
+        "y": 20
+      },
+      {
+        "id": "12",
+        "kind": "electrical",
+        "labelVisible": true,
+        "metadata": {
+          "semanticType": "power-input"
+        },
+        "name": "AGND",
+        "number": "12",
+        "numberVisible": true,
+        "orientation": 90,
+        "snapRadius": 1.25,
+        "x": 5,
+        "y": 20
+      }
+    ],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-11",
+      "license": "CC0-1.0",
+      "notes": "Functional twelve-pin controller with grouped signal, power, and ground ports.",
+      "origin": "AIXEM 0.5.1 authoring documentation"
+    },
+    "purpose": "schematic-symbol",
+    "requiredFeatures": [],
+    "revision": "1.0.0",
+    "styles": {
+      "body": {
+        "fill": "#fffef8",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.65
+      },
+      "detail": {
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.5
+      },
+      "field": {
+        "fill": "#17231d",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.5,
+        "fontWeight": 600,
+        "stroke": "none"
+      },
+      "line": {
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.65
+      },
+      "value": {
+        "fill": "#4f5e56",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.0,
+        "fontWeight": 400,
+        "stroke": "none"
+      }
+    },
+    "title": "Twelve-pin controller",
+    "variants": []
+  }
+}

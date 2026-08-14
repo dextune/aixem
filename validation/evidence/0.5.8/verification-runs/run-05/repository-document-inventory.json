@@ -1,0 +1,4947 @@
+{
+  "documents": [
+    {
+      "bytes": 12279,
+      "canonicalDocumentId": null,
+      "digest": "sha256:07253986d1b9d69efbc6c0ad6575bedc113e8711bf37ac37c0513f200ada056e",
+      "discoverabilityOwner": "repository-root-whitelist",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "README.md"
+      ],
+      "lifecycle": "permanent",
+      "machineRefs": [
+        "docs/_meta/repository-document-policy.yaml",
+        "implementation/agent/cold_start_stage.py",
+        "tests/docs/test_authoring_routes.py",
+        "tests/docs/test_document_governance.py",
+        "tests/docs/test_hierarchical_authoring_routes.py",
+        "tests/docs/test_repository.py",
+        "tools/build_agent_evals_3.py",
+        "tools/docs/aixem_docs.py",
+        "tools/docs/build_051_baseline_inventory.py",
+        "tools/docs/release_052.py",
+        "tools/docs/release_pipeline.py",
+        "tools/verify_release_053.py",
+        "tools/verify_release_054.py",
+        "tools/verify_release_055.py",
+        "tools/verify_release_056.py",
+        "tools/verify_release_057.py",
+        "tools/verify_release_058.py"
+      ],
+      "path": "AGENTS.md",
+      "release": null,
+      "role": "root-entrypoint",
+      "sourceOwner": "repository-root-whitelist",
+      "status": "active"
+    },
+    {
+      "bytes": 8672,
+      "canonicalDocumentId": null,
+      "digest": "sha256:6258fc1cad95eb1b7d9de93e1d9dd4e840abd45b40a61e750a8a6622ab1d3517",
+      "discoverabilityOwner": "repository-root-whitelist",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "permanent",
+      "machineRefs": [
+        "docs/_meta/repository-document-policy.yaml",
+        "tests/docs/test_document_governance.py",
+        "tools/verify_release_057.py",
+        "tools/verify_release_058.py"
+      ],
+      "path": "CHANGELOG.md",
+      "release": null,
+      "role": "root-entrypoint",
+      "sourceOwner": "repository-root-whitelist",
+      "status": "active"
+    },
+    {
+      "bytes": 2240,
+      "canonicalDocumentId": null,
+      "digest": "sha256:9f3ec3ec9082ec004bbd2bb2aa1825d5721b8aeea43379b47d2318230783845c",
+      "discoverabilityOwner": "repository-root-whitelist",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "permanent",
+      "machineRefs": [
+        "docs/_meta/repository-document-policy.yaml",
+        "tests/docs/test_document_governance.py",
+        "tools/verify_release_057.py",
+        "tools/verify_release_058.py"
+      ],
+      "path": "CONTRIBUTING.md",
+      "release": null,
+      "role": "root-entrypoint",
+      "sourceOwner": "repository-root-whitelist",
+      "status": "active"
+    },
+    {
+      "bytes": 505,
+      "canonicalDocumentId": null,
+      "digest": "sha256:4edd0b010499d7e42cadcc9368a47bb81d608df3b0463b656e50548f8c940354",
+      "discoverabilityOwner": "repository-root-whitelist",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "permanent",
+      "machineRefs": [
+        "docs/_meta/repository-document-policy.yaml",
+        "tests/docs/test_document_governance.py",
+        "tools/verify_release_057.py",
+        "tools/verify_release_058.py"
+      ],
+      "path": "NOTICE.md",
+      "release": null,
+      "role": "root-entrypoint",
+      "sourceOwner": "repository-root-whitelist",
+      "status": "active"
+    },
+    {
+      "bytes": 4744,
+      "canonicalDocumentId": null,
+      "digest": "sha256:e67aab85d3e5720b70efc961cdcb456bfa30a949ccb6139f8a0fd4c8454bf9eb",
+      "discoverabilityOwner": "repository-root-whitelist",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "permanent",
+      "machineRefs": [
+        "docs/_meta/repository-document-policy.yaml",
+        "tests/docs/test_document_governance.py",
+        "tools/build_agent_evals_3.py",
+        "tools/build_hierarchical_corpus.py",
+        "tools/docs/aixem_docs.py",
+        "tools/docs/build_authoring_examples.py",
+        "tools/docs/build_migration.py",
+        "tools/docs/release_052.py",
+        "tools/verify_release_053.py",
+        "tools/verify_release_054.py",
+        "tools/verify_release_055.py",
+        "tools/verify_release_056.py",
+        "tools/verify_release_057.py",
+        "tools/verify_release_058.py"
+      ],
+      "path": "README.md",
+      "release": null,
+      "role": "root-entrypoint",
+      "sourceOwner": "repository-root-whitelist",
+      "status": "active"
+    },
+    {
+      "bytes": 1583,
+      "canonicalDocumentId": null,
+      "digest": "sha256:698c61b8634f3acbdb6af7b4369daf01f8bbe40fbeeb7312adf3ee957b01b30f",
+      "discoverabilityOwner": "repository-root-whitelist",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "permanent",
+      "machineRefs": [
+        "docs/_meta/repository-document-policy.yaml",
+        "tests/docs/test_document_governance.py",
+        "tools/verify_release_057.py",
+        "tools/verify_release_058.py"
+      ],
+      "path": "SECURITY.md",
+      "release": null,
+      "role": "root-entrypoint",
+      "sourceOwner": "repository-root-whitelist",
+      "status": "active"
+    },
+    {
+      "bytes": 1973,
+      "canonicalDocumentId": null,
+      "digest": "sha256:b188f0cf17f145dddea0bda60f7ce82247fd2d92f601205a6baceb48bd0d7cc9",
+      "discoverabilityOwner": "repository-root-whitelist",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "README.md"
+      ],
+      "lifecycle": "permanent",
+      "machineRefs": [
+        "docs/_meta/repository-document-policy.yaml",
+        "implementation/agent/cold_start_stage.py",
+        "tests/docs/test_document_governance.py",
+        "tools/docs/build_migration.py",
+        "tools/verify_release_057.py",
+        "tools/verify_release_058.py"
+      ],
+      "path": "START_HERE.md",
+      "release": null,
+      "role": "root-entrypoint",
+      "sourceOwner": "repository-root-whitelist",
+      "status": "active"
+    },
+    {
+      "bytes": 5137,
+      "canonicalDocumentId": "AIXEM-AGENT-ARCH-001",
+      "digest": "sha256:6e20fc583f87b48e525ffb6bbd2651ebdb0f8d7470dc88d04c02543c76c8464f",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/agent/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/docs/build_migration.py"
+      ],
+      "path": "docs/agent/architecture.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 9676,
+      "canonicalDocumentId": "AIXEM-AGENT-AUTHORING-001",
+      "digest": "sha256:8c0f7cbaa1902b2a83020da0523db9492f5f2103f6f4dd4da9c7a97d635ce1a3",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/releases/0.5.1.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/agent/authoring-orchestration.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 7039,
+      "canonicalDocumentId": "AIXEM-AGENT-FAILURE-001",
+      "digest": "sha256:304f5218c633575a26f7a44f92484a99ee9c9d8438401b1f1c71257a422f6072",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/specifications/core/authority-precedence.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/agent/failure-policy.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 3862,
+      "canonicalDocumentId": "AIXEM-AGENT-INDEX-001",
+      "digest": "sha256:140269c0940584f36db41efc80c9b32c0e3d2402a525b1c4d0a6fbb648ef8bd8",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/agent/index.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 5966,
+      "canonicalDocumentId": "AIXEM-AGENT-LIVE-COLD-START-001",
+      "digest": "sha256:77c6ab4b195e681c40f436077d574a799b44551718f1ad8a38120a344bec6558",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/agent/live-agent-cold-start-authoring.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 3487,
+      "canonicalDocumentId": "AIXEM-AGENT-RETRIEVAL-001",
+      "digest": "sha256:35f1959817ad7ecb7f8c985b3f061db97950acd212f355cc90c2ad1c19f1228e",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/agent/index.md",
+        "docs/agent/task-routing.md",
+        "docs/architecture/cache.md",
+        "docs/getting-started/quick-start.md",
+        "docs/specifications/agent/retrieval-profile.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/docs/build_migration.py"
+      ],
+      "path": "docs/agent/retrieval.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 3857,
+      "canonicalDocumentId": "AIXEM-AGENT-ROUTING-001",
+      "digest": "sha256:9a39ec9dddf39800a2572e58c9039544e1fce45bbb9426fcf4a1cf8eef57f59a",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/routing/router-behavior.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/agent/routing-agent.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 3637,
+      "canonicalDocumentId": "AIXEM-AGENT-SCHEMATIC-001",
+      "digest": "sha256:768e12ca13d7af090964a734aa1841c02137704ac3eeaf8a24a53129ae65af77",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/getting-started/first-schematic.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/agent/schematic-authoring.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 3402,
+      "canonicalDocumentId": "AIXEM-AGENT-SYMBOL-001",
+      "digest": "sha256:356274b74a256aa6229554fb5f530e03a574ae06a6ea1907e25cc482673302a9",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/symbols/authoring-guide.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/agent/symbol-generation.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 6658,
+      "canonicalDocumentId": "AIXEM-AGENT-ROUTES-001",
+      "digest": "sha256:d4c5746c955989eb322a6aaddcd153ebe23b33937af2baa8ec09b916fc0684cd",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/agent/retrieval.md",
+        "docs/architecture/adr/0002-route-first-retrieval.md",
+        "docs/index.md",
+        "docs/specifications/agent/retrieval-profile.md",
+        "docs/specifications/documentation/metadata-contract.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/docs/build_migration.py"
+      ],
+      "path": "docs/agent/task-routing.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 6690,
+      "canonicalDocumentId": "AIXEM-AGENT-VALIDATION-001",
+      "digest": "sha256:2001120b7326c7089e32a5351aedee1069bb42ae3c10a09ed69dbfc18bda1718",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/agent/architecture.md",
+        "docs/agent/index.md",
+        "docs/agent/routing-agent.md",
+        "docs/agent/schematic-authoring.md",
+        "docs/agent/symbol-generation.md",
+        "docs/conformance/validation.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/docs/build_migration.py"
+      ],
+      "path": "docs/agent/validation-loop.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 6363,
+      "canonicalDocumentId": "AIXEM-AGENT-VISUAL-QA-001",
+      "digest": "sha256:7aa4bd2309ac7aa9c4da199bde6c75f8cb30240dcb6102e7a332c7f14266c04e",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/authoring/index.md",
+        "docs/symbols/symbol-authoring-cookbook.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/agent/visual-qa-loop.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 3764,
+      "canonicalDocumentId": "AIXEM-ARCH-ADR-0001",
+      "digest": "sha256:05554de68216052da0caa0c814d655ec9c5a4f9936434dcd77abd18591d6236b",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/architecture/adr/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/docs/build_migration.py"
+      ],
+      "path": "docs/architecture/adr/0001-canonical-doc-root.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 3636,
+      "canonicalDocumentId": "AIXEM-ARCH-ADR-0002",
+      "digest": "sha256:23caeb19aeadd51bafdc511c2e8c87f32e44b8733560e35b9866d6e93c3396fb",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/agent/task-routing.md",
+        "docs/architecture/adr/index.md",
+        "docs/specifications/agent/retrieval-profile.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/docs/build_migration.py"
+      ],
+      "path": "docs/architecture/adr/0002-route-first-retrieval.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 4800,
+      "canonicalDocumentId": "AIXEM-ARCH-ADR-0003",
+      "digest": "sha256:62e312ad7a78bc6557752c32598b3789d09460e1f9ffc82a9121ddb9426059d1",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/architecture/adr/index.md",
+        "docs/schematic/visual-language.md",
+        "docs/specifications/schematic/visual-profile.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/docs/build_migration.py"
+      ],
+      "path": "docs/architecture/adr/0003-vendor-neutral-ui.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 3323,
+      "canonicalDocumentId": "AIXEM-ARCH-ADR-0004",
+      "digest": "sha256:0c3a1182530c2655d8e0eb8c62649a7a8ea3512c724331d61ea0a75d76c5f331",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/architecture/adr/0004-symbol-style-and-renderer-precedence.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 3542,
+      "canonicalDocumentId": "AIXEM-ARCH-ADR-INDEX-001",
+      "digest": "sha256:16656cab13192f649e79aea65ca9f684c9a74744b7d2a9f8c01f18275e72940f",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/architecture/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/architecture/adr/index.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 5057,
+      "canonicalDocumentId": "AIXEM-ARCH-ARTIFACT-001",
+      "digest": "sha256:e85ba2e5da13ec150687a53dbd6859bcd98df893061b06ca70b56235d3ece7f5",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/architecture/adr/0001-canonical-doc-root.md",
+        "docs/architecture/system-overview.md",
+        "docs/specifications/core/authority-precedence.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/docs/build_migration.py"
+      ],
+      "path": "docs/architecture/artifact-store.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 4999,
+      "canonicalDocumentId": "AIXEM-ARCH-CACHE-001",
+      "digest": "sha256:96458ca22efe86256225c70aa41bbafe6686621a39ad54976eacc9d9632febc9",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/agent/retrieval.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/docs/build_migration.py"
+      ],
+      "path": "docs/architecture/cache.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 3684,
+      "canonicalDocumentId": "AIXEM-ARCH-INDEX-001",
+      "digest": "sha256:c7c3dcb497ac9d2d729109a52ebad6013d9945b02b771cf6ed8f79953bf6d58e",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/architecture/index.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 5037,
+      "canonicalDocumentId": "AIXEM-ARCH-PIPELINE-001",
+      "digest": "sha256:5dbb54b0557b8bf16daae50c40194b9209ab5c733fa9a4aad1124a85a406c6a0",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/architecture/cache.md",
+        "docs/architecture/index.md",
+        "docs/architecture/system-overview.md",
+        "docs/concepts/authority-model.md",
+        "docs/conformance/release-gates.md",
+        "docs/governance/release-process.md",
+        "docs/routing/router-behavior.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/docs/build_migration.py"
+      ],
+      "path": "docs/architecture/pipeline.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 5851,
+      "canonicalDocumentId": "AIXEM-ARCH-SECURITY-001",
+      "digest": "sha256:cd10c73a993fca9395cbb814c077a3096229a041363ab193923066c579f93a55",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "SECURITY.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/architecture/security.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 5180,
+      "canonicalDocumentId": "AIXEM-ARCH-SYSTEM-001",
+      "digest": "sha256:90b30e5400988652cb9b1ef599e0f343a85890d45a7b8eeebbe6ad095a5ea249",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/agent/architecture.md",
+        "docs/architecture/index.md",
+        "docs/architecture/pipeline.md",
+        "docs/getting-started/introduction.md",
+        "docs/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/docs/build_migration.py"
+      ],
+      "path": "docs/architecture/system-overview.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 2523,
+      "canonicalDocumentId": "AIXEM-AUTHORING-INDEX-001",
+      "digest": "sha256:92e6e5134724fede0736404b2846cf8ae95f361ed86633e94a18cce64fe05695",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/authoring/index.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 6700,
+      "canonicalDocumentId": "AIXEM-CONCEPT-AUTHORITY-001",
+      "digest": "sha256:8a9b38332ee61c7556736d1600452d1d49ccab7049eb5a76c51e5153aa20a88b",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/agent/architecture.md",
+        "docs/agent/schematic-authoring.md",
+        "docs/architecture/system-overview.md",
+        "docs/concepts/index.md",
+        "docs/getting-started/first-schematic.md",
+        "docs/getting-started/introduction.md",
+        "docs/specifications/core/authority-precedence.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/docs/build_migration.py"
+      ],
+      "path": "docs/concepts/authority-model.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 5558,
+      "canonicalDocumentId": "AIXEM-CONCEPT-COMPONENT-001",
+      "digest": "sha256:f924bd611764d2730c24ab1ec7c91a3bdef1723db3a7c70df75dc0b6a73762de",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/concepts/symbol-model.md",
+        "docs/file-formats/aixlib.md",
+        "docs/symbols/pins-and-ports.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/concepts/component-model.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 7454,
+      "canonicalDocumentId": "AIXEM-CONCEPT-DETERMINISM-001",
+      "digest": "sha256:bab0e3f3532af045b6737bb2afdeacdd273dfc2b07ab13785ca6d0c7fbe46b2f",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/architecture/cache.md",
+        "docs/architecture/pipeline.md",
+        "docs/concepts/index.md",
+        "docs/file-formats/aixproj.md",
+        "docs/specifications/documentation/release-integrity.md",
+        "docs/specifications/project/project-lock-contract.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/docs/build_migration.py"
+      ],
+      "path": "docs/concepts/deterministic-builds.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 3685,
+      "canonicalDocumentId": "AIXEM-CONCEPT-INDEX-001",
+      "digest": "sha256:8824a72d57a3dc5caefaf2ee486e40d717c11600589671de8fdede73f778e404",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/governance/terminology.md",
+        "docs/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/concepts/index.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 5185,
+      "canonicalDocumentId": "AIXEM-CONCEPT-LAYOUT-001",
+      "digest": "sha256:498db8a50b0126c5b6a90f5371b0f4351318beb73f8096b581d05b8f60678bae",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/routing/net-routing.md",
+        "docs/schematic/placement.md",
+        "docs/specifications/layout/layout-contract.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/concepts/layout-model.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 5145,
+      "canonicalDocumentId": "AIXEM-CONCEPT-NET-001",
+      "digest": "sha256:15f0ed7e2441883cb3509959c8eb9ce73c0a1f277d3e382e0af89730c672b6eb",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/concepts/project-net-model.md",
+        "docs/concepts/semantic-model.md",
+        "docs/examples/hierarchical-reference.md",
+        "docs/routing/net-routing.md",
+        "docs/schematic/junctions.md",
+        "docs/specifications/core/interface-port-contract.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/concepts/net-model.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 4053,
+      "canonicalDocumentId": "AIXEM-CONCEPT-PROJECT-NET-001",
+      "digest": "sha256:41c1b8d26ea8a8f8be4f330a847c7ed07602a85d85dde0ad48016141116055e7",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/concepts/index.md",
+        "docs/concepts/net-model.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/concepts/project-net-model.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 6004,
+      "canonicalDocumentId": "AIXEM-CONCEPT-SEMANTIC-001",
+      "digest": "sha256:12a3ddceba4ee523973c8925384eb6f31ff6314872c90fdc8506cda9524bd610",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/concepts/component-model.md",
+        "docs/concepts/index.md",
+        "docs/concepts/layout-model.md",
+        "docs/concepts/net-model.md",
+        "docs/file-formats/aixem.md",
+        "docs/getting-started/quick-start.md",
+        "docs/specifications/core/interface-port-contract.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/docs/build_migration.py"
+      ],
+      "path": "docs/concepts/semantic-model.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 4734,
+      "canonicalDocumentId": "AIXEM-CONCEPT-SYMBOL-001",
+      "digest": "sha256:56224df6c73389718e020686a0daa8cb542c6b6e7e8521d28d8594107fa4a078",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/concepts/component-model.md",
+        "docs/schematic/annotations.md",
+        "docs/schematic/visual-language.md",
+        "docs/symbols/symbol-anatomy.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/concepts/symbol-model.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 5128,
+      "canonicalDocumentId": "AIXEM-CONF-AGENT-AUTHORING-001",
+      "digest": "sha256:7b83bcd496ae08a5130f9b4109f3aecbda242376a51264fbc9efd6429b95692b",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/conformance/agent-authoring.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 3430,
+      "canonicalDocumentId": "AIXEM-CONF-AGENT-DIAGNOSTICS-001",
+      "digest": "sha256:db6a6861ff7a9c54cc30ac78542208146b8adfeb5c045f3f23f84810fec42c49",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/conformance/agent-diagnostics.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 7833,
+      "canonicalDocumentId": "AIXEM-CONF-COMPAT-001",
+      "digest": "sha256:7883dc9e8eab029c263c59f7ff7fb4a7f86b8af22d3dff294f0979f12b276ccb",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/governance/compatibility-policy.md",
+        "docs/governance/deprecation.md",
+        "docs/releases/0.4.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "docs/_meta/path-migrations.yaml",
+        "tools/docs/build_migration.py",
+        "tools/docs/release_052.py"
+      ],
+      "path": "docs/conformance/compatibility-conformance.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 10424,
+      "canonicalDocumentId": "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
+      "digest": "sha256:a951754958a0d0f0a91838ba1f395e76f92ca78642b199563ec5631f19747723",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/conformance/index.md",
+        "docs/conformance/release-gates.md",
+        "docs/specifications/project/project-composition-contract.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/conformance/hierarchical-project.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 3779,
+      "canonicalDocumentId": "AIXEM-CONF-INDEX-001",
+      "digest": "sha256:a302e5b120b51e4d6a4fddcd3006ae0be1b4f64408893b96dcfb33fc480a7b53",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/conformance/index.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 9808,
+      "canonicalDocumentId": "AIXEM-CONF-AGENT-LIVE-001",
+      "digest": "sha256:a115e6842902c7ca09212abe2438764246f34b686257c851fe6e8534288cb4d8",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/conformance/live-agent-cold-start.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 5761,
+      "canonicalDocumentId": "AIXEM-CONF-REFERENCE-VIEWER-001",
+      "digest": "sha256:3618dec2b490eacb101826d9eb24b2f444629841770fca3b1c4161e889cba673",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/conformance/release-gates.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/conformance/reference-viewer.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 9316,
+      "canonicalDocumentId": "AIXEM-CONF-RELEASE-001",
+      "digest": "sha256:5cadad4bb451cc5704d16a4c77965f2ceecf4fe74cfc64d14891b1e649340f46",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/agent/failure-policy.md",
+        "docs/agent/validation-loop.md",
+        "docs/architecture/pipeline.md",
+        "docs/concepts/deterministic-builds.md",
+        "docs/conformance/index.md",
+        "docs/conformance/test-suite.md",
+        "docs/getting-started/quick-start.md",
+        "docs/governance/release-process.md",
+        "docs/index.md",
+        "docs/releases/0.5.md",
+        "docs/specifications/documentation/release-integrity.md",
+        "docs/specifications/project/project-lock-contract.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/docs/build_migration.py"
+      ],
+      "path": "docs/conformance/release-gates.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 5649,
+      "canonicalDocumentId": "AIXEM-CONF-REQUIREMENTS-001",
+      "digest": "sha256:f347418f7be01fbb0c0ba24df9540934b18b200f617ecf81a7783b3f34c1dd13",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/conformance/index.md",
+        "docs/conformance/validation.md",
+        "docs/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/conformance/requirements.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 3805,
+      "canonicalDocumentId": "AIXEM-CONF-B2D-001",
+      "digest": "sha256:0114dc81d80f847f42430a272a4c72eff136389fc90c138fc7d437f1715d5cd8",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/conformance/static-2d-block-profile.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 9064,
+      "canonicalDocumentId": "AIXEM-CONF-SYMBOL-EXP-001",
+      "digest": "sha256:67a299eb4f514b1a7569f80ba8c14b12e99e91f902a62e49557b74771c1db417",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/docs/release_052.py"
+      ],
+      "path": "docs/conformance/symbol-expressiveness.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 8286,
+      "canonicalDocumentId": "AIXEM-CONF-TESTS-001",
+      "digest": "sha256:7170e52ab6c0f1b52c19ed85e7ed26752e5b05bfed913befd78b669105d16d5f",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/agent/validation-loop.md",
+        "docs/conformance/release-gates.md",
+        "docs/conformance/validation.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/conformance/test-suite.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 9368,
+      "canonicalDocumentId": "AIXEM-CONF-VALIDATION-001",
+      "digest": "sha256:7b6be104211e26c05cf602c0960641f1f6b9c05f0cfcc5e34412749d4b3b5d3f",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/agent/validation-loop.md",
+        "docs/conformance/index.md",
+        "docs/conformance/requirements.md",
+        "docs/conformance/test-suite.md",
+        "docs/routing/route-constraints.md",
+        "docs/symbols/symbol-lint.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/docs/build_migration.py"
+      ],
+      "path": "docs/conformance/validation.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 4204,
+      "canonicalDocumentId": "AIXEM-EXAMPLE-CONTROLLER-001",
+      "digest": "sha256:fc1039eb657f416a47c6d9a86276634fb22e7e7ceb2573f241227b14a901b11c",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/examples/index.md",
+        "docs/index.md",
+        "docs/specifications/schematic/visual-profile.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/examples/grid-controller.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 4403,
+      "canonicalDocumentId": "AIXEM-EXAMPLE-HIERARCHY-001",
+      "digest": "sha256:8cc875ab15b8a1e3e73add38745fa9ec287b971a9db28ce1749bb35bcf8c829c",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/examples/index.md",
+        "docs/schematic/sheet-organization.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/examples/hierarchical-reference.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 3777,
+      "canonicalDocumentId": "AIXEM-EXAMPLE-INDEX-001",
+      "digest": "sha256:2aae14dcf5afd7af73c2529409ff83c7c3fa94b8cc658efa8076cb9cc9206649",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/examples/index.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 3750,
+      "canonicalDocumentId": "AIXEM-EXAMPLE-BASIC-001",
+      "digest": "sha256:2c387b431f3d5e3886926680aeba34c6242f68bacdd7eb2e5072fde9fa2bcdf4",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/examples/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/examples/passive-divider.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 4991,
+      "canonicalDocumentId": "AIXEM-EXAMPLE-SYMBOL-CORPUS-001",
+      "digest": "sha256:5631a52e460292845d8b3f46b206e7cfd0edf676c7a7a646c4939f83a17d1dad",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/examples/symbol-expressiveness-corpus.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 7121,
+      "canonicalDocumentId": "AIXEM-FORMAT-AIXEM-001",
+      "digest": "sha256:afdc90e99fec9cc492bc9028c59bb5a4886aa86e92df46bd9103fc335ead988a",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/concepts/semantic-model.md",
+        "docs/file-formats/index.md",
+        "docs/getting-started/first-schematic.md",
+        "docs/specifications/core/interface-port-contract.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/file-formats/aixem.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 8647,
+      "canonicalDocumentId": "AIXEM-FORMAT-AIXLAYOUT-001",
+      "digest": "sha256:74df906c5ac45e461d7984dbae1734c76725a24bcfa563b353fc77a3c5ee9d25",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/concepts/layout-model.md",
+        "docs/routing/net-routing.md",
+        "docs/schematic/junctions.md",
+        "docs/schematic/placement.md",
+        "docs/specifications/core/coordinate-system.md",
+        "docs/specifications/layout/layout-contract.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/file-formats/aixlayout.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 7599,
+      "canonicalDocumentId": "AIXEM-FORMAT-AIXLIB-001",
+      "digest": "sha256:31159423b98534460f8d983e3d02daa7e2dae4b14af1e8e83b45f7f92dfebdd6",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/concepts/component-model.md",
+        "docs/file-formats/aixem.md",
+        "docs/file-formats/aixsym.md",
+        "docs/symbols/variants.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/file-formats/aixlib.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 4390,
+      "canonicalDocumentId": "AIXEM-FORMAT-AIXPROJ-001",
+      "digest": "sha256:7e96cb25a6ee2e55456e51c5117f39d430324ff8acb0b1daa1a3deca22252415",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/file-formats/aixem.md",
+        "docs/file-formats/index.md",
+        "docs/getting-started/first-schematic.md",
+        "docs/specifications/project/project-lock-contract.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/file-formats/aixproj.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 12025,
+      "canonicalDocumentId": "AIXEM-FORMAT-AIXSYM-001",
+      "digest": "sha256:e3ab3c9afbdac2326bad7bcc19fb1f99722a25fa896dbbf4754293c42386979c",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/concepts/symbol-model.md",
+        "docs/file-formats/aixlib.md",
+        "docs/specifications/symbols/symbol-contract.md",
+        "docs/symbols/pins-and-ports.md",
+        "docs/symbols/primitives.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/file-formats/aixsym.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 3646,
+      "canonicalDocumentId": "AIXEM-FORMAT-INDEX-001",
+      "digest": "sha256:bf6c8926f49fa21a508ae24cc11d746b1e710098997528be83d9d5193ff5fbbd",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/architecture/artifact-store.md",
+        "docs/governance/terminology.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/file-formats/index.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 4984,
+      "canonicalDocumentId": "AIXEM-FORMAT-STYLE-001",
+      "digest": "sha256:330ea420f6d99d36dc104b7a9c664db06e6f464d1339c807213533ad1cdf4323",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/specifications/schematic/grid-profile.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/file-formats/style-profile.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 3564,
+      "canonicalDocumentId": "AIXEM-START-FIRST-001",
+      "digest": "sha256:9132f3bfb390e7729b106800a281ccb0e47af939c58f30573c69f9db81ab89be",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/agent/schematic-authoring.md",
+        "docs/examples/passive-divider.md",
+        "docs/getting-started/index.md",
+        "docs/getting-started/quick-start.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/getting-started/first-schematic.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 3168,
+      "canonicalDocumentId": "AIXEM-START-INDEX-001",
+      "digest": "sha256:2aa71c41978a557114e55da4a9beaa1d93cdd80f8db96a8d7f9f2d13bb23a072",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/docs/build_migration.py"
+      ],
+      "path": "docs/getting-started/index.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 3676,
+      "canonicalDocumentId": "AIXEM-START-INTRO-001",
+      "digest": "sha256:c18842f3b861a9d7926a17c5618455e7b34f3e632783df66ca77fabc81ecff9b",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/getting-started/index.md",
+        "docs/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/getting-started/introduction.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 5807,
+      "canonicalDocumentId": "AIXEM-START-QUICK-001",
+      "digest": "sha256:102598651cb6154f6149ae7c514d3385711a3dfc2c240fd334c49c2718d8855a",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/examples/grid-controller.md",
+        "docs/getting-started/index.md",
+        "docs/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/getting-started/quick-start.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 4907,
+      "canonicalDocumentId": "AIXEM-GOV-COMPAT-001",
+      "digest": "sha256:1b5c9549074ab153dd692413f331d8b2dfa5071144b306fb31c1fe0e6e4b2c6c",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/conformance/compatibility-conformance.md",
+        "docs/governance/index.md",
+        "docs/governance/versioning.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "docs/_meta/path-migrations.yaml"
+      ],
+      "path": "docs/governance/compatibility-policy.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 4775,
+      "canonicalDocumentId": "AIXEM-GOV-DEPRECATION-001",
+      "digest": "sha256:d917b53e761c95a467eb3aa25945c546bada32a695059e49f4087a075a1dc56a",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/governance/versioning.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/governance/deprecation.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 6882,
+      "canonicalDocumentId": "AIXEM-GOV-DOC-AUTHORING-001",
+      "digest": "sha256:46c3a45eefbd24487e32f5352a8045ebcb8384e073eca70a9ea2ba59c736049d",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "CONTRIBUTING.md",
+        "README.md",
+        "docs/governance/index.md",
+        "docs/specifications/documentation/document-governance-contract.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/governance/documentation-authoring-guide.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 3707,
+      "canonicalDocumentId": "AIXEM-GOV-INDEX-001",
+      "digest": "sha256:2da0758c1f71ca23c0c6a9cb168e6233974b12706eb9a6fd2dc9e6c57f56c3c1",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/governance/index.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 3453,
+      "canonicalDocumentId": "AIXEM-GOV-RELEASE-001",
+      "digest": "sha256:8c6eefd81cb96c8f8bf6dad0601db1cc1c93cb74b027c888ad5c5ccca61fe96d",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/architecture/pipeline.md",
+        "docs/conformance/release-gates.md",
+        "docs/governance/documentation-authoring-guide.md",
+        "docs/governance/index.md",
+        "docs/releases/0.5.md",
+        "docs/specifications/documentation/release-integrity.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/governance/release-process.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 4001,
+      "canonicalDocumentId": "AIXEM-GOV-TERMS-001",
+      "digest": "sha256:2804ee3bf97c828a6c8584b9c52a6c3300c9ddef598ac35520af72ade66b44c3",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/governance/terminology.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 5638,
+      "canonicalDocumentId": "AIXEM-GOV-VERSIONING-001",
+      "digest": "sha256:e5ec8526b82ac32a9bd83583c0a00af826b9709e349476be513af0304b2b4db9",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/governance/compatibility-policy.md",
+        "docs/governance/deprecation.md",
+        "docs/governance/index.md",
+        "docs/specifications/core/document-model.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/governance/versioning.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 5411,
+      "canonicalDocumentId": "AIXEM-DOCS-HOME-001",
+      "digest": "sha256:c3a3fea14e1c4c237b7483434d8ce73142a260a696484f4322a6320f9dbb9f84",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "README.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "docs/_meta/artifact-ownership.yaml",
+        "docs/_meta/artifacts.yaml",
+        "tools/docs/aixem_docs.py",
+        "tools/docs/build_migration.py"
+      ],
+      "path": "docs/index.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 3752,
+      "canonicalDocumentId": "AIXEM-RELEASE-040-001",
+      "digest": "sha256:543e8a2496b5e33ed48a50ca66a3b61277c40d497e61047bc8cc06695f2af84d",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/conformance/compatibility-conformance.md",
+        "docs/releases/0.5.md",
+        "docs/releases/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/docs/build_migration.py"
+      ],
+      "path": "docs/releases/0.4.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 6264,
+      "canonicalDocumentId": "AIXEM-RELEASE-051-001",
+      "digest": "sha256:3f1e1db1329c4db2f085b6272e8df47bdf5ffeef2a612dc92252e784f815e583",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/releases/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/releases/0.5.1.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 3659,
+      "canonicalDocumentId": "AIXEM-RELEASE-052-001",
+      "digest": "sha256:2355e66179f575ba63e868780bc081c42fd13c3e67c01a43118c638a645af799",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/releases/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/releases/0.5.2.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 4068,
+      "canonicalDocumentId": "AIXEM-RELEASE-053-001",
+      "digest": "sha256:4049c2131e43b0d38d96725f061e57938580b021f0f887fb8dd5eb69c6a9ffef",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/index.md",
+        "docs/releases/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/verify_release_053.py"
+      ],
+      "path": "docs/releases/0.5.3.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 3605,
+      "canonicalDocumentId": "AIXEM-RELEASE-054-001",
+      "digest": "sha256:4ad80fdbc54f8c0f82bf2abdfa0a21d5eb7c87781149b5d6662321f6b6c92789",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/releases/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/verify_release_054.py"
+      ],
+      "path": "docs/releases/0.5.4.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 4094,
+      "canonicalDocumentId": "AIXEM-RELEASE-055-001",
+      "digest": "sha256:0795d631bf8e39a87ecd6bd065d6188df12679339d232c1af7572049de8fa28a",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/releases/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/verify_release_055.py"
+      ],
+      "path": "docs/releases/0.5.5.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 3640,
+      "canonicalDocumentId": "AIXEM-RELEASE-056-001",
+      "digest": "sha256:dbc16e98b21ea1154b8ed70434fa1b9c226d5bffd37dac9a3196d30a82868c23",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/releases/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/verify_release_056.py",
+        "tools/verify_release_057.py",
+        "tools/verify_release_058.py"
+      ],
+      "path": "docs/releases/0.5.6.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 4025,
+      "canonicalDocumentId": "AIXEM-RELEASE-057-001",
+      "digest": "sha256:3ef29e80dc5d8c6521dbb88ecb07731312704b78da17e44ebdcdedc904c26a2f",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/releases/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/verify_release_057.py",
+        "tools/verify_release_058.py"
+      ],
+      "path": "docs/releases/0.5.7.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 4171,
+      "canonicalDocumentId": "AIXEM-RELEASE-058-001",
+      "digest": "sha256:1442c45719cf7bfe446a0e204d0fa43aa288f7b443cdecb835e2793a36e47779",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "README.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/verify_release_058.py"
+      ],
+      "path": "docs/releases/0.5.8.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 5313,
+      "canonicalDocumentId": "AIXEM-RELEASE-050-001",
+      "digest": "sha256:70f9c44f6c8af443690b73ed5636e488f28069fdeef95b57f087eb688c5bb0da",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/conformance/compatibility-conformance.md",
+        "docs/governance/release-process.md",
+        "docs/releases/0.4.md",
+        "docs/releases/0.5.1.md",
+        "docs/releases/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/docs/build_migration.py"
+      ],
+      "path": "docs/releases/0.5.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 3704,
+      "canonicalDocumentId": "AIXEM-RELEASE-INDEX-001",
+      "digest": "sha256:645d02d649e0a25d7443fe637e2f59283143894d18645a28c03a1e5c72f84b8a",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/releases/index.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 7378,
+      "canonicalDocumentId": "AIXEM-ROUTE-CROSSING-001",
+      "digest": "sha256:3f5039c045884821785cb22ff15f53c7d7aead8c406387a4d9c3b2e6839cc0d9",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/routing/orthogonal-routing.md",
+        "docs/schematic/junctions.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/routing/crossings-and-junctions.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 3722,
+      "canonicalDocumentId": "AIXEM-ROUTE-INDEX-001",
+      "digest": "sha256:d248a4f00e476f9b4699ba0168fbe219edba462cdcbc8d3c1e55afef4c527ec7",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/index.md",
+        "docs/schematic/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/routing/index.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 8116,
+      "canonicalDocumentId": "AIXEM-ROUTE-NETS-001",
+      "digest": "sha256:641b43cd46e68c363beb52a32f76f97b90c6aba9bc16fbfc0b99bd892e47942f",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/agent/schematic-authoring.md",
+        "docs/concepts/net-model.md",
+        "docs/examples/passive-divider.md",
+        "docs/file-formats/aixlayout.md",
+        "docs/routing/index.md",
+        "docs/routing/orthogonal-routing.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/docs/build_migration.py"
+      ],
+      "path": "docs/routing/net-routing.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 5624,
+      "canonicalDocumentId": "AIXEM-ROUTE-ORTHO-001",
+      "digest": "sha256:f8119dbdb03253db26820ad4a27ac4e886d8adfc8b5e097d73ea8c760086c703",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/getting-started/first-schematic.md",
+        "docs/routing/crossings-and-junctions.md",
+        "docs/routing/index.md",
+        "docs/routing/route-constraints.md",
+        "docs/schematic/grid-system.md",
+        "docs/specifications/schematic/grid-profile.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/docs/build_migration.py"
+      ],
+      "path": "docs/routing/orthogonal-routing.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 5737,
+      "canonicalDocumentId": "AIXEM-ROUTE-CONSTRAINT-001",
+      "digest": "sha256:e70eaf988b584d969cd9a54cc2b25dbe914e39a1a86f88ea80ab505089feef14",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/agent/routing-agent.md",
+        "docs/routing/crossings-and-junctions.md",
+        "docs/routing/index.md",
+        "docs/routing/orthogonal-routing.md",
+        "docs/routing/router-behavior.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/routing/route-constraints.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 3281,
+      "canonicalDocumentId": "AIXEM-ROUTE-BEHAVIOR-001",
+      "digest": "sha256:bc75782a2ed1e7a208c7b866a1865ee5b6e2584879938f07226b1aff557d5ffa",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/agent/routing-agent.md",
+        "docs/routing/net-routing.md",
+        "docs/routing/route-constraints.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/routing/router-behavior.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 6317,
+      "canonicalDocumentId": "AIXEM-ROUTE-COOKBOOK-001",
+      "digest": "sha256:1e6af046668fc955bf129fc22726dbeeecbebe1857c72fecb750acf1f93075c5",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/authoring/index.md",
+        "docs/routing/net-routing.md",
+        "docs/schematic/schematic-authoring-cookbook.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/routing/routing-cookbook.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 4886,
+      "canonicalDocumentId": "AIXEM-SCHEM-ANNOTATION-001",
+      "digest": "sha256:43eb366da271176c0f68443c478544c5523531e844e9f285e00bc58f3ab01d1e",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/examples/hierarchical-reference.md",
+        "docs/schematic/sheet-organization.md",
+        "docs/symbols/field-layout.md",
+        "docs/symbols/pins-and-ports.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/schematic/annotations.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 5608,
+      "canonicalDocumentId": "AIXEM-SCHEM-GRID-001",
+      "digest": "sha256:80dc2d4caf20c7079fbcd1c3964c92b9dd5b366ead2519728563bc5aeaed30fc",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/agent/schematic-authoring.md",
+        "docs/concepts/layout-model.md",
+        "docs/examples/passive-divider.md",
+        "docs/getting-started/first-schematic.md",
+        "docs/routing/orthogonal-routing.md",
+        "docs/schematic/index.md",
+        "docs/schematic/placement.md",
+        "docs/schematic/visual-language.md",
+        "docs/specifications/core/coordinate-system.md",
+        "docs/specifications/schematic/grid-profile.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/docs/build_migration.py"
+      ],
+      "path": "docs/schematic/grid-system.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 3609,
+      "canonicalDocumentId": "AIXEM-SCHEM-INDEX-001",
+      "digest": "sha256:334d4d6dd42a4ccf2e1c791011e5994e85cd6c4c9bf8d4eb9ffd93b165cfb69e",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/schematic/index.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 5769,
+      "canonicalDocumentId": "AIXEM-SCHEM-JUNCTION-001",
+      "digest": "sha256:d0967419d1445b9d1f8ead64933152a847c27f93c1906fb09afe42e4a2d7438a",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/concepts/net-model.md",
+        "docs/routing/crossings-and-junctions.md",
+        "docs/routing/route-constraints.md",
+        "docs/specifications/schematic/grid-profile.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/schematic/junctions.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 4958,
+      "canonicalDocumentId": "AIXEM-SCHEM-PLACEMENT-001",
+      "digest": "sha256:f063764ab5778f9c4bc1a8be9003f8e12a21f204ad46e07356cec58f854fe891",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/file-formats/aixlayout.md",
+        "docs/schematic/grid-system.md",
+        "docs/schematic/sheet-organization.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/schematic/placement.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 5233,
+      "canonicalDocumentId": "AIXEM-SCHEM-COOKBOOK-001",
+      "digest": "sha256:4fc20a940086e2bc9ccb79a941bf357cd007a010d3e42ef3863cb6929cc9fb97",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/authoring/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "docs/_meta/path-migrations.yaml"
+      ],
+      "path": "docs/schematic/schematic-authoring-cookbook.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 4122,
+      "canonicalDocumentId": "AIXEM-SCHEM-SHEET-001",
+      "digest": "sha256:7de822efbd0a30556d263a203436c81d5e3d0412525bae58107c3e0d3188528c",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/examples/hierarchical-reference.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/schematic/sheet-organization.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 9016,
+      "canonicalDocumentId": "AIXEM-SCHEM-VISUAL-001",
+      "digest": "sha256:3a6443263d3a107e84537df326f563583bf1ed755f7961ce3e527c23651feac7",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/architecture/adr/0003-vendor-neutral-ui.md",
+        "docs/examples/grid-controller.md",
+        "docs/file-formats/style-profile.md",
+        "docs/schematic/annotations.md",
+        "docs/schematic/index.md",
+        "docs/schematic/placement.md",
+        "docs/specifications/schematic/visual-profile.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/docs/build_migration.py"
+      ],
+      "path": "docs/schematic/visual-language.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 6253,
+      "canonicalDocumentId": "AIXEM-SPEC-AGENT-TASK-001",
+      "digest": "sha256:ad4aa721dd1ace9227f6f31c40765f210a83d6c0e3ac3012bde4880992f3d9a0",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/specifications/agent/agent-task-contract.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 6929,
+      "canonicalDocumentId": "AIXEM-SPEC-AGENT-CHANGESET-001",
+      "digest": "sha256:8985e07a4d28a2be483ef780fb79514451f1c66e08215e6423f02e817a96e5bb",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/specifications/agent/authoring-change-set-contract.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 7137,
+      "canonicalDocumentId": "AIXEM-SPEC-AGENT-EXECUTION-001",
+      "digest": "sha256:3abea1ce8a8fdda167565cea20a838f8c9c6dd353b2b8c190540a33b403b9fff",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/agent/authoring-orchestration.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/specifications/agent/authoring-execution-contract.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 5777,
+      "canonicalDocumentId": "AIXEM-SPEC-AGENT-RUN-001",
+      "digest": "sha256:c551af5c159afb2746f0755723b3547f1ead10b4d4711fc24254f51654546fe8",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/agent/authoring-orchestration.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/specifications/agent/authoring-run-record.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 7624,
+      "canonicalDocumentId": "AIXEM-SPEC-AGENT-STAGE-001",
+      "digest": "sha256:a5768ca7dfb3f9fe86a1a6768de2360996c17320ce4c820aecf0703bcc7daa24",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/specifications/agent/cold-start-stage-contract.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 6305,
+      "canonicalDocumentId": "AIXEM-SPEC-AGENT-DIAGNOSTIC-001",
+      "digest": "sha256:788649ae71ef484b3ed49ac6b8450f2a2e2fc9eca4c39fc4c8a434b6cfa153a7",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/agent/authoring-orchestration.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/specifications/agent/diagnostic-contract.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 7474,
+      "canonicalDocumentId": "AIXEM-SPEC-AGENT-EVAL-INVARIANT-001",
+      "digest": "sha256:d08bd8054042e7fa8878659c2bc581a497a9460f73f6a07ab1c80cf7446b0aa2",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/specifications/agent/evaluation-invariant-contract.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 7986,
+      "canonicalDocumentId": "AIXEM-SPEC-AGENT-EXECUTOR-LIVE-001",
+      "digest": "sha256:611e2760702888a75b615848cb77536ba2b1669a385ad213db4fbeebc6aa6790",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/specifications/agent/live-executor-protocol.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 7744,
+      "canonicalDocumentId": "AIXEM-SPEC-AGENT-LIVE-RUN-001",
+      "digest": "sha256:37baf58e67f7fd11738025b2bf6f436c09321961932a1c1d5f6a7b20cf01920b",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/specifications/agent/live-run-evidence.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 7659,
+      "canonicalDocumentId": "AIXEM-SPEC-AGENT-OBSERVATION-001",
+      "digest": "sha256:f114bb23c03092cd5b57cb8d2517d67abb2ec9729380585561850caea6549f4f",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/specifications/agent/observation-event-contract.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 8470,
+      "canonicalDocumentId": "AIXEM-SPEC-AGENT-RETRIEVAL-001",
+      "digest": "sha256:6b9d1148964cc14de7f6602cc150df27ddbdd9397a2233b797feb04646d6f0c8",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/agent/architecture.md",
+        "docs/agent/retrieval.md",
+        "docs/architecture/adr/0002-route-first-retrieval.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/docs/build_migration.py"
+      ],
+      "path": "docs/specifications/agent/retrieval-profile.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 6131,
+      "canonicalDocumentId": "AIXEM-SPEC-AUTHORITY-001",
+      "digest": "sha256:a7d5bb475edbeddf2c0bd7c482b076b9ffd2ed37718452a24fc971c1db353d7b",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/agent/failure-policy.md",
+        "docs/architecture/artifact-store.md",
+        "docs/concepts/authority-model.md",
+        "docs/specifications/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/specifications/core/authority-precedence.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 5769,
+      "canonicalDocumentId": "AIXEM-SPEC-COORD-001",
+      "digest": "sha256:a6768b1695f2522bb07e95783daa9d12ad16798f56f74ac5de403d5affe9c6c9",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/schematic/grid-system.md",
+        "docs/specifications/layout/layout-contract.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/specifications/core/coordinate-system.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 5696,
+      "canonicalDocumentId": "AIXEM-SPEC-DOCUMENT-001",
+      "digest": "sha256:1063c81430fdcd58a74ebed7b9fabad5b92d47b7b53de4fa373d9c5afcb974b6",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/architecture/adr/0001-canonical-doc-root.md",
+        "docs/specifications/documentation/document-governance-contract.md",
+        "docs/specifications/documentation/metadata-contract.md",
+        "docs/specifications/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/specifications/core/document-model.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 8550,
+      "canonicalDocumentId": "AIXEM-SPEC-INTERFACE-PORT-001",
+      "digest": "sha256:a0455554981cf8fc9038ec9724841473e6f1f4df4e36bbfb92d0a6d759eac3af",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/concepts/semantic-model.md",
+        "docs/file-formats/aixem.md",
+        "docs/specifications/index.md",
+        "docs/specifications/schemas/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/verify_release_053.py"
+      ],
+      "path": "docs/specifications/core/interface-port-contract.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 19379,
+      "canonicalDocumentId": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+      "digest": "sha256:c8d9fdbb578a5a09a8b0d76c5f2e9aaef3e19ebde6cef2f05d77e857129b1452",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "CONTRIBUTING.md",
+        "README.md",
+        "docs/governance/documentation-authoring-guide.md",
+        "docs/specifications/documentation/metadata-contract.md",
+        "docs/specifications/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/specifications/documentation/document-governance-contract.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 6727,
+      "canonicalDocumentId": "AIXEM-SPEC-METADATA-001",
+      "digest": "sha256:65b494e0639ee8106ae36e4eb4ba98cf5309e36a068d3ade3c1312ec474d07be",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/agent/task-routing.md",
+        "docs/conformance/requirements.md",
+        "docs/governance/documentation-authoring-guide.md",
+        "docs/specifications/core/document-model.md",
+        "docs/specifications/documentation/document-governance-contract.md",
+        "docs/specifications/documentation/release-integrity.md",
+        "docs/specifications/schemas/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/specifications/documentation/metadata-contract.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 7813,
+      "canonicalDocumentId": "AIXEM-SPEC-RELEASE-001",
+      "digest": "sha256:9e06776349ebb0b20e67c9579fc7ce5a124f1e9ea36271b34af230b9b0ad4a55",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/architecture/artifact-store.md",
+        "docs/architecture/security.md",
+        "docs/conformance/release-gates.md",
+        "docs/releases/0.5.md",
+        "docs/specifications/documentation/document-governance-contract.md",
+        "docs/specifications/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/specifications/documentation/release-integrity.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 4214,
+      "canonicalDocumentId": "AIXEM-SPEC-INDEX-001",
+      "digest": "sha256:858c0168dc8036f04aa8a98feb9ded20cdbea38f6f3a074a9a431379c1af8216",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/specifications/index.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 6258,
+      "canonicalDocumentId": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
+      "digest": "sha256:81cef50427ec3e17118b54d96947ece0e9622bf428db34f830808b3c21b6d02e",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/concepts/project-net-model.md",
+        "docs/file-formats/aixlayout.md",
+        "docs/schematic/sheet-organization.md",
+        "docs/specifications/core/interface-port-contract.md",
+        "docs/specifications/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/specifications/layout/hierarchical-sheet-port-contract.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 5791,
+      "canonicalDocumentId": "AIXEM-SPEC-LAYOUT-001",
+      "digest": "sha256:67ce5b85ff3630f13bcaf3a2e29f623fdfa16a6d1c523fdafb0ab9cea92e0f98",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/file-formats/aixlayout.md",
+        "docs/specifications/schemas/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/specifications/layout/layout-contract.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 11298,
+      "canonicalDocumentId": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
+      "digest": "sha256:7b6fb185c54cdb069129eb2a688b5499d73eeff8880e4133c74a680b2528f139",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/concepts/project-net-model.md",
+        "docs/file-formats/aixproj.md",
+        "docs/index.md",
+        "docs/schematic/sheet-organization.md",
+        "docs/specifications/core/interface-port-contract.md",
+        "docs/specifications/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/specifications/project/project-composition-contract.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 6583,
+      "canonicalDocumentId": "AIXEM-SPEC-PROJECT-LOCK-001",
+      "digest": "sha256:2a22582c37919f54a9157548cc97d67bbc9c167aa18e4a36635e5232fde9f57b",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/architecture/security.md",
+        "docs/concepts/deterministic-builds.md",
+        "docs/examples/grid-controller.md",
+        "docs/file-formats/aixproj.md",
+        "docs/specifications/schemas/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/specifications/project/project-lock-contract.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 11782,
+      "canonicalDocumentId": "AIXEM-SPEC-RENDERER-001",
+      "digest": "sha256:8843908e7bb5164f14a9b9877163529b67c2765d29fcd6c8f440eb653b180152",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/authoring/index.md",
+        "docs/releases/0.5.1.md",
+        "docs/symbols/aixsym-field-reference.md",
+        "docs/symbols/authoring-guide.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/specifications/renderer/renderer-contract.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 5264,
+      "canonicalDocumentId": "AIXEM-SPEC-SCHEMAS-001",
+      "digest": "sha256:163539913a56b1a6cae8a87113c9ad99f197f547a406419fed7cbb84891cc3e9",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/docs/build_migration.py"
+      ],
+      "path": "docs/specifications/schemas/index.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 5226,
+      "canonicalDocumentId": "AIXEM-SPEC-GRID-PROFILE-001",
+      "digest": "sha256:43b67f986ab3a876770543c03554cbd0cd4dd76f7389e68e01a3672637fb67c7",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/examples/grid-controller.md",
+        "docs/file-formats/style-profile.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/docs/build_migration.py"
+      ],
+      "path": "docs/specifications/schematic/grid-profile.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 7688,
+      "canonicalDocumentId": "AIXEM-SPEC-VISUAL-PROFILE-001",
+      "digest": "sha256:ad17fd56e9a7e681bdeafded504868e730f3f7ca7bc8826ee9b78bb7bde38ed0",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/architecture/adr/0003-vendor-neutral-ui.md",
+        "docs/file-formats/style-profile.md",
+        "docs/schematic/visual-language.md",
+        "docs/specifications/schematic/grid-profile.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/docs/build_migration.py"
+      ],
+      "path": "docs/specifications/schematic/visual-profile.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 7575,
+      "canonicalDocumentId": "AIXEM-SPEC-SYMBOL-001",
+      "digest": "sha256:465d046b7fe0dc521b4548775d1e19a352f8c21bdf6edeb2cecf58e1ce7fdda4",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/file-formats/aixlib.md",
+        "docs/file-formats/aixsym.md",
+        "docs/specifications/schemas/index.md",
+        "docs/symbols/index.md",
+        "docs/symbols/primitives.md",
+        "docs/symbols/variants.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/specifications/symbols/symbol-contract.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 8422,
+      "canonicalDocumentId": "AIXEM-SPEC-SYMBOL-DESIGN-001",
+      "digest": "sha256:79a9bafad18baa7a4ff20fe483d7b3489d6593bfacb55a3da196888cc31bf1ec",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/releases/0.5.1.md",
+        "docs/symbols/design-rules.md",
+        "docs/symbols/symbol-authoring-cookbook.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/specifications/symbols/symbol-design-profile.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 2672,
+      "canonicalDocumentId": "AIXEM-SPEC-VIEWER-INDEX-001",
+      "digest": "sha256:85443a6e989f52e7c9275c2be5d2dd6ca0fa213e7c4a32187cb595e232b50736",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/specifications/viewer/index.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 15764,
+      "canonicalDocumentId": "AIXEM-SPEC-VIEWER-001",
+      "digest": "sha256:51f0c496601896459e57adb025523d72eff5b3d0a1468fddcc81957de9b491a9",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/architecture/adr/0003-vendor-neutral-ui.md",
+        "docs/schematic/visual-language.md",
+        "docs/specifications/schematic/visual-profile.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/specifications/viewer/reference-viewer-contract.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 3220,
+      "canonicalDocumentId": "AIXEM-SPEC-WORKBENCH-001",
+      "digest": "sha256:fc6dc93b0b617ea4365c79dea22606638350f6af3b1d11a077dc690d0653de5e",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/architecture/adr/0003-vendor-neutral-ui.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/specifications/viewer/review-workbench-contract.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 4369,
+      "canonicalDocumentId": "AIXEM-SPEC-VIEWER-A11Y-001",
+      "digest": "sha256:5cca189b7241ba20b12097784c359cd3a6cecedea0e90e26c76a4eebaeacdf0b",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/specifications/schematic/visual-profile.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/specifications/viewer/viewer-accessibility-profile.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 6507,
+      "canonicalDocumentId": "AIXEM-SPEC-VIEWER-SECURITY-001",
+      "digest": "sha256:a0ef396647595aa1dc23b6d01369c4be9c1b6f7df31c366570cac2dd41119e93",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/specifications/viewer/viewer-security-and-embedding.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 8371,
+      "canonicalDocumentId": "AIXEM-SPEC-VIEWER-STATE-001",
+      "digest": "sha256:20ca1ae9d53e67c5ef17157925668de8489d2678c1f0ea5300d83eb748dee7dd",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/specifications/viewer/viewer-state-and-interaction.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 8605,
+      "canonicalDocumentId": "AIXEM-SYMBOL-AIXSYM-REF-001",
+      "digest": "sha256:4e5e50c7d19a447a377b6d523097ce5248671ec418c0ae58ff6496d7e5037a22",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/authoring/index.md",
+        "docs/file-formats/aixsym.md",
+        "docs/symbols/authoring-guide.md",
+        "docs/symbols/symbol-authoring-cookbook.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/symbols/aixsym-field-reference.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 7723,
+      "canonicalDocumentId": "AIXEM-SYMBOL-AUTHORING-001",
+      "digest": "sha256:9c360629fc4c4c014967df0f76328b794fe24b2d6a8053afa8a2616373a49ac0",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/agent/symbol-generation.md",
+        "docs/symbols/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/docs/build_migration.py"
+      ],
+      "path": "docs/symbols/authoring-guide.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 8185,
+      "canonicalDocumentId": "AIXEM-SYMBOL-BINDING-001",
+      "digest": "sha256:7ac3b9ef8498ec049ad9b2d1420df88076601622ad823d08a816fc617c85ad09",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/authoring/index.md",
+        "docs/symbols/symbol-authoring-cookbook.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/symbols/component-symbol-binding.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 1894,
+      "canonicalDocumentId": "AIXEM-SYMBOL-DESIGN-RULES-001",
+      "digest": "sha256:7c9e11550a898c2906dab9fee73dcef3ef8bd04a0a35cf28fc816c0a89a07f01",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/symbols/design-rules.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 7817,
+      "canonicalDocumentId": "AIXEM-SYMBOL-FIELDS-001",
+      "digest": "sha256:e41d8ac15494bb814c1889cd29f17bc23c25a06fd0a3363a6de0ff5009d6ccf3",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/schematic/annotations.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/symbols/field-layout.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 3518,
+      "canonicalDocumentId": "AIXEM-SYMBOL-INDEX-001",
+      "digest": "sha256:06433dfaff117264013f0c58bd1b0634272c4de7e8f38d716dc7a10ab97c4b30",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/symbols/index.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 13374,
+      "canonicalDocumentId": "AIXEM-SYMBOL-PORTS-001",
+      "digest": "sha256:07707c7fb716644a80586532a382073fba8c5150171e6fc1d64f3e855c0f35dd",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/symbols/aixsym-field-reference.md",
+        "docs/symbols/authoring-guide.md",
+        "docs/symbols/symbol-anatomy.md",
+        "docs/symbols/symbol-lint.md",
+        "docs/symbols/variants.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "tools/docs/build_migration.py"
+      ],
+      "path": "docs/symbols/pins-and-ports.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 13568,
+      "canonicalDocumentId": "AIXEM-SYMBOL-PRIMITIVES-001",
+      "digest": "sha256:c096c82fc9459333d90740d9e10d16b2ab911bd511517f110d55d24fe1cee153",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/file-formats/aixsym.md",
+        "docs/specifications/symbols/symbol-contract.md",
+        "docs/symbols/aixsym-field-reference.md",
+        "docs/symbols/authoring-guide.md",
+        "docs/symbols/symbol-anatomy.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/symbols/primitives.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 5587,
+      "canonicalDocumentId": "AIXEM-SYMBOL-ANATOMY-001",
+      "digest": "sha256:87fcae6e87461078791885a2c84e1d3b8fc57bad66b6a38130731bd664341ce1",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/concepts/symbol-model.md",
+        "docs/specifications/core/coordinate-system.md",
+        "docs/specifications/symbols/symbol-contract.md",
+        "docs/symbols/field-layout.md",
+        "docs/symbols/index.md",
+        "docs/symbols/pins-and-ports.md",
+        "docs/symbols/primitives.md",
+        "docs/symbols/symbol-lint.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/symbols/symbol-anatomy.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 19715,
+      "canonicalDocumentId": "AIXEM-SYMBOL-COOKBOOK-001",
+      "digest": "sha256:c931e3461f22773f49257bfef60b0f4f6213dff428d5c9864fb95b9e2489a301",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/authoring/index.md",
+        "docs/releases/0.5.1.md",
+        "docs/symbols/aixsym-field-reference.md",
+        "docs/symbols/authoring-guide.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "docs/_meta/path-migrations.yaml"
+      ],
+      "path": "docs/symbols/symbol-authoring-cookbook.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 8726,
+      "canonicalDocumentId": "AIXEM-SYMBOL-LINT-001",
+      "digest": "sha256:f896852a922455f91724e4f41086926905d9265bb6fc536d8f640fe6509c52df",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/agent/symbol-generation.md",
+        "docs/authoring/index.md",
+        "docs/symbols/authoring-guide.md",
+        "docs/symbols/field-layout.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/symbols/symbol-lint.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 9190,
+      "canonicalDocumentId": "AIXEM-SYMBOL-VARIANTS-001",
+      "digest": "sha256:13c86480a5c1fa51d1587f2cc60e3b0cba1423800eca6a4ff02c963ec23e1599",
+      "discoverabilityOwner": "docs/_meta/navigation.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "docs/symbols/aixsym-field-reference.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "docs/symbols/variants.md",
+      "release": null,
+      "role": "canonical-document",
+      "sourceOwner": "docs/_meta/navigation.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 359,
+      "canonicalDocumentId": null,
+      "digest": "sha256:4d665fdc24a240e3b69e5f94f27bb97468f273b4e3c0b3b49f1343be219003b0",
+      "discoverabilityOwner": "local-example-root",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "suite-scoped",
+      "machineRefs": [],
+      "path": "examples/authoring/01-two-pin-passive/README.md",
+      "release": null,
+      "role": "example-local-instruction",
+      "sourceOwner": "local-example-root",
+      "status": "retained"
+    },
+    {
+      "bytes": 198,
+      "canonicalDocumentId": null,
+      "digest": "sha256:8c3a4f393d2c3f9d9a1d5a9e74b11b5bc23035d88684f7522f136d47dc4fcbc7",
+      "discoverabilityOwner": "local-example-root",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "suite-scoped",
+      "machineRefs": [],
+      "path": "examples/authoring/02-connector/README.md",
+      "release": null,
+      "role": "example-local-instruction",
+      "sourceOwner": "local-example-root",
+      "status": "retained"
+    },
+    {
+      "bytes": 234,
+      "canonicalDocumentId": null,
+      "digest": "sha256:d05eb478fa77f94e03de236d4166caafa41b18b91a2d65209c0ef1871b80d691",
+      "discoverabilityOwner": "local-example-root",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "suite-scoped",
+      "machineRefs": [],
+      "path": "examples/authoring/03-multi-pin-ic/README.md",
+      "release": null,
+      "role": "example-local-instruction",
+      "sourceOwner": "local-example-root",
+      "status": "retained"
+    },
+    {
+      "bytes": 288,
+      "canonicalDocumentId": null,
+      "digest": "sha256:88ed47f82e14f47fbcc711e6f8f596e08770b780909a21d43c5609a7693a0cdb",
+      "discoverabilityOwner": "local-example-root",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "suite-scoped",
+      "machineRefs": [],
+      "path": "examples/authoring/04-parameterized-variant/README.md",
+      "release": null,
+      "role": "example-local-instruction",
+      "sourceOwner": "local-example-root",
+      "status": "retained"
+    },
+    {
+      "bytes": 262,
+      "canonicalDocumentId": null,
+      "digest": "sha256:ce504902bed549c437f390d1e19ed7e85e528781d9d2e915c6561d98a13f0538",
+      "discoverabilityOwner": "local-example-root",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "suite-scoped",
+      "machineRefs": [],
+      "path": "examples/authoring/05-field-and-port-binding/README.md",
+      "release": null,
+      "role": "example-local-instruction",
+      "sourceOwner": "local-example-root",
+      "status": "retained"
+    },
+    {
+      "bytes": 226,
+      "canonicalDocumentId": null,
+      "digest": "sha256:b1e8f0c24ece2a17948459bbd9ca697e141a7ef8cc4481834fa01454f7ea9b59",
+      "discoverabilityOwner": "local-example-root",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "suite-scoped",
+      "machineRefs": [],
+      "path": "examples/authoring/06-two-terminal-route/README.md",
+      "release": null,
+      "role": "example-local-instruction",
+      "sourceOwner": "local-example-root",
+      "status": "retained"
+    },
+    {
+      "bytes": 253,
+      "canonicalDocumentId": null,
+      "digest": "sha256:11594461e1346828a424a36996dfda9491a085d1f1c6a64a4b61d3ca1e26cfd9",
+      "discoverabilityOwner": "local-example-root",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "suite-scoped",
+      "machineRefs": [],
+      "path": "examples/authoring/07-multi-terminal-junction/README.md",
+      "release": null,
+      "role": "example-local-instruction",
+      "sourceOwner": "local-example-root",
+      "status": "retained"
+    },
+    {
+      "bytes": 324,
+      "canonicalDocumentId": null,
+      "digest": "sha256:16267cd3abcc3f03b67603196a090696a4116c48c40d1a86b88a73ae9966724d",
+      "discoverabilityOwner": "local-example-root",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "suite-scoped",
+      "machineRefs": [],
+      "path": "examples/authoring/08-visual-repair/README.md",
+      "release": null,
+      "role": "example-local-instruction",
+      "sourceOwner": "local-example-root",
+      "status": "retained"
+    },
+    {
+      "bytes": 426,
+      "canonicalDocumentId": null,
+      "digest": "sha256:f9bbcb982b14e3cdca3257fe814c7aa167704f395126eacca5c3fb829103a028",
+      "discoverabilityOwner": "local-example-root",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "suite-scoped",
+      "machineRefs": [],
+      "path": "examples/authoring/README.md",
+      "release": null,
+      "role": "example-local-instruction",
+      "sourceOwner": "local-example-root",
+      "status": "retained"
+    },
+    {
+      "bytes": 552,
+      "canonicalDocumentId": null,
+      "digest": "sha256:5ecbb64e502bdced70b001197ced7c52c6cf1c7d114ef0d7c20735f40e6e00f0",
+      "discoverabilityOwner": "local-example-root",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "suite-scoped",
+      "machineRefs": [],
+      "path": "examples/electronics-grid-controller/README.md",
+      "release": null,
+      "role": "example-local-instruction",
+      "sourceOwner": "local-example-root",
+      "status": "retained"
+    },
+    {
+      "bytes": 725,
+      "canonicalDocumentId": null,
+      "digest": "sha256:eb44542cc80c5e7d20a83d42a1545cfcd489321a13b959bedda61e0dc706d99b",
+      "discoverabilityOwner": "legacy/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "historical",
+      "machineRefs": [
+        "docs/_meta/repository-document-policy.yaml"
+      ],
+      "path": "legacy/README.md",
+      "release": null,
+      "role": "legacy-explanation",
+      "sourceOwner": "legacy/README.md",
+      "status": "retained"
+    },
+    {
+      "bytes": 1686,
+      "canonicalDocumentId": null,
+      "digest": "sha256:794434a288b439bee2819dce50dcd0d9fc4e50ab18daa3d84cee6c1a4130ebe3",
+      "discoverabilityOwner": "planning/index.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "README.md"
+      ],
+      "lifecycle": "permanent",
+      "machineRefs": [
+        "docs/_meta/repository-document-policy.yaml"
+      ],
+      "path": "planning/README.md",
+      "release": null,
+      "role": "planning-entrypoint",
+      "sourceOwner": "planning/index.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 23697,
+      "canonicalDocumentId": null,
+      "digest": "sha256:b3ee343803f12ac759d620a38c46f792a5bdbd7ba437afd847b2765d45f6647b",
+      "discoverabilityOwner": "planning/index.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "planning/README.md"
+      ],
+      "lifecycle": "historical",
+      "machineRefs": [
+        "planning/index.yaml"
+      ],
+      "path": "planning/releases/0.5.0/documentation-platform.md",
+      "release": "0.5.0",
+      "role": "implementation-plan",
+      "sourceOwner": "planning/index.yaml",
+      "status": "immutable"
+    },
+    {
+      "bytes": 67198,
+      "canonicalDocumentId": null,
+      "digest": "sha256:0180d256c9fe33b971818aafc9c88d550d4f774e2a29d946a26f54d8f0783475",
+      "discoverabilityOwner": "planning/index.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "planning/README.md"
+      ],
+      "lifecycle": "historical",
+      "machineRefs": [
+        "planning/index.yaml"
+      ],
+      "path": "planning/releases/0.5.1/agent-authoring-drawing.md",
+      "release": "0.5.1",
+      "role": "implementation-plan",
+      "sourceOwner": "planning/index.yaml",
+      "status": "immutable"
+    },
+    {
+      "bytes": 49160,
+      "canonicalDocumentId": null,
+      "digest": "sha256:c7599ea4da9d8abef3a8c6c3ea8a855cf56f4f096434dbc1ef43163cd5458ea2",
+      "discoverabilityOwner": "planning/index.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "planning/README.md"
+      ],
+      "lifecycle": "historical",
+      "machineRefs": [
+        "planning/index.yaml"
+      ],
+      "path": "planning/releases/0.5.2/symbol-expressiveness-conformance.md",
+      "release": "0.5.2",
+      "role": "implementation-plan",
+      "sourceOwner": "planning/index.yaml",
+      "status": "immutable"
+    },
+    {
+      "bytes": 53394,
+      "canonicalDocumentId": null,
+      "digest": "sha256:73e520fcbadbd6c61f045ba3d26ee8bd3acefc6a9e5829ecd5c90668a29e0002",
+      "discoverabilityOwner": "planning/index.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "planning/README.md"
+      ],
+      "lifecycle": "historical",
+      "machineRefs": [
+        "planning/index.yaml"
+      ],
+      "path": "planning/releases/0.5.3/hierarchical-multisheet-composition.md",
+      "release": "0.5.3",
+      "role": "implementation-plan",
+      "sourceOwner": "planning/index.yaml",
+      "status": "immutable"
+    },
+    {
+      "bytes": 64114,
+      "canonicalDocumentId": null,
+      "digest": "sha256:a9af9c044de52d51525e0721acc3976371955c2a66242b1235c0da6a0b204fc4",
+      "discoverabilityOwner": "planning/index.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "planning/README.md"
+      ],
+      "lifecycle": "historical",
+      "machineRefs": [
+        "planning/index.yaml"
+      ],
+      "path": "planning/releases/0.5.4/reference-viewer-contract.md",
+      "release": "0.5.4",
+      "role": "implementation-plan",
+      "sourceOwner": "planning/index.yaml",
+      "status": "immutable"
+    },
+    {
+      "bytes": 47696,
+      "canonicalDocumentId": null,
+      "digest": "sha256:f6f1bc2a36eda1417735ebe5acdf48d6e4276573bc9c0fc9e60be21f2ba02880",
+      "discoverabilityOwner": "planning/index.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "planning/README.md"
+      ],
+      "lifecycle": "historical",
+      "machineRefs": [
+        "planning/index.yaml"
+      ],
+      "path": "planning/releases/0.5.5/agent-authoring-closed-loop.md",
+      "release": "0.5.5",
+      "role": "implementation-plan",
+      "sourceOwner": "planning/index.yaml",
+      "status": "immutable"
+    },
+    {
+      "bytes": 17077,
+      "canonicalDocumentId": null,
+      "digest": "sha256:e00504134d696e82be0ae53a8e8c866ab17d7b41bbc3da8149f23b181c4a7737",
+      "discoverabilityOwner": "planning/index.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "planning/README.md"
+      ],
+      "lifecycle": "historical",
+      "machineRefs": [
+        "docs/_meta/artifact-ownership.yaml",
+        "docs/_meta/artifacts.yaml",
+        "planning/index.yaml"
+      ],
+      "path": "planning/releases/0.5.6/live-agent-cold-start-authoring.md",
+      "release": "0.5.6",
+      "role": "implementation-plan",
+      "sourceOwner": "planning/index.yaml",
+      "status": "immutable"
+    },
+    {
+      "bytes": 46865,
+      "canonicalDocumentId": null,
+      "digest": "sha256:96da47a1798f5131ab003220dc887a8aacdda61a62255854334418933fd1cbd6",
+      "discoverabilityOwner": "planning/index.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "planning/README.md"
+      ],
+      "lifecycle": "historical",
+      "machineRefs": [
+        "docs/_meta/artifact-ownership.yaml",
+        "docs/_meta/artifacts.yaml",
+        "planning/index.yaml",
+        "tools/verify_release_057.py"
+      ],
+      "path": "planning/releases/0.5.7/document-information-architecture-governance.md",
+      "release": "0.5.7",
+      "role": "implementation-plan",
+      "sourceOwner": "planning/index.yaml",
+      "status": "immutable"
+    },
+    {
+      "bytes": 49514,
+      "canonicalDocumentId": null,
+      "digest": "sha256:0e4ae8dda0b3b35411405f0a46ec2712c8dc8b159839cc6b64a6da5d96785308",
+      "discoverabilityOwner": "planning/index.yaml",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "README.md",
+        "planning/README.md"
+      ],
+      "lifecycle": "historical",
+      "machineRefs": [
+        "planning/index.yaml",
+        "tools/verify_release_058.py"
+      ],
+      "path": "planning/releases/0.5.8/pre-live-agent-readiness-hardening.md",
+      "release": "0.5.8",
+      "role": "implementation-plan",
+      "sourceOwner": "planning/index.yaml",
+      "status": "immutable"
+    },
+    {
+      "bytes": 813,
+      "canonicalDocumentId": null,
+      "digest": "sha256:a70718839f8698ed5079e8d1522bd12ea92fcc8358925c5ada56b35c206591ed",
+      "discoverabilityOwner": "validation/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "README.md"
+      ],
+      "lifecycle": "permanent",
+      "machineRefs": [
+        "docs/_meta/repository-document-policy.yaml"
+      ],
+      "path": "validation/README.md",
+      "release": null,
+      "role": "validation-entrypoint",
+      "sourceOwner": "validation/README.md",
+      "status": "active"
+    },
+    {
+      "bytes": 1267,
+      "canonicalDocumentId": null,
+      "digest": "sha256:171e447c3126e3f6137bdf1c3ba15617c706d2841f07bb941013685a063278ab",
+      "discoverabilityOwner": "local-suite-root",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "suite-scoped",
+      "machineRefs": [],
+      "path": "validation/agent-evals/README.md",
+      "release": null,
+      "role": "evaluation-suite-document",
+      "sourceOwner": "local-suite-root",
+      "status": "retained"
+    },
+    {
+      "bytes": 802,
+      "canonicalDocumentId": null,
+      "digest": "sha256:805d527d0d0e19ee24f7af27c52b3c180dbd75df894ee39772de98d05a11d04b",
+      "discoverabilityOwner": "local-suite-root",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "suite-scoped",
+      "machineRefs": [],
+      "path": "validation/agent-evals/results/summary.md",
+      "release": null,
+      "role": "evaluation-suite-document",
+      "sourceOwner": "local-suite-root",
+      "status": "retained"
+    },
+    {
+      "bytes": 943,
+      "canonicalDocumentId": null,
+      "digest": "sha256:903c86d4888097de12eeaba695370dc26ef5250f95074f19a01752b9f3d9e8cd",
+      "discoverabilityOwner": "local-suite-root",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "suite-scoped",
+      "machineRefs": [],
+      "path": "validation/agent-evals/scoring.md",
+      "release": null,
+      "role": "evaluation-suite-document",
+      "sourceOwner": "local-suite-root",
+      "status": "retained"
+    },
+    {
+      "bytes": 825,
+      "canonicalDocumentId": null,
+      "digest": "sha256:8bb32d91cffb7f7e7b82e93de717178adb32ec60d0146fe229a0c142b1c8789d",
+      "discoverabilityOwner": "local-suite-root",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "suite-scoped",
+      "machineRefs": [],
+      "path": "validation/agent-evals-2/README.md",
+      "release": null,
+      "role": "evaluation-suite-document",
+      "sourceOwner": "local-suite-root",
+      "status": "retained"
+    },
+    {
+      "bytes": 263,
+      "canonicalDocumentId": null,
+      "digest": "sha256:5bedf041b4253d786e873a89f627f4eb5a1f1cfc54a5dec576fe62fcf1cb87a5",
+      "discoverabilityOwner": "local-suite-root",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "suite-scoped",
+      "machineRefs": [],
+      "path": "validation/agent-evals-2/results/summary.md",
+      "release": null,
+      "role": "evaluation-suite-document",
+      "sourceOwner": "local-suite-root",
+      "status": "retained"
+    },
+    {
+      "bytes": 519,
+      "canonicalDocumentId": null,
+      "digest": "sha256:1846ae291362e586d3d0bdb2c26cff7ef81acadce3b9e2142eb9541fcef8599c",
+      "discoverabilityOwner": "local-suite-root",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "suite-scoped",
+      "machineRefs": [],
+      "path": "validation/agent-evals-3/README.md",
+      "release": null,
+      "role": "evaluation-suite-document",
+      "sourceOwner": "local-suite-root",
+      "status": "retained"
+    },
+    {
+      "bytes": 843,
+      "canonicalDocumentId": null,
+      "digest": "sha256:4c6d23b7d620cd9a7ea9906b5c20144bc790db55f063b3388ec05b7240abcf3f",
+      "discoverabilityOwner": "local-case-descriptor",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "suite-scoped",
+      "machineRefs": [],
+      "path": "validation/agent-evals-3/cases/L001/TASK.md",
+      "release": null,
+      "role": "evaluation-task",
+      "sourceOwner": "local-case-descriptor",
+      "status": "retained"
+    },
+    {
+      "bytes": 788,
+      "canonicalDocumentId": null,
+      "digest": "sha256:6b0ebe2b4987fcf94c385e7dcefe83ae074e82f1edf05cab86e3a1743c7219f7",
+      "discoverabilityOwner": "local-case-descriptor",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "suite-scoped",
+      "machineRefs": [],
+      "path": "validation/agent-evals-3/cases/L002/TASK.md",
+      "release": null,
+      "role": "evaluation-task",
+      "sourceOwner": "local-case-descriptor",
+      "status": "retained"
+    },
+    {
+      "bytes": 887,
+      "canonicalDocumentId": null,
+      "digest": "sha256:978112c2d81f0d21bc1d8bfa68d041413850a47d28986406f39e380748c1471d",
+      "discoverabilityOwner": "local-case-descriptor",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "suite-scoped",
+      "machineRefs": [],
+      "path": "validation/agent-evals-3/cases/L003/TASK.md",
+      "release": null,
+      "role": "evaluation-task",
+      "sourceOwner": "local-case-descriptor",
+      "status": "retained"
+    },
+    {
+      "bytes": 820,
+      "canonicalDocumentId": null,
+      "digest": "sha256:67d94a44350aafea222cdbcc0a7baf26fac5b15f1fbce6fb131db0823bbfb103",
+      "discoverabilityOwner": "local-case-descriptor",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "suite-scoped",
+      "machineRefs": [],
+      "path": "validation/agent-evals-3/cases/L004/TASK.md",
+      "release": null,
+      "role": "evaluation-task",
+      "sourceOwner": "local-case-descriptor",
+      "status": "retained"
+    },
+    {
+      "bytes": 785,
+      "canonicalDocumentId": null,
+      "digest": "sha256:5181cfc96aacbf488cddda3cd50f0182e8ed5e363f8a56a4cbd438c120c2b68c",
+      "discoverabilityOwner": "local-case-descriptor",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "suite-scoped",
+      "machineRefs": [],
+      "path": "validation/agent-evals-3/cases/L005/TASK.md",
+      "release": null,
+      "role": "evaluation-task",
+      "sourceOwner": "local-case-descriptor",
+      "status": "retained"
+    },
+    {
+      "bytes": 844,
+      "canonicalDocumentId": null,
+      "digest": "sha256:0e06ac4433122e4b258b6cfdfd711fcde31645da923ea7f4580709b1b669374c",
+      "discoverabilityOwner": "local-case-descriptor",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "suite-scoped",
+      "machineRefs": [],
+      "path": "validation/agent-evals-3/cases/L006/TASK.md",
+      "release": null,
+      "role": "evaluation-task",
+      "sourceOwner": "local-case-descriptor",
+      "status": "retained"
+    },
+    {
+      "bytes": 795,
+      "canonicalDocumentId": null,
+      "digest": "sha256:105d006c76b0b8d573c69dd274ccedef2fdc911034c8efd0da8a769fb84dce33",
+      "discoverabilityOwner": "local-case-descriptor",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "suite-scoped",
+      "machineRefs": [],
+      "path": "validation/agent-evals-3/cases/L007/TASK.md",
+      "release": null,
+      "role": "evaluation-task",
+      "sourceOwner": "local-case-descriptor",
+      "status": "retained"
+    },
+    {
+      "bytes": 742,
+      "canonicalDocumentId": null,
+      "digest": "sha256:a14fe02fa3271d36b5f5ba6961d6244bf2596fe9537403992d89a9d2601b2187",
+      "discoverabilityOwner": "local-case-descriptor",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "suite-scoped",
+      "machineRefs": [],
+      "path": "validation/agent-evals-3/cases/L008/TASK.md",
+      "release": null,
+      "role": "evaluation-task",
+      "sourceOwner": "local-case-descriptor",
+      "status": "retained"
+    },
+    {
+      "bytes": 790,
+      "canonicalDocumentId": null,
+      "digest": "sha256:adb51db554a065c5ea663e3ea159000993a15b280e9f4c68b829aed58d39b517",
+      "discoverabilityOwner": "local-case-descriptor",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "suite-scoped",
+      "machineRefs": [],
+      "path": "validation/agent-evals-3/cases/L009/TASK.md",
+      "release": null,
+      "role": "evaluation-task",
+      "sourceOwner": "local-case-descriptor",
+      "status": "retained"
+    },
+    {
+      "bytes": 727,
+      "canonicalDocumentId": null,
+      "digest": "sha256:3c98f259de46dc0f2a80819f90bb0cc3e2b995f85cfcf52d6235eddc8e0c319b",
+      "discoverabilityOwner": "local-case-descriptor",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "suite-scoped",
+      "machineRefs": [],
+      "path": "validation/agent-evals-3/cases/L010/TASK.md",
+      "release": null,
+      "role": "evaluation-task",
+      "sourceOwner": "local-case-descriptor",
+      "status": "retained"
+    },
+    {
+      "bytes": 711,
+      "canonicalDocumentId": null,
+      "digest": "sha256:df26a78777782520e3a4f6b57e31e5a86f340388f621e30f58fa7c72054be029",
+      "discoverabilityOwner": "local-case-descriptor",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "suite-scoped",
+      "machineRefs": [],
+      "path": "validation/agent-evals-3/cases/L011/TASK.md",
+      "release": null,
+      "role": "evaluation-task",
+      "sourceOwner": "local-case-descriptor",
+      "status": "retained"
+    },
+    {
+      "bytes": 786,
+      "canonicalDocumentId": null,
+      "digest": "sha256:fbb135dbc9345e91d443c207e5a4318348cd03bffbe0219f623392f8e659b4be",
+      "discoverabilityOwner": "local-case-descriptor",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "suite-scoped",
+      "machineRefs": [],
+      "path": "validation/agent-evals-3/cases/L012/TASK.md",
+      "release": null,
+      "role": "evaluation-task",
+      "sourceOwner": "local-case-descriptor",
+      "status": "retained"
+    },
+    {
+      "bytes": 722,
+      "canonicalDocumentId": null,
+      "digest": "sha256:ee31cc426eb7983c66b07ffa005dea073ea833e1274c8ab3b9f427d26698a148",
+      "discoverabilityOwner": "local-corpus-root",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "suite-scoped",
+      "machineRefs": [],
+      "path": "validation/corpus/hierarchical-project-1/README.md",
+      "release": null,
+      "role": "corpus-instruction",
+      "sourceOwner": "local-corpus-root",
+      "status": "retained"
+    },
+    {
+      "bytes": 642,
+      "canonicalDocumentId": null,
+      "digest": "sha256:ddf39de43777be79122c7ebf99c91fc06c3d500b64cb5993e984f6306467e9c3",
+      "discoverabilityOwner": "local-corpus-root",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [],
+      "lifecycle": "suite-scoped",
+      "machineRefs": [],
+      "path": "validation/corpus/reference-viewer-1/README.md",
+      "release": null,
+      "role": "corpus-instruction",
+      "sourceOwner": "local-corpus-root",
+      "status": "retained"
+    },
+    {
+      "bytes": 1575,
+      "canonicalDocumentId": null,
+      "digest": "sha256:a234e15ac147515b81d9aec4dd1fa17d89f51f203dad61305b8e8fb66f571166",
+      "discoverabilityOwner": "validation/evidence/<version>/verification-runs/summary.json",
+      "discoverable": true,
+      "humanAuthored": false,
+      "inboundDocumentRefs": [],
+      "lifecycle": "generated",
+      "machineRefs": [],
+      "path": "validation/evidence/0.5.6/verification-runs/run-01/report.md",
+      "release": "0.5.6",
+      "role": "verification-run-report",
+      "sourceOwner": "validation/evidence/<version>/verification-runs/summary.json",
+      "status": "generated"
+    },
+    {
+      "bytes": 1575,
+      "canonicalDocumentId": null,
+      "digest": "sha256:cea3b8f3f43af0c37db77dacdf4985f3025ca3fba221a8b52b9d1210b0b44646",
+      "discoverabilityOwner": "validation/evidence/<version>/verification-runs/summary.json",
+      "discoverable": true,
+      "humanAuthored": false,
+      "inboundDocumentRefs": [],
+      "lifecycle": "generated",
+      "machineRefs": [],
+      "path": "validation/evidence/0.5.6/verification-runs/run-02/report.md",
+      "release": "0.5.6",
+      "role": "verification-run-report",
+      "sourceOwner": "validation/evidence/<version>/verification-runs/summary.json",
+      "status": "generated"
+    },
+    {
+      "bytes": 1575,
+      "canonicalDocumentId": null,
+      "digest": "sha256:becf5fcd4f6b1b93d376858cf26c80b67f50fa0e7a1a2fd82447922d91611a91",
+      "discoverabilityOwner": "validation/evidence/<version>/verification-runs/summary.json",
+      "discoverable": true,
+      "humanAuthored": false,
+      "inboundDocumentRefs": [],
+      "lifecycle": "generated",
+      "machineRefs": [],
+      "path": "validation/evidence/0.5.6/verification-runs/run-03/report.md",
+      "release": "0.5.6",
+      "role": "verification-run-report",
+      "sourceOwner": "validation/evidence/<version>/verification-runs/summary.json",
+      "status": "generated"
+    },
+    {
+      "bytes": 1774,
+      "canonicalDocumentId": null,
+      "digest": "sha256:f3e889908bb9d63f11e013768b96beb6df4cceef0cc38b10063b2ebfe07d4586",
+      "discoverabilityOwner": "validation/evidence/<version>/verification-runs/summary.json",
+      "discoverable": true,
+      "humanAuthored": false,
+      "inboundDocumentRefs": [],
+      "lifecycle": "generated",
+      "machineRefs": [],
+      "path": "validation/evidence/0.5.7/verification-runs/run-01/report.md",
+      "release": "0.5.7",
+      "role": "verification-run-report",
+      "sourceOwner": "validation/evidence/<version>/verification-runs/summary.json",
+      "status": "generated"
+    },
+    {
+      "bytes": 1774,
+      "canonicalDocumentId": null,
+      "digest": "sha256:da024ec2ca3e3c45b34b74cf74f10b3a3b6602ed8cf3917e607c9d5bcdd4f5d0",
+      "discoverabilityOwner": "validation/evidence/<version>/verification-runs/summary.json",
+      "discoverable": true,
+      "humanAuthored": false,
+      "inboundDocumentRefs": [],
+      "lifecycle": "generated",
+      "machineRefs": [],
+      "path": "validation/evidence/0.5.7/verification-runs/run-02/report.md",
+      "release": "0.5.7",
+      "role": "verification-run-report",
+      "sourceOwner": "validation/evidence/<version>/verification-runs/summary.json",
+      "status": "generated"
+    },
+    {
+      "bytes": 1774,
+      "canonicalDocumentId": null,
+      "digest": "sha256:f369a4bcfafe850abd6280ddfd2f9a3cdc908e58fd7f77e06c4ecee3eb62b95e",
+      "discoverabilityOwner": "validation/evidence/<version>/verification-runs/summary.json",
+      "discoverable": true,
+      "humanAuthored": false,
+      "inboundDocumentRefs": [],
+      "lifecycle": "generated",
+      "machineRefs": [],
+      "path": "validation/evidence/0.5.7/verification-runs/run-03/report.md",
+      "release": "0.5.7",
+      "role": "verification-run-report",
+      "sourceOwner": "validation/evidence/<version>/verification-runs/summary.json",
+      "status": "generated"
+    },
+    {
+      "bytes": 1774,
+      "canonicalDocumentId": null,
+      "digest": "sha256:0065f849fa1d6b9b7149b2a41122c96191f76de7a9b1102e40b39723d6b3e30c",
+      "discoverabilityOwner": "validation/evidence/<version>/verification-runs/summary.json",
+      "discoverable": true,
+      "humanAuthored": false,
+      "inboundDocumentRefs": [],
+      "lifecycle": "generated",
+      "machineRefs": [],
+      "path": "validation/evidence/0.5.7/verification-runs/run-04/report.md",
+      "release": "0.5.7",
+      "role": "verification-run-report",
+      "sourceOwner": "validation/evidence/<version>/verification-runs/summary.json",
+      "status": "generated"
+    },
+    {
+      "bytes": 1774,
+      "canonicalDocumentId": null,
+      "digest": "sha256:21a1a5f53e1c37b22f9ead289685e65d5efd881e8c00fa47920b7b61f45db2a0",
+      "discoverabilityOwner": "validation/evidence/<version>/verification-runs/summary.json",
+      "discoverable": true,
+      "humanAuthored": false,
+      "inboundDocumentRefs": [],
+      "lifecycle": "generated",
+      "machineRefs": [],
+      "path": "validation/evidence/0.5.7/verification-runs/run-05/report.md",
+      "release": "0.5.7",
+      "role": "verification-run-report",
+      "sourceOwner": "validation/evidence/<version>/verification-runs/summary.json",
+      "status": "generated"
+    },
+    {
+      "bytes": 1626,
+      "canonicalDocumentId": null,
+      "digest": "sha256:6e3b96b00edbb31abdc41aab7154c6860bf9d897c534b39261bf99ea9ed6fe1f",
+      "discoverabilityOwner": "validation/evidence/<version>/verification-runs/summary.json",
+      "discoverable": true,
+      "humanAuthored": false,
+      "inboundDocumentRefs": [],
+      "lifecycle": "generated",
+      "machineRefs": [],
+      "path": "validation/evidence/0.5.8/verification-runs/run-01/report.md",
+      "release": "0.5.8",
+      "role": "verification-run-report",
+      "sourceOwner": "validation/evidence/<version>/verification-runs/summary.json",
+      "status": "generated"
+    },
+    {
+      "bytes": 1626,
+      "canonicalDocumentId": null,
+      "digest": "sha256:324f8c14ea2d8d17bc4776f0467cbc5aa51cebd862e966ed8a844f57a6057b31",
+      "discoverabilityOwner": "validation/evidence/<version>/verification-runs/summary.json",
+      "discoverable": true,
+      "humanAuthored": false,
+      "inboundDocumentRefs": [],
+      "lifecycle": "generated",
+      "machineRefs": [],
+      "path": "validation/evidence/0.5.8/verification-runs/run-02/report.md",
+      "release": "0.5.8",
+      "role": "verification-run-report",
+      "sourceOwner": "validation/evidence/<version>/verification-runs/summary.json",
+      "status": "generated"
+    },
+    {
+      "bytes": 1626,
+      "canonicalDocumentId": null,
+      "digest": "sha256:36ada518fb80881d4903253fad2db60cd22217d5c55440f9a895f68502f31830",
+      "discoverabilityOwner": "validation/evidence/<version>/verification-runs/summary.json",
+      "discoverable": true,
+      "humanAuthored": false,
+      "inboundDocumentRefs": [],
+      "lifecycle": "generated",
+      "machineRefs": [],
+      "path": "validation/evidence/0.5.8/verification-runs/run-03/report.md",
+      "release": "0.5.8",
+      "role": "verification-run-report",
+      "sourceOwner": "validation/evidence/<version>/verification-runs/summary.json",
+      "status": "generated"
+    },
+    {
+      "bytes": 1626,
+      "canonicalDocumentId": null,
+      "digest": "sha256:b908306b0f9820c939661ba0bb002d4442f30aed2d890b94c59ce3cc6c50b2b9",
+      "discoverabilityOwner": "validation/evidence/<version>/verification-runs/summary.json",
+      "discoverable": true,
+      "humanAuthored": false,
+      "inboundDocumentRefs": [],
+      "lifecycle": "generated",
+      "machineRefs": [],
+      "path": "validation/evidence/0.5.8/verification-runs/run-04/report.md",
+      "release": "0.5.8",
+      "role": "verification-run-report",
+      "sourceOwner": "validation/evidence/<version>/verification-runs/summary.json",
+      "status": "generated"
+    },
+    {
+      "bytes": 956,
+      "canonicalDocumentId": null,
+      "digest": "sha256:2d4896f3ad62e33f4b3f794cd48dc641db22c04864081a2256975f70c6082b38",
+      "discoverabilityOwner": "validation/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/README.md"
+      ],
+      "lifecycle": "permanent",
+      "machineRefs": [
+        "docs/_meta/repository-document-policy.yaml"
+      ],
+      "path": "validation/evidence/README.md",
+      "release": null,
+      "role": "validation-entrypoint",
+      "sourceOwner": "validation/README.md",
+      "status": "active"
+    },
+    {
+      "bytes": 758,
+      "canonicalDocumentId": null,
+      "digest": "sha256:fc2d4785bef24c1b4cd8af8112555007cedfdc21b36ed09f420c29fa0bd7f93f",
+      "discoverabilityOwner": "validation/evidence/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/evidence/README.md"
+      ],
+      "lifecycle": "historical",
+      "machineRefs": [
+        "tools/docs/release_pipeline.py"
+      ],
+      "path": "validation/evidence/reviews/accessibility-review.md",
+      "release": null,
+      "role": "evidence-review",
+      "sourceOwner": "validation/evidence/README.md",
+      "status": "retained"
+    },
+    {
+      "bytes": 874,
+      "canonicalDocumentId": null,
+      "digest": "sha256:4053325e607797fdf00b6c61a2940b18b1529713961cae1961112f1639896fa4",
+      "discoverabilityOwner": "validation/evidence/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/evidence/README.md"
+      ],
+      "lifecycle": "historical",
+      "machineRefs": [
+        "tools/docs/release_pipeline.py"
+      ],
+      "path": "validation/evidence/reviews/architecture-review.md",
+      "release": null,
+      "role": "evidence-review",
+      "sourceOwner": "validation/evidence/README.md",
+      "status": "retained"
+    },
+    {
+      "bytes": 1123,
+      "canonicalDocumentId": null,
+      "digest": "sha256:e78c0969a1113fe1833df660af5f4daf495f5bae31b33dc5197c95a3e30423c3",
+      "discoverabilityOwner": "validation/evidence/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/evidence/README.md"
+      ],
+      "lifecycle": "historical",
+      "machineRefs": [
+        "tools/docs/release_pipeline.py"
+      ],
+      "path": "validation/evidence/reviews/compatibility-review.md",
+      "release": null,
+      "role": "evidence-review",
+      "sourceOwner": "validation/evidence/README.md",
+      "status": "retained"
+    },
+    {
+      "bytes": 769,
+      "canonicalDocumentId": null,
+      "digest": "sha256:53dafdcad326c2ed01800b10b9f4ed1e0b3fcf0f4a06716bb565a82465a0a3dd",
+      "discoverabilityOwner": "validation/evidence/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/evidence/README.md"
+      ],
+      "lifecycle": "historical",
+      "machineRefs": [
+        "tools/docs/release_pipeline.py"
+      ],
+      "path": "validation/evidence/reviews/vendor-neutrality-review.md",
+      "release": null,
+      "role": "evidence-review",
+      "sourceOwner": "validation/evidence/README.md",
+      "status": "retained"
+    },
+    {
+      "bytes": 823,
+      "canonicalDocumentId": null,
+      "digest": "sha256:e2ec650e4357647a668fd18179c29db01652c916498dc493aa062d3bcce13bcd",
+      "discoverabilityOwner": "validation/evidence/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/evidence/README.md"
+      ],
+      "lifecycle": "historical",
+      "machineRefs": [
+        "tools/docs/release_pipeline.py"
+      ],
+      "path": "validation/evidence/reviews/visual-review.md",
+      "release": null,
+      "role": "evidence-review",
+      "sourceOwner": "validation/evidence/README.md",
+      "status": "retained"
+    },
+    {
+      "bytes": 617,
+      "canonicalDocumentId": null,
+      "digest": "sha256:f264a1046ecefc72632158e6a1d67617e2be25fbc18e0b419652db7d2deb7905",
+      "discoverabilityOwner": "validation/releases/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.0/README.md",
+      "release": "0.5.0",
+      "role": "validation-release-index",
+      "sourceOwner": "validation/releases/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 1034,
+      "canonicalDocumentId": null,
+      "digest": "sha256:3928df488f991361f00ab5085c87b4323eefe323668c89bc6a50c7164f13ea7a",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.0/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.0/migration.md",
+      "release": "0.5.0",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 311,
+      "canonicalDocumentId": null,
+      "digest": "sha256:5ba70ff73ad7c7c5c9b996cdc06ceafd005ed5ccfa17c8dbf4497b789adad8eb",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.0/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.0/pass-01-canonicalization.md",
+      "release": "0.5.0",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 192,
+      "canonicalDocumentId": null,
+      "digest": "sha256:eca9b26a72a7ea21e56a78c990ff9676bdd15429e3f23c2d2e0bc3297b4f5792",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.0/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.0/pass-02-agent-compiler.md",
+      "release": "0.5.0",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 189,
+      "canonicalDocumentId": null,
+      "digest": "sha256:5221e67f095f6af05e0cbbed1c478e112fd7fb55184dec78b3d44e7024979497",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.0/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.0/pass-03-publication-and-conformance.md",
+      "release": "0.5.0",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 991,
+      "canonicalDocumentId": null,
+      "digest": "sha256:42cd53334bfb35e8549e4d96db6b66e1611537aa9b7d7ec182de90a5b6a9f65f",
+      "discoverabilityOwner": "validation/releases/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.1/README.md",
+      "release": "0.5.1",
+      "role": "validation-release-index",
+      "sourceOwner": "validation/releases/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 929,
+      "canonicalDocumentId": null,
+      "digest": "sha256:a70982abf0b6ee8ead25cef2898079d222017a364addb6597b36d2c0aae8a4be",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.1/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.1/agent-retrieval.md",
+      "release": "0.5.1",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 1270,
+      "canonicalDocumentId": null,
+      "digest": "sha256:c405aa6c3d4e81854c5feacd4c31694414ea69f13ec97ce31bd56f193d56c905",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.1/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.1/authoring-visual-review.md",
+      "release": "0.5.1",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 349,
+      "canonicalDocumentId": null,
+      "digest": "sha256:3dbc9ad50991f2bc51c1924be573ab1c8a46e6128b1e1c479bbe010f7d411b54",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.1/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.1/documentation-compiler.md",
+      "release": "0.5.1",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 1010,
+      "canonicalDocumentId": null,
+      "digest": "sha256:36ae7ea67bf2cc3b3e0e70afff68446bafeb55e0fd4550a4f6cb95bb43aec626",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.1/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [
+        "tools/docs/aixem_docs.py"
+      ],
+      "path": "validation/releases/0.5.1/pass-01-authoring-contract-closure.md",
+      "release": "0.5.1",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 1442,
+      "canonicalDocumentId": null,
+      "digest": "sha256:73e83e862d9934e644331b5c909f557a04cf1562b44492ee6c9d9a9fed1735ca",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.1/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [
+        "tools/docs/aixem_docs.py"
+      ],
+      "path": "validation/releases/0.5.1/pass-02-agent-usability-and-drawing-quality.md",
+      "release": "0.5.1",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 947,
+      "canonicalDocumentId": null,
+      "digest": "sha256:8877d4340a2864df0097959b60f47ace75238e4a4d0bc938df4e80c377d5ccb1",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.1/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [
+        "tools/docs/aixem_docs.py"
+      ],
+      "path": "validation/releases/0.5.1/pass-03-release-integrity-and-regression.md",
+      "release": "0.5.1",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 358,
+      "canonicalDocumentId": null,
+      "digest": "sha256:8a289cddbd1cc30ab1d521135c1f51142be812918e56e54efab6e440c9e4181a",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.1/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.1/release-integrity.md",
+      "release": "0.5.1",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 204,
+      "canonicalDocumentId": null,
+      "digest": "sha256:2383198e2543858fb28e3b34b0339a4380165efcd29aa9191f9fe1a3cb86eccc",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.1/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.1/requirement-traceability.md",
+      "release": "0.5.1",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 639,
+      "canonicalDocumentId": null,
+      "digest": "sha256:4b24cc638cc982efa0d304e4b8a0456288a88e699e0570d7b9e4dd75468a3b69",
+      "discoverabilityOwner": "validation/releases/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.2/README.md",
+      "release": "0.5.2",
+      "role": "validation-release-index",
+      "sourceOwner": "validation/releases/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 1942,
+      "canonicalDocumentId": null,
+      "digest": "sha256:b29b2719c1d95c031368dbc831732e821b9a33f3d430d7eca3658e831d5f76fa",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.2/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.2/implementation-matrix.md",
+      "release": "0.5.2",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 409,
+      "canonicalDocumentId": null,
+      "digest": "sha256:e8d3381d79969043c30e438f5deedebda7359a01340b3c8bddecc74af7057a8b",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.2/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.2/multi-unit-capability.md",
+      "release": "0.5.2",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 892,
+      "canonicalDocumentId": null,
+      "digest": "sha256:da1f238713a90583641bce560b4800e396ef471c7c5daffcc73bc141c1365d1c",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.2/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.2/static-2d-block.md",
+      "release": "0.5.2",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 3893,
+      "canonicalDocumentId": null,
+      "digest": "sha256:0b27b2b480e9cc0684b386f4d2903ece09f9935b757b8ef8f43eb881c1871708",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.2/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.2/symbol-expressiveness.md",
+      "release": "0.5.2",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 684,
+      "canonicalDocumentId": null,
+      "digest": "sha256:f50a8945e619fc9db7250adc460d50aa34e416afa6330a3f813ae24b25ab524c",
+      "discoverabilityOwner": "validation/releases/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.3/README.md",
+      "release": "0.5.3",
+      "role": "validation-release-index",
+      "sourceOwner": "validation/releases/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 1810,
+      "canonicalDocumentId": null,
+      "digest": "sha256:5dfa0e3689cd90e03d4b7b6c61aa3d8130f334cdb0855f2e9cf8a19e443da232",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.3/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.3/implementation-matrix.md",
+      "release": "0.5.3",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 975,
+      "canonicalDocumentId": null,
+      "digest": "sha256:dc734c29e3acd5bc08b94f09e556d47a15308c2e35c37bfcace1715561c969ee",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.3/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.3/pass-01-semantic-structural.md",
+      "release": "0.5.3",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 1032,
+      "canonicalDocumentId": null,
+      "digest": "sha256:00c1f14d2c85676cd92e232301ba1279a69b3591c18c8b14360e9b5b5f14b16e",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.3/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.3/pass-02-rendering-agent.md",
+      "release": "0.5.3",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 1070,
+      "canonicalDocumentId": null,
+      "digest": "sha256:2b5ff7fab624fcb3cef68e7b0927d37bed09f79167da77c4d7fc2b8681eba656",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.3/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.3/pass-03-regression-claim-integrity.md",
+      "release": "0.5.3",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 684,
+      "canonicalDocumentId": null,
+      "digest": "sha256:cddf1d0cbb875831bc368f1fde44a2133ff80d1e480bec68fbe5411ebc4e9e4f",
+      "discoverabilityOwner": "validation/releases/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.4/README.md",
+      "release": "0.5.4",
+      "role": "validation-release-index",
+      "sourceOwner": "validation/releases/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 1633,
+      "canonicalDocumentId": null,
+      "digest": "sha256:67071fc60f1580d00719c0a8142cc558993f90704b66bddd99c95a37a9e07214",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.4/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.4/implementation-matrix.md",
+      "release": "0.5.4",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 869,
+      "canonicalDocumentId": null,
+      "digest": "sha256:f6725d9567920da19788807860b06dfb50a5872281f90e9e440e91f95994f3c7",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.4/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.4/pass-01-contract-structure.md",
+      "release": "0.5.4",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 919,
+      "canonicalDocumentId": null,
+      "digest": "sha256:ee6a23867f70b97849d8c149182414dc4a895afa6494fb60a07eb5ae9b88d148",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.4/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.4/pass-02-browser-security.md",
+      "release": "0.5.4",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 1274,
+      "canonicalDocumentId": null,
+      "digest": "sha256:1ec8819fb30dce0a5d37ed27f83ba6a95c83cb71c152b856e8db7c7d4aa59b41",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.4/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.4/pass-03-regression-determinism.md",
+      "release": "0.5.4",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 643,
+      "canonicalDocumentId": null,
+      "digest": "sha256:05a259741bf225d6b555482b0d90c988dbc6e8a9388b4e4e55bc52e2b6779464",
+      "discoverabilityOwner": "validation/releases/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.5/README.md",
+      "release": "0.5.5",
+      "role": "validation-release-index",
+      "sourceOwner": "validation/releases/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 2036,
+      "canonicalDocumentId": null,
+      "digest": "sha256:000a523544fe142c0b32724c40ffda42b38de6bace9355671ba95400fa4f925d",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.5/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.5/implementation-matrix.md",
+      "release": "0.5.5",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 1111,
+      "canonicalDocumentId": null,
+      "digest": "sha256:80f7d8b1202b5ef0eb27a00e8b80ecba7ffc745f4c9498fdde0b4e0d42889474",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.5/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.5/pass-01-contract-authority.md",
+      "release": "0.5.5",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 1090,
+      "canonicalDocumentId": null,
+      "digest": "sha256:6e58cc00855aab7294881f510892e3343402226b86a8ba414b6beb5102b65bb8",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.5/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.5/pass-02-repair-scope.md",
+      "release": "0.5.5",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 1679,
+      "canonicalDocumentId": null,
+      "digest": "sha256:2d2a4f790e9ea39339f9781ca693c3a42ac3c6366705a49d3d0e42acdf5e48f3",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.5/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.5/pass-03-regression-evaluations.md",
+      "release": "0.5.5",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 532,
+      "canonicalDocumentId": null,
+      "digest": "sha256:0a34350fc1e50c7c68673ad028cec01417937cc592f842fd3b976bb140fc3170",
+      "discoverabilityOwner": "validation/releases/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.6/README.md",
+      "release": "0.5.6",
+      "role": "validation-release-index",
+      "sourceOwner": "validation/releases/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 2696,
+      "canonicalDocumentId": null,
+      "digest": "sha256:ebd9dd55a9865d737963c858c2d5178268a7d60f9ade52cdcec7408459b87927",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.6/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.6/final-validation.md",
+      "release": "0.5.6",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 3037,
+      "canonicalDocumentId": null,
+      "digest": "sha256:e9001d8cbf367fd025069c8b291451bfb2df33ec9f25a671403d6ce51752677e",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.6/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.6/implementation-matrix.md",
+      "release": "0.5.6",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 2697,
+      "canonicalDocumentId": null,
+      "digest": "sha256:5226e334833cfae3fce53bf0e19ac17795b954ab09852312feaeb4a55a203087",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.6/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.6/implementation-status.md",
+      "release": "0.5.6",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 461,
+      "canonicalDocumentId": null,
+      "digest": "sha256:cc4dc8f685aab8c01824ce6b162a9feb1cd845e599cb68fac96f3e36ff5ec6a7",
+      "discoverabilityOwner": "validation/releases/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.7/README.md",
+      "release": "0.5.7",
+      "role": "validation-release-index",
+      "sourceOwner": "validation/releases/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 2325,
+      "canonicalDocumentId": null,
+      "digest": "sha256:6d12228ab3040995195ceb6d22b695a88ea39fd141a9e190cabc2be9e6173a42",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.7/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [
+        "docs/_meta/artifact-ownership.yaml",
+        "docs/_meta/artifacts.yaml",
+        "tools/verify_release_057.py"
+      ],
+      "path": "validation/releases/0.5.7/final-validation.md",
+      "release": "0.5.7",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 2910,
+      "canonicalDocumentId": null,
+      "digest": "sha256:7eba815afcc55429c1696df228c73393237207da6f0e9451585893e4968af49d",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.7/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [
+        "tools/verify_release_057.py"
+      ],
+      "path": "validation/releases/0.5.7/implementation-matrix.md",
+      "release": "0.5.7",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 486,
+      "canonicalDocumentId": null,
+      "digest": "sha256:1a28591b01b53f510530c0da93d3eb65af2664641012f452f5dace646e023c46",
+      "discoverabilityOwner": "validation/releases/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "README.md",
+        "validation/releases/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [],
+      "path": "validation/releases/0.5.8/README.md",
+      "release": "0.5.8",
+      "role": "validation-release-index",
+      "sourceOwner": "validation/releases/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 96,
+      "canonicalDocumentId": null,
+      "digest": "sha256:9cb977bd342ea4d81bc04fe6f958dd4657e642cab729eadfca43eb1383044833",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.8/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [
+        "tools/verify_release_058.py"
+      ],
+      "path": "validation/releases/0.5.8/final-validation.md",
+      "release": "0.5.8",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 157,
+      "canonicalDocumentId": null,
+      "digest": "sha256:983a6071a0baaa0440105a217efa00908604415c3976b6981151a1c80db7ed5c",
+      "discoverabilityOwner": "validation/releases/<version>/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/releases/0.5.8/README.md"
+      ],
+      "lifecycle": "release-scoped",
+      "machineRefs": [
+        "tools/verify_release_058.py"
+      ],
+      "path": "validation/releases/0.5.8/implementation-matrix.md",
+      "release": "0.5.8",
+      "role": "validation-report",
+      "sourceOwner": "validation/releases/<version>/README.md",
+      "status": "immutable"
+    },
+    {
+      "bytes": 455,
+      "canonicalDocumentId": null,
+      "digest": "sha256:9956502d00c63a9d171a33b701616ac6905e73ae51c49d1e70c6e0f916b9f374",
+      "discoverabilityOwner": "validation/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "validation/README.md",
+        "validation/evidence/README.md"
+      ],
+      "lifecycle": "permanent",
+      "machineRefs": [
+        "docs/_meta/repository-document-policy.yaml"
+      ],
+      "path": "validation/releases/README.md",
+      "release": null,
+      "role": "validation-entrypoint",
+      "sourceOwner": "validation/README.md",
+      "status": "active"
+    }
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "release": "AIXEM-SRP-0.5.8-2026-08-12",
+  "schema": "https://schemas.aixem.org/documentation/repository-document-inventory/1",
+  "summary": {
+    "byRole": {
+      "canonical-document": 143,
+      "corpus-instruction": 2,
+      "evaluation-suite-document": 6,
+      "evaluation-task": 12,
+      "evidence-review": 5,
+      "example-local-instruction": 10,
+      "implementation-plan": 9,
+      "legacy-explanation": 1,
+      "planning-entrypoint": 1,
+      "root-entrypoint": 7,
+      "validation-entrypoint": 3,
+      "validation-release-index": 9,
+      "validation-report": 35,
+      "verification-run-report": 12
+    },
+    "discoverable": 255,
+    "humanAuthored": 243,
+    "markdownFiles": 255,
+    "orphans": 0,
+    "unknownRoles": 0
+  }
+}

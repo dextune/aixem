@@ -1,0 +1,105 @@
+schema: https://schemas.aixem.org/documentation/task-route/1
+formatVersion: '1.0'
+kind: simple
+id: route-nets
+intent: route-nets
+aliases:
+- route nets
+- connect wires
+- wire routing
+- orthogonal routing
+- auto route
+summary: Materialize existing semantic nets as orthogonal, explicit, unambiguous route
+  geometry
+budget:
+  max_documents: 7
+  max_bytes: 98304
+  max_depth: 3
+expected_inputs:
+- closed semantic nets
+- resolved component placements and ports
+- routing constraints
+steps:
+- order: 1
+  document: AIXEM-CONCEPT-NET-001
+  section: overview
+  purpose: Confirm semantic net membership and endpoint closure.
+  required: true
+- order: 2
+  document: AIXEM-ROUTE-NETS-001
+  section: 0-5-1-serialization-and-closure-example
+  purpose: Resolve semantic endpoints into explicit layout paths.
+  required: true
+- order: 3
+  document: AIXEM-ROUTE-COOKBOOK-001
+  section: straight-two-terminal-route
+  purpose: Choose the topology-specific routing recipe.
+  required: true
+- order: 4
+  document: AIXEM-SCHEM-GRID-001
+  section: operational-rules
+  purpose: Apply active grid authority to every free route bend.
+  required: true
+- order: 5
+  document: AIXEM-ROUTE-CONSTRAINT-001
+  section: route-constraints
+  purpose: Apply obstacle, clearance, endpoint, and route-quality constraints.
+  required: true
+- order: 6
+  document: AIXEM-ROUTE-CROSSING-001
+  section: 0-5-1-complete-branch-and-crossing-pattern
+  purpose: Represent branches and crossings without inferred connectivity.
+  required: true
+- order: 7
+  document: AIXEM-FORMAT-AIXLAYOUT-001
+  section: connection-fields
+  purpose: Serialize connections, paths, bends, labels, and junctions.
+  required: true
+completion:
+- Every connection names an existing semantic net
+- Every semantic endpoint is routed
+- Every free segment is orthogonal and grid-aligned
+- Every branch join is explicit
+- Crossings remain semantically and visually unambiguous
+expected_outputs:
+- updated .aixlayout.json connections
+- route closure evidence
+- deterministic routed render
+validators:
+- schematic.route_closure
+- schematic.orthogonal
+- schematic.junction
+- schematic.renderer_contract
+- agent.diagnostics
+- agent.change_scope
+writes:
+  authority:
+  - layout
+  - project
+  artifacts:
+  - '**/*.aixlayout.json'
+  - '**/*.aixproj.json'
+  derived:
+  - render/**
+  - evidence/**
+  prohibited:
+  - render/**
+  - evidence/**
+  - '**/viewer.html'
+  - '**/workbench.html'
+  - '**/*.svg'
+  - '**/resolved-scene.json'
+  - '**/resolved-project-scene.json'
+  - '**/viewer-model.json'
+  - '**/render-manifest.json'
+  - '**/project-validation.json'
+  constraints:
+  - pattern: '**/*.aixproj.json'
+    policy: digest-only
+remediation:
+  acceptsDiagnostics:
+  - AIXEM-DIAG-ROUTE-ENDPOINT-CLOSURE
+  - AIXEM-DIAG-ROUTE-NON-ORTHOGONAL
+  - AIXEM-DIAG-ROUTE-VIA-OFF-GRID
+  - AIXEM-DIAG-ROUTE-ZERO-LENGTH
+  - AIXEM-DIAG-JUNCTION-AMBIGUOUS

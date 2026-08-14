@@ -1,0 +1,47 @@
+{
+  "cycles": [
+    {
+      "cycle": 1,
+      "durationSeconds": 537.889124,
+      "evidence": "run-01/summary.json",
+      "status": "PASS"
+    },
+    {
+      "cycle": 2,
+      "durationSeconds": 572.296757,
+      "evidence": "run-02/summary.json",
+      "status": "PASS"
+    },
+    {
+      "cycle": 3,
+      "durationSeconds": 537.962173,
+      "evidence": "run-03/summary.json",
+      "status": "PASS"
+    },
+    {
+      "cycle": 4,
+      "durationSeconds": 529.730931,
+      "evidence": "run-04/summary.json",
+      "status": "PASS"
+    },
+    {
+      "cycle": 5,
+      "durationSeconds": 526.905467,
+      "evidence": "run-05/summary.json",
+      "status": "PASS"
+    }
+  ],
+  "documentationGovernancePlanComplete": true,
+  "engineeringImplementationComplete": true,
+  "engineeringVerificationPasses": 5,
+  "formatVersion": "1.0",
+  "fullPlanDefinitionOfDone": true,
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "inheritedExternalTierBExecuted": false,
+  "inheritedLiveClaimAuthorized": false,
+  "release": "AIXEM-SRP-0.5.7-2026-08-12",
+  "requiredEngineeringVerificationPasses": 5,
+  "schema": "https://schemas.aixem.org/validation/document-governance-verification-summary/1",
+  "status": "PASS",
+  "valid": true
+}

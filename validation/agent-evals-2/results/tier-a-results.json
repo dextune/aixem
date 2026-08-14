@@ -1,0 +1,325 @@
+{
+  "cases": [
+    {
+      "entryRoute": "create-symbol",
+      "executionMode": "deterministic-harness-replay",
+      "expectedInitialDiagnostics": [],
+      "id": "A001",
+      "iterations": 1,
+      "liveExternalAgentExecuted": false,
+      "missingExpectedDiagnostics": [],
+      "mutation": null,
+      "observedInitialDiagnostics": [],
+      "passConditions": {
+        "checkPassedAfterRepair": true,
+        "closePassed": true,
+        "expectedInitialDiagnosticsObserved": true,
+        "liveClaimFalse": true,
+        "renderDeterministic": true,
+        "zeroGeneratedOutputEdits": true,
+        "zeroScopeViolations": true
+      },
+      "recordDigest": "sha256:263022c509498af80549d3bd50374ecb81924cafbb1084578e4300e969a42ca6",
+      "retainedRunRecord": "runs/A001-authoring-run-record.json",
+      "status": "pass",
+      "title": "New two-pin passive from task intent"
+    },
+    {
+      "entryRoute": "create-symbol",
+      "executionMode": "deterministic-harness-replay",
+      "expectedInitialDiagnostics": [],
+      "id": "A002",
+      "iterations": 1,
+      "liveExternalAgentExecuted": false,
+      "missingExpectedDiagnostics": [],
+      "mutation": null,
+      "observedInitialDiagnostics": [],
+      "passConditions": {
+        "checkPassedAfterRepair": true,
+        "closePassed": true,
+        "expectedInitialDiagnosticsObserved": true,
+        "liveClaimFalse": true,
+        "renderDeterministic": true,
+        "zeroGeneratedOutputEdits": true,
+        "zeroScopeViolations": true
+      },
+      "recordDigest": "sha256:b91836dbbee91de94c9d405c06616c0af9a88d5fb92f7222c1857103a9ecd516",
+      "retainedRunRecord": "runs/A002-authoring-run-record.json",
+      "status": "pass",
+      "title": "Six-pin connector"
+    },
+    {
+      "entryRoute": "create-symbol",
+      "executionMode": "deterministic-harness-replay",
+      "expectedInitialDiagnostics": [],
+      "id": "A003",
+      "iterations": 1,
+      "liveExternalAgentExecuted": false,
+      "missingExpectedDiagnostics": [],
+      "mutation": null,
+      "observedInitialDiagnostics": [],
+      "passConditions": {
+        "checkPassedAfterRepair": true,
+        "closePassed": true,
+        "expectedInitialDiagnosticsObserved": true,
+        "liveClaimFalse": true,
+        "renderDeterministic": true,
+        "zeroGeneratedOutputEdits": true,
+        "zeroScopeViolations": true
+      },
+      "recordDigest": "sha256:d5ddc9e90bd61280521c406a4672b7b5a91b6c82705f9b3328ef60fa3ea7f0b3",
+      "retainedRunRecord": "runs/A003-authoring-run-record.json",
+      "status": "pass",
+      "title": "Twelve-pin controller"
+    },
+    {
+      "entryRoute": "create-symbol",
+      "executionMode": "deterministic-harness-replay",
+      "expectedInitialDiagnostics": [],
+      "id": "A004",
+      "iterations": 1,
+      "liveExternalAgentExecuted": false,
+      "missingExpectedDiagnostics": [],
+      "mutation": null,
+      "observedInitialDiagnostics": [],
+      "passConditions": {
+        "checkPassedAfterRepair": true,
+        "closePassed": true,
+        "expectedInitialDiagnosticsObserved": true,
+        "liveClaimFalse": true,
+        "renderDeterministic": true,
+        "zeroGeneratedOutputEdits": true,
+        "zeroScopeViolations": true
+      },
+      "recordDigest": "sha256:4de58926ec3001cea38fcdac288071f03dca6a5768b1e2954ebecf60376258b8",
+      "retainedRunRecord": "runs/A004-authoring-run-record.json",
+      "status": "pass",
+      "title": "Parameter and variant use"
+    },
+    {
+      "entryRoute": "route-nets",
+      "executionMode": "deterministic-harness-replay",
+      "expectedInitialDiagnostics": [],
+      "id": "A005",
+      "iterations": 1,
+      "liveExternalAgentExecuted": false,
+      "missingExpectedDiagnostics": [],
+      "mutation": null,
+      "observedInitialDiagnostics": [],
+      "passConditions": {
+        "checkPassedAfterRepair": true,
+        "closePassed": true,
+        "expectedInitialDiagnosticsObserved": true,
+        "liveClaimFalse": true,
+        "renderDeterministic": true,
+        "zeroGeneratedOutputEdits": true,
+        "zeroScopeViolations": true
+      },
+      "recordDigest": "sha256:87dda913e899b6cd480741cbbea7ece5f7c07a19bef1da27eb837daf95ec08a1",
+      "retainedRunRecord": "runs/A005-authoring-run-record.json",
+      "status": "pass",
+      "title": "Three-terminal net"
+    },
+    {
+      "entryRoute": "compose-project",
+      "executionMode": "deterministic-harness-replay",
+      "expectedInitialDiagnostics": [],
+      "id": "A006",
+      "iterations": 1,
+      "liveExternalAgentExecuted": false,
+      "missingExpectedDiagnostics": [],
+      "mutation": null,
+      "observedInitialDiagnostics": [],
+      "passConditions": {
+        "checkPassedAfterRepair": true,
+        "closePassed": true,
+        "expectedInitialDiagnosticsObserved": true,
+        "liveClaimFalse": true,
+        "renderDeterministic": true,
+        "zeroGeneratedOutputEdits": true,
+        "zeroScopeViolations": true
+      },
+      "recordDigest": "sha256:d1e431b7c315ab5eec12be5721a101f01bb862610d6b8d712faaecc4fc89e1f4",
+      "retainedRunRecord": "runs/A006-authoring-run-record.json",
+      "status": "pass",
+      "title": "Hierarchical two-sheet composition"
+    },
+    {
+      "entryRoute": "compose-project",
+      "executionMode": "deterministic-harness-replay",
+      "expectedInitialDiagnostics": [],
+      "id": "A007",
+      "iterations": 1,
+      "liveExternalAgentExecuted": false,
+      "missingExpectedDiagnostics": [],
+      "mutation": null,
+      "observedInitialDiagnostics": [],
+      "passConditions": {
+        "checkPassedAfterRepair": true,
+        "closePassed": true,
+        "expectedInitialDiagnosticsObserved": true,
+        "liveClaimFalse": true,
+        "renderDeterministic": true,
+        "zeroGeneratedOutputEdits": true,
+        "zeroScopeViolations": true
+      },
+      "recordDigest": "sha256:8330fce943d265130b9ef7d66bd4e3b3658fdab476f61f1a9559c148b112c374",
+      "retainedRunRecord": "runs/A007-authoring-run-record.json",
+      "status": "pass",
+      "title": "Same-name local nets"
+    },
+    {
+      "entryRoute": "create-symbol",
+      "executionMode": "deterministic-harness-replay",
+      "expectedInitialDiagnostics": [
+        "AIXEM-DIAG-SYMBOL-LEAD-PORT-MISMATCH"
+      ],
+      "id": "A008",
+      "iterations": 1,
+      "liveExternalAgentExecuted": false,
+      "missingExpectedDiagnostics": [],
+      "mutation": "broken-lead-port",
+      "observedInitialDiagnostics": [
+        "AIXEM-DIAG-SYMBOL-LEAD-PORT-MISMATCH"
+      ],
+      "passConditions": {
+        "checkPassedAfterRepair": true,
+        "closePassed": true,
+        "expectedInitialDiagnosticsObserved": true,
+        "liveClaimFalse": true,
+        "renderDeterministic": true,
+        "zeroGeneratedOutputEdits": true,
+        "zeroScopeViolations": true
+      },
+      "recordDigest": "sha256:09a7caa4d1504bb65d56a6dbbeb8eac3d7a44145198f7b5bb5a75b104f08005a",
+      "retainedRunRecord": "runs/A008-authoring-run-record.json",
+      "status": "pass",
+      "title": "Broken lead and port"
+    },
+    {
+      "entryRoute": "create-schematic",
+      "executionMode": "deterministic-harness-replay",
+      "expectedInitialDiagnostics": [
+        "AIXEM-DIAG-SEMANTIC-NET-CLOSURE"
+      ],
+      "id": "A009",
+      "iterations": 1,
+      "liveExternalAgentExecuted": false,
+      "missingExpectedDiagnostics": [],
+      "mutation": "duplicate-semantic-net",
+      "observedInitialDiagnostics": [
+        "AIXEM-DIAG-SEMANTIC-NET-CLOSURE"
+      ],
+      "passConditions": {
+        "checkPassedAfterRepair": true,
+        "closePassed": true,
+        "expectedInitialDiagnosticsObserved": true,
+        "liveClaimFalse": true,
+        "renderDeterministic": true,
+        "zeroGeneratedOutputEdits": true,
+        "zeroScopeViolations": true
+      },
+      "recordDigest": "sha256:d2ba7b29cee6027e4734d69e5014ad6d53572b99b6da2a694402799d3f7463d3",
+      "retainedRunRecord": "runs/A009-authoring-run-record.json",
+      "status": "pass",
+      "title": "Correct-looking wire on wrong semantic net"
+    },
+    {
+      "entryRoute": "route-nets",
+      "executionMode": "deterministic-harness-replay",
+      "expectedInitialDiagnostics": [
+        "AIXEM-DIAG-ROUTE-NON-ORTHOGONAL"
+      ],
+      "id": "A010",
+      "iterations": 1,
+      "liveExternalAgentExecuted": false,
+      "missingExpectedDiagnostics": [],
+      "mutation": "non-orthogonal-route",
+      "observedInitialDiagnostics": [
+        "AIXEM-DIAG-ROUTE-NON-ORTHOGONAL"
+      ],
+      "passConditions": {
+        "checkPassedAfterRepair": true,
+        "closePassed": true,
+        "expectedInitialDiagnosticsObserved": true,
+        "liveClaimFalse": true,
+        "renderDeterministic": true,
+        "zeroGeneratedOutputEdits": true,
+        "zeroScopeViolations": true
+      },
+      "recordDigest": "sha256:de5a5645bd3ae69f4b7b388d0e7d047809563f7c06aa9e33904f56e07a326137",
+      "retainedRunRecord": "runs/A010-authoring-run-record.json",
+      "status": "pass",
+      "title": "Off-grid or non-orthogonal route"
+    },
+    {
+      "entryRoute": "compose-project",
+      "executionMode": "deterministic-harness-replay",
+      "expectedInitialDiagnostics": [
+        "AIXEM-DIAG-PROJECT-NET-DUPLICATE-MEMBER"
+      ],
+      "id": "A011",
+      "iterations": 1,
+      "liveExternalAgentExecuted": false,
+      "missingExpectedDiagnostics": [],
+      "mutation": "duplicate-project-member",
+      "observedInitialDiagnostics": [
+        "AIXEM-DIAG-PROJECT-NET-DUPLICATE-MEMBER"
+      ],
+      "passConditions": {
+        "checkPassedAfterRepair": true,
+        "closePassed": true,
+        "expectedInitialDiagnosticsObserved": true,
+        "liveClaimFalse": true,
+        "renderDeterministic": true,
+        "zeroGeneratedOutputEdits": true,
+        "zeroScopeViolations": true
+      },
+      "recordDigest": "sha256:8fc68850045a87bfce5bf512321adae04698c07213a0d1f2d00d386648bdf101",
+      "retainedRunRecord": "runs/A011-authoring-run-record.json",
+      "status": "pass",
+      "title": "Duplicate project-net member"
+    },
+    {
+      "entryRoute": "create-symbol",
+      "executionMode": "deterministic-harness-replay",
+      "expectedInitialDiagnostics": [
+        "AIXEM-DIAG-SYMBOL-FIELD-BODY-OVERLAP"
+      ],
+      "id": "A012",
+      "iterations": 1,
+      "liveExternalAgentExecuted": false,
+      "missingExpectedDiagnostics": [],
+      "mutation": "field-body-overlap",
+      "observedInitialDiagnostics": [
+        "AIXEM-DIAG-SYMBOL-FIELD-BODY-OVERLAP"
+      ],
+      "passConditions": {
+        "checkPassedAfterRepair": true,
+        "closePassed": true,
+        "expectedInitialDiagnosticsObserved": true,
+        "liveClaimFalse": true,
+        "renderDeterministic": true,
+        "zeroGeneratedOutputEdits": true,
+        "zeroScopeViolations": true
+      },
+      "recordDigest": "sha256:aa4d2a984584ebd7e3c81d12a3814fe8fa629fbf2a7192e3fa366fcfa44af770",
+      "retainedRunRecord": "runs/A012-authoring-run-record.json",
+      "status": "pass",
+      "title": "Field and body overlap"
+    }
+  ],
+  "executionMode": "deterministic-harness-replay",
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "liveExternalAgentExecuted": false,
+  "release": "AIXEM-SRP-0.5.5-2026-08-11",
+  "schema": "https://schemas.aixem.org/validation/agent-eval-2-results/1",
+  "summary": {
+    "cases": 12,
+    "failed": 0,
+    "passed": 12
+  },
+  "tier": "A",
+  "valid": true
+}

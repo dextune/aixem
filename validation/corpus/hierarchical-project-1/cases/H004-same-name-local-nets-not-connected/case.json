@@ -1,0 +1,11 @@
+{
+  "assertions": [
+    "same-name-isolation",
+    "zero-implicit-project-nets"
+  ],
+  "expected": "pass",
+  "expectedDiagnostic": null,
+  "id": "H004",
+  "project": "project.aixproj.json",
+  "title": "Same name local nets not connected"
+}

@@ -1,0 +1,35 @@
+{
+  "bounds": {
+    "height": 65,
+    "width": 95,
+    "x": -47.5,
+    "y": -32.5
+  },
+  "capabilities": [
+    "geometry.circle",
+    "geometry.line",
+    "geometry.rect",
+    "structure.group",
+    "structure.use"
+  ],
+  "case": "B002",
+  "defaultVariant": null,
+  "definitions": [
+    "panel-hole"
+  ],
+  "fieldAnchors": [],
+  "parameters": {},
+  "ports": [],
+  "primitiveCounts": {
+    "circle": 1,
+    "group": 1,
+    "line": 2,
+    "rect": 1,
+    "use": 15
+  },
+  "requiredFeatures": [
+    "definition-use"
+  ],
+  "symbol": "corpus:b002-repeated-hole-panel",
+  "variants": []
+}

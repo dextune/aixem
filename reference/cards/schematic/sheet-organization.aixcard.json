@@ -1,0 +1,55 @@
+{
+  "card": {
+    "aliases": [
+      "sheet organization",
+      "schematic pages",
+      "hierarchical schematic"
+    ],
+    "appliesTo": [
+      "sheet-organization-guide"
+    ],
+    "domain": "schematic",
+    "estimatedReadBytes": 4122,
+    "id": "AIXEM-SCHEM-SHEET-001",
+    "inputs": [],
+    "keywords": [
+      "Sheet Organization",
+      "compose-project",
+      "create-schematic",
+      "hierarchical schematic",
+      "schematic pages",
+      "sheet organization"
+    ],
+    "kind": "guide",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/schematic/sheet-organization.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:7de822efbd0a30556d263a203436c81d5e3d0412525bae58107c3e0d3188528c"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 500,
+    "readNext": [
+      "AIXEM-SCHEM-PLACEMENT-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-SCHEM-SHEET-001.read",
+        "level": "should",
+        "text": "Organizes blocks, hierarchy, ports, title information, and cross-sheet references for scalable schematics."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SCHEM-SHEET-001",
+        "path": "docs/schematic/sheet-organization.md"
+      }
+    ],
+    "summary": "Organizes blocks, hierarchy, ports, title information, and cross-sheet references for scalable schematics.",
+    "title": "Sheet Organization"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

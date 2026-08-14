@@ -1,0 +1,13 @@
+aixem 1.0
+model connector_6 title="Six-pin connector"
+feature component.graphics@1 required=true
+feature explicit.layout@1 required=true
+
+connector J1 type=authoring:connector-6 refdes=J1 value=FIELD_IO
+
+noconn J1.1
+noconn J1.2
+noconn J1.3
+noconn J1.4
+noconn J1.5
+noconn J1.6

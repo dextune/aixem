@@ -1,0 +1,189 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AIXEM Reference Root Index 1.0 — AIXEM Schema</title><link rel="stylesheet" href="../../../assets/site.css"></head><body><header class="topbar"><div class="brand"><span class="brand-mark">AX</span><span>AIXEM<small>Schema Reference</small></span></div></header><main class="content-wrap" style="padding-top:24px"><div class="content"><div class="breadcrumbs"><a href="../index.html">Schema Catalog</a><span>›</span><span>reference-compatibility-1/aixem-reference-root-1.schema.json</span></div><header class="doc-head"><div class="eyebrow"><span class="badge normative">JSON Schema</span><span class="doc-id">https://json-schema.org/draft/2020-12/schema</span></div><h1>AIXEM Reference Root Index 1.0</h1><p class="lead">Machine-readable contract distributed with AIXEM 0.5.9.</p></header><div class="schema-browser"><a href="../../../assets/schemas/reference-compatibility-1/aixem-reference-root-1.schema.json">Open raw JSON schema</a></div><article class="article"><pre><code>{
+  &quot;$id&quot;: &quot;https://schemas.aixem.org/reference/aixref-root/1&quot;,
+  &quot;$schema&quot;: &quot;https://json-schema.org/draft/2020-12/schema&quot;,
+  &quot;additionalProperties&quot;: false,
+  &quot;properties&quot;: {
+    &quot;formatVersion&quot;: {
+      &quot;const&quot;: &quot;1.0&quot;
+    },
+    &quot;referenceRoot&quot;: {
+      &quot;additionalProperties&quot;: false,
+      &quot;properties&quot;: {
+        &quot;description&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;domains&quot;: {
+          &quot;items&quot;: {
+            &quot;additionalProperties&quot;: false,
+            &quot;properties&quot;: {
+              &quot;description&quot;: {
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;id&quot;: {
+                &quot;pattern&quot;: &quot;^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$&quot;,
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;index&quot;: {
+                &quot;pattern&quot;: &quot;^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$&quot;,
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;title&quot;: {
+                &quot;type&quot;: &quot;string&quot;
+              }
+            },
+            &quot;required&quot;: [
+              &quot;id&quot;,
+              &quot;index&quot;
+            ],
+            &quot;type&quot;: &quot;object&quot;
+          },
+          &quot;maxItems&quot;: 64,
+          &quot;minItems&quot;: 1,
+          &quot;type&quot;: &quot;array&quot;
+        },
+        &quot;entrypoints&quot;: {
+          &quot;items&quot;: {
+            &quot;additionalProperties&quot;: false,
+            &quot;properties&quot;: {
+              &quot;aliases&quot;: {
+                &quot;items&quot;: {
+                  &quot;minLength&quot;: 1,
+                  &quot;type&quot;: &quot;string&quot;
+                },
+                &quot;type&quot;: &quot;array&quot;,
+                &quot;uniqueItems&quot;: true
+              },
+              &quot;intent&quot;: {
+                &quot;pattern&quot;: &quot;^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$&quot;,
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;priority&quot;: {
+                &quot;maximum&quot;: 1000,
+                &quot;minimum&quot;: 0,
+                &quot;type&quot;: &quot;integer&quot;
+              },
+              &quot;route&quot;: {
+                &quot;pattern&quot;: &quot;^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$&quot;,
+                &quot;type&quot;: &quot;string&quot;
+              }
+            },
+            &quot;required&quot;: [
+              &quot;intent&quot;,
+              &quot;route&quot;
+            ],
+            &quot;type&quot;: &quot;object&quot;
+          },
+          &quot;maxItems&quot;: 128,
+          &quot;minItems&quot;: 1,
+          &quot;type&quot;: &quot;array&quot;
+        },
+        &quot;id&quot;: {
+          &quot;pattern&quot;: &quot;^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$&quot;,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;indexes&quot;: {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;artifacts&quot;: {
+              &quot;pattern&quot;: &quot;^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$&quot;,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;capabilities&quot;: {
+              &quot;pattern&quot;: &quot;^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$&quot;,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;dependencyGraph&quot;: {
+              &quot;pattern&quot;: &quot;^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$&quot;,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;invertedIndex&quot;: {
+              &quot;pattern&quot;: &quot;^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$&quot;,
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;manifest&quot;: {
+              &quot;pattern&quot;: &quot;^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$&quot;,
+              &quot;type&quot;: &quot;string&quot;
+            }
+          },
+          &quot;required&quot;: [
+            &quot;capabilities&quot;,
+            &quot;artifacts&quot;,
+            &quot;manifest&quot;,
+            &quot;invertedIndex&quot;,
+            &quot;dependencyGraph&quot;
+          ],
+          &quot;type&quot;: &quot;object&quot;
+        },
+        &quot;metadata&quot;: {
+          &quot;type&quot;: &quot;object&quot;
+        },
+        &quot;policies&quot;: {
+          &quot;additionalProperties&quot;: false,
+          &quot;properties&quot;: {
+            &quot;defaultMaxBytes&quot;: {
+              &quot;minimum&quot;: 1024,
+              &quot;type&quot;: &quot;integer&quot;
+            },
+            &quot;defaultMaxDocuments&quot;: {
+              &quot;maximum&quot;: 64,
+              &quot;minimum&quot;: 1,
+              &quot;type&quot;: &quot;integer&quot;
+            },
+            &quot;exactRouteFirst&quot;: {
+              &quot;type&quot;: &quot;boolean&quot;
+            },
+            &quot;failClosedOnDigestMismatch&quot;: {
+              &quot;type&quot;: &quot;boolean&quot;
+            },
+            &quot;maxDepth&quot;: {
+              &quot;maximum&quot;: 8,
+              &quot;minimum&quot;: 1,
+              &quot;type&quot;: &quot;integer&quot;
+            },
+            &quot;remoteFetch&quot;: {
+              &quot;enum&quot;: [
+                &quot;deny&quot;,
+                &quot;allow-locked&quot;
+              ]
+            }
+          },
+          &quot;required&quot;: [
+            &quot;defaultMaxDocuments&quot;,
+            &quot;defaultMaxBytes&quot;,
+            &quot;maxDepth&quot;,
+            &quot;failClosedOnDigestMismatch&quot;
+          ],
+          &quot;type&quot;: &quot;object&quot;
+        },
+        &quot;release&quot;: {
+          &quot;minLength&quot;: 1,
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;version&quot;: {
+          &quot;minLength&quot;: 1,
+          &quot;type&quot;: &quot;string&quot;
+        }
+      },
+      &quot;required&quot;: [
+        &quot;id&quot;,
+        &quot;version&quot;,
+        &quot;release&quot;,
+        &quot;policies&quot;,
+        &quot;entrypoints&quot;,
+        &quot;domains&quot;,
+        &quot;indexes&quot;
+      ],
+      &quot;type&quot;: &quot;object&quot;
+    },
+    &quot;schema&quot;: {
+      &quot;const&quot;: &quot;https://schemas.aixem.org/reference/aixref-root/1&quot;
+    }
+  },
+  &quot;required&quot;: [
+    &quot;schema&quot;,
+    &quot;formatVersion&quot;,
+    &quot;referenceRoot&quot;
+  ],
+  &quot;title&quot;: &quot;AIXEM Reference Root Index 1.0&quot;,
+  &quot;type&quot;: &quot;object&quot;
+}</code></pre></article></div></main></body></html>

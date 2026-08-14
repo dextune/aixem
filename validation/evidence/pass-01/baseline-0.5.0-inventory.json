@@ -1,0 +1,3894 @@
+{
+  "baselineVersion": "0.5.0",
+  "files": [
+    {
+      "bytes": 29,
+      "digest": "sha256:60c9bdd905fcf45ac485c680d32e9773962cf061b6f041dcddd033911558a672",
+      "path": ".gitignore",
+      "suffix": ""
+    },
+    {
+      "bytes": 11527,
+      "digest": "sha256:0ae465a092fe3654a2fa409651ce72915ef4e4b2b744ed1c54e20404c56c8922",
+      "path": "AGENTS.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1077,
+      "digest": "sha256:4d3fc396a4e2ef201dbc66dda50ca8a3b96099c1b8364a55470fc7ec0b142917",
+      "path": "CHANGELOG.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1372,
+      "digest": "sha256:5fa0ad4b7b17c41230cca79090b90005cc07f06e6b209d7b992285b82a981cda",
+      "path": "CONTRIBUTING.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1400,
+      "digest": "sha256:0543f36ad7f5dbe638fe7de46a1201347a74ef4b3698a7f0180df135f55d1954",
+      "path": "IMPLEMENTATION_STATUS.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 615,
+      "digest": "sha256:f68542c80cc0a07f537577f60e427ce669bbaf442dd7c59c939475ff00973b2c",
+      "path": "Makefile",
+      "suffix": ""
+    },
+    {
+      "bytes": 505,
+      "digest": "sha256:4edd0b010499d7e42cadcc9368a47bb81d608df3b0463b656e50548f8c940354",
+      "path": "NOTICE.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 23697,
+      "digest": "sha256:b3ee343803f12ac759d620a38c46f792a5bdbd7ba437afd847b2765d45f6647b",
+      "path": "PLAN-0.5.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 2872,
+      "digest": "sha256:84656322f01c1da15c806f4fba7cbd28305e6212d7f092108026dc4e1f388f56",
+      "path": "README.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1740,
+      "digest": "sha256:d42a97916321b81a4995d07857893879e702d474a046cc9dbb13944841c1d45f",
+      "path": "RELEASE_NOTES.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1086,
+      "digest": "sha256:8844b571d5ab76192b653b9bea53cdf6b66eaca5e8df2976adcd83cd54df5706",
+      "path": "SECURITY.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1304,
+      "digest": "sha256:04ed4683fb2dc46ac2038aaf0febbde2326623df8ba044aba903774bd9cf7246",
+      "path": "START_HERE.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 6,
+      "digest": "sha256:a0ad50640139a524f86591157145bf1d4674ea9c065bfea21558f0f7b04430c8",
+      "path": "VERSION",
+      "suffix": ""
+    },
+    {
+      "bytes": 21848,
+      "digest": "sha256:83301bb799f676ac1f072910d75416dccded7cafaacf2881fddafd0f62bfc1dd",
+      "path": "docs/_meta/aliases.yaml",
+      "suffix": ".yaml"
+    },
+    {
+      "bytes": 5757,
+      "digest": "sha256:7b83cd5a529b503594912b0da8fd0d04ce10c2447424eb61145c162d5080f571",
+      "path": "docs/_meta/artifact-ownership.yaml",
+      "suffix": ".yaml"
+    },
+    {
+      "bytes": 2442,
+      "digest": "sha256:eeb5177eb138ed69a8eac5c6f71340e7cde0494fe99c98b6e72413c51486eed9",
+      "path": "docs/_meta/artifacts.yaml",
+      "suffix": ".yaml"
+    },
+    {
+      "bytes": 51884,
+      "digest": "sha256:84188d0bb367235175ce65cf1971437c6fff458b296d2d35c60edd8914117f41",
+      "path": "docs/_meta/conformance.yaml",
+      "suffix": ".yaml"
+    },
+    {
+      "bytes": 7958,
+      "digest": "sha256:6ae4e6daf1dc7854b151be5658c5447fb6be73feb1954f13c7df3232fecf98ea",
+      "path": "docs/_meta/generated/artifact-map.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 51247,
+      "digest": "sha256:03e5e914eb5b4e5556935b6ecfdf40759b5a0c18969c66b264992710c2c45fe7",
+      "path": "docs/_meta/generated/dependency-graph.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 284502,
+      "digest": "sha256:58da07106459be6d90c9c483518f693ee2095076cfe4a1f492378f1dc611d26d",
+      "path": "docs/_meta/generated/document-index.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1768290,
+      "digest": "sha256:2c87279a8da6aafce51cc3704870c265deb1523e9649b85ccb767a32d38d9934",
+      "path": "docs/_meta/generated/inverted-index.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 25122,
+      "digest": "sha256:05bd6ba09d96dcdb8ae916057b6e327ba89157e241e8963fe8949cdcea824b43",
+      "path": "docs/_meta/generated/manifest.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 136217,
+      "digest": "sha256:c92650ed80d1e4165c830203d2dc1b2c4f8b521495d0cbf4efd3744aea42ba2d",
+      "path": "docs/_meta/generated/requirement-traceability.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 34240,
+      "digest": "sha256:effcd1353272ff2a1ad23c80fccf6edda07f71d021cdb34d25a6b7e018c405ff",
+      "path": "docs/_meta/generated/route-index.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1470,
+      "digest": "sha256:aa8d93ae9fc9747978b6677c2caf3e1fb18f364146d24750d95154a253a8ea00",
+      "path": "docs/_meta/glossary.yaml",
+      "suffix": ".yaml"
+    },
+    {
+      "bytes": 3408,
+      "digest": "sha256:766d678215949605622dc2edaf56f846cddf7394215f1f2730db8245d8a7a5d6",
+      "path": "docs/_meta/navigation.yaml",
+      "suffix": ".yaml"
+    },
+    {
+      "bytes": 1418,
+      "digest": "sha256:49758e33f308358baed5a7b962b3a15410f7dabfac3f01e77c044ddabb22a6ce",
+      "path": "docs/_meta/routes/build-documentation.yaml",
+      "suffix": ".yaml"
+    },
+    {
+      "bytes": 1521,
+      "digest": "sha256:fd503f4438ff7466c0e0904b8f7b78eb97c8635357a97e82b44a70807053d4c5",
+      "path": "docs/_meta/routes/change-architecture.yaml",
+      "suffix": ".yaml"
+    },
+    {
+      "bytes": 1545,
+      "digest": "sha256:67fed9d54ef8149faf9b2a1db0a432752ac323e39b16919885556d579f5fb683",
+      "path": "docs/_meta/routes/create-schematic.yaml",
+      "suffix": ".yaml"
+    },
+    {
+      "bytes": 1510,
+      "digest": "sha256:7e43ba7ad7b7166c682527fe04d4a7373531f0931f3b01411822f9047317b419",
+      "path": "docs/_meta/routes/create-symbol.yaml",
+      "suffix": ".yaml"
+    },
+    {
+      "bytes": 1145,
+      "digest": "sha256:86c6b7afb1138fec6d163642859083101920845cac17192bc58d2b2407cc9f03",
+      "path": "docs/_meta/routes/inspect-artifact.yaml",
+      "suffix": ".yaml"
+    },
+    {
+      "bytes": 1197,
+      "digest": "sha256:9f12b112cee7bf0af48ba0cb9f9c63e9b4313ef0770fa5fa0754639fb165d8dc",
+      "path": "docs/_meta/routes/migrate-baseline.yaml",
+      "suffix": ".yaml"
+    },
+    {
+      "bytes": 1314,
+      "digest": "sha256:7f62e1743ac861b5d233d971399dd6200d8a72f634e56335dbcafbce0cab7ff0",
+      "path": "docs/_meta/routes/publish-release.yaml",
+      "suffix": ".yaml"
+    },
+    {
+      "bytes": 1461,
+      "digest": "sha256:44302229c3507e5104b6c81939b72216f43085a014588dd54b1a18ae3691ba2b",
+      "path": "docs/_meta/routes/route-nets.yaml",
+      "suffix": ".yaml"
+    },
+    {
+      "bytes": 1381,
+      "digest": "sha256:c8355656c4f8001defde2ce88ec7fecc92fb3cb4de3b0fb8eb513beb75332b49",
+      "path": "docs/_meta/routes/validate-project.yaml",
+      "suffix": ".yaml"
+    },
+    {
+      "bytes": 997,
+      "digest": "sha256:771d2657cde01c8cac933a8716414ae27dc18796a6c5eb3dd71653a5f8cfe446",
+      "path": "docs/_meta/schema/artifact-ownership.schema.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 561,
+      "digest": "sha256:1f77666b8599e5f5a38765ca6e6a0de68b00488077c6f895077367b310587a60",
+      "path": "docs/_meta/schema/conformance-map.schema.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 4299,
+      "digest": "sha256:e1cbab5b8a4057bcbd7ef9037942be2b7c60663fbeeaa31abd68d24068bb86c0",
+      "path": "docs/_meta/schema/document-metadata.schema.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 967,
+      "digest": "sha256:76a6fc7ffdfb8a1e4d0691e407162a6aee40b7afbbe952ed0c1a1fd976a19239",
+      "path": "docs/_meta/schema/navigation.schema.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2408,
+      "digest": "sha256:54a566481d62696b0a07e033ff11efa63b3e53aa35f64cd94c493c22646fbfd5",
+      "path": "docs/_meta/schema/task-route.schema.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 5150,
+      "digest": "sha256:63f60f8d7087b72f1a1e6c509ba94f33ad563d109c27dad03f695bc0c377c3e6",
+      "path": "docs/agent/architecture.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 5630,
+      "digest": "sha256:d839a5a50644d46a9563bd7f40a4240738db53673978ed87e667d573224983a8",
+      "path": "docs/agent/failure-policy.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3642,
+      "digest": "sha256:9694bd31d044fe032d5058bae8febb59bfe55ebad5feaa3175f635a9f869b30a",
+      "path": "docs/agent/index.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3487,
+      "digest": "sha256:3269f5f6b6ec3f72dfe72245786ef8f6f1acb2b2382dea5bbd303664a3f43fab",
+      "path": "docs/agent/retrieval.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3255,
+      "digest": "sha256:486f2cbf79d7c28430184d166677acc67daceda7640bfccc8e3982f466d13dcb",
+      "path": "docs/agent/routing-agent.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3640,
+      "digest": "sha256:1b24fcc50a43a5f65b5514314d4ff2f47c2321c771a574ba12a331d680b82cea",
+      "path": "docs/agent/schematic-authoring.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3405,
+      "digest": "sha256:338623ceaa10f3d6cd04f05f53ac854147f4b56a5ef1b734f72a1fbbff8d43b6",
+      "path": "docs/agent/symbol-generation.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 5675,
+      "digest": "sha256:b70d8394a5f5dc622755f5e984270b6a693e8cef708e15fe164a6f6cb2b0d57f",
+      "path": "docs/agent/task-routing.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 5520,
+      "digest": "sha256:ec82d0be78cf2219f326a66a38ad4efe4f55fa8bc777f0dc1b8ca7e14216b0e4",
+      "path": "docs/agent/validation-loop.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3764,
+      "digest": "sha256:20e8ba009a9ef89eb7638792d2dd0c999f35361c110c4ead160863ddbd80cf14",
+      "path": "docs/architecture/adr/0001-canonical-doc-root.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3636,
+      "digest": "sha256:17a6722503c0b7d460b71b4f21821c7a478aefe000a7021ec80523770268b36e",
+      "path": "docs/architecture/adr/0002-route-first-retrieval.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3809,
+      "digest": "sha256:b78f92deab352fe581eb9a0d750171de6852a7ef9054b79a13e88759071cc6a6",
+      "path": "docs/architecture/adr/0003-vendor-neutral-ui.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3542,
+      "digest": "sha256:5ee6b82293f6d17ef68d7331ce3a40c0d21160c5b14cdf730ae693ef60abd7d2",
+      "path": "docs/architecture/adr/index.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 5057,
+      "digest": "sha256:156d58b0f3f8adf666f356a8d5963ac286bb2df6e305c832b16b6d9998731125",
+      "path": "docs/architecture/artifact-store.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 4999,
+      "digest": "sha256:85d97fe415295ee20efb156d547b03a4b64f409d8e58a89de3042145c7aa703e",
+      "path": "docs/architecture/cache.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3684,
+      "digest": "sha256:baed0eccf866dc246b8ac816a0b75abbbe4371c6f71ca9e0f78e2503c2fb80d8",
+      "path": "docs/architecture/index.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 5037,
+      "digest": "sha256:3e0dee437e149e263dea8c00d944c2d39248072a5e6cdea3a9b1050e6bed21b5",
+      "path": "docs/architecture/pipeline.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 5851,
+      "digest": "sha256:438b71293d15302c2a2ff675116a8d2bb9fad15751396d0605bbba910420c5d2",
+      "path": "docs/architecture/security.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 5180,
+      "digest": "sha256:bcd32b8e4f05789fa530dc8dcf7d22a74d52db1e8665b5d3e50c4828ad61fea4",
+      "path": "docs/architecture/system-overview.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 4783,
+      "digest": "sha256:db5a50fa55a8c6a9fd2a4b78674ae0eee5947643a3631605e504e7d1418fbe0b",
+      "path": "docs/concepts/authority-model.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 5558,
+      "digest": "sha256:badb26b38d8e5c38bef8abb349b5cfc4ed6b6d9203a8e514258b5c60ac9919b3",
+      "path": "docs/concepts/component-model.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 5641,
+      "digest": "sha256:69971d58f8c4a979eed5d1f55b93d7fa3cfc19b9bcbc358fa5996f01b002c4bd",
+      "path": "docs/concepts/deterministic-builds.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3521,
+      "digest": "sha256:80c61e5b87de8abee6c971795bd8703703eb37f83459bb47a6693f686da29496",
+      "path": "docs/concepts/index.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 4773,
+      "digest": "sha256:9db44c2c770935055b86fe4c6448f1fd4ab30fd1d154d7a9d0d4db3e5774b659",
+      "path": "docs/concepts/layout-model.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 4690,
+      "digest": "sha256:34d2fd5308386735aaf5cded161248acc5d3e368d830a81a73efae01be102817",
+      "path": "docs/concepts/net-model.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 5537,
+      "digest": "sha256:330d8e19320e6f4dea877940fc108a97c1e38a47d8ef2471dd744aa3282a1cab",
+      "path": "docs/concepts/semantic-model.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 4734,
+      "digest": "sha256:7bce13b030c6bace3f730b6b65050cdacac0d0497f4395bbfb56db39ca1a3dcc",
+      "path": "docs/concepts/symbol-model.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 5796,
+      "digest": "sha256:ead9bfb8297b6f0320998bc2301b885ae8393577dd361c7748193f9bd84f761e",
+      "path": "docs/conformance/compatibility.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3587,
+      "digest": "sha256:05d7b45fd89e410f541af7853d1bb668cee987337fac14c1b830d679ef094912",
+      "path": "docs/conformance/index.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 5659,
+      "digest": "sha256:67488d4eead645d7818359ee981c88526e43b618bc7ccce0182335166814236a",
+      "path": "docs/conformance/release-gates.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 5649,
+      "digest": "sha256:db3178f0eeff43e7c5efe9c4af51425dfe8c629af4082535cdd004af0a9b329c",
+      "path": "docs/conformance/requirements.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 5592,
+      "digest": "sha256:3e8743f7db89b9fcd6bdb97f2cd4874e29cfeabb778f94c2e961c9ac3f5d0c00",
+      "path": "docs/conformance/test-suite.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 5775,
+      "digest": "sha256:4ff95fc5b5629c5e4ba8d98b6207cf25a8e42020a1a7c4018383b1fb702db879",
+      "path": "docs/conformance/validation.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3755,
+      "digest": "sha256:a541917e0886f9320579051ecc68890c037bbec313d50695b5d07553bfe5013e",
+      "path": "docs/examples/grid-controller.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3202,
+      "digest": "sha256:a4509af26c845c3756a68103c1e0b918d6c84d5070dcf116edb2dc9cd035ecfc",
+      "path": "docs/examples/hierarchical-reference.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3602,
+      "digest": "sha256:e14f2cd50ad0971b438fd33ef6587904c6c10abc5b0bb825a3c513a2086d1fef",
+      "path": "docs/examples/index.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3301,
+      "digest": "sha256:945e33cbb005986b320b74bf7d2ee6c4c87790b8c14374dddde9d7bbb670aa15",
+      "path": "docs/examples/passive-divider.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 4921,
+      "digest": "sha256:436035ae62ace51d266d95d56fa5f52def97c5e42b33cbc87c4cc3cb8f38e9c8",
+      "path": "docs/file-formats/aixem.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3537,
+      "digest": "sha256:ab37b34ea89cd4f22255149cdccd315e6d09d93b584814e5acc1fec7dce9ec1f",
+      "path": "docs/file-formats/aixlayout.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 4816,
+      "digest": "sha256:76828ef4b48eac7621536e4d75ed8fcff07c23ff7cf9dfd5a4ec190d2211d1bb",
+      "path": "docs/file-formats/aixlib.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3444,
+      "digest": "sha256:603303bef9633022354f176f77c1c245abece309cf10f2d0954202ccceb7446d",
+      "path": "docs/file-formats/aixproj.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3530,
+      "digest": "sha256:27e4b836d4b9832449ed5b4e12d61d1f8418252bd36ab3f85c14050fa30719a6",
+      "path": "docs/file-formats/aixsym.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3400,
+      "digest": "sha256:7b686f42fdb574f084fb8713393fa0c6b187a13d18d9b648003600e17a375298",
+      "path": "docs/file-formats/index.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 4984,
+      "digest": "sha256:2083dabd4abe841a1dab3333bb9f5e7bdc82ebe0ceaf5de865d063f78a6803c9",
+      "path": "docs/file-formats/style-profile.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3567,
+      "digest": "sha256:e548068c946da7324833ee6962a9e83b8a582a1fc4f7bf13da6583327c7c631a",
+      "path": "docs/getting-started/first-schematic.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3168,
+      "digest": "sha256:0c65d552b5c09e3492a353b6c1f8dc58c48764471f820d772ac6f6d1c455ec13",
+      "path": "docs/getting-started/index.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3676,
+      "digest": "sha256:66ec6baa7a75bcced42056fe7d8836fd60b0e646ab9071ba4018bd15aba5f145",
+      "path": "docs/getting-started/introduction.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3814,
+      "digest": "sha256:e09f614a2adc85357822519f75c7b38d08e96bf65d9b0b0a5e4844d8516e555a",
+      "path": "docs/getting-started/quick-start.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 4895,
+      "digest": "sha256:77c727998243cf897ef89e4ff9838d3345cf81a73594cc5dd8d3cd66028f969a",
+      "path": "docs/governance/compatibility.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 4763,
+      "digest": "sha256:d19733ff7acabd8fdfff7f8752259ed452e0b91677ed2fe06d130a4944d2916c",
+      "path": "docs/governance/deprecation.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3554,
+      "digest": "sha256:d464c5627c29bd4a8df58c4f5a1adecd1b8a1a724109c869021c98fe5d96359a",
+      "path": "docs/governance/index.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3454,
+      "digest": "sha256:b987bc2638ecd3f989883abe18b79f0578b96b7ef408e4224e9b380f127483c9",
+      "path": "docs/governance/release-process.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 4000,
+      "digest": "sha256:e0a1af6be8ffed17548cb0ae13c085554c24aa0ce6c5c74aa4066882d92496a9",
+      "path": "docs/governance/terminology.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 5631,
+      "digest": "sha256:6161a5c3d8328a6f087dd0e3d41b15411793c6eec7912046841a2b61966898b0",
+      "path": "docs/governance/versioning.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 4954,
+      "digest": "sha256:5f540f37081c1de93588641bc0496861ef5ed8fe7294ac5accbf98fc55c4bbd8",
+      "path": "docs/index.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3740,
+      "digest": "sha256:ed12cdb7b1b8deeac211067e2c01eb5b1c38f9d952ce3abfd1c1b7f729f5b7f7",
+      "path": "docs/releases/0.4.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 5221,
+      "digest": "sha256:f6f587c1784202edec61409f8fc338a0b89aedc0f91c81667cfab8278b54481c",
+      "path": "docs/releases/0.5.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3021,
+      "digest": "sha256:99e48bfe13adac35387f85279f92075fa2722cae2bedf7cbb1914bf64146e18f",
+      "path": "docs/releases/index.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 4921,
+      "digest": "sha256:c99b4421dec34f69a673d06226d1e140d761b58ee918464fd7be3dfb7af4e41b",
+      "path": "docs/routing/crossings-and-junctions.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3539,
+      "digest": "sha256:df6c2187610b3fe8185d10f92e2d5f9095abe84ac03697af989bd1cba4dbc80a",
+      "path": "docs/routing/index.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 5423,
+      "digest": "sha256:eefeb9f238e1e6f7c2cb1488c9ab48f3e9e2bcf9bc304798ea515c0fcf64921b",
+      "path": "docs/routing/net-routing.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 5638,
+      "digest": "sha256:1240efff75cb0b9a8a906c9079609d70ae5a650df0b8be46c003a0af798acb48",
+      "path": "docs/routing/orthogonal-routing.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 5737,
+      "digest": "sha256:3fe1367d5de58b5cb487a4fd15c1feaf817c06f709f377f3b831a1ffbc0ae8ca",
+      "path": "docs/routing/route-constraints.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3294,
+      "digest": "sha256:4a725c46fa0fb75fc809230c68f1257e7c28a6e9aa3b3ef1540813076e9aea65",
+      "path": "docs/routing/router-behavior.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 4886,
+      "digest": "sha256:27e2ecf9b55d2fa7aebbd5ad75b48a67dc0cbbde7d1399fc452aa4ae372f9aa3",
+      "path": "docs/schematic/annotations.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 5622,
+      "digest": "sha256:5ce05f61dbb25d19bbf40c3e01813803b47d8638de1d900c12fb404cf5bac0a2",
+      "path": "docs/schematic/grid-system.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3609,
+      "digest": "sha256:189de02c2104ab509209bbc3a55d15d7055ac853b54776ad681dbaa3701b11f6",
+      "path": "docs/schematic/index.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 5769,
+      "digest": "sha256:f6963827d6c44b3b076c022e14a9249eb51533cd7e736aa98b5c873172f2d383",
+      "path": "docs/schematic/junctions.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 4958,
+      "digest": "sha256:b2db18e5e5af5015d6f73fc1f2d4fc57ef7cbfd8d40249d3be6cf876fcfb5d47",
+      "path": "docs/schematic/placement.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3351,
+      "digest": "sha256:281013093c6c9fcb899eb4f7a9b02632c8fcd8828bbd007ac75beb4565a9ae0a",
+      "path": "docs/schematic/sheet-organization.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 6334,
+      "digest": "sha256:7bfaffce17c65c074f6452b6a218885142fe9d5f89a960ec74357f5ade0c57a5",
+      "path": "docs/schematic/visual-language.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 7293,
+      "digest": "sha256:6a27b1bce78e636f317dcd0f84346754c43db666521e1f9222f489cfb9fe5b6c",
+      "path": "docs/specifications/agent/retrieval-profile.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 6131,
+      "digest": "sha256:d237593485863a3951b24efe57ce809e4affc3e28cfcf233d86a6257204ecee5",
+      "path": "docs/specifications/core/authority-precedence.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 5769,
+      "digest": "sha256:128d6cc3b528eb4f52b0885fbec24963ab8d5729e03017145ee2ebe3c33a05fd",
+      "path": "docs/specifications/core/coordinate-system.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 5696,
+      "digest": "sha256:23b991d8514bf4f74460a4166b38f47f2e00eba7520ea40fd5683d1dc456d18a",
+      "path": "docs/specifications/core/document-model.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 5703,
+      "digest": "sha256:28dfa086a69792bf69391436ecea0deb9d7633242cb6562d9f525ba219ab546b",
+      "path": "docs/specifications/documentation/metadata-contract.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 7813,
+      "digest": "sha256:07d5451388b5b312d6c4061c1c1b86e8f0b6f3c8db3a4fca07410b7d595008df",
+      "path": "docs/specifications/documentation/release-integrity.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3686,
+      "digest": "sha256:9de76e38e990b1ada5e46b3d8a47f7747259bae4f1c5bc1ab63913500d0816dd",
+      "path": "docs/specifications/index.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 5791,
+      "digest": "sha256:5abfc9ec9f45132edd431e34c4320030eed173a2458c7105e9a569b012109185",
+      "path": "docs/specifications/layout/layout-contract.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 6583,
+      "digest": "sha256:23ad37c58ac59c675cc6088ced3c3832c738699d60db9a69374b35d1ea64d0e5",
+      "path": "docs/specifications/project/project-lock-contract.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 9642,
+      "digest": "sha256:85d1977d263f0ee6f86db615c2f4b9c43fbd1e534b1446f5fcdb2b58e16417cc",
+      "path": "docs/specifications/schemas/component-graphics-1/aixem-component-library-1.schema.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 17883,
+      "digest": "sha256:4f92e5e292a694aabfca922cc449f2f59a1a08e6465181a096a62b47b23bfca7",
+      "path": "docs/specifications/schemas/component-graphics-1/aixem-explicit-layout-1.schema.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 4546,
+      "digest": "sha256:056932ff46d7b6928f3b01dba50403353bdfda8f4d28e8b7bf0d38ab1dd39a41",
+      "path": "docs/specifications/schemas/component-graphics-1/aixem-project-manifest-1.schema.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 51899,
+      "digest": "sha256:ba4d442591f6e53daf07f9d8f85e2026043f4e93ae0710e2578447dd3c466831",
+      "path": "docs/specifications/schemas/component-graphics-1/aixem-symbol-asset-1.schema.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 3756,
+      "digest": "sha256:c33b2cec0df090892e50d9c21e8bb64ce53cb375222ae2918c04c959c1aff1b5",
+      "path": "docs/specifications/schemas/index.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 2825,
+      "digest": "sha256:8de0f9d899b45b4bc0907ce177c26ca79797d310c0fb417f102db90f7db63ba9",
+      "path": "docs/specifications/schemas/reference-compatibility-1/aixem-artifact-map-1.schema.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2891,
+      "digest": "sha256:48128f752517b70a0efcf25468dca0a219afb44d168d05cef973655dba0d41ab",
+      "path": "docs/specifications/schemas/reference-compatibility-1/aixem-capability-index-1.schema.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 5447,
+      "digest": "sha256:9010581b913dbd75f83033750cf99b315afcf1b87cea699b6afaa02f0270b9c6",
+      "path": "docs/specifications/schemas/reference-compatibility-1/aixem-reference-card-1.schema.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1779,
+      "digest": "sha256:89cd13142bad5473d456a59976fce64c9144b989e7e23e92d968d4dbb18612b7",
+      "path": "docs/specifications/schemas/reference-compatibility-1/aixem-reference-domain-index-1.schema.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1884,
+      "digest": "sha256:b2591ae758e9fc4fc8f2900cf8b477b8ef2ade5ccd9b043fea204db73e25a919",
+      "path": "docs/specifications/schemas/reference-compatibility-1/aixem-reference-manifest-1.schema.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 5112,
+      "digest": "sha256:00b831043495014d7d2124d4b6fb2b06edd6af8770ec21e1afd13390644dc3d5",
+      "path": "docs/specifications/schemas/reference-compatibility-1/aixem-reference-root-1.schema.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 7495,
+      "digest": "sha256:da13c5dc836cc89fceccbc2d7e51bb70a29e3de6f4e8004e390c768f9960d940",
+      "path": "docs/specifications/schemas/reference-compatibility-1/aixem-schematic-style-1.schema.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 5229,
+      "digest": "sha256:4088a978378a7bad4961ffcdbb2a2534213c20fbf0044af2cde2b77ca46010a7",
+      "path": "docs/specifications/schemas/reference-compatibility-1/aixem-task-route-1.schema.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 5226,
+      "digest": "sha256:c1341a797cb0e7c593239d517bc9b459e6a7b0d6e5d3929a47dd02b19cf1b020",
+      "path": "docs/specifications/schematic/grid-profile.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 5053,
+      "digest": "sha256:33d70f2ffad4292c50c8407f9f43446fe017069855765a3e19e15fc980f7f8fa",
+      "path": "docs/specifications/schematic/visual-profile.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 5811,
+      "digest": "sha256:9383c1c0b25cd217f435d5446033a1281dcfa926ebb8eb972e8269e6c246c870",
+      "path": "docs/specifications/symbols/symbol-contract.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3495,
+      "digest": "sha256:6fb832196422b7e6016d58e0338a437f82437c5690b2966c8c8b45b880fe9905",
+      "path": "docs/symbols/authoring-guide.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 4861,
+      "digest": "sha256:83e07bab2ebb9400a8372b855e670f4d85b7d441eeb7440c818eeda6a625511d",
+      "path": "docs/symbols/field-layout.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3518,
+      "digest": "sha256:52ab6f0325c77a6dfe5f5f96dd08a59791cfcea6ec22ab6da59c04457eb5ecdd",
+      "path": "docs/symbols/index.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 5895,
+      "digest": "sha256:79d84f2a70737305103af6dc521646b8f65491c14268f938d99aa8ab4f54fb41",
+      "path": "docs/symbols/pins-and-ports.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 4993,
+      "digest": "sha256:f4d7e559c5c6e168e6d58187c2e91d059decc02df37a24eba255d557b874cb85",
+      "path": "docs/symbols/primitives.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 5587,
+      "digest": "sha256:678e2a1218d2cc53ad8ba3ae77e809521c177c647d3556120ad701dc64652553",
+      "path": "docs/symbols/symbol-anatomy.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 5419,
+      "digest": "sha256:db868fe190eeb7b13f626e810227d371f7f4e8b35887c70a7e334fdea3d548b9",
+      "path": "docs/symbols/symbol-lint.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 4961,
+      "digest": "sha256:9520bf7b8b745cdfca517323b5bb3fb46724bf1d35d85919dfee92e2fdaf51ed",
+      "path": "docs/symbols/variants.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 552,
+      "digest": "sha256:5ecbb64e502bdced70b001197ced7c52c6cf1c7d114ef0d7c20735f40e6e00f0",
+      "path": "examples/electronics-grid-controller/README.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 2117,
+      "digest": "sha256:8b070873aebc69354e003ea08a4ea2031f0dac02183946ca610dd68d68f4f80c",
+      "path": "examples/electronics-grid-controller/evidence/project-validation.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2945,
+      "digest": "sha256:b06e6963859915a5c21945be212899b6280da9ddd076c3dec49ef1d99d2507d6",
+      "path": "examples/electronics-grid-controller/grid-controller.aixem",
+      "suffix": ".aixem"
+    },
+    {
+      "bytes": 29965,
+      "digest": "sha256:683e43c78b94ee7cb105fdc4e1ae8b046a26d450981f98be4f507d401494cdb0",
+      "path": "examples/electronics-grid-controller/grid-controller.aixlayout.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 28721,
+      "digest": "sha256:873b9133b8001b630f816642ce50bf5f4a00f84cbb175cd2669787729e08f025",
+      "path": "examples/electronics-grid-controller/libraries/grid-electronics.aixlib.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2524,
+      "digest": "sha256:9b2b36552201286fcf0ffaa25be8ac082ae3707486cf907897ec614835688159",
+      "path": "examples/electronics-grid-controller/project.aixproj.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 71478,
+      "digest": "sha256:cbf6775048b06eeb120530abece8148a73e0b0bebdf493f5cfc7eee9708d8080",
+      "path": "examples/electronics-grid-controller/render/drawing.svg",
+      "suffix": ".svg"
+    },
+    {
+      "bytes": 1711,
+      "digest": "sha256:c732ba3b71359fd683e29dd9e6c237d632a98ef06793c5869174f62fd898aa65",
+      "path": "examples/electronics-grid-controller/render/render-manifest.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 35525,
+      "digest": "sha256:3836beb1d977e2daa5b3617aed4a4b5b1f89bb701163dfdda9de97301ae7a868",
+      "path": "examples/electronics-grid-controller/render/resolved-scene.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 113400,
+      "digest": "sha256:613bf5d587e99b2971b61fc1786b3f99b11357945fa5d6298062cffc0c477977",
+      "path": "examples/electronics-grid-controller/render/viewer.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 113400,
+      "digest": "sha256:613bf5d587e99b2971b61fc1786b3f99b11357945fa5d6298062cffc0c477977",
+      "path": "examples/electronics-grid-controller/render/workbench.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 6792,
+      "digest": "sha256:56544f87179fd90d34d3ffa5bf6d733df4707e2fda2eece32adb57c4bd5a1ff6",
+      "path": "examples/electronics-grid-controller/symbols/analog-front-end.aixsym.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 5646,
+      "digest": "sha256:794d2154b3821a288933bdb8cc03daa5d68237fd0de2d50c7d5538d76dc24655",
+      "path": "examples/electronics-grid-controller/symbols/buck-regulator.aixsym.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 5136,
+      "digest": "sha256:a4a46557016e7f828965780176b0b1501fb360eb7d5a3a6e703d3d4341fb7ee4",
+      "path": "examples/electronics-grid-controller/symbols/capacitor.aixsym.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 15341,
+      "digest": "sha256:27c0ddd46f5abe5c7cc8d3c116a19d7a179db71f52a5021829e6882eb6df0aa8",
+      "path": "examples/electronics-grid-controller/symbols/controller-24.aixsym.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 8577,
+      "digest": "sha256:b978605c193685347cedf930e0f0a8a76d5aa2195ec7a6417c3e4ea62f13f8bb",
+      "path": "examples/electronics-grid-controller/symbols/debug-header-10.aixsym.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 4973,
+      "digest": "sha256:7bad704b4ef0626566c343e2ddd516e2007edece2c2d8f9b4bd301f4d6df5558",
+      "path": "examples/electronics-grid-controller/symbols/fuse.aixsym.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 7680,
+      "digest": "sha256:6f75c80a590c4d34cf024937ef114bf4c67deca3793df9b0d838dea90f6ba2aa",
+      "path": "examples/electronics-grid-controller/symbols/io-header-8.aixsym.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 5868,
+      "digest": "sha256:4ece48f40e0fc2b2f87c553c1d7efb706b46d89579919b36fc41c0631b789d79",
+      "path": "examples/electronics-grid-controller/symbols/led.aixsym.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 6083,
+      "digest": "sha256:c1e57b812e2938310e659e2040d485aeccee915e960296dec945b31262335ed4",
+      "path": "examples/electronics-grid-controller/symbols/mcu-adc.aixsym.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 8864,
+      "digest": "sha256:c30ee87185bc5d5596739bb0343f99a0a602256dd768ea8c58a466eab28d8de8",
+      "path": "examples/electronics-grid-controller/symbols/resistor.aixsym.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 5581,
+      "digest": "sha256:44a4b48baec34076c56d390d8b7dbb62e7462673c8c2a28f5b87068ea8f67431",
+      "path": "examples/electronics-grid-controller/symbols/sensor-connector-3.aixsym.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 4929,
+      "digest": "sha256:5042a45420e4239d9fa9d2f3fdce81c9c932b42286b6ba13ca33b80877e0f4ce",
+      "path": "examples/electronics-grid-controller/symbols/terminal-2.aixsym.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 5248,
+      "digest": "sha256:4ab8d69e24b6e46dda934f2d97ff4b355d116b773e1d4650d1064778f6ce6469",
+      "path": "examples/electronics-grid-controller/symbols/tvs-diode.aixsym.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 61924,
+      "digest": "sha256:725c37c3ddd9a3429c39c32ae3e7049f54549418ac5992baa2cb2f444a288de2",
+      "path": "implementation/schematic/component_core.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 40197,
+      "digest": "sha256:939d9e9670b3cfe608fb9eb810bbb6080353d5bd1e437163a358d95f1dcc079e",
+      "path": "implementation/schematic/render_project.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 2598,
+      "digest": "sha256:c0427a5c3196de1560ef723ba7d87cafe56fbdada59a6cd6ccf7410df07a8fde",
+      "path": "legacy/0.4-declared-artifact-audit.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 123040,
+      "digest": "sha256:e37531c01b9e334ca8ebbc13a09a0933901006b2efef8e3b7b6c6b863415d3aa",
+      "path": "legacy/0.4-inventory.csv",
+      "suffix": ".csv"
+    },
+    {
+      "bytes": 206029,
+      "digest": "sha256:159d3ee4854c51500442258661321a89e536206172f0e84ff82278f64ada4f34",
+      "path": "legacy/0.4-inventory.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 216970,
+      "digest": "sha256:edfbb0b326a20df44a2abdc0ffba1b07af9a74f03bfbeca307e0d8b8724a88d3",
+      "path": "legacy/0.4-migration-map.csv",
+      "suffix": ".csv"
+    },
+    {
+      "bytes": 329562,
+      "digest": "sha256:7a75ed370bd8908c7d052d6ac4dce981f8a27dd858c2c34e2e5c0806650f33ac",
+      "path": "legacy/0.4-migration-map.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 725,
+      "digest": "sha256:eb44542cc80c5e7d20a83d42a1545cfcd489321a13b959bedda61e0dc706d99b",
+      "path": "legacy/README.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1743,
+      "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+      "path": "profiles/aixem-grid-schematic-style-1.aixstyle.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1861,
+      "digest": "sha256:ee13384d7ac2b7491eab9fe04dc1446663027041e6f1c6f0802d4180fca5ec1c",
+      "path": "reference/cards/agent/architecture.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1928,
+      "digest": "sha256:bf386c959e932d019a4ba4979479500c2dce2ec0d562b00d8c089b4ece24623e",
+      "path": "reference/cards/agent/failure-policy.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1585,
+      "digest": "sha256:03e5b77c1aa1a016a53f26bc774fdcbb1f346d0a72df4affee52637842d2da10",
+      "path": "reference/cards/agent/overview.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1642,
+      "digest": "sha256:10fc2e6515fd4d3c9fee92dc77f7b1af885cab59e8e4ecc593344ce4146d2e64",
+      "path": "reference/cards/agent/retrieval.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1561,
+      "digest": "sha256:059a5d8418999991bf9c497be92dffee3eaeeacce6aaec870b9d8a67aa37ca63",
+      "path": "reference/cards/agent/routing-agent.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1674,
+      "digest": "sha256:9dfe85f8bac8a584b19efb3b59bcc9b09fd241889620c92c528c04f340bb1daf",
+      "path": "reference/cards/agent/schematic-authoring.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1607,
+      "digest": "sha256:47ddd09acc9840006f3c9777ae03d51e140e2bc97b08d592cfd2fb6a6d23ee27",
+      "path": "reference/cards/agent/symbol-generation.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1893,
+      "digest": "sha256:b04e6ab7a512024d5d5885f717cdc7a4de0cbd95a51a11db83a9770dde492d9a",
+      "path": "reference/cards/agent/task-routing.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2016,
+      "digest": "sha256:fa797ed08f2512e9cecf783286b28110e3df8cba6cc61212edb2666342d85db4",
+      "path": "reference/cards/agent/validation-loop.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1612,
+      "digest": "sha256:934e420f70f4af0accfcb67e4a521ae666a311b179095b9e723e7229343cf3d5",
+      "path": "reference/cards/architecture/adr/0001-canonical-doc-root.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1646,
+      "digest": "sha256:da993569537af840a03960c2f5dc4fb5902432ca8593e38fb34d1bf21d465e2f",
+      "path": "reference/cards/architecture/adr/0002-route-first-retrieval.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1695,
+      "digest": "sha256:e7c577f9ed761e9050a60b1adff615b7d2f520e35f5cc23c94f29f73122877ff",
+      "path": "reference/cards/architecture/adr/0003-vendor-neutral-ui.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1488,
+      "digest": "sha256:f83ea501b829e9d0d624c658597fdff4a353dc37715eede1cf7b02c2d4896c4e",
+      "path": "reference/cards/architecture/adr/overview.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1874,
+      "digest": "sha256:e46b3a89ad0b8322f68b740f450da5991d6ba04159344e7c9f6daf5253c5775d",
+      "path": "reference/cards/architecture/artifact-store.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1783,
+      "digest": "sha256:9caed62813ea38086e9647bce62901cf6ac572450af288c39cb3aa8e8e6059c1",
+      "path": "reference/cards/architecture/cache.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1615,
+      "digest": "sha256:bfa179f317b7c902214900725e83d5606124f1fa975fba12cfb07ddd72cd6d80",
+      "path": "reference/cards/architecture/overview.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1877,
+      "digest": "sha256:0b8b927de808f3471364732f4a29e1facd28a7f1aa8cf4a30e5188f8eeb436ad",
+      "path": "reference/cards/architecture/pipeline.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1991,
+      "digest": "sha256:e476e68f4b1c3b8d00bdef7971bf166f3ca064d121d12ed84aad144ef01fac93",
+      "path": "reference/cards/architecture/security.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1890,
+      "digest": "sha256:b8f66b59f78ffbe6f9caddd3f732ce707c64aa4a642d7e63f7394c2003ceca73",
+      "path": "reference/cards/architecture/system-overview.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1783,
+      "digest": "sha256:367afe154b9a7d7f420bc260b3d868d541f5a717824861a487270692f7cb25dd",
+      "path": "reference/cards/concepts/authority-model.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1931,
+      "digest": "sha256:6c3fc1b5a65c8bf46a7f3381e37b9d81857ff49829e5e1d44229115494da24db",
+      "path": "reference/cards/concepts/component-model.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2011,
+      "digest": "sha256:a1a480ab4144b38f5bbbb9b59427b470eed9c5b8efec1f9f5a29557ffa611e14",
+      "path": "reference/cards/concepts/deterministic-builds.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1746,
+      "digest": "sha256:02ab3497f0a01cf6cbe3a3d1bced93aaa2bfd9dc18611083419e540ad112ce8e",
+      "path": "reference/cards/concepts/layout-model.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1687,
+      "digest": "sha256:53778fea5feb9626270151e57ca4d822319f891d0880420ea5a6792307baca8d",
+      "path": "reference/cards/concepts/net-model.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1454,
+      "digest": "sha256:b33712cddb521333cbcd28fcc1e1cfd679a5d0f324ec3f976d877d31a26cdd51",
+      "path": "reference/cards/concepts/overview.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1956,
+      "digest": "sha256:46a8be27ce6a19969ca6a5bc9895503a3d1d349239ed9e7b59c9f92f25a3365f",
+      "path": "reference/cards/concepts/semantic-model.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1729,
+      "digest": "sha256:d1cf075fde846064871c68b6986a77f6c38c990054d6441f5cc6d59ef794b8fa",
+      "path": "reference/cards/concepts/symbol-model.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2012,
+      "digest": "sha256:4126754a345b551fde103d8c91ac3371e91fc3223932f2aa1cd401e478601563",
+      "path": "reference/cards/conformance/compatibility.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1485,
+      "digest": "sha256:7edb60ff57c74e597f7b12bad44add3829cc5cfcb0e92cb3992ac808746fe643",
+      "path": "reference/cards/conformance/overview.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1962,
+      "digest": "sha256:9110d7f8ec6fcd1b872cc980e6b5b74bc4cc201c52aba34f4314a029ecc0a814",
+      "path": "reference/cards/conformance/release-gates.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1928,
+      "digest": "sha256:568d485f17a44def78f0bff9381a7c4527008ab479b166971095fc2328e3831c",
+      "path": "reference/cards/conformance/requirements.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1930,
+      "digest": "sha256:13bb382e9e5f68c3586daa7c73fd5e6c1f728d9257f16a60cf49eca5df146ef2",
+      "path": "reference/cards/conformance/test-suite.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2016,
+      "digest": "sha256:9dadc31989c0284f5bf72ac535e98ec68e0ed75033a4a3b00e3e18b33ea67139",
+      "path": "reference/cards/conformance/validation.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1763,
+      "digest": "sha256:1170bff9f1d6fe1ca9ffafbf6723cb5cd7538c73e371c53fe8b43371df58d65c",
+      "path": "reference/cards/examples/grid-controller.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1647,
+      "digest": "sha256:ce3257d8b8ce43ce98c78e83d350e3b26f83f2fb4e31232c0190a856f767f5a3",
+      "path": "reference/cards/examples/hierarchical-reference.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1487,
+      "digest": "sha256:0e86d870e83b989e8904fba24652725f2e1f49670fa0a76b5a7648ed3bc8bd95",
+      "path": "reference/cards/examples/overview.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1596,
+      "digest": "sha256:69cf467caf4d7356cf66709bcc761c3a3c41d308501de30c540bbc021a6e55f5",
+      "path": "reference/cards/examples/passive-divider.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1764,
+      "digest": "sha256:eac18db8ba5e6d936c29de105fa89b4bcaffcda5d4af1c35becab8d5862129e3",
+      "path": "reference/cards/file-formats/aixem.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1637,
+      "digest": "sha256:8c04fece9247a051fb48b8a504d09b3c90c6ffeede02234240271c1f9ffe32ee",
+      "path": "reference/cards/file-formats/aixlayout.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1773,
+      "digest": "sha256:1b9e8e88ca313ff054f383dbe58d4c3479541484df7665b001c8b19d62aab4c8",
+      "path": "reference/cards/file-formats/aixlib.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1618,
+      "digest": "sha256:852c26c3cc7d6b90c3ff615fe2f3509fb752d745bddeeab9e369df1af1211ef2",
+      "path": "reference/cards/file-formats/aixproj.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1608,
+      "digest": "sha256:9b465f16d50630a6e81099f67f9dd1d3fcab649790b9509529bbeb3ed599ecf5",
+      "path": "reference/cards/file-formats/aixsym.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1525,
+      "digest": "sha256:a2de185b51235e02c05ea88c9fb271e8fd1e68edafd4010b1b74440f62a448d3",
+      "path": "reference/cards/file-formats/overview.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1820,
+      "digest": "sha256:7b760b13fec12f19f6f5d17554e3f05932cb5fc1961f60d57732433cec0536c3",
+      "path": "reference/cards/file-formats/style-profile.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1710,
+      "digest": "sha256:bf70e84463f77e0dc85dd83dd36dec50b78dedfe218a5ea8c80b62996ce38806",
+      "path": "reference/cards/getting-started/first-schematic.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1545,
+      "digest": "sha256:7447ce10f362f4d47214fe915ee231c053444f27a8424ab239b7ae092d4211ea",
+      "path": "reference/cards/getting-started/introduction.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1424,
+      "digest": "sha256:03a60c334b8495f74930359851b94d073789a63bdab10e1983b7ece9db2b95b7",
+      "path": "reference/cards/getting-started/overview.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1569,
+      "digest": "sha256:6e190f62c5e72f68024f7f82781be6bfedefe3226da8256f7f124ba697f7d653",
+      "path": "reference/cards/getting-started/quick-start.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1802,
+      "digest": "sha256:142f4b36b8f87200407a412625bacaefe087f42de9e0f9dea16a9002987de6af",
+      "path": "reference/cards/governance/compatibility.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1772,
+      "digest": "sha256:9aef9238c49f6107ed61405571a2c17d340fcae41192b4681b72c32351da98f7",
+      "path": "reference/cards/governance/deprecation.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1455,
+      "digest": "sha256:c448ee6fe91eed2e0094fffab082af71b5f3e61b97b2f01a9d4ff2be6d9d156c",
+      "path": "reference/cards/governance/overview.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1668,
+      "digest": "sha256:8c8bc757df576b84ab99236f2a7f05da1e4996e1df50ef7a6977585ef8f9484b",
+      "path": "reference/cards/governance/release-process.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1593,
+      "digest": "sha256:87d24808f8c7568bb2ab8dc677752857c7b1ea4c4054ff81503753d850ced5ce",
+      "path": "reference/cards/governance/terminology.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1915,
+      "digest": "sha256:1b84a252c9bf6c7659bed79b568959ba76320301732fcb75c59250c05a1c6423",
+      "path": "reference/cards/governance/versioning.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1603,
+      "digest": "sha256:f06bbd329ae60f75944b4680b14fa6ee3f0398325fc7651659572403f18c708f",
+      "path": "reference/cards/index.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1489,
+      "digest": "sha256:f94c6dbd7168c232ca6b2c44a0633de5883ffadf40e8d4cbf382ec4509ce60f6",
+      "path": "reference/cards/releases/0.4.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1605,
+      "digest": "sha256:a724dee089d252556134993fcf2ab84b2ba7e72a3718c788d27f0b61b1bac736",
+      "path": "reference/cards/releases/0.5.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1442,
+      "digest": "sha256:da4ca7ec9780802060ab2faa85040da57b493ec0ee9bbbfcb3a6f12d0173ad6c",
+      "path": "reference/cards/releases/overview.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1827,
+      "digest": "sha256:499a451e7bd63ceeb137fa6d3eec9d22fb89fe3f7a6ecd6286f633f2b144e6b1",
+      "path": "reference/cards/routing/crossings-and-junctions.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1866,
+      "digest": "sha256:737d3262edae7d5d95965695b85aac69019c07037da0328cfa174cc6aec96a7f",
+      "path": "reference/cards/routing/net-routing.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1919,
+      "digest": "sha256:f83b322cda85dd35d403aa59b51e33caa7f22a111a7dc5149f478791ab1a11e4",
+      "path": "reference/cards/routing/orthogonal-routing.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1403,
+      "digest": "sha256:00f4ac1aabb977ebefffc5c04e3c55f1c1f9b16633e6c7b16a441104802746f2",
+      "path": "reference/cards/routing/overview.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1941,
+      "digest": "sha256:1e2aeaff780bf59be9c7c77c758c987e9008089263526f4442085e49c6e4080c",
+      "path": "reference/cards/routing/route-constraints.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1543,
+      "digest": "sha256:9aca0d9a22f7a68c4904d8efe2fc85dd28c39b5155ed68790dfe70a763e3bd65",
+      "path": "reference/cards/routing/router-behavior.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1780,
+      "digest": "sha256:efea41f02e85e3880971b8ee9e60ddc918fd6f16f2abc871979c04466f3c0e03",
+      "path": "reference/cards/schematic/annotations.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1901,
+      "digest": "sha256:56b1129d7b9dea0e5adf077517ec3f382ab7e31f1ceb0b69d687ba514231fdce",
+      "path": "reference/cards/schematic/grid-system.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2004,
+      "digest": "sha256:7cadc2e9082a8622a80d20705e4d6c6a6578527cc1cb8c79fda56d0fdc6e17d4",
+      "path": "reference/cards/schematic/junctions.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1511,
+      "digest": "sha256:08b8543675d499a8c345353f6cd9fff2c41e4e39572046f5519e510973369f30",
+      "path": "reference/cards/schematic/overview.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1757,
+      "digest": "sha256:1487d0b73a8f4fcd5beb8b0714e4ee4f8e0a412798b47c23af8310087849ff8a",
+      "path": "reference/cards/schematic/placement.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1555,
+      "digest": "sha256:43d94f83563e0a9f72095a63a11c494fafedb0e64c0124afe35d6ee3d7ea53d1",
+      "path": "reference/cards/schematic/sheet-organization.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2173,
+      "digest": "sha256:50c11636de78f1701ca073663f78e6c1869d79780164705fb1855b9a86a5fb09",
+      "path": "reference/cards/schematic/visual-language.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2337,
+      "digest": "sha256:bfe35cecd66628e12fc3270ae3b9aedbe6c3c2b2deb4b126498ae897e98b818c",
+      "path": "reference/cards/specifications/agent/retrieval-profile.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2165,
+      "digest": "sha256:6201b2b096f69f21a6af54f2289ed2d088216855b550261467415562a516c237",
+      "path": "reference/cards/specifications/core/authority-precedence.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1984,
+      "digest": "sha256:ccea277abe8abec523967a4e02a659081fc53c326f61233e3d341789b9f2a1af",
+      "path": "reference/cards/specifications/core/coordinate-system.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2019,
+      "digest": "sha256:93e73f65d3a87b7fd9f133bb4b8571fda07ea2d85e346f72ddf1dc3e67edb7f3",
+      "path": "reference/cards/specifications/core/document-model.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2074,
+      "digest": "sha256:f3296c93ea8a34f943c14d094460b947edcce3aa9bddef9bd0e4786ac619b22e",
+      "path": "reference/cards/specifications/documentation/metadata-contract.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2596,
+      "digest": "sha256:8bda65ce786e7d2f22e206ca8168b594a133eb9579c28ed8b1e4a2510ae1a466",
+      "path": "reference/cards/specifications/documentation/release-integrity.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2043,
+      "digest": "sha256:8562d92d5f39f3da85f45db5b01e51e55908740c76166b964075b8d49dc72649",
+      "path": "reference/cards/specifications/layout/layout-contract.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1622,
+      "digest": "sha256:37cf9d841d5607a91be613593cf4dabb34e8f601cd139dcc2fb662d157fd8e18",
+      "path": "reference/cards/specifications/overview.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2153,
+      "digest": "sha256:2d7d9f7f40afc8d02fab9ba5486bc13873d5a6ebcd9bd3c26d97f69ac711e387",
+      "path": "reference/cards/specifications/project/project-lock-contract.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1608,
+      "digest": "sha256:8205e51e111172baab1e6530dc951984c709f8aa2be88514ba0ed5f0498309f7",
+      "path": "reference/cards/specifications/schemas/overview.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1915,
+      "digest": "sha256:99d07b1b74ee8649ff7f04b54831dcb025e47dd1ec6ceb38f55b52d082b8d673",
+      "path": "reference/cards/specifications/schematic/grid-profile.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1830,
+      "digest": "sha256:8e71db9261699d2f3765825498e25c28650bbfe60444d39f625be18cdff2fcfa",
+      "path": "reference/cards/specifications/schematic/visual-profile.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2025,
+      "digest": "sha256:e1631527e029f286a2e570b3f4b6328ec8fadd0a824ed99fbee380ffe4f7a39f",
+      "path": "reference/cards/specifications/symbols/symbol-contract.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1540,
+      "digest": "sha256:a24ac571465beef46eabdb52d508c902b67be16a51b19dfc0418ffd48e27d263",
+      "path": "reference/cards/symbols/authoring-guide.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1770,
+      "digest": "sha256:1db9d97b4a8f4eac9a9e978fbe18e128f06e9833966d6d4610bec68390867ce4",
+      "path": "reference/cards/symbols/field-layout.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1444,
+      "digest": "sha256:6f7be66c6c334686871a3d9d5245bc58744f74c2d51b75d55c366dfde146854b",
+      "path": "reference/cards/symbols/overview.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1999,
+      "digest": "sha256:2551ce7e7b576fa3226487c74f34041393b8c8c4b5f8918a4958738716d9f04c",
+      "path": "reference/cards/symbols/pins-and-ports.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1785,
+      "digest": "sha256:56140d78f9636c9d2db5c4459cfc9db19835ce7ac1fe6b9bc023958ba3a900b4",
+      "path": "reference/cards/symbols/primitives.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1858,
+      "digest": "sha256:b4efa526c0c15f9804510da3e66d0b88fb5f5e4fb3d6e61fa5084793705a3a7a",
+      "path": "reference/cards/symbols/symbol-anatomy.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1931,
+      "digest": "sha256:8407e2560c891b40d92f0a7629cb002c49c1b27f364d069086f9beb408f753ac",
+      "path": "reference/cards/symbols/symbol-lint.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1704,
+      "digest": "sha256:03d3008a864c46c87a6b0f9b1295369377f287932c61eb809b6e9247e4ad12f2",
+      "path": "reference/cards/symbols/variants.aixcard.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 3193,
+      "digest": "sha256:2ed5988294fe826dae5e9b42bab2b625259c65d71498bf27fd9ea14b14288943",
+      "path": "reference/domains/agent/index.aixdomain.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 3759,
+      "digest": "sha256:e593d78f595ba3f248cf94e880932adeab1976277ed471b9bd0dd93eeb4b302d",
+      "path": "reference/domains/architecture/index.aixdomain.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2783,
+      "digest": "sha256:a017b5ede845b2b8d13922b8877108e823815b7616e90565c464b5884ddf7a54",
+      "path": "reference/domains/concepts/index.aixdomain.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2232,
+      "digest": "sha256:28e7e46a8d4409e3e8dc00f58a520475a5ec71c0f14285e56df0eb0ebb74a663",
+      "path": "reference/domains/conformance/index.aixdomain.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 690,
+      "digest": "sha256:a740cacf5e1ae7a6936d34e44e38e73de125589c30bb68310f769198a450d589",
+      "path": "reference/domains/documentation/index.aixdomain.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1695,
+      "digest": "sha256:8e06f296b6f72eaa1ebfb119d4ebc610ed10998f7b4799a9996984fcb8af0498",
+      "path": "reference/domains/examples/index.aixdomain.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2624,
+      "digest": "sha256:5da792bb88d106b3df33a695de79c0149f7bfcdb93bb3893b8e88b0244126bd1",
+      "path": "reference/domains/file-formats/index.aixdomain.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1606,
+      "digest": "sha256:a9febfe73395788fdfbcd45cc4e422aed83de98c2ab63ead5e2fc344fffb9e61",
+      "path": "reference/domains/getting-started/index.aixdomain.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2239,
+      "digest": "sha256:979a212bd8ff89de55d148d738c2d3ae59290e9588120ff837192e289ef798a5",
+      "path": "reference/domains/governance/index.aixdomain.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1291,
+      "digest": "sha256:9c35a151d5970d8f445ecb1ab0418380b87b15fd31107be382e6ee9eec445722",
+      "path": "reference/domains/releases/index.aixdomain.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2101,
+      "digest": "sha256:31e11db03d26f42e6a8e92c621fc1c95fe2b70efd13c6e536d7b749bd45bed3b",
+      "path": "reference/domains/routing/index.aixdomain.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2436,
+      "digest": "sha256:d3d65b4855f115749e374481e1efaa04e1b37f999abc17cbc1d4e4b29b759615",
+      "path": "reference/domains/schematic/index.aixdomain.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 4790,
+      "digest": "sha256:21a142a02d3f7ea25359dd11e4ecb926e8df482f388b763b7f815b2f3a4204b0",
+      "path": "reference/domains/specifications/index.aixdomain.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2738,
+      "digest": "sha256:b7da2b25a4795b8b589d6b6dffad3a9b516a31776f0e2ecd9aba6b13bda5192e",
+      "path": "reference/domains/symbols/index.aixdomain.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 7256,
+      "digest": "sha256:54afb88ea713c8b0eabe00d67e9f724897de3a08c998aa51d009c64a6fe46db3",
+      "path": "reference/index.aixref.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 8523,
+      "digest": "sha256:73fa789b8b07785d6e7a9f5bbb1c94f4b2f80f2f6223803c3ccd491fd9252d4e",
+      "path": "reference/indexes/artifact-map.aixmap.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1529,
+      "digest": "sha256:24c26ab5559e73b7716216f56c9fe288e358fd351a7fd3fb58bfe02bdaeffd4b",
+      "path": "reference/indexes/capabilities.aixcap.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 51247,
+      "digest": "sha256:03e5e914eb5b4e5556935b6ecfdf40759b5a0c18969c66b264992710c2c45fe7",
+      "path": "reference/indexes/dependency-graph.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1768290,
+      "digest": "sha256:2c87279a8da6aafce51cc3704870c265deb1523e9649b85ccb767a32d38d9934",
+      "path": "reference/indexes/inverted-index.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 24664,
+      "digest": "sha256:5dd6225c126b57837f9b28ab2295abea95e43e80ed015ac6eb544932c757e3a0",
+      "path": "reference/indexes/manifest.aixmanifest.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 3029,
+      "digest": "sha256:188f2356ea614d824b04c4969975c7e9314195fc538f1cc198c9e4cc37453010",
+      "path": "reference/routes/build-documentation.aixroute.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 3333,
+      "digest": "sha256:f8560879bc7aab6e3bb2ffa027bf315877727c3605ab0d2a69b17235e495b9fd",
+      "path": "reference/routes/change-architecture.aixroute.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 3262,
+      "digest": "sha256:2383f3b16125dde646f234daa9ba98c75f69f64160869efdfc943e8d718b6e98",
+      "path": "reference/routes/create-schematic.aixroute.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 3205,
+      "digest": "sha256:c005b58254633cda217a244a734d41be457a4558afcab97f3af6792af94d94fb",
+      "path": "reference/routes/create-symbol.aixroute.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2523,
+      "digest": "sha256:a2b0f2799603742720ae19666eba896b703abc8870a8ed609596f23589b47d3d",
+      "path": "reference/routes/inspect-artifact.aixroute.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2610,
+      "digest": "sha256:745d4092ac3d72d2d5b05f37470bc4a77d1d4288d9a6a15715435a482811b9b6",
+      "path": "reference/routes/migrate-baseline.aixroute.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2873,
+      "digest": "sha256:2a9270438e795bd4e370ed9a0215d9bb2e3e4103fd83d23cbe4bd55269a1feb2",
+      "path": "reference/routes/publish-release.aixroute.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 3176,
+      "digest": "sha256:697568517a657eccba50f280b328f6b0b7c0e3125654f9463e27553ebd37e16f",
+      "path": "reference/routes/route-nets.aixroute.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2914,
+      "digest": "sha256:2213bffff9ca0c4c21fc43da3b94ef6b9307de1d75f0671bc20984b27148b2fc",
+      "path": "reference/routes/validate-project.aixroute.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 121357,
+      "digest": "sha256:b2536d5c3739bf7b9740af20fdde6595904bff2b105c6b79c8f1a73e84e33a2a",
+      "path": "release/manifest.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1126,
+      "digest": "sha256:68e2a67aaa6415798a64e7516e5432044ac115caaa7508f786382674f112e235",
+      "path": "release/release-metadata.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 39,
+      "digest": "sha256:afd8bd12dab46e15941ede9767a5e770899dab3fac6b32ee3f3b99c03fe3855b",
+      "path": "requirements-release.txt",
+      "suffix": ".txt"
+    },
+    {
+      "bytes": 85,
+      "digest": "sha256:6a7cb543ed34ad7a6d255261695b7f580d8dde01f974f5e1ff725df0c233dbe1",
+      "path": "requirements.txt",
+      "suffix": ".txt"
+    },
+    {
+      "bytes": 17335,
+      "digest": "sha256:89c933ca4979cbb27197965e55620395b2a050b57df5a9af9f21cc0221ed436c",
+      "path": "site/agent/architecture.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 17896,
+      "digest": "sha256:183bc5e39ba89fc005baa2e59a7451f1eaf694faa69871e1c3dfec0b32f75f5a",
+      "path": "site/agent/failure-policy.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 15555,
+      "digest": "sha256:ca78361632f7b12c87053ba7ecc8b4aaa82a5675611be2cafc4f5bbf538f4ee5",
+      "path": "site/agent/index.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 15651,
+      "digest": "sha256:c7d66701df18757e1d561337b99c5134e8368c12b921bc65e0396401cad7d9f4",
+      "path": "site/agent/retrieval.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 15188,
+      "digest": "sha256:e13515c56bc50262a0a9307ca610b930b7b5eeefd5d68197e15202c33b29e524",
+      "path": "site/agent/routing-agent.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 15988,
+      "digest": "sha256:dbc4de115038bf951718ac46f9dc5a55018d9faa4bcf1f1a6f4ed381d6ca06ba",
+      "path": "site/agent/schematic-authoring.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 15561,
+      "digest": "sha256:9195c9f8ab5454d97f621550dd7106c87435c1485086dcef9b615b2306ce61a0",
+      "path": "site/agent/symbol-generation.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 17905,
+      "digest": "sha256:2183fe01a84e3939d801d59644c4cc266729960d434bcaec42bdda8f164c42e5",
+      "path": "site/agent/task-routing.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 17639,
+      "digest": "sha256:1f92bd1879f1171696ed193cecf4a69ef7f2346465c314d3e1dfcd113e620c73",
+      "path": "site/agent/validation-loop.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 16221,
+      "digest": "sha256:330babd9d86cde44085cc8c8020f83c09617368c8e5b845a1198987e477f404d",
+      "path": "site/architecture/adr/0001-canonical-doc-root.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 15872,
+      "digest": "sha256:f48fd7fbc9c32a235a23ae4ba50e5c39f8b4bb687454b76f7abdd626ae5921e5",
+      "path": "site/architecture/adr/0002-route-first-retrieval.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 16084,
+      "digest": "sha256:51b6b4b9717cd6ba7c16bc30e06d2f31969d67f753b6610c934fde11c20f273e",
+      "path": "site/architecture/adr/0003-vendor-neutral-ui.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 15803,
+      "digest": "sha256:0a02a6aaed04018725fd145433e3418d9b3a08ce43a39b0127775fbb1195ccc0",
+      "path": "site/architecture/adr/index.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 17065,
+      "digest": "sha256:b82665ea3f322497b42e788b45606bb7e13efc716bd37f6ac1baab265858dc34",
+      "path": "site/architecture/artifact-store.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 17037,
+      "digest": "sha256:99d5fa954ecb8f7e782f4adf434e8f9daf6869b788a88ad4242cdd9a1dcdc802",
+      "path": "site/architecture/cache.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 15517,
+      "digest": "sha256:7395b878c67746064b5ae2f539ce70d30dbeea54116f7a4e3931ca311b5e6e0e",
+      "path": "site/architecture/index.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 17089,
+      "digest": "sha256:bbc82fa22aa16283764e5485e2cdc005482eddd338fe76f98190a8bd6d1c6bda",
+      "path": "site/architecture/pipeline.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 17917,
+      "digest": "sha256:87a8339024ac57854e5cb9ee803d0e188ed6df7d2ff5b553f942bbddb007da59",
+      "path": "site/architecture/security.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 17113,
+      "digest": "sha256:698eb613968d4b924673c9207d195b3a3a7ed77e913c27bb89e55021c5f1777b",
+      "path": "site/architecture/system-overview.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 7958,
+      "digest": "sha256:6ae4e6daf1dc7854b151be5658c5447fb6be73feb1954f13c7df3232fecf98ea",
+      "path": "site/assets/data/artifact-map.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 51247,
+      "digest": "sha256:03e5e914eb5b4e5556935b6ecfdf40759b5a0c18969c66b264992710c2c45fe7",
+      "path": "site/assets/data/dependency-graph.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 284502,
+      "digest": "sha256:58da07106459be6d90c9c483518f693ee2095076cfe4a1f492378f1dc611d26d",
+      "path": "site/assets/data/document-index.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1768290,
+      "digest": "sha256:2c87279a8da6aafce51cc3704870c265deb1523e9649b85ccb767a32d38d9934",
+      "path": "site/assets/data/inverted-index.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 25122,
+      "digest": "sha256:05bd6ba09d96dcdb8ae916057b6e327ba89157e241e8963fe8949cdcea824b43",
+      "path": "site/assets/data/manifest.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 136217,
+      "digest": "sha256:c92650ed80d1e4165c830203d2dc1b2c4f8b521495d0cbf4efd3744aea42ba2d",
+      "path": "site/assets/data/requirement-traceability.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 34240,
+      "digest": "sha256:effcd1353272ff2a1ad23c80fccf6edda07f71d021cdb34d25a6b7e018c405ff",
+      "path": "site/assets/data/route-index.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 71478,
+      "digest": "sha256:cbf6775048b06eeb120530abece8148a73e0b0bebdf493f5cfc7eee9708d8080",
+      "path": "site/assets/examples/controller/drawing.svg",
+      "suffix": ".svg"
+    },
+    {
+      "bytes": 1711,
+      "digest": "sha256:c732ba3b71359fd683e29dd9e6c237d632a98ef06793c5869174f62fd898aa65",
+      "path": "site/assets/examples/controller/render-manifest.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 35525,
+      "digest": "sha256:3836beb1d977e2daa5b3617aed4a4b5b1f89bb701163dfdda9de97301ae7a868",
+      "path": "site/assets/examples/controller/resolved-scene.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 113400,
+      "digest": "sha256:613bf5d587e99b2971b61fc1786b3f99b11357945fa5d6298062cffc0c477977",
+      "path": "site/assets/examples/controller/viewer.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 113400,
+      "digest": "sha256:613bf5d587e99b2971b61fc1786b3f99b11357945fa5d6298062cffc0c477977",
+      "path": "site/assets/examples/controller/workbench.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 9642,
+      "digest": "sha256:85d1977d263f0ee6f86db615c2f4b9c43fbd1e534b1446f5fcdb2b58e16417cc",
+      "path": "site/assets/schemas/component-graphics-1/aixem-component-library-1.schema.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 17883,
+      "digest": "sha256:4f92e5e292a694aabfca922cc449f2f59a1a08e6465181a096a62b47b23bfca7",
+      "path": "site/assets/schemas/component-graphics-1/aixem-explicit-layout-1.schema.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 4546,
+      "digest": "sha256:056932ff46d7b6928f3b01dba50403353bdfda8f4d28e8b7bf0d38ab1dd39a41",
+      "path": "site/assets/schemas/component-graphics-1/aixem-project-manifest-1.schema.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 51899,
+      "digest": "sha256:ba4d442591f6e53daf07f9d8f85e2026043f4e93ae0710e2578447dd3c466831",
+      "path": "site/assets/schemas/component-graphics-1/aixem-symbol-asset-1.schema.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2825,
+      "digest": "sha256:8de0f9d899b45b4bc0907ce177c26ca79797d310c0fb417f102db90f7db63ba9",
+      "path": "site/assets/schemas/reference-compatibility-1/aixem-artifact-map-1.schema.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2891,
+      "digest": "sha256:48128f752517b70a0efcf25468dca0a219afb44d168d05cef973655dba0d41ab",
+      "path": "site/assets/schemas/reference-compatibility-1/aixem-capability-index-1.schema.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 5447,
+      "digest": "sha256:9010581b913dbd75f83033750cf99b315afcf1b87cea699b6afaa02f0270b9c6",
+      "path": "site/assets/schemas/reference-compatibility-1/aixem-reference-card-1.schema.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1779,
+      "digest": "sha256:89cd13142bad5473d456a59976fce64c9144b989e7e23e92d968d4dbb18612b7",
+      "path": "site/assets/schemas/reference-compatibility-1/aixem-reference-domain-index-1.schema.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1884,
+      "digest": "sha256:b2591ae758e9fc4fc8f2900cf8b477b8ef2ade5ccd9b043fea204db73e25a919",
+      "path": "site/assets/schemas/reference-compatibility-1/aixem-reference-manifest-1.schema.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 5112,
+      "digest": "sha256:00b831043495014d7d2124d4b6fb2b06edd6af8770ec21e1afd13390644dc3d5",
+      "path": "site/assets/schemas/reference-compatibility-1/aixem-reference-root-1.schema.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 7495,
+      "digest": "sha256:da13c5dc836cc89fceccbc2d7e51bb70a29e3de6f4e8004e390c768f9960d940",
+      "path": "site/assets/schemas/reference-compatibility-1/aixem-schematic-style-1.schema.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 5229,
+      "digest": "sha256:4088a978378a7bad4961ffcdbb2a2534213c20fbf0044af2cde2b77ca46010a7",
+      "path": "site/assets/schemas/reference-compatibility-1/aixem-task-route-1.schema.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 60462,
+      "digest": "sha256:1973e9bc4e11860b57078981407469bb0b30629b00655fc53313934e99eae2f8",
+      "path": "site/assets/search-data.js",
+      "suffix": ".js"
+    },
+    {
+      "bytes": 8578,
+      "digest": "sha256:05c2075e94d4d543d5959e0980245eda470e2fb7cbe5d490f232c3c8c1c639af",
+      "path": "site/assets/site.css",
+      "suffix": ".css"
+    },
+    {
+      "bytes": 2942,
+      "digest": "sha256:b9fe786ac9530369cf93f2420d6801572d195f71f379662803ab7bf49b9521b5",
+      "path": "site/assets/site.js",
+      "suffix": ".js"
+    },
+    {
+      "bytes": 16823,
+      "digest": "sha256:54f5ef0d2f0d28a33d4ab42956261b0f304b6147cf2a185f9d37aeb145eb836c",
+      "path": "site/concepts/authority-model.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 17578,
+      "digest": "sha256:426f8aa0a87131cf1e48a2f11d0cb778f325e250642ea1ca7f5f59c67005c99e",
+      "path": "site/concepts/component-model.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 17645,
+      "digest": "sha256:7b072bc49683c5999e3c397a5ec914ddaedc8fe43b33425d48259c53e99475f6",
+      "path": "site/concepts/deterministic-builds.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 15387,
+      "digest": "sha256:8257518cae353ac8b9d7a9d80b0d7cd18408c8bedf65ce115cab15801680fb5f",
+      "path": "site/concepts/index.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 16853,
+      "digest": "sha256:187e18283de54b2259ee471ab7c5bf82c6c8bf5caac033df610dbc8f0dcdc27c",
+      "path": "site/concepts/layout-model.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 16715,
+      "digest": "sha256:92628001a0553171b59f2500b45af38dc1f073948b8c51fc57ba5d196be8ef31",
+      "path": "site/concepts/net-model.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 17531,
+      "digest": "sha256:1cb1429455abfd7f8996641910c7051d6628f28cbe0f78b7191be0e6cf4fc0c8",
+      "path": "site/concepts/semantic-model.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 16780,
+      "digest": "sha256:c9f22d4fe546fc20e487099b7d27bb867ce0c4660962902ed60394b85a7a9081",
+      "path": "site/concepts/symbol-model.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 17906,
+      "digest": "sha256:fd5b2541be160f6b071b9f6d0c01ac9cf9b7295121052e4f7767d41c380d7a64",
+      "path": "site/conformance/compatibility.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 15444,
+      "digest": "sha256:eb232640f72459e5a3a299d0b7bfa06cea05bc8a2d8089b803437e0dde2b5a33",
+      "path": "site/conformance/index.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 17859,
+      "digest": "sha256:e1fa3817431a35fda78e6bb7376b344d3deac61a1a52fee250bd2ca0642bcbf1",
+      "path": "site/conformance/release-gates.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 119252,
+      "digest": "sha256:693e498ad8dc853eb4272dc92bd9f2a3f7d413af39c29b285b688d7d78ee5965",
+      "path": "site/conformance/requirements.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 17551,
+      "digest": "sha256:9c34de737e51b17ef51524856749925426f478d89dedced0a6cd031c23746fe2",
+      "path": "site/conformance/test-suite.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 17776,
+      "digest": "sha256:cbedb30fd4fed02c9620e0b4bb54ebcc2ef5a584bcc0b9eeb089de963f755524",
+      "path": "site/conformance/validation.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 16104,
+      "digest": "sha256:611e6c1bd8807a1dc74f4a36169dd2375493c5ce0c604bfc2f733129bc06653b",
+      "path": "site/examples/grid-controller.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 15268,
+      "digest": "sha256:33c80333403423fc78d7729c801c69854bac8500894471ad46a3bf9cf5180774",
+      "path": "site/examples/hierarchical-reference.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 15522,
+      "digest": "sha256:982b0b8c094803380c069d480e2826c4b1b285b2694233d804a867061d89453e",
+      "path": "site/examples/index.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 15515,
+      "digest": "sha256:faf0376beba363dca616ac5bab7392f77f5e7a09e2c1ed492c4caa9a63f67566",
+      "path": "site/examples/passive-divider.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 17193,
+      "digest": "sha256:cf29b70f5c23dd301ae93268e023f3182f79dc6519b7b2653e864ac5ce5e7425",
+      "path": "site/file-formats/aixem.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 15525,
+      "digest": "sha256:9e91b02c18c18aae177aa26e259ddc5c09945f16419493a09b6b99cc1081d9a3",
+      "path": "site/file-formats/aixlayout.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 16900,
+      "digest": "sha256:88148110c66a4d98a4bc8620576e6e91318efcf9517a6462e3d0677f07f9fdaf",
+      "path": "site/file-formats/aixlib.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 15343,
+      "digest": "sha256:b62078eb57cd38bf334ee5de66c0f78410ed2af1f69f3bd94c6d4d26a1cbb473",
+      "path": "site/file-formats/aixproj.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 15495,
+      "digest": "sha256:9df0f45d32298442117216bfe36bd94b1a78c305a5f21f339037f25c6c304fe9",
+      "path": "site/file-formats/aixsym.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 15152,
+      "digest": "sha256:02af10bb943d267a383ddc1dd4849a5f7c4d514c1882c318d9fb393726abdcf7",
+      "path": "site/file-formats/index.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 17082,
+      "digest": "sha256:713e46052190a0e2c40f8f81508faf5226479ab1cab3d4218c47b9ebc5f8192b",
+      "path": "site/file-formats/style-profile.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 15748,
+      "digest": "sha256:752e749c7709faf16fc760cdc617008987204676416f30bda3dc808e5608b5b5",
+      "path": "site/getting-started/first-schematic.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 14963,
+      "digest": "sha256:f9251b0648be8c5622cf4132ae6992dbb19bc5e61518bbd3be9a9d38a6831af8",
+      "path": "site/getting-started/index.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 15763,
+      "digest": "sha256:48f0a4bdad85b7785bee5a1ed7c88f67437055a5290282c011d8efc96609d8f2",
+      "path": "site/getting-started/introduction.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 16653,
+      "digest": "sha256:7e13b4ac0475af58279ba8e623378b6bef9dc160909f8f56a2a0444792ab5a69",
+      "path": "site/getting-started/quick-start.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 16834,
+      "digest": "sha256:65b7d1012f02c6ec4cc00b7b5b3bd2a705d0060a52ed8fa00d83e528fa9961a1",
+      "path": "site/governance/compatibility.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 16736,
+      "digest": "sha256:94cec693d202d0fcc28f222fb00dfd25fb19b3cfe7ac17c9c9f88048fffbda42",
+      "path": "site/governance/deprecation.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 15387,
+      "digest": "sha256:b34628e1d3a5d73cd11105f39c76e8409e04ce0633e703998b43b12f0f0ff900",
+      "path": "site/governance/index.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 15607,
+      "digest": "sha256:aa377b847022b017a7dbf895233af74a66cdee3fe3cfc0091b2d9d82e447c27e",
+      "path": "site/governance/release-process.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 15918,
+      "digest": "sha256:63cac81ae4691d1570e3164f9d6a042ad141d307a7bd181043474784f8e1fcb2",
+      "path": "site/governance/terminology.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 17590,
+      "digest": "sha256:8826669a67ef55032c4879de46d1c0518d683a28cfa0095cba25854f4d854315",
+      "path": "site/governance/versioning.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 16486,
+      "digest": "sha256:9e7c2c7613dafb8db7ed9b1272f57ad03a5e64a88bfe9ee6567e95f09a9ea940",
+      "path": "site/index.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 6868,
+      "digest": "sha256:9cbe56948fbd0cc05759b7ced6c13bfa11ae183b232d2efc9302e3b322f19081",
+      "path": "site/reference-explorer.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 15865,
+      "digest": "sha256:5cc87e851d136d5a37bde16ca7f19aeca9c39184c0c48d77e42ff4adad137e53",
+      "path": "site/releases/0.4.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 18312,
+      "digest": "sha256:ae4ee1f21805605d480f05fd4b99bc6b7c9bc6b5868515be3664094b794eeb23",
+      "path": "site/releases/0.5.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 14771,
+      "digest": "sha256:cac3d432b891f4aa0706dd9ebfeb119ed60282308e79df36681d0acf6f60da53",
+      "path": "site/releases/index.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 16954,
+      "digest": "sha256:95137cd67fb2aa001a8f97a0c585925e39eaa5d074383e8aafdcef1b0ee4e15b",
+      "path": "site/routing/crossings-and-junctions.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 15379,
+      "digest": "sha256:e9bf2d5893f72c75a8356e0bd0c7e2e052f3963cc4f0215f0f91f0af5ec229a3",
+      "path": "site/routing/index.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 17669,
+      "digest": "sha256:89b7306df2265a333c9b2c57a7a3c160fe33d0dd365e7c8969d19a6923a676cf",
+      "path": "site/routing/net-routing.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 17920,
+      "digest": "sha256:8191a672da9b17426b65ba07c93f9b7e5ca82f1f7c33fb7124ad8ba76f4c6e6a",
+      "path": "site/routing/orthogonal-routing.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 17909,
+      "digest": "sha256:10e882ebd126ceeb52aae75e7733d45e1ded3f01866253c4a779a34235f6af9a",
+      "path": "site/routing/route-constraints.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 15418,
+      "digest": "sha256:6ce2205bc8c7d6d98f6cb33a75d4eda8def6a948741437c622523d5e176836f0",
+      "path": "site/routing/router-behavior.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 16933,
+      "digest": "sha256:ead009f577c38862bbd0f85d04f313d26a3a49acba47e25c687cf5cd96c3f7b8",
+      "path": "site/schematic/annotations.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 17802,
+      "digest": "sha256:a9e456396ecb56b2f7dd0e16f8672b01a0213e0589a0b97d3c2acd17a1a395b4",
+      "path": "site/schematic/grid-system.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 15479,
+      "digest": "sha256:da363ca0d594c1f1cec76c57fa284ada85e3ef7c1c53f1d193dbe0d4081243bb",
+      "path": "site/schematic/index.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 17918,
+      "digest": "sha256:4178eb446d605803b60837dd16a1f6c0779e56cee29c5462c954d077d115c25f",
+      "path": "site/schematic/junctions.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 17266,
+      "digest": "sha256:262d0069510ef64b85c4913d2782783912d55525d74f352fb57fb39d2aed5fdf",
+      "path": "site/schematic/placement.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 15467,
+      "digest": "sha256:7a635d03c236bf6c341eaa293e0abc40d83e5c1e041227c562bd3b5b721f6837",
+      "path": "site/schematic/sheet-organization.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 18782,
+      "digest": "sha256:50f4494ce85b1348f9ec693b7f7ebc80e22665213a07ba843c9ecd9d0c1add3e",
+      "path": "site/schematic/visual-language.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 20025,
+      "digest": "sha256:79ff8bea79fd45edbf3163b0fbc8ab65c7f1dc2075aa22a996a3c7ccad700ad6",
+      "path": "site/specifications/agent/retrieval-profile.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 18330,
+      "digest": "sha256:fdb927bb70c71420578ae347519f0dd40f3c9fd30f26bab7a16aea127d87613d",
+      "path": "site/specifications/core/authority-precedence.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 18123,
+      "digest": "sha256:02b8eca23c5fec630a42191936578a6af9c827e762d0819084beac6e45350df5",
+      "path": "site/specifications/core/coordinate-system.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 17917,
+      "digest": "sha256:d60db689bf788406891114254ab0541baaddae21be0adb271f4e5aa96190af16",
+      "path": "site/specifications/core/document-model.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 17885,
+      "digest": "sha256:e5bed014cc98195b31ab9bfb71a03dfb39a2b6b1787965d8d6ac635cd4ef2f2f",
+      "path": "site/specifications/documentation/metadata-contract.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 20319,
+      "digest": "sha256:d871d1e96c22ea19b11fcb12cccdd0a595416c4e6b29960d4950aef45e329cf2",
+      "path": "site/specifications/documentation/release-integrity.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 15488,
+      "digest": "sha256:7a93d0b8e789741285d1dafb54414920d8887bb6a587ecbf538ece6807ca1793",
+      "path": "site/specifications/index.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 18090,
+      "digest": "sha256:4b356fa21b8283fd0b97677af127b3315e6f2e2765de215e2fb638994cada53d",
+      "path": "site/specifications/layout/layout-contract.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 19041,
+      "digest": "sha256:abbf0f66781b03c8f809ca2e69fc3495ab898833a4ea2f62eade201af8eb939c",
+      "path": "site/specifications/project/project-lock-contract.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 14546,
+      "digest": "sha256:da408043b144a1b87c8834ea1e15176bfa7f7a7a0eacf1d1fca8997b944510ae",
+      "path": "site/specifications/schemas/component-graphics-1/aixem-component-library-1.schema.json.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 24989,
+      "digest": "sha256:7e1bbb72e8242cfb0637fb0e073d33f6d070a4c969c499aa04726413fbfc690f",
+      "path": "site/specifications/schemas/component-graphics-1/aixem-explicit-layout-1.schema.json.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 7516,
+      "digest": "sha256:ff37b3a6cbb7e0f353a055039a7562deb52cc1ae968425c8050e5a4fe58f1413",
+      "path": "site/specifications/schemas/component-graphics-1/aixem-project-manifest-1.schema.json.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 72863,
+      "digest": "sha256:c58c991801134d13267bc169f7f639274fdcb96c0577d80f91e9fd5557082be2",
+      "path": "site/specifications/schemas/component-graphics-1/aixem-symbol-asset-1.schema.json.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 19215,
+      "digest": "sha256:ed91fb333345a6da785a2cad491d15d0d5ae62cc595826139a3acff230d93ca4",
+      "path": "site/specifications/schemas/index.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 4999,
+      "digest": "sha256:a10a389f6bff5f8ea7fc5a00487ef443cef3f14b5d83e956caa53da5d7587d6a",
+      "path": "site/specifications/schemas/reference-compatibility-1/aixem-artifact-map-1.schema.json.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 5091,
+      "digest": "sha256:862279303376e527ef8af8b252b889af80d207046a6934aedce1be90d6343849",
+      "path": "site/specifications/schemas/reference-compatibility-1/aixem-capability-index-1.schema.json.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 8773,
+      "digest": "sha256:459817eb5f8a127e0ba2a55f552c5a1e2abfb2543a01484730a307df0db59ed4",
+      "path": "site/specifications/schemas/reference-compatibility-1/aixem-reference-card-1.schema.json.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 3693,
+      "digest": "sha256:e029d093c4caf2cd112a0ad523133f813315eb16e06a87a748c7ee9780b7d280",
+      "path": "site/specifications/schemas/reference-compatibility-1/aixem-reference-domain-index-1.schema.json.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 3798,
+      "digest": "sha256:edbceccfe0330e37bc0f66f263dfdabd0b242dd297e7c013e6e01a92b193fe34",
+      "path": "site/specifications/schemas/reference-compatibility-1/aixem-reference-manifest-1.schema.json.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 8146,
+      "digest": "sha256:d04cb7c79184283b3e0db44ce0f7d1abcb49a8f885163d6b34918edfd2e5ef32",
+      "path": "site/specifications/schemas/reference-compatibility-1/aixem-reference-root-1.schema.json.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 11527,
+      "digest": "sha256:ab0c4c0b5b77fec870df3c2fc6aa5495a2ec992e6f3adb2b824a98b88dde355b",
+      "path": "site/specifications/schemas/reference-compatibility-1/aixem-schematic-style-1.schema.json.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 8427,
+      "digest": "sha256:1ca04e5be2518d31d1d0da115797c7034364f4363b4449d0c2fbd59586309ce1",
+      "path": "site/specifications/schemas/reference-compatibility-1/aixem-task-route-1.schema.json.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 17662,
+      "digest": "sha256:313f2e82b2e2bbe7e9ab1449ec8428d33716507fc785c550266fee21a8123a04",
+      "path": "site/specifications/schematic/grid-profile.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 17403,
+      "digest": "sha256:28f1b56c6f59245fb7cbc94c90e612c5962f1d92150d4164214fac95876dc4c3",
+      "path": "site/specifications/schematic/visual-profile.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 18198,
+      "digest": "sha256:dce78c45b42b8f0dcaf70cb086d4ecdd6d21cb8a57ffb03a5addaf2e753c3602",
+      "path": "site/specifications/symbols/symbol-contract.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 15675,
+      "digest": "sha256:35117a54db00616b957266651ed7e287f24decd11b8858f18107721437729587",
+      "path": "site/symbols/authoring-guide.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 16848,
+      "digest": "sha256:6679aca9128350dfae89a07326167e4725ec058739d47ed641a3aaff856667d1",
+      "path": "site/symbols/field-layout.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 15391,
+      "digest": "sha256:20990dbdd98f86d637031e3f22cef214dbbdaee29f70c7f8d3e211df36207d37",
+      "path": "site/symbols/index.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 18176,
+      "digest": "sha256:6a4c4a48a37563e221ada0bd23354da7f15857a615cc85e7b20a140c7137d065",
+      "path": "site/symbols/pins-and-ports.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 17040,
+      "digest": "sha256:3a41b99980b1dc59e25473109e6e845eea720022a9c51a7fee819023979c4bbb",
+      "path": "site/symbols/primitives.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 17736,
+      "digest": "sha256:91c06143d20aa5361d6dc63934f3f4e37412671dfe217bf3a4448a959990e308",
+      "path": "site/symbols/symbol-anatomy.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 17484,
+      "digest": "sha256:8ca465fac5cec2471a90398be6b7f99c205eb705d9b891dd301a056ba3de509a",
+      "path": "site/symbols/symbol-lint.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 17093,
+      "digest": "sha256:c10d8d603562b97be3d89e4c6124180c5b3ecddaf13edbfe9c56d83c8c567d0d",
+      "path": "site/symbols/variants.html",
+      "suffix": ".html"
+    },
+    {
+      "bytes": 38,
+      "digest": "sha256:87ad4f127a4b5bd73accd69d17dd8421095ae9c1d5e969c9a98a01cd0e379b79",
+      "path": "tests/__init__.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 54,
+      "digest": "sha256:e155e32280554439366c4653b52afed36570e98efda162af0c679c78e36bc6dc",
+      "path": "tests/docs/__init__.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 2024,
+      "digest": "sha256:66db24aad8fd075b93380318daa7a3b953b7096f5af5cd317d52fe524fa4e1df",
+      "path": "tests/docs/retrieval-corpus.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2024,
+      "digest": "sha256:66db24aad8fd075b93380318daa7a3b953b7096f5af5cd317d52fe524fa4e1df",
+      "path": "tests/docs/retrieval-corpus/queries.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 7223,
+      "digest": "sha256:5df561c692a8f25dbc6f7bb16287261b20f52b45538fb3e875d7ec1be3cd62c9",
+      "path": "tests/docs/test_repository.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 244,
+      "digest": "sha256:20e415462c3b619d22d37217bce09108c9d71033c3e7a6fb778da283e1b7cfeb",
+      "path": "tools/docs/_dispatch.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 440,
+      "digest": "sha256:a73e175439432562dec6febfc6899dc3e7515c3ed3a2d6a634ab19263ef2a663",
+      "path": "tools/docs/_wrapper.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 103588,
+      "digest": "sha256:d78420ef8e0d428384593caeff7f36d1bef4cdedaa2e35a2baf056efe6ae0675",
+      "path": "tools/docs/aixem_docs.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 169,
+      "digest": "sha256:30330b4e4ff2812ab1c461bb2821b1a915f8ddb8470c6383f6fd375ebe4b4b76",
+      "path": "tools/docs/build_all.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 175,
+      "digest": "sha256:dd963ad1a3007eb38ae0a4d8dea10e404d25f83eed1e6d45d5c19e2bf0d6b39d",
+      "path": "tools/docs/build_graphs.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 173,
+      "digest": "sha256:be5c4e64516e15e2bc61ad5bb43ea01ca015fa8644eb0d246970d8d870bcd869",
+      "path": "tools/docs/build_index.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 181,
+      "digest": "sha256:d27a45547c8fc9c108a797bd3e3e3500cc28e6e2ec53c46a89bb1d761d1a94c5",
+      "path": "tools/docs/build_legacy_reference.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 179,
+      "digest": "sha256:fdc80ab552c10785798422537fbad84f7ac45b3248082cdc48299559f798a106",
+      "path": "tools/docs/build_manifest.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 19280,
+      "digest": "sha256:a9523cf5400f0902fc26353bddb59cc8d82d570cd47f3ff433b320338aa1ce94",
+      "path": "tools/docs/build_migration.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 175,
+      "digest": "sha256:9f13e5ffbef02cfed9f1a6191906726cca5c9cd7e74683fa5138c020706dede8",
+      "path": "tools/docs/build_routes.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 171,
+      "digest": "sha256:10339ca8039589c9789e43d94b205aec31681a48cd1e1993e86f61c6cafe830a",
+      "path": "tools/docs/build_site.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 187,
+      "digest": "sha256:c94bab1e3fa1d021d65bfef8eccc645d527fc9619a2ace3296225b47bd31ccf1",
+      "path": "tools/docs/build_traceability.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 5397,
+      "digest": "sha256:9ba975d5e154f730c8bdc0a1dc2a3ca3a5d69c92e2fe27e0fbe85aacf1507441",
+      "path": "tools/docs/capture_site.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 177,
+      "digest": "sha256:663755f4088c20c9e74ab36dea744067ba6d6d6bb40647a9b305a45280f23b55",
+      "path": "tools/docs/check_release.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 1283,
+      "digest": "sha256:f64fc5db7e6e2666f3b89caa4ade223958475205862c0b4c18c94134152e2d89",
+      "path": "tools/docs/clean.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 155,
+      "digest": "sha256:c1d20f4892425ae473b07789094165431634c56fd4fe3871b7d5ad9ffd519f64",
+      "path": "tools/docs/migrate_baseline.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 484,
+      "digest": "sha256:8bdd1240a1b7f1b479b935803aac186a7cf6daeb14bccd664b427923c4352e40",
+      "path": "tools/docs/parse_metadata.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 197,
+      "digest": "sha256:55d26b917342010e162dc5c870548d02b2712a4310f91597d020fb61b28ce106",
+      "path": "tools/docs/query_route.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 42563,
+      "digest": "sha256:5716595aca6dd4b10669b556e27587ce374bb10d697f7bd1ed896b3b6730c033",
+      "path": "tools/docs/release_pipeline.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 2032,
+      "digest": "sha256:5e7e6c36b91e926362e95963eb8a6b8cbf25d85fa9deb1d8a0b17b68b82a2c6f",
+      "path": "tools/docs/run_tests.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 177,
+      "digest": "sha256:10613cd380ac68211b3e6153f5f11d72af5407bc8b51aab075b51fdf89d23841",
+      "path": "tools/docs/validate_docs.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 179,
+      "digest": "sha256:9b81e2fd8160f8c56b43e3e4505619a7a6b4dbd389642ea39b7546dce63f92b2",
+      "path": "tools/docs/verify_archive.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 913,
+      "digest": "sha256:0f23b40a92fdd34a173aa89a6644752034ae89a8aa396c99b52635f963dfae8b",
+      "path": "validation/agent-retrieval-report.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 504,
+      "digest": "sha256:2d44deaa42f2a893130b0fd198e3789aaabba5a320650d7a3154d9864ecca7ea",
+      "path": "validation/documentation-validation-report.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 330,
+      "digest": "sha256:457e18b9ef4ff362d16e524a104f29a34fafea7917ac28c117aa3e33952d40a9",
+      "path": "validation/evidence/pass-01/attempts.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 206029,
+      "digest": "sha256:159d3ee4854c51500442258661321a89e536206172f0e84ff82278f64ada4f34",
+      "path": "validation/evidence/pass-01/baseline-inventory.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1328,
+      "digest": "sha256:b4aec485ead34a153a24a48291b8c3cc05a0b43ad25ef04c3ef6a46029a1fabd",
+      "path": "validation/evidence/pass-01/canonical-validation.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2598,
+      "digest": "sha256:c0427a5c3196de1560ef723ba7d87cafe56fbdada59a6cd6ccf7410df07a8fde",
+      "path": "validation/evidence/pass-01/declared-artifact-audit.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 243433,
+      "digest": "sha256:352e2ba01371edceb13394af7a34dd1e6816858ec477aebffaa17b1fb8c6f04d",
+      "path": "validation/evidence/pass-01/legacy-workbench-desktop.png",
+      "suffix": ".png"
+    },
+    {
+      "bytes": 329562,
+      "digest": "sha256:7a75ed370bd8908c7d052d6ac4dce981f8a27dd858c2c34e2e5c0806650f33ac",
+      "path": "validation/evidence/pass-01/migration-map.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 330,
+      "digest": "sha256:6828d1d32b7eb94e4d1bc67b3b0f2e6f37a1c0232c1046f40b7b4c5c31b9ff01",
+      "path": "validation/evidence/pass-02/attempts.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 475,
+      "digest": "sha256:948b87a9e44068004440fce3e9d3cfefe474dfa18a46642ac92f875a2113cea3",
+      "path": "validation/evidence/pass-02/build-summary.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 260,
+      "digest": "sha256:0c3ab9cb214a120d8219319e152d0ca71d135a18d8b5258a9a07504d5cbafb7b",
+      "path": "validation/evidence/pass-02/reproducibility.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 3784,
+      "digest": "sha256:28f88e5e037449333e9d9c2303dd043510a1a1e1f3576cdb9db201d6ab78911c",
+      "path": "validation/evidence/pass-02/route-corpus-results.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 331,
+      "digest": "sha256:98da6581c970933fadbf2e166433a1a0f00a4f7176cdf9bd7648e548f69af642",
+      "path": "validation/evidence/pass-03/attempts.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1554,
+      "digest": "sha256:c2e7fb2e97fc12a1aa52177ca223b396abfb44875785fb0facb9e689dce925c8",
+      "path": "validation/evidence/pass-03/core-test-results.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 6364,
+      "digest": "sha256:63f7034c0ebda88c5006a0e214010214310d266aaab620951df11b9b3592b785",
+      "path": "validation/evidence/pass-03/publication-summary.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1303,
+      "digest": "sha256:400a319323a0ebbf705918f4e20abc07cf1533ddb7408c3152a98ce05b2d5e1f",
+      "path": "validation/evidence/pass-03/render-determinism.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2476,
+      "digest": "sha256:845da4d18bf317948c440426ba2ca4bbad22f0272c2fd326e41e4a65acef1e5b",
+      "path": "validation/evidence/pass-03/requirement-evidence-summary.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 6152730,
+      "digest": "sha256:e57827f58ab78593f9f851a2c5b2387c36a9ec4543c08ac8c7b634ccf96a06c3",
+      "path": "validation/evidence/pass-03/requirements-desktop.png",
+      "suffix": ".png"
+    },
+    {
+      "bytes": 242551,
+      "digest": "sha256:0e0c5055e4382ffbdad8c5b07ed323d49d20fd0ebc6b74030c904cb974fdff15",
+      "path": "validation/evidence/pass-03/schematic-workbench-desktop.png",
+      "suffix": ".png"
+    },
+    {
+      "bytes": 435188,
+      "digest": "sha256:84e6bcebb31cbc1294513a86f864c75371128f1971a41cdb20e867b9ed7abd49",
+      "path": "validation/evidence/pass-03/site-home-desktop.png",
+      "suffix": ".png"
+    },
+    {
+      "bytes": 369731,
+      "digest": "sha256:7e4035f43b34ffbe76dce4fd2642e130ec4ff607cc39040b5ad835714e20975c",
+      "path": "validation/evidence/pass-03/site-home-narrow.png",
+      "suffix": ".png"
+    },
+    {
+      "bytes": 52,
+      "digest": "sha256:36977dd01ebdeda628b3a20513afc3212945df21838f04759475361b99c045a7",
+      "path": "validation/evidence/pass-03/site-validation.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1340,
+      "digest": "sha256:639badcca2739612024c2e5818a20d23d303175d1d866c0391a15895fac32aba",
+      "path": "validation/evidence/pass-03/test-results.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1851,
+      "digest": "sha256:f1bfb08bddeef59546a25fe4b09f6473b9fd64d486f0a3e9b0d9689c5095c6fb",
+      "path": "validation/evidence/pass-03/visual-capture.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1418,
+      "digest": "sha256:90fb0cfc4c5cfc85c4e4695b2844caeeada9dd55b79882adc088b6e8b158a9b8",
+      "path": "validation/evidence/requirements/AIXEM-REQ-AGENT-0001.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1390,
+      "digest": "sha256:6d7b3e44286c8033f99242efbc01a7700f6e15a2b9b91dd6f283baa8ea6b407b",
+      "path": "validation/evidence/requirements/AIXEM-REQ-AGENT-0002.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1396,
+      "digest": "sha256:936dad50b262dabc18b4a08232ec456501afda9b34be8319c459f86d8e88f645",
+      "path": "validation/evidence/requirements/AIXEM-REQ-AGENT-0003.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1392,
+      "digest": "sha256:9115203b0182f8795d00a2637c2068c8c7f4c9632c202034423ff625b53da038",
+      "path": "validation/evidence/requirements/AIXEM-REQ-AGENT-0004.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1412,
+      "digest": "sha256:4dd8032bdc3f725a479c45b5f365f8c957199bdecee18a0fa8fbf113b622d880",
+      "path": "validation/evidence/requirements/AIXEM-REQ-AGENT-0005.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1339,
+      "digest": "sha256:9732fc0b87c773a67d3fa3b2cc3756118e93fa35cb647d876f7b67580c3ba516",
+      "path": "validation/evidence/requirements/AIXEM-REQ-AGENT-0010.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1355,
+      "digest": "sha256:73c89a92ad247584e9462d0ee27bfe082be3807f9d36ddedd9bae182bfeeba5e",
+      "path": "validation/evidence/requirements/AIXEM-REQ-AGENT-0011.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1350,
+      "digest": "sha256:396c952c77632a84b033e33caa5db7822c7c9f79c947552ccb872d90f9177d85",
+      "path": "validation/evidence/requirements/AIXEM-REQ-AGENT-0012.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1369,
+      "digest": "sha256:6705ad35a055733c5339dcfc374e6ca2ed567ed9b175662107981bf60949bbbd",
+      "path": "validation/evidence/requirements/AIXEM-REQ-AGENT-0013.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1360,
+      "digest": "sha256:d6ed59c93535bd105d49662894de83cdc9e580fb88203aaf759961d57f90e609",
+      "path": "validation/evidence/requirements/AIXEM-REQ-AGENT-0014.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1350,
+      "digest": "sha256:95a57c47094d0c9c220c50548e9f95aa87d3388083448f6338d5a6f5091493cc",
+      "path": "validation/evidence/requirements/AIXEM-REQ-AGENT-0020.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1415,
+      "digest": "sha256:c08da3f561af210f20087de409488b24071b7bd9d62ce5059f645764dae20dc6",
+      "path": "validation/evidence/requirements/AIXEM-REQ-AGENT-0021.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1332,
+      "digest": "sha256:d0935be02ad94ceca34b11b775ddf0c0262326061d737264fdd8112f716b5e57",
+      "path": "validation/evidence/requirements/AIXEM-REQ-AGENT-0022.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1463,
+      "digest": "sha256:84e87f4b4218f68fa9a8541ecc2bca89aef31441c564ad523ff58df26d7858b3",
+      "path": "validation/evidence/requirements/AIXEM-REQ-AGENT-0030.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1368,
+      "digest": "sha256:93e04ad73393ad91e2e503bf318f758f46dd3b0baf93220f1d127a2472b8aca6",
+      "path": "validation/evidence/requirements/AIXEM-REQ-AGENT-0031.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1489,
+      "digest": "sha256:a5554cd01d2027e151cb5c305d0206d9bba1ff0fea250de532f9e69a292a03e2",
+      "path": "validation/evidence/requirements/AIXEM-REQ-AGENT-0032.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1361,
+      "digest": "sha256:7c8253db7b3e5b9667a98b1b4abed33a493c29093ba3b78f5d82034e190af02a",
+      "path": "validation/evidence/requirements/AIXEM-REQ-ARCH-0001.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1425,
+      "digest": "sha256:ec37da0ff1e3b37830343c83a90e05b6b960c308452317bc4cf324469bcd8c2f",
+      "path": "validation/evidence/requirements/AIXEM-REQ-ARCH-0002.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1363,
+      "digest": "sha256:b38cc938c14dc9c2725fb49ff74c916f7cf0e2ba8bc1168fb4c7fb71576273da",
+      "path": "validation/evidence/requirements/AIXEM-REQ-ARCH-0003.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1348,
+      "digest": "sha256:dbbe95300ccbf7c8a865b2b3a623c51aaacce92bad206ce4e37fd6820405b1db",
+      "path": "validation/evidence/requirements/AIXEM-REQ-ARCH-0004.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1376,
+      "digest": "sha256:8c9dedfe48b388ca21ce86f8fffb2b4e9dc257cc41c972441ae6e4d725a77078",
+      "path": "validation/evidence/requirements/AIXEM-REQ-ARCH-0010.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1411,
+      "digest": "sha256:4a9d4366c8a67a2208dad55764fd0600d34196266ffe3a6cb15b9ca7edc3d801",
+      "path": "validation/evidence/requirements/AIXEM-REQ-ARCH-0011.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1384,
+      "digest": "sha256:9941af68e5ac82a47faff7b980ddcf04f2e4e6f013d9470b3d235d57ac695aaf",
+      "path": "validation/evidence/requirements/AIXEM-REQ-ARCH-0020.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1322,
+      "digest": "sha256:b78adb9d4466ead440c6bb0d3ced22ae93163b83cb9af62ba0638221ce7a8263",
+      "path": "validation/evidence/requirements/AIXEM-REQ-ARCH-0021.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1413,
+      "digest": "sha256:24ea4787595856304cb2b830ee6786633909f9d38066271c71298838d38da951",
+      "path": "validation/evidence/requirements/AIXEM-REQ-CONF-0001.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1425,
+      "digest": "sha256:4d0b0a7e7bc14aea769e574a7e602dc09e9916728dcbdec6bee4a06973fb6eae",
+      "path": "validation/evidence/requirements/AIXEM-REQ-CONF-0002.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1350,
+      "digest": "sha256:7b95da7956353373611d0bdb84738995abea7aca7afd1d3f98c58292540fca01",
+      "path": "validation/evidence/requirements/AIXEM-REQ-CONF-0003.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1440,
+      "digest": "sha256:14423744739638f1c72b9dcf9385fcd907d4ff8d72ddaeaaf896ac004115e2ed",
+      "path": "validation/evidence/requirements/AIXEM-REQ-CONF-0010.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1472,
+      "digest": "sha256:25f76532d3eda9f916e3728d6188d11aae9edad53f34438f41c93b6c77f4fe4a",
+      "path": "validation/evidence/requirements/AIXEM-REQ-CONF-0011.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1402,
+      "digest": "sha256:87a1294615624df44a935a15e70f6c1a3fa048446d6c3d630521f2325843302b",
+      "path": "validation/evidence/requirements/AIXEM-REQ-CONF-0012.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1374,
+      "digest": "sha256:e6af0784d1142d8d401b876995c1dcef280f3a93189d1a7f607ce938ada2d395",
+      "path": "validation/evidence/requirements/AIXEM-REQ-CONF-0020.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1467,
+      "digest": "sha256:e610cbf95f470c57816c96ab8aa4a5dfc887c76dedc0a9b541064e62d1033af0",
+      "path": "validation/evidence/requirements/AIXEM-REQ-CONF-0021.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1354,
+      "digest": "sha256:63ff9c6d6afc79eb8a1453703dccdfd706965ab31d17b272035dbd5956de1168",
+      "path": "validation/evidence/requirements/AIXEM-REQ-CONF-0022.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1342,
+      "digest": "sha256:cacef8b47fcecb63ec3fd7b7cbb42f177d973492ec95b2d13e667047ca638dcd",
+      "path": "validation/evidence/requirements/AIXEM-REQ-CONF-0030.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1327,
+      "digest": "sha256:3f9293a4e02f6673b83b5499f205a4d998fda5c6b9cf5c4c2b64a1921e56d9a2",
+      "path": "validation/evidence/requirements/AIXEM-REQ-CONF-0031.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1374,
+      "digest": "sha256:86752dd65a0e95af60bc871827769516db9b5aeae8eeb9f73769abde7a521b19",
+      "path": "validation/evidence/requirements/AIXEM-REQ-CONF-0032.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1482,
+      "digest": "sha256:59fa8cdb2abe6d6c51de97fc3f8a5da8dfb9bb6991807c35554552ad54b92215",
+      "path": "validation/evidence/requirements/AIXEM-REQ-CONF-0040.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1487,
+      "digest": "sha256:14493ed234683c2826db4459cb28f6807e86519c6147bde11154302e72016772",
+      "path": "validation/evidence/requirements/AIXEM-REQ-CONF-0041.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1481,
+      "digest": "sha256:319111998df02c8e5d4c275d36fea1af925c10356e154383ad0e8f61826d2afa",
+      "path": "validation/evidence/requirements/AIXEM-REQ-CONF-0042.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1481,
+      "digest": "sha256:b4c2b4aceb501f4a2fe02d1de416145af51f5785d1f7ad4ed1ba9265deacaef1",
+      "path": "validation/evidence/requirements/AIXEM-REQ-CORE-0001.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1477,
+      "digest": "sha256:f95850b9121d27a8a41aabc03bd2f0c963465f6b841d131525e554fcbfc10552",
+      "path": "validation/evidence/requirements/AIXEM-REQ-CORE-0002.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1507,
+      "digest": "sha256:2968443e5439ab8896ccf1558af51554086a320df3b0dd2ea460978487bb49dc",
+      "path": "validation/evidence/requirements/AIXEM-REQ-CORE-0003.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1303,
+      "digest": "sha256:1c32e9d6323748aa6991bec4577c1b588eaa75c11258ede805cb1e040014cd87",
+      "path": "validation/evidence/requirements/AIXEM-REQ-CORE-0004.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1360,
+      "digest": "sha256:5e82cf18e6945da8c8c4e1e98e045d19778305e8036038ad9f7182dc51e48ff2",
+      "path": "validation/evidence/requirements/AIXEM-REQ-CORE-0005.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1509,
+      "digest": "sha256:e4f89f2d2c9c2875f5088bdbdb384d4809a7e21ba9a3e7f9f1678eb1d2ac0cab",
+      "path": "validation/evidence/requirements/AIXEM-REQ-CORE-0010.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1490,
+      "digest": "sha256:785247327a99bd48565b0a4044f269024e7f2cb8993d6c3a0fb8dda6035adead",
+      "path": "validation/evidence/requirements/AIXEM-REQ-CORE-0011.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1474,
+      "digest": "sha256:f80dc27753705146c84aeff3e1700fe29972d4afc4e9f8c5a4424ddb943f7a40",
+      "path": "validation/evidence/requirements/AIXEM-REQ-CORE-0012.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1452,
+      "digest": "sha256:b9d013f6b17546729140d3c8d6cd250a7fae2c607a1a1d0619c8a72b0a776894",
+      "path": "validation/evidence/requirements/AIXEM-REQ-CORE-0013.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1461,
+      "digest": "sha256:7509e0cc59a00bc859346f64b914317c730acd4929d0e0dfd5bf52fc3a18f4ce",
+      "path": "validation/evidence/requirements/AIXEM-REQ-CORE-0014.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1344,
+      "digest": "sha256:51e1ff77d188f34566ff07f48869f43d250d8a43fb546aac677a9ebc701619e1",
+      "path": "validation/evidence/requirements/AIXEM-REQ-CORE-0020.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1475,
+      "digest": "sha256:be7f7c0470c259ab3350a780cfa21a8025e314ee05661d7596ff7335f653d9cd",
+      "path": "validation/evidence/requirements/AIXEM-REQ-CORE-0021.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1483,
+      "digest": "sha256:8e0f03ee72ff3ed8a35969d70c0f1e35b093b9f9e5842b4d5c828a9a79ba95cd",
+      "path": "validation/evidence/requirements/AIXEM-REQ-CORE-0022.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1469,
+      "digest": "sha256:7ba339ab533628d3c15c81af07d8e47e67974708c7e28e708d4d56a1e46ae062",
+      "path": "validation/evidence/requirements/AIXEM-REQ-CORE-0023.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1524,
+      "digest": "sha256:5dea380d00d643b2bcc9f5e6bddddc63757c9ae75cdd9bc4abedeef89452add9",
+      "path": "validation/evidence/requirements/AIXEM-REQ-CORE-0030.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1383,
+      "digest": "sha256:27df375fcc9d40b641fb2cc075efcbbfff18017385891d3726fab7616f6e8f71",
+      "path": "validation/evidence/requirements/AIXEM-REQ-CORE-0031.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1376,
+      "digest": "sha256:fb8c2e1eed426ce56b75fde8ca57800892a2a8ea1c541a016840bc3e79f24859",
+      "path": "validation/evidence/requirements/AIXEM-REQ-CORE-0032.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1396,
+      "digest": "sha256:2b980a406fc00e6e1cea5e3b657e74d90abcbec4c200637ea268c05cd4efb8ff",
+      "path": "validation/evidence/requirements/AIXEM-REQ-DOCS-0001.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1345,
+      "digest": "sha256:9938c954df87595ac253f7c9227394373b65fffca38691b7f3637fd1069e8728",
+      "path": "validation/evidence/requirements/AIXEM-REQ-DOCS-0002.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1350,
+      "digest": "sha256:3d42ea99aa054f5e5d9f2b6720f85085415d107355671255529397fb1ded92f9",
+      "path": "validation/evidence/requirements/AIXEM-REQ-DOCS-0003.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1394,
+      "digest": "sha256:e0fce747b4242f958ea19a293129efef0bb4603547d48e0fd3517803cae1c9e9",
+      "path": "validation/evidence/requirements/AIXEM-REQ-DOCS-0004.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1432,
+      "digest": "sha256:4ccaea138741d8dc68e9b99384e8a3b11b685e5504adfc0fddd2c97e8705cb44",
+      "path": "validation/evidence/requirements/AIXEM-REQ-DOCS-0005.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1441,
+      "digest": "sha256:89faf290e1da6ce564d0730295e9f010c6471284c9a4c7e6643c48c28873437d",
+      "path": "validation/evidence/requirements/AIXEM-REQ-DOCS-0006.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1488,
+      "digest": "sha256:bc088ac91e87d0b9e4f0cfa6e53cb9eceac2ac38ffebc377314fa10dee9bc606",
+      "path": "validation/evidence/requirements/AIXEM-REQ-DOCS-0010.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1394,
+      "digest": "sha256:50f8238f382210d9783122c76920b3e9c1398f84991aba9aa19ceea325af7f0e",
+      "path": "validation/evidence/requirements/AIXEM-REQ-DOCS-0011.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1435,
+      "digest": "sha256:2a44b9d90b270fb26d79c6236822fc984ef1abc814472d1d7cc668e300ce1acb",
+      "path": "validation/evidence/requirements/AIXEM-REQ-DOCS-0012.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1411,
+      "digest": "sha256:5b67b58c9e5c67391d0940ca53f1c82def25401d7152d896bb14c510873f348b",
+      "path": "validation/evidence/requirements/AIXEM-REQ-DOCS-0020.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1395,
+      "digest": "sha256:a915705118204257d34ec7e9a1bf0e63fce063facdce6fbb9ff4f315a3c2290e",
+      "path": "validation/evidence/requirements/AIXEM-REQ-DOCS-0021.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1465,
+      "digest": "sha256:f795f538f3501e2140a6c3e26c2900e00c69c6dd26cdaba4409d552cacd9ab8c",
+      "path": "validation/evidence/requirements/AIXEM-REQ-DOCS-0022.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1383,
+      "digest": "sha256:187cfc0d9c5d0f251c426cfd975b844193ce190d1bcebba24e4ca505282c9ad6",
+      "path": "validation/evidence/requirements/AIXEM-REQ-DOCS-0023.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1387,
+      "digest": "sha256:dbf083efc038f50eb003b246b593cffa4bc0ce06e4f4c0b29c0407325b95a3bc",
+      "path": "validation/evidence/requirements/AIXEM-REQ-DOCS-0024.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1496,
+      "digest": "sha256:e7f7d8870c5142c96de35a24c6ec5d848ae62c57a0c953e1b4879fd7e8643fbc",
+      "path": "validation/evidence/requirements/AIXEM-REQ-FORMAT-0001.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1449,
+      "digest": "sha256:27dbb54c6a9b066c0c77be58658b05ad327a0bceeff528b3823ef0c7a0a2bcf0",
+      "path": "validation/evidence/requirements/AIXEM-REQ-FORMAT-0002.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1462,
+      "digest": "sha256:980032c11eb31695414ce343ad958d4f776fe245a346879b684fa326d897caf0",
+      "path": "validation/evidence/requirements/AIXEM-REQ-FORMAT-0010.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1494,
+      "digest": "sha256:7712d1f5998430464b01b2962111e83a79592e7a899028c7891a593ffd73170d",
+      "path": "validation/evidence/requirements/AIXEM-REQ-FORMAT-0011.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1499,
+      "digest": "sha256:c36b4f1050e18fdd4b8b7da80e64d17bb59e861c776ebeaecab73bdd32011770",
+      "path": "validation/evidence/requirements/AIXEM-REQ-FORMAT-0020.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1501,
+      "digest": "sha256:1807c86b8e2ff5e11b05949f255a54d460a06a18da8cfd3a4fe949fc4830d33b",
+      "path": "validation/evidence/requirements/AIXEM-REQ-FORMAT-0021.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1346,
+      "digest": "sha256:7a473bc09b99ddb65db4eab7bbd244ae43f72136cef13b6ba8268b137be6ccb6",
+      "path": "validation/evidence/requirements/AIXEM-REQ-GOV-0001.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1348,
+      "digest": "sha256:a6e9b9f77ca5107c5aa355e8f9f48c94c9aee5321ebd69de5c3b9ec0c91bf111",
+      "path": "validation/evidence/requirements/AIXEM-REQ-GOV-0002.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1360,
+      "digest": "sha256:9b7e4e3a6248b84d622b4be0d59129bf920bd0bb19030802f1426629c1056fdf",
+      "path": "validation/evidence/requirements/AIXEM-REQ-GOV-0003.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1377,
+      "digest": "sha256:a6481813f4300869a247ecdb7215fb0c8f9719e2d3168e9e9fddf553259c06f1",
+      "path": "validation/evidence/requirements/AIXEM-REQ-GOV-0010.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1329,
+      "digest": "sha256:799f7af449aefadae62fef7ce65845671b58d3b5c29efa253dde4e354fe39dee",
+      "path": "validation/evidence/requirements/AIXEM-REQ-GOV-0011.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1372,
+      "digest": "sha256:04d6c3e3d5a85cc2a124b8e7cfdfb60a9e8e14d7bb0315c498a0579b7851dd1b",
+      "path": "validation/evidence/requirements/AIXEM-REQ-GOV-0020.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1365,
+      "digest": "sha256:bdd12632372a71747f524b930a65f919246cc89d33e10172188cc7f4c37f8ef7",
+      "path": "validation/evidence/requirements/AIXEM-REQ-GOV-0021.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1517,
+      "digest": "sha256:7fa1e4713d44f9bd519949aed3099b7cc67d5bd63112e8ec512900a7b0fa6221",
+      "path": "validation/evidence/requirements/AIXEM-REQ-LAYOUT-0001.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1466,
+      "digest": "sha256:c844aea3e4e9653acaedd525f6084c051e2f8f4d7dfbbc1660a20a3e29887829",
+      "path": "validation/evidence/requirements/AIXEM-REQ-LAYOUT-0002.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1550,
+      "digest": "sha256:821d003aeb3dc9fa9be57275083fe696f198c684cebb35fb3929ce385c74cb43",
+      "path": "validation/evidence/requirements/AIXEM-REQ-LAYOUT-0003.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1522,
+      "digest": "sha256:0580574bfebe420de3cfcd928824cce357b611de82fbba9249c06565f34b552a",
+      "path": "validation/evidence/requirements/AIXEM-REQ-LAYOUT-0004.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1543,
+      "digest": "sha256:28b9465cd0ad2a27fce7a21105356926532537067c71a644a1e1d18ef3dec77b",
+      "path": "validation/evidence/requirements/AIXEM-REQ-LAYOUT-0005.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1504,
+      "digest": "sha256:2852736488ccbf857dbdde1008d7dd8d400c7f9bcabfe1f682f5c1de1671589b",
+      "path": "validation/evidence/requirements/AIXEM-REQ-LAYOUT-0010.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1514,
+      "digest": "sha256:452525b2fe324c2a63c0824d7d09c4a20db4d11bc219e9438dce83971f8209fa",
+      "path": "validation/evidence/requirements/AIXEM-REQ-LAYOUT-0011.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1517,
+      "digest": "sha256:e262b7d6c91b540074e2653635a12782755c78a792a09e302b7e36b64a758edd",
+      "path": "validation/evidence/requirements/AIXEM-REQ-LAYOUT-0012.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1528,
+      "digest": "sha256:58173ee403b9d6e916ecd034b2ad636c1852ffb713c725e07ba5664a23c54062",
+      "path": "validation/evidence/requirements/AIXEM-REQ-PROJECT-0001.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1531,
+      "digest": "sha256:21655fdc8cc46199c78ba36b577e8ef7882be9e8a4d5bf4408a03cad0ee268bf",
+      "path": "validation/evidence/requirements/AIXEM-REQ-PROJECT-0002.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1516,
+      "digest": "sha256:19cc4d9408c4b58372a9630e81a3baeb4d0c8ee8d7de61a12c5115d0a25b09b8",
+      "path": "validation/evidence/requirements/AIXEM-REQ-PROJECT-0003.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1524,
+      "digest": "sha256:bddfe796b2fe25e18a32ee7c2a5e981e04e73a5fc8b8577f21904d3c5ed46a0e",
+      "path": "validation/evidence/requirements/AIXEM-REQ-PROJECT-0004.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1442,
+      "digest": "sha256:0d5aa11d11cb32ed238b5c9450428a5a4e1ea563aea70f661697cc812a681b9c",
+      "path": "validation/evidence/requirements/AIXEM-REQ-ROUTE-0001.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1486,
+      "digest": "sha256:3431b8130190c48a056ae14d470ad427487feff04f411e152dd511b2bd6d31d5",
+      "path": "validation/evidence/requirements/AIXEM-REQ-ROUTE-0002.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1459,
+      "digest": "sha256:28509c303f25f594d3125948047eedcf68aee9ed2494e66f34a32a663d1764f7",
+      "path": "validation/evidence/requirements/AIXEM-REQ-ROUTE-0003.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1466,
+      "digest": "sha256:781284a9b8db996ef93c0e349a82a395fb477d951c2f8228a2c02a158ee8406a",
+      "path": "validation/evidence/requirements/AIXEM-REQ-ROUTE-0004.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1447,
+      "digest": "sha256:dec2047eb798b8f61fb8678840d6ed1e0602b2aba1c019cb66c80a045b30fc08",
+      "path": "validation/evidence/requirements/AIXEM-REQ-ROUTE-0005.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1480,
+      "digest": "sha256:7fa07303e31775ecb5d8deb06c65aa03e9d9861b05aa1a9bc9e401b8e35a5880",
+      "path": "validation/evidence/requirements/AIXEM-REQ-ROUTE-0006.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1510,
+      "digest": "sha256:67d21b532ff681077faa129d0b07229f2f628ad57ec48301e1283a532b878e5e",
+      "path": "validation/evidence/requirements/AIXEM-REQ-ROUTE-0007.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1478,
+      "digest": "sha256:02bea8823d987b651e2449800978a8e409a647f48c26de3762872fd1fcee5dc8",
+      "path": "validation/evidence/requirements/AIXEM-REQ-ROUTE-0008.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1494,
+      "digest": "sha256:d340d013738c354c89b1b9651a83922575ca4c159416eeba20845fe5de894c75",
+      "path": "validation/evidence/requirements/AIXEM-REQ-ROUTE-0009.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1526,
+      "digest": "sha256:7276c1b21ccc6794d6ffc4715b1538354e30b49d0eab5cc012c9de2980cc6bce",
+      "path": "validation/evidence/requirements/AIXEM-REQ-ROUTE-0010.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1506,
+      "digest": "sha256:c19ccd117093408feb5ea4e709d74a653ca25381a0d6b07f1824592be03e2aae",
+      "path": "validation/evidence/requirements/AIXEM-REQ-ROUTE-0011.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1432,
+      "digest": "sha256:e836ed68e25a5d3ae60b355910697df4cd494c8aac09f1515e2a97f02e183378",
+      "path": "validation/evidence/requirements/AIXEM-REQ-SCHEM-0001.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1451,
+      "digest": "sha256:28e01b793d8f49283cb15f111e847a61468938b5d498e9f014b0a1edcbbdf586",
+      "path": "validation/evidence/requirements/AIXEM-REQ-SCHEM-0002.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1434,
+      "digest": "sha256:90ccb10665799816f6a7357f7f4a6689d7ff444feebf4d33c8a12e099edbbf35",
+      "path": "validation/evidence/requirements/AIXEM-REQ-SCHEM-0003.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1495,
+      "digest": "sha256:600dd4030b03fc75d75557082dd2e43ef4d004671e12a13a432ca21ce9e2becf",
+      "path": "validation/evidence/requirements/AIXEM-REQ-SCHEM-0004.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1475,
+      "digest": "sha256:f762884de3202f1626e818d02ac83253433379939707542cf391957b0be418d3",
+      "path": "validation/evidence/requirements/AIXEM-REQ-SCHEM-0005.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1491,
+      "digest": "sha256:a2d82f4b8b0790d272a87e175a03b085555ac48397b9bc96aeeb39c7e8d8a363",
+      "path": "validation/evidence/requirements/AIXEM-REQ-SCHEM-0006.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1469,
+      "digest": "sha256:18d930227173b8716a9b9dd4dd6e49103c9fcb7a280a4eb7b8a49785af0d1ecf",
+      "path": "validation/evidence/requirements/AIXEM-REQ-SCHEM-0007.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1467,
+      "digest": "sha256:86a5e47ed70d46cafeb9b25b69c13eb1d7ce24df916bfeef41dd98ef309c9ad8",
+      "path": "validation/evidence/requirements/AIXEM-REQ-SCHEM-0008.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1478,
+      "digest": "sha256:6c66fd93f6bd52b32ef35a031dca41a346af3c7e4db9b13c9f40f76e111c5fab",
+      "path": "validation/evidence/requirements/AIXEM-REQ-SCHEM-0009.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1497,
+      "digest": "sha256:687a9a5fbc5371fdf02549b8e16eec805d8c571d8d54971f3677fdb7064b9458",
+      "path": "validation/evidence/requirements/AIXEM-REQ-SCHEM-0010.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1491,
+      "digest": "sha256:40145b02a61690e7e665cabd972f9ef163f14c3fd119491a71f095daaa15f54d",
+      "path": "validation/evidence/requirements/AIXEM-REQ-SEC-0001.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1500,
+      "digest": "sha256:e7e4d54f2a731a48322be8a348864eeaf26e4cc75b140f102aab20ce13164ab1",
+      "path": "validation/evidence/requirements/AIXEM-REQ-SEC-0002.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1468,
+      "digest": "sha256:62aed1a8db82f85fe3333a81a2d760cf2f071f5962435110c64764062914396b",
+      "path": "validation/evidence/requirements/AIXEM-REQ-SEC-0003.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1465,
+      "digest": "sha256:7fbe43a37eed78a9ecdaf8290bd330971feed01f89f0b9f605474a354226a010",
+      "path": "validation/evidence/requirements/AIXEM-REQ-SYMBOL-0001.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1475,
+      "digest": "sha256:5a50af8ac2de6b9cc3b8236a63587f4c8d9d5f378bc2635658f1a5f40d9265ba",
+      "path": "validation/evidence/requirements/AIXEM-REQ-SYMBOL-0002.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1483,
+      "digest": "sha256:9416c2541105b3733915482cfadff30af14696646834ddab3dea4a85413ec4e8",
+      "path": "validation/evidence/requirements/AIXEM-REQ-SYMBOL-0003.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1442,
+      "digest": "sha256:3b0f8ba3cd155f00083b96aa740b9bb0ed19901fc7d362a02b8e9180a6c175a6",
+      "path": "validation/evidence/requirements/AIXEM-REQ-SYMBOL-0004.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1487,
+      "digest": "sha256:5af3d43dbbb5b462f2fd07e2039aaaa26ad5b1cb142bbcd6dbddf0f1dfc6767c",
+      "path": "validation/evidence/requirements/AIXEM-REQ-SYMBOL-0005.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1514,
+      "digest": "sha256:1990a2c8cb32e80aa676fe06267b75b212213e859ecc098edeb0ab909b49588e",
+      "path": "validation/evidence/requirements/AIXEM-REQ-SYMBOL-0006.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1516,
+      "digest": "sha256:f7e16bc4c7bd32021dda06ce6ca1b336d4597cdb0cd27ca46fb5079402559367",
+      "path": "validation/evidence/requirements/AIXEM-REQ-SYMBOL-0007.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1484,
+      "digest": "sha256:7af1d3dae5498b859e5dd0fbe3ca80fd7d4093cb9eb6697c677ada22ffef08da",
+      "path": "validation/evidence/requirements/AIXEM-REQ-SYMBOL-0008.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1474,
+      "digest": "sha256:23ee0bee887a4e0048833533e505a17cb78127efc380f50e3ecfcae838ca8d91",
+      "path": "validation/evidence/requirements/AIXEM-REQ-SYMBOL-0010.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1466,
+      "digest": "sha256:608ee37775e5ba1c84a3717e7f7f31946e69132bd80c13592f54a312ce20134e",
+      "path": "validation/evidence/requirements/AIXEM-REQ-SYMBOL-0011.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1504,
+      "digest": "sha256:f58eb85284621d23fdf7a5030f7392ae35fbd3301996a678c6c41af9bb952688",
+      "path": "validation/evidence/requirements/AIXEM-REQ-SYMBOL-0012.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1498,
+      "digest": "sha256:c4f76c5420e7c192689ac8e16e88afdca370343404c53d2607d4a35cd5e75200",
+      "path": "validation/evidence/requirements/AIXEM-REQ-SYMBOL-0013.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1469,
+      "digest": "sha256:551d2d221cdd59c11a7d88a2fba212c5d6d40d052f09a39f05f278f0506b6eb3",
+      "path": "validation/evidence/requirements/AIXEM-REQ-SYMBOL-0014.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1477,
+      "digest": "sha256:de9b637d57e9fa0cbff37124ca5ec8743faadb9cf1e8f4cffef27e1d2040b462",
+      "path": "validation/evidence/requirements/AIXEM-REQ-SYMBOL-0015.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1472,
+      "digest": "sha256:bf3064358eaaf5b030ce8af6fde196e90aec68a2114fb8ce453411acf6de1b9d",
+      "path": "validation/evidence/requirements/AIXEM-REQ-SYMBOL-0016.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1507,
+      "digest": "sha256:694e8a3457d66dba1e99101780a58c4f5caf315f1a819c99b93c1e041c8a385a",
+      "path": "validation/evidence/requirements/AIXEM-REQ-SYMBOL-0020.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1519,
+      "digest": "sha256:9ec4eebf92a20a9fd6c6e31fa09ddce6add0f3b507bd52228e30b6fcbc70edf7",
+      "path": "validation/evidence/requirements/AIXEM-REQ-SYMBOL-0021.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1520,
+      "digest": "sha256:8c4e983c0e04a0ca2faec596884ad9a07d797317ae324bf8884353e3e0e928a9",
+      "path": "validation/evidence/requirements/AIXEM-REQ-SYMBOL-0022.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1319,
+      "digest": "sha256:023ca75522470511269c10082b924b1ad753f3c9aad562b2c9f68258d38b26a0",
+      "path": "validation/evidence/requirements/AIXEM-REQ-UI-0001.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1558,
+      "digest": "sha256:fd24e1175c086fee694758744755397736f62e10170cb0c730405ce49381a32b",
+      "path": "validation/evidence/requirements/AIXEM-REQ-UI-0002.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1341,
+      "digest": "sha256:bdb88a9f6e35bafdd7191e75d04153753203dc52751cdebb9a934ecea750529c",
+      "path": "validation/evidence/requirements/AIXEM-REQ-UI-0003.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1520,
+      "digest": "sha256:1beb374a251410a2ede7fb6a65b798c5536b1ad6bb5b25f8abcf878901fa63e0",
+      "path": "validation/evidence/requirements/AIXEM-REQ-UI-0004.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1428,
+      "digest": "sha256:4fdbdad1011124988a62e2e11ab62662ab60091d3692037d85cb81a0a0956206",
+      "path": "validation/evidence/requirements/AIXEM-REQ-UI-0005.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 758,
+      "digest": "sha256:8ca60c90dfb8d1c9239f7d3469ef287fc9f2749642c90a830106865fe7d458a7",
+      "path": "validation/evidence/reviews/accessibility-review.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 874,
+      "digest": "sha256:8bc815b062ebed696c7a2c09c186007405ea2319e62a0325ec40784dcb8cd7ea",
+      "path": "validation/evidence/reviews/architecture-review.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1119,
+      "digest": "sha256:55b951fd4dd7fca1a98b854c2dada4371d3423c6e92277e911ce4384fb975843",
+      "path": "validation/evidence/reviews/compatibility-review.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 769,
+      "digest": "sha256:5e42651ed8840330a7e202f8375051e3a239631d9e7bd5f03474382f40723dbe",
+      "path": "validation/evidence/reviews/vendor-neutrality-review.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 823,
+      "digest": "sha256:d4dfb6a52e888908c613bde1cde45bf44b5ac651efa4c9bae91d71da6d00c619",
+      "path": "validation/evidence/reviews/visual-review.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 545,
+      "digest": "sha256:be13fbc3ba941610c2aa808ebf2f4e034dde54ed46739c6ac56e81f80cda7a46",
+      "path": "validation/final-validation-report.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 2219,
+      "digest": "sha256:2905c8aeaa9d86f7a70fd2cf6f3afb45637e6ecf99c2e155160912754bc032de",
+      "path": "validation/final-validation-report.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 2442,
+      "digest": "sha256:2e421eecebdce5a0af629d0e125b2cea622028cd6f48da4200cde6a478a27208",
+      "path": "validation/final-validation.json",
+      "suffix": ".json"
+    },
+    {
+      "bytes": 1034,
+      "digest": "sha256:3928df488f991361f00ab5085c87b4323eefe323668c89bc6a50c7164f13ea7a",
+      "path": "validation/migration-report.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 684,
+      "digest": "sha256:b5bec9c833c6cc8c43e21d5b93ed5c985cb3b7c8f5766603896528deb543e9e2",
+      "path": "validation/release-integrity-report.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1376,
+      "digest": "sha256:212132e13442048e40fcc0233d44b94e7409e13b920a956fb35db851f39b4433",
+      "path": "validation/reports/pass-01-canonicalization.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1315,
+      "digest": "sha256:8b6d77ea2108df196183658aea0774326a348b35e07c9980a3637fa4245f3413",
+      "path": "validation/reports/pass-02-agent-compiler.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1663,
+      "digest": "sha256:034167f6803c132c9de2063f1783f922a84a4ad706de690406ae5802c5d4ded8",
+      "path": "validation/reports/pass-03-publication-and-conformance.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 419,
+      "digest": "sha256:152456e1f3db7c734427292b6a9eda9613a461f71105758485c0a3e5d7dbe424",
+      "path": "validation/requirement-traceability-report.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1340,
+      "digest": "sha256:639badcca2739612024c2e5818a20d23d303175d1d866c0391a15895fac32aba",
+      "path": "validation/test-results.json",
+      "suffix": ".json"
+    }
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "release": "AIXEM-SRP-0.5.1-2026-08-11",
+  "schema": "https://schemas.aixem.org/validation/baseline-inventory/1",
+  "source": "zip:aixem-schematic-reference-platform-0.5.0-2026-08-11(1).zip",
+  "sourceDigest": "sha256:a69561f893552b2b5833ab4030dae5ba722ae994bebe422e212273b1a03eb7c9",
+  "summary": {
+    "byCategory": {
+      "agent-routing": 19,
+      "examples": 9,
+      "other": 349,
+      "renderer": 2,
+      "routing": 6,
+      "schemas": 18,
+      "schematic-authoring": 9,
+      "symbol-authoring": 44,
+      "validation": 186
+    },
+    "bySuffix": {
+      ".aixem": 1,
+      ".css": 1,
+      ".csv": 2,
+      ".html": 109,
+      ".js": 2,
+      ".json": 355,
+      ".md": 118,
+      ".png": 5,
+      ".py": 27,
+      ".svg": 2,
+      ".txt": 2,
+      ".yaml": 15,
+      "<none>": 3
+    },
+    "bytes": 19775923,
+    "files": 642
+  },
+  "valid": true
+}

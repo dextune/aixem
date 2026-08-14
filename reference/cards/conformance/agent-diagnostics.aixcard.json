@@ -1,0 +1,53 @@
+{
+  "card": {
+    "aliases": [
+      "diagnostic registry",
+      "agent diagnostic codes"
+    ],
+    "appliesTo": [
+      "agent-diagnostic-conformance"
+    ],
+    "domain": "conformance",
+    "estimatedReadBytes": 3430,
+    "id": "AIXEM-CONF-AGENT-DIAGNOSTICS-001",
+    "inputs": [],
+    "keywords": [
+      "Agent Diagnostic Registry and Conformance",
+      "agent diagnostic codes",
+      "diagnostic registry",
+      "publish-release",
+      "validate-project"
+    ],
+    "kind": "conformance",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/conformance/agent-diagnostics.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:db6a6861ff7a9c54cc30ac78542208146b8adfeb5c045f3f23f84810fec42c49"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SPEC-AGENT-DIAGNOSTIC-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-AGENT-CLOSED-LOOP-0017",
+        "level": "must",
+        "text": "**MUST.** The release diagnostic registry MUST contain and route every P0 code declared by the 0.5.5 authoring plan, with no unknown authority or repair class."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-CONF-AGENT-DIAGNOSTICS-001",
+        "path": "docs/conformance/agent-diagnostics.md"
+      }
+    ],
+    "summary": "Defines the P0 diagnostic registry, controlled ownership vocabulary, remediation-route coverage, and structural negative conformance for agent authoring feedback.",
+    "title": "Agent Diagnostic Registry and Conformance"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

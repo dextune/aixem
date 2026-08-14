@@ -1,0 +1,82 @@
+{
+  "card": {
+    "aliases": [
+      "aixproj 2",
+      "multi-sheet project",
+      "hierarchical project",
+      "project composition"
+    ],
+    "appliesTo": [
+      "project-composition",
+      "project-net-membership",
+      "sheet-hierarchy"
+    ],
+    "domain": "specifications",
+    "estimatedReadBytes": 11956,
+    "id": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
+    "inputs": [],
+    "keywords": [
+      "Project Composition Contract 2",
+      "aixproj 2",
+      "compose-project",
+      "hierarchical project",
+      "multi-sheet project",
+      "project composition",
+      "route-project-nets",
+      "validate-project"
+    ],
+    "kind": "specification",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/specifications/project/project-composition-contract.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:4e8c08391186c558988a3beaa924d13e8e432c7ac56705730c24033d1a3c5dd6"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [
+      "AIXEM-SPEC-PROJECT-LOCK-001",
+      "AIXEM-SPEC-INTERFACE-PORT-001",
+      "AIXEM-CONCEPT-PROJECT-NET-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-HIER-0006",
+        "level": "must",
+        "text": "**MUST.** Every aixproj/2 sheet record MUST identify one independent source and layout pair whose required digests are verified before resolution."
+      },
+      {
+        "id": "AIXEM-REQ-HIER-0007",
+        "level": "must",
+        "text": "**MUST.** Cross-sheet electrical equivalence MUST be declared only through projectNets members that resolve to semantic interface ports."
+      },
+      {
+        "id": "AIXEM-REQ-HIER-0008",
+        "level": "must",
+        "text": "**MUST.** Equal local-net IDs, port IDs, or labels across sheets MUST NOT imply project connectivity."
+      },
+      {
+        "id": "AIXEM-REQ-HIER-0009",
+        "level": "must",
+        "text": "**MUST.** Sheet parent relations MUST resolve to existing sheets, contain no self-parent relation, and form an acyclic deterministically ordered hierarchy."
+      },
+      {
+        "id": "AIXEM-REQ-HIER-0010",
+        "level": "must",
+        "text": "**MUST.** Interface ports already equivalent through one local net MUST NOT be assigned to different project-net IDs."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
+        "path": "docs/specifications/project/project-composition-contract.md"
+      }
+    ],
+    "summary": "Defines digest-locked multi-sheet composition, organizational hierarchy, explicit project nets, qualified identity, and legacy v1 normalization.",
+    "title": "Project Composition Contract 2"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

@@ -1,0 +1,90 @@
+schema: https://schemas.aixem.org/documentation/task-route/1
+formatVersion: '1.0'
+kind: simple
+id: validate-live-agent-authoring
+intent: validate-live-agent-authoring
+aliases:
+- validate live agent authoring
+- run agent evaluation 3
+- cold-start agent conformance
+- maintain live executor harness
+summary: Build, execute, score, retain, and review provider-neutral cold-start live-agent conformance evidence
+budget:
+  max_documents: 7
+  max_bytes: 98304
+  max_depth: 3
+expected_inputs:
+- Agent Evaluation 3 case or external executor descriptor
+- canonical generated task packets and authoring tools
+- incomplete cold-start workspace
+steps:
+- order: 1
+  document: AIXEM-SPEC-AGENT-TASK-001
+  section: required-resolution
+  purpose: Resolve the non-authoritative task against canonical route-owned scope.
+  required: true
+- order: 2
+  document: AIXEM-SPEC-AGENT-STAGE-001
+  section: target-leakage-check
+  purpose: Materialize and validate a fresh target-isolated stage.
+  required: true
+- order: 3
+  document: AIXEM-SPEC-AGENT-EXECUTOR-LIVE-001
+  section: execution-proof
+  purpose: Launch a bounded declared subprocess and retain execution proof.
+  required: true
+- order: 4
+  document: AIXEM-SPEC-AGENT-OBSERVATION-001
+  section: capability-coverage
+  purpose: Validate observable actions without private reasoning claims.
+  required: true
+- order: 5
+  document: AIXEM-SPEC-AGENT-EVAL-INVARIANT-001
+  section: scoring
+  purpose: Score the actual final workspace without evaluator repair.
+  required: true
+- order: 6
+  document: AIXEM-SPEC-AGENT-LIVE-RUN-001
+  section: attempt-set
+  purpose: Retain terminal evidence and enforce exact denominator integrity.
+  required: true
+- order: 7
+  document: AIXEM-CONF-AGENT-LIVE-001
+  section: public-claim-rule
+  purpose: Separate Tier A protocol proof from actual Tier B execution claims.
+  required: true
+completion:
+- Task resolves without authority widening
+- Stage is deterministic, fresh, safe, and target/evaluator isolated
+- Executor and observation evidence validate
+- Actual final workspace is scored without evaluator mutation
+- Every attempted terminal result is retained in the exact denominator
+- Live claim state matches actual external process evidence
+expected_outputs:
+- stage-manifest.json
+- executor record and observation-log.jsonl
+- evaluation-result.json
+- live-run-evidence.json
+- attempt-set.json or truthful not-executed status
+validators:
+- agent.task_contract
+- agent.cold_start_stage
+- agent.live_executor
+- agent.observation
+- agent.evaluation_invariants
+- agent.live_run
+- agent.evaluation_3
+writes:
+  authority: []
+  artifacts: []
+  derived:
+  - validation/agent-evals-3/results/**
+  prohibited:
+  - '**/*.aixem'
+  - '**/*.aixsym.json'
+  - '**/*.aixlib.json'
+  - '**/*.aixlayout.json'
+  - '**/*.aixproj.json'
+  - '**/render/**'
+remediation:
+  acceptsDiagnostics: []

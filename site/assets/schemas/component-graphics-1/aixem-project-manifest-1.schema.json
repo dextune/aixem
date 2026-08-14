@@ -1,0 +1,196 @@
+{
+  "$defs": {
+    "fileRef": {
+      "additionalProperties": false,
+      "properties": {
+        "digest": {
+          "pattern": "^sha256:[0-9a-f]{64}$",
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "mediaType": {
+          "type": "string"
+        },
+        "optional": {
+          "type": "boolean"
+        },
+        "path": {
+          "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[a-z0-9][a-z0-9._/-]*$",
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "path",
+        "digest",
+        "mediaType"
+      ],
+      "type": "object"
+    }
+  },
+  "$id": "https://schemas.aixem.org/component-graphics/aixproj/1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "formatVersion": {
+      "const": "1.0"
+    },
+    "project": {
+      "additionalProperties": false,
+      "properties": {
+        "applicationProfile": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "features": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        "id": {
+          "pattern": "^[a-z][a-z0-9]*(?:[._:-][a-z0-9]+)*$",
+          "type": "string"
+        },
+        "layout": {
+          "$ref": "#/$defs/fileRef"
+        },
+        "libraries": {
+          "items": {
+            "$ref": "#/$defs/fileRef"
+          },
+          "maxItems": 1024,
+          "minItems": 1,
+          "type": "array"
+        },
+        "metadata": {
+          "type": "object"
+        },
+        "outputs": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "digest": {
+                "pattern": "^sha256:[0-9a-f]{64}$",
+                "type": "string"
+              },
+              "mediaType": {
+                "type": "string"
+              },
+              "path": {
+                "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[a-z0-9][a-z0-9._/-]*$",
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "role",
+              "path",
+              "mediaType"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "provenance": {
+          "type": "object"
+        },
+        "renderPolicy": {
+          "additionalProperties": false,
+          "properties": {
+            "backend": {
+              "enum": [
+                "svg",
+                "canvas2d",
+                "pdf",
+                "custom"
+              ]
+            },
+            "defaultVariantPolicy": {
+              "enum": [
+                "asset-default",
+                "library-default",
+                "explicit-only"
+              ]
+            },
+            "fontPolicy": {
+              "enum": [
+                "bundled-metrics",
+                "system-fallback",
+                "declared-fixture"
+              ]
+            },
+            "purpose": {
+              "type": "string"
+            },
+            "remoteAssets": {
+              "enum": [
+                "deny",
+                "allow-listed"
+              ]
+            },
+            "unsupportedRequiredFeature": {
+              "enum": [
+                "reject",
+                "diagnostic-only"
+              ]
+            }
+          },
+          "required": [
+            "purpose",
+            "backend",
+            "fontPolicy",
+            "remoteAssets"
+          ],
+          "type": "object"
+        },
+        "source": {
+          "$ref": "#/$defs/fileRef"
+        },
+        "status": {
+          "enum": [
+            "example",
+            "draft",
+            "controlled",
+            "released"
+          ]
+        },
+        "title": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "applicationProfile",
+        "source",
+        "layout",
+        "libraries",
+        "renderPolicy"
+      ],
+      "type": "object"
+    },
+    "schema": {
+      "const": "https://schemas.aixem.org/component-graphics/aixproj/1"
+    }
+  },
+  "required": [
+    "schema",
+    "formatVersion",
+    "project"
+  ],
+  "title": "AIXEM Project Manifest 1.0 Candidate",
+  "type": "object"
+}

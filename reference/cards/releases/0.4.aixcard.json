@@ -1,0 +1,52 @@
+{
+  "card": {
+    "aliases": [
+      "0.4",
+      "AIXEM 0.4",
+      "previous release"
+    ],
+    "appliesTo": [
+      "historical-release-note"
+    ],
+    "domain": "releases",
+    "estimatedReadBytes": 3752,
+    "id": "AIXEM-RELEASE-040-001",
+    "inputs": [],
+    "keywords": [
+      "0.4",
+      "AIXEM 0.4",
+      "AIXEM 0.4 Baseline",
+      "migrate-baseline",
+      "previous release"
+    ],
+    "kind": "release-note",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/releases/0.4.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:543e8a2496b5e33ed48a50ca66a3b61277c40d497e61047bc8cc06695f2af84d"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 500,
+    "readNext": [],
+    "rules": [
+      {
+        "id": "AIXEM-RELEASE-040-001.read",
+        "level": "should",
+        "text": "Summarizes the grid-first renderer, reference cards and routes, workbench example, and documentation-drift issues inherited from 0.4."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-RELEASE-040-001",
+        "path": "docs/releases/0.4.md"
+      }
+    ],
+    "summary": "Summarizes the grid-first renderer, reference cards and routes, workbench example, and documentation-drift issues inherited from 0.4.",
+    "title": "AIXEM 0.4 Baseline"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

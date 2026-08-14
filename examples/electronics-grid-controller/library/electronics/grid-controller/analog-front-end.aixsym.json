@@ -1,0 +1,305 @@
+{
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/component-graphics/aixsym/1",
+  "symbol": {
+    "anchors": [
+      {
+        "id": "origin",
+        "kind": "insertion",
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "bounds": {
+      "height": 71.0,
+      "width": 82,
+      "x": -41.0,
+      "y": -35.5
+    },
+    "coordinateSystem": {
+      "angleDirection": "clockwise",
+      "angleUnit": "deg",
+      "grid": 2.5,
+      "unit": "mm",
+      "yAxis": "down"
+    },
+    "definitions": {},
+    "description": "Original AIXEM grid schematic symbol for ANALOG FRONT END.",
+    "graphics": [
+      {
+        "height": 45.0,
+        "id": "body",
+        "layer": "body",
+        "style": "body-fill",
+        "type": "rect",
+        "width": 48,
+        "x": -24.0,
+        "y": -22.5
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "id": "title",
+        "layer": "detail",
+        "style": "field",
+        "text": "ANALOG FRONT END",
+        "type": "text",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "field": "reference",
+        "id": "reference",
+        "layer": "fields",
+        "style": "field",
+        "type": "text",
+        "x": 0,
+        "y": -28.5
+      },
+      {
+        "anchor": "middle",
+        "baseline": "middle",
+        "field": "value",
+        "id": "value",
+        "layer": "fields",
+        "style": "value",
+        "type": "text",
+        "x": 0,
+        "y": 29.5
+      },
+      {
+        "id": "pin-VINP",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": -29.0,
+        "x2": -24.0,
+        "y1": -10.0,
+        "y2": -10.0
+      },
+      {
+        "id": "pin-VINN",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": -29.0,
+        "x2": -24.0,
+        "y1": 0.0,
+        "y2": 0.0
+      },
+      {
+        "id": "pin-VREF",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": -29.0,
+        "x2": -24.0,
+        "y1": 10.0,
+        "y2": 10.0
+      },
+      {
+        "id": "pin-VOUT",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": 24.0,
+        "x2": 29.0,
+        "y1": 0.0,
+        "y2": 0.0
+      },
+      {
+        "id": "pin-3V3",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": 0.0,
+        "x2": 0.0,
+        "y1": -27.5,
+        "y2": -22.5
+      },
+      {
+        "id": "pin-GND",
+        "layer": "body",
+        "style": "line",
+        "type": "line",
+        "x1": 0.0,
+        "x2": 0.0,
+        "y1": 22.5,
+        "y2": 27.5
+      }
+    ],
+    "id": "demo.electronics:analog-front-end",
+    "layers": [
+      {
+        "defaultVisible": true,
+        "id": "body",
+        "locked": true,
+        "order": 10,
+        "printable": true,
+        "purpose": "symbol body and pins"
+      },
+      {
+        "defaultVisible": true,
+        "id": "detail",
+        "locked": true,
+        "order": 20,
+        "printable": true,
+        "purpose": "pin names and body title"
+      },
+      {
+        "defaultVisible": true,
+        "id": "fields",
+        "locked": false,
+        "order": 30,
+        "printable": true,
+        "purpose": "reference and value fields"
+      }
+    ],
+    "paintServers": {},
+    "parameters": {},
+    "ports": [
+      {
+        "id": "VINP",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "VIN+",
+        "number": "1",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.5,
+        "x": -29.0,
+        "y": -10.0
+      },
+      {
+        "id": "VINN",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "VIN−",
+        "number": "2",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.5,
+        "x": -29.0,
+        "y": 0.0
+      },
+      {
+        "id": "VREF",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "VREF",
+        "number": "3",
+        "numberVisible": true,
+        "orientation": 180,
+        "snapRadius": 1.5,
+        "x": -29.0,
+        "y": 10.0
+      },
+      {
+        "id": "VOUT",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "VOUT",
+        "number": "4",
+        "numberVisible": true,
+        "orientation": 0,
+        "snapRadius": 1.5,
+        "x": 29.0,
+        "y": 0.0
+      },
+      {
+        "id": "3V3",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "3V3",
+        "number": "5",
+        "numberVisible": true,
+        "orientation": 270,
+        "snapRadius": 1.5,
+        "x": 0.0,
+        "y": -27.5
+      },
+      {
+        "id": "GND",
+        "kind": "electrical",
+        "labelVisible": true,
+        "name": "GND",
+        "number": "6",
+        "numberVisible": true,
+        "orientation": 90,
+        "snapRadius": 1.5,
+        "x": 0.0,
+        "y": 27.5
+      }
+    ],
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-10",
+      "license": "CC0-1.0",
+      "notes": "Original geometry; no vendor symbol library copied.",
+      "origin": "AIXEM Schematic Reference Platform 0.4"
+    },
+    "purpose": "schematic-symbol",
+    "requiredFeatures": [],
+    "revision": "1.0.0",
+    "styles": {
+      "accent": {
+        "fill": "none",
+        "stroke": "#1b4e8c",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.7
+      },
+      "body": {
+        "fill": "#ffffff",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.8
+      },
+      "body-fill": {
+        "fill": "#fffef8",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.8
+      },
+      "field": {
+        "fill": "#0c7772",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 4.2,
+        "fontWeight": 600,
+        "stroke": "none"
+      },
+      "line": {
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.8
+      },
+      "solid": {
+        "fill": "#0c7772",
+        "stroke": "#0c7772",
+        "strokeWidth": 0.5
+      },
+      "thin": {
+        "fill": "none",
+        "stroke": "#0c7772",
+        "strokeLinecap": "square",
+        "strokeLinejoin": "miter",
+        "strokeWidth": 0.55
+      },
+      "value": {
+        "fill": "#1b4e8c",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": 3.5,
+        "fontWeight": 400,
+        "stroke": "none"
+      }
+    },
+    "title": "ANALOG FRONT END",
+    "variants": []
+  }
+}

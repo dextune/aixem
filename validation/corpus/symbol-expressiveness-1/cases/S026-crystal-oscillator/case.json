@@ -1,0 +1,73 @@
+{
+  "category": "timing",
+  "componentPorts": [
+    {
+      "id": "EN",
+      "name": "EN",
+      "required": true,
+      "type": "input"
+    },
+    {
+      "id": "OUT",
+      "name": "OUT",
+      "required": true,
+      "type": "output"
+    },
+    {
+      "id": "VDD",
+      "name": "VDD",
+      "required": true,
+      "type": "power-input"
+    },
+    {
+      "id": "GND",
+      "name": "GND",
+      "required": true,
+      "type": "power-input"
+    }
+  ],
+  "expectedBoundsClass": "compact",
+  "expectedFieldRoles": [
+    "reference-field",
+    "value-field"
+  ],
+  "expectedGridPolicy": "ports-on-2.5mm",
+  "expectedParameterIds": [],
+  "expectedPortCount": 4,
+  "expectedPrimitiveFamilies": [
+    "line",
+    "path",
+    "rect",
+    "text"
+  ],
+  "expectedVariantIds": [],
+  "expectedVisiblePortCount": 4,
+  "formatVersion": "1.0",
+  "id": "S026",
+  "knownExclusions": [],
+  "manualReviewChecks": [
+    "silhouette-recognizable",
+    "ports-attached-to-expected-leads",
+    "pin-number-name-separation",
+    "reference-value-clear-of-body",
+    "polarity-arrow-inversion-state-unambiguous",
+    "repeated-geometry-evenly-spaced",
+    "normal-scale-readable",
+    "no-false-connectivity-detail",
+    "variant-endpoint-identity-preserved",
+    "path-has-no-fill-or-self-intersection-artifact"
+  ],
+  "optionalCapabilities": [],
+  "purpose": "Mixed rectangular, parallel-line, and curved timing geometry",
+  "requiredCapabilities": [
+    "geometry.line",
+    "geometry.path",
+    "geometry.rect",
+    "port.mapping",
+    "text.field"
+  ],
+  "schema": "https://schemas.aixem.org/conformance/corpus-case/1",
+  "symbolPath": "symbol.aixsym.json",
+  "tier": "extended",
+  "title": "Crystal oscillator"
+}

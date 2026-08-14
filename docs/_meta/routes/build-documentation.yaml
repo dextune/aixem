@@ -1,0 +1,52 @@
+schema: https://schemas.aixem.org/documentation/task-route/1
+formatVersion: '1.0'
+id: build-documentation
+intent: build-documentation
+aliases:
+- build documentation
+- compile docs
+- generate site
+- build reference index
+- documentation compiler
+summary: Build documentation and agent indexes
+budget:
+  max_documents: 7
+  max_bytes: 98304
+  max_depth: 3
+steps:
+- order: 1
+  document: AIXEM-SPEC-DOCUMENT-001
+  section: operational-rules
+  purpose: Read Canonical Document Model for this task stage.
+  required: true
+- order: 2
+  document: AIXEM-SPEC-METADATA-001
+  section: operational-rules
+  purpose: Read Documentation Metadata Contract 1 for this task stage.
+  required: true
+- order: 3
+  document: AIXEM-AGENT-ROUTES-001
+  section: authoritative-workflow
+  purpose: Read Task Routes for this task stage.
+  required: true
+- order: 4
+  document: AIXEM-ARCH-PIPELINE-001
+  section: authoritative-workflow
+  purpose: Read Build and Authoring Pipeline for this task stage.
+  required: true
+- order: 5
+  document: AIXEM-SPEC-RELEASE-001
+  section: validation-and-evidence
+  purpose: Read Documentation Release Integrity 1 for this task stage.
+  required: true
+completion: &id001
+- Canonical validation passes
+- All generated indexes are fresh
+- Static site links resolve
+- Compatibility reference output is current
+expected_outputs: *id001
+validators:
+- docs.metadata
+- docs.links
+- docs.generated_freshness
+- docs.site

@@ -1,0 +1,10 @@
+{
+  "assertions": [
+    "transitive-equivalence-rejected"
+  ],
+  "expected": "fail",
+  "expectedDiagnostic": "PROJECT_NET_EQUIVALENCE_COLLISION",
+  "id": "H015",
+  "project": "project.aixproj.json",
+  "title": "Local net project net equivalence collision"
+}

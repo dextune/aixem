@@ -1,0 +1,155 @@
+{
+  "bounds": {
+    "height": 85,
+    "width": 90,
+    "x": -45,
+    "y": -42.5
+  },
+  "capabilities": [
+    "geometry.line",
+    "geometry.rect",
+    "port.mapping",
+    "scale.high-port-count",
+    "text.field"
+  ],
+  "case": "S030",
+  "defaultVariant": null,
+  "definitions": [],
+  "fieldAnchors": [
+    {
+      "field": "reference",
+      "id": "field-reference",
+      "x": 0,
+      "y": -35
+    },
+    {
+      "field": "value",
+      "id": "field-value",
+      "x": 0,
+      "y": 35
+    }
+  ],
+  "parameters": {},
+  "ports": [
+    {
+      "id": "A0",
+      "orientation": 180,
+      "visible": true,
+      "x": -35.0,
+      "y": -17.5
+    },
+    {
+      "id": "A1",
+      "orientation": 180,
+      "visible": true,
+      "x": -35.0,
+      "y": -12.5
+    },
+    {
+      "id": "A2",
+      "orientation": 180,
+      "visible": true,
+      "x": -35.0,
+      "y": -7.5
+    },
+    {
+      "id": "A3",
+      "orientation": 180,
+      "visible": true,
+      "x": -35.0,
+      "y": -2.5
+    },
+    {
+      "id": "A4",
+      "orientation": 180,
+      "visible": true,
+      "x": -35.0,
+      "y": 2.5
+    },
+    {
+      "id": "A5",
+      "orientation": 180,
+      "visible": true,
+      "x": -35.0,
+      "y": 7.5
+    },
+    {
+      "id": "A6",
+      "orientation": 180,
+      "visible": true,
+      "x": -35.0,
+      "y": 12.5
+    },
+    {
+      "id": "A7",
+      "orientation": 180,
+      "visible": true,
+      "x": -35.0,
+      "y": 17.5
+    },
+    {
+      "id": "B0",
+      "orientation": 0,
+      "visible": true,
+      "x": 35.0,
+      "y": -17.5
+    },
+    {
+      "id": "B1",
+      "orientation": 0,
+      "visible": true,
+      "x": 35.0,
+      "y": -12.5
+    },
+    {
+      "id": "B2",
+      "orientation": 0,
+      "visible": true,
+      "x": 35.0,
+      "y": -7.5
+    },
+    {
+      "id": "B3",
+      "orientation": 0,
+      "visible": true,
+      "x": 35.0,
+      "y": -2.5
+    },
+    {
+      "id": "B4",
+      "orientation": 0,
+      "visible": true,
+      "x": 35.0,
+      "y": 2.5
+    },
+    {
+      "id": "B5",
+      "orientation": 0,
+      "visible": true,
+      "x": 35.0,
+      "y": 7.5
+    },
+    {
+      "id": "B6",
+      "orientation": 0,
+      "visible": true,
+      "x": 35.0,
+      "y": 12.5
+    },
+    {
+      "id": "B7",
+      "orientation": 0,
+      "visible": true,
+      "x": 35.0,
+      "y": 17.5
+    }
+  ],
+  "primitiveCounts": {
+    "line": 18,
+    "rect": 1,
+    "text": 5
+  },
+  "requiredFeatures": [],
+  "symbol": "corpus:s030-fpga-multi-unit-probe",
+  "variants": []
+}

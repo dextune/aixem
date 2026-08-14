@@ -1,0 +1,57 @@
+{
+  "domain": {
+    "cards": [
+      {
+        "id": "AIXEM-FORMAT-AIXEM-001",
+        "path": "reference/cards/file-formats/aixem.aixcard.json",
+        "summary": "Documents the line-oriented semantic source format for model headers, features, library use, entities, nets, and no-connect declarations.",
+        "title": ".aixem Semantic Source"
+      },
+      {
+        "id": "AIXEM-FORMAT-AIXLAYOUT-001",
+        "path": "reference/cards/file-formats/aixlayout.aixcard.json",
+        "summary": "Documents sheets, placements, route connections, path endpoints, via points, junctions, labels, annotations, and title blocks.",
+        "title": ".aixlayout.json Explicit Layout"
+      },
+      {
+        "id": "AIXEM-FORMAT-AIXLIB-001",
+        "path": "reference/cards/file-formats/aixlib.aixcard.json",
+        "summary": "Documents component type definitions, endpoint contracts, properties, symbol bindings, versions, and asset digests.",
+        "title": ".aixlib.json Component Library"
+      },
+      {
+        "id": "AIXEM-FORMAT-AIXPROJ-001",
+        "path": "reference/cards/file-formats/aixproj.aixcard.json",
+        "summary": "Documents the project manifest that binds all locked inputs, active profiles, render policy, provenance, and outputs.",
+        "title": ".aixproj.json Project Lock"
+      },
+      {
+        "id": "AIXEM-FORMAT-AIXSYM-001",
+        "path": "reference/cards/file-formats/aixsym.aixcard.json",
+        "summary": "Documents symbol metadata, coordinate system, bounds, definitions, primitives, ports, fields, variants, and feature requirements.",
+        "title": ".aixsym.json Symbol Asset"
+      },
+      {
+        "id": "AIXEM-FORMAT-INDEX-001",
+        "path": "reference/cards/file-formats/overview.aixcard.json",
+        "summary": "A practical map of semantic source, component libraries, symbol assets, explicit layout, project locks, and style profiles.",
+        "title": "File Formats"
+      },
+      {
+        "id": "AIXEM-FORMAT-STYLE-001",
+        "path": "reference/cards/file-formats/style-profile.aixcard.json",
+        "summary": "Documents the style profile for grid spacing, strokes, colors, fonts, markers, selection states, and workbench presentation.",
+        "title": "Schematic Style Profile"
+      }
+    ],
+    "description": "Generated canonical-document cards for the file-formats domain.",
+    "id": "file-formats",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12"
+    },
+    "title": "File Formats"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixdomain/1"
+}

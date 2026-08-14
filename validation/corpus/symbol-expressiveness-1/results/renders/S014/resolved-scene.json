@@ -1,0 +1,138 @@
+{
+  "coordinateSystem": {
+    "angleDirection": "clockwise",
+    "angleUnit": "deg",
+    "grid": 2.5,
+    "unit": "mm",
+    "yAxis": "down"
+  },
+  "diagnostics": [],
+  "entities": [
+    {
+      "componentType": "conformance:s014",
+      "key": "X1",
+      "kind": "component",
+      "parameters": {
+        "show-link": true
+      },
+      "placement": {
+        "entity": "X1",
+        "layer": "symbols",
+        "x": 55.0,
+        "y": 55.0
+      },
+      "ports": {
+        "A1": [
+          30.0,
+          45.0
+        ],
+        "A2": [
+          30.0,
+          65.0
+        ],
+        "COM": [
+          80.0,
+          55.0
+        ],
+        "NC": [
+          80.0,
+          45.0
+        ],
+        "NO": [
+          80.0,
+          65.0
+        ]
+      },
+      "reference": "X1",
+      "symbolDigest": "sha256:26adcb82f63e611eec805853c65109a36fdbf1e34185f00cf830b77803632a47",
+      "symbolId": "corpus:s014-relay-spdt",
+      "value": "SPDT relay",
+      "variant": null
+    }
+  ],
+  "featuresUsed": [],
+  "generatedAt": "2026-08-10T00:00:00Z",
+  "gridValidation": {
+    "crossingPolicy": "junction-required",
+    "orthogonalSegments": 0,
+    "placementExceptions": [],
+    "placements": 1,
+    "placementsOnGrid": 1,
+    "profile": "aixem.schematic.grid-light",
+    "routeSegments": 0,
+    "routeViasOnGrid": true,
+    "snap": 2.5,
+    "zeroLengthSegments": []
+  },
+  "hashes": {
+    "layout": "sha256:ccca235cd382b971b0bcc4e40802fc5424972ef612e4ed984e80755359c160b9",
+    "libraries": [
+      "sha256:350bf1b38e448fba33c8f52a142d73b85996b12b91ba13aa5da8e865be21a784"
+    ],
+    "source": "sha256:be77483d79f6c6ea55720f09c57f55aa76b50637949aacde5b3340aafc644b48",
+    "symbolAssets": [
+      "sha256:26adcb82f63e611eec805853c65109a36fdbf1e34185f00cf830b77803632a47"
+    ]
+  },
+  "layers": [
+    {
+      "defaultVisible": true,
+      "id": "connections",
+      "locked": false,
+      "order": 10,
+      "printable": true,
+      "purpose": "semantic net routes"
+    },
+    {
+      "defaultVisible": true,
+      "id": "symbols",
+      "locked": false,
+      "order": 20,
+      "printable": true,
+      "purpose": "component symbols"
+    },
+    {
+      "defaultVisible": true,
+      "id": "annotation",
+      "locked": false,
+      "order": 30,
+      "printable": true,
+      "purpose": "notes"
+    }
+  ],
+  "nets": [],
+  "project": {
+    "id": "conformance:s014",
+    "profile": "circuit.schematic@1 + component.graphics@1 + aixem.schematic.grid-light@1",
+    "title": "S014 SPDT relay conformance project"
+  },
+  "renderer": {
+    "id": "aixem-grid-schematic-reference-renderer",
+    "version": "0.5.1"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/resolved-scene/1",
+  "sheet": {
+    "height": 135.0,
+    "margin": 10,
+    "titleBlock": {
+      "drawing": "corpus_s014-layout",
+      "revision": "A",
+      "sheet": "1/1",
+      "title": "S014 — SPDT relay"
+    },
+    "width": 180.0
+  },
+  "statistics": {
+    "entities": 1,
+    "nets": 0,
+    "noConnects": 0,
+    "primitives": 18,
+    "routeSegments": 0,
+    "symbolAssets": 1
+  },
+  "styleProfile": {
+    "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+    "id": "aixem.schematic.grid-light",
+    "path": "aixem-grid-schematic-style-1.aixstyle.json"
+  }
+}

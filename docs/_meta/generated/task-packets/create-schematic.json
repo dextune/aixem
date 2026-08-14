@@ -1,0 +1,164 @@
+{
+  "authority": "derived-navigation-only",
+  "budget": {
+    "max_bytes": 98304,
+    "max_depth": 3,
+    "max_documents": 7
+  },
+  "completion": [
+    "Semantic entities and endpoint intent are closed",
+    "Every entity type and presentation resolves",
+    "Every presented entity has one placement",
+    "Semantic and layout authority remain separate",
+    "Project inputs are ready for route-nets"
+  ],
+  "documents": [
+    {
+      "bytes": 6799,
+      "digest": "sha256:510577e90a3c756b4bbe7349f0108fc736f015ca35a9404a4df7b5613ac78e0a",
+      "document": "AIXEM-CONCEPT-AUTHORITY-001",
+      "order": 1,
+      "path": "docs/concepts/authority-model.md",
+      "purpose": "Classify semantic, component, symbol, layout, style, and derived authority.",
+      "required": true,
+      "section": "overview"
+    },
+    {
+      "bytes": 5233,
+      "digest": "sha256:4fc20a940086e2bc9ccb79a941bf357cd007a010d3e42ef3863cb6929cc9fb97",
+      "document": "AIXEM-SCHEM-COOKBOOK-001",
+      "order": 2,
+      "path": "docs/schematic/schematic-authoring-cookbook.md",
+      "purpose": "Close component selection, entities, semantic nets, and placement handoff in authority order.",
+      "required": true,
+      "section": "end-to-end-sequence"
+    },
+    {
+      "bytes": 6354,
+      "digest": "sha256:6635f8dba35db7d77e80a45b7fbddccf7055b27c4ddf4e5e328b65a458161817",
+      "document": "AIXEM-SCHEM-GRID-001",
+      "order": 3,
+      "path": "docs/schematic/grid-system.md",
+      "purpose": "Resolve active G/P/M grid authority and deterministic snap semantics.",
+      "required": true,
+      "section": "operational-rules"
+    },
+    {
+      "bytes": 5879,
+      "digest": "sha256:2fbe4de3040dcbf42a82b80427ce2986dda4e972c69c46cf74c1373489ad5290",
+      "document": "AIXEM-SCHEM-PLACEMENT-001",
+      "order": 4,
+      "path": "docs/schematic/placement.md",
+      "purpose": "Apply canonical anchor, grouping, spacing, channel, and minimal-change placement rules.",
+      "required": true,
+      "section": "operational-rules"
+    },
+    {
+      "bytes": 9595,
+      "digest": "sha256:ab00aba15fcf380926bc2c8613c1d1b314bd26c4650a8b2761f69093a4cba5fd",
+      "document": "AIXEM-SYMBOL-BINDING-001",
+      "order": 5,
+      "path": "docs/symbols/component-symbol-binding.md",
+      "purpose": "Resolve component type, endpoint, field, and presentation mapping.",
+      "required": true,
+      "section": "complete-binding-example"
+    },
+    {
+      "bytes": 7121,
+      "digest": "sha256:afdc90e99fec9cc492bc9028c59bb5a4886aa86e92df46bd9103fc335ead988a",
+      "document": "AIXEM-FORMAT-AIXEM-001",
+      "order": 6,
+      "path": "docs/file-formats/aixem.md",
+      "purpose": "Author entities, nets, attributes, interface ports, and no-connect intent.",
+      "required": true,
+      "section": "0-5-1-complete-minimal-semantic-model"
+    },
+    {
+      "bytes": 9360,
+      "digest": "sha256:b98490ebabd6639be7f46616567655a16386d62d196f846f67a15751a6315d77",
+      "document": "AIXEM-FORMAT-AIXLAYOUT-001",
+      "order": 7,
+      "path": "docs/file-formats/aixlayout.md",
+      "purpose": "Author grid-coherent placements and prepare explicit connection records.",
+      "required": true,
+      "section": "0-5-1-placement-and-connection-serialization"
+    }
+  ],
+  "expectedInputs": [
+    "component library and symbol assets",
+    "circuit semantic intent",
+    "active grid/style profile"
+  ],
+  "expectedOutputs": [
+    "closed .aixem source",
+    "placements in .aixlayout.json",
+    "locked component/symbol references",
+    "routing handoff"
+  ],
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "id": "create-schematic",
+  "intent": "create-schematic",
+  "kind": "simple",
+  "release": "AIXEM-SRP-0.5.9-2026-08-12",
+  "remediation": {
+    "acceptsDiagnostics": [
+      "AIXEM-DIAG-SEMANTIC-PORT-UNKNOWN",
+      "AIXEM-DIAG-SEMANTIC-NET-ENDPOINT-UNKNOWN",
+      "AIXEM-DIAG-SEMANTIC-NET-CLOSURE",
+      "AIXEM-DIAG-COMPONENT-TYPE-UNKNOWN",
+      "AIXEM-DIAG-LAYOUT-PLACEMENT-MISSING",
+      "AIXEM-DIAG-LAYOUT-PLACEMENT-OFF-GRID",
+      "AIXEM-DIAG-LAYOUT-GRID-PROFILE-MISMATCH"
+    ]
+  },
+  "schema": "https://schemas.aixem.org/documentation/task-packet/1",
+  "source": "docs/_meta/routes/create-schematic.yaml",
+  "sourceDigest": "sha256:f10be490237b5bab234838e7ab2cab0b29e805c38394f2f5b7cf5029597eb426",
+  "summary": "Create semantic entities and nets, place instances, and hand off valid endpoints to routing",
+  "validators": [
+    "schematic.semantic",
+    "schematic.component_type_closure",
+    "schematic.placement_closure",
+    "schematic.authoring_binding",
+    "schematic.grid",
+    "agent.diagnostics",
+    "agent.change_scope",
+    "schematic.authoring_integrity",
+    "schematic.placement_assist"
+  ],
+  "writes": {
+    "artifacts": [
+      "**/*.aixem",
+      "**/*.aixlayout.json",
+      "**/*.aixproj.json"
+    ],
+    "authority": [
+      "semantic",
+      "layout",
+      "project"
+    ],
+    "constraints": [
+      {
+        "pattern": "**/*.aixproj.json",
+        "policy": "digest-only"
+      }
+    ],
+    "derived": [
+      "render/**",
+      "evidence/**"
+    ],
+    "prohibited": [
+      "render/**",
+      "evidence/**",
+      "**/viewer.html",
+      "**/workbench.html",
+      "**/*.svg",
+      "**/resolved-scene.json",
+      "**/resolved-project-scene.json",
+      "**/viewer-model.json",
+      "**/render-manifest.json",
+      "**/project-validation.json"
+    ]
+  }
+}

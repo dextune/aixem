@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.0",
+  "route": {
+    "aliases": [
+      "change architecture",
+      "modify system design",
+      "architecture refactor",
+      "add service",
+      "change authority"
+    ],
+    "budget": {
+      "fallbackDocuments": 2,
+      "maxBytes": 98304,
+      "maxDepth": 3,
+      "maxDocuments": 7
+    },
+    "conditionalReads": [],
+    "id": "change-architecture",
+    "intents": [
+      "change-architecture"
+    ],
+    "metadata": {
+      "exactRoutePreferred": true,
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "kind": "simple",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "source": "docs/_meta/routes/change-architecture.yaml"
+    },
+    "outputs": [
+      "Owning boundaries are explicit",
+      "An ADR records durable decisions",
+      "Compatibility impact is stated",
+      "Affected requirements and tests are updated"
+    ],
+    "steps": [
+      {
+        "exitCheck": "Owning boundaries are explicit",
+        "id": "step-1",
+        "order": 1,
+        "produces": [],
+        "purpose": "Read Authority Model for this task stage.",
+        "read": [
+          "reference/cards/concepts/authority-model.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "An ADR records durable decisions",
+        "id": "step-2",
+        "order": 2,
+        "produces": [],
+        "purpose": "Read System Overview for this task stage.",
+        "read": [
+          "reference/cards/architecture/system-overview.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Compatibility impact is stated",
+        "id": "step-3",
+        "order": 3,
+        "produces": [],
+        "purpose": "Read Build and Authoring Pipeline for this task stage.",
+        "read": [
+          "reference/cards/architecture/pipeline.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Affected requirements and tests are updated",
+        "id": "step-4",
+        "order": 4,
+        "produces": [],
+        "purpose": "Read Authority and Precedence for this task stage.",
+        "read": [
+          "reference/cards/specifications/core/authority-precedence.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Affected requirements and tests are updated",
+        "id": "step-5",
+        "order": 5,
+        "produces": [],
+        "purpose": "Read Architecture Decision Records for this task stage.",
+        "read": [
+          "reference/cards/architecture/adr/overview.aixcard.json"
+        ],
+        "required": true
+      },
+      {
+        "exitCheck": "Affected requirements and tests are updated",
+        "id": "step-6",
+        "order": 6,
+        "produces": [],
+        "purpose": "Read Compatibility Policy for this task stage.",
+        "read": [
+          "reference/cards/governance/compatibility-policy.aixcard.json"
+        ],
+        "required": true
+      }
+    ],
+    "stopConditions": [
+      "Owning boundaries are explicit",
+      "An ADR records durable decisions",
+      "Compatibility impact is stated",
+      "Affected requirements and tests are updated"
+    ],
+    "title": "Change system architecture",
+    "validators": [
+      "manual.architecture",
+      "docs.metadata",
+      "docs.dependencies"
+    ]
+  },
+  "schema": "https://schemas.aixem.org/reference/aixroute/1"
+}

@@ -1,0 +1,314 @@
+{
+  "formatVersion": "1.0",
+  "referenceRoot": {
+    "description": "Generated route-first compatibility reference compiled from canonical English documentation.",
+    "domains": [
+      {
+        "description": "Generated canonical-document cards for the agent domain.",
+        "id": "agent",
+        "index": "reference/domains/agent/index.aixdomain.json",
+        "title": "Agent"
+      },
+      {
+        "description": "Generated canonical-document cards for the architecture domain.",
+        "id": "architecture",
+        "index": "reference/domains/architecture/index.aixdomain.json",
+        "title": "Architecture"
+      },
+      {
+        "description": "Generated canonical-document cards for the authoring domain.",
+        "id": "authoring",
+        "index": "reference/domains/authoring/index.aixdomain.json",
+        "title": "Authoring"
+      },
+      {
+        "description": "Generated canonical-document cards for the concepts domain.",
+        "id": "concepts",
+        "index": "reference/domains/concepts/index.aixdomain.json",
+        "title": "Concepts"
+      },
+      {
+        "description": "Generated canonical-document cards for the conformance domain.",
+        "id": "conformance",
+        "index": "reference/domains/conformance/index.aixdomain.json",
+        "title": "Conformance"
+      },
+      {
+        "description": "Generated canonical-document cards for the documentation domain.",
+        "id": "documentation",
+        "index": "reference/domains/documentation/index.aixdomain.json",
+        "title": "Documentation"
+      },
+      {
+        "description": "Generated canonical-document cards for the examples domain.",
+        "id": "examples",
+        "index": "reference/domains/examples/index.aixdomain.json",
+        "title": "Examples"
+      },
+      {
+        "description": "Generated canonical-document cards for the file-formats domain.",
+        "id": "file-formats",
+        "index": "reference/domains/file-formats/index.aixdomain.json",
+        "title": "File Formats"
+      },
+      {
+        "description": "Generated canonical-document cards for the getting-started domain.",
+        "id": "getting-started",
+        "index": "reference/domains/getting-started/index.aixdomain.json",
+        "title": "Getting Started"
+      },
+      {
+        "description": "Generated canonical-document cards for the governance domain.",
+        "id": "governance",
+        "index": "reference/domains/governance/index.aixdomain.json",
+        "title": "Governance"
+      },
+      {
+        "description": "Generated canonical-document cards for the releases domain.",
+        "id": "releases",
+        "index": "reference/domains/releases/index.aixdomain.json",
+        "title": "Releases"
+      },
+      {
+        "description": "Generated canonical-document cards for the routing domain.",
+        "id": "routing",
+        "index": "reference/domains/routing/index.aixdomain.json",
+        "title": "Routing"
+      },
+      {
+        "description": "Generated canonical-document cards for the schematic domain.",
+        "id": "schematic",
+        "index": "reference/domains/schematic/index.aixdomain.json",
+        "title": "Schematic"
+      },
+      {
+        "description": "Generated canonical-document cards for the specifications domain.",
+        "id": "specifications",
+        "index": "reference/domains/specifications/index.aixdomain.json",
+        "title": "Specifications"
+      },
+      {
+        "description": "Generated canonical-document cards for the symbols domain.",
+        "id": "symbols",
+        "index": "reference/domains/symbols/index.aixdomain.json",
+        "title": "Symbols"
+      }
+    ],
+    "entrypoints": [
+      {
+        "aliases": [
+          "create component circuit",
+          "new component and schematic",
+          "draw new component in circuit",
+          "end-to-end authoring"
+        ],
+        "intent": "author-component-circuit",
+        "priority": 900,
+        "route": "reference/routes/author-component-circuit.aixroute.json"
+      },
+      {
+        "aliases": [
+          "build documentation",
+          "compile docs",
+          "generate site",
+          "build reference index",
+          "documentation compiler"
+        ],
+        "intent": "build-documentation",
+        "priority": 900,
+        "route": "reference/routes/build-documentation.aixroute.json"
+      },
+      {
+        "aliases": [
+          "change architecture",
+          "modify system design",
+          "architecture refactor",
+          "add service",
+          "change authority"
+        ],
+        "intent": "change-architecture",
+        "priority": 900,
+        "route": "reference/routes/change-architecture.aixroute.json"
+      },
+      {
+        "aliases": [
+          "compose project",
+          "create multi-sheet project",
+          "connect sheets",
+          "define project nets",
+          "author hierarchy",
+          "connect sheets with project nets"
+        ],
+        "intent": "compose-project",
+        "priority": 900,
+        "route": "reference/routes/compose-project.aixroute.json"
+      },
+      {
+        "aliases": [
+          "create schematic",
+          "draw circuit",
+          "author schematic",
+          "new circuit",
+          "place components"
+        ],
+        "intent": "create-schematic",
+        "priority": 900,
+        "route": "reference/routes/create-schematic.aixroute.json"
+      },
+      {
+        "aliases": [
+          "create symbol",
+          "draw component symbol",
+          "author symbol",
+          "new symbol",
+          "symbol library"
+        ],
+        "intent": "create-symbol",
+        "priority": 900,
+        "route": "reference/routes/create-symbol.aixroute.json"
+      },
+      {
+        "aliases": [
+          "inspect artifact",
+          "find owner",
+          "which file owns",
+          "artifact map",
+          "file contract"
+        ],
+        "intent": "inspect-artifact",
+        "priority": 900,
+        "route": "reference/routes/inspect-artifact.aixroute.json"
+      },
+      {
+        "aliases": [
+          "inspect viewer",
+          "viewer behavior",
+          "review viewer model",
+          "debug viewer",
+          "viewer conformance"
+        ],
+        "intent": "inspect-viewer",
+        "priority": 900,
+        "route": "reference/routes/inspect-viewer.aixroute.json"
+      },
+      {
+        "aliases": [
+          "migrate 0.4",
+          "upgrade baseline",
+          "legacy migration",
+          "move old docs",
+          "0.4 compatibility"
+        ],
+        "intent": "migrate-baseline",
+        "priority": 900,
+        "route": "reference/routes/migrate-baseline.aixroute.json"
+      },
+      {
+        "aliases": [
+          "publish release",
+          "package zip",
+          "release build",
+          "ship version",
+          "final archive"
+        ],
+        "intent": "publish-release",
+        "priority": 900,
+        "route": "reference/routes/publish-release.aixroute.json"
+      },
+      {
+        "aliases": [
+          "render review",
+          "render schematic",
+          "inspect drawing",
+          "visual qa",
+          "review svg"
+        ],
+        "intent": "render-review",
+        "priority": 900,
+        "route": "reference/routes/render-review.aixroute.json"
+      },
+      {
+        "aliases": [
+          "route nets",
+          "connect wires",
+          "wire routing",
+          "orthogonal routing",
+          "auto route"
+        ],
+        "intent": "route-nets",
+        "priority": 900,
+        "route": "reference/routes/route-nets.aixroute.json"
+      },
+      {
+        "aliases": [
+          "route project nets",
+          "route between sheets",
+          "draw hierarchy wires",
+          "overview routing",
+          "composite routing"
+        ],
+        "intent": "route-project-nets",
+        "priority": 900,
+        "route": "reference/routes/route-project-nets.aixroute.json"
+      },
+      {
+        "aliases": [
+          "validate live agent authoring",
+          "run agent evaluation 3",
+          "cold-start agent conformance",
+          "maintain live executor harness"
+        ],
+        "intent": "validate-live-agent-authoring",
+        "priority": 900,
+        "route": "reference/routes/validate-live-agent-authoring.aixroute.json"
+      },
+      {
+        "aliases": [
+          "validate project",
+          "check schematic",
+          "run conformance",
+          "verify project",
+          "schematic lint"
+        ],
+        "intent": "validate-project",
+        "priority": 900,
+        "route": "reference/routes/validate-project.aixroute.json"
+      },
+      {
+        "aliases": [
+          "validate symbol expressiveness",
+          "check symbol corpus",
+          "find proven symbol pattern",
+          "validate static 2d block"
+        ],
+        "intent": "validate-symbol-expressiveness",
+        "priority": 900,
+        "route": "reference/routes/validate-symbol-expressiveness.aixroute.json"
+      }
+    ],
+    "id": "aixem.schematic-reference",
+    "indexes": {
+      "artifactMap": "reference/indexes/artifact-map.aixmap.json",
+      "capabilities": "reference/indexes/capabilities.aixcap.json",
+      "dependencyGraph": "reference/indexes/dependency-graph.json",
+      "invertedIndex": "reference/indexes/inverted-index.json",
+      "manifest": "reference/indexes/manifest.aixmanifest.json"
+    },
+    "metadata": {
+      "canonicalRoot": "docs/",
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "generator": "tools/docs/build_legacy_reference.py"
+    },
+    "policies": {
+      "defaultMaxBytes": 98304,
+      "defaultMaxDocuments": 7,
+      "exactRouteFirst": true,
+      "failClosedOnDigestMismatch": true,
+      "maxDepth": 3,
+      "remoteFetch": "deny"
+    },
+    "release": "AIXEM-SRP-0.5.9-2026-08-12",
+    "version": "0.5.9"
+  },
+  "schema": "https://schemas.aixem.org/reference/aixref-root/1"
+}

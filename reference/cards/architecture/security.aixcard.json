@@ -1,0 +1,64 @@
+{
+  "card": {
+    "aliases": [
+      "security",
+      "trust boundaries",
+      "safe paths"
+    ],
+    "appliesTo": [
+      "security-boundaries"
+    ],
+    "domain": "architecture",
+    "estimatedReadBytes": 5851,
+    "id": "AIXEM-ARCH-SECURITY-001",
+    "inputs": [],
+    "keywords": [
+      "Security and Trust Boundaries",
+      "change-architecture",
+      "publish-release",
+      "safe paths",
+      "security",
+      "trust boundaries",
+      "validate-project"
+    ],
+    "kind": "architecture",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/architecture/security.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:cd10c73a993fca9395cbb814c077a3096229a041363ab193923066c579f93a55"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 1000,
+    "readNext": [],
+    "rules": [
+      {
+        "id": "AIXEM-REQ-SEC-0001",
+        "level": "must",
+        "text": "**MUST.** Project-relative and documentation-relative paths MUST be resolved without escaping the declared repository or project root."
+      },
+      {
+        "id": "AIXEM-REQ-SEC-0002",
+        "level": "must",
+        "text": "**MUST.** Reference release validation MUST reject required remote scripts, styles, fonts, images, and symbol assets."
+      },
+      {
+        "id": "AIXEM-REQ-SEC-0003",
+        "level": "must",
+        "text": "**MUST.** Archive verification MUST reject absolute paths and parent-directory traversal entries."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-ARCH-SECURITY-001",
+        "path": "docs/architecture/security.md"
+      }
+    ],
+    "summary": "Defines local-path safety, remote-asset denial, digest verification, untrusted Markdown handling, and release archive checks.",
+    "title": "Security and Trust Boundaries"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}

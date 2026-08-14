@@ -1,0 +1,77 @@
+{
+  "$id": "https://schemas.aixem.org/reference/manifest/1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "formatVersion": {
+      "const": "1.0"
+    },
+    "manifest": {
+      "additionalProperties": false,
+      "properties": {
+        "entries": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "bytes": {
+                "minimum": 0,
+                "type": "integer"
+              },
+              "digest": {
+                "pattern": "^sha256:[0-9a-f]{64}$",
+                "type": "string"
+              },
+              "path": {
+                "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9][A-Za-z0-9._/-]*$",
+                "type": "string"
+              },
+              "role": {
+                "enum": [
+                  "root",
+                  "domain-index",
+                  "card",
+                  "route",
+                  "capability-index",
+                  "artifact-map",
+                  "generated-index",
+                  "schema",
+                  "document"
+                ]
+              }
+            },
+            "required": [
+              "path",
+              "digest",
+              "bytes",
+              "role"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "generatedAt": {
+          "type": "string"
+        },
+        "release": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "release",
+        "generatedAt",
+        "entries"
+      ],
+      "type": "object"
+    },
+    "schema": {
+      "const": "https://schemas.aixem.org/reference/manifest/1"
+    }
+  },
+  "required": [
+    "schema",
+    "formatVersion",
+    "manifest"
+  ],
+  "title": "AIXEM Reference Content Manifest 1.0",
+  "type": "object"
+}

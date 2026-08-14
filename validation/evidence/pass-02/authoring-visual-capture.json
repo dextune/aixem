@@ -1,0 +1,83 @@
+{
+  "captures": [
+    {
+      "bytes": 34534,
+      "digest": "sha256:419560c0835fe7c3e04f1b5396d026f5a7766dde85e5c23b41a2cc069bdd553c",
+      "example": "01-two-pin-passive",
+      "file": "validation/evidence/pass-02/authoring-visuals/01-two-pin-passive.png",
+      "height": 1000,
+      "source": "examples/authoring/01-two-pin-passive/render/drawing.svg",
+      "width": 1600
+    },
+    {
+      "bytes": 45389,
+      "digest": "sha256:92d3263e81866cdbe04dea10e93d51ea3185cf2983b08b37b07b76e40e1b4506",
+      "example": "02-connector",
+      "file": "validation/evidence/pass-02/authoring-visuals/02-connector.png",
+      "height": 1000,
+      "source": "examples/authoring/02-connector/render/drawing.svg",
+      "width": 1600
+    },
+    {
+      "bytes": 63522,
+      "digest": "sha256:90251db1d08f90c21474af59d65d6c6f128240a4c881dfd15762bca50b6c257d",
+      "example": "03-multi-pin-ic",
+      "file": "validation/evidence/pass-02/authoring-visuals/03-multi-pin-ic.png",
+      "height": 1000,
+      "source": "examples/authoring/03-multi-pin-ic/render/drawing.svg",
+      "width": 1600
+    },
+    {
+      "bytes": 39246,
+      "digest": "sha256:5eaefdb2a3cea7ab126296b4f8e0cb8851f70fa7a433d916769db71d9a9e472f",
+      "example": "04-parameterized-variant",
+      "file": "validation/evidence/pass-02/authoring-visuals/04-parameterized-variant.png",
+      "height": 1000,
+      "source": "examples/authoring/04-parameterized-variant/render/drawing.svg",
+      "width": 1600
+    },
+    {
+      "bytes": 40344,
+      "digest": "sha256:801aa037003567de10f01ac811174e10fb33dcfc2926b489d067498a216f21cc",
+      "example": "05-field-and-port-binding",
+      "file": "validation/evidence/pass-02/authoring-visuals/05-field-and-port-binding.png",
+      "height": 1000,
+      "source": "examples/authoring/05-field-and-port-binding/render/drawing.svg",
+      "width": 1600
+    },
+    {
+      "bytes": 37672,
+      "digest": "sha256:1ac5351bbf8c9125e76f0e5df5f3cc0c60bfeebef68fb9c23a2df1820929d4c3",
+      "example": "06-two-terminal-route",
+      "file": "validation/evidence/pass-02/authoring-visuals/06-two-terminal-route.png",
+      "height": 1000,
+      "source": "examples/authoring/06-two-terminal-route/render/drawing.svg",
+      "width": 1600
+    },
+    {
+      "bytes": 51590,
+      "digest": "sha256:1de3cff06d646682bb55c8f738c1671a84937168458f5556c8c25665d5785267",
+      "example": "07-multi-terminal-junction",
+      "file": "validation/evidence/pass-02/authoring-visuals/07-multi-terminal-junction.png",
+      "height": 1000,
+      "source": "examples/authoring/07-multi-terminal-junction/render/drawing.svg",
+      "width": 1600
+    },
+    {
+      "bytes": 30393,
+      "digest": "sha256:a9d7e36555e034b8f8bc595edb8a73122b2eac4dfdb1f8c103c6646ad1971d75",
+      "example": "08-visual-repair",
+      "file": "validation/evidence/pass-02/authoring-visuals/08-visual-repair.png",
+      "height": 1000,
+      "source": "examples/authoring/08-visual-repair/render/drawing.svg",
+      "width": 1600
+    }
+  ],
+  "engine": "playwright-chromium-inline-svg",
+  "formatVersion": "1.0",
+  "generatedAt": "2026-08-11T00:00:00Z",
+  "networkAccess": "not used",
+  "release": "AIXEM-SRP-0.5.1-2026-08-11",
+  "schema": "https://schemas.aixem.org/validation/authoring-visual-capture/1",
+  "valid": true
+}

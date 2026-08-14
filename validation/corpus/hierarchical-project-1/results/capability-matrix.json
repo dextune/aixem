@@ -1,0 +1,82 @@
+{
+  "capabilities": [
+    {
+      "evidence": [
+        "H001",
+        "H002",
+        "H006"
+      ],
+      "id": "interface-port-semantics",
+      "status": "pass"
+    },
+    {
+      "evidence": [
+        "H001",
+        "H003",
+        "H004",
+        "H015"
+      ],
+      "id": "explicit-project-nets",
+      "status": "pass"
+    },
+    {
+      "evidence": [
+        "H005",
+        "N011",
+        "N012"
+      ],
+      "id": "hierarchy",
+      "status": "pass"
+    },
+    {
+      "evidence": [
+        "H007",
+        "H014"
+      ],
+      "id": "overview",
+      "status": "pass"
+    },
+    {
+      "evidence": [
+        "H008",
+        "H013"
+      ],
+      "id": "composite",
+      "status": "pass"
+    },
+    {
+      "evidence": [
+        "H011",
+        "N013",
+        "N014",
+        "N015"
+      ],
+      "id": "digest-locking",
+      "status": "pass"
+    },
+    {
+      "evidence": [
+        "H012"
+      ],
+      "id": "legacy-v1-compatibility",
+      "status": "pass"
+    },
+    {
+      "evidence": [
+        "H001",
+        "H004",
+        "H013"
+      ],
+      "id": "reference-viewer-artifacts",
+      "status": "pass"
+    }
+  ],
+  "excludedClaims": [
+    "full KiCad hierarchy compatibility",
+    "full OrCAD multi-page compatibility",
+    "reusable hierarchical module instancing"
+  ],
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "publicClaim": "AIXEM supports deterministic composition of multiple digest-locked schematic source/layout pairs into an explicit hierarchical project, using semantic sheet interface ports and explicit project nets, with independent sheet rendering, project overview rendering, and composite project visualization.",
+  "release": "0.5.6"
+}

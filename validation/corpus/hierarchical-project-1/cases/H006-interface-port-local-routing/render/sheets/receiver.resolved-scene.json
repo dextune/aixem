@@ -1,0 +1,274 @@
+{
+  "coordinateSystem": {
+    "angleDirection": "clockwise",
+    "angleUnit": "deg",
+    "grid": 2.5,
+    "unit": "mm",
+    "yAxis": "down"
+  },
+  "diagnostics": [],
+  "entities": [
+    {
+      "componentType": "authoring:controller-12",
+      "key": "U1",
+      "kind": "component",
+      "parameters": {},
+      "placement": {
+        "entity": "U1",
+        "layer": "symbols",
+        "x": 80,
+        "y": 50
+      },
+      "ports": {
+        "1": [
+          60.0,
+          42.5
+        ],
+        "10": [
+          85.0,
+          30.0
+        ],
+        "11": [
+          75.0,
+          70.0
+        ],
+        "12": [
+          85.0,
+          70.0
+        ],
+        "2": [
+          60.0,
+          47.5
+        ],
+        "3": [
+          60.0,
+          52.5
+        ],
+        "4": [
+          60.0,
+          57.5
+        ],
+        "5": [
+          100.0,
+          42.5
+        ],
+        "6": [
+          100.0,
+          47.5
+        ],
+        "7": [
+          100.0,
+          52.5
+        ],
+        "8": [
+          100.0,
+          57.5
+        ],
+        "9": [
+          75.0,
+          30.0
+        ]
+      },
+      "reference": "U1",
+      "symbolDigest": "sha256:2fe409df19cfd0257cdc4802e8be6dd84d4d0b840938abb23c22c7c941a1f3ae",
+      "symbolId": "authoring:controller-12",
+      "value": "AXC12",
+      "variant": null
+    }
+  ],
+  "featuresUsed": [],
+  "generatedAt": "2026-08-10T00:00:00Z",
+  "gridValidation": {
+    "crossingPolicy": "junction-required",
+    "orthogonalSegments": 3,
+    "placementExceptions": [],
+    "placements": 1,
+    "placementsOnGrid": 1,
+    "profile": "aixem.schematic.grid-light",
+    "routeSegments": 3,
+    "routeViasOnGrid": true,
+    "snap": 2.5,
+    "zeroLengthSegments": []
+  },
+  "hashes": {
+    "layout": "sha256:36ddcfda1a1119ec6b7d7609f4fb6b847264f50e0bf69bb32ba09360c70e0308",
+    "libraries": [
+      "sha256:d6f65cd2d99d51e7a0eeb9ca230ea2207936a84e90bcbe65e7bc3561d393f9b6"
+    ],
+    "source": "sha256:809f6e2999b70071fc2d46dd21bd38ae0bf229194de58b569072b8b1cc46796c",
+    "symbolAssets": [
+      "sha256:2fe409df19cfd0257cdc4802e8be6dd84d4d0b840938abb23c22c7c941a1f3ae"
+    ]
+  },
+  "interfacePorts": [
+    {
+      "direction": "passive",
+      "id": "GND",
+      "label": "GND",
+      "layer": "connections",
+      "localNet": "gnd",
+      "position": [
+        75.0,
+        90.0
+      ],
+      "role": "power",
+      "side": "bottom"
+    },
+    {
+      "direction": "input",
+      "id": "IN",
+      "label": "IN",
+      "layer": "connections",
+      "localNet": "in",
+      "position": [
+        10.0,
+        42.5
+      ],
+      "role": "signal",
+      "side": "left"
+    },
+    {
+      "direction": "input",
+      "id": "VCC",
+      "label": "VCC",
+      "layer": "connections",
+      "localNet": "vcc",
+      "position": [
+        75.0,
+        10.0
+      ],
+      "role": "power",
+      "side": "top"
+    }
+  ],
+  "layers": [
+    {
+      "defaultVisible": true,
+      "id": "connections",
+      "locked": false,
+      "order": 10,
+      "printable": true,
+      "purpose": "semantic net routes and sheet ports"
+    },
+    {
+      "defaultVisible": true,
+      "id": "symbols",
+      "locked": false,
+      "order": 20,
+      "printable": true,
+      "purpose": "component symbols"
+    },
+    {
+      "defaultVisible": true,
+      "id": "annotation",
+      "locked": false,
+      "order": 30,
+      "printable": true,
+      "purpose": "notes"
+    }
+  ],
+  "nets": [
+    {
+      "endpoints": [
+        "U1.11",
+        "@GND"
+      ],
+      "junctions": [],
+      "name": "gnd",
+      "paths": [
+        [
+          [
+            75.0,
+            70.0
+          ],
+          [
+            75.0,
+            90.0
+          ]
+        ]
+      ]
+    },
+    {
+      "endpoints": [
+        "U1.1",
+        "@IN"
+      ],
+      "junctions": [],
+      "name": "in",
+      "paths": [
+        [
+          [
+            60.0,
+            42.5
+          ],
+          [
+            10.0,
+            42.5
+          ]
+        ]
+      ]
+    },
+    {
+      "endpoints": [
+        "U1.9",
+        "@VCC"
+      ],
+      "junctions": [],
+      "name": "vcc",
+      "paths": [
+        [
+          [
+            75.0,
+            30.0
+          ],
+          [
+            75.0,
+            10.0
+          ]
+        ]
+      ]
+    }
+  ],
+  "project": {
+    "id": "hierarchical:h006:receiver",
+    "profile": "aixem.schematic.multisheet@1",
+    "title": "Receiver"
+  },
+  "renderer": {
+    "id": "aixem-grid-schematic-reference-renderer",
+    "version": "0.5.1"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/resolved-scene/1",
+  "sheet": {
+    "height": 100,
+    "margin": 10,
+    "titleBlock": {
+      "drawing": "h006-interface-port-local-routing:receiver",
+      "revision": "A",
+      "sheet": "1/1",
+      "title": "Receiver"
+    },
+    "width": 160
+  },
+  "sheetIdentity": {
+    "id": "receiver",
+    "order": 20,
+    "owningProject": "hierarchical:h006",
+    "parent": null,
+    "title": "Receiver"
+  },
+  "statistics": {
+    "entities": 1,
+    "interfacePorts": 3,
+    "nets": 3,
+    "noConnects": 9,
+    "primitives": 16,
+    "routeSegments": 3,
+    "symbolAssets": 1
+  },
+  "styleProfile": {
+    "digest": "sha256:ee4bcad451b37f6e998768c378a3c5a82217619c9b35a9962d6c696cb46db393",
+    "id": "aixem.schematic.grid-light",
+    "path": "aixem-grid-schematic-style-1.aixstyle.json"
+  }
+}

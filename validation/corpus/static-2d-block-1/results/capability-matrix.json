@@ -1,0 +1,304 @@
+{
+  "capabilities": [
+    {
+      "capability": "geometry.arc",
+      "evidenceCases": [
+        "B003",
+        "S016"
+      ],
+      "result": "PASS"
+    },
+    {
+      "capability": "geometry.circle",
+      "evidenceCases": [
+        "B001",
+        "B002",
+        "B003",
+        "B005",
+        "S009",
+        "S010",
+        "S014",
+        "S015",
+        "S016",
+        "S017",
+        "S018",
+        "S025",
+        "S028"
+      ],
+      "result": "PASS"
+    },
+    {
+      "capability": "geometry.dimension",
+      "evidenceCases": [
+        "B005"
+      ],
+      "result": "PASS"
+    },
+    {
+      "capability": "geometry.line",
+      "evidenceCases": [
+        "B001",
+        "B002",
+        "B003",
+        "B004",
+        "S001",
+        "S002",
+        "S003",
+        "S004",
+        "S005",
+        "S006",
+        "S007",
+        "S008",
+        "S009",
+        "S010",
+        "S011",
+        "S012",
+        "S013",
+        "S014",
+        "S015",
+        "S016",
+        "S017",
+        "S018",
+        "S019",
+        "S020",
+        "S021",
+        "S022",
+        "S023",
+        "S024",
+        "S025",
+        "S026",
+        "S027",
+        "S028",
+        "S029",
+        "S030"
+      ],
+      "result": "PASS"
+    },
+    {
+      "capability": "geometry.path",
+      "evidenceCases": [
+        "B003",
+        "B006",
+        "S004",
+        "S005",
+        "S013",
+        "S017",
+        "S026",
+        "S028",
+        "S029"
+      ],
+      "result": "PASS"
+    },
+    {
+      "capability": "geometry.polygon",
+      "evidenceCases": [
+        "S006",
+        "S007",
+        "S008",
+        "S009",
+        "S010",
+        "S011",
+        "S012",
+        "S018",
+        "S025",
+        "S027"
+      ],
+      "result": "PASS"
+    },
+    {
+      "capability": "geometry.polyline",
+      "evidenceCases": [
+        "S002",
+        "S007",
+        "S008",
+        "S009",
+        "S010",
+        "S018",
+        "S025",
+        "S027",
+        "S029"
+      ],
+      "result": "PASS"
+    },
+    {
+      "capability": "geometry.rect",
+      "evidenceCases": [
+        "B001",
+        "B002",
+        "B004",
+        "B005",
+        "S001",
+        "S014",
+        "S019",
+        "S020",
+        "S021",
+        "S022",
+        "S023",
+        "S024",
+        "S026",
+        "S027",
+        "S030"
+      ],
+      "result": "PASS"
+    },
+    {
+      "capability": "paint.gradient",
+      "evidenceCases": [
+        "B006"
+      ],
+      "result": "PASS"
+    },
+    {
+      "capability": "parameter.numeric",
+      "evidenceCases": [
+        "S001",
+        "S013",
+        "S014"
+      ],
+      "result": "PASS"
+    },
+    {
+      "capability": "port.mapping",
+      "evidenceCases": [
+        "S001",
+        "S002",
+        "S003",
+        "S004",
+        "S005",
+        "S006",
+        "S007",
+        "S008",
+        "S009",
+        "S010",
+        "S011",
+        "S012",
+        "S013",
+        "S014",
+        "S015",
+        "S016",
+        "S017",
+        "S018",
+        "S019",
+        "S020",
+        "S021",
+        "S022",
+        "S023",
+        "S024",
+        "S025",
+        "S026",
+        "S027",
+        "S028",
+        "S029",
+        "S030"
+      ],
+      "result": "PASS"
+    },
+    {
+      "capability": "scale.high-port-count",
+      "evidenceCases": [
+        "S020",
+        "S021",
+        "S022",
+        "S023",
+        "S024",
+        "S030"
+      ],
+      "result": "PASS"
+    },
+    {
+      "capability": "structure.group",
+      "evidenceCases": [
+        "B002",
+        "S007"
+      ],
+      "result": "PASS"
+    },
+    {
+      "capability": "structure.use",
+      "evidenceCases": [
+        "B002",
+        "S005",
+        "S007",
+        "S013",
+        "S029"
+      ],
+      "result": "PASS"
+    },
+    {
+      "capability": "text.field",
+      "evidenceCases": [
+        "B004",
+        "S001",
+        "S002",
+        "S003",
+        "S004",
+        "S005",
+        "S006",
+        "S007",
+        "S008",
+        "S009",
+        "S010",
+        "S011",
+        "S012",
+        "S013",
+        "S014",
+        "S015",
+        "S016",
+        "S017",
+        "S018",
+        "S019",
+        "S020",
+        "S021",
+        "S022",
+        "S023",
+        "S024",
+        "S025",
+        "S026",
+        "S027",
+        "S028",
+        "S029",
+        "S030"
+      ],
+      "result": "PASS"
+    },
+    {
+      "capability": "variant.graphics",
+      "evidenceCases": [
+        "S008"
+      ],
+      "result": "PASS"
+    },
+    {
+      "capability": "visibility.predicate",
+      "evidenceCases": [
+        "S013",
+        "S014"
+      ],
+      "result": "PASS"
+    },
+    {
+      "capability": "semantic.multi-unit-independent-placement",
+      "evidenceCases": [
+        "S030"
+      ],
+      "result": "NOT_SUPPORTED"
+    },
+    {
+      "capability": "cad.dynamic-block-actions",
+      "evidenceCases": [],
+      "result": "NOT_IN_SCOPE"
+    },
+    {
+      "capability": "cad.native-dwg-round-trip",
+      "evidenceCases": [],
+      "result": "NOT_IN_SCOPE"
+    },
+    {
+      "capability": "cad.3d-brep",
+      "evidenceCases": [],
+      "result": "NOT_IN_SCOPE"
+    }
+  ],
+  "release": "AIXEM-SRP-0.5.2-2026-08-11",
+  "schema": "https://schemas.aixem.org/conformance/capability-matrix/1"
+}

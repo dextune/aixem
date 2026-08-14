@@ -1,0 +1,22 @@
+{
+  "layoutDigest": "sha256:472a1e9e036b618c5f9206bdb7210c270abda0be04cbecabe8043af0fcde684f",
+  "ports": [
+    {
+      "direction": "output",
+      "id": "OUT",
+      "localNet": "out",
+      "projectNet": "signal_a",
+      "role": "signal"
+    },
+    {
+      "direction": "output",
+      "id": "STATUS",
+      "localNet": "status",
+      "projectNet": "signal_b",
+      "role": "signal"
+    }
+  ],
+  "sheet": "left",
+  "sourceDigest": "sha256:802ae284c59d88dc5cbafbfa56d1eee5105b8b4cb4b538758a7b030d3fd75fbf",
+  "title": "Left"
+}

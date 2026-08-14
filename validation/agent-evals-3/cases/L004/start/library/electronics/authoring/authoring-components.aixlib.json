@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.0",
+  "library": {
+    "components": [
+      {
+        "classification": [],
+        "description": "Variant resistor",
+        "displayName": "Variant resistor",
+        "id": "authoring:resistor",
+        "kind": "passive",
+        "metadata": {
+          "partProvenance": {
+            "status": "generic-template"
+          },
+          "semanticReady": true
+        },
+        "ports": [
+          {
+            "id": "1",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "1",
+            "required": false,
+            "terminal": "1",
+            "type": "passive"
+          },
+          {
+            "id": "2",
+            "metadata": {
+              "pinSemantics": {
+                "capabilities": [],
+                "functionalTags": [],
+                "polarity": "unspecified",
+                "profile": "aixem-pin-semantics-1",
+                "signalClass": "unspecified"
+              }
+            },
+            "name": "2",
+            "required": false,
+            "terminal": "2",
+            "type": "passive"
+          }
+        ],
+        "presentations": [
+          {
+            "asset": {
+              "digest": "sha256:700cd3cb1b49f369edcfb670f5f90e07b9d3181b14b97d3cae22305bba3dfd5f",
+              "path": "library/electronics/authoring/resistor-variant.aixsym.json",
+              "revision": "1.0.0",
+              "symbolId": "authoring:resistor"
+            },
+            "defaultVariant": "ansi",
+            "fieldMap": {
+              "reference": "refdes",
+              "value": "value"
+            },
+            "portMap": {
+              "1": "1",
+              "2": "2"
+            },
+            "purpose": "primary-diagram"
+          }
+        ],
+        "properties": [
+          {
+            "id": "refdes",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "id": "value",
+            "required": false,
+            "type": "string"
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "description": "Parameterized Variant Authoring library",
+    "id": "authoring:parameterized_variant-library",
+    "metadata": {
+      "profile": "component.graphics@1"
+    },
+    "namespace": "authoring",
+    "provenance": {
+      "author": "AIXEM project",
+      "created": "2026-08-11",
+      "license": "CC0-1.0",
+      "notes": "Parameterized Variant Authoring library",
+      "origin": "AIXEM 0.5.1 authoring documentation"
+    },
+    "title": "Parameterized Variant Authoring library",
+    "version": "1.0.0"
+  },
+  "schema": "https://schemas.aixem.org/component-graphics/aixlib/1"
+}

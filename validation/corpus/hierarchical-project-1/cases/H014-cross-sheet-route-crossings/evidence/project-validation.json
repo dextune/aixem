@@ -1,0 +1,64 @@
+{
+  "checks": {
+    "allInputDigestsVerified": true,
+    "allLeafLayoutsV2Valid": true,
+    "allLeafSourcesValid": true,
+    "compositeOrthogonal": true,
+    "dataDrivenWorkbenchHierarchy": true,
+    "geometryDoesNotCreateConnectivity": true,
+    "hierarchyAcyclic": true,
+    "layersAreNotSheets": true,
+    "overviewOrthogonal": true,
+    "projectNetClosure": true,
+    "projectNetEquivalenceClosure": true,
+    "projectSchemaV2": true,
+    "sameNameIsolation": true,
+    "sheetQualifiedIdentity": true,
+    "viewerModelSchema": true,
+    "viewerOffline": true,
+    "viewerQualifiedIdentityClosure": true,
+    "viewerReadOnly": true,
+    "viewerWorkbenchDistinct": true
+  },
+  "diagnostics": [
+    {
+      "id": "PROJECT_PORT_ROLE_MIX",
+      "message": "Mixed interface roles are diagnostic-only in P0.",
+      "projectNet": "signal_a",
+      "roles": [
+        "clock",
+        "signal"
+      ],
+      "severity": "warning"
+    }
+  ],
+  "generatedAt": "2026-08-10T12:00:00Z",
+  "hashes": {
+    "manifest": "sha256:c54807785113313afdfc746b918faef7f8e06193993a52f4302704b21719b854",
+    "projectComposite": "sha256:10a319e62944d6a5d64b81da155a735f7025e131f83c0d82a73030aae1332759",
+    "projectOverview": "sha256:277868b128c08eaa48e3ce1a6acd7d3173558225385b9fa76c0ad861642f9e87",
+    "resolvedProjectScene": "sha256:e076904607ccea7e2532f2ccbb6e0292f9c24750d09282240c841efbeec4c78c",
+    "sheet:left:scene": "sha256:e1424d780763dec248c6de6708c52ec0070d3d1302a67eebde091958b7ad3d4c",
+    "sheet:left:svg": "sha256:4ddd6a0ac5e5529a8f6de37f0aef4e246b2ab05d00d593017d9aa9524eb39ece",
+    "sheet:right:scene": "sha256:01a2df22ad51bb94019888dce743e8898c16d9b2d42c616ebd6c441e51e5271b",
+    "sheet:right:svg": "sha256:f6e392da329cc67f85a5e61a89353de9caffb5148ad80381e26ac652e3981d8e",
+    "viewer": "sha256:941045a1114bc400a616265812cde0b69e8b10166b46050dc921e6a4a797044b",
+    "viewerModel": "sha256:9bcf166d1cffd7ab56066a038ad8ae3fc27e62096c4fe528bc4067126fac2c1f",
+    "workbench": "sha256:e9bdb5e14672860f56f85bf31af64dfde65cc57e125e0af49b7ec8380d6794e3"
+  },
+  "project": "hierarchical:h014",
+  "release": "AIXEM-SRP-0.5.5-2026-08-11",
+  "schema": "https://schemas.aixem.org/component-graphics/project-validation/1",
+  "statistics": {
+    "entities": 2,
+    "hierarchyDepth": 0,
+    "interfacePorts": 4,
+    "localNets": 4,
+    "localRouteSegments": 4,
+    "projectNets": 2,
+    "projectRouteSegments": 32,
+    "sheets": 2,
+    "unconnectedProjectPorts": 0
+  },
+  "valid": true
+}

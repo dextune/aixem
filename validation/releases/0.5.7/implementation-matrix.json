@@ -1,0 +1,136 @@
+{
+  "acceptanceCriteria": [
+    {
+      "criterion": "Approved root Markdown whitelist only",
+      "status": "PASS"
+    },
+    {
+      "criterion": "Eight version-scoped plans registered and discoverable",
+      "status": "PASS"
+    },
+    {
+      "criterion": "Human validation reports version/purpose scoped",
+      "status": "PASS"
+    },
+    {
+      "criterion": "Every repository Markdown file assigned exactly one role",
+      "status": "PASS"
+    },
+    {
+      "criterion": "Zero unknown-role Markdown and zero role-aware orphans",
+      "status": "PASS"
+    },
+    {
+      "criterion": "142 canonical documents preserve unique stable IDs and exact navigation coverage",
+      "status": "PASS"
+    },
+    {
+      "criterion": "Zero post-footer content and zero release patch markers",
+      "status": "PASS"
+    },
+    {
+      "criterion": "Controlled domain/kind vocabularies and deterministic token estimates",
+      "status": "PASS"
+    },
+    {
+      "criterion": "Four canonical path migrations preserve IDs and publish redirects",
+      "status": "PASS"
+    },
+    {
+      "criterion": "AGENTS.md contains document create/move/deprecate/delete rules and no historical release ledger",
+      "status": "PASS"
+    },
+    {
+      "criterion": "Repository-wide document audit fails closed for stray Markdown",
+      "status": "PASS"
+    },
+    {
+      "criterion": "Five complete clean verification cycles pass",
+      "status": "PASS"
+    },
+    {
+      "criterion": "Protected circuit, renderer, hierarchy, and Viewer behavior remains unchanged",
+      "status": "PASS"
+    }
+  ],
+  "completedVerificationPasses": 5,
+  "conditionalDeferrals": [
+    {
+      "item": "Physical renaming of agent-evals generation directories",
+      "reason": "The plan permits this only when migration cost is acceptable; the paths are machine-bound historical evidence with no authority or discoverability defect.",
+      "status": "DEFERRED_BY_PLAN_CONDITION"
+    }
+  ],
+  "engineeringImplementationComplete": true,
+  "formatVersion": "1.0",
+  "fullPlanDefinitionOfDone": true,
+  "generatedAt": "2026-08-12T00:00:00Z",
+  "inheritedTruthBoundary": {
+    "externalTierBExecuted": false,
+    "liveClaimAuthorized": false,
+    "note": "This inherited 0.5.6 capability-claim boundary is independent of the completed 0.5.7 documentation-governance plan."
+  },
+  "phases": [
+    {
+      "id": "Phase 0",
+      "objective": "Freeze and inventory the exact 0.5.6 documentation baseline",
+      "status": "PASS"
+    },
+    {
+      "id": "Phase 1",
+      "objective": "Publish the normative governance contract, authoring guide, policy, schemas, and migration registry",
+      "status": "PASS"
+    },
+    {
+      "id": "Phase 2",
+      "objective": "Implement the repository-wide role, naming, lifecycle, orphan, and deterministic inventory auditor",
+      "status": "PASS"
+    },
+    {
+      "id": "Phase 3",
+      "objective": "Clean the root and move plans into version-scoped planning history; retain START_HERE only for the proven cold-start compiler dependency",
+      "status": "PASS"
+    },
+    {
+      "id": "Phase 4",
+      "objective": "Normalize human-readable validation reports by release while preserving machine evidence paths",
+      "status": "PASS"
+    },
+    {
+      "id": "Phase 5",
+      "objective": "Integrate canonical patch blocks and make the canonical footer terminal",
+      "status": "PASS"
+    },
+    {
+      "id": "Phase 6",
+      "objective": "Normalize approved ambiguous canonical filenames with stable IDs and redirect-backed path migrations",
+      "status": "PASS"
+    },
+    {
+      "id": "Phase 7",
+      "objective": "Constrain metadata vocabulary and derive/check token estimates",
+      "status": "PASS"
+    },
+    {
+      "id": "Phase 8",
+      "objective": "Rewrite AGENTS.md as a bounded, version-stable operational contract with document-governance rules",
+      "status": "PASS"
+    },
+    {
+      "id": "Phase 9",
+      "objective": "Regenerate all documentation, route, reference, site, traceability, inventory, and migration products",
+      "status": "PASS"
+    },
+    {
+      "id": "Phase 10",
+      "objective": "Complete five independent clean verification cycles and release-package closure",
+      "status": "PASS"
+    }
+  ],
+  "plan": "planning/releases/0.5.7/document-information-architecture-governance.md",
+  "release": "AIXEM-SRP-0.5.7-2026-08-12",
+  "requiredVerificationPasses": 5,
+  "schema": "https://schemas.aixem.org/validation/plan-implementation-matrix/1",
+  "status": "COMPLETE",
+  "valid": true
+}

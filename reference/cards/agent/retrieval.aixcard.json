@@ -1,0 +1,56 @@
+{
+  "card": {
+    "aliases": [
+      "bounded retrieval",
+      "agent search",
+      "document lookup"
+    ],
+    "appliesTo": [
+      "agent-retrieval-workflow"
+    ],
+    "domain": "agent",
+    "estimatedReadBytes": 3487,
+    "id": "AIXEM-AGENT-RETRIEVAL-001",
+    "inputs": [],
+    "keywords": [
+      "Bounded Retrieval",
+      "agent search",
+      "bounded retrieval",
+      "build-documentation",
+      "change-architecture",
+      "document lookup",
+      "inspect-artifact"
+    ],
+    "kind": "guide",
+    "metadata": {
+      "generatedAt": "2026-08-12T00:00:00Z",
+      "path": "reference/cards/agent/retrieval.aixcard.json",
+      "release": "AIXEM-SRP-0.5.9-2026-08-12",
+      "sourceDigest": "sha256:35f1959817ad7ecb7f8c985b3f061db97950acd212f355cc90c2ad1c19f1228e"
+    },
+    "outputs": [],
+    "ownerArtifacts": [],
+    "priority": 900,
+    "readNext": [
+      "AIXEM-SPEC-AGENT-RETRIEVAL-001"
+    ],
+    "rules": [
+      {
+        "id": "AIXEM-AGENT-RETRIEVAL-001.read",
+        "level": "should",
+        "text": "Defines intent normalization, exact route resolution, section-level loading, dependency expansion, fallback search, and context accounting."
+      }
+    ],
+    "sourceRefs": [
+      {
+        "authority": "canonical",
+        "documentId": "AIXEM-AGENT-RETRIEVAL-001",
+        "path": "docs/agent/retrieval.md"
+      }
+    ],
+    "summary": "Defines intent normalization, exact route resolution, section-level loading, dependency expansion, fallback search, and context accounting.",
+    "title": "Bounded Retrieval"
+  },
+  "formatVersion": "1.0",
+  "schema": "https://schemas.aixem.org/reference/aixcard/1"
+}
