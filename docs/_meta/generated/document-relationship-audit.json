@@ -85,12 +85,21 @@
   },
   "rootLinkIntegrity": {
     "errors": [],
-    "linksChecked": 135,
+    "linksChecked": 137,
     "rootDocuments": 9,
     "valid": true
   },
   "rootReachability": {
     "deepestDocuments": [
+      "planning/library-parts/backlog/analog/001.md",
+      "planning/library-parts/backlog/connectors/001.md",
+      "planning/library-parts/backlog/diodes/001.md",
+      "planning/library-parts/backlog/electromechanical/001.md",
+      "planning/library-parts/backlog/fpga/001.md",
+      "planning/library-parts/backlog/logic/001.md",
+      "planning/library-parts/backlog/microcontrollers/001.md",
+      "planning/library-parts/backlog/passive/001.md",
+      "planning/library-parts/backlog/transistors/001.md",
       "validation/agent-evals-2/results/summary.md",
       "validation/agent-evals-3/cases/L001/TASK.md",
       "validation/agent-evals-3/cases/L002/TASK.md",
@@ -145,10 +154,10 @@
       "validation/releases/0.5.8/implementation-matrix.md"
     ],
     "errors": [],
-    "humanAuthored": 269,
+    "humanAuthored": 280,
     "maxDepth": 4,
     "primaryEntrypoint": "README.md",
-    "reachable": 269,
+    "reachable": 280,
     "unreachable": [],
     "valid": true
   },

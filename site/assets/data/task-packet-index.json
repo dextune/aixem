@@ -33,7 +33,7 @@
       "path": "docs/_meta/generated/task-packets/create-schematic.json"
     },
     {
-      "digest": "sha256:83eeed3b1727037db1f48f63a9bb0a6d39ae1b51667ed0ad72c988b07bd3f762",
+      "digest": "sha256:43555f3e8271cb66948f7b5f887544dab9c12f809aff877e5c57fe82728d2d13",
       "id": "create-symbol",
       "kind": "simple",
       "path": "docs/_meta/generated/task-packets/create-symbol.json"
@@ -87,7 +87,7 @@
       "path": "docs/_meta/generated/task-packets/validate-live-agent-authoring.json"
     },
     {
-      "digest": "sha256:cab524ed3ceded1cd9a6c352d07b2f278c249dfe02171855553f48f1f263e717",
+      "digest": "sha256:cf5b11df18b05d46d766105a0994d703f99e74080fbda09a6785f42b1bb52677",
       "id": "validate-project",
       "kind": "simple",
       "path": "docs/_meta/generated/task-packets/validate-project.json"

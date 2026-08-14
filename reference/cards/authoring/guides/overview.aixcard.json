@@ -9,7 +9,7 @@
       "authoring-guide-navigation"
     ],
     "domain": "authoring",
-    "estimatedReadBytes": 3257,
+    "estimatedReadBytes": 3290,
     "id": "AIXEM-AUTHORING-GUIDES-INDEX-001",
     "inputs": [],
     "keywords": [
@@ -30,7 +30,7 @@
       "generatedAt": "2026-08-12T00:00:00Z",
       "path": "reference/cards/authoring/guides/overview.aixcard.json",
       "release": "AIXEM-SRP-0.5.9-2026-08-12",
-      "sourceDigest": "sha256:45ef567f846eeba5cf1c8d900e0cd260f4c27563f13b984a34ae60573a532643"
+      "sourceDigest": "sha256:723a7f31099f3f8ca389cab8cc551c7a385db4909ae1cc9dc108e4a964768843"
     },
     "outputs": [],
     "ownerArtifacts": [],

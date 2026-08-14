@@ -1,9 +1,9 @@
 {
   "documents": [
     {
-      "bytes": 8111,
+      "bytes": 9203,
       "canonicalDocumentId": null,
-      "digest": "sha256:5e3729835e6ec4b6d4d6f2cc4f836f6645fe264dc25d2f4927b573b300a2394d",
+      "digest": "sha256:a8dadad74bd412c38b09357b3552e4e4e853de00fc5f8301987217eaf77142c1",
       "discoverabilityOwner": "repository-root-whitelist",
       "discoverable": true,
       "humanAuthored": true,
@@ -42,9 +42,9 @@
       "status": "active"
     },
     {
-      "bytes": 10671,
+      "bytes": 10871,
       "canonicalDocumentId": null,
-      "digest": "sha256:46f65b371121a8a7aeb55eb402b560e39e64d20c1447d379af9b34c360a8c693",
+      "digest": "sha256:5a2f303694f304996ec8e0decf3c0ddf151c2903fda2a272b4cfb99e7e78b130",
       "discoverabilityOwner": "repository-root-whitelist",
       "discoverable": true,
       "humanAuthored": true,
@@ -133,12 +133,14 @@
         "tests/agent/test_agent_evals_3.py",
         "tests/docs/test_authoring_hardening.py",
         "tests/docs/test_document_governance.py",
+        "tests/docs/test_library_backlog.py",
         "tools/build_agent_evals_3.py",
         "tools/build_hierarchical_corpus.py",
         "tools/docs/aixem_docs.py",
         "tools/docs/build_authoring_examples.py",
         "tools/docs/build_migration.py",
         "tools/docs/release_052.py",
+        "tools/library_backlog.py",
         "tools/verify_release_053.py",
         "tools/verify_release_054.py",
         "tools/verify_release_055.py",
@@ -154,9 +156,9 @@
       "status": "active"
     },
     {
-      "bytes": 12067,
+      "bytes": 12293,
       "canonicalDocumentId": null,
-      "digest": "sha256:326a8c7027d653052b5f099544632007149b1c1f190be00ab85cc5d0771fbb1d",
+      "digest": "sha256:0697c1623ef41e6d8e452ad262d8dced3aea70693b097e921c6695bcb55769a5",
       "discoverabilityOwner": "repository-root-whitelist",
       "discoverable": true,
       "humanAuthored": true,
@@ -776,9 +778,9 @@
       "status": "active"
     },
     {
-      "bytes": 7433,
+      "bytes": 8525,
       "canonicalDocumentId": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
-      "digest": "sha256:6250190c62752db3923873b346772813f70835dcff760811180b07b6c3e7af84",
+      "digest": "sha256:ea7c7f7614f91dc13372342917ec7c6abc4f026b0be776b6fb49cde4aadbea2d",
       "discoverabilityOwner": "docs/_meta/navigation.yaml",
       "discoverable": true,
       "humanAuthored": true,
@@ -788,7 +790,8 @@
         "docs/authoring/guides/index.md",
         "docs/authoring/guides/select-library-part.md",
         "docs/specifications/components/library-layout-contract.md",
-        "library/README.md"
+        "library/README.md",
+        "planning/library-parts/README.md"
       ],
       "lifecycle": "current",
       "machineRefs": [],
@@ -820,9 +823,9 @@
       "status": "active"
     },
     {
-      "bytes": 3257,
+      "bytes": 3290,
       "canonicalDocumentId": "AIXEM-AUTHORING-GUIDES-INDEX-001",
-      "digest": "sha256:45ef567f846eeba5cf1c8d900e0cd260f4c27563f13b984a34ae60573a532643",
+      "digest": "sha256:723a7f31099f3f8ca389cab8cc551c7a385db4909ae1cc9dc108e4a964768843",
       "discoverabilityOwner": "docs/_meta/navigation.yaml",
       "discoverable": true,
       "humanAuthored": true,
@@ -2189,9 +2192,9 @@
       "status": "active"
     },
     {
-      "bytes": 5793,
+      "bytes": 6661,
       "canonicalDocumentId": "AIXEM-RELEASE-059-001",
-      "digest": "sha256:d0557b5b897e93b780e0c186c875be8405aae0f1488f743a14cb3a98fdd931a2",
+      "digest": "sha256:af450c6884c16fd1b9622b29463c1cbd19b7b7aa0095cea44032890ce4ef3cef",
       "discoverabilityOwner": "docs/_meta/navigation.yaml",
       "discoverable": true,
       "humanAuthored": true,
@@ -2802,9 +2805,9 @@
       "status": "active"
     },
     {
-      "bytes": 13986,
+      "bytes": 15423,
       "canonicalDocumentId": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
-      "digest": "sha256:3b69de52984770c79e996584ce3936cbb344f03417a80e037d60c087127e60ad",
+      "digest": "sha256:3447084e205358fc54be1a63f57fbfd502ee5c6bf7ba8e0a58d5e0a66d99012a",
       "discoverabilityOwner": "docs/_meta/navigation.yaml",
       "discoverable": true,
       "humanAuthored": true,
@@ -2816,7 +2819,8 @@
         "docs/file-formats/aixlib.md",
         "docs/specifications/components/pin-electrical-semantics-profile.md",
         "docs/specifications/index.md",
-        "library/README.md"
+        "library/README.md",
+        "planning/library-parts/README.md"
       ],
       "lifecycle": "current",
       "machineRefs": [],
@@ -2938,9 +2942,9 @@
       "status": "active"
     },
     {
-      "bytes": 24972,
+      "bytes": 25379,
       "canonicalDocumentId": "AIXEM-SPEC-DOC-GOVERNANCE-001",
-      "digest": "sha256:793b036854ad8bdaf64523b88fba7d4729b40dfe2deb65ea9ea6b9041112e581",
+      "digest": "sha256:72ff9657aaa06119ecac3ee25264ebbbd881615ac14f49c2f4cc5dfffbb6399b",
       "discoverabilityOwner": "docs/_meta/navigation.yaml",
       "discoverable": true,
       "humanAuthored": true,
@@ -3854,9 +3858,9 @@
       "status": "active"
     },
     {
-      "bytes": 2158,
+      "bytes": 2706,
       "canonicalDocumentId": null,
-      "digest": "sha256:9af3b63ce023d8c4a0f06cf2f6984350a5694a8f3f6664c424d86766e1c4d526",
+      "digest": "sha256:88b4eb9ba6b557b5a06b12f66560adf86103fde24294f9031016624a2b52e8c9",
       "discoverabilityOwner": "planning/index.yaml",
       "discoverable": true,
       "humanAuthored": true,
@@ -3871,6 +3875,213 @@
       "release": null,
       "role": "planning-entrypoint",
       "sourceOwner": "planning/index.yaml",
+      "status": "active"
+    },
+    {
+      "bytes": 6794,
+      "canonicalDocumentId": null,
+      "digest": "sha256:da603e148925dc6b14aa97ad4bc0a874fc6250b4ce1520d8d1f6fbcedf7601f0",
+      "discoverabilityOwner": "planning/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "AGENTS.md",
+        "REFERENCE.md",
+        "planning/README.md",
+        "planning/library-parts/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "docs/_meta/repository-document-policy.yaml",
+        "tools/library_backlog.py"
+      ],
+      "path": "planning/library-parts/README.md",
+      "release": null,
+      "role": "library-authoring-workspace-entrypoint",
+      "sourceOwner": "planning/README.md",
+      "status": "active"
+    },
+    {
+      "bytes": 94,
+      "canonicalDocumentId": null,
+      "digest": "sha256:8dd9a606a38101198599fe662595f5d386e1f9507c299dd936c0b9e0c651a1fa",
+      "discoverabilityOwner": "planning/library-parts/index.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "planning/library-parts/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "planning/library-parts/backlog/analog/001.md",
+      "release": null,
+      "role": "library-authoring-backlog-shard",
+      "sourceOwner": "planning/library-parts/index.md",
+      "status": "active"
+    },
+    {
+      "bytes": 98,
+      "canonicalDocumentId": null,
+      "digest": "sha256:703811a624aa6b32c896e61b57c4e6733c284bfad302300f6ba99832e530ff48",
+      "discoverabilityOwner": "planning/library-parts/index.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "planning/library-parts/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "planning/library-parts/backlog/connectors/001.md",
+      "release": null,
+      "role": "library-authoring-backlog-shard",
+      "sourceOwner": "planning/library-parts/index.md",
+      "status": "active"
+    },
+    {
+      "bytes": 94,
+      "canonicalDocumentId": null,
+      "digest": "sha256:e315e7ac0fb636d65e3d9ca5ac7be9756eed55f5666b44e6b6858fef3947e5ce",
+      "discoverabilityOwner": "planning/library-parts/index.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "planning/library-parts/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "planning/library-parts/backlog/diodes/001.md",
+      "release": null,
+      "role": "library-authoring-backlog-shard",
+      "sourceOwner": "planning/library-parts/index.md",
+      "status": "active"
+    },
+    {
+      "bytes": 105,
+      "canonicalDocumentId": null,
+      "digest": "sha256:1dc39b228dead55c12a8dfc57f91db6857722293c6b9a55436c8b719ee98f492",
+      "discoverabilityOwner": "planning/library-parts/index.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "planning/library-parts/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "planning/library-parts/backlog/electromechanical/001.md",
+      "release": null,
+      "role": "library-authoring-backlog-shard",
+      "sourceOwner": "planning/library-parts/index.md",
+      "status": "active"
+    },
+    {
+      "bytes": 92,
+      "canonicalDocumentId": null,
+      "digest": "sha256:135604b5b013e6aacadb5009284211e2512c7eab8ee2e9196c9c53319499aeda",
+      "discoverabilityOwner": "planning/library-parts/index.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "planning/library-parts/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "planning/library-parts/backlog/fpga/001.md",
+      "release": null,
+      "role": "library-authoring-backlog-shard",
+      "sourceOwner": "planning/library-parts/index.md",
+      "status": "active"
+    },
+    {
+      "bytes": 93,
+      "canonicalDocumentId": null,
+      "digest": "sha256:bfb32e3586804af1a11eeab1fa9c7cc14fd60f75ab266a8e2859249ba28a3b58",
+      "discoverabilityOwner": "planning/library-parts/index.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "planning/library-parts/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "planning/library-parts/backlog/logic/001.md",
+      "release": null,
+      "role": "library-authoring-backlog-shard",
+      "sourceOwner": "planning/library-parts/index.md",
+      "status": "active"
+    },
+    {
+      "bytes": 104,
+      "canonicalDocumentId": null,
+      "digest": "sha256:350087d3e2f24cc040d98130b58c679334c66bf151923716f0d2329d16c15123",
+      "discoverabilityOwner": "planning/library-parts/index.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "planning/library-parts/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "planning/library-parts/backlog/microcontrollers/001.md",
+      "release": null,
+      "role": "library-authoring-backlog-shard",
+      "sourceOwner": "planning/library-parts/index.md",
+      "status": "active"
+    },
+    {
+      "bytes": 95,
+      "canonicalDocumentId": null,
+      "digest": "sha256:cb379936823ae21010a76b054dc47f1a027b69e9990ccedc41f4036a2e648d39",
+      "discoverabilityOwner": "planning/library-parts/index.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "planning/library-parts/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "planning/library-parts/backlog/passive/001.md",
+      "release": null,
+      "role": "library-authoring-backlog-shard",
+      "sourceOwner": "planning/library-parts/index.md",
+      "status": "active"
+    },
+    {
+      "bytes": 99,
+      "canonicalDocumentId": null,
+      "digest": "sha256:38129d4a815f057397c43289c450e0afca34ad4e876531d59231b9bc0e22609a",
+      "discoverabilityOwner": "planning/library-parts/index.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "planning/library-parts/index.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [],
+      "path": "planning/library-parts/backlog/transistors/001.md",
+      "release": null,
+      "role": "library-authoring-backlog-shard",
+      "sourceOwner": "planning/library-parts/index.md",
+      "status": "active"
+    },
+    {
+      "bytes": 1313,
+      "canonicalDocumentId": null,
+      "digest": "sha256:6ec8e1568744873a2ccc9b93432b6a45bf243f2d363fdf1456903e3a64744e30",
+      "discoverabilityOwner": "planning/library-parts/README.md",
+      "discoverable": true,
+      "humanAuthored": true,
+      "inboundDocumentRefs": [
+        "planning/library-parts/README.md"
+      ],
+      "lifecycle": "current",
+      "machineRefs": [
+        "docs/_meta/repository-document-policy.yaml",
+        "tools/library_backlog.py"
+      ],
+      "path": "planning/library-parts/index.md",
+      "release": null,
+      "role": "library-authoring-backlog-index",
+      "sourceOwner": "planning/library-parts/README.md",
       "status": "active"
     },
     {
@@ -5949,6 +6160,9 @@
       "example-local-instruction": 10,
       "implementation-plan": 11,
       "legacy-explanation": 1,
+      "library-authoring-backlog-index": 1,
+      "library-authoring-backlog-shard": 9,
+      "library-authoring-workspace-entrypoint": 1,
       "library-entrypoint": 1,
       "planning-entrypoint": 1,
       "root-entrypoint": 9,
@@ -5958,9 +6172,9 @@
       "verification-run-report": 23,
       "verification-run-summary": 1
     },
-    "discoverable": 293,
-    "humanAuthored": 269,
-    "markdownFiles": 293,
+    "discoverable": 304,
+    "humanAuthored": 280,
+    "markdownFiles": 304,
     "orphans": 0,
     "unknownRoles": 0
   }

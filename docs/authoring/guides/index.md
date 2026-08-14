@@ -15,7 +15,7 @@ aliases:
 - agent authoring guides
 agent:
   priority: critical
-  estimated_tokens: 605
+  estimated_tokens: 613
   intents:
   - create-symbol
   - create-schematic
@@ -46,7 +46,7 @@ Select the guide that matches the immediate job. Each guide is an informative ex
 
 | Task | Start here | Primary route |
 |---|---|---|
-| create or repair a reusable component and symbol | [Create a Library Part](create-library-part.md) | `create-symbol` |
+| create or repair a reusable component and symbol, including a queued backlog item | [Create a Library Part](create-library-part.md) | `create-symbol` |
 | select an existing reusable component | [Select a Library Part](select-library-part.md) | `create-schematic` |
 | create semantic entities, nets, and initial layout | [Create a Schematic](create-schematic.md) | `create-schematic` |
 | decide component positions from explicit circuit evidence | [Place Components](place-components.md) | `create-schematic` |

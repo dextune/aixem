@@ -79,6 +79,52 @@ roles:
   - planning/README.md
   allowedFilenames:
   - README.md
+- id: library-authoring-workspace-entrypoint
+  lifecycle: current
+  status: active
+  humanAuthored: true
+  discoverabilityOwner: planning/README.md
+  include:
+  - planning/library-parts/README.md
+  allowedFilenames:
+  - README.md
+- id: library-authoring-backlog-index
+  lifecycle: current
+  status: active
+  humanAuthored: true
+  discoverabilityOwner: planning/library-parts/README.md
+  include:
+  - planning/library-parts/index.md
+  allowedFilenames:
+  - index.md
+- id: library-authoring-backlog-shard
+  lifecycle: current
+  status: active
+  humanAuthored: true
+  discoverabilityOwner: planning/library-parts/index.md
+  include:
+  - planning/library-parts/backlog/*/*.md
+- id: library-authoring-generation-log
+  lifecycle: historical
+  status: retained
+  humanAuthored: true
+  discoverabilityOwner: planning/library-parts/index.md
+  include:
+  - planning/library-parts/logs/*/*.md
+- id: library-authoring-review-log
+  lifecycle: historical
+  status: retained
+  humanAuthored: true
+  discoverabilityOwner: planning/library-parts/index.md
+  include:
+  - planning/library-parts/reviews/*/*.md
+- id: library-authoring-progress-report
+  lifecycle: generated
+  status: generated
+  humanAuthored: false
+  discoverabilityOwner: tools/library_backlog.py
+  include:
+  - planning/library-parts/reports/*.md
 - id: implementation-plan
   lifecycle: historical
   status: immutable

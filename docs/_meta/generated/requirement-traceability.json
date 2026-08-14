@@ -2646,7 +2646,7 @@
       "source": {
         "anchor": "AIXEM-REQ-DOC-GOV-0001",
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
-        "line": 145,
+        "line": 147,
         "path": "docs/specifications/documentation/document-governance-contract.md",
         "sitePath": "specifications/documentation/document-governance-contract.html#AIXEM-REQ-DOC-GOV-0001"
       },
@@ -2671,7 +2671,7 @@
       "source": {
         "anchor": "AIXEM-REQ-DOC-GOV-0002",
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
-        "line": 156,
+        "line": 158,
         "path": "docs/specifications/documentation/document-governance-contract.md",
         "sitePath": "specifications/documentation/document-governance-contract.html#AIXEM-REQ-DOC-GOV-0002"
       },
@@ -2696,7 +2696,7 @@
       "source": {
         "anchor": "AIXEM-REQ-DOC-GOV-0003",
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
-        "line": 167,
+        "line": 169,
         "path": "docs/specifications/documentation/document-governance-contract.md",
         "sitePath": "specifications/documentation/document-governance-contract.html#AIXEM-REQ-DOC-GOV-0003"
       },
@@ -2721,7 +2721,7 @@
       "source": {
         "anchor": "AIXEM-REQ-DOC-GOV-0004",
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
-        "line": 178,
+        "line": 180,
         "path": "docs/specifications/documentation/document-governance-contract.md",
         "sitePath": "specifications/documentation/document-governance-contract.html#AIXEM-REQ-DOC-GOV-0004"
       },
@@ -2746,7 +2746,7 @@
       "source": {
         "anchor": "AIXEM-REQ-DOC-GOV-0005",
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
-        "line": 189,
+        "line": 191,
         "path": "docs/specifications/documentation/document-governance-contract.md",
         "sitePath": "specifications/documentation/document-governance-contract.html#AIXEM-REQ-DOC-GOV-0005"
       },
@@ -2771,7 +2771,7 @@
       "source": {
         "anchor": "AIXEM-REQ-DOC-GOV-0006",
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
-        "line": 200,
+        "line": 202,
         "path": "docs/specifications/documentation/document-governance-contract.md",
         "sitePath": "specifications/documentation/document-governance-contract.html#AIXEM-REQ-DOC-GOV-0006"
       },
@@ -2796,7 +2796,7 @@
       "source": {
         "anchor": "AIXEM-REQ-DOC-GOV-0007",
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
-        "line": 211,
+        "line": 213,
         "path": "docs/specifications/documentation/document-governance-contract.md",
         "sitePath": "specifications/documentation/document-governance-contract.html#AIXEM-REQ-DOC-GOV-0007"
       },
@@ -2821,7 +2821,7 @@
       "source": {
         "anchor": "AIXEM-REQ-DOC-GOV-0008",
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
-        "line": 222,
+        "line": 224,
         "path": "docs/specifications/documentation/document-governance-contract.md",
         "sitePath": "specifications/documentation/document-governance-contract.html#AIXEM-REQ-DOC-GOV-0008"
       },
@@ -2846,7 +2846,7 @@
       "source": {
         "anchor": "AIXEM-REQ-DOC-GOV-0009",
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
-        "line": 233,
+        "line": 235,
         "path": "docs/specifications/documentation/document-governance-contract.md",
         "sitePath": "specifications/documentation/document-governance-contract.html#AIXEM-REQ-DOC-GOV-0009"
       },
@@ -2871,7 +2871,7 @@
       "source": {
         "anchor": "AIXEM-REQ-DOC-GOV-0010",
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
-        "line": 244,
+        "line": 246,
         "path": "docs/specifications/documentation/document-governance-contract.md",
         "sitePath": "specifications/documentation/document-governance-contract.html#AIXEM-REQ-DOC-GOV-0010"
       },
@@ -2896,7 +2896,7 @@
       "source": {
         "anchor": "AIXEM-REQ-DOC-GOV-0011",
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
-        "line": 255,
+        "line": 257,
         "path": "docs/specifications/documentation/document-governance-contract.md",
         "sitePath": "specifications/documentation/document-governance-contract.html#AIXEM-REQ-DOC-GOV-0011"
       },
@@ -2921,7 +2921,7 @@
       "source": {
         "anchor": "AIXEM-REQ-DOC-GOV-0012",
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
-        "line": 266,
+        "line": 268,
         "path": "docs/specifications/documentation/document-governance-contract.md",
         "sitePath": "specifications/documentation/document-governance-contract.html#AIXEM-REQ-DOC-GOV-0012"
       },
@@ -2946,7 +2946,7 @@
       "source": {
         "anchor": "AIXEM-REQ-DOC-GOV-0013",
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
-        "line": 277,
+        "line": 279,
         "path": "docs/specifications/documentation/document-governance-contract.md",
         "sitePath": "specifications/documentation/document-governance-contract.html#AIXEM-REQ-DOC-GOV-0013"
       },
@@ -2971,7 +2971,7 @@
       "source": {
         "anchor": "AIXEM-REQ-DOC-GOV-0014",
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
-        "line": 288,
+        "line": 290,
         "path": "docs/specifications/documentation/document-governance-contract.md",
         "sitePath": "specifications/documentation/document-governance-contract.html#AIXEM-REQ-DOC-GOV-0014"
       },
@@ -4296,7 +4296,7 @@
       "source": {
         "anchor": "AIXEM-REQ-LIBRARY-0001",
         "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
-        "line": 27,
+        "line": 35,
         "path": "docs/specifications/components/library-layout-contract.md",
         "sitePath": "specifications/components/library-layout-contract.html#AIXEM-REQ-LIBRARY-0001"
       },
@@ -4321,7 +4321,7 @@
       "source": {
         "anchor": "AIXEM-REQ-LIBRARY-0002",
         "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
-        "line": 69,
+        "line": 77,
         "path": "docs/specifications/components/library-layout-contract.md",
         "sitePath": "specifications/components/library-layout-contract.html#AIXEM-REQ-LIBRARY-0002"
       },
@@ -4346,7 +4346,7 @@
       "source": {
         "anchor": "AIXEM-REQ-LIBRARY-0003",
         "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
-        "line": 86,
+        "line": 94,
         "path": "docs/specifications/components/library-layout-contract.md",
         "sitePath": "specifications/components/library-layout-contract.html#AIXEM-REQ-LIBRARY-0003"
       },
@@ -4371,7 +4371,7 @@
       "source": {
         "anchor": "AIXEM-REQ-LIBRARY-0004",
         "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
-        "line": 113,
+        "line": 121,
         "path": "docs/specifications/components/library-layout-contract.md",
         "sitePath": "specifications/components/library-layout-contract.html#AIXEM-REQ-LIBRARY-0004"
       },
@@ -4396,7 +4396,7 @@
       "source": {
         "anchor": "AIXEM-REQ-LIBRARY-0005",
         "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
-        "line": 135,
+        "line": 143,
         "path": "docs/specifications/components/library-layout-contract.md",
         "sitePath": "specifications/components/library-layout-contract.html#AIXEM-REQ-LIBRARY-0005"
       },

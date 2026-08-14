@@ -153,8 +153,8 @@
       "role": "canonical-document"
     },
     {
-      "bytes": 7433,
-      "digest": "sha256:6250190c62752db3923873b346772813f70835dcff760811180b07b6c3e7af84",
+      "bytes": 8525,
+      "digest": "sha256:ea7c7f7614f91dc13372342917ec7c6abc4f026b0be776b6fb49cde4aadbea2d",
       "path": "docs/authoring/guides/create-library-part.md",
       "role": "canonical-document"
     },
@@ -165,8 +165,8 @@
       "role": "canonical-document"
     },
     {
-      "bytes": 3257,
-      "digest": "sha256:45ef567f846eeba5cf1c8d900e0cd260f4c27563f13b984a34ae60573a532643",
+      "bytes": 3290,
+      "digest": "sha256:723a7f31099f3f8ca389cab8cc551c7a385db4909ae1cc9dc108e4a964768843",
       "path": "docs/authoring/guides/index.md",
       "role": "canonical-document"
     },
@@ -549,8 +549,8 @@
       "role": "canonical-document"
     },
     {
-      "bytes": 5793,
-      "digest": "sha256:d0557b5b897e93b780e0c186c875be8405aae0f1488f743a14cb3a98fdd931a2",
+      "bytes": 6661,
+      "digest": "sha256:af450c6884c16fd1b9622b29463c1cbd19b7b7aa0095cea44032890ce4ef3cef",
       "path": "docs/releases/0.5.9.md",
       "role": "canonical-document"
     },
@@ -723,8 +723,8 @@
       "role": "canonical-document"
     },
     {
-      "bytes": 13986,
-      "digest": "sha256:3b69de52984770c79e996584ce3936cbb344f03417a80e037d60c087127e60ad",
+      "bytes": 15423,
+      "digest": "sha256:3447084e205358fc54be1a63f57fbfd502ee5c6bf7ba8e0a58d5e0a66d99012a",
       "path": "docs/specifications/components/library-layout-contract.md",
       "role": "canonical-document"
     },
@@ -759,8 +759,8 @@
       "role": "canonical-document"
     },
     {
-      "bytes": 24972,
-      "digest": "sha256:793b036854ad8bdaf64523b88fba7d4729b40dfe2deb65ea9ea6b9041112e581",
+      "bytes": 25379,
+      "digest": "sha256:72ff9657aaa06119ecac3ee25264ebbbd881615ac14f49c2f4cc5dfffbb6399b",
       "path": "docs/specifications/documentation/document-governance-contract.md",
       "role": "canonical-document"
     },
@@ -993,8 +993,8 @@
       "role": "authored-metadata"
     },
     {
-      "bytes": 4839,
-      "digest": "sha256:8b5c8b247eb857aec923877d1e0b3725ebf7ae0eca162e3c0d17796348741c17",
+      "bytes": 6136,
+      "digest": "sha256:2a006e6037909a4ce77e5d6816242374d06292d67f0d12c6dc6f33a147bfc13d",
       "path": "docs/_meta/repository-document-policy.yaml",
       "role": "authored-metadata"
     },
@@ -1167,20 +1167,20 @@
       "role": "dependency-graph"
     },
     {
-      "bytes": 591301,
-      "digest": "sha256:f19f39e63f682785372208711e8925ff4383597d91074c50981758561243dbae",
+      "bytes": 591656,
+      "digest": "sha256:02933eec766bcbdf89f04b20856793cf2d9072316efe42f4fb0670570df44880",
       "path": "docs/_meta/generated/document-index.json",
       "role": "document-index"
     },
     {
-      "bytes": 8571,
-      "digest": "sha256:76014718faec1618b2d3fa6e40014548b2aca1faf3d2f4e3c436468f99328c87",
+      "bytes": 9085,
+      "digest": "sha256:45b7b7e8719c3635f0c8e2e3ed4605f7417ba2bf1a68c4062198887ae648b86c",
       "path": "docs/_meta/generated/document-relationship-audit.json",
       "role": "document-relationship-audit"
     },
     {
-      "bytes": 4150299,
-      "digest": "sha256:79aff311230753f190c5b6b6026ef6a12e3734986f194816e1826cfb551ff395",
+      "bytes": 4170584,
+      "digest": "sha256:ee090be78b08227baa927004364f297a5e603b21b04577bbe3ef441c78f62872",
       "path": "docs/_meta/generated/inverted-index.json",
       "role": "inverted-index"
     },
@@ -1191,20 +1191,20 @@
       "role": "path-migration-index"
     },
     {
-      "bytes": 211507,
-      "digest": "sha256:6b9c15669976ee433c4d2a46e1b49b696a83e3a6670ca29f02644f8496f3152e",
+      "bytes": 219028,
+      "digest": "sha256:87871974c0cbefc071d274329b5c1ae4f778907765137b76fb600f275b80078b",
       "path": "docs/_meta/generated/repository-document-inventory.json",
       "role": "repository-document-inventory"
     },
     {
       "bytes": 307632,
-      "digest": "sha256:b7744d27acabe49e7e5578e623ad96f933a502f8882e1a4ac55d1f2f319af09c",
+      "digest": "sha256:58d4b3e954230ba60e5d499328341f04ce07106b781cd2cb71b1cd4db7f4ca66",
       "path": "docs/_meta/generated/requirement-traceability.json",
       "role": "requirement-traceability"
     },
     {
       "bytes": 95281,
-      "digest": "sha256:409194be2480c29d354e4786166d7875c83e349b86f49bced3bfb3f3266660f4",
+      "digest": "sha256:7c4f2c48d26b6d3b21edbc8efe895ab1750f4f6718fbd6449d30cc5dadd05f48",
       "path": "docs/_meta/generated/route-index.json",
       "role": "route-index"
     },
@@ -1240,13 +1240,13 @@
     },
     {
       "bytes": 7281,
-      "digest": "sha256:83eeed3b1727037db1f48f63a9bb0a6d39ae1b51667ed0ad72c988b07bd3f762",
+      "digest": "sha256:43555f3e8271cb66948f7b5f887544dab9c12f809aff877e5c57fe82728d2d13",
       "path": "docs/_meta/generated/task-packets/create-symbol.json",
       "role": "task-packet-create-symbol"
     },
     {
       "bytes": 3976,
-      "digest": "sha256:daf2992a7d40a3916dd7ac9ab1783a535cc1fac3700e544b63291af3a8b9592d",
+      "digest": "sha256:f3e87a7d2c3748ad80bf9fe354ccd437a52b0a72a53de86e57015e876dbc6a76",
       "path": "docs/_meta/generated/task-packet-index.json",
       "role": "task-packet-index"
     },
@@ -1300,7 +1300,7 @@
     },
     {
       "bytes": 5583,
-      "digest": "sha256:cab524ed3ceded1cd9a6c352d07b2f278c249dfe02171855553f48f1f263e717",
+      "digest": "sha256:cf5b11df18b05d46d766105a0994d703f99e74080fbda09a6785f42b1bb52677",
       "path": "docs/_meta/generated/task-packets/validate-project.json",
       "role": "task-packet-validate-project"
     },

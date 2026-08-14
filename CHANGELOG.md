@@ -3,6 +3,7 @@
 ## 0.5.9 — 2026-08-12
 
 - Added canonical `library/<electronics|architecture>/...` authoring paths with lower-kebab naming, new-vs-existing compatibility, and Agent Change-Set enforcement.
+- Added an isolated Markdown library-part production backlog with numbered shards, deterministic Agent selection/progress commands, dated generation/review logs, and fail-closed completion semantics.
 - Added source-or-placeholder component provenance, minimum semantic contracts, semantic-clone detection, and separate structural, part-semantic, and circuit-intent claims.
 - Added the versioned Pin Electrical Semantics Profile and a bounded static compatibility precheck without claiming full ERC or simulation correctness.
 - Consolidated `G/P/M` symbol sizing, grid authority, deterministic half-away-from-zero snapping, and bounded read-only X/Y/XY placement alignment.

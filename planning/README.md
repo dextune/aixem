@@ -1,8 +1,12 @@
 # AIXEM Implementation Plans
 
-This directory preserves release-scoped implementation intent. Plans explain why and how a change was proposed; they are historical records and never override current canonical technical documentation under `docs/`.
+This directory preserves noncanonical planning state. Release-scoped implementation plans explain why and how a change was proposed; operational authoring queues coordinate future work. Neither class overrides current canonical technical documentation under `docs/` or authoritative production artifacts.
 
-The machine-readable lifecycle owner is [`index.yaml`](index.yaml). Completed plans are read-only except for explicit errata that preserve the original decision record.
+The machine-readable lifecycle owner for release plans is [`index.yaml`](index.yaml). Completed release plans are read-only except for explicit errata that preserve the original decision record. Operational queue lifecycle and discoverability are owned by their local workspace.
+
+## Operational Authoring Queue
+
+- [Library Part Authoring Backlog](library-parts/README.md) — isolated Markdown queue for bounded AI part creation, dated generation history, and independent review. Its checkboxes and logs are workflow state only; actual `.aixlib.json` / `.aixsym.json` content and canonical review evidence remain authoritative.
 
 | Release | Plan | Lifecycle |
 |---|---|---|

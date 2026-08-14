@@ -10,7 +10,7 @@
       "documentation-information-architecture"
     ],
     "domain": "specifications",
-    "estimatedReadBytes": 24972,
+    "estimatedReadBytes": 25379,
     "id": "AIXEM-SPEC-DOC-GOVERNANCE-001",
     "inputs": [],
     "keywords": [
@@ -26,7 +26,7 @@
       "generatedAt": "2026-08-12T00:00:00Z",
       "path": "reference/cards/specifications/documentation/document-governance-contract.aixcard.json",
       "release": "AIXEM-SRP-0.5.9-2026-08-12",
-      "sourceDigest": "sha256:793b036854ad8bdaf64523b88fba7d4729b40dfe2deb65ea9ea6b9041112e581"
+      "sourceDigest": "sha256:72ff9657aaa06119ecac3ee25264ebbbd881615ac14f49c2f4cc5dfffbb6399b"
     },
     "outputs": [],
     "ownerArtifacts": [],
