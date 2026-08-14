@@ -9,7 +9,7 @@
       "component-library-layout-and-integrity"
     ],
     "domain": "specifications",
-    "estimatedReadBytes": 13986,
+    "estimatedReadBytes": 15423,
     "id": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
     "inputs": [],
     "keywords": [
@@ -26,7 +26,7 @@
       "generatedAt": "2026-08-12T00:00:00Z",
       "path": "reference/cards/specifications/components/library-layout-contract.aixcard.json",
       "release": "AIXEM-SRP-0.5.9-2026-08-12",
-      "sourceDigest": "sha256:3b69de52984770c79e996584ce3936cbb344f03417a80e037d60c087127e60ad"
+      "sourceDigest": "sha256:3447084e205358fc54be1a63f57fbfd502ee5c6bf7ba8e0a58d5e0a66d99012a"
     },
     "outputs": [],
     "ownerArtifacts": [],

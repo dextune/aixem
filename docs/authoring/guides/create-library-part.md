@@ -15,7 +15,7 @@ aliases:
 - author component symbol
 agent:
   priority: critical
-  estimated_tokens: 1607
+  estimated_tokens: 1880
   intents:
   - create-symbol
   - author-component-circuit
@@ -47,7 +47,7 @@ Create or deliberately repair a reusable semantic component definition and its r
 
 ## 2. Use This Guide When / Do Not Use It When
 
-Use it for a new resistor class, sourced MCU, connector family, architectural symbol, or reusable component presentation. Use [Select a Library Part](select-library-part.md) when a suitable component already exists. Do not use this guide to edit generated SVG, Viewer, evidence, or corpus output directly.
+Use it for a new resistor class, sourced MCU, connector family, architectural symbol, or reusable component presentation. When the request originates from `planning/library-parts/`, first validate/select the bounded queue item as defined by that workspace; its target folder and part name are request scope only. Use [Select a Library Part](select-library-part.md) when a suitable component already exists. Do not use this guide to edit generated SVG, Viewer, evidence, or corpus output directly.
 
 ## 3. Primary Route ID
 
@@ -61,6 +61,7 @@ Use it for a new resistor class, sourced MCU, connector family, architectural sy
 ## 5. Required Inputs
 
 - active project or authoring root;
+- optional originating backlog shard/item when executing queued production work;
 - requested functional identity and domain;
 - source evidence for any concrete real part;
 - complete physical terminal inventory and intended reusable properties;
@@ -95,6 +96,8 @@ Required content dimensions are rounded outward to `G`. Resolve collisions by en
 
 ## 9. Short Execution Sequence
 
+For queued work, first run `python tools/library_backlog.py validate` and select only the requested count with `python tools/library_backlog.py next` (optionally scoped by category). Never infer pins, IDs, or provenance from the queue line.
+
 1. Resolve the project root and inspect the selected domain subtree for an existing accurate namespace.
 2. Classify the component as `datasheet-backed`, `generic-template`, or `placeholder`.
 3. For a concrete part, capture manufacturer, exact part number, and `sourceUri` before inventing terminals or geometry.
@@ -104,6 +107,7 @@ Required content dimensions are rounded outward to `G`. Resolve collisions by en
 7. Create a total component-port to symbol-port map, field map, variant selection, and digest-locked asset reference.
 8. Run schema, path, provenance, pin-semantic, binding, symbol-design, render, and deterministic checks.
 9. Record part semantic review separately from structural render. A placeholder remains non-semantic-ready.
+10. For queued work only, append the dated generation result. On `PASS`, mark exactly that backlog item `[x]`; on `FAIL`, leave it unchecked. If a dated log file is created, link it from `planning/library-parts/index.md` in the same change.
 
 ## 10. Canonical Reference Table
 
@@ -120,13 +124,14 @@ Required content dimensions are rounded outward to `G`. Resolve collisions by en
 
 ## 11. Validators and Tools
 
+- `python tools/library_backlog.py validate` when work originates from the operational queue
 - `python tools/validate_authoring_integrity.py <library-file> --artifact-path <project-relative-path> --operation added`
 - `python -m unittest tests.schematic.test_authoring_integrity`
 - existing symbol schema, binding, design-profile, and deterministic renderer validators from the route packet.
 
 ## 12. Completion Criteria
 
-The new files are canonical and digest-locked; the component has a complete semantic contract; all required ports map to visible symbol endpoints; the symbol follows the active sizing rhythm; structural result and part semantic result are explicit; any placeholder remains `semanticReady=false`.
+The new files are canonical and digest-locked; the component has a complete semantic contract; all required ports map to visible symbol endpoints; the symbol follows the active sizing rhythm; structural result and part semantic result are explicit; any placeholder remains `semanticReady=false`. For queued work, completion additionally requires a matching dated generation `PASS` record and exactly one corresponding `[x]` backlog mutation.
 
 ## 13. Stop / Fail-Closed Conditions
 
@@ -138,7 +143,7 @@ Do not create reusable assets under `examples/`, use symbol appearance as compon
 
 ## 15. Evidence / Outputs
 
-Retain authoritative library and symbol files, digest changes, validator outputs, deterministic render evidence, source-bound part review, placeholder state where applicable, and circuit-intent review only when the part is actually used in a schematic.
+Retain authoritative library and symbol files, digest changes, validator outputs, deterministic render evidence, source-bound part review, placeholder state where applicable, and circuit-intent review only when the part is actually used in a schematic. A queue generation log is operational history and never replaces those technical evidence layers.
 
 ---
 

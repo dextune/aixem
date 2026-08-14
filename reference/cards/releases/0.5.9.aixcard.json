@@ -9,7 +9,7 @@
       "release-notes"
     ],
     "domain": "releases",
-    "estimatedReadBytes": 5793,
+    "estimatedReadBytes": 6661,
     "id": "AIXEM-RELEASE-059-001",
     "inputs": [],
     "keywords": [
@@ -27,7 +27,7 @@
       "generatedAt": "2026-08-12T00:00:00Z",
       "path": "reference/cards/releases/0.5.9.aixcard.json",
       "release": "AIXEM-SRP-0.5.9-2026-08-12",
-      "sourceDigest": "sha256:d0557b5b897e93b780e0c186c875be8405aae0f1488f743a14cb3a98fdd931a2"
+      "sourceDigest": "sha256:af450c6884c16fd1b9622b29463c1cbd19b7b7aa0095cea44032890ce4ef3cef"
     },
     "outputs": [],
     "ownerArtifacts": [],

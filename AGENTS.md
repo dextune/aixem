@@ -57,6 +57,12 @@ Artifact owners are summarized in [`REFERENCE.md#4-artifact-and-specification-ow
 
 For common authoring operations, start at [`docs/authoring/guides/index.md`](docs/authoring/guides/index.md), select one task guide, and then follow its authored route and canonical references. New reusable component/symbol artifacts belong below `project-root/library/<electronics|architecture>/`; do not create ordinary reusable parts under `examples/`.
 
+### Library-Part Backlog Wrapper
+
+When a request consumes queued library-part work, first read [`planning/library-parts/README.md`](planning/library-parts/README.md). Validate the queue with `python tools/library_backlog.py validate`, select only the requested number of unchecked items with `python tools/library_backlog.py next`, and then run the normal `create-symbol` route independently for each selected item. The queue supplies only target folder and part name; it never supplies component ID, pins, provenance, electrical semantics, geometry, or readiness evidence.
+
+Close a queued item atomically: successful required part-creation validation -> append a dated `PASS` generation record -> change that one checkbox to `[x]` -> add the new dated log link to the workspace index when needed. A failed attempt appends `FAIL` and leaves the item unchecked. Independent review uses the dated generation record and writes a separate review log; `[x]` is workflow completion state, not semantic-review authority. Parallel Agents must operate on disjoint shards or be externally serialized.
+
 Use the active route. `author-component-circuit` is the governed composite chain for symbol, semantic, layout, review, and validation stages:
 
 ```text

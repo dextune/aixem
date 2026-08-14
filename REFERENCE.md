@@ -107,6 +107,7 @@ For the active release, read [`docs/releases/0.5.9.md`](docs/releases/0.5.9.md),
 ## 7. Plans, History, and Compatibility
 
 - Implementation intent: [`planning/README.md`](planning/README.md)
+- Operational library-part authoring queue: [`planning/library-parts/README.md`](planning/library-parts/README.md) — mutable scheduling, generation-log, and review-log state that never replaces production-library authority.
 - Historical plan registry: [`planning/index.yaml`](planning/index.yaml)
 - Legacy migration context: [`legacy/README.md`](legacy/README.md)
 - Canonical path migrations: [`docs/_meta/path-migrations.yaml`](docs/_meta/path-migrations.yaml)

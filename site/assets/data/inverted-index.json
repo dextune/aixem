@@ -3146,6 +3146,10 @@
     ],
     "10.": [
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 4
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
         "weight": 4
       },
@@ -3163,10 +3167,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-COMPOSE-PROJECT-001",
-        "weight": 3
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 3
       },
       {
@@ -3205,6 +3205,12 @@
     "100": [
       {
         "document": "AIXEM-CONF-TESTS-001",
+        "weight": 1
+      }
+    ],
+    "100-item": [
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       }
     ],
@@ -7731,7 +7737,7 @@
     "added": [
       {
         "document": "AIXEM-RELEASE-059-001",
-        "weight": 9
+        "weight": 13
       },
       {
         "document": "AIXEM-RELEASE-056-001",
@@ -7835,6 +7841,10 @@
     "additionally": [
       {
         "document": "AIXEM-AGENT-VALIDATION-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 1
       },
       {
@@ -9156,6 +9166,10 @@
         "weight": 6
       },
       {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 6
+      },
+      {
         "document": "AIXEM-RELEASE-INDEX-001",
         "weight": 6
       },
@@ -9181,10 +9195,6 @@
       },
       {
         "document": "AIXEM-RELEASE-050-001",
-        "weight": 5
-      },
-      {
-        "document": "AIXEM-RELEASE-059-001",
         "weight": 5
       },
       {
@@ -16453,7 +16463,7 @@
       },
       {
         "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
-        "weight": 5
+        "weight": 6
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
@@ -16845,7 +16855,7 @@
       },
       {
         "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
-        "weight": 5
+        "weight": 6
       },
       {
         "document": "AIXEM-AGENT-AUTHORING-001",
@@ -18014,6 +18024,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-SCHEMAS-001",
         "weight": 1
       },
@@ -18310,6 +18324,10 @@
         "weight": 7
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 7
+      },
+      {
         "document": "AIXEM-SYMBOL-PRIMITIVES-001",
         "weight": 7
       },
@@ -18331,10 +18349,6 @@
       },
       {
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
-        "weight": 6
-      },
-      {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 6
       },
       {
@@ -18630,6 +18644,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-RELEASE-INDEX-001",
         "weight": 2
       },
@@ -18759,10 +18777,6 @@
       },
       {
         "document": "AIXEM-GOV-DEPRECATION-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       },
       {
@@ -19726,6 +19740,10 @@
     ],
     "append": [
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-GOV-DOC-AUTHORING-001",
         "weight": 1
       },
@@ -20625,7 +20643,7 @@
     "are": [
       {
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
-        "weight": 18
+        "weight": 20
       },
       {
         "document": "AIXEM-CONF-SYMBOL-EXP-001",
@@ -20748,6 +20766,10 @@
         "weight": 6
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 6
+      },
+      {
         "document": "AIXEM-CONCEPT-AUTHORITY-001",
         "weight": 6
       },
@@ -20861,10 +20883,6 @@
       },
       {
         "document": "AIXEM-ARCH-SYSTEM-001",
-        "weight": 5
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 5
       },
       {
@@ -22386,6 +22404,10 @@
         "weight": 6
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 6
+      },
+      {
         "document": "AIXEM-AGENT-INDEX-001",
         "weight": 5
       },
@@ -22438,6 +22460,10 @@
         "weight": 5
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 4
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 4
       },
@@ -22470,10 +22496,6 @@
         "weight": 4
       },
       {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
-        "weight": 4
-      },
-      {
         "document": "AIXEM-START-INDEX-001",
         "weight": 4
       },
@@ -22491,10 +22513,6 @@
       },
       {
         "document": "AIXEM-ARCH-ADR-INDEX-001",
-        "weight": 3
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 3
       },
       {
@@ -23854,6 +23872,10 @@
       {
         "document": "AIXEM-SPEC-AGENT-OBSERVATION-001",
         "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
       }
     ],
     "attempt-id": [
@@ -24946,11 +24968,11 @@
         "weight": 14
       },
       {
-        "document": "AIXEM-RELEASE-059-001",
-        "weight": 12
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 13
       },
       {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 12
       },
       {
@@ -25182,6 +25204,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-SPEC-SYMBOL-DESIGN-001",
         "weight": 2
       },
@@ -25267,10 +25293,6 @@
       },
       {
         "document": "AIXEM-SPEC-AGENT-RETRIEVAL-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
         "weight": 1
       },
       {
@@ -25812,6 +25834,10 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-SPEC-PROJECT-LOCK-001",
         "weight": 3
       },
@@ -25921,10 +25947,6 @@
       },
       {
         "document": "AIXEM-SPEC-INTERFACE-PORT-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       },
       {
@@ -26660,6 +26682,10 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-SPEC-VISUAL-PROFILE-001",
         "weight": 3
       },
@@ -26685,10 +26711,6 @@
       },
       {
         "document": "AIXEM-SPEC-AGENT-EVAL-INVARIANT-001",
-        "weight": 2
-      },
-      {
-        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
         "weight": 2
       },
       {
@@ -26781,6 +26803,10 @@
       },
       {
         "document": "AIXEM-RELEASE-057-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       },
       {
@@ -27698,6 +27724,30 @@
         "weight": 1
       }
     ],
+    "backlog": [
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 5
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 3
+      },
+      {
+        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDES-INDEX-001",
+        "weight": 1
+      }
+    ],
+    "backlog-driven": [
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
+      }
+    ],
     "backward": [
       {
         "document": "AIXEM-GOV-COMPAT-001",
@@ -28402,6 +28452,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-RELEASE-INDEX-001",
         "weight": 1
       },
@@ -28684,6 +28738,10 @@
         "weight": 5
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 5
+      },
+      {
         "document": "AIXEM-ARCH-ADR-0002",
         "weight": 4
       },
@@ -28729,10 +28787,6 @@
       },
       {
         "document": "AIXEM-SPEC-AGENT-OBSERVATION-001",
-        "weight": 3
-      },
-      {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 3
       },
       {
@@ -29866,6 +29920,10 @@
         "weight": 5
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 5
+      },
+      {
         "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 5
       },
@@ -29879,10 +29937,6 @@
       },
       {
         "document": "AIXEM-RELEASE-051-001",
-        "weight": 4
-      },
-      {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 4
       },
       {
@@ -29939,6 +29993,10 @@
       },
       {
         "document": "AIXEM-RELEASE-040-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 2
       },
       {
@@ -30075,10 +30133,6 @@
       },
       {
         "document": "AIXEM-RELEASE-052-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       },
       {
@@ -30976,6 +31030,10 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
         "weight": 3
       },
@@ -31073,7 +31131,7 @@
     "bounded": [
       {
         "document": "AIXEM-RELEASE-059-001",
-        "weight": 8
+        "weight": 9
       },
       {
         "document": "AIXEM-AGENT-AUTHORING-001",
@@ -31149,6 +31207,10 @@
       },
       {
         "document": "AIXEM-ARCH-CACHE-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 1
       },
       {
@@ -32226,6 +32288,10 @@
         "weight": 4
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-FORMAT-AIXSYM-001",
         "weight": 2
       },
@@ -32235,10 +32301,6 @@
       },
       {
         "document": "AIXEM-SPEC-INTERFACE-PORT-001",
-        "weight": 2
-      },
-      {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 2
       },
       {
@@ -32474,6 +32536,10 @@
         "weight": 6
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 6
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-SELECT-LIBRARY-PART-001",
         "weight": 6
       },
@@ -32607,10 +32673,6 @@
       },
       {
         "document": "AIXEM-ARCH-SYSTEM-001",
-        "weight": 4
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 4
       },
       {
@@ -33208,6 +33270,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-SCHEM-VISUAL-001",
         "weight": 2
       },
@@ -33245,10 +33311,6 @@
       },
       {
         "document": "AIXEM-RELEASE-056-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       },
       {
@@ -35378,6 +35440,14 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-METADATA-001",
         "weight": 1
       },
@@ -35439,6 +35509,12 @@
       },
       {
         "document": "AIXEM-SYMBOL-AIXSYM-REF-001",
+        "weight": 1
+      }
+    ],
+    "ceiling": [
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       }
     ],
@@ -36349,6 +36425,10 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-COMPOSE-PROJECT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 1
       },
       {
@@ -37378,6 +37458,22 @@
         "weight": 1
       }
     ],
+    "checkbox": [
+      {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
+      }
+    ],
+    "checkbox.": [
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
+      }
+    ],
     "checked": [
       {
         "document": "AIXEM-RELEASE-051-001",
@@ -37392,7 +37488,15 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       },
       {
@@ -39038,6 +39142,10 @@
         "weight": 4
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 4
+      },
+      {
         "document": "AIXEM-AGENT-VALIDATION-001",
         "weight": 3
       },
@@ -39050,15 +39158,15 @@
         "weight": 3
       },
       {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
-        "weight": 3
-      },
-      {
         "document": "AIXEM-AUTHORING-GUIDE-VALIDATE-PROJECT-001",
         "weight": 2
       },
       {
         "document": "AIXEM-GOV-INDEX-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 2
       },
       {
@@ -39083,10 +39191,6 @@
       },
       {
         "document": "AIXEM-RELEASE-056-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       },
       {
@@ -39993,6 +40097,10 @@
       },
       {
         "document": "AIXEM-RELEASE-0581-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       }
     ],
@@ -42466,6 +42574,10 @@
       {
         "document": "AIXEM-SPEC-AGENT-TASK-001",
         "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
       }
     ],
     "completed-output": [
@@ -42518,6 +42630,10 @@
         "weight": 4
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 4
+      },
+      {
         "document": "AIXEM-AGENT-ARCH-001",
         "weight": 3
       },
@@ -42527,10 +42643,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-COMPOSE-PROJECT-001",
-        "weight": 3
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 3
       },
       {
@@ -42583,6 +42695,10 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDES-INDEX-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       },
       {
@@ -42657,7 +42773,7 @@
     "component": [
       {
         "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
-        "weight": 32
+        "weight": 33
       },
       {
         "document": "AIXEM-SYMBOL-BINDING-001",
@@ -42909,6 +43025,10 @@
       },
       {
         "document": "AIXEM-SPEC-AGENT-EVAL-INVARIANT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
         "weight": 1
       },
       {
@@ -46158,6 +46278,12 @@
         "weight": 1
       }
     ],
+    "containing": [
+      {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 1
+      }
+    ],
     "containment": [
       {
         "document": "AIXEM-ARCH-SECURITY-001",
@@ -46218,6 +46344,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
         "weight": 1
       },
@@ -46273,6 +46403,10 @@
       },
       {
         "document": "AIXEM-SPEC-AGENT-LIVE-RUN-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       },
       {
@@ -47000,6 +47134,10 @@
       {
         "document": "AIXEM-AGENT-ARCH-001",
         "weight": 1
+      },
+      {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 1
       }
     ],
     "contexts": [
@@ -47089,7 +47227,7 @@
       },
       {
         "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
-        "weight": 13
+        "weight": 14
       },
       {
         "document": "AIXEM-SPEC-VIEWER-001",
@@ -48294,6 +48432,12 @@
         "weight": 1
       }
     ],
+    "conversation": [
+      {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 1
+      }
+    ],
     "conversion": [
       {
         "document": "AIXEM-AUTHORING-GUIDE-ROUTE-NETS-001",
@@ -49248,6 +49392,10 @@
     ],
     "corresponding": [
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
         "weight": 1
       },
@@ -49303,6 +49451,10 @@
       },
       {
         "document": "AIXEM-AGENT-LIVE-COLD-START-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 1
       },
       {
@@ -50604,11 +50756,19 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-SELECT-LIBRARY-PART-001",
         "weight": 1
       },
       {
         "document": "AIXEM-FORMAT-AIXSYM-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
         "weight": 1
       }
     ],
@@ -50728,15 +50888,15 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-RELEASE-056-001",
         "weight": 1
       },
       {
         "document": "AIXEM-RELEASE-059-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       },
       {
@@ -51229,7 +51389,7 @@
       },
       {
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
-        "weight": 7
+        "weight": 8
       },
       {
         "document": "AIXEM-CONF-AGENT-LIVE-001",
@@ -51993,6 +52153,32 @@
     "date": [
       {
         "document": "AIXEM-CONF-SYMBOL-EXP-001",
+        "weight": 1
+      }
+    ],
+    "date-created": [
+      {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 1
+      }
+    ],
+    "dated": [
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 3
+      },
+      {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "weight": 1
+      }
+    ],
+    "day": [
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       }
     ],
@@ -53416,6 +53602,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
         "weight": 1
       },
@@ -53429,6 +53619,10 @@
       }
     ],
     "defined": [
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 1
+      },
       {
         "document": "AIXEM-CONF-B2D-001",
         "weight": 1
@@ -56914,6 +57108,10 @@
         "weight": 6
       },
       {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 6
+      },
+      {
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
         "weight": 6
       },
@@ -56931,10 +57129,6 @@
       },
       {
         "document": "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
-        "weight": 5
-      },
-      {
-        "document": "AIXEM-RELEASE-059-001",
         "weight": 5
       },
       {
@@ -58250,6 +58444,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
         "weight": 2
       },
@@ -58315,10 +58513,6 @@
       },
       {
         "document": "AIXEM-SPEC-AGENT-TASK-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       },
       {
@@ -59539,6 +59733,10 @@
       },
       {
         "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       },
       {
@@ -61671,7 +61869,7 @@
     "does": [
       {
         "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
-        "weight": 8
+        "weight": 9
       },
       {
         "document": "AIXEM-SYMBOL-PORTS-001",
@@ -63054,6 +63252,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-SCHEMAS-001",
         "weight": 1
       },
@@ -64012,6 +64214,10 @@
         "weight": 6
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 5
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 4
       },
@@ -64021,10 +64227,6 @@
       },
       {
         "document": "AIXEM-RELEASE-059-001",
-        "weight": 4
-      },
-      {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 4
       },
       {
@@ -64628,6 +64830,10 @@
         "weight": 6
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 6
+      },
+      {
         "document": "AIXEM-AGENT-AUTHORING-001",
         "weight": 5
       },
@@ -64645,10 +64851,6 @@
       },
       {
         "document": "AIXEM-ROUTE-CROSSING-001",
-        "weight": 5
-      },
-      {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 5
       },
       {
@@ -65270,6 +65472,12 @@
         "weight": 1
       }
     ],
+    "entering": [
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
+      }
+    ],
     "enters": [
       {
         "document": "AIXEM-SPEC-VIEWER-STATE-001",
@@ -65598,6 +65806,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SYMBOL-INDEX-001",
         "weight": 1
       }
@@ -65691,6 +65903,12 @@
       },
       {
         "document": "AIXEM-SYMBOL-VARIANTS-001",
+        "weight": 1
+      }
+    ],
+    "enumeration": [
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       }
     ],
@@ -65907,6 +66125,10 @@
       },
       {
         "document": "AIXEM-SPEC-AGENT-RUN-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       },
       {
@@ -66464,6 +66686,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-VIEWER-001",
         "weight": 1
       },
@@ -66790,6 +67016,10 @@
         "weight": 9
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 9
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-RENDER-REVIEW-001",
         "weight": 9
       },
@@ -66864,10 +67094,6 @@
       {
         "document": "AIXEM-SYMBOL-VARIANTS-001",
         "weight": 9
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
-        "weight": 8
       },
       {
         "document": "AIXEM-CONF-AGENT-DIAGNOSTICS-001",
@@ -67382,6 +67608,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-SPEC-METADATA-001",
         "weight": 2
       },
@@ -67634,6 +67864,10 @@
         "weight": 5
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 5
+      },
+      {
         "document": "AIXEM-AGENT-RETRIEVAL-001",
         "weight": 4
       },
@@ -67647,10 +67881,6 @@
       },
       {
         "document": "AIXEM-SPEC-AGENT-RETRIEVAL-001",
-        "weight": 4
-      },
-      {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 4
       },
       {
@@ -67762,6 +67992,10 @@
       {
         "document": "AIXEM-SCHEM-COOKBOOK-001",
         "weight": 3
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 2
       },
       {
         "document": "AIXEM-CONF-AGENT-LIVE-001",
@@ -68748,6 +68982,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-AGENT-EXECUTION-001",
         "weight": 1
       }
@@ -68756,6 +68994,10 @@
       {
         "document": "AIXEM-AGENT-LIVE-COLD-START-001",
         "weight": 2
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 1
       }
     ],
     "execution": [
@@ -69448,6 +69690,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SYMBOL-AUTHORING-001",
         "weight": 1
       },
@@ -69471,6 +69717,10 @@
       },
       {
         "document": "AIXEM-ROUTE-COOKBOOK-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       }
     ],
@@ -70246,6 +70496,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
         "weight": 2
       },
@@ -70315,10 +70569,6 @@
       },
       {
         "document": "AIXEM-RELEASE-0581-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       },
       {
@@ -71172,11 +71422,19 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-SYMBOL-AIXSYM-REF-001",
         "weight": 2
       },
       {
         "document": "AIXEM-AGENT-LIVE-COLD-START-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 1
       },
       {
@@ -71415,6 +71673,10 @@
       },
       {
         "document": "AIXEM-SPEC-AGENT-EXECUTION-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       }
     ],
@@ -72676,6 +72938,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
         "weight": 2
       },
@@ -72817,10 +73083,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-COMPOSE-PROJECT-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 1
       },
       {
@@ -73528,6 +73790,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-SPEC-SCHEMAS-001",
         "weight": 2
       },
@@ -73577,10 +73843,6 @@
       },
       {
         "document": "AIXEM-SPEC-AUTHORITY-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
         "weight": 1
       },
       {
@@ -74014,6 +74276,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-EXAMPLE-SYMBOL-CORPUS-001",
         "weight": 2
       },
@@ -74225,6 +74491,10 @@
       },
       {
         "document": "AIXEM-RELEASE-058-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       },
       {
@@ -74571,6 +74841,20 @@
       },
       {
         "document": "AIXEM-SPEC-VIEWER-STATE-001",
+        "weight": 1
+      }
+    ],
+    "folder": [
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       }
     ],
@@ -76016,6 +76300,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
         "weight": 1
       },
@@ -77080,6 +77368,10 @@
         "weight": 4
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-AGENT-INDEX-001",
         "weight": 2
       },
@@ -77089,6 +77381,14 @@
       },
       {
         "document": "AIXEM-ARCH-SECURITY-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 2
       },
       {
@@ -77293,6 +77593,10 @@
       },
       {
         "document": "AIXEM-RELEASE-055-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       },
       {
@@ -77720,6 +78024,10 @@
         "weight": 4
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 4
+      },
+      {
         "document": "AIXEM-AGENT-SCHEMATIC-001",
         "weight": 3
       },
@@ -77749,10 +78057,6 @@
       },
       {
         "document": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
-        "weight": 3
-      },
-      {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 3
       },
       {
@@ -82708,19 +83012,27 @@
     ],
     "history": [
       {
+        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-GOV-DOC-AUTHORING-001",
         "weight": 1
       },
       {
         "document": "AIXEM-SPEC-AGENT-EVAL-INVARIANT-001",
         "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
-        "weight": 1
       }
     ],
     "history.": [
+      {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 1
+      },
       {
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
         "weight": 1
@@ -83575,6 +83887,10 @@
       },
       {
         "document": "AIXEM-RELEASE-057-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       },
       {
@@ -84539,7 +84855,7 @@
     "identity": [
       {
         "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
-        "weight": 14
+        "weight": 16
       },
       {
         "document": "AIXEM-SPEC-VIEWER-001",
@@ -84974,6 +85290,10 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-SYMBOL-AUTHORING-001",
         "weight": 3
       },
@@ -84991,6 +85311,10 @@
       },
       {
         "document": "AIXEM-ARCH-CACHE-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 2
       },
       {
@@ -85043,10 +85367,6 @@
       },
       {
         "document": "AIXEM-SPEC-INDEX-001",
-        "weight": 2
-      },
-      {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 2
       },
       {
@@ -85139,10 +85459,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-COMPOSE-PROJECT-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 1
       },
       {
@@ -85456,6 +85772,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 1
       },
@@ -85473,6 +85793,10 @@
       },
       {
         "document": "AIXEM-SPEC-AGENT-OBSERVATION-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       },
       {
@@ -86380,6 +86704,10 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-CONCEPT-SEMANTIC-001",
         "weight": 3
       },
@@ -86517,10 +86845,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-COMPOSE-PROJECT-001",
-        "weight": 2
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 2
       },
       {
@@ -86891,6 +87215,10 @@
       }
     ],
     "including": [
+      {
+        "document": "AIXEM-AUTHORING-GUIDES-INDEX-001",
+        "weight": 1
+      },
       {
         "document": "AIXEM-RELEASE-0581-001",
         "weight": 1
@@ -87314,6 +87642,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-RELEASE-INDEX-001",
         "weight": 1
       },
@@ -87379,6 +87711,10 @@
       },
       {
         "document": "AIXEM-SPEC-INDEX-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       },
       {
@@ -87568,7 +87904,15 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-ARCH-ARTIFACT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 1
       },
       {
@@ -87581,10 +87925,6 @@
       },
       {
         "document": "AIXEM-SCHEM-INDEX-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
         "weight": 1
       },
       {
@@ -88309,6 +88649,10 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-COMPOSE-PROJECT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 1
       },
       {
@@ -90073,6 +90417,10 @@
       },
       {
         "document": "AIXEM-RELEASE-053-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       },
       {
@@ -92330,6 +92678,10 @@
     ],
     "inventories": [
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SYMBOL-LINT-001",
         "weight": 1
       }
@@ -92536,8 +92888,12 @@
         "weight": 22
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 18
+      },
+      {
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
-        "weight": 16
+        "weight": 17
       },
       {
         "document": "AIXEM-GOV-DOC-AUTHORING-001",
@@ -92557,10 +92913,6 @@
       },
       {
         "document": "AIXEM-FORMAT-AIXLIB-001",
-        "weight": 13
-      },
-      {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 13
       },
       {
@@ -92840,6 +93192,10 @@
         "weight": 5
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 5
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-RENDER-REVIEW-001",
         "weight": 5
       },
@@ -92881,6 +93237,10 @@
       },
       {
         "document": "AIXEM-GOV-DEPRECATION-001",
+        "weight": 5
+      },
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 5
       },
       {
@@ -92988,10 +93348,6 @@
         "weight": 4
       },
       {
-        "document": "AIXEM-RELEASE-059-001",
-        "weight": 4
-      },
-      {
         "document": "AIXEM-RELEASE-INDEX-001",
         "weight": 4
       },
@@ -93077,10 +93433,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-COMPOSE-PROJECT-001",
-        "weight": 3
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 3
       },
       {
@@ -93206,6 +93558,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-AGENT-STAGE-001",
         "weight": 1
       },
@@ -93278,7 +93634,15 @@
         "weight": 9
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 8
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-RENDER-REVIEW-001",
+        "weight": 8
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 8
       },
       {
@@ -93302,16 +93666,8 @@
         "weight": 7
       },
       {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
-        "weight": 7
-      },
-      {
         "document": "AIXEM-SYMBOL-PORTS-001",
         "weight": 7
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
-        "weight": 6
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
@@ -93922,13 +94278,33 @@
     ],
     "item": [
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 3
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 3
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDES-INDEX-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-CONF-SYMBOL-EXP-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       }
     ],
     "items": [
       {
         "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       }
     ],
@@ -94005,6 +94381,10 @@
       },
       {
         "document": "AIXEM-ARCH-CACHE-001",
+        "weight": 4
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 4
       },
       {
@@ -94113,10 +94493,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-AUTHOR-COMPONENT-CIRCUIT-001",
-        "weight": 3
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 3
       },
       {
@@ -96208,6 +96584,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-VIEWER-STATE-001",
         "weight": 1
       },
@@ -97160,6 +97540,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-DOCS-HOME-001",
         "weight": 1
       },
@@ -98052,6 +98436,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-CONF-AGENT-LIVE-001",
         "weight": 1
       },
@@ -98471,7 +98859,7 @@
       },
       {
         "document": "AIXEM-RELEASE-059-001",
-        "weight": 11
+        "weight": 12
       },
       {
         "document": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
@@ -98598,6 +98986,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-GRID-PROFILE-001",
         "weight": 1
       },
@@ -98623,6 +99015,12 @@
       },
       {
         "document": "AIXEM-SYMBOL-PORTS-001",
+        "weight": 1
+      }
+    ],
+    "library-authoring": [
+      {
+        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
         "weight": 1
       }
     ],
@@ -98652,6 +99050,30 @@
         "weight": 1
       }
     ],
+    "library-part": [
+      {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 3
+      }
+    ],
+    "library-parts": [
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
+      }
+    ],
     "library.": [
       {
         "document": "AIXEM-FORMAT-AIXLIB-001",
@@ -98675,6 +99097,16 @@
       },
       {
         "document": "AIXEM-ROUTE-NETS-001",
+        "weight": 1
+      }
+    ],
+    "library_backlog.py": [
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 3
+      },
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       }
     ],
@@ -98908,6 +99340,10 @@
     ],
     "line.": [
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-AGENT-OBSERVATION-001",
         "weight": 1
       }
@@ -98967,6 +99403,10 @@
       },
       {
         "document": "AIXEM-ARCH-INDEX-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 1
       },
       {
@@ -99049,7 +99489,7 @@
     "linked": [
       {
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
-        "weight": 2
+        "weight": 3
       },
       {
         "document": "AIXEM-SPEC-INDEX-001",
@@ -99167,7 +99607,7 @@
     "links": [
       {
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
-        "weight": 6
+        "weight": 7
       },
       {
         "document": "AIXEM-CONF-REQUIREMENTS-001",
@@ -100964,11 +101404,19 @@
     ],
     "log": [
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-SPEC-AGENT-EXECUTOR-LIVE-001",
         "weight": 1
       },
       {
         "document": "AIXEM-SPEC-AGENT-OBSERVATION-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
         "weight": 1
       }
     ],
@@ -101012,7 +101460,15 @@
     ],
     "logs": [
       {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-CONCEPT-AUTHORITY-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
         "weight": 1
       }
     ],
@@ -102524,6 +102980,12 @@
         "weight": 1
       }
     ],
+    "manufacture": [
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
+      }
+    ],
     "manufacturer": [
       {
         "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
@@ -103214,6 +103676,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-VALIDATE-PROJECT-001",
         "weight": 1
       },
@@ -103289,6 +103755,10 @@
       },
       {
         "document": "AIXEM-RELEASE-051-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       },
       {
@@ -103498,11 +103968,19 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-CONCEPT-NET-001",
         "weight": 1
       },
       {
         "document": "AIXEM-FORMAT-AIXEM-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       },
       {
@@ -103696,12 +104174,12 @@
         "weight": 6
       },
       {
-        "document": "AIXEM-SPEC-VIEWER-001",
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 6
       },
       {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
-        "weight": 5
+        "document": "AIXEM-SPEC-VIEWER-001",
+        "weight": 6
       },
       {
         "document": "AIXEM-FORMAT-AIXEM-001",
@@ -104163,6 +104641,10 @@
       },
       {
         "document": "AIXEM-SPEC-INTERFACE-PORT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       },
       {
@@ -104725,6 +105207,10 @@
       },
       {
         "document": "AIXEM-SCHEM-VISUAL-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       },
       {
@@ -106179,6 +106665,10 @@
       },
       {
         "document": "AIXEM-CONF-SYMBOL-EXP-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       },
       {
@@ -108874,6 +109364,12 @@
         "weight": 1
       }
     ],
+    "mutable": [
+      {
+        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "weight": 1
+      }
+    ],
     "mutate": [
       {
         "document": "AIXEM-SPEC-AGENT-EVAL-INVARIANT-001",
@@ -108933,6 +109429,12 @@
       },
       {
         "document": "AIXEM-RELEASE-056-001",
+        "weight": 1
+      }
+    ],
+    "mutation.": [
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 1
       }
     ],
@@ -109036,11 +109538,11 @@
         "weight": 4
       },
       {
-        "document": "AIXEM-AGENT-VISUAL-QA-001",
-        "weight": 2
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 3
       },
       {
-        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "document": "AIXEM-AGENT-VISUAL-QA-001",
         "weight": 2
       },
       {
@@ -109073,6 +109575,10 @@
       },
       {
         "document": "AIXEM-RELEASE-053-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       },
       {
@@ -109125,6 +109631,10 @@
       },
       {
         "document": "AIXEM-FORMAT-AIXLIB-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       },
       {
@@ -110244,6 +110754,10 @@
       {
         "document": "AIXEM-SPEC-AGENT-TASK-001",
         "weight": 3
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
       },
       {
         "document": "AIXEM-SPEC-RENDERER-001",
@@ -111442,12 +111956,12 @@
         "weight": 5
       },
       {
-        "document": "AIXEM-CONF-AGENT-LIVE-001",
-        "weight": 4
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 5
       },
       {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
-        "weight": 3
+        "document": "AIXEM-CONF-AGENT-LIVE-001",
+        "weight": 4
       },
       {
         "document": "AIXEM-SYMBOL-COOKBOOK-001",
@@ -111459,6 +111973,10 @@
       },
       {
         "document": "AIXEM-AGENT-LIVE-COLD-START-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 2
       },
       {
@@ -111567,6 +112085,10 @@
       },
       {
         "document": "AIXEM-FORMAT-AIXSYM-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       },
       {
@@ -111874,6 +112396,10 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-RELEASE-051-001",
         "weight": 1
       },
@@ -111883,6 +112409,12 @@
       },
       {
         "document": "AIXEM-SPEC-SYMBOL-DESIGN-001",
+        "weight": 1
+      }
+    ],
+    "next-item": [
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       }
     ],
@@ -112676,6 +113208,10 @@
       {
         "document": "AIXEM-AUTHORING-GUIDE-VALIDATE-PROJECT-001",
         "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
       }
     ],
     "noncanonical.": [
@@ -112718,6 +113254,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-VIEWER-001",
         "weight": 1
       }
@@ -112747,6 +113287,10 @@
     "normal": [
       {
         "document": "AIXEM-RELEASE-051-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 2
       },
       {
@@ -112802,11 +113346,11 @@
         "weight": 1
       },
       {
-        "document": "AIXEM-SCHEM-VISUAL-001",
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       },
       {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "document": "AIXEM-SCHEM-VISUAL-001",
         "weight": 1
       },
       {
@@ -113474,6 +114018,10 @@
         "weight": 12
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 12
+      },
+      {
         "document": "AIXEM-SPEC-VIEWER-001",
         "weight": 12
       },
@@ -113487,10 +114035,6 @@
       },
       {
         "document": "AIXEM-FORMAT-AIXLAYOUT-001",
-        "weight": 10
-      },
-      {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 10
       },
       {
@@ -115180,6 +115724,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-SPEC-INTERFACE-PORT-001",
         "weight": 2
       },
@@ -115345,10 +115893,6 @@
       },
       {
         "document": "AIXEM-SPEC-AGENT-TASK-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
         "weight": 1
       },
       {
@@ -115586,6 +116130,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-SELECT-LIBRARY-PART-001",
         "weight": 2
       },
@@ -115603,6 +116151,10 @@
       },
       {
         "document": "AIXEM-FORMAT-AIXLIB-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 2
       },
       {
@@ -115834,10 +116386,6 @@
         "weight": 1
       },
       {
-        "document": "AIXEM-RELEASE-059-001",
-        "weight": 1
-      },
-      {
         "document": "AIXEM-ROUTE-CONSTRAINT-001",
         "weight": 1
       },
@@ -116050,6 +116598,10 @@
         "weight": 4
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-CREATE-SCHEMATIC-001",
         "weight": 3
       },
@@ -116103,10 +116655,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-AUTHOR-COMPONENT-CIRCUIT-001",
-        "weight": 2
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 2
       },
       {
@@ -116315,6 +116863,10 @@
       },
       {
         "document": "AIXEM-AGENT-AUTHORING-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 1
       },
       {
@@ -116690,6 +117242,14 @@
         "weight": 6
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 5
+      },
+      {
+        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "weight": 4
+      },
+      {
         "document": "AIXEM-AGENT-ARCH-001",
         "weight": 3
       },
@@ -116958,10 +117518,6 @@
         "weight": 3
       },
       {
-        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
-        "weight": 3
-      },
-      {
         "document": "AIXEM-SPEC-DOCUMENT-001",
         "weight": 3
       },
@@ -117046,11 +117602,19 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-CONF-AGENT-LIVE-001",
         "weight": 1
       },
       {
         "document": "AIXEM-RELEASE-0581-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       }
     ],
@@ -117180,6 +117744,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-CONCEPT-COMPONENT-001",
         "weight": 1
       },
@@ -117242,6 +117810,10 @@
     ],
     "optionally": [
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SYMBOL-PRIMITIVES-001",
         "weight": 1
       }
@@ -117271,7 +117843,7 @@
     "or": [
       {
         "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
-        "weight": 25
+        "weight": 27
       },
       {
         "document": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
@@ -117299,7 +117871,7 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
-        "weight": 12
+        "weight": 13
       },
       {
         "document": "AIXEM-FORMAT-AIXLAYOUT-001",
@@ -117310,11 +117882,11 @@
         "weight": 12
       },
       {
-        "document": "AIXEM-AGENT-VISUAL-QA-001",
-        "weight": 11
+        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "weight": 12
       },
       {
-        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "document": "AIXEM-AGENT-VISUAL-QA-001",
         "weight": 11
       },
       {
@@ -118496,6 +119068,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
         "weight": 1
       },
@@ -118511,6 +119087,18 @@
     "original.": [
       {
         "document": "AIXEM-ARCH-ADR-0003",
+        "weight": 1
+      }
+    ],
+    "originates": [
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 2
+      }
+    ],
+    "originating": [
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 1
       }
     ],
@@ -123669,11 +124257,11 @@
     "part": [
       {
         "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
-        "weight": 16
+        "weight": 17
       },
       {
         "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
-        "weight": 15
+        "weight": 17
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-SELECT-LIBRARY-PART-001",
@@ -123697,6 +124285,10 @@
       },
       {
         "document": "AIXEM-CONCEPT-INDEX-001",
+        "weight": 5
+      },
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 5
       },
       {
@@ -123733,10 +124325,6 @@
       },
       {
         "document": "AIXEM-RELEASE-040-001",
-        "weight": 4
-      },
-      {
-        "document": "AIXEM-RELEASE-059-001",
         "weight": 4
       },
       {
@@ -123873,6 +124461,12 @@
       },
       {
         "document": "AIXEM-SYMBOL-LINT-001",
+        "weight": 1
+      }
+    ],
+    "part-creation": [
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       }
     ],
@@ -124086,6 +124680,10 @@
         "weight": 4
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-VALIDATE-PROJECT-001",
         "weight": 3
       },
@@ -124095,6 +124693,10 @@
       },
       {
         "document": "AIXEM-RELEASE-052-001",
+        "weight": 3
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 3
       },
       {
@@ -124119,10 +124721,6 @@
       },
       {
         "document": "AIXEM-RELEASE-058-001",
-        "weight": 2
-      },
-      {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 2
       },
       {
@@ -124179,10 +124777,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-AUTHOR-COMPONENT-CIRCUIT-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 1
       },
       {
@@ -124465,6 +125059,10 @@
       }
     ],
     "passed.": [
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
+      },
       {
         "document": "AIXEM-SPEC-WORKBENCH-001",
         "weight": 1
@@ -125844,6 +126442,10 @@
       {
         "document": "AIXEM-ROUTE-COOKBOOK-001",
         "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
       }
     ],
     "permitted.": [
@@ -126259,6 +126861,10 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-AUTHOR-COMPONENT-CIRCUIT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 1
       },
       {
@@ -127289,7 +127895,7 @@
     "planning": [
       {
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
-        "weight": 9
+        "weight": 12
       },
       {
         "document": "AIXEM-GOV-DOC-AUTHORING-001",
@@ -127304,7 +127910,19 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-RELEASE-0581-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       }
     ],
@@ -127449,6 +128067,10 @@
       },
       {
         "document": "AIXEM-SPEC-AGENT-DIAGNOSTIC-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
         "weight": 1
       },
       {
@@ -128540,6 +129162,10 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 3
       },
@@ -128577,10 +129203,6 @@
       },
       {
         "document": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
-        "weight": 2
-      },
-      {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 2
       },
       {
@@ -129610,11 +130232,11 @@
         "weight": 9
       },
       {
-        "document": "AIXEM-SCHEM-VISUAL-001",
-        "weight": 8
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 9
       },
       {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "document": "AIXEM-SCHEM-VISUAL-001",
         "weight": 8
       },
       {
@@ -131266,6 +131888,12 @@
         "weight": 1
       }
     ],
+    "procedure.": [
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
+      }
+    ],
     "proceed": [
       {
         "document": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
@@ -131526,15 +132154,19 @@
         "weight": 6
       },
       {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 5
+      },
+      {
         "document": "AIXEM-CONF-VALIDATION-001",
         "weight": 4
       },
       {
-        "document": "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
-        "weight": 2
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 3
       },
       {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "document": "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
         "weight": 2
       },
       {
@@ -131543,6 +132175,10 @@
       },
       {
         "document": "AIXEM-AGENT-VISUAL-QA-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 1
       },
       {
@@ -131555,10 +132191,6 @@
       },
       {
         "document": "AIXEM-RELEASE-052-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       },
       {
@@ -132035,6 +132667,10 @@
       }
     ],
     "progress": [
+      {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 1
+      },
       {
         "document": "AIXEM-SYMBOL-COOKBOOK-001",
         "weight": 1
@@ -132996,6 +133632,12 @@
         "weight": 1
       }
     ],
+    "promotes": [
+      {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 1
+      }
+    ],
     "prompt": [
       {
         "document": "AIXEM-SPEC-AGENT-TASK-001",
@@ -133414,11 +134056,11 @@
         "weight": 5
       },
       {
-        "document": "AIXEM-CONCEPT-COMPONENT-001",
-        "weight": 3
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 4
       },
       {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "document": "AIXEM-CONCEPT-COMPONENT-001",
         "weight": 3
       },
       {
@@ -133861,7 +134503,7 @@
     "provenance": [
       {
         "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
-        "weight": 14
+        "weight": 16
       },
       {
         "document": "AIXEM-SYMBOL-AIXSYM-REF-001",
@@ -133880,12 +134522,12 @@
         "weight": 5
       },
       {
-        "document": "AIXEM-FORMAT-AIXSYM-001",
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 5
       },
       {
-        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
-        "weight": 4
+        "document": "AIXEM-FORMAT-AIXSYM-001",
+        "weight": 5
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-VALIDATE-PROJECT-001",
@@ -133893,6 +134535,10 @@
       },
       {
         "document": "AIXEM-FORMAT-AIXPROJ-001",
+        "weight": 3
+      },
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 3
       },
       {
@@ -133909,10 +134555,6 @@
       },
       {
         "document": "AIXEM-GOV-DOC-AUTHORING-001",
-        "weight": 2
-      },
-      {
-        "document": "AIXEM-RELEASE-059-001",
         "weight": 2
       },
       {
@@ -135120,6 +135762,10 @@
         "weight": 15
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 5
+      },
+      {
         "document": "AIXEM-EXAMPLE-SYMBOL-CORPUS-001",
         "weight": 4
       },
@@ -135129,10 +135775,6 @@
       },
       {
         "document": "AIXEM-AGENT-LIVE-COLD-START-001",
-        "weight": 2
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 2
       },
       {
@@ -135399,6 +136041,34 @@
       },
       {
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "weight": 1
+      }
+    ],
+    "queue": [
+      {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 5
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 4
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 3
+      }
+    ],
+    "queued": [
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 4
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDES-INDEX-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       }
     ],
@@ -136152,6 +136822,12 @@
         "weight": 1
       }
     ],
+    "re-opened": [
+      {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 1
+      }
+    ],
     "re-place": [
       {
         "document": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
@@ -136680,6 +137356,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
         "weight": 1
       }
@@ -136697,7 +137377,7 @@
     "readme.md": [
       {
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
-        "weight": 6
+        "weight": 7
       },
       {
         "document": "AIXEM-GOV-DOC-AUTHORING-001",
@@ -137464,6 +138144,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-CONCEPT-DETERMINISM-001",
         "weight": 2
       },
@@ -137541,10 +138225,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-COMPOSE-PROJECT-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 1
       },
       {
@@ -137692,6 +138372,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-METADATA-001",
         "weight": 1
       },
@@ -137766,6 +138450,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SYMBOL-AIXSYM-REF-001",
         "weight": 1
       }
@@ -137801,6 +138489,10 @@
       },
       {
         "document": "AIXEM-SPEC-AGENT-RUN-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       },
       {
@@ -143774,6 +144466,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-ROUTE-CONSTRAINT-001",
         "weight": 1
       },
@@ -144378,6 +145074,10 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
         "weight": 3
       },
@@ -144443,10 +145143,6 @@
       },
       {
         "document": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
-        "weight": 2
-      },
-      {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 2
       },
       {
@@ -144998,6 +145694,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-SCHEM-JUNCTION-001",
         "weight": 2
       },
@@ -145211,10 +145911,6 @@
       },
       {
         "document": "AIXEM-RELEASE-052-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       },
       {
@@ -146900,6 +147596,10 @@
     ],
     "replaces": [
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-GOV-COMPAT-001",
         "weight": 1
       },
@@ -148048,6 +148748,10 @@
         "weight": 8
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
         "weight": 2
       },
@@ -148084,6 +148788,10 @@
         "weight": 6
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
         "weight": 3
       },
@@ -148092,7 +148800,7 @@
         "weight": 2
       },
       {
-        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 2
       },
       {
@@ -148312,6 +149020,10 @@
         "weight": 4
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 4
+      },
+      {
         "document": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
         "weight": 4
       },
@@ -148353,10 +149065,6 @@
       },
       {
         "document": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
-        "weight": 3
-      },
-      {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 3
       },
       {
@@ -149362,6 +150070,10 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-MODIFY-SCHEMATIC-001",
         "weight": 2
       },
@@ -149379,10 +150091,6 @@
       },
       {
         "document": "AIXEM-AGENT-VALIDATION-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 1
       },
       {
@@ -149988,6 +150696,10 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-SPEC-METADATA-001",
         "weight": 3
       },
@@ -150125,10 +150837,6 @@
       },
       {
         "document": "AIXEM-SPEC-LAYOUT-001",
-        "weight": 2
-      },
-      {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 2
       },
       {
@@ -151296,6 +152004,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-CONF-AGENT-LIVE-001",
         "weight": 1
       },
@@ -151874,6 +152586,14 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-AGENT-VISUAL-QA-001",
         "weight": 1
       },
@@ -151899,14 +152619,6 @@
       },
       {
         "document": "AIXEM-RELEASE-057-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       }
     ],
@@ -152395,7 +153107,7 @@
       },
       {
         "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
-        "weight": 1
+        "weight": 2
       },
       {
         "document": "AIXEM-SYMBOL-COOKBOOK-001",
@@ -152527,7 +153239,7 @@
     "review": [
       {
         "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
-        "weight": 13
+        "weight": 15
       },
       {
         "document": "AIXEM-CONF-SYMBOL-EXP-001",
@@ -152650,7 +153362,15 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-SCHEM-PLACEMENT-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
         "weight": 2
       },
       {
@@ -152858,10 +153578,6 @@
         "weight": 1
       },
       {
-        "document": "AIXEM-RELEASE-059-001",
-        "weight": 1
-      },
-      {
         "document": "AIXEM-RELEASE-INDEX-001",
         "weight": 1
       },
@@ -153015,6 +153731,12 @@
     "review-only": [
       {
         "document": "AIXEM-SPEC-VIEWER-001",
+        "weight": 1
+      }
+    ],
+    "review-pending": [
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       }
     ],
@@ -157390,6 +158112,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-VALIDATE-PROJECT-001",
         "weight": 2
       },
@@ -157491,10 +158217,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-COMPOSE-PROJECT-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 1
       },
       {
@@ -158158,6 +158880,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
         "weight": 1
       },
@@ -158368,6 +159094,10 @@
       {
         "document": "AIXEM-SPEC-INTERFACE-PORT-001",
         "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
       }
     ],
     "save": [
@@ -158405,6 +159135,10 @@
       }
     ],
     "scalable": [
+      {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 3
+      },
       {
         "document": "AIXEM-SCHEM-SHEET-001",
         "weight": 3
@@ -158619,6 +159353,16 @@
     "scenes.": [
       {
         "document": "AIXEM-AUTHORING-GUIDE-COMPOSE-PROJECT-001",
+        "weight": 1
+      }
+    ],
+    "scheduling": [
+      {
+        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       }
     ],
@@ -160454,11 +161198,19 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-AGENT-LIVE-COLD-START-001",
         "weight": 1
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-AUTHOR-COMPONENT-CIRCUIT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 1
       },
       {
@@ -160471,10 +161223,6 @@
       },
       {
         "document": "AIXEM-SPEC-AGENT-STAGE-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       },
       {
@@ -160513,7 +161261,7 @@
     "scoped": [
       {
         "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
-        "weight": 1
+        "weight": 2
       },
       {
         "document": "AIXEM-GOV-COMPAT-001",
@@ -161680,11 +162428,19 @@
         "weight": 4
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-FORMAT-AIXLIB-001",
         "weight": 2
       },
       {
         "document": "AIXEM-SPEC-AGENT-TASK-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 2
       },
       {
@@ -161737,10 +162493,6 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-AUTHOR-COMPONENT-CIRCUIT-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 1
       },
       {
@@ -161853,10 +162605,6 @@
       },
       {
         "document": "AIXEM-SPEC-INDEX-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       },
       {
@@ -162192,6 +162940,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-RELEASE-INDEX-001",
         "weight": 1
       },
@@ -162277,6 +163029,10 @@
       },
       {
         "document": "AIXEM-SPEC-INDEX-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       },
       {
@@ -162480,6 +163236,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 2
       },
@@ -162525,10 +163285,6 @@
       },
       {
         "document": "AIXEM-FORMAT-AIXEM-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       },
       {
@@ -162738,6 +163494,10 @@
         "weight": 20
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 19
+      },
+      {
         "document": "AIXEM-SPEC-RENDERER-001",
         "weight": 18
       },
@@ -162751,10 +163511,6 @@
       },
       {
         "document": "AIXEM-SPEC-INTERFACE-PORT-001",
-        "weight": 16
-      },
-      {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 16
       },
       {
@@ -162894,6 +163650,10 @@
         "weight": 5
       },
       {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 5
+      },
+      {
         "document": "AIXEM-SCHEM-PLACEMENT-001",
         "weight": 5
       },
@@ -162978,10 +163738,6 @@
         "weight": 3
       },
       {
-        "document": "AIXEM-RELEASE-059-001",
-        "weight": 3
-      },
-      {
         "document": "AIXEM-SPEC-INDEX-001",
         "weight": 3
       },
@@ -163050,6 +163806,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-START-INTRO-001",
         "weight": 2
       },
@@ -163107,10 +163867,6 @@
       },
       {
         "document": "AIXEM-SPEC-AGENT-TASK-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
         "weight": 1
       },
       {
@@ -163298,6 +164054,10 @@
         "weight": 4
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 4
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 3
       },
@@ -163319,10 +164079,6 @@
       },
       {
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
-        "weight": 3
-      },
-      {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 3
       },
       {
@@ -163678,6 +164434,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-ROUTE-INDEX-001",
         "weight": 1
       },
@@ -163751,7 +164511,7 @@
     "separated": [
       {
         "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
-        "weight": 3
+        "weight": 4
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-AUTHOR-COMPONENT-CIRCUIT-001",
@@ -163770,6 +164530,12 @@
         "weight": 1
       }
     ],
+    "separated-validation": [
+      {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 1
+      }
+    ],
     "separately": [
       {
         "document": "AIXEM-AUTHORING-GUIDE-CREATE-SCHEMATIC-001",
@@ -163777,6 +164543,10 @@
       },
       {
         "document": "AIXEM-SCHEM-COOKBOOK-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 2
       },
       {
@@ -163809,10 +164579,6 @@
       },
       {
         "document": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       },
       {
@@ -164684,6 +165450,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-SYMBOL-COOKBOOK-001",
         "weight": 2
       },
@@ -164773,10 +165543,6 @@
       },
       {
         "document": "AIXEM-SPEC-AGENT-RUN-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       },
       {
@@ -164975,6 +165741,26 @@
     "shapes.": [
       {
         "document": "AIXEM-SYMBOL-PRIMITIVES-001",
+        "weight": 1
+      }
+    ],
+    "shard": [
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "weight": 1
+      }
+    ],
+    "shards": [
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       }
     ],
@@ -167060,6 +167846,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SCHEM-COOKBOOK-001",
         "weight": 1
       },
@@ -167747,7 +168537,7 @@
     "source-bound": [
       {
         "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
-        "weight": 4
+        "weight": 5
       },
       {
         "document": "AIXEM-RELEASE-059-001",
@@ -168495,6 +169285,10 @@
       },
       {
         "document": "AIXEM-CONF-VALIDATION-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       }
     ],
@@ -169906,6 +170700,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-VIEWER-STATE-001",
         "weight": 1
       }
@@ -170057,6 +170855,10 @@
       },
       {
         "document": "AIXEM-SPEC-AGENT-LIVE-RUN-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       }
     ],
@@ -171031,6 +171833,10 @@
       },
       {
         "document": "AIXEM-CONCEPT-DETERMINISM-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       },
       {
@@ -172100,6 +172906,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-VIEWER-001",
         "weight": 1
       },
@@ -172212,6 +173022,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-CONF-AGENT-AUTHORING-001",
         "weight": 1
       },
@@ -172221,10 +173035,6 @@
       },
       {
         "document": "AIXEM-RELEASE-051-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       },
       {
@@ -172263,6 +173073,10 @@
       },
       {
         "document": "AIXEM-EXAMPLE-SYMBOL-CORPUS-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       }
     ],
@@ -172647,6 +173461,10 @@
       },
       {
         "document": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       },
       {
@@ -173346,11 +174164,11 @@
         "weight": 9
       },
       {
-        "document": "AIXEM-RELEASE-052-001",
-        "weight": 7
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 8
       },
       {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "document": "AIXEM-RELEASE-052-001",
         "weight": 7
       },
       {
@@ -173378,6 +174196,10 @@
         "weight": 5
       },
       {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 5
+      },
+      {
         "document": "AIXEM-SCHEM-VISUAL-001",
         "weight": 5
       },
@@ -173399,10 +174221,6 @@
       },
       {
         "document": "AIXEM-FORMAT-INDEX-001",
-        "weight": 4
-      },
-      {
-        "document": "AIXEM-RELEASE-059-001",
         "weight": 4
       },
       {
@@ -174598,11 +175416,19 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-AGENT-FAILURE-001",
         "weight": 1
       },
       {
         "document": "AIXEM-ARCH-ADR-0004",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 1
       },
       {
@@ -174639,6 +175465,10 @@
       },
       {
         "document": "AIXEM-RELEASE-056-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       },
       {
@@ -175700,6 +176530,10 @@
       {
         "document": "AIXEM-GOV-DOC-AUTHORING-001",
         "weight": 3
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 1
       },
       {
         "document": "AIXEM-CONF-RELEASE-001",
@@ -177210,6 +178044,10 @@
         "weight": 7
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 6
+      },
+      {
         "document": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
         "weight": 6
       },
@@ -177223,10 +178061,6 @@
       },
       {
         "document": "AIXEM-SPEC-INTERFACE-PORT-001",
-        "weight": 5
-      },
-      {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 5
       },
       {
@@ -178098,6 +178932,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-INDEX-001",
         "weight": 1
       },
@@ -178347,6 +179185,10 @@
       },
       {
         "document": "AIXEM-ARCH-SYSTEM-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 1
       },
       {
@@ -178784,6 +179626,12 @@
         "weight": 1
       }
     ],
+    "three-digit": [
+      {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 1
+      }
+    ],
     "three-level": [
       {
         "document": "AIXEM-CONF-HIERARCHICAL-PROJECT-001",
@@ -179039,6 +179887,10 @@
       },
       {
         "document": "AIXEM-RELEASE-058-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 2
       },
       {
@@ -179299,10 +180151,6 @@
       },
       {
         "document": "AIXEM-RELEASE-0581-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       },
       {
@@ -179946,6 +180794,10 @@
         "weight": 6
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 6
+      },
+      {
         "document": "AIXEM-SPEC-SYMBOL-DESIGN-001",
         "weight": 6
       },
@@ -180023,10 +180875,6 @@
       },
       {
         "document": "AIXEM-SPEC-INTERFACE-PORT-001",
-        "weight": 5
-      },
-      {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 5
       },
       {
@@ -180651,7 +181499,7 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
-        "weight": 4
+        "weight": 7
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-CREATE-SCHEMATIC-001",
@@ -180723,6 +181571,10 @@
       },
       {
         "document": "AIXEM-RELEASE-055-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       },
       {
@@ -181612,6 +182464,10 @@
       {
         "document": "AIXEM-AGENT-LIVE-COLD-START-001",
         "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
       }
     ],
     "transaction-command": [
@@ -182258,6 +183114,10 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-AUTHORING-GUIDE-COMPOSE-PROJECT-001",
         "weight": 1
       },
@@ -182271,10 +183131,6 @@
       },
       {
         "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
-        "weight": 1
-      },
-      {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       },
       {
@@ -183039,6 +183895,18 @@
       },
       {
         "document": "AIXEM-SYMBOL-COOKBOOK-001",
+        "weight": 1
+      }
+    ],
+    "unchecked": [
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 2
+      }
+    ],
+    "unchecked.": [
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 1
       }
     ],
@@ -185104,6 +185972,10 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-AGENT-VISUAL-QA-001",
         "weight": 2
       },
@@ -185129,10 +186001,6 @@
       },
       {
         "document": "AIXEM-SPEC-HIERARCHICAL-PORT-LAYOUT-001",
-        "weight": 2
-      },
-      {
-        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 2
       },
       {
@@ -185272,6 +186140,10 @@
         "weight": 3
       },
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 3
+      },
+      {
         "document": "AIXEM-FORMAT-INDEX-001",
         "weight": 3
       },
@@ -185357,6 +186229,10 @@
       },
       {
         "document": "AIXEM-SPEC-LAYOUT-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 2
       },
       {
@@ -186281,7 +187157,7 @@
       },
       {
         "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
-        "weight": 15
+        "weight": 16
       },
       {
         "document": "AIXEM-RELEASE-051-001",
@@ -186368,6 +187244,10 @@
         "weight": 8
       },
       {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 8
+      },
+      {
         "document": "AIXEM-ROUTE-CONSTRAINT-001",
         "weight": 8
       },
@@ -186449,10 +187329,6 @@
       },
       {
         "document": "AIXEM-RELEASE-053-001",
-        "weight": 7
-      },
-      {
-        "document": "AIXEM-RELEASE-059-001",
         "weight": 7
       },
       {
@@ -192550,6 +193426,10 @@
     ],
     "work": [
       {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
+        "weight": 5
+      },
+      {
         "document": "AIXEM-AGENT-INDEX-001",
         "weight": 3
       },
@@ -192559,6 +193439,10 @@
       },
       {
         "document": "AIXEM-AGENT-AUTHORING-001",
+        "weight": 2
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 2
       },
       {
@@ -192582,6 +193466,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-RELEASE-059-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-AGENT-LIVE-RUN-001",
         "weight": 1
       },
@@ -192593,6 +193481,10 @@
     "work.": [
       {
         "document": "AIXEM-AGENT-AUTHORING-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "weight": 1
       }
     ],
@@ -193316,6 +194208,10 @@
         "weight": 1
       },
       {
+        "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
+        "weight": 1
+      },
+      {
         "document": "AIXEM-SPEC-PROJECT-COMPOSITION-001",
         "weight": 1
       }
@@ -193343,6 +194239,10 @@
       },
       {
         "document": "AIXEM-AUTHORING-GUIDE-PLACE-COMPONENTS-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       },
       {
@@ -193392,11 +194292,19 @@
         "weight": 2
       },
       {
+        "document": "AIXEM-SPEC-DOC-GOVERNANCE-001",
+        "weight": 2
+      },
+      {
         "document": "AIXEM-START-QUICK-001",
         "weight": 2
       },
       {
         "document": "AIXEM-AGENT-VALIDATION-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
         "weight": 1
       },
       {
@@ -193413,6 +194321,10 @@
       },
       {
         "document": "AIXEM-RELEASE-056-001",
+        "weight": 1
+      },
+      {
+        "document": "AIXEM-RELEASE-059-001",
         "weight": 1
       },
       {

@@ -129,7 +129,7 @@
       },
       {
         "bytes": 1947,
-        "digest": "sha256:c86061b1b18b588ff4ecf067044bac116c38cb84d8ace187d4b550912cbfcd6e",
+        "digest": "sha256:b0bc97a2d92234fe75e2ebb48df9ed45d4603da72f28331d3a387708a55b05c8",
         "path": "reference/cards/authoring/guides/create-library-part.aixcard.json"
       },
       {
@@ -144,7 +144,7 @@
       },
       {
         "bytes": 1833,
-        "digest": "sha256:455876d30cc9a6a91c98ed7801a24b66389a571b75e7db9c95b0ca47bcf9c1e2",
+        "digest": "sha256:144f264002795ebf6b6a2c7539f57decf981f764bdec8b13bcd021eefe38146f",
         "path": "reference/cards/authoring/guides/overview.aixcard.json"
       },
       {
@@ -459,7 +459,7 @@
       },
       {
         "bytes": 2065,
-        "digest": "sha256:f461dcd0370512bcfa3cd9fc11865dc8a2d5f44c4bfaf324330c1cc0dc44d355",
+        "digest": "sha256:446f0d561f731304bfa77387a619fe30da51e0910183fd278c350f010d55e76f",
         "path": "reference/cards/releases/0.5.9.aixcard.json"
       },
       {
@@ -604,7 +604,7 @@
       },
       {
         "bytes": 3170,
-        "digest": "sha256:a17b151fe4d4c72924933880cfcf6f06e39eb1078176e721ddef81a7c21d6000",
+        "digest": "sha256:554df06cf38ace53957776b811aa237cbbff3f009bf2b3c474245b2feff69187",
         "path": "reference/cards/specifications/components/library-layout-contract.aixcard.json"
       },
       {
@@ -634,7 +634,7 @@
       },
       {
         "bytes": 4978,
-        "digest": "sha256:3d08691f9585e14b5b9ace6e2eb89533f94036db965632727780806d55a06532",
+        "digest": "sha256:5919d151b0cdc45c34921abb0ecc0deab560e6aa94afe48e6ce5264ebcfe29d7",
         "path": "reference/cards/specifications/documentation/document-governance-contract.aixcard.json"
       },
       {
@@ -888,8 +888,8 @@
         "path": "reference/indexes/dependency-graph.json"
       },
       {
-        "bytes": 4150299,
-        "digest": "sha256:79aff311230753f190c5b6b6026ef6a12e3734986f194816e1826cfb551ff395",
+        "bytes": 4170584,
+        "digest": "sha256:ee090be78b08227baa927004364f297a5e603b21b04577bbe3ef441c78f62872",
         "path": "reference/indexes/inverted-index.json"
       },
       {

@@ -112,7 +112,7 @@
         "Final source, render, and evidence artifacts are deterministic"
       ],
       "computed": {
-        "aggregateStageBytes": 320692,
+        "aggregateStageBytes": 323566,
         "aggregateStageDocuments": 35,
         "budgetScope": "per-stage",
         "bytes": 0,
@@ -1015,7 +1015,7 @@
         "Rendered output and resolved scene pass deterministic visual review"
       ],
       "computed": {
-        "bytes": 77705,
+        "bytes": 79142,
         "documents": 7,
         "maxDepth": 3
       },
@@ -1069,8 +1069,8 @@
       "source": "docs/_meta/routes/create-symbol.yaml",
       "steps": [
         {
-          "bytes": 13986,
-          "digest": "sha256:3b69de52984770c79e996584ce3936cbb344f03417a80e037d60c087127e60ad",
+          "bytes": 15423,
+          "digest": "sha256:3447084e205358fc54be1a63f57fbfd502ee5c6bf7ba8e0a58d5e0a66d99012a",
           "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
           "order": 1,
           "path": "docs/specifications/components/library-layout-contract.md",
@@ -2229,7 +2229,7 @@
         "Applicable symbol expressiveness tier and MU boundary are reported"
       ],
       "computed": {
-        "bytes": 71398,
+        "bytes": 72835,
         "documents": 7,
         "maxDepth": 3
       },
@@ -2285,8 +2285,8 @@
           "sitePath": "conformance/validation.html"
         },
         {
-          "bytes": 13986,
-          "digest": "sha256:3b69de52984770c79e996584ce3936cbb344f03417a80e037d60c087127e60ad",
+          "bytes": 15423,
+          "digest": "sha256:3447084e205358fc54be1a63f57fbfd502ee5c6bf7ba8e0a58d5e0a66d99012a",
           "document": "AIXEM-SPEC-LIBRARY-LAYOUT-001",
           "order": 3,
           "path": "docs/specifications/components/library-layout-contract.md",

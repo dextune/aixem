@@ -15,7 +15,7 @@ aliases:
 - project library root
 agent:
   priority: critical
-  estimated_tokens: 2555
+  estimated_tokens: 2914
   intents:
   - create-symbol
   - create-schematic
@@ -103,6 +103,14 @@ project manifest
 ```
 
 A path assists retrieval. It never replaces the IDs and digests inside the authoritative files. Symbol provenance describes the graphic asset; it does not independently prove the pinout of each component that uses that asset.
+
+## Operational Backlog Boundary
+
+`planning/library-parts/` is permitted as noncanonical operational scheduling state for future reusable-part work. A backlog entry contains only a target folder and a human-readable part name. It does not define component IDs, endpoint inventories, provenance, properties, electrical semantics, symbol geometry, or readiness.
+
+A checked backlog item means the required part-creation workflow completed successfully and a matching generation `PASS` record exists. That checkbox is never a substitute for authoritative `.aixlib.json` / `.aixsym.json` content or source-bound semantic review evidence. A failed attempt remains unchecked and is retained as a `FAIL` generation record. Independent review is recorded separately and may later fail even when the original creation transaction passed.
+
+When queued work is selected, normal authoring starts from this contract: resolve provenance, semantic identity, ports, presentation, binding, digests, and separated validation claims from authoritative evidence. If an equivalent valid production part already exists, validate that exact identity and target before closing the queue item; do not manufacture a duplicate merely to satisfy a checkbox.
 
 ## Canonical Authoring Root
 
@@ -230,6 +238,8 @@ The review records pin numbers, canonical names, electrical behavior types, appl
 Review evidence is derived and release-scoped. It does not become component authority and cannot be edited to redefine source truth.
 
 ## Authoring and Validation Procedure
+
+For backlog-driven work, validate the operational queue and select only the requested unchecked item set before entering this procedure. Queue text narrows requested scope but never supplies semantic truth.
 
 1. Resolve the active project or authoring root.
 2. Determine whether the task adds a reusable asset, repairs an existing asset, or explicitly migrates a legacy asset.

@@ -9,7 +9,7 @@
       "authoring-guide-create-library-part"
     ],
     "domain": "authoring",
-    "estimatedReadBytes": 7433,
+    "estimatedReadBytes": 8525,
     "id": "AIXEM-AUTHORING-GUIDE-CREATE-LIBRARY-PART-001",
     "inputs": [],
     "keywords": [
@@ -26,7 +26,7 @@
       "generatedAt": "2026-08-12T00:00:00Z",
       "path": "reference/cards/authoring/guides/create-library-part.aixcard.json",
       "release": "AIXEM-SRP-0.5.9-2026-08-12",
-      "sourceDigest": "sha256:6250190c62752db3923873b346772813f70835dcff760811180b07b6c3e7af84"
+      "sourceDigest": "sha256:ea7c7f7614f91dc13372342917ec7c6abc4f026b0be776b6fb49cde4aadbea2d"
     },
     "outputs": [],
     "ownerArtifacts": [],

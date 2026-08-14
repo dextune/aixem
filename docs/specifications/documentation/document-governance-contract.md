@@ -16,7 +16,7 @@ aliases:
 - documentation information architecture contract
 agent:
   priority: critical
-  estimated_tokens: 4249
+  estimated_tokens: 4350
   intents:
   - build-documentation
   - publish-release
@@ -186,6 +186,7 @@ The supported roles are:
 | Repository entrypoint or policy | Permanent, conventional root guidance; never a substitute for canonical technical rules. |
 | Canonical documentation | Current technical authority under `docs/`, with stable ID and navigation registration. |
 | Implementation plan | Version-scoped historical intent under `planning/releases/`. |
+| Library authoring workspace/backlog | Mutable operational scheduling under `planning/library-parts/`; generation and review logs are retained history, and none of these files are component or semantic authority. |
 | Validation release index/report | Version-scoped immutable human evidence under `validation/releases/`. |
 | Machine-bound evidence narrative | Retained under `validation/evidence/` because paths may be schema-, test-, or digest-bound. |
 | Evaluation or corpus instruction | Local `README.md`, scoring guide, result summary, or `TASK.md` owned by a registered suite/case. |
@@ -219,6 +220,7 @@ A document is orphaned when it lacks the official discovery mechanism for its ro
 - canonical documents are discovered through `docs/_meta/navigation.yaml`;
 - root entrypoints are discovered through the root whitelist;
 - plans are registered in `planning/index.yaml` and linked from `planning/README.md`;
+- the library-authoring workspace is linked from `planning/README.md`, and `planning/library-parts/index.md` links every current backlog shard plus every created dated generation/review log;
 - human validation reports are linked from their release `README.md`;
 - suite and corpus instructions are owned by their local registered directory;
 - evaluation `TASK.md` files are owned by the case descriptor in the same case directory;

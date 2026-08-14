@@ -2876,8 +2876,8 @@
     },
     {
       "agent": {
-        "computedEstimatedTokens": 1607,
-        "estimated_tokens": 1607,
+        "computedEstimatedTokens": 1880,
+        "estimated_tokens": 1880,
         "intents": [
           "create-symbol",
           "author-component-circuit",
@@ -2893,13 +2893,13 @@
       "authority": [
         "authoring-guide-create-library-part"
       ],
-      "bytes": 7433,
+      "bytes": 8525,
       "dependsOn": [
         "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001",
         "AIXEM-SPEC-SYMBOL-DESIGN-001"
       ],
-      "digest": "sha256:6250190c62752db3923873b346772813f70835dcff760811180b07b6c3e7af84",
+      "digest": "sha256:ea7c7f7614f91dc13372342917ec7c6abc4f026b0be776b6fb49cde4aadbea2d",
       "domain": "authoring",
       "headings": [
         {
@@ -2941,61 +2941,61 @@
         {
           "anchor": "6-authority-allowed-to-change",
           "level": 2,
-          "line": 29,
+          "line": 30,
           "text": "6. Authority Allowed to Change"
         },
         {
           "anchor": "7-canonical-output-location",
           "level": 2,
-          "line": 33,
+          "line": 34,
           "text": "7. Canonical Output Location"
         },
         {
           "anchor": "8-important-default-profile-values",
           "level": 2,
-          "line": 44,
+          "line": 45,
           "text": "8. Important Default Profile Values"
         },
         {
           "anchor": "9-short-execution-sequence",
           "level": 2,
-          "line": 56,
+          "line": 57,
           "text": "9. Short Execution Sequence"
         },
         {
           "anchor": "10-canonical-reference-table",
           "level": 2,
-          "line": 68,
+          "line": 72,
           "text": "10. Canonical Reference Table"
         },
         {
           "anchor": "11-validators-and-tools",
           "level": 2,
-          "line": 81,
+          "line": 85,
           "text": "11. Validators and Tools"
         },
         {
           "anchor": "12-completion-criteria",
           "level": 2,
-          "line": 87,
+          "line": 92,
           "text": "12. Completion Criteria"
         },
         {
           "anchor": "13-stop-fail-closed-conditions",
           "level": 2,
-          "line": 91,
+          "line": 96,
           "text": "13. Stop / Fail-Closed Conditions"
         },
         {
           "anchor": "14-common-mistakes",
           "level": 2,
-          "line": 95,
+          "line": 100,
           "text": "14. Common Mistakes"
         },
         {
           "anchor": "15-evidence-outputs",
           "level": 2,
-          "line": 99,
+          "line": 104,
           "text": "15. Evidence / Outputs"
         }
       ],
@@ -4002,8 +4002,8 @@
     },
     {
       "agent": {
-        "computedEstimatedTokens": 605,
-        "estimated_tokens": 605,
+        "computedEstimatedTokens": 613,
+        "estimated_tokens": 613,
         "intents": [
           "create-symbol",
           "create-schematic",
@@ -4023,11 +4023,11 @@
       "authority": [
         "authoring-guide-navigation"
       ],
-      "bytes": 3257,
+      "bytes": 3290,
       "dependsOn": [
         "AIXEM-AUTHORING-INDEX-001"
       ],
-      "digest": "sha256:45ef567f846eeba5cf1c8d900e0cd260f4c27563f13b984a34ae60573a532643",
+      "digest": "sha256:723a7f31099f3f8ca389cab8cc551c7a385db4909ae1cc9dc108e4a964768843",
       "domain": "authoring",
       "headings": [
         {
@@ -10296,8 +10296,8 @@
     },
     {
       "agent": {
-        "computedEstimatedTokens": 1164,
-        "estimated_tokens": 1164,
+        "computedEstimatedTokens": 1381,
+        "estimated_tokens": 1381,
         "intents": [
           "create-symbol",
           "create-schematic",
@@ -10314,13 +10314,13 @@
       "authority": [
         "release-notes"
       ],
-      "bytes": 5793,
+      "bytes": 6661,
       "dependsOn": [
         "AIXEM-RELEASE-0581-001",
         "AIXEM-SPEC-LIBRARY-LAYOUT-001",
         "AIXEM-SPEC-PIN-ELECTRICAL-SEMANTICS-001"
       ],
-      "digest": "sha256:d0557b5b897e93b780e0c186c875be8405aae0f1488f743a14cb3a98fdd931a2",
+      "digest": "sha256:af450c6884c16fd1b9622b29463c1cbd19b7b7aa0095cea44032890ce4ef3cef",
       "domain": "releases",
       "headings": [
         {
@@ -10342,39 +10342,45 @@
           "text": "Authoring and Library Integrity"
         },
         {
-          "anchor": "grid-symbol-sizing-and-placement",
+          "anchor": "scalable-library-part-production-queue",
           "level": 2,
           "line": 28,
+          "text": "Scalable Library-Part Production Queue"
+        },
+        {
+          "anchor": "grid-symbol-sizing-and-placement",
+          "level": 2,
+          "line": 36,
           "text": "Grid, Symbol Sizing, and Placement"
         },
         {
           "anchor": "pin-semantics-and-bounded-compatibility",
           "level": 2,
-          "line": 37,
+          "line": 45,
           "text": "Pin Semantics and Bounded Compatibility"
         },
         {
           "anchor": "validation-claim-boundary",
           "level": 2,
-          "line": 46,
+          "line": 54,
           "text": "Validation Claim Boundary"
         },
         {
           "anchor": "compatibility-and-deliberate-non-goals",
           "level": 2,
-          "line": 59,
+          "line": 67,
           "text": "Compatibility and Deliberate Non-Goals"
         },
         {
           "anchor": "external-agent-claim-boundary",
           "level": 2,
-          "line": 65,
+          "line": 73,
           "text": "External-Agent Claim Boundary"
         },
         {
           "anchor": "evidence",
           "level": 2,
-          "line": 75,
+          "line": 83,
           "text": "Evidence"
         }
       ],
@@ -14184,8 +14190,8 @@
     },
     {
       "agent": {
-        "computedEstimatedTokens": 4249,
-        "estimated_tokens": 4249,
+        "computedEstimatedTokens": 4350,
+        "estimated_tokens": 4350,
         "intents": [
           "build-documentation",
           "publish-release"
@@ -14201,13 +14207,13 @@
         "repository-document-governance",
         "documentation-information-architecture"
       ],
-      "bytes": 24972,
+      "bytes": 25379,
       "dependsOn": [
         "AIXEM-SPEC-DOCUMENT-001",
         "AIXEM-SPEC-METADATA-001",
         "AIXEM-SPEC-RELEASE-001"
       ],
-      "digest": "sha256:793b036854ad8bdaf64523b88fba7d4729b40dfe2deb65ea9ea6b9041112e581",
+      "digest": "sha256:72ff9657aaa06119ecac3ee25264ebbbd881615ac14f49c2f4cc5dfffbb6399b",
       "domain": "specifications",
       "headings": [
         {
@@ -14231,175 +14237,175 @@
         {
           "anchor": "3-naming-and-placement",
           "level": 2,
-          "line": 38,
+          "line": 39,
           "text": "3. Naming and Placement"
         },
         {
           "anchor": "4-discoverability-and-orphan-semantics",
           "level": 2,
-          "line": 57,
+          "line": 58,
           "text": "4. Discoverability and Orphan Semantics"
         },
         {
           "anchor": "5-canonical-current-state-discipline",
           "level": 2,
-          "line": 72,
+          "line": 74,
           "text": "5. Canonical Current-State Discipline"
         },
         {
           "anchor": "6-canonical-path-migration",
           "level": 2,
-          "line": 86,
+          "line": 88,
           "text": "6. Canonical Path Migration"
         },
         {
           "anchor": "7-metadata-vocabulary-and-size-estimates",
           "level": 2,
-          "line": 92,
+          "line": 94,
           "text": "7. Metadata Vocabulary and Size Estimates"
         },
         {
           "anchor": "8-lifecycle-operations",
           "level": 2,
-          "line": 98,
+          "line": 100,
           "text": "8. Lifecycle Operations"
         },
         {
           "anchor": "create",
           "level": 3,
-          "line": 100,
+          "line": 102,
           "text": "Create"
         },
         {
           "anchor": "move",
           "level": 3,
-          "line": 104,
+          "line": 106,
           "text": "Move"
         },
         {
           "anchor": "deprecate-or-supersede",
           "level": 3,
-          "line": 108,
+          "line": 110,
           "text": "Deprecate or supersede"
         },
         {
           "anchor": "delete",
           "level": 3,
-          "line": 112,
+          "line": 114,
           "text": "Delete"
         },
         {
           "anchor": "9-generated-inventory",
           "level": 2,
-          "line": 116,
+          "line": 118,
           "text": "9. Generated Inventory"
         },
         {
           "anchor": "10-root-reference-and-relationship-closure",
           "level": 2,
-          "line": 127,
+          "line": 129,
           "text": "10. Root Reference and Relationship Closure"
         },
         {
           "anchor": "normative-requirements",
           "level": 2,
-          "line": 143,
+          "line": 145,
           "text": "Normative Requirements"
         },
         {
           "anchor": "aixem-req-doc-gov-0001-exact-repository-document-role",
           "level": 3,
-          "line": 147,
+          "line": 149,
           "text": "AIXEM-REQ-DOC-GOV-0001 — Exact repository document role"
         },
         {
           "anchor": "aixem-req-doc-gov-0002-root-hygiene-and-reserved-names",
           "level": 3,
-          "line": 158,
+          "line": 160,
           "text": "AIXEM-REQ-DOC-GOV-0002 — Root hygiene and reserved names"
         },
         {
           "anchor": "aixem-req-doc-gov-0003-role-aware-discoverability",
           "level": 3,
-          "line": 169,
+          "line": 171,
           "text": "AIXEM-REQ-DOC-GOV-0003 — Role-aware discoverability"
         },
         {
           "anchor": "aixem-req-doc-gov-0004-canonical-current-state-structure",
           "level": 3,
-          "line": 180,
+          "line": 182,
           "text": "AIXEM-REQ-DOC-GOV-0004 — Canonical current-state structure"
         },
         {
           "anchor": "aixem-req-doc-gov-0005-stable-identity-across-path-migration",
           "level": 3,
-          "line": 191,
+          "line": 193,
           "text": "AIXEM-REQ-DOC-GOV-0005 — Stable identity across path migration"
         },
         {
           "anchor": "aixem-req-doc-gov-0006-controlled-metadata-vocabulary",
           "level": 3,
-          "line": 202,
+          "line": 204,
           "text": "AIXEM-REQ-DOC-GOV-0006 — Controlled metadata vocabulary"
         },
         {
           "anchor": "aixem-req-doc-gov-0007-deterministic-repository-inventory",
           "level": 3,
-          "line": 213,
+          "line": 215,
           "text": "AIXEM-REQ-DOC-GOV-0007 — Deterministic repository inventory"
         },
         {
           "anchor": "aixem-req-doc-gov-0008-version-scoped-plan-and-report-lifecycle",
           "level": 3,
-          "line": 224,
+          "line": 226,
           "text": "AIXEM-REQ-DOC-GOV-0008 — Version-scoped plan and report lifecycle"
         },
         {
           "anchor": "aixem-req-doc-gov-0009-agent-document-creation-gate",
           "level": 3,
-          "line": 235,
+          "line": 237,
           "text": "AIXEM-REQ-DOC-GOV-0009 — Agent document creation gate"
         },
         {
           "anchor": "aixem-req-doc-gov-0010-unknown-markdown-fails-closed",
           "level": 3,
-          "line": 246,
+          "line": 248,
           "text": "AIXEM-REQ-DOC-GOV-0010 — Unknown Markdown fails closed"
         },
         {
           "anchor": "aixem-req-doc-gov-0011-root-reference-chain-integrity",
           "level": 3,
-          "line": 257,
+          "line": 259,
           "text": "AIXEM-REQ-DOC-GOV-0011 — Root reference-chain integrity"
         },
         {
           "anchor": "aixem-req-doc-gov-0012-complete-category-index-coverage",
           "level": 3,
-          "line": 268,
+          "line": 270,
           "text": "AIXEM-REQ-DOC-GOV-0012 — Complete category-index coverage"
         },
         {
           "anchor": "aixem-req-doc-gov-0013-current-release-coherence",
           "level": 3,
-          "line": 279,
+          "line": 281,
           "text": "AIXEM-REQ-DOC-GOV-0013 — Current-release coherence"
         },
         {
           "anchor": "aixem-req-doc-gov-0014-unambiguous-normative-authority-scope",
           "level": 3,
-          "line": 290,
+          "line": 292,
           "text": "AIXEM-REQ-DOC-GOV-0014 — Unambiguous normative authority scope"
         },
         {
           "anchor": "11-validation-and-release-closure",
           "level": 2,
-          "line": 299,
+          "line": 301,
           "text": "11. Validation and Release Closure"
         },
         {
           "anchor": "related-documents",
           "level": 2,
-          "line": 320,
+          "line": 322,
           "text": "Related Documents"
         }
       ],
@@ -14417,98 +14423,98 @@
         {
           "anchor": "AIXEM-REQ-DOC-GOV-0001",
           "id": "AIXEM-REQ-DOC-GOV-0001",
-          "line": 145,
+          "line": 147,
           "statement": "**MUST.** Every authored Markdown file MUST resolve to exactly one declared repository document role.",
           "title": "Exact repository document role"
         },
         {
           "anchor": "AIXEM-REQ-DOC-GOV-0002",
           "id": "AIXEM-REQ-DOC-GOV-0002",
-          "line": 156,
+          "line": 158,
           "statement": "**MUST.** Root Markdown and reserved special filenames MUST be limited to the explicit policy allowlists.",
           "title": "Root hygiene and reserved names"
         },
         {
           "anchor": "AIXEM-REQ-DOC-GOV-0003",
           "id": "AIXEM-REQ-DOC-GOV-0003",
-          "line": 167,
+          "line": 169,
           "statement": "**MUST.** Every human-authored document MUST be discoverable through the official mechanism declared for its role.",
           "title": "Role-aware discoverability"
         },
         {
           "anchor": "AIXEM-REQ-DOC-GOV-0004",
           "id": "AIXEM-REQ-DOC-GOV-0004",
-          "line": 178,
+          "line": 180,
           "statement": "**MUST.** Canonical documents MUST end at the canonical footer and MUST NOT contain release patch append markers.",
           "title": "Canonical current-state structure"
         },
         {
           "anchor": "AIXEM-REQ-DOC-GOV-0005",
           "id": "AIXEM-REQ-DOC-GOV-0005",
-          "line": 189,
+          "line": 191,
           "statement": "**MUST.** A canonical path migration MUST preserve document identity and produce a validated prior-path redirect.",
           "title": "Stable identity across path migration"
         },
         {
           "anchor": "AIXEM-REQ-DOC-GOV-0006",
           "id": "AIXEM-REQ-DOC-GOV-0006",
-          "line": 200,
+          "line": 202,
           "statement": "**MUST.** Canonical domain and kind values MUST use the controlled metadata vocabulary and size estimates MUST be machine checked.",
           "title": "Controlled metadata vocabulary"
         },
         {
           "anchor": "AIXEM-REQ-DOC-GOV-0007",
           "id": "AIXEM-REQ-DOC-GOV-0007",
-          "line": 211,
+          "line": 213,
           "statement": "**MUST.** Identical authored inputs MUST produce a byte-identical repository document inventory and path migration index.",
           "title": "Deterministic repository inventory"
         },
         {
           "anchor": "AIXEM-REQ-DOC-GOV-0008",
           "id": "AIXEM-REQ-DOC-GOV-0008",
-          "line": 222,
+          "line": 224,
           "statement": "**MUST.** Implementation plans and human validation reports MUST be version scoped and registered by their lifecycle owner.",
           "title": "Version-scoped plan and report lifecycle"
         },
         {
           "anchor": "AIXEM-REQ-DOC-GOV-0009",
           "id": "AIXEM-REQ-DOC-GOV-0009",
-          "line": 233,
+          "line": 235,
           "statement": "**MUST.** Repository agent instructions MUST require role, owner, discovery, lifecycle, naming, and validation decisions before creating a document.",
           "title": "Agent document creation gate"
         },
         {
           "anchor": "AIXEM-REQ-DOC-GOV-0010",
           "id": "AIXEM-REQ-DOC-GOV-0010",
-          "line": 244,
+          "line": 246,
           "statement": "**MUST.** A Markdown path that matches no declared role MUST fail repository documentation validation.",
           "title": "Unknown Markdown fails closed"
         },
         {
           "anchor": "AIXEM-REQ-DOC-GOV-0011",
           "id": "AIXEM-REQ-DOC-GOV-0011",
-          "line": 255,
+          "line": 257,
           "statement": "**MUST.** Every approved root Markdown link MUST resolve safely, the root reference map MUST link every policy-required repository area and build control, and every human-authored Markdown document MUST be reachable from the primary root entrypoint.",
           "title": "Root reference-chain integrity"
         },
         {
           "anchor": "AIXEM-REQ-DOC-GOV-0012",
           "id": "AIXEM-REQ-DOC-GOV-0012",
-          "line": 266,
+          "line": 268,
           "statement": "**MUST.** Every canonical category index MUST link every document registered in its navigation section.",
           "title": "Complete category-index coverage"
         },
         {
           "anchor": "AIXEM-REQ-DOC-GOV-0013",
           "id": "AIXEM-REQ-DOC-GOV-0013",
-          "line": 277,
+          "line": 279,
           "statement": "**MUST.** Operational root entrypoints, current release navigation, planning, validation, route paths, and release metadata MUST agree with VERSION.",
           "title": "Current-release coherence"
         },
         {
           "anchor": "AIXEM-REQ-DOC-GOV-0014",
           "id": "AIXEM-REQ-DOC-GOV-0014",
-          "line": 288,
+          "line": 290,
           "statement": "**MUST.** A normative authority scope MUST have exactly one owner unless the repository document policy explicitly declares that scope shareable.",
           "title": "Unambiguous normative authority scope"
         }
@@ -15315,8 +15321,8 @@
     },
     {
       "agent": {
-        "computedEstimatedTokens": 2555,
-        "estimated_tokens": 2555,
+        "computedEstimatedTokens": 2914,
+        "estimated_tokens": 2914,
         "intents": [
           "create-symbol",
           "create-schematic",
@@ -15332,13 +15338,13 @@
       "authority": [
         "component-library-layout-and-integrity"
       ],
-      "bytes": 13986,
+      "bytes": 15423,
       "dependsOn": [
         "AIXEM-FORMAT-AIXLIB-001",
         "AIXEM-FORMAT-AIXSYM-001",
         "AIXEM-SYMBOL-BINDING-001"
       ],
-      "digest": "sha256:3b69de52984770c79e996584ce3936cbb344f03417a80e037d60c087127e60ad",
+      "digest": "sha256:3447084e205358fc54be1a63f57fbfd502ee5c6bf7ba8e0a58d5e0a66d99012a",
       "domain": "specifications",
       "headings": [
         {
@@ -15354,75 +15360,81 @@
           "text": "Authority Split"
         },
         {
-          "anchor": "canonical-authoring-root",
+          "anchor": "operational-backlog-boundary",
           "level": 2,
           "line": 25,
+          "text": "Operational Backlog Boundary"
+        },
+        {
+          "anchor": "canonical-authoring-root",
+          "level": 2,
+          "line": 33,
           "text": "Canonical Authoring Root"
         },
         {
           "anchor": "aixem-req-library-0001-canonical-new-artifact-path",
           "level": 3,
-          "line": 29,
+          "line": 37,
           "text": "AIXEM-REQ-LIBRARY-0001 — Canonical new-artifact path"
         },
         {
           "anchor": "component-provenance-status",
           "level": 2,
-          "line": 59,
+          "line": 67,
           "text": "Component Provenance Status"
         },
         {
           "anchor": "aixem-req-library-0002-source-or-truthful-placeholder-provenance",
           "level": 3,
-          "line": 71,
+          "line": 79,
           "text": "AIXEM-REQ-LIBRARY-0002 — Source or truthful placeholder provenance"
         },
         {
           "anchor": "semantic-component-contract",
           "level": 2,
-          "line": 84,
+          "line": 92,
           "text": "Semantic Component Contract"
         },
         {
           "anchor": "aixem-req-library-0003-semantic-component-identity",
           "level": 3,
-          "line": 88,
+          "line": 96,
           "text": "AIXEM-REQ-LIBRARY-0003 — Semantic component identity"
         },
         {
           "anchor": "review-and-claim-boundaries",
           "level": 2,
-          "line": 111,
+          "line": 119,
           "text": "Review and Claim Boundaries"
         },
         {
           "anchor": "aixem-req-library-0004-separated-validation-claims",
           "level": 3,
-          "line": 115,
+          "line": 123,
           "text": "AIXEM-REQ-LIBRARY-0004 — Separated validation claims"
         },
         {
           "anchor": "aixem-req-library-0005-source-bound-review-evidence",
           "level": 3,
-          "line": 137,
+          "line": 145,
           "text": "AIXEM-REQ-LIBRARY-0005 — Source-bound review evidence"
         },
         {
           "anchor": "authoring-and-validation-procedure",
           "level": 2,
-          "line": 150,
+          "line": 158,
           "text": "Authoring and Validation Procedure"
         },
         {
           "anchor": "compatibility-and-non-goals",
           "level": 2,
-          "line": 162,
+          "line": 172,
           "text": "Compatibility and Non-Goals"
         },
         {
           "anchor": "related-documents",
           "level": 2,
-          "line": 166,
+          "line": 176,
           "text": "Related Documents"
         }
       ],
@@ -15440,35 +15452,35 @@
         {
           "anchor": "AIXEM-REQ-LIBRARY-0001",
           "id": "AIXEM-REQ-LIBRARY-0001",
-          "line": 27,
+          "line": 35,
           "statement": "**MUST.** Newly authored reusable component libraries and symbol assets MUST use a safe project-relative path below `library/electronics` or `library/architecture` with lower-kebab namespace segments and filenames.",
           "title": "Canonical new-artifact path"
         },
         {
           "anchor": "AIXEM-REQ-LIBRARY-0002",
           "id": "AIXEM-REQ-LIBRARY-0002",
-          "line": 69,
+          "line": 77,
           "statement": "**MUST.** A component claiming a concrete real-world part identity MUST provide manufacturer, part number, and source URI or be explicitly declared as a non-semantic-ready placeholder with a reason.",
           "title": "Source or truthful placeholder provenance"
         },
         {
           "anchor": "AIXEM-REQ-LIBRARY-0003",
           "id": "AIXEM-REQ-LIBRARY-0003",
-          "line": 86,
+          "line": 94,
           "statement": "**MUST.** Every component ID MUST own a reviewable identity, port inventory, minimum property contract, provenance status, and presentation binding, and geometry-only ID multiplication MUST be rejected.",
           "title": "Semantic component identity"
         },
         {
           "anchor": "AIXEM-REQ-LIBRARY-0004",
           "id": "AIXEM-REQ-LIBRARY-0004",
-          "line": 113,
+          "line": 121,
           "statement": "**MUST.** Structural render, part semantic review, placeholder status, bounded compatibility, and circuit-intent review results MUST be reported separately and MUST NOT be collapsed into one ambiguous pass claim.",
           "title": "Separated validation claims"
         },
         {
           "anchor": "AIXEM-REQ-LIBRARY-0005",
           "id": "AIXEM-REQ-LIBRARY-0005",
-          "line": 135,
+          "line": 143,
           "statement": "**MUST.** Datasheet-backed semantic-ready status MUST require review evidence bound to the exact component identity, source URI, library digest, and applicable symbol digest set.",
           "title": "Source-bound review evidence"
         }
