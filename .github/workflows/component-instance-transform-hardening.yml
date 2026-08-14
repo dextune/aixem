@@ -12,7 +12,7 @@ jobs:
   apply-and-validate:
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 120
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -24,13 +24,16 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install dependencies
-        run: python -m pip install -r requirements.txt
+      - name: Install release validation dependencies
+        run: |
+          python -m pip install -r requirements-release.txt
+          python -m playwright install --with-deps chromium
 
       - name: Apply scoped implementation and documentation changes
         run: |
           python .github/component-instance-transform-hardening.py
           rm .github/component-instance-transform-hardening.py
+          rm .github/workflows/component-instance-transform-hardening.yml
           python -m compileall -q implementation/schematic tests/docs
 
       - name: Three complete validation passes
@@ -40,12 +43,19 @@ jobs:
           for pass in 1 2 3; do
             echo "========== AIXEM VALIDATION PASS ${pass}/3 =========="
             python tools/docs/build_all.py
-            python tools/docs/audit_repository_docs.py
+            python tools/docs/audit_repository_docs.py --require-redirects
             python tools/docs/validate_docs.py
+            # The release manifest covers canonical/generated files and must be
+            # current before the repository test that verifies exact closure.
+            python tools/docs/build_manifest.py
             python tools/docs/run_tests.py
+            # run_tests.py refreshes validation/test-results.json, so relock the
+            # exact release file set before the release-level verification.
+            python tools/docs/build_manifest.py
+            python tools/docs/check_release.py
           done
 
-      - name: Commit canonical and regenerated outputs
+      - name: Commit validated canonical and regenerated outputs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -53,11 +63,13 @@ jobs:
           git status --short
           git commit -m "Harden schematic component instance scaling"
 
-      - name: Final clean-generation and CI consistency check
+      - name: Final clean-generation and release consistency check
         run: |
           python tools/docs/build_all.py
-          git diff --exit-code
-          python tools/docs/ci_pipeline.py
+          python tools/docs/audit_repository_docs.py --require-redirects
+          python tools/docs/validate_docs.py
+          python tools/docs/build_manifest.py
+          python tools/docs/check_release.py
           git diff --exit-code
 
       - name: Push validated implementation
