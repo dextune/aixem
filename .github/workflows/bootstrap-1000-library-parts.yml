@@ -20,6 +20,17 @@ jobs:
         run: pip install -r requirements-release.txt
       - name: Install Chromium
         run: python -m playwright install --with-deps chromium
+      - name: Disambiguate engineering-unit labels
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          path = Path('tools/bootstrap_1000_library_parts.py')
+          text = path.read_text()
+          old = '(Decimal("1e9"), "G"), (Decimal("1e6"), "M"), (Decimal("1e3"), "k"),\n        (Decimal("1"), ""), (Decimal("1e-3"), "m"), (Decimal("1e-6"), "u"),\n        (Decimal("1e-9"), "n"), (Decimal("1e-12"), "p"),'
+          new = '(Decimal("1e9"), "giga"), (Decimal("1e6"), "mega"), (Decimal("1e3"), "kilo"),\n        (Decimal("1"), ""), (Decimal("1e-3"), "milli"), (Decimal("1e-6"), "micro"),\n        (Decimal("1e-9"), "nano"), (Decimal("1e-12"), "pico"),'
+          assert old in text
+          path.write_text(text.replace(old, new))
+          PY
       - name: Compile bootstrap generator
         run: python -m py_compile tools/bootstrap_1000_library_parts.py
       - name: Stage catalog and production library
