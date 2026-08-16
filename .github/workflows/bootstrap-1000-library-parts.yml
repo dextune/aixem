@@ -20,14 +20,45 @@ jobs:
         run: pip install -r requirements-release.txt
       - name: Install Chromium
         run: python -m playwright install --with-deps chromium
-      - name: Bootstrap catalog and production library
-        run: python tools/bootstrap_1000_library_parts.py
-      - name: Validate backlog
-        run: python tools/library_backlog.py validate
-      - name: Validate exact production count
-        run: python tools/bootstrap_1000_library_parts.py --check
+      - name: Compile bootstrap generator
+        run: python -m py_compile tools/bootstrap_1000_library_parts.py
+      - name: Stage catalog and production library
+        run: python tools/bootstrap_1000_library_parts.py stage
+      - name: Validate staged backlog
+        run: |
+          python tools/library_backlog.py validate
+          python tools/bootstrap_1000_library_parts.py verify --state staged
+      - name: Validate every generated library family
+        run: |
+          set -euo pipefail
+          while IFS= read -r file; do
+            python tools/validate_authoring_integrity.py "$file" --operation added
+          done < <(find library -name '*.aixlib.json' -type f | sort)
+          python -m unittest tests.schematic.test_authoring_integrity tests.docs.test_library_backlog
+      - name: Close 1000 successful backlog items
+        run: |
+          python tools/bootstrap_1000_library_parts.py close
+          python tools/library_backlog.py validate
+          python tools/bootstrap_1000_library_parts.py verify --state closed
+      - name: Remove temporary bootstrap machinery
+        run: rm .github/workflows/bootstrap-1000-library-parts.yml tools/bootstrap_1000_library_parts.py
+      - name: Confirm exact final production count
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root = Path('library')
+          libraries = sorted(root.rglob('*.aixlib.json'))
+          symbols = sorted(root.rglob('*.aixsym.json'))
+          count = sum(len(json.loads(path.read_text())['library']['components']) for path in libraries)
+          assert count == 1000, count
+          assert len(libraries) == 14, len(libraries)
+          assert len(symbols) == 14, len(symbols)
+          print({'components': count, 'libraries': len(libraries), 'symbols': len(symbols)})
+          PY
       - name: Full validation pass 1
         run: |
+          python tools/library_backlog.py validate
           python tools/docs/build_all.py
           python tools/docs/audit_repository_docs.py --require-redirects
           python tools/docs/validate_docs.py
@@ -55,16 +86,20 @@ jobs:
           python tools/docs/run_tests.py
           python tools/docs/build_manifest.py
           python tools/docs/check_release.py
-      - name: Remove temporary bootstrap workflow
-        run: rm .github/workflows/bootstrap-1000-library-parts.yml
-      - name: Final consistency
-        run: |
-          python tools/bootstrap_1000_library_parts.py --check
-          python tools/library_backlog.py validate
       - name: Commit validated output
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add -A
           git commit -m 'Generate and validate 1000 baseline library parts [bootstrap-output]'
-          git push
+      - name: Final deterministic consistency
+        run: |
+          python tools/library_backlog.py validate
+          python tools/docs/build_all.py
+          python tools/docs/audit_repository_docs.py --require-redirects
+          python tools/docs/validate_docs.py
+          python tools/docs/build_manifest.py
+          python tools/docs/check_release.py
+          git diff --exit-code
+      - name: Push validated output
+        run: git push
