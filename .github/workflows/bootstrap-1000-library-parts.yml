@@ -1,0 +1,70 @@
+name: Bootstrap 1000 library parts
+on:
+  push:
+    branches: [feature/bootstrap-1000-library-parts]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  bootstrap:
+    if: "!contains(github.event.head_commit.message, '[bootstrap-output]')"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install release dependencies
+        run: pip install -r requirements-release.txt
+      - name: Install Chromium
+        run: python -m playwright install --with-deps chromium
+      - name: Bootstrap catalog and production library
+        run: python tools/bootstrap_1000_library_parts.py
+      - name: Validate backlog
+        run: python tools/library_backlog.py validate
+      - name: Validate exact production count
+        run: python tools/bootstrap_1000_library_parts.py --check
+      - name: Full validation pass 1
+        run: |
+          python tools/docs/build_all.py
+          python tools/docs/audit_repository_docs.py --require-redirects
+          python tools/docs/validate_docs.py
+          python tools/docs/build_manifest.py
+          python tools/docs/run_tests.py
+          python tools/docs/build_manifest.py
+          python tools/docs/check_release.py
+      - name: Full validation pass 2
+        run: |
+          python tools/library_backlog.py validate
+          python tools/docs/build_all.py
+          python tools/docs/audit_repository_docs.py --require-redirects
+          python tools/docs/validate_docs.py
+          python tools/docs/build_manifest.py
+          python tools/docs/run_tests.py
+          python tools/docs/build_manifest.py
+          python tools/docs/check_release.py
+      - name: Full validation pass 3
+        run: |
+          python tools/library_backlog.py validate
+          python tools/docs/build_all.py
+          python tools/docs/audit_repository_docs.py --require-redirects
+          python tools/docs/validate_docs.py
+          python tools/docs/build_manifest.py
+          python tools/docs/run_tests.py
+          python tools/docs/build_manifest.py
+          python tools/docs/check_release.py
+      - name: Remove temporary bootstrap workflow
+        run: rm .github/workflows/bootstrap-1000-library-parts.yml
+      - name: Final consistency
+        run: |
+          python tools/bootstrap_1000_library_parts.py --check
+          python tools/library_backlog.py validate
+      - name: Commit validated output
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add -A
+          git commit -m 'Generate and validate 1000 baseline library parts [bootstrap-output]'
+          git push
